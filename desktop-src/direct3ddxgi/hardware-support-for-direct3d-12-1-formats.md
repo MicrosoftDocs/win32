@@ -170,8 +170,8 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | UAV Atomic Unsigned Min/Max | ❌ Disallowed or not available. |
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
-| 8x Multisample RenderTarget | ❓ Hardware support optional; format might be hardware accelerated. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| 8x Multisample RenderTarget | ❔ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -221,8 +221,8 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | UAV Atomic Unsigned Min/Max | ❌ Disallowed or not available. |
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
-| 8x Multisample RenderTarget | ❓ Hardware support optional; format might be hardware accelerated. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| 8x Multisample RenderTarget | ❔ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -272,8 +272,8 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | UAV Atomic Unsigned Min/Max | ❌ Disallowed or not available. |
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
-| 8x Multisample RenderTarget | ❓ Hardware support optional; format might be hardware accelerated. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| 8x Multisample RenderTarget | ❔ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -350,14 +350,14 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Texture3D | ✔️ Hardware support required. |
 | TextureCube | ✔️ Hardware support required. |
 | Shader ld | ✔️ Hardware support required. |
-| Shader sample (any filter) | ❓ Hardware support optional; format might be hardware accelerated. |
+| Shader sample (any filter) | ❔ Hardware support optional; format might be hardware accelerated. |
 | Shader sample_c (comparison filter) | ❌ Disallowed or not available. |
 | Shader sample (mono 1_bit_filter) | ❌ Disallowed or not available. |
-| Shader gather4 | ❓ Hardware support optional; format might be hardware accelerated. |
+| Shader gather4 | ❔ Hardware support optional; format might be hardware accelerated. |
 | Shader gather4_c | ❌ Disallowed or not available. |
 | Mipmap | ✔️ Hardware support required. |
-| Mipmap Auto- Generation | ❓ Hardware support optional; format might be hardware accelerated. |
-| RenderTarget | ❓ Hardware support optional; format might be hardware accelerated. |
+| Mipmap Auto- Generation | ❔ Hardware support optional; format might be hardware accelerated. |
+| RenderTarget | ❔ Hardware support optional; format might be hardware accelerated. |
 | Blendable RenderTarget | 〰️ Required if a related optional feature is supported. |
 | Output Merger Logic Op | ❌ Disallowed or not available. |
 | Depth/Stencil Target | ❌ Disallowed or not available. |
@@ -375,7 +375,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | 〰️ Required if a related optional feature is supported. |
 | 8x Multisample RenderTarget | 〰️ Required if a related optional feature is supported. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -408,7 +408,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Shader gather4_c | ❌ Disallowed or not available. |
 | Mipmap | ✔️ Hardware support required. |
 | Mipmap Auto- Generation | ❌ Disallowed or not available. |
-| RenderTarget | ❓ Hardware support optional; format might be hardware accelerated. |
+| RenderTarget | ❔ Hardware support optional; format might be hardware accelerated. |
 | Blendable RenderTarget | ❌ Disallowed or not available. |
 | Output Merger Logic Op | ✔️ Hardware support required. |
 | Depth/Stencil Target | ❌ Disallowed or not available. |
@@ -426,7 +426,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | 〰️ Required if a related optional feature is supported. |
 | 8x Multisample RenderTarget | 〰️ Required if a related optional feature is supported. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -459,7 +459,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Shader gather4_c | ❌ Disallowed or not available. |
 | Mipmap | ✔️ Hardware support required. |
 | Mipmap Auto- Generation | ❌ Disallowed or not available. |
-| RenderTarget | ❓ Hardware support optional; format might be hardware accelerated. |
+| RenderTarget | ❔ Hardware support optional; format might be hardware accelerated. |
 | Blendable RenderTarget | ❌ Disallowed or not available. |
 | Output Merger Logic Op | ❌ Disallowed or not available. |
 | Depth/Stencil Target | ❌ Disallowed or not available. |
@@ -477,7 +477,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | 〰️ Required if a related optional feature is supported. |
 | 8x Multisample RenderTarget | 〰️ Required if a related optional feature is supported. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -579,13 +579,13 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ✔️ Hardware support required. |
 | Cast Within Bit Layout | ✔️ Hardware support required. |
 | Video Decoder Support | ❌ Disallowed or not available. |
-| Video Processor Input | ❓ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Input | ❔ Hardware support optional; format might be hardware accelerated. |
 | Video Processor Output | ✔️ Hardware support required. |
 | Shared Resource | ✔️ Hardware support required. |
 | BackBuffer Castable Even Fully Typed | ❌ Disallowed or not available. |
@@ -620,7 +620,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | ❌ Disallowed or not available. |
 | Typed UAV | ✔️ Hardware support required. |
 | UAV Typed Store | ✔️ Hardware support required. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -630,7 +630,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -681,7 +681,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -722,7 +722,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | ❌ Disallowed or not available. |
 | Typed UAV | ✔️ Hardware support required. |
 | UAV Typed Store | ✔️ Hardware support required. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -732,7 +732,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -783,7 +783,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -875,7 +875,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | ❌ Disallowed or not available. |
 | Typed UAV | ✔️ Hardware support required. |
 | UAV Typed Store | ✔️ Hardware support required. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -885,7 +885,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -926,7 +926,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | ❌ Disallowed or not available. |
 | Typed UAV | ✔️ Hardware support required. |
 | UAV Typed Store | ✔️ Hardware support required. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -936,7 +936,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -977,7 +977,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | ❌ Disallowed or not available. |
 | Typed UAV | ✔️ Hardware support required. |
 | UAV Typed Store | ✔️ Hardware support required. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -987,7 +987,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -1089,7 +1089,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ❌ Disallowed or not available. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -1283,7 +1283,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | ❌ Disallowed or not available. |
 | Typed UAV | ✔️ Hardware support required. |
 | UAV Typed Store | ✔️ Hardware support required. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -1293,13 +1293,13 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ✔️ Hardware support required. |
 | Cast Within Bit Layout | ✔️ Hardware support required. |
 | Video Decoder Support | ❌ Disallowed or not available. |
-| Video Processor Input | ❓ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Input | ❔ Hardware support optional; format might be hardware accelerated. |
 | Video Processor Output | ✔️ Hardware support required. |
 | Shared Resource | ✔️ Hardware support required. |
 | BackBuffer Castable Even Fully Typed | ✔️ Hardware support required. |
@@ -1334,7 +1334,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | ❌ Disallowed or not available. |
 | Typed UAV | ✔️ Hardware support required. |
 | UAV Typed Store | ✔️ Hardware support required. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -1344,7 +1344,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -1401,7 +1401,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Display Scan-Out | ✔️ Hardware support required. |
 | Cast Within Bit Layout | ✔️ Hardware support required. |
 | Video Decoder Support | ❌ Disallowed or not available. |
-| Video Processor Input | ❓ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Input | ❔ Hardware support optional; format might be hardware accelerated. |
 | Video Processor Output | ✔️ Hardware support required. |
 | Shared Resource | ✔️ Hardware support required. |
 | BackBuffer Castable Even Fully Typed | ✔️ Hardware support required. |
@@ -1436,7 +1436,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | ❌ Disallowed or not available. |
 | Typed UAV | ✔️ Hardware support required. |
 | UAV Typed Store | ✔️ Hardware support required. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -1446,7 +1446,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -1548,13 +1548,13 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ✔️ Hardware support required. |
 | Cast Within Bit Layout | ✔️ Hardware support required. |
 | Video Decoder Support | ❌ Disallowed or not available. |
-| Video Processor Input | ❓ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Input | ❔ Hardware support optional; format might be hardware accelerated. |
 | Video Processor Output | ✔️ Hardware support required. |
 | Shared Resource | ✔️ Hardware support required. |
 | BackBuffer Castable Even Fully Typed | ✔️ Hardware support required. |
@@ -1599,13 +1599,13 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ✔️ Hardware support required. |
 | Cast Within Bit Layout | ✔️ Hardware support required. |
 | Video Decoder Support | ❌ Disallowed or not available. |
-| Video Processor Input | ❓ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Input | ❔ Hardware support optional; format might be hardware accelerated. |
 | Video Processor Output | ✔️ Hardware support required. |
 | Shared Resource | ✔️ Hardware support required. |
 | BackBuffer Castable Even Fully Typed | ✔️ Hardware support required. |
@@ -1650,7 +1650,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -1691,7 +1691,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | ❌ Disallowed or not available. |
 | Typed UAV | ✔️ Hardware support required. |
 | UAV Typed Store | ✔️ Hardware support required. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -1701,7 +1701,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -1752,7 +1752,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -1844,7 +1844,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | ❌ Disallowed or not available. |
 | Typed UAV | ✔️ Hardware support required. |
 | UAV Typed Store | ✔️ Hardware support required. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -1854,7 +1854,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -1895,7 +1895,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | ❌ Disallowed or not available. |
 | Typed UAV | ✔️ Hardware support required. |
 | UAV Typed Store | ✔️ Hardware support required. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -1905,7 +1905,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -1946,7 +1946,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | ❌ Disallowed or not available. |
 | Typed UAV | ✔️ Hardware support required. |
 | UAV Typed Store | ✔️ Hardware support required. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -1956,7 +1956,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -1997,7 +1997,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | ❌ Disallowed or not available. |
 | Typed UAV | ✔️ Hardware support required. |
 | UAV Typed Store | ✔️ Hardware support required. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -2007,7 +2007,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -2048,7 +2048,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | ❌ Disallowed or not available. |
 | Typed UAV | ✔️ Hardware support required. |
 | UAV Typed Store | ✔️ Hardware support required. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -2058,7 +2058,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -2160,7 +2160,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ❌ Disallowed or not available. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -2211,7 +2211,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -2262,7 +2262,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -2313,7 +2313,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -2415,7 +2415,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ❌ Disallowed or not available. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -2609,7 +2609,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | ❌ Disallowed or not available. |
 | Typed UAV | ✔️ Hardware support required. |
 | UAV Typed Store | ✔️ Hardware support required. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -2619,7 +2619,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -2660,7 +2660,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | ❌ Disallowed or not available. |
 | Typed UAV | ✔️ Hardware support required. |
 | UAV Typed Store | ✔️ Hardware support required. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -2670,7 +2670,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -2711,7 +2711,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | ❌ Disallowed or not available. |
 | Typed UAV | ✔️ Hardware support required. |
 | UAV Typed Store | ✔️ Hardware support required. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -2721,7 +2721,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -2762,7 +2762,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | ❌ Disallowed or not available. |
 | Typed UAV | ✔️ Hardware support required. |
 | UAV Typed Store | ✔️ Hardware support required. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -2772,7 +2772,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -2874,7 +2874,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -2925,7 +2925,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ❌ Disallowed or not available. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -2966,7 +2966,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | ❌ Disallowed or not available. |
 | Typed UAV | ✔️ Hardware support required. |
 | UAV Typed Store | ✔️ Hardware support required. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -2976,7 +2976,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -3027,7 +3027,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -3068,7 +3068,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | ❌ Disallowed or not available. |
 | Typed UAV | ✔️ Hardware support required. |
 | UAV Typed Store | ✔️ Hardware support required. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -3078,7 +3078,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -3129,7 +3129,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -3231,7 +3231,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -3282,7 +3282,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -3323,7 +3323,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | ❌ Disallowed or not available. |
 | Typed UAV | ✔️ Hardware support required. |
 | UAV Typed Store | ✔️ Hardware support required. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -3333,7 +3333,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -3384,7 +3384,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ❌ Disallowed or not available. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -3425,7 +3425,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Structured UAV and SRV | ❌ Disallowed or not available. |
 | Typed UAV | ✔️ Hardware support required. |
 | UAV Typed Store | ✔️ Hardware support required. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -3435,7 +3435,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -4370,8 +4370,8 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | - | - |
 | Bits Per Element (BPE) | 16 |
 | Format Support | ✔️ Hardware support required. |
-| Buffer | ❓ Hardware support optional; format might be hardware accelerated. |
-| Input Assembler Vertex Buffer | ❓ Hardware support optional; format might be hardware accelerated. |
+| Buffer | ❔ Hardware support optional; format might be hardware accelerated. |
+| Input Assembler Vertex Buffer | ❔ Hardware support optional; format might be hardware accelerated. |
 | Input Assembler Index Buffer | ❌ Disallowed or not available. |
 | Stream Output Buffer | ❌ Disallowed or not available. |
 | Texture1D | ✔️ Hardware support required. |
@@ -4392,9 +4392,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Depth/Stencil Target | ❌ Disallowed or not available. |
 | Raw UAV and SRV | ❌ Disallowed or not available. |
 | Structured UAV and SRV | ❌ Disallowed or not available. |
-| Typed UAV | ❓ Hardware support optional; format might be hardware accelerated. |
-| UAV Typed Store | ❓ Hardware support optional; format might be hardware accelerated. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| Typed UAV | ❔ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Store | ❔ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -4421,8 +4421,8 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | - | - |
 | Bits Per Element (BPE) | 16 |
 | Format Support | ✔️ Hardware support required. |
-| Buffer | ❓ Hardware support optional; format might be hardware accelerated. |
-| Input Assembler Vertex Buffer | ❓ Hardware support optional; format might be hardware accelerated. |
+| Buffer | ❔ Hardware support optional; format might be hardware accelerated. |
+| Input Assembler Vertex Buffer | ❔ Hardware support optional; format might be hardware accelerated. |
 | Input Assembler Index Buffer | ❌ Disallowed or not available. |
 | Stream Output Buffer | ❌ Disallowed or not available. |
 | Texture1D | ✔️ Hardware support required. |
@@ -4436,16 +4436,16 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Shader gather4 | ✔️ Hardware support required. |
 | Shader gather4_c | ❌ Disallowed or not available. |
 | Mipmap | ✔️ Hardware support required. |
-| Mipmap Auto- Generation | ❓ Hardware support optional; format might be hardware accelerated. |
-| RenderTarget | ❓ Hardware support optional; format might be hardware accelerated. |
-| Blendable RenderTarget | ❓ Hardware support optional; format might be hardware accelerated. |
+| Mipmap Auto- Generation | ❔ Hardware support optional; format might be hardware accelerated. |
+| RenderTarget | ❔ Hardware support optional; format might be hardware accelerated. |
+| Blendable RenderTarget | ❔ Hardware support optional; format might be hardware accelerated. |
 | Output Merger Logic Op | ❌ Disallowed or not available. |
 | Depth/Stencil Target | ❌ Disallowed or not available. |
 | Raw UAV and SRV | ❌ Disallowed or not available. |
 | Structured UAV and SRV | ❌ Disallowed or not available. |
-| Typed UAV | ❓ Hardware support optional; format might be hardware accelerated. |
-| UAV Typed Store | ❓ Hardware support optional; format might be hardware accelerated. |
-| UAV Typed Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| Typed UAV | ❔ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Store | ❔ Hardware support optional; format might be hardware accelerated. |
+| UAV Typed Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -4453,11 +4453,11 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | UAV Atomic Signed Min/Max | ❌ Disallowed or not available. |
 | UAV Atomic Unsigned Min/Max | ❌ Disallowed or not available. |
 | CPU Lockable | ✔️ Hardware support required. |
-| 4x Multisample RenderTarget | ❓ Hardware support optional; format might be hardware accelerated. |
-| 8x Multisample RenderTarget | ❓ Hardware support optional; format might be hardware accelerated. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| 4x Multisample RenderTarget | ❔ Hardware support optional; format might be hardware accelerated. |
+| 8x Multisample RenderTarget | ❔ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
-| Multisample Load | ❓ Hardware support optional; format might be hardware accelerated. |
+| Multisample Load | ❔ Hardware support optional; format might be hardware accelerated. |
 | Display Scan-Out | ❌ Disallowed or not available. |
 | Cast Within Bit Layout | ❌ Disallowed or not available. |
 | Video Decoder Support | ❌ Disallowed or not available. |
@@ -4545,9 +4545,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Depth/Stencil Target | ❌ Disallowed or not available. |
 | Raw UAV and SRV | ❌ Disallowed or not available. |
 | Structured UAV and SRV | ❌ Disallowed or not available. |
-| Typed UAV | ❓[**12**] Hardware support optional for Direct3D 12; format might be hardware accelerated. |
-| UAV Typed Store | ❓[**12**] Hardware support optional for Direct3D 12; format might be hardware accelerated. |
-| UAV Typed Load | ❓[**12**] Hardware support optional for Direct3D 12; format might be hardware accelerated. |
+| Typed UAV | ❔[**12**] Hardware support optional for Direct3D 12; format might be hardware accelerated. |
+| UAV Typed Store | ❔[**12**] Hardware support optional for Direct3D 12; format might be hardware accelerated. |
+| UAV Typed Load | ❔[**12**] Hardware support optional for Direct3D 12; format might be hardware accelerated. |
 | UAV Atomic Add | ❌ Disallowed or not available. |
 | UAV Atomic Bitwise Ops | ❌ Disallowed or not available. |
 | UAV Atomic Cmp&Store/ Cmp&Exch | ❌ Disallowed or not available. |
@@ -4557,13 +4557,13 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ✔️ Hardware support required. |
 | Cast Within Bit Layout | ✔️ Hardware support required. |
 | Video Decoder Support | ❌ Disallowed or not available. |
-| Video Processor Input | ❓ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Input | ❔ Hardware support optional; format might be hardware accelerated. |
 | Video Processor Output | ✔️ Hardware support required. |
 | Shared Resource | ✔️ Hardware support required. |
 | BackBuffer Castable Even Fully Typed | ✔️ Hardware support required. |
@@ -4608,13 +4608,13 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ✔️ Hardware support required. |
 | Cast Within Bit Layout | ✔️ Hardware support required. |
 | Video Decoder Support | ❌ Disallowed or not available. |
-| Video Processor Input | ❓ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Input | ❔ Hardware support optional; format might be hardware accelerated. |
 | Video Processor Output | ✔️ Hardware support required. |
 | Shared Resource | ✔️ Hardware support required. |
 | BackBuffer Castable Even Fully Typed | ✔️ Hardware support required. |
@@ -4710,14 +4710,14 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
 | Cast Within Bit Layout | ✔️ Hardware support required. |
 | Video Decoder Support | ❌ Disallowed or not available. |
-| Video Processor Input | ❓ Hardware support optional; format might be hardware accelerated. |
-| Video Processor Output | ❓ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Input | ❔ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Output | ❔ Hardware support optional; format might be hardware accelerated. |
 | Shared Resource | ✔️ Hardware support required. |
 | BackBuffer Castable Even Fully Typed | ❌ Disallowed or not available. |
 | Tiled Resource | ✔️ Hardware support required. |
@@ -4761,7 +4761,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | CPU Lockable | ✔️ Hardware support required. |
 | 4x Multisample RenderTarget | ✔️ Hardware support required. |
 | 8x Multisample RenderTarget | ✔️ Hardware support required. |
-| Other Multisample Count RT | ❓ Hardware support optional; format might be hardware accelerated. |
+| Other Multisample Count RT | ❔ Hardware support optional; format might be hardware accelerated. |
 | Multisample Resolve | ✔️ Hardware support required. |
 | Multisample Load | ✔️ Hardware support required. |
 | Display Scan-Out | ❌ Disallowed or not available. |
@@ -5083,7 +5083,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 32 |
-| Format Support | ❓ Hardware support optional; format might be hardware accelerated. |
+| Format Support | ❔ Hardware support optional; format might be hardware accelerated. |
 | Buffer | ❌ Disallowed or not available. |
 | Input Assembler Vertex Buffer | ❌ Disallowed or not available. |
 | Input Assembler Index Buffer | ❌ Disallowed or not available. |
@@ -5123,9 +5123,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Multisample Load | ❌ Disallowed or not available. |
 | Display Scan-Out | ❌ Disallowed or not available. |
 | Cast Within Bit Layout | ❌ Disallowed or not available. |
-| Video Decoder Support | ❓ Hardware support optional; format might be hardware accelerated. |
+| Video Decoder Support | ❔ Hardware support optional; format might be hardware accelerated. |
 | Video Processor Input | ✔️ Hardware support required. |
-| Video Processor Output | ❓ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Output | ❔ Hardware support optional; format might be hardware accelerated. |
 | Shared Resource | ✔️ Hardware support required. |
 | BackBuffer Castable Even Fully Typed | ❌ Disallowed or not available. |
 | Tiled Resource | ❌ Disallowed or not available. |
@@ -5134,7 +5134,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 32 |
-| Format Support | ❓ Hardware support optional; format might be hardware accelerated. |
+| Format Support | ❔ Hardware support optional; format might be hardware accelerated. |
 | Buffer | ❌ Disallowed or not available. |
 | Input Assembler Vertex Buffer | ❌ Disallowed or not available. |
 | Input Assembler Index Buffer | ❌ Disallowed or not available. |
@@ -5174,9 +5174,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Multisample Load | ❌ Disallowed or not available. |
 | Display Scan-Out | ❌ Disallowed or not available. |
 | Cast Within Bit Layout | ❌ Disallowed or not available. |
-| Video Decoder Support | ❓ Hardware support optional; format might be hardware accelerated. |
-| Video Processor Input | ❓ Hardware support optional; format might be hardware accelerated. |
-| Video Processor Output | ❓ Hardware support optional; format might be hardware accelerated. |
+| Video Decoder Support | ❔ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Input | ❔ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Output | ❔ Hardware support optional; format might be hardware accelerated. |
 | Shared Resource | ✔️ Hardware support required. |
 | BackBuffer Castable Even Fully Typed | ❌ Disallowed or not available. |
 | Tiled Resource | ❌ Disallowed or not available. |
@@ -5185,7 +5185,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 64 |
-| Format Support | ❓ Hardware support optional; format might be hardware accelerated. |
+| Format Support | ❔ Hardware support optional; format might be hardware accelerated. |
 | Buffer | ❌ Disallowed or not available. |
 | Input Assembler Vertex Buffer | ❌ Disallowed or not available. |
 | Input Assembler Index Buffer | ❌ Disallowed or not available. |
@@ -5225,9 +5225,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Multisample Load | ❌ Disallowed or not available. |
 | Display Scan-Out | ❌ Disallowed or not available. |
 | Cast Within Bit Layout | ❌ Disallowed or not available. |
-| Video Decoder Support | ❓ Hardware support optional; format might be hardware accelerated. |
-| Video Processor Input | ❓ Hardware support optional; format might be hardware accelerated. |
-| Video Processor Output | ❓ Hardware support optional; format might be hardware accelerated. |
+| Video Decoder Support | ❔ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Input | ❔ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Output | ❔ Hardware support optional; format might be hardware accelerated. |
 | Shared Resource | ✔️ Hardware support required. |
 | BackBuffer Castable Even Fully Typed | ❌ Disallowed or not available. |
 | Tiled Resource | ❌ Disallowed or not available. |
@@ -5287,7 +5287,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 16 |
-| Format Support | ❓ Hardware support optional; format might be hardware accelerated. |
+| Format Support | ❔ Hardware support optional; format might be hardware accelerated. |
 | Buffer | ❌ Disallowed or not available. |
 | Input Assembler Vertex Buffer | ❌ Disallowed or not available. |
 | Input Assembler Index Buffer | ❌ Disallowed or not available. |
@@ -5327,9 +5327,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Multisample Load | ❌ Disallowed or not available. |
 | Display Scan-Out | ❌ Disallowed or not available. |
 | Cast Within Bit Layout | ❌ Disallowed or not available. |
-| Video Decoder Support | ❓ Hardware support optional; format might be hardware accelerated. |
-| Video Processor Input | ❓ Hardware support optional; format might be hardware accelerated. |
-| Video Processor Output | ❓ Hardware support optional; format might be hardware accelerated. |
+| Video Decoder Support | ❔ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Input | ❔ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Output | ❔ Hardware support optional; format might be hardware accelerated. |
 | Shared Resource | ✔️ Hardware support required. |
 | BackBuffer Castable Even Fully Typed | ❌ Disallowed or not available. |
 | Tiled Resource | ❌ Disallowed or not available. |
@@ -5338,7 +5338,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 16 |
-| Format Support | ❓ Hardware support optional; format might be hardware accelerated. |
+| Format Support | ❔ Hardware support optional; format might be hardware accelerated. |
 | Buffer | ❌ Disallowed or not available. |
 | Input Assembler Vertex Buffer | ❌ Disallowed or not available. |
 | Input Assembler Index Buffer | ❌ Disallowed or not available. |
@@ -5378,9 +5378,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Multisample Load | ❌ Disallowed or not available. |
 | Display Scan-Out | ❌ Disallowed or not available. |
 | Cast Within Bit Layout | ❌ Disallowed or not available. |
-| Video Decoder Support | ❓ Hardware support optional; format might be hardware accelerated. |
-| Video Processor Input | ❓ Hardware support optional; format might be hardware accelerated. |
-| Video Processor Output | ❓ Hardware support optional; format might be hardware accelerated. |
+| Video Decoder Support | ❔ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Input | ❔ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Output | ❔ Hardware support optional; format might be hardware accelerated. |
 | Shared Resource | ✔️ Hardware support required. |
 | BackBuffer Castable Even Fully Typed | ❌ Disallowed or not available. |
 | Tiled Resource | ❌ Disallowed or not available. |
@@ -5480,9 +5480,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Multisample Load | ❌ Disallowed or not available. |
 | Display Scan-Out | ❌ Disallowed or not available. |
 | Cast Within Bit Layout | ❌ Disallowed or not available. |
-| Video Decoder Support | ❓ Hardware support optional; format might be hardware accelerated. |
+| Video Decoder Support | ❔ Hardware support optional; format might be hardware accelerated. |
 | Video Processor Input | ✔️ Hardware support required. |
-| Video Processor Output | ❓ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Output | ❔ Hardware support optional; format might be hardware accelerated. |
 | Shared Resource | ✔️ Hardware support required. |
 | BackBuffer Castable Even Fully Typed | ❌ Disallowed or not available. |
 | Tiled Resource | ❌ Disallowed or not available. |
@@ -5491,7 +5491,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 32 |
-| Format Support | ❓ Hardware support optional; format might be hardware accelerated. |
+| Format Support | ❔ Hardware support optional; format might be hardware accelerated. |
 | Buffer | ❌ Disallowed or not available. |
 | Input Assembler Vertex Buffer | ❌ Disallowed or not available. |
 | Input Assembler Index Buffer | ❌ Disallowed or not available. |
@@ -5531,9 +5531,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Multisample Load | ❌ Disallowed or not available. |
 | Display Scan-Out | ❌ Disallowed or not available. |
 | Cast Within Bit Layout | ❌ Disallowed or not available. |
-| Video Decoder Support | ❓ Hardware support optional; format might be hardware accelerated. |
-| Video Processor Input | ❓ Hardware support optional; format might be hardware accelerated. |
-| Video Processor Output | ❓ Hardware support optional; format might be hardware accelerated. |
+| Video Decoder Support | ❔ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Input | ❔ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Output | ❔ Hardware support optional; format might be hardware accelerated. |
 | Shared Resource | ✔️ Hardware support required. |
 | BackBuffer Castable Even Fully Typed | ❌ Disallowed or not available. |
 | Tiled Resource | ❌ Disallowed or not available. |
@@ -5542,7 +5542,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 32 |
-| Format Support | ❓ Hardware support optional; format might be hardware accelerated. |
+| Format Support | ❔ Hardware support optional; format might be hardware accelerated. |
 | Buffer | ❌ Disallowed or not available. |
 | Input Assembler Vertex Buffer | ❌ Disallowed or not available. |
 | Input Assembler Index Buffer | ❌ Disallowed or not available. |
@@ -5582,9 +5582,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Multisample Load | ❌ Disallowed or not available. |
 | Display Scan-Out | ❌ Disallowed or not available. |
 | Cast Within Bit Layout | ❌ Disallowed or not available. |
-| Video Decoder Support | ❓ Hardware support optional; format might be hardware accelerated. |
-| Video Processor Input | ❓ Hardware support optional; format might be hardware accelerated. |
-| Video Processor Output | ❓ Hardware support optional; format might be hardware accelerated. |
+| Video Decoder Support | ❔ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Input | ❔ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Output | ❔ Hardware support optional; format might be hardware accelerated. |
 | Shared Resource | ✔️ Hardware support required. |
 | BackBuffer Castable Even Fully Typed | ❌ Disallowed or not available. |
 | Tiled Resource | ❌ Disallowed or not available. |
@@ -5593,7 +5593,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 8 |
-| Format Support | ❓ Hardware support optional; format might be hardware accelerated. |
+| Format Support | ❔ Hardware support optional; format might be hardware accelerated. |
 | Buffer | ❌ Disallowed or not available. |
 | Input Assembler Vertex Buffer | ❌ Disallowed or not available. |
 | Input Assembler Index Buffer | ❌ Disallowed or not available. |
@@ -5633,9 +5633,9 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Multisample Load | ❌ Disallowed or not available. |
 | Display Scan-Out | ❌ Disallowed or not available. |
 | Cast Within Bit Layout | ❌ Disallowed or not available. |
-| Video Decoder Support | ❓ Hardware support optional; format might be hardware accelerated. |
-| Video Processor Input | ❓ Hardware support optional; format might be hardware accelerated. |
-| Video Processor Output | ❓ Hardware support optional; format might be hardware accelerated. |
+| Video Decoder Support | ❔ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Input | ❔ Hardware support optional; format might be hardware accelerated. |
+| Video Processor Output | ❔ Hardware support optional; format might be hardware accelerated. |
 | Shared Resource | ✔️ Hardware support required. |
 | BackBuffer Castable Even Fully Typed | ❌ Disallowed or not available. |
 | Tiled Resource | ❌ Disallowed or not available. |
@@ -5644,7 +5644,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 8 |
-| Format Support | ❓ Hardware support optional; format might be hardware accelerated. |
+| Format Support | ❔ Hardware support optional; format might be hardware accelerated. |
 | Buffer | ❌ Disallowed or not available. |
 | Input Assembler Vertex Buffer | ❌ Disallowed or not available. |
 | Input Assembler Index Buffer | ❌ Disallowed or not available. |
@@ -5695,7 +5695,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 8 |
-| Format Support | ❓ Hardware support optional; format might be hardware accelerated. |
+| Format Support | ❔ Hardware support optional; format might be hardware accelerated. |
 | Buffer | ❌ Disallowed or not available. |
 | Input Assembler Vertex Buffer | ❌ Disallowed or not available. |
 | Input Assembler Index Buffer | ❌ Disallowed or not available. |
@@ -5746,7 +5746,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 8 |
-| Format Support | ❓ Hardware support optional; format might be hardware accelerated. |
+| Format Support | ❔ Hardware support optional; format might be hardware accelerated. |
 | Buffer | ❌ Disallowed or not available. |
 | Input Assembler Vertex Buffer | ❌ Disallowed or not available. |
 | Input Assembler Index Buffer | ❌ Disallowed or not available. |
@@ -5797,7 +5797,7 @@ To programmatically verify format support in D3D11 and D3D12, refer to [Checking
 | Target | Support |
 | - | - |
 | Bits Per Element (BPE) | 16 |
-| Format Support | ❓ Hardware support optional; format might be hardware accelerated. |
+| Format Support | ❔ Hardware support optional; format might be hardware accelerated. |
 | Buffer | ❌ Disallowed or not available. |
 | Input Assembler Vertex Buffer | ❌ Disallowed or not available. |
 | Input Assembler Index Buffer | ❌ Disallowed or not available. |
