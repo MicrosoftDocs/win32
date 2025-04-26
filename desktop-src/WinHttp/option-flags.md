@@ -240,9 +240,10 @@ Gets a DWORD indicating which advanced HTTP version was used on a given request.
 
 ## WINHTTP_OPTION_HTTP_VERSION
 
-Sets or retrieves an [**HTTP\_VERSION\_INFO**](/windows/win32/api/winhttp/ns-winhttp-http_version_info) structure that contains the legacy HTTP version being supported. This structure is valid for HTTP/1.0 and HTTP/1.1, to configure and observe modern HTTP versions, see **WINHTTP\_OPTION\_ENABLE\_HTTP\_PROTOCOL** and **WINHTTP\_OPTION\_HTTP\_PROTOCOL\_USED**.
+Sets or retrieves an [**HTTP\_VERSION\_INFO**](/windows/win32/api/winhttp/ns-winhttp-http_version_info) structure declaring the supported legacy HTTP version. This is a process-wide option; use **NULL** for the handle.
 
-This is a process-wide option; use **NULL** for the handle.
+> [!NOTE]
+> This structure is valid for HTTP/1.0 and HTTP/1.1. For modern HTTP versions, see **WINHTTP\_OPTION\_ENABLE\_HTTP\_PROTOCOL** and **WINHTTP\_OPTION\_HTTP\_PROTOCOL\_USED**.
 
 ## WINHTTP_OPTION_HTTP2_KEEPALIVE
 
