@@ -4256,7 +4256,7 @@ defines the contents of the CustomDefined field to be reserved.
 The AllocationPossible field shall conform to the definition provided in
 the Generic Secondary DirectoryEntry template (see [Section 6.4.2.1](#6421-allocationpossible-field)).
 
-For the Stream Extension directory entry, the valid value for this field
+For the File Name directory entry, the valid value for this field
 is 0.
 
 ##### 7.7.2.2 NoFatChain Field
