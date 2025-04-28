@@ -140,7 +140,10 @@ The Machine field has one of the following values, which specify the CPU type. A
 | IMAGE\_FILE\_MACHINE\_MIPSFPU16 <br/> | 0x466 <br/>  | MIPS16 with FPU <br/>                                                             |
 | IMAGE\_FILE\_MACHINE\_POWERPC <br/>   | 0x1f0 <br/>  | Power PC little endian <br/>                                                      |
 | IMAGE\_FILE\_MACHINE\_POWERPCFP <br/> | 0x1f1 <br/>  | Power PC with floating point support <br/>                                        |
-| IMAGE\_FILE\_MACHINE\_R4000 <br/>     | 0x166 <br/>  | MIPS little endian <br/>                                                          |
+| IMAGE\_FILE\_MACHINE\_R3000BE <br/>   | 0x160 <br/>  | MIPS I compatible 32-bit big endian <br/>                                         |
+| IMAGE\_FILE\_MACHINE\_R3000 <br/>     | 0x162 <br/>  | MIPS I compatible 32-bit little endian <br/>                                      |
+| IMAGE\_FILE\_MACHINE\_R4000 <br/>     | 0x166 <br/>  | MIPS III compatible 64-bit little endian <br/>                                    |
+| IMAGE\_FILE\_MACHINE\_R10000 <br/>    | 0x168 <br/>  | MIPS IV compatible 64-bit little endian <br/>                                     |
 | IMAGE\_FILE\_MACHINE\_RISCV32 <br/>   | 0x5032 <br/> | RISC-V 32-bit address space <br/>                                                 |
 | IMAGE\_FILE\_MACHINE\_RISCV64 <br/>   | 0x5064 <br/> | RISC-V 64-bit address space <br/>                                                 |
 | IMAGE\_FILE\_MACHINE\_RISCV128 <br/>  | 0x5128 <br/> | RISC-V 128-bit address space <br/>                                                |
