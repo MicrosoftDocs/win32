@@ -8,9 +8,6 @@ ms.date: 01/29/2024
 
 # Encoding overview
 
-> [!IMPORTANT]
-> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-
 An encoder writes image data to a stream. Encoders can compress, encrypt, and alter the image pixels in a number of ways prior to writing them to the stream. Using some encoders results in tradeoffs—for example, JPEG, which trades off color information for better compression. Other encoders do not result in such losses—for example, bitmap (BMP). Because many codecs use proprietary technology to achieve better compression and image fidelity, the details on how an image gets encoded are up to the codec developer.
 
 ## IWICBitmapEncoder
