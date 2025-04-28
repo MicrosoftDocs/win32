@@ -10,6 +10,10 @@ ms.date: 05/31/2018
 
 The following examples demonstrate the use of an exception handler.
 
+Some of the examples use the [**GetExceptionCode**](getexceptioncode.md) function within the **\_\_except** filter expression to check the exception type before executing the handler. This enables the system to continue its search for an appropriate handler if some other type of exception occurs.
+
+In general, only return EXCEPTION\_EXECUTE\_HANDLER from an exception filter when the exception type is expected and the faulting address is known. You should allow the default exception handler to process unexpected exception types and faulting addresses.
+
 ## Example 1
 
 The following code fragment uses structured exception handling to check whether a division operation on two 32-bit integers will result in an division-by-zero error. If this occurs, the function returns **FALSE**— otherwise it returns **TRUE**.
@@ -35,11 +39,7 @@ BOOL SafeDiv(INT32 dividend, INT32 divisor, INT32 *pResult)
 
 ## Example 2
 
-The following example function calls the [**DebugBreak**](/windows/win32/api/debugapi/nf-debugapi-debugbreak) function and uses structured exception handling to check for a breakpoint exception. If one occurs, the function returns **FALSE**— otherwise it returns **TRUE**.
-
-The filter expression in the example uses the [**GetExceptionCode**](getexceptioncode.md) function to check the exception type before executing the handler. This enables the system to continue its search for an appropriate handler if some other type of exception occurs.
-
-Also, use of the **return** statement in the **\_\_try** block of an exception handler differs from the use of **return** in the **\_\_try** block of a termination handler, which causes an abnormal termination of the **\_\_try** block. This is an valid use of the return statement in an exception handler.
+The following example function calls the [**DebugBreak**](/windows/win32/api/debugapi/nf-debugapi-debugbreak) function and uses structured exception handling to check for a breakpoint exception. If one occurs, that means that the exception was not handled by a debugger, and the function returns **FALSE**— otherwise it returns **TRUE**.
 
 
 ```C++
@@ -61,8 +61,6 @@ BOOL CheckForDebugger()
 ```
 
 
-
-Only return EXCEPTION\_EXECUTE\_HANDLER from an exception filter when the exception type is expected and the faulting address is known. You should allow the default exception handler to process unexpected exception types and faulting addresses.
 
 ## Example 3
 
