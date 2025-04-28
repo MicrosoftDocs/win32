@@ -172,11 +172,11 @@ An application can expect to encounter the following set of encoder options. Enc
 
 | Property Name | VARTYPE | Value | Applicable Codecs |
 |-|-|-|-|
-| BitmapTransform | VT\_UI1 | [**WICBitmapTransformOptions**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmaptransformoptions) | JPEG, HEIF |
-| CompressionQuality | VT\_R4 | 0-1.0 | TIFF |
-| HeifCompressionMethod | [WICHeifCompressionOption](/windows/win32/api/wincodec/ne-wincodec-wicheifcompressionoption) | various | HEIF |
-| ImageQuality | VT\_R4 | 0-1.0 | JPEG, HDPhoto, HEIF |
-| Lossless | VT\_BOOL | **TRUE**, **FALSE** | HDPhoto |
+| BitmapTransform | VT\_UI1 | [**WICBitmapTransformOptions**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmaptransformoptions) | JPEG, JPEG XL, HEIF |
+| CompressionQuality | VT\_R4 | 0-1.0 | TIFF, JPEG XL |
+| HeifCompressionMethod | VT\_UI1 | [WICHeifCompressionOption](/windows/win32/api/wincodec/ne-wincodec-wicheifcompressionoption) | HEIF |
+| ImageQuality | VT\_R4 | 0-1.0 | JPEG, JPEG XL, HDPhoto, HEIF |
+| Lossless | VT\_BOOL | **TRUE**, **FALSE** | JPEG XL, HDPhoto |
 
 ImageQualty of 0.0 means the lowest possible fidelity rendition and 1.0 means the highest fidelity, which may also imply lossless depending on the codec.
 
