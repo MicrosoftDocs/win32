@@ -26,7 +26,7 @@ The DLL is not intended for UWP apps. UWP apps should use the XAUDIO2\_9.DLL tha
 
 The easiest way to install the NuGet package is to use the [NuGet Package Manager](/nuget/consume-packages/install-use-packages-visual-studio) in Microsoft Visual Studio. If you do this, your Visual Studio project file will be automatically updated to include *Microsoft.XAudio2.Redist.targets*. The *.targets* file adds the Include folder with the header files for the XAudio2 to your collection of project include paths. The *.targets* file will also make your .DLL or .EXE link with XAUDIO2REDIST.LIB and XAPOBASEREDIST.LIB.
 
-The library XAPOBASEREDIST.LIB is only needed if you intend to impement a custom XAudio Processing Object (XAPO) and you can remove it from the *Microsoft.XAudio2.Redist.targets* if it is unused.
+The library XAPOBASEREDIST.LIB is only needed if you intend to implement a custom XAudio Processing Object (XAPO) and you can remove it from the *Microsoft.XAudio2.Redist.targets* if it is unused.
 
 You can also use other tools to extract the contents of the NuGet package, or even rename the file extension to .zip and extract the files with any ZIP extractor tool.
 
@@ -146,7 +146,7 @@ Normally, XAudio 2.9 performs a folds down any multi-channel audio to match the 
 
 Windows 10 adds support for spatial audio, using a centralized encoder that encodes audio into a user-selected [spatial sound](../coreaudio/spatial-sound.md) format. Windows 10 comes included with a spatial sound format called Windows Sonic. Other formats, such as Dolby Atmos for Headphones, can be downloaded from the Microsoft Store. Some of the spatial sound formats, such as Windows Sonic and Dolby Atmos for Headphones, are designed to be used on stereo audio endpoints. These formats fold down surround sound to stereo using proprietary algorithms that achieve a "virtual" surround sound effect. In other words, the listener can perceive sound appearing from different positions in 3D space even while only wearing headphones, or while listening on a single pair of stereo speakers.
 
-Similar effects can be achieved using the [X3DAudio](x3daudio.md) APIs that are included with XAudio 2.9. The main difference is that X3DAudio requires the app developer to explicitly program for 3D audio, whereas virtual surround sound is applied automatically to any tradional channel-based sound source.
+Similar effects can be achieved using the [X3DAudio](x3daudio.md) APIs that are included with XAudio 2.9. The main difference is that X3DAudio requires the app developer to explicitly program for 3D audio, whereas virtual surround sound is applied automatically to any traditional channel-based sound source.
 
 On Windows 10 1903, and newer, games that use XAudio 2.9 will use the system-wide spatial sound format that the user has enabled on the audio endpoint, if any. This means that XAudio 2.9 will not perform the usual fold-down of surround sound to stereo. Instead, the surround sound signal will be delivered to the spatial sound encoder (e.g., Windows Sonic) to achieve a virtual surround sound effect.
 

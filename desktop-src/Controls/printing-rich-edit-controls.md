@@ -85,7 +85,7 @@ BOOL PrintRTF(HWND hwnd, HDC hdc)
     fr.rcPage.right  = MulDiv(cxPhys, 1440, GetDeviceCaps(hDC, LOGPIXELSX));  
     fr.rcPage.bottom = MulDiv(cyPhys, 1440, GetDeviceCaps(hDC, LOGPIXELSY)); 
 
-    // Set the rendering rectangle to the pintable area of the page.
+    // Set the rendering rectangle to the printable area of the page.
     fr.rc.left   = cxPhysOffset;
     fr.rc.right  = cxPhysOffset + cxPhys;
     fr.rc.top    = cyPhysOffset;
