@@ -14,7 +14,7 @@ Contains the error code from the most recent connection failure for this toplogy
 
 **UINT32**
 
-Ttreat as an **HRESULT** value.
+Treat as an **HRESULT** value.
 
 ## Remarks
 

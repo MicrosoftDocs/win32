@@ -269,7 +269,7 @@ After the [**ManipulationCompleted**](/windows/win32/api/manipulations/nf-manipu
 
     // Set properties for inertia events.
 
-    // Deceleration for tranlations in pixel / msec^2.
+    // Deceleration for translations in pixel / msec^2.
     m_inert->put_DesiredDeceleration(0.001f);
 
     // Deceleration for rotations in radians / msec^2.

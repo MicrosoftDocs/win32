@@ -1437,7 +1437,7 @@ The certstore is corrupted.
 
 
 
-The specified PNRP cloud deos not exist.
+The specified PNRP cloud does not exist.
 
 
 </dt> </dl> </dd> <dt>
@@ -1463,7 +1463,7 @@ The cloud name is ambiguous.
 
 
 
-The record is invlaid.
+The record is invalid.
 
 
 </dt> </dl> </dd> <dt>
@@ -1580,7 +1580,7 @@ Invalid role property.
 
 
 
-Invalid classifier protopery.
+Invalid classifier property.
 
 
 </dt> </dl> </dd> <dt>
@@ -1905,7 +1905,7 @@ The existing peer name is already registered.
 
 
 
-The app invite request was canceld by the user.
+The app invite request was canceled by the user.
 
 
 </dt> </dl> </dd> <dt>
@@ -1931,7 +1931,7 @@ No response to the invite was received.
 
 
 
-User is not siged into serverless presence.
+User is not signed into serverless presence.
 
 
 </dt> </dl> </dd> <dt>
