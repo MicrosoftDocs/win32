@@ -154,7 +154,7 @@ float3 LightColors[6]
 
 
 
-The asterisk index token denotes that all elements of the particular host envirnmant value array (color in this case) should be bound in the associated parameter. Multiple asterisk index tokens allow effects to bind to sub-elements of an array of structures without the need to bind the entire structure itself. This example binds the color values of the first six lights to an effect parameter.
+The asterisk index token denotes that all elements of the particular host environment value array (color in this case) should be bound in the associated parameter. Multiple asterisk index tokens allow effects to bind to sub-elements of an array of structures without the need to bind the entire structure itself. This example binds the color values of the first six lights to an effect parameter.
 
 ## Related topics
 
