@@ -104,6 +104,8 @@ The following RIDs are relative to each domain.
 | DOMAIN_GROUP_RID_PROTECTED_USERS<br/>Value: `0x0000020D` | The protected users group. |
 | DOMAIN_GROUP_RID_KEY_ADMINS<br/>Value: `0x0000020E` | The key admins group. |
 | DOMAIN_GROUP_RID_ENTERPRISE_KEY_ADMINS<br/>Value: `0x0000020F` | The enterprise key admins group. |
+| DOMAIN_GROUP_RID_FOREST_TRUSTS<br/>Value: `0x00000210` | The primary group of forest trust user accounts. |
+| DOMAIN_GROUP_RID_EXTERNAL_TRUSTS<br/>Value: `0x00000211` | The primary group of external trust user accounts. |
 
 The following RIDs are used to specify mandatory integrity level.
 
@@ -156,5 +158,6 @@ The following table has examples of domain-relative RIDs that you can use to for
 | DOMAIN\_ALIAS\_RID\_STORAGE\_REPLICA\_ADMINS<br/>Value: `0x00000246`<br/>String value: `S-1-5-32-582` | A local group that represents storage replica admins. |
 | DOMAIN\_ALIAS\_RID\_DEVICE\_OWNERS<br/>Value: `0x00000247`<br/>String value: `S-1-5-32-583` | A local group that represents can make settings expected for Device Owners. |
 | DOMAIN\_ALIAS\_RID\_USER\_MODE\_HARDWARE\_OPERATORS<br/>Value: `0x00000248`<br/>String value: `S-1-5-32-584` | Members of this group can access user mode mapper drivers. |
+| DOMAIN\_ALIAS\_RID\_OPENSSH\_USEERS<br/>Value: `0x00000249`<br/>String value: `S-1-5-32-585` | Members of this group can use OpenSSH to access the computer. |
 
 The [WELL_KNOWN_SID_TYPE](/windows/win32/api/Winnt/ne-winnt-well_known_sid_type) enumeration defines the list of commonly used SIDs. Additionally, the [Security Descriptor Definition Language](security-descriptor-definition-language.md) (SDDL) uses [SID strings](sid-strings.md) to reference well-known SIDs in a string format.
