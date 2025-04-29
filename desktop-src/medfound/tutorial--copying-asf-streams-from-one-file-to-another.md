@@ -281,7 +281,7 @@ The following example code shows a function that consolidates all of the steps. 
 // Creates the ASF splitter and the ASF Content Info object for the 
 // source file.
 // 
-// This function also calulates the offset and length of the ASF 
+// This function also calculates the offset and length of the ASF 
 // Data Object.
 //-------------------------------------------------------------------
 

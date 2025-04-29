@@ -73,7 +73,7 @@ Pointer to a SIZE_T variable to store the actual size of the data source informa
 
 ### [out] dataSourceList
 
-Pointer to a output buffer of ‘bufferCapacity’ size to store Data source information retrieved from the driver. 
+Pointer to an output buffer of ‘bufferCapacity’ size to store Data source information retrieved from the driver. 
 
 ## Returns
 
