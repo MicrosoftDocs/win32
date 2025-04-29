@@ -134,7 +134,7 @@ Use the [**GetPointerInfo**](/windows/win32/api/winuser/nf-winuser-getpointerinf
 
 ## Examples
 
-The following code example shows how to retrieve the x and y position of the pointer associated witht this message.
+The following code example shows how to retrieve the x and y position of the pointer associated with this message.
 
 
 ```

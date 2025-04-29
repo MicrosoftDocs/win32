@@ -26,7 +26,7 @@ The following list represents a step-by-step approach for resolving SSO password
 
      
 
--   Having collected the UI context informtion, the UI process renders a UI to collect change password information from the user. This information is populated in the *NewCreds* parameter of the [**EAP\_CRED\_EXPIRY\_REQ**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_cred_expiry_req) structure.
+-   Having collected the UI context information, the UI process renders a UI to collect change password information from the user. This information is populated in the *NewCreds* parameter of the [**EAP\_CRED\_EXPIRY\_REQ**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_cred_expiry_req) structure.
 -   The UI process passes the [**EAP\_CRED\_RESP**](eap-cred-resp.md) structure back to EAPHost via [**EapHostPeerQueryUIBlobFromInteractiveUIInputFields**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryuiblobfrominteractiveuiinputfields).
 -   The UI process passes this user BLOB to the supplicant, and the supplicant continues with EAPHost run-time functions as usual.
 
