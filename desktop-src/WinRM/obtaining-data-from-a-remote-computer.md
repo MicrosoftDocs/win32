@@ -97,12 +97,12 @@ End Sub
 
     
 
-3.  Call the [**WSMan.CreateConnectionOptions**](wsman-createconnectionoptions.md) method to create a [**ConnectionOptions**](connectionoptions.md) object. The account on the remote computer must be a member of the local computer administrators group.
+3.  Call the [**WSMan.CreateConnectionOptions**](wsman-createconnectionoptions.md) method to create a [**ConnectionOptions**](connectionoptions.md) object. The account on the remote computer must be a member of the local computer administrators group. Note: Do not store passwords in plain text in scripts.
 
     ```VB
     Set objConnectionOptions = objWsman.CreateConnectionOptions
-    objConnectionOptions.UserName = "Username"
-    objConnectionOptions.Password = "Password"
+    objConnectionOptions.UserName = "<username>"
+    objConnectionOptions.Password = "<password>"
     ```
 
     
@@ -130,8 +130,8 @@ Const RemoteComputer = "ComputerName.domain.com"
 
 Set objWsman = CreateObject("Wsman.Automation")
 Set objConnectionOptions = objWsman.CreateConnectionOptions
-objConnectionOptions.UserName = "Username"
-objConnectionOptions.Password = "Password"
+objConnectionOptions.UserName = "<username>"
+objConnectionOptions.Password = "<password>"
 iFlags = objWsman.SessionFlagUseKerberos Or _
   objWsman.SessionFlagCredUserNamePassword
 Set objSession = objWsman.CreateSession("https://" & RemoteComputer, _
