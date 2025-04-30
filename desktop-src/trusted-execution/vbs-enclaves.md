@@ -25,6 +25,9 @@ The following are required to run VBS Enclaves:
 - VBS/HVCI must be enabled. This should be enabled on Windows 11 or later by default. See [Enable virtualization-based protection of code integrity](/windows/security/hardware-security/enable-virtualization-based-protection-of-code-integrity) for more information.
 - Windows 11 Build 26100.2314 or later ***or*** Windows Server 2025 or later.
 
+> [!WARNING]
+> Ensure you have reviewed the OS support for VBS enclaves above, as support has recently changed.
+
 ## Development prerequisites
 
 In addition to the device requirements, the following are required to develop VBS Enclaves:
