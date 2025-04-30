@@ -23,6 +23,9 @@ To get started with VBS Enclaves, you need to meet the following requirements:
 - Download the [sample code](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/VbsEnclave) from GitHub. It demonstrates the life cycle of a VBS enclave including how to make function calls into the enclave.
   - Every enclave must have a host app. The sample code contains a Visual Studio Solution with two projects – the *enclave host* and the *test enclave*.
 
+> [!WARNING]
+> Ensure you have reviewed the OS support for VBS enclaves above, as support has recently changed.
+
 ## Getting started
 
 After satisfying the prerequisites above, you should be able to open the solution file from the **VbsEnclave** sample in Visual Studio and compile it. It creates a test application along with the corresponding enclave. However, you can't run your application successfully until the enclave is signed with a valid certificate.
@@ -133,6 +136,9 @@ In our enclave Sample, we create a simple enclave which XORs the input with `0xD
     You can then export the function using a `.DEF` file. In the sample code, refer to `Samples/VbsEnclave/Test enclave/vbsenclave.def`. For more information, refer to [Exporting from a DLL Using DEF Files](/cpp/build/exporting-from-a-dll-using-def-files).
 
 And that’s how you write a basic VBS enclave DLL.
+
+> [!IMPORTANT]
+> Please note that to read/write Normal (non-enclave) memory, using the enclave memory accessors ([EnclaveCopyOutOfEnclave](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclavecopoutofenclave) and [EnclaveCopyIntoEnclave](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclavecopyintoenclave)) is strongly recommended. Please ensure all memory accesses to normal memory are made via these accessors.
 
 ## Step 2: Compiling VBS enclaves
 
