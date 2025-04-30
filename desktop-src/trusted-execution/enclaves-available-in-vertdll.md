@@ -105,7 +105,10 @@ The following APIs exported by Vertdll.dll are available to be called in VBS enc
 | [TlsFree](/windows/win32/api/processthreadsapi/nf-processthreadsapi-tlsfree) | processthreadsapi.h | Releases a TLS index, making it available for reuse. |
 | [TlsGetValue](/windows/win32/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue) | processthreadsapi.h | Retrieves the value in the calling thread's TLS slot for the specified TLS index. |
 | [TlsSetValue](/windows/win32/api/processthreadsapi/nf-processthreadsapi-tlssetvalue) | processthreadsapi.h | Stores a value in the calling thread's TLS slot for the specified TLS index. |
+| [EnclaveCopyIntoEnclave](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclavecopyintoenclave) | winenclaveapi.h | Copies data from an untrusted address (outside of the enclave) into the enclave. |
+| [EnclaveCopyOutOfEnclave](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclavecopyoutofenclave) | winenclaveapi.h | Copies data from the enclave to an untrusted address (outside of the enclave). |
 | [EnclaveGetAttestationReport](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclavegetattestationreport) | winenclaveapi.h | Gets an enclave attestation report that describes the current enclave and is signed by the authority that is responsible for the type of the enclave. |
+| [EnclaveRestrictContainingProcessAccess](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclaverestrictcontainingprocessaccess) | winenclaveapi.h | Restricts (or restores) access by an enclave to the address space of its containing process. |
 | [EnclaveSealData](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclavesealdata) | winenclaveapi.h | Generates an encrypted binary large object (blob) from unencypted data. |
 | [EnclaveUnsealData](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclaveunsealdata) | winenclaveapi.h | Decrypts an encrypted binary large object (blob). |
 | [EnclaveVerifyAttestationReport](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclaveverifyattestationreport) | winenclaveapi.h | Verifies an attestation report that was generated on the current system. |

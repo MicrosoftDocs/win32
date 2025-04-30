@@ -3,7 +3,8 @@ description: See standard command-line options for the Microsoft Standard Instal
 ms.assetid: b1707c88-1cca-45ab-bb23-6002bfd5204e
 title: Microsoft Standard Installer command-line options
 ms.topic: reference
-ms.date: 07/18/2024
+ms.date: 04/29/2025
+no-loc: [/help,/quiet,/passive,/norestart,/forcerestart,/promptrestart,/uninstall (product),/uninstall (patch),/log,/package,/update]
 ---
 
 # Microsoft Standard Installer command-line options
