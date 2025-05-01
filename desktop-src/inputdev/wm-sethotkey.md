@@ -81,7 +81,7 @@ The return value is one of the following.
 
 A hot key cannot be associated with a child window.
 
-**VK\_ESCAPE**, **VK\_SPACE**, and **VK\_TAB** are invalid hot keys.
+**VK\_ESCAPE**, **VK\_SPACE**, **VK\_TAB**, and **VK\_PACKET** are invalid hot keys.
 
 When the user presses the hot key, the system generates a [**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand) message with *wParam* equal to **SC\_HOTKEY** and *lParam* equal to the window's handle. If this message is passed on to [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca), the system will bring the window's last active popup (if it exists) or the window itself (if there is no popup window) to the foreground.
 
