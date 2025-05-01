@@ -46,7 +46,7 @@ Type: **[**int**](/windows/desktop/WinProg/windows-data-types)**
 
 The location of the first set bit.
 
-The locaton is a zero-based count (or index), starting from the least significant bit (LSB). So you can use `1U << firstbitlow(value)` to recreate the corresponding bit found. When no bit is set in the input, the return value is 0xFFFFFFFF (all bits set). Endian-ness isn't relevant here; only bit significance in the integer (not in the memory layout).
+The location is a zero-based count (or index), starting from the least significant bit (LSB). So you can use `1U << firstbitlow(value)` to recreate the corresponding bit found. When no bit is set in the input, the return value is 0xFFFFFFFF (all bits set). Endian-ness isn't relevant here; only bit significance in the integer (not in the memory layout).
 
 ## Remarks
 

@@ -1,5 +1,5 @@
 ---
-description: Specifies the connenction context of a Mobile Broadband device.
+description: Specifies the connection context of a Mobile Broadband device.
 ms.assetid: 513e744d-bd62-43e9-a636-6690867d8b9b
 title: contextType Complex Type
 ms.topic: reference
@@ -15,7 +15,7 @@ api_type:
 
 # contextType Complex Type
 
-The **contextType** complex type specifies the connenction context of a Mobile Broadband device.
+The **contextType** complex type specifies the connection context of a Mobile Broadband device.
 
 ``` syntax
 <xs:complexType name="contextType">

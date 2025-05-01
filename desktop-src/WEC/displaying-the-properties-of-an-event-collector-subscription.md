@@ -757,7 +757,7 @@ std::wstring ConvertEcSubscriptionType(DWORD code)
     if (EcSubscriptionTypeCollectorInitiated == code)
         return L"Collector Initiated";
     else if (EcSubscriptionTypeSourceInitiated == code)
-        return L"Souce Initiated";
+        return L"Source Initiated";
     else
         return L"Unknown";
 }

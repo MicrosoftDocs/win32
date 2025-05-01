@@ -197,7 +197,7 @@ public:
 
 After implementing the callback interface, you can provide a particular sensor with a pointer to an instance of your callback class to start receiving event notifications from the sensor.
 
-The following example code creates an instance of the callback class, and then requests event notifcations from a sensor.
+The following example code creates an instance of the callback class, and then requests event notifications from a sensor.
 
 
 ```C++
