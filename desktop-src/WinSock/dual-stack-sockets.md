@@ -39,7 +39,7 @@ For a dual-stack socket when sending datagrams with the [**WSASendMsg**](/window
 [IPv6 Guide for Windows Sockets Applications](ipv6-guide-for-windows-sockets-applications-2.md)
 </dt> <dt>
 
-[Changing Data Structures for IPv6 Winsock Appications](changing-data-structures-2.md)
+[Changing Data Structures for IPv6 Winsock Applications](changing-data-structures-2.md)
 </dt> <dt>
 
 [Function Calls for IPv6 Winsock Applications](function-calls-2.md)

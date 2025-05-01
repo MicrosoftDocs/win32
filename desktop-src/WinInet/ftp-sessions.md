@@ -178,7 +178,7 @@ The [**FtpGetCurrentDirectory**](/windows/desktop/api/Wininet/nf-wininet-ftpgetc
 
 [**FtpSetCurrentDirectory**](/windows/desktop/api/Wininet/nf-wininet-ftpsetcurrentdirectorya) changes the working directory on the server. The directory information passed to [**FtpSetCurrentDirectory**](/windows/desktop/api/Wininet/nf-wininet-ftpsetcurrentdirectorya) can be either a partially or fully qualified path name relative to the current directory. For example, if the application is currently in the directory "public/info" and the path is "ftp/example", [**FtpSetCurrentDirectory**](/windows/desktop/api/Wininet/nf-wininet-ftpsetcurrentdirectorya) changes the current directory to "public/info/ftp/example".
 
-The following example uses the FTP session handle hConnection, which is returned by [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta). The new directory name is taken from the edit box of the parent dialog whose IDC is passed in the *nDirNameId* parameter. Before the directory change is made, the function retrieves the current directory and stores it in the same edit box. The souce code for the DisplayFtpDir function called at the end is listed above.
+The following example uses the FTP session handle hConnection, which is returned by [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta). The new directory name is taken from the edit box of the parent dialog whose IDC is passed in the *nDirNameId* parameter. Before the directory change is made, the function retrieves the current directory and stores it in the same edit box. The source code for the DisplayFtpDir function called at the end is listed above.
 
 
 ```C++

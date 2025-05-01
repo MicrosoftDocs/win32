@@ -55,7 +55,7 @@ This method does not return a value.
 
 The [**CDrawImage::DrawImage**](cdrawimage-drawimage.md) method calls this method, but only if the allocator for the connection is a [**CImageAllocator**](cimageallocator.md) object. In that case, the media sample is guaranteed to be a [**CImageSample**](cimagesample.md) object. The **CImageSample** object uses the **CreateDIBSection** function to allocate shared memory for the bitmap, which makes it possible to draw the image using either **BitBlt** or **StretchBlt**.
 
-This method calls **BitBlt** if the source and targer rectangles exactly match, or **StretchBlt** otherwise.
+This method calls **BitBlt** if the source and target rectangles exactly match, or **StretchBlt** otherwise.
 
 If the filter does not own the allocator, the **DrawImage** method uses [**CDrawImage::SlowRender**](cdrawimage-slowrender.md) to draw the image.
 
