@@ -18,7 +18,7 @@ Microsoft provides a utility called Checkv4.exe that helps you find potentially 
 
 The programming areas addressed by this guide are:
 
--   [Changing Data Structures for IPv6 Winsock Appications](changing-data-structures-2.md)
+-   [Changing Data Structures for IPv6 Winsock Applications](changing-data-structures-2.md)
 -   [Function Calls for IPv6 Winsock Applications](function-calls-2.md)
 -   [Use of Hardcoded IPv4 Addresses](use-of-hardcoded-ipv4-addresses-2.md)
 -   [User Interface Issues for IPv6 Winsock Applications](user-interface-issues-2.md)

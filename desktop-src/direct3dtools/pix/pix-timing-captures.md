@@ -55,12 +55,12 @@ Is your app experiencing intermittent frame drops? Excessive VRAM usage? Unexpec
 ### GPU timings
 
 Enable the **GPU timings** option when taking a capture to collect timing data for GPU work. In the **Timeline** view, you can find lanes for each GPU queue (in the **Lane Selector**, you can quickly pin those lanes with the **API Queues pinned** configuration). Those lanes contain several sublanes:
-- PIX Events (GPU): Hierarchicial, application-defined regions of GPU Work. See [PixEvents](pix-instrumenting.md).
+- PIX Events (GPU): Hierarchical, application-defined regions of GPU Work. See [PixEvents](pix-instrumenting.md).
 - GPU Executions: Executions correspond to work submissions at the API level; for example, via ExecuteCommandLists.
 - GPU Work: Any work that occurs on the GPU; for example, Draws, Dispatches, Copies.
 - PIX Markers (GPU): Application-defined markers. See [PixEvents](pix-instrumenting.md).
 
-When you select an event in the lane, you'll see arrows showing where on the CPU that event originated. There are also various visualization options in the lane options menu (the gear icon next to the lane name). Most notably, the **Flatten Events** and **Flatten GPU Work** options are enabled by default to preserve space, but you might want to see the full PIX Event hierarchy or GPU Work paralellization when diving into a specific frame.
+When you select an event in the lane, you'll see arrows showing where on the CPU that event originated. There are also various visualization options in the lane options menu (the gear icon next to the lane name). Most notably, the **Flatten Events** and **Flatten GPU Work** options are enabled by default to preserve space, but you might want to see the full PIX Event hierarchy or GPU Work parallelization when diving into a specific frame.
 
 That data is also available in tabular form via **Range Details** view by selecting the relevant category in the **Items to Show** drop-down.
 
