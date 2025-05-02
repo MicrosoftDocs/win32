@@ -34,6 +34,8 @@ The format of each [RT\_ICON](/windows/desktop/menurc/resource-types) icon or [R
 
 Since Windows Vista [RT\_ICON](/windows/desktop/menurc/resource-types) icon or [RT\_CURSOR](/windows/desktop/menurc/resource-types) cursor resource may contain PNG-compressed image data.
 
+Animated [RT\_ANICURSOR](/windows/desktop/menurc/resource-types) cursors are in same RIFF format as .ani files and may contain several cursor sizes in one file. Animated [RT\_ANIICON](/windows/desktop/menurc/resource-types) icon resources are not widely used.
+
 ## Dialog Box Resources
 
 A dialog box is also one resource entry in the resource file. It consists of one [**DLGTEMPLATE**](/windows/desktop/api/winuser/ns-winuser-dlgtemplate) dialog box header structure plus one [**DLGITEMTEMPLATE**](/windows/desktop/api/winuser/ns-winuser-dlgitemtemplate) structure for each control in the dialog box. The [**DLGTEMPLATEEX**](/windows/desktop/dlgbox/dlgtemplateex) and the [**DLGITEMTEMPLATEEX**](/windows/desktop/dlgbox/dlgitemtemplateex) structures describe the format of extended dialog box resources.
