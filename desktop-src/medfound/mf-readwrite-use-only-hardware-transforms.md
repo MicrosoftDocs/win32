@@ -1,6 +1,6 @@
 # MF\_READWRITE\_USE\_ONLY\_HARDWARE\_TRANSFORMS attribute
 
-Ensures that the Source Reader or Sink Writer load only hardware-based Media Foundation transforms (MFTs) that match the passed-in D3D device manager.
+Specifies that the Source Reader or Sink Writer should load only hardware-based Media Foundation transforms (MFTs) that match the passed-in D3D device manager.
 
 ## Data type
 
