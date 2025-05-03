@@ -34,7 +34,7 @@ The format of each [RT\_ICON](/windows/desktop/menurc/resource-types) icon or [R
 
 Since Windows Vista [RT\_ICON](/windows/desktop/menurc/resource-types) icon or [RT\_CURSOR](/windows/desktop/menurc/resource-types) cursor resource may contain PNG-compressed image data.
 
-Animated [RT\_ANICURSOR](/windows/desktop/menurc/resource-types) cursors are in same RIFF format as .ani files and may contain several cursor sizes in one file. Animated [RT\_ANIICON](/windows/desktop/menurc/resource-types) icon resources are not widely used.
+Animated [RT\_ANICURSOR](/windows/desktop/menurc/resource-types) cursors are in same RIFF format as .ani files on disk. Animated [RT\_ANIICON](/windows/desktop/menurc/resource-types) icon resources are not widely used.
 
 ## Dialog Box Resources
 
