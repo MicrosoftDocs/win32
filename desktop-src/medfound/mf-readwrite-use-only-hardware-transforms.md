@@ -30,8 +30,8 @@ Use this attribute with the following functions:
 
 | Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client | Windows Version 24H2 |
-| Minimum supported server | Windows Server Version 24H2 |
+| Minimum supported client | Windows 11 Version 25H2 |
+| Minimum supported server | Windows Server Version 25H2 |
 | Header                   | Mfreadwrite.h |
 
 
