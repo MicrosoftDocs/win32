@@ -22,7 +22,7 @@ The MMCSS settings are stored in the following registry key:
 
 **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Multimedia\\SystemProfile**
 
-This key contains a **REG\_DWORD** value named **SystemResponsiveness** that determines the percentage of CPU resources that should be guaranteed to low-priority tasks. For example, if this value is 20, then 20 % of CPU resources are reserved for low-priority tasks. Note that values between 10 and 100 that are not evenly divisible by 10 are rounded **down** to the nearest lower multiple of 10. Values **below 10** and **above 100** are clamped to 20. A value of **100 disables MMCSS** (driver returns `STATUS_SERVER_DISABLED`).
+This key contains a **REG\_DWORD** value named **SystemResponsiveness** that determines the percentage of CPU resources that should be guaranteed to low-priority tasks. For example, if this value is 20, then 20% of CPU resources are reserved for low-priority tasks. Note that values that are not evenly divisible by 10 are rounded down to the nearest multiple of 10. Values below 10 and above 100 are clamped to 20. A value of 100 disables MMCSS (driver returns `STATUS_SERVER_DISABLED`).
 
 The key also contains a subkey named **Tasks** that contains the list of tasks. By default, Windows supports the following tasks:
 
