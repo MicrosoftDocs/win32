@@ -202,7 +202,7 @@ Each enclave signing certificate requires at least 3 EKUs:
 
 1. Code Signing EKU - `1.3.6.1.5.5.7.3.3`
 1. Enclave EKU - `1.3.6.1.4.1.311.76.57.1.15`
-1. Author EKU - The EKU is of the form `1.3.6.1.4.1.311.97.X.Y.Z`, where `X` is greater than `999`.
+1. Author EKU - The EKU is of the form `1.3.6.1.4.1.311.97.X.Y.Z...`, where `X` is greater than `999`. The `...` indicates additional values in the EKU format. See the example below for clarification.
 
     For testing, you can choose to use any Author EKU that matches this pattern. For production, an Author EKU will be provided as part of the production certificate (more details on production signing are [below](#production-signing--trusted-signing-formerly-azure-code-signing)).
 
