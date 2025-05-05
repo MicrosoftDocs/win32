@@ -1,6 +1,6 @@
 ---
 title: EAPHost and Legacy Schema
-description: Describes the EAPHost schema and legacy schema for creating configuration XML and credential XML.
+description: This article describes the EAPHost schema and legacy schema for creating configuration XML and credential XML.
 ms.assetid: d4572866-7e2b-4e7c-afe1-66394b549bc4
 ms.topic: reference
 ms.date: 07/10/2023
@@ -20,8 +20,8 @@ The terms "method configuration" and "connection properties" are used interchang
 
 ## EAPHost Schema
 
-| Schema                                                                        | Description                                        |
-|-------------------------------------------------------------------------------|----------------------------------------------------|
+| Schema                                                                       | Description                                        |
+|------------------------------------------------------------------------------|----------------------------------------------------|
 | [baseeapmethodconfig](baseeapmethodconfigschema-schema.md)                   | Contains common configuration schema elements.     |
 | [baseeapmethodusercredentials](baseeapmethodusercredentialsschema-schema.md) | Contains common credential schema elements.        |
 | [eapcommon](eapcommonschema-schema.md)                                       | Contains the **EapMethodType** element definition. |
@@ -52,6 +52,6 @@ The terms "method configuration" and "connection properties" are used interchang
 | [eapakaconnectionpropertiesv1](eapakaconnectionpropertiesv1schema-schema.md)           | Is used with EAP-AKA to describe authentication configuration data.                         |
 | [eapakaprimeconnectionpropertiesv1](eapakaprimeconnectionpropertiesv1schema-schema.md) | Is used with EAP-AKA to describe authentication configuration data.                         |
 
-## See also
+## Related content
 
-- [Reviewing EAPHost and Legacy Schema Samples](eaphost-schemas.md)
+[Components of EAPHost](eaphost-components.md)

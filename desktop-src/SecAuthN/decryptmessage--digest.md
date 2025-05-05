@@ -63,11 +63,11 @@ If the function verifies that the message was received in the correct sequence, 
 
 If the function fails to decrypt the message, it returns one of the following error codes.
 
-| Return code                         | Description                                                                                                                                                                  |
+| Return code | Description |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **SEC\_E\_BUFFER\_TOO\_SMALL**      | The message buffer is too small. Used with the Digest SSP.                                                                                                                   |
 | **SEC\_E\_CRYPTO\_SYSTEM\_INVALID** | The [*cipher*](../secgloss/c-gly.md) chosen for the [*security context*](../secgloss/s-gly.md) is not supported. Used with the Digest SSP.                                                                                       |
-| **SEC\_E\_INCOMPLETE\_MESSAGE**     | The data in the input buffer is incomplete. The application needs to read more data from the server and call [**DecryptMessage (Digest)**](decryptmessage--digest.md) again. |
+| **SEC\_E\_INCOMPLETE\_MESSAGE**     | The data in the input buffer is incomplete. The application needs to read more data from the server and call **DecryptMessage (Digest)** again. |
 | **SEC\_E\_INVALID\_HANDLE**         | A context handle that is not valid was specified in the *phContext* parameter. Used with the Digest SSP.                                                                     |
 | **SEC\_E\_MESSAGE\_ALTERED**        | The message has been altered. Used with the Digest SSP.                                                                                                                      |
 | **SEC\_E\_OUT\_OF\_SEQUENCE**       | The message was not received in the correct sequence.                                                                                                                        |

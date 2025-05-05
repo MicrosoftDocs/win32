@@ -478,9 +478,9 @@ An Edit Development Kit (EDK) could include *pVar* index definitions for the fol
 | BasicHebrew           | 0x5d0—0x5ea   | HebrewXA                  | 0x590—0x5cf   |
 | HebrewXB              | 0x5eb—0x5ff   | Arabic                    | 0x600—0x6ff   |
 | BasicArabic           | 0x600—0x652   | ArabicX                   | 0x653—0x6ff   |
-| Devangari             | 0x900—0x97f   | Bangla (formerly Bengali) | 0x980—0x9ff   |
+| Devangari             | 0x900—0x97f   | Bangla                    | 0x980—0x9ff   |
 | Gurmukhi              | 0xa00—0xa7f   | Gujarati                  | 0xa80—0xaff   |
-| Odia (formerly Oriya) | 0xb00—0xb7f   | Tamil                     | 0xb80—0xbff   |
+| Odia                  | 0xb00—0xb7f   | Tamil                     | 0xb80—0xbff   |
 | Teluga                | 0xc00—0xc7f   | Kannada                   | 0xc80—0xcff   |
 | Malayalam             | 0xd00—0xd7f   | Thai                      | 0xe00—0xe7f   |
 | Lao                   | 0xe80—0xeff   | GeorgianX                 | 0x10a0—0xa0cf |

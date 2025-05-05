@@ -55,7 +55,7 @@ This diagram is not drawn to scale; typically the Data Object comprises most of 
 
 The Header Object is mandatory and appears at the beginning of every ASF file. It contains global file attributes and information about the streams in the ASF file. This information is used to interpret and play the data in the file.
 
-The Header Object contains several madatory sub-objects:
+The Header Object contains several mandatory sub-objects:
 
 -   The File Properties Object describes global attributes of the file, such as the file size, play duration, number of data packets, minimum and maximum packet size, and maximum bit rate.
 -   The Header Extension Object enables additional functionality to be added to an ASF file while maintaining backward compatibility.

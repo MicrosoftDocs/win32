@@ -1,12 +1,12 @@
 ---
 description: When adding support for IPv6, you must ensure that your application defines properly sized data structures.
 ms.assetid: 2bf353e2-38d5-462c-9e6c-65886b617215
-title: Changing Data Structures for IPv6 Winsock Appications
+title: Changing Data Structures for IPv6 Winsock Applications
 ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
-# Changing Data Structures for IPv6 Winsock Appications
+# Changing Data Structures for IPv6 Winsock Applications
 
 When adding support for IPv6, you must ensure that your application defines properly sized data structures. The size of an IPv6 address is much larger than an IPv4 address. Structures that are hard-coded to handle the size of an IPv4 address when storing an IP address will cause problems in your application, and must be modified.
 
