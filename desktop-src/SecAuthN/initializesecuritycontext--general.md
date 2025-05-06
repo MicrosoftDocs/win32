@@ -149,12 +149,12 @@ If the function succeeds, the function returns one of the following success code
 
 | Return code | Description |
 |--------|--------|
-| **SEC\_I\_COMPLETE\_AND\_CONTINUE** | The client must call [CompleteAuthToken](/windows/win32/api/sspi/nf-sspi-completeauthtoken) and then pass the output to the server. The client then waits for a returned token and passes it, in another call, to [InitializeSecurityContext (General)](initializesecuritycontext--general.md). |
+| **SEC\_I\_COMPLETE\_AND\_CONTINUE** | The client must call [CompleteAuthToken](/windows/win32/api/sspi/nf-sspi-completeauthtoken) and then pass the output to the server. The client then waits for a returned token and passes it, in another call, to **InitializeSecurityContext (General)**. |
 | **SEC\_I\_COMPLETE\_NEEDED** | The client must finish building the message and then call the [CompleteAuthToken](/windows/win32/api/sspi/nf-sspi-completeauthtoken) function. |
-| **SEC\_I\_CONTINUE\_NEEDED** | The client must send the output token to the server and wait for a return token. The returned token is then passed in another call to [InitializeSecurityContext (General)](initializesecuritycontext--general.md). The output token can be empty. |
+| **SEC\_I\_CONTINUE\_NEEDED** | The client must send the output token to the server and wait for a return token. The returned token is then passed in another call to **InitializeSecurityContext (General)**. The output token can be empty. |
 | **SEC\_I\_INCOMPLETE\_CREDENTIALS** | Use with Schannel. The server has requested client authentication, and the supplied credentials either do not include a certificate or the certificate was not issued by a certification authority that is trusted by the server. For more information, see Remarks. |
 | **SEC\_E\_INCOMPLETE\_MESSAGE** | Use with Schannel. Data for the whole message was not read from the wire.<br/> When this value is returned, the *pInput* buffer contains a [SecBuffer](/windows/win32/api/sspi/ns-sspi-secbuffer) structure with a **BufferType** member of **SECBUFFER\_MISSING**. The **cbBuffer** member of **SecBuffer** contains a value that indicates the number of additional bytes that the function must read from the client before this function succeeds. While this number is not always accurate, using it can help improve performance by avoiding multiple calls to this function. |
-| **SEC\_E\_OK** | The [security context](../secgloss/s-gly.md) was successfully initialized. There is no need for another [InitializeSecurityContext (General)](initializesecuritycontext--general.md) call. If the function returns an output token, that is, if the SECBUFFER\_TOKEN in *pOutput* is of nonzero length, that token must be sent to the server. |
+| **SEC\_E\_OK** | The [security context](../secgloss/s-gly.md) was successfully initialized. There is no need for another **InitializeSecurityContext (General)** call. If the function returns an output token, that is, if the `SECBUFFER_TOKEN` in *pOutput* is of nonzero length, that token must be sent to the server. |
 
 If the function fails, the function returns one of the following error codes.
 
