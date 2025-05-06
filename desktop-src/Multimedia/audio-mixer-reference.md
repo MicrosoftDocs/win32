@@ -65,10 +65,7 @@ This section describes the functions, structures, and messages associated with a
 
 ## Related topics
 
-<dl> <dt>
 
-[Audio Mixer Reference](audio-mixer-reference.md)
-</dt> </dl>
 
  
 

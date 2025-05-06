@@ -134,9 +134,6 @@ For a sample program that uses this function, see [How To: Print Using the GDI P
 [Print Spooler API Functions](printing-and-print-spooler-functions.md)
 </dt> <dt>
 
-[**StartDocPrinter**](startdocprinter.md)
-</dt> <dt>
-
 [**StartPagePrinter**](startpageprinter.md)
 </dt> <dt>
 
