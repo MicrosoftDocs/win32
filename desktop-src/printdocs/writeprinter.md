@@ -140,9 +140,6 @@ For a sample program that uses this function, see [How To: Print Using the GDI P
 </dt> <dt>
 
 [**StartPagePrinter**](startpageprinter.md)
-</dt> <dt>
-
-[**WritePrinter**](writeprinter.md)
 </dt> </dl>
 
  
