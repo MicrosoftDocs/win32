@@ -14,7 +14,9 @@ To set this attribute, call [**IMFAttributes::SetUINT32**](/windows/desktop/api/
 
 ## Remarks
 
-By default, the Source Reader and Sink Writer will use any transform that matches the media type, including software decoders and encoders.  Set this attribute to TRUE to ensure that the Source Reader or Sink Writer use only hardware MFTs that match the passed in D3D device manager through the [MF\_SOURCE\_READER\_D3D\_MANAGER](mf-source-reader-d3d-manager.md) or [MF\_SINK\_WRITER\_D3D\_MANAGER](mf-sink-writer-d3d-manager.md) attributes. If the D3D device manager is not passed in or if the [MF\_READWRITE\_ENABLE\_HARDWARE\_TRANSFORMS](mf-readwrite-enable-hardware-transforms.md) attribute is not set, this attribute has no effect.
+By default, the Source Reader and Sink Writer will use any transform that matches the media type, including software decoders and encoders.  Set this attribute to TRUE to ensure that the Source Reader or Sink Writer use only hardware MFTs that match the passed in D3D device manager through the [MF\_SOURCE\_READER\_D3D\_MANAGER](mf-source-reader-d3d-manager.md) or [MF\_SINK\_WRITER\_D3D\_MANAGER](mf-sink-writer-d3d-manager.md) attributes. If a matching hardware MFT is not found, then the Source Reader or Sink Writer API attempting to create the transform chain will fail with an appropriate error code.  
+
+If the D3D device manager is not passed in or if the [MF\_READWRITE\_ENABLE\_HARDWARE\_TRANSFORMS](mf-readwrite-enable-hardware-transforms.md) attribute is not set, this attribute has no effect.
 
 Use this attribute with the following functions:
 
