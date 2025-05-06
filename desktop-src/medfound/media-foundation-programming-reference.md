@@ -27,13 +27,10 @@ This section contains reference information for the Media Foundation APIs.
 
 ## Related topics
 
-<dl> <dt>
 
-[Media Foundation Programming Reference](media-foundation-programming-reference.md)
-</dt> <dt>
 
 [Microsoft Media Foundation](microsoft-media-foundation-sdk.md)
-</dt> </dl>
+
 
  
 

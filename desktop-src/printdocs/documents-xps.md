@@ -32,10 +32,9 @@ The XPS Document API suports both XPS and OpenXPS, and is designed for C++ progr
 </dt> <dt>
 
 [Using XPS Document API](using-xps-document-api.md)
-</dt> <dt>
+</dt> 
 
-[XPS Document API](documents-xps.md)
-</dt> <dt>
+ <dt>
 
 [XPS Document API Reference](xps-programming-reference.md)
 </dt> <dt>
