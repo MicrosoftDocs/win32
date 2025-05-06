@@ -1,3 +1,11 @@
+---
+description: Sets the base thread priority for the Source Reader or Sink Writer.
+title: MF_READWRITE_USE_ONLY_HARDWARE_TRANSFORMS attribute (Mfreadwrite.h)
+ms.topic: reference
+ms.date: 05/06/2025
+---
+
+
 # MF\_READWRITE\_USE\_ONLY\_HARDWARE\_TRANSFORMS attribute
 
 Specifies that the Source Reader or Sink Writer should load only hardware-based Media Foundation transforms (MFTs) that match the passed-in D3D device manager.
