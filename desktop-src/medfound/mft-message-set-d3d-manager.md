@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MFT\_MESSAGE\_SET\_D3D\_MANAGER
 
-Sets or clears the [Direct3D Device Manager](direct3d-device-manager.md) for DirectX Video Accereration (DXVA).
+Sets or clears the [Direct3D Device Manager](direct3d-device-manager.md) for DirectX Video Acceleration (DXVA).
 
 ## Message Parameter
 

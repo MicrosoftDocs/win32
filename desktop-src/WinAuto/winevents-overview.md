@@ -15,7 +15,7 @@ Microsoft Active Accessibility servers raise *WinEvents* to notify clients when 
 - When the state or location of an object changes.
 - When any property of an object changes.
 
-Client applications do not receive event notifications automatically; they must specify which events they want to receive by calling the [**SetWinEventHook**](/windows/desktop/api/Winuser/nf-winuser-setwineventhook) function. With **SetWinEventHook**, a client registers to receive one or more events and sets a hook function to handle the specified events. Clients can use the same hook function to handle multiple types of events, or it can use multipe hook functions. Clients call the **SetWinEventHook** once for each hook function it needs to register.
+Client applications do not receive event notifications automatically; they must specify which events they want to receive by calling the [**SetWinEventHook**](/windows/desktop/api/Winuser/nf-winuser-setwineventhook) function. With **SetWinEventHook**, a client registers to receive one or more events and sets a hook function to handle the specified events. Clients can use the same hook function to handle multiple types of events, or it can use multiple hook functions. Clients call the **SetWinEventHook** once for each hook function it needs to register.
 
 Hook functions are located within the client's code body, in a DLL mapped into the client's process, or in a DLL mapped into the server's process. Each of these methods has advantages and disadvantages. For more information, see [In-Context and Out-of-Context Hook Functions](in-context-and-out-of-context-hook-functions.md).
 

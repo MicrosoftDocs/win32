@@ -747,7 +747,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-If **TRUE**, this element is designed to be taken in and out of the physical container in which it is normally found, without impairing the function of the overall packaging. A package is considered removable even if the power must be off to perform the removal. If the power can be on and the package removed, then the element is removable and can be hot-swapped. For example, an ungradable processor chip is removable.
+If **TRUE**, this element is designed to be taken in and out of the physical container in which it is normally found, without impairing the function of the overall packaging. A package is considered removable even if the power must be off to perform the removal. If the power can be on and the package removed, then the element is removable and can be hot-swapped. For example, an upgradable processor chip is removable.
 
 This property is inherited from [**CIM\_PhysicalComponent**](cim-physicalcomponent.md).
 

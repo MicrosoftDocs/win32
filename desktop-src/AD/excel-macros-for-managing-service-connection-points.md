@@ -42,7 +42,7 @@ Private Sub p_CreateExampleSCP()
                     
     IADsSCP.PutEx 2, "Keywords", _
                     Array( _
-                        "KW1=A kewyrowd value" _
+                        "KW1=A keyword value" _
                     )
                     
     IADsSCP.SetInfo

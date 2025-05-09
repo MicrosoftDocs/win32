@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 > [!NOTE]
 > Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003. On later releases, use [Windows Search](../search/-search-3x-wds-overview.md) instead.
 
-You can call Microsoft Windows Desktop Search (WDS) from any webpage you create or maintain using the Browser Helper Object (BHO) and Windows Internet Explorer. You can see how this works on the MSN webpage. Above the search box on https://www.msn.com are several search types: Web, News, Images, Desktop, Encarta, and Local. If you click Desktop, the search parameters are passed to Windows Desktop Search, which searches the catalog and displays results in the WDS user interface. For users to start a desktop search from your webpage(s), the WDSBHO must be installed and enabled on their systems, your webpage(s) must be registered with WDS as an allowed URL, and you must create a link to pass the user-enetered query to WDS.
+You can call Microsoft Windows Desktop Search (WDS) from any webpage you create or maintain using the Browser Helper Object (BHO) and Windows Internet Explorer. You can see how this works on the MSN webpage. Above the search box on https://www.msn.com are several search types: Web, News, Images, Desktop, Encarta, and Local. If you click Desktop, the search parameters are passed to Windows Desktop Search, which searches the catalog and displays results in the WDS user interface. For users to start a desktop search from your webpage(s), the WDSBHO must be installed and enabled on their systems, your webpage(s) must be registered with WDS as an allowed URL, and you must create a link to pass the user-entered query to WDS.
 
 ## Enabling the WDS Browser Help Object
 
