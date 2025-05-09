@@ -54,7 +54,7 @@ Input arguments contain a single main version number with a single sub version n
 
 This instruction must be the first non-comment instruction in a pixel shader.
 
-Hardware accelerated versions of the software (versions without \_sw in the version number), can process vertices with hardware accelearation or use software vertex processing. Software versions (versions with \_sw in the version number) process vertices only with software.
+Hardware accelerated versions of the software (versions without \_sw in the version number), can process vertices with hardware acceleration or use software vertex processing. Software versions (versions with \_sw in the version number) process vertices only with software.
 
 ## Examples
 

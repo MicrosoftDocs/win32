@@ -1,6 +1,6 @@
 ---
 title: CD3DX12_GLOBAL_ROOT_SIGNATURE_SUBOBJECT class (D3dx12.h)
-description: A helper class for creating a global root signature state suboject.
+description: A helper class for creating a global root signature state subject.
 keywords:
 - CD3DX12_GLOBAL_ROOT_SIGNATURE_SUBOBJECT class
 topic_type:
