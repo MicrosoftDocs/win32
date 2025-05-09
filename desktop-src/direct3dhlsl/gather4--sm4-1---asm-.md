@@ -38,7 +38,7 @@ This operation only works with single channel 2D or CubeMap textures. For 2D tex
 
 This instruction behaves like the [sample](sample--sm4---asm-.md) instruction, but a filtered sample is not generated. The four samples that would contribute to filtering are placed into xyzw in counter clockwise order starting with the sample to the lower left of the queried location. This is the same as point sampling with (u,v) texture coordinate deltas at the following locations: (-,+),(+,+),(+,-),(-,-), where the magnitude of the deltas are always half a texel.
 
-For CubeMap textures when a bi-linear footprint spans an edge texels from the neighboring face are used. Corners use the same rules as the **sample** instruction; that is the unkown corner is considered the average of the three impinging face corners.
+For CubeMap textures when a bi-linear footprint spans an edge texels from the neighboring face are used. Corners use the same rules as the **sample** instruction; that is the unknown corner is considered the average of the three impinging face corners.
 
 The texture format restrictions that apply to the **sample** instructions also apply to the **gather4** instruction.
 

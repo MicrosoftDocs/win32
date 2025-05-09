@@ -59,7 +59,7 @@ Mapping colors from the source color context to the destination color context in
 
 </dd> <dt>
 
-**CYMK color model**
+**CMYK color model**
 </dt> <dd>
 
 Multidimensional color space consisting of the cyan, magenta, yellow, and black intensities that make up a given color.

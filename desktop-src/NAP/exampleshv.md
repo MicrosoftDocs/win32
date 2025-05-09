@@ -259,7 +259,7 @@ HRESULT CSampleShv::FillResponseSoH(HRESULT validationResult,
     //
     // SDK Note:
     //
-    // Append the manditory attribute: Compliance Result Codes. If SHV was not able to 
+    // Append the mandatory attribute: Compliance Result Codes. If SHV was not able to 
     // contact the external server (due to network failure, the is server down, etc...),
     // then the SHV should return the failure category attribute instead of the 
     // compliance result with FailureCategory = failureCategoryServerCommunication. 

@@ -1,5 +1,5 @@
 ---
-description: Destroys the provided provided exception object.
+description: Destroys the provided exception object.
 title: __std_exception_destroy
 ms.topic: reference
 ms.date: 11/21/2023

@@ -22,7 +22,7 @@ topic_type:
 
 # <span id="vspixengine.ipipelinestagescallback_getsupportedstages_dword_pipelinestage_arr_uint_uint"></span>IPipeLineStagesCallback::GetSupportedStages method
 
-A callback that notifies the host of which pipeline stages are used by the draw call of the assocaited request.
+A callback that notifies the host of which pipeline stages are used by the draw call of the associated request.
 
 ## Syntax
 
@@ -45,10 +45,10 @@ The number of stages returned.
 The pipeline stages.
 
 *swapChainWidth*   
-The width of the swap chain assocaited with the draw call. This is used when requesting pipeline preview images.
+The width of the swap chain associated with the draw call. This is used when requesting pipeline preview images.
 
 *swapChainHeight*   
-The height of the swap chain assocaited with the draw call. This is used when requesting pipeline preview images.
+The height of the swap chain associated with the draw call. This is used when requesting pipeline preview images.
 
 ## Return value
 
