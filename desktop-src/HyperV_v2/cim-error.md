@@ -357,7 +357,7 @@ The attempt to abandon a pull operation has failed.
 
 </dt> <dd>
 
-Filtered Enumeratrions are not supported.
+Filtered Enumerations are not supported.
 
 </dd> <dt>
 

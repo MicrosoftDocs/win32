@@ -141,7 +141,7 @@ The following table describes the enumeration values.
 | Value  | Description                                                                                                |
 |--------|------------------------------------------------------------------------------------------------------------|
 | auto   | The connection to the wireless network should be initiated automatically whenever the network is in range. |
-| manual | The connection to the wireless network is only initated upon the explicit request of a user.               |
+| manual | The connection to the wireless network is only initiated upon the explicit request of a user.               |
 
 ### autoSwitch
 
