@@ -37,7 +37,7 @@ Represents information about an issue.
 A COM string containing a description of the issue.
 
 **Code**  
-A COM string containing thec code associated with the issue.
+A COM string containing the code associated with the issue.
 
 **ID**  
 The ID of the issue.

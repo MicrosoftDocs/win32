@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 The types defined in this section are used to define the security identity of an endpoint address.
 
-The following API elements are part of endpoint indentity:
+The following API elements are part of endpoint identity:
 
 
 

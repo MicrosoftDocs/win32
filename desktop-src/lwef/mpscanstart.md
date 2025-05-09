@@ -54,7 +54,7 @@ Handle to the malware protection manager interface. This handle is returned by t
 
 Type: **[**MPSCAN\_TYPE**](mpscan-type.md)**
 
-Specifies the type of scan. This parameter must be one of the members of the [**MPSCAN\_TYPE**](mpscan-type.md) enueration.
+Specifies the type of scan. This parameter must be one of the members of the [**MPSCAN\_TYPE**](mpscan-type.md) enumeration.
 
 </dd> <dt>
 
