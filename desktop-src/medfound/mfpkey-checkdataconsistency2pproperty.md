@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MFPKEY\_CHECKDATACONSISTENCY2P Property
 
-Specifies whether whether the encoder should check for data consistency across passes when performing two-pass VBR encoding. Read-write.
+Specifies whether the encoder should check for data consistency across passes when performing two-pass VBR encoding. Read-write.
 
 ## Constant for IPropertyBag
 

@@ -93,7 +93,7 @@ Not used.
 
 This transaction is filtered if the application specified the **CBF\_SKIP\_REGISTRATIONS** flag in the [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) function.
 
-A application cannot block this transaction type; the CBR\_BLOCK return code is ignored.
+An application cannot block this transaction type; the CBR\_BLOCK return code is ignored.
 
 An application should use the *hsz1* parameter to remove the service name from the list of servers available to the user. An application should use the *hsz2* parameter to identify which application instance has terminated.
 

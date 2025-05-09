@@ -20,7 +20,7 @@ helpviewer_keywords:
 
 # `__std_exception_destroy`
 
-Destroys the provided provided exception object.
+Destroys the provided exception object.
 
 ## Syntax
 

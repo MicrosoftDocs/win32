@@ -13,7 +13,7 @@ ms.custom: UpdateFrequency5
 
 This topic is step 1 of the tutorial [Audio/Video Playback in DirectShow](audio-video-playback-in-directshow.md). The complete code is shown in the topic [DirectShow Playback Example](directshow-playback-example.md).
 
-In this tutorial, the `DShowPlayer` class manages all DirectShow functionality. This class is declared as folows.
+In this tutorial, the `DShowPlayer` class manages all DirectShow functionality. This class is declared as follows.
 
 
 ```C++
