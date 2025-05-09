@@ -423,7 +423,7 @@ The preceding diagram shows the following rectangles:
     -   Source rectangle: { 0, 0, 720, 480 }
     -   Destination rectangle: { 0, 0, 854, 480 }
 
-These values preserve the image height and scale both images horizontally. In the regions where both images appear, they are alpha blended. Where the substream picture extends beyond the primay video, the substream is alpha blended with the background color. This alpha blending accounts for the altered colors in the right-hand side of the diagram.
+These values preserve the image height and scale both images horizontally. In the regions where both images appear, they are alpha blended. Where the substream picture extends beyond the primary video, the substream is alpha blended with the background color. This alpha blending accounts for the altered colors in the right-hand side of the diagram.
 
 ### Example 3: Mismatched Stream Heights
 

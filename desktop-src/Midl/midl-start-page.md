@@ -39,7 +39,7 @@ The appropriate run-time libraries for using MIDL are included with Windows. The
 | Topic                                                                                               | Description                                                                        |
 |-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | [Overview](about-this-guide-2.md)<br/>                                                       | General information about MIDL and the MIDL compiler.<br/>                   |
-| [Using the MIDL Compiler](using-the-midl-compiler-2.md)<br/>                                 | Information about using the MIDL compilter to generate RPC stubs.<br/>       |
+| [Using the MIDL Compiler](using-the-midl-compiler-2.md)<br/>                                 | Information about using the MIDL compiler to generate RPC stubs.<br/>       |
 | [Interface Definitions and Type Libraries](interface-definitions-and-type-libraries.md)<br/> | Documentation of RPC-specific interface definitions and type libraries.<br/> |
 | [MIDL Command-Line Reference](midl-command-line-reference.md)<br/>                           | Documentation of the MIDL compiler command-line switches.<br/>               |
 | [MIDL Language Reference](midl-language-reference.md)<br/>                                   | The MIDL compiler language reference.<br/>                                   |

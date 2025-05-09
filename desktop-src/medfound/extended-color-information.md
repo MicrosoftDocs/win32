@@ -98,7 +98,7 @@ Other components might need to use the color-space information in a media type:
 
 -   Software color-space converters should use color-space information when selecting a conversion algorithm.
 -   Video mixers, such as the enhanced video renderer (EVR) mixer, should use the color information when mixing video streams from different types of content.
--   The DXVA video processing APIs and DDIs enable the caller to specify color-space information. The GPU should use this information when it performs hardward video mixing.
+-   The DXVA video processing APIs and DDIs enable the caller to specify color-space information. The GPU should use this information when it performs hardware video mixing.
 
 ## Related topics
 

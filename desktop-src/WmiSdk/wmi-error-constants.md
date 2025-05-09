@@ -300,7 +300,7 @@ This error may be caused by many conditions, including the following:
 -   A missing [\#pragma namespace](pragma-namespace.md) command in the Managed Object Format (MOF) file used to register the provider. The provider may be registered in the wrong WMI namespace.
 -   Failure to retrieve the COM registration.
 -   Hosting model is not valid. For more information, see [Provider Hosting and Security](provider-hosting-and-security.md).
--   An class specified in the registration is not valid.
+-   A class specified in the registration is not valid.
 -   Failure to create an instance of or inherit from the [**\_\_Win32Provider**](--win32provider.md) class to create the provider registration in the MOF file.
 
 
