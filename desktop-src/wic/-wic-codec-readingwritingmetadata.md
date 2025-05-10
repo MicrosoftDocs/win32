@@ -118,7 +118,7 @@ if (SUCCEEDED(hr))
 
 
 
-Similarly, a query reader can also be obtained at the decoder level. A simple call to the decoder's **GetMetadataQueryReader** method gets the decoder's query reader. An decoder's query reader, unlike a frame's query reader, reads metadata for an image that is outside of the individual frames. However, this scenario is not common, and the native image formats do not support this capability. The native image CODECS provided by WIC read and write metadata at the frame level even for single-frame formats such as JPEG.
+Similarly, a query reader can also be obtained at the decoder level. A simple call to the decoder's **GetMetadataQueryReader** method gets the decoder's query reader. A decoder's query reader, unlike a frame's query reader, reads metadata for an image that is outside of the individual frames. However, this scenario is not common, and the native image formats do not support this capability. The native image CODECS provided by WIC read and write metadata at the frame level even for single-frame formats such as JPEG.
 
 ### Reading Metadata
 

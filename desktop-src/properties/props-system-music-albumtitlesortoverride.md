@@ -1,5 +1,5 @@
 ---
-description: This optional string value allows for overriding the standard sort order of System.Music.Album.This is very important for proper sorting of music files in Japanese which cannot becorrectly sorted phonetically (the user-expected ordering) without this field.It can also be used for customizing sorting in non-East Asian scenarios,such as allowing the user to remove articles for sorting purposes.
+description: This optional string value allows for overriding the standard sort order of System.Music.Album.This is very important for proper sorting of music files in Japanese which cannot be correctly sorted phonetically (the user-expected ordering) without this field.It can also be used for customizing sorting in non-East Asian scenarios, such as allowing the user to remove articles for sorting purposes.
 ms.assetid: 4a47ac6f-2730-45b7-848e-6d680396f10b
 title: System.Music.AlbumTitleSortOverride
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.Music.AlbumTitleSortOverride
 
-This optional string value allows for overriding the standard sort order of System.Music.Album.This is very important for proper sorting of music files in Japanese which cannot becorrectly sorted phonetically (the user-expected ordering) without this field.It can also be used for customizing sorting in non-East Asian scenarios,such as allowing the user to remove articles for sorting purposes.
+This optional string value allows for overriding the standard sort order of System.Music.Album.This is very important for proper sorting of music files in Japanese which cannot be correctly sorted phonetically (the user-expected ordering) without this field. It can also be used for customizing sorting in non-East Asian scenarios, such as allowing the user to remove articles for sorting purposes.
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8
 
