@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # System.ItemSubType
 
-Describes the sub-type of an item. The value is intended for display to the user.In contrast to System.ItemType, which is generally used to describe a class of itemsthat all have the same common content format, System.ItemSubType may differ based onthe individual contents or purpose of the item.For example, this property may be used to identify an item with System.ItemType = "jpg"as System.ItemSubType = "Panorama" or System.ItemSubType = "Smart Shot".
+Describes the sub-type of an item. The value is intended for display to the user.In contrast to System.ItemType, which is generally used to describe a class of items that all have the same common content format, System.ItemSubType may differ based onthe individual contents or purpose of the item.For example, this property may be used to identify an item with System.ItemType = "jpg"as System.ItemSubType = "Panorama" or System.ItemSubType = "Smart Shot".
 
 ## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507
 

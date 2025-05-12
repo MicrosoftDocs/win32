@@ -597,7 +597,7 @@ DWORD SendHttpPostResponse(
                         GENERIC_READ | GENERIC_WRITE, 
                         0,                  // Do not share.
                         NULL,               // No security descriptor.
-                        CREATE_ALWAYS,      // Overrwrite existing.
+                        CREATE_ALWAYS,      // Overwrite existing.
                         FILE_ATTRIBUTE_NORMAL,    // Normal file.
                         NULL
                         );
@@ -673,7 +673,7 @@ DWORD SendHttpPostResponse(
                     //
                     // Alternatively, the response could have been
                     // sent using chunked transfer encoding, by  
-                    // passimg "Transfer-Encoding: Chunked".
+                    // passing "Transfer-Encoding: Chunked".
                     //
 
                     // NOTE: Because the TotalBytesread in a ULONG
