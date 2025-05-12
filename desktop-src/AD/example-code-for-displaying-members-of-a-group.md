@@ -68,7 +68,7 @@ HRESULT PrintGroupObjectMembers(IADsGroup * pADsGroup)
                         for (ULONG i = 0; i < ulElementsFetched; i++ ) 
                         {
                             IDispatch * pDispatch         = NULL; 
-                            // Pointer for holding dispath of element.
+                            // Pointer for holding dispatch of element.
                             IADs      * pIADsGroupMember  = NULL; 
                             // IADs pointer to group member.
                             BSTR        bstrPath          = NULL; 

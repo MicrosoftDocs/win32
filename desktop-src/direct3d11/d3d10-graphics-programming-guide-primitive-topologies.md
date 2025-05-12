@@ -24,7 +24,7 @@ The following basic primitive types are supported:
 -   [Line List](/windows/desktop/direct3d9/line-lists)
 -   [Line Strip](/windows/desktop/direct3d9/line-strips)
 -   [Triangle List](/windows/desktop/direct3d9/triangle-lists)
--   [Triange Strip](/windows/desktop/direct3d9/triangle-strips)
+-   [Triangle Strip](/windows/desktop/direct3d9/triangle-strips)
 
 For a visualization of each primitive type, see the diagram later in this topic in [Winding Direction and Leading Vertex Positions](#winding-direction-and-leading-vertex-positions).
 

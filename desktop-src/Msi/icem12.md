@@ -41,7 +41,7 @@ Error. Standard actions should not use the BaseAction and After fields in Module
 Sequence tables. The standard action 'Action2' has a values entered in the BaseAction 
 or After fields of the ModuleAdminExecuteSequence table.
 
-Error. Standard actions must have a entry in the Sequence field of Module Sequence 
+Error. Standard actions must have an entry in the Sequence field of Module Sequence 
 tables. The standard action 'Action2' does not have a Sequence value in the 
 ModuleExecuteSequence table.
 ```
