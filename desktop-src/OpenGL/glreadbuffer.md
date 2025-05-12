@@ -54,7 +54,7 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 | Name                                                                                                  | Meaning                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *mode* was not an one of the twelve (or more) accepted values.<br/>                                                             |
+| <dl> <dt>**GL\_INVALID\_ENUM**</dt> </dl>      | *mode* was not one of the twelve (or more) accepted values.<br/>                                                             |
 | <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | *mode* specified a buffer that does not exist.<br/>                                                                             |
 | <dl> <dt>**GL\_INVALID\_OPERATION**</dt> </dl> | The function was called between a call to [**glBegin**](glbegin.md) and the corresponding call to [**glEnd**](glend.md).<br/> |
 

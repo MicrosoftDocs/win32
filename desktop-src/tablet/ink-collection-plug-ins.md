@@ -17,7 +17,7 @@ The following is a minimal scenario for using the [**RealTimeStylus**](realtimes
 3.  Set interest in the StylusDown, Packets, and StylusUp notifications in the form's [DataInterest](/previous-versions/ms574886(v=vs.100)) property.
 4.  In the form's [**StylusDown**](/windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusdown), [**Packets**](/windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-packets), and [**StylusUp**](/windows/desktop/api/RTSCom/nf-rtscom-istylusplugin-stylusup) methods, add code to handle the stylus down, packets, and stylus up notifications that are sent from the form's [**RealTimeStylus**](realtimestylus-class.md) object. This code should store the pen data, and create and store the strokes.
 
-For a sample of such an application, see the [RealTimeStylus Ink Collection Sample](realtimestylus-ink-collection-sample.md) sample.
+For a sample of such an application, see the [RealTimeStylus Ink Collection Sample](realtimestylus-ink-collection-sample.md).
 
 > [!Note]  
 > When a [DisplaySettingsChanged](/dotnet/api/microsoft.win32.systemevents.displaysettingschanged?view=dotnet-plat-ext-3.1&preserve-view=true) event occurs, call the [**ModifyDrawingAttributes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-modifydrawingattributes) method of the collected strokes in a DisplaySettingsChanged event handler to recalculate the [Width](/previous-versions/ms582112(v=vs.100)) and [Height](/previous-versions/ms582106(v=vs.100)) properties. This is necessary to account for possible dots per inch (dpi) changes that result from the DisplaySettingsChanged event.

@@ -99,7 +99,7 @@ Note that if the value in the Type field is **msidbLocatorTypeRawValue**, the in
 
 | Registry type   | Prefix added by Installer                                                                                                               |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| REG\_SZ         | None, but if the first character of the registry value is \#, the installer escapes the character by prefixing a another \#.            |
+| REG\_SZ         | None, but if the first character of the registry value is \#, the installer escapes the character by prefixing another \#.            |
 | DWORD           | "\#" optionally followed by '+' or '-'                                                                                                  |
 | REG\_EXPAND\_SZ | "\#%"                                                                                                                                   |
 | REG\_MULTI\_SZ  | Null. The installer sets the property to a value beginning with a null and ending with a null.                                          |
