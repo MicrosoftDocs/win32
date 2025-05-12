@@ -58,7 +58,7 @@ Event providers must not make any class changes while servicing a call. They als
 [Developing a WMI Provider](developing-a-wmi-provider.md)
 </dt> <dt>
 
-[Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md)
+[Setting Namespace Security Descriptors](setting-namespace-security-descriptors.md)
 </dt> <dt>
 
 [Securing Your Provider](securing-your-provider.md)

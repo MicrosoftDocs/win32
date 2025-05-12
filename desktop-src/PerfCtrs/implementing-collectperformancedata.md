@@ -15,7 +15,7 @@ The `pQuery` parameter will be one of the following:
 - A space-delimited list of one or more decimal integers: Collect performance data for any supported object types in the list.
 - `Global`: Collect performance data for all supported local object types except for those included in the `Costly` category.
 - `Costly`: Collect performance data for all supported local object types whose data is expensive to collect in terms of processor time or memory usage. (Obsolete: there should normally be no object types in this category.)
-- `Foreigh`: Collect performance data for all supported remote object types. (Obsolete: there should normally be no object types in this category.)
+- `Foreign`: Collect performance data for all supported remote object types. (Obsolete: there should normally be no object types in this category.)
 - `MetadataGlobal` (**new**): Collect metadata for all supported local object types except for those included in the `Costly` category. This is the same as `Global` except that `NumInstances` should be set to either `PERF_METADATA_MULTIPLE_INSTANCES` or `PERF_METADATA_NO_INSTANCES`, and the result should not include any `PERF_INSTANCE_DEFINITION` blocks.
 - `MetadataCostly` (**new**): Collect metadata for all supported local object types included in the `Costly` category. This is the same as `Costly` except that `NumInstances` should be set to either `PERF_METADATA_MULTIPLE_INSTANCES` or `PERF_METADATA_NO_INSTANCES`, and the result should not include any `PERF_INSTANCE_DEFINITION` blocks.
 
