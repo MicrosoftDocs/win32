@@ -104,7 +104,7 @@ int __cdecl wmain()
     WS_LISTENER* listener = NULL;
     WS_HEAP* heap = NULL;
     
-    // declare and initialize an Windows SSPI transport security binding
+    // declare and initialize a Windows SSPI transport security binding
     WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING sspiBinding = {}; // zero out the struct
     sspiBinding.binding.bindingType = WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING_TYPE; // set the binding type
     

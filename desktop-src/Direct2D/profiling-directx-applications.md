@@ -44,7 +44,7 @@ Click the Start button and type "System Variables". The System Properties window
 
 Most apps expect to run smoothly and be responsive to user input. However, depending upon the scenario the you want, one aspect of performance might be more important than another. For instance, for a news reader app running on a touch tablet PC, the most important aspect is to view a single article at a time and to pan/zoom/scroll through the same or a different article. In this scenario the ability to render all the content every frame is not necessary. However, the ability to scroll through the article smoothly upon a touch gesture is extremely important.
 
-In another instance, a game or a video rendering app that uses lots of animations glitches if frames are dropped. In this case, the ability to present content on the screen without interuption from user input is extremely important.
+In another instance, a game or a video rendering app that uses lots of animations glitches if frames are dropped. In this case, the ability to present content on the screen without interruption from user input is extremely important.
 
 In order to understand which part of the app is problematic, the first step is to decide on the most important scenarios. Once the core aspects of the app are understood and how they will be exercised, looking for problems using the tools becomes easier.
 

@@ -9,7 +9,7 @@ ms.date: 07/15/2024
 # Getting Ready to Use CAPICOM
 
 > [!NOTE]
-> CAPICOM 2.1.0.2 was available in the [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-sdk/) for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. For x64 and use in later operating systems, instead use .NET or .NET Framework to implement security features. For more alternatives and addtional information, see [Alternatives to Using CAPICOM](alternatives-to-using-capicom.md).
+> CAPICOM 2.1.0.2 was available in the [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-sdk/) for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. For x64 and use in later operating systems, instead use .NET or .NET Framework to implement security features. For more alternatives and additional information, see [Alternatives to Using CAPICOM](alternatives-to-using-capicom.md).
 
 > [!NOTE]
 > For information about CAPICOM versions, see [CAPICOM Versions](capicom-versions.md).

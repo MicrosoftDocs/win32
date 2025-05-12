@@ -1999,7 +1999,7 @@ The transactional resource manager cannot currently accept transacted work due t
 
 
 
-The transactional resource manager had too many tranactions outstanding that could not be aborted. The transactional resource manger has been shut down.
+The transactional resource manager had too many transactions outstanding that could not be aborted. The transactional resource manger has been shut down.
 
 
    
