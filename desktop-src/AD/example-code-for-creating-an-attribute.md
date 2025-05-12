@@ -23,7 +23,7 @@ The **BytesToVariantArray** function is a utility function that packs an octet s
 
     BytesToVariantArray()
 
-    Converts an arrya of BYTEs into a VARIANT array.
+    Converts an array of BYTEs into a VARIANT array.
 
     Parameters:
 
@@ -152,7 +152,7 @@ HRESULT BytesToVariantArray(
     Contains zero if the range should not be set.
     
     iLinkID - Contains the value for the linkID attribute. If this
-    cotnains zero, the linkID attribute is not set.
+    contains zero, the linkID attribute is not set.
     
     pwszAdminDisplayName - Contains a null-terminated string that 
     contains the admin display name of the attribute.
@@ -216,7 +216,7 @@ HRESULT CreateAttribute(
 
     CComVariant svarSchema;
      
-    // Get the disintguished name of the schema container.
+    // Get the distinguished name of the schema container.
     hr = spRoot->Get(CComBSTR("schemaNamingContext"), &svarSchema);
     if(FAILED(hr))
     {

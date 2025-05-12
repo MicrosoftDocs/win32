@@ -86,7 +86,7 @@ Access type: Read-only
 Qualifiers: [**Override**](/windows/desktop/WmiSdk/standard-qualifiers) ("ElementName")
 </dt> </dl>
 
-An user-defined name for the collection. Note this is not guaranteed to be unique.
+A user-defined name for the collection. Note this is not guaranteed to be unique.
 
 </dd> <dt>
 
