@@ -39,7 +39,7 @@ To decide, consider these questions:
 -   **Does setting the properties require users to perform a fixed, non-trivial sequence of steps?** If so, use a [wizard](win-wizards.md) or [task flow](glossary.md) instead.
 -   **Is the content solely an application's options?** If so, use an options dialog box.
 -   **Is the content solely an application's attributes?** If so, use an [About box](glossary.md).
--   **Is the content mostly an object's properties (its settings or attributes)?** If not, use a standard [dialog boxe](win-dialog-box.md) or [tabbed dialog box](glossary.md).
+-   **Is the content mostly an object's properties (its settings or attributes)?** If not, use a standard [dialog box](win-dialog-box.md) or [tabbed dialog box](glossary.md).
 -   Are users **likely to view or change properties frequently or over an extended period of time?** If so, use a property inspector; otherwise, use a property sheet.
 -   Are users **likely to view or change properties for several different objects at a time?** If so, use a property inspector; otherwise, use a property sheet.
 
