@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Using Side-by-Side Assemblies as a Resource
 
-You can add a manifest to a application as a resource in the application's binary executable header file. The value of the MANIFEST\_RESOURCE\_ID determines how the side-by-side assembly dependencies described in the manifest are used by the loader.
+You can add a manifest to an application as a resource in the application's binary executable header file. The value of the MANIFEST\_RESOURCE\_ID determines how the side-by-side assembly dependencies described in the manifest are used by the loader.
 
 If you set the MANIFEST\_RESOURCE\_ID to 1, the loader uses the side-by-side assembly dependencies specified in the manifest as the process default. All plug-ins also use this process default.
 
