@@ -368,7 +368,7 @@ For more detailed information, see the [**SIO_QUERY_WFP_CONNECTION_REDIRECT_RECO
 
 ### SIO\_RCVALL (opcode setting: I, T==3)
 
-Enables a socket to receive all IPv4 or IPv6 packets passing throuigh a network interface. The socket handle passed to the [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) function must be one of the following:
+Enables a socket to receive all IPv4 or IPv6 packets passing through a network interface. The socket handle passed to the [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) function must be one of the following:
 
 -   An IPv4 socket that was created with the address family set to AF\_INET, the socket type set to SOCK\_RAW, and the protocol set to IPPROTO\_IP.
 -   An IPv6 socket that was created with the address family set to AF\_INET6, the socket type set to SOCK\_RAW, and the protocol set to IPPROTO\_IPV6.
