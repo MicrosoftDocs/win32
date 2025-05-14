@@ -25,7 +25,7 @@ Consider [**MFCreateASFMediaSinkActivate**](/windows/desktop/api/wmcontainer/nf-
 
      
 
--   The stream information is configured in the ContentInfo object. Disucssed in the next sub-section.
+-   The stream information is configured in the ContentInfo object. Discussed in the next sub-section.
 
 After creating the ASF file sink it must be configured before building the topology. The file sink needs to know the following information in order to generate the output file.
 
