@@ -99,7 +99,7 @@ These topics have been added to the Direct3D documentation for Windows 10, vers
 -   Refer to the [HLSL Shader Model 6.0 Overview](../direct3dhlsl/hlsl-shader-model-6-0-features-for-direct3d-12.md), which describes the wave intrinsic operations for multi-threaded pixel and compute shaders.
 -   The use of [**ID3D12Device::SetStablePowerState**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-setstablepowerstate) has changed.
 -   Some new features for Direct3D 11 are described in [Direct3D 11.4 Features](../direct3d11/direct3d-11-4-features.md).
--   [**AtomicCopyBufferUINT**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint) and [**AtomicCopyBufferUINT64**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint64) enable **late-latch** to reduce pervieved latency.
+-   [**AtomicCopyBufferUINT**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint) and [**AtomicCopyBufferUINT64**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-atomiccopybufferuint64) enable **late-latch** to reduce perceived latency.
 -   [**ID3D12Device2::CreatePipelineState**](/windows/win32/api/d3d12/nf-d3d12-id3d12device2-createpipelinestate) and [**OMSetDepthBounds**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-omsetdepthbounds) enable **depth-bounds testing** on supported hardware.
 -   [**ResolveSubresourceRegion**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-resolvesubresourceregion) enables **partial resolution** of subresources to help optimize performance.
 -   [**SetSamplePositions**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist1-setsamplepositions) enables **programable sample positions** on supported hardware.

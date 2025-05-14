@@ -31,7 +31,7 @@ g\_wszWMDRM\_HeaderSignPrivKey
 
 ## Remarks
 
-This property is generated using the [**IWMDRMWriter::GenerateSigningKeyPair**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-generatesigningkeypair). Keep this key secret and share the public key only with the license service. After you set this key, the DRM component will use it to sign the ASF file header (not the DRM header which is signed with the digital signature object values such as DRM\_LASignaturePrivKey). Obviously, **DRM\_HeaderSignPrivKey** is not included in the file headert.
+This property is generated using the [**IWMDRMWriter::GenerateSigningKeyPair**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-generatesigningkeypair). Keep this key secret and share the public key only with the license service. After you set this key, the DRM component will use it to sign the ASF file header (not the DRM header which is signed with the digital signature object values such as DRM\_LASignaturePrivKey). Obviously, **DRM\_HeaderSignPrivKey** is not included in the file header.
 
 This property is not accessible from the reader object. It can be set from the writer object using [**IWMDRMWriter::SetDRMAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmdrmwriter-setdrmattribute).
 

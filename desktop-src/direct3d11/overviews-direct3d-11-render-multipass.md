@@ -26,7 +26,7 @@ The following pseudocode shows how to perform multiple-pass rendering:
 
     // The following texturing by the deferred contexts occurs after the 
     // immediate context makes calls to ExecuteCommandList. 
-    // Resource X is then comletely updated by the immediate context. 
+    // Resource X is then completely updated by the immediate context. 
     DefCtx1->Draw(); // Pass 1: deferred context 1 performs texturing from resource X.
     DefCtx2->Draw(); // Pass 2: deferred context 2 performs texturing from resource X.
       }
@@ -36,7 +36,7 @@ The following pseudocode shows how to perform multiple-pass rendering:
   DefCtx2->FinishCommandList( &pCL2 );
 
   ImmCtx->ExecuteCommandList( pCL1 ); // Execute pass 1.
-  ImmCtx->ExecuteCommandList( pCL2 ); // Exeucte pass 2.
+  ImmCtx->ExecuteCommandList( pCL2 ); // Execute pass 2.
 }
 ```
 

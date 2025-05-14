@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MTP Extension Events
 
-Events notify an application that changes have occurred on, or with, a device. For example, an application can register to receive notfications that a device has been removed .
+Events notify an application that changes have occurred on, or with, a device. For example, an application can register to receive notifications that a device has been removed .
 
 ## Vendor-Extended Event Codes
 
