@@ -55,7 +55,7 @@ A pointer to an [**ID3DX11EffectVariable**](id3dx11effectvariable.md).
 
 ## Remarks
 
-If the effect variable is an structure, use this method to look up a member by name.
+If the effect variable is a structure, use this method to look up a member by name.
 
 > [!Note]  
 > The DirectX SDK does not supply any compiled binaries for effects. You must use Effects 11 source to build your effects-type application. For more information about using Effects 11 source, see [Differences Between Effects 10 and Effects 11](d3d11-graphics-programming-guide-effects-differences.md).
