@@ -1578,7 +1578,7 @@ The following PowerShell code sample retrieves controller information.
 ```PowerShell
   function Get-Availability {
 param ([uint16] $char)
-# Helper function to return characterics of the 1394 Controller
+# Helper function to return characteristics of the 1394 Controller
 # parse and return values
  If ($char -ge 1 -and $char -le 17) {
    switch ($char) {

@@ -16,7 +16,7 @@ In the administrative MMC snap-ins of Active Directory Domain Services, the user
 There are two ways to extend a creation wizard:
 
 -   Replace an existing wizard, or provide one if one does not exist for the class: The existing wizard is replaced by creating a *primary object creation extension*. A primary creation extension provides the first set of pages and is hosted in the same way as native pages. A primary creation extension also supports the extensibility mechanism so that other creation wizard extensions can be invoked. For an example of a primary extension, see the scpwizard sample in the Platform Software Development Kit (SDK).
--   Extend an existing wizard: An existing wizard can be extended with an *secondary object creation extension*. A secondary creation extension adds wizard pages to the native pages or primary extension. For more information and an example of a secondary creation extension, see the userwizard sample in the Platform SDK.
+-   Extend an existing wizard: An existing wizard can be extended with a *secondary object creation extension*. A secondary creation extension adds wizard pages to the native pages or primary extension. For more information and an example of a secondary creation extension, see the userwizard sample in the Platform SDK.
 
 ## Developer Audience
 

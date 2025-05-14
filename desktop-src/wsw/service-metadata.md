@@ -48,7 +48,7 @@ serviceProperties[0].value =  &serviceMetadata;
 serviceProperties[0].ValueSize = sizeof(serviceMetadata);
 ```
 
-Note that no verification of the individual metadata documents will be performed on the documents. It is the responsiblity of the application to validate contents of the documents and ensure that all the imports paths are relatively specified.
+Note that no verification of the individual metadata documents will be performed on the documents. It is the responsibility of the application to validate contents of the documents and ensure that all the imports paths are relatively specified.
 
 The namespace specified is used to locate the document in which the service element will be added by the service host.
 
@@ -56,7 +56,7 @@ Addition of service element to the WSDL document
 
 The service host provides facility for the application to add a service element on its behalf if one is not already specified. In order to enable this behavior an application must specify serivceName and serviceNs fields on the [**WS\_SERVICE\_METADATA**](/windows/desktop/api/WebServices/ns-webservices-ws_service_metadata) structure. If serviceName and serviceNs are both **NULL** no service element is added to the WSDL document. Both these are used to identify document in which the serviceElement is going to be added.
 
-If [**WS\_SERVICE\_PROPERTY\_METADATA**](/windows/desktop/api/WebServices/ne-webservices-ws_service_property_id) property is not specified no metadata exhange will take place on the service host.
+If [**WS\_SERVICE\_PROPERTY\_METADATA**](/windows/desktop/api/WebServices/ne-webservices-ws_service_property_id) property is not specified no metadata exchange will take place on the service host.
 
 Specifying the port on the WS\_SERVICE\_ENDPOINT
 
