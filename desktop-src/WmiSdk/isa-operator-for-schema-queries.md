@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 
 The ISA operator is a WQL-specific operator that can be used in data, event, and schema queries.
 
-When ISA is included in the [WHERE clause](where-clause.md) of an schema query, it requests that the query be applied to all subclasses of the class you specify.
+When ISA is included in the [WHERE clause](where-clause.md) of a schema query, it requests that the query be applied to all subclasses of the class you specify.
 
 For example, the following statement requests notification every 10 minutes of instance modification events for all instances that are members of any class deriving from the [**Win32\_LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) class.
 

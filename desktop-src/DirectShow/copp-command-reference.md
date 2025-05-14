@@ -36,7 +36,7 @@ Set Signaling Command
 
 Specifies information about the video signal other than the protection level.
 
-For CGMS-A, certain protection standards require that the televsion signal contains information about the aspect ratio and other information within the same VBI waveform packets as the CGMS-A bits. Televisions may display poorly if the aspect ratio information is not consistent with the video stream. The application can use this command to specify the aspect ratio so that the graphics driver can generate the correct VBI packets.
+For CGMS-A, certain protection standards require that the television signal contains information about the aspect ratio and other information within the same VBI waveform packets as the CGMS-A bits. Televisions may display poorly if the aspect ratio information is not consistent with the video stream. The application can use this command to specify the aspect ratio so that the graphics driver can generate the correct VBI packets.
 
 This command is also designed to be extensible if additional signal information is required in future standards.
 
