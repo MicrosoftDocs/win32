@@ -39,38 +39,40 @@
       href: dual-sta-query-config.md
     - name: "Wireless Hosted Network Sample"
       href: wireless-hosted-network-sample.md
-    - name: "Wired Profile Samples"
+    - name: "Wired profile samples"
       href: wired-profile-samples.md
       items: 
-      - name: "Machine Certificate Profile Sample"
+      - name: "Machine Certificate profile sample"
         href: machine-certificate-profile-sample.md
-      - name: "PEAP Profile Sample"
+      - name: "PEAP profile sample"
         href: peap-profile-sample.md
-      - name: "Smart Card Certificate Profile Sample"
+      - name: "Smart Card Certificate profile sample"
         href: smart-card-certificate-profile-sample.md
-    - name: "Wireless Profile Samples"
+    - name: "Wireless profile samples"
       href: wireless-profile-samples.md
       items: 
-      - name: "Bootstrap Profile Sample"
-        href: bootstrap-profile-sample.md
-      - name: "FIPS Profile Sample"
-        href: fips-profile-sample.md
-      - name: "Non-Broadcast profile sample"
-        href: non-broadcast-profile-sample.md
-      - name: "Single Sign-On Profile Sample"
-        href: single-sign-on-profile-sample.md
-      - name: "WPA-Enterprise with PEAP-MSCHAPv2 Profile Sample"
-        href: wpa-enterprise-with-peap-mschapv2-profile-sample.md
-      - name: "WPA-Enterprise with TLS Profile Sample"
-        href: wpa-enterprise-with-tls-profile-sample.md
-      - name: "WPA-Personal profile sample"
-        href: wpa-personal-profile-sample.md
-      - name: "WPA2-Enterprise with PEAP-MSCHAPv2 Profile Sample"
+      - name: "WPA3-Enterprise with TEAP profile sample"
+        href: wpa3-enterprise-with-teap-profile-sample.md
+      - name: "WPA3-Enterprise 192-bit mode with EAP-TLS profile sample"
+        href: wpa3-enterprise-192bit-with-tls-profile-sample.md
+      - name: "WPA3-Personal with transition mode profile sample"
+        href: wpa3-personal-transition-profile-sample.md
+      - name: "WPA2-Enterprise with PEAP-MSCHAPv2 profile sample"
         href: wpa2-enterprise-with-peap-mschapv2-profile-sample.md
-      - name: "WPA2-Enterprise with TLS Profile Sample"
+      - name: "WPA2-Enterprise with TLS profile sample"
         href: wpa2-enterprise-with-tls-profile-sample.md
       - name: "WPA2-Personal profile sample"
         href: wpa2-personal-profile-sample.md
+      - name: "Bootstrap profile sample"
+        href: bootstrap-profile-sample.md
+      - name: "FIPS profile sample"
+        href: fips-profile-sample.md
+      - name: "Non-Broadcast profile sample"
+        href: non-broadcast-profile-sample.md
+      - name: "Single Sign-On profile sample"
+        href: single-sign-on-profile-sample.md
+      - name: "EAP-AKA profile sample"
+        href: eap-aka-profile-sample.md
   - name: "Native Wifi reference"
     href: native-wifi-reference.md
     items: 

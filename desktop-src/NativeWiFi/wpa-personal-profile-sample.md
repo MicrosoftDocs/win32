@@ -3,18 +3,21 @@ description: Uses a pre-shared key for network authentication. This sample profi
 ms.assetid: f04de28b-a98d-40cd-91c8-e446cf669555
 title: WPA-Personal profile sample
 ms.topic: sample
-ms.date: 05/31/2018
+ms.date: 05/14/2025
 ---
 
 # WPA-Personal profile sample
 
 This sample profile uses a pre-shared key for network authentication. The key is shared with the client and the access point. This sample profile is configured to use Wi-Fi Protected Access security running in Personal mode (WPA-Personal). Temporal Key Integrity Protocol (TKIP) is used for encryption.
 
+> [!warning]
+> TKIP is an outdated and insecure security standard with known vulnerabilities. If possible, we suggest moving to a more secure standard, such as WPA3, which uses AES for encryption.
+
 **Windows 7 and Windows Server 2008 R2 with the Wireless LAN Service installed:** Changes are implemented on Windows 7 and Windows Server 2008 R2 with the Wireless LAN Service installed to optimize wireless networking performance. The default setting for [**autoSwitch**](wlan-profileschema-wlanprofile-element.md#autoswitch) when this element is not set in a wireless LAN profile has changed. The default setting is changed to "false" on Windows 7 and Windows Server 2008 R2 with the Wireless LAN Service installed. The default setting was "true" on Windows Server 2008 and Windows Vista. Please refer to the [**autoSwitch**](wlan-profileschema-wlanprofile-element.md#autoswitch) schema element description for more information.
 
 **Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** The [**name**](wlan-profileschema-wlanprofile-element.md#name) child of the [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) element is ignored. The name of the profile, as stored in the profile store, is derived from the [**name**](wlan-profileschema-ssid-ssidconfig-element.md#name) child of the [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) element.
 
-``` syntax
+```xml
 <?xml version="1.0" encoding="US-ASCII"?>
 <WLANProfile xmlns="https://www.microsoft.com/networking/WLAN/profile/v1">
     <name>SampleWPAPSK</name>
@@ -42,7 +45,7 @@ The shared key has been omitted from this sample profile. If you try to use this
 
 The following snippet shows a [**sharedKey**](wlan-profileschema-sharedkey-security-element.md) element that contains an unencrypted key. You must replace the comment `<!-- insert key here -->` with the actual unencrypted key before using this snippet in a profile.
 
-``` syntax
+```xml
 <sharedKey>
     <keyType>passPhrase</keyType>
     <protected>false</protected>
@@ -52,14 +55,5 @@ The following snippet shows a [**sharedKey**](wlan-profileschema-sharedkey-secur
 
 ## Related topics
 
-<dl> <dt>
-
-[Wireless profile samples](wireless-profile-samples.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
+* [Wireless profile samples](wireless-profile-samples.md)
+* [WLAN_profile schema](wlan-profileschema-schema.md)

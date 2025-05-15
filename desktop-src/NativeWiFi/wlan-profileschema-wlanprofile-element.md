@@ -2,7 +2,7 @@
 title: WLANProfile element
 description: Contains a wireless LAN profile.
 ms.topic: reference
-ms.date: 06/25/2023
+ms.date: 05/14/2025
 topic_type: 
 - APIRef
 - kbSyntax
@@ -119,7 +119,7 @@ If [**connectionType**](wlan-profileschema-wlanprofile-element.md#connectiontype
 
 If [**connectionType**](wlan-profileschema-wlanprofile-element.md#connectiontype) is set to IBSS, this value must be manual.
 
-``` syntax
+```XSD
 <xs:element name="connectionMode">
     <xs:simpleType>
         <xs:restriction

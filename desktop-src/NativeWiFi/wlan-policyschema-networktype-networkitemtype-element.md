@@ -3,7 +3,7 @@ description: Specifies a network type.
 ms.assetid: fe3044ab-6e93-48f8-b8cb-fdf984987232
 title: networkType (networkItemType) Element
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 05/14/2025
 topic_type: 
 - APIRef
 - kbSyntax
@@ -18,7 +18,7 @@ api_location:
 
 The networkType (networkItemType) element specifies a network type. There are two types of networks: infrastructure networks (ESS) and ad-hoc networks (IBSS).
 
-``` syntax
+```XSD
 <xs:element name="networkType"
     type="networkTypeType"
  />
@@ -55,11 +55,3 @@ The **networkType** element is defined by the [**networkItemType**](wlan-policys
 
 [**network (blockList)**](wlan-policyschema-network-blocklist-element.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-
