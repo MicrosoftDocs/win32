@@ -5,7 +5,7 @@ ms.topic: concept-article
 ms.date: 08/26/2024
 ---
 
-# Packaging a Win32 app isolation application with Visual Studio
+# Packaging an isolated Win32 application with Visual Studio
 
 This page will cover everything needed to package an application to leverage Win32 app isolation.
 
