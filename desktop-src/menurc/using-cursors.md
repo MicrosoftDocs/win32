@@ -25,6 +25,7 @@ ms.date: 05/31/2018
 This section discusses the following topics.
 
 -   [Creating a Cursor](#creating-a-cursor)
+-   [Creating an Alpha Blended Cursor](#creating-an-alpha-blended-cursor)
 -   [Getting a Cursor size](#getting-a-cursor-size)
 -   [Displaying a Cursor](#displaying-a-cursor)
 -   [Confining a Cursor](#confining-a-cursor)
@@ -155,7 +156,7 @@ To create the cursor, [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser
 
 For more information, see [Bitmaps](/windows/desktop/gdi/bitmaps).
 
-## Creating an Alpha Blended Cursors
+## Creating an Alpha Blended Cursor
 
 Follow these steps to create an alpha blended cursor or icon at run time:
 - Complete a [**BITMAPV5HEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapv5header) structure, as in the code example following these steps, to define a 32 bits per pixel (BPP) alpha blended DIB.
