@@ -25,16 +25,16 @@ If you have a feature request or wish to report a bug, file an issue in our GitH
 
 ## Minimum requirements
 
-The following are the minimum requirements to create a Win32 app isolation app:
+The following are the minimum requirements to create an isolated Win32 app:
 
 - Windows 11, version 24H2 (build 26100) or later.
 - Development tools for packaging:
   - [Visual Studio](https://visualstudio.microsoft.com/) version 17.10.2 or greater.
 - (Optional) [Application Capability Profiler (ACP)](https://github.com/microsoft/win32-app-isolation/releases/tag/v0.1.1) and [Windows Performance Recorder (WPR)](/windows-hardware/test/wpt/windows-performance-recorder) are available, if you need to identify the capabilities to use.
 
-## Creating a Win32 app isolation app
+## Creating an isolated Win32 app
 
-These are the steps to consider when creating a Win32 app isolation app:
+These are the steps to consider when creating an isolated Win32 app:
 
 -  Follow the [packaging instructions](app-isolation-packaging-with-vs.md) for Visual Studio.
 - If you need to identify the required capabilities:
