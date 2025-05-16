@@ -108,7 +108,7 @@ There are many restrictions as to what can be done in the cleanup code with eith
 
 <dl> <dt>
 
-[Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md)
+[Setting Namespace Security Descriptors](setting-namespace-security-descriptors.md)
 </dt> <dt>
 
 [Securing Your Provider](securing-your-provider.md)
