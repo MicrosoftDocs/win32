@@ -66,7 +66,7 @@ The ACE denies access to the namespace.
 [WMI Security Constants](wmi-security-constants.md)
 </dt> <dt>
 
-[Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md)
+[Setting Namespace Security Descriptors](setting-namespace-security-descriptors.md)
 </dt> <dt>
 
 [Establishing Inheritance of Namespace Security](establishing-inheritance-of-namespace-security.md)

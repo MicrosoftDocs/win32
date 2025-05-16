@@ -41,7 +41,7 @@ HRESULT get_IsSetNextSourceSupported(
 
 ## Property value
 
-A pointer to a**boolean** that indicates if setting the next source is supported.
+A pointer to a **boolean** that indicates if setting the next source is supported.
 
 **true** if setting the next source is supported; otherwise, **false**.
 
