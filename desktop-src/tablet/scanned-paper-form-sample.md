@@ -1,5 +1,5 @@
 ---
-description: In this C\# sample, a paper form has been scanned as a Portable Network Graphics (PNG) file and specified as the background image at run time for a InkPicture control. The sample uses a message box to display handwriting recognition results.
+description: In this C\# sample, a paper form has been scanned as a Portable Network Graphics (PNG) file and specified as the background image at run time for an InkPicture control. The sample uses a message box to display handwriting recognition results.
 ms.assetid: fc9a39c2-9e4b-4d22-a118-3d24544897dd
 title: Scanned Paper Form Sample
 ms.topic: sample
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Scanned Paper Form Sample
 
-In this C\# sample, a paper form has been scanned as a Portable Network Graphics (PNG) file and specified as the background image at run time for a [InkPicture](/previous-versions/aa514604(v=msdn.10)) control. The sample uses a message box to display handwriting recognition results.
+In this C\# sample, a paper form has been scanned as a Portable Network Graphics (PNG) file and specified as the background image at run time for an [InkPicture](/previous-versions/aa514604(v=msdn.10)) control. The sample uses a message box to display handwriting recognition results.
 
 The sample includes an Extensible Markup Language (XML) file, Formdata.xml. The XML file contains the name of the PNG file. It also contains `FieldInfo` elements that define rectangular regions on the form where a user can enter ink. The information in the `FieldInfo` element is shown in the following example:
 

@@ -207,7 +207,7 @@ When you build your application, the manifest will be added as a binary resource
 
 ## Adding Visual Style Support to an Extension, Plug-in, MMC Snap-in or a DLL That Is Brought into a Process
 
-Support for visual styles can be added to an extension, plug-in, MMC snap-in, or a DLL that is brought into a process. For example, use the following steps to add visual styles support for an Microsoft Management Console (MMC) snap-in.
+Support for visual styles can be added to an extension, plug-in, MMC snap-in, or a DLL that is brought into a process. For example, use the following steps to add visual styles support for a Microsoft Management Console (MMC) snap-in.
 
 1.  Compile your snap-in with the -DISOLATION\_AWARE\_ENABLED flag or insert the following statement before the \#include "windows.h" statement.
 
