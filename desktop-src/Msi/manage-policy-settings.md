@@ -34,7 +34,7 @@ If no arguments are specified on the command line, the sample returns the curren
 | EU   | System privileges (HKCU). For more information, see [AlwaysInstallElevated](alwaysinstallelevated.md).                                      |
 | DR   | Disable rollback policy. For more information, see [DisableRollback](disablerollback.md).                                                   |
 | TS   | Locate transforms at root of source image. For more information, see [TransformsAtSource policy](transformsatsource-policy.md).             |
-| TP   | Pin secure tranforms in client-side-cache. For more information, see [TransformsSecure policy](transformssecure-policy.md).                 |
+| TP   | Pin secure transforms in client-side-cache. For more information, see [TransformsSecure policy](transformssecure-policy.md).                 |
 | SO   | Search order of source types. For more information, see [SearchOrder](searchorder.md).                                                      |
 
 
