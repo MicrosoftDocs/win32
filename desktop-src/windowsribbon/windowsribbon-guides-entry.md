@@ -68,7 +68,7 @@ The Ribbon framework exposes a set of properties that allow an application to sp
 
 [Persisting Ribbon State](ribbon-statepersistence.md)
 
-The Windows Ribon framework (Ribbon) provides the ability to preserve the state of a variety of user settings and preferences across application sessions.
+The Windows Ribbon framework (Ribbon) provides the ability to preserve the state of a variety of user settings and preferences across application sessions.
 
 [Listening for Ribbon Events](listening-for-ribbon-events.md)
 

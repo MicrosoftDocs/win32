@@ -231,7 +231,7 @@ Private Sub chHideLayer_CheckedChanged(ByVal sender As System.Object, ByVal e As
             ' If ink collection is enabled, the active ink cannot be changed
             ' and it is necessary to restore the checkbox to its previous value.
             chHideLayer.Checked = selectedHidden
-            MessageBox.Show("Cannot change visiblity while collecting ink.")
+            MessageBox.Show("Cannot change visibility while collecting ink.")
        End If
    End If
 End Sub

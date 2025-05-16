@@ -24,7 +24,7 @@ The \<search condition\> portion of the WHERE clause is one or more search predi
 
 The result of a search condition is a Boolean value, either **TRUE** if the document meets the specified search conditions, or **FALSE** if it does not. If the result is **TRUE**, the document is returned. If the result is **FALSE**, the document is not returned. Documents returned in a Microsoft Windows Search query are assigned rank values according to how well they match the search conditions. Each of the query search conditions can include a [RANKBY](-search-sql-rankby.md) clause that supports modifying the returned rank values.
 
-The [ReuseWhere function](-search-sql-reusewhere.md) makes multiple queries that use the some of the same search conditions more efficient. The WHERE clause in a query specifies the set of items that match in a query. Subsequent queries can share the work performed for the previous evalution by using the ReuseWhere function in the new query WHERE clause.
+The [ReuseWhere function](-search-sql-reusewhere.md) makes multiple queries that use the some of the same search conditions more efficient. The WHERE clause in a query specifies the set of items that match in a query. Subsequent queries can share the work performed for the previous evaluation by using the ReuseWhere function in the new query WHERE clause.
 
 ## Search Predicates
 

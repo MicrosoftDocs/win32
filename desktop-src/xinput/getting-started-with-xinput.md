@@ -92,7 +92,7 @@ In order for users to have a consistent gameplay experience, your game must impl
 
 Applications should use "dead zones" on analog inputs (triggers, sticks) to indicate when a movement has been made sufficiently on the stick or trigger to be considered valid.
 
-Your application should check for dead zones and respond appopriately, as in this example:
+Your application should check for dead zones and respond appropriately, as in this example:
 
 ```cpp
 XINPUT_STATE state = g_Controllers[i].state;
