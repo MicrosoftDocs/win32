@@ -564,7 +564,7 @@ BOOL LoadIconBitmaps(void)
     return FALSE;
 }
 
-// Frees the icon bitmps.
+// Frees the icon bitmaps.
 //
 void DeleteIconBitmaps(void)
 {

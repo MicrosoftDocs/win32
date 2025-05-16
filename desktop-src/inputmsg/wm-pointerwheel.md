@@ -76,7 +76,7 @@ If the application does not process this message, it should call [**DefWindowPro
 
 To retrieve the wheel scroll units, use the **inputData** filed of the [**POINTER_INFO**](/windows/win32/api/winuser/ns-winuser-pointer_info) structure returned by calling [**GetPointerInfo**](/windows/win32/api/winuser/ns-winuser-pointer_info) function. This field contains a signed value and is expressed in a multiple of **WHEEL_DELTA**. A positive value indicates a rotation forward and a negative value indicates a rotation backward.
 
-Note that the wheel inputs may be delivered even if the mouse cursor is located outside of application s window. The wheel messages are delivered in a way very similar to the keyboard inputs. The focus window of the foregournd message queue receives the wheel messages.
+Note that the wheel inputs may be delivered even if the mouse cursor is located outside of application s window. The wheel messages are delivered in a way very similar to the keyboard inputs. The focus window of the foreground message queue receives the wheel messages.
 
 ## Requirements
 

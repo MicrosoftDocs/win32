@@ -402,7 +402,7 @@ See also [*low-level message functions*](l-gly.md).
 <span id="_security_single_sign_on_gly"></span><span id="_SECURITY_SINGLE_SIGN_ON_GLY"></span>**single sign on**
 </dt> <dd>
 
-(SSO) The ability to link a Microsoft account (such as an Microsoft Outlook.com account) with a local account so that one logon allows the user to use other applications that support signing in with their Microsoft account.
+(SSO) The ability to link a Microsoft account (such as a Microsoft Outlook.com account) with a local account so that one logon allows the user to use other applications that support signing in with their Microsoft account.
 
 </dd> <dt>
 

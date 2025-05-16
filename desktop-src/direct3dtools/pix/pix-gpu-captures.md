@@ -34,7 +34,7 @@ More information about each event, such as the full set of API call parameters, 
 
 With a GPU capture open, switch to the Overview tab. Here you'll see some basic details about the capture.
 
-To start profiling, you'll need to collect timing data. To do that, click the **Collect Timing Data** button at the top right of the **Events** view, or click the **Click here to start analysis and collect timing data** text in the **Timeline** view. That replays the GPU work in the capture and collect basic timing data such as Execution Durations (annoted with [PixEvents](pix-instrumenting.md), if your application has them). Once finished, you can collect additional data to be graphed in Timeline lanes, like occupancy information and other GPU-specific counters.
+To start profiling, you'll need to collect timing data. To do that, click the **Collect Timing Data** button at the top right of the **Events** view, or click the **Click here to start analysis and collect timing data** text in the **Timeline** view. That replays the GPU work in the capture and collect basic timing data such as Execution Durations (annotated with [PixEvents](pix-instrumenting.md), if your application has them). Once finished, you can collect additional data to be graphed in Timeline lanes, like occupancy information and other GPU-specific counters.
 
 > [!TIP]
 > For best results, don't interact with your computer while PIX is collecting timing data; and close any other applications that might be using the GPU.
@@ -111,7 +111,7 @@ HLSL shader code can be edited directly inside PIX, allowing you to immediately 
 
 After selecting a shader, you can edit its code however you like, then click **Edit** > **Apply**. Other views (such as OM RTV 0) will update to show the effect of your change. You might find it useful to dock more than one instance of the **Pipeline** view next to each other in order to view rendertarget results at the same time as editing shader code.
 
-If you lose track of exactly what you'ave changed, then right-click on the shader code, and choose **Diff with Original**.
+If you lose track of exactly what you've changed, then right-click on the shader code, and choose **Diff with Original**.
 
 > [!TIP]
 > PIX on Windows doesn't yet support saving modified shaders back into the capture file.

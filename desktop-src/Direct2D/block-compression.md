@@ -95,7 +95,7 @@ There are a variety of DDS authoring tools available to create or convert block 
 
 Beginning with Visual Studio 2013, you can have Visual Studio convert existing visual assets such as JPEG and PNG to the correct DDS block compressed format as an automatic part of your build process. This is accomplished using the Image Content Task custom build step.
 
-For information on how to set this up for your project, see: [How to: Export a Texture for Use with Direct2D or Javascipt Apps](/previous-versions/visualstudio/visual-studio-2013/dn392693(v=vs.120)).
+For information on how to set this up for your project, see: [How to: Export a Texture for Use with Direct2D or JavaScript Apps](/previous-versions/visualstudio/visual-studio-2013/dn392693(v=vs.120)).
 
 ### Direct2D APIs
 
