@@ -16,7 +16,7 @@ The AutoLogger differs from the Global Logger in the following ways:
 -   The AutoLogger sends an enable notification to the providers when the session starts (the Global Logger did not send an enable notification to the providers, so the providers had to rely on other means to know if the Global Logger session was started in order to begin logging events).
 -   The AutoLogger does not support logging NT Kernel Logger events (see the **EnableFlags** member of [**EVENT\_TRACE\_PROPERTIES**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties)). To log NT Kernel Logger events, you must use the [Global Logger](configuring-and-starting-the-global-logger-session.md).
 
-For more information on the Global Logger seesion, see [Configuring and Starting the Global Logger Session](configuring-and-starting-the-global-logger-session.md).
+For more information on the Global Logger session, see [Configuring and Starting the Global Logger Session](configuring-and-starting-the-global-logger-session.md).
 
 > [!Note]  
 > ETW supports the AutoLogger on Windows Vista and later. Use the [Global Logger](configuring-and-starting-the-global-logger-session.md) on earlier operating systems.

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 ## Text
 
-The variant returned from {0} should be an {1} but is a {2}.
+The variant returned from {0} should be an {1}, but is a {2}.
 
 ## Type
 

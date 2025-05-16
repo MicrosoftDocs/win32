@@ -1116,7 +1116,7 @@ template (see [Section 3.3.2](#332-generic-parameters-template)) and contains pa
 populate a Parameters field (preferably the Parameters\[0\] field) with
 this parameters structure. Implementations may use the information in
 the Flash Parameters structure to optimize access operations during
-reads/writes and for alignment of file system structures durning
+reads/writes and for alignment of file system structures during
 formatting of the media.
 
 Support for the Flash Parameters structure is optional.

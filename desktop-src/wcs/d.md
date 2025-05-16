@@ -42,7 +42,7 @@ A file that contains a concatenation of color conversions that are used often.
 
 ## device profile
 
-A file that contains information on how to characterize the color capabilites of a device. ICC device profiles convert colors from the gamut of a device into the PCS. It also holds the information necessary for conversion of colors from the PCS into the device's gamut. WCS XML device profiles provide the measurement data and algorithmic references to convert between the native device space and CIEXYZ.
+A file that contains information on how to characterize the color capabilities of a device. ICC device profiles convert colors from the gamut of a device into the PCS. It also holds the information necessary for conversion of colors from the PCS into the device's gamut. WCS XML device profiles provide the measurement data and algorithmic references to convert between the native device space and CIEXYZ.
 
 ## DMP
 
