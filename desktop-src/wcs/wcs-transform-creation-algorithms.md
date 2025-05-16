@@ -243,7 +243,7 @@ The architecture of the interpolation module is illustrated in the two parts of 
 
 ![Diagram that shows part two of the interpolation module architecture.](images/transformcreation-image070.png)
 
-**Figure 1:** Intepolation module architecture
+**Figure 1:** Interpolation module architecture
 
 As explained earlier, this algorithm is able to achieve reasonably dense sampling in regions of the device space that contain important combination of colorants, while minimizing the total size of LUTs needed. The following table shows a comparison of the number of nodes needed for the sparse LUT implementation (using Algorithm \#1 and normal mode) and the corresponding uniform LUT implementation.
 
