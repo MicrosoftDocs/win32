@@ -64,7 +64,7 @@ between three weights using a two-state bold button. The solution was to give th
 different family name, so the user could select it by choosing "Arial Black" from the list of font
 families. Likewise, there is no way to choose from among different widths in the same font family
 using only bold and italic buttons, so the narrow versions of Arial have different family names in
-the RBIZ model. Thus we have "Arial", "Arial Black", and "Arial Narrow" font familes in the RBIZ
+the RBIZ model. Thus we have "Arial", "Arial Black", and "Arial Narrow" font families in the RBIZ
 model, even though typographically these all belong in one family.
 
 From these examples, one can see how the limitations of a font family model can affect how fonts are
@@ -81,7 +81,7 @@ calling its [**IDWriteFont::GetInformationalStrings**](/windows/win32/api/dwrite
 
 The weight-stretch-style font family model is the original font family model used by DirectWrite
 before the typographic font family model was introduced. It is also known as weight-width-slope
-(WWS). In the WWS model, fonts within the same family can be differented by three properties: weight
+(WWS). In the WWS model, fonts within the same family can be deafferented by three properties: weight
 ([**DWRITE_FONT_WEIGHT**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_weight)), stretch ([**DWRITE_FONT_STRETCH**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_stretch)), and style ([**DWRITE_FONT_STYLE**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_style)).
 
 The WWS model is more flexible than the RBIZ model in two ways. First, fonts in the same family can
@@ -369,7 +369,7 @@ name. Matching occurs in one of the following ways, in descending order of prior
 The previous section described an ambiguous typographic family called "Legacy". The hybrid algorithm
 enables the ambiguity to be avoided by specifying either "Legacy" or "Legacy Soft" as the family
 name. If "Legacy Soft" is specified, then there is no ambiguity because matching occurs only within
-the WWS family. If "Legacy" is specfiied, then all fonts in the typographic family are considered as
+the WWS family. If "Legacy" is specified, then all fonts in the typographic family are considered as
 match candidates, but ambiguity is avoided by using membership in the "Legacy" WWS family as a
 tie-breaker.
 
@@ -401,7 +401,7 @@ The hybrid font selection model is implemented by the following [**IDWriteFontSe
     and array of axis values. As described above, the family name parameter can be a typographic
     family name, WWS family name, RBIZ family name, or full name. (The full name identifies a
     particular font style, such as "Arial Bold Italic". **GetMatchingFonts** supports matching by full
-    name for greater comaptibiltiy with GDI, which also allows it.)
+    name for greater compatibility with GDI, which also allows it.)
 
 The following other DirectWrite APIs also use the hybrid font selection algorithm:
 
