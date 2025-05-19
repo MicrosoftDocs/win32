@@ -20,7 +20,7 @@ Therefore, when you call the [**ID3D11ClassLinkage::GetClassInstance**](/windows
 For example, suppose you have a **Light** class that implements a **Color** interface, and you use this class in your vertex shader and pixel shader. When you create a shader (for example, by calling [**ID3D11Device::CreatePixelShader**](/windows/desktop/api/d3d11/nf-d3d11-id3d11device-createpixelshader)), the runtime determines that the **Light** class type is available in both vertex and pixel shaders and adds the **Light** class type to the class linkage object. You can then create a **Light** instance at a location that you want, bind the resources for both shaders, and pass this instance in the class instances array when you set the shader to the device (for example, by calling [**ID3D11DeviceContext::PSSetShader**](/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-pssetshader)). The runtime then performs the following sequence:
 
 1.  Verifies that the instance was created with the same class linkage object.
-2.  Verifies that the **Light** class type is availabe in both vertex and pixel shaders.
+2.  Verifies that the **Light** class type is available in both vertex and pixel shaders.
 3.  Selects the correct function tables, which can be different for the vertex and pixel shaders.
 4.  Sends down the offsets that the instance provides.
 
