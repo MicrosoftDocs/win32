@@ -3,14 +3,14 @@ description: Used to connect to a network that uses Protected Extensible Authent
 ms.assetid: b5dde0d0-940f-40ec-b24d-95a76325ff1b
 title: PEAP Profile Sample
 ms.topic: sample
-ms.date: 05/31/2018
+ms.date: 05/14/2025
 ---
 
 # PEAP Profile Sample
 
 This profile sample shows a wired network profile used to connect to a network that uses Protected Extensible Authentication Protocol with Microsoft Challenge Handshake Authentication Protocol version 2 (PEAP-MSCHAPv2) with *UserName***/***Password* for 802.1X authentication. The user is prompted to enter credentials.
 
-``` syntax
+```xml
 <?xml version="1.0" encoding="US-ASCII"?>
 <LANProfile xmlns="https://www.microsoft.com/networking/LAN/profile/v1">
     <MSM>
@@ -60,14 +60,7 @@ This profile sample shows a wired network profile used to connect to a network t
 
 ## Related topics
 
-<dl> <dt>
-
-[Wired Profile Samples](wired-profile-samples.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
+* [Wired Profile Samples](wired-profile-samples.md)
+* [LAN_profile schema](lan-profileschema-schema.md)
+* [Extensible Authentication Protocol (EAP) for network access](/windows-server/networking/technologies/extensible-authentication-protocol/network-access)
+* [Configure EAP profiles and settings in Windows](/windows-server/networking/technologies/extensible-authentication-protocol/configure-eap-profiles)
