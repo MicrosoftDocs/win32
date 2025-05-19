@@ -3,7 +3,7 @@ description: Uses Extensible Authentication Protocol Transport Level Security (E
 ms.assetid: fceeae22-3761-48ab-a190-1a7b1568ed64
 title: WPA-Enterprise with TLS profile sample
 ms.topic: sample
-ms.date: 05/31/2018
+ms.date: 05/14/2025
 ---
 
 # WPA-Enterprise with TLS profile sample
@@ -11,6 +11,10 @@ ms.date: 05/31/2018
 This sample profile uses Extensible Authentication Protocol Transport Level Security (EAP-TLS) with certificates to authenticate to the network.
 
 This sample is configured to use Wi-Fi Protected Access security running in Enterprise mode (WPA-Enterprise). The WPA-Enterprise security type uses 802.1X for the authentication exchange with the backend. Temporal Key Integrity Protocol (TKIP) is used for encryption.
+
+> [!warning]
+> TKIP is an outdated and insecure security standard with known vulnerabilities. If possible, we suggest moving to a more secure standard, such as WPA3, which uses AES for encryption.
+
 
 The EAP-TLS credentials are obtained from the certificate store. If authentication based on the credentials in the certificate store fails, the user is prompted to provide valid credentials. No alternate servers, root certificate authorities, or user names are used for authentication if the first attempt fails.
 
@@ -20,7 +24,7 @@ The EAPHost configuration used in this wireless profile sample was derived from 
 
 **Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** EAP-TLS is not supported.
 
-``` syntax
+```xml
 <?xml version="1.0" encoding="US-ASCII"?>
 <WLANProfile xmlns="https://www.microsoft.com/networking/WLAN/profile/v1">
     <name>SampleWPAEnterpriseTLS</name>
@@ -77,11 +81,8 @@ The EAPHost configuration used in this wireless profile sample was derived from 
 
 ## Related topics
 
-<dl> <dt>
-
-[Wireless profile samples](wireless-profile-samples.md)
-</dt> </dl>
-
- 
-
- 
+* [Wireless profile samples](wireless-profile-samples.md)
+* [WLAN_profile schema](wlan-profileschema-schema.md)
+* [Wireless Access Deployment](/windows-server/networking/core-network-guide/cncg/wireless/e-wireless-access-deployment)
+* [Extensible Authentication Protocol (EAP) for network access](/windows-server/networking/technologies/extensible-authentication-protocol/network-access)
+* [Configure EAP profiles and settings in Windows](/windows-server/networking/technologies/extensible-authentication-protocol/configure-eap-profiles)

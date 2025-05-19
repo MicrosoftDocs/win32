@@ -49,7 +49,7 @@ You can take similar steps to upgrade a local server-implemented provider.
 [Developing a WMI Provider](developing-a-wmi-provider.md)
 </dt> <dt>
 
-[Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md)
+[Setting Namespace Security Descriptors](setting-namespace-security-descriptors.md)
 </dt> <dt>
 
 [Securing Your Provider](securing-your-provider.md)

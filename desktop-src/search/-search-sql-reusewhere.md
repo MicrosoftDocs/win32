@@ -44,7 +44,7 @@ WHERE CONTAINS(*, 'pencil') AND System.ItemDate > '2007-3-5' AND Scope='file:'
 
 
 
-The ReuseWhere function can be used anwhere in the [WHERE](-search-sql-where.md) clause.
+The ReuseWhere function can be used anywhere in the [WHERE](-search-sql-where.md) clause.
 
 ## Related topics
 

@@ -1,6 +1,6 @@
 ---
 title: Inertia and Manipulation Reference
-description: This section contains references for intertia and manipulation.
+description: This section contains references for inertia and manipulation.
 ms.assetid: c9de1826-6765-4cb6-8d68-cd0269644a7d
 keywords:
 - Windows Touch,inertia
@@ -13,7 +13,7 @@ ms.date: 05/31/2018
 
 # Inertia and Manipulation Reference
 
-This section contains references for intertia and manipulation.
+This section contains references for inertia and manipulation.
 
 The following sections make up the inertia and manipulation APIs for Windows Touch.
 

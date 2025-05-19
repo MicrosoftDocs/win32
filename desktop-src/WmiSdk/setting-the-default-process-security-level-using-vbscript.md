@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Set the default process security level with VBScript
 
-A script can use the default WMI authentication and impersonation settings. However, the script may need a connection with more security or may connect to a namespace that requires an encrypted connection. For more information, see [Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md) and [Requiring an Encrypted Connection to a Namespace](requiring-an-encrypted-connection-to-a-namespace.md).
+A script can use the default WMI authentication and impersonation settings. However, the script may need a connection with more security or may connect to a namespace that requires an encrypted connection. For more information, see [Setting Namespace Security Descriptors](setting-namespace-security-descriptors.md) and [Requiring an Encrypted Connection to a Namespace](requiring-an-encrypted-connection-to-a-namespace.md).
 
 In the simplest case, a script can use the default authentication and impersonation settings. WMI normally runs in a shared service host and shares the same authentication as other processes in the host. If you want to run the WMI process with a different level of authentication, run WMI with the [**winmgmt**](winmgmt.md) command with the **/standalonehost** switch and set the authentication level for WMI generally. For more information, see [Maintaining WMI Security](maintaining-wmi-security.md).
 

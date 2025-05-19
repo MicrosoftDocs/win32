@@ -3,7 +3,7 @@ description: Uses Extensible Authentication Protocol Transport Level Security (E
 ms.assetid: ded07fda-ea7f-4c5a-9433-60196c3f14af
 title: WPA2-Enterprise with TLS profile sample
 ms.topic: sample
-ms.date: 05/31/2018
+ms.date: 05/14/2025
 ---
 
 # WPA2-Enterprise with TLS profile sample
@@ -16,11 +16,7 @@ The EAP-TLS credentials are obtained from the certificate store. If authenticati
 
 The EAPHost configuration used in this wireless profile sample was derived from the [EAP-TLS Connection Properties](../eaphost/eap-tls-connection-properties.md) sample.
 
-**Windows 7 and Windows Server 2008 R2 with the Wireless LAN Service installed:** Changes are implemented on Windows 7 and Windows Server 2008 R2 with the Wireless LAN Service installed to optimize wireless networking performance. The default setting for [**autoSwitch**](wlan-profileschema-wlanprofile-element.md#autoswitch) when this element is not set in a wireless LAN profile has changed. The default setting is changed to "false" on Windows 7 and Windows Server 2008 R2 with the Wireless LAN Service installed. The default setting was "true" on Windows Server 2008 and Windows Vista. Please refer to the [**autoSwitch**](wlan-profileschema-wlanprofile-element.md#autoswitch) schema element description for more information.
-
-**Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** EAP-TLS is not supported.
-
-``` syntax
+```xml
 <?xml version="1.0" encoding="US-ASCII"?>
 <WLANProfile xmlns="https://www.microsoft.com/networking/WLAN/profile/v1">
     <name>SampleWPA2EnterpriseTLS</name>
@@ -76,11 +72,8 @@ The EAPHost configuration used in this wireless profile sample was derived from 
 
 ## Related topics
 
-<dl> <dt>
-
-[Wireless profile samples](wireless-profile-samples.md)
-</dt> </dl>
-
- 
-
- 
+* [Wireless profile samples](wireless-profile-samples.md)
+* [WLAN_profile schema](wlan-profileschema-schema.md)
+* [Wireless Access Deployment](/windows-server/networking/core-network-guide/cncg/wireless/e-wireless-access-deployment)
+* [Extensible Authentication Protocol (EAP) for network access](/windows-server/networking/technologies/extensible-authentication-protocol/network-access)
+* [Configure EAP profiles and settings in Windows](/windows-server/networking/technologies/extensible-authentication-protocol/configure-eap-profiles)

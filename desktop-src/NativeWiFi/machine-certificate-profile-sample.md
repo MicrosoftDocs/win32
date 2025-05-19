@@ -3,7 +3,7 @@ description: Used to connect to a network that uses Extensible Authentication Pr
 ms.assetid: 4cc4cbb7-963f-4771-8a3d-2a37058c9011
 title: Machine Certificate Profile Sample
 ms.topic: sample
-ms.date: 05/31/2018
+ms.date: 05/14/2025
 ---
 
 # Machine Certificate Profile Sample
@@ -12,7 +12,7 @@ This profile sample shows a wired network profile used to connect to a network t
 
 The EAPHost configuration used in this wireless profile sample was derived from the [EAP-TLS Connection Properties](../eaphost/eap-tls-connection-properties.md) sample.
 
-``` syntax
+```xml
 <?xml version="1.0" encoding="US-ASCII"?>
 <LANProfile xmlns="https://www.microsoft.com/networking/LAN/profile/v1">
     <MSM>
@@ -56,11 +56,7 @@ The EAPHost configuration used in this wireless profile sample was derived from 
 
 ## Related topics
 
-<dl> <dt>
-
-[Wired Profile Samples](wired-profile-samples.md)
-</dt> </dl>
-
- 
-
- 
+* [Wired Profile Samples](wired-profile-samples.md)
+* [LAN_profile schema](lan-profileschema-schema.md)
+* [Extensible Authentication Protocol (EAP) for network access](/windows-server/networking/technologies/extensible-authentication-protocol/network-access)
+* [Configure EAP profiles and settings in Windows](/windows-server/networking/technologies/extensible-authentication-protocol/configure-eap-profiles)

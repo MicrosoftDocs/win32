@@ -436,7 +436,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
                 goto Exit;
             }
         
-            // Set the reply to address to be a anonymous URI (modeled as a 0 length URI), which 
+            // Set the reply to address to be an anonymous URI (modeled as a 0 length URI), which 
             // indicates to the receiver that they should reply using the source IP address.
             WS_ENDPOINT_ADDRESS replyTo;
             ZeroMemory(&replyTo, sizeof(replyTo));

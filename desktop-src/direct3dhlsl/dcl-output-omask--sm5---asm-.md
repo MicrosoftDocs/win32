@@ -23,7 +23,7 @@ Declare an output register to be written by the shader.
 
 | Item                                                   | Description                            |
 |--------------------------------------------------------|----------------------------------------|
-| <span id="o#"></span><span id="O#"></span>*o#*<br/> | \[in\] The output register.<br/><ul><li><em>#</em> is an name that identifies the register.</li><li><em>[.mask]</em> is an optional component mask (.xyzw) that specifies which of the register components to use.</li></ul> |
+| <span id="o#"></span><span id="O#"></span>*o#*<br/> | \[in\] The output register.<br/><ul><li><em>#</em> is a name that identifies the register.</li><li><em>[.mask]</em> is an optional component mask (.xyzw) that specifies which of the register components to use.</li></ul> |
 
 
 

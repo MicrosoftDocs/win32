@@ -3,7 +3,7 @@ description: Uses Protected Extensible Authentication Protocol with Microsoft Ch
 ms.assetid: e344c360-4ab5-4a5f-a1b2-b0fa890b8666
 title: WPA-Enterprise with PEAP-MSCHAPv2 profile sample
 ms.topic: sample
-ms.date: 05/31/2018
+ms.date: 05/14/2025
 ---
 
 # WPA-Enterprise with PEAP-MSCHAPv2 profile sample
@@ -12,9 +12,12 @@ This sample profile uses Protected Extensible Authentication Protocol with Micro
 
 This sample is configured to use Wi-Fi Protected Access security running in Enterprise mode (WPA-Enterprise). The WPA-Enterprise security type uses 802.1X for the authentication exchange with the backend. Temporal Key Integrity Protocol (TKIP) is used for encryption.
 
+> [!warning]
+> TKIP is an outdated and insecure security standard with known vulnerabilities. If possible, we suggest moving to a more secure standard, such as WPA3, which uses AES for encryption.
+
 **Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** The [**name**](wlan-profileschema-wlanprofile-element.md#name) child of the [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) element is ignored. The name of the profile, as stored in the profile store, is derived from the [**name**](wlan-profileschema-ssid-ssidconfig-element.md#name) child of the [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) element.
 
-``` syntax
+```xml
 <?xml version="1.0" encoding="US-ASCII"?>
 <WLANProfile xmlns="https://www.microsoft.com/networking/WLAN/profile/v1">
     <name>SampleWPAEnterprisePEAPMSCHAP</name>
@@ -75,14 +78,8 @@ This sample is configured to use Wi-Fi Protected Access security running in Ente
 
 ## Related topics
 
-<dl> <dt>
-
-[Wireless profile samples](wireless-profile-samples.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
+* [Wireless profile samples](wireless-profile-samples.md)
+* [WLAN_profile schema](wlan-profileschema-schema.md)
+* [Wireless Access Deployment](/windows-server/networking/core-network-guide/cncg/wireless/e-wireless-access-deployment)
+* [Extensible Authentication Protocol (EAP) for network access](/windows-server/networking/technologies/extensible-authentication-protocol/network-access)
+* [Configure EAP profiles and settings in Windows](/windows-server/networking/technologies/extensible-authentication-protocol/configure-eap-profiles)
