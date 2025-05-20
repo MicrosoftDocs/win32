@@ -11,7 +11,7 @@ ms.date: 05/02/2025
 
 As the computer is used over time, restore points are collected in the data archive without any management or intervention required by the user.
 
-**After installing the June 2025 Windows security update, devices running Windows 11, version 24H2 and Windows Server 2025** will have restore points up to the previous 60 days. These points are accessible through the System Restore user interface. As a security measure, restoring Windows with restore points older than 60 days will not be possible for these client and server versions of Windows. Future versions of Windows will also be able to access restore points that are up to 60 days old All versions of Windows Server and Windows client released prior to Windows Server 2025 and Windows 11, version 24H2 will support restore points without the 60-day limitation.
+**After installing the June 2025 Windows security update, devices running Windows 11, version 24H2 and Windows Server 2025** will have restore points up to the previous 60 days. These points are accessible through the System Restore user interface. As a security measure, restoring Windows with restore points older than 60 days will not be possible for these client and server versions of Windows. Future versions of Windows will also be able to access restore points that are up to 60 days old. All versions of Windows Server and Windows client released prior to Windows Server 2025 and Windows 11, version 24H2 will support restore points without the 60-day limitation.
 
 The only way to access this archive of restore points is through the System Restore user interface and the System Restore API; this is to protect data integrity and prevent accidental changes made by the user, applications, or other agents.
 
