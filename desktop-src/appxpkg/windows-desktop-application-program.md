@@ -38,7 +38,7 @@ We'll provide you a file and ask you to sign it with the same valid, non-expired
 
 **To add one or more desktop applications**
 
-1.  From your dashboard, select **Add desktop applications**.
+1.  On the **Overview** page, select **Add desktop applications**.
 2.  On the next page, download the signable file by selecting **Download the file**, then save the file to your computer.
 3.  Sign the file you just downloaded using the same code-signing certificate that you use to authenticate your desktop application(s). You can use SignTool.exe (available in Microsoft Visual Studio and as part of the [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-sdk/)) to sign this file. More details about this process are described below.
 4.  Upload the file you just signed by dragging it into the field (or click to browse your files).
