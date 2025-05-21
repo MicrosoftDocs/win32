@@ -11,13 +11,9 @@ ms.date: 05/16/2025
 > [!NOTE]
 > Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. The feature described in this topic is available in pre-release versions of the [Windows Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-This article provides a guide to implementing the end-to-end workflow for creating and verifying digital signatures using theModule-Lattice Key Encapsulation Mechanism (ML-KEM) algorithm with Microsoft's CNG API.
+This article provides a guide to implementing the end-to-end workflow for performing a key exchange using the Module-Lattice Key Encapsulation Mechanism (ML-KEM) algorithm with Microsoft's CNG API.
 
-## Sample ML-KEM code using Bcrypt
-
-Learn how to use the ML-DSA algorithm with Microsoft's CNG API for digital signatures. The Bcrypt sample includes a complete end-to-end workflow for creating and verifying digital signatures using the ML-KEM algorithm. The sample demonstrates how to use the Bcrypt API to generate key pairs, sign messages, and verify signatures.
-
-### Key Encapsulation and Decapsulation with ML-KEM
+## Sample ML-KEM Key Encapsulation and Decapsulation code using Bcrypt
 
 ML-KEM is a post-quantum algorithm used for key exchange, and is standardized in FIPS 203. Key exchange is an important part of security protocols such as TLS, whereby a client and a server negotiate a connection and create and share key material to encrypt and decrypt messages sent over the internet. In KEM, the keys produced in key-pair generation process are called Encapsulation Key and Decapsulation Key. Encapsulation Key is public and can be used by anyone to perform a Key Encapsulation operation which produces a secret key (for the party who performs this operation) and a ciphertext. The ciphertext is provided as an input to the Key Decapsulation operation by the private key owner to recover the same shared secret key the encapsulating party has obtained during the Key Encapsulation process. This example demonstrates how a hypothetical TLS client and server application would consume the new ML-KEM APIs in Bcrypt to perform a key exchange.
 
