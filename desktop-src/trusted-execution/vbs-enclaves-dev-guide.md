@@ -138,7 +138,7 @@ In our enclave Sample, we create a simple enclave which XORs the input with `0xD
 And that’s how you write a basic VBS enclave DLL.
 
 > [!IMPORTANT]
-> Please note that to read/write Normal (non-enclave) memory, using the enclave memory accessors ([EnclaveCopyOutOfEnclave](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclavecopoutofenclave) and [EnclaveCopyIntoEnclave](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclavecopyintoenclave)) is strongly recommended. Please ensure all memory accesses to normal memory are made via these accessors.
+> Please note that to read/write Normal (non-enclave) memory, using the enclave memory accessors ([EnclaveCopyOutOfEnclave](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclavecopyoutofenclave) and [EnclaveCopyIntoEnclave](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclavecopyintoenclave)) is strongly recommended. Please ensure all memory accesses to normal memory are made via these accessors.
 
 ## Step 2: Compiling VBS enclaves
 
