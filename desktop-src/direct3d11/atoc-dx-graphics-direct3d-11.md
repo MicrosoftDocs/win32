@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Direct3D 11 Graphics
 
-You can use Microsoft Direct3D 11 graphics to create 3-D graphics for games and scientific and desktop applications.
+You can use Microsoft Direct3D 11 graphics to create 3-D graphics for games, scientific and desktop applications.
 
 This section contains information about programming with Direct3D 11 graphics.
 
