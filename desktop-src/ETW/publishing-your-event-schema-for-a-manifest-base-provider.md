@@ -16,7 +16,7 @@ The following manifest defines the events that are used in examples in the [Prov
 <!-- <?xml version="1.0" encoding="UTF-16"?> -->
 <instrumentationManifest
     xmlns="http://schemas.microsoft.com/win/2004/08/events" 
-    xmlns:win="https://manifests.microsoft.com/win/2004/08/windows/events"
+    xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
     xmlns:xs="https://www.w3.org/2001/XMLSchema"    
     >
 
