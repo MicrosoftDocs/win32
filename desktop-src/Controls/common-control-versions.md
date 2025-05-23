@@ -28,33 +28,12 @@ In the common controls reference documentation, many programming elements specif
 
 The following table outlines the different DLL versions and how they were distributed on supported OSes.
 
-
-
-ComCtl32.dll
-
-Version
-
-Distribution Platform
-
-5.81
-
-Microsoft Internet Explorer 5.01, Microsoft Internet Explorer 5.5, and Microsoft Internet Explorer 6
-
-5.82
-
-Windows Server 2003, Windows Vista, Windows Server 2008, and Windows 7
-
-6.0
-
-Windows Server 2003
-
-6.10
-
-Windows Vista, Windows Server 2008, and Windows 7
-
-
-
- 
+| ComCtl32.dll Version | Distribution Platform                                                                                |
+|----------------------|------------------------------------------------------------------------------------------------------|
+| 5.81                 | Microsoft Internet Explorer 5.01, Microsoft Internet Explorer 5.5, and Microsoft Internet Explorer 6 |
+| 5.82                 | Windows Server 2003, Windows Vista, Windows Server 2008, and Windows 7                               |
+| 6.0                  | Windows Server 2003                                                                                  |
+| 6.10                 | Windows Vista, Windows Server 2008, and Windows 7                                                    |
 
 ## Structure Sizes for Different Common Control Versions
 
