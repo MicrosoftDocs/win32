@@ -49,8 +49,8 @@ enum TRANSFER_TYPE {
 #define MAX_PAYLOAD_DESCRIPTORS  9 + (2 * MAX_NAMEDVALUES)
 
 typedef struct _namedvalue {
-  LPWSTR name;
-  USHORT value;
+  LPCWSTR name;
+  USHORT  value;
 } NAMEDVALUE, *PNAMEDVALUE;
 
 void wmain(void)
@@ -66,7 +66,7 @@ void wmain(void)
     void* pImage = &Scores;
     DWORD TransferType = Upload;
     DWORD Day = MONDAY | TUESDAY;
-    LPWSTR Path = L"c:\\path\\folder\\file.ext";
+    LPCWSTR Path = L"c:\\path\\folder\\file.ext";
     BYTE Cert[11] = {0x2, 0x4, 0x8, 0x10, 0x20, 0x30, 0x40, 0x50, 0x60, 0x0, 0x1};
     PBYTE Guid = (PBYTE) &ProviderGuid;
     USHORT ArraySize = MAX_NAMEDVALUES;

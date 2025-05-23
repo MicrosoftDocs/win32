@@ -97,12 +97,15 @@ The following manifest defines the events that are used in examples in the [Prov
                     <event value="1" 
                         level="win:Informational" 
                         template="TransferTemplate" 
+                        channel="Application"
                         symbol="TransferEvent"
                         message ="$(string.Event.WhenToTransfer)"
                         keywords="Read Local" />
                 </events>
 
-
+                <channels>
+                    <importChannel name="Application" chid="Application"/>
+                </channels>
             </provider>
 
         </events>
