@@ -46,6 +46,8 @@ The following syntax forms are supported for SymStore transactions. The first pa
 | -:REL          | Allows the paths in the file pointers to be relative. This option implies the /l option. (This option can only be used when /p is used.)                                                                                                                                                                                                                                                                     |
 | -:NOREFS       | Omits the creation of reference pointer files for the files and pointers being stored. This option is only valid during the initial creation of a symbol store if the store being changed was created with this option.                                                                                                                                                                                      |
 | /?             | Displays help text for the SymStore command.                                                                                                                                                                                                                                                                                                                                                                 |
+Example:  Symstore add /p /l /r /g http://localhost/source/symbols /x StoreIndex /a /d /Symlog.log /f http://localhost/source/symbols
+
 
 
 
