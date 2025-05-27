@@ -53,7 +53,7 @@ typedef struct _namedvalue {
   USHORT  value;
 } NAMEDVALUE, *PNAMEDVALUE;
 
-void wmain(void)
+int wmain(void)
 {
     DWORD status = ERROR_SUCCESS;
     REGHANDLE RegistrationHandle = NULL; 
@@ -146,8 +146,8 @@ void wmain(void)
     }
 
 cleanup:
-
     EventUnregister(RegistrationHandle);
+    return 0;
 }
 ```
 
