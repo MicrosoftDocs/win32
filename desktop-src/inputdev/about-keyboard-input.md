@@ -200,14 +200,14 @@ The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\
 | Keyboard/Keypad     | Keyboard Equals and Plus          | 0x0007         | 0x002E       | 0x000D      | 13           |
 | Keyboard/Keypad     | Keyboard Left Brace               | 0x0007         | 0x002F       | 0x001A      | 27           |
 | Keyboard/Keypad     | Keyboard Right Brace              | 0x0007         | 0x0030       | 0x001B      | 28           |
-| Keyboard/Keypad     | Keyboard Pipe and Slash           | 0x0007         | 0x0031       | 0x002B      | 29           |
-| Keyboard/Keypad     | Keyboard Non-US                   | 0x0007         | 0x0032       | 0x002B      | 42           |
+| Keyboard/Keypad     | Keyboard Backslash and Pipe       | 0x0007         | 0x0031       | 0x002B      | 29           |
+| Keyboard/Keypad     | Keyboard Non-US Hash and Tilde    | 0x0007         | 0x0032       | 0x002B      | 42           |
 | Keyboard/Keypad     | Keyboard SemiColon and Colon      | 0x0007         | 0x0033       | 0x0027      | 40           |
 | Keyboard/Keypad     | Keyboard Apostrophe and Double Quotation Mark | 0x0007         | 0x0034       | 0x0028      | 41           |
 | Keyboard/Keypad     | Keyboard Grave Accent and Tilde   | 0x0007         | 0x0035       | 0x0029      | 1            |
-| Keyboard/Keypad     | Keyboard Comma                    | 0x0007         | 0x0036       | 0x0033      | 53           |
-| Keyboard/Keypad     | Keyboard Period                   | 0x0007         | 0x0037       | 0x0034      | 54           |
-| Keyboard/Keypad     | Keyboard QuestionMark             | 0x0007         | 0x0038       | 0x0035      | 55           |
+| Keyboard/Keypad     | Keyboard Comma and LessThan       | 0x0007         | 0x0036       | 0x0033      | 53           |
+| Keyboard/Keypad     | Keyboard Period and GreaterThan   | 0x0007         | 0x0037       | 0x0034      | 54           |
+| Keyboard/Keypad     | Keyboard ForwardSlash and QuestionMark | 0x0007         | 0x0038       | 0x0035      | 55           |
 | Keyboard/Keypad     | Keyboard Caps Lock                | 0x0007         | 0x0039       | 0x003A      | 30           |
 | Keyboard/Keypad     | Keyboard F1                       | 0x0007         | 0x003A       | 0x003B      | 112          |
 | Keyboard/Keypad     | Keyboard F2                       | 0x0007         | 0x003B       | 0x003C      | 113          |
@@ -250,8 +250,8 @@ The **Scan 1 Make** code is delivered in [**WM\_KEYDOWN**](wm-keydown.md)/[**WM\
 | Keyboard/Keypad     | Keypad 8 and Up Arrow             | 0x0007         | 0x0060       | 0x0048      | 96           |
 | Keyboard/Keypad     | Keypad 9 and PageUp               | 0x0007         | 0x0061       | 0x0049      | 101          |
 | Keyboard/Keypad     | Keypad 0 and Insert               | 0x0007         | 0x0062       | 0x0052      | 99           |
-| Keyboard/Keypad     | Keypad Period                     | 0x0007         | 0x0063       | 0x0053      | 104          |
-| Keyboard/Keypad     | Keyboard Non-US Slash Bar         | 0x0007         | 0x0064       | 0x0056      | 45           |
+| Keyboard/Keypad     | Keypad Period and Delete          | 0x0007         | 0x0063       | 0x0053      | 104          |
+| Keyboard/Keypad     | Keyboard Non-US Backslash and Pipe | 0x0007         | 0x0064       | 0x0056      | 45           |
 | Keyboard/Keypad     | Keyboard Application              | 0x0007         | 0x0065       | 0xE05D      | 129          |
 | Keyboard/Keypad     | Keyboard Power                    | 0x0007         | 0x0066       | 0xE05E      |              |
 | Keyboard/Keypad     | Keypad Equals                     | 0x0007         | 0x0067       | 0x0059      |              |
