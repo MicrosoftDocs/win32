@@ -22,6 +22,7 @@ CLSID\_VideoProcessorMFT
 
 ## Input Formats
 
+-   **MFVideoFormat\_ABGR32**
 -   **MFVideoFormat\_ARGB32**
 -   **MFVideoFormat\_AYUV**
 -   **MFVideoFormat\_I420**
