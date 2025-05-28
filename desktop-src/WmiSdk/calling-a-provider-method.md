@@ -71,16 +71,16 @@ End If
 
 try
 { 
-    $myProcess = ([wmiclass]&quot;win32_process&quot;).create(&quot;notepad.exe&quot;, $null, $null) 
+    $myProcess = ([wmiclass]"win32_process").create("notepad.exe", $null, $null) 
 }
 catch 
 {
-    &quot;Notepad could not be started due to the following error:&quot; 
+    "Notepad could not be started due to the following error:"
     $error[0]
     return 
 }
 #else
-&quot;Notepad was started with a process ID of &quot; + $myProcess.ProcessID
+"Notepad was started with a process ID of " + $myProcess.ProcessID
 ```
 
 
