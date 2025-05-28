@@ -63,7 +63,7 @@ Set objWMIService = GetObject("winmgmts:")
 get-WmiObject Win32_LogicalDisk
 
 #Or, to be explicit,
-get-WmiObject -class Win32_LogicalDisk -Computer &quot;.&quot; -Namespace &quot;root\cimv2&quot; -Impersonation Impersonate
+get-WmiObject -class Win32_LogicalDisk -Computer "." -Namespace "root\cimv2" -Impersonation Impersonate
 ```
 
 
@@ -128,11 +128,11 @@ For Each objJob in colScheduledJobs
 
 ```PowerShell
 
-Get-WmiObject -query &quot;SELECT * FROM Win32_logicalDisk WHERE DeviceID = 'C:'&quot;
+Get-WmiObject -query "SELECT * FROM Win32_logicalDisk WHERE DeviceID = 'C:'"
 
 #or
 
-get-wmiObject -Class Win32_LogicalDisk -Filter &quot;DeviceID = &#39;C:&#39;&quot;
+get-wmiObject -Class Win32_LogicalDisk -Filter "DeviceID = 'C:'"
 ```
 
 
@@ -354,9 +354,9 @@ Next
 
 ```PowerShell
 
-$Computer = &quot;atl-dc-01&quot;
+$Computer = "atl-dc-01"
 
-Get-WmiObject -Namespace &quot;root\cimv2&quot; -Class Win32_Process -Credential FABRIKAM\administrator  `
+Get-WmiObject -Namespace "root\cimv2" -Class Win32_Process -Credential FABRIKAM\administrator  `
 -ComputerName $Computer
 ```
 
@@ -393,9 +393,9 @@ For Each objJob in colScheduledJobs
 
 ```PowerShell
 
-$Computer = &quot;atl-dc-01&quot;
+$Computer = "atl-dc-01"
 
-Get-WmiObject -Namespace &quot;root\cimv2&quot; -Class Win32_logicalDisk -ComputerName $Computer
+Get-WmiObject -Namespace "root\cimv2" -Class Win32_logicalDisk -ComputerName $Computer
 ```
 
 
@@ -428,9 +428,9 @@ Set objinstance = Service.Get("Win32_Service=""ALERTER""")
 
 ```PowerShell
 
-$Computer = &quot;atl-dc-01&quot;
+$Computer = "atl-dc-01"
 
-Get-WmiObject -Namespace &quot;root\cimv2&quot; -Class Win32_Process -Impersonation Impersonate `
+Get-WmiObject -Namespace "root\cimv2" -Class Win32_Process -Impersonation Impersonate `
  -Authentication PacketIntegrity -Credential FABRIKAM\administrator -ComputerName $Computer
 ```
 
