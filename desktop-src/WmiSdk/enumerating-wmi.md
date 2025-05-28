@@ -176,9 +176,9 @@ namespace MIClientManaged
         {
             while (true)
             {
-                Console.Write(&quot;Enter WQL (x = Quit): &quot;);
+                Console.Write("Enter WQL (x = Quit): ");
                 string query = Console.ReadLine().ToUpper();
-                if (query.CompareTo(&quot;X&quot;) == 0) break;
+                if (query.CompareTo("X") == 0) break;
                 MI.QueryInstance(query);
             }
         }

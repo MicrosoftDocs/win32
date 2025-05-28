@@ -54,7 +54,7 @@ Next
 
 ```PowerShell
 
-$colServices= Get-WmiObject -Class Win32_Service -Filter 'Name = &quot;Alerter&quot;'
+$colServices= Get-WmiObject -Class Win32_Service -Filter 'Name = "Alerter"'
 foreach ($objService in $colServices)
 {
     $objService.StopService()
