@@ -411,7 +411,7 @@ To specify the attributes for the H.264 video stream, create an attribute store 
 
 
 
-| Attribute                                                       | Desription                      |
+| Attribute                                                       | Description                      |
 |-----------------------------------------------------------------|---------------------------------|
 | [**MF\_MT\_SUBTYPE**](mf-mt-subtype-attribute.md)              | Set to **MFVideoFormat\_H264**. |
 | [**MF\_MT\_MPEG2\_PROFILE**](mf-mt-mpeg2-profile-attribute.md) | H.264 profile.                  |
@@ -427,7 +427,7 @@ To specify the attributes for the AAC audio stream, create an attribute store an
 
 
 
-| Attribute                                                                                      | Desription                               |
+| Attribute                                                                                      | Description                               |
 |------------------------------------------------------------------------------------------------|------------------------------------------|
 | [**MF\_MT\_SUBTYPE**](mf-mt-subtype-attribute.md)                                             | Set to **MFAudioFormat\_AAC**            |
 | [**MF\_MT\_AUDIO\_SAMPLES\_PER\_SECOND**](mf-mt-audio-samples-per-second-attribute.md)        | Audio sample rate.                       |
@@ -602,7 +602,7 @@ The [Media Session](media-session.md) is described more fully in the [Media Foun
 
 
 
-| Event                                  | Desription                                                                                                                                                       |
+| Event                                  | Description                                                                                                                                                       |
 |----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [MESessionEnded](mesessionended.md)   | Raised when the encoding is complete.                                                                                                                            |
 | [MESessionClosed](mesessionclosed.md) | Raised when the [**IMFMediaSession::Close**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasession-close) method completes. After this event is raised, it is safe to shut down the Media Session. |

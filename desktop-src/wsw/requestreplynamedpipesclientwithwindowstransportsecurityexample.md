@@ -102,7 +102,7 @@ int __cdecl wmain()
         { WS_SECURITY_BINDING_PROPERTY_REQUIRE_SERVER_AUTH, &requireServerAuth, sizeof(requireServerAuth) } 
     };
     
-    // declare and initialize an Windows SSPI transport security binding
+    // declare and initialize a Windows SSPI transport security binding
     WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING sspiBinding = {}; // zero out the struct
     sspiBinding.binding.bindingType = WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING_TYPE; // set the binding type
     sspiBinding.binding.properties = sspiBindingProperties;
