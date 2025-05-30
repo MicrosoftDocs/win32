@@ -438,8 +438,8 @@ HRESULT DemoApp::Initialize()
     }
 
     m_hwnd = CreateWindow(
-        L&quot;DirectCompDemoApp&quot;,
-        L&quot;DirectComposition Demo Application&quot;,
+        L"DirectCompDemoApp",
+        L"DirectComposition Demo Application",
         WS_OVERLAPPEDWINDOW,
         CW_USEDEFAULT,
         CW_USEDEFAULT,

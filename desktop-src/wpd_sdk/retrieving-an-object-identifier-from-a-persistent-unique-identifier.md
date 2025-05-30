@@ -31,8 +31,8 @@ The first task that the sample application accomplishes is to obtain a PUID from
 
 
 ```C++
-// Prompt user to enter an unique identifier to convert to an object idenifier.
-printf("Enter the Persistant Unique Identifier of the object you wish to convert into an object identifier.\n>");
+// Prompt user to enter an unique identifier to convert to an object identifier.
+printf("Enter the Persistent Unique Identifier of the object you wish to convert into an object identifier.\n>");
 hr = StringCbGetsW(szSelection,sizeof(szSelection));
 if (FAILED(hr))
 {
