@@ -92,7 +92,7 @@ errReturn = objDisk.ScheduleAutoChk(Array("C:"))
 
 ```PowerShell
 
-Invoke-WmiMethod -path win32_logicaldisk -Name ScheduleAutoChk -ArgumentList @(&quot;C:&quot;)
+Invoke-WmiMethod -path win32_logicaldisk -Name ScheduleAutoChk -ArgumentList @("C:")
 ```
 
 

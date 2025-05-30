@@ -29,7 +29,7 @@ Optionally, an application can also specify the service name and namespace as pa
 
 ``` syntax
 WS_SERVICE_METADATA_DOCUMENT document = {0};
-WS_STRING documentName = WS_STRING_VALUE(L&quot;a.wsdl&quot;);
+WS_STRING documentName = WS_STRING_VALUE(L"a.wsdl");
 document.name = &documentName;
 document.content = &wsdlDocument
 WS_SERVICE_METADATA_DOCUMENT** metadataDocuments [] = {&document};
@@ -105,14 +105,14 @@ Specifying URL suffix for Ws-MetadataExchange requests
 An application can optionally enable only accepting requests for WS-MetadataExchange on a specific path. This is done by specifying a suffix for the given WS\_SERVICE\_ENDPOINT. This suffix is concatenated as-is to the actual URL for the WS\_SERVICE\_ENDPOINT. The concatenated string is used as the matching URL to the 'to' header received.
 
 ``` syntax
-const WS_STRING suffix = WS_STRING_VALUE(L&quot;mex&quot;);
+const WS_STRING suffix = WS_STRING_VALUE(L"mex");
 WS_SERVICE_ENDPOINT_PROPERTY serviceProperties[1] = {};
 serviceProperties[0].id = WS_SERVICE_ENDPOINT_PROPERTY_METADATA_EXCHANGE_URL_SUFFIX;
 serviceProperties[0].value =  &suffix;
 serviceProperties[0].valueSize = sizeof(suffix);
 ```
 
-The following API elements relate to service metada.
+The following API elements relate to service metadata.
 
 | Enumeration                                                       | Description                                                                     |
 |-------------------------------------------------------------------|---------------------------------------------------------------------------------|
