@@ -530,7 +530,7 @@ HttpListenerThread(
             REQUEST_BUFFER_SIZE);
         if (Result != ERROR_SUCCESS)
         {
-            printf("InitiateReceive faield with %d\n", Result);
+            printf("InitiateReceive failed with %d\n", Result);
             goto Exit;
         }
     }
@@ -837,7 +837,7 @@ ProcessReceiveCompletion(
 
     if (Context->Request->Verb != HttpVerbGET)
     {
-        printf("Receved an unexpected http verb %d\n", Context->Request->Verb);
+        printf("Received an unexpected http verb %d\n", Context->Request->Verb);
 
         Result = HttpCancelHttpRequest(
             g_RequestQueue,

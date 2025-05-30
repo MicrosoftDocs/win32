@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MF\_TOPONODE\_ERRORCODE attribute
 
-Contains the error code from the most recent connection failure for this toplogy node.
+Contains the error code from the most recent connection failure for this topology node.
 
 ## Data type
 

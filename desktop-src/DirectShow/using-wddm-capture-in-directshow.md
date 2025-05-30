@@ -20,7 +20,7 @@ The KsProxy filter determines if the driver supports VRAM surface capture by que
 Next, KsProxy determines whether the downstream filter supports DirectX Video Acceleration (DXVA) 2.0, as follows:
 
 1.  KsProxy queries the downstream input pin for the **IMFGetService** interface.
-2.  If the pin exposes **IMFGetService**, KsProxy calls **IMFGetService::GetService** for the **IDirect3DDeviceManager** interface. The service identier is MR\_VIDEO\_ACCELERATION\_SERVICE.
+2.  If the pin exposes **IMFGetService**, KsProxy calls **IMFGetService::GetService** for the **IDirect3DDeviceManager** interface. The service identifier is MR\_VIDEO\_ACCELERATION\_SERVICE.
 
 Both of these interfaces are documented in the Media Foundation SDK documentation.
 
