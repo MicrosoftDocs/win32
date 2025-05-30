@@ -75,7 +75,7 @@ if (SUCCEEDED(hr))
                 hr = pItem->GetDisplayName(SIGDN_FILESYSPATH, &pszFilePath);
                 if (SUCCEEDED(hr))
                 {
-                    MessageBox(NULL, pszFilePath, L&quot;File Path&quot;, MB_OK);
+                    MessageBox(NULL, pszFilePath, L"File Path", MB_OK);
                     CoTaskMemFree(pszFilePath);
                 }
                 pItem->Release();
