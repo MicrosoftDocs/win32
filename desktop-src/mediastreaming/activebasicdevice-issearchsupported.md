@@ -41,7 +41,7 @@ HRESULT get_IsSearchSupported(
 
 ## Property value
 
-A pointer to a**boolean** that indicates if the device supports search.
+A pointer to a **boolean** that indicates if the device supports search.
 
 **true** if the device supports search; otherwise, **false**.
 
