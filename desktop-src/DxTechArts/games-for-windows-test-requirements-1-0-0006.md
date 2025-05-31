@@ -324,8 +324,8 @@ This requirement has been retired.
 <pre class="syntax" data-space="preserve">
 
 ```xml
-<requestedExecutionLevel level=&quot;asInvoker|highestAvailable|requireAdministrator&quot; 
-              uiAccess=&quot;true|false&quot;/></code></pre>
+<requestedExecutionLevel level="asInvoker|highestAvailable|requireAdministrator" 
+              uiAccess="true|false"/>
 ```
 <br/>
 

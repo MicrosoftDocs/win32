@@ -92,18 +92,18 @@ The basic markup required for each Drop-Down Color Picker type is demonstrated i
 
 ```XML
 
-<Group CommandName=&quot;cmdDropDownColorPickerGroup&quot;
-       SizeDefinition=&quot;ThreeButtons&quot;>
+<Group CommandName="cmdDropDownColorPickerGroup"
+       SizeDefinition="ThreeButtons">
   <DropDownColorPicker
-    CommandName=&quot;cmdDropDownColorPickerThemeColors&quot;
-    ColorTemplate=&quot;ThemeColors&quot;/>
+    CommandName="cmdDropDownColorPickerThemeColors"
+    ColorTemplate="ThemeColors"/>
   <DropDownColorPicker
-    CommandName=&quot;cmdDropDownColorPickerStandardColors&quot;
-    ColorTemplate=&quot;StandardColors&quot;/>
+    CommandName="cmdDropDownColorPickerStandardColors"
+    ColorTemplate="StandardColors"/>
   <DropDownColorPicker
-    CommandName=&quot;cmdDropDownColorPickerHighlightColors&quot;
-    ColorTemplate=&quot;HighlightColors&quot;
-    StandardColorGridRows=&quot;1&quot;/>
+    CommandName="cmdDropDownColorPickerHighlightColors"
+    ColorTemplate="HighlightColors"
+    StandardColorGridRows="1"/>
 </Group>
 ```
 
