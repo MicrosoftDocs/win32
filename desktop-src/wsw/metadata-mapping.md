@@ -72,11 +72,11 @@ The address of an endpoint (see [**WS\_ENDPOINT\_ADDRESS**](/windows/desktop/api
 The channel binding (see [**WS\_CHANNEL\_BINDING**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_binding)) is determined by the transport the soap binding used, as follows:
 
 ``` syntax
-<soap:binding transport=&quot;http://schemas.microsoft.com/soap/tcp&quot;/> => WS_TCP_CHANNEL_BINDING
+<soap:binding transport="http://schemas.microsoft.com/soap/tcp"/> => WS_TCP_CHANNEL_BINDING
 ```
 
 ``` syntax
-<soap:binding transport=&quot;http://schemas.xmlsoap.org/soap/http&quot;/> => WS_HTTP_CHANNEL_BINDING
+<soap:binding transport="http://schemas.xmlsoap.org/soap/http"/> => WS_HTTP_CHANNEL_BINDING
 ```
 
 ## WS\_CHANNEL\_PROPERTY\_ENVELOPE\_VERSION
@@ -272,9 +272,9 @@ This section applies when the [**WS\_ISSUED\_TOKEN\_MESSAGE\_SECURITY\_BINDING\_
 ``` syntax
 <sp:EndorsingSupportingTokens...>
     <wsp:Policy>
-        <sp:IssuedToken sp:IncludeToken=&quot;xs:anyURI&quot;? ...=&quot;&quot; >
+        <sp:IssuedToken sp:IncludeToken="xs:anyURI"? ...="" >
             <wsp:Issuer>...</wsp:Issuer>?
-            <wsp:RequestSecurityTokenTemplate TrustVersion='xs:anyURI&quot;?>
+            <wsp:RequestSecurityTokenTemplate TrustVersion='xs:anyURI"?>
                 ...
                 <wst10:Claims>
                     <wsi:ClaimType Optional='xs:boolean'?>xs:anyURI<wt:ClaimType>*
@@ -306,7 +306,7 @@ This section applies when the [**WS\_SECURITY\_CONTEXT\_MESSAGE\_SECURITY\_BINDI
 ``` syntax
 <sp:EndorsingSupportingTokens...>
     <wsp:Policy>
-        <sp:SecureConversationToken sp:IncludeToken=&quot;xs:anyURI&quot;? ...=&quot;&quot; >
+        <sp:SecureConversationToken sp:IncludeToken="xs:anyURI"? ...="" >
             <wsp:Issuer>...</wsp:Issuer>?
             <wsp:Policy>
                 <sp:RequireDerivedKeys.../>?
