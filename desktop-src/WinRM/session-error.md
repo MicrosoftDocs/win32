@@ -118,7 +118,7 @@ The resource URI is not valid: it does not contain keys, but the
 class selected is not a singleton. To access an instance which is 
 not a singleton, keys must be provided. Use the following command 
 to get more information in how to construct a resource URI: 
-&quot;winrm help uris&quot;. 
+"winrm help uris". 
 </f:Message></f:WSManFault>
 </f:ProviderFault>
 </f:Message
