@@ -52,7 +52,7 @@ The **dwMagic** field is a 4-byte value that indicates the format of the key bei
 
 Indicates the ML-KEM parameter set this key is being used with.
 
-To denote the **dwParameterSet**, reuse the pseudo-handle values, i.e. `dwParameterSet = BCRYPT_MLKEM_512_ALG` when using **ML-KEM 512**. When importing, the declared **dwParameterSet** must match the parameter set of the algorithm handle used. For ML-KEM, the standard byte encoding defined in FIPS 203 is intended to be opaque to higher level protocols so the key itself will be a single binary buffer.
+To denote the **dwParameterSet**, reuse the pseudo-handle values, i.e. `dwParameterSet = BCRYPT_MLKEM_512_ALG` when using **ML-KEM 512**. When importing, the declared **dwParameterSet** must match the parameter set of the algorithm handle used. For ML-KEM, the standard byte encoding defined in [FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf) is intended to be opaque to higher level protocols so the key itself will be a single binary buffer.
 
 | Value | Description |
 |--|--|
@@ -66,11 +66,11 @@ Size of the buffer "Key" directly following the struct. This size is static and 
 
 ## Remarks
 
-**BCRYPT_MLKEM_PRIVATE_SEED_BLOB** provides import and export of ML-KEM seeds. The blob has **dwMagic** **BCRYPT_MLKEM_SEED_MAGIC** and the **Key** field contains the KEM seed (defined as the 64-byte concatenation of `d || z` per FIPS 203).
+**BCRYPT_MLKEM_PRIVATE_SEED_BLOB** provides import and export of ML-KEM seeds. The blob has **dwMagic** **BCRYPT_MLKEM_SEED_MAGIC** and the **Key** field contains the KEM seed (defined as the 64-byte concatenation of `d || z` per [FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf)).
 
-**BCRYPT_MLKEM_PRIVATE_BLOB** (also aliased as **BCRYPT_MLKEM_DECAPSULATION_BLOB**) provides import and export of standard byte-encoded ML-KEM decapsulation keys per FIPS 203. The blob has magic **BCRYPT_MLKEM_PRIVATE_MAGIC** and the **Key** field contains the byte-encoded key. The sizes of the private keys for each algorithm are shown in ML-KEM Key and Ciphertext Sizes under column "Decapsulation Key Size".
+**BCRYPT_MLKEM_PRIVATE_BLOB** (also aliased as **BCRYPT_MLKEM_DECAPSULATION_BLOB**) provides import and export of standard byte-encoded ML-KEM decapsulation keys per [FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf). The blob has magic **BCRYPT_MLKEM_PRIVATE_MAGIC** and the **Key** field contains the byte-encoded key. The sizes of the private keys for each algorithm are shown in ML-KEM Key and Ciphertext Sizes under column "Decapsulation Key Size".
 
-**BCRYPT_MLKEM_PUBLIC_BLOB** (also aliased as **BCRYPT_MLKEM_ENCAPSULATION_BLOB**) provides import and export of standard byte-encoded ML-KEM encapsulation keys per FIPS 203. The blob has magic **BCRYPT_MLKEM_PUBLIC_MAGIC** and the **Key** field contains the byte-encoded key. The sizes of the public keys for each algorithm are shown in ML-KEM Key and Ciphertext Sizes under column "Encapsulation Key Size".
+**BCRYPT_MLKEM_PUBLIC_BLOB** (also aliased as **BCRYPT_MLKEM_ENCAPSULATION_BLOB**) provides import and export of standard byte-encoded ML-KEM encapsulation keys per [FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf). The blob has magic **BCRYPT_MLKEM_PUBLIC_MAGIC** and the **Key** field contains the byte-encoded key. The sizes of the public keys for each algorithm are shown in ML-KEM Key and Ciphertext Sizes under column "Encapsulation Key Size".
 
 For example, the encapsulation key for ML-KEM 512 would be imported/exported using type **BCRYPT_MLKEM_ENCAPSULATION_BLOB**. The blob will have magic **BCRYPT_MLKEM_PUBLIC_MAGIC**, **BCRYPT_MLKEM_512_ALG** is 812 bytes in length.
 

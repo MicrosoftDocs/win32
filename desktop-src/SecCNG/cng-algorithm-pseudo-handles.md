@@ -80,9 +80,9 @@ Beginning in Windows 10, CNG provides pre-defined algorithm handles for many alg
 
 | Constant | Description |
 |----------|-------------|
-| **BCRYPT_MLKEM_512_ALG_HANDLE** | A handle to the key encapsulation mechanism (KEM) algorithm. Standard: FIPS 203. |
-| **BCRYPT_MLKEM_768_ALG_HANDLE** | A handle to the key encapsulation mechanism (KEM) algorithm. Standard: FIPS 203. |
-| **BCRYPT_MLKEM_1024_ALG_HANDLE** | A handle to the key encapsulation mechanism (KEM) algorithm. Standard: FIPS 203. |
+| **BCRYPT_MLKEM_512_ALG_HANDLE** | A handle to the key encapsulation mechanism (KEM) algorithm. Standard: [FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf). |
+| **BCRYPT_MLKEM_768_ALG_HANDLE** | A handle to the key encapsulation mechanism (KEM) algorithm. Standard: [FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf). |
+| **BCRYPT_MLKEM_1024_ALG_HANDLE** | A handle to the key encapsulation mechanism (KEM) algorithm. Standard: [FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf). |
 
 ## Asymmetric Algorithms
 
