@@ -56,9 +56,10 @@ If the function succeeds, it returns **S_OK**. Otherwise, it returns an [HRESULT
 **GetKeyStorageInterface** isn't associated with a header file. You can call it by first using the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryw) function (to load `Ncrypt.dll`), and then by calling the [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) function to retrieve the address of **GetKeyStorageInterface**.
 
 ## Requirements
-| &nbsp; | &nbsp; |
-| ---- |:---- |
+
+| Requirement | Value |
+| ---- | ---- |
 | **Target Platform** | Windows |
 | **Header** | N/A |
-| **Library** | Ncrypt.lib |
-| **DLL** | Ncrypt.dll |
+| **Library** | `Ncrypt.lib` |
+| **DLL** | `Ncrypt.dll` |

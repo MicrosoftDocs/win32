@@ -1,8 +1,8 @@
 ---
 title: NCryptEncapsulate function
-description: The NCryptEncapsulate function encapsulates a key for the ML-KEM algorithm.
+description: The NCryptEncapsulate function performs the Encapsulation operation of a KEM algorithm.
 ms.topic: reference
-ms.date: 05/13/2025
+ms.date: 05/27/2025
 req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 topic_type:
@@ -22,7 +22,8 @@ targetos: Windows
 > [!NOTE]
 > Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. The feature described in this topic is available in pre-release versions of the [Windows Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
-The **NCryptEncapsulate** function encapsulates a key for the ML-KEM algorithm.
+The **NCryptEncapsulate** function performs the Encapsulation operation of a Key Encapsulation Mechanism (KEM).
+It generates a shared secret key and encrypts it with the provided public key to produce a KEM ciphertext, returning both the shared secret key and the KEM ciphertext.
 
 ## Syntax
 
@@ -43,49 +44,76 @@ NTSTATUS NCryptEncapsulate (
 
 *hKey* `[in]`
 
-Provides a key handle for the ML-KEM encapsulation key.
+The handle of the key to use for the encapsulation operation.
 
 *pbSecretKey* `[out]`
 
-A pointer to a caller allocated buffer receiving the generated shared secret key.
+A pointer to a buffer that receives the shared secret key. See [remarks](#remarks) for more information.
 
 *cbSecretKey* `[in]`
 
-The size, in bytes, of the buffer *pbSecretKey*.
+The size, in bytes, of the *pbSecretKey* buffer.
 
 *pcbSecretKey* `[out]`
 
-If *pcbSecretKey* is `NULL`, it receives the number of bytes required for *pbSecretKey*. Otherwise, it returns the number of bytes written to *pbSecretKey*. See [remarks](#remarks) for more information.
+A pointer to a **ULONG** variable that the receives the number of bytes written to *pbSecretKey* buffer.
+
+If *pbSecretKey* is `NULL`, this receives the size, in bytes, required for the shared secret key.
+See [remarks](#remarks) for more information.
 
 *pbCipherText* `[out]`
 
-A pointer to the caller allocated buffer receiving the ML-KEM ciphertext.
+A pointer to a buffer that receives the KEM ciphertext. See [remarks](#remarks) for more information.
 
 *cbCipherText* `[in]`
 
-The size, in bytes, of *pbCipherText*. See [remarks](#remarks) for more information.
+The size, in bytes, of the *pbCipherText* buffer.
 
 *pcbCipherText* `[out]`
 
-If *pcbCipherText* is `NULL`, it receives the number of bytes required for *pbCipherText*. Otherwise, it returns the number of bytes written to *pbCipherText*. See [remarks](#remarks) for more information.
+A pointer to a **ULONG** variable that the receives the number of bytes written to *pbCipherText* buffer.
+
+If *pbCipherText* is `NULL`, this receives the size, in bytes, required for the KEM ciphertext.
+See [remarks](#remarks) for more information.
 
 *dwFlags* `[in]`
 
-Reserved, must be zero. ML-KEM currently has no flags.
+Reserved, must be zero.
 
 ## Return value
 
-If the function succeeds, it returns `STATUS_SUCCESS`. Otherwise, it returns an **NTSTATUS** error code. Possible error codes include:
+Returns a status code that indicates the success or failure of the function.
 
-| Status Code | Description |
+Possible return codes include, but are not limited to, the following.
+
+| Return Code | Description |
 |--|--|
-| `STATUS_INVALID_PARAMETER` | One or more required parameters (*hKey*, *pbSecretKey*, *pbCipherText*) are missing. |
-| `STATUS_BUFFER_TOO_SMALL` | One of the buffers, *pcbSecretKey* or *pcbCipherText*, are too small. If the *pbSecretKey* buffer is too small, *pcbSecretKey receives the number of bytes required for *pbSecretKey*. If buffer *pbCipherText* is too small, *pcbCipherText* receives the number of bytes required for *pbCipherText*. |
+| `ERROR_SUCCESS` | The function was successful. |
+| `NTE_BAD_FLAGS` | The *dwFlags* parameter contains a value that is not valid. |
+| `NTE_INVALID_PARAMETER` | One or more required parameters (*hKey*, *pcbSecretKey*, *pcbCipherText*) is `NULL`, or one of the parameters has an invalid value. |
+| `NTE_BUFFER_TOO_SMALL` | An output buffer size (*cbSecretKey*, *cbCipherText*) is too small for the result of the encapsulation for the KEM parameters associated with the encapsulation key. *pcbSecretKey* receives the number of bytes required for *pbSecretKey*, *pcbCipherText* receives the number of bytes required for *pbCipherText*. |
 
 ## Remarks
 
-These APIs will invoke internally the corresponding BCrypt APIs [BCryptEncapsulate](../bcrypt/nf-bcrypt-bcryptencapsulate.md) and [BCryptDecapsulate](../bcrypt/nf-bcrypt-bcryptdecapsulate.md) for ML-KEM key handles.
+To query the required sizes of the *pbSecretKey* and *pbCipherText* buffers, callers may call **NCryptEncapsulate** with `NULL` values in *pbSecretKey* and *pbCipherText*. The required size will be returned in *pcbSecretKey* and *pcbCipherText*, respectively. This query is efficient and returns the size without performing the encapsulation.
+Equivalently, use [NCryptGetProperty](/windows/win32/api/Ncrypt/nf-ncrypt-ncryptgetproperty) to query the **NCRYPT_KEM_SHARED_SECRET_LENGTH_PROPERTY** property of the algorithm or key handle, and the **NCRYPT_KEM_CIPHERTEXT_LENGTH_PROPERTY** property of the key handle.
+For currently supported KEM algorithms (ML-KEM), the shared secret length is a constant size for a given algorithm and the KEM ciphertext length is a constant size for a given parameter set.
 
-The required buffer length for *pbSecretKey*, *pbCipherText* are static values which depend only on the parameter set in use. The sizes for each parameter set are documented in ML-KEM Key and Ciphertext Sizes.
+## Requirements
 
-Alternatively, callers can query the required size of the *pbSecretKey*, *pbCipherText* buffer needed for the ML-KEM ciphertext, by calling **NCryptEncapsulate** with `NULL` values in *pbSecretKey* and *pbCipherText*. The required size will be returned in *pcbSecretKey* and *pcbCipherText*, respectively. This query is efficient and returns the size without performing the encapsulation.
+| Requirement | Value |
+| ---- | ---- |
+| **Minimum supported client** | Windows Insiders Preview [desktop apps only] |
+| **Minimum supported server** | Windows Insiders Preview [desktop apps only] |
+| **Library** | `Ncrypt.lib` |
+| **DLL** | `Ncrypt.dll` |
+
+## See also
+
+[NCryptDecapsulate](./nf-ncrypt-ncryptdecapsulate.md)
+
+[NCryptGetProperty](/windows/win32/api/Ncrypt/nf-ncrypt-ncryptgetproperty)
+
+[BCryptEncapsulate](../bcrypt/nf-bcrypt-bcryptencapsulate.md)
+
+[BCryptDecapsulate](../bcrypt/nf-bcrypt-bcryptdecapsulate.md)
