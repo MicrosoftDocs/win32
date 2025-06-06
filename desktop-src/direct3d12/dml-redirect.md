@@ -12,8 +12,8 @@ Direct Machine Learning (DirectML) is a low-level API for machine learning. It h
 
 DirectML is introduced in Windows 10, version 1903, and in the corresponding version of the Windows SDK.
 
-See [Direct Machine Learning (DirectML)](/windows/ai/directml/dml) in the Windows AI portal.
+See [Direct Machine Learning (DirectML)](/windows/ai/directml/dml) in the Windows AI Foundry portal.
 
 ## Related topics
 
-* [Windows AI](/windows/ai/)
+* [Windows AI Foundry](/windows/ai/)

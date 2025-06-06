@@ -417,7 +417,7 @@ private:
             // decoders will assume that a property is an array if it has
             // either a count parameter or a fixed count other than 1. The
             // PropertyParamFixedCount flag allows for fixed-count arrays with
-            // one element to be propertly decoded as arrays.
+            // one element to be properly decoded as arrays.
             bool isArray =
                 1 != arrayCount ||
                 0 != (epi.Flags & (PropertyParamCount | PropertyParamFixedCount));

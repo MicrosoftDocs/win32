@@ -26,7 +26,7 @@ Set objwbemobject = GetObject("winmgmts:[locale=ms_409]!root/test:myclass")
 
 ```PowerShell
 
-Get-WmiObject myclass -Namespace &quot;root\test&quot; -Locale &quot;ms_409&quot;
+Get-WmiObject myclass -Namespace "root\test" -Locale "ms_409"
 ```
 
 

@@ -506,7 +506,7 @@ HRESULT AddCustomControls()
                 if (SUCCEEDED(hr))
                 {
                     // Create a Visual Group.
-                    hr = pfdc->StartVisualGroup(CONTROL_GROUP, L&quot;Sample Group&quot;);
+                    hr = pfdc->StartVisualGroup(CONTROL_GROUP, L"Sample Group");
                     if (SUCCEEDED(hr))
                     {
                         // Add a radio-button list.
@@ -521,12 +521,12 @@ HRESULT AddCustomControls()
                                 // Add individual buttons to the radio-button list.
                                 hr = pfdc->AddControlItem(CONTROL_RADIOBUTTONLIST,
                                                           CONTROL_RADIOBUTTON1,
-                                                          L&quot;Change Title to ABC&quot;);
+                                                          L"Change Title to ABC");
                                 if (SUCCEEDED(hr))
                                 {
                                     hr = pfdc->AddControlItem(CONTROL_RADIOBUTTONLIST,
                                                               CONTROL_RADIOBUTTON2,
-                                                              L&quot;Change Title to XYZ&quot;);
+                                                              L"Change Title to XYZ");
                                     if (SUCCEEDED(hr))
                                     {
                                         // Set the default selection to option 1.
@@ -615,13 +615,13 @@ HRESULT AddOpenChoices()
                     hr = pfdc->EnableOpenDropDown(OPENCHOICES);
                     if (SUCCEEDED(hr))
                     {
-                        hr = pfdc->AddControlItem(OPENCHOICES, OPEN, L&quot;&Open&quot;);
+                        hr = pfdc->AddControlItem(OPENCHOICES, OPEN, L"&Open");
                     }                    
                     if (SUCCEEDED(hr))
                     {
                         hr = pfdc->AddControlItem(OPENCHOICES, 
                                                 OPEN_AS_READONLY, 
-                                                L&quot;Open as &read-only&quot;);
+                                                L"Open as &read-only");
                     }
                     if (SUCCEEDED(hr))
                     {

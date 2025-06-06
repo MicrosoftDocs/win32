@@ -53,7 +53,7 @@ void main()
 
 #include <windows.h>
 #include <stdio.h>
-#include &quot;Iphlpapi.h&quot;
+#include "Iphlpapi.h"
 
 int __cdecl main(){
 
@@ -70,14 +70,14 @@ int __cdecl main(){
     // Connect to the MIB server to obtain the hMibSrv handle
     dwRes = MprAdminMIBServerConnect(NULL, &hMibSrv);    
     if (dwRes != NO_ERROR){
-        wprintf(L&quot;ERROR: Unable to connect to the MIB server specified.\n&quot;);
+        wprintf(L"ERROR: Unable to connect to the MIB server specified.\n");
         return ERROR_SUCCESS;
     }
 
     // Retrieve the MIB interfaces table. The local RRAS service MUST be running or this call will fail.
     dwRes = MprAdminMIBEntryGet(hMibSrv, PID_IP, IPRTRMGR_PID, (PVOID)&MibOpaqueQuery, dwInSize, (PVOID*)&pMibOpaqueInfo, &dwOutSize);
     if (dwRes != NO_ERROR){
-        wprintf(L&quot;ERROR: Unable to retrieve the MIB interface table.\n&quot;);
+        wprintf(L"ERROR: Unable to retrieve the MIB interface table.\n");
         return ERROR_SUCCESS;
     }
 
@@ -93,10 +93,10 @@ int __cdecl main(){
     pIntfTable = (PMIB_IFTABLE)pMibOpaqueInfo->rgbyData;
 
     // Print out the name and description of each MIB interface in the table
-    wprintf(L&quot;There were %d MIB table records found:\n&quot;, pIntfTable->dwNumEntries);
+    wprintf(L"There were %d MIB table records found:\n", pIntfTable->dwNumEntries);
     for(UINT i=0; i < pIntfTable->dwNumEntries; i++){
-        wprintf(L&quot;%d\t%s\t&quot;, i, pIntfTable->table[i].wszName, pIntfTable->table[i].bDescr);
-        printf(&quot;%s\n&quot;, pIntfTable->table[i].bDescr);
+        wprintf(L"%d\t%s\t", i, pIntfTable->table[i].wszName, pIntfTable->table[i].bDescr);
+        printf("%s\n", pIntfTable->table[i].bDescr);
     }
 
     return ERROR_SUCCESS;

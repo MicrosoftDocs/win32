@@ -16,7 +16,7 @@ If an icon is not referenced in the property or table and there is no UI provide
 
 ## Result
 
-ICE36 posts a message if there is a icon in the Icon table that is not referenced in the [Class](class-table.md), [ProgId](progid-table.md), or [Shortcut](shortcut-table.md) tables and if there is no UI provided to create such a reference at run time.
+ICE36 posts a message if there is an icon in the Icon table that is not referenced in the [Class](class-table.md), [ProgId](progid-table.md), or [Shortcut](shortcut-table.md) tables and if there is no UI provided to create such a reference at run time.
 
 ## Example
 

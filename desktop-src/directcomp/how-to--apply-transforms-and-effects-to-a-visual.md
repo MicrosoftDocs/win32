@@ -316,7 +316,7 @@ private:
 //
 // ApplyEffects.cpp
 //
-// THIS CODE AND INFORMATION IS PROVIDED &quot;AS IS&quot; WITHOUT WARRANTY OF
+// THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF
 // ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO
 // THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
 // PARTICULAR PURPOSE.
@@ -326,7 +326,7 @@ private:
 // Instructions: Hover over the image to see the opacity change. Click
 //   the image to apply a 3D rotation.
 
-#include &quot;ApplyEffects.h&quot;
+#include "ApplyEffects.h"
 
 #define OFFSET_X 20
 #define OFFSET_Y 20
@@ -438,8 +438,8 @@ HRESULT DemoApp::Initialize()
     }
 
     m_hwnd = CreateWindow(
-        L&quot;DirectCompDemoApp&quot;,
-        L&quot;DirectComposition Demo Application&quot;,
+        L"DirectCompDemoApp",
+        L"DirectComposition Demo Application",
         WS_OVERLAPPEDWINDOW,
         CW_USEDEFAULT,
         CW_USEDEFAULT,
@@ -540,7 +540,7 @@ HRESULT DemoApp::CreateResources()
 {
     HRESULT hr = S_OK;
 
-    hr = LoadResourceGDIBitmap(L&quot;Penguins&quot;, m_hBitmap);
+    hr = LoadResourceGDIBitmap(L"Penguins", m_hBitmap);
    
     return hr;
 }

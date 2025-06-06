@@ -53,7 +53,7 @@ int _tmain(int argc, _TCHAR* argv[])
 HRESULT enumProviders(void)
 {
    CComPtr<ICspInformations>     pCSPs;   // Provider collection
-   CComPtr<ICspInformation>      pCSP;    // Provider instgance
+   CComPtr<ICspInformation>      pCSP;    // Provider instance
    HRESULT           hr          = S_OK;  // Return value
    long              lCount      = 0;     // Count of providers
    CComBSTR          bstrName;            // Provider name
