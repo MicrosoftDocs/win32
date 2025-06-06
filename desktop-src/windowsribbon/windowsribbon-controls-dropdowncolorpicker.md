@@ -113,7 +113,7 @@ The basic markup required for each Drop-Down Color Picker type is demonstrated i
 
 ## Code
 
-As a specialized control that supports customization, any implemention of the Drop-Down Color Picker that takes advantage of these capabilities requires specialized application code to manage properties and handle any Commands issued by the control.
+As a specialized control that supports customization, any implementation of the Drop-Down Color Picker that takes advantage of these capabilities requires specialized application code to manage properties and handle any Commands issued by the control.
 
 ### Properties
 

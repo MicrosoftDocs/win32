@@ -43,7 +43,7 @@ The Winsock catalog (32-bit or 64-bit) that is being reset. This is an integer v
 
 ## Remarks
 
-The **WINSOCK\_WS2HELP\_LSP\_RESET** event is traced for an Winsock Layered Service Provider (LSP) operation when the Winsock catalog is reset.
+The **WINSOCK\_WS2HELP\_LSP\_RESET** event is traced for a Winsock Layered Service Provider (LSP) operation when the Winsock catalog is reset.
 
 ## Requirements
 

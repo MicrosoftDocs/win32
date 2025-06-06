@@ -24,7 +24,7 @@ Check for code that incorrectly special cases around Internet Explorer 6, Windo
 
 <!-- -->
 
--   The Compatibility View in Internet Explorer 8, which is turned on by default for intranet sites, sends a Internet Explorer 7 user agent string. To differentiate between Internet Explorer 7 and Compatibility View, look for the new [Trident token](/archive/blogs/ie/).
+-   The Compatibility View in Internet Explorer 8, which is turned on by default for intranet sites, sends an Internet Explorer 7 user agent string. To differentiate between Internet Explorer 7 and Compatibility View, look for the new [Trident token](/archive/blogs/ie/).
 
 ${ROWSPAN3}$ Standards compliance updates
 
