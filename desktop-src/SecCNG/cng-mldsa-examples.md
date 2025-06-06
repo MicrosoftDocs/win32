@@ -13,9 +13,9 @@ ms.date: 05/15/2025
 
 This article provides a guide to implementing the end-to-end workflow for creating and verifying digital signatures using the ML-DSA algorithm with Microsoft's CNG API.
 
-## Sample ML-DSA code using Bcrypt
+## Sample ML-DSA code using BCrypt
 
-Learn how to use the ML-DSA algorithm with Microsoft's CNG API for digital signatures. The Bcrypt sample includes functions for signing a message and verifying the signature, as well as exporting the public key. The code is designed to be easy to follow and understand, making it suitable for developers looking to implement post-quantum digital signatures in their applications.
+Learn how to use the ML-DSA algorithm with Microsoft's CNG API for digital signatures. The BCrypt sample includes functions for signing a message and verifying the signature, as well as exporting the public key. The code is designed to be easy to follow and understand, making it suitable for developers looking to implement post-quantum digital signatures in their applications.
 
 ### Signature Generation and Verification with ML-DSA 
 
@@ -56,7 +56,7 @@ You will follow these steps to set up the algorithm handles and key pairs for ML
    - `0`: Indicates the default key size for ML-DSA. 
    - `NULL`: No flags are set for this operation.
 
-1. Use [BCryptSetProperty](/windows/win32/api/bcrypt/nf-bcrypt-bcryptsetproperty) to specify the parameter set to use for ML-DSA, which have tradeoffs for strength and performance. In this example the ML-DSA 44 parameter set it chosen, and other options are ML-DSA 65 and ML-DSA 87.
+1. Use [BCryptSetProperty](/windows/win32/api/bcrypt/nf-bcrypt-bcryptsetproperty) to specify the parameter set to use for ML-DSA, which have tradeoffs for strength and performance. In this example the ML-DSA-44 parameter set is chosen.
 
    ```cpp
    status = BCryptSetProperty(&hKeyPair, BCRYPT_PARAMETER_SET_NAME, (PUCHAR)BCRYPT_MLDSA_PARAMETER_SET_44, sizeof(BCRYPT_MLDSA_PARAMETER_SET_44), 0); 
@@ -66,7 +66,7 @@ You will follow these steps to set up the algorithm handles and key pairs for ML
    }
    ```
 
-   Setting **BCRYPT_PARAMETER_SET_NAME** indicates which parameter set to use (e.g., MLDSA-44). 
+   Setting **BCRYPT_PARAMETER_SET_NAME** indicates which parameter set to use (e.g., ML-DSA-44). 
 
 1. Use [BCryptFinalizeKeyPair](/windows/win32/api/bcrypt/nf-bcrypt-bcryptfinalizekeypair) so the public and private key are ready to be used.
 
