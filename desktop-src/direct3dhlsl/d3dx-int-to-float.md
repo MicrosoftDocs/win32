@@ -1,6 +1,6 @@
 ---
 title: D3DX_INT_to_FLOAT function
-description: Converts a INT value to FLOAT.
+description: Converts an INT value to FLOAT.
 ms.assetid: bee2fb3e-ffde-4013-a321-275d6beb5f77
 keywords:
 - D3DX_INT_to_FLOAT function HLSL
@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # D3DX\_INT\_to\_FLOAT function
 
-Converts a INT value to FLOAT.
+Converts an INT value to FLOAT.
 
 ## Syntax
 

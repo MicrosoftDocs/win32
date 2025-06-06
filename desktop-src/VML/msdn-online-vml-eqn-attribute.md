@@ -40,7 +40,7 @@ Equations are defined by the evaluation of a text expression that has the genera
 -   fixed numbers (for example, 2)
 -   predefined values
 
-The table below defines the formulas that can be used withthe optional arguments given the names *v*, *p1*, and *p2*.The formula pattern is:
+The table below defines the formulas that can be used with the optional arguments given the names *v*, *p1*, and *p2*.The formula pattern is:
 
 \<f eqn=" *operation* \[*v* \] \[*p1* \] \[*p2* \]"/>
 
