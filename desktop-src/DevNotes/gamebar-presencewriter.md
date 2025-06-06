@@ -10,7 +10,7 @@ ms.date: 02/22/2024
 
 ## Purpose
 
-Game Bar Presence Writer is a component that is notified when a game's "presence" state (i.e. is a game running in the foreground) changes.  This functionality is available in Windows 10 and later operating systems.  By default, the existing Game Bar Presence Writer will set a user's Xbox Live presence state for a running game if the Xbox App is installed, the user is signed into their Xbox account, and the user has enabled Xbox Live presence to be set when they run a game on their PC.  It is possible for Windows Application developers to override this default behavior with their own implemention.
+Game Bar Presence Writer is a component that is notified when a game's "presence" state (i.e. is a game running in the foreground) changes.  This functionality is available in Windows 10 and later operating systems.  By default, the existing Game Bar Presence Writer will set a user's Xbox Live presence state for a running game if the Xbox App is installed, the user is signed into their Xbox account, and the user has enabled Xbox Live presence to be set when they run a game on their PC.  It is possible for Windows Application developers to override this default behavior with their own implementation.
 
 > [!Important]
 > By providing a custom implementation of the Game Bar Presence Writer, the default behavior of a user's Xbox Live presence state being set when they run a game will no longer be available.

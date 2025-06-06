@@ -50,7 +50,7 @@ No return value.
 
 The notification receiver casts *lParam* to retrieve the [**NMLISTVIEW**](/windows/win32/api/commctrl/ns-commctrl-nmlistview) structure. The *wParam* parameter contains the ID of the control that sends the notification code.
 
-If a header control is a child of the list-view, the header control should send this notidication code to the list-view control when the header control receives the [HDN\_DROPDOWN](hdn-dropdown.md) notification code.
+If a header control is a child of the list-view, the header control should send this notification code to the list-view control when the header control receives the [HDN\_DROPDOWN](hdn-dropdown.md) notification code.
 
 ## Requirements
 

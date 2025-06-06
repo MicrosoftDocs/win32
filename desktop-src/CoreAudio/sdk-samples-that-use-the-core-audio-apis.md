@@ -13,7 +13,7 @@ The Windows SDK includes the following code samples that demonstrate the use of 
 
 
 
-| Sample | Deascription | 
+| Sample | Description | 
 |--------|--------------|
 | <a href="aecmicarray.md">AECMicArray</a> | This sample uses the MMDevice, WASAPI, DeviceTopology, and EndpointVolume APIs to capture a high-quality voice stream. The sample supports acoustic echo cancellation (AEC) and microphone array processing by using the AEC DMO also called the Voice capture DSP provided by Microsoft . | 
 | <a href="capturesharedeventdriven.md">CaptureSharedEventDriven</a> | This sample application uses the Core Audio APIs to capture audio data from an input device, specified by the user and writes it to a uniquely named .WAV file in the current directory. This sample demonstrates event-driven buffering. | 
