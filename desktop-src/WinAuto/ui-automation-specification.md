@@ -12,7 +12,7 @@ This topic provides an overview of the Microsoft UI Automation Specification, wh
 
 This topic contains the following sections:
 
--   [Introducton](#introducton)
+-   [Introduction](#introducton)
 -   [UI Automation Elements](#ui-automation-elements)
 -   [UI Automation Tree](#ui-automation-tree)
 -   [UI Automation Properties](#ui-automation-properties)
@@ -21,7 +21,7 @@ This topic contains the following sections:
 -   [UI Automation Events](#ui-automation-events)
 -   [Related topics](#related-topics)
 
-## Introducton
+## Introduction
 
 The UI Automation Specification provides flexible programmatic access to UI elements on the Windows desktop, enabling assistive technology products such as screen readers to provide information about the UI to end users and to manipulate the UI by means other than standard input.
 
