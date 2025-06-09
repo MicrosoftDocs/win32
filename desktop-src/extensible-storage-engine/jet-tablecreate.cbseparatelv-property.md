@@ -31,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_TABLECREATE.cbSeparateLV property
 
-Gets or sets the heuristic size to separate a intrinsic LV from the primary record.
+Gets or sets the heuristic size to separate an intrinsic LV from the primary record.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
