@@ -4,6 +4,8 @@ description: Converts a window to an Intercept window, where windowing operation
 tech.root: winmsg
 title: ConvertToInterceptWindow function
 ms.topic: reference
+topic_type:
+- APIRef
 ms.date: 3/22/2025
 req.lib: 
 req.dll: User32.dll

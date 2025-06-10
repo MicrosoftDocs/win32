@@ -4,6 +4,8 @@ description: Checks if a window is an Intercept window (has called ConvertToInte
 tech.root: winmsg
 title: IsInterceptWindow function
 ms.topic: reference
+topic_type:
+- APIRef
 ms.date: 3/22/2025
 req.lib: 
 req.dll: User32.dll

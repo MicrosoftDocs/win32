@@ -4,6 +4,8 @@ description: Begin dragging or sizing a window in response to input.
 tech.root: winmsg
 title: EnterMoveSizeLoop function
 ms.topic: reference
+topic_type:
+- APIRef
 ms.date: 3/22/2025
 req.lib: 
 req.dll: User32.dll

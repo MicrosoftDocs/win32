@@ -7,6 +7,8 @@ ms.topic: reference
 ms.date: 3/22/2025
 req.lib: 
 req.dll: User32.dll
+topic_type:
+- APIRef
 api_type:
  - DllExport
 api_location:
