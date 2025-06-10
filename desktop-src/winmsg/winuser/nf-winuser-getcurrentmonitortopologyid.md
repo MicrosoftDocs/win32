@@ -4,6 +4,8 @@ description: Retrieves the ID of the current monitor topology.
 tech.root: winmsg
 title: GetCurrentMonitorTopologyId function
 ms.topic: reference
+topic_type:
+- APIRef
 ms.date: 10/28/2024
 req.lib: 
 req.dll: User32.dll
