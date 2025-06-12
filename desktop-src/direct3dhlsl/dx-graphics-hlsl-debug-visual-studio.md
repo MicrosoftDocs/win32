@@ -1,6 +1,6 @@
 ---
 title: Debugging Shaders in Visual Studio
-description: The latest tool for debugging shaders now ships as a feature in Microsoft Visual Studio, called Visual Studio Graphics Debugger.
+description: Microsoft recommends PIX on Windows for debugging and profiling DirectX 12 games. 
 ms.assetid: 9652721e-cb1c-4c9a-92e4-4833844f15d3
 ms.topic: concept-article
 ms.date: 05/31/2018
@@ -11,9 +11,11 @@ api_type:
 api_location: 
 ---
 
-# Debugging Shaders in Visual Studio
+# Debugging Shaders
 
-The latest tool for debugging shaders now ships as a feature in Microsoft Visual Studio, called Visual Studio Graphics Debugger. This new tool is a replacement for the [PIX](/windows/desktop/directx-sdk--august-2009-) for Windows tool. Visual Studio Graphics Debugger has greatly improved usability, support for Windows 8 and Direct3D 11.1, and integration with traditional Visual Studio features such as call stacks and debugging windows for [HLSL](dx-graphics-hlsl.md) debugging. For more info about this new feature, see [Debugging DirectX Graphics](/visualstudio/debugger/visual-studio-graphics-diagnostics).
+Microsoft recommends [PIX on Windows]([url](https://devblogs.microsoft.com/pix/download/)) for debugging and profiling DirectX 12 games. 
+
+Visual Studio Graphics Diagnostics (VSGD) is an older tool available in Microsoft Visual Studio for recording and then analyzing rendering and performance problems in Direct3D apps. For more info about VSGD, see [Debugging DirectX Graphics](/visualstudio/debugger/visual-studio-graphics-diagnostics).
 
 ## Related topics
 
