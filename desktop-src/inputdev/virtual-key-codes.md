@@ -315,22 +315,22 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | `VK_LAUNCH_APP1` | 0xB6 | Start Application 1 key |
 | `VK_LAUNCH_APP2` | 0xB7 | Start Application 2 key |
 |  | 0xB8-B9 | Reserved |
-| `VK_OEM_1` | 0xBA | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `;:` key |
-| `VK_OEM_PLUS` | 0xBB | For any country/region, the `+` key |
-| `VK_OEM_COMMA` | 0xBC | For any country/region, the `,` key |
-| `VK_OEM_MINUS` | 0xBD | For any country/region, the `-` key |
-| `VK_OEM_PERIOD` | 0xBE | For any country/region, the `.` key |
-| `VK_OEM_2` | 0xBF | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `/?` key |
-| `VK_OEM_3` | 0xC0 | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `` `~ `` key |
+| `VK_OEM_1` | 0xBA | It can vary by keyboard. For the US ANSI keyboard , the `Semiсolon and Colon` key |
+| `VK_OEM_PLUS` | 0xBB | For any country/region, the `Equals and Plus` key |
+| `VK_OEM_COMMA` | 0xBC | For any country/region, the `Comma and Less Than` key |
+| `VK_OEM_MINUS` | 0xBD | For any country/region, the `Dash and Underscore` key |
+| `VK_OEM_PERIOD` | 0xBE | For any country/region, the `Period and Greater Than` key |
+| `VK_OEM_2` | 0xBF | It can vary by keyboard. For the US ANSI keyboard, the `Forward Slash and Question Mark`	key |
+| `VK_OEM_3` | 0xC0 | It can vary by keyboard. For the US ANSI keyboard, the `Grave Accent and Tilde` key |
 |  | 0xC1-DA | Reserved |
-| `VK_OEM_4` | 0xDB | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `[{` key |
-| `VK_OEM_5` | 0xDC | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `\\|` key |
-| `VK_OEM_6` | 0xDD | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `]}` key |
-| `VK_OEM_7` | 0xDE | Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the `'"` key |
-| `VK_OEM_8` | 0xDF | Used for miscellaneous characters; it can vary by keyboard. |
+| `VK_OEM_4` | 0xDB | It can vary by keyboard. For the US ANSI keyboard, the `Left Brace` key |
+| `VK_OEM_5` | 0xDC | It can vary by keyboard. For the US ANSI keyboard, the `Backslash and Pipe` key |
+| `VK_OEM_6` | 0xDD | It can vary by keyboard. For the US ANSI keyboard, the `Right Brace` key |
+| `VK_OEM_7` | 0xDE | It can vary by keyboard. For the US ANSI keyboard, the `Apostrophe and Double Quotation Mark` key |
+| `VK_OEM_8` | 0xDF | It can vary by keyboard. For the Canadian CSA keyboard, the `Right Ctrl` key |
 |  | 0xE0 | Reserved |
 |  | 0xE1 | OEM specific |
-| `VK_OEM_102` | 0xE2 | The `<>` keys on the US standard keyboard, or the `\\|` key on the non-US 102-key keyboard |
+| `VK_OEM_102` | 0xE2 | It can vary by keyboard. For the European ISO keyboard, the `Backslash and Pipe` key |
 |  | 0xE3-E4 | OEM specific |
 | `VK_PROCESSKEY` | 0xE5 | IME PROCESS key |
 |  | 0xE6 | OEM specific |
