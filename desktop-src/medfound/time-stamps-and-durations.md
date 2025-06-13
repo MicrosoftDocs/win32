@@ -68,7 +68,7 @@ An encoder converts uncompressed audio or video into compressed packets. An enco
 
 -   The encoder should follow the conventions of the output format. If the format does not typically time stamp every sample, as in MPEG-2, not every output sample needs to have a time stamp and a duration.
 
--   The input time stamps should be preserved in the output format, if the format has fields for time stamps, unless better time information is a available from another source, such as the application itself.
+-   The input time stamps should be preserved in the output format, if the format has fields for time stamps, unless better time information is available from another source, such as the application itself.
 
 ### Multiplexers
 

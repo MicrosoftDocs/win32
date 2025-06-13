@@ -138,7 +138,7 @@ else
     using (FileStream gifFile = File.OpenWrite(nameBase + "_files\\signature.gif"))
     {
 
-        // Generate the fortified GIF represenation of the ink
+        // Generate the fortified GIF representation of the ink
         fortifiedGif = ic.Ink.Save(PersistenceFormat.Gif);
 
         // Write and close the gif file

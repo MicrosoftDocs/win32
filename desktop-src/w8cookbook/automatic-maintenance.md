@@ -78,7 +78,7 @@ Task Scheduler includes a built-in command-line tool, schtasks.exe, that can imp
 <Task version="1.4" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
   <RegistrationInfo>
     <Date>2011-07-01T11:34:31</Date>
-    <Author>IT Deptartment</Author>
+    <Author>IT Department</Author>
   </RegistrationInfo>
   <Principals>
     <Principal id="Author">
