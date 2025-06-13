@@ -2,7 +2,8 @@
 title: Developer audience, and sample code
 description: This topic describes the groups of developers for whom the Antimalware Scan Interface is designed.
 ms.topic: concept-article
-ms.date: 12/17/2024
+ms.date: 06/12/2025
+# customer intent: As a Windows developer, I want to understand the Antimalware Scan Interface (AMSI) so that I can use it in my applications or create an AMSI provider.
 ---
 
 # Developer audience, and sample code
@@ -18,16 +19,16 @@ AMSI is designed in particular to combat "fileless malware". Application types t
 
 There are two ways in which you can interface with AMSI in your application.
 
-- By using the AMSI Win32 APIs. See [Antimalware Scan Interface (AMSI) functions](/windows/desktop/amsi/antimalware-scan-interface-functions).
-- By using the AMSI COM interfaces. See [**IAmsiStream** interface](/windows/desktop/api/amsi/nn-amsi-iamsistream).
+- By using the AMSI Win32 APIs. See [Antimalware Scan Interface (AMSI) functions](/windows/win32/amsi/antimalware-scan-interface-functions).
+- By using the AMSI COM interfaces. See [**IAmsiStream** interface](/windows/win32/api/amsi/nn-amsi-iamsistream).
 
 For sample code showing how to consume AMSI within your COM application, see the [IAmsiStream interface sample application](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/AmsiStream).
 
 ## Third-party creators of antimalware products
 
-As a creator of antimalware products, you can choose to author and register your own in-process COM server (a DLL) to function as an AMSI provider. That AMSI provider must implement the [**IAntimalwareProvider** interface](/windows/desktop/api/amsi/nn-amsi-iantimalwareprovider), and it must run in-process.
+As a creator of antimalware products, you can choose to author and register your own in-process COM server (a DLL) to function as an AMSI provider. That AMSI provider must implement the [**IAntimalwareProvider** interface](/windows/win32/api/amsi/nn-amsi-iantimalwareprovider), and it must run in-process.
 
-Note that, after Windows 10, version 1709 (the Fall 2017 Creators' Update), your AMSI provider DLL may not work if it depends upon other DLLs in its path to be loaded at the same time. To prevent DLL hijacking, we recommend that your provider DLL load its dependencies explicitly (with a full path) using secure [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryw) calls, or equivalent. We recommend this instead of relying on the **LoadLibrary** search behavior.
+Note that, after Windows 10, version 1709 (the Fall 2017 Creators' Update), your AMSI provider DLL may not work if it depends upon other DLLs in its path to be loaded at the same time. To prevent DLL hijacking, we recommend that your provider DLL load its dependencies explicitly (with a full path) using secure [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryw) calls, or equivalent. We recommend this instead of relying on the **LoadLibrary** search behavior.
 
 The section below shows how to register your AMSI provider. For full sample code showing how to author your own AMSI provider DLL, see the [IAntimalwareProvider interface sample application](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/AmsiProvider).
 
@@ -40,7 +41,7 @@ To begin with, you need to ensure that these Windows Registry keys exist.
 
 An AMSI provider is an in-process COM server. Consequently, it needs to register itself with COM. COM classes are registered in `HKLM\SOFTWARE\Classes\CLSID`.
 
-The code below shows how to register an AMSI provider, whose GUID (for this example) we will assume is `2E5D8A62-77F9-4F7B-A90C-2744820139B2`.
+The code below shows how to register an AMSI provider, whose GUID (for this example) we will assume is `aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb`.
 
 ```cpp
 #include <strsafe.h>
@@ -95,7 +96,7 @@ STDAPI DllRegisterServer()
 }
 ```
 
-If your DLL implements the [DllRegisterServer function](/windows/desktop/api/olectl/nf-olectl-dllregisterserver), as the example above does, then you can register it by using the Windows-supplied executable `regsvr32.exe`. From an elevated command prompt, issue a command of this form.
+If your DLL implements the [DllRegisterServer function](/windows/win32/api/olectl/nf-olectl-dllregisterserver), as the example above does, then you can register it by using the Windows-supplied executable `regsvr32.exe`. From an elevated command prompt, issue a command of this form.
 
 ```cmd
 C:>C:\Windows\System32\regsvr32.exe SampleAmsiProvider.dll
@@ -103,12 +104,12 @@ C:>C:\Windows\System32\regsvr32.exe SampleAmsiProvider.dll
 
 In this example, the command creates the following entries.
 
-**HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\\{2E5D8A62-77F9-4F7B-A90C-2744820139B2}**
+**HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\\{aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb}**
 
 &nbsp;&nbsp;&nbsp;&nbsp;**(Default)    REG_SZ    Sample AMSI Provider implementation**
 
 
-**HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\\{2E5D8A62-77F9-4F7B-A90C-2744820139B2}\InprocServer32**
+**HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\\{aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb}\InprocServer32**
 
 &nbsp;&nbsp;&nbsp;&nbsp;**(Default)    REG_EXPAND_SZ    %ProgramFiles%\TestProvider\SampleAmsiProvider.dll**
 
@@ -120,7 +121,7 @@ In addition to regular COM registration, you also need to enroll the provider wi
 
 For example,
 
-**HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\AMSI\Providers\\{2E5D8A62-77F9-4F7B-A90C-2744820139B2}**
+**HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\AMSI\Providers\\{aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb}**
 
 ## Known issues
 
@@ -145,8 +146,7 @@ Code Integrity determined that a process (\Device\HarddiskVolume3\<Folder>\<Fold
 To view the Code Integrity event log, follow these steps:
 
 1. Open Event Viewer. 
-
-2. In the navigation pane, expand **Applications and Services Logs** > **Microsoft** > **Windows** > **Code Integrity**, and then select **Operational**. 
+1. In the navigation pane, expand **Applications and Services Logs** > **Microsoft** > **Windows** > **Code Integrity**, and then select **Operational**. 
 
 Or if you have System Audit Integrity auditing enabled, look for this:
 
@@ -158,34 +158,27 @@ Or if you have System Audit Integrity auditing enabled, look for this:
 
 AMSI API's are designed to work with non-protected processes. ISV's are unable to sign their AMSI registered DLL's to be allowed to load into ELAM/PPL secured processes. In such cases, you might see the following information in the Windows Security event log:
 
-
 ```properties
-
 Description: 
 
 Code integrity determined that the image hash of a file is not valid.  The file could be corrupt due to unauthorized modification, or the invalid hash could indicate a potential disk device error. 
 
 File Name: \Device\HarddiskVolume3\<Folder> \<Folder w/ the ISV name> \<Folder w/ the product name>\<Your Amsi Provider>.dll 
-
 ```
  
 To view the Windows Security event log, follow these steps:
 
 1. Open Event Viewer.
-
-2. In the Navigation pane, expand **Windows Logs**, and then select **Security**.
+1. In the Navigation pane, expand **Windows Logs**, and then select **Security**.
 
 Workaround: 
 
 You can filter out events by following these steps:
 
 1. To filter out an event, such as Event ID 3033 or 5038, open Event Viewer.
-
-2. In the navigation pane, expand **Applications and Services Logs** > **Microsoft** > **Windows** > **Code Integrity**, and then select **Operational**. 
-
-3. Right-click **Operational**, and then select **Filter Current Log...**.
-   
-4. In the **\<All Event IDs\>** box, type `-3033` (or `-5038`), and then select **OK**. 
+1. In the navigation pane, expand **Applications and Services Logs** > **Microsoft** > **Windows** > **Code Integrity**, and then select **Operational**. 
+1. Right-click **Operational**, and then select **Filter Current Log...**.
+1. In the **\<All Event IDs\>** box, type `-3033` (or `-5038`), and then select **OK**. 
 
 Or, in Event Viewer, you can expand Windows Logs, right-click Security, select **Filter Current Log...**, and then specify `-3033` or `-5038`.
 
