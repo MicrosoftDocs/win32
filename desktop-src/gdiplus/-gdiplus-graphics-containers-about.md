@@ -133,7 +133,7 @@ myGraphicsContainer = myGraphics.BeginContainer();
    DrawEye(&myGraphics);
 myGraphics.EndContainer(myGraphicsContainer);
 
-// Draw a ellipse with center at (300.0f, 100.0f).
+// Draw an ellipse with center at (300.0f, 100.0f).
 myGraphics.TranslateTransform(100.0f, 0.0f, MatrixOrderAppend);
 myGraphics.DrawEllipse(&myBlackPen, -40, -60, 80, 120);
 
