@@ -1211,6 +1211,8 @@
           href: /windows/win32/api/d3d11/ne-d3d11-d3d11_bus_type
         - name: "D3D11_CONTENT_PROTECTION_CAPS"
           href: /windows/win32/api/d3d11/ne-d3d11-d3d11_content_protection_caps
+        - name: "D3D11_CRYPTO_SESSION_KEY_EXCHANGE_FLAGS"
+          href: /windows/win32/api/d3d11_1/ne-d3d11_4-d3d11_crypto_session_key_exchange_flags
         - name: "D3D11_CRYPTO_SESSION_STATUS"
           href: /windows/win32/api/d3d11_1/ne-d3d11_1-d3d11_crypto_session_status
         - name: "D3D11_FEATURE_VIDEO"
