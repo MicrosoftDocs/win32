@@ -91,7 +91,7 @@ values. This is irrespective of the ordering of the qualifiers in a qualifier li
 
 ## Neutral candidates
 
-When adding resource candidates to the indexer, you can specify an emptry string (or null pointer) as the
+When adding resource candidates to the indexer, you can specify an empty string (or null pointer) as the
 qualifier to indicate that the candidate is "neutral" and can match any context. For example, the name of the
 app shown in the Start menu may be a neutral candidate because app names are not typically localized
 (and they don't depend on other things like Scale or Contrast). Neutral candidates can be used in addition

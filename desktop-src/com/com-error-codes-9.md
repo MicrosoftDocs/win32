@@ -1944,7 +1944,7 @@ User is not signed into serverless presence.
 
 
 
-The user declinded the privacy policy prompt.
+The user declined the privacy policy prompt.
 
 
 </dt> </dl> </dd> <dt>

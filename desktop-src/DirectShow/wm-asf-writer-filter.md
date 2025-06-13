@@ -38,7 +38,7 @@ For more information, see [Creating ASF Files in DirectShow](creating-asf-files-
 
 The filter requires the Windows Media Format Software Development Kit (SDK) and its underlying dependencies.
 
-The number of input pins on the filter dependings on the profile or profile identifier of the ASF stream.
+The number of input pins on the filter depending on the profile or profile identifier of the ASF stream.
 
 The input pins support one method from the **IAMStreamConfig** interface: [**IAMStreamConfig::GetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getformat). All other methods return E\_NOTIMPL. Call the **GetFormat** method to query the pin's destination compression format, which is defined by the current ASF profile. Use the [**IConfigAsfWriter**](/previous-versions/windows/desktop/api/Dshowasf/nn-dshowasf-iconfigasfwriter) interface to set the profile.
 
