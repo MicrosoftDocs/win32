@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The Sensor API provides event notifications through callback interfaces.
 
-To receive event notfications, your program must implement the required COM callback interfaces. To receive events from sensors, you must implement [**ISensorEvents**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents). To receive events from the sensor manager, you must implement [**ISensorManagerEvents**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanagerevents).
+To receive event notifications, your program must implement the required COM callback interfaces. To receive events from sensors, you must implement [**ISensorEvents**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents). To receive events from the sensor manager, you must implement [**ISensorManagerEvents**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanagerevents).
 
 The following example code creates a class that implements [**ISensorEvents**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents).
 
@@ -153,7 +153,7 @@ public:
     {
         HRESULT hr = S_OK;
 
-        // Peform any housekeeping tasks for the sensor that is leaving.
+        // Perform any housekeeping tasks for the sensor that is leaving.
         // For example, if you have maintained a reference to the sensor,
         // release it now and set the pointer to NULL.
 

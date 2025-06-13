@@ -43,7 +43,7 @@ Before starting this walk-through, familiarize yourself with the following Media
 -   [Media Event Generators](media-event-generators.md)
 -   [Presentation Descriptors](presentation-descriptors.md)
 
-Also read [How to Play Media Files with Media Foundation](how-to-play-unprotected-media-files.md), because the example code shwon here expands on the code in that topic.
+Also read [How to Play Media Files with Media Foundation](how-to-play-unprotected-media-files.md), because the example code shown here expands on the code in that topic.
 
 ## Initializing Media Foundation
 
