@@ -1,6 +1,6 @@
 ---
 title: Persisting Ribbon State
-description: The Windows Ribon framework (Ribbon) provides the ability to preserve the state of a variety of user settings and preferences across application sessions.
+description: The Windows Ribbon framework (Ribbon) provides the ability to preserve the state of a variety of user settings and preferences across application sessions.
 ms.assetid: f59e36be-8e3d-454a-b93c-9fc5fc5ecb47
 ms.topic: concept-article
 ms.date: 05/31/2018
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Persisting Ribbon State
 
-The Windows Ribon framework (Ribbon) provides the ability to preserve the state of a variety of user settings and preferences across application sessions.
+The Windows Ribbon framework (Ribbon) provides the ability to preserve the state of a variety of user settings and preferences across application sessions.
 
 -   [Introduction](#introduction)
 -   [A Predictable Experience](#a-predictable-experience)

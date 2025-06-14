@@ -858,7 +858,7 @@ HRESULT PlayerSeeking::CommitRateChange(float fRate, BOOL bThin)
 
     // Positive <-> negative:   Stopped
     // Negative <-> zero:       Stopped
-    // Postive <-> zero:        Paused or stopped
+    // Positive <-> zero:        Paused or stopped
 
     if ((fRate > 0 && m_state.fRate <= 0) || (fRate < 0 && m_state.fRate >= 0))
     {
