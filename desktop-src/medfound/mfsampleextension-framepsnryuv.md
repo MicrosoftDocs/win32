@@ -71,8 +71,6 @@ The following example demonstrates how an app can retrieve the quality metrics d
 #include <mfobjects.h> 
 #include <wrl.h> 
 
- 
-
 // Function to retrieve the quality metrics from an IMFSample that an encoder MFT has provided as its 
 // output. 
 // The function sets the output parameter "found", to true, if quality metrics were retrieved. 

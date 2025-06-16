@@ -25,7 +25,7 @@ If the value is **TRUE**, AQ is enabled. If the value is **FALSE**, AQ is disabl
 
 When AQ is enabled, if the implementation of AQ supports multiple AQ strengths, the default AQ strength will be used.
 
-When AQ is enabled, the [CODECAPI_AVEncVideoEncodeQP](codecapi-avencvideoencodeqp.md) value is ignored, as AQ dynamically adjusts Quantization Parameter (QP) values. When AQ is enabled, the [CODECAPI_AVEncVideoMaxQP](codecapi-avencvideomaxqp.md) and [CODECAPI_AVEncVideoMinQP](codecapi-avencvideominqp.md) values are still used as the upper and lower bounds for QP by the AQ algorithm.
+When AQ is enabled, the [CODECAPI_AVEncVideoEncodeQP](codecapi-avencvideoencodeqp.md) value is not strictly followed, as AQ dynamically adjusts Quantization Parameter (QP) values. When AQ is enabled, the [CODECAPI_AVEncVideoMaxQP](codecapi-avencvideomaxqp.md) and [CODECAPI_AVEncVideoMinQP](codecapi-avencvideominqp.md) values are still used as the upper and lower bounds for QP by the AQ algorithm.
 
 Use [ICodecAPI::IsSupported](/windows/win32/api/strmif/nf-strmif-icodecapi-issupported) to check if the encoder supports this property. Use [ICodecAPI::GetValue](/windows/win32/api/strmif/nf-strmif-icodecapi-getvalue) to query the value of this property. Use [ICodecAPI::SetValue]((/windows/win32/api/strmif/nf-strmif-icodecapi-setvalue)) to configure this property.
 
