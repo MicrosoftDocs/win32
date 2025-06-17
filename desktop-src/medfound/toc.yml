@@ -3607,6 +3607,8 @@
           href: mfsampleextension-forwardeddecodeunittype.md
         - name: "MFSampleExtension_FrameCorruption"
           href: mfsampleextension-framecorruption.md
+        - name: "MFSampleExtension_FramePsnrYuv"
+          href: mfsampleextension-framepsnryuv.md
         - name: "MFSampleExtension_Interlaced"
           href: mfsampleextension-interlaced-attribute.md
         - name: "MFSampleExtension_LongTermReferenceFrameInfo"
@@ -3639,10 +3641,14 @@
           href: mfsampleextension-token-attribute.md
         - name: "MFSampleExtension_VideoDSPMode"
           href: mfsampleextension-videodspmode.md
+        - name: "MFSampleExtension_VideoEncodeBitsUsedMap"
+          href: mfsampleextension-videoencodebitsusedmap.md
         - name: "MFSampleExtension_VideoEncodePictureType"
           href: mfsampleextension-videoencodepicturetype.md
         - name: "MFSampleExtension_VideoEncodeQP"
           href: mfsampleextension-videoencodeqp.md
+        - name: "MFSampleExtension_VideoEncodeQPMap"
+          href: mfsampleextension-videoencodeqpmap.md
         - name: "MFStreamExtension_CameraExtrinsics"
           href: mfstreamextension-cameraextrinsics.md
         - name: "MFStreamExtension_PinholeCameraIntrinsics"
@@ -8275,6 +8281,10 @@
         href: codecapi-avencslicecontrolsize.md
       - name: "CODECAPI_AVEncVideoContentType"
         href: codecapi-avencvideocontenttype.md
+      - name: "CODECAPI_AVEncVideoEnableFramePsnrYuv"
+        href: codecapi-avencvideoenableframepsnryuv.md
+      - name: "CODECAPI_AVEncVideoEnableSpatialAdaptiveQuantization"
+        href: codecapi-avencvideoenablespatialadaptivequantization.md
       - name: "CODECAPI_AVEncVideoEncodeFrameTypeQP"
         href: codecapi-avencvideoencodeframetypeqp.md
       - name: "CODECAPI_AVEncVideoEncodeQP"
@@ -8293,6 +8303,10 @@
         href: codecapi-avencvideomeanabsolutedifference.md
       - name: "CODECAPI_AVEncVideoMinQP"
         href: codecapi-avencvideominqp.md
+      - name: "CODECAPI_AVEncVideoOutputBitsUsedMapBlockSize"
+        href: codecapi-avencvideooutputbitsusedmapblocksize.md
+      - name: "CODECAPI_AVEncVideoOutputQPMapBlockSize"
+        href: codecapi-avencvideooutputqpmapblocksize.md
       - name: "CODECAPI_AVEncVideoRateControlParams"
         href: codecapi-avencvideoratecontrolparams.md
       - name: "CODECAPI_AVEncVideoROIEnabled"
