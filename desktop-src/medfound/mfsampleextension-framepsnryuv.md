@@ -69,7 +69,8 @@ The following example demonstrates how an app can retrieve the quality metrics d
 ```cpp
 #include <mfapi.h> 
 #include <mfobjects.h> 
-#include <wrl.h> 
+#include <wil.com.h>
+#include <wil/result_macros.h>
 
 // Function to retrieve the quality metrics from an IMFSample that an encoder MFT has provided as its 
 // output. 

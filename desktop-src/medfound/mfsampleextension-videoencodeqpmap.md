@@ -33,7 +33,8 @@ The following example shows a helper function that can be used by implementation
 #include <mfapi.h> 
 #include <mfobjects.h> 
 #include <codecapi.h> 
-#include <wrl.h> 
+#include <wil.com.h>
+#include <wil/result_macros.h>
 
 // Function to query and attach QP map to output samples 
 HRESULT ReportQPMapOnOutputSample( 
@@ -58,8 +59,6 @@ HRESULT ReportQPMapOnOutputSample(
         return S_OK; // QP Map not enabled 
     } 
 
- 
-
     // Attach the IMFMediaBuffer (QP Map) to the output sample's attributes 
     wil::com_ptr_nothrow<IMFAttributes> sampleAttributes; 
     RETURN_IF_FAILED(wil::com_ptr_nothrow(outputSample, &sampleAttributes)); 
@@ -74,7 +73,8 @@ The following example demonstrates how an app can retrieve the QP map data from 
 #include <mfapi.h> 
 #include <mfobjects.h> 
 #include <codecapi.h> 
-#include <wrl.h> 
+#include <wil.com.h>
+#include <wil/result_macros.h>
 
 // Function to retrieve the QP map from an output sample. 
 HRESULT RetrieveQPMapFromOutputSample( 

@@ -29,7 +29,9 @@ The following example demonstrates how to use the **CODECAPI_AVEncVideoOutputBit
 
 ```cpp
 #include <codecapi.h> 
-#include <mfapi.h> 
+#include <mfapi.h>
+#include <wil.com.h>
+#include <wil/result_macros.h>
 
 //  Inform an encoder MFT to enable or disable reporting the bits used map feature. 
 //  This function assumes that the encoder MFT supports ICodecAPI interface. 
@@ -61,7 +63,8 @@ The following example shows a helper function that can be used by implementation
 #include <mfapi.h> 
 #include <mfobjects.h> 
 #include <codecapi.h> 
-#include <wrl.h> 
+#include <wil.com.h>
+#include <wil/result_macros.h>
 
 // Function to query and attach bits used map to output samples 
 
@@ -91,7 +94,8 @@ HRESULT ReportBitsUsedMapOnOutputSample(
     RETURN_IF_FAILED(wil::com_query_to_nothrow(outputSample, &sampleAttributes)); 
 
     return sampleAttributes->SetUnknown(MFSampleExtension_VideoEncodeBitsUsedMap, bitsUsedMap); 
-} 
+}
+```
 
 The following example shows how an app can retrieve the bits used map data from the **IMFSample** objects that are produced by an encoder MFT.
 
@@ -99,7 +103,8 @@ The following example shows how an app can retrieve the bits used map data from 
 #include <mfapi.h> 
 #include <mfobjects.h> 
 #include <codecapi.h> 
-#include <wrl.h> 
+#include <wil.com.h>
+#include <wil/result_macros.h>
 
 // Function to retrieve the bits used map data from an output sample 
 HRESULT RetrieveBitsUsedMapFromOutputSample( 

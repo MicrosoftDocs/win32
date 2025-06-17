@@ -35,7 +35,9 @@ The following example demonstrates using the CODECAPI_AVEncVideoEnableFramePsnrY
 
 ```cpp
 #include <codecapi.h> 
-#include <mfapi.h> 
+#include <mfapi.h>
+#include <wil.com.h>
+#include <wil/result_macros.h>
 
 //  Enable or disable the quality metrics feature for an encoder MFT. 
 //  This function assumes that the encoder MFT supports ICodecAPI interface. 

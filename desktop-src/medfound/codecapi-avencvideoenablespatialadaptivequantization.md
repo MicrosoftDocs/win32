@@ -38,6 +38,8 @@ The following example demonstrates how to use the **CODECAPI_AVEncVideoEnableSpa
 ```cpp
 #include <codecapi.h> 
 #include <mfapi.h> 
+#include <wil.com.h>
+#include <wil/result_macros.h>
 
 //  Inform an encoder MFT to enable or disable the spatial adaptive quantization feature. 
 //  This function assumes that the encoder MFT supports ICodecAPI interface. 
