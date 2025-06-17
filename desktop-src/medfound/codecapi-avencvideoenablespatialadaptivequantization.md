@@ -27,7 +27,7 @@ When AQ is enabled, if the implementation of AQ supports multiple AQ strengths, 
 
 When AQ is enabled, the [CODECAPI_AVEncVideoEncodeQP](codecapi-avencvideoencodeqp.md) value is not strictly followed, as AQ dynamically adjusts Quantization Parameter (QP) values. When AQ is enabled, the [CODECAPI_AVEncVideoMaxQP](codecapi-avencvideomaxqp.md) and [CODECAPI_AVEncVideoMinQP](codecapi-avencvideominqp.md) values are still used as the upper and lower bounds for QP by the AQ algorithm.
 
-Use [ICodecAPI::IsSupported](/windows/win32/api/strmif/nf-strmif-icodecapi-issupported) to check if the encoder supports this property. Use [ICodecAPI::GetValue](/windows/win32/api/strmif/nf-strmif-icodecapi-getvalue) to query the value of this property. Use [ICodecAPI::SetValue]((/windows/win32/api/strmif/nf-strmif-icodecapi-setvalue)) to configure this property.
+Use [ICodecAPI::IsSupported](/windows/win32/api/strmif/nf-strmif-icodecapi-issupported) to check if the encoder supports this property. Use [ICodecAPI::GetValue](/windows/win32/api/strmif/nf-strmif-icodecapi-getvalue) to query the value of this property. Use [ICodecAPI::SetValue](/windows/win32/api/strmif/nf-strmif-icodecapi-setvalue) to configure this property.
 
 Note that while the variant type of the CODECAPI_AVEncVideoEnableSpatialAdaptiveQuantization property is VT_BOOL, [IMFAttributes](/windows/win32/api/mfobjects/nn-mfobjects-imfattributes) does not support Boolean attributes. Therefore, you should use [SetUINT32](/windows/win32/api/mfobjects/nf-mfobjects-imfattributes-setuint32) instead. Any non-zero value is interpreted as **TRUE**. The attribute value will be automatically converted to a VT_BOOL property value when it is transferred to the encoder MFT.
 

@@ -25,7 +25,7 @@ If the value is **TRUE**, quality metrics reporting is enabled. If the value is 
 
 When enabled, [Peak Signal-to-Noise Ratio (PSNR)](https://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio) quality metrics are included in the encoder’s output samples. The [MFSampleExtension_FramePsnrYuv](mfsampleextension-framepsnryuv.md) MF attribute is used to carry the quality metrics.
 
-Use [ICodecAPI::IsSupported](/windows/win32/api/strmif/nf-strmif-icodecapi-issupported) to check if the encoder supports this property. Use [ICodecAPI::GetValue](/windows/win32/api/strmif/nf-strmif-icodecapi-getvalue) to query the value of this property. Use [ICodecAPI::SetValue]((/windows/win32/api/strmif/nf-strmif-icodecapi-setvalue)) to configure this property.
+Use [ICodecAPI::IsSupported](/windows/win32/api/strmif/nf-strmif-icodecapi-issupported) to check if the encoder supports this property. Use [ICodecAPI::GetValue](/windows/win32/api/strmif/nf-strmif-icodecapi-getvalue) to query the value of this property. Use [ICodecAPI::SetValue](/windows/win32/api/strmif/nf-strmif-icodecapi-setvalue) to configure this property.
 
 Note that while the variant type of the CODECAPI_AVEncVideoEnableFramePsnrYuv property is VT_BOOL, [IMFAttributes](/windows/win32/api/mfobjects/nn-mfobjects-imfattributes) does not support Boolean attributes. Therefore, you should use [SetUINT32](/windows/win32/api/mfobjects/nf-mfobjects-imfattributes-setuint32) instead. Any non-zero value is interpreted as **TRUE**. The attribute value will be automatically converted to a VT_BOOL property value when it is transferred to the encoder MFT.
 
