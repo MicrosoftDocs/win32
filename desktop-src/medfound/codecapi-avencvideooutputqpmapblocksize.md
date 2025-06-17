@@ -25,7 +25,7 @@ The block size. The value must be a power of 2, such as 16 or 32. Setting the bl
 
 The block size used in generating the output metadata QP map from the encoder. With the block size, applications can derive the columns and rows of the output metadata QP map by the video frame width and height divided by the block size. For example, if the block size is 16 and the video frame has the size of 1920x1080, the QP map has 120 columns and 68 rows. If the video frame width/height is not an exact multiple of the block size, round up the width/height to the next multiple of the block size. For example, if the frame size is 1916x1076 and block size is 16, the rounded up frame size is 1920x1088.
 
-Use [ICodecAPI::IsSupported](/windows/win32/api/strmif/nf-strmif-icodecapi-issupported) to check if the encoder supports this property. Use [ICodecAPI::GetValue](/windows/win32/api/strmif/nf-strmif-icodecapi-getvalue) to query the value of this property. Use [ICodecAPI::SetValue]((/windows/win32/api/strmif/nf-strmif-icodecapi-setvalue)) to configure this property. Values that are not a power of 2, or 0, result in an **E_INVALIDARG** return value from **SetValue**.
+Use [ICodecAPI::IsSupported](/windows/win32/api/strmif/nf-strmif-icodecapi-issupported) to check if the encoder supports this property. Use [ICodecAPI::GetValue](/windows/win32/api/strmif/nf-strmif-icodecapi-getvalue) to query the value of this property. Use [ICodecAPI::SetValue](/windows/win32/api/strmif/nf-strmif-icodecapi-setvalue) to configure this property. Values that are not a power of 2, or 0, result in an **E_INVALIDARG** return value from **SetValue**.
 
 ## Examples
 
