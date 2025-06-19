@@ -77,12 +77,14 @@ The recommended YUV formats are described in detail in the topic [Recommended 8-
 
  
 
-## YUV Formats: 10-Bit and 16-Bit
+## YUV Formats: 10-Bit, 16-Bit, and 24-Bit
 
 
 
 | GUID                    | Format | Sampling | Packed or planar | Bits per channel |
 |-------------------------|--------|----------|------------------|------------------|
+| **MFVideoFormat\_I422** | I422   | 4:2:2    | Planar           | 16               |
+| **MFVideoFormat\_I444** | I444   | 4:4:4    | Planar           | 24                |
 | **MFVideoFormat\_P010** | P010   | 4:2:0    | Planar           | 10               |
 | **MFVideoFormat\_P016** | P016   | 4:2:0    | Planar           | 16               |
 | **MFVideoFormat\_P210** | P210   | 4:2:2    | Planar           | 10               |
@@ -119,38 +121,39 @@ For more information about these formats, see [10-bit and 16-bit YUV Video Forma
 
 
 
-| GUID                        | FOURCC         | Description                                                                                                                                                                                                                                                                                                 |
+| GUID                        | FOURCC         | Description                   |
 |-----------------------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **MFVideoFormat\_DV25**     | 'dv25'         | DVCPRO 25 (525-60 or 625-50).                                                                                                                                                                                                                                                                               |
-| **MFVideoFormat\_DV50**     | 'dv50'         | DVCPRO 50 (525-60 or 625-50).                                                                                                                                                                                                                                                                               |
-| **MFVideoFormat\_DVC**      | 'dvc '         | DVC/DV Video.                                                                                                                                                                                                                                                                                               |
+| **MFVideoFormat\_AVP**     | Not applicable         | [Advanced Professional Video (AVP)](https://github.com/AcademySoftwareFoundation/openapv?tab=readme-ov-file#apv-codec) |
+| **MFVideoFormat\_DV25**     | 'dv25'         | DVCPRO 25 (525-60 or 625-50). |
+| **MFVideoFormat\_DV50**     | 'dv50'         | DVCPRO 50 (525-60 or 625-50). |
+| **MFVideoFormat\_DVC**      | 'dvc '         | DVC/DV Video.                 |
 | **MFVideoFormat\_DVH1**     | 'dvh1'         | DVCPRO 100 (1080/60i, 1080/50i, or 720/60P).                                                                                                                                                                                                                                                                |
-| **MFVideoFormat\_DVHD**     | 'dvhd'         | HD-DVCR (1125-60 or 1250-50).                                                                                                                                                                                                                                                                               |
-| **MFVideoFormat\_DVSD**     | 'dvsd'         | SDL-DVCR (525-60 or 625-50).                                                                                                                                                                                                                                                                                |
-| **MFVideoFormat\_DVSL**     | 'dvsl'         | SD-DVCR (525-60 or 625-50).                                                                                                                                                                                                                                                                                 |
-| **MFVideoFormat\_H263**     | 'H263'         | H.263 video.                                                                                                                                                                                                                                                                                                |
+| **MFVideoFormat\_DVHD**     | 'dvhd'         | HD-DVCR (1125-60 or 1250-50). |
+| **MFVideoFormat\_DVSD**     | 'dvsd'         | SDL-DVCR (525-60 or 625-50).  |
+| **MFVideoFormat\_DVSL**     | 'dvsl'         | SD-DVCR (525-60 or 625-50).   |
+| **MFVideoFormat\_H263**     | 'H263'         | H.263 video.                  |
 | **MFVideoFormat\_H264**     | 'H264'         | H.264 video.<br/> Media samples contain H.264 bitstream data with start codes and has interleaved SPS/PPS. Each sample contains one complete picture, either one field or one frame.<br/>                                                                                                       |
-| **MFVideoFormat\_H265**     | 'H265'         | H.265 video.                                                                                                                                                                                                                                                                                                |
+| **MFVideoFormat\_H265**     | 'H265'         | H.265 video.                  |
 | **MFVideoFormat\_H264\_ES** | Not applicable | H.264 elementary stream.<br/> This media type is the same as **MFVideoFormat\_H264**, except media samples contain a fragmented H.264 bitstream. Each sample may contain a partial picture; multiple complete pictures; or one or more complete pictures plus a partial picture.<br/>           |
 | **MFVideoFormat\_HEVC**     | 'HEVC'         | The HEVC Main profile and Main Still Picture profile.<br/> Each sample contains one complete picture.<br/> Supported in Windows 8.1 and later. The HEVC Main profile and Main Still Picture profile elementary stream. <br/>                                                              |
 | **MFVideoFormat\_HEVC\_ES** | 'HEVS'         | This media type is the same as **MFVideoFormat\_HEVC**, except media samples contain a fragmented HEVC bitstream. Each sample may contain a partial picture; multiple complete pictures; or one or more complete pictures plus a partial picture.<br/> Supported in Windows 8.1 and later.<br/> |
-| **MFVideoFormat\_M4S2**     | 'M4S2'         | MPEG-4 part 2 video.                                                                                                                                                                                                                                                                                        |
-| **MFVideoFormat\_MJPG**     | 'MJPG'         | Motion JPEG.                                                                                                                                                                                                                                                                                                |
+| **MFVideoFormat\_M4S2**     | 'M4S2'         | MPEG-4 part 2 video.          |
+| **MFVideoFormat\_MJPG**     | 'MJPG'         | Motion JPEG.                  |
 | **MFVideoFormat\_MP43**     | 'MP43'         | Microsoft MPEG 4 codec version 3. This codec is no longer supported.                                                                                                                                                                                                                                        |
-| **MFVideoFormat\_MP4S**     | 'MP4S'         | ISO MPEG 4 codec version 1.                                                                                                                                                                                                                                                                                 |
-| **MFVideoFormat\_MP4V**     | 'MP4V'         | MPEG-4 part 2 video.                                                                                                                                                                                                                                                                                        |
+| **MFVideoFormat\_MP4S**     | 'MP4S'         | ISO MPEG 4 codec version 1.   |
+| **MFVideoFormat\_MP4V**     | 'MP4V'         | MPEG-4 part 2 video.          |
 | **MFVideoFormat\_MPEG2**    | Not applicable | MPEG-2 video. (Equivalent to **MEDIASUBTYPE\_MPEG2\_VIDEO** in DirectShow.)                                                                                                                                                                                                                                 |
-| **MFVideoFormat\_VP80**     | 'VP80'         | VP8 video.                                                                                                                                                                                                                                                                                                  |
-| **MFVideoFormat\_VP90**     | 'VP90'         | VP9 video.                                                                                                                                                                                                                                                                                                  |
-| **MFVideoFormat\_MPG1**     | 'MPG1'         | MPEG-1 video.                                                                                                                                                                                                                                                                                               |
+| **MFVideoFormat\_VP80**     | 'VP80'         | VP8 video.                    |
+| **MFVideoFormat\_VP90**     | 'VP90'         | VP9 video.                    |
+| **MFVideoFormat\_MPG1**     | 'MPG1'         | MPEG-1 video.                 |
 | **MFVideoFormat\_MSS1**     | 'MSS1'         | Windows Media Screen codec version 1.                                                                                                                                                                                                                                                                       |
 | **MFVideoFormat\_MSS2**     | 'MSS2'         | Windows Media Video 9 Screen codec.                                                                                                                                                                                                                                                                         |
 | **MFVideoFormat\_WMV1**     | 'WMV1'         | Windows Media Video codec version 7.                                                                                                                                                                                                                                                                        |
-| **MFVideoFormat\_WMV2**     | 'WMV2'         | Windows Media Video 8 codec.                                                                                                                                                                                                                                                                                |
-| **MFVideoFormat\_WMV3**     | 'WMV3'         | Windows Media Video 9 codec.                                                                                                                                                                                                                                                                                |
-| **MFVideoFormat\_WVC1**     | 'WVC1'         | SMPTE 421M ("VC-1").                                                                                                                                                                                                                                                                                        |
+| **MFVideoFormat\_WMV2**     | 'WMV2'         | Windows Media Video 8 codec.  |
+| **MFVideoFormat\_WMV3**     | 'WMV3'         | Windows Media Video 9 codec.  |
+| **MFVideoFormat\_WVC1**     | 'WVC1'         | SMPTE 421M ("VC-1").          |
 | **MFVideoFormat\_420O**     | '420O'         | 8-bit per channel planar YUV 4:2:0 video.                                                                                                                                                                                                                                                                   |
-| **MFVideoFormat\_AV1**     | 'AV01'         | AV1 video.                                                                                                                                                                                                                                                                                                |
+| **MFVideoFormat\_AV1**     | 'AV01'         | AV1 video.                  |
 
 
 
