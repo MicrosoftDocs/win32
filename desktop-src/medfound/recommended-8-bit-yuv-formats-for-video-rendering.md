@@ -56,7 +56,7 @@ Compared with the MPEG-1 scheme, it is simpler to convert between the MPEG-2 sch
 This section describes the 8-bit YUV formats that are recommended for video rendering. These fall into several categories:
 
 -   [4:4:4 Formats, 32 Bits per Pixel](#444-formats-32-bits-per-pixel)
--   [4:4:4 Formats, 32 Bits per Pixel](#444-formats-24-bits-per-pixel)
+-   [4:4:4 Formats, 24 Bits per Pixel](#444-formats-24-bits-per-pixel)
 -   [4:2:2 Formats, 16 Bits per Pixel](#422-formats-16-bits-per-pixel)
 -   [4:2:0 Formats, 16 Bits per Pixel](#420-formats-16-bits-per-pixel)
 -   [4:2:0 Formats, 12 Bits per Pixel](#420-formats-12-bits-per-pixel)
