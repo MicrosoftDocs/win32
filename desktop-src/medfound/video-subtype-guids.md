@@ -14,15 +14,15 @@ When these subtypes are used, set the [MF\_MT\_MAJOR\_TYPE](mf-mt-major-type-att
 
 -   [Uncompressed RGB Formats](#uncompressed-rgb-formats)
 -   [YUV Formats: 8-Bit and Palettized](#yuv-formats-8-bit-and-palettized)
--   [YUV Formats: 10-Bit and 16-Bit](#yuv-formats-10-bit-and-16-bit)
+-   [YUV Formats: 10-Bit and 16-Bit](#yuv-formats-10-bit-16-bit-and-24-bit)
 -   [Luminance and Depth Formats](#luminance-and-depth-formats)
 -   [Encoded Video Types](#encoded-video-types)
 -   [Creating Subtype GUIDs from FOURCCs and D3DFORMAT Values](#creating-subtype-guids-from-fourccs-and-d3dformat-values)
 -   [Related topics](#related-topics)
 
+
+
 ## Uncompressed RGB Formats
-
-
 
 | GUID                             | Description                                                                                     |
 |----------------------------------|-------------------------------------------------------------------------------------------------|
