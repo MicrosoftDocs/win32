@@ -26,6 +26,8 @@ CLSID\_VideoProcessorMFT
 -   **MFVideoFormat\_ARGB32**
 -   **MFVideoFormat\_AYUV**
 -   **MFVideoFormat\_I420**
+-   **MFVideoFormat\_I422**
+-   **MFVideoFormat\_I444**
 -   **MFVideoFormat\_IYUV**
 -   **MFVideoFormat\_NV11**
 -   **MFVideoFormat\_NV12**
@@ -49,6 +51,8 @@ CLSID\_VideoProcessorMFT
 -   **MFVideoFormat\_ARGB32**
 -   **MFVideoFormat\_AYUV**
 -   **MFVideoFormat\_I420**
+-   **MFVideoFormat\_I422**
+-   **MFVideoFormat\_I444**
 -   **MFVideoFormat\_IYUV**
 -   **MFVideoFormat\_NV12**
 -   **MFVideoFormat\_RGB24**
