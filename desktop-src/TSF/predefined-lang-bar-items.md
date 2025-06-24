@@ -20,49 +20,28 @@ ms.date: 05/31/2018
 
 The following [**GUID**](/windows/desktop/TSF/predefined-lang-bar-items) values identify the predefined language bar items. These values are used with [**GetItem**](/windows/desktop/api/Ctfutb/nf-ctfutb-itflangbaritemmgr-getitem) to obtain a specific language bar item.
 
-<dl> <dt>
+- GUID\_LBI\_SAPILAYR\_CFGMENUBUTTON
 
-<span id="_______________GUID_LBI_SAPILAYR_CFGMENUBUTTON_____________"></span><span id="_______________guid_lbi_sapilayr_cfgmenubutton_____________"></span> GUID\_LBI\_SAPILAYR\_CFGMENUBUTTON 
-</dt> <dd>
+   Speech tools language bar menu item.
 
-Speech tools language bar menu item.
+- GUID\_TFCAT\_TIP\_HANDWRITING
 
-</dd> <dt>
+   Handwriting type item.
 
-<span id="_______________GUID_TFCAT_TIP_HANDWRITING_____________"></span><span id="_______________guid_tfcat_tip_handwriting_____________"></span> GUID\_TFCAT\_TIP\_HANDWRITING 
-</dt> <dd>
+- GUID\_TFCAT\_TIP\_KEYBOARD
 
-Handwriting type item.
-
-</dd> <dt>
-
-<span id="_______________GUID_TFCAT_TIP_KEYBOARD_____________"></span><span id="_______________guid_tfcat_tip_keyboard_____________"></span> GUID\_TFCAT\_TIP\_KEYBOARD 
-</dt> <dd>
-
-Keyboard type item.
-
-</dd> </dl>
+   Keyboard type item.
 
 ## Requirements
 
-
-
 | Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |
-| Redistributable<br/>          | TSF 1.0 on Windows 2000 Professional<br/>                                        |
-| Header<br/>                   | <dl> <dt>Ctffunc.h</dt> </dl>   |
-| IDL<br/>                      | <dl> <dt>Ctffunc.idl</dt> </dl> |
-
-
+| Minimum supported client | Windows 2000 Professional \[desktop apps only\]                             |
+| Minimum supported server | Windows 2000 Server \[desktop apps only\]                                   |
+| Redistributable          | TSF 1.0 on Windows 2000 Professional                                        |
+| Header                   | Ctffunc.h   |
+| IDL                      | Ctffunc.idl |
 
 ## See also
 
-<dl> <dt>
-
 [ITfLangBarItemMgr::GetItem](/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemmgr-getitem)
-</dt> </dl>
-
- 
-
