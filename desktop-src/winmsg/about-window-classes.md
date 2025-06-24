@@ -154,7 +154,7 @@ Although a complete window class consists of many elements, the system requires 
 
 ### Class Name
 
-Every window class needs a [Class Name](#class-name) to distinguish one class from another. Assign a class name by setting the **lpszClassName** member of the [**WNDCLASSEX**](/windows/win32/api/winuser/ns-winuser-wndclassexa) structure to the address of a null-terminated string that specifies the name. Because window classes are process specific, window class names need to be unique only within the same process. Also, because class names occupy space in the system's private atom table, you should keep class name strings as short a possible.
+Every window class needs a [Class Name](#class-name) to distinguish one class from another. Assign a class name by setting the **lpszClassName** member of the [**WNDCLASSEX**](/windows/win32/api/winuser/ns-winuser-wndclassexa) structure to the address of a null-terminated string that specifies the name. Because window classes are process specific, window class names need to be unique only within the same process. Also, because class names occupy space in the system's private atom table, you should keep class name strings as short as possible.
 
 The [**GetClassName**](/windows/win32/api/winuser/nf-winuser-getclassname) function retrieves the name of the class to which a given window belongs.
 
