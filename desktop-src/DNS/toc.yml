@@ -59,6 +59,8 @@
         href: /windows/win32/api/windns/nf-windns-dnsfreeproxyname
       - name: "DnsGetProxyInformation"
         href: /windows/win32/api/windns/nf-windns-dnsgetproxyinformation
+      - name: "DnsIsFlatRecord"
+        href: /windows/win32/api/windns/nf-windns-dnsisflatrecord
       - name: "DnsModifyRecordsInSet"
         href: /windows/win32/api/windns/nf-windns-dnsmodifyrecordsinset_a
       - name: "DnsNameCompare"
@@ -202,6 +204,8 @@
         href: /windows/win32/api/windnsdef/ns-windnsdef-dns_soa_dataa
       - name: "DNS_SRV_DATA"
         href: /windows/win32/api/windnsdef/ns-windnsdef-dns_srv_dataa
+      - name: "DNS_SVCB_DATA"
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_svcb_data
       - name: "DNS_TKEY_DATA"
         href: /windows/win32/api/windnsdef/ns-windnsdef-dns_tkey_dataa
       - name: "DNS_TSIG_DATA"
