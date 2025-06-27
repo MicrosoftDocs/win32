@@ -2,7 +2,7 @@
 title: DirectStorage interfaces
 description: The following interfaces are declared in dstorage.h for DirectStorage-based programming.
 ms.topic: reference
-ms.date: 08/25/2022
+ms.date: 06/19/2025
 ---
 
 # DirectStorage interfaces
@@ -21,6 +21,7 @@ The following interfaces are declared in `dstorage.h` for DirectStorage-based pr
 | [IDStorageQueue](/windows/win32/dstorage/dstorage/nn-dstorage-idstoragequeue) |
 | [IDStorageQueue1](/windows/win32/dstorage/dstorage/nn-dstorage-idstoragequeue1) |
 | [IDStorageQueue2](/windows/win32/dstorage/dstorage/nn-dstorage-idstoragequeue2) |
+| [IDStorageQueue3](/windows/win32/dstorage/dstorage/nn-dstorage-idstoragequeue3) |
 | [IDStorageStatusArray](/windows/win32/dstorage/dstorage/nn-dstorage-idstoragestatusarray) |
 
 ## Related topics

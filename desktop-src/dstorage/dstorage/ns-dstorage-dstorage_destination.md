@@ -1,11 +1,11 @@
 ---
 UID: NS:dstorage.DSTORAGE_DESTINATION
+title: DSTORAGE_DESTINATION
+description: Describes the destination for a DirectStorage request.
 ms.topic: reference
 tech.root: dstorage
-title: DSTORAGE_DESTINATION
-ms.date: 08/25/2022
+ms.date: 06/20/2025
 targetos: Windows
-description: Describes the destination for a DirectStorage request.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -47,11 +47,12 @@ Describes the destination for a DirectStorage request. For a request, the value 
 
 ```cpp
 union DSTORAGE_DESTINATION {
-  DSTORAGE_DESTINATION_MEMORY                Memory;
-  DSTORAGE_DESTINATION_BUFFER                Buffer;
-  DSTORAGE_DESTINATION_TEXTURE_REGION        Texture;
-  DSTORAGE_DESTINATION_MULTIPLE_SUBRESOURCES MultipleSubresources;
-  DSTORAGE_DESTINATION_TILES                 Tiles;
+  DSTORAGE_DESTINATION_MEMORY                      Memory;
+  DSTORAGE_DESTINATION_BUFFER                      Buffer;
+  DSTORAGE_DESTINATION_TEXTURE_REGION              Texture;
+  DSTORAGE_DESTINATION_MULTIPLE_SUBRESOURCES       MultipleSubresources;
+  DSTORAGE_DESTINATION_TILES                       Tiles;
+  DSTORAGE_DESTINATION_MULTIPLE_SUBRESOURCES_RANGE MultipleSubresourcesRange;
 };
 ```
 
@@ -59,23 +60,27 @@ union DSTORAGE_DESTINATION {
 
 `Memory`
 
-See [DSTORAGE_DESTINATION_MEMORY](ns-dstorage-dstorage_destination_memory.md).
+See [DSTORAGE_DESTINATION_MEMORY](./ns-dstorage-dstorage_destination_memory.md).
 
 `Buffer`
 
-See [DSTORAGE_DESTINATION_BUFFER](ns-dstorage-dstorage_destination_buffer.md).
+See [DSTORAGE_DESTINATION_BUFFER](./ns-dstorage-dstorage_destination_buffer.md).
 
 `Texture`
 
-See [DSTORAGE_DESTINATION_TEXTURE_REGION](ns-dstorage-dstorage_destination_texture_region.md).
+See [DSTORAGE_DESTINATION_TEXTURE_REGION](./ns-dstorage-dstorage_destination_texture_region.md).
 
 `MultipleSubresources`
 
-See [DSTORAGE_DESTINATION_MULTIPLE_SUBRESOURCES](ns-dstorage-dstorage_destination_multiple_subresources.md).
+See [DSTORAGE_DESTINATION_MULTIPLE_SUBRESOURCES](./ns-dstorage-dstorage_destination_multiple_subresources.md).
 
 `Tiles`
 
-See [DSTORAGE_DESTINATION_TILES](ns-dstorage-dstorage_destination_tiles.md).
+See [DSTORAGE_DESTINATION_TILES](./ns-dstorage-dstorage_destination_tiles.md).
+
+`MultipleSubresourcesRange`
+
+See [DSTORAGE_DESTINATION_MULTIPLE_SUBRESOURCES_RANGE](./ns-dstorage-dstorage_destination_multiple_subresources_range.md).
 
 ## Requirements
 
