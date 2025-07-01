@@ -38,7 +38,7 @@ Specifies one or both of the following values.
 | **TO\_DISABLECUSTOMTEXTOUT**<br>`0x0004` | ??? |
 | **TO\_ADVANCEDLAYOUT**<br>`0x0008` | ??? |
 | **TO\_DEFAULTCOLOREMOJI**<br>`0x1000` | Enable the display of colored emoji (requires **TO\_DISPLAYFONTCOLOR**). |
-| **TO\_DISPLAYFONTCOLOR**<br>`0x200` | Enable the display of colored fonts. |
+| **TO\_DISPLAYFONTCOLOR**<br>`0x2000` | Enable the display of colored fonts. |
 
 </dd> <dt>
 
