@@ -31,14 +31,14 @@ Specifies one or both of the following values.
 
 
 
-| Value                                                                                                                                                                                    | Meaning                                                                                 |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| <span id="TO_ADVANCEDTYPOGRAPHY_"></span><span id="to_advancedtypography_"></span><dl> <dt>**TO\_ADVANCEDTYPOGRAPHY** </dt> </dl> | Advanced line breaking and line formatting is turned on. <br/>                    |
-| <span id="TO_SIMPLELINEBREAK"></span><span id="to_simplelinebreak"></span><dl> <dt>**TO\_SIMPLELINEBREAK**</dt> </dl>             | Faster line breaking for simple text (requires **TO\_ADVANCEDTYPOGRAPHY**). <br/> |
-
-
-
- 
+| Value | Meaning |
+|---|---|
+| **TO\_ADVANCEDTYPOGRAPHY**<br>`0x0001` | Advanced line breaking and line formatting is turned on. |
+| **TO\_SIMPLELINEBREAK**<br>`0x0002` | Faster line breaking for simple text (requires **TO\_ADVANCEDTYPOGRAPHY**). |
+| **TO\_DISABLECUSTOMTEXTOUT**<br>`0x0004` | ??? |
+| **TO\_ADVANCEDLAYOUT**<br>`0x0008` | ??? |
+| **TO\_DEFAULTCOLOREMOJI**<br>`0x1000` | Enable the display of colored emoji (requires **TO\_DISPLAYFONTCOLOR**). |
+| **TO\_DISPLAYFONTCOLOR**<br>`0x200` | Enable the display of colored fonts. |
 
 </dd> <dt>
 
