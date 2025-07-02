@@ -818,7 +818,14 @@
           "Wua_Sdk/*": "system-services",
           "xaudio2/*": "graphics-gaming",
           "xinput/*": "graphics-gaming"
-        }		 		 
+        },
+        "ms.update-cycle": {
+          "desktop-src/codecapi/**.md": "1825-days",
+          "desktop-src/mediastreaming/**.md": "1825-days",
+          "desktop-src/wmformat/**.md": "1825-days",
+          "desktop-src/DirectShow/**.md": "1825-days",
+          "desktop-src/Multimedia/**.md": "1825-days"
+        }
     },
     "template": [],
     "dest": "desktop",
