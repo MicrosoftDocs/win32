@@ -4,6 +4,7 @@ ms.assetid: 5b8fd559-b1be-4552-a7be-19ad107855af
 title: Autorun.inf Entries
 ms.topic: concept-article
 ms.date: 05/31/2018
+no-loc: [Verb, verb, Shell, shell]
 ---
 
 # Autorun.inf Entries

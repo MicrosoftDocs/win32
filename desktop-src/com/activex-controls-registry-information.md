@@ -4,6 +4,7 @@ description: ActiveX Controls Registry Information
 ms.assetid: fda5b1e6-2048-4df7-ba8f-145652e3883c
 ms.topic: reference
 ms.date: 05/31/2018
+no-loc: [Verb, verb, Properties]
 ---
 
 # ActiveX Controls Registry Information

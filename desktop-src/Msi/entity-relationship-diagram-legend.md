@@ -4,6 +4,7 @@ ms.assetid: a72d9b7c-e1ed-422c-a5d2-b19060c72487
 title: Entity Relationship Diagram Legend
 ms.topic: reference
 ms.date: 05/31/2018
+no-loc: [Verb]
 ---
 
 # Entity Relationship Diagram Legend

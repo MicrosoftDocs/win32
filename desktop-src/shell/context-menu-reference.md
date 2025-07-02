@@ -4,6 +4,7 @@ ms.assetid: efd96a52-6455-40bc-9c21-65f89728e771
 title: Shortcut Menu Reference
 ms.topic: reference
 ms.date: 05/31/2018
+no-loc: [Verb, verb, Shell, shell]
 ---
 
 # Shortcut Menu Reference

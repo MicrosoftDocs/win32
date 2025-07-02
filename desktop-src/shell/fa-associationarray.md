@@ -9,7 +9,7 @@ api_type:
 api_location: 
 topic_type: 
  - kbArticle
-
+no-loc: [Verb, verb, Shell, shell]
 ---
 
 # Association Arrays
