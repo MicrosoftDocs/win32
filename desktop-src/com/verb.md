@@ -6,6 +6,7 @@ keywords:
 - Verb registry key COM
 ms.topic: reference
 ms.date: 05/31/2018
+no-loc: [Verb, verb]
 ---
 
 # Verb

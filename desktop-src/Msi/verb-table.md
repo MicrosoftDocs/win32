@@ -4,6 +4,7 @@ ms.assetid: 3749095c-f0c0-498c-969f-a6c445cfdd62
 title: Verb Table
 ms.topic: reference
 ms.date: 05/31/2018
+no-loc: [Verb, verb]
 ---
 
 # Verb Table

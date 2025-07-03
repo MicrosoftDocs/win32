@@ -13,6 +13,7 @@ api_type:
 - COM
 api_location: 
 - Shell32.dll
+no-loc: [Verb, verb, Shell, shell]
 ---
 
 # FolderItems2.InvokeVerbEx method
@@ -55,11 +56,11 @@ A **Variant** that consists of a string with one or more arguments to the comman
 
 ## Remarks
 
-A verb is a string used to specify a particular action associated with an item or collection of items. Typically, calling a verb launches a related application. For example, calling the **open** verb on a .txt file normally opens the file with a text editor, usually Microsoft Notepad. For further discussion of verbs, see [Launching Applications](launch.md).
+A verb is a string used to specify a particular action associated with an item or collection of items. Typically, calling a verb launches a related application. For example, calling the **:::no-loc text="open":::** verb on a .txt file normally opens the file with a text editor, usually Microsoft Notepad. For further discussion of verbs, see [Launching Applications](launch.md).
 
 ## Examples
 
-The following example uses **InvokeVerbEx** to invoke the default verb ("open") on **My Computer**. Proper usage is shown for JScript, VBScript, and Visual Basic.
+The following example uses **InvokeVerbEx** to invoke the default verb (":::no-loc text="open":::") on **My Computer**. Proper usage is shown for JScript, VBScript, and Visual Basic.
 
 JScript:
 

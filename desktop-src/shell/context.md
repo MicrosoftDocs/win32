@@ -4,6 +4,7 @@ ms.assetid: d951d1e8-0f88-49c4-8373-e6db0e18cd72
 title: Extending Shortcut Menus
 ms.topic: concept-article
 ms.date: 05/31/2018
+no-loc: [Verb, verb, Shell, shell]
 ---
 
 # Extending Shortcut Menus
