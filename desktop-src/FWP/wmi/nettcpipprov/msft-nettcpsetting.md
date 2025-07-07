@@ -810,8 +810,9 @@ Gets and sets the RFC timestamp setting. This property contains one of the follo
 
 | Value                                                                                                                                                                                                                           | Meaning                                 |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
-| <span id="Disabled"></span><span id="disabled"></span><span id="DISABLED"></span><dl> <dt>**Disabled**</dt> <dt>0</dt> </dl> | Disable RFC 1323 timestamps.<br/> |
-| <span id="Enabled"></span><span id="enabled"></span><span id="ENABLED"></span><dl> <dt>**Enabled**</dt> <dt>1</dt> </dl>     | Enable RFC 1323 timestamps.<br/>  |
+| <span id="Disabled"></span><span id="disabled"></span><span id="DISABLED"></span><dl> <dt>**Disabled**</dt> <dt>0</dt> </dl> | Disable TCP timestamps.<br/> |
+| <span id="Enabled"></span><span id="enabled"></span><span id="ENABLED"></span><dl> <dt>**Enabled**</dt> <dt>1</dt> </dl>     | Enable TCP timestamps on outbound connections and allow inbound connections to use TCP timestamps.<br/>  |
+| <span id="Allowed"></span><span id="allowed"></span><span id="ALLOWED"></span><dl> <dt>**Allowed**</dt> <dt>2</dt> </dl>     | Enable TCP timestamps if the incoming connection tries to negotiate TCP timestamps.<br/>  |
 
 
 
