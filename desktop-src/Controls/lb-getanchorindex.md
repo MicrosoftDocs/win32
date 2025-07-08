@@ -40,7 +40,7 @@ Not used; must be zero.
 
 ## Return value
 
-The return value is the index of the anchor item.
+The return value is the index of the anchor item, or LB_ERR if an error occurs.
 
 ## Requirements
 
