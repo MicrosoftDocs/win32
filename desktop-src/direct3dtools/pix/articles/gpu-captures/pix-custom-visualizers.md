@@ -2,7 +2,7 @@
 title: Custom texture/mesh visualizers in PIX
 description: Documenting how to use custom texture/mesh visualizers with PIX
 ms.topic: concept-article
-ms.date: 10/18/2024
+ms.date: 01/30/2025
 ---
 
 # Custom texture/mesh visualizers in PIX
@@ -82,7 +82,7 @@ To get more information on the API, refer to the HLSL API section.
 
 ![Example output from the texture visualizer above](../../images/custom-visualizers-compiler-texture-example.png)
 
-## Custom buffer visualizer 
+## Custom mesh visualizer 
 
 Assuming you've set up paths to your visualizer shaders in the settings, you can now see your visualizers listed in the *Custom Visualization* panel, which you can open using the following buffer viewer toolbar icon: `{}`.
 
@@ -92,7 +92,7 @@ From that panel, you can select any available custom visualizer, and see any war
 
 ![Example error from a buffer visualizer](../../images/custom-visualizers-buffer-error.png)
 
-### Creating a custom buffer visualizer 
+### Creating a custom mesh visualizer 
 
 A visualizer is a compute shader running against the selected event, and whose output will be displayed in the mesh viewer in place of the buffer viewer showing the currently selected buffer data. To be successfully recognized by PIX, your entry point must be named **main**.
 
@@ -141,12 +141,50 @@ In the example above, we access vertices declaring `Vertices` to point to the pi
 
 To get more information on the API, refer to the HLSL API section.
 
-![Example output from the buffer visualizer above](../../images/custom-visualizers-buffer-example.png)
+![Example output from the mesh visualizer above](../../images/custom-visualizers-buffer-example.png)
 
 ### Visualize a buffer as a texture
 
 It is also possible to select a buffer and a custom visualizer outputting to a texture. In that case,
 the texture viewer will be displayed in place of the regular buffer viewer to display the result.
+
+## Custom buffer visualizer 
+
+The custom buffer visualizer works the same as the custom mesh visualizer, except instead of outputing to a pair of index and vertex buffers, it outputs to a `RWStructuredBuffer`. The buffer viewer is shown displaying the output and the buffer format applied to the viewer is automatically populated from the structured buffer template type. This kind of visualizer is useful, among other things, to reinterpret buffer data where multiple indirections might be involved or where the meaning of the data is not easily human-readable without further modification and interpretation. It can also be used to aggregate information coming from multiple resources and display the result in a specified format.
+
+### Creating a custom buffer visualizer
+
+To create the visualizer, there are two required steps. A type is declared as the output type using `PixExt_Declare_BufferOutput_Type`. The buffer viewer format is derived from that type. Then, data is sent to output using `PixExt_StoreBufferData` where the offset into the structured buffer and the data to store are specified.
+
+To get more information on the API, refer to the HLSL API section.
+
+#### Example
+
+```hlsl
+struct OutputData
+{
+    uint i;
+    float f;
+};
+
+PixExt_Declare_BufferOutput_Type(OutputData);
+
+[numthreads(32, 1, 1)]
+void main(PixExt_ComputeInput input)
+{
+    OutputData output;
+    output.i = some_value;
+    output.f = some_other_value;
+
+    const uint bufferElementCount = PixExt_GetBufferElementCount();
+    if (input.dispatchThreadId.x < bufferElementCount)
+    {
+        PixExt_StoreBufferData(input.dispatchThreadId.x, output);
+    }
+}
+```
+
+![Example output from the buffer visualizer above](../../images/custom-visualizers-buffer-to-buffer-example.png)
 
 ## User constants
 
@@ -260,6 +298,13 @@ uint PixExt_GetSelectedMip();
 uint PixExt_GetSelectedSlice();
 ```
 
+### Selected buffer information
+
+```hlsl
+// Returns the currently selected buffer element count.
+uint PixExt_GetBufferElementCount();
+```
+
 ### Selected event arguments 
 
 ```hlsl
@@ -319,6 +364,28 @@ selected event shaders.
 Texture2D<float4> g_texture : PixExt_BindByName;
 ```
 
+You must bind by name through SRV types (Buffer, StructuredBuffer, Texture2D, and so on). 
+UAVs and CBVs aren't directly supported; but you can bind those resources as SRVs 
+in your custom visualizer.
+
+Assuming the following declarations in the capture shader code:
+
+```hlsl
+ConstantBuffer<ConstantData> g_constants : register(b2, space4);
+RWBuffer<float4> g_buffer : register(u4, space2);
+```
+
+You can access the data through SRV bindings in your custom visualizer.
+
+```hlsl
+StructuredBuffer<ConstantData> g_constants : PixExt_BindByName;
+Buffer<float4> g_buffer : PixExt_BindByName;
+```
+
+### Root descriptor limitation
+
+A root descriptor can be bound only as a raw buffer in a custom visualizer. Structured buffer binding isn't supported.
+
 ### Shader outputs 
 
 You output data to the viewers using the following functions. 
@@ -359,6 +426,17 @@ void PixExt_StoreIndex(uint offset, uint index);
 // offset: Offset into the vertex buffer to write to.
 // vertex: Vertex position to write.
 void PixExt_StoreVertex(uint offset, float4 vertex);
+```
+
+#### Buffer
+
+```hlsl
+// Stores the given data for buffer viewer display.
+//
+// offset: Offset into the output structured buffer.
+// data: Value to write.
+template<typename TypeName>
+void PixExt_StoreBufferData(uint offset, TypeName data);
 ```
 
 ## Requirements
