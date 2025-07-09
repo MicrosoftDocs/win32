@@ -172,6 +172,9 @@ Specifies a URL prefix on which to accept HTTP or HTTPS requests. The default UR
 
 Allows the client computer to request unencrypted traffic. By default, the client computer requires encrypted network traffic and this setting is *False*.
 
+> [!NOTE]
+> Allowing unencrypted traffic isn't considered secure.
+
 ### Basic
 
 Allows the client computer to use Basic authentication. Basic authentication is a scheme in which the user name and password are sent in clear text to the server or proxy. This method is the least secure method of authentication. The default is *True*.
