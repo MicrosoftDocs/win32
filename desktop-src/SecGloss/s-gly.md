@@ -4,7 +4,8 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 3e9d7672-2314-45c8-8178-5a0afcfd0c50
 title: S (Security Glossary)
 ms.topic: glossary
-ms.date: 05/31/2018
+ms.date: 07/09/2025
+# customer intent: As a Windows developer, I want to learn about security terms that begin with the letter S so that I can understand their meanings and use them correctly in my applications.
 ---
 
 # S (Security Glossary)
@@ -611,10 +612,3 @@ See also [*access control list*](a-gly.md), [*discretionary access control list*
 The set of functions provided by a [*cryptographic service provider*](c-gly.md) (CSP) that implements an application's functions.
 
 </dd> </dl>
-
- 
-
- 
-
-
-

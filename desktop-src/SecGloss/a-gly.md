@@ -4,7 +4,8 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 0baaa937-f635-4500-8dcd-9dbbd6f4cd02
 title: A (Security Glossary)
 ms.topic: glossary
-ms.date: 05/31/2018
+ms.date: 07/09/2025
+# customer intent: As a Windows developer, I want to learn about security terms that begin with the letter A so that I can understand their meanings and how they relate to security concepts in Windows.
 ---
 
 # A (Security Glossary)
@@ -220,10 +221,3 @@ A DLL that encapsulates the authentication logic used to determine whether to pe
 A security feature of Internet Explorer. Authenticode allows vendors of downloadable executable code (plug-ins or ActiveX controls, for example) to attach digital certificates to their products to assure end users that the code is from the original developer and has not been altered. Authenticode lets end users decide for themselves whether to accept or reject software components posted on the Internet before downloading begins.
 
 </dd> </dl>
-
- 
-
- 
-
-
-

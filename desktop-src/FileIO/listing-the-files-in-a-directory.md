@@ -1,15 +1,15 @@
 ---
-description: To list files in a specified directory, call FindFirstFile, FindNextFile, and FindClose.
+description: See an example of how to list files in a specified directory, by calling FindFirstFile, FindNextFile, and FindClose.
 ms.assetid: ab0d977d-f71c-4a18-9b1d-2221169324f0
 title: Listing the Files in a Directory
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/08/2025
+# customer intent: As a Windows app developer, I want to learn how to list files in a directory using the FindFirstFile, FindNextFile, and FindClose functions.
 ---
 
-# Listing the Files in a Directory
+# Listing the files in a directory
 
-The following example calls [**FindFirstFile**](/windows/desktop/api/FileAPI/nf-fileapi-findfirstfilea), [**FindNextFile**](/windows/desktop/api/FileAPI/nf-fileapi-findnextfilea), and [**FindClose**](/windows/desktop/api/FileAPI/nf-fileapi-findclose) to list files in a specified directory.
-
+The following example calls [FindFirstFile](/windows/win32/api/FileAPI/nf-fileapi-findfirstfilea), [FindNextFile](/windows/win32/api/FileAPI/nf-fileapi-findnextfilea), and [FindClose](/windows/win32/api/FileAPI/nf-fileapi-findclose) to list files in a specified directory.
 
 ```C++
 #include <windows.h>
@@ -126,14 +126,4 @@ void DisplayErrorBox(LPTSTR lpszFunction)
     LocalFree(lpMsgBuf);
     LocalFree(lpDisplayBuf);
 }
-
 ```
-
-
-
- 
-
- 
-
-
-

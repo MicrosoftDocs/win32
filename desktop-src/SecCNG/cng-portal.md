@@ -3,14 +3,15 @@ description: CNG is an encryption API that you can use to create encryption secu
 ms.assetid: eaad88a1-4e1d-4246-9560-8eef60f8b70f
 title: 'Cryptography API: Next Generation'
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/09/2025
+# customer intent: As a Windows developer, I want to learn about the Cryptography API: Next Generation (CNG) so that I can use it to create encryption security software for encryption key management, cryptography and data security, and cryptography and network security.
 ---
 
 # Cryptography API: Next Generation
 
 ## Purpose
 
-Cryptography API: Next Generation (CNG) is the long-term replacement for the [*CryptoAPI*](../secgloss/c-gly.md). CNG is designed to be extensible at many levels and cryptography agnostic in behavior.
+Cryptography API: Next Generation (CNG) is the long-term replacement for the [CryptoAPI](../secgloss/c-gly.md). CNG is designed to be extensible at many levels and cryptography agnostic in behavior.
 
 ## Developer audience
 
@@ -20,21 +21,20 @@ If you are developing a CNG cryptographic algorithm provider or key storage prov
 
 ## Run-time requirements
 
-CNG is supported beginning with Windows Server 2008 and Windows Vista. For information about run-time requirements for a particular programming element, see the Requirements section of the reference page for that element.
+CNG is supported beginning with Windows Server 2008 and Windows Vista. For information about runtime requirements for a particular programming element, see the **Requirements** section of the reference page for that element.
 
 ## In this section
 
+The following topics provide information about CNG and how to use it in your applications:
 
+| Topic | Description |
+|-------|-------------|
+| [About CNG](about-cng.md) | Describes CNG features, cryptographic primitives, and key storage, retrieval, import, and export. |
+| [Using CNG](using-cng.md) | Explains how to use the cryptography configuration features of CNG and typical CNG programming. |
+| [CNG Reference](cng-reference.md) | Detailed descriptions of the CNG programming elements. These pages include reference descriptions of the API for working with CNG. |
 
-| Topic                                         | Description                                                                                                                                    |
-|-----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| [About CNG](about-cng.md)<br/>         | Describes CNG features, cryptographic primitives, and key storage, retrieval, import, and export.<br/>                                   |
-| [Using CNG](using-cng.md)<br/>         | Explains how to use the cryptography configuration features of CNG and typical CNG programming.<br/>                                     |
-| [CNG Reference](cng-reference.md)<br/> | Detailed descriptions of the CNG programming elements. These pages include reference descriptions of the API for working with CNG. <br/> |
+## Related content
 
+[Cryptographic Provider Development Kit](https://www.microsoft.com/download/details.aspx?id=30688)
 
-
- 
-
- 
-
+[CryptoAPI](../secgloss/c-gly.md)

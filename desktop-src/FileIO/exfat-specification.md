@@ -1,18 +1,16 @@
 ---
 description: Specification of the exFat file system.
-title: exFAT file system specification
+title: exFAT File System Specification
 ms.topic: concept-article
-ms.date: 08/27/2019
+ms.date: 07/08/2025
+# customer intent: As a Windows developer, I want to learn about the exFAT file system specification so that I can implement it in my applications.
 ---
                               
 # exFAT file system specification
 
 ## 1 Introduction
 
-The exFAT file system is the successor to FAT32 in the FAT family of
-file systems. This specification describes the exFAT file system and
-provides all the information necessary for implementing the exFAT file
-system.
+The exFAT file system is the successor to FAT32 in the FAT family of file systems. This specification describes the exFAT file system and provides all the information necessary for implementing the exFAT file system.
 
 ### 1.1 Design Goals
 
@@ -40,9 +38,7 @@ The exFAT file system has three central design goals (see list below).
 
 ### 1.2 Specific Terminology
 
-In the context of this specification, certain terms (see [Table 1](#table-1-definition-of-terms-which-carry-very-specific-meaning)) carry
-specific meaning for the design and implementation of the exFAT file
-system.
+In the context of this specification, certain terms (see [Table 1](#table-1-definition-of-terms-which-carry-very-specific-meaning)) carry specific meaning for the design and implementation of the exFAT file system.
 
 <div id="table-1-definition-of-terms-which-carry-very-specific-meaning" />
 
@@ -94,8 +90,7 @@ system.
 
 ### 1.3 Full Text of Common Acronyms
 
-This specification uses acronyms in common use in the personal computer
-industry (see [Table 2](#table-2-full-text-of-common-acronyms)).
+This specification uses acronyms in common use in the personal computer industry (see [Table 2](#table-2-full-text-of-common-acronyms)).
 
 <div id="table-2-full-text-of-common-acronyms" />
 
@@ -120,12 +115,11 @@ industry (see [Table 2](#table-2-full-text-of-common-acronyms)).
 
 ### 1.4 Default Field and Structure Qualifiers
 
-Fields and structures in this specification have the following
-qualifiers (see list below), unless the specification notes otherwise.
+Fields and structures in this specification have the following qualifiers (see list below), unless the specification notes otherwise.
 
 1. Are unsigned
 
-2. Use decimal notation to describe values, where not otherwise noted; this specification uses the post-fix letter "h" to denote  hexadecimal numbers and encloses GUIDs in curly braces
+2. Use decimal notation to describe values, where not otherwise noted; this specification uses the post-fix letter "h" to denote hexadecimal numbers and encloses GUIDs in curly braces
 
 3. Are in little-endian format
 
@@ -133,17 +127,11 @@ qualifiers (see list below), unless the specification notes otherwise.
 
 ### 1.5 Windows CE and TexFAT
 
-TexFAT is an extension to exFAT that adds transaction-safe operational
-semantics on top of the base file system. TexFAT is used by Windows CE.
-TexFAT requires the use of the two FATs and allocation bitmaps for use
-in transactions. It also defines several additional structures including
-padding descriptors and security descriptors.
+TexFAT is an extension to exFAT that adds transaction-safe operational semantics on top of the base file system. TexFAT is used by Windows CE. TexFAT requires the use of the two FATs and allocation bitmaps for use in transactions. It also defines several additional structures including padding descriptors and security descriptors.
 
 ## 2 Volume Structure
 
-A volume is the set of all file system structures and data space
-necessary to store and retrieve user data. All exFAT volumes contain
-four regions (see [Table 3](#table-3-volume-structure)).
+A volume is the set of all file system structures and data space necessary to store and retrieve user data. All exFAT volumes contain four regions (see [Table 3](#table-3-volume-structure)).
 
 <div id="table-3-volume-structure" />
 
@@ -292,46 +280,23 @@ four regions (see [Table 3](#table-3-volume-structure)).
 
 ## 3 Main and Backup Boot Regions
 
-The Main Boot region provides all the necessary boot-strapping
-instructions, identifying information, and file system parameters to
-enable an implementation to perform the following:
+The Main Boot region provides all the necessary boot-strapping instructions, identifying information, and file system parameters to enable an implementation to perform the following:
 
 1. Boot-strap a computer system from an exFAT volume.
+1. Identify the file system on the volume as exFAT.
+1. Discover the location of the exFAT file system structures.
 
-2. Identify the file system on the volume as exFAT.
-
-3. Discover the location of the exFAT file system structures.
-
-The Backup Boot region is a backup of the Main Boot region. It aids
-recovery of the exFAT volume in the event of the Main Boot region being
-in an inconsistent state. Except under infrequent circumstances, such as
-updating boot-strapping instructions, implementations should not modify
-the contents of the Backup Boot region.
+The Backup Boot region is a backup of the Main Boot region. It aids recovery of the exFAT volume in the event of the Main Boot region being in an inconsistent state. Except under infrequent circumstances, such as updating boot-strapping instructions, implementations should not modify the contents of the Backup Boot region.
 
 ### 3.1 Main and Backup Boot Sector Sub-regions
 
-The Main Boot Sector contains code for boot-strapping from an exFAT
-volume and fundamental exFAT parameters which describe the volume
-structure (see [Table 4](#table-4-main-and-backup-boot-sector-structure)). BIOS, MBR, or other boot-strapping agents may
-inspect this sector and may load and execute any boot-strapping
-instructions contained therein.
+The Main Boot Sector contains code for boot-strapping from an exFAT volume and fundamental exFAT parameters which describe the volume structure (see [Table 4](#table-4-main-and-backup-boot-sector-structure)). BIOS, MBR, or other boot-strapping agents may inspect this sector and may load and execute any boot-strapping instructions contained therein.
 
-The Backup Boot Sector is a backup of the Main Boot Sector and has the
-same structure (see [Table 4](#table-4-main-and-backup-boot-sector-structure)). The Backup Boot Sector may aid recovery
-operations; however, implementations shall treat the contents of the
-VolumeFlags and PercentInUse fields as stale.
+The Backup Boot Sector is a backup of the Main Boot Sector and has the same structure (see [Table 4](#table-4-main-and-backup-boot-sector-structure)). The Backup Boot Sector may aid recovery operations; however, implementations shall treat the contents of the VolumeFlags and PercentInUse fields as stale.
 
-Prior to using the contents of either the Main or Backup Boot Sector,
-implementations shall verify their contents by validating their
-respective Boot Checksum and ensuring all their fields are within their
-valid value range.
+Prior to using the contents of either the Main or Backup Boot Sector, implementations shall verify their contents by validating their respective Boot Checksum and ensuring all their fields are within their valid value range.
 
-While the initial format operation will initialize the contents of both
-the Main and Backup Boot Sectors, implementations may update these
-sectors (and shall also update their respective Boot Checksum) as
-needed. However, implementations may update either the VolumeFlags or
-PercentInUse fields without updating their respective Boot Checksum (the
-checksum specifically excludes these two fields).
+While the initial format operation will initialize the contents of both the Main and Backup Boot Sectors, implementations may update these sectors (and shall also update their respective Boot Checksum) as needed. However, implementations may update either the VolumeFlags or PercentInUse fields without updating their respective Boot Checksum (the checksum specifically excludes these two fields).
 
 <div id="table-4-main-and-backup-boot-sector-structure" />
 
@@ -487,173 +452,112 @@ checksum specifically excludes these two fields).
 
 #### 3.1.1 JumpBoot Field
 
-The JumpBoot field shall contain the jump instruction for CPUs common in
-personal computers, which, when executed, "jumps" the CPU to execute the
-boot-strapping instructions in the BootCode field.
+The JumpBoot field shall contain the jump instruction for CPUs common in personal computers, which, when executed, "jumps" the CPU to execute the boot-strapping instructions in the BootCode field.
 
-The valid value for this field is (in order of low-order byte to
-high-order byte) EBh 76h 90h.
+The valid value for this field is (in order of low-order byte to high-order byte) EBh 76h 90h.
 
 #### 3.1.2 FileSystemName Field
 
-The FileSystemName field shall contain the name of the file system on
-the volume.
+The FileSystemName field shall contain the name of the file system on the volume.
 
-The valid value for this field is, in ASCII characters, "EXFAT ", which
-includes three trailing white spaces.
+The valid value for this field is, in ASCII characters, "EXFAT ", which includes three trailing white spaces.
 
 #### 3.1.3 MustBeZero Field
 
-The MustBeZero field shall directly correspond with the range of bytes
-the packed BIOS parameter block consumes on FAT12/16/32 volumes.
+The MustBeZero field shall directly correspond with the range of bytes the packed BIOS parameter block consumes on FAT12/16/32 volumes.
 
-The valid value for this field is 0, which helps to prevent FAT12/16/32
-implementations from mistakenly mounting an exFAT volume.
+The valid value for this field is 0, which helps to prevent FAT12/16/32 implementations from mistakenly mounting an exFAT volume.
 
 #### 3.1.4 PartitionOffset Field
 
-The PartitionOffset field shall describe the media-relative sector
-offset of the partition which hosts the given exFAT volume. This field
-aids boot-strapping from the volume using extended INT 13h on personal
-computers.
+The PartitionOffset field shall describe the media-relative sector offset of the partition which hosts the given exFAT volume. This field aids boot-strapping from the volume using extended INT 13h on personal computers.
 
-All possible values for this field are valid; however, the value 0
-indicates implementations shall ignore this field.
+All possible values for this field are valid; however, the value 0 indicates implementations shall ignore this field.
 
 #### 3.1.5 VolumeLength Field
 
-The VolumeLength field shall describe the size of the given exFAT volume
-in sectors.
+The VolumeLength field shall describe the size of the given exFAT volume in sectors.
 
 The valid range of values for this field shall be:
 
 - At least 2<sup>20</sup>/ 2<sup>BytesPerSectorShift</sup>, which ensures the smallest volume is no less than 1MB
-
 - At most 2<sup>64</sup>- 1, the largest value this field can describe.
 
-  However, if the size of the Excess Space sub-region is 0, then the largest value
-  of this field is ClusterHeapOffset + (2<sup>32</sup>- 11) \*
-  2<sup>SectorsPerClusterShift</sup>.
+  However, if the size of the Excess Space sub-region is 0, then the largest value of this field is ClusterHeapOffset + (2<sup>32</sup>- 11) \*2<sup>SectorsPerClusterShift</sup>.
 
 #### 3.1.6 FatOffset Field
 
-The FatOffset field shall describe the volume-relative sector offset of
-the First FAT. This field enables implementations to align the First FAT
-to the characteristics of the underlying storage media.
+The FatOffset field shall describe the volume-relative sector offset of the First FAT. This field enables implementations to align the First FAT to the characteristics of the underlying storage media.
 
 The valid range of values for this field shall be:
 
 - At least 24, which accounts for the sectors the Main Boot and Backup Boot regions consume
-
 - At most ClusterHeapOffset - (FatLength \* NumberOfFats), which accounts for the sectors the Cluster Heap consumes
 
 #### 3.1.7 FatLength Field
 
-The FatLength field shall describe the length, in sectors, of each FAT
-table (the volume may contain up to two FATs).
+The FatLength field shall describe the length, in sectors, of each FAT table (the volume may contain up to two FATs).
 
 The valid range of values for this field shall be:
 
 - At least (ClusterCount + 2) \* 2<sup>2</sup>/ 2<sup>BytesPerSectorShift</sup>rounded up to the nearest integer, which ensures each FAT has sufficient  space for describing all the clusters in the Cluster Heap
+- At most (ClusterHeapOffset - FatOffset) / NumberOfFats rounded down to the nearest integer, which ensures the FATs exist before the Cluster Heap
 
-- At most (ClusterHeapOffset - FatOffset) / NumberOfFats rounded down to the nearest integer, which ensures the FATs exist before the  Cluster Heap
-
-This field may contain a value in excess of its lower bound (as
-described above) to enable the Second FAT, if present, to also be
-aligned to the characteristics of the underlying storage media. The
-contents of the space which exceeds what the FAT itself requires, if
-any, are undefined.
+This field may contain a value in excess of its lower bound (as described above) to enable the Second FAT, if present, to also be aligned to the characteristics of the underlying storage media. The contents of the space which exceeds what the FAT itself requires, if any, are undefined.
 
 #### 3.1.8 ClusterHeapOffset Field
 
-The ClusterHeapOffset field shall describe the volume-relative sector
-offset of the Cluster Heap. This field enables implementations to align
-the Cluster Heap to the characteristics of the underlying storage media.
+The ClusterHeapOffset field shall describe the volume-relative sector offset of the Cluster Heap. This field enables implementations to align the Cluster Heap to the characteristics of the underlying storage media.
 
 The valid range of values for this field shall be:
 
 - At least FatOffset + FatLength \* NumberOfFats, to account for the sectors all the preceding regions consume
-
 - At most 2<sup>32</sup>- 1 or VolumeLength - (ClusterCount \* 2<sup>SectorsPerClusterShift</sup>), whichever calculation is less
 
 #### 3.1.9 ClusterCount Field
 
-The ClusterCount field shall describe the number of clusters the Cluster
-Heap contains.
+The ClusterCount field shall describe the number of clusters the Cluster Heap contains.
 
 The valid value for this field shall be the lesser of the following:
 
 - (VolumeLength - ClusterHeapOffset) / 2<sup>SectorsPerClusterShift</sup>rounded down to the nearest integer, which is exactly the number of clusters which can fit between the beginning of the Cluster Heap and the end of the volume
-
 - 2<sup>32</sup>- 11, which is the maximum number of clusters a FAT can describe
 
-The value of the ClusterCount field determines the minimum size of a
-FAT. To avoid extremely large FATs, implementations can control the
-number of clusters in the Cluster Heap by increasing the cluster size
-(via the SectorsPerClusterShift field). This specification recommends no
-more than 2<sup>24</sup>- 2 clusters in the Cluster Heap. However,
-implementations shall be able to handle volumes with up to 2<sup>32</sup>- 11
-clusters in the Cluster Heap.
+The value of the ClusterCount field determines the minimum size of a FAT. To avoid extremely large FATs, implementations can control the number of clusters in the Cluster Heap by increasing the cluster size (via the SectorsPerClusterShift field). This specification recommends no more than 2<sup>24</sup>- 2 clusters in the Cluster Heap. However, implementations shall be able to handle volumes with up to 2<sup>32</sup>- 11 clusters in the Cluster Heap.
 
 #### 3.1.10 FirstClusterOfRootDirectory Field
 
-The FirstClusterOfRootDirectory field shall contain the cluster index of
-the first cluster of the root directory. Implementations should make
-every effort to place the first cluster of the root directory in the
-first non-bad cluster after the clusters the Allocation Bitmap and
-Up-case Table consume.
+The FirstClusterOfRootDirectory field shall contain the cluster index of the first cluster of the root directory. Implementations should make every effort to place the first cluster of the root directory in the first non-bad cluster after the clusters the Allocation Bitmap and Up-case Table consume.
 
 The valid range of values for this field shall be:
 
 - At least 2, the index of the first cluster in the Cluster Heap
-
 - At most ClusterCount + 1, the index of the last cluster in the Cluster Heap
 
 #### 3.1.11 VolumeSerialNumber Field
 
-The VolumeSerialNumber field shall contain a unique serial number. This
-assists implementations to distinguish among different exFAT volumes.
-Implementations should generate the serial number by combining the date
-and time of formatting the exFAT volume. The mechanism for combining
-date and time to form a serial number is implementation-specific.
+The VolumeSerialNumber field shall contain a unique serial number. This assists implementations to distinguish among different exFAT volumes. Implementations should generate the serial number by combining the date and time of formatting the exFAT volume. The mechanism for combining date and time to form a serial number is implementation-specific.
 
 All possible values for this field are valid.
 
 #### 3.1.12 FileSystemRevision Field
 
-The FileSystemRevision field shall describe the major and minor revision
-numbers of the exFAT structures on the given volume.
+The FileSystemRevision field shall describe the major and minor revision numbers of the exFAT structures on the given volume.
 
-The high-order byte is the major revision number and the low-order byte
-is the minor revision number. For example, if the high-order byte
-contains the value 01h and if the low-order byte contains the value 05h,
-then the FileSystemRevision field describes the revision number 1.05.
-Likewise, if the high-order byte contains the value 0Ah and if the
-low-order byte contains the value 0Fh, then the FileSystemRevision field
-describes the revision number 10.15.
+The high-order byte is the major revision number and the low-order byte is the minor revision number. For example, if the high-order byte contains the value 01h and if the low-order byte contains the value 05h, then the FileSystemRevision field describes the revision number 1.05. Likewise, if the high-order byte contains the value 0Ah and if the low-order byte contains the value 0Fh, then the FileSystemRevision field describes the revision number 10.15.
 
 The valid range of values for this field shall be:
 
 - At least 0 for the low-order byte and 1 for the high-order byte
-
 - At most 99 for the low-order byte and 99 for the high-order byte
 
-The revision number of exFAT this specification describes is 1.00.
-Implementations of this specification should mount any exFAT volume with
-major revision number 1 and shall not mount any exFAT volume with any
-other major revision number. Implementations shall honor the minor
-revision number and shall not perform operations or create any file
-system structures not described in the given minor revision number's
-corresponding specification.
+The revision number of exFAT this specification describes is 1.00. Implementations of this specification should mount any exFAT volume with major revision number 1 and shall not mount any exFAT volume with any other major revision number. Implementations shall honor the minor revision number and shall not perform operations or create any file system structures not described in the given minor revision number's corresponding specification.
 
 #### 3.1.13 VolumeFlags Field
 
-The VolumeFlags field shall contain flags which indicate the status of
-various file system structures on the exFAT volume (see [Table 5](#table-5-volumeflags-field-structure)).
+The VolumeFlags field shall contain flags which indicate the status of various file system structures on the exFAT volume (see [Table 5](#table-5-volumeflags-field-structure)).
 
-Implementations shall not include this field when computing its
-respective Main Boot or Backup Boot region checksum. When referring to
-the Backup Boot Sector, implementations shall treat this field as stale.
+Implementations shall not include this field when computing its respective Main Boot or Backup Boot region checksum. When referring to the Backup Boot Sector, implementations shall treat this field as stale.
 
 <div id="table-5-volumeflags-field-structure" />
 
@@ -706,173 +610,112 @@ the Backup Boot Sector, implementations shall treat this field as stale.
 
 ##### 3.1.13.1 ActiveFat Field
 
-The ActiveFat field shall describe which FAT and Allocation Bitmap are
-active (and implementations shall use), as follows:
+The ActiveFat field shall describe which FAT and Allocation Bitmap are active (and implementations shall use), as follows:
 
 - 0, which means the First FAT and First Allocation Bitmap are active
-
 - 1, which means the Second FAT and Second Allocation Bitmap are active and is possible only when the NumberOfFats field contains the value 2
 
-Implementations shall consider the inactive FAT and Allocation Bitmap as
-stale. Only TexFAT-aware implementations shall switch the active FAT and
-Allocation Bitmaps (see [Section 7.1](#71-allocation-bitmap-directory-entry)).
+Implementations shall consider the inactive FAT and Allocation Bitmap as stale. Only TexFAT-aware implementations shall switch the active FAT and Allocation Bitmaps (see [Section 7.1](#71-allocation-bitmap-directory-entry)).
 
 ##### 3.1.13.2 VolumeDirty Field
 
-The VolumeDirty field shall describe whether the volume is dirty or not,
-as follows:
+The VolumeDirty field shall describe whether the volume is dirty or not, as follows:
 
 - 0, which means the volume is probably in a consistent state
-
 - 1, which means the volume is probably in an inconsistent state
 
-Implementations should set the value of this field to 1 upon
-encountering file system metadata inconsistencies which they do not
-resolve. If, upon mounting a volume, the value of this field is 1, only
-implementations which resolve file system metadata inconsistencies may
-clear the value of this field to 0. Such implementations shall only
-clear the value of this field to 0 after ensuring the file system is in
-a consistent state.
+Implementations should set the value of this field to 1 upon encountering file system metadata inconsistencies which they do not resolve. If, upon mounting a volume, the value of this field is 1, only implementations which resolve file system metadata inconsistencies may clear the value of this field to 0. Such implementations shall only clear the value of this field to 0 after ensuring the file system is in a consistent state.
 
-If, upon mounting a volume, the value of this field is 0,
-implementations should set this field to 1 before updating file system
-metadata and clear this field to 0 afterwards, similar to the
-recommended write ordering described in [Section 8.1](#81-recommended-write-ordering).
+If, upon mounting a volume, the value of this field is 0, implementations should set this field to 1 before updating file system metadata and clear this field to 0 afterwards, similar to the recommended write ordering described in [Section 8.1](#81-recommended-write-ordering).
 
 ##### 3.1.13.3 MediaFailure Field
 
-The MediaFailure field shall describe whether an implementation has
-discovered media failures or not, as follows:
+The MediaFailure field shall describe whether an implementation has discovered media failures or not, as follows:
 
 - 0, which means the hosting media has not reported failures or any known failures are already recorded in the FAT as "bad" clusters
-
 - 1, which means the hosting media has reported failures (i.e. has failed read or write operations)
 
 An implementation should set this field to 1 when:
 
 1. The hosting media fails access attempts to any region in the volume
+1. The implementation has exhausted access retry algorithms, if any
 
-2. The implementation has exhausted access retry algorithms, if any
-
-If, upon mounting a volume, the value of this field is 1,
-implementations which scan the entire volume for media failures and
-record all failures as "bad" clusters in the FAT (or otherwise resolve
-media failures) may clear the value of this field to 0.
+If, upon mounting a volume, the value of this field is 1, implementations which scan the entire volume for media failures and record all failures as "bad" clusters in the FAT (or otherwise resolve media failures) may clear the value of this field to 0.
 
 ##### 3.1.13.4 ClearToZero Field
 
-The ClearToZero field does not have significant meaning in this
-specification.
+The ClearToZero field does not have significant meaning in this specification.
 
 The valid values for this field are:
 
 - 0, which does not have any particular meaning
-
 - 1, which means implementations shall clear this field to 0 prior to modifying any file system structures, directories, or files
 
 #### 3.1.14 BytesPerSectorShift Field
 
-The BytesPerSectorShift field shall describe the bytes per sector
-expressed as log<sub>2</sub>(N), where N is the number of bytes per sector. For
-example, for 512 bytes per sector, the value of this field is 9.
+The BytesPerSectorShift field shall describe the bytes per sector expressed as log<sub>2</sub>(N), where N is the number of bytes per sector. For example, for 512 bytes per sector, the value of this field is 9.
 
 The valid range of values for this field shall be:
 
 - At least 9 (sector size of 512 bytes), which is the smallest sector possible for an exFAT volume
-
 - At most 12 (sector size of 4096 bytes), which is the memory page size of CPUs common in personal computers
 
 #### 3.1.15 SectorsPerClusterShift Field
 
-The SectorsPerClusterShift field shall describe the sectors per cluster
-expressed as log<sub>2</sub>(N), where N is number of sectors per cluster. For
-example, for 8 sectors per cluster, the value of this field is 3.
+The SectorsPerClusterShift field shall describe the sectors per cluster expressed as log<sub>2</sub>(N), where N is number of sectors per cluster. For example, for 8 sectors per cluster, the value of this field is 3.
 
 The valid range of values for this field shall be:
 
 - At least 0 (1 sector per cluster), which is the smallest cluster possible
-
 - At most 25 - BytesPerSectorShift, which evaluates to a cluster size of 32MB
 
 #### 3.1.16 NumberOfFats Field
 
-The NumberOfFats field shall describe the number of FATs and Allocation
-Bitmaps the volume contains.
+The NumberOfFats field shall describe the number of FATs and Allocation Bitmaps the volume contains.
 
 The valid range of values for this field shall be:
 
 - 1, which indicates the volume only contains the First FAT and First Allocation Bitmap
-
 - 2, which indicates the volume contains the First FAT, Second FAT, First Allocation Bitmap, and Second Allocation Bitmap; this value is only valid for TexFAT volumes
 
 #### 3.1.17 DriveSelect Field
 
-The DriveSelect field shall contain the extended INT 13h drive number,
-which aids boot-strapping from this volume using extended INT 13h on
-personal computers.
+The DriveSelect field shall contain the extended INT 13h drive number, which aids boot-strapping from this volume using extended INT 13h on personal computers.
 
-All possible values for this field are valid. Similar fields in previous
-FAT-based file systems frequently contained the value 80h.
+All possible values for this field are valid. Similar fields in previous FAT-based file systems frequently contained the value 80h.
 
 #### 3.1.18 PercentInUse Field
 
-The PercentInUse field shall describe the percentage of clusters in the
-Cluster Heap which are allocated.
+The PercentInUse field shall describe the percentage of clusters in the Cluster Heap which are allocated.
 
 The valid range of values for this field shall be:
 
 - Between 0 and 100 inclusively, which is the percentage of allocated clusters in the Cluster Heap, rounded down to the nearest integer
-
 - Exactly FFh, which indicates the percentage of allocated clusters in the Cluster Heap is not available
 
-Implementations shall change the value of this field to reflect changes
-in the allocation of clusters in the Cluster Heap or shall change it to
-FFh.
+Implementations shall change the value of this field to reflect changes in the allocation of clusters in the Cluster Heap or shall change it to FFh.
 
-Implementations shall not include this field when computing its
-respective Main Boot or Backup Boot region checksum. When referring to
-the Backup Boot Sector, implementations shall treat this field as stale.
+Implementations shall not include this field when computing its respective Main Boot or Backup Boot region checksum. When referring to the Backup Boot Sector, implementations shall treat this field as stale.
 
 #### 3.1.19 BootCode Field
 
-The BootCode field shall contain boot-strapping instructions.
-Implementations may populate this field with the CPU instructions
-necessary for boot-strapping a computer system. Implementations which
-don't provide boot-strapping instructions shall initialize each byte in
-this field to F4h (the halt instruction for CPUs common in personal
-computers) as part of their format operation.
+The BootCode field shall contain boot-strapping instructions. Implementations may populate this field with the CPU instructions necessary for boot-strapping a computer system. Implementations which don't provide boot-strapping instructions shall initialize each byte in this field to F4h (the halt instruction for CPUs common in personal computers) as part of their format operation.
 
 #### 3.1.20 BootSignature Field
 
-The BootSignature field shall describe whether the intent of a given
-sector is for it to be a Boot Sector or not.
+The BootSignature field shall describe whether the intent of a given sector is for it to be a Boot Sector or not.
 
-The valid value for this field is AA55h. Any other value in this field
-invalidates its respective Boot Sector. Implementations should verify
-the contents of this field prior to depending on any other field in its
-respective Boot Sector.
+The valid value for this field is AA55h. Any other value in this field invalidates its respective Boot Sector. Implementations should verify the contents of this field prior to depending on any other field in its respective Boot Sector.
 
 ### 3.2 Main and Backup Extended Boot Sectors Sub-regions
 
-Each sector of the Main Extended Boot Sectors has the same structure;
-however, each sector may hold distinct boot-strapping instructions (see
-Table 6). Boot-strapping agents, such as the boot-strapping instructions
-in the Main Boot Sector, alternate BIOS implementations, or an embedded
-system's firmware, may load these sectors and execute the instructions
-they contain.
+Each sector of the Main Extended Boot Sectors has the same structure; however, each sector may hold distinct boot-strapping instructions (see Table 6). Boot-strapping agents, such as the boot-strapping instructions in the Main Boot Sector, alternate BIOS implementations, or an embedded system's firmware, may load these sectors and execute the instructions they contain.
 
-The Backup Extended Boot Sectors is a backup of the Main Extended Boot
-Sectors and has the same structure (see [Table 6](#table-6-extended-boot-sector-structure)).
+The Backup Extended Boot Sectors is a backup of the Main Extended Boot Sectors and has the same structure (see [Table 6](#table-6-extended-boot-sector-structure)).
 
-Prior to executing the instructions of either the Main or Backup
-Extended Boot Sectors, implementations should verify their contents by
-ensuring each sector's ExtendedBootSignature field contains its
-prescribed value.
+Prior to executing the instructions of either the Main or Backup Extended Boot Sectors, implementations should verify their contents by ensuring each sector's ExtendedBootSignature field contains its prescribed value.
 
-While the initial format operation will initialize the contents of both
-the Main and Backup Extended Boot Sectors, implementations may update
-these sectors (and shall also update their respective Boot Checksum) as
-needed.
+While the initial format operation will initialize the contents of both the Main and Backup Extended Boot Sectors, implementations may update these sectors (and shall also update their respective Boot Checksum) as needed.
 
 <div id="table-6-extended-boot-sector-structure" />
 
@@ -909,46 +752,25 @@ needed.
 
 #### 3.2.1 ExtendedBootCode Field
 
-The ExtendedBootCode field shall contain boot-strapping instructions.
-Implementations may populate this field with the CPU instructions
-necessary for boot-strapping a computer system. Implementations which
-don't provide boot-strapping instructions shall initialize each byte in
-this field to 00h as part of their format operation.
+The ExtendedBootCode field shall contain boot-strapping instructions. Implementations may populate this field with the CPU instructions necessary for boot-strapping a computer system. Implementations which don't provide boot-strapping instructions shall initialize each byte in this field to 00h as part of their format operation.
 
 #### 3.2.2 ExtendedBootSignature Field
 
-The ExtendedBootSignature field shall describe whether the intent of
-given sector is for it to be an Extended Boot Sector or not.
+The ExtendedBootSignature field shall describe whether the intent of given sector is for it to be an Extended Boot Sector or not.
 
-The valid value for this field is AA550000h. Any other value in this
-field invalidates its respective Main or Backup Extended Boot Sector.
-Implementations should verify the contents of this field prior to
-depending on any other field in its respective Extended Boot Sector.
+The valid value for this field is AA550000h. Any other value in this field invalidates its respective Main or Backup Extended Boot Sector. Implementations should verify the contents of this field prior to depending on any other field in its respective Extended Boot Sector.
 
 ### 3.3 Main and Backup OEM Parameters Sub-regions
 
-The Main OEM Parameters sub-region contains ten parameters structures
-which may contain manufacturer-specific information (see [Table 7](#table-7-oem-parameters-structure)). Each
-of the ten parameters structures derives from the Generic Parameters
-template (see [Section 3.3.2](#332-generic-parameters-template)). Manufacturers may derive their own custom
-parameters structures from the Generic Parameters template. This
-specification itself defines two parameters structures: Null Parameters
-(see [Section 3.3.3](#333-null-parameters)) and Flash Parameters (see [Section 3.3.4](#334-flash-parameters)).
+The Main OEM Parameters sub-region contains ten parameters structures which may contain manufacturer-specific information (see [Table 7](#table-7-oem-parameters-structure)). Each of the ten parameters structures derives from the Generic Parameters template (see [Section 3.3.2](#332-generic-parameters-template)). Manufacturers may derive their own custom parameters structures from the Generic Parameters template. This specification itself defines two parameters structures: Null Parameters (see [Section 3.3.3](#333-null-parameters)) and Flash Parameters (see [Section 3.3.4](#334-flash-parameters)).
 
-The Backup OEM Parameters is a backup of the Main OEM Parameters and has
-the same structure (see [Table 7](#table-7-oem-parameters-structure)).
+The Backup OEM Parameters is a backup of the Main OEM Parameters and has the same structure (see [Table 7](#table-7-oem-parameters-structure)).
 
-Prior to using the contents of either the Main or Backup OEM Parameters,
-implementations shall verify their contents by validating their
-respective Boot Checksum.
+Prior to using the contents of either the Main or Backup OEM Parameters, implementations shall verify their contents by validating their respective Boot Checksum.
 
-Manufacturers should populate the Main and Backup OEM Parameters with
-their own custom parameters structures, if any, and any other parameter
-structures. Subsequent format operations shall preserve the contents of
-the Main and Backup OEM Parameters.
+Manufacturers should populate the Main and Backup OEM Parameters with their own custom parameters structures, if any, and any other parameter structures. Subsequent format operations shall preserve the contents of the Main and Backup OEM Parameters.
 
-Implementations may update the Main and Backup OEM Parameters as needed
-(and shall also update their respective Boot Checksum).
+Implementations may update the Main and Backup OEM Parameters as needed (and shall also update their respective Boot Checksum).
 
 <div id="table-7-oem-parameters-structure" />
 
@@ -1004,17 +826,11 @@ Implementations may update the Main and Backup OEM Parameters as needed
 
 #### 3.3.1 Parameters\[0\] ... Parameters\[9\]
 
-Each Parameters field in this array contains a parameters structure,
-which derives from the Generic Parameters template (see [Section 3.3.2](#332-generic-parameters-template)).
-Any unused Parameters field shall be described as containing a Null
-Parameters structure (see [Section 3.3.3](#333-null-parameters)).
+Each Parameters field in this array contains a parameters structure, which derives from the Generic Parameters template (see [Section 3.3.2](#332-generic-parameters-template)). Any unused Parameters field shall be described as containing a Null Parameters structure (see [Section 3.3.3](#333-null-parameters)).
 
 #### 3.3.2 Generic Parameters Template
 
-The Generic Parameters template provides the base definition of a
-parameters structure (see [Table 8](#table-8-generic-parameters-template)). All parameters structures derive
-from this template. Support for this Generic Parameters template is
-mandatory.
+The Generic Parameters template provides the base definition of a parameters structure (see [Table 8](#table-8-generic-parameters-template)). All parameters structures derive from this template. Support for this Generic Parameters template is mandatory.
 
 <div id="table-8-generic-parameters-template" />
 
@@ -1049,23 +865,13 @@ mandatory.
 
 ##### 3.3.2.1 ParametersGuid Field
 
-The ParametersGuid field shall describe a GUID, which determines the
-layout of the remainder of the given parameters structure.
+The ParametersGuid field shall describe a GUID, which determines the layout of the remainder of the given parameters structure.
 
-All possible values for this field are valid; however, manufacturers
-should use a GUID-generating tool, such as GuidGen.exe, to select a GUID
-when deriving custom parameters structures from this template.
+All possible values for this field are valid; however, manufacturers should use a GUID-generating tool, such as GuidGen.exe, to select a GUID when deriving custom parameters structures from this template.
 
 #### 3.3.3 Null Parameters
 
-The Null Parameters structure derives from the Generic Parameters
-template (see [Section 3.3.2](#332-generic-parameters-template)) and shall describe an unused Parameters
-field (see [Table 9](#table-9-null-parameters-structure)). When creating or updating the OEM Parameters
-structure, implementations shall populate unused Parameters fields with
-the Null Parameters structure. Also, when creating or updating the OEM
-Parameters structure, implementations should consolidate Null Parameters
-structures at the end of the array, thereby leaving all other Parameters
-structures at the beginning of the OEM Parameters structure.
+The Null Parameters structure derives from the Generic Parameters template (see [Section 3.3.2](#332-generic-parameters-template)) and shall describe an unused Parameters field (see [Table 9](#table-9-null-parameters-structure)). When creating or updating the OEM Parameters structure, implementations shall populate unused Parameters fields with the Null Parameters structure. Also, when creating or updating the OEM Parameters structure, implementations should consolidate Null Parameters structures at the end of the array, thereby leaving all other Parameters structures at the beginning of the OEM Parameters structure.
 
 Support for the Null Parameters structure is mandatory.
 
@@ -1102,22 +908,13 @@ Support for the Null Parameters structure is mandatory.
 
 ##### 3.3.3.1 ParametersGuid Field
 
-The ParametersGuid field shall conform to the definition provided by the
-Generic Parameters template (see [Section 3.3.2.1](#3321-parametersguid-field)).
+The ParametersGuid field shall conform to the definition provided by the Generic Parameters template (see [Section 3.3.2.1](#3321-parametersguid-field)).
 
-The valid value for this field, in GUID notation, is
-{00000000-0000-0000-0000-000000000000}.
+The valid value for this field, in GUID notation, is {00000000-0000-0000-0000-000000000000}.
 
 #### 3.3.4 Flash Parameters
 
-The Flash Parameter structure derives from the Generic Parameters
-template (see [Section 3.3.2](#332-generic-parameters-template)) and contains parameters for flash media
-(see [Table 10](#table-10-flash-parameters-structure)). Manufacturers of flash-based storage devices may
-populate a Parameters field (preferably the Parameters\[0\] field) with
-this parameters structure. Implementations may use the information in
-the Flash Parameters structure to optimize access operations during
-reads/writes and for alignment of file system structures during
-formatting of the media.
+The Flash Parameter structure derives from the Generic Parameters template (see [Section 3.3.2](#332-generic-parameters-template)) and contains parameters for flash media (see [Table 10](#table-10-flash-parameters-structure)). Manufacturers of flash-based storage devices may populate a Parameters field (preferably the Parameters\[0\] field) with this parameters structure. Implementations may use the information in the Flash Parameters structure to optimize access operations during reads/writes and for alignment of file system structures during formatting of the media.
 
 Support for the Flash Parameters structure is optional.
 
@@ -1194,72 +991,50 @@ Support for the Flash Parameters structure is optional.
 </tbody>
 </table>
 
-All possible values for all Flash Parameters fields, except for the
-ParametersGuid field, are valid. However, the value 0 indicates the
-field is actually meaningless (implementations shall ignore the given
-field).
+All possible values for all Flash Parameters fields, except for the ParametersGuid field, are valid. However, the value 0 indicates the field is actually meaningless (implementations shall ignore the given field).
 
 ##### 3.3.4.1 ParametersGuid Field
 
-The ParametersGuid field shall conform to the definition provided in the
-Generic Parameters template (see [Section 3.3.2.1](#3321-parametersguid-field)).
+The ParametersGuid field shall conform to the definition provided in the Generic Parameters template (see [Section 3.3.2.1](#3321-parametersguid-field)).
 
 The valid value for this field, in GUID notation, is
 {0A0C7E46-3399-4021-90C8-FA6D389C4BA2}.
 
 ##### 3.3.4.2 EraseBlockSize Field
 
-The EraseBlockSize field shall describe the size, in bytes, of the flash
-media's erase block.
+The EraseBlockSize field shall describe the size, in bytes, of the flash media's erase block.
 
 ##### 3.3.4.3 PageSize Field
 
-The PageSize field shall describe the size, in bytes of the flash
-media's page.
+The PageSize field shall describe the size, in bytes of the flash media's page.
 
 ##### 3.3.4.4 SpareSectors Field
 
-The SpareSectors field shall describe the number of sectors the flash
-media has available for its internal sparing operations.
+The SpareSectors field shall describe the number of sectors the flash media has available for its internal sparing operations.
 
 ##### 3.3.4.5 RandomAccessTime Field
 
-The RandomAccessTime field shall describe the flash media's average
-random access time, in nanoseconds.
+The RandomAccessTime field shall describe the flash media's average random access time, in nanoseconds.
 
 ##### 3.3.4.6 ProgrammingTime Field
 
-The ProgrammingTime field shall describe the flash media's average
-programming time, in nanoseconds.
+The ProgrammingTime field shall describe the flash media's average programming time, in nanoseconds.
 
 ##### 3.3.4.7 ReadCycle Field
 
-The ReadCycle field shall describe the flash media's average read cycle
-time, in nanoseconds.
+The ReadCycle field shall describe the flash media's average read cycle time, in nanoseconds.
 
 ##### 3.3.4.8 WriteCycle Field
 
-The WriteCycle field shall describe the average write cycle time, in
-nanoseconds.
+The WriteCycle field shall describe the average write cycle time, in nanoseconds.
 
 ### 3.4 Main and Backup Boot Checksum Sub-regions
 
-The Main and Backup Boot Checksums each contain a repeating pattern of
-the four-byte checksum of the contents of all other sub-regions in their
-respective Boot regions. The checksum calculation shall not include the
-VolumeFlags and PercentInUse fields in their respective Boot Sector (see
-[Figure 1](#figure-1-boot-checksum-computation)). The repeating pattern of the four-byte checksum fills its
-respective Boot Checksum sub-region from the beginning to the end of the
-sub-region.
+The Main and Backup Boot Checksums each contain a repeating pattern of the four-byte checksum of the contents of all other sub-regions in their respective Boot regions. The checksum calculation shall not include the VolumeFlags and PercentInUse fields in their respective Boot Sector (see [Figure 1](#figure-1-boot-checksum-computation)). The repeating pattern of the four-byte checksum fills its respective Boot Checksum sub-region from the beginning to the end of the sub-region.
 
-Prior to using the contents of any of the other sub-regions in either
-the Main or Backup Boot regions, implementations shall verify their
-contents by validating their respective Boot Checksum.
+Prior to using the contents of any of the other sub-regions in either the Main or Backup Boot regions, implementations shall verify their contents by validating their respective Boot Checksum.
 
-While the initial format operation will populate both the Main and
-Backup Boot Checksums with the repeating checksum pattern,
-implementations shall update these sectors as the contents of the other
-sectors in their respective Boot regions change.
+While the initial format operation will populate both the Main and Backup Boot Checksums with the repeating checksum pattern, implementations shall update these sectors as the contents of the other sectors in their respective Boot regions change.
 
 <div id="figure-1-boot-checksum-computation" />
 
@@ -1291,26 +1066,13 @@ UInt32 BootChecksum
 
 ## 4 File Allocation Table Region
 
-The File Allocation Table (FAT) region may contain up to two FATs, one
-in the First FAT sub-region and another in the Second FAT sub-region.
-The NumberOfFats field describes how many FATs this region contains. The
-valid values for the NumberOfFats field are 1 and 2. Therefore, the
-First FAT sub-region always contains a FAT. If the NumberOfFats field is
-two, then the Second FAT sub-region also contains a FAT.
+The File Allocation Table (FAT) region may contain up to two FATs, one in the First FAT sub-region and another in the Second FAT sub-region. The NumberOfFats field describes how many FATs this region contains. The valid values for the NumberOfFats field are 1 and 2. Therefore, the First FAT sub-region always contains a FAT. If the NumberOfFats field is two, then the Second FAT sub-region also contains a FAT.
 
-The ActiveFat field of the VolumeFlags field describes which FAT is
-active. Only the VolumeFlags field in the Main Boot Sector is current.
-Implementations shall treat the FAT which is not active as stale. Use of
-the inactive FAT and switching between FATs is implementation specific.
+The ActiveFat field of the VolumeFlags field describes which FAT is active. Only the VolumeFlags field in the Main Boot Sector is current. Implementations shall treat the FAT which is not active as stale. Use of the inactive FAT and switching between FATs is implementation specific.
 
 ### 4.1 First and Second FAT Sub-regions
 
-A FAT shall describe cluster chains in the Cluster Heap (see [Table 11](#table-11-file-allocation-table-structure)).
-A cluster chain is a series of clusters which provides space for
-recording the contents of files, directories, and other file system
-structures. A FAT represents a cluster chain as a singly-linked list of
-cluster indices. With the exception of the first two entries, every
-entry in a FAT represents exactly one cluster.
+A FAT shall describe cluster chains in the Cluster Heap (see [Table 11](#table-11-file-allocation-table-structure)). A cluster chain is a series of clusters which provides space for recording the contents of files, directories, and other file system structures. A FAT represents a cluster chain as a singly-linked list of cluster indices. With the exception of the first two entries, every entry in a FAT represents exactly one cluster.
 
 <div id="table-11-file-allocation-table-structure" />
 
@@ -1380,56 +1142,35 @@ entry in a FAT represents exactly one cluster.
 
 #### 4.1.1 FatEntry\[0\] Field
 
-The FatEntry\[0\] field shall describe the media type in the first byte
-(the lowest order byte) and shall contain FFh in the remaining three
-bytes.
+The FatEntry\[0\] field shall describe the media type in the first byte (the lowest order byte) and shall contain FFh in the remaining three bytes.
 
 The media type (the first byte) should be F8h.
 
 #### 4.1.2 FatEntry\[1\] Field
 
-The FatEntry\[1\] field only exists due to historical precedence and
-does not describe anything of interest.
+The FatEntry\[1\] field only exists due to historical precedence and does not describe anything of interest.
 
-The valid value for this field is FFFFFFFFh. Implementations shall
-initialize this field to its prescribed value and should not use this
-field for any purpose. Implementations should not interpret this field
-and shall preserve its contents across operations which modify
-surrounding fields.
+The valid value for this field is FFFFFFFFh. Implementations shall initialize this field to its prescribed value and should not use this field for any purpose. Implementations should not interpret this field and shall preserve its contents across operations which modify surrounding fields.
 
 #### 4.1.3 FatEntry\[2\] ... FatEntry\[ClusterCount+1\] Fields
 
-Each FatEntry field in this array shall represent a cluster in the
-Cluster Heap. FatEntry\[2\] represents the first cluster in the Cluster
-Heap and FatEntry\[ClusterCount+1\] represents the last cluster in the
-Cluster Heap.
+Each FatEntry field in this array shall represent a cluster in the Cluster Heap. FatEntry\[2\] represents the first cluster in the Cluster Heap and FatEntry\[ClusterCount+1\] represents the last cluster in the Cluster Heap.
 
 The valid range of values for these fields shall be:
 
 - Between 2 and ClusterCount + 1, inclusively, which points to the next FatEntry in the given cluster chain; the given FatEntry shall not point to any FatEntry which precedes it in the given cluster chain
-
 - Exactly FFFFFFF7h, which marks the given FatEntry's corresponding cluster as "bad"
-
 - Exactly FFFFFFFFh, which marks the given FatEntry's corresponding cluster as the last cluster of a cluster chain; this is the only valid value for the last FatEntry of any given cluster chain
 
 ## 5 Data Region
 
-The Data region contains the Cluster Heap, which provides managed space
-for file system structures, directories, and files.
+The Data region contains the Cluster Heap, which provides managed space for file system structures, directories, and files.
 
 ### 5.1 Cluster Heap Sub-region
 
-The Cluster Heap's structure is very simple (see [Table 12](#table-12-cluster-heap-structure)); each
-consecutive series of sectors describes one cluster, as the
-SectorsPerClusterShift field defines. Importantly, the first cluster of
-the Cluster Heap has index two, which directly corresponds to the index
-of FatEntry\[2\].
+The Cluster Heap's structure is very simple (see [Table 12](#table-12-cluster-heap-structure)); each consecutive series of sectors describes one cluster, as the SectorsPerClusterShift field defines. Importantly, the first cluster of the Cluster Heap has index two, which directly corresponds to the index of FatEntry\[2\].
 
-In an exFAT volume, an Allocation Bitmap (see [Section 7.1.5](#715-allocation-bitmap)) maintains
-the record of the allocation state of all clusters. This is a
-significant difference from exFAT's predecessors (FAT12, FAT16, and
-FAT32), in which a FAT maintained a record of the allocation state of
-all clusters in the Cluster Heap.
+In an exFAT volume, an Allocation Bitmap (see [Section 7.1.5](#715-allocation-bitmap)) maintains the record of the allocation state of all clusters. This is a significant difference from exFAT's predecessors (FAT12, FAT16, and FAT32), in which a FAT maintained a record of the allocation state of all clusters in the Cluster Heap.
 
 <div id="table-12-cluster-heap-structure" />
 
@@ -1480,25 +1221,17 @@ all clusters in the Cluster Heap.
 
 #### 5.1.1 Cluster\[2\] ... Cluster\[ClusterCount+1\] Fields
 
-Each Cluster field in this array is a series of contiguous sectors,
-whose size is defined by the SectorsPerClusterShift field.
+Each Cluster field in this array is a series of contiguous sectors, whose size is defined by the SectorsPerClusterShift field.
 
 ## 6 Directory Structure
 
-The exFAT file system uses a directory tree approach to manage the file
-system structures and files which exist in the Cluster Heap. Directories
-have a one-to-many relationship between parent and child in the
-directory tree.
+The exFAT file system uses a directory tree approach to manage the file system structures and files which exist in the Cluster Heap. Directories have a one-to-many relationship between parent and child in the directory tree.
 
-The directory to which the FirstClusterOfRootDirectory field refers is
-the root of the directory tree. All other directories descend from the
-root directory in a singly-linked fashion.
+The directory to which the FirstClusterOfRootDirectory field refers is the root of the directory tree. All other directories descend from the root directory in a singly-linked fashion.
 
 Each directory consists of a series of directory entries (see [Table 13](#table-13-directory-structure)).
 
-One or more directory entries combine into a directory entry set which
-describes something of interest, such as a file system structure,
-sub-directory, or file.
+One or more directory entries combine into a directory entry set which describes something of interest, such as a file system structure, sub-directory, or file.
 
 <div id="table-13-directory-structure" />
 
@@ -1548,17 +1281,11 @@ sub-directory, or file.
 
 ### 6.1 DirectoryEntry\[0\] ... DirectoryEntry\[N--1\]
 
-Each DirectoryEntry field in this array derives from the Generic
-DirectoryEntry template (see [Section 6.2](#62-generic-directoryentry-template)).
+Each DirectoryEntry field in this array derives from the Generic DirectoryEntry template (see [Section 6.2](#62-generic-directoryentry-template)).
 
 ### 6.2 Generic DirectoryEntry Template
 
-The Generic DirectoryEntry template provides the base definition for
-directory entries (see [Table 14](#table-14-generic-directoryentry-template)). All directory entry structures derive
-from this template and only Microsoft-defined directory entry structures
-are valid (exFAT does not have provisions for manufacturer-defined
-directory entry structures except as defined in [Section 7.8](#78-vendor-extension-directory-entry) and [Section 7.9](#79-vendor-allocation-directory-entry)). The ability to interpret the Generic DirectoryEntry template is
-mandatory.
+The Generic DirectoryEntry template provides the base definition for directory entries (see [Table 14](#table-14-generic-directoryentry-template)). All directory entry structures derive from this template and only Microsoft-defined directory entry structures are valid (exFAT does not have provisions for manufacturer-defined directory entry structures except as defined in [Section 7.8](#78-vendor-extension-directory-entry) and [Section 7.9](#79-vendor-allocation-directory-entry)). The ability to interpret the Generic DirectoryEntry template is mandatory.
 
 <div id="table-14-generic-directoryentry-template" />
 
@@ -1605,53 +1332,24 @@ mandatory.
 
 #### 6.2.1 EntryType Field
 
-The EntryType field has three modes of usage which the value of the
-field defines (see list below).
+The EntryType field has three modes of usage which the value of the field defines (see list below).
 
-- 00h, which is an end-of-directory marker and the following
-  conditions apply:
-
-  - All other fields in the given DirectoryEntry are actually
-    reserved
-
-  - All subsequent directory entries in the given directory also are
-    end-of-directory markers
-
-  - End-of-directory markers are only valid outside directory entry
-    sets
-
-  - Implementations may overwrite end-of-directory markers as
-    necessary
-
-- Between 01h and 7Fh inclusively, which is an unused-directory-entry
-  marker and the following conditions apply:
-
-  - All other fields in the given DirectoryEntry are actually
-    undefined
-
-  - Unused directory entries are only valid outside of directory
-    entry sets
-
-  - Implementations may overwrite unused directory entries as
-    necessary
-
+- 00h, which is an end-of-directory marker and the following conditions apply:
+  - All other fields in the given DirectoryEntry are actually reserved
+  - All subsequent directory entries in the given directory also are end-of-directory markers
+  - End-of-directory markers are only valid outside directory entry sets
+  - Implementations may overwrite end-of-directory markers as necessary
+- Between 01h and 7Fh inclusively, which is an unused-directory-entry marker and the following conditions apply:
+  - All other fields in the given DirectoryEntry are actually undefined
+  - Unused directory entries are only valid outside of directory entry sets
+  - Implementations may overwrite unused directory entries as necessary
   - This range of values corresponds to the InUse field (see [Section 6.2.1.4](#6214-inuse-field)) containing the value 0
+- Between 81h and FFh inclusively, which is a regular directory entry and the following conditions apply:
+  - The contents of the EntryType field (see [Table 15](#table-15-generic-entrytype-field-structure)) determine the layout of the remainder of the DirectoryEntry structure
+  - This range of values, and only this range of values, are valid inside a directory entry set
+  - This range of values directly corresponds to the InUse field (see [Section 6.2.1.4](#6214-inuse-field)) containing the value 1
 
-- Between 81h and FFh inclusively, which is a regular directory entry
-  and the following conditions apply:
-
-  - The contents of the EntryType field (see [Table 15](#table-15-generic-entrytype-field-structure)) determine the
-    layout of the remainder of the DirectoryEntry structure
-
-  - This range of values, and only this range of values, are valid
-    inside a directory entry set
-
-  - This range of values directly corresponds to the InUse field
-    (see [Section 6.2.1.4](#6214-inuse-field)) containing the value 1
-
-To prevent modifications to the InUse field (see [Section 6.2.1.4](#6214-inuse-field))
-erroneously resulting in an end-of-directory marker, the value 80h is
-invalid.
+To prevent modifications to the InUse field (see [Section 6.2.1.4](#6214-inuse-field)) erroneously resulting in an end-of-directory marker, the value 80h is invalid.
 
 <div id="table-15-generic-entrytype-field-structure" />
 
@@ -1698,100 +1396,66 @@ invalid.
 
 ##### 6.2.1.1 TypeCode Field
 
-The TypeCode field partially describes the specific type of the given
-directory entry. This field, plus the TypeImportance and TypeCategory
-fields (see [Section 6.2.1.2](#6212-typeimportance-field) and [Section 6.2.1.3](#6213-typecategory-field), respectively) uniquely
-identify the type of the given directory entry.
+The TypeCode field partially describes the specific type of the given directory entry. This field, plus the TypeImportance and TypeCategory fields (see [Section 6.2.1.2](#6212-typeimportance-field) and [Section 6.2.1.3](#6213-typecategory-field), respectively) uniquely identify the type of the given directory entry.
 
-All possible values of this field are valid, unless the TypeImportance
-and TypeCategory fields both contain the value 0; in that case, the
-value 0 is invalid for this field.
+All possible values of this field are valid, unless the TypeImportance and TypeCategory fields both contain the value 0; in that case, the value 0 is invalid for this field.
 
 ##### 6.2.1.2 TypeImportance Field
 
-The TypeImportance field shall describe the importance of the given
-directory entry.
+The TypeImportance field shall describe the importance of the given directory entry.
 
 The valid values for this field shall be:
 
-- 0, which means the given directory entry is critical (see [Section    6.3.1.2.1](#63121-critical-primary-directory-entries) and [Section 6.4.1.2.1](#64121-critical-secondary-directory-entries) for critical primary and critical secondary
-    directory entries, respectively)
-
-- 1, which means the given directory entry is benign (see [Section    6.3.1.2.2](#63122-benign-primary-directory-entries) and [Section 6.4.1.2.2](#64122-benign-secondary-directory-entries) for benign primary and benign secondary
-    directory entries, respectively)
+- 0, which means the given directory entry is critical (see [Section 6.3.1.2.1](#63121-critical-primary-directory-entries) and [Section 6.4.1.2.1](#64121-critical-secondary-directory-entries) for critical primary and critical secondary directory entries, respectively)
+- 1, which means the given directory entry is benign (see [Section 6.3.1.2.2](#63122-benign-primary-directory-entries) and [Section 6.4.1.2.2](#64122-benign-secondary-directory-entries) for benign primary and benign secondary directory entries, respectively)
 
 ##### 6.2.1.3 TypeCategory Field
 
-The TypeCategory field shall describe the category of the given
-directory entry.
+The TypeCategory field shall describe the category of the given directory entry.
 
 The valid values for this field shall be:
 
 - 0, which means the given directory entry is primary (see [Section 6.3](#63-generic-primary-directoryentry-template))
-
 - 1, which means the given directory entry is secondary (see [Section 6.4](#64-generic-secondary-directoryentry-template))
 
 ##### 6.2.1.4 InUse Field
 
-The InUse field shall describe whether the given directory entry in use
-or not.
+The InUse field shall describe whether the given directory entry in use or not.
 
 The valid values for this field shall be:
 
-- 0, which means the given directory entry is not in use; this means
-  the given structure actually is an unused directory entry
-
-- 1, which means the given directory entry is in use; this means the
-  given structure is a regular directory entry
+- 0, which means the given directory entry is not in use; this means the given structure actually is an unused directory entry
+- 1, which means the given directory entry is in use; this means the given structure is a regular directory entry
 
 #### 6.2.2 FirstCluster Field
 
-The FirstCluster field shall contain the index of the first cluster of
-an allocation in the Cluster Heap associated with the given directory
-entry.
+The FirstCluster field shall contain the index of the first cluster of an allocation in the Cluster Heap associated with the given directory entry.
 
 The valid range of values for this field shall be:
 
 - Exactly 0, which means no cluster allocation exists
+- Between 2 and ClusterCount + 1, which is the range of valid cluster indices
 
-- Between 2 and ClusterCount + 1, which is the range of valid cluster
-  indices
-
-Structures which derive from this template may redefine both the
-FirstCluster and DataLength fields, if a cluster allocation is not
-compatible with the derivative structure.
+Structures which derive from this template may redefine both the FirstCluster and DataLength fields, if a cluster allocation is not compatible with the derivative structure.
 
 #### 6.2.3 DataLength Field
 
-The DataLength field describes the size, in bytes, of the data the
-associated cluster allocation contains.
+The DataLength field describes the size, in bytes, of the data the associated cluster allocation contains.
 
 The valid range of value for this field is:
 
-- At least 0; if the FirstCluster field contains the value 0, then
-  this field's only valid value is 0
+- At least 0; if the FirstCluster field contains the value 0, then this field's only valid value is 0
+- At most ClusterCount \* 2<sup>SectorsPerClusterShift</sup>\* 2<sup>BytesPerSectorShift</sup>
 
-- At most ClusterCount \* 2<sup>SectorsPerClusterShift</sup>\*
-  2<sup>BytesPerSectorShift</sup>
-
-Structures which derive from this template may redefine both the
-FirstCluster and DataLength fields, if a cluster allocation is not
-possible for the derivative structure.
+Structures which derive from this template may redefine both the FirstCluster and DataLength fields, if a cluster allocation is not possible for the derivative structure.
 
 ### 6.3 Generic Primary DirectoryEntry Template
 
-The first directory entry in a directory entry set shall be a primary
-directory entry. All subsequent directory entries, if any, in the
-directory entry set shall be secondary directory entries (see
-[Section 6.4](#64-generic-secondary-directoryentry-template)).
+The first directory entry in a directory entry set shall be a primary directory entry. All subsequent directory entries, if any, in the directory entry set shall be secondary directory entries (see [Section 6.4](#64-generic-secondary-directoryentry-template)).
 
-The ability to interpret the Generic Primary DirectoryEntry template is
-mandatory.
+The ability to interpret the Generic Primary DirectoryEntry template is mandatory.
 
-All primary directory entry structures derive from the Generic Primary
-DirectoryEntry template (see [Table 16](#table-16-generic-primary-directoryentry-template)), which derives from the Generic
-DirectoryEntry template (see
-[Section 6.2](#62-generic-directoryentry-template)).
+All primary directory entry structures derive from the Generic Primary DirectoryEntry template (see [Table 16](#table-16-generic-primary-directoryentry-template)), which derives from the Generic DirectoryEntry template (see [Section 6.2](#62-generic-directoryentry-template)).
 
 <div id="table-16-generic-primary-directoryentry-template" />
 
@@ -1856,88 +1520,54 @@ DirectoryEntry template (see
 
 #### 6.3.1 EntryType Field
 
-The EntryType field shall conform to the definition provided in the
-Generic DirectoryEntry template (see
-[Section 6.2.1](#621-entrytype-field)).
+The EntryType field shall conform to the definition provided in the Generic DirectoryEntry template (see [Section 6.2.1](#621-entrytype-field)).
 
 ##### 6.3.1.1 TypeCode Field
 
-The TypeCode field shall conform to the definition provided in the
-Generic DirectoryEntry template (see
-[Section 6.2.1.1](#6211-typecode-field)).
+The TypeCode field shall conform to the definition provided in the Generic DirectoryEntry template (see [Section 6.2.1.1](#6211-typecode-field)).
 
 ##### 6.3.1.2 TypeImportance Field
 
-The TypeImportance field shall conform to the definition provided in the
-Generic DirectoryEntry template (see
-[Section 6.2.1.2](#6212-typeimportance-field)).
+The TypeImportance field shall conform to the definition provided in the Generic DirectoryEntry template (see [Section 6.2.1.2](#6212-typeimportance-field)).
 
 ###### 6.3.1.2.1 Critical Primary Directory Entries
 
-Critical primary directory entries contain information which is critical
-to the proper management of an exFAT volume. Only the root directory
-contains critical primary directory entries (File directory entries are
-an exception, see
-[Section 7.4](#74-file-directory-entry)).
+Critical primary directory entries contain information which is critical to the proper management of an exFAT volume. Only the root directory contains critical primary directory entries (File directory entries are an exception, see [Section 7.4](#74-file-directory-entry)).
 
-The definition of critical primary directory entries correlates to the
-major exFAT revision number. Implementations shall support all critical
-primary directory entries and shall only record the critical primary
-directory entry structures this specification defines.
+The definition of critical primary directory entries correlates to the major exFAT revision number. Implementations shall support all critical primary directory entries and shall only record the critical primary directory entry structures this specification defines.
 
 ###### 6.3.1.2.2 Benign Primary Directory Entries
 
-Benign primary directory entries contain additional information which
-may be useful for managing an exFAT volume. Any directory may contain
-benign primary directory entries.
+Benign primary directory entries contain additional information which may be useful for managing an exFAT volume. Any directory may contain benign primary directory entries.
 
-The definition of benign primary directory entries correlates to the
-minor exFAT revision number. Support for any benign primary directory
-entry this specification, or any subsequent specification, defines is
-optional. An unrecognized benign primary directory entry renders the
-entire directory entry set as unrecognized (beyond the definition of the
-applicable directory entry templates).
+The definition of benign primary directory entries correlates to the minor exFAT revision number. Support for any benign primary directory entry this specification, or any subsequent specification, defines is optional. An unrecognized benign primary directory entry renders the entire directory entry set as unrecognized (beyond the definition of the applicable directory entry templates).
 
 ##### 6.3.1.3 TypeCategory Field
 
-The TypeCategory field shall conform to the definition provided in the
-Generic DirectoryEntry template (see [Section 6.2.1.3](#6213-typecategory-field)).
+The TypeCategory field shall conform to the definition provided in the Generic DirectoryEntry template (see [Section 6.2.1.3](#6213-typecategory-field)).
 
 For this template, the valid value for this field shall be 0.
 
 ##### 6.3.1.4 InUse Field
 
-The InUse field shall conform to the definition provided in the Generic
-DirectoryEntry template (see [Section 6.2.1.4](#6214-inuse-field)).
+The InUse field shall conform to the definition provided in the Generic DirectoryEntry template (see [Section 6.2.1.4](#6214-inuse-field)).
 
 #### 6.3.2 SecondaryCount Field
 
-The SecondaryCount field shall describe the number of secondary
-directory entries which immediately follow the given primary directory
-entry. These secondary directory entries, along with the given primary
-directory entry, comprise the directory entry set.
+The SecondaryCount field shall describe the number of secondary directory entries which immediately follow the given primary directory entry. These secondary directory entries, along with the given primary directory entry, comprise the directory entry set.
 
 The valid range of values for this field shall be:
 
-- At least 0, which means this primary directory entry is the only
-  entry in the directory entry set
+- At least 0, which means this primary directory entry is the only entry in the directory entry set
+- At most 255, which means the next 255 directory entries and this primary directory entry comprise the directory entry set
 
-- At most 255, which means the next 255 directory entries and this
-  primary directory entry comprise the directory entry set
-
-Critical primary directory entry structures which derive from this
-template may redefine both the SecondaryCount and SetChecksum fields.
+Critical primary directory entry structures which derive from this template may redefine both the SecondaryCount and SetChecksum fields.
 
 #### 6.3.3 SetChecksum Field
 
-The SetChecksum field shall contain the checksum of all directory
-entries in the given directory entry set. However, the checksum excludes
-this field (see [Figure 2](#figure-2-entrysetchecksum-computation)). Implementations shall verify the contents of
-this field are valid prior to using any other directory entry in the
-given directory entry set.
+The SetChecksum field shall contain the checksum of all directory entries in the given directory entry set. However, the checksum excludes this field (see [Figure 2](#figure-2-entrysetchecksum-computation)). Implementations shall verify the contents of this field are valid prior to using any other directory entry in the given directory entry set.
 
-Critical primary directory entry structures which derive from this
-template may redefine both the SecondaryCount and SetChecksum fields.
+Critical primary directory entry structures which derive from this template may redefine both the SecondaryCount and SetChecksum fields.
 
 <div id="figure-2-entrysetchecksum-computation" />
 
@@ -1970,8 +1600,7 @@ UInt16 EntrySetChecksum
 
 The GeneralPrimaryFlags field contains flags (see [Table 17](#table-17-generic-generalprimaryflags-field-structure)).
 
-Critical primary directory entry structures which derive from this
-template may redefine this field.
+Critical primary directory entry structures which derive from this template may redefine this field.
 
 <div id="table-17-generic-generalprimaryflags-field-structure" />
 
@@ -2012,84 +1641,47 @@ template may redefine this field.
 
 ##### 6.3.4.1 AllocationPossible Field
 
-The AllocationPossible field shall describe whether or not an allocation
-in the Cluster Heap is possible for the given directory entry.
+The AllocationPossible field shall describe whether or not an allocation in the Cluster Heap is possible for the given directory entry.
 
 The valid values for this field shall be:
 
-- 0, which means an associated allocation of clusters is not possible
-  and the FirstCluster and DataLength fields are actually undefined
-  (structures which derive from this template may redefine those
-  fields)
-
-- 1, which means an associated allocation of clusters is possible and
-  the FirstCluster and DataLength fields are as defined
+- 0, which means an associated allocation of clusters is not possible and the FirstCluster and DataLength fields are actually undefined (structures which derive from this template may redefine those fields)
+- 1, which means an associated allocation of clusters is possible and the FirstCluster and DataLength fields are as defined
 
 ##### 6.3.4.2 NoFatChain Field
 
-The NoFatChain field shall indicate whether or not the active FAT
-describes the given allocation's cluster chain.
+The NoFatChain field shall indicate whether or not the active FAT describes the given allocation's cluster chain.
 
 The valid values for this field shall be:
 
-- 0, which means the corresponding FAT entries for the allocation's
-  cluster chain are valid and implementations shall interpret them; if
-  the AllocationPossible field contains the value 0, or if the
-  AllocationPossible field contains the value 1 and the FirstCluster
-  field contains the value 0, then this field's only valid value is 0
+- 0, which means the corresponding FAT entries for the allocation's cluster chain are valid and implementations shall interpret them; if the AllocationPossible field contains the value 0, or if the AllocationPossible field contains the value 1 and the FirstCluster field contains the value 0, then this field's only valid value is 0
+- 1, which means the associated allocation is one contiguous series of clusters; the corresponding FAT entries for the clusters are invalid and implementations shall not interpret them; implementations may use the following equation to calculate the size of the associated allocation: DataLength / (2<sup>SectorsPerClusterShift</sup>\* 2<sup>BytesPerSectorShift</sup>) rounded up to the nearest integer
 
-- 1, which means the associated allocation is one contiguous series of
-  clusters; the corresponding FAT entries for the clusters are invalid
-  and implementations shall not interpret them; implementations may
-  use the following equation to calculate the size of the associated
-  allocation: DataLength / (2<sup>SectorsPerClusterShift</sup>\* 2<sup>BytesPerSectorShift</sup>) rounded up to the nearest integer
-
-If critical primary directory entry structures which derive from this
-template redefine the GeneralPrimaryFlags field, then the corresponding
-FAT entries for any associated allocation's cluster chain are valid.
+If critical primary directory entry structures which derive from this template redefine the GeneralPrimaryFlags field, then the corresponding FAT entries for any associated allocation's cluster chain are valid.
 
 #### 6.3.5 FirstCluster Field
 
-The FirstCluster field shall conform to the definition provided in the
-Generic DirectoryEntry template (see [Section 6.2.2](#622-firstcluster-field)).
+The FirstCluster field shall conform to the definition provided in the Generic DirectoryEntry template (see [Section 6.2.2](#622-firstcluster-field)).
 
-If the NoFatChain bit is 1 then FirstCluster must point to a valid
-cluster in the cluster heap.
+If the NoFatChain bit is 1 then FirstCluster must point to a valid cluster in the cluster heap.
 
-Critical primary directory entry structures which derive from this
-template may redefine the FirstCluster and DataLength fields. Other
-structures which derive from this template may redefine the FirstCluster
-and DataLength fields only if the AllocationPossible field contains the
-value 0.
+Critical primary directory entry structures which derive from this template may redefine the FirstCluster and DataLength fields. Other structures which derive from this template may redefine the FirstCluster and DataLength fields only if the AllocationPossible field contains the value 0.
 
 #### 6.3.6 DataLength Field
 
-The DataLength field shall conform to the definition provided in the
-Generic DirectoryEntry template (see [Section 6.2.3](#623-datalength-field)).
+The DataLength field shall conform to the definition provided in the Generic DirectoryEntry template (see [Section 6.2.3](#623-datalength-field)).
 
-If the NoFatChain bit is 1 then DataLength must not be zero. If the
-FirstCluster field is zero, then DataLength must also be zero.
+If the NoFatChain bit is 1 then DataLength must not be zero. If the FirstCluster field is zero, then DataLength must also be zero.
 
-Critical primary directory entry structures which derive from this
-template may redefine the FirstCluster and DataLength fields. Other
-structures which derive from this template may redefine the FirstCluster
-and DataLength fields only if the AllocationPossible field contains the
-value 0.
+Critical primary directory entry structures which derive from this template may redefine the FirstCluster and DataLength fields. Other structures which derive from this template may redefine the FirstCluster and DataLength fields only if the AllocationPossible field contains the value 0.
 
 ### 6.4 Generic Secondary DirectoryEntry Template
 
-The central purpose of secondary directory entries is to provide
-additional information about a directory entry set. The ability to
-interpret the Generic Secondary DirectoryEntry template is mandatory.
+The central purpose of secondary directory entries is to provide additional information about a directory entry set. The ability to interpret the Generic Secondary DirectoryEntry template is mandatory.
 
-The definition of both critical and benign secondary directory entries
-correlates to the minor exFAT revision number. Support for any critical
-or benign secondary directory entry this specification, or subsequent
-specifications, defines is optional.
+The definition of both critical and benign secondary directory entries correlates to the minor exFAT revision number. Support for any critical or benign secondary directory entry this specification, or subsequent specifications, defines is optional.
 
-All secondary directory entry structures derive from the Generic
-Secondary DirectoryEntry template (see [Table 18](#table-18-generic-secondary-directoryentry-template)), which derives from the
-Generic DirectoryEntry template (see [Section 6.2](#62-generic-directoryentry-template)).
+All secondary directory entry structures derive from the Generic Secondary DirectoryEntry template (see [Table 18](#table-18-generic-secondary-directoryentry-template)), which derives from the Generic DirectoryEntry template (see [Section 6.2](#62-generic-directoryentry-template)).
 
 <div id="table-18-generic-secondary-directoryentry-template" />
 
@@ -2142,58 +1734,37 @@ Generic DirectoryEntry template (see [Section 6.2](#62-generic-directoryentry-te
 
 #### 6.4.1 EntryType Field
 
-The EntryType field shall conform to the definition provided in the
-Generic DirectoryEntry template (see [Section 6.2.1](#621-entrytype-field))
+The EntryType field shall conform to the definition provided in the Generic DirectoryEntry template (see [Section 6.2.1](#621-entrytype-field))
 
 ##### 6.4.1.1 TypeCode Field
 
-The TypeCode field shall conform to the definition provided in the
-Generic DirectoryEntry template (see [Section 6.2.1.1](#6211-typecode-field)).
+The TypeCode field shall conform to the definition provided in the Generic DirectoryEntry template (see [Section 6.2.1.1](#6211-typecode-field)).
 
 ##### 6.4.1.2 TypeImportance Field
 
-The TypeImportance field shall conform to the definition provided in the
-Generic DirectoryEntry template (see [Section 6.2.1.2](#6212-typeimportance-field)).
+The TypeImportance field shall conform to the definition provided in the Generic DirectoryEntry template (see [Section 6.2.1.2](#6212-typeimportance-field)).
 
 ###### 6.4.1.2.1 Critical Secondary Directory Entries
 
-Critical secondary directory entries contain information which is
-critical to the proper management of its containing directory entry set.
-While support for any specific critical secondary directory entry is
-optional, an unrecognized critical directory entry renders the entire
-directory entry set as unrecognized (beyond the definition of the
-applicable directory entry templates).
+Critical secondary directory entries contain information which is critical to the proper management of its containing directory entry set. While support for any specific critical secondary directory entry is optional, an unrecognized critical directory entry renders the entire directory entry set as unrecognized (beyond the definition of the applicable directory entry templates).
 
-However, if a directory entry set contains at least one critical
-secondary directory entry which an implementation does not recognize,
-then the implementation shall at most interpret the templates of the
-directory entries in the directory entry set and not the data any
-allocation associated with any directory entry in the directory entry
-set contains (File directory entries are an exception, see
-[Section 7.4](#74-file-directory-entry)).
+However, if a directory entry set contains at least one critical secondary directory entry which an implementation does not recognize, then the implementation shall at most interpret the templates of the directory entries in the directory entry set and not the data any allocation associated with any directory entry in the directory entry set contains (File directory entries are an exception, see [Section 7.4](#74-file-directory-entry)).
 
 ###### 6.4.1.2.2 Benign Secondary Directory Entries
 
-Benign secondary directory entries contain additional information which
-may be useful for managing its containing directory entry set. Support
-for any specific benign secondary directory entry is optional.
-Unrecognized benign secondary directory entries do not render the entire
-directory entry set as unrecognized.
+Benign secondary directory entries contain additional information which may be useful for managing its containing directory entry set. Support for any specific benign secondary directory entry is optional. Unrecognized benign secondary directory entries do not render the entire directory entry set as unrecognized.
 
-Implementations may ignore any benign secondary entry it does not
-recognize.
+Implementations may ignore any benign secondary entry it does not recognize.
 
 ##### 6.4.1.3 TypeCategory Field
 
-The TypeCategory field shall conform to the definition provided in the
-Generic DirectoryEntry template (see [Section 6.2.1.3](#6213-typecategory-field)).
+The TypeCategory field shall conform to the definition provided in the Generic DirectoryEntry template (see [Section 6.2.1.3](#6213-typecategory-field)).
 
 For this template, the valid value for this field is 1.
 
 ##### 6.4.1.4 InUse Field
 
-The InUse field shall conform to the definition provided in the Generic
-DirectoryEntry template (see [Section 6.2.1.4](#6214-inuse-field)).
+The InUse field shall conform to the definition provided in the Generic DirectoryEntry template (see [Section 6.2.1.4](#6214-inuse-field)).
 
 #### 6.4.2 GeneralSecondaryFlags Field
 
@@ -2238,84 +1809,51 @@ The GeneralSecondaryFlags field contains flags (see [Table 19](#table-19-generic
 
 ##### 6.4.2.1 AllocationPossible Field
 
-The AllocationPossible field shall have the same definition as the
-same-named field in the Generic Primary DirectoryEntry template (see
-[Section 6.3.4.1](#6341-allocationpossible-field)).
+The AllocationPossible field shall have the same definition as the same-named field in the Generic Primary DirectoryEntry template (see [Section 6.3.4.1](#6341-allocationpossible-field)).
 
 ##### 6.4.2.2 NoFatChain Field
 
-The NoFatChain field shall have the same definition as the same-named
-field in the Generic Primary DirectoryEntry template (see
-[Section 6.3.4.2](#6342-nofatchain-field)).
+The NoFatChain field shall have the same definition as the same-named field in the Generic Primary DirectoryEntry template (see [Section 6.3.4.2](#6342-nofatchain-field)).
 
 #### 6.4.3 FirstCluster Field
 
-The FirstCluster field shall conform to the definition provided in the
-Generic DirectoryEntry template (see [Section 6.2.2](#622-firstcluster-field)).
+The FirstCluster field shall conform to the definition provided in the Generic DirectoryEntry template (see [Section 6.2.2](#622-firstcluster-field)).
 
-If the NoFatChain bit is 1 then FirstCluster must point to a valid
-cluster in the cluster heap.
+If the NoFatChain bit is 1 then FirstCluster must point to a valid cluster in the cluster heap.
 
 #### 6.4.4 DataLength Field
 
-The DataLength field shall conform to the definition provided in the
-Generic DirectoryEntry template (see [Section 6.2.3](#623-datalength-field)).
+The DataLength field shall conform to the definition provided in the Generic DirectoryEntry template (see [Section 6.2.3](#623-datalength-field)).
 
-If the NoFatChain bit is 1 then DataLength must not be zero. If the
-FirstCluster field is zero, then DataLength must also be zero.
+If the NoFatChain bit is 1 then DataLength must not be zero. If the FirstCluster field is zero, then DataLength must also be zero.
 
 ## 7 Directory Entry Definitions
 
-Revision 1.00 of the exFAT file system defines the following directory
-entries:
+Revision 1.00 of the exFAT file system defines the following directory entries:
 
 - Critical primary
-
   - Allocation Bitmap ([Section 7.1](#71-allocation-bitmap-directory-entry))
-
   - Up-case Table ([Section 7.2](#72-up-case-table-directory-entry))
-
   - Volume Label ([Section 7.3](#73-volume-label-directory-entry))
-
   - File ([Section 7.4](#74-file-directory-entry))
-
 - Benign primary
-
   - Volume GUID ([Section 7.5](#75-volume-guid-directory-entry))
-
   - TexFAT Padding ([Section 7.10](#710-texfat-padding-directory-entry))
 
 <!-- -->
 
 - Critical secondary
-
   - Stream Extension ([Section 7.6](#76-stream-extension-directory-entry))
-
   - File Name ([Section 7.7](#77-file-name-directory-entry))
-
 - Benign secondary
-
   - Vendor Extension ([Section 7.8](#78-vendor-extension-directory-entry))
-
   - Vendor Allocation ([Section 7.9](#79-vendor-allocation-directory-entry))
 
 ### 7.1 Allocation Bitmap Directory Entry
 
-In the exFAT file system, a FAT does not describe the allocation state
-of clusters; rather, an Allocation Bitmap does. Allocation Bitmaps exist
-in the Cluster Heap (see [Section 7.1.5](#715-allocation-bitmap)) and have corresponding critical
-primary directory entries in the root directory (see [Table 20](#table-20-allocation-bitmap-directoryentry-structure)).
+In the exFAT file system, a FAT does not describe the allocation state of clusters; rather, an Allocation Bitmap does. Allocation Bitmaps exist in the Cluster Heap (see [Section 7.1.5](#715-allocation-bitmap)) and have corresponding critical primary directory entries in the root directory (see [Table 20](#table-20-allocation-bitmap-directoryentry-structure)).
 
-The NumberOfFats field determines the number of valid Allocation Bitmap
-directory entries in the root directory. If the NumberOfFats field
-contains the value 1, then the only valid number of Allocation Bitmap
-directory entries is 1. Further, the one Allocation Bitmap directory
-entry is only valid if it describes the First Allocation Bitmap (see
-[Section 7.1.2.1](#7121-bitmapidentifier-field)). If the NumberOfFats field contains the value 2, then
-the only valid number of Allocation Bitmap directory entries is 2.
-Further, the two Allocation Bitmap directory entries are only valid if
-one describes the First Allocation Bitmap and the other describes the
-Second Allocation Bitmap.
+The NumberOfFats field determines the number of valid Allocation Bitmap directory entries in the root directory. If the NumberOfFats field contains the value 1, then the only valid number of Allocation Bitmap directory entries is 1. Further, the one Allocation Bitmap directory entry is only valid if it describes the First Allocation Bitmap (see [Section 7.1.2.1](#7121-bitmapidentifier-field)). If the NumberOfFats field contains the value 2, then the only valid number of Allocation Bitmap directory entries is 2. Further, the two Allocation Bitmap directory entries are only valid if one describes the First Allocation Bitmap and the other describes the Second Allocation Bitmap.
 
 <div id="table-20-allocation-bitmap-directoryentry-structure" />
 
@@ -2368,34 +1906,27 @@ Second Allocation Bitmap.
 
 #### 7.1.1 EntryType Field
 
-The EntryType field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.1](#631-entrytype-field)).
+The EntryType field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1](#631-entrytype-field)).
 
 ##### 7.1.1.1 TypeCode Field
 
-The TypeCode field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.1.1](#6311-typecode-field)).
+The TypeCode field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1.1](#6311-typecode-field)).
 
-For an Allocation Bitmap directory entry, the valid value for this field
-is 1.
+For an Allocation Bitmap directory entry, the valid value for this field is 1.
 
 ##### 7.1.1.2 TypeImportance Field
 
-The TypeImportance field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.1.2](#6312-typeimportance-field)).
+The TypeImportance field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1.2](#6312-typeimportance-field)).
 
-For an Allocation Bitmap directory entry, the valid value for this field
-is 0.
+For an Allocation Bitmap directory entry, the valid value for this field is 0.
 
 ##### 7.1.1.3 TypeCategory Field
 
-The TypeCategory field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.1.3](#6313-typecategory-field)).
+The TypeCategory field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1.3](#6313-typecategory-field)).
 
 ##### 7.1.1.4 InUse Field
 
-The InUse field shall conform to the definition provided in the Generic
-Primary DirectoryEntry template (see [Section 6.3.1.4](#6314-inuse-field)).
+The InUse field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1.4](#6314-inuse-field)).
 
 #### 7.1.2 BitmapFlags Field
 
@@ -2434,44 +1965,31 @@ The BitmapFlags field contains flags (see [Table 21](#table-21-bitmapflags-field
 
 ##### 7.1.2.1 BitmapIdentifier Field
 
-The BitmapIdentifier field shall indicate which Allocation Bitmap the
-given directory entry describes. Implementations shall use the First
-Allocation Bitmap in conjunction with the First FAT and shall use the
-Second Allocation Bitmap in conjunction with the Second FAT. The
-ActiveFat field describes which FAT and Allocation Bitmap are active.
+The BitmapIdentifier field shall indicate which Allocation Bitmap the given directory entry describes. Implementations shall use the First Allocation Bitmap in conjunction with the First FAT and shall use the Second Allocation Bitmap in conjunction with the Second FAT. The ActiveFat field describes which FAT and Allocation Bitmap are active.
 
 The valid values for this field shall be:
 
-- 0, which means the given directory entry describes the First
-  Allocation Bitmap
-
-- 1, which means the given directory entry describes the Second
-  Allocation Bitmap and is possible only when NumberOfFats contains
-  the value 2
+- 0, which means the given directory entry describes the First Allocation Bitmap
+- 1, which means the given directory entry describes the Second Allocation Bitmap and is possible only when NumberOfFats contains the value 2
 
 #### 7.1.3 FirstCluster Field
 
-The FirstCluster field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.5](#635-firstcluster-field)).
+The FirstCluster field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.5](#635-firstcluster-field)).
 
-This field contains the index of the first cluster of the cluster chain,
-as the FAT describes, which hosts the Allocation Bitmap.
+This field contains the index of the first cluster of the cluster chain, as the FAT describes, which hosts the Allocation Bitmap.
 
 #### 7.1.4 DataLength Field
 
-The DataCluster field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.6](#636-datalength-field)).
+The DataCluster field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.6](#636-datalength-field)).
 
 #### 7.1.5 Allocation Bitmap
 
-An Allocation Bitmap records the allocation state of the clusters in the
-Cluster Heap. Each bit in an Allocation Bitmap indicates whether its
-corresponding cluster is available for allocation or not.
+An Allocation Bitmap records the allocation state of the clusters in the Cluster Heap. Each bit in an Allocation Bitmap indicates whether its corresponding cluster is available for allocation or not.
 
-An Allocation Bitmap represents clusters from lowest to highest index
-(see [Table 22](#table-22-allocation-bitmap-structure)). For historical reasons, the first cluster has index 2.
-Note: the first bit in the bitmap is the lowest-order bit of the first
-byte.
+An Allocation Bitmap represents clusters from lowest to highest index (see [Table 22](#table-22-allocation-bitmap-structure)). For historical reasons, the first cluster has index 2.
+
+> [!NOTE]
+> The first bit in the bitmap is the lowest-order bit of the first byte.
 
 <div id="table-22-allocation-bitmap-structure" />
 
@@ -2528,34 +2046,18 @@ byte.
 
 ##### 7.1.5.1 BitmapEntry\[2\] ... BitmapEntry\[ClusterCount+1\] Fields
 
-Each BitmapEntry field in this array represents a cluster in the Cluster
-Heap. BitmapEntry\[2\] represents the first cluster in the Cluster Heap
-and BitmapEntry\[ClusterCount+1\] represents the last cluster in the
-Cluster Heap.
+Each BitmapEntry field in this array represents a cluster in the Cluster Heap. BitmapEntry\[2\] represents the first cluster in the Cluster Heap and BitmapEntry\[ClusterCount+1\] represents the last cluster in the Cluster Heap.
 
 The valid values for these fields shall be:
 
-- 0, which describes the corresponding cluster as available for
-  allocation
-
-- 1, which describes the corresponding cluster as not available for
-  allocation (a cluster allocation may already consume the
-  corresponding cluster or the active FAT may describe the
-  corresponding cluster as bad)
+- 0, which describes the corresponding cluster as available for allocation
+- 1, which describes the corresponding cluster as not available for allocation (a cluster allocation may already consume the corresponding cluster or the active FAT may describe the corresponding cluster as bad)
 
 ### 7.2 Up-case Table Directory Entry
 
-The Up-case Table defines the conversion from lower-case to upper-case
-characters. This is important due to the File Name directory entry (see
-Section 7.7) using Unicode characters and the exFAT file system being
-case insensitive and case preserving. The Up-case Table exists in the
-Cluster Heap (see [Section 7.2.5](#725-up-case-table)) and has a corresponding critical
-primary directory entry in the root directory (see [Table 23](#table-23-up-case-table-directoryentry-structure)). The valid
-number of Up-case Table directory entries is 1.
+The Up-case Table defines the conversion from lower-case to upper-case characters. This is important due to the File Name directory entry (see Section 7.7) using Unicode characters and the exFAT file system being case insensitive and case preserving. The Up-case Table exists in the Cluster Heap (see [Section 7.2.5](#725-up-case-table)) and has a corresponding critical primary directory entry in the root directory (see [Table 23](#table-23-up-case-table-directoryentry-structure)). The valid number of Up-case Table directory entries is 1.
 
-Due to the relationship between the Up-case Table and file names,
-implementations should not modify the Up-case Table, except as a result
-of format operations.
+Due to the relationship between the Up-case Table and file names, implementations should not modify the Up-case Table, except as a result of format operations.
 
 <div id="table-23-up-case-table-directoryentry-structure" />
 
@@ -2614,41 +2116,31 @@ of format operations.
 
 #### 7.2.1 EntryType Field
 
-The EntryType field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.1](#631-entrytype-field)).
+The EntryType field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1](#631-entrytype-field)).
 
 ##### 7.2.1.1 TypeCode Field
 
-The TypeCode field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.1.1](#6311-typecode-field)).
+The TypeCode field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1.1](#6311-typecode-field)).
 
-For the Up-case Table directory entry, the valid value for this field is
-2.
+For the Up-case Table directory entry, the valid value for this field is 2.
 
 ##### 7.2.1.2 TypeImportance Field
 
-The TypeImportance field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.1.2](#6312-typeimportance-field)).
+The TypeImportance field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1.2](#6312-typeimportance-field)).
 
-For the Up-case Table directory entry, the valid value for this field is
-0.
+For the Up-case Table directory entry, the valid value for this field is 0.
 
 ##### 7.2.1.3 TypeCategory Field
 
-The TypeCategory field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.1.3](#6313-typecategory-field)).
+The TypeCategory field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1.3](#6313-typecategory-field)).
 
 ##### 7.2.1.4 InUse Field
 
-The InUse field shall conform to the definition provided in the Generic
-Primary DirectoryEntry template (see [Section 6.3.1.4](#6314-inuse-field)).
+The InUse field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1.4](#6314-inuse-field)).
 
 #### 7.2.2 TableChecksum Field
 
-The TableChecksum field contains the checksum of the Up-case Table
-(which the FirstCluster and DataLength fields describe). Implementations
-shall verify the contents of this field are valid prior to using the
-Up-case Table.
+The TableChecksum field contains the checksum of the Up-case Table (which the FirstCluster and DataLength fields describe). Implementations shall verify the contents of this field are valid prior to using the Up-case Table.
 
 <div id="figure-3-tablechecksum-computation" />
 
@@ -2675,41 +2167,21 @@ UInt32 TableChecksum
 
 #### 7.2.3 FirstCluster Field
 
-The FirstCluster field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.5](#635-firstcluster-field)).
+The FirstCluster field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.5](#635-firstcluster-field)).
 
-This field contains the index of the first cluster of the cluster chain,
-as the FAT describes, which hosts the Up-case Table.
+This field contains the index of the first cluster of the cluster chain, as the FAT describes, which hosts the Up-case Table.
 
 #### 7.2.4 DataLength Field
 
-The DataCluster field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.6](#636-datalength-field)).
+The DataCluster field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.6](#636-datalength-field)).
 
 #### 7.2.5 Up-case Table
 
-An up-case table is a series of Unicode character mappings. A character
-mapping consists of a 2-byte field, with the index of the field in the
-up-case table representing the Unicode character to be up-cased, and the
-2-byte field representing the up-cased Unicode character.
+An up-case table is a series of Unicode character mappings. A character mapping consists of a 2-byte field, with the index of the field in the up-case table representing the Unicode character to be up-cased, and the 2-byte field representing the up-cased Unicode character.
 
-The first 128 Unicode characters have mandatory mappings (see [Table 24](#table-24-mandatory-first-128-up-case-table-entries)).
-An up-case table which has any other character mapping for any of the
-first 128 Unicode characters is invalid.
+The first 128 Unicode characters have mandatory mappings (see [Table 24](#table-24-mandatory-first-128-up-case-table-entries)). An up-case table which has any other character mapping for any of the first 128 Unicode characters is invalid.
 
-Implementations which only support characters from the mandatory mapping
-range may ignore the mappings of the rest of the up-case table. Such
-implementations shall only use characters from the mandatory mapping
-range when creating or renaming files (via the File Name directory
-entry, see [Section 7.7](#77-file-name-directory-entry)). When up-casing existing file names, such
-implementations shall not up-case characters from the non-mandatory
-mapping range, but shall leave them intact in the resulting up-cased
-file name (this is a partial up-casing). When comparing file names, such
-implementations shall treat file names which differ from the name under
-comparison only by Unicode characters from the non-mandatory mapping
-range as equivalent. While such file names are only potentially
-equivalent, such implementations cannot ensure the fully up-cased file
-name does not collide with the name under comparison.
+Implementations which only support characters from the mandatory mapping range may ignore the mappings of the rest of the up-case table. Such implementations shall only use characters from the mandatory mapping range when creating or renaming files (via the File Name directory entry, see [Section 7.7](#77-file-name-directory-entry)). When up-casing existing file names, such implementations shall not up-case characters from the non-mandatory mapping range, but shall leave them intact in the resulting up-cased file name (this is a partial up-casing). When comparing file names, such implementations shall treat file names which differ from the name under comparison only by Unicode characters from the non-mandatory mapping range as equivalent. While such file names are only potentially equivalent, such implementations cannot ensure the fully up-cased file name does not collide with the name under comparison.
 
 <div id="table-24-mandatory-first-128-up-case-table-entries" />
 
@@ -2736,39 +2208,21 @@ name does not collide with the name under comparison.
 
 **(Note: entries with non-identity up-case mappings are in bold)**
 
-Upon formatting a volume, implementations may generate an up-case table
-in a compressed format using identity-mapping compression, since a large
-portion of the Unicode character space has no concept of case (which
-means the "lower-case" and "upper-case" characters are equivalent).
-Implementations compress an up-case table by representing a series of
-identity mappings with the value FFFFh followed with the number of
-identity mappings.
+Upon formatting a volume, implementations may generate an up-case table in a compressed format using identity-mapping compression, since a large portion of the Unicode character space has no concept of case (which means the "lower-case" and "upper-case" characters are equivalent). Implementations compress an up-case table by representing a series of identity mappings with the value FFFFh followed with the number of identity mappings.
 
-For example, an implementation may represent the first 100 (64h)
-character mappings with the following eight entries of a compressed
-up-case table:
+For example, an implementation may represent the first 100 (64h) character mappings with the following eight entries of a compressed up-case table:
 
 > FFFFh, 0061h, 0041h, 0042h, 0043h
 
-The first two entries indicate the first 97 (61h) characters (from 0000h
-to 0060h) have identity mappings. The subsequent characters, 0061h
-through 0063h, map to characters 0041h through 0043h, respectively.
+The first two entries indicate the first 97 (61h) characters (from 0000h to 0060h) have identity mappings. The subsequent characters, 0061h through 0063h, map to characters 0041h through 0043h, respectively.
 
-The ability to provide a compressed up-case table upon formatting a
-volume is optional. However, the ability to interpret both an
-uncompressed and a compressed up-case table is mandatory. The value of
-the TableChecksum field always conforms to how the up-case table exists
-on the volume, which may be in either compressed or uncompressed format.
+The ability to provide a compressed up-case table upon formatting a volume is optional. However, the ability to interpret both an uncompressed and a compressed up-case table is mandatory. The value of the TableChecksum field always conforms to how the up-case table exists on the volume, which may be in either compressed or uncompressed format.
 
 ##### 7.2.5.1 Recommended Up-case Table
 
-When formatting a volume, implementations should record the recommended
-up-case table in compressed format (see [Table 25](#table-25-recommended-up-case-table-in-compressed-format)), for which the value
-of the TableChecksum field is E619D30Dh.
+When formatting a volume, implementations should record the recommended up-case table in compressed format (see [Table 25](#table-25-recommended-up-case-table-in-compressed-format)), for which the value of the TableChecksum field is E619D30Dh.
 
-If an implementation defines its own up-case table, either compressed or
-uncompressed, then that table shall cover the complete Unicode character
-range (from character codes 0000h to FFFFh inclusive).
+If an implementation defines its own up-case table, either compressed or uncompressed, then that table shall cover the complete Unicode character range (from character codes 0000h to FFFFh inclusive).
 
 <div id="table-25-recommended-up-case-table-in-compressed-format" />
 
@@ -3144,11 +2598,7 @@ range (from character codes 0000h to FFFFh inclusive).
 
 ### 7.3 Volume Label Directory Entry
 
-The Volume Label is a Unicode string which enables end users to
-distinguish their storage volumes. In the exFAT file system, the Volume
-Label exists as a critical primary directory entry in the root directory
-(see [Table 26](#table-26-volume-label-directoryentry-structure)). The valid number of Volume Label directory entries
-ranges from 0 to 1.
+The Volume Label is a Unicode string which enables end users to distinguish their storage volumes. In the exFAT file system, the Volume Label exists as a critical primary directory entry in the root directory (see [Table 26](#table-26-volume-label-directoryentry-structure)). The valid number of Volume Label directory entries ranges from 0 to 1.
 
 <div id="table-26-volume-label-directoryentry-structure" />
 
@@ -3195,62 +2645,44 @@ ranges from 0 to 1.
 
 #### 7.3.1 EntryType Field
 
-The EntryType field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.1](#631-entrytype-field)).
+The EntryType field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1](#631-entrytype-field)).
 
 ##### 7.3.1.1 TypeCode Field
 
-The TypeCode field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.1.1](#6311-typecode-field)).
+The TypeCode field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1.1](#6311-typecode-field)).
 
-For the Volume Label directory entry, the valid value for this field is
-3.
+For the Volume Label directory entry, the valid value for this field is 3.
 
 ##### 7.3.1.2 TypeImportance Field
 
-The TypeImportance field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.1.2](#6312-typeimportance-field)).
+The TypeImportance field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1.2](#6312-typeimportance-field)).
 
-For the Volume Label directory entry, the valid value for this field is
-0.
+For the Volume Label directory entry, the valid value for this field is 0.
 
 ##### 7.3.1.3 TypeCategory Field
 
-The TypeCategory field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.1.3](#6313-typecategory-field)).
+The TypeCategory field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1.3](#6313-typecategory-field)).
 
 ##### 7.3.1.4 InUse Field
 
-The InUse field shall conform to the definition provided in the Generic
-Primary DirectoryEntry template (see [Section 6.3.1.4](#6314-inuse-field)).
+The InUse field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1.4](#6314-inuse-field)).
 
 #### 7.3.2 CharacterCount Field
 
-The CharacterCount field shall contain the length of the Unicode string
-the VolumeLabel field contains.
+The CharacterCount field shall contain the length of the Unicode string the VolumeLabel field contains.
 
 The valid range of values for this field shall be:
 
-- At least 0, which means the Unicode string is 0 characters long
-  (which is the equivalent of no volume label)
-
+- At least 0, which means the Unicode string is 0 characters long (which is the equivalent of no volume label)
 - At most 11, which means the Unicode string is 11 characters long
 
 #### 7.3.3 VolumeLabel Field
 
-The VolumeLabel field shall contain a Unicode string, which is the
-user-friendly name of the volume. The VolumeLabel field has the same set
-of invalid characters as the FileName field of the File Name directory
-entry (see [Section 7.7.3](#773-filename-field)).
+The VolumeLabel field shall contain a Unicode string, which is the user-friendly name of the volume. The VolumeLabel field has the same set of invalid characters as the FileName field of the File Name directory entry (see [Section 7.7.3](#773-filename-field)).
 
 ### 7.4 File Directory Entry
 
-File directory entries describe files and directories. They are critical
-primary directory entries and any directory may contain zero or more
-File directory entries (see [Table 27](#table-27-file-directoryentry)). For a File directory entry to be
-valid, exactly one Stream Extension directory entry and at least one
-File Name directory entry must immediately follow the File directory
-entry (see [Section 7.6](#76-stream-extension-directory-entry) and [Section 7.7](#77-file-name-directory-entry), respectively).
+File directory entries describe files and directories. They are critical primary directory entries and any directory may contain zero or more File directory entries (see [Table 27](#table-27-file-directoryentry)). For a File directory entry to be valid, exactly one Stream Extension directory entry and at least one File Name directory entry must immediately follow the File directory entry (see [Section 7.6](#76-stream-extension-directory-entry) and [Section 7.7](#77-file-name-directory-entry), respectively).
 
 <div id="table-27-file-directoryentry" />
 
@@ -3360,42 +2792,35 @@ a> defines its contents.</td>
 
 #### 7.4.1 EntryType Field
 
-The EntryType field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.1](#631-entrytype-field)).
+The EntryType field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1](#631-entrytype-field)).
 
 ##### 7.4.1.1 TypeCode Field
 
-The TypeCode field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.1.1](#6311-typecode-field)).
+The TypeCode field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1.1](#6311-typecode-field)).
 
 For a File directory entry, the valid value for this field is 5.
 
 ##### 7.4.1.2 TypeImportance Field
 
-The TypeImportance field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.1.2](#6312-typeimportance-field)).
+The TypeImportance field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1.2](#6312-typeimportance-field)).
 
 For a File directory entry, the valid value for this field is 0.
 
 ##### 7.4.1.3 TypeCategory Field
 
-The TypeCategory field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.1.3](#6313-typecategory-field)).
+The TypeCategory field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1.3](#6313-typecategory-field)).
 
 ##### 7.4.1.4 InUse Field
 
-The InUse field shall conform to the definition provided in the Generic
-Primary DirectoryEntry template (see [Section 6.3.1.4](#6314-inuse-field)).
+The InUse field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1.4](#6314-inuse-field)).
 
 #### 7.4.2 SecondaryCount Field
 
-The SecondaryCount field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.2](#632-secondarycount-field)).
+The SecondaryCount field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.2](#632-secondarycount-field)).
 
 #### 7.4.3 SetChecksum Field
 
-The SetChecksum field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.3](#633-setchecksum-field)).
+The SetChecksum field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.3](#633-setchecksum-field)).
 
 #### 7.4.4 FileAttributes Field
 
@@ -3464,68 +2889,33 @@ The FileAttributes field contains flags (see [Table 28](#table-28-fileattributes
 
 #### 7.4.5 CreateTimestamp, Create10msIncrement, and CreateUtcOffset Fields
 
-In combination, the CreateTimestamp and CreateTime10msIncrement fields
-shall describe the local date and time the given file/directory was
-created. The CreateUtcOffset field describes the offset of local date
-and time from UTC. Implementations shall set these fields upon creation
-of the given directory entry set.
+In combination, the CreateTimestamp and CreateTime10msIncrement fields shall describe the local date and time the given file/directory was created. The CreateUtcOffset field describes the offset of local date and time from UTC. Implementations shall set these fields upon creation of the given directory entry set.
 
-These fields shall conform to the definitions of the Timestamp,
-10msIncrement, and UtcOffset fields (see
-[Section 7.4.8](#748-timestamp-fields),
-[Section 7.4.9](#749-10msincrement-fields), and
-[Section 7.4.10](#7410-utcoffset-fields), respectively).
+These fields shall conform to the definitions of the Timestamp, 10msIncrement, and UtcOffset fields (see [Section 7.4.8](#748-timestamp-fields), [Section 7.4.9](#749-10msincrement-fields), and [Section 7.4.10](#7410-utcoffset-fields), respectively).
 
 #### 7.4.6 LastModifiedTimestamp, LastModified10msIncrement, and LastModifiedUtcOffset Fields
 
-In combination, the LastModifiedTimestamp and
-LastModifiedTime10msIncrement fields shall describe the local date and
-time the contents of any of the clusters associated with the given
-Stream Extension directory entry were last modified. The
-LastModifiedUtcOffset field describes the offset of local date and time
-from UTC. Implementations shall update these fields:
+In combination, the LastModifiedTimestamp and LastModifiedTime10msIncrement fields shall describe the local date and time the contents of any of the clusters associated with the given Stream Extension directory entry were last modified. The LastModifiedUtcOffset field describes the offset of local date and time from UTC. Implementations shall update these fields:
 
-1. After modifying the contents of any of the clusters associated with
-   the given Stream Extension directory entry (except for contents
-   which exist beyond the point the ValidDataLength field describes)
+1. After modifying the contents of any of the clusters associated with the given Stream Extension directory entry (except for contents which exist beyond the point the ValidDataLength field describes)
+1. Upon changing the values of either the ValidDataLength or DataLength fields
 
-2. Upon changing the values of either the ValidDataLength or DataLength
-   fields
-
-These fields shall conform to the definitions of the Timestamp,
-10msIncrement, and UtcOffset fields (see
-[Section 7.4.8](#748-timestamp-fields),
-[Section 7.4.9](#749-10msincrement-fields), and
-[Section 7.4.10](#7410-utcoffset-fields), respectively).
+These fields shall conform to the definitions of the Timestamp, 10msIncrement, and UtcOffset fields (see [Section 7.4.8](#748-timestamp-fields), [Section 7.4.9](#749-10msincrement-fields), and [Section 7.4.10](#7410-utcoffset-fields), respectively).
 
 #### 7.4.7 LastAccessedTimestamp and LastAccessedUtcOffset Fields
 
-The LastAccessedTimestamp field shall describe the local date and time
-the contents of any of the clusters associated with the given Stream
-Extension directory entry were last accessed. The LastAccessedUtcOffset
-field describes the offset of local date and time from UTC.
-Implementations shall update these fields:
+The LastAccessedTimestamp field shall describe the local date and time the contents of any of the clusters associated with the given Stream Extension directory entry were last accessed. The LastAccessedUtcOffset field describes the offset of local date and time from UTC. Implementations shall update these fields:
 
-1. After modifying the contents of any of the clusters associated with
-   the given Stream Extension directory entry (except for contents
-   which exist beyond the ValidDataLength)
+1. After modifying the contents of any of the clusters associated with the given Stream Extension directory entry (except for contents which exist beyond the ValidDataLength)
+1. Upon changing the values of either the ValidDataLength or DataLength fields
 
-2. Upon changing the values of either the ValidDataLength or DataLength
-   fields
+Implementations should update these fields after reading the contents of any of the clusters associated with the given Stream Extension directory entry.
 
-Implementations should update these fields after reading the contents of
-any of the clusters associated with the given Stream Extension directory
-entry.
-
-These fields shall conform to the definitions of the Timestamp and
-UtcOffset fields (see
-[Section 7.4.8](#748-timestamp-fields) and
-[Section 7.4.10](#7410-utcoffset-fields), respectively).
+These fields shall conform to the definitions of the Timestamp and UtcOffset fields (see [Section 7.4.8](#748-timestamp-fields) and [Section 7.4.10](#7410-utcoffset-fields), respectively).
 
 #### 7.4.8 Timestamp Fields
 
-Timestamp fields describe both local date and time, down to a two-second
-resolution (see [Table 29](#table-29-timestamp-field-structure)).
+Timestamp fields describe both local date and time, down to a two-second resolution (see [Table 29](#table-29-timestamp-field-structure)).
 
 <div id="table-29-timestamp-field-structure" />
 
@@ -3584,24 +2974,20 @@ resolution (see [Table 29](#table-29-timestamp-field-structure)).
 
 ##### 7.4.8.1 DoubleSeconds Field
 
-The DoubleSeconds field shall describe the seconds portion of the
-Timestamp field, in two-second multiples.
+The DoubleSeconds field shall describe the seconds portion of the Timestamp field, in two-second multiples.
 
 The valid range of values for this field shall be:
 
 - 0, which represents 0 seconds
-
 - 29, which represents 58 seconds
 
 ##### 7.4.8.2 Minute Field
 
-The Minute field shall describe the minutes portion of the Timestamp
-field.
+The Minute field shall describe the minutes portion of the Timestamp field.
 
 The valid range of values for this field shall be:
 
 - 0, which represents 0 minutes
-
 - 59, which represents 59 minutes
 
 ##### 7.4.8.3 Hour Field
@@ -3611,7 +2997,6 @@ The Hour field shall describe the hours portion of the Timestamp field.
 The valid range of values for this field shall be:
 
 - 0, which represents 00:00 hours
-
 - 23, which represents 23:00 hours
 
 ##### 7.4.8.4 Day Field
@@ -3621,9 +3006,7 @@ The Day field shall describe the day portion of the Timestamp field.
 The valid range of values for this field shall be:
 
 - 1, which is the first day of the given month
-
-- The last day of the given month (the given month defines the number
-  of valid days)
+- The last day of the given month (the given month defines the number of valid days)
 
 ##### 7.4.8.5 Month Field
 
@@ -3632,35 +3015,26 @@ The Month field shall describe the month portion of the Timestamp field.
 The valid range of values for this field shall be:
 
 - At least 1, which represents January
-
 - At most 12, which represents December
 
 ##### 7.4.8.6 Year Field
 
-The Year field shall describe the year portion of the Timestamp field,
-relative to the year 1980. This field represents the year 1980 with the
-value 0 and the year 2107 with the value 127.
+The Year field shall describe the year portion of the Timestamp field, relative to the year 1980. This field represents the year 1980 with the value 0 and the year 2107 with the value 127.
 
 All possible values for this field are valid.
 
 #### 7.4.9 10msIncrement Fields
 
-10msIncrement fields shall provide additional time resolution to their
-corresponding Timestamp fields in ten-millisecond multiples.
+10msIncrement fields shall provide additional time resolution to their corresponding Timestamp fields in ten-millisecond multiples.
 
 The valid range of values for these fields shall be:
 
 - At least 0, which represents 0 milliseconds
-
 - At most 199, which represents 1990 milliseconds
 
 #### 7.4.10 UtcOffset Fields
 
-UtcOffset fields (see [Table 30](#table-30-utcoffset-field-structure)) shall describe the offset from UTC to
-the local date and time their corresponding Timestamp and 10msIncrement
-fields describe. The offset from UTC to the local date and time includes
-the effects of time zones and other date-time adjustments, such as
-daylight saving and regional summer time changes.
+UtcOffset fields (see [Table 30](#table-30-utcoffset-field-structure)) shall describe the offset from UTC to the local date and time their corresponding Timestamp and 10msIncrement fields describe. The offset from UTC to the local date and time includes the effects of time zones and other date-time adjustments, such as daylight saving and regional summer time changes.
 
 <div id="table-30-utcoffset-field-structure" />
 
@@ -3695,10 +3069,7 @@ daylight saving and regional summer time changes.
 
 ##### 7.4.10.1 OffsetFromUtc Field
 
-The OffsetFromUtc field shall describe the offset from UTC of the local
-date and time the related Timestamp and 10msIncrement fields contains.
-This field describes the offset from UTC in 15 minute intervals (see
-Table 31).
+The OffsetFromUtc field shall describe the offset from UTC of the local date and time the related Timestamp and 10msIncrement fields contains. This field describes the offset from UTC in 15 minute intervals (see Table 31).
 
 <div id="table-31-meaning-of-the-values-of-the-offsetfromutc-field" />
 
@@ -3773,47 +3144,29 @@ Table 31).
 </tbody>
 </table>
 
-As the table above indicates, all possible values for this field are
-valid. However, implementations should only record the value 00h for
-this field when:
+As the table above indicates, all possible values for this field are valid. However, implementations should only record the value 00h for this field when:
 
-1. Local date and time are actually the same as UTC, in which case the
-   value of the OffsetValid field shall be 1
+1. Local date and time are actually the same as UTC, in which case the value of the OffsetValid field shall be 1
+1. Local date and time are not known, in which case the value of the OffsetValid field shall be 1 and implementations shall consider UTC to be local date and time
+1. UTC is not known, in which case the value of the OffsetValid field shall be 0
 
-2. Local date and time are not known, in which case the value of the
-   OffsetValid field shall be 1 and implementations shall consider UTC
-   to be local date and time
-
-3. UTC is not known, in which case the value of the OffsetValid field
-   shall be 0
-
-If the local date and time offset from UTC happens to not be a multiple
-of 15 minute intervals, then implementations shall record 00h in the
-OffsetFromUtc field and shall consider UTC to be local date and time.
+If the local date and time offset from UTC happens to not be a multiple of 15 minute intervals, then implementations shall record 00h in the OffsetFromUtc field and shall consider UTC to be local date and time.
 
 ##### 7.4.10.2 OffsetValid Field
 
-The OffsetValid field shall describe whether the contents of the
-OffsetFromUtc field are valid or not, as follows:
+The OffsetValid field shall describe whether the contents of the OffsetFromUtc field are valid or not, as follows:
 
 - 0, which means the contents of the OffsetFromUtc field are invalid
-    > and shall be 00h
+
+  > and shall be 00h
 
 - 1, which means the contents of the OffsetFromUtc field are valid
 
-Implementations should only set this field to the value 0 when UTC is
-not available for computing the value of the OffsetFromUtc field. If
-this field contains the value 0, then implementations shall treat the
-Timestamp and 10msIncrement fields as having the same UTC offset as the
-current local date and time.
+Implementations should only set this field to the value 0 when UTC is not available for computing the value of the OffsetFromUtc field. If this field contains the value 0, then implementations shall treat the Timestamp and 10msIncrement fields as having the same UTC offset as the current local date and time.
 
 ### 7.5 Volume GUID Directory Entry
 
-The Volume GUID directory entry contains a GUID which enables
-implementations to uniquely and programmatically distinguish volumes.
-The Volume GUID exists as a benign primary directory entry in the root
-directory (see [Table 32](#table-32-volume-guid-directoryentry)). The valid number of Volume GUID directory
-entries ranges from 0 to 1.
+The Volume GUID directory entry contains a GUID which enables implementations to uniquely and programmatically distinguish volumes. The Volume GUID exists as a benign primary directory entry in the root directory (see [Table 32](#table-32-volume-guid-directoryentry)). The valid number of Volume GUID directory entries ranges from 0 to 1.
 
 <div id="table-32-volume-guid-directoryentry" />
 
@@ -3872,82 +3225,61 @@ entries ranges from 0 to 1.
 
 #### 7.5.1 EntryType Field
 
-The EntryType field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.1](#631-entrytype-field)).
+The EntryType field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1](#631-entrytype-field)).
 
 ##### 7.5.1.1 TypeCode Field
 
-The TypeCode field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.1.1](#6311-typecode-field)).
+The TypeCode field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1.1](#6311-typecode-field)).
 
-For the Volume GUID directory entry, the valid value for this field is
-0.
+For the Volume GUID directory entry, the valid value for this field is 0.
 
 ##### 7.5.1.2 TypeImportance Field
 
-The TypeImportance field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.1.2](#6312-typeimportance-field)).
+The TypeImportance field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1.2](#6312-typeimportance-field)).
 
-For the Volume GUID directory entry, the valid value for this field is
-1.
+For the Volume GUID directory entry, the valid value for this field is 1.
 
 ##### 7.5.1.3 TypeCategory Field
 
-The TypeCategory field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.1.3](#6313-typecategory-field)).
+The TypeCategory field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1.3](#6313-typecategory-field)).
 
 ##### 7.5.1.4 InUse Field
 
-The InUse field shall conform to the definition provided in the Generic
-Primary DirectoryEntry template (see [Section 6.3.1.4](#6314-inuse-field)).
+The InUse field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.1.4](#6314-inuse-field)).
 
 #### 7.5.2 SecondaryCount Field
 
-The SecondaryCount field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.2](#632-secondarycount-field)).
+The SecondaryCount field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.2](#632-secondarycount-field)).
 
-For the Volume GUID directory entry, the valid value for this field is
-0.
+For the Volume GUID directory entry, the valid value for this field is 0.
 
 #### 7.5.3 SetChecksum Field
 
-The SetChecksum field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.3](#633-setchecksum-field)).
+The SetChecksum field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.3](#633-setchecksum-field)).
 
 #### 7.5.4 GeneralPrimaryFlags Field
 
-The GeneralPrimaryFlags field shall conform to the definition provided
-in the Generic Primary DirectoryEntry template (see [Section 6.3.4](#634-generalprimaryflags-field)) and
-defines the contents of the CustomDefined field to be reserved.
+The GeneralPrimaryFlags field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.4](#634-generalprimaryflags-field)) and defines the contents of the CustomDefined field to be reserved.
 
 ##### 7.5.4.1 AllocationPossible Field
 
-The AllocationPossible field shall conform to the definition provided in
-the Generic Primary DirectoryEntry template (see [Section 6.3.4.1](#6341-allocationpossible-field)).
+The AllocationPossible field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.4.1](#6341-allocationpossible-field)).
 
-For the Volume GUID directory entry, the valid value for this field is
-0.
+For the Volume GUID directory entry, the valid value for this field is 0.
 
 ##### 7.5.4.2 NoFatChain Field
 
-The NoFatChain field shall conform to the definition provided in the
-Generic Primary DirectoryEntry template (see [Section 6.3.4.2](#6342-nofatchain-field)).
+The NoFatChain field shall conform to the definition provided in the Generic Primary DirectoryEntry template (see [Section 6.3.4.2](#6342-nofatchain-field)).
 
 #### 7.5.5 VolumeGuid Field
 
-The VolumeGuid field shall contain a GUID which uniquely identifies the
-given volume.
+The VolumeGuid field shall contain a GUID which uniquely identifies the given volume.
 
-All possible values for this field are valid, except the null GUID,
-which is {00000000-0000-0000-0000-000000000000}.
+All possible values for this field are valid, except the null GUID, which is {00000000-0000-0000-0000-000000000000}.
 
 ### 7.6 Stream Extension Directory Entry
 
-The Stream Extension directory entry is a critical secondary directory
-entry in File directory entry sets (see [Table 33](#table-33-stream-extension-directoryentry)). The valid number of
-Stream Extension directory entries in a File directory entry set is 1.
-Further, this directory entry is valid only if it immediately follows
-the File directory entry.
+The Stream Extension directory entry is a critical secondary directory entry in File directory entry sets (see [Table 33](#table-33-stream-extension-directoryentry)). The valid number of Stream Extension directory entries in a File directory entry set is 1. Further, this directory entry is valid only if it immediately follows the File directory entry.
 
 <div id="table-33-stream-extension-directoryentry" />
 
@@ -4030,76 +3362,56 @@ the File directory entry.
 
 #### 7.6.1 EntryType Field
 
-The EntryType field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.1](#641-entrytype-field)).
+The EntryType field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.1](#641-entrytype-field)).
 
 ##### 7.6.1.1 TypeCode Field
 
-The TypeCode field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.1.1](#6411-typecode-field)).
+The TypeCode field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.1.1](#6411-typecode-field)).
 
-For the Stream Extension directory entry, the valid value for this field
-is 0.
+For the Stream Extension directory entry, the valid value for this field is 0.
 
 ##### 7.6.1.2 TypeImportance Field
 
-The TypeImportance field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.1.2](#6412-typeimportance-field)).
+The TypeImportance field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.1.2](#6412-typeimportance-field)).
 
-For the Stream Extension directory entry, the valid value for this field
-is 0.
+For the Stream Extension directory entry, the valid value for this field is 0.
 
 ##### 7.6.1.3 TypeCategory Field
 
-The TypeCategory field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.1.3](#6413-typecategory-field)).
+The TypeCategory field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.1.3](#6413-typecategory-field)).
 
 ##### 7.6.1.4 InUse Field
 
-The InUse field shall conform to the definition provided in the Generic
-Secondary DirectoryEntry template (see [Section 6.4.1.4](#6414-inuse-field)).
+The InUse field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.1.4](#6414-inuse-field)).
 
 #### 7.6.2 GeneralSecondaryFlags Field
 
-The GeneralSecondaryFlags field shall conform to the definition provided
-in the Generic Secondary DirectoryEntry template (see [Section 6.4.2](#642-generalsecondaryflags-field)) and
-defines the contents of the CustomDefined field to be reserved.
+The GeneralSecondaryFlags field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.2](#642-generalsecondaryflags-field)) and defines the contents of the CustomDefined field to be reserved.
 
 ##### 7.6.2.1 AllocationPossible Field
 
-The AllocationPossible field shall conform to the definition provided in
-the Generic Secondary DirectoryEntry template (see [Section 6.4.2.1](#6421-allocationpossible-field)).
+The AllocationPossible field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.2.1](#6421-allocationpossible-field)).
 
-For the Stream Extension directory entry, the valid value for this field
-is 1.
+For the Stream Extension directory entry, the valid value for this field is 1.
 
 ##### 7.6.2.2 NoFatChain Field
 
-The NoFatChain field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.2.2](#6422-nofatchain-field)).
+The NoFatChain field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.2.2](#6422-nofatchain-field)).
 
 #### 7.6.3 NameLength Field
 
-The NameLength field shall contain the length of the Unicode string the
-subsequent File Name directory entries (see [Section 7.7](#77-file-name-directory-entry)) collectively
-contain.
+The NameLength field shall contain the length of the Unicode string the subsequent File Name directory entries (see [Section 7.7](#77-file-name-directory-entry)) collectively contain.
 
 The valid range of values for this field shall be:
 
 - At least 1, which is the shortest possible file name
-
 - At most 255, which is the longest possible file name
 
-The value of the NameLength field also affects the number File Name
-Directory Entries (see [Section 7.7](#77-file-name-directory-entry)).
+The value of the NameLength field also affects the number File Name Directory Entries (see [Section 7.7](#77-file-name-directory-entry)).
 
 #### 7.6.4 NameHash Field
 
-The NameHash field shall contain a 2-byte hash (see [Figure 4](#figure-4-namehash-computation)) of the
-up-cased file name. This enables implementations to perform a quick
-comparison when searching for a file by name. Importantly, the NameHash
-provides a sure verification of a mismatch. Implementations shall verify
-all NameHash matches with a comparison of the up-cased file name.
+The NameHash field shall contain a 2-byte hash (see [Figure 4](#figure-4-namehash-computation)) of the up-cased file name. This enables implementations to perform a quick comparison when searching for a file by name. Importantly, the NameHash provides a sure verification of a mismatch. Implementations shall verify all NameHash matches with a comparison of the up-cased file name.
 
 <div id="figure-4-namehash-computation" />
 
@@ -4127,55 +3439,30 @@ UInt16 NameHash
 
 #### 7.6.5 ValidDataLength Field
 
-The ValidDataLength field shall describe how far into the data stream
-user data has been written. Implementations shall update this field as
-they write data further out into the data stream. On the storage media,
-the data between the valid data length and the data length of the data
-stream is undefined. Implementations shall return zeroes for read
-operations beyond the valid data length.
+The ValidDataLength field shall describe how far into the data stream user data has been written. Implementations shall update this field as they write data further out into the data stream. On the storage media, the data between the valid data length and the data length of the data stream is undefined. Implementations shall return zeroes for read operations beyond the valid data length.
 
-If the corresponding File directory entry describes a directory, then
-the only valid value for this field is equal to the value of the
-DataLength field. Otherwise, the range of valid values for this field
-shall be:
+If the corresponding File directory entry describes a directory, then the only valid value for this field is equal to the value of the DataLength field. Otherwise, the range of valid values for this field shall be:
 
-- At least 0, which means no user data has been written out to the
-  data stream
-
-- At most DataLength, which means user data has been written out to
-  the entire length of the data stream
+- At least 0, which means no user data has been written out to the data stream
+- At most DataLength, which means user data has been written out to the entire length of the data stream
 
 #### 7.6.6 FirstCluster Field
 
-The FirstCluster field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.3](#643-firstcluster-field)).
+The FirstCluster field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.3](#643-firstcluster-field)).
 
-This field shall contain the index of the first cluster of the data
-stream, which hosts the user data.
+This field shall contain the index of the first cluster of the data stream, which hosts the user data.
 
 #### 7.6.7 DataLength Field
 
-The DataLength field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.4](#644-datalength-field)).
+The DataLength field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.4](#644-datalength-field)).
 
-If the corresponding File directory entry describes a directory, then
-the valid value for this field is the entire size of the associated
-allocation, in bytes, which may be 0. Further, for directories, the
-maximum value for this field is 256MB.
+If the corresponding File directory entry describes a directory, then the valid value for this field is the entire size of the associated allocation, in bytes, which may be 0. Further, for directories, the maximum value for this field is 256MB.
 
 ### 7.7 File Name Directory Entry
 
-File Name directory entries are critical secondary directory entries in
-File directory entry sets (see [Table 34](#table-34-file-name-directoryentry)). The valid number of File Name
-directory entries in a File directory entry set is NameLength / 15,
-rounded up to the nearest integer. Further, File Name directory entries
-are valid only if they immediately follow the Stream Extension directory
-entry as a consecutive series. File Name directory entries combine to
-form the file name for the File directory entry set.
+File Name directory entries are critical secondary directory entries in File directory entry sets (see [Table 34](#table-34-file-name-directoryentry)). The valid number of File Name directory entries in a File directory entry set is NameLength / 15, rounded up to the nearest integer. Further, File Name directory entries are valid only if they immediately follow the Stream Extension directory entry as a consecutive series. File Name directory entries combine to form the file name for the File directory entry set.
 
-All children of a given directory entry shall have unique File Name
-Directory Entry Sets. That is to say there can be no duplicate file or
-directory names after up-casing within any one directory.
+All children of a given directory entry shall have unique File Name Directory Entry Sets. That is to say there can be no duplicate file or directory names after up-casing within any one directory.
 
 <div id="table-34-file-name-directoryentry" />
 
@@ -4216,67 +3503,47 @@ directory names after up-casing within any one directory.
 
 #### 7.7.1 EntryType Field
 
-The EntryType field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.1](#641-entrytype-field)).
+The EntryType field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.1](#641-entrytype-field)).
 
 ##### 7.7.1.1 TypeCode Field
 
-The TypeCode field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.1.1](#6411-typecode-field)).
+The TypeCode field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.1.1](#6411-typecode-field)).
 
-For the File Name directory entry, the valid value for this field
-is 1.
+For the File Name directory entry, the valid value for this field is 1.
 
 ##### 7.7.1.2 TypeImportance Field
 
-The TypeImportance field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.1.2](#6412-typeimportance-field)).
+The TypeImportance field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.1.2](#6412-typeimportance-field)).
 
-For the File Name directory entry, the valid value for this field
-is 0.
+For the File Name directory entry, the valid value for this field is 0.
 
 ##### 7.7.1.3 TypeCategory Field
 
-The TypeCategory field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.1.3](#6413-typecategory-field)).
+The TypeCategory field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.1.3](#6413-typecategory-field)).
 
 ##### 7.7.1.4 InUse Field
 
-The InUse field shall conform to the definition provided in the Generic
-Secondary DirectoryEntry template (see [Section 6.4.1.4](#6414-inuse-field)).
+The InUse field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.1.4](#6414-inuse-field)).
 
 #### 7.7.2 GeneralSecondaryFlags Field
 
-The GeneralSecondaryFlags field shall conform to the definition provided
-in the Generic Secondary DirectoryEntry template (see [Section 6.4.2](#642-generalsecondaryflags-field)) and
-defines the contents of the CustomDefined field to be reserved.
+The GeneralSecondaryFlags field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.2](#642-generalsecondaryflags-field)) and defines the contents of the CustomDefined field to be reserved.
 
 ##### 7.7.2.1 AllocationPossible Field
 
-The AllocationPossible field shall conform to the definition provided in
-the Generic Secondary DirectoryEntry template (see [Section 6.4.2.1](#6421-allocationpossible-field)).
+The AllocationPossible field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.2.1](#6421-allocationpossible-field)).
 
-For the File Name directory entry, the valid value for this field
-is 0.
+For the File Name directory entry, the valid value for this field is 0.
 
 ##### 7.7.2.2 NoFatChain Field
 
-The NoFatChain field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.2.2](#6422-nofatchain-field)).
+The NoFatChain field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.2.2](#6422-nofatchain-field)).
 
 #### 7.7.3 FileName Field
 
-The FileName field shall contain a Unicode string, which is a portion of
-the file name. In the order File Name directory entries exist in a File
-directory entry set, FileName fields concatenate to form the file name
-for the File directory entry set. Given the length of the FileName
-field, 15 characters, and the maximum number of File Name directory
-entries, 17, the maximum length of the final, concatenated file name is
-255.
+The FileName field shall contain a Unicode string, which is a portion of the file name. In the order File Name directory entries exist in a File directory entry set, FileName fields concatenate to form the file name for the File directory entry set. Given the length of the FileName field, 15 characters, and the maximum number of File Name directory entries, 17, the maximum length of the final, concatenated file name is 255.
 
-The concatenated file name has the same set of illegal characters as
-other FAT-based file systems (see [Table 35](#table-35-invalid-filename-characters)). Implementations should set
-the unused characters of FileName fields to the value 0000h.
+The concatenated file name has the same set of illegal characters as other FAT-based file systems (see [Table 35](#table-35-invalid-filename-characters)). Implementations should set the unused characters of FileName fields to the value 0000h.
 
 <div id="table-35-invalid-filename-characters" />
 
@@ -4299,40 +3566,17 @@ the unused characters of FileName fields to the value 0000h.
 | 003Ch              | Less-than sign  | 003Eh              | Greater-than sign | 003Fh              | Question mark   |
 | 005Ch              | Back slash      | 007Ch              | Vertical bar      |                    |                 |
 
-The file names "." and ".." have the special meaning of "this directory"
-and "containing directory", respectively. Implementations shall not
-record either of these reserved file names in the FileName field.
-However, implementations may generate these two file names in directory
-listings to refer to the directory being listed and the containing
-directory.
+The file names "." and ".." have the special meaning of "this directory" and "containing directory", respectively. Implementations shall not record either of these reserved file names in the FileName field. However, implementations may generate these two file names in directory listings to refer to the directory being listed and the containing directory.
 
-Implementations may wish to restrict file and directory names to just
-the ASCII character set. If so they should limit their character use to
-the range of valid characters in the first 128 Unicode entries. They
-must still store file and directory names in Unicode on the volume and
-translate to/from ASCII/Unicode when interfacing with the user.
+Implementations may wish to restrict file and directory names to just the ASCII character set. If so they should limit their character use to the range of valid characters in the first 128 Unicode entries. They must still store file and directory names in Unicode on the volume and translate to/from ASCII/Unicode when interfacing with the user.
 
 ### 7.8 Vendor Extension Directory Entry
 
-The Vendor Extension directory entry is a benign secondary directory
-entry in File directory entry sets (see [Table 36](#table-36-vendor-extension-directoryentry)). A File directory
-entry set may contain any number of Vendor Extension directory entries,
-up to the limit of secondary directory entries, less the number of other
-secondary directory entries. Further, Vendor Extension directory entries
-are valid only if they do not precede the required Stream Extension and
-File Name directory entries.
+The Vendor Extension directory entry is a benign secondary directory entry in File directory entry sets (see [Table 36](#table-36-vendor-extension-directoryentry)). A File directory entry set may contain any number of Vendor Extension directory entries, up to the limit of secondary directory entries, less the number of other secondary directory entries. Further, Vendor Extension directory entries are valid only if they do not precede the required Stream Extension and File Name directory entries.
 
-Vendor Extension directory entries enable vendors to have unique,
-vendor-specific directory entries in individual File directory entry
-sets via the VendorGuid field (see [Table 36](#table-36-vendor-extension-directoryentry)). Unique directory entries
-effectively enable vendors to extend the exFAT file system. Vendors may
-define the contents of the VendorDefined field (see [Table 36](#table-36-vendor-extension-directoryentry)). Vendor
-implementations may maintain the contents of the VendorDefined field and
-may provide vendor-specific functionality.
+Vendor Extension directory entries enable vendors to have unique, vendor-specific directory entries in individual File directory entry sets via the VendorGuid field (see [Table 36](#table-36-vendor-extension-directoryentry)). Unique directory entries effectively enable vendors to extend the exFAT file system. Vendors may define the contents of the VendorDefined field (see [Table 36](#table-36-vendor-extension-directoryentry)). Vendor implementations may maintain the contents of the VendorDefined field and may provide vendor-specific functionality.
 
-Implementations which do not recognize the GUID of a Vendor Extension
-directory entry shall treat the directory entry the same as any other
-unrecognized benign secondary directory entry (see [Section 8.2](#82-implications-of-unrecognized-directory-entries)).
+Implementations which do not recognize the GUID of a Vendor Extension directory entry shall treat the directory entry the same as any other unrecognized benign secondary directory entry (see [Section 8.2](#82-implications-of-unrecognized-directory-entries)).
 
 <div id="table-36-vendor-extension-directoryentry" />
 
@@ -4379,88 +3623,57 @@ unrecognized benign secondary directory entry (see [Section 8.2](#82-implication
 
 #### 7.8.1 EntryType Field
 
-The EntryType field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.1](#641-entrytype-field)).
+The EntryType field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.1](#641-entrytype-field)).
 
 ##### 7.8.1.1 TypeCode Field
 
-The TypeCode field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.1.1](#6411-typecode-field)).
+The TypeCode field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.1.1](#6411-typecode-field)).
 
-For the Vendor Extension directory entry, the valid value for this field
-is 0.
+For the Vendor Extension directory entry, the valid value for this field is 0.
 
 ##### 7.8.1.2 TypeImportance Field
 
-The TypeImportance field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.1.2](#6412-typeimportance-field)).
+The TypeImportance field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.1.2](#6412-typeimportance-field)).
 
-For the Vendor Extension directory entry, the valid value for this field
-is 1.
+For the Vendor Extension directory entry, the valid value for this field is 1.
 
 ##### 7.8.1.3 TypeCategory Field
 
-The TypeCategory field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.1.3](#6413-typecategory-field)).
+The TypeCategory field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.1.3](#6413-typecategory-field)).
 
 ##### 7.8.1.4 InUse Field
 
-The InUse field shall conform to the definition provided in the Generic
-Secondary DirectoryEntry template (see [Section 6.4.1.4](#6414-inuse-field)).
+The InUse field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.1.4](#6414-inuse-field)).
 
 #### 7.8.2 GeneralSecondaryFlags Field
 
-The GeneralSecondaryFlags field shall conform to the definition provided
-in the Generic Secondary DirectoryEntry template (see [Section 6.4.2](#642-generalsecondaryflags-field)) and
-defines the contents of the CustomDefined field to be reserved.
+The GeneralSecondaryFlags field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.2](#642-generalsecondaryflags-field)) and defines the contents of the CustomDefined field to be reserved.
 
 ##### 7.8.2.1 AllocationPossible Field
 
-The AllocationPossible field shall conform to the definition provided in
-the Generic Secondary DirectoryEntry template (see [Section 6.4.2.1](#6421-allocationpossible-field)).
+The AllocationPossible field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.2.1](#6421-allocationpossible-field)).
 
-For the Vendor Extension directory entry, the valid value for this field
-is 0.
+For the Vendor Extension directory entry, the valid value for this field is 0.
 
 ##### 7.8.2.2 NoFatChain Field
 
-The NoFatChain field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.2.2](#6422-nofatchain-field)).
+The NoFatChain field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.2.2](#6422-nofatchain-field)).
 
 #### 7.8.3 VendorGuid Field
 
-The VendorGuid field shall contain a GUID which uniquely identifies the
-given Vendor Extension.
+The VendorGuid field shall contain a GUID which uniquely identifies the given Vendor Extension.
 
-All possible values for this field are valid, except the null GUID,
-which is {00000000-0000-0000-0000-000000000000}. However, vendors should
-use a GUID-generating tool, such as GuidGen.exe, to select a GUID when
-defining their extensions.
+All possible values for this field are valid, except the null GUID, which is {00000000-0000-0000-0000-000000000000}. However, vendors should use a GUID-generating tool, such as GuidGen.exe, to select a GUID when defining their extensions.
 
-The value of this field determines the vendor-specific structure of the
-VendorDefined field.
+The value of this field determines the vendor-specific structure of the VendorDefined field.
 
 ### 7.9 Vendor Allocation Directory Entry
 
-The Vendor Allocation directory entry is a benign secondary directory
-entry in File directory entry sets (see [Table 37](#table-37-vendor-allocation-directoryentry)). A File directory
-entry set may contain any number of Vendor Allocation directory entries,
-up to the limit of secondary directory entries, less the number of other
-secondary directory entries. Further, Vendor Allocation directory
-entries are valid only if they do not precede the required Stream
-Extension and File Name directory entries.
+The Vendor Allocation directory entry is a benign secondary directory entry in File directory entry sets (see [Table 37](#table-37-vendor-allocation-directoryentry)). A File directory entry set may contain any number of Vendor Allocation directory entries, up to the limit of secondary directory entries, less the number of other secondary directory entries. Further, Vendor Allocation directory entries are valid only if they do not precede the required Stream Extension and File Name directory entries.
 
-Vendor Allocation directory entries enable vendors to have unique,
-vendor-specific directory entries in individual File directory entry
-sets via the VendorGuid field (see [Table 37](#table-37-vendor-allocation-directoryentry)). Unique directory entries
-effectively enable vendors to extend the exFAT file system. Vendors may
-define the contents of the associated clusters, if any exist. Vendor
-implementations may maintain the contents of the associated clusters, if
-any, and may provide vendor-specific functionality.
+Vendor Allocation directory entries enable vendors to have unique, vendor-specific directory entries in individual File directory entry sets via the VendorGuid field (see [Table 37](#table-37-vendor-allocation-directoryentry)). Unique directory entries effectively enable vendors to extend the exFAT file system. Vendors may define the contents of the associated clusters, if any exist. Vendor implementations may maintain the contents of the associated clusters, if any, and may provide vendor-specific functionality.
 
-Implementations which do not recognize the GUID of a Vendor Allocation
-directory entry shall treat the directory entry the same as any other
-unrecognized benign secondary directory entry (see [Section 8.2](#82-implications-of-unrecognized-directory-entries)).
+Implementations which do not recognize the GUID of a Vendor Allocation directory entry shall treat the directory entry the same as any other unrecognized benign secondary directory entry (see [Section 8.2](#82-implications-of-unrecognized-directory-entries)).
 
 <div id="table-37-vendor-allocation-directoryentry" />
 
@@ -4519,244 +3732,132 @@ unrecognized benign secondary directory entry (see [Section 8.2](#82-implication
 
 #### 7.9.1 EntryType Field
 
-The EntryType field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.1](#641-entrytype-field)).
+The EntryType field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.1](#641-entrytype-field)).
 
 ##### 7.9.1.1 TypeCode Field
 
-The TypeCode field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.1.1](#6411-typecode-field)).
+The TypeCode field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.1.1](#6411-typecode-field)).
 
-For the Vendor Allocation directory entry, the valid value for this
-field is 1.
+For the Vendor Allocation directory entry, the valid value for this field is 1.
 
 ##### 7.9.1.2 TypeImportance Field
 
-The TypeImportance field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.1.2](#6412-typeimportance-field)).
+The TypeImportance field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.1.2](#6412-typeimportance-field)).
 
-For the Vendor Allocation directory entry, the valid value for this
-field is 1.
+For the Vendor Allocation directory entry, the valid value for this field is 1.
 
 ##### 7.9.1.3 TypeCategory Field
 
-The TypeCategory field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.1.3](#6413-typecategory-field)).
+The TypeCategory field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.1.3](#6413-typecategory-field)).
 
 ##### 7.9.1.4 InUse Field
 
-The InUse field shall conform to the definition provided in the Generic
-Secondary DirectoryEntry template (see [Section 6.4.1.4](#6414-inuse-field)).
+The InUse field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.1.4](#6414-inuse-field)).
 
 #### 7.9.2 GeneralSecondaryFlags Field
 
-The GeneralSecondaryFlags field shall conform to the definition provided
-in the Generic Secondary DirectoryEntry template (see [Section 6.4.2](#642-generalsecondaryflags-field)) and
-defines the contents of the CustomDefined field to be reserved.
+The GeneralSecondaryFlags field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.2](#642-generalsecondaryflags-field)) and defines the contents of the CustomDefined field to be reserved.
 
 ##### 7.9.2.1 AllocationPossible Field
 
-The AllocationPossible field shall conform to the definition provided in
-the Generic Secondary DirectoryEntry template (see [Section 6.4.2.1](#6421-allocationpossible-field)).
+The AllocationPossible field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.2.1](#6421-allocationpossible-field)).
 
-For the Vendor Allocation directory entry, the valid value for this
-field is 1.
+For the Vendor Allocation directory entry, the valid value for this field is 1.
 
 ##### 7.9.2.2 NoFatChain Field
 
-The NoFatChain field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.2.2](#6422-nofatchain-field)).
+The NoFatChain field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.2.2](#6422-nofatchain-field)).
 
 #### 7.9.3 VendorGuid Field
 
-The VendorGuid field shall contain a GUID which uniquely identifies the
-given Vendor Allocation.
+The VendorGuid field shall contain a GUID which uniquely identifies the given Vendor Allocation.
 
-All possible values for this field are valid, except the null GUID,
-which is {00000000-0000-0000-0000-000000000000}. However, vendors should
-use a GUID-generating tool, such as GuidGen.exe, to select a GUID when
-defining their extensions.
+All possible values for this field are valid, except the null GUID, which is {00000000-0000-0000-0000-000000000000}. However, vendors should use a GUID-generating tool, such as GuidGen.exe, to select a GUID when defining their extensions.
 
-The value of this field determines the vendor-specific structure of the
-contents of the associated clusters, if any exist.
+The value of this field determines the vendor-specific structure of the contents of the associated clusters, if any exist.
 
 #### 7.9.4 FirstCluster Field
 
-The FirstCluster field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.3](#643-firstcluster-field)).
+The FirstCluster field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.3](#643-firstcluster-field)).
 
 #### 7.9.5 DataLength Field
 
-The DataLength field shall conform to the definition provided in the
-Generic Secondary DirectoryEntry template (see [Section 6.4.4](#644-datalength-field)).
+The DataLength field shall conform to the definition provided in the Generic Secondary DirectoryEntry template (see [Section 6.4.4](#644-datalength-field)).
 
 ### 7.10 TexFAT Padding Directory Entry
 
-This specification, exFAT Revision 1.00 File System Basic Specification,
-does not define the TexFAT Padding directory entry. However, its type
-code is 1 and its type importance is 1. Implementations of this
-specification shall treat TexFAT Padding directory entries the same as
-any other unrecognized benign primary directory entries, implementations
-shall not move TexFAT Padding directory entries.
+This specification, exFAT Revision 1.00 File System Basic Specification, does not define the TexFAT Padding directory entry. However, its type code is 1 and its type importance is 1. Implementations of this specification shall treat TexFAT Padding directory entries the same as any other unrecognized benign primary directory entries, implementations shall not move TexFAT Padding directory entries.
 
 ## 8 Implementation Notes
 
 ### 8.1 Recommended Write Ordering
 
-Implementations should ensure the volume is as resilient as possible to
-power faults and other unavoidable failures. When creating new directory
-entries or modifying cluster allocations, implementations should
-generally follow this writing order:
+Implementations should ensure the volume is as resilient as possible to power faults and other unavoidable failures. When creating new directory entries or modifying cluster allocations, implementations should generally follow this writing order:
 
 1. Set the value of the VolumeDirty field to 1
+1. Update the active FAT, if necessary
+1. Update the active Allocation Bitmap
+1. Create or update the directory entry, if necessary
+1. Clear the value of the VolumeDirty field to 0, if its value prior to the first step was 0
 
-2. Update the active FAT, if necessary
-
-3. Update the active Allocation Bitmap
-
-4. Create or update the directory entry, if necessary
-
-5. Clear the value of the VolumeDirty field to 0, if its value prior to
-   the first step was 0
-
-When deleting directory entries or freeing cluster allocations,
-implementations should follow this writing order:
+When deleting directory entries or freeing cluster allocations, implementations should follow this writing order:
 
 1. Set the value of the VolumeDirty field to 1
-
-2. Delete or update the directory entry, if necessary
-
-3. Update the active FAT, if necessary
-
-4. Update the active Allocation Bitmap
-
-5. Clear the value of the VolumeDirty field to 0, if its value prior to
-   the first step was 0
+1. Delete or update the directory entry, if necessary
+1. Update the active FAT, if necessary
+1. Update the active Allocation Bitmap
+1. Clear the value of the VolumeDirty field to 0, if its value prior to the first step was 0
 
 ### 8.2 Implications of Unrecognized Directory Entries
 
-Future exFAT specifications of the same major revision number, 1, and
-minor revision number higher than 0, may define new benign primary,
-critical secondary, and benign secondary directory entries. Only exFAT
-specifications of a higher major revision number may define new critical
-primary directory entries. Implementations of this specification, exFAT
-Revision 1.00 File System Basic Specification, should be able to mount
-and access any exFAT volume of major revision number 1 and any minor
-revision number. This presents scenarios in which an implementation may
-encounter directory entries which it does not recognize. The following
-describe implications of these scenarios:
+Future exFAT specifications of the same major revision number, 1, and minor revision number higher than 0, may define new benign primary, critical secondary, and benign secondary directory entries. Only exFAT specifications of a higher major revision number may define new critical primary directory entries. Implementations of this specification, exFAT Revision 1.00 File System Basic Specification, should be able to mount and access any exFAT volume of major revision number 1 and any minor revision number. This presents scenarios in which an implementation may encounter directory entries which it does not recognize. The following describe implications of these scenarios:
 
-1. The presence of unrecognized critical primary directory entries in
-   the root directory renders the volume invalid. The presence of any
-   critical primary directory entry, except File directory entries, in
-   any non-root directory, renders the hosting directory invalid.
-
-2. Implementations shall not modify unrecognized benign primary
-   directory entries or their associated cluster allocations. However,
-   when deleting a directory, and only when deleting a directory,
-   implementations shall delete unrecognized benign primary directory
-   entries and free all associated cluster allocations, if any.
-
-3. Implementations shall not modify unrecognized critical secondary
-   directory entries or their associated cluster allocations. The
-   presence of one or more unrecognized critical secondary directory
-   entries in a directory entry set renders the entire directory entry
-   set unrecognized. When deleting a directory entry set which contains
-   one or more unrecognized critical secondary directory entries,
-   implementations shall free all cluster allocations, if any,
-   associated with unrecognized critical secondary directory entries.
-   Further, if the directory entry set describes a directory,
-   implementations may:
-
+1. The presence of unrecognized critical primary directory entries in the root directory renders the volume invalid. The presence of any critical primary directory entry, except File directory entries, in any non-root directory, renders the hosting directory invalid.
+1. Implementations shall not modify unrecognized benign primary directory entries or their associated cluster allocations. However, when deleting a directory, and only when deleting a directory, implementations shall delete unrecognized benign primary directory entries and free all associated cluster allocations, if any.
+1. Implementations shall not modify unrecognized critical secondary directory entries or their associated cluster allocations. The presence of one or more unrecognized critical secondary directory entries in a directory entry set renders the entire directory entry set unrecognized. When deleting a directory entry set which contains one or more unrecognized critical secondary directory entries, implementations shall free all cluster allocations, if any, associated with unrecognized critical secondary directory entries. Further, if the directory entry set describes a directory, implementations may:
    - Traverse into the directory
-
    - Enumerate the directory entries it contains
-
    - Delete contained directory entries
-
    - Move contained directory entries to a different directory
 
    However, implementations shall not:
 
    - Modify contained directory entries, except delete, as noted
-
    - Create new contained directory entries
-
-   - Open contained directory entries, except traverse and enumerate, as
-     noted
-
-4. Implementations shall not modify unrecognized benign secondary
-   directory entries or their associated cluster allocations.
-   Implementations should ignore unrecognized benign secondary
-   directory entries. When deleting a directory entry set,
-   implementations shall free all cluster allocations, if any,
-   associated with unrecognized benign secondary directory entries.
+   - Open contained directory entries, except traverse and enumerate, as noted
+1. Implementations shall not modify unrecognized benign secondary directory entries or their associated cluster allocations. Implementations should ignore unrecognized benign secondary directory entries. When deleting a directory entry set, implementations shall free all cluster allocations, if any, associated with unrecognized benign secondary directory entries.
 
 ## 9 File System Limits
 
 ### 9.1 Sector Size Limits
 
-The BytesPerSectorShift field defines the lower and upper sector size
-limits (which evaluates to **lower limit: 512 bytes; upper limit: 4,096
-bytes**).
+The BytesPerSectorShift field defines the lower and upper sector size limits (which evaluates to **lower limit: 512 bytes; upper limit: 4,096 bytes**).
 
 ### 9.2 Cluster Size Limits
 
-The SectorsPerClusterShift field defines the lower and upper cluster
-size limits (**lower limit: 1 sector; upper limit: 25 --
-BytesPerSectorShift sectors**, which evaluates to 32MB).
+The SectorsPerClusterShift field defines the lower and upper cluster size limits (**lower limit: 1 sector; upper limit: 25 -- BytesPerSectorShift sectors**, which evaluates to 32MB).
 
 ### 9.3 Cluster Heap Size Limits
 
-The Cluster Heap shall contain at least enough space to host the
-following basic file system structures: the root directory, all
-Allocation Bitmaps, and the Up-case Table.
+The Cluster Heap shall contain at least enough space to host the following basic file system structures: the root directory, all Allocation Bitmaps, and the Up-case Table.
 
-The lower Cluster Heap size limit is a function of the lower size limit
-of each of the basic file system structures which reside in the Cluster
-Heap. Even given the smallest possible cluster (512 bytes), each of the
-basic file system structures needs no more than one cluster. Therefore,
-the **lower limit is: 2 + NumberOfFats clusters**, which evaluates to
-either 3 or 4 clusters, depending on the value the NumberOfFats field.
+The lower Cluster Heap size limit is a function of the lower size limit of each of the basic file system structures which reside in the Cluster Heap. Even given the smallest possible cluster (512 bytes), each of the basic file system structures needs no more than one cluster. Therefore, the **lower limit is: 2 + NumberOfFats clusters**, which evaluates to either 3 or 4 clusters, depending on the value the NumberOfFats field.
 
-The upper Cluster Heap size limit is a simple function of the maximum
-possible number of clusters, which the ClusterCount field defines
-(**upper limit: 2<sup>32</sup>- 11 clusters**). Regardless of the cluster size,
-such a cluster heap has enough space to at least host the basic file
-system structures.
+The upper Cluster Heap size limit is a simple function of the maximum possible number of clusters, which the ClusterCount field defines (**upper limit: 2<sup>32</sup>- 11 clusters**). Regardless of the cluster size, such a cluster heap has enough space to at least host the basic file system structures.
 
 ### 9.4 Volume Size Limits
 
-The VolumeLength field defines the lower and upper volume size limits
-(lower limit: **2<sup>20</sup>/ 2<sup>BytesPerSectorShift</sup>sectors**, which
-evaluates to 1MB; **upper limit: 2<sup>64</sup>- 1 sectors**, which, given the
-largest possible sector size, evaluates to approximately 64ZB). However,
-this specification recommends no more than 2<sup>24</sup>- 2 clusters in the
-Cluster Heap (see [Section 3.1.9](#319-clustercount-field)). Therefore, the recommended upper limit
-of a volume is: ClusterHeapOffset + (2<sup>24</sup>- 2) \*
-2<sup>SectorsPerClusterShift</sup>. Given the largest possible cluster size,
-32MB, and assuming ClusterHeapOffset is 96MB (enough space for the Main
-and Backup Boot regions and only the First FAT), the recommended upper
-limit of a volume evaluates to approximately 512TB.
+The VolumeLength field defines the lower and upper volume size limits (lower limit: **2<sup>20</sup>/ 2<sup>BytesPerSectorShift</sup>sectors**, which evaluates to 1MB; **upper limit: 2<sup>64</sup>- 1 sectors**, which, given the largest possible sector size, evaluates to approximately 64ZB). However, this specification recommends no more than 2<sup>24</sup>- 2 clusters in the Cluster Heap (see [Section 3.1.9](#319-clustercount-field)). Therefore, the recommended upper limit of a volume is: ClusterHeapOffset + (2<sup>24</sup>- 2) \*2<sup>SectorsPerClusterShift</sup>. Given the largest possible cluster size, 32MB, and assuming ClusterHeapOffset is 96MB (enough space for the Main and Backup Boot regions and only the First FAT), the recommended upper limit of a volume evaluates to approximately 512TB.
 
 ### 9.5 Directory Size Limits
 
-The DataLength field of the Stream Extension directory entry defines the
-lower and upper directory size limits (**lower limit: 0 bytes; upper
-limit: 256MB**). This means a directory may host up to 8,388,608
-directory entries (each directory entry consumes 32 bytes). Given the
-smallest possible File directory entry set, three directory entries, a
-directory may host up to 2,796,202 files.
+The DataLength field of the Stream Extension directory entry defines the lower and upper directory size limits (**lower limit: 0 bytes; upper limit: 256MB**). This means a directory may host up to 8,388,608 directory entries (each directory entry consumes 32 bytes). Given the smallest possible File directory entry set, three directory entries, a directory may host up to 2,796,202 files.
 
 ## 10 Appendix
 
 ### 10.1 Globally Unique Identifiers (GUIDs)
 
-A GUID is the Microsoft implementation of a universally unique
-identifier. A GUID is a 128-bit value consisting of one group of 8
-hexadecimal digits, followed by three groups of 4 hexadecimal digits
-each, and followed by one group of 12 hexadecimal digits, for example
-{6B29FC40-CA47-1067-B31D-00DD010662DA}, (see [Table 38](#table-38-guid-structure)).
+A GUID is the Microsoft implementation of a universally unique identifier. A GUID is a 128-bit value consisting of one group of 8 hexadecimal digits, followed by three groups of 4 hexadecimal digits each, and followed by one group of 12 hexadecimal digits, for example {6B29FC40-CA47-1067-B31D-00DD010662DA}, (see [Table 38](#table-38-guid-structure)).
 
 <div id="table-38-guid-structure" />
 
@@ -4845,15 +3946,11 @@ each, and followed by one group of 12 hexadecimal digits, for example
 
 ### 10.2 Partition Tables
 
-To ensure interoperability of exFAT volumes in a broad set of usage
-scenarios, implementations should use partition type 07h for MBR
-partitioned storage and partition GUID
-{EBD0A0A2-B9E5-4433-87C0-68B6B72699C7} for GPT partitioned storage.
+To ensure interoperability of exFAT volumes in a broad set of usage scenarios, implementations should use partition type 07h for MBR partitioned storage and partition GUID {EBD0A0A2-B9E5-4433-87C0-68B6B72699C7} for GPT partitioned storage.
 
 ## 11 Documentation Change History
 
-Table 39 describes the history of releases of, corrections to, additions
-to, removals from, and clarifications of this document.
+Table 39 describes the history of releases of, corrections to, additions to, removals from, and clarifications of this document.
 
 <div id="table-39-documentation-change-history" />
 
