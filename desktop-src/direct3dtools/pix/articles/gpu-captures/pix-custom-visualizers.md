@@ -19,19 +19,19 @@ By using the *Extensibility Paths* setting, you can specify any number of folder
 
 If your visualizer shaders `#include` any file that's not sitting next to the main HLSL visualizer files, then you can use the *Extensibility Include Search Paths* setting to add search paths for those files.
 
-![Where to modify the extensions paths in PIX](images/custom-visualizers-paths.png)
+![Where to modify the extensions paths in PIX](../../images/custom-visualizers-paths.png)
 
 ## Custom texture visualizer 
 
 Assuming that you've configured paths to your visualizer shaders in the settings, you can now see your visualizers listed in the **Visualization** panel.
 
-![Example of some visualizers in the dropdown menu](images/custom-visualizers-dropdown.png)
+![Example of some visualizers in the dropdown menu](../../images/custom-visualizers-dropdown.png)
 
 ### Visualization panel 
 
 Once you've selected a custom visualizer from the list in the **Visualization** panel, the *Custom Visualization* section appears. From there, you can select to override the default texture format for your visualizer output. By default, the selected output format will be compatible with the pipeline view's currently selected texture. That's also where any shader compilation warnings/errors will be displayed.
 
-![Example of a custom extension compiler error](images/custom-visualizers-compiler-error.png)
+![Example of a custom extension compiler error](../../images/custom-visualizers-compiler-error.png)
 
 ### Creating a custom texture visualizer 
 
@@ -80,7 +80,7 @@ In the example above, we declare `SelectedTexture` to point to the pipeline view
 
 To get more information on the API, refer to the HLSL API section.
 
-![Example output from the texture visualizer above](images/custom-visualizers-compiler-texture-example.png)
+![Example output from the texture visualizer above](../../images/custom-visualizers-compiler-texture-example.png)
 
 ## Custom buffer visualizer 
 
@@ -90,7 +90,7 @@ Assuming you've set up paths to your visualizer shaders in the settings, you can
 
 From that panel, you can select any available custom visualizer, and see any warning/error messages from the shader compiler. 
 
-![Example error from a buffer visualizer](images/custom-visualizers-buffer-error.png)
+![Example error from a buffer visualizer](../../images/custom-visualizers-buffer-error.png)
 
 ### Creating a custom buffer visualizer 
 
@@ -141,7 +141,7 @@ In the example above, we access vertices declaring `Vertices` to point to the pi
 
 To get more information on the API, refer to the HLSL API section.
 
-![Example output from the buffer visualizer above](images/custom-visualizers-buffer-example.png)
+![Example output from the buffer visualizer above](../../images/custom-visualizers-buffer-example.png)
 
 ### Visualize a buffer as a texture
 
@@ -163,7 +163,7 @@ PixExt_Declare_UserConstants_End
 ```
 You are allowed to have a single user constant block (`PixExt_Declare_UserConstants_Start` / `PixExt_Declare_UserConstants_End` pair) in your visualizer. You can add any number of constants of 3 different types, namely `int`, `uint`, `float`. For each one declared, a new entry will appear in the visualization panel to enter the desired value. `0` is the default for all constants. 
 
-![User constants example](images/custom-visualizers-user-constants.png)
+![User constants example](../../images/custom-visualizers-user-constants.png)
 
 ## PIX HLSL API 
 
