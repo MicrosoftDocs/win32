@@ -386,6 +386,36 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "desktop-src/direct3dtools/pix/pix-configuring.md",
+      "redirect_url": "desktop-src/direct3dtools/pix/articles/general/pix-configuring.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/direct3dtools/pix/pix-custom-visualizers.md",
+      "redirect_url": "desktop-src/direct3dtools/pix/articles/gpu-captures/pix-custom-visualizers.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/direct3dtools/pix/pix-gpu-captures.md",
+      "redirect_url": "desktop-src/direct3dtools/pix/articles/gpu-captures/pix-gpu-captures.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/direct3dtools/pix/pix-instrumenting.md",
+      "redirect_url": "desktop-src/direct3dtools/pix/articles/general/pix-instrumenting.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/direct3dtools/pix/pix-overview.md",
+      "redirect_url": "desktop-src/direct3dtools/pix/articles/general/pix-overview.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/direct3dtools/pix/pix-timing-captures.md",
+      "redirect_url": "desktop-src/direct3dtools/pix/articles/timing-captures/pix-timing-captures.md",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "desktop-src/win32-and-com-development.md",
       "redirect_url": "/windows/win32/index",
       "redirect_document_id": false

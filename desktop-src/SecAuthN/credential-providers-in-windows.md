@@ -3,10 +3,11 @@ description: Credential providers are the primary mechanism for user authenticat
 ms.assetid: BCF69196-D4E4-41D0-B372-5000FD50164B
 title: Credential Providers in Windows
 ms.topic: concept-article
-ms.date: 01/31/2024
+ms.date: 07/09/2025
+# customer intent: As a Windows developer, I want to learn about credential providers in Windows so that I can understand how they work and how to create custom credential providers for user authentication.
 ---
 
-# Credential Providers in Windows
+# Credential providers in Windows
 
 Credential providers are the primary mechanism for user authentication. They currently are the only method for users to prove their identity which is required for logon and other system authentication scenarios. Since Windows 10 and the introduction of Microsoft Passport, credential providers have been more important than ever. They are used for authentication into apps, websites, and more.
 
@@ -57,7 +58,7 @@ Wrapping a system credential provider can be done to add functionality to that c
 
 If functionality in a credential provider is needed that isn't included natively, the recommended path is creating a custom credential provider. This is a more stable approach that doesn't have dependencies on the system providers.
 
-## See also
+## Related content
 
 - [Credential Provider driven Windows Logon Experience](https://go.microsoft.com/fwlink/?LinkId=717287)
 - [ICredentialProvider](/windows/win32/api/credentialprovider/nn-credentialprovider-icredentialprovider)

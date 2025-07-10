@@ -7,7 +7,7 @@ ms.date: 07/09/2024
 
 # Profile the CPU and GPU with timing captures
 
-Timing captures combine both CPU and GPU profiling data into a single capture for in-depth analysis of your application. That data is gathered while the game is running, and with minimal overhead, so that you can see things such as how work is distributed across CPU cores, the latency between graphics work being submitted by the CPU and executed by the GPU, when file IO accesses and memory allocations occur, and so on. That also includes [application-defined events, markers, and counters via PixEvents](pix-instrumenting.md).
+Timing captures combine both CPU and GPU profiling data into a single capture for in-depth analysis of your application. That data is gathered while the game is running, and with minimal overhead, so that you can see things such as how work is distributed across CPU cores, the latency between graphics work being submitted by the CPU and executed by the GPU, when file IO accesses and memory allocations occur, and so on. That also includes [application-defined events, markers, and counters via PixEvents](../general/pix-instrumenting.md).
 
 ## Taking a timing capture
 
@@ -55,16 +55,16 @@ Is your app experiencing intermittent frame drops? Excessive VRAM usage? Unexpec
 ### GPU timings
 
 Enable the **GPU timings** option when taking a capture to collect timing data for GPU work. In the **Timeline** view, you can find lanes for each GPU queue (in the **Lane Selector**, you can quickly pin those lanes with the **API Queues pinned** configuration). Those lanes contain several sublanes:
-- PIX Events (GPU): Hierarchical, application-defined regions of GPU Work. See [PixEvents](pix-instrumenting.md).
+- PIX Events (GPU): Hierarchical, application-defined regions of GPU Work. See [PixEvents](../general/pix-instrumenting.md).
 - GPU Executions: Executions correspond to work submissions at the API level; for example, via ExecuteCommandLists.
 - GPU Work: Any work that occurs on the GPU; for example, Draws, Dispatches, Copies.
-- PIX Markers (GPU): Application-defined markers. See [PixEvents](pix-instrumenting.md).
+- PIX Markers (GPU): Application-defined markers. See [PixEvents](../general/pix-instrumenting.md).
 
 When you select an event in the lane, you'll see arrows showing where on the CPU that event originated. There are also various visualization options in the lane options menu (the gear icon next to the lane name). Most notably, the **Flatten Events** and **Flatten GPU Work** options are enabled by default to preserve space, but you might want to see the full PIX Event hierarchy or GPU Work parallelization when diving into a specific frame.
 
 That data is also available in tabular form via **Range Details** view by selecting the relevant category in the **Items to Show** drop-down.
 
-![Viewing unflattened PIX GPU events and GPU work in API Queue lane, with an arrow showing which CPU thread submitted the GPU work](images/timing-gpu.png)
+![Viewing unflattened PIX GPU events and GPU work in API Queue lane, with an arrow showing which CPU thread submitted the GPU work](../../images/timing-gpu.png)
 
 #### Presentation and display info
 
@@ -74,22 +74,22 @@ Vsyncs are displayed as markers in a separate **Monitor** lane, and can be found
 
 Enable the **GPU resources** option when taking a capture to collect information about Direct3D objects. To graph overall memory usage, you can find several counters in **Metrics** view. You can configure various budget lines to get a quick idea of whether you're meeting your memory usage goals. When you find an area of interest, you might want to investigate further by selecting the time range, clicking **Zoom Timeline view to Select Range** in the right-click context menu, and setting the **Selected Time Range** drop-down to **Select Visible Range**.
 
-![Viewing D3D API Object Memory Usage in Metrics view](images/timing-d3dresources-metrics-markedup.png)
+![Viewing D3D API Object Memory Usage in Metrics view](../../images/timing-d3dresources-metrics-markedup.png)
 
 > [!TIP]
 > Setting the **Line Style** to *Square* makes it easier to see where the allocations are made.
 
 In **Range Details** view, you can view various information about Direct3D API objects such as heaps, resources, and pipeline state objects. To make it easier to pinpoint any suspicious objects, that information is grouped by when it was allocated and freed.
 
-![Viewing D3D API Objects in Range Details view](images/timing-d3dresources-timeline-markedup.png)
+![Viewing D3D API Objects in Range Details view](../../images/timing-d3dresources-timeline-markedup.png)
 
 #### Residency
 
 For residency related issues, see out the **Residence Operations**, **Demoted Allocations**, and **Allocation Migrations** categories of **Range Detail**s view. Those markers and events are also shown in the **Residence Operations** lane.
 
-Residence operations include the MakeResident and Evict operations (initiated via the Direct3D 12 API) as well as any PageIn and PageOut operations (For more details, see [Residency](../../direct3d12/residency.md)). Demoted allocations occur when the graphics kernel (DXGK) can't allocate a resource in your GPU's VRAM (due to either memory pressure or fragmentation). If that happens, then DXGK will also attempt to perform allocation migrations for those demoted allocations. Note that those migrations are expensive operations, because they require suspending the GPU.
+Residence operations include the MakeResident and Evict operations (initiated via the Direct3D 12 API) as well as any PageIn and PageOut operations (For more details, see [Residency](~/direct3d12/residency.md)). Demoted allocations occur when the graphics kernel (DXGK) can't allocate a resource in your GPU's VRAM (due to either memory pressure or fragmentation). If that happens, then DXGK will also attempt to perform allocation migrations for those demoted allocations. Note that those migrations are expensive operations, because they require suspending the GPU.
 
-![Viewing allocation migrations](images/timing-residence-markedup.png)
+![Viewing allocation migrations](../../images/timing-residence-markedup.png)
 
 ### GPU utilization and presentation counters
 
@@ -98,14 +98,14 @@ Enable the **Capture SysMon counters** option when taking a capture to collect c
 - Presentation data, like frames per second (and the inverse, in milliseconds, MsBetweenPresents) and MsUntilRenderComplete (time between a present start and GPU work completion).
 - GPU Memory information, including local and non-local memory usage, residence, and budgets.
 
-![Viewing frames per second and GPU utilization in Metrics view](images/timing-sysmoncounters.png)
+![Viewing frames per second and GPU utilization in Metrics view](../../images/timing-sysmoncounters.png)
 
 > [!TIP]
 > Hover over the counter names in the **System Monitor** for a description.
 
 These counters can also be monitored in real-time, either while taking a timing capture or by clicking the **Start Counter Collection** button in the **System Monitor** view. The graphs can be rearranged and counters can be added or removed dynamically. Click **Counters** to view all available counters.
 
-![Viewing System Monitor graphs and counters](images/sysmon.png)
+![Viewing System Monitor graphs and counters](../../images/sysmon.png)
 
 
 

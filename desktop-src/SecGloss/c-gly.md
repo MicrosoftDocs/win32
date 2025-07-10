@@ -4,7 +4,8 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: db46def4-bfdc-4801-a57d-d568e94a2dbb
 title: C (Security Glossary)
 ms.topic: glossary
-ms.date: 05/31/2018
+ms.date: 07/09/2025
+# customer intent: As a Windows developer, I want to learn about security terms that begin with the letter C so that I can understand their meanings and how they relate to security concepts in Windows.
 ---
 
 # C (Security Glossary)
@@ -565,7 +566,3 @@ See *certificate trust list*.
 An encryption algorithm that uses a 40-bit variant of a DES key where 16 bits of the 56-bit DES key are set to zero. This algorithm is implemented as specified in the IETF Draft specification for 40-bit DES. The draft specification, at the time of this writing can be found at ftp://ftp.ietf.org/internet-drafts/draft-hoffman-des40-02.txt. This algorithm is used with the **ALG\_ID** value CALG\_CYLINK\_MEK.
 
 </dd> </dl>
-
- 
-
- 

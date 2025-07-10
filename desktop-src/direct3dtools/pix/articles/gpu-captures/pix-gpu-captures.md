@@ -34,7 +34,7 @@ More information about each event, such as the full set of API call parameters, 
 
 With a GPU capture open, switch to the Overview tab. Here you'll see some basic details about the capture.
 
-To start profiling, you'll need to collect timing data. To do that, click the **Collect Timing Data** button at the top right of the **Events** view, or click the **Click here to start analysis and collect timing data** text in the **Timeline** view. That replays the GPU work in the capture and collect basic timing data such as Execution Durations (annotated with [PixEvents](pix-instrumenting.md), if your application has them). Once finished, you can collect additional data to be graphed in Timeline lanes, like occupancy information and other GPU-specific counters.
+To start profiling, you'll need to collect timing data. To do that, click the **Collect Timing Data** button at the top right of the **Events** view, or click the **Click here to start analysis and collect timing data** text in the **Timeline** view. That replays the GPU work in the capture and collect basic timing data such as Execution Durations (annotated with [PixEvents](../general/pix-instrumenting.md), if your application has them). Once finished, you can collect additional data to be graphed in Timeline lanes, like occupancy information and other GPU-specific counters.
 
 > [!TIP]
 > For best results, don't interact with your computer while PIX is collecting timing data; and close any other applications that might be using the GPU.
@@ -55,10 +55,10 @@ Because GPUs are massively parallel and deeply pipelined, it's common for more t
 
 The **Timeline** view displays one or more lanes showing the timing of each GPU operation. There's a separate lane containing EOP Duration data for each queue (graphics, compute, or copy) used by the game, plus a single lane showing Execution Duration data (where available) combined across all the queues.
 
-![Timing information in the PIX GPU Capture Timeline view](images/gpu-timeline-view.png)
+![Timing information in the PIX GPU Capture Timeline view](../../images/gpu-timeline-view.png)
 
 > [!TIP]
-> PIX on Windows doesn't currently overlap GPU work on different queues while analyzing timing in GPU captures. Consider taking a [Timing capture](pix-timing-captures.md) if you want to see overlapping async compute timing data. In GPU Captures, if a game uses async compute to execute rendering and compute work simultaneously, then PIX will instead measure first one and then the other. This may result in shorter reported durations for each part of the work compared to how it would execute inside the original game (due to reduced contention on the GPU) but a longer total time (due to reduced parallelization).
+> PIX on Windows doesn't currently overlap GPU work on different queues while analyzing timing in GPU captures. Consider taking a [Timing capture](../timing-captures/pix-timing-captures.md) if you want to see overlapping async compute timing data. In GPU Captures, if a game uses async compute to execute rendering and compute work simultaneously, then PIX will instead measure first one and then the other. This may result in shorter reported durations for each part of the work compared to how it would execute inside the original game (due to reduced contention on the GPU) but a longer total time (due to reduced parallelization).
 
 ### GPU counters and occupancy
 
@@ -66,7 +66,7 @@ PIX exposes hardware-specific performance counters provided by IHVs via a GPU pl
 
 On some GPUs, PIX can also gather occupancy information. GPUs are usually constructed as a hierarchy of repeated blocks, where each level might share a resource. For example, an imaginary GPU might be structured like this
 
-![Example GPU block illustration](images/gpu-block-illustration.png)
+![Example GPU block illustration](../../images/gpu-block-illustration.png)
 
 GPUs execute shaders by breaking up the shader work into waves (those are also called warps, or wave fronts). In the above diagram, each blue block is capable of executing one wave. Each green block could execute up to four waves.
 
@@ -76,7 +76,7 @@ At any time, all the green blocks might be executing a different number of waves
 
 That's presented in PIX in the **Occupancy** lane, which shows the maximum occupancy, separated by shader stage. That's an indication of how much work the GPU is able to do in parallel&mdash;higher bars show better GPU utilization.
 
-![GPU counters in the PIX GPU Capture Timeline view](images/gpu-timeline-view-withcounters.png)
+![GPU counters in the PIX GPU Capture Timeline view](../../images/gpu-timeline-view-withcounters.png)
 
 ## Debugging rendering issues
 
@@ -91,9 +91,9 @@ Selecting an event in the **Events** view populates various views, notably the P
 
 After selecting an event in the **Events** view, the **State and Pipeline** views (found in the **Pipeline** tab) show details of the Direct3D state at the time of that event. There you can view which resources are bound to the pipeline, shader code, inputs, outputs, and the currently bound rendertarget(s).
 
-![Direct3D pipeline state](images/gpu-state-view.png)
+![Direct3D pipeline state](../../images/gpu-state-view.png)
 
-![Viewing VS output in the Pipeline view](images/gpu-pipeline-view-vsoutput.png)
+![Viewing VS output in the Pipeline view](../../images/gpu-pipeline-view-vsoutput.png)
 
 ### Shader debugging
 
@@ -103,7 +103,7 @@ After selecting an appropriate event, and running analysis, you can debug your s
 3. Clicking the **Debug Pixel** button in the **Pixel Details** view when viewing an appropriate resource (for example, SRV/UAV/RTV).
 
 > [!TIP]
-> If you're not able to see the shader source when debugging, you're likely missing debug information. Ensure you're generating the shader PDBs for your application, and that you have [configured PIX to load those PDBs](pix-configuring.md#debug-symbols).
+> If you're not able to see the shader source when debugging, you're likely missing debug information. Ensure you're generating the shader PDBs for your application, and that you have [configured PIX to load those PDBs](../general/pix-configuring.md#debug-symbols).
 
 #### Shader edit & continue
 
@@ -126,7 +126,7 @@ For any pixel-like resource (for example, RTVs, UAVs, or depth buffers), you can
 
 ## Caveats and miscellaneous notes
 
-- It is not always possible for PIX to successfully take a GPU capture if a game is calling Direct3D 12 in invalid ways. PIX makes a best effort to be robust even in the case of incorrect usage patterns, but this is inevitably sometimes a case of garbage in, garbage out. If you are having difficulty taking GPU captures, then try using the [D3D12 Debug Layer and GPU-based validation](../../direct3d12/using-d3d12-debug-layer-gpu-based-validation.md) to find and fix any bad API calls.
+- It is not always possible for PIX to successfully take a GPU capture if a game is calling Direct3D 12 in invalid ways. PIX makes a best effort to be robust even in the case of incorrect usage patterns, but this is inevitably sometimes a case of garbage in, garbage out. If you are having difficulty taking GPU captures, then try using the [D3D12 Debug Layer and GPU-based validation](~/direct3d12/using-d3d12-debug-layer-gpu-based-validation.md) to find and fix any bad API calls.
 - Windows GPU captures are not, in general, portable across different GPU hardware and driver versions. In most cases, a capture taken on one machine will play back correctly on other similar GPUs from the same hardware family, and captures of some games may even work across GPUs from entirely different manufacturers, but it's also possible that something as trivial as a driver upgrade could break compatibility with older captures. PIX can guarantee playback will succeed only when the GPU and driver are exactly the same, so PIX will warn before starting analysis if there is not a perfect match. Proceed past that warning at your own risk.
 - PIX has limited support for multiple GPUs. It will always play back GPU captures on a single adapter, regardless of how many adapters the application used. PIX allows you to select the playback adapter from a drop-down affordance in the PIX toolbar. PIX will attempt to auto-select the playback adapter if the application used only one adapter.
 - For non-deterministic ExecuteIndirect workloads, you might want to enable the **Use replay-time ExecuteIndirect argument buffers** setting.
