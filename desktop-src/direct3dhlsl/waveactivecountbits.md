@@ -58,7 +58,7 @@ This function is supported from shader model 6.0 in all shader stages.
 This can be implemented more efficiently than a full WaveActiveSum, as described in the following example:
 
 ``` syntax
-result = WaveActiveCountBits( WaveActiveBallot( bBit ) );
+result = countbits( WaveActiveBallot( bBit ) );
 ```
 
 ## See also
