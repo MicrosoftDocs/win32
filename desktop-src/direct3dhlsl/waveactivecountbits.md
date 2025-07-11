@@ -65,7 +65,7 @@ uint result = WaveActiveSum(1);
 uint4 bits = countbits( WaveActiveBallot( bBit ) );
 uint result = bits.x + bits.y + bits.z + bits.w;
 
-// Use WaveActiveCountBits to count number of active langes
+// Use WaveActiveCountBits to count number of active lanes
 uint result = WaveActiveCountBits(true);
 ```
 
