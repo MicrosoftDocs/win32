@@ -18,7 +18,7 @@ This property is a bit field. New bits may be added in the future. At present th
 |-------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bit 0 | 0 1<br/> | 0: Long file names. 1: Short file names.<br/>                                                                                                                                                                                                    |
 | Bit 1 | 0 2<br/> | 0: Source is uncompressed. 2: Source is compressed.<br/>                                                                                                                                                                                         |
-| Bit 2 | 0 4<br/> | 0: Source is original media. 4: Source is a administrative image created by an administrative installation.<br/>                                                                                                                                 |
+| Bit 2 | 0 4<br/> | 0: Source is original media. 4: Source is an administrative image created by an administrative installation.<br/>                                                                                                                                 |
 | Bit 3 | 0 8<br/> | 0: Elevated privileges can be required to install this package. 8: Elevated privileges are not required to install this package.<br/> Available starting with Windows Installer version 4.0 and Windows Vista or Windows Server 2008.<br/> |
 
 
