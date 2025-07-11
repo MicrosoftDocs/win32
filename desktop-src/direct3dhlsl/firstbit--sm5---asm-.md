@@ -52,7 +52,7 @@ This instruction applies to the following shader stages:
 
  
 
-## Mimimum Shader Model
+## Minimum Shader Model
 
 This instruction is supported in the following shader models:
 

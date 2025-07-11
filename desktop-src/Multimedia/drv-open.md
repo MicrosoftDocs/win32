@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # DRV\_OPEN message
 
-Directs the driver to open an new instance.
+Directs the driver to open a new instance.
 
 ## Parameters
 

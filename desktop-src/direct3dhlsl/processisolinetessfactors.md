@@ -66,7 +66,7 @@ The rounded detail factor clamped to a range that can be used by the tessellator
 
 Type: **float**
 
-The rounded density factor clamped to a rangethat can be used by the tessellator.
+The rounded density factor clamped to a range that can be used by the tessellator.
 
 </dd> </dl>
 
