@@ -13,7 +13,7 @@ The following versions of Windows include APIs and constructs to provide native 
 -   Windows 7 and later.
 -   Windows Vista.
 
-A downlevel library, [**LoadMUILibrary**](/windows/desktop/api/Muiload/nf-muiload-loadmuilibrarya), is provided to allow writing multilingual applications for versions of Windows prior to Windows Vista while providing a behavior compatible with that of MUI applications writen for Windows Vista and later versions of Windows.
+A downlevel library, [**LoadMUILibrary**](/windows/desktop/api/Muiload/nf-muiload-loadmuilibrarya), is provided to allow writing multilingual applications for versions of Windows prior to Windows Vista while providing a behavior compatible with that of MUI applications written for Windows Vista and later versions of Windows.
 
 ## Related topics
 

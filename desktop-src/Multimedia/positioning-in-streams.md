@@ -67,7 +67,7 @@ You can determine the elapsed time from the beginning of a stream to a sample us
 
 Conversely, you can find the sample number associated with a time value by using the [**AVIStreamTimeToSample**](/windows/desktop/api/Vfw/nf-vfw-avistreamtimetosample) function. This function converts the millisecond value to a sample number and assumes the video clip plays at normal speed.
 
-Because **AVIStreamSampleToTime** returns the time at which a frame begins to play, the relationship between **AVIStreamSampleToTime** and **AVIStreamTimeToSample** is not truly inverse. They determine the position in a file more acurately than they determine time. For example, two consecutive audio samples might both play in the same millisecond. Using **AVIStreamSampleToTime** to convert the sample numbers would result in identical time values. If you convert the time value back to a sample number by using **AVIStreamTimeToSample**, a single sample would be referenced.
+Because **AVIStreamSampleToTime** returns the time at which a frame begins to play, the relationship between **AVIStreamSampleToTime** and **AVIStreamTimeToSample** is not truly inverse. They determine the position in a file more accurately than they determine time. For example, two consecutive audio samples might both play in the same millisecond. Using **AVIStreamSampleToTime** to convert the sample numbers would result in identical time values. If you convert the time value back to a sample number by using **AVIStreamTimeToSample**, a single sample would be referenced.
 
  
 
