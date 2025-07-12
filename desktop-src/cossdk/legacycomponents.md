@@ -202,7 +202,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 | Entry | Value |
 |----------------|------------------------------------------------------------|
-| Description    | Specifies the full path to a surragate server application. |
+| Description    | Specifies the full path to a surrogate server application. |
 | Access         | ReadWrite                                                  |
 | Type           | String                                                     |
 | Default        | N/A                                                        |
