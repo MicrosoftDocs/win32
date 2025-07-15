@@ -3,7 +3,7 @@ description: The following are the ImageHlp functions.
 ms.assetid: 926f412e-25ba-4f9c-a118-b5a1bc723379
 title: ImageHlp Functions
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # ImageHlp Functions

@@ -6,7 +6,7 @@ keywords:
 - MSAA, Windowless ActiveX control
 - Windowless ActiveX control, MSAA
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # How to Host an MSAA Windowless ActiveX Control

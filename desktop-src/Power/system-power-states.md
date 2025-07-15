@@ -3,7 +3,7 @@ description: Learn about the multiple system power states that correspond to the
 ms.assetid: 3d897a88-125e-457f-9ea7-ac2056b0767a
 title: System power states
 ms.topic: concept-article
-ms.date: 02/08/2023
+ms.date: 07/14/2025
 ---
 
 # System power states

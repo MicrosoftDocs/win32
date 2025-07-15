@@ -3,7 +3,7 @@ description: To display a dialog box that lists the performance objects and coun
 ms.assetid: f2fac1d3-f643-43c9-a445-112015baecdd
 title: Browsing Counters
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Browsing Counters

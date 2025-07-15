@@ -3,7 +3,7 @@ description: The Windows SDK (WSDK) contains three complete sample performance D
 ms.assetid: 862be53a-3d58-42b9-adf0-2f913dc6fb06
 title: Performance DLL Samples
 ms.topic: sample
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Performance DLL Samples

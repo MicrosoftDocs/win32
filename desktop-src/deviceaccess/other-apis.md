@@ -3,7 +3,7 @@ title: Other APIs
 description: These interfaces are not supported and should not be used. Use the APIs in the Device Access API C++ Programming Reference instead.
 ms.assetid: 5B53EA50-FE0F-4FA2-BB9B-77D0D915B55D
 ms.topic: reference
-ms.date: 02/11/2020
+ms.date: 07/14/2025
 ---
 
 # Other APIs

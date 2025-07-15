@@ -3,7 +3,7 @@ title: TabbedToInfo
 description: TabbedToInfo
 ms.assetid: 8C8A4B5D-8070-4406-A726-6D24D5A712CE
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # TabbedToInfo

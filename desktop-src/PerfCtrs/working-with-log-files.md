@@ -3,7 +3,7 @@ description: To open a log file for reading, call PdhOpenQuery and specify a pat
 ms.assetid: 1d8f8662-df1f-4f84-8b65-c152f79cc5c6
 title: Working with Log Files
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Working with Log Files

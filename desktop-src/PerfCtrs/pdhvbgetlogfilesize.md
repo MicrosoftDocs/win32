@@ -3,7 +3,7 @@ description: The PdhVbGetLogFileSize function returns the size of the specified 
 ms.assetid: 8f4fbb68-b0f5-4163-ae6e-5b7139a35adf
 title: PdhVbGetLogFileSize function
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - APIRef
 - kbSyntax

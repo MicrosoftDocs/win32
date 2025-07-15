@@ -3,7 +3,7 @@ description: Retrieves a code that identifies the type of exception that occurs.
 ms.assetid: f3c4a9f3-c9ae-4d20-85a7-787cb32278d1
 title: GetExceptionCode macro
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - APIRef
 - kbSyntax

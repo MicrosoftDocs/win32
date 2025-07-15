@@ -3,7 +3,7 @@ title: How to Return Properties from a UI Automation Provider
 description: This topic contains example code that shows how a Microsoft UI Automation provider returns properties of a UI element to client applications.
 ms.assetid: 6932de16-5548-4aa3-9f29-5daa57bb202b
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # How to Return Properties from a UI Automation Provider

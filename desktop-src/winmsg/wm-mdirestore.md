@@ -3,7 +3,7 @@ description: An application sends the WM\_MDIRESTORE message to a multiple-docum
 ms.assetid: bb99fda1-9eb5-4307-9326-9a417a046c22
 title: WM_MDIRESTORE message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_MDIRESTORE message

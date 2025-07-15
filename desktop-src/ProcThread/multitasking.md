@@ -3,7 +3,7 @@ description: A multitasking operating system divides the available processor tim
 ms.assetid: 'ac45bef6-f078-40ac-95f4-06bd61ff46c4'
 title: Multitasking
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Multitasking

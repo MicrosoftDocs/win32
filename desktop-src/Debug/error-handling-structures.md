@@ -3,7 +3,7 @@ description: 'The following structure is used with error handling:'
 ms.assetid: bc402e44-1ca2-4feb-8451-3b7ebb00b75b
 title: Error Handling Structures
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Error Handling Structures

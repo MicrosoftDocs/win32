@@ -14,7 +14,7 @@ keywords:
 - control patterns,ObjectModel
 - interfaces,IObjectModelProvider
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # ObjectModel Control Pattern

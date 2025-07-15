@@ -3,7 +3,7 @@ description: Defines a structure that contains one or more counter values.
 ms.assetid: 3085d490-4ac1-491c-bce0-8af46b16fab9
 title: struct Complex Type
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - kbSyntax
 api_name: 

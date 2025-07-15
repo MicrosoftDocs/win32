@@ -3,7 +3,7 @@ description: In Windows Vista, Performance Counters implemented a new architect
 ms.assetid: c17eda2f-3cf8-40d6-8be6-c1ce190d1a26
 title: Providing Counter Data
 ms.topic: concept-article
-ms.date: 08/17/2020
+ms.date: 07/14/2025
 ---
 
 # Providing Counter Data

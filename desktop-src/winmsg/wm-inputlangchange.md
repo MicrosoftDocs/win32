@@ -3,7 +3,7 @@ description: Sent to the topmost affected window after an application's input la
 ms.assetid: 4d403b1d-f6f7-40d5-9bf5-6a9c4da0803c
 title: WM_INPUTLANGCHANGE message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_INPUTLANGCHANGE message

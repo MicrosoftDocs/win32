@@ -3,7 +3,7 @@ description: 'There are two ways to implement multitasking: as a single process 
 ms.assetid: ac0a8163-1498-4274-acfc-6a36b4c02a27
 title: When to Use Multitasking
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # When to Use Multitasking

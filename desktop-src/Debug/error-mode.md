@@ -3,7 +3,7 @@ description: The error mode indicates to the system how the application is going
 ms.assetid: 288be838-6094-4824-9cae-99b7ff9eea74
 title: Error Mode
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Error Mode

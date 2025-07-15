@@ -3,7 +3,7 @@ description: This section discusses hooks. A hook is a point in the system messa
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\hooks.htm'
 title: Hooks
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Hooks

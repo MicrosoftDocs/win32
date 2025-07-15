@@ -3,7 +3,7 @@ description: Users can configure automatic debugging to help them determine why 
 ms.assetid: c3c7aa98-c298-452c-b8d0-10a08b4d82a3
 title: Configuring Automatic Debugging
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Configuring Automatic Debugging

@@ -6,7 +6,7 @@ keywords:
 - user input,about
 - capturing user input,about
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Keyboard and Mouse Input

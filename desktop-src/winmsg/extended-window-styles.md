@@ -4,7 +4,7 @@ ms.assetid: 5830B16E-CD52-4a1a-A1BD-3AFE66BA5FDD
 title: Extended Window Styles (Winuser.h)
 ms.topic: reference
 ms.custom: snippet-project
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Extended Window Styles

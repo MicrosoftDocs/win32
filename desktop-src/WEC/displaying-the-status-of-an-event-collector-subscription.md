@@ -4,7 +4,7 @@ description: You can display the status of an Event Collector subscription. The 
 ms.assetid: e1c3c3ed-2f7c-433d-a51d-66c2abd2e961
 ms.tgt_platform: multiple
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Displaying the Status of an Event Collector Subscription

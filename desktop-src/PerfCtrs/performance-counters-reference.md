@@ -3,7 +3,7 @@ description: 'Use the following programming elements to write applications that 
 ms.assetid: 8600f48f-0ef5-4ac2-bdb9-6d9700cae306
 title: Performance Counters Reference
 ms.topic: reference
-ms.date: 08/17/2020
+ms.date: 07/14/2025
 ---
 
 # Performance Counters Reference

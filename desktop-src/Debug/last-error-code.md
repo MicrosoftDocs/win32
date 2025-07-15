@@ -3,7 +3,7 @@ description: When an error occurs, most system functions return an error code, u
 ms.assetid: fd5b0d6e-78cf-4f51-b61d-d32576cd485a
 title: Last-Error Code
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Last-Error Code

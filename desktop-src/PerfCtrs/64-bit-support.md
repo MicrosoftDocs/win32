@@ -3,7 +3,7 @@ description: If you provide counters on a 64-bit computer, you must install both
 ms.assetid: 2dba2c46-0185-4ce6-a7cc-27cdd9b19b70
 title: 64-bit Support
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # 64-bit Support

@@ -3,7 +3,7 @@ description: The PdhVbGetCounterPathFromList function copies the counter path re
 ms.assetid: e77a022d-42f2-4c48-acb7-36cb013730dd
 title: PdhVbGetCounterPathFromList function
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - APIRef
 - kbSyntax

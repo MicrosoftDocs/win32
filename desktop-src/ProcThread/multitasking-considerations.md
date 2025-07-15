@@ -3,7 +3,7 @@ description: The recommended guideline is to use as few threads as possible, the
 ms.assetid: ed9bd3cf-b10c-49f9-bf62-7332517350b7
 title: Multitasking Considerations
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Multitasking Considerations

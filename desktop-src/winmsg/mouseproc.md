@@ -4,7 +4,7 @@ title: MouseProc callback function
 description: The system calls this function when an application calls a message function and there is a mouse message to be processed.
 old-location: 
 ms.assetid: na
-ms.date: 04/05/2019
+ms.date: 07/14/2025
 ms.keywords: 
 ms.topic: reference
 req.header: 

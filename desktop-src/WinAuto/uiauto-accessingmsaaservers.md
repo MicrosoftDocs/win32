@@ -13,7 +13,7 @@ keywords:
 - Active Accessibility
 - clients,accessing Active Accessibility servers
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Accessing Microsoft Active Accessibility Servers

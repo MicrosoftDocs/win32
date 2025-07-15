@@ -3,7 +3,7 @@ description: This specification describes the structure of executable (image) fi
 ms.assetid: 3dbfbf7f-6662-45a4-99f1-e0e24c370dee
 title: PE Format
 ms.topic: reference
-ms.date: 02/20/2025
+ms.date: 07/14/2025
 ---
 
 # PE Format

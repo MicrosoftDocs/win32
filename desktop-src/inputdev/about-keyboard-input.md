@@ -15,7 +15,7 @@ keywords:
 - dead keys
 - dead-character messages
 ms.topic: concept-article
-ms.date: 08/01/2022
+ms.date: 07/14/2025
 ---
 
 # Keyboard Input Overview

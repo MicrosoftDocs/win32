@@ -3,7 +3,7 @@ description: A termination handler ensures that a specific block of code is exec
 ms.assetid: 899e2939-e028-4be1-9f08-9a79bf97eb37
 title: Termination Handling
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Termination Handling

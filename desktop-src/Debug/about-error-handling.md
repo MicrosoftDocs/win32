@@ -3,7 +3,7 @@ description: The error handling functions enable you to receive and display erro
 ms.assetid: faff149b-254e-44da-a59c-1b738acb6941
 title: About Error Handling
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # About Error Handling

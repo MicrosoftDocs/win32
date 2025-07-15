@@ -3,7 +3,7 @@ description: Describes error codes 0-499 defined in the WinError.h header file a
 ms.assetid: cacb0aec-d438-4875-a96e-4e0239fdc6ba
 title: System Error Codes (0-499) (WinError.h)
 ms.topic: reference
-ms.date: 07/15/2024
+ms.date: 07/14/2025
 ---
 
 # System Error Codes (0-499)

@@ -3,7 +3,7 @@ description: Windows 7 and Windows Server 2008 R2 include the following new p
 ms.assetid: 69cd8713-b40c-4fec-a256-9c2ee3d73da5
 title: What's New in Processes and Threads
 ms.topic: whats-new
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # What's New in Processes and Threads

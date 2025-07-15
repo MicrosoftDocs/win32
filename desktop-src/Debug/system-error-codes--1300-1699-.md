@@ -3,7 +3,7 @@ description: Describes error codes 1300-1699 defined in the WinError.h header fi
 ms.assetid: 7b04a2ba-7bf9-4bff-93c8-cbb0060e069d
 title: System Error Codes (1300-1699) (WinError.h)
 ms.topic: reference
-ms.date: 07/15/2024
+ms.date: 07/14/2025
 ---
 
 # System Error Codes (1300-1699)

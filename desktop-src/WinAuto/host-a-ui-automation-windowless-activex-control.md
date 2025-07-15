@@ -6,7 +6,7 @@ keywords:
 - UI Automation, Windowless ActiveX control
 - Windowless ActiveX control, UI Automation
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Host a UI Automation Windowless ActiveX Control

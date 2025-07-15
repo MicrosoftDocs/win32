@@ -5,7 +5,7 @@ ms.assetid: 01AF3F1E-9A3F-48B4-8219-6E80BAFC82EE
 keywords:
 - UIA_NamePropertyId identifier AutomationElement.NameProperty
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # UiaNameLengthTooLong

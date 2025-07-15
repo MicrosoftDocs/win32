@@ -3,7 +3,7 @@ description: An application can use nested jobs to manage subsets of processes. 
 ms.assetid: FA22493B-CD29-49A7-BDAC-349FA96B8C9E
 title: Nested Jobs
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Nested Jobs

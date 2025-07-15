@@ -3,7 +3,7 @@ description: Notifies applications that the APM BIOS has signaled an APM OEM eve
 ms.assetid: 3251ac00-41f1-44e9-a579-fa31e7c7d2ff
 title: PBT_APMOEMEVENT event (WinUser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # PBT_APMOEMEVENT event

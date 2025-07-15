@@ -3,7 +3,7 @@ description: You use the PDH functions to collect performance data.
 ms.assetid: 2510480e-cfea-4f7c-af0b-6d229c150c91
 title: Using the PDH Functions to Consume Counter Data
 ms.topic: how-to
-ms.date: 08/17/2020
+ms.date: 07/14/2025
 ---
 
 # Using the PDH Functions to Consume Counter Data

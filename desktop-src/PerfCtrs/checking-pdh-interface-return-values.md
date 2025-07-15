@@ -3,7 +3,7 @@ description: The return value of PDH functions indicates the success or failure 
 ms.assetid: 00ea5521-bc28-4a87-aba9-46c911631503
 title: Checking Counter Data Status Codes
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Checking Counter Data Status Codes

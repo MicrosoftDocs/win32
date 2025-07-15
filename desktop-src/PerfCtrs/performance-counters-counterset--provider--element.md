@@ -3,7 +3,7 @@ description: Contains a list of counters that are logically related.
 ms.assetid: 0a0405c9-7487-43e0-afef-d6c6ba75c9bf
 title: counterSet (provider) Element
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - kbSyntax
 api_name: 

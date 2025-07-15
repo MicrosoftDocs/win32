@@ -3,7 +3,7 @@ description: The Windows operating system provides a comprehensive and system-wi
 ms.assetid: 01ce4d21-1a0c-44a8-91ef-5e300e7c6c9a
 title: About Power Management
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # About Power Management

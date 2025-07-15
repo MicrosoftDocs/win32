@@ -12,7 +12,7 @@ api_name:
 api_type:
 - NA
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Wecutil.exe

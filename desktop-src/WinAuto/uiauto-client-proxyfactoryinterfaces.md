@@ -3,7 +3,7 @@ title: Proxy Factory Interfaces for Clients
 description: This section describes the proxy factory interfaces for unmanaged UI Automation client applications.
 ms.assetid: 46c6720a-19c2-4ddd-893c-1a46af0642fb
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Proxy Factory Interfaces for Clients

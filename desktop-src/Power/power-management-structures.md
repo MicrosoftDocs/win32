@@ -3,7 +3,7 @@ description: 'The following structures are used with power management:'
 ms.assetid: 706e605e-d522-473d-8797-d6397cdc719a
 title: Power Management Structures
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Power Management Structures

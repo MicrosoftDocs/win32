@@ -3,7 +3,7 @@ title: Radio Button (MSAA UI Element Reference)
 description: Radio buttons are used to select one of several options, usually within a dialog box.
 ms.assetid: cf4568ff-1bc4-4770-bc54-a5d08ac0a60c
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Radio Button (MSAA UI Element Reference)

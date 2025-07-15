@@ -3,7 +3,7 @@ description: Retrieves a computer-independent description of an exception, and i
 ms.assetid: e982794a-d5f1-4fb4-a2b9-aa8da18cb8ae
 title: GetExceptionInformation macro
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - APIRef
 - kbSyntax

@@ -14,7 +14,7 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.custom: snippet-project
-ms.date: 07/28/2020
+ms.date: 07/14/2025
 ---
 
 # WM\_CHAR message

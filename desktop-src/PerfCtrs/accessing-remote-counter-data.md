@@ -3,7 +3,7 @@ description: To access counter data on a remote computer:The remote computer mus
 ms.assetid: 0a6b40b2-6cc7-4bfd-8315-8b5c12954df8
 title: Accessing Remote Counter Data
 ms.topic: concept-article
-ms.date: 08/17/2020
+ms.date: 07/14/2025
 ---
 
 # Accessing Remote Counter Data

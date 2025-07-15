@@ -3,7 +3,7 @@ description: The following code demonstrates how to call the SymFromName functio
 ms.assetid: d3a9d73e-fb77-4be3-a881-c258bcc587fe
 title: Retrieving Symbol Information by Name
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Retrieving Symbol Information by Name

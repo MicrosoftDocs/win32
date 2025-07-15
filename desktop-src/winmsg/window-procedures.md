@@ -3,7 +3,7 @@ description: This section discusses window procedures. Each window has an associ
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\windowprocedures.htm'
 title: Window Procedures
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Window Procedures

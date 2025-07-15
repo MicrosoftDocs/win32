@@ -3,7 +3,7 @@ description: The thread ordering service controls the execution of one or more c
 ms.assetid: 5c37873a-ced4-447e-a6e1-55cfa8ab24b4
 title: Thread Ordering Service
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Thread Ordering Service

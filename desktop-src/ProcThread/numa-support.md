@@ -3,7 +3,7 @@ description: The traditional model for multiprocessor support is symmetric multi
 ms.assetid: a1263968-2b26-45cc-bdd7-6aa354821a5a
 title: NUMA Support
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # NUMA Architecture

@@ -3,7 +3,7 @@ title: Active Accessibility Text Services
 description: This section discusses the Active Accessibility Text Services interfaces.
 ms.assetid: 8bbc647f-1687-45b8-8b63-a6ea45a0a721
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Active Accessibility Text Services

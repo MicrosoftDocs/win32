@@ -3,7 +3,7 @@ description: Each window class has an associated window procedure shared by all 
 ms.assetid: db79fd4b-6a15-4bf9-a0d9-5f6415f6c75f
 title: About Window Classes
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # About Window Classes

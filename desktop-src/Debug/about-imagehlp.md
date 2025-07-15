@@ -3,7 +3,7 @@ description: The ImageHlp functions are used mostly by programming tools, applic
 ms.assetid: 831d7bb2-bf01-4422-a940-173f9856a513
 title: About ImageHlp
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # About ImageHlp

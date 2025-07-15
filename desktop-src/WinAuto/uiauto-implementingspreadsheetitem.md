@@ -14,7 +14,7 @@ keywords:
 - control patterns,SpreadsheetItem
 - interfaces,ISpreadsheetItemProvider
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # SpreadsheetItem Control Pattern

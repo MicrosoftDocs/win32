@@ -2,7 +2,7 @@
 description: Enables the middle mouse button to toggle the presence of a scrolling compass on a window.
 title: EnterReaderModeHelper function
 ms.topic: reference
-ms.date: 03/02/2023
+ms.date: 07/14/2025
 topic_type: 
 - APIRef
 - kbSyntax

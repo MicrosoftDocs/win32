@@ -3,7 +3,7 @@ description: All users have read access to the list of processes in the system a
 ms.assetid: 4c73fb10-7ee8-4d8a-9cdb-a2ae59aef5bd
 title: Process Enumeration
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Process Enumeration

@@ -3,7 +3,7 @@ description: 'Computers with multiple processors are typically designed for one 
 ms.assetid: 3c9186c8-a54d-4536-8237-bfff78cc7d11
 title: Multiple Processors
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Multiple Processors

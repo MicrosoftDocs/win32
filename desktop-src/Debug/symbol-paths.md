@@ -3,7 +3,7 @@ description: The DbgHelp library uses the symbol search path to locate debug sym
 ms.assetid: 3527f589-285b-4cdf-b024-17920971a904
 title: Symbol Paths
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Symbol Paths
