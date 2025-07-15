@@ -13,13 +13,13 @@ For example, Bluetooth devices switch into bidirectional operation when used in 
 
 Applications may wish to know the exact sample rate of an audio stream in Communications mode to optimize audio encoding. Similarly, applications may wish to know if stereo playback is supported while the microphone is used, to decide if features that depend on stereo playback (like Spatial Audio) are available to the user.
 
-# Audio device behaviors in communications scenarios
+## Audio device behaviors in communications scenarios
 
 Applications using audio devices (microphone or output endpoints) for communications purposes should categorize streams as [AudioCategory_Communications](/windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audio_stream_category). Categorizing the stream correctly allows Windows to operate the device in the correct mode and to set appropriate latency parameters (when applicable for the audio device type). It also engages the right user experience behavior in the OS (such as ducking) and enables engaging of audio signal processing and formats optimized for the device and audio category. Finally, it allows the application to query what audio signal formats (channels, sample rate, bit depth, etc.) are being used.
 
 Bluetooth devices have expected behaviors based on Bluetooth standards. Other types of audio devices may have varying behaviors depending on their hardware or software design.
 
-## Bluetooth classic Audio behaviors
+## Bluetooth Classic Audio behaviors
 
 When using Bluetooth Classic Audio for communications scenarios, the Hands Free Profile (HFP) is used. When using HFP, both capture and output endpoints operate in mono - meaning Bluetooth Classic audio devices cannot support stereo playback while the microphone is in use.
 
