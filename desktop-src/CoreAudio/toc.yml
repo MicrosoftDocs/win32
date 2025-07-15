@@ -126,6 +126,8 @@
           href: handling-audio-ducking-events-from-communication-devices.md
         - name: "Getting Ducking Events"
           href: getting-ducking-events-from-a-communication-device.md
+        - name: "Detect audio format capabilities for communications scenarios"
+          href: communications-audio-format-capabilities.md
       - name: "Stream Routing"
         href: stream-routing.md
         items: 
