@@ -3,7 +3,7 @@ description: The DbgHelp library is implemented by DbgHelp.dll.
 ms.assetid: 8ef1740d-c791-4fbd-8297-7207a987c09d
 title: DbgHelp Versions
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # DbgHelp Versions

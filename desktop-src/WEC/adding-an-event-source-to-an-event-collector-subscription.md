@@ -4,7 +4,7 @@ description: To receive a forwarded event from an event subscription, you can cr
 ms.assetid: f0100938-1702-4ef7-b20e-a0e8df224d18
 ms.tgt_platform: multiple
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Adding an Event Source to a Collector Initiated Subscription

@@ -3,7 +3,7 @@ description: This section describes messages and message queues and how to use t
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues.htm'
 title: Messages and Message Queues
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Messages and Message Queues

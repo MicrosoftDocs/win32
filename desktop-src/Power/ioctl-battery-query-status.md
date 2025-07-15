@@ -3,7 +3,7 @@ description: Retrieves the current status of the battery.
 ms.assetid: 7a7bf429-9b2c-4faf-9f27-fb5fd8dd18df
 title: IOCTL_BATTERY_QUERY_STATUS control code (Poclass.h)
 ms.topic: reference
-ms.date: 01/11/2022
+ms.date: 07/14/2025
 topic_type:
 - APIRef
 - kbSyntax

@@ -3,7 +3,7 @@ title: Raw Input Macros
 description: Raw Input Macros
 ms.assetid: d6438ecf-6e9d-4099-bd20-a039c1f3c36c
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Raw Input Macros

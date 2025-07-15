@@ -1,7 +1,7 @@
-﻿---
+---
 title: DebugProc function (Windows)
 description: The system passes information about the hook to be called to the DebugProc hook procedure, which examines the information and determines whether to allow the hook to be called.
-ms.date: 06/28/2023
+ms.date: 07/14/2025
 ms.topic: reference
 f1_keywords:
 - DebugProc

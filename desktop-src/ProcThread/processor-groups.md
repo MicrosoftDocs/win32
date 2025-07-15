@@ -3,7 +3,7 @@ description: The 64-bit versions of Windows 7 and Windows Server 2008 R2 and 
 ms.assetid: c627ac0f-96e8-48b5-9103-4316f487e173
 title: Processor Groups
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Processor Groups

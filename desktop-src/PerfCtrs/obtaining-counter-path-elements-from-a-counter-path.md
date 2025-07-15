@@ -3,7 +3,7 @@ description: To retrieve the elements of a path, call the PdhParseCounterPath fu
 ms.assetid: 65c722f9-6f9d-4e3d-abf3-867cf260ef9f
 title: Obtaining Counter Path Elements from a Counter Path
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Obtaining Counter Path Elements from a Counter Path

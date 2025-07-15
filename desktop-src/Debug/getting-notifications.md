@@ -3,7 +3,7 @@ description: The following code shows how to obtain and report verbose status in
 ms.assetid: 1dd8af0e-280b-4fc4-bf75-45c5c7517365
 title: Getting Notifications
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Getting Notifications

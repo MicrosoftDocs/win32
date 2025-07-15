@@ -3,7 +3,7 @@ description: This topic describes the programming elements that applications use
 ms.assetid: e325f8dc-004f-44a9-9122-3be5e44764d6
 title: About Windows
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # About Windows

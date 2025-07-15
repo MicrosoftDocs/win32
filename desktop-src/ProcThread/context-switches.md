@@ -3,7 +3,7 @@ description: The scheduler maintains separate queues of executable threads for e
 ms.assetid: 82463d71-9cef-4608-b997-25dc9c1e1c0a
 title: Context Switches
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Context Switches

@@ -42,7 +42,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 01/09/2025
+ms.date: 07/14/2025
 ---
 
 # Object State Constants

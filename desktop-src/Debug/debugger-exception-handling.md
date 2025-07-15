@@ -3,7 +3,7 @@ description: The system's handling of user-mode exceptions provides support for 
 ms.assetid: c45a7dc6-e6b2-4fc4-9522-12d96893f4c7
 title: Debugger Exception Handling
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Debugger Exception Handling

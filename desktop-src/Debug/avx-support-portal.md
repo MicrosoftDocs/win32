@@ -3,7 +3,7 @@ description: Intel Advanced Vector Extensions (AVX) is a 256-bit SIMD floating p
 ms.assetid: 76357e08-a53c-4490-b08d-1c26900a3826
 title: Intel AVX
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Intel AVX

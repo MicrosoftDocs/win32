@@ -3,7 +3,7 @@ description: To determine if a counter is installed on a particular computer, ca
 ms.assetid: 5533a8d8-3621-4ce7-984c-c3895adef531
 title: Determining Whether a Counter Is Located on a Computer
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Determining Whether a Counter Is Located on a Computer

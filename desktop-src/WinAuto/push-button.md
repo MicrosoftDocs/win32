@@ -3,7 +3,7 @@ title: Push Button (MSAA UI Element Reference)
 description: A push button is a small, rectangular object used to perform an action. For example, the OK and CANCEL buttons on a dialog box are push buttons.
 ms.assetid: 26dbe4a0-4110-4569-bac6-fa0a95c785dd
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Push Button (MSAA UI Element Reference)

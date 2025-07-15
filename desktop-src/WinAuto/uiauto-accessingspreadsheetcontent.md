@@ -8,7 +8,7 @@ keywords:
 - clients,Spreadsheet control pattern
 - clients,SpreadsheetItem control pattern
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Accessing Spreadsheet Content

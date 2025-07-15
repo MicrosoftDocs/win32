@@ -3,7 +3,7 @@ title: Show sounds (and audio description flag)
 description: This topic includes information about a parameter that indicates whether an application should provide a visual alert or cue when it uses sound to convey important information.
 ms.assetid: 7b316892-76ff-48b3-bf67-34dea2e63936
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Show sounds (and audio description flag)

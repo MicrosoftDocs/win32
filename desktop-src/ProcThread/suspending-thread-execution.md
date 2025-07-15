@@ -3,7 +3,7 @@ description: A thread can suspend and resume the execution of another thread. Wh
 ms.assetid: b76d7af7-e3ec-4663-a9e7-832c01733c8c
 title: Suspending Thread Execution
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Suspending Thread Execution

@@ -3,7 +3,7 @@ title: Interfaces for Providers
 description: This section describes the basic interfaces implemented by UI Automation providers for Microsoft Win32 applications.
 ms.assetid: e76d415d-5f5e-4e17-a5e4-4746e69c5010
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Interfaces for Providers

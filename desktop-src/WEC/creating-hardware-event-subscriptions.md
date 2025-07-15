@@ -4,7 +4,7 @@ description: On computers that have a Baseboard Management Controller (BMC) inst
 ms.assetid: 646ab546-500e-44ee-8b08-2f835e57e3e6
 ms.tgt_platform: multiple
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Creating Hardware Event Subscriptions

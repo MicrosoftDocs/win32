@@ -3,7 +3,7 @@ description: The following code unloads a symbol module referred to by the BaseO
 ms.assetid: f185ae64-1de9-4139-acd5-7c3a108e1eba
 title: Unloading a Symbol Module
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Unloading a Symbol Module

@@ -3,7 +3,7 @@ description: Normally, debugging information is stored in a symbol file separate
 ms.assetid: 610e5cd3-9dc3-462c-98f8-6a63874464f8
 title: Symbol Files
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Symbol Files

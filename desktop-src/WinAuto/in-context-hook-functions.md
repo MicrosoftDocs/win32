@@ -3,7 +3,7 @@ title: In-Context Hook Functions
 ms.assetid: bf12bda6-b00e-4fbe-a576-b989aa428b54
 description: "Learn more about: In-Context Hook Functions"
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # In-Context Hook Functions

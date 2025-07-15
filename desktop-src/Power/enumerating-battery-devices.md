@@ -3,7 +3,7 @@ description: To enumerate the battery devices on a local computer, use the Setup
 ms.assetid: 17e3c779-91ba-4901-9435-b73dedbf0b89
 title: Enumerating Battery Devices
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Enumerating Battery Devices

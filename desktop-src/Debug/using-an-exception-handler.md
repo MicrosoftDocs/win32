@@ -3,7 +3,7 @@ description: The following examples demonstrate the use of an exception handler.
 ms.assetid: c3b4e696-9f45-4616-ac6b-07ba29750bb2
 title: Using an Exception Handler
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Using an Exception Handler

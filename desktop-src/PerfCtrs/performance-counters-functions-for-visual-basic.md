@@ -3,7 +3,7 @@ description: You can use the following functions to work with performance data i
 ms.assetid: c78eeb43-c713-42cc-a38f-f8aaa04f8dae
 title: Performance Counters Functions for Visual Basic
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Performance Counters Functions for Visual Basic

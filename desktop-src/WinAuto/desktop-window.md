@@ -3,7 +3,7 @@ title: Desktop Window (MSAA UI Element Reference)
 description: The desktop window displays the desktop list view (which contains icons such as My Computer) and the taskbar that contains the Start button.
 ms.assetid: 3668c26e-6462-4219-95d3-507811ed7f3c
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Desktop Window (MSAA UI Element Reference)

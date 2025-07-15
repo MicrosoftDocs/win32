@@ -3,7 +3,7 @@ title: CustomNavigation Control Pattern
 description: Describes guidelines and conventions for implementing the ICustomNavigationProvider interface, including information about properties and methods.
 ms.assetid: 428540BB-5CC0-4F49-8384-0FFC130FBB38
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # CustomNavigation Control Pattern

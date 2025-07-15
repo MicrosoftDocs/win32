@@ -3,7 +3,7 @@ description: The guidelines in this topic are intended to help you write clear e
 ms.assetid: 361833e4-b94f-4ef9-a8f5-adf543534a67
 title: Error Message Guidelines
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Error Message Guidelines

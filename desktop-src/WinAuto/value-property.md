@@ -3,7 +3,7 @@ title: Value Property
 description: The Value property provides a textual representation of the visual information contained in an object. Not all objects support the Value property.
 ms.assetid: 89b99645-31f5-458a-ae61-a72bf1338195
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Value Property

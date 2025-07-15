@@ -7,7 +7,7 @@ keywords:
 - EC_HANDLE
 - EC_OBJECT_ARRAY_PROPERTY_HANDLE
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Windows Event Collector Data Types

@@ -3,7 +3,7 @@ description: The following code demonstrates how to call the SymFromAddr functio
 ms.assetid: 63dfadea-b0c4-4050-add8-d1f3aef7a495
 title: Retrieving Symbol Information by Address
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Retrieving Symbol Information by Address

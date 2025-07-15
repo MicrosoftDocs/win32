@@ -3,7 +3,7 @@ description: Exceptions can be initiated by hardware or software, and can occur 
 ms.assetid: '760ddcaa-a18c-4fdf-836c-9028a2e4b62e'
 title: Exception Handling (Error Handling)
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Exception Handling (Error Handling)

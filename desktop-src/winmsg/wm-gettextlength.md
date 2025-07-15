@@ -3,7 +3,7 @@ description: Determines the length, in characters, of the text associated with a
 ms.assetid: 9e185435-a624-4380-adfd-be4f3645ee5d
 title: WM_GETTEXTLENGTH message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_GETTEXTLENGTH message

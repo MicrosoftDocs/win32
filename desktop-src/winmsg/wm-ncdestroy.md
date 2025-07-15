@@ -3,7 +3,7 @@ description: Notifies a window that its nonclient area is being destroyed. The D
 ms.assetid: 64ab268d-0e90-4401-81d3-a4da64196001
 title: WM_NCDESTROY message (Winuser.h)
 ms.topic: reference
-ms.date: 04/28/2025
+ms.date: 07/14/2025
 ---
 
 # WM_NCDESTROY message

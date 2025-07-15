@@ -4,7 +4,7 @@ description: You can subscribe to receive and store events on a local computer (
 ms.assetid: '7725e06d-4df1-4b3e-9f2f-2b8bdd805cb6'
 ms.tgt_platform: multiple
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Windows Event Collector

@@ -3,7 +3,7 @@ description: Each window is a member of a particular window class. The window cl
 ms.assetid: 3a8e8f4e-910d-4863-a4a7-dd37c2dfa402
 title: About Window Procedures
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # About Window Procedures

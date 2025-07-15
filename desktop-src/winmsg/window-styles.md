@@ -3,7 +3,7 @@ description: This topic provides a list of the various styles that can be applie
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstyles.htm'
 title: Window Styles (Winuser.h)
 ms.topic: reference
-ms.date: 07/15/2024
+ms.date: 07/14/2025
 ---
 
 # Window Styles

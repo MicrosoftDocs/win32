@@ -3,7 +3,7 @@ description: The following functions are used in structured exception handling.
 ms.assetid: 61cf055b-eb9a-4e56-9d36-21fc95adea77
 title: Structured Exception Handling Functions
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Structured Exception Handling Functions

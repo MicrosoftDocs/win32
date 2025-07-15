@@ -3,7 +3,7 @@ description: To debug a process that is already running, the debugger should use
 ms.assetid: 2662411f-a69a-442b-a177-a27ea025bb01
 title: Debugging a Running Process
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Debugging a Running Process

@@ -3,7 +3,7 @@ description: Sent to a window whose size, position, or place in the Z order has 
 ms.assetid: 1eabd0b1-1f92-4576-b7fb-8af50fb04526
 title: WM_WINDOWPOSCHANGED message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_WINDOWPOSCHANGED message

@@ -9,7 +9,7 @@ keywords:
 - high DPI
 - writing DPI-aware Win32 applications
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Developing a Per-Monitor DPI-Aware WPF Application

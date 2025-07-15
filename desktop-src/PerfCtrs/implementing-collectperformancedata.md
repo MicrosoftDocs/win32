@@ -3,7 +3,7 @@ description: After the system successfully calls your OpenPerformanceData functi
 ms.assetid: 73b022df-0148-4afc-8536-8b1c766b1ee6
 title: Implementing CollectPerformanceData
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Implementing CollectPerformanceData

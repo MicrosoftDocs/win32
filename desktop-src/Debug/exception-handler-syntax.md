@@ -3,7 +3,7 @@ description: The \_\_try and \_\_except keywords are used to construct a frame-b
 ms.assetid: 1ea2c7f7-f920-4c72-bc62-4eb5e8d70790
 title: Exception-Handler Syntax
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Exception-Handler Syntax

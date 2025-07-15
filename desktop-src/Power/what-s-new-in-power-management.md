@@ -3,7 +3,7 @@ description: Windows 10 helps your application optimize power consumption when 
 ms.assetid: a956b88c-8a75-4c1c-af27-53c69feb1596
 title: Whats New in Power Management
 ms.topic: whats-new
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # What's New in Power Management

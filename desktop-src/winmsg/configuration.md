@@ -3,7 +3,7 @@ description: This reference section describes configuration for Windows and Mess
 ms.assetid: aba21473-07cc-4de9-a310-ad9b43c133eb
 title: Configuration (Windows and Messages)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Configuration (Windows and Messages)

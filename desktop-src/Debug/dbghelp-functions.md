@@ -3,7 +3,7 @@ description: The following are the DbgHelp functions.
 ms.assetid: 7b28f70b-2d97-4cc2-8064-dfb806f9cffa
 title: DbgHelp Functions
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # DbgHelp Functions

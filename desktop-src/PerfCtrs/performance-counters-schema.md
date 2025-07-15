@@ -3,7 +3,7 @@ description: Use an XML manifest to define the performance counters that your pr
 ms.assetid: fa13d13a-f2e2-4732-8bf7-cb0a0f1d4ed7
 title: Performance Counters Schema
 ms.topic: reference
-ms.date: 08/17/2020
+ms.date: 07/14/2025
 ---
 
 # Performance Counters Schema

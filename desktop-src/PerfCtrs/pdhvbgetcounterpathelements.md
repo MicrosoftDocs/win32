@@ -3,7 +3,7 @@ description: The PdhVbGetCounterPathElements function parses a fully qualified p
 ms.assetid: 5459c7dd-e8b6-48cd-a33f-cafdc64dd9ee
 title: PdhVbGetCounterPathElements function
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - APIRef
 - kbSyntax

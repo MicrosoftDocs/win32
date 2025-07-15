@@ -3,7 +3,7 @@ description: Debugging a Running Process describes attaching the debugger to a r
 ms.assetid: 28e186fb-453c-46ff-97fa-36e806bf355b
 title: Creating a Basic Debugger
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Creating a Basic Debugger

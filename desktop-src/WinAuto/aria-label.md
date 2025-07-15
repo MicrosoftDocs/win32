@@ -5,7 +5,7 @@ ms.assetid: DF45E38D-9AD3-48C8-911E-8C6233F17F43
 keywords:
 - AriaLabelErrorId
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # ARIA Label Error

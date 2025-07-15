@@ -3,7 +3,7 @@ title: Device Access API
 description: Use the Device Access API to write Windows Store device apps for specialized devices that use custom drivers.
 ms.assetid: 51329746-291e-4ac6-9029-ebe4727d5d7d
 ms.topic: reference
-ms.date: 02/11/2020
+ms.date: 07/14/2025
 ---
 
 # Device Access API

@@ -3,7 +3,7 @@ title: Use QueryService to retrieve a native interface for an IAccessible object
 description: Server developers can use this technique to expose a pointer to a custom document node for an IAccessible object. This assumes that you already expose IAccessible objects. This technique allows clients to get a custom object from an IAccessible object.
 ms.assetid: aaa0e840-f8c2-4f3d-9d97-1910f00c1041
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Use QueryService to retrieve a native interface for an IAccessible object

@@ -3,7 +3,7 @@ description: Power setting change event sent with a WM\_POWERBROADCAST window me
 ms.assetid: 0bcadb85-47c5-48a9-b3f9-f0a1ca60b503
 title: PBT_POWERSETTINGCHANGE event (WinUser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # PBT_POWERSETTINGCHANGE event

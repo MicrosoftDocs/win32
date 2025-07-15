@@ -1,7 +1,7 @@
-﻿---
+---
 title: CBTProc callback function (Windows)
 description: Receive useful notifications from the system.
-ms.date: 06/27/2023
+ms.date: 07/14/2025
 f1_keywords:
 - CBTProc
 - HCBT_ACTIVATE

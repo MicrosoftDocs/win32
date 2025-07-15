@@ -3,7 +3,7 @@ description: The examples in this section describe how to perform tasks associat
 ms.assetid: 7695fb64-3918-4d9a-8cd8-01d20edd9c55
 title: Using Windows
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Using Windows

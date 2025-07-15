@@ -3,7 +3,7 @@ description: The following constants are used by applications or UI frameworks t
 ms.assetid: 6FE8444C-A575-4E89-86D1-1873206688F5
 title: Contact Visualization (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Contact Visualization

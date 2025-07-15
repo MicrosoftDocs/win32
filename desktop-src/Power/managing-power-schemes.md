@@ -3,7 +3,7 @@ description: Power Scheme Management
 ms.assetid: b79e7b64-be56-4165-af59-a8251284d029
 title: Power Scheme Management
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Power Scheme Management

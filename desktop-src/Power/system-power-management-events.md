@@ -3,7 +3,7 @@ description: A system power management event is a change in the system power sta
 ms.assetid: f73b072a-1f69-4e26-9712-dab428edca18
 title: System Power Management Events
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # System Power Management Events

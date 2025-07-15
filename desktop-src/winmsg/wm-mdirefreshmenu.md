@@ -3,7 +3,7 @@ description: An application sends the WM\_MDIREFRESHMENU message to a multiple-d
 ms.assetid: 6450d84a-a0b9-45d0-9e0c-757d26502059
 title: WM_MDIREFRESHMENU message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_MDIREFRESHMENU message

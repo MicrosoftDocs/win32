@@ -20,7 +20,7 @@ keywords:
 - control types,support for Edit
 - control types,Edit
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Edit Control Type

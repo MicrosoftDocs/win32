@@ -3,7 +3,7 @@ title: UI Automation Providers
 description: This section describes the interfaces and functions for unmanaged, COM-based \ 32;UI Automation providers.
 ms.assetid: 10e0e642-2839-48cb-a2e6-9a2292cd97bf
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # UI Automation Providers

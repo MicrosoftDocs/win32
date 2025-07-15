@@ -3,7 +3,7 @@ description: Terminating a thread has the following results:Any resources owned 
 ms.assetid: 633e5d0c-e9d8-4f9a-9411-17cbe9e2e6e4
 title: Terminating a Thread
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Terminating a Thread

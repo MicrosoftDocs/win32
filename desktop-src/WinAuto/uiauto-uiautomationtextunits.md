@@ -7,7 +7,7 @@ keywords:
 - text units,about
 - UI Automation,list of text units
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # UI Automation text units

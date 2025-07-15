@@ -3,7 +3,7 @@ title: UI Automation Element Interfaces for Clients
 description: This section describes the interfaces used by Microsoft UI Automation client to locate, access, and query UI Automation elements.
 ms.assetid: dd7cdcf1-3511-424f-b729-b71a7e11cdd8
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # UI Automation Element Interfaces for Clients

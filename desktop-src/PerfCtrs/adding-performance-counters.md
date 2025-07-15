@@ -3,7 +3,7 @@ description: Performance counters specific to your application can help you tune
 ms.assetid: 016386f6-4675-409e-8446-599e4ff96109
 title: Adding Performance Counters
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Adding Performance Counters

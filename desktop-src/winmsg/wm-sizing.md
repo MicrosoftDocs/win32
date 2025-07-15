@@ -3,7 +3,7 @@ description: Sent to a window that the user is resizing. By processing this mess
 ms.assetid: 8cf56194-8a10-48e1-b0eb-aa3d66896599
 title: WM_SIZING message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_SIZING message

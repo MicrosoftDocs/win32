@@ -9,7 +9,7 @@ keywords:
 - clients,Text control pattern
 - clients,TextRange control pattern
 ms.topic: concept-article
-ms.date: 12/09/2022
+ms.date: 07/14/2025
 ---
 
 # Working with UIAutomation and Text-based Controls

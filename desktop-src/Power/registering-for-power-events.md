@@ -3,7 +3,7 @@ description: Applications can better adapt their behavior to the current power s
 ms.assetid: 840390ca-d32a-4cf3-9e75-66322c7cdee0
 title: Registering for Power Events
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Registering for Power Events

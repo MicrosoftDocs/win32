@@ -3,7 +3,7 @@ description: The following example shows how a termination handler is used to en
 ms.assetid: 442af2a3-d62a-4dd8-a934-da69c1d2a738
 title: Using a Termination Handler
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Using a Termination Handler

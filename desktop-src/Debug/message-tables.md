@@ -3,7 +3,7 @@ description: Message tables are special string resources used when displaying er
 ms.assetid: db84f190-1d1e-4192-8dba-baaee0a3e3ea
 title: Message Tables
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Message Tables

@@ -3,7 +3,7 @@ description: SymStore (symstore.exe) is a tool for creating symbol stores. It is
 ms.assetid: fe8a96e9-e780-4e96-98ef-c5128515ee6c
 title: Using SymStore
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Using SymStore

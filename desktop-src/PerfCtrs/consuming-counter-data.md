@@ -3,7 +3,7 @@ description: 'You can consume performance data by using one of the following int
 ms.assetid: a42f6cdd-47e9-4f43-aeaf-37a5abb0fa36
 title: Consuming Counter Data
 ms.topic: concept-article
-ms.date: 08/17/2020
+ms.date: 07/14/2025
 ---
 
 # Consuming Counter Data
