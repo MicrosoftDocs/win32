@@ -3,7 +3,7 @@ description: Used to define private messages for use by private window classes, 
 ms.assetid: 4115c587-fcb4-4170-9948-fe33bcb8742a
 title: WM_USER (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_USER

@@ -13,7 +13,7 @@ keywords:
 - control patterns,Drag
 - control patterns,DropTarget
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # UI Automation Support for Drag-and-Drop

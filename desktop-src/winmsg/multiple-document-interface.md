@@ -3,7 +3,7 @@ description: This section discusses the Multiple Document Interface which is a s
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\multipledocumentinterface.htm'
 title: Multiple Document Interface
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Multiple Document Interface

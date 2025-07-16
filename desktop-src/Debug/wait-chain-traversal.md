@@ -3,7 +3,7 @@ description: Learn how to use wait chain traversal (WCT) to let debuggers diagno
 ms.assetid: d266a663-b101-4936-9574-f6ce223419ae
 title: Wait chain traversal
 ms.topic: concept-article
-ms.date: 02/06/2023
+ms.date: 07/14/2025
 ---
 
 # Wait chain traversal

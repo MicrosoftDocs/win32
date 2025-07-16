@@ -3,7 +3,7 @@ title: Active Accessibility Components
 description: This section describes Microsoft Active Accessibility programming components.
 ms.assetid: 9bbf2445-8663-4356-8cc3-cd8a1392ca06
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Active Accessibility Components

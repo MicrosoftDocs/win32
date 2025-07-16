@@ -3,7 +3,7 @@ description: Sent to a window after the SetWindowLong function has changed one o
 ms.assetid: 37bc4e1a-f75d-4851-8dee-97fa2da90254
 title: WM_STYLECHANGED message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_STYLECHANGED message

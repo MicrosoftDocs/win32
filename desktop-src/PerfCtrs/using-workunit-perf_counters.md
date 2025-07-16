@@ -3,7 +3,7 @@ description: How to use Work Unit performance counters. Work Unit performance co
 ms.assetid: 
 title: Using Work Unit performance counters
 ms.topic: how-to
-ms.date: 04/18/2022
+ms.date: 07/14/2025
 ---
 
 # Using Work Unit performance counters

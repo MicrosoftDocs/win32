@@ -3,7 +3,7 @@ description: Well-written applications include error-handling code that allows t
 ms.assetid: 'b8d84980-6ba9-4784-8ab0-d5e9c5c95bae'
 title: Error Handling (Error Handling)
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Error Handling (Error Handling)

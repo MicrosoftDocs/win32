@@ -3,7 +3,7 @@ description: To create a new query that collects performance data from a real-ti
 ms.assetid: 6fd4716e-b163-47a3-b0cb-5f9599f8681f
 title: Creating a Query
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Creating a Query

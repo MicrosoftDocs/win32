@@ -3,7 +3,7 @@ title: Description Property (Windows Accessibility features)
 description: An object's Description property provides a textual description about an object's visual appearance.
 ms.assetid: 1fe3221f-e1dd-44b2-b749-d00bee1b6b89
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Description Property (Windows Accessibility features)

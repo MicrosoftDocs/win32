@@ -3,7 +3,7 @@ description: The PdhVbOpenLog function opens the specified log file for reading 
 ms.assetid: d9b8d98c-64f2-4319-8ab2-67b776143cf7
 title: PdhVbOpenLog function
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - APIRef
 - kbSyntax

@@ -3,7 +3,7 @@ title: Microsoft Active Accessibility and UI Automation Compared
 description: This topic provides summarizes the main differences between Microsoft Active Accessibility and UI Automation.
 ms.assetid: ba963e53-6fb8-4bc1-8883-62547f52b0e2
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Microsoft Active Accessibility and UI Automation Compared

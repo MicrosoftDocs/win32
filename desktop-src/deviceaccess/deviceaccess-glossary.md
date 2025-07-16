@@ -4,7 +4,7 @@ description: The following are terms used throughout the documentation for the D
 Robots: noindex, nofollow
 ms.assetid: A6311538-D7CC-4A23-A145-14AF3BBFC4C4
 ms.topic: glossary
-ms.date: 02/11/2020
+ms.date: 07/14/2025
 ---
 
 # Device Access Glossary

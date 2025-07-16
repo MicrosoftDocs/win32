@@ -3,7 +3,7 @@ description: The PdhVbIsGoodStatus function tests a status value to determine if
 ms.assetid: bdca8f64-5dcd-4ecb-ba95-72f7a56c0439
 title: PdhVbIsGoodStatus function
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - APIRef
 - kbSyntax

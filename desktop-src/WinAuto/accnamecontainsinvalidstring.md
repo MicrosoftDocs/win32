@@ -3,7 +3,7 @@ title: AccNameContainsInvalidString
 description: AccNameContainsInvalidString
 ms.assetid: 392E4D10-4A8E-4118-B0E7-F74571812043
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # AccNameContainsInvalidString

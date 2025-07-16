@@ -3,7 +3,7 @@ description: This overview discusses features of windows such as window types, s
 ms.assetid: 8318c22f-85a2-490e-8233-ee1e234890d9
 title: Window Features
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Window Features

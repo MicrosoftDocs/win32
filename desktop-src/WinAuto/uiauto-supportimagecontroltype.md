@@ -20,7 +20,7 @@ keywords:
 - control types,support for Image
 - control types,Image
 ms.topic: reference
-ms.date: 10/08/2019
+ms.date: 07/14/2025
 ---
 
 # Image Control Type

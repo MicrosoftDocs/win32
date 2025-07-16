@@ -3,7 +3,7 @@ description: Implement multitasking, schedule priorities, and work with processe
 ms.assetid: '6bff848c-0c55-41e7-aff1-84c6b21a1b8d'
 title: Processes and Threads
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Processes and Threads

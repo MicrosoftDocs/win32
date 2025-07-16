@@ -3,7 +3,7 @@ description: Allows an application to query the available CPU Sets on the system
 ms.assetid: 168B00AB-1B11-44A0-B548-903CA3F4BBDE
 title: GetSystemCpuSetInformation function (Processthreadapi.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type:
 - APIRef
 - kbSyntax

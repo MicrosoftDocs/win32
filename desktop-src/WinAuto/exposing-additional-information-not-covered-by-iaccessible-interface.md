@@ -3,7 +3,7 @@ title: Exposing Additional Information Not Covered by IAccessible Interface
 description: Depending on their products, server developers might need to expose information or functionality in addition to Microsoft Active Accessibility support.
 ms.assetid: c45009ca-6be3-4645-9097-36671a41dfce
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Exposing Additional Information Not Covered by IAccessible Interface

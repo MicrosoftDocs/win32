@@ -3,7 +3,7 @@ description: The symbol handler functions give applications easy and portable ac
 ms.assetid: 74d2a392-0aaa-4d51-bb5b-2a5278235a03
 title: Symbol Handling
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Symbol Handling

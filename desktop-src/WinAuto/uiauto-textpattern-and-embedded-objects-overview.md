@@ -16,7 +16,7 @@ keywords:
 - embedded objects
 - exposing embedded objects
 ms.topic: concept-article
-ms.date: 08/31/2019
+ms.date: 07/14/2025
 ---
 
 # How UI Automation Exposes Embedded Objects

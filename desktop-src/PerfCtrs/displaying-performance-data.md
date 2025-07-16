@@ -3,7 +3,7 @@ description: Most counters require two sample values in order to compute a displ
 ms.assetid: 75e45baf-51c5-400c-a31f-92bdab4ee492
 title: Displaying Performance Data
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Displaying Performance Data

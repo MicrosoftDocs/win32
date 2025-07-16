@@ -3,7 +3,7 @@ description: Posted to an application when a user cancels the application's jour
 ms.assetid: 7515acb5-4526-40f7-abb7-822a073ac7dc
 title: WM_CANCELJOURNAL message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_CANCELJOURNAL message

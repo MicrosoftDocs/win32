@@ -4,7 +4,7 @@ description: You can view useful information about an Event Collector subscripti
 ms.assetid: 984e21cf-3671-4aca-9e8e-bcad1fa2f02c
 ms.tgt_platform: multiple
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Display event collector subscription properties

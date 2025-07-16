@@ -3,7 +3,7 @@ description: With thread local storage (TLS), you can provide unique data for ea
 ms.assetid: 40df7410-64d6-4edd-8009-d9c3d2aca920
 title: Thread Local Storage
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Thread Local Storage

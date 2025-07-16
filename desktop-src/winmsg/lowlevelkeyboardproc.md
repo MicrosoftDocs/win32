@@ -4,7 +4,7 @@ title: LowLevelKeyboardProc callback function
 description: The system calls this function every time a new keyboard input event is about to be posted into a thread input queue.
 old-location: 
 ms.assetid: na
-ms.date: 06/29/2023
+ms.date: 07/14/2025
 ms.keywords: 
 ms.topic: reference
 req.header: 

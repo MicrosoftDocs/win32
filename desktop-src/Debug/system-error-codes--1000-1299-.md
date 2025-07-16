@@ -3,7 +3,7 @@ description: Describes error codes 1000-1299 defined in the WinError.h header fi
 ms.assetid: 0061feb6-e1a0-4fcd-8f80-954087c799d7
 title: System Error Codes (1000-1299) (WinError.h)
 ms.topic: reference
-ms.date: 07/15/2024
+ms.date: 07/14/2025
 ---
 
 # System Error Codes (1000-1299)

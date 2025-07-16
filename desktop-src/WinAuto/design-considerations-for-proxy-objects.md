@@ -3,7 +3,7 @@ title: Design Considerations for Proxy Objects
 description: Proxy and accessible object design depends on the design of the server UI elements. Regardless of the design, a UI element must notify its proxy object right before it is destroyed so that the proxy object handles calls from clients appropriately.
 ms.assetid: 83a9ff66-2fe6-4589-a187-cdaf207b02b8
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Design Considerations for Proxy Objects

@@ -3,7 +3,7 @@ description: Source server enables a client to retrieve the exact version of the
 ms.assetid: c7bf51ce-7fb4-49aa-ad33-e551b2c8362b
 title: Source Server
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Source Server

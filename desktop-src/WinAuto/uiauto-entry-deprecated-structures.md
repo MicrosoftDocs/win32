@@ -3,7 +3,7 @@ title: Deprecated Structures
 description: Note The structures described in this section are used with the UI Automation node functions, which have been deprecated.
 ms.assetid: fedf7940-2052-4cd8-81fa-4dad6f6a76e0
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Deprecated Structures

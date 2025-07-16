@@ -3,7 +3,7 @@ title: AccessibleObjectFromPointReturnedNullIAccessible
 description: AccessibleObjectFromPointReturnedNullIAccessible
 ms.assetid: DF786659-8ADC-4EB0-A606-8B80C139691A
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # AccessibleObjectFromPointReturnedNullIAccessible

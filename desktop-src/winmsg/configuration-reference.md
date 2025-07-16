@@ -3,7 +3,7 @@ description: "Learn more about: Configuration Reference"
 ms.assetid: e61640f7-d206-494a-a3af-f9fa32c87816
 title: Configuration Reference
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Configuration Reference

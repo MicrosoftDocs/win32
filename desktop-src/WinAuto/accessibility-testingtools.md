@@ -2,7 +2,7 @@
 description: Overview of how to use UI Automation and other tools to test your apps.
 title: Testing for accessibility
 ms.topic: concept-article
-ms.date: 10/18/2023
+ms.date: 07/14/2025
 ---
 
 # Testing for accessibility

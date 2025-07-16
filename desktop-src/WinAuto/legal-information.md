@@ -3,7 +3,7 @@ title: Legal Information (Windows Accessibility features)
 description: Legal Information
 ms.assetid: 116025d2-840f-4498-9f8e-52e510373ed8
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Legal Information (Windows Accessibility features)

@@ -3,7 +3,7 @@ description: Terminating a process has the following results:Any remaining threa
 ms.assetid: af24d157-2719-4052-8029-1eb8010047cc
 title: Terminating a Process
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Terminating a Process

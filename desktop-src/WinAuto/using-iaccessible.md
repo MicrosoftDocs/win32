@@ -3,7 +3,7 @@ title: Using the IAccessible Interface
 description: The IAccessible interface is a collection of methods that expose the most common attributes and behaviors of a wide range of UI elements.
 ms.assetid: 82f6e934-58ea-47f2-98a3-2ab1c20f24c3
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Using the IAccessible Interface

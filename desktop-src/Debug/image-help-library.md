@@ -3,7 +3,7 @@ description: This overview describes the function set provided by the ImageHlp D
 ms.assetid: 45579485-a129-4c42-ab76-a7f57d79b46a
 title: Image Help Library
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Image Help Library

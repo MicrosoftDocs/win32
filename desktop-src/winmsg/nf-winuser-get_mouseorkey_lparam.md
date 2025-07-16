@@ -1,10 +1,10 @@
-﻿---
+---
 UID: NF:winuser.GET_MOUSEORKEY_LPARAM
 title: GET_MOUSEORKEY_LPARAM macro (winuser.h)
 description: Retrieves the input device type from the specified LPARAM value.
 helpviewer_keywords: ["GET_MOUSEORKEY_LPARAM","GET_MOUSEORKEY_LPARAM macro [Keyboard and Mouse Input]","_win32_GET_MOUSEORKEY_LPARAM","_win32_get_mouseorkey_lparam_cpp","inputdev.get_mouseorkey_lparam","winui._win32_get_mouseorkey_lparam","winuser/GET_MOUSEORKEY_LPARAM"]
 tech.root: inputdev
-ms.date: 06/23/2023
+ms.date: 07/14/2025
 ms.topic: reference
 ms.keywords: GET_MOUSEORKEY_LPARAM, GET_MOUSEORKEY_LPARAM macro [Keyboard and Mouse Input], _win32_GET_MOUSEORKEY_LPARAM, _win32_get_mouseorkey_lparam_cpp, inputdev.get_mouseorkey_lparam, winui._win32_get_mouseorkey_lparam, winuser/GET_MOUSEORKEY_LPARAM
 req.header: winuser.h

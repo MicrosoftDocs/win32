@@ -3,7 +3,7 @@ description: Indicates a request to terminate an application, and is generated w
 ms.assetid: a9bff5dc-cab8-4e08-838e-d92c87c265d6
 title: WM_QUIT message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_QUIT message

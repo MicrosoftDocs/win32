@@ -3,7 +3,7 @@ description: Sent after a window has been moved.
 ms.assetid: 552ddc26-fe63-449b-8c82-bb927a2c1c41
 title: WM_MOVE message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_MOVE message

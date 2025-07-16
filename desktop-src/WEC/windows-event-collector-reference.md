@@ -4,7 +4,7 @@ description: The following table lists the sections in the Windows Event Collect
 ms.assetid: badc0f00-0979-4a94-9ea6-6f2077119db2
 ms.tgt_platform: multiple
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Windows Event Collector Reference

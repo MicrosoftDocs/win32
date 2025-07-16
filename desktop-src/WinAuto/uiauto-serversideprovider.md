@@ -18,7 +18,7 @@ keywords:
 - implementing server-side providers
 - implementing providers
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Implement a Server-Side UI Automation Provider

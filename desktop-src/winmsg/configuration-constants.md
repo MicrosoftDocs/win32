@@ -3,7 +3,7 @@ description: This section provides the reference specifications for SystemParame
 ms.assetid: E9E2FB97-D63B-419A-AC9C-C9AC9E9B5BE0
 title: Configuration Constants
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Configuration Constants

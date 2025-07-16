@@ -3,7 +3,7 @@ title: Mouse Input Macros
 description: Mouse Input Macros
 ms.assetid: 0c90dea6-18a9-4d6a-80a4-847d5c4e815b
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Mouse Input Macros

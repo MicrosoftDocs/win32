@@ -3,7 +3,7 @@ description: 'The following message is used with power management:'
 ms.assetid: 8603503b-35a2-4d68-a38f-7dac5658d4e7
 title: Power Management Messages
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Power Management Messages

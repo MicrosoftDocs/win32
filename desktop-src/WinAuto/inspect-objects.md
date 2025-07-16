@@ -6,7 +6,7 @@ keywords:
 - Inspect Tool
 - Accessibility
 ms.topic: concept-article
-ms.date: 02/09/2023
+ms.date: 07/14/2025
 ---
 
 # Accessibility tools - Inspect

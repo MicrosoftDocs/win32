@@ -3,7 +3,7 @@ description: This topic lists structures that are used with processes, threads, 
 ms.assetid: dbb50193-4c67-494e-9c46-2ac3106fac9a
 title: Process and Thread Structures
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Process and Thread Structures

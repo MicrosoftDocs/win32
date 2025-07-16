@@ -3,7 +3,7 @@ description: A debugger is an application that enables a developer to observe an
 ms.assetid: '29596d47-180b-4083-837b-1ee75d6ffa2c'
 title: Basic Debugging
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Basic Debugging

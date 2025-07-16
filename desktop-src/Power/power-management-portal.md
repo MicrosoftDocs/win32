@@ -3,7 +3,7 @@ description: Manage power to extend battery life, save energy, reduce heat and n
 ms.assetid: ba917d15-bbdb-46fe-9ad8-56a8837f7b2d
 title: Power Management (Power Management)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Power Management

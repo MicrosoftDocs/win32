@@ -3,7 +3,7 @@ description: The CounterData table contains a row for each counter that is colle
 ms.assetid: 1253a9c7-b440-4ff2-b68c-c52b9b42a58b
 title: CounterData
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # CounterData

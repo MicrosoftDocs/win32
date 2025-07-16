@@ -3,7 +3,7 @@ description: Used to define private messages, usually of the form WM\_APP+x, whe
 ms.assetid: fdb549df-426f-4af5-9c17-6e8730e4abc0
 title: WM_APP (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_APP

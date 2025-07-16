@@ -3,7 +3,7 @@ title: BoundingRectIsIncorrect
 description: BoundingRectIsIncorrect
 ms.assetid: 29D3EFB4-204D-419E-B241-25C8BAE28C11
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # BoundingRectIsIncorrect

@@ -3,7 +3,7 @@ description: The PdhVbGetOneCounterPath function displays a dialog box that lets
 ms.assetid: a42406ef-70e0-464d-90f8-fef9e1c3471d
 title: PdhVbGetOneCounterPath function
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - APIRef
 - kbSyntax

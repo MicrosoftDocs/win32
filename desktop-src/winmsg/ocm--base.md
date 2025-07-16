@@ -3,7 +3,7 @@ description: Used to define private messages for use by private window classes, 
 ms.assetid: b1a9c0ca-349d-49d2-9b8b-ae7d3bf94c10
 title: OCM__BASE (Olectl.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # OCM\_\_BASE

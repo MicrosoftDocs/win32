@@ -3,7 +3,7 @@ description: After a symbol file has been loaded into the symbol handler, an app
 ms.assetid: bfc068e1-eced-4ab2-80a3-acc2ed07c841
 title: Finding Symbols
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Finding Symbols

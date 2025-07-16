@@ -3,7 +3,7 @@ title: AccessibleObjectFromPointReturnedNullChildId
 description: AccessibleObjectFromPointReturnedNullChildId
 ms.assetid: 20511B76-736B-4B43-8DC3-4306DF74CF73
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # AccessibleObjectFromPointReturnedNullChildId

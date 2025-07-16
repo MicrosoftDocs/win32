@@ -3,7 +3,7 @@ description: Window Constants
 ms.assetid: '8fde7460-bbe0-4064-ba36-ada7f5c5e37f'
 title: Window Constants
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Window Constants

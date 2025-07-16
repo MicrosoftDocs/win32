@@ -4,7 +4,7 @@ title: LowLevelMouseProc callback function
 description: The system calls this function every time a new mouse input event is about to be posted into a thread input queue.
 old-location: 
 ms.assetid: na
-ms.date: 04/05/2019
+ms.date: 07/14/2025
 ms.keywords: 
 ms.topic: reference
 req.header: 

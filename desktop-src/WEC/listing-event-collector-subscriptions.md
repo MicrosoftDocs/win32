@@ -4,7 +4,7 @@ description: You can retrieve a list of names of Event Collector subscriptions t
 ms.assetid: b44fc694-b94a-4fc5-95d1-72afb016ad72
 ms.tgt_platform: multiple
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Listing Event Collector Subscriptions

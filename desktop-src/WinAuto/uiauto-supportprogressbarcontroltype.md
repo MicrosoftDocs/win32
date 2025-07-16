@@ -20,7 +20,7 @@ keywords:
 - control types,support for ProgressBar
 - control types,ProgressBar
 ms.topic: reference
-ms.date: 12/04/2019
+ms.date: 07/14/2025
 ---
 
 # ProgressBar Control Type

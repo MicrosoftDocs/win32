@@ -3,7 +3,7 @@ description: This topic describes the types of window classes, how the system lo
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\window_89windowclasse.htm'
 title: Window Classes (Windows and Messages)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Window Classes (Windows and Messages)

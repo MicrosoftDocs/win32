@@ -3,7 +3,7 @@ description: Any thread can create a window.
 ms.assetid: 27f04f9f-52d9-46d6-8e06-9b032682b7c7
 title: Creating Windows in Threads
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Creating Windows in Threads

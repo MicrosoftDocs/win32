@@ -3,7 +3,7 @@ title: Size Grip (MSAA UI Element Reference)
 description: The size grip is a special mouse pointer in the lower-right corner of a window that allows a user to click and drag the size grip to resize the window.
 ms.assetid: 886b27b3-e88d-47a1-85f3-a55bd14c7a7c
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Size Grip (MSAA UI Element Reference)

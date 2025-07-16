@@ -3,7 +3,7 @@ description: The system broadcasts a message to all applications and installable
 ms.assetid: a64ed11a-43d6-41f7-aabd-5dca2a2b4a12
 title: WM_POWERBROADCAST Messages
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_POWERBROADCAST Messages

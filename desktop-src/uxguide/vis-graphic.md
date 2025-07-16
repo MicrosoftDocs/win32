@@ -127,7 +127,7 @@ In these examples, resize pointers are shown on hover.
 -   Check your program in both 96 and 120 dpi for:
     -   Graphics that are too small or too large.
     -   Graphics being clipped, overlapped, or otherwise not fitting properly.
-    -   Graphics that are poorly stretched ("pixilated").
+    -   Graphics that are poorly stretched ("pixelated").
     -   Text that is clipped or not fitting in graphic backgrounds.
 
 ## Text

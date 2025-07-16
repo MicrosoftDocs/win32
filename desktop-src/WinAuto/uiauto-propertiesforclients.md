@@ -14,7 +14,7 @@ keywords:
 - UI Automation,retrieving properties
 - retrieving properties
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Retrieving Properties from UI Automation Elements

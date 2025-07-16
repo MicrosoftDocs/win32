@@ -3,7 +3,7 @@ description: The following code examples demonstrate how to perform the followin
 ms.assetid: 62b4616c-37bf-4d9f-8891-7010c7035d18
 title: Using Messages and Message Queues
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Using Messages and Message Queues

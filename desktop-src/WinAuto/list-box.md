@@ -3,7 +3,7 @@ title: List Box (MSAA UI Element Reference)
 description: List boxes display a list from which a user can select one or more items. A list box is created with a vertical scroll bar, a horizontal control bar, or both.
 ms.assetid: a3ca2c91-17bf-41a4-b9bb-a13e080da199
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # List Box (MSAA UI Element Reference)

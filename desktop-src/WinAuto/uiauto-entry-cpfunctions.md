@@ -3,7 +3,7 @@ title: Deprecated Control Pattern Functions
 description: Deprecated Control Pattern Functions
 ms.assetid: 06434b07-7592-4909-8c4e-064382bdbf98
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Deprecated Control Pattern Functions

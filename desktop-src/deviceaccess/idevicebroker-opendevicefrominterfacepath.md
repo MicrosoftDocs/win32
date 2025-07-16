@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 02/11/2020
+ms.date: 07/14/2025
 api_location: 
 ROBOTS: INDEX,FOLLOW
 ---

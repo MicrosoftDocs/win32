@@ -3,7 +3,7 @@ description: The OutputDebugString function sends a string from the process bein
 ms.assetid: d9e1d565-fb76-4d91-8aa7-4ff0ff31f71f
 title: Communicating with the Debugger
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Communicating with the Debugger

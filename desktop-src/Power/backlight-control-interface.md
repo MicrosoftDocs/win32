@@ -3,7 +3,7 @@ description: The backlight control interface is a standardized IOCTL interface f
 ms.assetid: edf2b7ed-2676-483a-80ba-f148951e0e58
 title: Backlight Control Interface
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Backlight Control Interface

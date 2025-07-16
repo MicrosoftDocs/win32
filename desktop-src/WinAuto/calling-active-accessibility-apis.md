@@ -3,7 +3,7 @@ title: Calling Active Accessibility APIs
 description: Microsoft Active Accessibility provides application programming interfaces (APIs) for both clients and servers.
 ms.assetid: c40441d2-7294-4c76-8b42-08ed66eccb7e
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Calling Active Accessibility APIs

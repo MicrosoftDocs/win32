@@ -3,7 +3,7 @@ description: This specification describes the structure of executable (image) fi
 ms.assetid: 3dbfbf7f-6662-45a4-99f1-e0e24c370dee
 title: PE Format
 ms.topic: reference
-ms.date: 02/20/2025
+ms.date: 07/14/2025
 ---
 
 # PE Format
@@ -127,6 +127,8 @@ The Machine field has one of the following values, which specify the CPU type. A
 | IMAGE\_FILE\_MACHINE\_AMD64 <br/>     | 0x8664 <br/> | x64 <br/>                                                                         |
 | IMAGE\_FILE\_MACHINE\_ARM <br/>       | 0x1c0 <br/>  | ARM little endian <br/>                                                           |
 | IMAGE\_FILE\_MACHINE\_ARM64 <br/>     | 0xaa64 <br/> | ARM64 little endian <br/>                                                         |
+| IMAGE\_FILE\_MACHINE\_ARM64EC <br/>     | 0xA641 <br/> | ABI that enables interoperability between native ARM64 and emulated x64 code. <br/>                                                         |
+| IMAGE\_FILE\_MACHINE\_ARM64X <br/>     | 0xA64E <br/> | Binary format that allows both native ARM64 and ARM64EC code to coexist in the same file.  <br/>                                                         |
 | IMAGE\_FILE\_MACHINE\_ARMNT <br/>     | 0x1c4 <br/>  | ARM Thumb-2 little endian <br/>                                                   |
 | IMAGE\_FILE\_MACHINE\_AXP64 <br/>     | 0x284 <br/>  | AXP 64 (Same as Alpha 64) <br/>                                                   |
 | IMAGE\_FILE\_MACHINE\_EBC <br/>       | 0xebc <br/>  | EFI byte code <br/>                                                               |

@@ -3,7 +3,7 @@ description: A thread pool is a collection of worker threads that efficiently ex
 ms.assetid: abe0798a-0b60-4bdb-a61e-45393f1e958d
 title: Thread Pools
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Thread Pools

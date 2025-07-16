@@ -3,7 +3,7 @@ description: The following code cleans up all memory associated with symbol hand
 ms.assetid: 270a1984-9e66-4dd2-accb-d715287f1ec0
 title: Terminating the Symbol Handler
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Terminating the Symbol Handler

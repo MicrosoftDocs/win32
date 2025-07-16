@@ -3,7 +3,7 @@ description: As long as the system determines that there is user or application 
 ms.assetid: 83c9394a-1813-405a-802a-0623e5de50d3
 title: System Sleep Criteria
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # System Sleep Criteria

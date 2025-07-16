@@ -14,7 +14,7 @@ keywords:
 - control patterns,LegacyIAccessible
 - interfaces,ILegacyIAccessibleProvider
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # LegacyIAccessible Control Pattern

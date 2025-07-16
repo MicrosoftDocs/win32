@@ -3,7 +3,7 @@ description: Only the administrator of the computer or users in the Performance 
 ms.assetid: 85c5f38f-d8d7-4203-adc0-4869d6078351
 title: Limited User Access Support
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Limited User Access Support
