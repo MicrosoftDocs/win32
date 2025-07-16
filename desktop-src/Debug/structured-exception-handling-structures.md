@@ -3,7 +3,7 @@ description: 'The following structures are used with structured exception handli
 ms.assetid: 54bdfb3a-dbb8-4238-9fb7-7a96922543bf
 title: Structured Exception Handling Structures
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Structured Exception Handling Structures

@@ -14,7 +14,7 @@ keywords:
 - control patterns,dock
 - interfaces,IDockProvider
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Dock Control Pattern

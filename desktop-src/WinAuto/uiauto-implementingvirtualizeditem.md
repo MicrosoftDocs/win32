@@ -14,7 +14,7 @@ keywords:
 - control patterns,VirtualizedItem
 - interfaces,IVirtualizedItemProvider
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # VirtualizedItem Control Pattern

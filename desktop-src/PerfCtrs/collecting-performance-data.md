@@ -3,7 +3,7 @@ description: After creating a query and adding counters to it, call the PdhColle
 ms.assetid: 2534d387-a280-4716-9a9d-3e42f40e2f92
 title: Collecting Performance Data
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Collecting Performance Data

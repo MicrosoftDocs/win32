@@ -8,7 +8,7 @@ keywords:
 - clients,text ranges
 - clients,TextRange control pattern
 ms.topic: concept-article
-ms.date: 12/13/2022
+ms.date: 07/14/2025
 ---
 
 # Using IUIAutomationTextRange to Access and Manipulate a Text Range

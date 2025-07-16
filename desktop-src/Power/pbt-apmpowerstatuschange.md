@@ -3,7 +3,7 @@ description: Notifies applications of a change in the power status of the comput
 ms.assetid: dc56fee3-e0df-4f8e-8a41-92460279280a
 title: PBT_APMPOWERSTATUSCHANGE event (WinUser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # PBT_APMPOWERSTATUSCHANGE event

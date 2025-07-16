@@ -3,7 +3,7 @@ description: When a new thread is created by the CreateThread or CreateRemoteThr
 ms.assetid: ff91fe27-9773-4185-bc1e-57e897be3821
 title: Thread Handles and Identifiers
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Thread Handles and Identifiers

@@ -3,7 +3,7 @@ title: Implement the Device Access Object
 description: This topic explains how to instantiate the device access object and use it to access a device.
 ms.assetid: 26619A25-67FE-44DC-82DD-36076326748D
 ms.topic: how-to
-ms.date: 02/11/2020
+ms.date: 07/14/2025
 ---
 
 # Implement the Device Access Object

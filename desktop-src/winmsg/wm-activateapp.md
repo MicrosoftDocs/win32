@@ -3,7 +3,7 @@ description: Sent when a window belonging to a different application than the ac
 ms.assetid: fc3626ac-8f19-4aa6-8fe9-5020d00c09db
 title: WM_ACTIVATEAPP message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_ACTIVATEAPP message

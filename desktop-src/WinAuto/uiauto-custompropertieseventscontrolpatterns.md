@@ -12,7 +12,7 @@ keywords:
 - events,about
 - control patterns,about
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Custom Properties, Events, and Control Patterns

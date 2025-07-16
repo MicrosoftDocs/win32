@@ -5,7 +5,7 @@ ms.assetid: E3CCA500-7104-4163-927C-94EA8F1E89D8
 keywords:
 - AriaContainerWithoutActiveDescendantTabIndexErrorId
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # ARIA Container Role (without active descendant) Tabindex Error

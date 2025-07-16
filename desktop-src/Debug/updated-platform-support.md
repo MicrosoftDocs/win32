@@ -3,7 +3,7 @@ description: Where necessary, the DbgHelp library has been widened to support bo
 ms.assetid: 34ec8cd3-3260-441d-b55f-4ea21c736eb1
 title: Updated Platform Support
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Updated Platform Support

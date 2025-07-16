@@ -3,7 +3,7 @@ description: The symbol handler will load symbols when you call the SymInitializ
 ms.assetid: 'fae1895e-9fed-45e3-8ecf-4c6cc67a6094'
 title: Symbol Loading
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Symbol Loading

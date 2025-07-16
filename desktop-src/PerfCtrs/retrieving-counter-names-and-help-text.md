@@ -3,7 +3,7 @@ description: The performance data contains index values that you use to locate t
 ms.assetid: 9ddd1672-61cf-41c2-bec0-0d2b775bf970
 title: Retrieving Counter Names and Help Text
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Retrieving Counter Names and Help Text

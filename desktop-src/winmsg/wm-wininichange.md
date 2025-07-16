@@ -3,7 +3,7 @@ description: An application sends the WM\_WININICHANGE message to all top-level 
 ms.assetid: 402f8d71-ad52-486d-be26-8b41a3f22045
 title: WM_WININICHANGE message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_WININICHANGE message

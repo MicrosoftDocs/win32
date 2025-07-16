@@ -3,7 +3,7 @@ description: This section explains how to perform the following tasks associated
 ms.assetid: cdf196ec-300c-4c7b-8a4f-68088c4a2507
 title: Using Window Properties
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Using Window Properties

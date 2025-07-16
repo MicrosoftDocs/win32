@@ -3,7 +3,7 @@ title: Keyboard Input Notifications
 description: Keyboard Input Notifications
 ms.assetid: dbce37a4-e84d-4719-8e9d-038a9847a6a0
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Keyboard Input Notifications

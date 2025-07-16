@@ -4,7 +4,7 @@ description: You can subscribe to receive events on a local computer (the event 
 ms.assetid: 76f14e01-7a84-4c94-aea6-91189573eb89
 ms.tgt_platform: multiple
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Creating a Collector Initiated Subscription

@@ -3,7 +3,7 @@ description: When a hardware or software exception occurs, the processor stops e
 ms.assetid: 35a1b9bd-8da9-47e6-beda-e0b159bd840d
 title: Exception Dispatching
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Exception Dispatching

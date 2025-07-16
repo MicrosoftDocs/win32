@@ -3,7 +3,7 @@ description: The \_\_try and \_\_finally keywords are used to construct a termin
 ms.assetid: fbaf8890-2516-4b60-be57-464f91f2a38a
 title: Termination-Handler Syntax
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Termination-Handler Syntax

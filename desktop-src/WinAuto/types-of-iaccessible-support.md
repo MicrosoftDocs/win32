@@ -3,7 +3,7 @@ title: Types of IAccessible Support
 description: Types of IAccessible Support
 ms.assetid: 4a61d9a4-3c05-4f12-bdf1-426223b679b5
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Types of IAccessible Support

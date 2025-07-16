@@ -3,7 +3,7 @@ description: This section explains how to perform the following tasks associated
 ms.assetid: acc68991-4689-44dc-8547-a7b6153b0f62
 title: Using Window Procedures
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Using Window Procedures

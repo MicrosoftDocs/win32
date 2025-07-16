@@ -3,7 +3,7 @@ description: Sent to a window when the size or position of the window is about t
 ms.assetid: af2295e0-2d0b-4ac0-b689-16138022f4b7
 title: WM_GETMINMAXINFO message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_GETMINMAXINFO message

@@ -3,7 +3,7 @@ description: Retrieves the batterys current tag.
 ms.assetid: 0bbe59ba-e037-47ce-a54a-6500ea7c9bc5
 title: IOCTL_BATTERY_QUERY_TAG control code (Poclass.h)
 ms.topic: reference
-ms.date: 01/11/2022
+ms.date: 07/14/2025
 topic_type:
 - APIRef
 - kbSyntax

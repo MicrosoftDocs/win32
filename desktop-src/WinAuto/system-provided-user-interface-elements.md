@@ -3,7 +3,7 @@ title: System-Provided User Interface Elements
 description: Microsoft Active Accessibility provides support for most predefined and common controls.
 ms.assetid: 6b5b24e1-db08-45f7-8a85-aa28d3e55ebf
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # System-Provided User Interface Elements

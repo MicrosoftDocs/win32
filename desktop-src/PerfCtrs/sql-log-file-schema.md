@@ -3,7 +3,7 @@ description: Applications can use PDH to extract performance counters from SQL l
 ms.assetid: 89515dd9-2d65-4b19-bb7a-ef9e7d146caa
 title: SQL Log File Schema
 ms.topic: reference
-ms.date: 08/17/2020
+ms.date: 07/14/2025
 ---
 
 # SQL Log File Schema

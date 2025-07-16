@@ -3,7 +3,7 @@ title: How Active Accessibility Works
 description: Microsoft Active Accessibility is designed to help accessibility aids, called clients, interact with standard and custom UI elements of other applications and the operating system.
 ms.assetid: 29325f0a-c6ca-42b1-b85d-2671f7041034
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # How Active Accessibility Works

@@ -3,7 +3,7 @@ description: To enhance performance, access to graphics device interface (GDI) o
 ms.assetid: aefb6a0b-ca00-4951-a173-8d7806b5d4e7
 title: Multiple Threads and GDI Objects
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Multiple Threads and GDI Objects

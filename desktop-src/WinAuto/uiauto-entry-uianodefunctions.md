@@ -3,7 +3,7 @@ title: Deprecated Node Functions
 description: Deprecated Node Functions
 ms.assetid: 72833757-a356-4727-8fc8-77a60e26aa99
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Deprecated Node Functions

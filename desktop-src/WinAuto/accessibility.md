@@ -2,7 +2,7 @@
 description: The Windows accessibility and automation documentation provides information for developers seeking to create and test accessible Windows apps that can be used by as many people as possible, including those with impairments or disabilities.
 title: Accessible Windows apps
 ms.topic: reference
-ms.date: 10/17/2023
+ms.date: 07/14/2025
 ---
 
 # Accessibility and automation for Windows developers

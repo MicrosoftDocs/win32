@@ -3,7 +3,7 @@ title: AccNameLengthTooLong
 description: AccNameLengthTooLong
 ms.assetid: 68997AE9-91FC-4DAD-8356-FEE6C6919939
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # AccNameLengthTooLong

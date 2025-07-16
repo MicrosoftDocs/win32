@@ -3,7 +3,7 @@ title: InvalidRole
 description: InvalidRole
 ms.assetid: B0707B90-59D6-4F86-8CBB-1DF57FDBEE31
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # InvalidRole

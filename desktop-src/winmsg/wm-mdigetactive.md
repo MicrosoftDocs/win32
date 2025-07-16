@@ -3,7 +3,7 @@ description: An application sends the WM\_MDIGETACTIVE message to a multiple-doc
 ms.assetid: 3ee445be-dd55-4825-8508-fa18a346ffcd
 title: WM_MDIGETACTIVE message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_MDIGETACTIVE message

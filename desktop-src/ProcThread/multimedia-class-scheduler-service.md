@@ -3,7 +3,7 @@ description: The Multimedia Class Scheduler service (MMCSS) enables multimedia a
 ms.assetid: a7169938-1c72-4c4c-881a-cb08ad6182c7
 title: Multimedia Class Scheduler Service
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Multimedia Class Scheduler Service

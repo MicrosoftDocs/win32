@@ -11,7 +11,7 @@ api_location:
 api_type:
 - DllExport
 ms.topic: reference
-ms.date: 03/12/2024
+ms.date: 07/14/2025
 ---
 
 # RtlSetImageMitigationPolicy

@@ -3,7 +3,7 @@ description: Priority inversion occurs when two or more threads with different p
 ms.assetid: 1cb2f3c9-4641-40d8-892c-768abaf6affb
 title: Priority Inversion
 ms.topic: reference
-ms.date: 03/12/2024
+ms.date: 07/14/2025
 ---
 
 # Priority Inversion

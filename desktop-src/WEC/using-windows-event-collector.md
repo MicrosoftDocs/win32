@@ -4,7 +4,7 @@ description: This section lists the topics that explain the tasks that can be ac
 ms.assetid: 3396454a-4f43-45d0-951e-3096b9a4a077
 ms.tgt_platform: multiple
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Using Windows Event Collector

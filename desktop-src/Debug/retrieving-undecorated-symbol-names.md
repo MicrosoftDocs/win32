@@ -3,7 +3,7 @@ description: The following code demonstrates how to retrieve an undecorated symb
 ms.assetid: fcb0591a-dac3-45eb-b4c0-4a35c42450e5
 title: Retrieving Undecorated Symbol Names
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Retrieving Undecorated Symbol Names

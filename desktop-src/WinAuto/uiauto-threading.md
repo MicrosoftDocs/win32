@@ -15,7 +15,7 @@ keywords:
 - threading issues
 - event handler threading model
 ms.topic: concept-article
-ms.date: 07/09/2024
+ms.date: 07/14/2025
 ---
 
 # Understanding Threading Issues

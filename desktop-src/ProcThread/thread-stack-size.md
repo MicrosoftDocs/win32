@@ -3,7 +3,7 @@ description: Each new thread or fiber receives its own stack space consisting of
 ms.assetid: abb2d5c1-040b-4c36-aae5-3517b6a8c540
 title: Thread Stack Size
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Thread Stack Size

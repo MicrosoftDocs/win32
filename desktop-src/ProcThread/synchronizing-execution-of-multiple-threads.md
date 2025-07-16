@@ -3,7 +3,7 @@ description: To avoid race conditions and deadlocks, it is necessary to synchron
 ms.assetid: 74af0502-dae1-438c-8e4b-7663093b3fe3
 title: Synchronizing Execution of Multiple Threads
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Synchronizing Execution of Multiple Threads

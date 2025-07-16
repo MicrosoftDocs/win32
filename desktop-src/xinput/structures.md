@@ -3,7 +3,7 @@ title: Structures (XInput Game Controller APIs)
 description: Available XInput Structures.
 ms.assetid: 89bb00ea-0be3-9619-1629-a7b7894302d5
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Structures (XInput Game Controller APIs)

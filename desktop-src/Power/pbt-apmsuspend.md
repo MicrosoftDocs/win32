@@ -3,7 +3,7 @@ description: Notifies applications that the computer is about to enter a suspend
 ms.assetid: 61b177a0-4cff-4740-bed8-a46c06c43be8
 title: PBT_APMSUSPEND event (WinUser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # PBT_APMSUSPEND event

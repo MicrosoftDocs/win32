@@ -3,7 +3,7 @@ description: Sent one time to a window after it enters the moving or sizing moda
 ms.assetid: fe09db71-2c79-47f2-b575-516e960915d4
 title: WM_ENTERSIZEMOVE message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_ENTERSIZEMOVE message

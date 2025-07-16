@@ -3,7 +3,7 @@ description: It is possible to write your own symbol store creation program, rat
 ms.assetid: 5ccd0e41-3ae7-44b1-a72e-f59963340731
 title: Using Other Symbol Stores
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Using Other Symbol Stores

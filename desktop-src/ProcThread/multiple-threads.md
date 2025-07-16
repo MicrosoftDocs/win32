@@ -3,7 +3,7 @@ description: A thread is the entity within a process that can be scheduled for e
 ms.assetid: a78c17dc-d5d9-4baf-8770-597b04fa3fa8
 title: Multiple Threads
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Multiple Threads

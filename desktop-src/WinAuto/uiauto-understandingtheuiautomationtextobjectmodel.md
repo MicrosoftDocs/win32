@@ -9,7 +9,7 @@ keywords:
 - clients,Text control pattern
 - clients,TextRange control pattern
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Understanding the UI Automation Text Object Model

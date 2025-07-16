@@ -3,7 +3,7 @@ description: Retrieves a specified number of random bytes from the user-mode per
 ms.assetid: 5226f843-b919-4a23-86c1-ff85cec7184c
 title: ProcessPrng function
 ms.topic: reference
-ms.date: 02/14/2025
+ms.date: 07/14/2025
 topic_type: 
 - APIRef
 - kbSyntax
@@ -46,7 +46,7 @@ Always returns **TRUE**.
 
 | Requirement | Value |
 |--------|--------|
-| Minimum supported client | Windows 7 \[desktop apps only\] |
+| Minimum supported client | Windows 8 \[desktop apps only\] |
 | Minimum supported server | Windows Server 2008 R2 \[desktop apps only\] |
 | DLL | `BCryptPrimitives.dll` |
 | APISet | `CngRngExt` |

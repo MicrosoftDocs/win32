@@ -3,7 +3,7 @@ description: Sent to a window when its nonclient area needs to be changed to ind
 ms.assetid: d25732b9-b9ab-4754-a4cf-002d32e3945e
 title: WM_NCACTIVATE message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_NCACTIVATE message

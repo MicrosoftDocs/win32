@@ -3,7 +3,7 @@ description: The FatalAppExit function displays a message box and terminates the
 ms.assetid: 76bfca70-ded9-4a7d-98e9-404302d1ea01
 title: Fatal Application Exit
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Fatal Application Exit

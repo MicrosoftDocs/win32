@@ -3,7 +3,7 @@ description: A parent process can specify properties associated with the main wi
 ms.assetid: 12547da4-8d41-48c5-8efc-f0423f64caa7
 title: Setting Window Properties Using STARTUPINFO
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Setting Window Properties Using STARTUPINFO

@@ -9,7 +9,7 @@ keywords:
 - UI Automation,control view of tree
 - UI Automation,content view of tree
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # UI Automation Tree Overview

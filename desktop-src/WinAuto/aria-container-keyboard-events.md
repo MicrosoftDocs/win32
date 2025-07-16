@@ -5,7 +5,7 @@ ms.assetid: 364F26D7-7B65-418B-9DA5-F3B7B59284F7
 keywords:
 - AriaContainerKeyboardAccessibilityErrorId
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # ARIA Container Role Keyboard Accessibility Error

@@ -3,7 +3,7 @@ description: Describes error codes 500-999 defined in the WinError.h header file
 ms.assetid: 8d8b427b-b761-4023-a834-a6eff96d6ba1
 title: System Error Codes (500-999) (WinError.h)
 ms.topic: reference
-ms.date: 07/15/2024
+ms.date: 07/14/2025
 ---
 
 # System Error Codes (500-999)

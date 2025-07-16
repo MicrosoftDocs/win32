@@ -3,7 +3,7 @@ description: The system power status indicates whether the source of power for a
 ms.assetid: b9a5e7de-a603-4bd9-b854-1e58572c3b2b
 title: System Power Status
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # System Power Status

@@ -3,7 +3,7 @@ title: Keyboard Input Structures
 description: Keyboard Input Structures
 ms.assetid: 77cfccd8-7e47-4cdf-99a0-c1992a257fef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Keyboard Input Structures

@@ -3,7 +3,7 @@ description: Counters are used to provide information as to how well the operati
 ms.assetid: d172a131-61d3-4fc1-8e0c-b07b2bd34f80
 title: About Performance Counters
 ms.topic: concept-article
-ms.date: 08/17/2020
+ms.date: 07/14/2025
 ---
 
 # About Performance Counters

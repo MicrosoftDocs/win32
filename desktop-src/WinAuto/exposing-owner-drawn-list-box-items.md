@@ -3,7 +3,7 @@ title: Exposing Owner-Drawn List Box Items
 description: Application developers do not need to implement IAccessible to expose the items in an owner-drawn list box that has the style LBS\_HASSTRINGS because Microsoft Active Accessibility exposes the items in list boxes with this style.
 ms.assetid: d54ce297-ce8a-46c0-a86d-4acffa1eda27
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Exposing Owner-Drawn List Box Items

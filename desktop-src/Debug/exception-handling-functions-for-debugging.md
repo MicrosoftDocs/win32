@@ -3,7 +3,7 @@ description: When an exception occurs in a process that is being debugged, the s
 ms.assetid: 6fdc02ac-9c33-49a8-8614-8b0cc2bf811b
 title: Exception Handling Functions for Debugging
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Exception Handling Functions for Debugging

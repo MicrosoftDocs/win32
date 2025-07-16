@@ -3,7 +3,7 @@ description: Describes error codes 6000-8199 defined in the WinError.h header fi
 ms.assetid: eaaf9f65-e8ff-4e54-90a9-04252cdd773a
 title: System Error Codes (6000-8199) (WinError.h)
 ms.topic: error-reference
-ms.date: 07/15/2024
+ms.date: 07/14/2025
 ---
 
 # System Error Codes (6000-8199)

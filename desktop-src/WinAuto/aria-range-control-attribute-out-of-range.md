@@ -5,7 +5,7 @@ ms.assetid: 265AE578-D841-4931-9F4A-97BB86ECEC88
 keywords:
 - AriaRangeControlAttributesIncompatibleId
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # ARIA Range Control Attributes Incompatible

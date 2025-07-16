@@ -3,7 +3,7 @@ description: The image access functions access the data in an executable image. 
 ms.assetid: da72af2b-7afe-42fc-80ae-700ac0829356
 title: Image Access Functions
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Image Access Functions

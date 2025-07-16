@@ -3,7 +3,7 @@ description: The following topics demonstrate how an application can use the sym
 ms.assetid: 8674a3ab-a6a0-4c03-a0f1-8d5f19ad6f35
 title: Using DbgHelp
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Using DbgHelp

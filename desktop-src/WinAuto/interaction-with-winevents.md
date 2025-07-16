@@ -3,7 +3,7 @@ title: Interaction with WinEvents
 description: The Dynamic Annotation run time will not send WinEvents; it is the annotator's responsibility to send appropriate events, when necessary. If you need to send WinEvents, be sure to send them after the annotation has taken place.
 ms.assetid: 657a540b-8838-4d2e-ade6-c4fa1ad08e21
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Interaction with WinEvents

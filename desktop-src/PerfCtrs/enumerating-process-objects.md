@@ -3,7 +3,7 @@ description: The following example calls the PdhEnumObjectItems function to enum
 ms.assetid: d7518ba6-a0f1-4985-aa2c-1ca15a0ceb02
 title: Enumerating Process Objects
 ms.topic: concept-article
-ms.date: 01/15/2025
+ms.date: 07/14/2025
 ---
 
 # Enumerating Process Objects

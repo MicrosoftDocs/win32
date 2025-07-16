@@ -21,7 +21,7 @@ keywords:
 - TSF (Text Services Framework)
 - performance
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # About the Text and TextRange Control Patterns

@@ -3,7 +3,7 @@ title: Role Property
 description: The Role property describes an object's user interface element. All objects support the Role property.
 ms.assetid: f6abf95b-a77a-406d-9ca0-4663adc8245f
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Role Property

@@ -3,7 +3,7 @@ description: Beginning with Windows Server 2003, the Performance Monitor Users 
 ms.assetid: 423359be-9d41-4a5f-91cd-f6d7a6a91d9d
 title: Restricting Access to Performance Extension DLLs
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Restricting Access to Performance Extension DLLs

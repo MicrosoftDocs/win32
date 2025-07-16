@@ -3,7 +3,7 @@ title: Background Information
 description: The Microsoft Active Accessibility component, oleacc.dll, creates proxy objects that implement IAccessible on behalf of standard Windows controls.
 ms.assetid: c010af48-384c-40c0-ab52-c80b225502fb
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Background Information

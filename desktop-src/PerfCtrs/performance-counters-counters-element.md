@@ -3,7 +3,7 @@ description: Identifies the root node of the counters section of an instrumentat
 ms.assetid: f16f432b-466f-4a3c-bc1b-e80b876a2511
 title: counters Element
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - kbSyntax
 api_name: 

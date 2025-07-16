@@ -3,7 +3,7 @@ description: An application that supports performance counters must have a Perfo
 ms.assetid: b6cdf130-699f-49bd-97b6-a580818b3fab
 title: Creating the Applications Performance Key
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Creating the Application's Performance Key

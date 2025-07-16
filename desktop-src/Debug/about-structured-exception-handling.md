@@ -3,7 +3,7 @@ description: The structured exception handling and termination handling mechanis
 ms.assetid: ab5bc1bd-107f-4ed2-b471-a229a76637fe
 title: About Structured Exception Handling
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # About Structured Exception Handling

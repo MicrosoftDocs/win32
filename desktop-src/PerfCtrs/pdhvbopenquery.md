@@ -3,7 +3,7 @@ description: The PdhVbOpenQuery function creates and initializes a unique query 
 ms.assetid: 9cf535ef-76ad-4773-8414-8e289f3c52f6
 title: PdhVbOpenQuery function
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - APIRef
 - kbSyntax

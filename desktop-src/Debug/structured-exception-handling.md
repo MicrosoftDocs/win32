@@ -3,7 +3,7 @@ description: An exception is an event that occurs during the execution of a prog
 ms.assetid: '6b6326d8-6875-4146-a4e3-7873f4e400cb'
 title: Structured Exception Handling
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Structured Exception Handling

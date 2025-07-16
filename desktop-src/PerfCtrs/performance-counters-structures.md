@@ -3,7 +3,7 @@ description: You use the following structures when working with performance data
 ms.assetid: 97118b64-3a2f-49c0-92e7-324df08bdb12
 title: Performance Counters Structures
 ms.topic: reference
-ms.date: 08/17/2020
+ms.date: 07/14/2025
 ---
 
 # Performance Counters Structures

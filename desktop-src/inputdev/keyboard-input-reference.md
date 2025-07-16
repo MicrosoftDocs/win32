@@ -3,7 +3,7 @@ title: Keyboard Input Reference
 description: Keyboard Input Reference
 ms.assetid: 02216e50-35b6-49f6-b6fa-645e745e4bd6
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Keyboard Input Reference

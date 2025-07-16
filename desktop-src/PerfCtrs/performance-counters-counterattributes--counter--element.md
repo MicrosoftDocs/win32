@@ -3,7 +3,7 @@ description: Identifies a list of attributes that describes how the counter shou
 ms.assetid: d0935ce8-8182-4c83-97d9-0b44182934e0
 title: counterAttributes (counter) Element
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - kbSyntax
 api_name: 

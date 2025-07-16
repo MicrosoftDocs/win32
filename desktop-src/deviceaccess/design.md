@@ -3,7 +3,7 @@ title: Design Considerations for Custom Devices
 description: This topic describes design considerations that can help you determine whether your device needs a custom driver.
 ms.assetid: 8AADE304-4841-41E2-968B-DFCB5B954FF1
 ms.topic: reference
-ms.date: 02/11/2020
+ms.date: 07/14/2025
 ---
 
 # Design Considerations for Custom Devices

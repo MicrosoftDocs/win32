@@ -3,7 +3,7 @@ description: 'Every process has an environment block that contains a set of envi
 ms.assetid: '6732b12f-ced1-4769-b947-79da8fd2237a'
 title: Environment Variables
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Environment Variables

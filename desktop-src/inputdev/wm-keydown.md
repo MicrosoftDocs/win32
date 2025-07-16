@@ -14,7 +14,7 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.custom: snippet-project
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_KEYDOWN message

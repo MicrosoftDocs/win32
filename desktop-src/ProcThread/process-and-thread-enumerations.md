@@ -3,7 +3,7 @@ description: 'The following enumerations are used with the process and thread fu
 ms.assetid: c79352c1-d9c5-4eeb-8d53-ba4063fc208d
 title: Process and Thread Enumerations
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Process and Thread Enumerations

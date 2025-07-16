@@ -3,7 +3,7 @@ description: 'The following are the ImageHlp data structures:'
 ms.assetid: b88c7a21-933f-450c-97e8-04cf3c5f9b11
 title: ImageHlp Structures
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # ImageHlp Structures

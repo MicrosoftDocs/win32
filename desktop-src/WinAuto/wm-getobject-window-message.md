@@ -3,7 +3,7 @@ title: WM_GETOBJECT Window Message
 description: WM\_GETOBJECT Window Message
 ms.assetid: 56ab7e6b-a469-49f9-ab56-82e11e374b25
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_GETOBJECT Window Message

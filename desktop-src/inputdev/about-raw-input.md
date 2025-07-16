@@ -14,7 +14,7 @@ keywords:
 - Human Interface Device (HID)
 - HID (Human Interface Device)
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Raw Input Overview

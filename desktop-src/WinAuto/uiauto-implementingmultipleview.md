@@ -14,7 +14,7 @@ keywords:
 - control patterns,MultipleView
 - interfaces,IMultipleViewProvider
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # MultipleView Control Pattern

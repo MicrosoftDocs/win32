@@ -3,7 +3,7 @@ description: Hook Structures
 ms.assetid: 957d2c6f-15a8-42a5-b8cf-b8dc8d747867
 title: Hook Structures
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Hook Structures

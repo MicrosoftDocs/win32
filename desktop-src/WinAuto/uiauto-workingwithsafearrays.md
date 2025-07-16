@@ -12,7 +12,7 @@ keywords:
 - safe arrays
 - data types
 ms.topic: best-practice
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Best Practices for Using Safe Arrays

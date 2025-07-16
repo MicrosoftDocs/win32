@@ -4,7 +4,7 @@ title: GetMsgProc callback function
 description: The system calls this function when a message function gets a message from an application message queue.
 old-location: 
 ms.assetid: na
-ms.date: 06/28/2023
+ms.date: 07/14/2025
 ms.keywords: 
 ms.topic: reference
 req.header: 

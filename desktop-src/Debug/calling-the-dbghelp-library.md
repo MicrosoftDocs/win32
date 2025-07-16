@@ -3,7 +3,7 @@ description: Although DbgHelp.dll ships with all versions of Windows, callers sh
 ms.assetid: 4e615e75-5ab8-4155-a3d3-b96313b37e9b
 title: Calling the DbgHelp Library
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Calling the DbgHelp Library

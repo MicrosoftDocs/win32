@@ -3,7 +3,7 @@ description: This topic has a code example that shows how to register a local wi
 ms.assetid: ea9e36c9-b10d-441e-b1b5-1ab93e009e1d
 title: Using Window Classes
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Using Window Classes

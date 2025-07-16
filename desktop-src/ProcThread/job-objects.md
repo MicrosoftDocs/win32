@@ -3,7 +3,7 @@ description: A job object allows groups of processes to be managed as a unit. Jo
 ms.assetid: 59296384-5e78-44dd-8019-f1df6668928b
 title: Job Objects
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Job Objects

@@ -3,7 +3,7 @@ description: This section discusses windows in general.
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\windows.htm'
 title: Windows (Windows and Messages)
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Windows (Windows and Messages)

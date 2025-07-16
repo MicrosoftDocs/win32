@@ -18,7 +18,7 @@ keywords:
 - MSAA testing tools
 - Microsoft Active Accessibility testing tools
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Accessibility tools - AccChecker (UI Accessibility Checker)

@@ -3,7 +3,7 @@ title: Architecture and Interoperability
 description: This topic briefly describes the architecture of Microsoft Active Accessibility and Microsoft UI Automation, and the components that allow interoperability between applications based on the two different technologies.
 ms.assetid: 7309819c-7c72-4bb3-ab9c-608a27c56d42
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Architecture and Interoperability

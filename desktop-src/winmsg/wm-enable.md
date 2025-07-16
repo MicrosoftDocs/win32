@@ -3,7 +3,7 @@ description: Sent when an application changes the enabled state of a window.
 ms.assetid: df2cf953-121f-43bb-a06c-d10e445bfb5e
 title: WM_ENABLE message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_ENABLE message

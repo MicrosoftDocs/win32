@@ -3,7 +3,7 @@ description: Batteries can provide power for portable computers and computers ru
 ms.assetid: 3580b37d-611c-46b4-9300-4943833d6852
 title: Battery Information
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Battery Information
