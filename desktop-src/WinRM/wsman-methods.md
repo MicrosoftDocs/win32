@@ -5,6 +5,7 @@ ms.assetid: DD26E1DB-40D8-460C-9635-EDD009844AB2
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
+ms.custom: sfi-ropc-nochange
 ---
 
 # WSMan Methods

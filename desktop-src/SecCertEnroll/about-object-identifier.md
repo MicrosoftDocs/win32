@@ -4,6 +4,7 @@ ms.assetid: 42c015c8-3de1-4482-bf27-b19c422b8cdb
 title: OBJECT IDENTIFIER
 ms.topic: reference
 ms.date: 05/31/2018
+ms.custom: sfi-image-nochange
 ---
 
 # OBJECT IDENTIFIER

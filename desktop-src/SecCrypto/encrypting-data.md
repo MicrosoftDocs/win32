@@ -4,6 +4,7 @@ ms.assetid: 34167767-96c5-4a20-b629-07e4d036b4d1
 title: Encrypting Data
 ms.topic: how-to
 ms.date: 05/31/2018
+ms.custom: sfi-image-nochange
 ---
 
 # Encrypting Data

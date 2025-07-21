@@ -4,6 +4,7 @@ description: In this scenario, a user is attempting to connect to a wireless LAN
 ms.assetid: 558dae83-aa16-4751-a497-d7a0da01ce5d
 ms.topic: troubleshooting-general
 ms.date: 05/31/2018
+ms.custom: sfi-image-nochange
 ---
 
 # Troubleshooting Wireless LAN Connections

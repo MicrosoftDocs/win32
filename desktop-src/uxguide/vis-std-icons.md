@@ -4,6 +4,7 @@ description: Standard icons are the error, warning, information, and question ma
 ms.assetid: 63b5c31d-5094-4299-b44b-35b2452ce706
 ms.topic: concept-article
 ms.date: 10/20/2020
+ms.custom: sfi-image-nochange
 ---
 
 # Standard Icons

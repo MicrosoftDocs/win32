@@ -4,6 +4,9 @@ description: You can get detailed telemetry data and analytics reports that let 
 ms.assetid: F1ED72A5-E1CD-4924-A81B-ED6FAF5E2AA3
 ms.topic: concept-article
 ms.date: 11/02/2018
+ms.custom:
+  - sfi-image-nochange
+  - sfi-ga-nochange
 ---
 
 # Windows Desktop Application Program

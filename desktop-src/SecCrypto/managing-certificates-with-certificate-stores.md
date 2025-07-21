@@ -4,6 +4,7 @@ ms.assetid: 6a56c355-8f24-41cc-88d9-2a02d9863ccf
 title: Managing Certificates with Certificate Stores
 ms.topic: concept-article
 ms.date: 05/31/2018
+ms.custom: sfi-image-nochange
 ---
 
 # Managing Certificates with Certificate Stores

@@ -4,6 +4,7 @@ ms.assetid: 4ed594a0-2cc2-40d2-9b5c-dee59916fa1b
 title: Codec Merit
 ms.topic: reference
 ms.date: 05/31/2018
+ms.custom: sfi-image-nochange
 ---
 
 # Codec Merit

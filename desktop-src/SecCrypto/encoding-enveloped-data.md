@@ -4,6 +4,7 @@ ms.assetid: f35aacda-6827-42e9-b7ac-58dc007fc697
 title: Encoding Enveloped Data
 ms.topic: how-to
 ms.date: 05/31/2018
+ms.custom: sfi-image-nochange
 ---
 
 # Encoding Enveloped Data

@@ -4,6 +4,7 @@ ms.assetid: 13e7e077-e8be-4ba4-99e1-08421fd2452e
 title: Collection Stores
 ms.topic: reference
 ms.date: 05/31/2018
+ms.custom: sfi-image-nochange
 ---
 
 # Collection Stores

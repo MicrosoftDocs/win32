@@ -4,6 +4,7 @@ description: A balloon is a small pop-up window that informs users of a non-crit
 ms.assetid: 67092831-e573-4ad6-b1fc-baa1836031cb
 ms.topic: reference
 ms.date: 10/20/2020
+ms.custom: sfi-image-nochange
 ---
 
 # Balloons

@@ -4,6 +4,7 @@ description: Use Help as a secondary mechanism to help users complete and better
 ms.assetid: 82ce076e-062b-4793-a1c0-ed96c0f2b284
 ms.topic: concept-article
 ms.date: 10/20/2020
+ms.custom: sfi-image-nochange
 ---
 
 # Help

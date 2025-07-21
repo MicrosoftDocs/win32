@@ -4,6 +4,7 @@ description: With a progressive disclosure control, users can show or hide addit
 ms.assetid: 0ca00c49-f897-49a6-926a-cc65f3155c6c
 ms.topic: reference
 ms.date: 10/20/2020
+ms.custom: sfi-image-nochange
 ---
 
 # Progressive Disclosure Controls
