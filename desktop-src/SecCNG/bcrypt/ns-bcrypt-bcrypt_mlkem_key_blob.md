@@ -79,8 +79,8 @@ The byte sizes of the byte-encoded keys can be found in [FIPS 203](https://nvlpu
 
 | Requirement | Value |
 | ---- | ---- |
-| **Minimum supported client** | Windows Insiders Preview [desktop apps only] |
-| **Minimum supported server** | Windows Insiders Preview [desktop apps only] |
+| **Minimum supported client** | **Windows Insiders (build 27843):** Support for ML-KEM begins. [desktop apps only] |
+| **Minimum supported server** | **Windows Insiders (build 27843):** Support for ML-KEM begins. [desktop apps only] |
 | **Header** | `bcrypt.h` |
 
 ## See also
