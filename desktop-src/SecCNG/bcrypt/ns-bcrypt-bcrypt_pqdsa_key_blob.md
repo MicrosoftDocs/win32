@@ -80,6 +80,6 @@ The consumers of Post-Quantum Digital Signature algorithms will use the same sub
 
 | Requirement | Value |
 | ---- | ---- |
-| **Minimum supported client** | Windows Insiders Preview [desktop apps only] |
-| **Minimum supported server** | Windows Insiders Preview [desktop apps only] |
+| **Minimum supported client** | **Windows Insiders (build 27843):** Support for ML-DSA begins. [desktop apps only] |
+| **Minimum supported server** | **Windows Insiders (build 27843):** Support for ML-DSA begins. [desktop apps only] |
 | **Header** | `bcrypt.h` |

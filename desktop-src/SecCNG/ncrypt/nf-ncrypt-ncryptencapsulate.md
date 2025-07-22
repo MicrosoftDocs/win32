@@ -103,8 +103,8 @@ For currently supported KEM algorithms (ML-KEM), the shared secret length is a c
 
 | Requirement | Value |
 | ---- | ---- |
-| **Minimum supported client** | Windows Insiders Preview [desktop apps only] |
-| **Minimum supported server** | Windows Insiders Preview [desktop apps only] |
+| **Minimum supported client** | **Windows Insiders (build 27843):** Support for ML-KEM begins. [desktop apps only] |
+| **Minimum supported server** | **Windows Insiders (build 27843):** Support for ML-KEM begins. [desktop apps only] |
 | **Library** | `Ncrypt.lib` |
 | **DLL** | `Ncrypt.dll` |
 

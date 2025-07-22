@@ -61,8 +61,8 @@ For many PQDSA signatures, the use of **BCRYPT_PQDSA_PADDING_INFO** is not requi
 
 | Requirement | Value |
 | ---- | ---- |
-| **Minimum supported client** | Windows Insiders Preview [desktop apps only] |
-| **Minimum supported server** | Windows Insiders Preview [desktop apps only] |
+| **Minimum supported client** | **Windows Insiders (build 27843):** Support for ML-DSA begins. [desktop apps only] |
+| **Minimum supported server** | **Windows Insiders (build 27843):** Support for ML-DSA begins. [desktop apps only] |
 | **Header** | `bcrypt.h` |
 
 ## See also

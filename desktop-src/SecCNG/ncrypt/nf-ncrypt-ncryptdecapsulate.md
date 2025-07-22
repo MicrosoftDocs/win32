@@ -101,8 +101,8 @@ Given an invalid, but correctly-sized, ciphertext, the ML-KEM decapsulation oper
 
 | Requirement | Value |
 | ---- | ---- |
-| **Minimum supported client** | Windows Insiders Preview [desktop apps only] |
-| **Minimum supported server** | Windows Insiders Preview [desktop apps only] |
+| **Minimum supported client** | **Windows Insiders (build 27843):** Support for ML-KEM begins. [desktop apps only] |
+| **Minimum supported server** | **Windows Insiders (build 27843):** Support for ML-KEM begins. [desktop apps only] |
 | **Library** | `Ncrypt.lib` |
 | **DLL** | `Ncrypt.dll` |
 

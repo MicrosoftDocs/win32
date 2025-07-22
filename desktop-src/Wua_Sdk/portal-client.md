@@ -12,6 +12,9 @@ ms.date: 05/31/2018
 
 The Windows Update Agent (WUA) API is a set of COM interfaces that enable system administrators and programmers to access Windows Update and [Windows Server Update Services (WSUS)](/previous-versions/windows/desktop/ms744624(v=vs.85)). Scripts and programs can be written to examine which updates are currently available for a computer, and then you can install or uninstall updates.
 
+> [!NOTE]
+> The **Windows Update** page in the Settings app displays the progress and history of updates managed by the Windows Update orchestrator workflow. The updates handled through WUA APIs will not appear on this page. It is recommended that you disable the Windows Update orchestrator when using the WUA APIs to prevent conflicts. For information about the default Windows Update orchestrator workflow, see [How Windows Update works](/windows/deployment/update/how-windows-update-works). For information on disabling the Windows Update orchestrator, see [Manage connections from Windows 10 and Windows 11 operating system components to Microsoft services](/windows/privacy/manage-connections-from-windows-operating-system-components-to-microsoft-services#bkmk-wu).
+
 ## Where applicable
 
 System administrators can use WUA to programmatically determine which updates should be applied to a computer, download those updates, and then install them with little or no user intervention.
