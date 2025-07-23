@@ -30,7 +30,7 @@ This article describes Windows Advanced Rasterization Platform (WARP) and the fo
 
 ## What is WARP?
 
-WARP is a high speed, fully conformant software rasterizer. It is a component of the DirectX graphics technology that was introduced by the Direct3D 11 runtime. The Direct3D 11 runtime is installed on Windows 7, Windows Server 2008 R2, and Windows Vista with the \[KB971644\] update. Windows 8 and newer include Microsoft Basic Render Adapter and Microsoft Basic Display Adapter, which enable WARP to support cross-process shared resources, as well as being present in DXGI adapter enumeration and supporting seamless fallbacks for systems with no GPU. These systems also support Direct3D 9 and older running on WARP. Windows 10 and newer include Direct3D 12 support as well.
+WARP is a high speed, fully conformant software rasterizer. It is a component of the DirectX graphics technology that was introduced by the Direct3D 11 runtime. The Direct3D 11 runtime is installed on Windows 7, Windows Server 2008 R2, and Windows Vista with the \[KB971644\] update. Starting with Windows 8, Windows includes Microsoft Basic Render Adapter and Microsoft Basic Display Adapter, which enable WARP to support cross-process shared resources, as well as being present in DXGI adapter enumeration and supporting seamless fallbacks for systems with no GPU. These systems also support Direct3D 9 and older running on WARP. Starting with Windows 10, Windows includes Direct3D 12 support as well.
 
 ## WARP Benefits
 
@@ -46,7 +46,7 @@ WARP provides the following benefits:
 
 ### Removing the Need for Custom Software Rasterizers
 
-WARP simplifies development by removing the need to build a custom software rasterizer and to tune your application for it instead of tuning your application for hardware. By providing a single, general purpose software rasterizer, you no longer need to write image rendering algorithms in multiple ways to run on hardware or software with different features and capabilities. You can still implement algorithms in multiple ways to achieve better performance or scaling; however, you do not need to change the API or rendering architecture that is used to implement those algorithms. Instead, you can focus on creating a great Direct3D 10 or later application that will look the same and perform well on hardware or in software.
+WARP simplifies development by removing the need to build a custom software rasterizer and to tune your application for it instead of tuning your application for hardware. By providing a single, general purpose software rasterizer, you no longer need to write image rendering algorithms in multiple ways to run on hardware or software with different features and capabilities. You can still implement algorithms in multiple ways to achieve better performance or scaling; however, you do not need to change the API or rendering architecture that is used to implement those algorithms. Instead, you can focus on creating a great application with Direct3D 10 or later that will look the same and perform well on hardware or in software.
 
 ### Enabling Maximum Performance from Graphics Hardware
 
