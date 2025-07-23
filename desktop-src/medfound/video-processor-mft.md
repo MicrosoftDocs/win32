@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Video Processor MFT
 
-The video processor MFT is a Microsoft Media Foundation transform (MFT) that performs colorspace conversion, video resizing, deinterlacing, frame rate conversion, rotation, cropping, spatial left and right view unpacking, and mirroring.
+The video processor MFT is a Microsoft Media Foundation transform (MFT) that performs colorspace conversion, tone mapping, video resizing, deinterlacing, frame rate conversion, rotation, cropping, spatial left and right view unpacking, mirroring, and sphere mapping.
 
 ## CLSID
 
@@ -19,6 +19,8 @@ CLSID\_VideoProcessorMFT
 -   [**IMFRealTimeClientEx**](/windows/desktop/api/mfidl/nn-mfidl-imfrealtimeclientex)
 -   [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)
 -   [**IMFVideoProcessorControl**](/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol)
+-   [**IMFVideoProcessorControl2**](/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol2)
+-   [**IMFVideoProcessorControl3**](/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol3)
 
 ## Input Formats
 
@@ -45,6 +47,16 @@ CLSID\_VideoProcessorMFT
 -   **MFVideoFormat\_YUY2**
 -   **MFVideoFormat\_YV12**
 -   **MFVideoFormat\_YVYU**
+-   **MFVideoFormat\_P010**
+-   **MFVideoFormat\_P016**
+-   **MFVideoFormat\_A16B16G16R16F**
+-   **MFVideoFormat\_A2R10G10B10**
+-   **MFVideoFormat\_Y210**
+-   **MFVideoFormat\_Y410**
+-   **MFVideoFormat\_Y416**
+-   **MFVideoFormat\_L8**
+-   **MFVideoFormat\_L16**
+-   **MFVideoFormat\_D16**
 
 ## Output Formats
 
@@ -63,10 +75,59 @@ CLSID\_VideoProcessorMFT
 -   **MFVideoFormat\_Y216**
 -   **MFVideoFormat\_YUY2**
 -   **MFVideoFormat\_YV12**
+-   **MFVideoFormat\_P010**
+-   **MFVideoFormat\_P016**
+-   **MFVideoFormat\_A16B16G16R16F**
+-   **MFVideoFormat\_A2R10G10B10**
+-   **MFVideoFormat\_Y210**
+-   **MFVideoFormat\_Y410**
+-   **MFVideoFormat\_Y416**
 
 Not every combination of input and output formats is supported. To test whether a conversion is supported, set the input type and then call [**IMFTransform::GetOutputAvailableType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-getoutputavailabletype).
 
 For more information about these formats, see [Video Subtype GUIDs](video-subtype-guids.md).
+
+## Color Space Transforms
+
+The following attributes can be set on either the input or output types to change the color space of the content:
+-  **MF\_MT\_VIDEO\_PRIMARIES**
+-  **MF\_MT\_TRANSFER\_FUNCTION**
+-  **MF\_MT\_YUV\_MATRIX**
+-  **MF\_MT\_VIDEO\_CHROMA\_SITING**
+-  **MF\_MT\_VIDEO\_NOMINAL\_RANGE**
+-  **MF\_MT\_MAX\_MASTERING\_LUMINANCE**
+-  **MF\_MT\_MAX\_LUMINANCE\_LEVEL**
+-  **MF\_MT\_CUSTOM\_VIDEO\_PRIMARIES**
+-  **MF\_MT\_PALETTE**
+
+## Image Transforms
+
+The following attributes can be set on either the input or output types to perform spatial transforms on the video:
+-  **MF\_MT\_PIXEL\_ASPECT\_RATIO**
+-  **MF\_MT\_VIDEO\_ROTATION**
+-  **MF\_MT\_PAN\_SCAN\_APERTURE**
+-  **MF\_MT\_GEOMETRIC\_APERTURE**
+-  **MF\_MT\_MINIMUM\_DISPLAY\_APERTURE**
+-  **MF_MT_VIDEO_3D**
+-  **MF_MT_VIDEO_3D_FORMAT**
+
+## Temporal Transforms
+
+The following attributes can be set on either the input or output types to perform temporal transforms on the video:
+-  **MF\_MT\_INTERLACE\_MODE**
+-  **MF\_MT\_FRAME\_RATE**
+
+Note that if **MF\_XVP\_DISABLE\_FRC** is set to TRUE then frame rate conversion is disabled, but deinterlacing will still be performed.
+
+## Transform Attributes
+
+The following attributes can be set on the transform using **IMFTransform::GetAttributes**:
+-  **MF\_XVP\_DISABLE\_FRC**
+-  **MF\_XVP\_CALLER\_ALLOCATES\_OUTPUT**
+-  **MF\_LOW\_LATENCY**
+-  **MF\_XVP\_SAMPLE\_LOCK\_TIMEOUT**
+-  **MF\_ENABLE\_3DVIDEO\_OUTPUT**
+-  **MF\_VIDEO\_PROCESSOR\_ALGORITHM**
 
 ## Remarks
 
