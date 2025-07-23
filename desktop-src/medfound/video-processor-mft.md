@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Video Processor MFT
 
-The video processor MFT is a Microsoft Media Foundation transform (MFT) that performs colorspace conversion, tone mapping, video resizing, deinterlacing, frame rate conversion, rotation, cropping, spatial left and right view unpacking, mirroring, and sphere mapping.
+The video processor MFT is a Microsoft Media Foundation transform (MFT) that performs colorspace conversion, tone mapping, video resizing, deinterlacing, frame rate conversion, rotation, cropping, spatial left and right view unpacking, mirroring, renderer effect processing, and sphere mapping.
 
 ## CLSID
 
@@ -21,9 +21,11 @@ CLSID\_VideoProcessorMFT
 -   [**IMFVideoProcessorControl**](/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol)
 -   [**IMFVideoProcessorControl2**](/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol2)
 -   [**IMFVideoProcessorControl3**](/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol3)
+-   [**IMFVideoRendererEffectControl**](/windows/desktop/api/mfidl/nn-mfidl-imfvideorenderereffectcontrol)
 
 ## Input Formats
 
+The following formats are supported values for the **MF\_MT\_SUBTYPE** value of the media type set via [**IMFTransform::SetInputType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setinputtype)
 -   **MFVideoFormat\_ABGR32**
 -   **MFVideoFormat\_ARGB32**
 -   **MFVideoFormat\_AYUV**
@@ -60,6 +62,7 @@ CLSID\_VideoProcessorMFT
 
 ## Output Formats
 
+The following formats are supported values for the **MF\_MT\_SUBTYPE** value of the media type set via [**IMFTransform::SetOutputType**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-setoutputtype)
 -   **MFVideoFormat\_ARGB32**
 -   **MFVideoFormat\_AYUV**
 -   **MFVideoFormat\_I420**
@@ -108,10 +111,10 @@ The following attributes can be set on either the input or output types to perfo
 -  **MF\_MT\_PAN\_SCAN\_APERTURE**
 -  **MF\_MT\_GEOMETRIC\_APERTURE**
 -  **MF\_MT\_MINIMUM\_DISPLAY\_APERTURE**
--  **MF_MT_VIDEO_3D**
--  **MF_MT_VIDEO_3D_FORMAT**
+-  **MF\_MT\_VIDEO\_3D**
+-  **MF\_MT\_VIDEO\_3D\_FORMAT**
 
-## Temporal Transforms
+## Framerate Transforms
 
 The following attributes can be set on either the input or output types to perform temporal transforms on the video:
 -  **MF\_MT\_INTERLACE\_MODE**
@@ -142,7 +145,19 @@ The following remarks pertain to working with source rectangles and destination 
 -   Both the destination and source rectangle will always be clamped to fit inside their respective frames—the source rectangle to the source frame and the destination rectangle to the destination frame. This means that negative values are not meaningful—they will be always clamped to 0.
 -   The source rectangle is in the destination frame's coordinate system, minus any destination rectangle. This means that transformations like rotation are "undone" on the source rectangle. Therefore, you do not need to know if the video was rotated or 3D unpacked. For example, you could draw a rectangle on top of the video tag, take the relative coordinates (relative to the video tag), normalize them (range 0 to 1) and pass them down as the source rectangle and they should work as expected, even if the video is being rotated.
 
-The video processor supports GPU-accelerated video processing, using Microsoft Direct3D 11. For more information, see [MF\_SA\_D3D11\_AWARE](mf-sa-d3d11-aware.md).
+The video processor supports GPU-accelerated video processing, using Microsoft Direct3D 11, or Direct3D 12. For more information, see [MF\_SA\_D3D11\_AWARE](mf-sa-d3d11-aware.md) and [MF\_SA\_D3D12\_AWARE](mf-sa-d3d12-aware.md).
+
+The video processor is used as the front-end converter for video rendering when using SVR which is exposed by the [MediaPlayer](/uwp/api/windows.media.playback.mediaplayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine) components.  Decoders, plugins or sources used by either of these components 
+
+### Renderer Effects
+
+The Video Processor MFT is the host component for Renderer effects.  Renderer effects allow applications to plugin to the normal video transform and rendering process.  For typical applications a video plugin (see: [IMFMediaEngineEx::InsertVideoEffect](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-insertvideoeffect)) is sufficient.  But some scenarios require more information about the exact conditions that a video is being rendered in.
+Consider a renderer effect for the following situations:
+-  The plugin needs to know the resolution that the video is rendered at (e.g. to perform a special scaling operation like super resolution)
+-  The plugin needs to know properties of the display that the video is being rendered on (e.g. to perform accurate tone mapping)
+-  The plugin needs to know exactly the final output format of the presented video
+
+To load a renderer effect configure the **MF\_MT\_VIDEO\_RENDERER\_EXTENSION\_PROFILE** attribute on the input type of the Video Processor MFT.
 
 ### Stereoscopic Video
 
