@@ -4,6 +4,7 @@ description: The taskbar is the access point for programs displayed on the deskt
 ms.assetid: c00e558a-313f-4741-a4b2-7d738f4544fa
 ms.topic: concept-article
 ms.date: 10/20/2020
+ms.custom: sfi-image-nochange
 ---
 
 # Taskbar

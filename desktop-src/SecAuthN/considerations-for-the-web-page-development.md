@@ -4,6 +4,7 @@ ms.assetid: 4BBAE30F-63AB-4AB0-9C99-016EF05220E8
 title: Considerations for the web page development
 ms.topic: reference
 ms.date: 05/31/2018
+ms.custom: sfi-image-nochange
 ---
 
 # Considerations for the web page development

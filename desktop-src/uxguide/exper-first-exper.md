@@ -4,6 +4,7 @@ description: In the ideal first experience, users install your program and use i
 ms.assetid: d925f71c-fc5a-4ff2-8f5d-9434c162b4b4
 ms.topic: reference
 ms.date: 10/20/2020
+ms.custom: sfi-image-nochange
 ---
 
 # First Experience

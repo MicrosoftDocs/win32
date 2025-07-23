@@ -3,6 +3,7 @@ title: Application capability profiler (ACP)
 description: Win32 app isolation's application capability profiler is a set of tools that help identify what capabilities may need to be declared by an application package.
 ms.topic: how-to
 ms.date: 08/27/2024
+ms.custom: sfi-image-nochange
 ---
 
 # Application capability profiler (ACP)

@@ -4,6 +4,7 @@ description: Property window is the collective name for the following types of u
 ms.assetid: 18fc04da-9f84-4a44-9f3d-a9e29b121e7c
 ms.topic: reference
 ms.date: 10/20/2020
+ms.custom: sfi-image-nochange
 ---
 
 # Property Windows

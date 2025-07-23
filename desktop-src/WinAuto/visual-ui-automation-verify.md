@@ -4,6 +4,7 @@ description: Visual UI Automation Verify (Visual UIA Verify) is a Windows \ 32;G
 ms.assetid: 8AEB083E-785E-4F15-B708-2098A9A41B4E
 ms.topic: reference
 ms.date: 07/14/2025
+ms.custom: sfi-image-nochange
 ---
 
 # Visual UI Automation Verify

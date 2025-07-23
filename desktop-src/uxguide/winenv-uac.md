@@ -4,6 +4,7 @@ description: A well designed User Account Control experience helps prevent unwan
 ms.assetid: c4b83537-c600-4b24-bda6-df7a82719ab1
 ms.topic: reference
 ms.date: 10/20/2020
+ms.custom: sfi-image-nochange
 ---
 
 # User Account Control

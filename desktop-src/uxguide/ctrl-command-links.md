@@ -4,6 +4,7 @@ description: With command links, users select a single response to a main instru
 ms.assetid: a77819b1-9a32-4468-94fb-3f73a469fb81
 ms.topic: reference
 ms.date: 10/20/2020
+ms.custom: sfi-image-nochange
 ---
 
 # Command Links

@@ -4,6 +4,7 @@ description: With a text box, users can display, enter, or edit a text or numeri
 ms.assetid: fb8ed262-1451-496d-a3f4-a29af39763bb
 ms.topic: reference
 ms.date: 10/20/2020
+ms.custom: sfi-image-nochange
 ---
 
 # Text Boxes

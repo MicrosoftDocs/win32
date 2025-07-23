@@ -4,6 +4,7 @@ ms.assetid: 18246cc1-d3c4-4426-a342-ce3864cc412e
 title: Verifying a Signed Message
 ms.topic: how-to
 ms.date: 05/31/2018
+ms.custom: sfi-image-nochange
 ---
 
 # Verifying a Signed Message

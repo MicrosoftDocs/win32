@@ -10,6 +10,7 @@ topic_type:
 api_name: 
 api_type: 
 api_location: 
+ms.custom: sfi-ropc-nochange
 ---
 
 # Authentication for Remote Connections
