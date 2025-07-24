@@ -3,7 +3,7 @@ description: Windows Update Agent (WUA) can be used to scan computers for securi
 ms.assetid: 452b53af-0f7b-435e-bf12-dd9d84cbd564
 title: Using WUA to Scan for Updates Offline
 ms.topic: concept-article
-ms.date: 07/23/2020
+ms.date: 07/24/2025
 ---
 
 # Using WUA to Scan for Updates Offline
