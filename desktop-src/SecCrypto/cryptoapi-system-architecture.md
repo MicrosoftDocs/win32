@@ -4,6 +4,7 @@ ms.assetid: 244329bb-fc71-4ab9-8831-a9478108ffa3
 title: CryptoAPI System Architecture
 ms.topic: concept-article
 ms.date: 05/31/2018
+ms.custom: sfi-image-nochange
 ---
 
 # CryptoAPI System Architecture

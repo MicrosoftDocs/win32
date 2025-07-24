@@ -4,6 +4,7 @@ ms.assetid: b50530e2-15a0-4215-bf18-300cf67d1611
 title: Decoding a CERT_INFO Structure
 ms.topic: concept-article
 ms.date: 05/31/2018
+ms.custom: sfi-image-nochange
 ---
 
 # Decoding a CERT\_INFO Structure

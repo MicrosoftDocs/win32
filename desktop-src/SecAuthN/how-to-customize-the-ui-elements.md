@@ -4,6 +4,7 @@ ms.assetid: 6F1E0B2E-E013-4C5B-86A4-0AF8606D0C12
 title: How to customize the UI elements
 ms.topic: how-to
 ms.date: 05/31/2018
+ms.custom: sfi-image-nochange
 ---
 
 # How to customize the UI elements

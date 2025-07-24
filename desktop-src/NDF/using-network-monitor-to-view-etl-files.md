@@ -4,6 +4,7 @@ description: Network Monitor 3.4 enables users to parse, filter, and view an ETL
 ms.assetid: 932be193-70f9-48f9-95d8-18916d3b7064
 ms.topic: concept-article
 ms.date: 05/31/2018
+ms.custom: sfi-image-nochange
 ---
 
 # Using Network Monitor to View ETL Files

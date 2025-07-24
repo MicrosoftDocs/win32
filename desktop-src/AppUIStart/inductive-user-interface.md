@@ -4,6 +4,7 @@ description: This topic describes the user interface model known as inductive us
 ms.assetid: d99dc30a-68e5-4b7a-8cbd-0ac77a90a354
 ms.topic: reference
 ms.date: 05/31/2018
+ms.custom: sfi-image-nochange
 ---
 
 # Inductive User Interface

@@ -4,6 +4,7 @@ ms.assetid: 271EC68B-5E58-4C1C-B631-DED6A694E98F
 title: Best Practices for designing authentication web pages
 ms.topic: best-practice
 ms.date: 05/31/2018
+ms.custom: sfi-image-nochange
 ---
 
 # Best Practices for designing authentication web pages

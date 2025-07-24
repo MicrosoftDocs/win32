@@ -4,6 +4,7 @@ description: Despite that wonderful, whimsical name, wizards are not really a sp
 ms.assetid: 122d6e65-92f0-4e8a-92f7-ecd7e90665c8
 ms.topic: reference
 ms.date: 10/20/2020
+ms.custom: sfi-image-nochange
 ---
 
 # Wizards

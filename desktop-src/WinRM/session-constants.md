@@ -5,6 +5,7 @@ ms.assetid: 5df52696-ac2c-42b7-8b0f-99a27b58575b
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
+ms.custom: sfi-ropc-nochange
 ---
 
 # Session Constants
