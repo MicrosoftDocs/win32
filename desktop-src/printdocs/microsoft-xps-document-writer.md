@@ -3,7 +3,7 @@ description: The Microsoft XPS Document Writer (MXDW) is a print-to-file driver 
 ms.assetid: cb431700-f10f-4c53-9944-d6769895595d
 title: Microsoft XPS Document Writer (MXDW)
 ms.topic: concept-article
-ms.date: 10/26/2021
+ms.date: 07/24/2021
 ---
 
 # Microsoft XPS Document Writer (MXDW)
@@ -13,21 +13,20 @@ The Microsoft XPS Document Writer (MXDW) is a print-to-file driver that enables 
 If you create an XPS file, but don't have an app to save or store the contents, you can use the Microsoft XPS Document Writer printer to save all content of the XPS file. Microsoft XPS Document Writer comes pre-installed on Windows 10 and Windows 11, just press `Ctrl` + `P` to print/save an XPS file.
 
 > [!NOTE]
-> You can repair the XPS Document Writer by removing and re-adding it via the Settings app.  
+> You can enable XPS in the Settings app. You can repair the XPS Document Writer by removing and re-adding it.  
 >1. Launch 'Settings' -> 'System' -> 'Optional Features' 
 >2. Select 'More Windows features' under 'Related Settings'
->3. Uncheck 'Microsoft XPS Document Writer' to remove it 
->4. Recheck 'Microsoft XPS Document Writer' to reinstall it
+>3. Check 'Microsoft XPS Document Writer' to enable it
+>4. Uncheck and recheck 'Microsoft XPS Document Writer' to repair it
+
 
 For more information about V4 print driver, see [Exploring the Driver Options in the Wizard](/windows-hardware/drivers/print/exploring-the-driver-options-in-the-wizard).
 
 ## When to Use
 
-As a **user**, you would select the MXDW when you want to create an XPS document from a Windows application that does not have the option to save its content as an XPS document.
+As a user, you would select the MXDW when you want to create an XPS document from a Windows application that does not have the option to save its content as an XPS document.
 
-As an **application developer**, you would recommend the MXDW to users who want to create XPS documents when your application does not offer the option to save as an XPS document. For more information on the XML Paper Specification and XPS documents, see [XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification) and [XPS Specification and License Downloads](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification).
-
-The MXDW is installed automatically on Windows Vista and later versions of Windows and can be downloaded and installed on Windows XP with SP2 and Windows Server 2003.
+As an application developer, you would recommend the MXDW to users who want to create XPS documents when your application does not offer the option to save as an XPS document. For more information on the XML Paper Specification and XPS documents, see [XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification) and [XPS Specification and License Downloads](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification).
 
 ## How to Use
 
