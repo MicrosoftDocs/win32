@@ -3,7 +3,7 @@ description: About WASAPI
 ms.assetid: 452b9725-b0b9-4888-bbb5-a23e0067e840
 title: About WASAPI
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/24/2025
 ---
 
 # About WASAPI
