@@ -11,7 +11,7 @@ Stores Peak Signal-to-Noise Ratio (PSNR) values for the Y, U, and V planes of an
 
 ## Data type
 
-An [IMFMediaBuffer](/windows/win32/api/mfobjects/nn-mfobjects-imfmediabuffer) containing a [MFSampleExtensionPsnrYuv](/windows/win32/api/mfapi/ns-mfapi-mfsampleextensionpsnryuv.md) structure.
+An [IMFMediaBuffer](/windows/win32/api/mfobjects/nn-mfobjects-imfmediabuffer) containing a [MFSampleExtensionPsnrYuv](/windows/win32/api/mfapi/ns-mfapi-mfsampleextensionpsnryuv) structure.
 
 ## Remarks
 
