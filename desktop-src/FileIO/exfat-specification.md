@@ -527,7 +527,7 @@ The value of the ClusterCount field determines the minimum size of a FAT. To avo
 
 #### 3.1.10 FirstClusterOfRootDirectory Field
 
-The FirstClusterOfRootDirectory field shall contain the cluster index of the first cluster of the root directory. Implementations should make every effort to place the first cluster of the root directory in the first non-bad cluster after the clusters the Allocation Bitmap and Up-case Table consume.
+The FirstClusterOfRootDirectory field shall contain the cluster index of the first cluster of the root directory. The root directory shall always be described with a cluster chain in the active FAT, as if the root directory were described with a directory entry with the GeneralPrimaryFlags field's NoFatChain flag (see section 6.3.4.2) equal to zero. The data length of the root directory shall always be determined by loading the cluster chain. Implementations should make every effort to place the first cluster of the root directory in the first non-bad cluster after the clusters the Allocation Bitmap and Up-case Table consume.
 
 The valid range of values for this field shall be:
 
