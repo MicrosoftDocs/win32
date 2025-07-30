@@ -28,3 +28,5 @@
       href: password-threat-assessment.md
     - name: "Threat Mitigation Techniques"
       href: threat-mitigation-techniques.md
+  - name: "Understanding PE Signatures"
+    href: understanding-pe-signatures.md
