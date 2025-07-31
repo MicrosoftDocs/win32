@@ -3,7 +3,7 @@ title: How to Initialize the Image List
 description: Every item in a tree-view control can have two images associated with it.
 ms.assetid: 3683DB35-D70F-4181-9181-95354599B9FB
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 07/31/2025
 ---
 
 # How to Initialize the Image List
@@ -14,12 +14,12 @@ Every item in a tree-view control can have two images associated with it. An ite
 
 ### Technologies
 
--   [Windows Controls](window-controls.md)
+- [Windows Controls](window-controls.md)
 
 ### Prerequisites
 
--   C/C++
--   Windows User Interface Programming
+- C/C++
+- Windows User Interface Programming
 
 ## Instructions
 
@@ -27,8 +27,7 @@ Every item in a tree-view control can have two images associated with it. An ite
 
 The following example creates an image list, adds three bitmaps to the list, and associates the image list with a tree-view control.
 
-
-```C++
+```cpp
 // InitTreeViewImageLists - creates an image list, adds three bitmaps 
 // to it, and associates the image list with a tree-view control. 
 // Returns TRUE if successful, or FALSE otherwise. 
@@ -78,22 +77,6 @@ BOOL InitTreeViewImageLists(HWND hwndTV)
 } 
 ```
 
-
-
 ## Related topics
 
-<dl> <dt>
-
-[Using Tree-View Controls](using-treeview.md)
-</dt> <dt>
-
-[CustDTv sample illustrates custom draw in a Tree-View control](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+- [Using Tree-View Controls](using-treeview.md)

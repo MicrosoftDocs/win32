@@ -3,7 +3,7 @@ title: Using Custom Draw
 description: This section contains examples that demonstrate how to implement custom draw.
 ms.assetid: ab2a8930-1ee1-4b9f-bd3e-4b34df84957b
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/31/2025
 ---
 
 # Using Custom Draw
@@ -12,9 +12,7 @@ This section contains examples that demonstrate how to implement custom draw.
 
 The following code fragment is a portion of a [**WM\_NOTIFY**](wm-notify.md) handler that illustrates how to handle custom draw notifications sent to a list-view control.
 
-
-```C++
-        
+```cpp
 LPNMLISTVIEW  pnm  = (LPNMLISTVIEW)lParam;
 
 switch (pnm->hdr.code){
@@ -63,14 +61,11 @@ returned CDRF_NOTIFYSUBITEMDRAW in the previous step. At
 this point, you can change the background colors for the
 subitem and return CDRF_NEWFONT.*/
         ...
-        return CDRF_NEWFONT;    
+        return CDRF_NEWFONT;
     }
 ...
 }
-        
 ```
-
-
 
 The first [NM\_CUSTOMDRAW](nm-customdraw.md) notification has the **dwDrawStage** member of the [**NMCUSTOMDRAW**](/windows/win32/api/commctrl/ns-commctrl-nmcustomdraw) structure set to **CDDS\_PREPAINT**. The handler returns [**CDRF\_NOTIFYITEMDRAW**](cdrf-constants.md) to indicate that it wishes to modify one or more items individually.
 
@@ -80,27 +75,7 @@ The final notification is only sent if the control is in report mode and you ret
 
 ## Related topics
 
-<dl> <dt>
+### Conceptual
 
-**Conceptual**
-</dt> <dt>
-
-[About Custom Draw](about-custom-draw.md)
-</dt> <dt>
-
-[Custom Draw Reference](custom-draw-reference.md)
-</dt> <dt>
-
-**Other Resources**
-</dt> <dt>
-
-[SAMPLE: CustDTv Illustrates Custom Draw in a TreeView (Q248496)](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+- [About Custom Draw](about-custom-draw.md)
+- [Custom Draw Reference](custom-draw-reference.md)

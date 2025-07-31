@@ -3,7 +3,7 @@ title: About Tree-View Controls
 description: A tree-view control is a window that displays a hierarchical list of items, such as the headings in a document, the entries in an index, or the files and directories on a disk.
 ms.assetid: 10cc7949-dd77-412d-bad1-db8d8a049582
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/31/2025
 ---
 
 # About Tree-View Controls
@@ -15,22 +15,6 @@ The following illustration shows a simple tree-view control with a root node, an
 ![screen shot showing five nodes in a hierarchy; the text of one node is selected, but nodes are not linked to each other by lines](images/tv-simple.png)
 
 After creating a tree-view control, you add, remove, arrange, or otherwise manipulate items by sending messages to the control. Each message has one or more corresponding macros that you can use instead of sending the message explicitly.
-
-The following topics are discussed in this section.
-
--   [Tree-View Styles](#tree-view-styles)
--   [Parent and Child Items](#parent-and-child-items)
--   [Item Labels](#item-labels)
--   [Tree-View Label Editing](#tree-view-label-editing)
--   [Tree-View Item Position](#tree-view-item-position)
--   [Tree-View Item States Overview](#tree-view-item-states-overview)
--   [Item Selection](#item-selection)
--   [Item Information](#item-information)
--   [Tree-View Image Lists](#tree-view-image-lists)
--   [Drag-and-Drop Operations](#drag-and-drop-operations)
--   [Tree-View Control Notification Messages](#tree-view-control-notification-messages)
--   [Default Tree-View Control Message Processing](#default-tree-view-control-message-processing)
--   [Related topics](#related-topics)
 
 ## Tree-View Styles
 
@@ -134,10 +118,10 @@ The [**TVM\_GETITEMRECT**](tvm-getitemrect.md) message retrieves the bounding re
 
 Each item in a tree-view control can have four bitmapped images associated with it.
 
--   An image, such as an open folder, displayed when the item is selected.
--   An image, such as a closed folder, displayed when the item is not selected.
--   An overlay image that is drawn transparently over the selected or nonselected image.
--   A state image, which is an additional image displayed to the left of the selected or nonselected image. You can use state images, such as checked and cleared check boxes, to indicate application-defined item states.
+- An image, such as an open folder, displayed when the item is selected.
+- An image, such as a closed folder, displayed when the item is not selected.
+- An overlay image that is drawn transparently over the selected or nonselected image.
+- A state image, which is an additional image displayed to the left of the selected or nonselected image. You can use state images, such as checked and cleared check boxes, to indicate application-defined item states.
 
 By default, a tree-view control does not display item images. To display item images, you must create image lists and associate them with the control. For more information about image lists, see [Image Lists](image-lists.md).
 
@@ -169,69 +153,46 @@ You can indicate that an item is the target of a drag-and-drop operation by usin
 
 A tree-view control sends the following notification messages to its parent window in the form of [**WM\_NOTIFY**](wm-notify.md) messages.
 
-
-
-| Notification                                    | Description                                                                            |
-|-------------------------------------------------|----------------------------------------------------------------------------------------|
-| [TVN\_BEGINDRAG](tvn-begindrag.md)             | Signals the start of a drag-and-drop operation.                                        |
-| [TVN\_BEGINLABELEDIT](tvn-beginlabeledit.md)   | Signals the start of in-place label editing.                                           |
-| [TVN\_BEGINRDRAG](tvn-beginrdrag.md)           | Signals that the right mouse button has started a drag-and-drop operation.             |
-| [TVN\_DELETEITEM](tvn-deleteitem.md)           | Signals the deletion of a specific item.                                               |
-| [TVN\_ENDLABELEDIT](tvn-endlabeledit.md)       | Signals the end of label editing.                                                      |
-| [TVN\_GETDISPINFO](tvn-getdispinfo.md)         | Requests information that the tree-view control requires to display an item.           |
-| [TVN\_ITEMEXPANDED](tvn-itemexpanded.md)       | Signals that a parent item's list of child items was expanded or collapsed.            |
-| [TVN\_ITEMEXPANDING](tvn-itemexpanding.md)     | Signals that a parent item's list of child items is about to be expanded or collapsed. |
-| [TVN\_KEYDOWN](tvn-keydown.md)                 | Signals a keyboard event.                                                              |
-| [TVN\_SELCHANGED](tvn-selchanged.md)           | Signals that the selection has changed from one item to another.                       |
-| [TVN\_SELCHANGING](tvn-selchanging.md)         | Signals that the selection is about to be changed from one item to another.            |
-| [TVN\_SETDISPINFO](tvn-setdispinfo.md)         | Notifies a parent window that it must update the information it maintains for an item. |
-
-
-
- 
+| Notification | Description |
+|--|--|
+| [TVN\_BEGINDRAG](tvn-begindrag.md) | Signals the start of a drag-and-drop operation. |
+| [TVN\_BEGINLABELEDIT](tvn-beginlabeledit.md) | Signals the start of in-place label editing. |
+| [TVN\_BEGINRDRAG](tvn-beginrdrag.md) | Signals that the right mouse button has started a drag-and-drop operation. |
+| [TVN\_DELETEITEM](tvn-deleteitem.md) | Signals the deletion of a specific item. |
+| [TVN\_ENDLABELEDIT](tvn-endlabeledit.md) | Signals the end of label editing. |
+| [TVN\_GETDISPINFO](tvn-getdispinfo.md) | Requests information that the tree-view control requires to display an item. |
+| [TVN\_ITEMEXPANDED](tvn-itemexpanded.md) | Signals that a parent item's list of child items was expanded or collapsed. |
+| [TVN\_ITEMEXPANDING](tvn-itemexpanding.md) | Signals that a parent item's list of child items is about to be expanded or collapsed. |
+| [TVN\_KEYDOWN](tvn-keydown.md) | Signals a keyboard event. |
+| [TVN\_SELCHANGED](tvn-selchanged.md) | Signals that the selection has changed from one item to another. |
+| [TVN\_SELCHANGING](tvn-selchanging.md) | Signals that the selection is about to be changed from one item to another. |
+| [TVN\_SETDISPINFO](tvn-setdispinfo.md) | Notifies a parent window that it must update the information it maintains for an item. |
 
 ## Default Tree-View Control Message Processing
 
 This section describes the window message processing performed by a tree-view control. Messages specific to tree-view controls are discussed in other sections of this document, so they are not included here.
 
-
-
-| Message                                            | Processing performed                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**WM\_COMMAND**](/windows/desktop/menurc/wm-command)               | Processes the [EN\_UPDATE](en-update.md) and [EN\_KILLFOCUS](en-killfocus.md) edit control notification messages and forwards all other edit control notifications to the parent window. There is no return value.                                                                                                                                                                                                                                                                                                |
-| [**WM\_CREATE**](/windows/desktop/winmsg/wm-create)                 | Allocates memory and initializes internal data structures. It returns zero if successful, or -1 otherwise.                                                                                                                                                                                                                                                                                                                                                                                                          |
-| [**WM\_DESTROY**](/windows/desktop/winmsg/wm-destroy)               | Frees all system resources associated with the control. It returns zero.                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| [**WM\_ENABLE**](/windows/desktop/winmsg/wm-enable)                 | Enables or disables the control.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| [**WM\_ERASEBKGND**](/windows/desktop/winmsg/wm-erasebkgnd)         | Erases the window background using the current background color for the tree-view control. It returns **TRUE**.                                                                                                                                                                                                                                                                                                                                                                                                     |
-| [**WM\_GETDLGCODE**](/windows/desktop/dlgbox/wm-getdlgcode)         | Returns a combination of the DLGC\_WANTARROWS and DLGC\_WANTCHARS values.                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| [**WM\_GETFONT**](/windows/desktop/winmsg/wm-getfont)               | Returns the handle to the current label font.                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| [**WM\_HSCROLL**](wm-hscroll.md)                  | Scrolls the tree-view control. It returns **TRUE** if scrolling occurs, or **FALSE** otherwise.                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| [**WM\_KEYDOWN**](/windows/desktop/inputdev/wm-keydown)             | Sends the [TVN\_KEYDOWN](tvn-keydown.md) notification message to the parent window for all keys. Sends the [NM\_RETURN (tree view)](nm-return-tree-view-.md) notification message when the user presses the ENTER key. It moves the caret when the user presses the direction keys or the PAGE UP, PAGE DOWN, HOME, END, or BACKSPACE key. It scrolls the tree-view control when the user presses the CTRL key in combination with those keys. It returns **TRUE** if a key is processed, or **FALSE** otherwise. |
-| [**WM\_KILLFOCUS**](/windows/desktop/inputdev/wm-killfocus)         | Repaints the focused item, if any, and sends an [NM\_KILLFOCUS (tree view)](nm-killfocus-tree-view.md) notification message to the parent window.                                                                                                                                                                                                                                                                                                                                                                  |
-| [**WM\_LBUTTONDBLCLK**](/windows/desktop/inputdev/wm-lbuttondblclk) | Cancels label editing and, if an item was double-clicked, sends the [NM\_DBLCLK (tree view)](nm-dblclk-tree-view.md) notification message to the parent window. If the parent window returns 0, the tree-view control toggles the expanded state of the item, sending the parent window the [TVN\_ITEMEXPANDING](tvn-itemexpanding.md) and [TVN\_ITEMEXPANDED](tvn-itemexpanded.md) notification messages. There is no return value.                                                                             |
-| [**WM\_LBUTTONDOWN**](/windows/desktop/inputdev/wm-lbuttondown)     | Toggles the expanded state if the user clicked the button associated with a parent item. If the user clicked an item label, the tree-view control selects and sets the focus to the item. If the user moves the mouse before releasing the mouse button, the tree-view control begins a drag-and-drop operation. There is no return value.                                                                                                                                                                          |
-| [**WM\_PAINT**](/windows/desktop/gdi/wm-paint)                      | Paints the invalid region of the tree-view control. It returns zero. If the *wParam* parameter is non-**NULL**, the control assumes that the value is a handle to a device context (HDC) and paints using that device context.                                                                                                                                                                                                                                                                                      |
-| [**WM\_RBUTTONDOWN**](/windows/desktop/inputdev/wm-rbuttondown)     | Checks to see if an item was clicked and a drag operation was begun. If the operation has begun, it sends a [TVN\_BEGINRDRAG](tvn-beginrdrag.md) notification message to the parent window and highlights the drop target. Otherwise, it sends an [NM\_RCLICK (tree view)](nm-rclick-tree-view.md) notification message to the parent window. There is no return value.                                                                                                                                           |
-| [**WM\_SETFOCUS**](/windows/desktop/inputdev/wm-setfocus)           | Repaints the focused item, if any, and sends an [NM\_SETFOCUS](nm-setfocus.md) notification message to the parent window.                                                                                                                                                                                                                                                                                                                                                                                          |
-| [**WM\_SETFONT**](/windows/desktop/winmsg/wm-setfont)               | Saves the specified font handle and repaints the tree-view control using the new font.                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| [**WM\_SETREDRAW**](/windows/desktop/gdi/wm-setredraw)              | Sets or clears the redraw flag. The tree-view control is redrawn after the redraw flag is set. It returns zero.                                                                                                                                                                                                                                                                                                                                                                                                     |
-| [**WM\_SIZE**](/windows/desktop/winmsg/wm-size)                     | Recomputes internal variables that depend on the size of the tree-view control's client area. It returns **TRUE**.                                                                                                                                                                                                                                                                                                                                                                                                  |
-| [**WM\_STYLECHANGED**](/windows/desktop/winmsg/wm-stylechanged)     | Cancels label editing and redraws the tree-view control using the new styles. It returns zero.                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| [**WM\_SYSCOLORCHANGE**](/windows/desktop/gdi/wm-syscolorchange)    | Redraws the tree-view control using the new color if the redraw flag is set. There is no return value.                                                                                                                                                                                                                                                                                                                                                                                                              |
-| [**WM\_TIMER**](/windows/desktop/winmsg/wm-timer)                   | Begins editing an item label. If the user clicks the label of the focused item, the tree-view control sets a timer instead of entering edit mode immediately. The timer makes it possible for the tree view to avoid entering edit mode if the user double-clicks the label. It returns zero.                                                                                                                                                                                                                       |
-| [**WM\_VSCROLL**](wm-vscroll.md)                  | Scrolls the tree-view control. It returns **TRUE** if scrolling occurs, or **FALSE** otherwise.                                                                                                                                                                                                                                                                                                                                                                                                                     |
-
-
-
- 
-
-## Related topics
-
-<dl> <dt>
-
-[SAMPLE: CustDTv Illustrates Custom Draw in a TreeView (Q248496)](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
-</dt> </dl>
-
- 
-
- 
+|Message| Description |
+| -- | -- |
+| [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) | Processes the [EN\_UPDATE](en-update.md) and [EN\_KILLFOCUS](en-killfocus.md) edit control notification messages and forwards all other edit control notifications to the parent window. There is no return value. |
+| [**WM\_CREATE**](/windows/desktop/winmsg/wm-create) | Allocates memory and initializes internal data structures. It returns zero if successful, or -1 otherwise. |
+| [**WM\_DESTROY**](/windows/desktop/winmsg/wm-destroy) | Frees all system resources associated with the control. It returns zero. |
+| [**WM\_ENABLE**](/windows/desktop/winmsg/wm-enable) | Enables or disables the control. |
+| [**WM\_ERASEBKGND**](/windows/desktop/winmsg/wm-erasebkgnd) | Erases the window background using the current background color for the tree-view control. It returns **TRUE**. |
+| [**WM\_GETDLGCODE**](/windows/desktop/dlgbox/wm-getdlgcode) | Returns a combination of the DLGC\_WANTARROWS and DLGC\_WANTCHARS values. |
+| [**WM\_GETFONT**](/windows/desktop/winmsg/wm-getfont) | Returns the handle to the current label font. |
+| [**WM\_HSCROLL**](wm-hscroll.md) | Scrolls the tree-view control. It returns **TRUE** if scrolling occurs, or **FALSE** otherwise. |
+| [**WM\_KEYDOWN**](/windows/desktop/inputdev/wm-keydown) | Sends the [TVN\_KEYDOWN](tvn-keydown.md) notification message to the parent window for all keys. Sends the [NM\_RETURN (tree view)](nm-return-tree-view-.md) notification message when the user presses the ENTER key. It moves the caret when the user presses the direction keys or the PAGE UP, PAGE DOWN, HOME, END, or BACKSPACE key. It scrolls the tree-view control when the user presses the CTRL key in combination with those keys. It returns **TRUE** if a key is processed, or **FALSE** otherwise. |
+| [**WM\_KILLFOCUS**](/windows/desktop/inputdev/wm-killfocus) | Repaints the focused item, if any, and sends an [NM\_KILLFOCUS (tree view)](nm-killfocus-tree-view.md) notification message to the parent window. |
+| [**WM\_LBUTTONDBLCLK**](/windows/desktop/inputdev/wm-lbuttondblclk) | Cancels label editing and, if an item was double-clicked, sends the [NM\_DBLCLK (tree view)](nm-dblclk-tree-view.md) notification message to the parent window. If the parent window returns 0, the tree-view control toggles the expanded state of the item, sending the parent window the [TVN\_ITEMEXPANDING](tvn-itemexpanding.md) and [TVN\_ITEMEXPANDED](tvn-itemexpanded.md) notification messages. There is no return value. |
+| [**WM\_LBUTTONDOWN**](/windows/desktop/inputdev/wm-lbuttondown) | Toggles the expanded state if the user clicked the button associated with a parent item. If the user clicked an item label, the tree-view control selects and sets the focus to the item. If the user moves the mouse before releasing the mouse button, the tree-view control begins a drag-and-drop operation. There is no return value. |
+| [**WM\_PAINT**](/windows/desktop/gdi/wm-paint) | Paints the invalid region of the tree-view control. It returns zero. If the *wParam* parameter is non-**NULL**, the control assumes that the value is a handle to a device context (HDC) and paints using that device context. |
+| [**WM\_RBUTTONDOWN**](/windows/desktop/inputdev/wm-rbuttondown) | Checks to see if an item was clicked and a drag operation was begun. If the operation has begun, it sends a [TVN\_BEGINRDRAG](tvn-beginrdrag.md) notification message to the parent window and highlights the drop target. Otherwise, it sends an [NM\_RCLICK (tree view)](nm-rclick-tree-view.md) notification message to the parent window. There is no return value. |
+| [**WM\_SETFOCUS**](/windows/desktop/inputdev/wm-setfocus) | Repaints the focused item, if any, and sends an [NM\_SETFOCUS](nm-setfocus.md) notification message to the parent window. |
+| [**WM\_SETFONT**](/windows/desktop/winmsg/wm-setfont) | Saves the specified font handle and repaints the tree-view control using the new font. |
+| [**WM\_SETREDRAW**](/windows/desktop/gdi/wm-setredraw) | Sets or clears the redraw flag. The tree-view control is redrawn after the redraw flag is set. It returns zero. |
+| [**WM\_SIZE**](/windows/desktop/winmsg/wm-size) | Recomputes internal variables that depend on the size of the tree-view control's client area. It returns **TRUE**. |
+| [**WM\_STYLECHANGED**](/windows/desktop/winmsg/wm-stylechanged) | Cancels label editing and redraws the tree-view control using the new styles. It returns zero. |
+| [**WM\_SYSCOLORCHANGE**](/windows/desktop/gdi/wm-syscolorchange) | Redraws the tree-view control using the new color if the redraw flag is set. There is no return value. |
+| [**WM\_TIMER**](/windows/desktop/winmsg/wm-timer) | Begins editing an item label. If the user clicks the label of the focused item, the tree-view control sets a timer instead of entering edit mode immediately. The timer makes it possible for the tree view to avoid entering edit mode if the user double-clicks the label. It returns zero. |
+| [**WM\_VSCROLL**](wm-vscroll.md) | Scrolls the tree-view control. It returns **TRUE** if scrolling occurs, or **FALSE** otherwise. |

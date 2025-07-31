@@ -3,7 +3,7 @@ title: How to Create a Tree-View Control
 description: To create a tree-view control, use the CreateWindowEx function, specifying the WC\_TREEVIEW value for the window class.
 ms.assetid: FEC3BF62-3085-47D4-B82E-7BD7B34B397D
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 07/31/2025
 ---
 
 # How to Create a Tree-View Control
@@ -14,12 +14,12 @@ To create a tree-view control, use the [**CreateWindowEx**](/windows/desktop/api
 
 ### Technologies
 
--   [Windows Controls](window-controls.md)
+- [Windows Controls](window-controls.md)
 
 ### Prerequisites
 
--   C/C++
--   Windows User Interface Programming
+- C/C++
+- Windows User Interface Programming
 
 ## Instructions
 
@@ -27,8 +27,7 @@ To create a tree-view control, use the [**CreateWindowEx**](/windows/desktop/api
 
 The following example creates a tree-view control that is sized to fit the client area of the parent window. It also uses application-defined functions to associate an image list with the control and add items to the control.
 
-
-```C++
+```cpp
 // Create a tree-view control. 
 // Returns the handle to the new control if successful,
 // or NULL otherwise. 
@@ -74,22 +73,10 @@ HWND CreateATreeView(HWND hwndParent)
 } 
 ```
 
-
-
 ## Remarks
 
 When you create a tree-view control, you can also send it a [**WM\_SETFONT**](/windows/desktop/winmsg/wm-setfont) message to set the font to be used for the text. You should send this message before inserting any items. By default, a tree view uses the icon title font. Although you can customize the font per-item by using [Custom Draw](custom-draw.md), the tree-view control uses the dimensions of the font specified by the **WM\_SETFONT** message to determine spacing and layout.
 
 ## Related topics
 
-<dl> <dt>
-
-[Using Tree-View Controls](using-treeview.md)
-</dt> <dt>
-
-[CustDTv sample illustrates custom draw in a Tree-View control](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
-</dt> </dl>
-
- 
-
- 
+- [Using Tree-View Controls](using-treeview.md)

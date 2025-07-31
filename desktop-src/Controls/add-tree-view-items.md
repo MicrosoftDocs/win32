@@ -3,7 +3,7 @@ title: How to Add Tree-View Items
 description: You add an item to a tree-view control by sending the TVM\_INSERTITEM message to the control.
 ms.assetid: CD6376F4-8B1A-489D-8538-6C1620E98F76
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 07/31/2025
 ---
 
 # How to Add Tree-View Items
@@ -14,12 +14,12 @@ You add an item to a tree-view control by sending the [**TVM\_INSERTITEM**](tvm-
 
 ### Technologies
 
--   [Windows Controls](window-controls.md)
+- [Windows Controls](window-controls.md)
 
 ### Prerequisites
 
--   C/C++
--   Windows User Interface Programming
+- C/C++
+- Windows User Interface Programming
 
 ## Instructions
 
@@ -31,8 +31,7 @@ The example includes two functions. The first function extracts each heading and
 
 The second function adds an item to a tree-view control. It uses the heading text as the item's label, and it uses the heading level to determine the parent item for the new item. A level one heading is added to the root of the tree-view control, a level two heading is added as a child item of the previous level one item, and so on. The function assigns an image to an item based on whether it has child items. If an item has child items, it gets an image that represents a closed folder. Otherwise, it gets an image that represents a document. An item uses the same image for both the selected and nonselected states.
 
-
-```C++
+```cpp
 // Adds items to a tree-view control. 
 // Returns the handle to the newly added item. 
 // hwndTV - handle to the tree-view control. 
@@ -135,22 +134,6 @@ BOOL InitTreeViewItems(HWND hwndTV)
 }
 ```
 
-
-
 ## Related topics
 
-<dl> <dt>
-
-[Using Tree-View Controls](using-treeview.md)
-</dt> <dt>
-
-[CustDTv sample illustrates custom draw in a Tree-View control](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+- [Using Tree-View Controls](using-treeview.md)
