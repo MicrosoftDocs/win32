@@ -10,7 +10,7 @@ ms.date: 07/25/2025
 
 The most recent date and time the file or folder was shared by any user, specified by the storage provider.
 
-## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1
+## Windows 11, version 24H2
 
 ```
 propertyDescription

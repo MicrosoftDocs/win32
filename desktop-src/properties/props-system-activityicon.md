@@ -10,7 +10,7 @@ ms.date: 07/25/2025
 
 The string corresponding to a glyph in the Segoe Fluent Icons font that represents the activity described in [System.ActivityInfo](./props-system-activityinfo.md).
 
-## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1
+## Windows 11, version 24H2
 
 ```
 propertyDescription

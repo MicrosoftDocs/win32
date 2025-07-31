@@ -10,7 +10,7 @@ ms.date: 07/25/2025
 
 This property represents the entire fully-qualified provider identifier.
 
-## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1
+## Windows 11, version 24H2
 
 ```
 propertyDescription

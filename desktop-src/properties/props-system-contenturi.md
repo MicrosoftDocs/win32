@@ -10,7 +10,7 @@ ms.date: 07/25/2025
 
 Durable identifier for a file that can be used across devices to access file.
 
-## Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1
+## Windows 10, version 1803
 
 ```
 propertyDescription
