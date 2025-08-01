@@ -12,7 +12,7 @@ api_name:
 - Image_Load.ImageBase
 - Image_Load.ImageSize
 - Image_Load.ProcessId
-- Image_Load.ImageCheckSum
+- Image_Load.ImageChecksum
 - Image_Load.TimeDateStamp
 - Image_Load.Reserved0
 - Image_Load.DefaultBase
@@ -41,7 +41,7 @@ class Image_Load : Image
   uint32 ImageBase;
   uint32 ImageSize;
   uint32 ProcessId;
-  uint32 ImageCheckSum;
+  uint32 ImageChecksum;
   uint32 TimeDateStamp;
   uint32 Reserved0;
   uint32 DefaultBase;
@@ -113,7 +113,7 @@ Base address of the application in which the image is loaded.
 
 </dd> <dt>
 
-ImageCheckSum
+ImageChecksum
 </dt> <dd> <dl> <dt>
 
 Data type: **uint32**
