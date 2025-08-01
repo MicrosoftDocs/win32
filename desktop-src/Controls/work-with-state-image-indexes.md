@@ -3,7 +3,7 @@ title: How to Work With State Image Indexes
 description: There is often confusion about how to set and retrieve the state image index in a tree-view control.
 ms.assetid: 2666D922-9957-4A75-BFDA-038720F1EEDC
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 07/31/2025
 ---
 
 # How to Work With State Image Indexes
@@ -14,12 +14,12 @@ There is often confusion about how to set and retrieve the state image index in 
 
 ### Technologies
 
--   [Windows Controls](window-controls.md)
+- [Windows Controls](window-controls.md)
 
 ### Prerequisites
 
--   C/C++
--   Windows User Interface Programming
+- C/C++
+- Windows User Interface Programming
 
 ## Instructions
 
@@ -27,8 +27,7 @@ There is often confusion about how to set and retrieve the state image index in 
 
 The following example demonstrates how to set a tree-view item's check state.
 
-
-```C++
+```cpp
   BOOL TreeView_SetCheckState(HWND hwndTreeView, HTREEITEM hItem, BOOL fCheck)
   {
       TVITEM tvItem;
@@ -46,14 +45,11 @@ The following example demonstrates how to set a tree-view item's check state.
   }
 ```
 
-
-
 ### Retrieve a Tree-View Item's Check State
 
 The following example demonstrates how to retrieve a tree-view item's check state.
 
-
-```C++
+```cpp
   BOOL TreeView_GetCheckState(HWND hwndTreeView, HTREEITEM hItem)
   {
       TVITEM tvItem;
@@ -71,22 +67,6 @@ The following example demonstrates how to retrieve a tree-view item's check stat
   }
 ```
 
-
-
 ## Related topics
 
-<dl> <dt>
-
-[Using Tree-View Controls](using-treeview.md)
-</dt> <dt>
-
-[CustDTv sample illustrates custom draw in a Tree-View control](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+- [Using Tree-View Controls](using-treeview.md)

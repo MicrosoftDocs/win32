@@ -14,12 +14,12 @@ When you apply the [**TVS\_INFOTIP**](tree-view-control-window-styles.md) style 
 
 ### Technologies
 
--   [Windows Controls](window-controls.md)
+- [Windows Controls](window-controls.md)
 
 ### Prerequisites
 
--   C/C++
--   Windows User Interface Programming
+- C/C++
+- Windows User Interface Programming
 
 ## Instructions
 
@@ -27,8 +27,7 @@ When you apply the [**TVS\_INFOTIP**](tree-view-control-window-styles.md) style 
 
 The following example code shows how an application might respond to the notification. For simplicity, the example just copies the text for the item to the infotip.
 
-
-```
+```cpp
   case WM_NOTIFY:
     switch (((LPNMHDR) lParam)->code)
     {
@@ -51,26 +50,10 @@ The following example code shows how an application might respond to the notific
           wcscpy_s(pTip->pszText, pTip->cchTextMax, tvitem.pszText);
           break;
         }
-      }
-      return TRUE;
+    }
+    return TRUE;
 ```
-
-
 
 ## Related topics
 
-<dl> <dt>
-
-[Using Tree-View Controls](using-treeview.md)
-</dt> <dt>
-
-[CustDTv sample illustrates custom draw in a Tree-View control](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+- [Using Tree-View Controls](using-treeview.md)
