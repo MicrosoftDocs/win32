@@ -18,7 +18,7 @@ The Windows Update Agent (WUA) API is a set of COM interfaces that enable system
 > The history of updates that have been installed using the WUA APIs can be viewed in **Event Viewer**. To view WUA update events:
 > 1. Right-click **Start** and select **Event Viewer**.
 > 2. Navigate to **Windows Logs > System**
-> 3. In the **Actions&** pane, select **Filter Current Log...**.
+> 3. In the **Actions** pane, select **Filter Current Log...**.
 > 4. In the **Event sources** drop-down, select **WindowsUpdateClient**.
 > 5. Click **Ok** to apply the filter to the results.
 
