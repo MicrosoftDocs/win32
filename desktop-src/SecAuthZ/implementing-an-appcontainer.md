@@ -21,7 +21,7 @@ The following table defines terms and concepts referenced in this article.
 | Capability SIDs | Capability SIDs serve as unique and immutable identifiers for capabilities. A capability represents an unforgeable token of authority that grants an application access to resources (for example, documents, cameras, and locations). For more information, see [App capability declarations](/windows/uwp/packaging/app-capability-declarations) |
 | All App Packages SID | A "well-known" SID with the value **S-1-15-2-1** that indicates that all AppContainers are granted access to the object. |
 | Discretionary Access Control List (DACL) | A list that identifies the users and groups who can perform various operations on an object. For more information, see [Security descriptor components](/windows/win32/ad/security-descriptor-components). |
-| Less Privileged AppContainers (LPAC) | A type of container that is more isolated than a regular AppContainer. It requires explicit capability declarations to access resources that are accessible to AppContainers. |
+| Less Privileged AppContainers (LPAC) | A type of AppContainer that is more isolated than a regular AppContainer. It requires explicit capability declarations to access resources that are accessible to AppContainers. |
 
 
 ## AppContainer overview
