@@ -3649,6 +3649,8 @@
           href: mfsampleextension-videoencodeqp.md
         - name: "MFSampleExtension_VideoEncodeQPMap"
           href: mfsampleextension-videoencodeqpmap.md
+        - name: "MFSampleExtension_VideoEncodeSatdMap"
+          href: mfsampleextension-videoencodesatdmap.md
         - name: "MFStreamExtension_CameraExtrinsics"
           href: mfstreamextension-cameraextrinsics.md
         - name: "MFStreamExtension_PinholeCameraIntrinsics"
@@ -8311,6 +8313,8 @@
         href: codecapi-avencvideoratecontrolparams.md
       - name: "CODECAPI_AVEncVideoROIEnabled"
         href: codecapi-avencvideoroienabled.md
+      - name: "CODECAPI-AVEncVideoSatdMapBlockSize"
+        href: codecapi-avencvideosatdmapblocksize.md
       - name: "CODECAPI_AVEncVideoSelectLayer"
         href: codecapi-avencvideoselectlayer.md
       - name: "CODECAPI_AVEncVideoSupportedControls"
