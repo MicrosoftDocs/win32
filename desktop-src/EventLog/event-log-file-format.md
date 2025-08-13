@@ -59,7 +59,3 @@ The event records are organized in one of the following ways:
     An event log file has a fixed size and when the records in the file wrap, the record at the end of the file will typically be split into two records. For example, if the position for the next write is 100 bytes from the end of the file and the size of the record is 300 bytes, the first 100 bytes will be written at the end of the file and the next 200 bytes will be written at the beginning of the file immediately after the **ELF\_LOGFILE\_HEADER**. If the available space at the end of the file is less than the fixed portion of the **EVENTLOGRECORD** (0x38 bytes), all of the new record will be written at the beginning of the file immediately after the **ELF\_LOGFILE\_HEADER**. The unused bytes at the end of the file will be filled with the pattern 0x00000027.
 
 For more information and a code example, see [Reporting an Event](reporting-an-event.md).
-
- 
-
- 
