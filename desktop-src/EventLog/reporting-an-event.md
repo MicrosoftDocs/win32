@@ -6,10 +6,12 @@ ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
+> [!Note]  
+> The Event Logging API was designed for applications that run on the Windows Server 2003, Windows XP, or Windows 2000 operating system. In Windows Vista, the event logging infrastructure was redesigned. Applications that are designed to run on the Windows Vista or later operating systems should now use [Windows Event Log](/windows/desktop/WES/windows-event-log).
+
 # Reporting Events
 
 To report events, you must first define the events in a message text file. For details on writing a message text file, see [Message Text Files](message-text-files.md). The following shows the message text file used in this example.
-
 
 ```C++
 ; // MyEventProvider.mc 
@@ -116,8 +118,6 @@ gallons%0
 
 ```
 
-
-
 To compile the message text file, use the following command:
 
 **mc -U provider.mc**
@@ -131,7 +131,6 @@ To create the resource-only DLL that contains the message table string resources
 **link -dll -noentry provider.res**
 
 The following shows the header file that the compiler generated for the above message text file. Include the header file in your project.
-
 
 ```C++
 // MyEventProvider.mc 
@@ -171,7 +170,6 @@ The following shows the header file that the compiler generated for the above me
 #define FACILITY_RUNTIME                 0x2
 #define FACILITY_IO_ERROR_CODE           0x4
 
-
 //
 // Define the severity codes
 //
@@ -179,7 +177,6 @@ The following shows the header file that the compiler generated for the above me
 #define STATUS_SEVERITY_SUCCESS          0x0
 #define STATUS_SEVERITY_INFORMATIONAL    0x1
 #define STATUS_SEVERITY_ERROR            0x3
-
 
 //
 // MessageId: NETWORK_CATEGORY
@@ -267,10 +264,7 @@ The following shows the header file that the compiler generated for the above me
 
 ```
 
-
-
 The following example shows how to use the [**ReportEvent**](/windows/desktop/api/Winbase/nf-winbase-reporteventa) function to write the events defined in the above message text file.
-
 
 ```C++
 #ifndef UNICODE
@@ -350,8 +344,6 @@ cleanup:
 }
 ```
 
-
-
 Before running this example, register the provider in the registry. For details on the registry settings, see [Event Sources](event-sources.md). Add "MyEventProvider" as a registry key under the following key:
 
 **HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\services\\eventlog\\Application**
@@ -365,14 +357,3 @@ The following shows the registry values to set for the "MyEventProvider" registr
 | EventMessageFile     | REG\_SZ    | *path*\\provider.dll |
 | ParameterMessageFile | REG\_SZ    | *path*\\provider.dll |
 | TypesSupported       | REG\_DWORD | 0x00000007           |
-
-
-
- 
-
- 
-
- 
-
-
-
