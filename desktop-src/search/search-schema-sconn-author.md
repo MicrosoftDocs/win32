@@ -1,12 +1,12 @@
 ---
 description: The optional &lt;author&gt; element specifies the author of this library. This element has no child elements and no attributes.
 ms.assetid: c91042d5-9564-463a-9104-97b927027fc9
-title: author Element (Search Connector Schema)
+title: Author element (search connector schema)
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# author Element (Search Connector Schema)
+# Author element (search connector schema)
 
 The optional &lt;author&gt; element specifies the author of this library. This element has no child elements and no attributes.
 
@@ -28,7 +28,7 @@ The optional &lt;author&gt; element specifies the author of this library. This e
 
 
 
-## Element Information
+## Element information
 
 
 

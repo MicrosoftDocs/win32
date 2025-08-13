@@ -1,12 +1,12 @@
 ---
 description: The &lt;scopeItem&gt; element represents a single entry in the exclusion/inclusion scope table.
 ms.assetid: 18a58b3b-771c-4829-b3d4-253383b4bee8
-title: scopeItem Element (Search Connector Schema)
+title: scopeItem element (search connector schema)
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# scopeItem Element (Search Connector Schema)
+# scopeItem element (search connector schema)
 
 The &lt;scopeItem&gt; element represents a single entry in the exclusion/inclusion scope table. &lt;scopeItem&gt; extends the standard shellLinkType type by adding three new elements that control inclusion and exclusion of folders, control the depth of results, and specify the location of the scope. If the &lt;scope&gt; element exists, this element is required. It has three child elements and no attributes.
 
@@ -46,7 +46,7 @@ The &lt;scopeItem&gt; element represents a single entry in the exclusion/inclusi
 
 
 
-## Element Information
+## Element information
 
 
 

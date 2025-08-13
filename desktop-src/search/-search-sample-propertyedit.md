@@ -31,7 +31,7 @@ This topic contains the following sections.
 
  
 
-## Downloading the Sample
+## Downloading the sample
 
 This sample is available in the following locations.
 
@@ -52,7 +52,7 @@ This sample is available in the following locations.
 
  
 
-## Building the Sample
+## Building the sample
 
 To build the sample from the Command Prompt:
 
@@ -70,7 +70,7 @@ To build the sample using Microsoft Visual Studio (preferred):
 
 3.  From the **Build** menu, select **Build Solution**.
 
-## Running the Sample
+## Running the sample
 
 1.  Navigate to the directory that contains the new executable, using the Command Prompt window or Windows Explorer.
 2.  At the command prompt, enter `PropertyEdit.exe`, or from Windows Explorer, double-click the icon for PropertyEdit.exe.

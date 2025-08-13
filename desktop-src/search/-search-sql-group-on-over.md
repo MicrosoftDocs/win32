@@ -1,12 +1,12 @@
 ---
 description: The GROUP ON...
 ms.assetid: 37f027c1-c2af-4d62-8b5f-918499fc2d7c
-title: GROUP ON ... OVER ... Statement
+title: GROUP ON ... OVER ... statement
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# GROUP ON ... OVER ... Statement
+# GROUP ON ... OVER ... statement
 
 The GROUP ON... OVER... statement returns a hierarchical rowset in which search results are divided into groups based on a specified column and optional grouping ranges. If you group on the [System.Kind](../properties/props-system-kind.md) column, the result set is divided into multiple groups: one for documents, one for communications, and so on. If you group on [System.Size](../properties/props-system-size.md) and group range 100 KB, the result set is divided into three groups: items of size < 100 KB, items of size >= 100 KB, and items with no size value. You can also aggregate groupings with functions.
 
@@ -55,7 +55,7 @@ For example, a range limit of '2006-01-01' for the [System.DateCreated](../prope
 
 Within each group, the results are sorted by the values in the GROUP ON column by default. The optional [ORDER BY](-search-sql-orderby.md) clause can contain a direction specifier of either ASC for ascending (low to high) or DESC for descending (high to low), and the [ORDER IN GROUP BY](-search-sql-orderingroup.md) clause can order each group using different rules. See the [Ordering Groups](#ordering-groups) section below for more information.
 
-## Group Ranges
+## Group ranges
 
 The following table demonstrates how results are divided into groups based the range limits:
 
@@ -84,7 +84,7 @@ The following table demonstrates how results are divided into groups based the r
 
  
 
-## Labeling Groups
+## Labeling groups
 
 To improve readability, you can label groups using the following syntax:
 
@@ -138,7 +138,7 @@ The following table shows the groups that would be created by the preceding grou
 
  
 
-## Ordering Groups
+## Ordering groups
 
 There are three ways to order items in groups:
 
@@ -148,7 +148,7 @@ There are three ways to order items in groups:
 
 For more information on ordering results, see the [ORDER BY Clause](-search-sql-orderby.md) and [ORDER IN GROUP Clause](-search-sql-orderingroup.md) reference pages.
 
-## Nesting Groups
+## Nesting groups
 
 You can nest groups with multiple GROUP ON clauses. The order specified in the query is directly reflected in the output group hierarchy, as shown in the following example.
 
@@ -180,7 +180,7 @@ GROUP ON <System.Kind>
 
  
 
-## Grouping on Vector Properties
+## Grouping on vector properties
 
 Grouping on vector properties, properties that can contain one or more values simultaneously, compares the vector values individually by default. For example, if there is one document, Lorem.docx, with the System.Author property as "Theresa;Zara" and another document, Ipsum.docx, with the System.Author property as "Zara", the query returns the result set in two groups as shown here:
 
@@ -208,7 +208,7 @@ As you can see, grouping on vector properties returns duplicate rows. Lorem.docx
 
  
 
-## More Examples
+## More examples
 
 
 ```

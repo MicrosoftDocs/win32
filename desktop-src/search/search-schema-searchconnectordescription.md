@@ -1,12 +1,12 @@
 ---
 description: The &lt;searchConnectorDescriptionType&gt; element is the top level container for the search connector definition.
 ms.assetid: a6b45864-210d-4099-804d-7548fd8eb562
-title: searchConnectorDescriptionType Element (Search Connector Schema)
+title: searchConnectorDescriptionType element (search connector schema)
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# searchConnectorDescriptionType Element (Search Connector Schema)
+# searchConnectorDescriptionType element (search connector schema)
 
 The &lt;searchConnectorDescriptionType&gt; element is the top level container for the search connector definition.
 
@@ -100,7 +100,7 @@ The &lt;searchConnectorDescriptionType&gt; element is the top level container fo
 
 
 
-## Element Information
+## Element information
 
 
 
@@ -144,7 +144,7 @@ The &lt;searchConnectorDescriptionType&gt; element is the top level container fo
 
 Search connectors for federated search cannot be used in libraries. The schema for library search connectors is an extension of the schema described here and includes information specific to libraries.
 
-## Example of a Search Connector Description File
+## Example of a search connector description file
 
 The following is an example of a Search Connector Description file for a federated search web service.
 

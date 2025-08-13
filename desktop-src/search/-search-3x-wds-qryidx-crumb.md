@@ -1,12 +1,12 @@
 ---
 description: Understand how to use the CRUMB argument in Windows Search as a means of controlling the scope of a search.
 ms.assetid: b0b974ae-0573-45e4-888e-07138604b62e
-title: CRUMB Argument (Windows Search)
+title: CRUMB argument (Windows Search)
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# CRUMB Argument (Windows Search)
+# CRUMB argument (Windows Search)
 
 The `crumb` argument supports full Advanced Query Syntax (AQS) statements and is especially useful as a means of controlling the scope of a search. In addition to AQS ements, the `crumb` argument can take a special `location` parameter on Windows Vista and `kind` and `store` parameters on XP, as described later in this topic.
 
@@ -23,7 +23,7 @@ This topic is organized as follows:
 
  
 
-## Crumb Syntax
+## Crumb syntax
 
 The crumb syntax is as follows:
 
@@ -36,7 +36,7 @@ crumb=<column>:<value>[,<label>][,<column>:<value>[,<label>]]&
 
 The &lt;column&gt; portion is any property in the property system, and the &lt;value&gt; portion is a valid value for that property. The <label> portion is an optional alias for the property that displays as a user interface hint.
 
-### General Examples
+### General examples
 
 
 ```
@@ -84,7 +84,7 @@ Folder accessed via a known UNC protocol handler:
 -   Use AQS (crumb=store:\<UNC protocol handler name\>)
 -   Use location argument (crumb=location:\<URL-encoded path\>)
 
-### Vista Examples
+### Vista examples
 
 
 ```
@@ -103,7 +103,7 @@ The second example executes a search within C:\\Pictures, but not in C:\\Picture
 
 The third example executes a search within C:\\Documents, limited to files with the kind property set to pics.
 
-### Constants for Common Folders
+### Constants for common folders
 
 Windows Vista enables the use of [KNOWNFOLDERID](/previous-versions//bb762584(v=vs.85)) values that provide a unique system-independent way to identify special folders used frequently by applications, but which may not have the same name or location on any given system. For example, the system folder may be "C:\\Windows" on one system and "C:\\Winnt" on another. Prior to Windows Vista, [CSIDLs](/windows/desktop/shell/csidl) were used.
 
@@ -127,7 +127,7 @@ For Windows Search on Windows XP (WDS 3.x), the AQS terms "kind" and "store" ha
 -   outlookexpress
 -   any
 
-### XP Examples
+### XP examples
 
 
 ```

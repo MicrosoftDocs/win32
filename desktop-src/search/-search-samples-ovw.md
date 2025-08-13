@@ -1,12 +1,12 @@
 ---
 description: The topics in this section briefly describe the sample programs for search that accompany the Microsoft Windows Software Development Kit (SDK) for Windows 7.
 ms.assetid: 9cd35360-dee5-433e-9576-dbe39bd34cbb
-title: Windows Search Code Samples
+title: Windows Search code samples
 ms.topic: sample
 ms.date: 05/31/2018
 ---
 
-# Windows Search Code Samples
+# Windows Search code samples
 
 The topics in this section briefly describe the sample programs for search that accompanied the Microsoft Windows Software Development Kit (SDK) for Windows 7. These samples can also be run on Windows 10, using the Windows 10 SDK.
 

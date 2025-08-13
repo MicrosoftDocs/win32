@@ -1,12 +1,12 @@
 ---
 description: "Learn more about: ORDER BY Clause"
 ms.assetid: e720cf0d-b034-48e2-a13e-e97dd23b2beb
-title: ORDER BY Clause
+title: ORDER BY clause
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# ORDER BY Clause
+# ORDER BY clause
 
 The ORDER BY clause sorts the results based on the value of one or more columns you specify. Following is the syntax of the ORDER BY clause:
 

@@ -1,12 +1,12 @@
 ---
 description: The CONTAINS predicate supports the use of the asterisk (\*) as a wildcard character to represent words and phrases. You can add the asterisk only at the end of the word or phrase. The presence of the asterisk enables the prefix-matching mode.
 ms.assetid: 9d141c7a-a721-416e-aa61-dabdb6533462
-title: Using Wildcard Characters in the CONTAINS Predicate
+title: Using wildcard characters in the CONTAINS predicate
 ms.topic: concept-article
 ms.date: 02/04/2025
 ---
 
-# Using Wildcard Characters in the CONTAINS Predicate
+# Using wildcard characters in the CONTAINS predicate
 
 The CONTAINS predicate supports the use of the asterisk (\*) as a wildcard character to represent words and phrases. You can add the asterisk only at the end of the word or phrase. The presence of the asterisk enables the _prefix-matching_ mode. In this mode, matches are returned if the column contains the specified search word followed by zero or more other characters.
 

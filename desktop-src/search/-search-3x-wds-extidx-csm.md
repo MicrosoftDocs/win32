@@ -39,11 +39,11 @@ The **Crawl Scope Manager (CSM)** is a set of APIs that lets you add, remove, an
 
 While you can use the CSM APIs to define a crawl scope programmatically, the CSM was designed to support end users as well. For example, suppose you have developed a protocol handler for a new data store, and you want to let users or administrators manage which paths should be indexed. You can use the Crawl Scope Manager to set one or more search roots (for example, file:///C:\\MyContainer\\), and the Windows Search user interface for setting indexing options will display each search root with a check box. Users can then include or exclude that path or children of that path.
 
-## Search Roots and Scope Rules
+## Search roots and scope rules
 
 Search roots and scope rules together define a working set of URLs that comprise the indexer's crawl scope.
 
-### Search Roots
+### Search roots
 
 Setting a search root does not specify which parts of this store should be indexed; it merely signals that a content store exists and is associated with a registered protocol handler. The syntax of a search root includes a protocol, a site or user security identifier, and a path to the location(s) to be crawled.
 
@@ -58,7 +58,7 @@ AND
 
 Refer to [Managing Search Roots](-search-3x-wds-extidx-csm-searchroots.md) for instructions on adding, removing, and enumerating search roots.
 
-### Scope Rules
+### Scope rules
 
 Scope rules include or exclude URLs within a search root from being crawled and indexed. Scope rules can be set by end users, by group policy, or by third-party developers. You should define scope rules programmatically when you define a new search root. Your search roots and scope rules comprise the default crawl scope for your data store and protocol handler.
 
@@ -69,7 +69,7 @@ Scope rules include or exclude URLs within a search root from being crawled and 
 
 Refer to [Managing Scope Rules](-search-3x-wds-extidx-csm-scoperules.md) for instructions on adding, removing, reverting, and enumerating scope rules.
 
-## Group Policies Supported by the Crawl Scope Manager
+## Group policies supported by the Crawl Scope Manager
 
 System administrators can define crawl scopes across their organizations by using Group Policies. These group policy rules can also act as default rules, which users can override. For example, you can have one set of directories indexed for one group of users and a different set for another group of users, allowing the users to deselect these defaults. Group policy rules can also act as forced exclusion rules that users cannot override, preventing certain users from indexing certain network shares, for example.
 

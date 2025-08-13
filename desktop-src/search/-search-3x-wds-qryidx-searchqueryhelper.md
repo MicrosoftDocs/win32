@@ -1,12 +1,12 @@
 ---
 description: You can use the ISearchQueryHelper interface to query the index. This interface is implemented as a helper class to ISearchCatalogManager (and ISearchCatalogManager2), and is obtained by calling ISearchCatalogManager::GetQueryHelper.
 ms.assetid: 6e567c09-8763-4866-bf02-ad6651b454db
-title: Querying the Index with ISearchQueryHelper
+title: Querying the index with ISearchQueryHelper
 ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
-# Querying the Index with ISearchQueryHelper
+# Querying the index with ISearchQueryHelper
 
 You can use the [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) interface to query the index. This interface is implemented as a helper class to [**ISearchCatalogManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager) (and [**ISearchCatalogManager2**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager2)), and is obtained by calling [**ISearchCatalogManager::GetQueryHelper**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcatalogmanager-getqueryhelper). This interface permits you to:
 
@@ -24,7 +24,7 @@ This topic is organized as follows:
 -   [Working with Other ISearchQueryHelper Methods](#working-with-other-isearchqueryhelper-methods)
 -   [Related topics](#related-topics)
 
-## Getting Started with ISearchQueryHelper
+## Getting started with ISearchQueryHelper
 
 There are a few key interfaces and methods you should be aware of before you can start programmatically querying Windows Search using the [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) interface. At a high level, you need to follow these steps:
 
@@ -74,7 +74,7 @@ There are a few key interfaces and methods you should be aware of before you can
 
     
 
-## Using the GenerateSqlFromUserQuery Method
+## Using the GenerateSqlFromUserQuery method
 
 The [**ISearchQueryHelper::GenerateSQLFromUserQuery**](/windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-generatesqlfromuserquery) method transforms user input into a SQL query string, which can then be submitted to the OLE DB provider for Windows Search. This method translates the [Advanced Query Syntax](-search-3x-advancedquerysyntax.md) (AQS) or Natural Query Syntax (NQS) query entered by the user into SQL, and lets you add other SQL fragments as needed.
 
@@ -109,7 +109,7 @@ ORDER BY "System.ItemUrl"
 
  
 
-## Working with Locale Identifiers
+## Working with locale identifiers
 
 
 
@@ -126,7 +126,7 @@ The **content locale** and **keyword locale** are locale identifiers (LCID) that
 
 For example, if you have the English-US version with no MUI packs, both the content locale and keyword locale are 1033. If you have the German version with no MUI packs, then both the content locale and keyword locale are 1031 (gr-gr). However, if you have the English version with the Romanian MUI pack, the content locale is 2072 (ro) and the keyword locale is 1033 (en-us).
 
-## Working with Properties and Columns
+## Working with properties and columns
 
 
 
@@ -143,7 +143,7 @@ Items are represented in the property store as a row. Each row contains a number
 
 With these methods, you access or modify the property with a comma delimited, null-terminated, Unicode string that specifies one or more column names of the property store: "System.Document.Author, System.Document.Title".
 
-## Working with Query Term Expansion
+## Working with query term expansion
 
 
 
@@ -160,7 +160,7 @@ This method enables the expansion of some query terms with wild card characters,
 -   SEARCH\_TERM\_PREFIX\_ALL - All search terms are expanded
 -   SEARCH\_TERM\_NO\_EXPANSION - No search terms are expanded
 
-## Working with Other ISearchQueryHelper Methods
+## Working with other ISearchQueryHelper methods
 
 Many of the methods in the [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) interface are used to set query arguments or define the properties returned.
 

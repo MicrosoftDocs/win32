@@ -1,12 +1,12 @@
 ---
 description: There are several ways to use Windows Search to query the index.
 ms.assetid: 2c161b7f-4e28-4e8a-add6-3c1cda00a622
-title: Querying the Index Programmatically
+title: Querying the index programmatically
 ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Querying the Index Programmatically
+# Querying the index programmatically
 
 There are several ways to use Windows Search to query the index.
 
@@ -23,7 +23,7 @@ This section provides the conceptual framework for querying the index programmat
 
  
 
-## Additional Resources
+## Additional resources
 
 -   For information on OLE DB, see [OLE DB Programming Overview](https://msdn.microsoft.com/library/Cc522830(v=VS.71).aspx). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](/dotnet/api/system.data.oledb).
 -   For additional background on using properties in querying, see the following topics:

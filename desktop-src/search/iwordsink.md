@@ -1,7 +1,7 @@
 ---
 description: Handles words identified by word breaks during both index time and query time.
 ms.assetid: 220FCAE5-D22D-45ED-9689-E78C0D8E0BB3
-title: IWordSink interface (Search.h)
+title: IWordSink interface (search.h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 

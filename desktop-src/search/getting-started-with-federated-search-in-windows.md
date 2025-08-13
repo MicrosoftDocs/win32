@@ -1,12 +1,12 @@
 ---
 description: Learn about Federated Search, which enables users to access and interact with their remote data from within Windows Explorer.
 ms.assetid: c25dbc33-3f9a-4e40-965e-9be639ababed
-title: Getting Started with Federated Search in Windows
+title: Getting started with federated search in Windows
 ms.topic: get-started
 ms.date: 05/31/2018
 ---
 
-# Getting Started with Federated Search in Windows
+# Getting started with federated search in Windows
 
 Windows 7 support for search federation to remote data stores using OpenSearch technologies enables users to access and interact with their remote data from within Windows Explorer. You can build a web-based data store that can be searched using Windows federated search and enable rich integration of your remote data sources with Windows Explorer without having to write or deploy any Windows client-side code.
 
@@ -20,7 +20,7 @@ This topic is organized as follows:
 -   [Additional Resources](#additional-resources)
 -   [Related topics](#related-topics)
 
-## What is Federated Search?
+## What is federated search?
 
 Windows 7 supports the connection of external sources to the Windows client through the [OpenSearch](https://github.com/dewitt/opensearch) protocol. This enables users to search a remote data store and view results from within Windows Explorer. The [OpenSearch](https://github.com/dewitt/opensearch) v1.1 standard defines simple file formats that can be used to describe how a client should query the web service for the data store and how the service should return results to be rendered by the client. Windows federated search connects to web services that receive [OpenSearch](https://github.com/dewitt/opensearch) queries, and returns results in either the RSS or Atom XML format.
 
@@ -28,7 +28,7 @@ The following screen shot illustrates the search results obtained after remotely
 
 ![screen shot that shows search results from a sharepoint site as displayed in windows explorer](images/searchingasharepointsitefromwindowsexp.png)
 
-## Steps for Building Federated Search
+## Steps for building federated search
 
 To build federated search, perform the following steps:
 
@@ -40,7 +40,7 @@ The following diagram illustrates the steps for building federated search.
 
 ![diagram of the process for building federated search](images/queryinganewopensearchremotedatastore.png)
 
-## How Federated Search Works
+## How federated search works
 
 Communication between Windows Explorer and your [OpenSearch](https://github.com/dewitt/opensearch) web service is performed through the Windows Data Layer. The Windows Data Layer can communicate with different types of data stores through Windows Store Providers. Each provider specializes in communicating with data stores that support a particular protocol and have specific capabilities. For example, the following illustration sows how the [OpenSearch](https://github.com/dewitt/opensearch) provider communicates with data stores that provide a web service that supports the [OpenSearch](https://github.com/dewitt/opensearch) standard.
 
@@ -66,11 +66,11 @@ To enable your data store to support federated search in Windows 7, you must pe
 
  
 
-## Sending Queries and Returning Search Results in RSS or Atom
+## Sending queries and returning search results in RSS or atom
 
 When the user types a term into the search box in the upper-right corner of Windows Explorer, the query is sent to the [OpenSearch](https://github.com/dewitt/opensearch) provider, which then sends the query to the remote data store. The remote web service responds to the query by providing results in an XML document, typically referred to as a feed, in one of two supported formats (RSS or Atom). Each result item in the feed includes XML child elements to represent or describe item metadata, such as the title, URL, description, thumbnail image, and so forth. The [OpenSearch](https://github.com/dewitt/opensearch) provider is responsible for mapping the XML element values to Windows Shell system properties that can be used by Windows applications.
 
-## Federated Search Examples
+## Federated search examples
 
 The following example OpenSearch Description (.osdx) file consists of `ShortName` and `Url` elements, which are the minimum required child elements to connect an external data store to the Windows client through the OpenSearch protocol.
 
@@ -126,7 +126,7 @@ The following example illustrates how to adds a thumbnail image display to each 
 
 
 
-## Additional Resources
+## Additional resources
 
 For additional information about implementing search federation to remote data stores using OpenSearch technologies in Windows 7 and later, see "Additional Resources" at [Federated Search in Windows](-search-federated-search-overview.md).
 

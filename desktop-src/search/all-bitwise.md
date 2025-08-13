@@ -21,7 +21,7 @@ ALL array SOME BITWISE [values?]
 
 
 
-## Comparison Operators
+## Comparison operators
 
 The supported comparison operators for BITWISE tests are listed in the following table.
 

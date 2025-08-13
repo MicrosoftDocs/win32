@@ -1,12 +1,12 @@
 ---
 description: It is important that you understand the required DLL structure of a filter handler (an implementation of the IFilter interface).
 ms.assetid: a2b5a813-573a-44d3-8780-99603e3246c1
-title: Implementing Filter Handlers in Windows Search
+title: Implementing filter handlers in Windows Search
 ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Implementing Filter Handlers in Windows Search
+# Implementing filter handlers in Windows Search
 
 It is important that you understand the required DLL structure of a filter handler (an implementation of the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface).
 
@@ -20,7 +20,7 @@ This topic is organized as follows:
 - [Additional Resources](#additional-resources)
 - [Related topics](#related-topics)
 
-## Implementing and Exporting the DLL Entry Points
+## Implementing and exporting the DLL entry points
 
 Each [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) DLL (denoted by Ifilter.dll in this section) must implement and export the following entry points. These entry points are typically exported using a module-definition (.def) file for the **IFilter** interface or by using the **\_\_declspec(dllexport)** keyword. The DLL file can be registered to be in any folder, but it usually resides in the %SystemRoot%\\system32 folder.
 
@@ -33,13 +33,13 @@ DLL entry points are listed and described in the following table.
 | [DllGetClassObject Function](/windows/win32/api/combaseapi/nf-combaseapi-dllgetclassobject)   | The content indexing client calls the [DllGetClassObject Function](/windows/win32/api/combaseapi/nf-combaseapi-dllgetclassobject) entry point, through Component Object Model (COM), to create a class factory object for the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface and to get a pointer to the class factory interface of that object.                                               |
 | [DllCanUnloadNow Function](/windows/win32/api/combaseapi/nf-combaseapi-dllcanunloadnow)     | The content-indexing client calls the [DllCanUnloadNow Function](/windows/win32/api/combaseapi/nf-combaseapi-dllcanunloadnow) entry point, through COM, to determine whether it is possible to unload the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)  DLL. The **IFilter** interface is unloaded after it is unused for an interval of time, as specified by the FilterIdleTimeOut registry value. |
 
-## Implementing the IFilter Class and Class Factory
+## Implementing the IFilter class and class factory
 
 At least two classes, such as CFilter and CFilterCF, are typically implemented by each [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) DLL. The CFilter class produces the **IFilter** interface object that implements the content-filtering functionality. Its member functions implement the interface methods of the **IFilter** interface. Each **IFilter** class requires a unique class identifier (CLSID), which the **IFilter** interface implementer generates.
 
 The CFilterCF class produces the class-factory object for the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface. The class factory is called, through its [IClassFactory Interface](/windows/win32/api/unknwn/nn-unknwn-iclassfactory) interface, by the [DllGetClassObject Function](/windows/win32/api/combaseapi/nf-combaseapi-dllgetclassobject) entry point of the DLL. The CFilterCF class creates the CFilter object and returns a pointer to [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown). In more complex cases, an **IFilter** can implement a class hierarchy in place of the single CFilter class.
 
-## Inheriting the COM Interfaces
+## Inheriting the COM interfaces
 
 Windows Search 3.0 and later require that you use [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream) for the following reasons:
 
@@ -49,7 +49,7 @@ Windows Search 3.0 and later require that you use [IPersistStream](/windows/win3
 
 These interfaces are declared in files included from the mssdk\\include directory and have pre-defined interface identifiers (IIDs). The content-indexing client queries the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface through [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) to determine which of these interfaces to use when filtering content.
 
-## Implementing the COM Interface Methods
+## Implementing the COM interface methods
 
 The [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface implements the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) methods for both the **IFilter** interface class and the **IFilter** interface-class factory. The following table lists, in vtable order, the **IFilter** interface-specific interfaces and methods that the **IFilter** interface should implement. The **IFilter** interface must implement at least [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream), but can implement additional IPersist-derived interfaces.
 
@@ -65,7 +65,7 @@ The [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface impleme
 
 The reference page for each method specifies the parameters and functional behavior for that method. Each reference page also gives the result codes to implement for that method. The reference pages for the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) methods give the interface-specific [Codes in FACILITY\_ITF](../com/codes-in-facility-itf.md) result codes to be implemented, and the content-indexing client can also handle any of the generic result codes, such as FACILITY\_NULL and FACILITY\_WIN32. For more information, see [Structure of COM Error Codes](../com/structure-of-com-error-codes.md).
 
-### COM Methods that are not Implemented
+### COM methods that are not implemented
 
 The [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface must implement at least [IPersistStream](/windows/win32/api/objidl/nn-objidl-ipersiststream), but does not need to implement additional IPersist-derived interfaces.
 
@@ -78,7 +78,7 @@ Windows Search does not need to implement the COM methods listed in the followin
 | IPersistStream::GetSizeMax                                | Filters should return E\_NOTIMPL. |
 | [**IFilter::BindRegion**](/windows/win32/api/filter/nf-filter-ifilter-bindregion) | Filters should return E\_NOTIMPL. |
 
-## Additional Resources
+## Additional resources
 
 - The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), demonstrates how to create an IFilter base class for implementing the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface.
 - For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
