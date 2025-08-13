@@ -6,6 +6,9 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
+> [!Note]  
+> The Event Logging API was designed for applications that run on the Windows Server 2003, Windows XP, or Windows 2000 operating system. In Windows Vista, the event logging infrastructure was redesigned. Applications that are designed to run on the Windows Vista or later operating systems should now use [Windows Event Log](/windows/desktop/WES/windows-event-log).
+
 # Event Logging Security
 
 The **Security** log is designed for use by the system. However, users can read and clear the **Security** log if they have been granted the SE\_SECURITY\_NAME privilege (the "manage auditing and security log" user right). For more information, see [Privileges](/windows/desktop/SecAuthZ/privileges).
@@ -14,17 +17,11 @@ Only the Local Security Authority (Lsass.exe) has write permission for the **Sec
 
 Access to the **Application** log, the **System** log, and custom logs is restricted. The system grants access based on the access rights granted to the account under which the thread is running. The following table shows which types of access are required by the event logging functions.
 
-
-
 | Access right                 | Description                                                                                            |
 |------------------------------|--------------------------------------------------------------------------------------------------------|
 | ELF\_LOGFILE\_CLEAR (0x0004) | Required by [**ClearEventLog**](/windows/desktop/api/Winbase/nf-winbase-cleareventloga).                                                    |
 | ELF\_LOGFILE\_READ (0x0001)  | Required by [**OpenBackupEventLog**](/windows/desktop/api/Winbase/nf-winbase-openbackupeventloga) and [**OpenEventLog**](/windows/desktop/api/Winbase/nf-winbase-openeventloga). |
 | ELF\_LOGFILE\_WRITE (0x0002) | Required by [**RegisterEventSource**](/windows/desktop/api/Winbase/nf-winbase-registereventsourcea).                                        |
-
-
-
- 
 
 Use the **CustomSD** registry value to configure the security of the **Application** log, the **System** log, and custom logs. For more information, see [Eventlog Key](eventlog-key.md).
 
@@ -45,14 +42,6 @@ Use the **CustomSD** registry value to configure the security of the **Applicati
 |                 | LocalSystem             | X    | X     | X     |
 |                 | Interactive user        | X    | X     |       |
 
-
-
- 
-
 To grant access to the members of the Guest account, change the following registry value:
 
 **HKEY\_LOCAL\_MACHINE**\\**SYSTEM**\\**CurrentControlSet**\\**Services**\\**EventLog**\\*Log*\\**RestrictGuestAccess**
-
- 
-
- 
