@@ -13,10 +13,3 @@ Each event can have event-specific data associated with it. The Event Viewer doe
 When you use event-specific data, the last part of its description string should provide a note about the information provided as event-specific data. For example, the network software could provide a note such as: "(The NCB is the event data.)" As a convention, use parentheses around such remarks, as indicated in this example.
 
 You can also use event-specific data to store information the application can process independently of the Event Viewer. For example, you could write a viewer specifically for your events, or write a program that scans the log and creates a report that includes information from the event-specific data.
-
- 
-
- 
-
-
-
