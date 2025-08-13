@@ -6,6 +6,9 @@ ms.topic: concept-article
 ms.date: 07/09/2024
 ---
 
+> [!Note]  
+> The Event Logging API was designed for applications that run on the Windows Server 2003, Windows XP, or Windows 2000 operating system. In Windows Vista, the event logging infrastructure was redesigned. Applications that are designed to run on the Windows Vista or later operating systems should now use [Windows Event Log](/windows/desktop/WES/windows-event-log).
+
 # Logging Guidelines
 
 Event logs store records of significant events on behalf of the system and applications running on the system. Because the logging functions are general purpose, you must decide what information is appropriate to log. Generally, you should log only information that could be useful in diagnosing a hardware or software problem. Event logging is not intended to be used as a tracing tool.
@@ -57,7 +60,3 @@ ADD_VER_STR(L"FileVer",  _strEscapedFileVersion);
 Event logging consumes resources such as disk space and processor time. The amount of disk space that an event log requires and the overhead for an application that logs events depend on how much information you choose to log. This is why it is important to log only essential information. It is also good to place event logging calls in an error path in the code rather than in the main code path, which would reduce performance.
 
 The amount of disk space required for each event log record includes the members of the [**EVENTLOGRECORD**](/windows/desktop/api/Winnt/ns-winnt-eventlogrecord) structure. This is a variable length structure; strings and binary data are stored following the structure.
-
- 
-
- 
