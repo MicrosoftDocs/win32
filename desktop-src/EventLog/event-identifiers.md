@@ -98,7 +98,3 @@ LPSTR pszString1 = "c:\\testapp1.c";
 LPSTR pszString2 = "c:\\testapp2.c"; 
 LPSTR pszDescription = "Access denied. Attempted to open the file %1."
 ```
-
- 
-
- 
