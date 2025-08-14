@@ -1,5 +1,5 @@
 ---
-description: Specifies the block size used in generating the Sum of Absolute Differences (SATD) map that the video encoder attaches to output IMFSamples.
+description: Specifies the block size used in generating the Sum of Absolute Transformed Differences (SATD) map that the video encoder attaches to output IMFSamples.
 title: CODECAPI_AVEncVideoSatdMapBlockSize property (Codecapi.h)
 ms.topic: reference
 ms.date: 06/12/2025
@@ -7,7 +7,7 @@ ms.date: 06/12/2025
 
 # CODECAPI\_AVEncVideoSatdMapBlockSize property
 
-Specifies the block size used in generating the Sum of Absolute Differences (SATD) map that the video encoder attaches to output IMFSamples.
+Specifies the block size used in generating the Sum of Absolute Transformed Differences (SATD) map that the video encoder attaches to output IMFSamples.
 
 ## Data type
 
@@ -19,7 +19,7 @@ Specifies the block size used in generating the Sum of Absolute Differences (SAT
 
 ## Property value
 
-The block size used in generating the Sum of Absolute Differences (SATD) map that the video encoder attaches to output IMFSamples. The value must be a power of 2, such as 16 or 32. Setting the block size to 0 disables SATD map reporting. SATD map reporting is disabled by default.
+The block size used in generating the Sum of Absolute Transformed Differences (SATD) map that the video encoder attaches to output IMFSamples. The value must be a power of 2, such as 16 or 32. Setting the block size to 0 disables SATD map reporting. SATD map reporting is disabled by default.
 
 ## Remarks
 

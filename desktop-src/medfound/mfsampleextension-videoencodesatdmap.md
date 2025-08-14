@@ -1,5 +1,5 @@
 ---
-description: Stores a map of the Sum of Absolute Differences (SATD) values used for each block in an encoded video frame. 
+description: Stores a map of the Sum of Absolute Transformed Differences (SATD) values used for each block in an encoded video frame. 
 title: MFSampleExtension_VideoEncodeSatdMap attribute (Mfapi.h)
 ms.topic: reference
 ms.date: 03/29/2024
@@ -7,7 +7,7 @@ ms.date: 03/29/2024
 
 # MFSampleExtension\_VideoEncodeSatdMap attribute
 
-Stores a map of the Sum of Absolute Differences (SATD) values used for each block in an encoded video frame. 
+Stores a map of the Sum of Absolute Transformed Differences (SATD) values used for each block in an encoded video frame. 
 
 ## Data type
 
