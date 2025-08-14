@@ -35,10 +35,3 @@ Category 3
 Categories can be stored in a separate message file, or in a file that contains messages of other types. If you create a single message file, be sure that the categories are the first messages in the file. For more information on creating and using message files, see [Message Files](message-files.md).
 
 The total number of categories is stored in the **CategoryCount** value for the event source.
-
- 
-
- 
-
-
-

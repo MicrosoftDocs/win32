@@ -15,10 +15,3 @@ The **RecordNumber** member of [**EVENTLOGRECORD**](/windows/desktop/api/Winnt/n
 If the [Retention](eventlog-key.md) registry value is set to zero, the event records are overwritten when the maximum log size is reached. Therefore, the oldest record in an event log may not be record number 1. To identify the oldest record in the log, call the [**GetOldestEventLogRecord**](/windows/desktop/api/Winbase/nf-winbase-getoldesteventlogrecord) function. You can then call the [**GetNumberOfEventLogRecords**](/windows/desktop/api/Winbase/nf-winbase-getnumberofeventlogrecords) function and add the returned value to the oldest record number to determine the newest record.
 
 You can read individual records from the event log using the [**ReadEventLog**](/windows/desktop/api/Winbase/nf-winbase-readeventloga) function. For more information, see [Querying for Event Information](querying-for-event-source-messages.md).
-
- 
-
- 
-
-
-
