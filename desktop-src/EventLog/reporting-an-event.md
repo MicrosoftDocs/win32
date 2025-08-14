@@ -6,10 +6,10 @@ ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
+# Reporting Events
+
 > [!Note]  
 > The Event Logging API was designed for applications that run on the Windows Server 2003, Windows XP, or Windows 2000 operating system. In Windows Vista, the event logging infrastructure was redesigned. Applications that are designed to run on the Windows Vista or later operating systems should now use [Windows Event Log](/windows/desktop/WES/windows-event-log).
-
-# Reporting Events
 
 To report events, you must first define the events in a message text file. For details on writing a message text file, see [Message Text Files](message-text-files.md). The following shows the message text file used in this example.
 

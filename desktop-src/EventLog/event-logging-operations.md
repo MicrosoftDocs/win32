@@ -6,10 +6,10 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
+# Event Logging Operations
+
 > [!Note]  
 > The Event Logging API was designed for applications that run on the Windows Server 2003, Windows XP, or Windows 2000 operating system. In Windows Vista, the event logging infrastructure was redesigned. Applications that are designed to run on the Windows Vista or later operating systems should now use [Windows Event Log](/windows/desktop/WES/windows-event-log).
-
-# Event Logging Operations
 
 The [**OpenEventLog**](/windows/desktop/api/Winbase/nf-winbase-openeventloga), [**OpenBackupEventLog**](/windows/desktop/api/Winbase/nf-winbase-openbackupeventloga), [**RegisterEventSource**](/windows/desktop/api/Winbase/nf-winbase-registereventsourcea), [**DeregisterEventSource**](/windows/desktop/api/Winbase/nf-winbase-deregistereventsource), and [**CloseEventLog**](/windows/desktop/api/Winbase/nf-winbase-closeeventlog) functions open and close event log handles.
 

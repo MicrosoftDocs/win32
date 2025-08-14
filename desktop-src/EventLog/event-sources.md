@@ -6,10 +6,10 @@ ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
+# Event Sources
+
 > [!Note]  
 > The Event Logging API was designed for applications that run on the Windows Server 2003, Windows XP, or Windows 2000 operating system. In Windows Vista, the event logging infrastructure was redesigned. Applications that are designed to run on the Windows Vista or later operating systems should now use [Windows Event Log](/windows/desktop/WES/windows-event-log).
-
-# Event Sources
 
 Each log in the [Eventlog key](eventlog-key.md) contains subkeys called *event sources*. The event source is the name of the software that logs the event. It is often the name of the application or the name of a subcomponent of the application if the application is large. You can add a maximum of 16,384 event sources to the registry. The **Security** log is for system use only. Device drivers should add their names to the **System** log. Applications and services should add their names to the **Application** log or create a custom log.
 

@@ -6,10 +6,10 @@ ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
+# Event Types
+
 > [!Warning]  
 > This content is not applicable to Windows Vista or later. Applications that are designed to run on the Windows Vista or later operating systems should now use [Windows Event Log](/windows/desktop/WES/windows-event-log).
-
-# Event Types
 
 There are five types of events that can be logged. All of these have well-defined common data and can optionally include event-specific data.
 

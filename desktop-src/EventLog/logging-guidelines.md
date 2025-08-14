@@ -6,10 +6,10 @@ ms.topic: concept-article
 ms.date: 07/09/2024
 ---
 
+# Logging Guidelines
+
 > [!Note]  
 > The Event Logging API was designed for applications that run on the Windows Server 2003, Windows XP, or Windows 2000 operating system. In Windows Vista, the event logging infrastructure was redesigned. Applications that are designed to run on the Windows Vista or later operating systems should now use [Windows Event Log](/windows/desktop/WES/windows-event-log).
-
-# Logging Guidelines
 
 Event logs store records of significant events on behalf of the system and applications running on the system. Because the logging functions are general purpose, you must decide what information is appropriate to log. Generally, you should log only information that could be useful in diagnosing a hardware or software problem. Event logging is not intended to be used as a tracing tool.
 
