@@ -1,7 +1,7 @@
 {
   "redirections": [
       {
-            "source_path": "desktop-src/EventLog/using-event-logging.md",
+            "source_path": "desktop-src/EventLog/viewing-the-event-log.md",
             "redirect_url": "/windows/win32/eventlog/event-logging",
             "redirect_document_id": false
       },
