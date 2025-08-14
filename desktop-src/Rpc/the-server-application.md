@@ -27,7 +27,7 @@ The server application must also include the two memory management functions tha
 #include "hello.h"
 #include <windows.h>
 
-void main()
+int main()
 {
     RPC_STATUS status;
     unsigned char * pszProtocolSequence = "ncacn_np";

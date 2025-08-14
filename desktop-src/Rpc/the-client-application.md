@@ -27,7 +27,7 @@ After the remote procedure calls are completed, the client first calls [**RpcStr
 #include "hello.h" 
 #include <windows.h>
 
-void main()
+int main()
 {
     RPC_STATUS status;
     unsigned char * pszUuid             = NULL;
