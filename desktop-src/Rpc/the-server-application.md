@@ -30,9 +30,9 @@ The server application must also include the two memory management functions tha
 int main()
 {
     RPC_STATUS status;
-    unsigned char * pszProtocolSequence = "ncacn_np";
+    unsigned char * pszProtocolSequence = (unsigned char*)"ncacn_np";
     unsigned char * pszSecurity         = NULL; 
-    unsigned char * pszEndpoint         = "\\pipe\\hello";
+    unsigned char * pszEndpoint         = (unsigned char*)"\\pipe\\hello";
     unsigned int    cMinCalls = 1;
     unsigned int    fDontWait = FALSE;
  
