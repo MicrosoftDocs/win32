@@ -39,8 +39,6 @@
         href: event-log-file-format.md
       - name: "Reading from the Event Log"
         href: reading-from-the-event-log.md
-      - name: "Viewing the Event Log"
-        href: viewing-the-event-log.md
     - name: "Event Logging Security"
       href: event-logging-security.md
   - name: "Using Event Logging"

@@ -98,10 +98,3 @@ Language=Japanese
 <Japanese message string goes here>
 .
 ```
-
- 
-
- 
-
-
-
