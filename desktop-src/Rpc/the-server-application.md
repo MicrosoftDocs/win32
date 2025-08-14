@@ -43,7 +43,7 @@ void main()
  
     if (status) exit(status);
  
-    status = RpcServerRegisterIf(hello_ServerIfHandle,  
+    status = RpcServerRegisterIf(hello_v1_0_s_ifspec,  
                                  NULL,   
                                  NULL); 
  

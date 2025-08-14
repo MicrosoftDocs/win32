@@ -47,7 +47,7 @@ void main()
                                      &pszStringBinding);
     if (status) exit(status);
 
-    status = RpcBindingFromStringBinding(pszStringBinding, &hello_ClientIfHandle);
+    status = RpcBindingFromStringBinding(pszStringBinding, &hello_IfHandle);
  
     if (status) exit(status);
  
