@@ -1136,7 +1136,7 @@
     items: 
     - name: "CrawlScopeCommandLine"
       href: -search-sample-crawlscopecommandline.md
-    - name: "Dsearch"
+    - name: "DSearch"
       href: -search-sample-dsearch.md
     - name: "IFilterSample"
       href: -search-sample-ifiltersample.md
