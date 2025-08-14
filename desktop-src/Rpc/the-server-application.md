@@ -27,12 +27,12 @@ The server application must also include the two memory management functions tha
 #include "hello.h"
 #include <windows.h>
 
-void main()
+int main()
 {
     RPC_STATUS status;
-    unsigned char * pszProtocolSequence = "ncacn_np";
+    unsigned char * pszProtocolSequence = (unsigned char*)"ncacn_np";
     unsigned char * pszSecurity         = NULL; 
-    unsigned char * pszEndpoint         = "\\pipe\\hello";
+    unsigned char * pszEndpoint         = (unsigned char*)"\\pipe\\hello";
     unsigned int    cMinCalls = 1;
     unsigned int    fDontWait = FALSE;
  
@@ -43,7 +43,7 @@ void main()
  
     if (status) exit(status);
  
-    status = RpcServerRegisterIf(hello_ServerIfHandle,  
+    status = RpcServerRegisterIf(hello_v1_0_s_ifspec,  
                                  NULL,   
                                  NULL); 
  
