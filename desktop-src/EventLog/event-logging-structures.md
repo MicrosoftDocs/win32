@@ -14,7 +14,3 @@ The following structures are used with event logging.
 -   [**ELF\_LOGFILE\_HEADER**](/previous-versions/windows/desktop/legacy/bb309024(v=vs.85))
 -   [**EVENTLOG\_FULL\_INFORMATION**](/windows/desktop/api/Winbase/ns-winbase-eventlog_full_information)
 -   [**EVENTLOGRECORD**](/windows/desktop/api/Winnt/ns-winnt-eventlogrecord)
-
- 
-
- 

@@ -8,6 +8,9 @@ ms.date: 05/31/2018
 
 # Event Log File Format
 
+> [!Note]  
+> The Event Log File Format is no longer used starting with Windows Vista.
+
 Each event log contains a header (represented by the [**ELF\_LOGFILE\_HEADER**](/previous-versions/windows/desktop/legacy/bb309024(v=vs.85)) structure) that has a fixed size, followed by a variable number of event records (represented by [**EVENTLOGRECORD**](/windows/desktop/api/winnt/ns-winnt-eventlogrecord) structures), and an end-of-file record (represented by the [**ELF\_EOF\_RECORD**](/previous-versions/windows/desktop/legacy/bb309022(v=vs.85)) structure).
 
 The **ELF\_LOGFILE\_HEADER** structure and the **ELF\_EOF\_RECORD** structure are written in the event log when the event log is created and are updated each time an event is written to the log.
@@ -59,7 +62,3 @@ The event records are organized in one of the following ways:
     An event log file has a fixed size and when the records in the file wrap, the record at the end of the file will typically be split into two records. For example, if the position for the next write is 100 bytes from the end of the file and the size of the record is 300 bytes, the first 100 bytes will be written at the end of the file and the next 200 bytes will be written at the beginning of the file immediately after the **ELF\_LOGFILE\_HEADER**. If the available space at the end of the file is less than the fixed portion of the **EVENTLOGRECORD** (0x38 bytes), all of the new record will be written at the beginning of the file immediately after the **ELF\_LOGFILE\_HEADER**. The unused bytes at the end of the file will be filled with the pattern 0x00000027.
 
 For more information and a code example, see [Reporting an Event](reporting-an-event.md).
-
- 
-
- 
