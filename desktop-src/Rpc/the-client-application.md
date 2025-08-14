@@ -27,16 +27,16 @@ After the remote procedure calls are completed, the client first calls [**RpcStr
 #include "hello.h" 
 #include <windows.h>
 
-void main()
+int main()
 {
     RPC_STATUS status;
     unsigned char * pszUuid             = NULL;
-    unsigned char * pszProtocolSequence = "ncacn_np";
+    unsigned char * pszProtocolSequence = (unsigned char*)"ncacn_np";
     unsigned char * pszNetworkAddress   = NULL;
-    unsigned char * pszEndpoint         = "\\pipe\\hello";
+    unsigned char * pszEndpoint         = (unsigned char*)"\\pipe\\hello";
     unsigned char * pszOptions          = NULL;
     unsigned char * pszStringBinding    = NULL;
-    unsigned char * pszString           = "hello, world";
+    unsigned char * pszString           = (unsigned char*)"hello, world";
     unsigned long ulCode;
  
     status = RpcStringBindingCompose(pszUuid,
