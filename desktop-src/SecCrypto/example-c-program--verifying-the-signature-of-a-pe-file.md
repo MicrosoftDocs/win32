@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Example C Program: Verifying the Signature of a PE File
 
-The [**WinVerifyTrust**](/windows/desktop/api/Wintrust/nf-wintrust-winverifytrust) API can be used to verify the signature of a portable executable file.
+The [**WinVerifyTrust**](/windows/desktop/api/Wintrust/nf-wintrust-winverifytrust) API can be used to verify the signature of a portable executable file. Note that an embedded signature covers only certain sections of the file; other content in the file may be changed without breaking its signature. See [Understanding executable file signing](/windows/win32/secbp/understanding-pe-signatures) for more details.
 
 The following example shows how to use the [**WinVerifyTrust**](/windows/desktop/api/Wintrust/nf-wintrust-winverifytrust) API to verify the signature of a signed portable executable file.
 
