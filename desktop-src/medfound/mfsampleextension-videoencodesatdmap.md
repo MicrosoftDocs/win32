@@ -20,11 +20,10 @@ App developers can use the SATD map to analyze and optimize video encoding quali
 The SATD map is a flat array of **uint32_t** values, where each value corresponds to a single block. To determine the map’s dimensions, divide the video frame width and height by the block size specified via [CODECAPI_AVEncVideoSatdMapBlockSize](codecapi-avencvideosatdmapblocksize.md). If the frame dimensions are not exact multiples of the block size, round the dimensions up to the nearest multiple. This yields the number of columns and rows. The SATD values are ordered from left to right, top to bottom, in row major fashion.
 
 
-Use [IMFAttributes::SetUnknown](/windows/win32/api/mfobjects/nf-mfobjects-imfattributes-setunknown) to attach an **IMFMediaBuffer** containing the QP map to an output sample. Use [IMFAttributes::GetUnknown](/windows/win32/api/mfobjects/nf-mfobjects-imfattributes-getunknown) to retrieve the **IMFMediaBuffer** containing the QP map from an output sample.  
+Use [IMFAttributes::SetUnknown](/windows/win32/api/mfobjects/nf-mfobjects-imfattributes-setunknown) to attach an **IMFMediaBuffer** containing the SATD map to an output sample. Use [IMFAttributes::GetUnknown](/windows/win32/api/mfobjects/nf-mfobjects-imfattributes-getunknown) to retrieve the **IMFMediaBuffer** containing the SATD map from an output sample.  
 
 The SATD map is only generated when the entire frame has been encoded. If the encoder processes the frame in multiple slices, the SATD map should be attached [IMFSample](/windows/win32/api/mfobjects/nn-mfobjects-imfsample) of the final slice.
 
-The interpretation of the 8-bit QP values in the QP map depends on the valid QP range defined by the applicable codec specification. For higher bit depths (e.g., 10-bit), some hardware vendors (IHVs) may use the internal quantizer index range (e.g., [-12, 51] for 10-bit HEVC) instead of the final encoded QP range (e.g., [0, 63]). This internal range reflects how QP values are adjusted relative to bit depth (Qp = qpY + QpBdOffsetY) during transform and quantization steps, as specified in the codec standard. Consumers of the QP map should consult the driver documentation to correctly interpret these values and apply appropriate offset correction if necessary.
 
 ## Examples
 
