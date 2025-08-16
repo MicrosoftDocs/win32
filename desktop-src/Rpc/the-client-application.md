@@ -26,6 +26,7 @@ After the remote procedure calls are completed, the client first calls [**RpcStr
 #include <ctype.h>
 #include "hello.h" 
 #include <windows.h>
+#pragma comment(lib, "Rpcrt4.lib")
 
 int main()
 {
