@@ -26,6 +26,7 @@ The server application must also include the two memory management functions tha
 #include <ctype.h>
 #include "hello.h"
 #include <windows.h>
+#pragma comment(lib, "Rpcrt4.lib")
 
 int main()
 {
