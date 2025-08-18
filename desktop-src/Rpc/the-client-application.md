@@ -31,16 +31,16 @@ After the remote procedure calls are completed, the client first calls [**RpcStr
 int main()
 {
     RPC_STATUS status;
-    unsigned char * pszUuid             = NULL;
-    unsigned char * pszProtocolSequence = (unsigned char*)"ncacn_np";
-    unsigned char * pszNetworkAddress   = NULL;
-    unsigned char * pszEndpoint         = (unsigned char*)"\\pipe\\hello";
-    unsigned char * pszOptions          = NULL;
-    unsigned char * pszStringBinding    = NULL;
+    unsigned short* pszUuid             = NULL;
+    unsigned short* pszProtocolSequence = (unsigned short*)L"ncacn_np";
+    unsigned short* pszNetworkAddress   = NULL;
+    unsigned short* pszEndpoint         = (unsigned short*)L"\\pipe\\hello";
+    unsigned short* pszOptions          = NULL;
+    unsigned short* pszStringBinding    = NULL;
     unsigned char * pszString           = (unsigned char*)"hello, world";
     unsigned long ulCode;
  
-    status = RpcStringBindingCompose(pszUuid,
+    status = RpcStringBindingComposeW(pszUuid,
                                      pszProtocolSequence,
                                      pszNetworkAddress,
                                      pszEndpoint,
@@ -48,7 +48,7 @@ int main()
                                      &pszStringBinding);
     if (status) exit(status);
 
-    status = RpcBindingFromStringBinding(pszStringBinding, &hello_IfHandle);
+    status = RpcBindingFromStringBindingW(pszStringBinding, &hello_IfHandle);
  
     if (status) exit(status);
  
@@ -64,7 +64,7 @@ int main()
     }
     RpcEndExcept
  
-    status = RpcStringFree(&pszStringBinding); 
+    status = RpcStringFreeW(&pszStringBinding); 
  
     if (status) exit(status);
  
