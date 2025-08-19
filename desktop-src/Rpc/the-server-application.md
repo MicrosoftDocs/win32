@@ -55,7 +55,12 @@ int main()
                              fDontWait);
  
     if (status) exit(status);
- }
+}
+
+void HelloProc(unsigned char * pszString)
+{
+    printf("%s\n", pszString);
+}
 
 /******************************************************/
 /*         MIDL allocate and free                     */
