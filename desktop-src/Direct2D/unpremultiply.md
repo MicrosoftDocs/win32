@@ -14,7 +14,7 @@ Use this effect to convert an image from premultiplied alpha to unpremultiplied 
 
 This effect has no properties.
 
-The CLSID for this effect is CLSID\_D2D1UnPremultiply.
+The CLSID for this effect is **CLSID_D2D1UnPremultiply**.
 
 ## Output bitmap
 
