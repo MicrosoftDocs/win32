@@ -12,7 +12,7 @@ api_name:
 api_type:
 - NA
 ms.topic: reference
-ms.date: 07/14/2025
+ms.date: 08/25/2025
 ---
 
 # Wecutil.exe
@@ -61,22 +61,17 @@ wecutil { gs | get-subscription } SUBSCRIPTION_ID [/f:VALUE
 
 <dl> <dt>
 
-<span id="SUBSCRIPTION_ID"></span><span id="subscription_id"></span>**SUBSCRIPTION\_ID**
-</dt> <dd>
+**SUBSCRIPTION\_ID**
 
 A string that uniquely identifies a subscription. This identifier is specified in the **SubscriptionId** element in the XML configuration file used to create the subscription.
 
-</dd> <dt>
 
-<span id="_f_VALUE"></span><span id="_f_value"></span><span id="_F_VALUE"></span>**/f:*VALUE***
-</dt> <dd>
+**/f:*VALUE***
 
 A value that specifies the output of the subscription configuration data. *VALUE* can be "XML" or "Terse", and the default is "Terse". If *VALUE* is "XML", then the output is printed in "XML" format. If *VALUE* is "Terse", then the output is printed in name-value pairs.
 
-</dd> <dt>
 
-<span id="_u_VALUE"></span><span id="_u_value"></span><span id="_U_VALUE"></span>**/u: *VALUE***
-</dt> <dd>
+**/u: *VALUE***
 
 A value that specifies whether the output is in Unicode format. *VALUE* can be "true" or "false". If *VALUE* is "true", then the output is in Unicode format, and if *VALUE* is "false", then the output is not in Unicode format.
 
@@ -95,15 +90,12 @@ wecutil { gr | get-subscriptionruntimestatus } SUBSCRIPTION_ID
 
 <dl> <dt>
 
-<span id="SUBSCRIPTION_ID"></span><span id="subscription_id"></span>**SUBSCRIPTION\_ID**
-</dt> <dd>
+**SUBSCRIPTION\_ID**
 
 A string that uniquely identifies a subscription. This identifier is specified in the **SubscriptionId** element in the XML configuration file used to create the subscription.
 
-</dd> <dt>
 
-<span id="EVENT_SOURCE"></span><span id="event_source"></span>**EVENT\_SOURCE**
-</dt> <dd>
+**EVENT\_SOURCE**
 
 A value that identifies a computer that is an event source for an event subscription. This value can be the fully qualified domain name for the computer, NetBIOS name, or IP address.
 
@@ -133,24 +125,16 @@ When an incorrect username or password is specified in the **wecutil ss** comman
 
 ## Set Configuration Parameters
 
-<dl> <dt>
-
-<span id="SUBSCRIPTION_ID"></span><span id="subscription_id"></span>**SUBSCRIPTION\_ID**
-</dt> <dd>
+**SUBSCRIPTION\_ID**
 
 A string that uniquely identifies a subscription. This identifier is specified in the **SubscriptionId** element in the XML configuration file used to create the subscription.
 
-</dd> <dt>
-
-<span id="_c_CONGIG_FILE"></span><span id="_c_congig_file"></span><span id="_C_CONGIG_FILE"></span>**/c: *CONGIG\_FILE***
-</dt> <dd>
+**/c: *CONFIG\_FILE***
 
 A value that specifies the path to the XML file that contains subscription configuration information. The path can be absolute or relative to the current directory. This parameter can only be used with the optional /cus and /cup parameters, and is mutually exclusive with all the other parameters.
 
-</dd> <dt>
 
-<span id="_e_VALUE"></span><span id="_e_value"></span><span id="_E_VALUE"></span>**/e: *VALUE***
-</dt> <dd>
+**/e: *VALUE***
 
 A value that determines whether to enable or disable the subscription. VALUE can be true or false. The default value is true, which enables the subscription.
 
@@ -159,185 +143,133 @@ A value that determines whether to enable or disable the subscription. VALUE can
 
  
 
-</dd> <dt>
 
-<span id="_d_DESCRIPTION"></span><span id="_d_description"></span><span id="_D_DESCRIPTION"></span>**/d: *DESCRIPTION***
-</dt> <dd>
+**/d: *DESCRIPTION***
 
 A value that specifies a description for the event subscription.
 
-</dd> <dt>
 
-<span id="_ex_DATE_TIME"></span><span id="_ex_date_time"></span><span id="_EX_DATE_TIME"></span>**/ex: *DATE\_TIME***
-</dt> <dd>
+**/ex: *DATE\_TIME***
 
 A value that specifies the subscription expiration time. *DATE\_TIME* is a value specified in standard XML or ISO8601 date-time format: "yyyy-MM-ddThh:mm:ss\[.sss\]\[Z\]" where "T" is the time separator and "Z" indicates UTC time. For example, if *DATE\_TIME* is "2007-01-12T01:20:00", then the subscription expiration time is January 12th, 2007, 01:20.
 
-</dd> <dt>
 
-<span id="_uri_URI"></span><span id="_uri_uri"></span><span id="_URI_URI"></span>**/uri: *URI***
-</dt> <dd>
+**/uri: *URI***
 
 A value that specifies the type of events consumed by the subscription. The address of the event source computer along with the uniform resource identifier (URI) uniquely identifies the source of the events. The URI string is used for all event source addresses in the subscription.
 
-</dd> <dt>
 
-<span id="_cm_CONFIGURATION_MODE"></span><span id="_cm_configuration_mode"></span><span id="_CM_CONFIGURATION_MODE"></span>**/cm: *CONFIGURATION\_MODE***
-</dt> <dd>
+**/cm: *CONFIGURATION\_MODE***
 
 A value that specifies the configuration mode of the event subscription. *CONFIGURATION\_MODE* can be one of the following strings: "Normal", "Custom", "MinLatency", or "MinBandwidth". The [**EC\_SUBSCRIPTION\_CONFIGURATION\_MODE**](/windows/desktop/api/Evcoll/ne-evcoll-ec_subscription_configuration_mode) enumeration defines the configuration modes. The /dm, /dmi, /hi, and /dmlt parameters can only be specified if the configuration mode is set to Custom.
 
-</dd> <dt>
 
-<span id="_q_QUERY"></span><span id="_q_query"></span><span id="_Q_QUERY"></span>**/q: *QUERY***
-</dt> <dd>
+**/q: *QUERY***
 
 A value that specifies the query string for the subscription. The format of this string can be different for different URI values and applies to all event sources in the subscription.
 
-</dd> <dt>
 
-<span id="_dia_DIALECT"></span><span id="_dia_dialect"></span><span id="_DIA_DIALECT"></span>**/dia: *DIALECT***
-</dt> <dd>
+**/dia: *DIALECT***
 
 A value that specifies the dialect the query string uses.
 
-</dd> <dt>
 
-<span id="_cf_FORMAT"></span><span id="_cf_format"></span><span id="_CF_FORMAT"></span>**/cf: *FORMAT***
-</dt> <dd>
+**/cf: *FORMAT***
 
 A value that specifies the format of the returned events. *FORMAT* can be "Events" or "RenderedText". When the value is "RenderedText", the events are returned with the localized strings (such as event description strings) attached to the events. The default value of *FORMAT* is "RenderedText".
 
-</dd> <dt>
 
-<span id="_l_LOCALE"></span><span id="_l_locale"></span><span id="_L_LOCALE"></span>**/l: *LOCALE***
-</dt> <dd>
+**/l: *LOCALE***
 
 A value that specifies the locale for delivery of the localized strings in rendered text format. *LOCALE* is a language/country culture identifier, for example, "EN-us". This parameter is only valid when the /cf parameter is set to "RenderedText".
 
-</dd> <dt>
 
-<span id="_ree__VALUE_"></span><span id="_ree__value_"></span><span id="_REE__VALUE_"></span>**/ree:\[*VALUE*\]**
-</dt> <dd>
+**/ree:\[*VALUE*\]**
 
 A value that specifies which events are to be delivered for the subscription. *VALUE* can be true or false. When *VALUE* is true, all existing events are read from the subscription event sources. When *VALUE* is false, only future (arriving) events are delivered. The default is true when /ree is specified without a value, and the default is false if /ree is not specified.
 
-</dd> <dt>
 
-<span id="_lf_FILENAME"></span><span id="_lf_filename"></span><span id="_LF_FILENAME"></span>**/lf: *FILENAME***
-</dt> <dd>
+**/lf: *FILENAME***
 
 A value that specifies the local event log that is used to store events received from the event subscription.
 
-</dd> <dt>
 
-<span id="_pn_PUBLISHER"></span><span id="_pn_publisher"></span><span id="_PN_PUBLISHER"></span>**/pn: *PUBLISHER***
-</dt> <dd>
+**/pn: *PUBLISHER***
 
 A value that specifies the event publisher (provider) name. It must be a publisher which owns or imports the log specified by the /lf parameter.
 
-</dd> <dt>
 
-<span id="_dm_MODE"></span><span id="_dm_mode"></span><span id="_DM_MODE"></span>**/dm: *MODE***
-</dt> <dd>
+**/dm: *MODE***
 
 A value that specifies the subscription delivery mode. *MODE* can be either push or pull. This option is only valid if the /cm parameter is set to Custom.
 
-</dd> <dt>
 
-<span id="_dmi_NUMBER"></span><span id="_dmi_number"></span><span id="_DMI_NUMBER"></span>**/dmi: *NUMBER***
-</dt> <dd>
+**/dmi: *NUMBER***
 
 A value that specifies the maximum number of items for batched delivery in the event subscription. This option is only valid if the /cm parameter is set to Custom.
 
-</dd> <dt>
 
-<span id="_dmlt_MS"></span><span id="_dmlt_ms"></span><span id="_DMLT_MS"></span>**/dmlt: *MS***
-</dt> <dd>
+**/dmlt: *MS***
 
 A value that specifies the maximum latency allowed in delivering a batch of events. MS is the number of milliseconds allowed. This parameter is only valid if the /cm parameter is set to Custom.
 
-</dd> <dt>
 
-<span id="_hi_MS"></span><span id="_hi_ms"></span><span id="_HI_MS"></span>**/hi: *MS***
-</dt> <dd>
+**/hi: *MS***
 
 A value that specifies the heartbeat interval for the subscription. *MS* is the number of milliseconds used in the interval. This parameter is only valid if the /cm parameter is set to Custom.
 
-</dd> <dt>
 
-<span id="_tn_TRANSPORTNAME"></span><span id="_tn_transportname"></span><span id="_TN_TRANSPORTNAME"></span>**/tn: *TRANSPORTNAME***
-</dt> <dd>
+**/tn: *TRANSPORTNAME***
 
 A value that specifies the name of the transport used to connect to the remote event source computer.
 
-</dd> <dt>
 
-<span id="_esa_EVENT_SOURCE"></span><span id="_esa_event_source"></span><span id="_ESA_EVENT_SOURCE"></span>**/esa: *EVENT\_SOURCE***
-</dt> <dd>
+**/esa: *EVENT\_SOURCE***
 
 A value that specifies the address of an event source computer. *EVENT\_SOURCE* is a string that identifies an event source computer using the fully qualified domain name for the computer, NetBIOS name, or IP address. This parameter can be used with the /ese, /aes, /res, or /un and /up parameters.
 
-</dd> <dt>
 
-<span id="_ese_VALUE"></span><span id="_ese_value"></span><span id="_ESE_VALUE"></span>**/ese: *VALUE***
-</dt> <dd>
+**/ese: *VALUE***
 
 A value that determines whether to enable or disable an event source. *VALUE* can be true or false. The default value is true, which enables the event source. This parameter is only used if the /esa parameter is used.
 
-</dd> <dt>
 
-<span id="_aes"></span><span id="_AES"></span>**/aes**
-</dt> <dd>
+**/aes**
 
 A value that adds the event source specified by the /esa parameter if the event source is not already part of the event subscription. If the computer specified by the /esa parameter is already a part of the subscription, then an error is displayed. This parameter is allowed only if the /esa parameter is used.
 
-</dd> <dt>
 
-<span id="_res"></span><span id="_RES"></span>**/res**
-</dt> <dd>
+**/res**
 
 A value that removes the event source specified by the /esa parameter if the event source is already part of the event subscription. If the computer specified by the /esa parameter is not part of the subscription, then an error is displayed. This parameter is allowed only if the /esa parameter is used.
 
-</dd> <dt>
 
-<span id="_un_USERNAME"></span><span id="_un_username"></span><span id="_UN_USERNAME"></span>**/un: *USERNAME***
-</dt> <dd>
+**/un: *USERNAME***
 
 A value that specifies the user name used in the credentials to connect to the event source specified in the /esa parameter. This parameter is allowed only if the /esa parameter is used.
 
-</dd> <dt>
 
-<span id="_up_PASSWORD"></span><span id="_up_password"></span><span id="_UP_PASSWORD"></span>**/up: *PASSWORD***
-</dt> <dd>
+**/up: *PASSWORD***
 
 A value that specifies the password for the user name specified in the /un parameter. The user name and password credentials are used to connect to the event source specified in the /esa parameter. This parameter is allowed only if the /un parameter is used.
 
-</dd> <dt>
 
-<span id="_tp_TRANSPORTPORT"></span><span id="_tp_transportport"></span><span id="_TP_TRANSPORTPORT"></span>**/tp: *TRANSPORTPORT***
-</dt> <dd>
+**/tp: *TRANSPORTPORT***
 
 A value that specifies the port number used by the transport when connecting to a remote event source computer.
 
-</dd> <dt>
 
-<span id="_hn_NAME"></span><span id="_hn_name"></span><span id="_HN_NAME"></span>**/hn: *NAME***
-</dt> <dd>
+**/hn: *NAME***
 
 A value that specifies the DNS name of the local computer. This name is used by remote event sources to push back events and must be used for push subscriptions only.
 
-</dd> <dt>
 
-<span id="_ct_TYPE"></span><span id="_ct_type"></span><span id="_CT_TYPE"></span>**/ct: *TYPE***
-</dt> <dd>
+**/ct: *TYPE***
 
 A value that specifies the credential type used for accessing remote event sources. *TYPE* can be "default", "negotiate", "digest", "basic", or "localmachine". The default is "default". These values are defined in the [**EC\_SUBSCRIPTION\_CREDENTIALS\_TYPE**](/windows/desktop/api/Evcoll/ne-evcoll-ec_subscription_credentials_type) enumeration.
 
-</dd> <dt>
 
-<span id="_cun_USERNAME"></span><span id="_cun_username"></span><span id="_CUN_USERNAME"></span>**/cun: *USERNAME***
-</dt> <dd>
+**/cun: *USERNAME***
 
 A value that sets the shared user credentials used for event sources that do not have their own user credentials.
 
@@ -346,17 +278,13 @@ A value that sets the shared user credentials used for event sources that do not
 
  
 
-</dd> <dt>
 
-<span id="_cup_PASSWORD"></span><span id="_cup_password"></span><span id="_CUP_PASSWORD"></span>**/cup: *PASSWORD***
-</dt> <dd>
+**/cup: *PASSWORD***
 
 A value that sets the user password for the shared user credentials. When *PASSWORD* is set to \* (asterisk), then the password is read from the console. This option is only valid when the /cun parameter is specified.
 
-</dd> <dt>
 
-<span id="_ica_THUMBPRINTS"></span><span id="_ica_thumbprints"></span><span id="_ICA_THUMBPRINTS"></span>**/ica: *THUMBPRINTS***
-</dt> <dd>
+**/ica: *THUMBPRINTS***
 
 A value that sets the list of issuer certificate thumb prints, in a comma-separated list.
 
@@ -365,10 +293,8 @@ A value that sets the list of issuer certificate thumb prints, in a comma-separa
 
  
 
-</dd> <dt>
 
-<span id="_as_ALLOWED"></span><span id="_as_allowed"></span><span id="_AS_ALLOWED"></span>**/as: *ALLOWED***
-</dt> <dd>
+**/as: *ALLOWED***
 
 A value that sets a comma-separated list of string that specify the DNS names of non-domain computers that are allowed to initiate subscriptions. The names can be specified using wildcards, such as "\*.mydomain.com". By default, this list is empty.
 
@@ -377,10 +303,8 @@ A value that sets a comma-separated list of string that specify the DNS names of
 
  
 
-</dd> <dt>
 
-<span id="_ds_DENIED"></span><span id="_ds_denied"></span><span id="_DS_DENIED"></span>**/ds: *DENIED***
-</dt> <dd>
+**/ds: *DENIED***
 
 A value that sets a comma-separated list of string that specify the DNS names of non-domain computers that are not allowed to initiate subscriptions. The names can be specified using wildcards, such as "\*.mydomain.com". By default, this list is empty.
 
@@ -389,10 +313,8 @@ A value that sets a comma-separated list of string that specify the DNS names of
 
  
 
-</dd> <dt>
 
-<span id="_adc_SDDL"></span><span id="_adc_sddl"></span><span id="_ADC_SDDL"></span>**/adc: *SDDL***
-</dt> <dd>
+**/adc: *SDDL***
 
 A value that sets a string, in SDDL format, that specifies which domain computers are allowed or not allowed to initiate subscriptions. The default is to allow all domain computers to initiate subscriptions.
 
@@ -420,8 +342,7 @@ When an incorrect username or password is specified in the **wecutil cs** comman
 
 <dl> <dt>
 
-<span id="CONFIGURATION_FILE"></span><span id="configuration_file"></span>**CONFIGURATION\_FILE**
-</dt> <dd>
+**CONFIGURATION\_FILE**
 
 A value that specifies the path to the XML file that contains subscription configuration information. The path can be absolute or relative to the current directory.
 
@@ -533,10 +454,8 @@ The following XML is an example of a subscription configuration file that create
 
  
 
-</dd> <dt>
 
-<span id="_cun_USERNAME"></span><span id="_cun_username"></span><span id="_CUN_USERNAME"></span>**/cun: *USERNAME***
-</dt> <dd>
+**/cun: *USERNAME***
 
 A value that sets the shared user credentials used for event sources that do not have their own user credentials. This value applies to collector initiated subscriptions only.
 
@@ -545,10 +464,8 @@ A value that sets the shared user credentials used for event sources that do not
 
  
 
-</dd> <dt>
 
-<span id="_cup_PASSWORD"></span><span id="_cup_password"></span><span id="_CUP_PASSWORD"></span>**/cup: *PASSWORD***
-</dt> <dd>
+**/cup: *PASSWORD***
 
 A value that sets the user password for the shared user credentials. When *PASSWORD* is set to "\*" (asterisk), then the password is read from the console. This option is only valid when the /cun parameter is specified.
 
@@ -566,8 +483,7 @@ wecutil { ds | delete-subscription } SUBSCRIPTION_ID
 
 <dl> <dt>
 
-<span id="SUBSCRIPTION_ID"></span><span id="subscription_id"></span>**SUBSCRIPTION\_ID**
-</dt> <dd>
+**SUBSCRIPTION\_ID**
 
 A string that uniquely identifies a subscription. This identifier is specified in the **SubscriptionId** element in the XML configuration file used to create the subscription. The subscription identified in this parameter will be deleted.
 
@@ -586,15 +502,12 @@ wecutil { rs | retry-subscription } SUBSCRIPTION_ID
 
 <dl> <dt>
 
-<span id="SUBSCRIPTION_ID"></span><span id="subscription_id"></span>**SUBSCRIPTION\_ID**
-</dt> <dd>
+**SUBSCRIPTION\_ID**
 
 A string that uniquely identifies a subscription. This identifier is specified in the **SubscriptionId** element in the XML configuration file used to create the subscription. The subscription identified in this parameter will be retried.
 
-</dd> <dt>
 
-<span id="EVENT_SOURCE"></span><span id="event_source"></span>**EVENT\_SOURCE**
-</dt> <dd>
+**EVENT\_SOURCE**
 
 A value that identifies a computer that is an event source for an event subscription. This value can be the fully qualified domain name for the computer, NetBIOS name, or IP address.
 
@@ -618,8 +531,7 @@ wecutil { qc | quick-config } /q:VALUE
 
 <dl> <dt>
 
-<span id="_q_VALUE"></span><span id="_q_value"></span><span id="_Q_VALUE"></span>**/q: *VALUE***
-</dt> <dd>
+**/q: *VALUE***
 
 A value that determines whether the quick-config command will prompt for confirmation. VALUE can be true or false. If VALUE is true, then the command will prompt for confirmation. The default value is false.
 
