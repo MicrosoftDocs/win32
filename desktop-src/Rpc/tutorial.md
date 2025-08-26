@@ -33,7 +33,6 @@ This section presents its discussion in the following topics:
 -   [The Client Application](the-client-application.md)
 -   [The Server Application](the-server-application.md)
 -   [Stopping the Server Application](stopping-the-server-application.md)
--   [Compiling and Linking](compiling-and-linking.md)
 -   [Running the Application](running-the-application.md)
 
  
