@@ -213,8 +213,6 @@
         href: the-server-application.md
       - name: "Stopping the Server Application"
         href: stopping-the-server-application.md
-      - name: "Compiling and Linking"
-        href: compiling-and-linking.md
       - name: "Running the Application"
         href: running-the-application.md
     - name: "The IDL and ACF Files"
