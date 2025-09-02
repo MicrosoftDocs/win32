@@ -199,7 +199,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     // Require HTTP
     WS_CHANNEL_BINDING channelBinding = WS_HTTP_CHANNEL_BINDING;
     
-    // Set up channel property contraints that override the default constraints
+    // Set up channel property constraints that override the default constraints
     WS_CHANNEL_PROPERTY_CONSTRAINT channelPropertyConstraints[3];
     
     // Allow text encodings
@@ -232,7 +232,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
     channelPropertyConstraints[2].allowedValues = allowedEnvelopeVersions;
     channelPropertyConstraints[2].allowedValuesSize = sizeof(allowedEnvelopeVersions);
      
-    // Set up security property contraints that override the default constraints
+    // Set up security property constraints that override the default constraints
     WS_SECURITY_PROPERTY_CONSTRAINT securityPropertyConstraints[1];
     
     // Allow with/without a timestamp

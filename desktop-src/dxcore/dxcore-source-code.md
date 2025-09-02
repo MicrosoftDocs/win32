@@ -53,7 +53,7 @@ winrt::com_ptr<IDXCoreAdapter> TryFindComputeAdapter()
             d3D12CoreComputeAdapters.put()));
 
     // If there are any hardware adapters, then choose the first.
-    // Otherwise, choose the first sofware adapter.
+    // Otherwise, choose the first software adapter.
     winrt::com_ptr<IDXCoreAdapter> preferredAdapter;
 
     const uint32_t count{ d3D12CoreComputeAdapters->GetAdapterCount() };

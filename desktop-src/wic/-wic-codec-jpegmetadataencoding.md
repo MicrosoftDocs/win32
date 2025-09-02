@@ -343,7 +343,7 @@ Once you commit the frame, you must release the COM objects created in the loop.
 
 ## JPEG Re-encode Example Code
 
-The following is the code from Parts 1 through 6 in one convienient block.
+The following is the code from Parts 1 through 6 in one convenient block.
 
 
 ```C++

@@ -471,7 +471,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-Specifies if the capture is required at each possible layer in the target networking stack, or just the default layer. For a VMSwitch, the filter is installed at the top of the extension stack by default. For a physical network adapater, the filter is installed just above the miniport.
+Specifies if the capture is required at each possible layer in the target networking stack, or just the default layer. For a VMSwitch, the filter is installed at the top of the extension stack by default. For a physical network adapter, the filter is installed just above the miniport.
 
 </dd> <dt>
 
