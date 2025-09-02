@@ -98,7 +98,7 @@ Although by no means required, the following conventions are used in PRI files.
 
 * String resources are added to the "strings" `<RootPath>`.
 * File resources are added to the "files" `<RootPath>`.
-* Container resoures (e.g. resources from a `resw` file) are added to the "resources" `<RootPath>`.
+* Container resources (e.g. resources from a `resw` file) are added to the "resources" `<RootPath>`.
 
 Note that XAML localization depends on the "resources" convention (see [x:Uid directive](/windows/uwp/xaml-platform/x-uid-directive) for more info), and other libraries may depend on these conventions, too.
 

@@ -46,7 +46,7 @@ HRESULT SetGroupName(
 *pGroupName* 
 </dt> <dd>
 
-**BSTR** that specifies the name of the group. The maximum length of the name is 256 characters, incuding the null terminator.
+**BSTR** that specifies the name of the group. The maximum length of the name is 256 characters, including the null terminator.
 
 </dd> </dl>
 

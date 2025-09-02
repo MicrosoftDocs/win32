@@ -21,7 +21,7 @@ Consider [**MFCreateASFMediaSinkActivate**](/windows/desktop/api/wmcontainer/nf-
 -   The encoding topology is for the protected media path (PMP) and the file sink is used out-of-process.
 -   The output node of the topology is created by using the returned pointer to the activate object of the file sink and your application is keeping track of the streams in the file sink by stream numbers.
     > [!Note]  
-    > You can activate the file sink by calling [**IMFActivate::ActivateObject**](/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject). However you do not need to activate the object explictly. The Media Session keeps track of the activation object and activates the file sink automatically during the encoding session.
+    > You can activate the file sink by calling [**IMFActivate::ActivateObject**](/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject). However you do not need to activate the object explicitly. The Media Session keeps track of the activation object and activates the file sink automatically during the encoding session.
 
      
 

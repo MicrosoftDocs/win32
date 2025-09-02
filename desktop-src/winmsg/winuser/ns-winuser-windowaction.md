@@ -291,7 +291,7 @@ Some values or combinations of fields in the `WINDOW_ACTION` are not valid:
 | Point on Monitor              | The `WAK_MOVE_TO_MONITOR` and `WAM_SCALED_TO_MONITOR` flags both use the `pointOnMonitor` field. These flags cannot be used together. `WAM_SCALED_TO_MONITOR` requires also setting the position and size, and it cannot be used if the action sets the state to Maximized/Minimized/Arranged. `WAM_SCALED_TO_MONITOR` also cannot be used with the `WAK_FIT_TO_MONITOR`, `WAM_WORK_AREA`, or `WAM_DPI` flags. |
 | Work Area                     | If `WAM_WORK_AREA` is set, the `workArea` field must be a non-empty rect. |
 | Dpi                           | If `WAM_DPI` is set, the `dpi` field must be greater or equal to 96 (100% DPI). |
-| 'Restore To' State            | The `WAM_RESTORE_TO_NORMAL`, `WAM_RESTORE_TO_MAXIMIZED`, and `WAM_RESTORE_TO_ARRANGED` flags require that the placement state be set to `WPS_MINIMIZED`. Only one of the three 'restore to' flags can be set. If `WAM_RESTORE_TO_ARRANGED`, the position and size fields must be set, and are interpretted as the restore to arrange position (not the Minimize position). |
+| 'Restore To' State            | The `WAM_RESTORE_TO_NORMAL`, `WAM_RESTORE_TO_MAXIMIZED`, and `WAM_RESTORE_TO_ARRANGED` flags require that the placement state be set to `WPS_MINIMIZED`. Only one of the three 'restore to' flags can be set. If `WAM_RESTORE_TO_ARRANGED`, the position and size fields must be set, and are interpreted as the restore to arrange position (not the Minimize position). |
 
 ## Requirements
 
