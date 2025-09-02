@@ -384,7 +384,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             // Get multicast interface index
             ULONG interfaceIndex = adapterAddress->IfIndex;
         
-            // Set property on channel which controls which multicast adapater address
+            // Set property on channel which controls which multicast adapter address
             // is used when sending to a multicast address.
             hr = WsSetChannelProperty(channel, WS_CHANNEL_PROPERTY_MULTICAST_INTERFACE, 
                 &interfaceIndex, sizeof(interfaceIndex), error);

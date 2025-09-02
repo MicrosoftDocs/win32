@@ -60,7 +60,7 @@ To avoid missing the intended vsync interval because of to many queued present o
 
 The next diagram shows an example of the code flow of swap-chain rendering and presentation in an app with two flip-model swap chains each with three buffers in length. Here, because the number of queued presents for any particular frame is 2, which is less than the number of back buffers per swap chain, your app can set multiple render targets and still target the same vsync intervals for buffers A and D in frame 2 and for the buffers in subsequent frames.
 
-![illustration of simultaneously setting multiple swap chains as render targets targetting the same vsync](images/multi-swap-chains-as-render-targets-same-vsync.png)
+![illustration of simultaneously setting multiple swap chains as render targets targeting the same vsync](images/multi-swap-chains-as-render-targets-same-vsync.png)
 
 ## Related topics
 
