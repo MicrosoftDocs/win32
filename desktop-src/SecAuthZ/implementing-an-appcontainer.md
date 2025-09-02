@@ -8,7 +8,7 @@ ms.date: 07/20/2023
 
 # Launch an AppContainer
 
-This document describes the steps necessary to launch an AppContainer or Less-Privileged AppContainer including relevant code examples. AppContainers are a security feature introduced in Windows 8 to enhance the isolation and control of application processes. They provide a sandboxed environment for applications, restricting their ability to access system or each other’s resources, as well as user data unless explicitly permitted. AppContainers leverage existing Windows security mechanisms, such as security identifiers (SIDs), tokens, and security descriptor discretionary access control list (DACL), to enforce these restrictions. 
+This article describes the steps necessary to launch an AppContainer or Less-Privileged AppContainer including relevant code examples. AppContainers are a security feature introduced in Windows 8 to enhance the isolation and control of application processes. They provide a sandboxed environment for applications, restricting their ability to access system or each other’s resources, as well as user data unless explicitly permitted. AppContainers leverage existing Windows security mechanisms, such as security identifiers (SIDs), tokens, and security descriptor discretionary access control list (DACL), to enforce these restrictions. 
 
 ## Terminology
 
@@ -142,6 +142,60 @@ Create the AppContainer by calling [CreateAppContainerProfile](/windows/win32/ap
 `TEMP=C:\Users\TestUser\AppData\Local\Packages\TestAppContainer\AC\Temp`
 
 `TMP=C:\Users\TestUser\AppData\Local\Packages\TestAppContainer\AC\Temp`
+
+The following example code demonstrates the use of **CreateAppContainerProfile** function to create an AppContainer profile and retrieve the SID for a new or an existing AppContainer.
+
+```cpp
+HRESULT
+CreateProfileForAppContainer(
+    PCWSTR AppContainerName,
+    PSID_AND_ATTRIBUTES Capabilities,
+    ULONG NumberOfCapabilities,
+    PCWSTR DisplayName,
+    PCWSTR Description,
+    PSID* AppContainerSid
+    )
+{
+    HRESULT hr;
+    PSID LocalAppContainerSid = NULL;
+
+    *AppContainerSid = NULL;
+
+    hr = CreateAppContainerProfile(AppContainerName,
+                                   DisplayName,
+                                   Description,
+                                   Capabilities,
+                                   NumberOfCapabilities,
+                                   &LocalAppContainerSid);
+
+    if (FAILED(hr)) {
+        if (hr == HRESULT_FROM_WIN32(ERROR_ALREADY_EXISTS)) {
+
+            //
+            // Obtain the AppContainer SID based on the AppContainer name.
+            //
+
+            hr = AppContainerDeriveSidFromMoniker(AppContainerName,
+                                                  &LocalAppContainerSid);
+            
+            if (FAILED(hr)) {   
+                return hr;
+            }
+
+        } else {
+            return hr;
+        }        
+    } 
+
+    //
+    // Since this is successful, set the output AppContainer SID accordingly.
+    //
+    
+    *AppContainerSid = LocalAppContainerSid;
+
+    return S_OK;
+}
+```
 
 ## Launching the AppContainer (or LPAC)
 
@@ -291,6 +345,8 @@ if (!CreateProcess(NULL,
     return GetLastError(); 
 }
 ```
+
+
 
 ## Related topics
 
