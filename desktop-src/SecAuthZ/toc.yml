@@ -202,7 +202,7 @@
         href: appcontainer-for-legacy-applications-.md
       - name: "AppContainer isolation"
         href: appcontainer-isolation.md
-      - name: "Implement an AppContainer"
+      - name: "Launch an AppContainer"
         href: implementing-an-appcontainer.md
       - name: "App Isolation"
         items:
