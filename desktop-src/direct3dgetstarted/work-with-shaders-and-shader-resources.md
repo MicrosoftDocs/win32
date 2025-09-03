@@ -316,7 +316,7 @@ PS_OUTPUT main(PS_INPUT In)
 
 The important part is the `SV_TARGET` system-value semantic on the return value. It indicates that the output is to be written to the primary render target, which is the texture buffer supplied to the swap chain for display. This is required for pixel shaders - without the color data from the pixel shader, Direct3D wouldn't have anything to display!
 
-An example of a more complex pixel shader to perform Phong shading might look like this. Since the vectors and normals were interpolated, we don't have to compute them on a per-pixel basis. However, we do have to re-normalize them because of how interpolation works; conceptually, we need to gradually "spin" the vector from direction at vertex A to direction at vertex B, maintaining its length—wheras interpolation instead cuts across a straight line between the two vector endpoints.
+An example of a more complex pixel shader to perform Phong shading might look like this. Since the vectors and normals were interpolated, we don't have to compute them on a per-pixel basis. However, we do have to re-normalize them because of how interpolation works; conceptually, we need to gradually "spin" the vector from direction at vertex A to direction at vertex B, maintaining its length—whereas interpolation instead cuts across a straight line between the two vector endpoints.
 
 ``` syntax
 cbuffer MaterialConstantBuffer : register(b2)

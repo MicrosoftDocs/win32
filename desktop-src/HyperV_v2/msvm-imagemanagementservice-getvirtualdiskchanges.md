@@ -59,7 +59,7 @@ A Resilient Change Tracking Id or VHD Set Snapshot Id indicating the baseline fo
 *TargetSnapshotId* \[in\]
 </dt> <dd>
 
-A VHDSet Snapshot Id indicating the snapshot to compare to the baseline when determing changes in the virtual hard disk. This parameter is only valid for VHD Set files.
+A VHDSet Snapshot Id indicating the snapshot to compare to the baseline when determining changes in the virtual hard disk. This parameter is only valid for VHD Set files.
 
 </dd> <dt>
 

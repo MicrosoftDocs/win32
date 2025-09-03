@@ -16,7 +16,7 @@ Tone mapping is the technique used by DirectX for mapping HDR information into a
 
 ## Tone Mapping
 
-Tone mapping generally simulates optical phenomena that cannot be caused by the DR of the monitor. Examples of this are flares or blooming (which are mostly properties of lenses), the blue shift that happens in the human eye in low light conditions, and other adaptations that are a result of the biochemistry of the eye. If the DR of the display were large enough, tone mapping would not be as neccessary, except for providing artistic effects or some of the properties of a camera lens or a charge coupled device (CCD).
+Tone mapping generally simulates optical phenomena that cannot be caused by the DR of the monitor. Examples of this are flares or blooming (which are mostly properties of lenses), the blue shift that happens in the human eye in low light conditions, and other adaptations that are a result of the biochemistry of the eye. If the DR of the display were large enough, tone mapping would not be as necessary, except for providing artistic effects or some of the properties of a camera lens or a charge coupled device (CCD).
 
 Tone mapping divides the range of luminance values in a scene into a set of zones. Each zone encompasses a range of luminance values.
 
