@@ -25,10 +25,10 @@ Retrieves the insertion point closest to a specified point.
 <dl> <dt>
 
 *wParam* 
-</dt> <dd>Pointer to a **POINT** structure that contains the hit test coordinates.</dd> <dt>
+</dt> <dd>Pointer to a [**POINT**](/windows/win32/api/windef/ns-windef-point)</b> structure that contains the hit test coordinates.</dd> <dt>
 
 *lParam* 
-</dt> <dd>Pointer to an <a href="/windows/desktop/api/Commctrl/ns-commctrl-lvinsertmark">LVINSERTMARK</a> structure that specifies the insertion point closest to the coordinates defined by the *wParam* parameter.</dd> </dl>
+</dt> <dd>Pointer to an <a href="/windows/desktop/api/Commctrl/ns-commctrl-lvinsertmark">LVINSERTMARK</a> structure that specifies the insertion point closest to the coordinates defined by the _wParam_ parameter.</dd> </dl>
 
 ## Return value
 
