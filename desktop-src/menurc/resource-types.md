@@ -68,29 +68,35 @@ The following are the predefined resource types.
 
 ## Remarks
 
-When enumerating String Table resources (type `RT_STRING`) with the resource-enumeration functions such as **EnumResourceNamesW**, the enumeration 
-does not call the callback function with every resource identifier; instead the callback is called once for each "block" of (up to) 16 resources
-that contains at least one string resource. You must further enumerate the values within this block to check if they are valid strings.
+### String Table Resources
 
-Each resource block contains 16 length-prefixed strings, some of which may be zero-length. The strings do not have terminating **NULL** characters.
-Given a string Resource ID X, it can be found in the resource block number `(X \ 16) + 1` (where `\` denotes integer division). Within that block,
-the resource can be found as the Nth string, where `N = X % 16`. 
+When enumerating String Table resources (type **RT_STRING**) with functions such as **EnumResourceNamesW**, the system doesn't
+enumerate each individual string resource ID; instead it enumerates blocks of resources. You must inpsect these blocks to 
+determine which string resource ID(s) they actually contain.
 
-So for example, the following table describes where specific string resources will be found:
+String resources are packaged into blocks, each of which contains 16 length-prefixed strings representing 16 consecutive
+IDs (some of which may not be used; see below). Given a string resource ID `X`, it will placed in the resource block number 
+`(X \ 16) + 1` (where `\` denotes integer division). Within that block, the resource can be found as the `N`th entry, 
+where `N = X % 16`. 
+
+The following table shows some example string resource IDs and the block number (and offset) of where they will be
+located:
 
 | Resource ID | Block # | Offset |
 |-|-|-|
-| 1 | 1 | 1 |
-| 2 | 1 | 2 |
-| 5 | 1 | 5 |
-| 15 | 1 | 15 |
-| 20 | 2 | 4 |
-| 32 | 3 | 0 |
-| 100 | 7 | 4 |
+| 1 | `(1 \ 16) + 1` = 1 | `1 % 16` = 1 |
+| 2 | `(2 \ 16) + 1` = 1 | `2 % 16` = 2 |
+| 5 | `(3 \ 16) + 1` =  1 | `5 % 16` = 5 |
+| 15 | `(15 \ 16) + 1` = 1 | `15 % 16` = 15 |
+| 20 | `(20 \ 16) + 1` = 2 | `20 % 16` = 4 |
+| 32 | `(32 \ 16) + 1` = 3 | `32 % 16` = 0 |
+| 50 | `(50 \ 16) + 1` = 4 | `50 % 16` = 2 |
+| 100 | `(100 \ 16) + 1` = 7 | `100 % 16` = 4 |
 
-Any gaps in resource IDs are denoted by zero-length strings. So in the above table, block #1 will have zero-length strings
-representing IDs 0, 3, 4, and 6-14. In-memory, the block looks like this, assuming each string's value is "Hello world" (11 
-characters long) and numbers in angle brackets represent integers:
+Any unused (missing) resource IDs are denoted by zero-length strings. So in the example above, block #1 will have zero-length strings
+representing IDs 0, 3, 4, and 6 - 14. None of the strings in the block have terminating **NULL** characters, since it is permitted 
+for string resources to contain embedded **NULLs**. Thus, the memory layout of block #1 looks like this, assuming each string's value 
+is "Hello world" (11 characters long) and where the numbers in angle brackets represent integers (not literal characters):
 
 ```
 <0><11>Hello world<11>Hello world<0><0>
@@ -98,8 +104,8 @@ characters long) and numbers in angle brackets represent integers:
 <0><11>Hello world
 ```
 
-The following code snippet shows an enumeration callback function that will enumerate individual `RT_STRING` resources
-rather than the blocks:
+The following code snippet shows an enumeration callback function that will enumerate individual **RT_STRING** resources
+just like other types (like **RT_ICON**) than the blocks:
 
 ```C++
 // Number of entries in the string table.
@@ -113,7 +119,7 @@ inline UINT GetStringResourceIdFromStringTable(LPCWSTR lpName, const unsigned in
 }
 
 // Helper function that will enumerate string table blocks, looking for resources.
-BOOL EnumerateWrapperForStrings(HMODULE hModule, LPWSTR lpName, LONG_PTR lParam, ENUMRESNAMEPROCW lpEnumFunc)
+BOOL EnumerateResourceNamesWrapperForStrings(HMODULE hModule, LPWSTR lpName, LONG_PTR lParam, ENUMRESNAMEPROCW lpEnumFunc)
 {
     // No need to free or unlock resources in Win32, so OK to throw away intermediates
     auto ptr = (wchar_t*)LockResource(LoadResource(hModule, FindResource(hModule, lpName, RT_STRING)));
@@ -148,39 +154,55 @@ BOOL EnumResourceNamesIncludingStringsW(HMODULE hModule, LPCWSTR lpType, ENUMRES
 {
     struct param_wrapper { ENUMRESNAMEPROCW lpEnumFunc; LONG_PTR lParam; } params{ lpEnumFunc, lParam };
 
+    // Use a simple lambda to either call our String helper, or directly call the user's callback
     return EnumResourceNamesW(hModule, lpType, [](auto hModule, auto lpType, auto lpName, auto lParam)
         {
             auto params = reinterpret_cast<param_wrapper*>(lParam);
             if (lpType == RT_STRING)
             {
-                return EnumerateWrapperForStrings(hModule, lpName, params->lParam, params->lpEnumFunc);
+                return EnumerateResourceNamesWrapperForStrings(hModule, lpName, params->lParam, params->lpEnumFunc);
             }
 
             return params->lpEnumFunc(hModule, lpType, lpName, params->lParam);
         }, reinterpret_cast<LONG_PTR>(&params));
 };
 
-// Sample callback function (whatever you need to do with the resources).
-BOOL RealEnumerateCallback(HMODULE lib, LPCWSTR lpType, LPWSTR lpName, LONG_PTR lParam)
-{
-    if (lpType == RT_STRING)
-    {
-        std::wcout << L"Got string #" << reinterpret_cast<DWORD>(lpName) << std::endl;
-    }
-    else
-    {
-        std::wcout << L"Got something else #" << reinterpret_cast<DWORD>(lpName) << std::endl;
-    }
+//////////
 
+// Sample callback that just increments a counter.
+BOOL CountResources(HMODULE, LPCWSTR, LPWSTR, LONG_PTR lParam)
+{
+    // Add one to the count...
+    (*(reinterpret_cast<UINT*>(lParam)))++;
     return TRUE;
 }
 
-// Sample usage (just replace EnumResourceNamesW with EnumResourceNamesIncludingStringsW):
-void EnumerateStringsInLib(HMODULE lib)
+// Sample usage:
+void CountStringsInExplorer()
 {
-    auto res = EnumResourceNamesIncludingStringsW(lib, RT_STRING, RealEnumerateCallback, 0);
-}
+    auto lib = LoadLibraryExW(LR"(c:\windows\explorer.exe)", nullptr, LOAD_LIBRARY_AS_DATAFILE);
+    if (!lib)
+    {
+        return;
+    }
 
+    UINT nStringBlocks{ 0 };
+    UINT nStrings{ 0 };
+
+    // Count the number of string blocks using raw Win32 API.
+    EnumResourceNamesW(lib, RT_STRING, CountResources, (LONG_PTR)&nStringBlocks);
+
+    // Count the number of actual strings, using the wrapper.
+    EnumResourceNamesIncludingStringsW(lib, RT_STRING, CountResources, (LONG_PTR)&nStrings);
+
+    // Outputs something like:
+    //
+    // Explorer.exe contains 44 strings (in 17 blocks).
+    //
+
+    std::wcout << L"Explorer.exe contains " << nStrings << L" strings (in " << nStringBlocks
+        << L" blocks)." << std::endl;
+}
 ```
 
 ## Requirements
