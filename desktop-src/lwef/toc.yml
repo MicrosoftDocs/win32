@@ -1570,6 +1570,8 @@
         href: endpointdlp-dlpactiontype.md
       - name: "DlpAppEnforceLevel"
         href: endpointdlp-dlpappenforcelevel.md
+      - name: "DlpRequestId"
+        href: endpointdlp-dlprequestid.md
     - name: "Endpoint data loss prevention functions"
       href: endpointdlp-functions.md
       items: 
@@ -1637,6 +1639,8 @@
         href: endpointdlp-dlpauditoperationenforcementevent.md
       - name: "DlpAuditOperationEnforcementEventEx2"
         href: endpointdlp-dlpauditoperationenforcementeventex.md
+      - name: "DlpAuditOperationEnforcementEventEx4"
+        href: endpointdlp-dlpauditoperationenforcementeventex4.md
       - name: "DlpGetFileLocation"
         href: endpointdlp-dlpgetfilelocation.md
       - name: "DlpDelegateEnforcement"
@@ -1657,6 +1661,10 @@
         href: endpointdlp-dlpgetnotificationsettings.md
       - name: "DlpGetWebSiteNotificationSettings"
         href: endpointdlp-dlpgetwebsitenotificationsettings.md
+      - name: "DlpHandleRequest"
+        href: endpointdlp-dlphandlerequest.md
+      - name: "DlpReleaseBuffer"
+        href: endpointdlp-dlpreleasebuffer.md
       - name: "AuditBrowserWebSiteOperation"
         href: endpointdlp-auditbrowserwebsiteoperation.md
       - name: "DlpIsSensitiveStream"
@@ -1672,3 +1680,19 @@
         href: enpointdlp-dlp_postop_status.md
       - name: "DLP_PRINT_INFO"
         href: endpointdlp-dlp_print_info.md
+      - name: "DlpSerializedBuffer"
+        href: endpointdlp-dlpserializedbuffer.md
+      - name: "DlpRequest"
+        href: endpointdlp-dlprequest.md
+      - name: "AuthGroupOverrideRequest"
+        href: endpointdlp-authgroupoverriderequest.md
+      - name: "GetFileApplicationAccessRequest"
+        href: endpointdlp-getfileapplicationaccessrequest.md
+      - name: "GetFileCloudApplicationPolicyRequest"
+        href: endpointdlp-getfilecloudapplicationpolicyrequest.md
+      - name: "GetNotificationSettingRequest"
+        href: endpointdlp-getnotificationsettingrequest.md
+      - name: "SendFileAccessEventRequest"
+        href: endpointdlp-sendfileaccesseventrequest.md
+      - name: "SendOperationEnforcementEventRequest"
+        href: endpointdlp-sendoperationenforcementeventrequest.md
