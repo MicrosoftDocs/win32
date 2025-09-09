@@ -90,7 +90,7 @@ Specifies an orthogonal frequency division multiplexing (OFDM) PHY type. 802.11a
 <span id="dot11_phy_type_hrdsss"></span><span id="DOT11_PHY_TYPE_HRDSSS"></span>**dot11\_phy\_type\_hrdsss**
 </dt> <dd>
 
-Specifies a high-rate DSSS (HRDSSS) PHY type.
+Specifies a high-rate DSSS (HRDSSS) PHY type. 802.11b devices can use HRDSS.
 
 </dd> <dt>
 
@@ -104,11 +104,12 @@ Specifies an extended rate PHY type (ERP). 802.11g devices can use ERP.
 <span id="dot11_phy_type_ht"></span><span id="DOT11_PHY_TYPE_HT"></span>**dot11\_phy\_type\_ht**
 </dt> <dd>
 
-Specifies the 802.11n PHY type.
+Specifies a High Throughput PHY type (HT). 802.11n devices can use HT.
 
 </dd>
 
 <dt>
+
 <span id="dot11_phy_type_vht"></span><span id="DOT11_PHY_TYPE_VHT"></span>**dot11\_phy\_type\_vht**
 </dt>
 <dd>
@@ -117,27 +118,31 @@ This value is supported on Windows 8.1, Windows Server 2012 R2, and later.
 </dd>
 
 <dt>
+
 <span id="dot11_phy_type_dmg"></span><span id="DOT11_PHY_TYPE_DMG"></span>**dot11\_phy\_type\_dmg**
 </dt>
 <dd>
-TBD
+Specifies a Directional Multi-Gigabit PHY type (DMG). 802.11ad devices can use HT.
 </dd>
 
 <dt>
+
 <span id="dot11_phy_type_he"></span><span id="DOT11_PHY_TYPE_HE"></span>**dot11\_phy\_type\_he**
 </dt>
 <dd>
-TBD
+Specifies a High Efficiency PHY type (HE). 802.11ax (Wi-Fi 6) devices can use HT.
 </dd>
 
 <dt>
+
 <span id="dot11_phy_type_eht"></span><span id="DOT11_PHY_TYPE_EHT"></span>**dot11\_phy\_type\_eht**
 </dt>
 <dd>
-TBD
+Specifies an Extremely High Throughput PHY type (EHT). 802.11be (Wi-Fi 7) devices can use HT.
 </dd>
 
 <dt>
+
 <span id="dot11_phy_type_IHV_start"></span><span id="dot11_phy_type_ihv_start"></span><span id="DOT11_PHY_TYPE_IHV_START"></span>**dot11\_phy\_type\_IHV\_start**
 </dt> <dd>
 

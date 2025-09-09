@@ -1,27 +1,38 @@
 ---
-description: Generates an ETW event for the specified file, with additional parameter options.
-title: DlpAuditOperationEnforcementEventEx2 function (endpointdlp.h)
+description: Generates an ETW event for the specified file, with additional parameter options and a new overrideInfoJson parameter.
+title: DlpAuditOperationEnforcementEventEx4 function (endpointdlp.h)
 ms.topic: reference
-ms.date: 06/14/2023
+ms.date: 09/05/2025
 topic_type: 
 - APIRef
 - kbSyntax
 api_name: 
-- DlpAuditOperationEnforcementEventEx2
+- DlpAuditOperationEnforcementEventEx4
 api_type: 
 - DllExport
 api_location: 
 - EndpointDlp.dll
 ---
 
-# DlpAuditOperationEnforcementEventEx2 function
+# DlpAuditOperationEnforcementEventEx4 function
 
-Generates an ETW event for the specified file, with additional parameter options.
+Generates an ETW event for the specified file, with additional parameter options and a new *overrideInfoJson* parameter.
 
 ## Syntax
 
 ```C++
-HRESULT WINAPI DlpAuditOperationEnforcementEventEx2(_In_z_ LPCWSTR source, _In_z_ LPCWSTR target, _In_z_ LPCWSTR actionType, _In_ DlpEnforcementLevel enforcmentLevel, _In_ BOOLEAN userBypass, _In_ DlpTraceInfo* traceInfo, _In_opt_z_ LPCWSTR businessJustification, _In_opt_z_ LPCWSTR printerOutputFileName, _In_opt_z_ LPCWSTR printerName, _In_opt_z_ LPCWSTR printerJobName);
+    HRESULT WINAPI DlpAuditOperationEnforcementEventEx4(
+        _In_z_ LPCWSTR source,
+        _In_opt_z_ LPCWSTR target,
+        _In_z_ LPCWSTR actionType,
+        _In_ DlpEnforcementLevel enforcementLevel,
+        _In_ BOOLEAN userBypass,
+        _In_ DlpTraceInfo* traceInfo,
+        _In_opt_z_ LPCWSTR businessJustification,
+        _In_opt_z_ LPCWSTR printerOutputFileName,
+        _In_opt_z_ LPCWSTR printerName,
+        _In_opt_z_ LPCWSTR printerJobName,
+        _In_opt_z_ LPCWSTR overrideInfoJson);
 ```
 
 ## Parameters
@@ -46,6 +57,8 @@ HRESULT WINAPI DlpAuditOperationEnforcementEventEx2(_In_z_ LPCWSTR source, _In_z
 
 `printerJobName` [in]: The printer job name. Only necessary when the `actionType` parameter is set to `DlpWebSiteActionTypePrint`.
 
+`overrideInfoJson` [in]: A JSON string containing override information for the enforcement event. It  is obtained by calls to [DlpHandleRequest](endpointdlp-dlphandlerequest.md) with `DlpRequestId=RequestIdAuthorizedGroupOverrideEdge`.
+
 ## Return value
 
 Returns an `HRESULT` including, but not limited to, the following values.
@@ -62,8 +75,12 @@ This function can be called from multiple threads.
 
 ## Requirements
 
+| Requirement | Value |
+|-------------|-------|
+| Minimum supported client | Windows 11, version 24H2 (Build 26100) |
+| DLL                      | EndpointDlp.dll |
 
-| Requirement          |    Value                   |
-|-------------------------------------|-----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 11, version 22H2 (10.0; Build 22621)           |
-| DLL<br/>                      | EndpointDlp.dll |
+## Related content
+
+- [DlpAuditOperationEnforcementEventEx2 function](endpointdlp-dlpauditoperationenforcementeventex.md)
+- [DlpHandleRequest](endpointdlp-dlphandlerequest.md)
