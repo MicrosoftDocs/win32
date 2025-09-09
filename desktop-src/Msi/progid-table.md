@@ -34,7 +34,7 @@ The ProgId table has the following columns.
 <span id="ProgId"></span><span id="progid"></span><span id="PROGID"></span>ProgId
 </dt> <dd>
 
-The program ID or version independent program ID. ProgIds listed in the ProgId table are registered if the CLSID listed in the Class\_column of this table is scheduled to be advertised or installed. When the ProgId is selected for registration, all ProgIds that refer to this row through the ProgId\_Parent column are also selected for registration.
+The program ID or version independent program ID. ProgIds listed in the ProgId table are registered if the CLSID listed in the Class\_ column of this table is scheduled to be advertised or installed. When the ProgId is selected for registration, all ProgIds that refer to this row through the ProgId\_Parent column are also selected for registration.
 
 </dd> <dt>
 
@@ -48,7 +48,7 @@ Defined only for version independent program IDs. This field is a foreign key in
 <span id="Class_"></span><span id="class_"></span><span id="CLASS_"></span>Class\_
 </dt> <dd>
 
-An optional foreign key into the [Class table](class-table.md). This column must be Null for a version independent ProgId. If the Class\_value for a ProgId is null, the ProgId is registered when it appears in the ProgId column of a row in the [Extension table](extension-table.md) and the extension has at least one Verb associated with it in the [Verb table](verb-table.md). ProgIds selected for registration in this manner do not install other ProgIds that reference the current ProgId through the ProgId\_Default value.
+An optional foreign key into the [Class table](class-table.md). This column must be Null for a version independent ProgId. If the Class\_ value for a ProgId is null, the ProgId is registered when it appears in the ProgId column of a row in the [Extension table](extension-table.md) and the extension has at least one Verb associated with it in the [Verb table](verb-table.md). ProgIds selected for registration in this manner do not install other ProgIds that reference the current ProgId through the ProgId\_ Default value.
 
 </dd> <dt>
 
