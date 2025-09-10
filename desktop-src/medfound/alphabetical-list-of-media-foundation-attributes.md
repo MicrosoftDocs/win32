@@ -431,6 +431,7 @@ This section contains an alphabetical list of Microsoft Media Foundation attribu
 | [MF\_TRANSFORM\_CATEGORY\_Attribute](mf-transform-category-attribute.md) | Specifies the category for a Media Foundation transform (MFT). |
 | [MF\_TRANSFORM\_FLAGS\_Attribute](mf-transform-flags-attribute.md) | Contains flags for a Media Foundation transform (MFT) activation object. |
 | [MF\_USER\_DATA\_PAYLOAD](mf-user-data-payload.md) | Sets whether to include a user data payload with the output sample. |
+| [MF\_VIDEO\_RENDERER\_EFFECT\_APP\_SERVICE\_NAME](mf-video-renderer-effect-app-service-name.md) | Specifies the name of the video renderer effect app service with which a communication channel will be opened. |
 | [MF\_VIDEO\_MAX\_MB\_PER\_SEC](mf-video-max-mb-per-sec.md) | Specifies, on [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform), the maximum macroblock processing rate, in macroblocks per second, that is supported by the hardware encoder. |
 | [MF\_VIDEO\_PROCESSOR\_ALGORITHM](mf-video-processor-algorithm.md) | Sets the algorithm used by the video processor.  |
 | [MF\_VIDEODSP\_MODE](mf-videodsp-mode.md) | Sets the processing mode of the [**Video Stabilization MFT**](video-stabilization-mft.md). |
