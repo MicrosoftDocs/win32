@@ -94,7 +94,3 @@ Normally, code that calls DbgHelp.dll ensures that the correct version is loaded
 [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress)
 
 [**GetModuleFileName**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamea)
-
- 
-
- 
