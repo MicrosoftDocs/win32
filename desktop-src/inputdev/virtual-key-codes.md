@@ -142,6 +142,31 @@ api_name:
 - VK_NONAME
 - VK_PA1
 - VK_OEM_CLEAR
+- VK_GAMEPAD_A
+- VK_GAMEPAD_B
+- VK_GAMEPAD_X
+- VK_GAMEPAD_Y
+- VK_GAMEPAD_RIGHT_SHOULDER
+- VK_GAMEPAD_LEFT_SHOULDER
+- VK_GAMEPAD_LEFT_TRIGGER
+- VK_GAMEPAD_RIGHT_TRIGGER
+- VK_GAMEPAD_DPAD_UP
+- VK_GAMEPAD_DPAD_DOWN
+- VK_GAMEPAD_DPAD_LEFT
+- VK_GAMEPAD_DPAD_RIGHT
+- VK_GAMEPAD_MENU
+- VK_GAMEPAD_VIEW
+- VK_GAMEPAD_LEFT_THUMBSTICK_BUTTON
+- VK_GAMEPAD_RIGHT_THUMBSTICK_BUTTON
+- VK_GAMEPAD_LEFT_THUMBSTICK_UP
+- VK_GAMEPAD_LEFT_THUMBSTICK_DOWN
+- VK_GAMEPAD_LEFT_THUMBSTICK_RIGHT
+- VK_GAMEPAD_LEFT_THUMBSTICK_LEFT
+- VK_GAMEPAD_RIGHT_THUMBSTICK_UP
+- VK_GAMEPAD_RIGHT_THUMBSTICK_DOWN
+- VK_GAMEPAD_RIGHT_THUMBSTICK_RIGHT
+- VK_GAMEPAD_RIGHT_THUMBSTICK_LEFT
+
 api_location:
 - Winuser.h
 api_type:
@@ -320,9 +345,33 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | `VK_OEM_COMMA` | 0xBC | For any country/region, the Comma and Less Than key |
 | `VK_OEM_MINUS` | 0xBD | For any country/region, the Dash and Underscore key |
 | `VK_OEM_PERIOD` | 0xBE | For any country/region, the Period and Greater Than key |
-| `VK_OEM_2` | 0xBF | It can vary by keyboard. For the US ANSI keyboard, the Forward Slash and Question Mark	key |
+| `VK_OEM_2` | 0xBF | It can vary by keyboard. For the US ANSI keyboard, the Forward Slash and Question Mark    key |
 | `VK_OEM_3` | 0xC0 | It can vary by keyboard. For the US ANSI keyboard, the Grave Accent and Tilde key |
-|  | 0xC1-DA | Reserved |
+|  | 0xC1-C2 | Reserved |
+| `VK_GAMEPAD_A` | 0xC3  | Gamepad A button     |
+| `VK_GAMEPAD_B` | 0xC4  | Gamepad B button     |
+| `VK_GAMEPAD_X` | 0xC5  | Gamepad X button     |
+| `VK_GAMEPAD_Y` | 0xC6  | Gamepad Y button     |
+| `VK_GAMEPAD_RIGHT_SHOULDER` | 0xC7  | Gamepad Right Shoulder button     |
+| `VK_GAMEPAD_LEFT_SHOULDER` | 0xC8  | Gamepad Left Shoulder button     |
+| `VK_GAMEPAD_LEFT_TRIGGER` | 0xC9  | Gamepad Left Trigger button     |
+| `VK_GAMEPAD_RIGHT_TRIGGER` | 0xCA  | Gamepad Right Trigger button     |
+| `VK_GAMEPAD_DPAD_UP` | 0xCB  | Gamepad D-pad Up button     |
+| `VK_GAMEPAD_DPAD_DOWN` | 0xCC  | Gamepad D-pad Down button     |
+| `VK_GAMEPAD_DPAD_LEFT` | 0xCD  | Gamepad D-pad Left button     |
+| `VK_GAMEPAD_DPAD_RIGHT` | 0xCE  | Gamepad D-pad Right button     |
+| `VK_GAMEPAD_MENU` | 0xCF  | Gamepad Menu/Start button     |
+| `VK_GAMEPAD_VIEW` | 0xD0  | Gamepad View/Back button     |
+| `VK_GAMEPAD_LEFT_THUMBSTICK_BUTTON` | 0xD1  | Gamepad Left Thumbstick button     |
+| `VK_GAMEPAD_RIGHT_THUMBSTICK_BUTTON` | 0xD2  | Gamepad Right Thumbstick button     |
+| `VK_GAMEPAD_LEFT_THUMBSTICK_UP` | 0xD3  | Gamepad Left Thumbstick up    |
+| `VK_GAMEPAD_LEFT_THUMBSTICK_DOWN` | 0xD4  | Gamepad Left Thumbstick down    |
+| `VK_GAMEPAD_LEFT_THUMBSTICK_RIGHT` | 0xD5  | Gamepad Left Thumbstick right    |
+| `VK_GAMEPAD_LEFT_THUMBSTICK_LEFT` | 0xD6  | Gamepad Left Thumbstick left     |
+| `VK_GAMEPAD_RIGHT_THUMBSTICK_UP` | 0xD7  | Gamepad Right Thumbstick up    |
+| `VK_GAMEPAD_RIGHT_THUMBSTICK_DOWN` | 0xD8  | Gamepad Right Thumbstick down     |
+| `VK_GAMEPAD_RIGHT_THUMBSTICK_RIGHT` | 0xD9  | Gamepad Right Thumbstick right     |
+| `VK_GAMEPAD_RIGHT_THUMBSTICK_LEFT` | 0xDA  | Gamepad Right Thumbstick left     |
 | `VK_OEM_4` | 0xDB | It can vary by keyboard. For the US ANSI keyboard, the Left Brace key |
 | `VK_OEM_5` | 0xDC | It can vary by keyboard. For the US ANSI keyboard, the Backslash and Pipe key |
 | `VK_OEM_6` | 0xDD | It can vary by keyboard. For the US ANSI keyboard, the Right Brace key |
