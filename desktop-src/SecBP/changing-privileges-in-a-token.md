@@ -13,7 +13,7 @@ You can change the privileges in either a primary or an impersonation token in t
 -   Enable, disable, or remove privileges by using the [**AdjustTokenPrivileges**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges) function.
 -   Restrict or remove privileges by using the [**CreateRestrictedToken**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-createrestrictedtoken) function.
 
-[**AdjustTokenPrivileges**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges) cannot add privileges to the token. It can only enable existing privileges that are currently disabled, disable existing privileges that are currently enabled, or remove existing privileges. For examples, see [Enabling and Disabling Privileges in C++](/windows/desktop/SecAuthZ/enabling-and-disabling-privileges-in-c--). Any privileges that are removed with **AdjustTokenPrivileges** cannot subsequently be reenabled.
+[**AdjustTokenPrivileges**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-adjusttokenprivileges) cannot add privileges to the token. It can only enable existing privileges that are currently disabled, disable existing privileges that are currently enabled, or remove existing privileges. Any privileges that are removed with **AdjustTokenPrivileges** cannot subsequently be reenabled. For examples, see [Enabling and Disabling Privileges in C++](/windows/desktop/SecAuthZ/enabling-and-disabling-privileges-in-c--).
 
 To assign privileges to a user account, see [Assigning Privileges to an Account](assigning-privileges-to-an-account.md).
 
