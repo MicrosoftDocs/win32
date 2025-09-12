@@ -7,7 +7,7 @@ topic_type:
 - APIRef
 - kbSyntax
 api_name: 
-- IEnumPStoreProviders
+- IUPnPEventingControl
 api_type: 
 - COM
 api_location: 
@@ -21,13 +21,13 @@ Enables the caller to disable eventing for UPnP services created for UPnP device
 
 ## Members
 
-The **IUPnPEventingControl** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IEnumPStoreProviders** also has these types of members:
+The **IUPnPEventingControl** interface inherits from the [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IUPnPEventingControl** also has these types of members:
 
 -   [Methods](#methods)
 
 ### Methods
 
-The **IEnumPStoreProviders** interface has these methods.
+The **IUPnPEventingControl** interface has these methods.
 
 
 

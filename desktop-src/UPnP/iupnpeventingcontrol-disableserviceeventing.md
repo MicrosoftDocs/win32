@@ -2,16 +2,16 @@
 title: IUPnPEventingControl::DisableServiceEventing method (upnp.h)
 description: Causes UPnP services to be created without setting up event callback functions and without subscribing to event sources.
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/12/2025
 topic_type: 
 - APIRef
 - kbSyntax
 api_name: 
-- IPStore.CreateSubtype
+- IUPnPEventingControl::DisableServiceEventing
 api_type: 
 - COM
 api_location: 
-- Pstorec.dll
+- upnp.h
 ---
 
 # IUPnPEventingControl::DisableServiceEventing method
