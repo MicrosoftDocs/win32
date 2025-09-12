@@ -159,7 +159,7 @@ In the **LoadAssets** method a buffer needs to be created to store the results o
                      &heapProps,
                      D3D12_HEAP_FLAG_NONE,
                      &queryBufferDesc,
-                     D3D12_RESOURCE_STATE_GENERIC_READ,
+                     D3D12_RESOURCE_STATE_PREDICATION,
                      nullptr,
                      IID_PPV_ARGS(&m_queryResult)
                      ));
