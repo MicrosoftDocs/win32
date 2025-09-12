@@ -192,6 +192,11 @@
           href: /windows/desktop/api/upnp/nf-upnp-iupnpdevices-get_count
         - name: "Item Method"
           href: /windows/desktop/api/upnp/nf-upnp-iupnpdevices-get_item
+      - name: "IUPnPEventingControl"
+        href: iupnpeventingcontrol.md
+        items:
+        - name: "DisableEventing Method"
+          href: iupnpeventingcontrol-disableeventing.md
       - name: "IUPnPHttpHeaderControl"
         href: /windows/desktop/api/Upnp/nn-upnp-iupnphttpheadercontrol
         items: 
