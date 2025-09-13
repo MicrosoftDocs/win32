@@ -195,8 +195,8 @@
       - name: "IUPnPEventingControl"
         href: iupnpeventingcontrol.md
         items:
-        - name: "DisableEventing Method"
-          href: iupnpeventingcontrol-disableeventing.md
+        - name: "DisableServiceEventing Method"
+          href: iupnpeventingcontrol-disableserviceeventing.md
       - name: "IUPnPHttpHeaderControl"
         href: /windows/desktop/api/Upnp/nn-upnp-iupnphttpheadercontrol
         items: 

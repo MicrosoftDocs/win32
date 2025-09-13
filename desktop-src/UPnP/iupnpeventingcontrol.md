@@ -37,8 +37,6 @@ The **IUPnPEventingControl** interface has these methods.
 
 ## Remarks
 
-## Remarks
-
 This interface is currently not defined in a Windows SDK header. The following definition can be used to instantiate the interface.
 
 ```cpp
