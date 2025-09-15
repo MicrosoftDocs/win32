@@ -3,44 +3,42 @@ description: This topic discusses how hooks should be used.
 ms.assetid: 9ced0ac4-e602-425f-b954-6af9c741699a
 title: Hooks Overview
 ms.topic: concept-article
-ms.date: 07/14/2025
+ms.date: 09/15/2025
 ---
 
 # Hooks Overview
 
 A *hook* is a mechanism by which an application can intercept events, such as messages, mouse actions, and keystrokes. A function that intercepts a particular type of event is known as a *hook procedure*. A hook procedure can act on each event it receives, and then modify or discard the event.
 
-The following some example uses for hooks:
+Some uses for hooks include:
 
--   Monitor messages for debugging purposes
--   Provide support for recording and playback of macros
--   Provide support for a help key (F1)
--   Simulate mouse and keyboard input
--   Implement a computer-based training (CBT) application
+- Monitoring messages for debugging purposes
+- Providing support for recording and playback of macros
+- Providing support for a help key (F1)
+- Simulating mouse and keyboard input
+- Implementing a computer-based training (CBT) application
 
 > [!Note]  
 > Hooks tend to slow down the system because they increase the amount of processing the system must perform for each message. You should install a hook only when necessary, and remove it as soon as possible.
 
- 
-
 This section discusses the following:
 
--   [Hook Chains](#hook-chains)
--   [Hook Procedures](#hook-procedures)
--   [Hook Types](#hook-types)
-    -   [WH\_CALLWNDPROC and WH\_CALLWNDPROCRET](#wh_callwndproc-and-wh_callwndprocret)
-    -   [WH\_CBT](#wh_cbt)
-    -   [WH_DEBUG](#wh_debug)
-    -   [WH\_FOREGROUNDIDLE](#wh_foregroundidle)
-    -   [WH\_GETMESSAGE](#wh_getmessage)
-    -   [WH_JOURNALPLAYBACK](#wh_journalplayback)
-    -   [WH\_JOURNALRECORD](#wh_journalrecord)
-    -   [WH_KEYBOARD_LL](#wh_keyboard_ll)
-    -   [WH\_KEYBOARD](#wh_keyboard)
-    -   [WH_MOUSE_LL](#wh_mouse_ll)
-    -   [WH_MOUSE](#wh_mouse)
-    -   [WH_MSGFILTER and WH\_SYSMSGFILTER](#wh_msgfilter-and-wh_sysmsgfilter)
-    -   [WH\_SHELL](#wh_shell)
+- [Hook Chains](#hook-chains)
+- [Hook Procedures](#hook-procedures)
+- [Hook Types](#hook-types)
+  - [WH\_CALLWNDPROC and WH\_CALLWNDPROCRET](#wh_callwndproc-and-wh_callwndprocret)
+  - [WH\_CBT](#wh_cbt)
+  - [WH_DEBUG](#wh_debug)
+  - [WH\_FOREGROUNDIDLE](#wh_foregroundidle)
+  - [WH\_GETMESSAGE](#wh_getmessage)
+  - [WH_JOURNALPLAYBACK](#wh_journalplayback)
+  - [WH\_JOURNALRECORD](#wh_journalrecord)
+  - [WH_KEYBOARD_LL](#wh_keyboard_ll)
+  - [WH\_KEYBOARD](#wh_keyboard)
+  - [WH_MOUSE_LL](#wh_mouse_ll)
+  - [WH_MOUSE](#wh_mouse)
+  - [WH_MSGFILTER and WH\_SYSMSGFILTER](#wh_msgfilter-and-wh_sysmsgfilter)
+  - [WH\_SHELL](#wh_shell)
 
 ## Hook Chains
 
@@ -79,25 +77,23 @@ A *global hook* monitors messages for all threads in the same desktop as the cal
 > [!Note]  
 > You should use global hooks only for debugging purposes; otherwise, you should avoid them. Global hooks hurt system performance and cause conflicts with other applications that implement the same type of global hook.
 
- 
-
 ## Hook Types
 
 Each type of hook enables an application to monitor a different aspect of the system's message-handling mechanism. The following sections describe the available hooks.
 
--   [WH\_CALLWNDPROC and WH\_CALLWNDPROCRET](#wh_callwndproc-and-wh_callwndprocret)
--   [WH\_CBT](#wh_cbt)
--   [WH_DEBUG](#wh_debug)
--   [WH\_FOREGROUNDIDLE](#wh_foregroundidle)
--   [WH\_GETMESSAGE](#wh_getmessage)
--   [WH_JOURNALPLAYBACK](#wh_journalplayback)
--   [WH\_JOURNALRECORD](#wh_journalrecord)
--   [WH_KEYBOARD_LL](#wh_keyboard_ll)
--   [WH\_KEYBOARD](#wh_keyboard)
--   [WH_MOUSE_LL](#wh_mouse_ll)
--   [WH_MOUSE](#wh_mouse)
--   [WH_MSGFILTER and WH\_SYSMSGFILTER](#wh_msgfilter-and-wh_sysmsgfilter)
--   [WH\_SHELL](#wh_shell)
+- [WH\_CALLWNDPROC and WH\_CALLWNDPROCRET](#wh_callwndproc-and-wh_callwndprocret)
+- [WH\_CBT](#wh_cbt)
+- [WH_DEBUG](#wh_debug)
+- [WH\_FOREGROUNDIDLE](#wh_foregroundidle)
+- [WH\_GETMESSAGE](#wh_getmessage)
+- [WH_JOURNALPLAYBACK](#wh_journalplayback)
+- [WH\_JOURNALRECORD](#wh_journalrecord)
+- [WH_KEYBOARD_LL](#wh_keyboard_ll)
+- [WH\_KEYBOARD](#wh_keyboard)
+- [WH_MOUSE_LL](#wh_mouse_ll)
+- [WH_MOUSE](#wh_mouse)
+- [WH_MSGFILTER and WH\_SYSMSGFILTER](#wh_msgfilter-and-wh_sysmsgfilter)
+- [WH\_SHELL](#wh_shell)
 
 ### WH\_CALLWNDPROC and WH\_CALLWNDPROCRET
 

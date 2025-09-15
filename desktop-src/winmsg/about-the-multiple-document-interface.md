@@ -3,23 +3,23 @@ description: Each document in an multiple-document interface (MDI) application i
 ms.assetid: 35dff281-3b11-4954-85cf-a0f1c9ed346a
 title: About the Multiple Document Interface
 ms.topic: concept-article
-ms.date: 07/14/2025
+ms.date: 09/15/2025
 ---
 
 # About the Multiple Document Interface
 
 Each document in an multiple-document interface (MDI) application is displayed in a separate child window within the client area of the application's main window. Typical MDI applications include word-processing applications that allow the user to work with multiple text documents, and spreadsheet applications that allow the user to work with multiple charts and spreadsheets. For more information, see the following topics.
 
--   [Frame, Client, and Child Windows](#frame-client-and-child-windows)
--   [Child Window Creation](#child-window-creation)
--   [Child Window Activation](#child-window-activation)
--   [Multiple Document Menus](#multiple-document-menus)
--   [Multiple Document Accelerators](#multiple-document-accelerators)
--   [Child Window Size and Arrangement](#child-window-size-and-arrangement)
--   [Icon Title Windows](#icon-title-windows)
--   [Child Window Data](#child-window-data)
-    -   [Window Structure](#window-structure)
-    -   [Window Properties](#window-properties)
+- [Frame, Client, and Child Windows](#frame-client-and-child-windows)
+- [Child Window Creation](#child-window-creation)
+- [Child Window Activation](#child-window-activation)
+- [Multiple Document Menus](#multiple-document-menus)
+- [Multiple Document Accelerators](#multiple-document-accelerators)
+- [Child Window Size and Arrangement](#child-window-size-and-arrangement)
+- [Icon Title Windows](#icon-title-windows)
+- [Child Window Data](#child-window-data)
+  - [Window Structure](#window-structure)
+  - [Window Properties](#window-properties)
 
 ## Frame, Client, and Child Windows
 
@@ -33,7 +33,7 @@ An MDI application can support more than one kind of document. For example, a ty
 
 Following is a typical MDI application. It is named Multipad.
 
-![multipad mdi application frame window and client window](images/csmdi-01.png)
+![Screenshot of a multipad mdi application frame window and client window.](images/csmdi-01.png)
 
 ## Child Window Creation
 
@@ -57,18 +57,12 @@ To retrieve the handle to the active child window, the MDI application sends a [
 
 The frame window of an MDI application should include a menu bar with a window menu. The window menu should include items that arrange the child windows within the client window or that close all child windows. The window menu of a typical MDI application might include the items in the following table.
 
-
-
 | Menu item         | Purpose                                                                                                                  |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------|
 | **Tile**          | Arranges child windows in a tile format so that each appears in its entirety in the client window.                       |
 | **Cascade**       | Arranges child windows in a cascade format. The child windows overlap one another, but the title bar of each is visible. |
 | **Arrange Icons** | Arranges the icons of minimized child windows along the bottom of the client window.                                     |
 | **Close All**     | Closes all child windows.                                                                                                |
-
-
-
- 
 
 Whenever a child window is created, the system automatically appends a new menu item to the window menu. The text of the menu item is the same as the text on the menu bar of the new child window. By clicking the menu item, the user can activate the corresponding child window. When a child window is destroyed, the system automatically removes the corresponding menu item from the window menu.
 
@@ -106,8 +100,8 @@ To determine whether a child window is an icon title window, use the [**GetWindo
 
 Because the number of child windows varies depending on how many documents the user opens, an MDI application must be able to associate data (for example, the name of the current file) with each child window. There are two ways to do this:
 
--   Store child window data in the window structure.
--   Use window properties.
+- Store child window data in the window structure.
+- Use window properties.
 
 ### Window Structure
 
@@ -118,7 +112,3 @@ To maintain a large amount of data for a child window, an application can alloca
 ### Window Properties
 
 An MDI application can also store per-document data by using window properties. *Per-document data* is data specific to the type of document contained in a particular child window. Properties are different from extra space in the window structure in that you need not allocate extra space when registering the window class. A window can have any number of properties. Also, where offsets are used to access the extra space in window structures, properties are referred to by string names. For more information about window properties, see [Window Properties](window-properties.md).
-
- 
-
- 
