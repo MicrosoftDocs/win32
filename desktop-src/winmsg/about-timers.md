@@ -3,7 +3,7 @@ title: About timers
 description: This topic describes how to create, identify, set, and delete timers.
 ms.assetid: 509a6fc4-ddee-4ff4-88a2-25dad4c48c2f
 ms.topic: concept-article
-ms.date: 07/14/2025
+ms.date: 09/15/2025
 ---
 
 # About timers
@@ -12,10 +12,10 @@ This topic describes how to create, identify, set, and delete timers. An applica
 
 This topic includes the following sections.
 
--   [Timer Operations](#timer-operations)
--   [High-Resolution Timer](#high-resolution-timer)
--   [Waitable Timer Objects](#waitable-timer-objects)
--   [Related topics](#related-topics)
+- [Timer Operations](#timer-operations)
+- [High-Resolution Timer](#high-resolution-timer)
+- [Waitable Timer Objects](#waitable-timer-objects)
+- [Related topics](#related-topics)
 
 ## Timer operations
 
@@ -23,7 +23,7 @@ Applications create timers by using the [**SetTimer**](/windows/win32/api/winuse
 
 Each timer has a unique identifier. When creating a timer, an application can either specify an identifier or have the system create a unique value. The first parameter of a [**WM\_TIMER**](wm-timer.md) message contains the identifier of the timer that posted the message.
 
-If you specify a window handle in the call to [**SetTimer**](/windows/win32/api/winuser/nf-winuser-settimer), the application associates the timer with that window. Whenever the time-out value for the timer elapses, the system posts a [**WM\_TIMER**](wm-timer.md) message to the window associated with the timer. If no window handle is specified in the call to **SetTimer**, the application that created the timer must monitor its message queue for **WM\_TIMER** messages and dispatch them to the appropriate window. 
+If you specify a window handle in the call to [**SetTimer**](/windows/win32/api/winuser/nf-winuser-settimer), the application associates the timer with that window. Whenever the time-out value for the timer elapses, the system posts a [**WM\_TIMER**](wm-timer.md) message to the window associated with the timer. If no window handle is specified in the call to **SetTimer**, the application that created the timer must monitor its message queue for **WM\_TIMER** messages and dispatch them to the appropriate window.
 
 > [!NOTE]
 > If you specify the optional [**TIMERPROC**](/windows/win32/api/winuser/nc-winuser-timerproc) callback function, the function is called during the [**Message Loop**](/windows/win32/winmsg/about-messages-and-message-queues#message-loop) and **WM\_TIMER** is not dispatched to the [**WNDPROC**](/windows/win32/api/winuser/nc-winuser-wndproc) callback.
@@ -48,4 +48,4 @@ For more information about using waitable timer objects for thread synchronizati
 
 ## Related topics
 
-* [Using timers](using-timers.md)
+[Using timers](using-timers.md)
