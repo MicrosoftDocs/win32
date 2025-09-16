@@ -52,7 +52,7 @@ interface IUPnPEventingControl : IUnknown
 }
 ```
 
-The [IUPnPEventingControl](iupnpeventingcontrol.md) interface is obtained by calling **QueryInterface** on the same object that provides an implementation of the [IUPnPDeviceFinder](nn-upnp-iupnpdevicefinder) or [IUPnPDescriptionDocument](nn-upnp-iupnpdescriptiondocument) interfaces, after which **DisableServiceEventing** can be called on it.
+The [IUPnPEventingControl](iupnpeventingcontrol.md) interface is obtained by calling **QueryInterface** on the same object that provides an implementation of the [IUPnPDeviceFinder](/windows/win32/api/upnp/nn-upnp-iupnpdevicefinder) or [IUPnPDescriptionDocument](/windows/win32/api/upnp/nn-upnp-iupnpdescriptiondocument) interfaces, after which **DisableServiceEventing** can be called on it.
 
 
 ## Requirements
