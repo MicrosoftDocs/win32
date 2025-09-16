@@ -52,6 +52,8 @@ interface IUPnPEventingControl : IUnknown
 }
 ```
 
+This interface is obtained by calling **QueryInterface** on the same object that provides an implementation of the [IUPnPDeviceFinder](nn-upnp-iupnpdevicefinder) or [IUPnPDescriptionDocument](nn-upnp-iupnpdescriptiondocument) interfaces, after which [DisableServiceEventing](iupnpeventingcontrol-disableserviceeventing.md) can be called on it.
+
 ## Requirements
 
 | Requirement | Value |
