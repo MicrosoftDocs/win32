@@ -103,6 +103,8 @@ The named property value.
 | allowed security protocols | VT_BSTR | W | No | Introduced in Windows 11 version 24H2. This property is used to restrict the list of security protocols the client can negotiate. The actual list of negotiated protocols is determined by other configuration settings and the connection scenario, and can be smaller than the list specified in this property. The value must contain the list of protocol names separated by ';' or the value can be set to "*" which means that all normally negotiated protocols are allowed. Supported protocol names are: "TLS", "CredSSP", "RDSTLS" and "RDS AAD Auth" The default value is "*". |
 | AllowRelativeMouseMode | VT_BOOL | R/W | No | Introduced in Windows 11 version 24H2. If True, mouse movements are represented relative to the current mouse position. |
 | RemoteAppMouseMoveInject | VT_BOOL | W |No | Introduced in Windows 11 version 24H2. Writing True to this property forces the injection of a mouse move when the cursor leaves a RemoteApp window. This is intended to be a workaround for a tooltip bug. |
+| FrameBufferRedirectionPresenter | IUnknown | W |No | Introduced in Windows 11 version 24H2. Requests raw bytes representing the frame buffer when they change. See [IRdsFbrPresenter](irdsfbrpresenter.md) |
+| CursorRedirector | IUnknown | W |No | Introduced in Windows 11 version 24H2. Get the handle to the cursor image representing the remote session when it changes. See [IRdsCursorRedirector](irdscursorredirector.md) |
 
 
  

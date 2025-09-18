@@ -21,6 +21,8 @@ ms.date: 09/31/2025
 
 Remote desktop client interface to get updates to the cursor image (HCURSOR) when it changes.
 
+This is set using the "CursorRedirector" and [**IMsRdpExtendedSettings**](imsrdpextendedsettings.md) [put_Property](imsrdpextendedsettings-property.md).
+
 ### Methods
 
 The **IRdsCursorRedirector** interface has these methods.
