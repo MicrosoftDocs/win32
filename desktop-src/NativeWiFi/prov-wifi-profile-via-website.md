@@ -9,7 +9,7 @@ ms.date: 01/22/2020
 
 The workflow described in this topic was introduced in Windows 10, version 2004. This topic shows how to configure a website so that a user can provision a profile for a Passpoint network (or for a normal network) prior to moving into range of the corresponding Wi-Fi access points. An example scenario is that of a user who might be planning to visit an airport or a conference for the first time, and they want to prepare in advance by downloading and provisioning a profile at home.
 
-As a developer, you enable the workflow by providing an XML profile, and configuring a website. Your users can then provision a Wi-Fi profile by downloading it from your website via a web browser. On the user's device, the Wi-Fi profile is then provisioned by using URI activation and the Windows **Settings** app.
+As a developer, you enable the workflow by providing an XML profile, and configuring a website. Your users can then provision a Wi-Fi profile by downloading it from your website via a web browser. On the user's device, the Wi-Fi profile is then provisioned by using URI activation and Windows **Settings**.
 
 This workflow supersedes the mechanism in Internet Explorer for provisioning Wi-Fi profiles, which relies on Microsoft-specific JavaScript APIs. This new workflow is expected to work with all major browsers.
 
@@ -29,11 +29,11 @@ For example, the following HTML markup gives a link to install the profile(s)
 
 Your XML must adhere to the provisioning schema (see [Account provisioning](/windows-hardware/drivers/mobilebroadband/account-provisioning)). Your XML must also include one or more [WLANProfile](./wlan-profileschema-wlanprofile-element.md) elements. Each profile will be displayed in the **Add** dialog described next.
 
-When the user clicks your HTML link, the installation workflow is invoked in the **Settings** app. Your provisioning XML document is downloaded by the **Settings** app. Once it's downloaded, information about the profiles, signature, and signer are displayed (provided that the document adheres to the schema).
+When the user clicks your HTML link, the installation workflow is invoked in **Settings**. Your provisioning XML document is downloaded by **Settings**. Once it's downloaded, information about the profiles, signature, and signer are displayed (provided that the document adheres to the schema).
 
-![The Settings app](images/install-dialog.png)
+![A screenshot of Windows Settings prompting to add a WiFi connection](images/install-dialog.png)
 
-The **Add** button in the dialog in the **Settings** app is enabled only if the provisioning file is signed and trusted.
+The **Add** button in the dialog in **Settings** is enabled only if the provisioning file is signed and trusted.
 
 ## In your web page, determine whether this workflow is supported
 
