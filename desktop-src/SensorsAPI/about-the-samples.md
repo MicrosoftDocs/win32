@@ -8,6 +8,11 @@ ms.date: 05/31/2018
 
 # About the Samples and Tools
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 The Windows SDK includes useful code samples and tools to help you understand and use the Windows Sensor and Location platform and related APIs.
 
 ## Samples
@@ -76,5 +81,5 @@ The following image shows the virtual light sensor user interface in its ready s
 [**SENSOR\_CATEGORY\_LIGHT**](sensor-category-light.md)
 </dt> </dl>
 
- 
+
 

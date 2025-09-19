@@ -44,9 +44,16 @@ The Sensor API provides its functionality through a set of COM interfaces. This 
 -   [Sensor API Programming Guide](sensor-api-programming-guide.md)
 -   [Sensor API Programming Reference](sensor-api-programming-reference.md)
 
- 
+# Portal
 
- 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
+
+
+
 
 
 

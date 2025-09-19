@@ -9,6 +9,11 @@ ms.date: 05/31/2018
 
 # Sensor API Glossary
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 <dl> <dt>
 
 <span id="winsensors.sensors_glossary_ambient_light_sensor"></span><span id="WINSENSORS.SENSORS_GLOSSARY_AMBIENT_LIGHT_SENSOR"></span>**ambient light sensor**
@@ -109,9 +114,9 @@ A specific kind of sensor, such as a three-dimensional accelerometer.
 
 </dd> </dl>
 
- 
 
- 
+
+
 
 
 

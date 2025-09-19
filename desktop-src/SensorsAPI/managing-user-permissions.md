@@ -8,6 +8,11 @@ ms.date: 05/31/2018
 
 # Managing User Permissions
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 The Sensor API provides a method you can use to prompt the user for permissions to use a sensor or collection of sensors.
 
 Because sensors can reveal sensitive information, Windows requires that users enable sensors before your program can access any data.
@@ -44,6 +49,6 @@ Repeated modeless calls to [**RequestPermissions**](/windows/win32/api/sensorsap
 [Requesting User Permissions](requesting-user-permissions.md)
 </dt> </dl>
 
- 
 
- 
+
+

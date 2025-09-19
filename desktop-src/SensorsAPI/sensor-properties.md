@@ -8,6 +8,11 @@ ms.date: 05/31/2018
 
 # Sensor Properties
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 The Sensor and Location platform defines constants that identify properties for sensors. Sensor manufacturers can also define their own properties.
 
 The platform defines the following **PROPERTYKEY** values for sensor properties. These properties are read-only unless otherwise noted.
@@ -88,6 +93,6 @@ The following Windows Portable Devices (WPD) property must be supported by all s
 [**SetProperties**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensor-setproperties)
 </dt> </dl>
 
- 
 
- 
+
+

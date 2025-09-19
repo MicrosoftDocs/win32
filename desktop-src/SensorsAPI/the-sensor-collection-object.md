@@ -8,13 +8,18 @@ ms.date: 05/31/2018
 
 # The Sensor Collection Object
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 The sensor collection object contains a group of sensor objects.
 
 Sometimes you will want to work with sensors as a group. For example, you might want to use the sensor manager to discover all available motion sensors. The sensor collection object provides methods for working with a group of sensor objects. You can use the [**ISensorCollection**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection) interface to call methods that count, add, remove, and retrieve sensors in the collection.
 
- 
 
- 
+
+
 
 
 

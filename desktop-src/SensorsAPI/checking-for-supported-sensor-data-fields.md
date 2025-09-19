@@ -8,6 +8,11 @@ ms.date: 05/31/2018
 
 # Checking for Supported Sensor Data Fields
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 This topic describes how to verify that a sensor can provide a particular set of data fields.
 
 After you have retrieved a sensor object, you can call [**ISensor::GetSupportedDataFields**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensor-getsupporteddatafields) to determine whether the sensor can provide the data you need.
@@ -90,6 +95,6 @@ BOOL CheckForSupportedDataFields(ISensor* pSensor)
 [**ISensorDataReport**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport)
 </dt> </dl>
 
- 
 
- 
+
+

@@ -8,6 +8,11 @@ ms.date: 05/31/2018
 
 # SENSOR\_CATEGORY\_OTHER
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 The SENSOR\_CATEGORY\_OTHER category contains sensors that support the Custom class in the HID Class driver.
 
 <dl> <dt>
@@ -64,9 +69,9 @@ A sensor that supports the Generic class in the HID class driver will map to one
 
 
 
- 
 
- 
+
+
 
 
 

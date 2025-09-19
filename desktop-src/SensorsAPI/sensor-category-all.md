@@ -8,6 +8,11 @@ ms.date: 05/31/2018
 
 # SENSOR\_CATEGORY\_ALL
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 The SENSOR\_CATEGORY\_ALL category represents the set of all platform-defined sensor categories.
 
 **Platform-Defined Property Keys**
@@ -38,9 +43,9 @@ The following table describes platform-defined data fields.
 
 
 
- 
 
- 
+
+
 
 
 

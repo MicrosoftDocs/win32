@@ -8,6 +8,11 @@ ms.date: 05/31/2018
 
 # The Sensor Data Report Object
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 The sensor data report object contains sensor data.
 
 For a sensor to be useful, it must provide meaningful data. The amount and frequency of data generation varies from sensor to sensor. For example, a sensor that detects whether a door is open would generate a small amount of **Boolean** data, while a motion sensor might continuously generate multiple data items. To standardize the way your program receives data, the Sensor API uses the sensor data report object.
@@ -16,6 +21,6 @@ You can access the information in a sensor data report through the [**ISensorDat
 
 You specify the type of data, or data fields, that you want to retrieve from the report by using a **PROPERTYKEY** constant. Property keys for data fields of common sensor types are defined in Sensors.h.
 
- 
 
- 
+
+

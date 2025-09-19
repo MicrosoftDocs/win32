@@ -8,6 +8,11 @@ ms.date: 05/31/2018
 
 # About Sensor API Events
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 The Sensor API can provide event notifications.
 
 When you register to receive events, through either [**ISensor::SetEventSink**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensor-seteventsink) or [**ISensorManager::SetEventSink**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensormanager-seteventsink), you must provide a pointer to a callback interface. You must implement the methods of the callback interface in your code. The Sensor API defines the following callback interfaces:
@@ -24,6 +29,6 @@ You can cancel event notifications by calling [**SetEventSink**](/windows/win32/
 [Using Sensor API Events](using-sensor-api-events.md)
 </dt> </dl>
 
- 
 
- 
+
+

@@ -8,6 +8,11 @@ ms.date: 05/31/2018
 
 # Requesting User Permissions
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 This topic describes how to request permissions from the user to use sensors. For background information about permissions in the Sensor API, see [Managing User Permissions](managing-user-permissions.md).
 
 The following examples illustrate some of the common scenarios where you can choose to request user permissions.
@@ -105,6 +110,6 @@ if(SUCCEEDED(hr))
 [Managing User Permissions](managing-user-permissions.md)
 </dt> </dl>
 
- 
 
- 
+
+

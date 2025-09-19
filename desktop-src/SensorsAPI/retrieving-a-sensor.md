@@ -6,7 +6,12 @@ ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Retrieving a Sensor Object
+# Retrieving a Sensor
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 To retrieve a sensor object, you use the [**ISensorManager**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager) interface. You can think of this interface as the root interface for the Sensor API. To use **ISensorManager**, you must first call the COM **CoCreateInstance** method.
 
@@ -126,6 +131,6 @@ You can also retrieve sensors when they become available by receiving an event f
 [**ISensorManagerEvents::OnSensorEnter**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensormanagerevents-onsensorenter)
 </dt> </dl>
 
- 
 
- 
+
+

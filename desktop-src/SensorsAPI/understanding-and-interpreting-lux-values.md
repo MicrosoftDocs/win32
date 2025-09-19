@@ -8,6 +8,11 @@ ms.date: 05/31/2018
 
 # Understanding and Interpreting Lux Values
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 The primary sensor data type for ambient light sensors is illuminance in lux (lumens per square meter). The principles outlined in this topic are based on taking lux values as input and reacting to that data in a program.
 
 Lux readings are directly proportional to the energy per square meter that is absorbed per second. Human perception of light levels is not so straightforward. Human perception of light is complicated because our eyes are constantly adjusting and other biological processes are affecting our perception. However, we can think of this perception from a simplified perspective by creating several ranges of interest with known upper and lower thresholds.
@@ -53,9 +58,9 @@ Based on the sample data set for ambient light sensors previously provided, you 
 
 This equation results in values that vary in a roughly linear fashion between 0.0 and 1.0. This result indicates how human-perceived lighting changed based on the example data set that was shown previously.
 
- 
 
- 
+
+
 
 
 

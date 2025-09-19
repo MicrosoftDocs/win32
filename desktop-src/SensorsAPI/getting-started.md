@@ -6,7 +6,12 @@ ms.topic: get-started
 ms.date: 05/31/2018
 ---
 
-# Getting Started (Sensor API)
+# Getting Started
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 This section provides information you will need to start using the Sensor API.
 
@@ -18,6 +23,6 @@ This section provides information you will need to start using the Sensor API.
 -   [About the Samples and Tools](about-the-samples.md)
 -   [For More Information](./introduction-to-the-sensor-and-location-platform-in-windows.md)
 
- 
 
- 
+
+

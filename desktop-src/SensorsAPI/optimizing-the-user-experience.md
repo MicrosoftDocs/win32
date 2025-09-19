@@ -8,11 +8,16 @@ ms.date: 05/31/2018
 
 # Optimizing the User Experience
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 When implementing a light-aware user interface, you should carefully consider how users may react to the program's behavior . Avoid jarring transitions or frequent changes to the program's content and user interface. Smooth and gradual transitions that take place only as needed are best. Ideally, your program should be tested with users in real-world lighting conditions and user scenarios. Finally, consider creating a mechanism that enables users to manually change the program's light optimizations or disable the functionality.
 
- 
 
- 
+
+
 
 
 

@@ -8,6 +8,11 @@ ms.date: 05/31/2018
 
 # SENSOR\_CATEGORY\_ENVIRONMENTAL
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 The SENSOR\_CATEGORY\_ENVIRONMENTAL category contains sensors that provide information about the surrounding environment or weather.
 
 **Platform-Defined Sensor Types**
@@ -58,9 +63,9 @@ This category includes the following platform-defined data fields.
 
 
 
- 
 
- 
+
+
 
 
 

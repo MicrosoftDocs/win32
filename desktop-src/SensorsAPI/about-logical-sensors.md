@@ -8,6 +8,11 @@ ms.date: 05/31/2018
 
 # About Logical Sensors
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 *Logical sensors* provide data without depending on hardware devices. For example, a logical sensor could provide data about the user's current location by using a service that looks up an IP address in a table. Logical sensors are implemented as sensor drivers. For information about how to implement a sensor driver, see the Windows Driver Kit.
 
 After a logical sensor is installed on the user's computer, you can use it in the same way as a hardware-based sensor. The Sensor API will provide an [**ISensor**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor) interface to represent the logical sensor, and your program can request data through the same mechanisms as you would use for any other type of sensor. Logical sensors can also use the platform-defined sensor categories, types, data types, properties, and events. Or you can define custom values.

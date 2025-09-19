@@ -8,6 +8,11 @@ ms.date: 05/31/2018
 
 # Using Sensor API Events
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 The Sensor API provides event notifications through callback interfaces.
 
 To receive event notifications, your program must implement the required COM callback interfaces. To receive events from sensors, you must implement [**ISensorEvents**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents). To receive events from the sensor manager, you must implement [**ISensorManagerEvents**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanagerevents).
@@ -313,9 +318,9 @@ HRESULT SetCurrentReportInterval(ISensor* pSensor, ULONG ulNewInterval)
 [About Sensor API Events](about-sensor-events.md)
 </dt> </dl>
 
- 
 
- 
+
+
 
 
 

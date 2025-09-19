@@ -8,15 +8,20 @@ ms.date: 05/31/2018
 
 # Sensor API Programming Reference
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 This section provides detailed reference documentation for COM interfaces, enumeration types, and constants for the Sensor API.
 
 -   [COM Interfaces](windows-sensors-com-interfaces.md)
 -   [Enumeration Types](enumeration-types.md)
 -   [Constants](constants.md)
 
- 
 
- 
+
+
 
 
 

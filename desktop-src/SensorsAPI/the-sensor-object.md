@@ -8,6 +8,11 @@ ms.date: 05/31/2018
 
 # The Sensor Object
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 The sensor object represents a particular sensor.
 
 The Sensor API represents each sensor as a sensor object. You can work with a particular sensor object through its [**ISensor**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor) interface. This interface enables you to:
@@ -19,9 +24,9 @@ The Sensor API represents each sensor as a sensor object. You can work with a pa
 -   Specify which events your program will receive.
 -   Specify the callback interface that the Sensor API can use to provide your program with event notifications.
 
- 
 
- 
+
+
 
 
 

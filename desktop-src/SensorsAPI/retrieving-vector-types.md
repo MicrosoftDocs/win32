@@ -8,6 +8,11 @@ ms.date: 05/31/2018
 
 # Retrieving Vector Types
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 Some properties and data fields contain arrays of information. For example, the SENSOR\_PROPERTY\_LIGHT\_RESPONSE\_CURVE property contains an array of 4-byte unsigned integers. However, when you receive such arrays through the Sensor API, they are always represented as type VT\_VECTOR\|UI1, an array of single-byte characters, regardless of the actual type of the data in the array. For these types, you must be careful to cast array variables to the correct data type for the property or data field.
 
 For information about properties, data fields, and their types, see [Constants](constants.md).
@@ -42,9 +47,9 @@ PropVariantClear(&pvCurve);
 
 
 
- 
 
- 
+
+
 
 
 

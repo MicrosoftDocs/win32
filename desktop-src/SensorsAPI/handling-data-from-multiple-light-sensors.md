@@ -15,6 +15,11 @@ There are two recommended ways of interpreting and using lux data that comes fro
 
 ## Handling Data from Multiple Light Sensors
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 To produce the most accurate approximation of the current lighting conditions, you can use data from multiple ambient light sensors. Because ambient light sensors can be partly or fully obscured by shadows or objects that cover the sensor, multiple sensors placed some distance apart can provide a much better approximation of the current lighting conditions than a single sensor.
 
 To keep track of the data coming from multiple sensors, you can use the following two techniques:
@@ -77,6 +82,6 @@ STDMETHODIMP CALSEventSink::OnDataUpdated(
 
 
 
- 
 
- 
+
+

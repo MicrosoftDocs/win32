@@ -8,6 +8,11 @@ ms.date: 05/31/2018
 
 # SENSOR\_CATEGORY\_MECHANICAL
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 The SENSOR\_CATEGORY\_MECHANICAL category contains sensors that provide information related to mechanical devices and measurements.
 
 **Platform-Defined Sensor Types**
@@ -63,9 +68,9 @@ This category includes the following platform-defined data fields.
 
 
 
- 
 
- 
+
+
 
 
 

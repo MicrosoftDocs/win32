@@ -8,6 +8,11 @@ ms.date: 05/31/2018
 
 # The Sensor Manager Object
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 The sensor manager object provides access to the sensors that are available for your use.
 
 To use the Sensor API, you must first call the COM **CoCreateInstance** method to create an instance of the sensor manager object and retrieve a pointer to its interface, named [**ISensorManager**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanager). The sensor manager maintains the list of available sensors. You can use **ISensorManager** to call methods that retrieve groups of sensors by category or by type, or you can call a method to retrieve a particular sensor by using its unique ID. The sensor manager also enables you to register to receive an event that notifies you when a new sensor has been connected to the platform.
@@ -24,6 +29,6 @@ Sometimes, the sensor manager provides a pointer to a sensor, but the user has n
 [Requesting User Permissions](requesting-user-permissions.md)
 </dt> </dl>
 
- 
 
- 
+
+

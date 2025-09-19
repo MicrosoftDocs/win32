@@ -8,6 +8,11 @@ ms.date: 05/31/2018
 
 # About the Sensor API
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 The Sensor API provides its functionality through a set of COM interfaces. The Sensor API exposes some of these interfaces, which means you can call methods on them. Other interfaces are defined by the API so that you can implement the methods the Sensor API needs to provide event notifications to your program.
 
 ## In This Section
@@ -28,9 +33,9 @@ The Sensor API provides its functionality through a set of COM interfaces. The S
 [Sensor API](portal.md)
 </dt> </dl>
 
- 
 
- 
+
+
 
 
 
