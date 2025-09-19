@@ -145,7 +145,7 @@ This topic assumes that your app is targeting Windows 10, version 2004 (or later
 
 ### Display
 
-A high dynamic range display must implement the HDR10, or BT.2100 ST.2084, standard. HDR display quality can vary greatly, and we strongly recommend displays that are certified, such as [VESA DisplayHDR](https://displayhdr.org/). Starting with the Windows 11, version 22H2 release, Windows displays the certification status of known displays in the **Settings** app.
+A high dynamic range display must implement the HDR10, or BT.2100 ST.2084, standard. HDR display quality can vary greatly, and we strongly recommend displays that are certified, such as [VESA DisplayHDR](https://displayhdr.org/). Starting with the Windows 11, version 22H2 release, Windows displays the certification status of known displays in **Settings**.
 
 A standard dynamic range display must have accurate color provisioning data for Advanced Color support. In the Windows 11, version 22H2 release, the only supported method to override this data is via an MHC ICC profile; in addition, the user or display manufacturer must have enabled auto color management. For more info, see [ICC profile behavior with Advanced Color](/windows/win32/wcs/advanced-color-icc-profiles).
 
@@ -208,7 +208,7 @@ To check what Advanced Color kind is currently active, use the [**AdvancedColorI
 | WCG                 | SDR display with high bit-depth and auto color management |
 | HDR                 | HDR display with all Advanced Color capabilities          |
 
-To check what Advanced Color kinds are supported, but not necessarily active, call [**AdvancedColorInfo::IsAdvancedColorKindAvailable**](/uwp/api/windows.graphics.display.advancedcolorinfo.isadvancedcolorkindavailable). You could use that information, for example, to prompt the user to navigate to the Windows **Settings** app so that they can enable HDR or auto color management.
+To check what Advanced Color kinds are supported, but not necessarily active, call [**AdvancedColorInfo::IsAdvancedColorKindAvailable**](/uwp/api/windows.graphics.display.advancedcolorinfo.isadvancedcolorkindavailable). You could use that information, for example, to prompt the user to navigate to Windows **Settings** so that they can enable HDR or auto color management.
 
 The other members of **AdvancedColorInfo** provide quantitative information about the panel's physical color volume (luminance and chrominance), corresponding to SMPTE ST.2086 static HDR metadata. Even though ST.2086 was originally designed for HDR displays, that info is useful, and is available for both HDR and SDR displays. You should use that information to configure your app's tone mapping and gamut mapping.
 

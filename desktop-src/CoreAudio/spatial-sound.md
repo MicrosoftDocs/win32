@@ -33,7 +33,7 @@ You can also enable Microsoft Spatial Sound by right-clicking the **Volume** ico
 
 ### Xbox
 
-On Xbox, Microsoft Spatial Sound capabilities are always available for the consumer, and are enabled via the Settings App under **General -> Volume & audio output**. 
+On Xbox, Microsoft Spatial Sound capabilities are always available for the consumer, and are enabled via Windows Settings under **General -> Volume & audio output**.
 
 The HDMI audio button is populated with all the formats supported by the Audio Video Receiver (AVR) or Soundbar or the TV that is directly connected to your Xbox console. The “Optical audio” option is only available on older Xbox consoles and not on Xbox Series X|S and above.
 
