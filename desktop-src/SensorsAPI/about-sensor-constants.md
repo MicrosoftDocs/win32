@@ -3,7 +3,7 @@ description: About Sensor Constants
 ms.assetid: ba85ccd8-5251-4e47-84da-80899fe84c39
 title: About Sensor Constants
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # About Sensor Constants

@@ -3,7 +3,7 @@ description: The Sensor and Location platform defines constants that identify pr
 ms.assetid: 2fb739a0-9af5-4784-94b2-f8d10b9e21ca
 title: Sensor Properties (Sensors.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # Sensor Properties

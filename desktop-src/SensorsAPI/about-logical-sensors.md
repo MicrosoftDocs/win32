@@ -3,7 +3,7 @@ description: Logical sensors provide data without depending on hardware devices.
 ms.assetid: fb0f0324-d72e-4759-9f4d-deedf8848e21
 title: About Logical Sensors
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # About Logical Sensors
@@ -47,6 +47,6 @@ The Sensor API identifies a particular logical sensor by its *logical ID*, which
 [Using Logical Sensors](using-logical-sensors.md)
 </dt> </dl>
 
- 
 
- 
+
+

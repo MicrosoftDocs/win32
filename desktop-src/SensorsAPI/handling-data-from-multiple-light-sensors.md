@@ -3,10 +3,15 @@ description: Using Light Sensor Data
 ms.assetid: 98272df5-08c0-4392-a74b-2919bbdcb022
 title: Using Light Sensor Data
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # Using Light Sensor Data
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 There are two recommended ways of interpreting and using lux data that comes from ambient light sensors.
 
@@ -14,11 +19,6 @@ There are two recommended ways of interpreting and using lux data that comes fro
 -   Deal with ranges of lux data, and map program behaviors and reactions to the upper and lower thresholds of these ranges of lux data. This is a simple way to respond to lighting conditions and may not yield the optimal user experience. However, this approach works fine if smooth transitions are not feasible.
 
 ## Handling Data from Multiple Light Sensors
-
-> [!IMPORTANT]
-> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
->
-> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 To produce the most accurate approximation of the current lighting conditions, you can use data from multiple ambient light sensors. Because ambient light sensors can be partly or fully obscured by shadows or objects that cover the sensor, multiple sensors placed some distance apart can provide a much better approximation of the current lighting conditions than a single sensor.
 

@@ -3,7 +3,7 @@ description: Fundamentals of Light-Aware User Interfaces
 ms.assetid: 7ea391cb-f72b-4ac1-99be-c957d4ccc8af
 title: Fundamentals of Light-Aware User Interfaces
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # Fundamentals of Light-Aware User Interfaces

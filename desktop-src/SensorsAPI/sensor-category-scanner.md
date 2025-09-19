@@ -3,7 +3,7 @@ description: The SENSOR\_CATEGORY\_SCANNER category contains sensors that provid
 ms.assetid: 98a772c9-2a21-489f-ad8d-3b772b7ff892
 title: SENSOR_CATEGORY_SCANNER (Sensors.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # SENSOR\_CATEGORY\_SCANNER

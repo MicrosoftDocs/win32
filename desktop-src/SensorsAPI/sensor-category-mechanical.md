@@ -3,7 +3,7 @@ description: The SENSOR\_CATEGORY\_MECHANICAL category contains sensors that pro
 ms.assetid: d1243303-d26c-45ce-b97b-d554daeeb462
 title: SENSOR_CATEGORY_MECHANICAL (Sensors.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # SENSOR\_CATEGORY\_MECHANICAL

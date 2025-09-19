@@ -3,7 +3,7 @@ description: The SENSOR\_CATEGORY\_ORIENTATION category contains sensors that pr
 ms.assetid: e75d082d-e5d1-4353-9f40-062a62a2ac5f
 title: SENSOR_CATEGORY_ORIENTATION (Sensors.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # SENSOR\_CATEGORY\_ORIENTATION

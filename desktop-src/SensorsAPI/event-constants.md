@@ -3,7 +3,7 @@ description: The Windows Sensor and Location platform defines constants for driv
 ms.assetid: ca61c912-bce5-4e41-ab48-40615d5b93ba
 title: Event Constants (Sensors.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # Event Constants (Sensors.h)

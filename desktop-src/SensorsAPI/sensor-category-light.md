@@ -3,7 +3,7 @@ description: The SENSOR\_CATEGORY\_LIGHT category contains sensors that provide 
 ms.assetid: 0327bda5-f1d7-476d-9f0f-f4d60a6a106f
 title: SENSOR_CATEGORY_LIGHT (Sensors.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # SENSOR\_CATEGORY\_LIGHT

@@ -3,7 +3,7 @@ description: The SENSOR\_CATEGORY\_MOTION category contains sensors that provide
 ms.assetid: be025c86-46b5-4f50-a3af-0408bb3c9b5b
 title: SENSOR_CATEGORY_MOTION (Sensors.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # SENSOR\_CATEGORY\_MOTION

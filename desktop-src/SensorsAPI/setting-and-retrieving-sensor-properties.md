@@ -3,7 +3,7 @@ description: This topic describes how to retrieve and set values for sensor prop
 ms.assetid: 7d10e5b4-bae7-4564-84eb-75c6a2eeef8f
 title: Retrieving and Setting Sensor Properties
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # Setting and Retrieving Sensor Properties

@@ -3,7 +3,7 @@ description: This topic describes how to request permissions from the user to us
 ms.assetid: e43ad497-86f1-4804-a67a-0aeb56b80d7f
 title: Requesting User Permissions
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # Requesting User Permissions

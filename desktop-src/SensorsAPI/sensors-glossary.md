@@ -4,7 +4,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 4841262f-7a5a-4e49-afbd-866b451dff6c
 title: Sensor API Glossary
 ms.topic: glossary
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # Sensor API Glossary

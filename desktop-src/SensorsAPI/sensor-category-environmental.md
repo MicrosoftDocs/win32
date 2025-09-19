@@ -3,7 +3,7 @@ description: The SENSOR\_CATEGORY\_ENVIRONMENTAL category contains sensors that 
 ms.assetid: 4a29d44b-8949-474d-a2bf-0c6e1d30b198
 title: SENSOR_CATEGORY_ENVIRONMENTAL (Sensors.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # SENSOR\_CATEGORY\_ENVIRONMENTAL

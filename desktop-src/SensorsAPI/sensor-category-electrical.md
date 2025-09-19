@@ -3,7 +3,7 @@ description: The SENSOR\_CATEGORY\_ELECTRICAL category contains sensors that pro
 ms.assetid: c4efa821-fb9f-4606-898a-5be103581f39
 title: SENSOR_CATEGORY_ELECTRICAL (Sensors.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # SENSOR\_CATEGORY\_ELECTRICAL

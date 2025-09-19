@@ -3,7 +3,7 @@ description: The Windows Sensor and Location platform includes privacy settings 
 ms.assetid: 24425ed2-7b94-4b05-b117-9118d2074f49
 title: Privacy and Security in the Windows Sensor and Location Platform
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # Privacy and Security in the Sensor and Location Platform

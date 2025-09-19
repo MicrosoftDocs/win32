@@ -3,7 +3,7 @@ description: This section provides information, including example code, about ho
 ms.assetid: 4c2ffd22-49ee-4318-bfa0-e0ce4d8c67bb
 title: Sensor API Programming Guide
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # Sensor API Programming Guide

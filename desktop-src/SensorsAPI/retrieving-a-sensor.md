@@ -3,7 +3,7 @@ description: To retrieve a sensor object, you use the ISensorManager interface. 
 ms.assetid: 36631bae-f237-4951-9959-6ab6286bd1f7
 title: Retrieving a Sensor Object
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # Retrieving a Sensor

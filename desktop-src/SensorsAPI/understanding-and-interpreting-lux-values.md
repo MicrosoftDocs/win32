@@ -3,7 +3,7 @@ description: The primary sensor data type for ambient light sensors is illuminan
 ms.assetid: 29855779-7c27-4cfe-b8af-b33bc86a1f62
 title: Understanding and Interpreting Lux Values
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # Understanding and Interpreting Lux Values

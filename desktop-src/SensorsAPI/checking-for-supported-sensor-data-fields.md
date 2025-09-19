@@ -3,7 +3,7 @@ description: This topic describes how to verify that a sensor can provide a part
 ms.assetid: 918ba4a3-d2ac-47ee-ba29-f7ddf67ffbc5
 title: Checking for Supported Sensor Data Fields
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # Checking for Supported Sensor Data Fields

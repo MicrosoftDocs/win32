@@ -3,7 +3,7 @@ description: Optimizing the User Experience
 ms.assetid: 481d0b00-a3e2-46c6-883a-5ca183f5fead
 title: Optimizing the User Experience
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # Optimizing the User Experience

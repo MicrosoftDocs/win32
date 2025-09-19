@@ -3,14 +3,19 @@ description: Sensor API
 ms.assetid: a6ea76e6-9721-453a-a657-96f53660e09d
 title: Sensor API
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # Sensor API
 
-## Purpose
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Windows 7 includes native support for sensors, which are devices that can measure physical phenomena such as temperature or location. This documentation describes the Sensor API, which enables applications to get and use data from sensors in a standardized way.
+
+## Purpose
 
 As humans, we rely on our senses to provide us with information about the world around us. When we create machines to take on some of our work, we add sensor mechanisms so the machines can respond appropriately to changing conditions.
 
@@ -43,17 +48,3 @@ The Sensor API provides its functionality through a set of COM interfaces. This 
 -   [About the Sensor API](about-the-sensor-api.md)
 -   [Sensor API Programming Guide](sensor-api-programming-guide.md)
 -   [Sensor API Programming Reference](sensor-api-programming-reference.md)
-
-# Portal
-
-> [!IMPORTANT]
-> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
->
-> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
-
-
-
-
-
-
-
