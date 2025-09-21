@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 09/19/2025
 ---
 
-# Constants
+# Constants (Sensor API Programming Reference)
 
 > [!IMPORTANT]
 > Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.

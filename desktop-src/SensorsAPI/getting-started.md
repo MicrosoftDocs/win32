@@ -1,12 +1,12 @@
 ---
 description: This section provides information you will need to start using the Sensor API.
 ms.assetid: 5bccb1d0-ae53-448e-8a43-afb3c1ce98f9
-title: Getting Started (Sensor API)
+title: Getting Started with the Sensor API
 ms.topic: get-started
 ms.date: 09/19/2025
 ---
 
-# Getting Started
+# Getting Started with the Sensor API
 
 > [!IMPORTANT]
 > Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
