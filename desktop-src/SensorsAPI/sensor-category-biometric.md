@@ -3,10 +3,15 @@ description: The SENSOR\_CATEGORY\_BIOMETRIC category contains sensors that prov
 ms.assetid: dfc7ad46-c13b-46d1-8854-0d93ecaac55a
 title: SENSOR_CATEGORY_BIOMETRIC (Sensors.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # SENSOR\_CATEGORY\_BIOMETRIC
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 The SENSOR\_CATEGORY\_BIOMETRIC category contains sensors that provide information about living beings.
 
@@ -54,9 +59,9 @@ This category includes the following platform-defined data fields.
 
 
 
- 
 
- 
+
+
 
 
 

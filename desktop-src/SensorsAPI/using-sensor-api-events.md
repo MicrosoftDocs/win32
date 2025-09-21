@@ -3,10 +3,15 @@ description: The Sensor API provides event notifications through callback interf
 ms.assetid: 0c396d54-cb2e-4b07-999f-3f4001db2a02
 title: Using Sensor API Events
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # Using Sensor API Events
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 The Sensor API provides event notifications through callback interfaces.
 
@@ -313,9 +318,9 @@ HRESULT SetCurrentReportInterval(ISensor* pSensor, ULONG ulNewInterval)
 [About Sensor API Events](about-sensor-events.md)
 </dt> </dl>
 
- 
 
- 
+
+
 
 
 

@@ -3,10 +3,15 @@ description: The Windows Sensor and Location platform includes privacy settings 
 ms.assetid: 24425ed2-7b94-4b05-b117-9118d2074f49
 title: Privacy and Security in the Windows Sensor and Location Platform
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
-# Privacy and Security in the Windows Sensor and Location Platform
+# Privacy and Security in the Sensor and Location Platform
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 The Windows Sensor and Location platform includes privacy settings to help protect users' personal information.
 
@@ -19,9 +24,9 @@ The platform helps to ensure that sensor data remains private, when privacy is r
 -   Programs that use sensors can call a method to open a system dialog box that prompts users to enable needed sensor devices. This feature makes it easy for developers and users to make sure that sensors work when programs need them, while maintaining user control of disclosure of sensor data.
 -   Sensor drivers use a special object that processes all I/O requests. This object makes sure that only programs that have user permission can access sensor data.
 
- 
 
- 
+
+
 
 
 

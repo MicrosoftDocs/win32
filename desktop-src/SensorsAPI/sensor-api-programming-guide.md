@@ -3,10 +3,15 @@ description: This section provides information, including example code, about ho
 ms.assetid: 4c2ffd22-49ee-4318-bfa0-e0ce4d8c67bb
 title: Sensor API Programming Guide
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # Sensor API Programming Guide
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 This section provides information, including example code, about how to use the Sensor API features. For background information about the various programming interfaces, see [About the Sensor API](about-the-sensor-api.md).
 
@@ -119,9 +124,9 @@ template <class T> void SafeRelease(T **ppT)
 [About the Sensor API](about-the-sensor-api.md)
 </dt> </dl>
 
- 
 
- 
+
+
 
 
 

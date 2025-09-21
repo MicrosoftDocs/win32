@@ -3,10 +3,15 @@ description: The Windows Sensor and Location platform defines constants for driv
 ms.assetid: ca61c912-bce5-4e41-ab48-40615d5b93ba
 title: Event Constants (Sensors.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # Event Constants (Sensors.h)
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 The Windows Sensor and Location platform defines constants for driver events. Sensor manufacturers can also define their own constants.
 
@@ -64,5 +69,5 @@ The sensor platform reserves this GUID for future use.
 
 
 
- 
+
 

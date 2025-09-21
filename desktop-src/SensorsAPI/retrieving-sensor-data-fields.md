@@ -3,10 +3,15 @@ description: This topic describes how to retrieve data from a sensor, synchronou
 ms.assetid: 4ae80816-5e53-4ed1-9300-4b38c22d65e2
 title: Retrieving Sensor Data Values
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
-# Retrieving Sensor Data Values
+# Retrieving Sensor Data Fields
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 This topic describes how to retrieve data from a sensor, synchronously and asynchronously.
 
@@ -162,6 +167,6 @@ STDMETHODIMP OnDataUpdated(
 
 
 
- 
 
- 
+
+

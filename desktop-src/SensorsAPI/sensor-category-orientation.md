@@ -3,10 +3,15 @@ description: The SENSOR\_CATEGORY\_ORIENTATION category contains sensors that pr
 ms.assetid: e75d082d-e5d1-4353-9f40-062a62a2ac5f
 title: SENSOR_CATEGORY_ORIENTATION (Sensors.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # SENSOR\_CATEGORY\_ORIENTATION
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 The SENSOR\_CATEGORY\_ORIENTATION category contains sensors that provide information about physical orientation. Compasses provide navigational orientation, such as those based on magnetic north. Inclinometers measure slope or elevation. Distance sensors measure the proximity of some object to the sensor.
 
@@ -84,9 +89,9 @@ This category includes the following platform-defined data fields.
 
 
 
- 
 
- 
+
+
 
 
 

@@ -3,10 +3,15 @@ description: The sensor data report object contains sensor data.
 ms.assetid: 8a812860-338b-4ada-8f5f-ea693e038941
 title: The Sensor Data Report Object
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # The Sensor Data Report Object
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 The sensor data report object contains sensor data.
 
@@ -16,6 +21,6 @@ You can access the information in a sensor data report through the [**ISensorDat
 
 You specify the type of data, or data fields, that you want to retrieve from the report by using a **PROPERTYKEY** constant. Property keys for data fields of common sensor types are defined in Sensors.h.
 
- 
 
- 
+
+
