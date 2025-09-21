@@ -3,10 +3,15 @@ description: The SENSOR\_CATEGORY\_ALL category represents the set of all platfo
 ms.assetid: e2d9fe6d-450a-446b-968b-0924116af6fe
 title: SENSOR_CATEGORY_ALL (Sensors.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # SENSOR\_CATEGORY\_ALL
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 The SENSOR\_CATEGORY\_ALL category represents the set of all platform-defined sensor categories.
 
@@ -38,9 +43,9 @@ The following table describes platform-defined data fields.
 
 
 
- 
 
- 
+
+
 
 
 

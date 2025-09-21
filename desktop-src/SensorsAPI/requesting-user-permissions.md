@@ -3,10 +3,15 @@ description: This topic describes how to request permissions from the user to us
 ms.assetid: e43ad497-86f1-4804-a67a-0aeb56b80d7f
 title: Requesting User Permissions
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # Requesting User Permissions
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 This topic describes how to request permissions from the user to use sensors. For background information about permissions in the Sensor API, see [Managing User Permissions](managing-user-permissions.md).
 
@@ -105,6 +110,6 @@ if(SUCCEEDED(hr))
 [Managing User Permissions](managing-user-permissions.md)
 </dt> </dl>
 
- 
 
- 
+
+

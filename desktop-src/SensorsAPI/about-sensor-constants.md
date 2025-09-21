@@ -3,10 +3,15 @@ description: About Sensor Constants
 ms.assetid: ba85ccd8-5251-4e47-84da-80899fe84c39
 title: About Sensor Constants
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # About Sensor Constants
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 The Windows Sensor and Location platform uses constants in many ways. The platform defines different constants that you can use in your sensor driver code. Sensor manufacturers can define custom constants. You can find the definitions of platform-defined constants in the Sensors.h file. For detailed information about platform-defined sensor constants, see [Constants](constants.md).
 
@@ -30,6 +35,6 @@ Your program must use other constants, also. These constants include the followi
 
 Sensor manufacturers can define custom constants. For example, a sensor can belong in a category not defined by the platform. Before you can use a sensor that defines custom constants, the sensor manufacturer must publish the values, for example by publishing a header file. For more information, see the documentation that is provided with the sensor.
 
- 
 
- 
+
+

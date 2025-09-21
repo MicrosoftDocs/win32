@@ -3,10 +3,15 @@ description: The sensor object represents a particular sensor.
 ms.assetid: b969a153-d957-4323-bafe-6f8d62b0a627
 title: The Sensor Object
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # The Sensor Object
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 The sensor object represents a particular sensor.
 
@@ -19,9 +24,9 @@ The Sensor API represents each sensor as a sensor object. You can work with a pa
 -   Specify which events your program will receive.
 -   Specify the callback interface that the Sensor API can use to provide your program with event notifications.
 
- 
 
- 
+
+
 
 
 

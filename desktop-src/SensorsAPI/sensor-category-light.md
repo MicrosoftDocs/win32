@@ -3,10 +3,15 @@ description: The SENSOR\_CATEGORY\_LIGHT category contains sensors that provide 
 ms.assetid: 0327bda5-f1d7-476d-9f0f-f4d60a6a106f
 title: SENSOR_CATEGORY_LIGHT (Sensors.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # SENSOR\_CATEGORY\_LIGHT
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 The SENSOR\_CATEGORY\_LIGHT category contains sensors that provide information about characteristics of light.
 
@@ -52,9 +57,9 @@ This category includes the following platform-defined data fields.
 
 
 
- 
 
- 
+
+
 
 
 

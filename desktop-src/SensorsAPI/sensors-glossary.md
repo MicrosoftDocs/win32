@@ -4,10 +4,15 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 4841262f-7a5a-4e49-afbd-866b451dff6c
 title: Sensor API Glossary
 ms.topic: glossary
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # Sensor API Glossary
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 <dl> <dt>
 
@@ -109,9 +114,9 @@ A specific kind of sensor, such as a three-dimensional accelerometer.
 
 </dd> </dl>
 
- 
 
- 
+
+
 
 
 

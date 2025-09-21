@@ -3,10 +3,15 @@ description: The sensor manager object provides access to the sensors that are a
 ms.assetid: dd39d533-9983-41b4-a9a3-d94dcadebaac
 title: The Sensor Manager Object
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # The Sensor Manager Object
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 The sensor manager object provides access to the sensors that are available for your use.
 
@@ -24,6 +29,6 @@ Sometimes, the sensor manager provides a pointer to a sensor, but the user has n
 [Requesting User Permissions](requesting-user-permissions.md)
 </dt> </dl>
 
- 
 
- 
+
+
