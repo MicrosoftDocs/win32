@@ -3,7 +3,7 @@ description: Lists sources of WMI examples, code samples, books, TechNet ScriptC
 ms.assetid: 40216c7d-e359-4102-b990-334ba355ca77
 ms.tgt_platform: multiple
 title: Further Information (WMI)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: History
 ms.assetid: bffbcde9-9e51-4458-af38-db46834aaee5
 title: History
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

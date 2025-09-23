@@ -2,7 +2,7 @@
 title: List Box Messages
 description: List Box Messages
 ms.assetid: 6594bfd1-550f-47ba-9b92-551f2a5c08a6
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

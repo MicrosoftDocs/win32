@@ -5,7 +5,7 @@ ms.assetid: 124b6687-6347-4883-8f2f-92b1f429c6d9
 ms.tgt_platform: multiple
 keywords:
 - Directory Manager Errors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

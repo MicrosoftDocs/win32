@@ -4,7 +4,7 @@ description: Use the luminance to alpha effect to set the alpha channel to the l
 ms.assetid: B380DE5A-C097-47E0-8E0F-E3C9D2BA44B0
 keywords:
 - luminance to alpha effect
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

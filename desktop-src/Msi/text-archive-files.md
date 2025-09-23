@@ -2,7 +2,7 @@
 description: The Windows Installer database tables can be exported to ASCII text files by using MsiDatabaseExport or the Export method of the Database object.
 ms.assetid: '49210242-bd32-4e5c-b782-a132d670fdfe'
 title: Text Archive Files
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

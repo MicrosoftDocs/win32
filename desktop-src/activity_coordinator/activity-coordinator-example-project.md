@@ -1,8 +1,8 @@
 ---
+title: Activity Coordinator example project
 description: This simple example for the Activity Coordinator demonstrates how the API can be leveraged to retrain a model in the background when system conditions are met.
 ms.assetid: 722acf59-ee17-4033-b191-cb0bf53e22ae
-title: Activity Coordinator example project
-ms.topic: article
+ms.topic: reference
 ms.date: 04/28/2022
 ---
 
@@ -211,7 +211,7 @@ wmain(
         policy.get(),
         DeferredWorkEventCallback,
         &workerContext,
-        &subscription));;
+        &subscription));
 
     // Destroy the policy because we no longer need it.
 

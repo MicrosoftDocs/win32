@@ -2,7 +2,7 @@
 title: Title Attribute (Stroke)(VML)
 description: Title Attribute (Stroke)(VML)
 ms.assetid: 47cdec4a-9b35-47d7-a44d-e128c6c8a812
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

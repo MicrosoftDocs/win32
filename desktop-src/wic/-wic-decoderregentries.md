@@ -2,7 +2,7 @@
 description: Decoder-Specific Registry Entries
 ms.assetid: 64ef260a-ed7f-4253-a644-bd3352b0ee41
 title: Decoder-Specific Registry Entries
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

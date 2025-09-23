@@ -2,7 +2,7 @@
 title: Security (Windows 7 Developer Guide)
 description: Windows 7 includes new and improved security features that make it easier for developers to improve, use, and manage the security of their applications.
 ms.assetid: c3f19338-8ada-4ded-82a9-ca0869ad469d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

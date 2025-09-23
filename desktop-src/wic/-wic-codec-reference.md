@@ -2,7 +2,7 @@
 title: WIC reference
 description: Contains the reference for the WIC APIs.
 ms.assetid: 5ffa52e9-c01e-455e-85dc-2b7c078cc252
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

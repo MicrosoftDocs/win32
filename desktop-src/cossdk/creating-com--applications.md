@@ -2,7 +2,7 @@
 description: Creating COM+ Applications
 ms.assetid: 32828d4d-aa98-4e6a-b7de-2ec832024517
 title: Creating COM+ Applications
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

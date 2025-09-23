@@ -2,7 +2,7 @@
 title: Shader Model 5.1 System Values
 description: Shader Model 5.1 adds the following new system values.
 ms.assetid: 491012DA-95A4-4CCD-B72D-E63C9B10552A
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

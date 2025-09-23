@@ -27,7 +27,7 @@ Sets the anchor item that is, the item from which a multiple selection starts. A
 *wParam* 
 </dt> <dd>
 
-Specifies the index of the new anchor item.
+Specifies the zero-based index of the new anchor item.
 
 Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values. This means list boxes cannot contain more than 32,767 items. Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.
 

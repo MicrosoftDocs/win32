@@ -2,7 +2,7 @@
 description: Provides access to the programmable features of Tablet PC Input Panel.
 ms.assetid: 867f2d6f-e63a-4c02-9370-3848a3b5c40a
 title: Text Input Panel Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: VML MSO-Wrap-Edited Attribute
 description: VML MSO-Wrap-Edited Attribute
 ms.assetid: cb0e8618-e649-4a3c-9433-2be77c4b65f9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Manage the smart card database, updating the database by using a specified resource manager context.
 ms.assetid: a2f457e1-c042-42e7-9071-cf0edd68e27a
 title: Smart Card Database Management Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

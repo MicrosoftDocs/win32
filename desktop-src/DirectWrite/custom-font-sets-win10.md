@@ -2,7 +2,7 @@
 title: Custom Font Sets
 description: This topic describes various ways in which you can use custom fonts in your app.
 ms.assetid: 50842838-d150-df9a-f1b7-67ce5ea2bc80
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

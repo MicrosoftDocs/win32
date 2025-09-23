@@ -2,7 +2,7 @@
 description: Learn about the limitations imposed by the PrintCapabilities Schema. The PrintCapabilities provider must detect invalid of configurations and resolve them.
 ms.assetid: 420c5c84-abb8-495a-9b74-dc19a16034fb
 title: Schema-Imposed Limitations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

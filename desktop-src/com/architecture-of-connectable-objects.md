@@ -2,7 +2,7 @@
 title: Architecture of Connectable Objects
 description: Architecture of Connectable Objects
 ms.assetid: 69949a3b-3ab8-4054-84d8-9256fbf39c7b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

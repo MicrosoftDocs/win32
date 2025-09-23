@@ -2,7 +2,7 @@
 description: In Authorization Manager, an IAzApplicationGroup object represents a group of users. Roles can then be assigned to this group of users collectively.
 ms.assetid: 13950da1-b04f-4346-b216-9713cbdcd5b5
 title: Defining Groups of Users in C++
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

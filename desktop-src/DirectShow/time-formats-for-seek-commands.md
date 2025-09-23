@@ -2,7 +2,7 @@
 description: Time Formats For Seek Commands
 ms.assetid: d9c1b860-f75f-4886-95d6-c62e9e5b69eb
 title: Time Formats For Seek Commands
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

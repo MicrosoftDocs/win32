@@ -2,7 +2,7 @@
 title: How to Print the Contents of Rich Edit Controls
 description: This section contains information about how to print the contents of rich edit controls.
 ms.assetid: d61e2e11-d848-43fc-9622-b3b2032bda48
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -85,7 +85,7 @@ BOOL PrintRTF(HWND hwnd, HDC hdc)
     fr.rcPage.right  = MulDiv(cxPhys, 1440, GetDeviceCaps(hDC, LOGPIXELSX));  
     fr.rcPage.bottom = MulDiv(cyPhys, 1440, GetDeviceCaps(hDC, LOGPIXELSY)); 
 
-    // Set the rendering rectangle to the pintable area of the page.
+    // Set the rendering rectangle to the printable area of the page.
     fr.rc.left   = cxPhysOffset;
     fr.rc.right  = cxPhysOffset + cxPhys;
     fr.rc.top    = cyPhysOffset;

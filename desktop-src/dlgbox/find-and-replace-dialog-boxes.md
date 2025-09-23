@@ -16,7 +16,7 @@ keywords:
 - predefined dialog boxes
 - dialog boxes,Find
 - dialog boxes,Replace
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

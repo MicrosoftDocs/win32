@@ -2,7 +2,7 @@
 description: Shows how to implement a video effect as a Media Foundation Transform (MFT).
 ms.assetid: ad7d20bc-5eab-4390-a48b-5ea8e97ead7d
 title: MFT_Grayscale Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

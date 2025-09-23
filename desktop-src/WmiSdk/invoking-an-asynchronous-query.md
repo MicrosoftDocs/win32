@@ -3,7 +3,7 @@ description: An asynchronous query, while somewhat more complex to write, is the
 ms.assetid: b382610a-dac9-4d31-b756-aa84d16f0234
 ms.tgt_platform: multiple
 title: Invoking an Asynchronous Query
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

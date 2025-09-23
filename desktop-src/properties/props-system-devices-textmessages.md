@@ -2,7 +2,7 @@
 description: Number of unread messages on the device.
 ms.assetid: 309700af-c5b7-48a6-a85f-763452f586ad
 title: System.Devices.TextMessages
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

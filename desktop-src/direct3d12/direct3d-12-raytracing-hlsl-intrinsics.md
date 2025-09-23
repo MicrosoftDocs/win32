@@ -2,13 +2,13 @@
 title: Direct3D 12 Raytracing HLSL Intrinsics
 description: View links to articles describing high-level shader language (HLSL) intrinsic functions that support the Direct3D 12 raytracing pipeline.
 ms.assetid: 
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # Raytracing HLSL Intrinsics
 
-The following HLSL intrinisc functions support the Direct3D 12 raytracing pipeline. 
+The following HLSL intrinsics functions support the Direct3D 12 raytracing pipeline. 
 
 ## In this section
 

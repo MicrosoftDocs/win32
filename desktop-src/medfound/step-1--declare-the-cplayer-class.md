@@ -2,7 +2,7 @@
 description: This topic is step 1 of the tutorial How to Play Media Files with Media Foundation.
 ms.assetid: 10767bbf-3b47-4df1-be73-18678397c0ab
 title: 'Step 1: Declare the CPlayer Class'
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

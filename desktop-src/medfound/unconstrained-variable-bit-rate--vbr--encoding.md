@@ -2,7 +2,7 @@
 description: Unconstrained Variable Bit Rate Encoding
 ms.assetid: 35fb4bd7-87c5-4f46-ae71-10278670ef9c
 title: Unconstrained Variable Bit Rate Encoding
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

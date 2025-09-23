@@ -2,7 +2,7 @@
 title: eapsimconnectionpropertiesv1 Schema Elements
 description: Learn about eapsimconnectionpropertiesv1 schema elements. See a list of the elements and view additional available resources.
 ms.assetid: 60845e56-4da5-45c7-bef0-a89ad3b15399
-ms.topic: article
+ms.topic: reference
 ms.date: 07/11/2023
 topic_type: 
 - kbArticle

@@ -2,7 +2,7 @@
 title: ListeningTip Property
 description: ListeningTip Property
 ms.assetid: 02a678bb-5eb6-495f-b339-35170a44b15e
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

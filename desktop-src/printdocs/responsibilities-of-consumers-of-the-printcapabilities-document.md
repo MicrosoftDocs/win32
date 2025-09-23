@@ -2,7 +2,7 @@
 description: Consumers of PrintCapabilities documents have certain obligations they must uphold before they can use a PrintCapabilities document.
 ms.assetid: 2377763b-9b3b-49ec-ab6c-476b8009ddcb
 title: Responsibilities of Consumers of the PrintCapabilities Document
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

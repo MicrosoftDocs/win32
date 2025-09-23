@@ -2,7 +2,7 @@
 description: "Learn more about: Spell Checking Interfaces"
 ms.assetid: 42738598-FF25-4E75-9B42-353EC991DDBC
 title: Spell Checking Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

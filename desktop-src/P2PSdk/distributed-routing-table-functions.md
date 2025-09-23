@@ -2,7 +2,7 @@
 description: The Distributed Routing Table (DRT) API utilizes the following functions.
 ms.assetid: 1ceff217-d410-47fa-99a2-8588f001859e
 title: Distributed Routing Table Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

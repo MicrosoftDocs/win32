@@ -2,7 +2,7 @@
 description: Supported Operating Systems
 ms.assetid: 5a4e378d-1d1f-442c-9949-877639d96a7c
 title: Supported Operating Systems
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

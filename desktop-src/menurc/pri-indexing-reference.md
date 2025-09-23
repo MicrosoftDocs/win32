@@ -2,7 +2,7 @@
 title: Package resource indexing (PRI) reference
 description: Package resource indexing (PRI) reference
 ms.assetid: 15f41d83-d729-45e4-a6bb-5f8c6b78293c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

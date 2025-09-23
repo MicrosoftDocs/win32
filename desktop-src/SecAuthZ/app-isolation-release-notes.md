@@ -1,7 +1,7 @@
 ---
 title: Latest release notes for Win32 app isolation
 description: Provides information about the latest releases for Win32 app isolation.
-ms.topic: article
+ms.topic: release-notes
 ms.date: 10/31/2024
 keywords: windows, win32, windows app development, app isolation, security, sandbox
 ms.localizationpriority: medium

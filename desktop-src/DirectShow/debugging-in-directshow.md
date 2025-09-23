@@ -2,7 +2,7 @@
 description: Debugging in DirectShow
 ms.assetid: 5ee5865a-ab2a-41f4-ae91-a998fa1df7af
 title: Debugging in DirectShow
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

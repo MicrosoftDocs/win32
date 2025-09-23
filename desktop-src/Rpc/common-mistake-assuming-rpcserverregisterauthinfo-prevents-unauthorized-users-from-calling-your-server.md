@@ -2,7 +2,7 @@
 title: RpcServerRegisterAuthInfo doesn't deny unauthorized users
 description: When security providers are registered on the server with the RpcServerRegisterAuthInfo function, an authentication option is added; not an authentication requirement.
 ms.assetid: c8db8973-6d47-47b4-b927-72cfb464e9f0
-ms.topic: article
+ms.topic: reference
 ms.date: 02/21/2023
 ---
 

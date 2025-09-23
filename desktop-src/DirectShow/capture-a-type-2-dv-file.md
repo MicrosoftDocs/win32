@@ -2,7 +2,7 @@
 description: Capture a Type-2 DV File
 ms.assetid: c7d49c86-1b5d-43bf-98a5-78b297682375
 title: Capture a Type-2 DV File
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

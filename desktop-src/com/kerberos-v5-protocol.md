@@ -2,7 +2,7 @@
 title: Kerberos v5 Protocol
 description: Kerberos v5 Protocol
 ms.assetid: a53a1edf-f374-4cbf-8050-7cde45284157
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

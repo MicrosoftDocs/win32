@@ -7,7 +7,7 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),querying devices
 - MIDI services,querying devices
 - querying MIDI devices
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

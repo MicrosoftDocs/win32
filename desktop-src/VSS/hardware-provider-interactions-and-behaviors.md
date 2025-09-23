@@ -2,7 +2,7 @@
 description: Hardware Provider Interactions and Behaviors
 ms.assetid: 059968cf-43e5-4442-b757-80afdd66799f
 title: Hardware Provider Interactions and Behaviors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

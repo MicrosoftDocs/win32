@@ -2,7 +2,7 @@
 description: User Agent String
 ms.assetid: 'bcf0a534-c123-40c4-91b4-645c4912f31a'
 title: User Agent String
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

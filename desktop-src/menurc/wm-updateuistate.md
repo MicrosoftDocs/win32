@@ -40,9 +40,9 @@ The low-order word specifies the action to be performed. This parameter can be o
 
 | Value                                                                                                                                                                                                                   | Meaning                                                                                                                                              |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="UIS_CLEAR"></span><span id="uis_clear"></span><dl> <dt>**UIS\_CLEAR**</dt> <dt>2</dt> </dl>                | The UI state element specified by the high-order word should be hidden.<br/>                                                                   |
+| <span id="UIS_CLEAR"></span><span id="uis_clear"></span><dl> <dt>**UIS\_CLEAR**</dt> <dt>2</dt> </dl>                | The UI state element specified by the high-order word should be visible.<br/>                                                                   |
 | <span id="UIS_INITIALIZE"></span><span id="uis_initialize"></span><dl> <dt>**UIS\_INITIALIZE**</dt> <dt>3</dt> </dl> | The UI state element specified by the high-order word should be changed based on the last input event. For more information, see Remarks.<br/> |
-| <span id="UIS_SET"></span><span id="uis_set"></span><dl> <dt>**UIS\_SET**</dt> <dt>1</dt> </dl>                      | The UI state element specified by the high-order word should be visible.<br/>                                                                  |
+| <span id="UIS_SET"></span><span id="uis_set"></span><dl> <dt>**UIS\_SET**</dt> <dt>1</dt> </dl>                      | The UI state element specified by the high-order word should be hidden.<br/>                                                                  |
 
 
 

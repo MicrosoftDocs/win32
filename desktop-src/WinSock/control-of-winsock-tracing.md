@@ -2,7 +2,7 @@
 title: Control of Winsock tracing
 description: Control of Winsock tracing
 ms.assetid: b079bdfc-b192-451c-967d-dcefa94b7ec7
-ms.topic: article
+ms.topic: concept-article
 ms.date: 01/30/2025
 ---
 

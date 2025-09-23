@@ -2,7 +2,7 @@
 description: When Winlogon initializes, it registers the CTRL+ALT+DEL secure attention sequence (SAS) with the system, and then creates three desktops within the WinSta0 window station.
 ms.assetid: 874aa12b-e213-4857-9600-698c28dfda37
 title: Initializing Winlogon
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

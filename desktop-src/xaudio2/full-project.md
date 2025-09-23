@@ -1,7 +1,7 @@
 ---
 title: A simple XAudio2 project in full
 description: This topic shows a single, functioning, C++/WinRT code example that builds into a very simple XAudio2 app that plays a 220Hz sine wave.
-ms.topic: article
+ms.topic: how-to
 ms.date: 08/16/2024
 ---
 

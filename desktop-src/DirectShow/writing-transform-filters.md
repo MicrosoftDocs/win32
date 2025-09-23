@@ -2,7 +2,7 @@
 description: Writing Transform Filters
 ms.assetid: ce84756b-34ee-4710-8f0f-7553733ca10a
 title: Writing Transform Filters
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

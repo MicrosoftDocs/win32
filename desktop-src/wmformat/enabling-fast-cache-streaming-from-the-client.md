@@ -11,7 +11,7 @@ keywords:
 - ASF (Advanced Systems Format),Fast Cache streaming
 - streams,enabling Fast Cache streaming
 - Fast Cache streaming,enabling
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

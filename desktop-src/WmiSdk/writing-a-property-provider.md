@@ -3,7 +3,7 @@ description: A property provider retrieves and modifies individual property valu
 ms.assetid: fe150157-cf9d-47da-8f94-b18eb0502bd8
 ms.tgt_platform: multiple
 title: Writing a Property Provider
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

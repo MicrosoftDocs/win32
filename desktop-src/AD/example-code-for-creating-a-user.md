@@ -5,7 +5,7 @@ ms.assetid: a2e1be50-0936-4e6b-a712-637156f63be6
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , creating a user
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

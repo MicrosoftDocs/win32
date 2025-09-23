@@ -2,7 +2,7 @@
 title: Prefetch debug APIs for Windows Store apps
 description: The following APIs are used to debug and test content prefetching behavior in a Windows Store app that implements the ContentPrefetcher class.
 ms.assetid: 4FEB0320-7BE4-4B81-A9A1-C1FB5014A4BD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

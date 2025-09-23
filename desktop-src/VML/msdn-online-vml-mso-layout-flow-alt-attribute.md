@@ -2,7 +2,7 @@
 title: VML MSO-Layout-Flow-Alt Attribute
 description: VML MSO-Layout-Flow-Alt Attribute
 ms.assetid: 972e22fc-33df-4c5b-a013-0724cd01d1ae
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

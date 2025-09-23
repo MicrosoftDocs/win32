@@ -3,7 +3,7 @@ description: This section provides a list of objects used in security descriptor
 ms.assetid: dbf0bb52-8921-40a5-866b-ae03d7447a76
 ms.tgt_platform: multiple
 title: WMI Security
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

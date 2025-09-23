@@ -2,7 +2,7 @@
 description: System.Contact.BusinessAddress3Locality
 ms.assetid: 6c24d265-cb88-465c-b1f4-4474af41352e
 title: System.Contact.BusinessAddress3Locality
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

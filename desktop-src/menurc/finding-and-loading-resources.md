@@ -2,7 +2,7 @@
 title: Finding and Loading Resources
 description: This topic discusses how to load a resource into memory.
 ms.assetid: 9e56cfdd-b365-4433-a507-a30220b4a92d
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

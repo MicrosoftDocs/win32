@@ -2,7 +2,7 @@
 description: DirectShow interfaces
 ms.assetid: '5efd174f-2eb1-44e6-97e3-b73c7c52fef1'
 title: Interfaces (DirectShow)
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

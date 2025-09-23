@@ -2,7 +2,7 @@
 title: Using Bluetooth
 description: This section describes tasks that are related to writing Windows-based applications for Bluetooth.
 ms.assetid: a5eddf48-b548-44a8-ac09-ce16f8aa3943
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

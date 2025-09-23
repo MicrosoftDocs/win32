@@ -2,7 +2,7 @@
 title: Create a window
 description: Learn how to create a window as the first step in this sample module for your first Windows program.
 ms.assetid: e036519f-26b5-436c-b909-bb280d758e81
-ms.topic: article
+ms.topic: how-to
 ms.date: 02/06/2023
 ---
 

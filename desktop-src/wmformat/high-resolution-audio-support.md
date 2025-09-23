@@ -8,7 +8,7 @@ keywords:
 - codecs,high-resolution audio support
 - codecs,audio support
 - high-resolution audio
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

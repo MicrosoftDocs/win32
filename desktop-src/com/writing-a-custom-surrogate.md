@@ -2,7 +2,7 @@
 title: Writing a Custom Surrogate
 description: Writing a Custom Surrogate
 ms.assetid: 510e38e5-1965-46f4-b09c-6fa585cff993
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: Reading the Schema
 description: Most providers support the schema that is shipped with Active Directory.
 ms.assetid: cc35789e-5cfe-49e9-9fb3-489b949768c5
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -22,7 +22,7 @@ Set SchemaContainer = GetObject("LDAP://Fabrikam/Schema")
 
 ```C++
 
-hr = ADsGetObject(L&quot;LDAP://Fabrikam/Schema&quot;, IID_IADsContainer, (void**) &pSchema );
+hr = ADsGetObject(L"LDAP://Fabrikam/Schema", IID_IADsContainer, (void**) &pSchema );
 ```
 
 
@@ -58,7 +58,7 @@ IADsContainer *pSchema=NULL;
 
  CoInitialize(NULL);
 
- hr = ADsGetObject(L&quot;LDAP://Fabrikam/Schema&quot;, 
+ hr = ADsGetObject(L"LDAP://Fabrikam/Schema", 
                    IID_IADsContainer, (void**) &pSchema );
 
  if ( !SUCCEEDED(hr) )
@@ -89,7 +89,7 @@ IADsContainer *pSchema=NULL;
        pChild->get_Name(&bstrName);
        pChild->get_Class(&bstrClass);
                 
-       printf(&quot;%S\t\t(%S)\n&quot;, bstrName, bstrClass );
+       printf("%S\t\t(%S)\n", bstrName, bstrClass );
                 
        // Clean-up
        SysFreeString(bstrName);

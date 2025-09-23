@@ -2,7 +2,7 @@
 description: Retrieving an Object Identifier from a Persistent Unique Identifier
 ms.assetid: 146f8943-d4e1-4b87-a812-e534082a4f14
 title: Retrieving an Object Id from a Persistent Unique Id
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -31,8 +31,8 @@ The first task that the sample application accomplishes is to obtain a PUID from
 
 
 ```C++
-// Prompt user to enter an unique identifier to convert to an object idenifier.
-printf("Enter the Persistant Unique Identifier of the object you wish to convert into an object identifier.\n>");
+// Prompt user to enter an unique identifier to convert to an object identifier.
+printf("Enter the Persistent Unique Identifier of the object you wish to convert into an object identifier.\n>");
 hr = StringCbGetsW(szSelection,sizeof(szSelection));
 if (FAILED(hr))
 {

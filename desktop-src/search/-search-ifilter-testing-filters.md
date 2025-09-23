@@ -2,7 +2,7 @@
 description: The IFilter test suite validates your filter handlers.
 ms.assetid: 5ee02af1-1dc9-4d21-868f-4c439970b1ba
 title: Testing Filter Handlers
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

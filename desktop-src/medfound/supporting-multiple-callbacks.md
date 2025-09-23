@@ -2,7 +2,7 @@
 description: Supporting Multiple Callbacks
 ms.assetid: d57544cc-f16c-4415-9411-d06d6c16cb2f
 title: Supporting Multiple Callbacks
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

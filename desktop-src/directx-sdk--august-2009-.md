@@ -2,7 +2,7 @@
 description: Describes the DirectX SDK's inclusion in the Windows SDK and provides a list of technologies and tools that are now included in the Windows SDK.
 ms.assetid: d8765da9-e7cf-47e8-8bc3-4b29162da41b
 title: Where is the DirectX SDK?
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

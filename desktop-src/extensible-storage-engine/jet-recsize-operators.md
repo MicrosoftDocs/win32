@@ -6,7 +6,7 @@ ms:assetid: 56c98252-155c-d738-f75d-65d35d5be50d
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh557600(v=EXCHG.10)
 ms:contentKeyID: 39512132
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # JET_RECSIZE operators

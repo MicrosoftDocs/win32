@@ -2,8 +2,8 @@
 description: The Microsoft Windows security model enables you to control access to process objects. For more information about security, see Access-Control Model.
 ms.assetid: 508a17c4-88cd-431a-a102-00180a7f7ab5
 title: Process Security and Access Rights
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Process Security and Access Rights

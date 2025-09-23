@@ -2,7 +2,7 @@
 title: New features and enhancement in Windows 8.1 and Windows Server 2012 R2
 description: New features and enhancement in Windows 8.1 and Windows Server 2012 R2
 ms.assetid: 24473B59-330A-41B1-BCC0-0DDDF06D9D1D
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

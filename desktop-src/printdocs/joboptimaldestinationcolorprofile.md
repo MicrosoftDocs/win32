@@ -2,7 +2,7 @@
 description: Learn about the JobOptimalDestinationColorProfile element which specifies the optimal color profile given the current device configuration.
 ms.assetid: 70790dc2-180a-4e04-91a9-a10ee76c836b
 title: JobOptimalDestinationColorProfile
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

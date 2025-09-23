@@ -2,7 +2,7 @@
 title: Animation Sound Effects
 description: Animation Sound Effects
 ms.assetid: 8d35f67d-67b2-45d7-aa58-3075224dd39a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

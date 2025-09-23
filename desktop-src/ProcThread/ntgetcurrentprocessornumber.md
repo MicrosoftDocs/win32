@@ -3,7 +3,7 @@ description: Retrieves the number of the processor the current thread was runnin
 ms.assetid: f0141550-58e2-421a-934d-9a6c488d2b81
 title: NtGetCurrentProcessorNumber function
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type:
 - APIRef
 - kbSyntax

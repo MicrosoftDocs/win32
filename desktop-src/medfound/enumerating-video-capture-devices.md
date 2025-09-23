@@ -2,7 +2,7 @@
 description: This topic describes how to enumerate the video capture devices on the users system, and how create an instance of a device.
 ms.assetid: b1267478-329b-4e46-a2ed-1ec11d2e2e6d
 title: Enumerating Video Capture Devices
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -19,7 +19,7 @@ To enumerate the video capture devices on the system, do the following:
 To create an instance of a capture device, call [**IMFActivate::ActivateObject**](/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject) to get a pointer to the [**IMFMediaSource**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasource) interface.
 
 > [!NOTE]
-> Windows allows users to grant or deny access to the device's camera in the Windows Settings app, under **Privacy & Security -> Camera**. When initializing the capture device, apps should check whether they have access to the camera and handle the case where access is denied by the user. For more information, see [Handle the Windows camera privacy setting](/windows/uwp/audio-video-camera/camera-privacy-setting).
+> Windows allows users to grant or deny access to the device's camera in Windows Settings, under **Privacy & Security -> Camera**. When initializing the capture device, apps should check whether they have access to the camera and handle the case where access is denied by the user. For more information, see [Handle the Windows camera privacy setting](/windows/uwp/audio-video-camera/camera-privacy-setting).
 
 The following code shows these steps:
 

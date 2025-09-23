@@ -2,7 +2,7 @@
 description: The tapi/line device class consists of all line devices. You access these devices using the TAPI line functions.
 ms.assetid: 2215b10b-e410-462c-8cf9-42f3e688e82e
 title: tapi/line
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

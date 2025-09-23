@@ -2,7 +2,7 @@
 description: The HTAPIPHONE datatype represents TAPIs opaque handle for a phone data structure.
 ms.assetid: e869cb3e-0eeb-4edf-a272-a655a236a3a2
 title: HTAPIPHONE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

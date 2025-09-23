@@ -2,7 +2,7 @@
 title: How to Create Wizards
 description: A wizard is a type of property sheet that provides a simple and powerful way to guide users through a procedure.
 ms.assetid: f8def159-0a68-4d7f-9840-c7b6b906ed08
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

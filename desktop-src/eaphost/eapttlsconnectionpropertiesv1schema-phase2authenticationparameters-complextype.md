@@ -2,7 +2,7 @@
 title: Phase2AuthenticationParameters Complex Type
 description: Learn about the Phase2AuthenticationParameters complex type. This optional type specifies authentication information for EAP-TTLS.
 ms.assetid: dfd01f68-831b-439f-b3e7-99b115997557
-ms.topic: article
+ms.topic: reference
 ms.date: 07/10/2023
 ---
 

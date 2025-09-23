@@ -2,7 +2,7 @@
 title: IAgentCharacterEx GetLanguageID
 description: IAgentCharacterEx GetLanguageID
 ms.assetid: 4e4e5342-edf9-480b-a9c3-e2626fd89e76
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

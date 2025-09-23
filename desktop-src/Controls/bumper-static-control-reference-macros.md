@@ -2,7 +2,7 @@
 title: Static Control Macros
 description: Static Control Macros
 ms.assetid: f38d73de-2ead-49d6-abda-651bdd6a985b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Pager Control Notifications
 description: Pager Control Notifications
 ms.assetid: fa99d4b3-1d9d-4bda-bcca-84f9d01ce79e
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

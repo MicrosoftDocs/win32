@@ -2,8 +2,9 @@
 description: The encoding process is the reverse of the decoding process described in Decoding a CERT\_INFO Structure.
 ms.assetid: 5d3311e5-a2fb-46f7-aa76-f232b39b34fd
 title: Encoding a CERT_INFO Structure
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
+ms.custom: sfi-image-nochange
 ---
 
 # Encoding a CERT\_INFO Structure

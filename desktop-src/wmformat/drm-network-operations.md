@@ -8,7 +8,7 @@ keywords:
 - ASF (Advanced Systems Format),DRM network operations
 - digital rights management (DRM),network operations
 - DRM (digital rights management),network operations
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

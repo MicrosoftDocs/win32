@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Adding or Deleting an Application Directory Partition Replica AD
 - Application Directory Partitions AD , Adding or Deleting a Partition Replica
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

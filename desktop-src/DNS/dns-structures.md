@@ -6,7 +6,7 @@ keywords:
 - Domain Name System Structures
 - DNS Structures
 - Domain Name System, reference, structures
-ms.topic: article
+ms.topic: reference
 ms.date: 04/19/2019
 ---
 

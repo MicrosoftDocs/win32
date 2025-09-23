@@ -3,7 +3,7 @@ description: When a client application logs on to Windows Management Instrumenta
 ms.assetid: 4248fd1b-0867-40d8-8c9c-541156212df8
 ms.tgt_platform: multiple
 title: Setting the Default Process Security Level Using C++
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

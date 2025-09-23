@@ -15,7 +15,7 @@ keywords:
 - WMStubDRM.lib,protected files
 - digital rights management (DRM),WMStubDRM.lib
 - DRM (digital rights management),WMStubDRM.lib
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

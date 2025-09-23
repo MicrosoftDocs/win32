@@ -26,6 +26,7 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
+ms.custom: sfi-ropc-nochange
 ---
 
 # Authentication Constants

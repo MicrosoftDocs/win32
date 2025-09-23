@@ -2,7 +2,7 @@
 description: Issuing the GetNumObjects Command
 ms.assetid: d06690e4-f592-4b17-a5f1-baec2accc8dd
 title: Issuing the GetNumObjects Command
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

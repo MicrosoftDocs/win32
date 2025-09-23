@@ -9,7 +9,7 @@ keywords:
 - DriverProc function
 - module-definition files
 - DEF files
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

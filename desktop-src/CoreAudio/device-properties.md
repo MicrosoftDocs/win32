@@ -2,7 +2,7 @@
 description: Device Properties
 ms.assetid: ad8753ba-ad20-4122-b0f2-eb165f98db67
 title: Device Properties (Core Audio APIs)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -21,7 +21,7 @@ Each **PKEY\_Xxx** property identifier in the following list is a constant of ty
 | [**PKEY\_DeviceInterface\_FriendlyName**](pkey-deviceinterface-friendlyname.md) | The friendly name of the audio adapter to which the endpoint device is attached (for example, "XYZ Audio Adapter"). |
 | [**PKEY\_Device\_DeviceDesc**](pkey-device-devicedesc.md) | The device description of the endpoint device (for example, "Speakers"). |
 | [**PKEY\_Device\_FriendlyName**](pkey-device-friendlyname.md) | The friendly name of the endpoint device (for example, "Speakers (XYZ Audio Adapter)"). |
-| **PKEY\_Device\_InstanceId** | Stores the audio endpoint [device instance identifier](/windows-hardware/drivers/install/device-instance-ids). The value can also be aquired via [**IMMDevice::GetId**](/windows/win32/api/mmdeviceapi/nf-mmdeviceapi-immdevice-getid) method. For more information about this property, see [Endpoint ID Strings](endpoint-id-strings.md) and [DEVPKEY_Device_InstanceId](/windows-hardware/drivers/install/devpkey-device-instanceid). |
+| **PKEY\_Device\_InstanceId** | Stores the audio endpoint [device instance identifier](/windows-hardware/drivers/install/device-instance-ids). The value can also be acquired via [**IMMDevice::GetId**](/windows/win32/api/mmdeviceapi/nf-mmdeviceapi-immdevice-getid) method. For more information about this property, see [Endpoint ID Strings](endpoint-id-strings.md) and [DEVPKEY_Device_InstanceId](/windows-hardware/drivers/install/devpkey-device-instanceid). |
 | **PKEY\_Device\_ContainerId** | Stores the [container identifier](/windows-hardware/drivers/install/container-ids) of the PnP device that implements the audio endpoint. For more information about this property, see [DEVPKEY_Device_ContainerId](/windows-hardware/drivers/install/devpkey-device-containerid). |
 
 Some audio endpoint devices might have additional properties that do not appear in the preceding list. For more information about additional properties, see [Audio Endpoint Properties](audio-endpoint-properties.md).

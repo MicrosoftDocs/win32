@@ -2,7 +2,7 @@
 title: Multithreaded Direct2D Apps
 description: Describes best practices for creating multithreaded Direct2D apps.
 ms.assetid: FDD770D4-817F-44D9-86C4-15DD04D214AE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

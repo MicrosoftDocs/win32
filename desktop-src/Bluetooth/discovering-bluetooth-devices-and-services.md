@@ -4,7 +4,7 @@ description: To facilitate the discovery of Bluetooth devices and services, Wind
 ms.assetid: 4fed0de6-87cc-4093-aa6a-667ca98563e7
 keywords:
 - Bluetooth, tasks, discovering devices
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

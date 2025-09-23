@@ -2,7 +2,7 @@
 description: A network provider is a DLL that enables the Windows operating system to interact with other kinds of networks, such as Novell. It is a client of the Windows WNet driver.
 ms.assetid: d316f159-4fe3-4b78-9efc-177906875918
 title: Network Provider API
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

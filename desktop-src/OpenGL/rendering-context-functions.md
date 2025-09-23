@@ -4,7 +4,7 @@ description: Five WGL functions manage rendering contexts, as described in the f
 ms.assetid: e03ec03d-2a85-49de-a2be-fe81a5ec5f7f
 keywords:
 - WGL functions,rendering contexts
-ms.topic: article
+ms.topic: concept-article
 ms.date: 07/06/2024
 ---
 

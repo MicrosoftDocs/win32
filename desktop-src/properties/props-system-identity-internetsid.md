@@ -2,7 +2,7 @@
 description: The internet SID of an identity.
 ms.assetid: E5284BEF-0D84-4A81-8671-A4E58057F43A
 title: System.Identity.InternetSid
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

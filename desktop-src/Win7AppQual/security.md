@@ -2,7 +2,7 @@
 description: Security (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
 ms.assetid: 87331C1D-F468-4CA4-92BD-D4E5D4E930BC
 title: Security (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

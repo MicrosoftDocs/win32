@@ -2,7 +2,7 @@
 title: Registering Objects in the ROT
 description: Registering Objects in the ROT
 ms.assetid: f479c2d1-0c55-4281-8f15-2f957fa03b70
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

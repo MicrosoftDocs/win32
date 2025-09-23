@@ -5,7 +5,7 @@ ms.assetid: 40792878-4219-4242-8cf7-b092b28f2ff4
 ms.tgt_platform: multiple
 keywords:
 - groups AD ,creating groups in a domain
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

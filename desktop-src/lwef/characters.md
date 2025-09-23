@@ -2,7 +2,7 @@
 title: Characters
 description: Characters
 ms.assetid: d3eac94b-7899-4695-b0e5-0276c1f5e9cb
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

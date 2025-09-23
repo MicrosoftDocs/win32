@@ -2,7 +2,7 @@
 title: TLS 1.0 and TLS 1.1 deprecation in Windows
 description: Learn about TLS 1.0 and TLS 1.1 deprecation in Windows and how to enable compatibility support for legacy TLS.
 ms.author: alalve
-ms.topic: article
+ms.topic: reference
 ms.date: 03/14/2024
 ms.contributor: jekrynit
 ---

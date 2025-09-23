@@ -10,7 +10,7 @@ keywords:
 - triggers Task Scheduler , event-based
 - event-based triggers Task Scheduler
 - time-based triggers Task Scheduler
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: 250b2f40-6d43-4aa5-a588-b0cd4839828d
 ms.tgt_platform: multiple
 keywords:
 - backing up Active Directory
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

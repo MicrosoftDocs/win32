@@ -4,7 +4,7 @@ ms.assetid: 19500baf-e0ad-4dfa-804f-6a6e0652cffb
 title: WM_CLOSE message (Winuser.h)
 ms.topic: reference
 ms.custom: snippet-project
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_CLOSE message

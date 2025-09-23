@@ -2,7 +2,7 @@
 description: System.Contact.JobInfo3Manager
 ms.assetid: e5dd921b-0b43-4698-9083-ee24a19c25f2
 title: System.Contact.JobInfo3Manager
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

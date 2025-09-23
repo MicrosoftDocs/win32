@@ -5,7 +5,7 @@ ms.assetid: f7ce743c-80b3-41a6-9d83-db739dd119a7
 ms.tgt_platform: multiple
 keywords:
 - objects ADSI ,enumerating ADSI objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

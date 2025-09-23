@@ -3,6 +3,7 @@ title: Application capability profiler (ACP)
 description: Win32 app isolation's application capability profiler is a set of tools that help identify what capabilities may need to be declared by an application package.
 ms.topic: how-to
 ms.date: 08/27/2024
+ms.custom: sfi-image-nochange
 ---
 
 # Application capability profiler (ACP)
@@ -38,17 +39,11 @@ The follow steps are required to set up the target system for profiling:
 
    The application capability profiler archive can be downloaded from this project's [release assets](https://github.com/microsoft/win32-app-isolation/releases).
 
-1. Follow the instructions on [msix-packaging-tool](app-isolation-msix-packaging.md) to package the application and install it on the target system.
+1. Follow the instructions on [Package isolated Win32 apps with Visual Studio](app-isolation-packaging-with-vs.md) to package the application and install it on the target system.
 
 1. Obtain the target application package manifest (recommended) and/or the target application package full name.
 
-   1. **(Recommended)** Obtain the target application package manifest. The easiest way to do this is to open it using the [MSIX packaging tool](app-isolation-msix-packaging.md) and save a copy of the manifest to a convenient path.
-
-      :::image type="content" source="images/app-isolation/acp-doc-manifest-open-via-mpt.png" alt-text="A screenshot showing Package information section of the MSIX Packaging Tool with the Open file button highlighted":::
-
-      :::image type="content" source="images/app-isolation/acp-doc-manifest-save-as.png" alt-text="A screenshot showing the manifest file being saved":::
-
-      :::image type="content" source="images/app-isolation/acp-doc-manifest-newname-save-as.png" alt-text="A screenshot showing the manifest file being saved in the Windows save dialog":::
+   1. **(Recommended)** Obtain the target application package manifest. The easiest way to do this is to open it using [Visual Studio](app-isolation-packaging-with-vs.md) and save a copy of the manifest to a convenient path.
 
    1. Obtain the application package full name by running the following command in PowerShell:
 
@@ -128,7 +123,7 @@ Get-ProfilingResults -EtlFilePaths trace.etl -ManifestPath TestApp-AppXManifest.
 To repackage the target application with the newly identified capabilities:
 
 1. Include the newly identified capabilities in the target application package manifest (**Get-ProfilingResults** will edit the manifest directly if provided).
-1. Follow instructions in [msix-packaging-tool](app-isolation-msix-packaging.md) to repackage the target application with the new capabilities, and reinstall it.
+1. Follow instructions in [Package isolated Win32 apps with Visual Studio](app-isolation-packaging-with-vs.md) to repackage the target application with the new capabilities, and reinstall it.
 
 ## Helper cmdlets
 

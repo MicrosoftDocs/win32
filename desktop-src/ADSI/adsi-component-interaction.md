@@ -3,7 +3,7 @@ title: ADSI Component Interaction
 description: The Active Directory router component populates an ADSI provider table from the installed ADSI providers listed in the registry when it receives the first request from the client application.
 ms.assetid: d5438059-1d98-44af-aeac-a3d987990222
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Learn about Federated Search, which enables users to access and interact with their remote data from within Windows Explorer.
 ms.assetid: c25dbc33-3f9a-4e40-965e-9be639ababed
 title: Getting Started with Federated Search in Windows
-ms.topic: article
+ms.topic: get-started
 ms.date: 05/31/2018
 ---
 

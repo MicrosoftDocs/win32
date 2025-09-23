@@ -2,7 +2,7 @@
 description: This article describes how to respond to events that occur in a filter graph.
 ms.assetid: 1c09149b-7f34-4296-bd32-dbbae5e1d62b
 title: Responding to Events
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

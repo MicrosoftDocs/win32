@@ -2,7 +2,7 @@
 title: Offline domain join IDL definitions
 description: Offline Domain Join IDL Definitions
 ms.assetid: d495e2f0-5174-4d05-9297-4b4b0f200f08
-ms.topic: article
+ms.topic: reference
 ms.date: 10/12/2020
 ms.reviewer: jsimmons
 ---

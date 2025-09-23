@@ -3,7 +3,7 @@ description: Learn about the WMI C++ classes that are part of the WMI Provider F
 ms.assetid: 062a7724-0589-4e9d-af7a-39fd9c08e40b
 ms.tgt_platform: multiple
 title: Provider Framework Classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

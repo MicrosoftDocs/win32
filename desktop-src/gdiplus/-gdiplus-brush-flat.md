@@ -2,7 +2,7 @@
 description: Windows GDI+ exposes a flat API that consists of about 600 functions. These flat API functions are wrapped by the Brush C++ class.
 ms.assetid: def64d31-9a4b-4365-a618-b87735ce38f1
 title: Brush Functions (GDI+)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

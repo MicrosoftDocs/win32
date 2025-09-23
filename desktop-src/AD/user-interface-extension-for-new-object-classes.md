@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - User Interface Extension for New Object Classes AD
 - Object AD , User Interface Extension for New Object Classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

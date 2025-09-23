@@ -4,7 +4,7 @@ description:
   The following topics provide a TraceLogging quick start for C, C++, and .NET
   code, with examples.
 ms.assetid: CEC57517-7A0E-45AA-85F7-F358AE51EF4A
-ms.topic: article
+ms.topic: concept-article
 ms.date: 06/06/2022
 ---
 

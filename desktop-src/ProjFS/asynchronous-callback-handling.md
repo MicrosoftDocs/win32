@@ -3,7 +3,7 @@ title: Asynchronous Callback Completion
 description: Describes how the provider can asynchronously service callbacks.
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 10/12/2018
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Asynchronous Callback Handling

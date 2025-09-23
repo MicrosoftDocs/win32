@@ -3,7 +3,7 @@ title: Windows Mixed Reality COM Interfaces
 description: The topics contained in this section provide the reference specifications for Windows Mixed Reality COM interfaces.
 Search.Product: eADQiWindows 10XVcnh
 ms.assetid: E63A59A9-D00F-4C8E-A7F4-83FC665BF314
-ms.topic: article
+ms.topic: reference
 ms.date: 01/15/2019
 ---
 

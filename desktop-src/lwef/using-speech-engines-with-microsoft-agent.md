@@ -4,7 +4,7 @@ description: Using Speech Engines with Microsoft Agent
 ms.assetid: f2687dd6-d38c-4ce7-9587-51e14614e767
 keywords:
 - Microsoft Agent, using speech engines
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

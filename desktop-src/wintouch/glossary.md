@@ -3,7 +3,7 @@ title: Windows Touch Glossary
 description: This topic provides the definitions of terms that are used by Windows Touch.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 25341532-c431-41a5-ad16-c88e31fd60b1
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

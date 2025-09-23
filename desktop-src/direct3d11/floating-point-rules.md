@@ -2,8 +2,8 @@
 title: Floating-point rules (Direct3D 11)
 description: Direct3D 11 supports several floating-point representations. All floating-point computations operate under a defined subset of the IEEE 754 32-bit single precision floating-point rules.
 ms.assetid: 33F21BD0-FDF8-4D35-95C0-0A3920814CB6
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 02/07/2025
 ---
 
 # Floating-point rules (Direct3D 11)
@@ -46,30 +46,12 @@ Some of these rules are a single option where IEEE-754 offers choices.
 -   States that contain floating-point values, such as Viewport MinDepth/MaxDepth, BorderColor values, may be provided as denorm values and may or may not be flushed before the hardware uses them.
 -   Min or max operations flush denorms for comparison, but the result may or may not be denorm flushed.
 -   NaN input to an operation always produces NaN on output. But the exact bit pattern of the NaN is not required to stay the same (unless the operation is a raw move instruction - which doesn't alter data.)
--   Min or max operations for which only one operand is NaN return the other operand as the result (contrary to comparison rules we looked at earlier). This is a IEEE 754R rule.
+-   Min or max operations for which only one operand is NaN return the other operand as the result (contrary to comparison rules we looked at earlier). This is an IEEE 754R rule.
 
-    The IEEE-754R specification for floating point min and max operations states that if one of the inputs to min or max is a quiet QNaN value, the result of the operation is the other parameter. For example:
+    The arithmetic rules in Direct3D 10 and later don't make any distinctions between "quiet" and "signaling" NaN values (QNaN vs SNaN). All "NaN" values are handled the same way.
 
-    ```C++
-    min(x,QNaN) == min(QNaN,x) == x (same for max)
-    ```
-
-    
-
-    A revision of the IEEE-754R specification adopted a different behavior for min and max when one input is a "signaling" SNaN value versus a QNaN value:
-
-    ```C++
-    min(x,SNaN) == min(SNaN,x) == QNaN (same for max)
-     
-    ```
-
-    
-
-    Generally, Direct3D follows the standards for arithmetic: IEEE-754 and IEEE-754R. But in this case, we have a deviation.
-
-    The arithmetic rules in Direct3D 10 and later don't make any distinctions between quiet and signaling NaN values (QNaN versus SNaN). All NaN values are handled the same way. In the case of min and max, the Direct3D behavior for any NaN value is like how QNaN is handled in the IEEE-754R definition. (For completeness - if both inputs are NaN, any NaN value is returned.)
-
--   Another IEEE 754R rule is that min(-0,+0) == min(+0,-0) == -0, and max(-0,+0) == max(+0,-0) == +0, which honors the sign, in contrast to the comparison rules for signed zero (as we saw earlier). Direct3D recommends the IEEE 754R behavior here, but doesn't enforce it; it is permissible for the result of comparing zeros to be dependent on the order of parameters, using a comparison that ignores the signs.
+-   If both inputs to min() or max() are NaN, then any NaN is returned.
+-   An IEEE 754R rule is that min(-0,+0) == min(+0,-0) == -0, and max(-0,+0) == max(+0,-0) == +0; which honor the sign. That's in contrast to the comparison rules for signed zero (stated above). Direct3D 11 recommends the IEEE 754R behavior here, but doesn't enforce it; it's permissible for the result of comparing zeros to be dependent on the order of parameters, using a comparison that ignores the signs.
 -   x\*1.0f always results in x (except denorm flushed).
 -   x/1.0f always results in x (except denorm flushed).
 -   x +/- 0.0f always results in x (except denorm flushed). But -0 + 0 = +0.

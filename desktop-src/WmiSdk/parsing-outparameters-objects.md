@@ -3,7 +3,7 @@ description: A SWbemMethod.OutParameters object is created and supplied with dat
 ms.assetid: fc06d6a1-770a-4f34-affd-f5035dad9360
 ms.tgt_platform: multiple
 title: Parsing OutParameters Objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

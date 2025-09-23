@@ -2,7 +2,7 @@
 title: QueryInterface Navigating in an Object
 description: QueryInterface Navigating in an Object
 ms.assetid: 7dec015f-7609-40eb-a71e-f6e9c9b9f8ff
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

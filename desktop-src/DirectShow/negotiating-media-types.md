@@ -2,7 +2,7 @@
 description: Negotiating Media Types
 ms.assetid: 9872128c-4e3d-4ac8-afc4-b3dc516a0925
 title: Negotiating Media Types
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

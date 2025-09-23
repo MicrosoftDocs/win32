@@ -2,7 +2,7 @@
 description: The following code example demonstrates how to select terminals onto streams associated with a call.
 ms.assetid: ff43e81c-ff39-466d-870a-54b75c2938a4
 title: Select a Terminal
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

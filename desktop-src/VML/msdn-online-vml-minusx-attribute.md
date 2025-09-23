@@ -2,7 +2,7 @@
 title: VML MinusX Attribute
 description: VML MinusX Attribute
 ms.assetid: 7ce2f62f-9490-45d9-ae13-0a9cff4ea3b2
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

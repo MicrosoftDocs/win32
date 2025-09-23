@@ -2,7 +2,7 @@
 description: The photo metadata policy for the System.GPS.Latitude property.
 ms.assetid: 0f8cea07-da96-4d2a-8444-6073b51e1236
 title: System.GPS.Latitude Photo Metadata Policy
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Video FOURCCs
 ms.assetid: bea4835d-fd7f-4ac3-8466-7f4e0d799a12
 title: Video FOURCCs
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -37,9 +37,11 @@ The following table lists some common FOURCC codes.
 | FOURCC value | Description                                                                                                           |
 |--------------|-----------------------------------------------------------------------------------------------------------------------|
 | 'H264'       | H.264 video.                                                                                                          |
-| 'I420'       | YUV video stored in planar 4:2:0 format.                                                                              |
-| 'IYUV'       | YUV video stored in planar 4:2:0 format.                                                                              |
-| 'M4S2'       | MPEG-4 part 2 video.                                                                                                  |
+| 'I420'       | YUV video stored in planar 4:2:0 format. |
+| 'I422'       | YUV video stored in planar 4:2:2 format. |
+| 'I444'       | YUV video stored in planar 4:4:4 format. |
+| 'IYUV'       | YUV video stored in planar 4:2:0 format. |
+| 'M4S2'       | MPEG-4 part 2 video.   |
 | 'MP4S'       | Microsoft MPEG 4 codec version 3. This codec is no longer supported.                                                  |
 | 'MP4V'       | MPEG-4 part 2 video.                                                                                                  |
 | 'MPG1'       | MPEG-1 video.                                                                                                         |

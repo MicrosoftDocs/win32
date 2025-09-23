@@ -1,7 +1,7 @@
 ---
 description: Demonstrates how to listen to Shell change notifications on a folder or item in the Windows Explorer namespace.
 title: Change Notify Watcher Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ms.assetid: 02A7C5B4-94F2-4c35-9290-4C816E5CF63A
 api_name: 

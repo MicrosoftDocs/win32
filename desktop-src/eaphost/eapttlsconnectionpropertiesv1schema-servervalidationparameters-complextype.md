@@ -2,7 +2,7 @@
 title: ServerValidationParameters Complex Type
 description: Learn about the ServerValidationParameters complex type. This optional type specifies server information for EAP-TTLS.
 ms.assetid: 41f5d116-2df3-49b6-b48f-227e412455fa
-ms.topic: article
+ms.topic: reference
 ms.date: 07/10/2023
 ---
 

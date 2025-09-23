@@ -3,7 +3,7 @@ description: SNMP textual conventions map to CIM-defined types.
 ms.assetid: 73bb6c22-0a68-4a4b-8de2-8326ec67a059
 ms.tgt_platform: multiple
 title: TEXTUAL-CONVENTION Macro
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

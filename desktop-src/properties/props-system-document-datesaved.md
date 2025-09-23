@@ -2,7 +2,7 @@
 description: Indicates the date and time the document was last saved. The legacy name is &\#0034;DocLastSavedTm&\#0034;.
 ms.assetid: 4cbd5ebe-7987-40eb-a770-0ab217562b70
 title: System.Document.DateSaved
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

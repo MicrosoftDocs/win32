@@ -4,7 +4,7 @@ description: Windows Deployment Services (WDS) is a suite of components that ena
 ms.assetid: 5742e51a-70e3-4607-bfb7-181362dfb168
 keywords:
 - Windows Deployment Services Windows Deployment Services , about
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

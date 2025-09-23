@@ -4,7 +4,7 @@ description: Writing a task that starts an executable on a daily basis is done b
 ms.assetid: 3ceea4a6-0052-4831-a3b0-76d84ab4e1ed
 keywords:
 - Task Scheduler examples Task Scheduler , daily trigger
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

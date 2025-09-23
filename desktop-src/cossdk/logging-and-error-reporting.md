@@ -2,7 +2,7 @@
 description: Logging and Error Reporting
 ms.assetid: 162ce34b-cc82-40bb-8422-a639152aee25
 title: Logging and Error Reporting
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

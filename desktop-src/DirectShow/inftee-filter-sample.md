@@ -2,7 +2,7 @@
 description: InfTee Filter Sample
 ms.assetid: ba401528-9706-41fb-99d1-2bc3ffc05f1a
 title: InfTee Filter Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

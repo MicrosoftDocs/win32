@@ -11,7 +11,7 @@ keywords:
 - normal vector
 - NURBS (Non-Uniform Rational B-Spline)
 - Non-Uniform Rational B-Spline (NURBS)
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

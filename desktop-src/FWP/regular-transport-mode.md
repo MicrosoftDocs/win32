@@ -2,7 +2,7 @@
 title: Transport Mode
 description: The Transport Mode IPsec policy scenario requires IPsec transport mode protection for all matching traffic.
 ms.assetid: 303f7cdc-fb7a-4e5c-8291-cadcb45035cb
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

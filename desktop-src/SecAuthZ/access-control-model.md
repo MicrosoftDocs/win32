@@ -2,22 +2,27 @@
 description: The access control model enables you to control the ability of a process to access securable objects or to perform various system administration tasks.
 ms.assetid: fd3b718a-5eff-4894-9fc6-d157ddb67330
 title: Access Control Model
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/08/2025
+# customer intent: As a Windows app developer, I want to understand the access control model in Windows, so that I can effectively manage permissions and security for my applications.
 ---
 
-# Access Control Model
+# Access control model
 
-The access control model enables you to control the ability of a [*process*](/windows/desktop/SecGloss/p-gly) to access [securable objects](securable-objects.md) or to perform various system administration tasks.
+The access control model enables you to control the ability of a [process](/windows/win32/SecGloss/p-gly) to access [securable objects](securable-objects.md) or to perform various system administration tasks.
 
-The following topics provide a high-level description of the parts of the access control model and how they interact with each other.
+The following topics provide a high-level description of the parts of the access control model and how they interact with each other:
 
--   [Parts of the Access Control Model](access-control-components.md)
--   [Interaction Between Threads and Securable Objects](interaction-between-threads-and-securable-objects.md)
--   [DACLs and ACEs](dacls-and-aces.md)
--   [Null DACLs and Empty DACLs](null-dacls-and-empty-dacls.md)
--   [Allowing Anonymous Access](allowing-anonymous-access.md)
+- [Parts of the Access Control Model](access-control-components.md)
+- [Interaction Between Threads and Securable Objects](interaction-between-threads-and-securable-objects.md)
+- [DACLs and ACEs](dacls-and-aces.md)
+- [Null DACLs and Empty DACLs](null-dacls-and-empty-dacls.md)
+- [Allowing Anonymous Access](allowing-anonymous-access.md)
 
- 
+## Related content
 
- 
+[Access Control](access-control.md)
+
+[DACLs and ACEs](dacls-and-aces.md)
+
+[Securable objects](securable-objects.md)

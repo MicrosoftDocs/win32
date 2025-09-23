@@ -2,7 +2,7 @@
 description: Access to COM+ applications exposed as XML web services is controlled by the IIS web server, which processes the incoming requests.
 ms.assetid: 440b0636-8afc-4fb3-a179-140958948b94
 title: Securing XML Web Services
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -45,7 +45,7 @@ To allow nonsecure, anonymous access to an XML web service, use the following st
 
 2.  Under **Services and Applications** and **Internet Information Service**, locate the icon corresponding to the virtual root directory for your XML web service. Right-click the directory icon, and choose **Properties**.
 
-3.  On the **Directory Security** tab of the properties dialog, locate **Authentication and access control**and click the corresponding **Edit** button. Select the **Enable anonymous access** check box. Click **OK**.
+3.  On the **Directory Security** tab of the properties dialog, locate **Authentication and access control** and click the corresponding **Edit** button. Select the **Enable anonymous access** check box. Click **OK**.
 
 4.  On the **Directory Security** tab of the properties dialog, locate **Secure communications** and click the corresponding **Edit** button. Uncheck the **Require secure channel (SSL)** check box. Click **OK**.
 

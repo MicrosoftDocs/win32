@@ -4,7 +4,7 @@ description: The following WMI classes are used with System Restore.
 ms.assetid: ce8ca949-690a-420a-ad45-0692bf3b81c9
 keywords:
 - System Restore, reference, WMI classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

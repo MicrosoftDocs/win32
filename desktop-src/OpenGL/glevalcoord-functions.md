@@ -19,7 +19,7 @@ keywords:
 - reference for OpenGL,two-dimensional maps
 - one-dimensional maps
 - two-dimensional maps
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

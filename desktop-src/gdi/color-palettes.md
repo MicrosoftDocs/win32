@@ -2,7 +2,7 @@
 description: A color palette is an array that contains color values identifying the colors that can currently be displayed or drawn on the output device.
 ms.assetid: 260c5924-d082-4ed2-a8ed-b8a3ad1ca1a9
 title: Color Palettes (Windows GDI)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

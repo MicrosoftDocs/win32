@@ -4,7 +4,7 @@ description: A signature value that indicates the color space in which the profi
 ms.assetid: 714c122f-3d68-4466-900c-1d129e544d45
 
 
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

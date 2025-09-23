@@ -2,7 +2,7 @@
 title: Texture Coordinate Register (HLSL VS reference)
 description: This vertex shader output register contains per-vertex texture coordinates.
 ms.assetid: d42c8e4c-8227-4fe8-9432-90c592011024
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - kbArticle

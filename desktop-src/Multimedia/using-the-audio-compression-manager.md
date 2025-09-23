@@ -10,7 +10,7 @@ keywords:
 - audio compression manager (ACM),examples
 - ACM (audio compression manager),examples
 - ACM examples,about
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

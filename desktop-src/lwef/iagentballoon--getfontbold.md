@@ -2,7 +2,7 @@
 title: IAgentBalloon GetFontBold
 description: IAgentBalloon GetFontBold
 ms.assetid: 5a55f771-d68e-4f66-8001-47c141661b06
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

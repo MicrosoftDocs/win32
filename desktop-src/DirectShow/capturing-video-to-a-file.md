@@ -2,7 +2,7 @@
 description: Capturing Video to a File
 ms.assetid: 4ec642ab-1559-4674-a934-a91353c657f9
 title: Capturing Video to a File
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

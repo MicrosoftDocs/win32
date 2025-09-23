@@ -2,7 +2,7 @@
 description: Selectability for restore allows the requester to determine when a component can be individually restored.
 ms.assetid: 684dc50f-5d7b-4c95-85dd-77c320d65fff
 title: Working with Selectability For Restore and Subcomponents
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

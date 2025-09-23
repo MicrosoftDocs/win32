@@ -3,7 +3,7 @@ title: Extending Terminal Services Session Broker
 description: You can extend TS \ 160;Session Broker by using the IWTSSBPlugin COM interface.
 ms.assetid: f111d6e6-90ca-4eff-ab0e-02de25f7d6ad
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

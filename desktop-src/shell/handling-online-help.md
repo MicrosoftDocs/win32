@@ -1,7 +1,7 @@
 ---
 description: Online help can come in a variety of forms, from detailed conceptual information to quick definitions. This topic contains the following sections.
 title: Handling Online Help
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.assetid: 2a3f6034-6ba6-4204-a2e1-59995fbf40fe
 api_name: 

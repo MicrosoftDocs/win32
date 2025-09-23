@@ -2,7 +2,7 @@
 description: The following examples demonstrate the use of the memory management functions.
 ms.assetid: 4437beb4-14cf-4028-a8ab-ad18a189cd81
 title: Using the Memory Management Functions
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

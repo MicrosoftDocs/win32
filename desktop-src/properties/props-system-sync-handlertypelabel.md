@@ -2,7 +2,7 @@
 description: System.Sync.HandlerTypeLabel
 ms.assetid: eb793620-f9ef-4d9e-af10-b7b1c638cd6c
 title: System.Sync.HandlerTypeLabel
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

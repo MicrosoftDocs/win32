@@ -4,7 +4,7 @@ description: The following topics provide a glossary of OpenGL terms.
 ms.assetid: 39ff0053-34d8-4e7b-9b1e-3bb5d63b82a7
 keywords:
 - OpenGL,glossary
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

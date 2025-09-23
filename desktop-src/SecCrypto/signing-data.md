@@ -2,7 +2,7 @@
 description: Lists topics that explain how to encode and decode signed data.
 ms.assetid: '9c86f1bc-92ae-4c76-9c6b-9fafae263ad2'
 title: Signing Data
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

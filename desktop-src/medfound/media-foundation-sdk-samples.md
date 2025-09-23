@@ -2,7 +2,7 @@
 description: This section describes sample applications that demonstrate how to use Media Foundation.Encoding SamplesPlayback SamplesPlug-InsSource Reader SamplesVideo CaptureMiscellaneous SamplesDeprecated or Obsolete SamplesRelated topics
 ms.assetid: 9d460107-ec12-4df5-a7a9-d19943685599
 title: Media Foundation SDK Samples
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

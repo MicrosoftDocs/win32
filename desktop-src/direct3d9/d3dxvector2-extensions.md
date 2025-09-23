@@ -2,7 +2,7 @@
 description: The content from this page has been moved to the D3DXVECTOR2 page.
 ms.assetid: 41bfbee6-d4ee-472f-a68f-24b9481a9543
 title: D3DXVECTOR2 Extensions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

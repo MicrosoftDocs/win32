@@ -2,7 +2,7 @@
 title: Dynamic-link library redirection
 description: If your application depends on a specific version of a shared DLL, and another application is installed with a newer or older version of that DLL, then that can cause a problem; it can cause your app to start to fail. Another use case for DLL redirection is to load a private build of a DLL.
 ms.assetid: 3b426b6c-1ad5-43b9-81ea-5e6d3c6588c8
-ms.topic: article
+ms.topic: concept-article
 ms.date: 02/22/2023
 ---
 

@@ -2,7 +2,7 @@
 title: Brushes overview
 description: Describes the different types of brushes provided by Direct2D.
 ms.assetid: 7a31d9e7-0521-40ee-b2c1-592dfaf5301e
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

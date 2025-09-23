@@ -2,7 +2,7 @@
 description: The following table describes changes between Microsoft Internet Explorer 6 and Windows Internet Explorer 8.
 ms.assetid: 5A7DDFC4-69A4-4B5A-9C0A-6172E2142494
 title: IE 8 browser changes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -24,7 +24,7 @@ Check for code that incorrectly special cases around Internet Explorer 6, Windo
 
 <!-- -->
 
--   The Compatibility View in Internet Explorer 8, which is turned on by default for intranet sites, sends a Internet Explorer 7 user agent string. To differentiate between Internet Explorer 7 and Compatibility View, look for the new [Trident token](/archive/blogs/ie/).
+-   The Compatibility View in Internet Explorer 8, which is turned on by default for intranet sites, sends an Internet Explorer 7 user agent string. To differentiate between Internet Explorer 7 and Compatibility View, look for the new [Trident token](/archive/blogs/ie/).
 
 ${ROWSPAN3}$ Standards compliance updates
 

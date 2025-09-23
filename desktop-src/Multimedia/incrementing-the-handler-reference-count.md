@@ -2,7 +2,7 @@
 title: Incrementing the Handler Reference Count
 description: Incrementing the Handler Reference Count
 ms.assetid: 9e71ce1f-5805-4240-9dcc-7e71fbabfe7e
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

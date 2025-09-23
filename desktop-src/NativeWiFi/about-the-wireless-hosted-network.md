@@ -2,7 +2,7 @@
 description: About the Wireless Hosted Network
 ms.assetid: a6990759-9b84-4644-8f82-75aa63e8197b
 title: About the Wireless Hosted Network
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

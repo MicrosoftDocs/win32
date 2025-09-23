@@ -2,7 +2,7 @@
 description: The general rule is that a desktop app can call a Windows Runtime (WinRT) API. However, some APIs, including the XAML UI APIs, require the calling app to have a package identity.
 ms.assetid: F3808C28-72DE-49B5-A389-EB085EFC02CC
 title: WinRT APIs callable from a desktop app
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

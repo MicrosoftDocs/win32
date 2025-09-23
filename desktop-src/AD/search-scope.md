@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Specifying the Search Scope AD
 - Active Directory,searching,specifying the search scope
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

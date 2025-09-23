@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Modifying Attributes with ADSI
 - Attributes ADSI , Modifying
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

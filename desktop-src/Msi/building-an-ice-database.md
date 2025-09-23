@@ -2,7 +2,7 @@
 description: After selecting the appropriate ICEs for validation, a developer must collect the custom actions together into an ICE database.
 ms.assetid: 69151d5a-be6e-4947-862d-cea65306c536
 title: Building an ICE Database
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

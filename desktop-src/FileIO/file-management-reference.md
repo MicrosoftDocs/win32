@@ -2,7 +2,7 @@
 description: Elements used in file management.
 ms.assetid: 7a274843-f02c-436c-a220-c9e504620877
 title: File Management Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

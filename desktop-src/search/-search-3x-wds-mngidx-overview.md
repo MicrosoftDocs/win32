@@ -2,7 +2,7 @@
 description: Learn about managing the Windows Search index with Search Manager, Catalog Manager, and Crawl Scope Manager.
 ms.assetid: 345d1159-aa51-4a01-9831-216075a8fb78
 title: Managing the Index
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: GetFinalPathNameByHandle, introduced in Windows Vista and Windows Server 2008, will return a path from a handle.
 ms.assetid: 359673bf-cc4c-4881-b946-ecdbef4a7ecb
 title: Obtaining a File Name From a File Handle
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

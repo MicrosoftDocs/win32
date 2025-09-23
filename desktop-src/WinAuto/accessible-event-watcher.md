@@ -2,8 +2,8 @@
 title: Accessibility tools - AccEvent (Accessible Event Watcher)
 description: AccEvent (Accessible Event Watcher) lets developers and testers to validate that an application's UI elements raise proper Microsoft UI Automation and Microsoft Active Accessibility events when UI changes occur.
 ms.assetid: 0077da81-7a1f-4f8b-b519-ebefcc63d264
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Accessibility tools - AccEvent (Accessible Event Watcher)

@@ -6,7 +6,7 @@ ms:assetid: 633be928-2fde-b1cf-2761-b64764fd01b4
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh578711(v=EXCHG.10)
 ms:contentKeyID: 39512487
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # JET_BKLOGTIME operators

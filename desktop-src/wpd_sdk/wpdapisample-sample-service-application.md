@@ -2,7 +2,7 @@
 title: WpdServicesApiSample sample app
 description: WpdServicesApiSample sample app
 ms.assetid: 857753f7-bca1-4f4a-a8f9-0b2232e2f0dc
-ms.topic: article
+ms.topic: sample
 ms.date: 09/04/2024
 ---
 

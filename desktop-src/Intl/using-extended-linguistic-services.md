@@ -2,7 +2,7 @@
 description: Your application can use ELS to access any of the predefined services.
 ms.assetid: a2ccee80-9b86-4929-ad17-380cc2afd1c8
 title: Using Extended Linguistic Services
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

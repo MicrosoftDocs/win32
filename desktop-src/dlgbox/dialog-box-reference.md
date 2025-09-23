@@ -2,7 +2,7 @@
 title: Dialog Box Reference
 description: Dialog Box Reference
 ms.assetid: '10657579-e560-4f67-b98b-c48483968d1f'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

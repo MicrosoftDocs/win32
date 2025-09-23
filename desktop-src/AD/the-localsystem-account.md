@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - localsystem account
 - localsystem
-ms.topic: article
+ms.topic: concept-article
 ms.date: 11/21/2024
 ---
 

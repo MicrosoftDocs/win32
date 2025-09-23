@@ -2,7 +2,7 @@
 description: DMO Minimum Requirements
 ms.assetid: cd342f0f-a3dc-4623-a18f-c45071795ef4
 title: DMO Minimum Requirements
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: Utility Functions
 ms.assetid: 632cecc6-6e34-43e5-992d-5fb3b066c8c7
 title: Utility Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

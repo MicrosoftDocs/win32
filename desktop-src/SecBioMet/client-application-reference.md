@@ -4,7 +4,7 @@ description: Functions, structures, and other types that you can use to build cl
 ms.assetid: 3a4e1aec-b92e-445e-b597-886b01a1b267
 keywords:
 - Windows Biometric Framework API Windows Biometric Framework API , client application reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

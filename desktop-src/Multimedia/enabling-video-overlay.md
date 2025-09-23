@@ -4,7 +4,7 @@ description: Enabling Video Overlay
 ms.assetid: f0b4f24c-3e35-4a18-ac77-8cae7083b0fe
 keywords:
 - capDriverGetCaps macro
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: A code page is an internal table that the operating system uses to map symbols (letters, numerals, and punctuation characters) to a character number.
 ms.assetid: e11193a2-2c72-43a9-8d35-fa524044e306
 title: Checking the Installation Database Code Page
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,8 +2,8 @@
 description: The working set of a program is a collection of those pages in its virtual address space that have been recently referenced.
 ms.assetid: 6017ef59-d2e9-4245-a406-8965024dbb35
 title: Process Working Set
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Process Working Set

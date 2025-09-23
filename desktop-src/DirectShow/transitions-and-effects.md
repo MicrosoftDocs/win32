@@ -2,7 +2,7 @@
 description: Transitions and Effects
 ms.assetid: 2925c315-4488-4961-a8f7-77a9ac571b70
 title: Transitions and Effects
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

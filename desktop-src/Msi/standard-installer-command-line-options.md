@@ -2,8 +2,9 @@
 description: See standard command-line options for the Microsoft Standard Installer Msiexec.exe, the app you use to interpret packages and install products.
 ms.assetid: b1707c88-1cca-45ab-bb23-6002bfd5204e
 title: Microsoft Standard Installer command-line options
-ms.topic: article
-ms.date: 07/18/2024
+ms.topic: reference
+ms.date: 04/29/2025
+no-loc: [/help,/quiet,/passive,/norestart,/forcerestart,/promptrestart,/uninstall (product),/uninstall (patch),/log,/package,/update]
 ---
 
 # Microsoft Standard Installer command-line options
@@ -81,7 +82,7 @@ The equivalent Windows Installer command line has `REBOOT=Force` set on the comm
 
 Prompt before restarting option. Displays a message that a restart is required to complete the installation and asks the user whether to restart the system now. You can't use this option with the `/quiet` option.
 
-The equivalent Windows Installer command line has `REBOOTPROMPT = ""` set on the command line.
+The equivalent Windows Installer command line has `REBOOTPROMPT=""` set on the command line.
 
 ## /uninstall (product)
 

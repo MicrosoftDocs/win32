@@ -2,7 +2,7 @@
 description: File Source (Async) Filter
 ms.assetid: 0cf6e7ab-b1fe-42f9-b682-c5484ef48c71
 title: File Source (Async) Filter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

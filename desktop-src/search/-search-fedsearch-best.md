@@ -2,7 +2,7 @@
 description: This topic lists the best practices through which you can build a web-based data store that can be searched using Windows federated search, and integrates your remote data sources with Windows Explorer without having to write or deploy any Windows client-side code.
 ms.assetid: d9b62cf5-7236-4252-b88d-18120f50c62c
 title: Following Best Practices in Windows Federated Search
-ms.topic: article
+ms.topic: best-practice
 ms.date: 05/31/2018
 ---
 

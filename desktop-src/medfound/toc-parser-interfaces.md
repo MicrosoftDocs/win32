@@ -2,7 +2,7 @@
 description: Table of Contents Parser Interfaces
 ms.assetid: 25039e6c-dd2a-4516-bf27-8e9d6ca0f00e
 title: Table of Contents Parser Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

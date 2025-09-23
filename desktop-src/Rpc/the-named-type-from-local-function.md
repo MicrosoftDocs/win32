@@ -4,7 +4,7 @@ description: The stubs call the named\_type\_from\_local function.
 ms.assetid: ba35e2fb-957e-4e62-b0d4-ae76e30fa343
 keywords:
 - named_type_from_local
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

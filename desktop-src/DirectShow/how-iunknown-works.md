@@ -2,7 +2,7 @@
 description: How IUnknown Works
 ms.assetid: 926778a5-e941-4424-8bc0-b50c925fd08b
 title: How IUnknown Works
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

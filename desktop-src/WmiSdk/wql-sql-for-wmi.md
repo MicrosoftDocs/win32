@@ -3,7 +3,7 @@ description: The WMI Query Language (WQL) is a subset of the American National S
 ms.assetid: 72a7ec04-9af3-41ae-9189-6e1d46803fa9
 ms.tgt_platform: multiple
 title: WQL (SQL for WMI)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

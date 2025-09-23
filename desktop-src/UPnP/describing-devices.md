@@ -2,7 +2,7 @@
 title: Describing Devices
 description: There are two ways to obtain device objects.
 ms.assetid: a83fbf21-586e-4b92-9875-476d820c377d
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: Is similar to a command-line switch. However, you do not need to re
 ms.assetid: 3cf22686-dd56-43a3-9584-3d707a20a3a0
 ms.tgt_platform: multiple
 title: '#pragma'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

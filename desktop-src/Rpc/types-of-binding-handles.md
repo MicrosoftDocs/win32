@@ -2,7 +2,7 @@
 title: Types of Binding Handles
 description: Binding handles can be automatic, implicit, or explicit.
 ms.assetid: 7f026199-6045-4f60-9002-543636cf6275
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

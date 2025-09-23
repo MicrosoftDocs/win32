@@ -2,7 +2,7 @@
 description: This section describes the IMM functions.
 ms.assetid: 833c07eb-0ecf-41e2-9e01-8d83e51ffcef
 title: Input Method Manager Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

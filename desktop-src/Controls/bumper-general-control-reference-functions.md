@@ -2,7 +2,7 @@
 title: Control Functions
 description: Control Functions
 ms.assetid: 9774a320-1d00-48a4-ba13-fb1cd683a635
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

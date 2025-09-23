@@ -2,7 +2,7 @@
 title: The Default Character Properties Window
 description: The Default Character Properties Window
 ms.assetid: a775738e-c3f8-443e-b519-1df0a5d3e95d
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

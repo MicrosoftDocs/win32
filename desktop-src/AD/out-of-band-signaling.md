@@ -3,7 +3,7 @@ title: Out-of-Band Signaling
 description: Cooperating applications that share common data using the directory can use out-of-band signaling to avoid both version skew and partial updates.
 ms.assetid: 82960273-5cda-44d2-bc17-d604f34f5a9b
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

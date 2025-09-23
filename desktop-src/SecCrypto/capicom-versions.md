@@ -2,7 +2,7 @@
 description: Lists the capabilities of the different versions of CAPICOM.
 ms.assetid: 03e93c58-2e6e-42a2-8578-b4c2ad1a6199
 title: CAPICOM Versions
-ms.topic: article
+ms.topic: concept-article
 ms.date: 07/15/2024
 ---
 

@@ -4,7 +4,7 @@ description: Use the gamma transfer effect to map the color intensities of an im
 ms.assetid: 0E0455CA-CFCA-4C4F-9DFA-1DB6A5205F6A
 keywords:
 - gamma transfer effect
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

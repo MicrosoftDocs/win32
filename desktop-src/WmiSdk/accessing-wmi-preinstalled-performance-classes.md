@@ -3,7 +3,7 @@ description: The WMI repository contains preinstalled performance classes for al
 ms.assetid: 2158385f-d0dc-4102-84db-ce02d2b0ee53
 ms.tgt_platform: multiple
 title: Accessing WMI Preinstalled Performance Classes
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This section contains the core enumerations for Tablet PC.
 ms.assetid: 7fe0457b-9ede-4d29-b3bb-5173db11033d
 title: Core Tablet PC Enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

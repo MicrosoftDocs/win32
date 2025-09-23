@@ -94,7 +94,7 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: Windows AI
+          - text: Windows AI Foundry
             url: /windows/ai/
           - text: Windows IoT Core
             url: /windows/iot-core/

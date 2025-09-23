@@ -2,7 +2,7 @@
 title: ComboBox Control Macros
 description: ComboBox Control Macros
 ms.assetid: e147234e-0536-4719-b879-1ab5aa77d109
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

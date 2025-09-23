@@ -5,7 +5,7 @@ ms.assetid: b8ac69ba-3b75-4e55-bf80-dabf2e80288a
 ms.tgt_platform: multiple
 keywords:
 - Defining a New Attribute AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: WMI command-line (WMIC) utility
 description: Learn how to use the WMI command-line (WMIC) utility as a command-line interface for Windows Management Instrumentation.
 ms.assetid: a0f5c1e2-9a4d-4c2b-b324-58ec01e67b6e
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 07/15/2024
 ---
 

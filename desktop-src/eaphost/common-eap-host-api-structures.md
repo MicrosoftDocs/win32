@@ -2,7 +2,7 @@
 title: Common EAPHost API Structures
 description: Learn about common EAPHost API structures. See a list of structures used by all EAPHost technologies.
 ms.assetid: f6f3b909-1e89-47f8-853c-c0f3f2414817
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

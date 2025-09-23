@@ -2,7 +2,7 @@
 description: VMR Support for DirectX Video Acceleration
 ms.assetid: 4bb5612d-3841-4920-a5ef-39ce357a6d1c
 title: VMR Support for DirectX Video Acceleration
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

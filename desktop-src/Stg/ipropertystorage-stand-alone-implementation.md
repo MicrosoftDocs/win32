@@ -5,7 +5,7 @@ ms.assetid: 8de32538-de11-4e4d-9269-145b2accb099
 keywords:
 - IPropertyStorage-Stand-alone Implementation
 - IPropertyStorage Strctd Stg , implementations, stand-alone
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

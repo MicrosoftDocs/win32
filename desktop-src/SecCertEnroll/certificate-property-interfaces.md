@@ -2,7 +2,7 @@
 description: The following interfaces can be used to create a certificate property.
 ms.assetid: c64fca58-fb2f-412f-b7c0-5db1979d051b
 title: Certificate Property Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

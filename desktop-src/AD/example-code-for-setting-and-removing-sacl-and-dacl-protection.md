@@ -5,7 +5,7 @@ ms.assetid: 1982ee9a-022a-4e5d-be9c-fab8894afa9e
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , setting and removing SACL protection
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

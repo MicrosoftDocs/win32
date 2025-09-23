@@ -2,7 +2,7 @@
 description: DirectShow functions
 ms.assetid: '5bf62e2a-7d5f-4feb-872a-54d102759824'
 title: Functions (DirectShow)
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

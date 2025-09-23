@@ -2,8 +2,8 @@
 title: DuplicateSiblingNames
 description: DuplicateSiblingNames
 ms.assetid: 4E9FFD16-EAC0-4778-8DEB-D179E2197411
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # DuplicateSiblingNames

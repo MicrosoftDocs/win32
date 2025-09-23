@@ -2,7 +2,7 @@
 description: Business address post office box number of the contact.
 ms.assetid: 9cefec59-78e2-4765-bb08-d159953d85a3
 title: System.Contact.BusinessAddressPostOfficeBox
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

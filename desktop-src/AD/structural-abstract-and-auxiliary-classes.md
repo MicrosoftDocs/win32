@@ -5,7 +5,7 @@ ms.assetid: 5af740cb-b292-4d80-abe5-3e3d194758f3
 ms.tgt_platform: multiple
 keywords:
 - Structural, Abstract, and Auxiliary Classes AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

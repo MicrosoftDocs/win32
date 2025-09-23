@@ -2,7 +2,7 @@
 description: The RegisterExtensionInfo action manages the registration of extension related information with the system.
 ms.assetid: 3c243ca3-9fa7-41ec-968e-7954d7d45432
 title: RegisterExtensionInfo Action
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

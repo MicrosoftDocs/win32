@@ -2,7 +2,7 @@
 description: DirectShow Structures
 ms.assetid: 378f6f43-5c05-4ae4-be24-956f9fc0cacf
 title: DirectShow Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

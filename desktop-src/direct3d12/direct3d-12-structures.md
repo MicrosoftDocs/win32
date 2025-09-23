@@ -2,7 +2,7 @@
 title: Core structures (Direct3D 12 Graphics)
 description: The following structures are declared in d3d12.h.
 ms.assetid: 7FE8796A-98D1-4333-8755-2A47567460B3
-ms.topic: article
+ms.topic: reference
 ms.date: 11/03/2022
 ---
 

@@ -2,7 +2,7 @@
 title: FontName Property (Commands Object)
 description: Learn about the FontName Commands object property. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: 7de3653e-9b4d-4a31-82d5-243f10e2743b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

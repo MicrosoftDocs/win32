@@ -2,7 +2,7 @@
 description: 'Previewing a Project: Example Code'
 ms.assetid: 8a4af82a-5611-4c53-8de8-04eaefd51df9
 title: 'Previewing a Project: Example Code'
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

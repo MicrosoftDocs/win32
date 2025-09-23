@@ -5,7 +5,7 @@ ms.assetid: 0ea6d075-6154-4ab9-adcb-e599e5aee614
 ms.tgt_platform: multiple
 keywords:
 - Remote Hardware Management
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

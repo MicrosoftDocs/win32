@@ -32,7 +32,7 @@ typedef struct tagMPTHREAT_LOCALIZED_INFO {
   MP_MIDL_STRING LPWSTR SeverityName;
   MP_MIDL_STRING LPWSTR SeverityDescription;
   MP_MIDL_STRING LPWSTR ShortDescription;
-  MP_MIDL_STRING LPWSTR DefaultActionName;;
+  MP_MIDL_STRING LPWSTR DefaultActionName;
   MP_MIDL_STRING LPWSTR Advice;
   MP_MIDL_STRING LPWSTR ThreatUrl;
 } MPTHREAT_LOCALIZED_INFO, *PMPTHREAT_LOCALIZED_INFO;
@@ -152,14 +152,3 @@ A URL to a webpage containing information about the threat.
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |
 | Header<br/>                   | <dl> <dt>MpClient.h</dt> </dl> |
-
-
-
- 
-
- 
-
-
-
-
-

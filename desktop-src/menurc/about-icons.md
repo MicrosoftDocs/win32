@@ -19,7 +19,7 @@ keywords:
 - destroying icons
 - duplicating icons
 - IDI_APPLICATION, IDI_ASTERISK, IDI_ERROR, IDI_EXCLAMATION, IDI_HAND, IDI_INFORMATION, IDI_QUESTION, IDI_SHIELD, IDI_WARNING, IDI_WINLOGO
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

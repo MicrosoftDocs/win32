@@ -2,7 +2,7 @@
 title: AVIFile Functions
 description: AVIFile Functions
 ms.assetid: 89abf60a-1714-4836-93ae-a8a6bf2c24b6
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -11,7 +11,7 @@ keywords:
 - clipboard,owner window
 - clipboard,delayed rendering
 - clipboard,memory
-ms.topic: article
+ms.topic: reference
 ms.date: 05/25/2022
 ---
 

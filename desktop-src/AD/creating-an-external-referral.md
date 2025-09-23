@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - external referrals Active Directory
 - Active Directory examples Active Directory , creating an external referral
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

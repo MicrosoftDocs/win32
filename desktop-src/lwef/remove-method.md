@@ -2,7 +2,7 @@
 title: Remove Method
 description: Remove Method
 ms.assetid: b50d47b2-a425-4545-8d85-efeae460d2b1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This article explains how to initialize property handlers to work with the Windows property system.
 ms.assetid: 3b54dd65-b7db-4e6a-bc3d-1008fdabcfa9
 title: Initializing Property Handlers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -329,7 +329,7 @@ If a value does not exist in the file, do not return an error. Instead, set the 
 
 ## Supporting Open Metadata
 
-This example uses an XML-based file format. Its schema can be extended to support properties that were not thought of during developmet, for example. This system is known as open metadata. This example extends the property system by creating a node under the **Recipe** element called **ExtendedProperties**, as illustrated in the following code example.
+This example uses an XML-based file format. Its schema can be extended to support properties that were not thought of during development, for example. This system is known as open metadata. This example extends the property system by creating a node under the **Recipe** element called **ExtendedProperties**, as illustrated in the following code example.
 
 
 ```
@@ -653,7 +653,7 @@ Next, ask whether the pecified supports [**IDestinationStreamFactory**](/windows
 ```
                         if (SUCCEEDED(hr))
                         {
-                            // Write the XML out to the temprorary stream and commit it.
+                            // Write the XML out to the temporary stream and commit it.
                             VARIANT varStream = {};
                             varStream.vt = VT_UNKNOWN;
                             varStream.punkVal = pStreamCommit;

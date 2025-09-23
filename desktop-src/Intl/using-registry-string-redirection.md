@@ -2,8 +2,9 @@
 description: Storage of hard-coded strings in the registry is part of a pre-Windows Vista localization model.
 ms.assetid: 70185942-7d32-4151-a4e1-f71cf45e87af
 title: Using Registry String Redirection
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
+no-loc: [Shell, shell, Verb, verb, Protocol, protocol]
 ---
 
 # Using Registry String Redirection
@@ -23,11 +24,11 @@ A MUI application running on Windows Vista and later uses a language-neutral st
 
 The data for a language-neutral registry value has the format "`@<PE-path>,-<stringID>[;<comment>]`", where:
 
--   *PE-path* specifies the path of the executable. You can specify the path using an environment variable, such as %ProgramFiles%, to support deployment. An alternative for making your string reference is to leave out the file path information. In this case, your application must have some means, for example, another registry value, to communicate its own install directory.
--   *stringID* specifies the numeric resource identifier of the relevant string resource, which is implemented just like any other localizable string resource.
--   *comment* specifies optional information for debugging or readability of the registry value. The registry API functions ignore the comment when loading the string.
+-   *`PE-path`* specifies the path of the executable. You can specify the path using an environment variable, such as %ProgramFiles%, to support deployment. An alternative for making your string reference is to leave out the file path information. In this case, your application must have some means, for example, another registry value, to communicate its own install directory.
+-   *`stringID`* specifies the numeric resource identifier of the relevant string resource, which is implemented just like any other localizable string resource.
+-   *`comment`* specifies optional information for debugging or readability of the registry value. The registry API functions ignore the comment when loading the string.
 
-> [!Note]  
+> [!NOTE]  
 > The data for the registry value makes no explicit reference to the language-specific resource file. The correct file is determined at runtime, based on the current user interface language preferences.
 
  
@@ -46,7 +47,7 @@ An example from Windows Vista is the registry value with the following data:
 
 ## Create Resources for Shortcut Strings
 
-When the MUI application displays its name in the shell user interface, an InfoTip string is displayed for the application icon. You should create string resources for your application display name and associated InfoTip string for each supported language. When the resources are ready, your application can use the strings as described in the Use Shell API to Load Shortcut Strings from the Registry section of [Locating Redirected Strings](locating-redirected-strings.md).
+When the MUI application displays its name in the shell user interface, an InfoTip string is displayed for the application icon. You should create string resources for your application display name and associated InfoTip string for each supported language. When the resources are ready, your application can use the strings as described in the _Use Shell API to Load Shortcut Strings from the Registry_ section of [Locating Redirected Strings](locating-redirected-strings.md).
 
 ### Prepare Resources for a Shortcut Created with Windows Installer
 
@@ -126,7 +127,7 @@ HKCR\txtfile
 
 ## Provide Resources for Shell Verb Action Strings
 
-Action strings for certain verbs, for example, "open" and "edit", are shown in the pop-up menu displayed when the user right-clicks a file in Windows Explorer. Your application does not have to specify strings for common shell verbs, as the shell has its own MUI-enabled defaults for these verbs. However, you should provide localizable string resources for strings representing uncommon verbs.
+Action strings for certain verbs, for example, ":::no-loc text="open":::" and ":::no-loc text="edit":::", are shown in the pop-up menu displayed when the user right-clicks a file in Windows Explorer. Your application does not have to specify strings for common shell verbs, as the shell has its own MUI-enabled defaults for these verbs. However, you should provide localizable string resources for strings representing uncommon verbs.
 
 On pre-Windows XP operating systems, strings for shell verbs in the registry are rendered using the following syntax, where *verb* specifies the actual verb name:
 
@@ -169,7 +170,7 @@ HKCR\Sample.app\shell\Disc
 
 
 
-> [!Note]  
+> [!NOTE]  
 > Registration of the old default value is not recommended because it requires a different setup on Windows XP and later from the setup used on earlier operating systems.
 
  
@@ -197,7 +198,7 @@ HKCR\<Your_Name>\protocol\StdFileEditing\verb\<number>
 
 
 
-The value specified for LocalizedString only contains or replaces the value for *Your Verb*, not the two flag values.
+The value specified for LocalizedString only contains or replaces the value for *:::no-loc text="Your Verb":::*, not the two flag values.
 
 Here is a summary to help you ensure correct registry settings:
 
@@ -208,14 +209,14 @@ Here is a summary to help you ensure correct registry settings:
 
 ## Create a Resource for the Uninstall Program
 
-To register the uninstall program for the application, you can create registry values in the unique identifier subkey for the application under the registry key HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall. Values to set include: DisplayName, DisplayVersion, Publisher, ProductID, RegOwner, RegCompany, UrlInfoAbout, HelpTelephone, HelpLink, InstallLocation, InstallSource, InstallDate, Contact, Comments, DisplayIcon, Readme, UrlUpdateInfo.
+To register the uninstall program for the application, you can create registry values in the unique identifier subkey for the application under the registry key `HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall`. Values to set include: DisplayName, DisplayVersion, :::no-loc text="Publisher":::, ProductID, RegOwner, RegCompany, UrlInfoAbout, HelpTelephone, HelpLink, InstallLocation, InstallSource, InstallDate, :::no-loc text="Contact":::, :::no-loc text="Comments":::, DisplayIcon, Readme, UrlUpdateInfo.
 
-> [!Note]  
-> To enable MUI technology for each value, you can append "\_Localized" to the value name.
+> [!NOTE]  
+> To enable MUI technology for each value, you can append ":::no-loc text="_Localized":::" to the value name.
 
  
 
-Operating system components are required to provide a value for DisplayName\_Localized in a MUI-specific way. You should place the display name in a DLL, such as Res.dll, as a string resource, assuming the identifier to be 1245. Then the application can register the display name as DisplayName\_Localized with value "@\\res.DLL,-1245". All the other registry settings should be retained as they are, including the original value for DisplayName.
+Operating system components are required to provide a value for `DisplayName_Localized` in a MUI-specific way. You should place the display name in a DLL, such as Res.dll, as a string resource, assuming the identifier to be 1245. Then the application can register the display name as `DisplayName_Localized` with value "@\\res.DLL,-1245". All the other registry settings should be retained as they are, including the original value for DisplayName.
 
 ## Create Resources for Sound Events
 
@@ -257,7 +258,7 @@ HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layouts\
 
 You can implement the display name of an OLE insertable object as a localizable string resource associated with the code implementing that object. The [OLE Insert Object dialog box](/cpp/mfc/reference/coleinsertdialog-class) gets a display name from the registry key HKCR\\CLSID\\{*&lt;GUID&gt;*}, where *GUID* identifies the class identifier of an insertable OLE object. Windows Vista and later implement this type of object in a localizable way, using a MUI-compliant display name that allows customization to the user interface language. In contrast, pre-Windows Vista operating systems implement the display name for this type of object using the default value of the corresponding registry key. Typically this name is either an English (United States) name or a name in the system default UI language.
 
-> [!Note]  
+> [!NOTE]  
 > Not all objects that correspond to subkeys of the registry key are insertable.
 
  
@@ -282,7 +283,7 @@ You should create a localizable string resource for each Microsoft Management Co
 
 For the most part, MMC snap-ins raise the same globalization and localization issues as the MUI application itself. An MMC snap-in must reflect its name in the registry for display. The registry entry should include both an indirect reference to a localizable string resource and a literal string for backward compatibility.
 
-Each MMC snap-in has a registry key under HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\MMC\\SnapIns. Among the values for that key are NameString, specifying a human-readable name for backward compatibility, and NameStringIndirect, specifying an indirect reference to a localizable string resource. For NameStringIndirect, you should provide a string reference of the form "`@<path>,-resID`", representing a localizable string resource.
+Each MMC snap-in has a registry key under `HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\MMC\\SnapIns`. Among the values for that key are `NameString`, specifying a human-readable name for backward compatibility, and `NameStringIndirect`, specifying an indirect reference to a localizable string resource. For `NameStringIndirect`, you should provide a string reference of the form "`@<path>,-resID`", representing a localizable string resource.
 
 For example, you might make the following setting for Mymmc.dll, where 12345 is the identifier of the corresponding string resource containing the localizable name of the snap-in:
 
@@ -293,13 +294,13 @@ NameStringIndirect=@%systemroot%@c:\windir\system32\mymmc.dll,-12345
 
 
 
-Some snap-ins register other registry string values that MMC does not read from the registry. For more information about using these values, see Register Microsoft Management Console Snap-In Strings Not Read from the Registry in [Locating Redirected Strings](locating-redirected-strings.md).
+Some snap-ins register other registry string values that MMC does not read from the registry. For more information about using these values, see *Register Microsoft Management Console Snap-In Strings Not Read from the Registry* in [Locating Redirected Strings](locating-redirected-strings.md).
 
 ## Create String Resources for a Windows Service
 
-Although a Windows service typically has little or no user interface, it must display a MUI-compliant name and usually provides a MUI-compliant language-specific description. The registry key that describes a Windows service supports only the DisplayName value for the service name and the Description value for the service description.
+Although a Windows service typically has little or no user interface, it must display a MUI-compliant name and usually provides a MUI-compliant language-specific description. The registry key that describes a Windows service supports only the `DisplayName` value for the service name and the `Description` value for the service description.
 
-Settings for the Windows service are made from the application, as described in Set the Display Name and Description for a Windows Service from the Registry in [Locating Redirected Strings](locating-redirected-strings.md). If your application does not set the registry values for the service user interface, values in the registry remain set to English, even if the user interface is in another language.
+Settings for the Windows service are made from the application, as described in *Set the Display Name and Description for a Windows Service from the Registry* in [Locating Redirected Strings](locating-redirected-strings.md). If your application does not set the registry values for the service user interface, values in the registry remain set to :::no-loc text="English":::, even if the user interface is in another language.
 
 ## Related topics
 

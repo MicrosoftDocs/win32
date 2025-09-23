@@ -2,7 +2,7 @@
 description: A list of the type of content in the item.
 ms.assetid: 389e251c-4a2e-45c0-8caa-a1fdc730e8c3
 title: System.ContainedItems
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Learn about Windows Installer concepts that begin with the letter A, such as accessibility and acquisition phase.
 ms.assetid: 541fd08c-c21a-4a51-aa1c-d65cc0f5da75
 title: A (Windows Installer)
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

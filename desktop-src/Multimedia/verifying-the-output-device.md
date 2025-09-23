@@ -4,7 +4,7 @@ description: Verifying the Output Device
 ms.assetid: b5a45edd-8f35-44ae-964d-0451f100ca80
 keywords:
 - MCI_ STATUS command
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

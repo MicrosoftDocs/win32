@@ -2,7 +2,7 @@
 title: VML Z-Index Attribute
 description: VML Z-Index Attribute
 ms.assetid: 54a2c556-e40e-462e-a621-ec07911d5261
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

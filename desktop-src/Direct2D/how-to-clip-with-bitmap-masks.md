@@ -2,7 +2,7 @@
 title: How to Use a Bitmap as an Opacity Mask
 description: Shows how to clip a region with bitmap masks.
 ms.assetid: d6ad53a6-5e84-49d0-ab2c-5d6ad9428f9c
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,8 +2,8 @@
 title: ElementShouldBeOffScreen
 description: ElementShouldBeOffScreen
 ms.assetid: 7D955A67-A296-45D5-AB01-3656D99B0E77
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # ElementShouldBeOffScreen

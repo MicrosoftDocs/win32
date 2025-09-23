@@ -2,7 +2,7 @@
 description: Directly Hosting a DMO
 ms.assetid: 10fb99cf-78d9-4519-9aec-23b0daeca9e2
 title: Directly Hosting a DMO
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

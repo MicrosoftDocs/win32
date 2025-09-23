@@ -2,7 +2,7 @@
 description: Schannel returns the following error messages when the corresponding alert is received from the Transport Layer Security (TLS) or Secure Sockets Layer (SSL) protocols.
 ms.assetid: 0a6ac61d-a00c-4fc8-a995-d25d17e405df
 title: Schannel Error Codes for TLS and SSL Alerts
-ms.topic: article
+ms.topic: error-reference
 ms.date: 10/23/2024
 ---
 

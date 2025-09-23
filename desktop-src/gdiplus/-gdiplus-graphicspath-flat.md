@@ -2,7 +2,7 @@
 description: Windows GDI+ exposes a flat API that consists of about 600 functions. These flat API functions are wrapped by the GraphicsPath C++ class.
 ms.assetid: abfb280e-92db-4198-b9e1-d0782cca1ccd
 title: GraphicsPath Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

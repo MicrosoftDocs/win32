@@ -2,7 +2,7 @@
 description: Learn how PrintTicket and PrintCapabilities handle parameterized and non-parameterized options.
 ms.assetid: 92438df1-afde-4038-853e-9b98f7e589ea
 title: Parameterized Options versus Nonparameterized Options
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Changing the Retransmission Policy
 description: The Microsoft WinSNMP implementation provides retransmission policy support by storing a time-out value and a retry count for the WinSNMP application in a database.
 ms.assetid: 9ab45adc-12b7-40b1-8fec-40bf04302f64
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

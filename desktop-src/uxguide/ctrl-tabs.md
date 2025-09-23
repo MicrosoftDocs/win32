@@ -2,7 +2,7 @@
 title: Tabs
 description: Tabs provide a way to present related information on separate labeled pages.
 ms.assetid: d90228ce-aa95-4359-be8e-ea2014d71ae6
-ms.topic: article
+ms.topic: reference
 ms.date: 10/20/2020
 ---
 

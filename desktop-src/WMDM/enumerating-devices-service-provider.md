@@ -9,7 +9,7 @@ keywords:
 - service providers,enumerating devices
 - creating service providers,enumerating devices
 - enumerating devices
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

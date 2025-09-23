@@ -13,7 +13,7 @@ keywords:
 - digital rights management (DRM),new features
 - DRM (digital rights management),new features
 - thumbnail images
-ms.topic: article
+ms.topic: whats-new
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

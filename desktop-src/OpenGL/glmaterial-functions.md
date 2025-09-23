@@ -15,7 +15,7 @@ keywords:
 - OpenGL,light functions
 - OpenGL reference,light functions
 - reference for OpenGL,light functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

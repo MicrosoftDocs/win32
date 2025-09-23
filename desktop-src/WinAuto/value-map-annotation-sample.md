@@ -2,8 +2,8 @@
 title: Value Map Annotation Sample
 description: Value Map Annotation Sample
 ms.assetid: f95233ee-c825-482e-880b-63212014b505
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: sample
+ms.date: 07/14/2025
 ---
 
 # Value Map Annotation Sample

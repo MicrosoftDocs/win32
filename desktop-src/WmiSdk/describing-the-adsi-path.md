@@ -3,7 +3,7 @@ description: The Lightweight Directory Access Protocol (LDAP) requires that you 
 ms.assetid: bc04359c-4eda-4574-a9c2-f005a1d92dea
 ms.tgt_platform: multiple
 title: Describing the ADSI Path
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

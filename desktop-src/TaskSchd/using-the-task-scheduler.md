@@ -10,7 +10,7 @@ keywords:
 - Task Scheduler examples Task Scheduler
 - Task Scheduler Task Scheduler , examples See Task Scheduler examples Task Scheduler
 - samples Task Scheduler See Task Scheduler examples Task Scheduler
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

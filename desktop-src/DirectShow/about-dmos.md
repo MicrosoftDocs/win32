@@ -2,7 +2,7 @@
 description: About DMOs
 ms.assetid: 5a847e0b-dabb-40f2-a1f7-63bf3036ef8b
 title: About DMOs
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -4,7 +4,7 @@ description: Sets the verbosity of event log entries about invalid security desc
 ms.assetid: 44f680b8-083d-44f0-a353-e66b87787ab7
 keywords:
 - InvalidSecurityDescriptorLoggingLevel registry value COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

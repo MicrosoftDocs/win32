@@ -2,7 +2,7 @@
 description: The IDownloadJob interface defines the following properties.
 ms.assetid: 50e672d7-0ad6-402d-878c-4ac79b70a036
 title: IDownloadJob Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

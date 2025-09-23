@@ -2,7 +2,7 @@
 title: Opacity Masks Overview
 description: This topic describes how to use bitmaps and brushes to define opacity masks. It contains the following sections.
 ms.assetid: 869821b0-6ebe-46c2-aab6-93177d8a92c5
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

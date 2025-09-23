@@ -2,7 +2,7 @@
 title: Determining Your Security Needs
 description: How you set up COM security for your application depends on what kind of security your application needs. There are several common situations that determine what you should do.
 ms.assetid: db5c9adb-b04b-4621-b738-2959cac40985
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

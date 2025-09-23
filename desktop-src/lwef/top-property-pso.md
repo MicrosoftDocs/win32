@@ -2,7 +2,7 @@
 title: Top Property (PropertySheet Object)
 description: Learn about the Top property (PropertySheet object). Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.
 ms.assetid: 413374d8-3c7a-44b2-8b33-3a5cdef01aee
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

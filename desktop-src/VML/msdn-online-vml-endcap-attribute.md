@@ -2,7 +2,7 @@
 title: VML EndCap Attribute
 description: VML EndCap Attribute
 ms.assetid: d8669a34-0fec-461e-90de-d9d5f7749a15
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

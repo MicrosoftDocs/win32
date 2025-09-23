@@ -3,7 +3,7 @@ description: A specialized class that contains information about the severity, c
 ms.assetid: a7dc450d-7dbd-4097-a186-0e42f100fbfe
 title: CIM_Error WMI class
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

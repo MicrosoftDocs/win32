@@ -2,7 +2,7 @@
 title: Best Security Practices in Game Development
 description: Describes best security practices to use in game development and provides examples of insecure code.
 ms.assetid: 20956529-42ed-722b-cfa3-e3230d89fdd7
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -161,7 +161,7 @@ For more information on Authenticode signing, see [Authenticode Signing for Game
 
 In general processes should run with the minimum set of privileges required to operate. On Windows Vista and Windows 7, this is accomplished by using [User Account Control](./user-account-control-for-game-developers.md), allowing the game to run as a Standard User rather than an administrator. For Windows XP, typically games are always running as administrator. Even on Windows Vista and Windows 7, it is sometimes necessary to elevate to full administrator rights for some specific operations.
 
-In the cases where the process is running with full administrative rights, usually only a few rights beyond those of a Standard User are actually required. Administrative access includes many rights that are not required by legitimate code, but could be used by an attacker, through some weakness in the process. Examples of such rights include SE\_TAKE\_OWNERSHIP, SE\_DEBUG, SE\_CREATE\_TOKEN, SE\_ASSIGNPRIMARYTOKEN, SE\_TCB, SE\_SECURITY, SE\_LOAD\_DRIVER, SE\_SYSTEMTIME, SE\_BACKUP, SE\_RESTORE, SE\_SHUTDOWN, and SE\_AUDIT (see [Priviledge Constants](../secauthz/privilege-constants.md)).
+In the cases where the process is running with full administrative rights, usually only a few rights beyond those of a Standard User are actually required. Administrative access includes many rights that are not required by legitimate code, but could be used by an attacker, through some weakness in the process. Examples of such rights include SE\_TAKE\_OWNERSHIP, SE\_DEBUG, SE\_CREATE\_TOKEN, SE\_ASSIGNPRIMARYTOKEN, SE\_TCB, SE\_SECURITY, SE\_LOAD\_DRIVER, SE\_SYSTEMTIME, SE\_BACKUP, SE\_RESTORE, SE\_SHUTDOWN, and SE\_AUDIT (see [Privilege Constants](../secauthz/privilege-constants.md)).
 
 While a process cannot gain more rights once started, it can easily give up rights. At startup, the process can immediately use Win32 APIs to remove rights that it does not require.
 

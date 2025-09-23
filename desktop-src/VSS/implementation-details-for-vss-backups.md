@@ -2,7 +2,7 @@
 description: 'The following topics describe implementation details for VSS backups: Generating a Backup SetIncremental and Differential BackupsBackups without Writer ParticipationWorking with Mounted Folders and Reparse PointsWorking with Alternate Paths during Backup'
 ms.assetid: af978044-e2ea-432c-8f62-cbc49e00ef73
 title: Implementation Details for VSS Backups
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

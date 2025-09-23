@@ -5,7 +5,7 @@ ms.assetid: 3c6b88ad-4cf0-4776-a3e1-d41399494fbf
 ms.tgt_platform: multiple
 keywords:
 - Supported Installation Mechanisms AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

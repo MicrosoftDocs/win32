@@ -2,8 +2,8 @@
 description: Some systems use Internet firewalls or proxy servers that require authentication for all Internet traffic.
 ms.assetid: b79e9a6f-2ffb-4ec0-ac2d-63e79ecfc26c
 title: Symbol Server and Internet Firewalls
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Symbol Server and Internet Firewalls

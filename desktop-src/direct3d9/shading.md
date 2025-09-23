@@ -2,7 +2,7 @@
 description: This section describes techniques used in Direct3D to control the shading of 3D polygons.
 ms.assetid: 30c62637-7eb4-4fb0-885c-62c9dedada36
 title: Shading (Direct3D 9)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

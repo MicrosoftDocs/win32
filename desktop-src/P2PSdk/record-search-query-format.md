@@ -2,7 +2,7 @@
 description: A call to the PeerGroupSearchRecords function requires an XML query string parameter that is used to determine the basic criteria of a search.
 ms.assetid: 2c5ab425-6959-418a-8d9a-c8155257fc7e
 title: Record Search Query Format
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

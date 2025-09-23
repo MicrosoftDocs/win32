@@ -1,8 +1,9 @@
 ---
 description: Learn how to build a cloud files sync engine that uses placeholder files using the cloud files API.
 title: Build a Cloud Sync Engine that Supports Placeholder Files
-ms.topic: article
-ms.date: 11/12/2020
+ms.topic: how-to
+ms.date: 05/12/2025
+# Customer intent: As a Windows developer, I want to learn how to build a cloud files sync engine that uses placeholder files using the cloud files API.
 ---
 
 # Build a Cloud Sync Engine that Supports Placeholder Files
@@ -78,7 +79,7 @@ The following image demonstrates how the placeholder, full, and pinned full file
 
 ## Cloud Mirror sample
 
-The [Cloud Mirror sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/CloudMirror) illustrates how to build a solution that uses the cloud files API. It is not intended to be used as production code. It lacks robust error handling and it is written to be as easily understood as possible. It's called Cloud Mirror because it simply mirrors a local folder on your local disk. You specify a server folder that is meant to represent your cloud file server and a client folder that is meant to specify the sync root path. A top-level node appears in the navigation pane in File Explorer called **TestStorageProviderDisplayName**, and this node maps to the specified client folder.
+The [Cloud Mirror sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/CloudMirror) illustrates how to build a solution that uses the cloud files API. It is not intended to be used as production code. It lacks robust error handling and it is written to be as easily understood as possible. It's called Cloud Mirror because it simply mirrors a local folder on your local disk. You specify a server folder that is meant to represent your cloud files server and a client folder that is meant to specify the sync root path. A top-level node appears in the navigation pane in File Explorer called **TestStorageProviderDisplayName**, and this node maps to the specified client folder.
 
 When it comes to syncing, these are the things that a fully-developed cloud files sync provider must implement:
 
@@ -139,3 +140,20 @@ Note that the file hydration policy cannot be changed after the file is opened.
 The cloud files API implements the placeholder system using [reparse points](/windows/desktop/FileIO/reparse-points). A common misconception about reparse points is that they are the same as symbolic links. This misconception is occasionally reflected in application implementations, and as a result, many existing applications hit errors when encountering any reparse point.
 
 To mitigate this compatibility issue, the cloud files API always hides its reparse points from all applications except for sync engines and processes whose main image resides under **%systemroot%**. Applications that understand reparse points correctly can force the platform to expose cloud files API reparse points using [RtlSetProcessPlaceholderCompatibilityMode](/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlsetprocessplaceholdercompatibilitymode) or [RtlSetThreadProcessPlaceholderCompatibilityMode](/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlsetthreadplaceholdercompatibilitymode).
+
+## Cloud files search
+
+Cloud files search is supported in Windows 11, version 24H2 and later on [Copilot+ PCs](https://www.microsoft.com/windows/copilot-plus-pcs). The following features are available for cloud storage providers to integrate with the Windows Search experience:
+
+- Cloud storage providers can register a file search handler for their sync root, enabling them to contribute search results to File Explorer and Windows Search.
+- Cloud storage providers register a search handler by setting the **SearchHandlerFactory** registry value under their sync root registry key to the CLSID of their COM local server object. This local server object implements the [IStorageProviderSearchHandlerFactory](/uwp/api/windows.storage.provider.istorageprovidersearchhandlerfactory) interface.
+- The **IStorageProviderSearchHandlerFactory** creates an implementation of [IStorageProviderSearchHandler](/uwp/api/windows.storage.provider.istorageprovidersearchhandler). This **IStorageProviderSearchHandler** implementation calls the cloud provider's search service to search files that might not be available locally on the device.
+- The Windows Search experience calls the [Find](/uwp/api/windows.storage.provider.istorageprovidersearchhandler.find) method during a search, merging its results with those from the local search indexer.
+
+## Related content
+
+[Cloud files provider integration with Windows Search](/windows/apps/develop/search/cloud-search-integration)
+
+[IStorageProviderSearchHandlerFactory](/uwp/api/windows.storage.provider.istorageprovidersearchhandlerfactory)
+
+[Windows.Storage.Provider namespace](/uwp/api/windows.storage.provider)

@@ -2,7 +2,7 @@
 title: Setting Security at the Interface Proxy Level
 description: Sometimes the client needs fine-grained control over the security on calls to particular interfaces.
 ms.assetid: 72925ca2-78c9-47d9-8760-63f6379326d2
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

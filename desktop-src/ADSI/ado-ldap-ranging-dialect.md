@@ -5,7 +5,7 @@ ms.assetid: adda9cf7-6588-48ee-85e2-fddbaf28807b
 ms.tgt_platform: multiple
 keywords:
 - ADO LDAP Ranging Dialect ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

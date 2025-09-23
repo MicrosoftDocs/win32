@@ -2,7 +2,7 @@
 description: The ModuleDependency table keeps a list of other merge modules that are required for this merge module to operate properly.
 ms.assetid: 36418331-bec7-40c9-8fdf-fe4b958a1443
 title: ModuleDependency Table
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

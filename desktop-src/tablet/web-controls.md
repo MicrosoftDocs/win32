@@ -2,7 +2,7 @@
 description: One way to create ink-enabled Web applications is to put Windows Forms controls inside awebpagewithin Microsoft Internet Explorer.
 ms.assetid: a4fcd692-cd4a-4d2a-bfad-198010e27c6f
 title: Web Controls
-ms.topic: article
+ms.topic: reference
 ms.date: 11/06/2023
 ---
 

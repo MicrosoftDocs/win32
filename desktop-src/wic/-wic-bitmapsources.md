@@ -2,7 +2,7 @@
 description: This topic introduces bitmap sources, a core Windows Imaging Component (WIC) component that represents the bitmap pixels of an image.
 ms.assetid: cff0c088-ca22-4d55-9cf0-9cbe9803923e
 title: Bitmap Sources Overview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -74,7 +74,7 @@ For an example using the [**IWICFormatConverter**](/windows/desktop/api/Wincodec
 
 ## Drawing Bitmap Sources
 
-WIC is a still image codec technology and is used to manage image data and metadata and does not inherently provide a way to render images. However, bitmap sources can be drawn using several Windows graphics technology such as Direct2D, Windows Graphics Device Interface (GDI), and Windows GDI+. Each of these technologies has a different level of interoperability with WIC. Direct2D provides direct interoperability through the [ID2D1Bitmap](../direct2d/render-targets-overview.md) interface and the [ID2D1RenderTarget::CreateBitmapFromWicBitmap](../direct2d/id2d1rendertarget-createbitmapfromwicbitmap.md) method while GDI and GDI+ require users to copy the bitmap source pixels into an [Bitmaps](../gdi/bitmaps.md).
+WIC is a still image codec technology and is used to manage image data and metadata and does not inherently provide a way to render images. However, bitmap sources can be drawn using several Windows graphics technology such as Direct2D, Windows Graphics Device Interface (GDI), and Windows GDI+. Each of these technologies has a different level of interoperability with WIC. Direct2D provides direct interoperability through the [ID2D1Bitmap](../direct2d/render-targets-overview.md) interface and the [ID2D1RenderTarget::CreateBitmapFromWicBitmap](../direct2d/id2d1rendertarget-createbitmapfromwicbitmap.md) method while GDI and GDI+ require users to copy the bitmap source pixels into a [Bitmap](../gdi/bitmaps.md).
 
 The following example demonstrate how to draw bitmap sources by using Direct2D.
 

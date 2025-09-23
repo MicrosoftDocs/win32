@@ -2,7 +2,7 @@
 description: A texture resource is a structured collection of data.
 ms.assetid: 4c716be8-044e-4ed4-aeca-4379440826bd
 title: Creating Texture Resources (Direct3D 10)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

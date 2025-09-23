@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Windows Sockets Registration and Resolution AD , Example Code, Implementing a Winsock Service with an RnR Publication
 - Implementing a Winsock Service with an RnR Publication AD , Example Code
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Manual SA
 description: The Manual Security Association (SA) IPsec policy scenario allows callers to bypass the built-in IPsec keying modules (IKE and AuthIP) by directly specifying IPsec SAs to secure any network traffic.
 ms.assetid: 2bcc0b40-ca43-43c6-b1e4-b64426ef7ff4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,7 +1,7 @@
 ---
 description: Learn how to extend the Windows Explorer Ribbon.
 title: Extending the Ribbon
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.assetid: 0C043FF8-3862-4F02-8700-BB556C4F35B8
 api_name: 

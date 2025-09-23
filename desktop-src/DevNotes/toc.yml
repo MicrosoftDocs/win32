@@ -849,6 +849,8 @@
       href: /windows/win32/api/Winternl/nf-winternl-rtlfreeunicodestring
     - name: "RtlGetDeviceFamilyInfoEnum"
       href: rtlgetdevicefamilyinfoenum.md
+    - name: "RtlGetImageFileMachines"
+      href: rtlgetimagefilemachines.md
     - name: "RtlGetReturnAddressHijackTarget"
       href: rtlgetreturnaddresshijacktarget.md
     - name: "RtlGetVersion"
@@ -871,6 +873,8 @@
       href: rtlunicodetoutf8n.md
     - name: "RtlUTF8ToUnicodeN"
       href: rtlutf8tounicoden.md
+    - name: "RtlVirtualUnwind2"
+      href: rtlvirtualunwind2.md
     - name: "SendIMEMessage"
       href: /previous-versions/hh457667(v=vs.85)
     - name: "SendIMEMessageEx"

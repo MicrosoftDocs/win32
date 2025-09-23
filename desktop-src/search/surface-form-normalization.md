@@ -2,7 +2,7 @@
 description: Although words and linguistic rules differ dramatically, there are some considerations, such as numbers, dates, and times, that are handled consistently across all word breakers.
 ms.assetid: 62545566-f0ba-4876-93da-e6c2b9c23484
 title: Surface Form Normalization
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -41,7 +41,7 @@ Possessives are variations in a noun that indicate possession. English possessiv
 
 ## Diacritics
 
-Diacritics are marks added to a letter or phoneme to indicate a special phonetic value for pronunciation. Diacritics can distinguish words that are otherwise graphically identical; for example, "resume" and "resumé" in English. However, saving diacritics to the index increases the number of unique word keys in the index, which slows down query performance. If diacritics are used only minimally in a language, the word breaker for that language should remove them during both index creation and querying. For example, the English word breaker generates "resume" when processing "resumé," causing only minimal impact on the relevance of the query results.
+Diacritics are marks added to a letter or phoneme to indicate a special phonetic value for pronunciation. Diacritics can distinguish words that are otherwise graphically identical; for example, "resume" and "résumé" in English. However, saving diacritics to the index increases the number of unique word keys in the index, which slows down query performance. If diacritics are used only minimally in a language, the word breaker for that language should remove them during both index creation and querying. For example, the English word breaker generates "resume" when processing "resumé," causing only minimal impact on the relevance of the query results.
 
 ## Clitics
 

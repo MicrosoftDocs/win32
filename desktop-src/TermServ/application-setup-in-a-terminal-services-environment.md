@@ -3,7 +3,7 @@ title: Application setup
 description: Installing an application for a single user can create problems in a multiuser Remote Desktop Services environment.
 ms.assetid: 3e60e95a-3580-48aa-a9f9-8fd899aa7fca
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

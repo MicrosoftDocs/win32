@@ -1,7 +1,7 @@
 ---
 description: Control Panel items that are implemented in a DLL that exports the CPlApplet function have different registration requirements than .exe files.
 title: How to Register DLL Control Panel Items
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

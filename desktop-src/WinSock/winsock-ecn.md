@@ -1,7 +1,7 @@
 ---
 title: Winsock explicit congestion notification (ECN)
 description: Some applications and/or protocols that are based on the User Datagram Protocol (UDP) (for example, QUIC) seek to leverage the use of explicit congestion notification (ECN) codepoints in order to improve latency and jitter in congested networks.
-ms.topic: article
+ms.topic: reference
 ms.date: 11/13/2020
 ---
 

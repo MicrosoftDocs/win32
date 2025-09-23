@@ -2,7 +2,7 @@
 description: Building DirectShow Filters
 ms.assetid: fb907263-e7f3-42d6-80f9-a9f16fc21033
 title: Building DirectShow Filters
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

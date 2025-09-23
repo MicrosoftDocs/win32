@@ -2,7 +2,7 @@
 title: Server Graphical Shell restrictions
 description: Server apps must be able to run without the Server Graphical Shell
 ms.assetid: 8F531497-B64D-4E79-AD7A-790EFDC6ADFE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

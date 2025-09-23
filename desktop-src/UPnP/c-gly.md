@@ -3,7 +3,7 @@ title: C (UPnP APIs)
 description: Contains UPnP-related terms that begin with the letter C.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 5a02d2dc-3568-4f23-9bcd-69ed353ef57d
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

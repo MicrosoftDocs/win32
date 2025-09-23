@@ -2,7 +2,7 @@
 description: The VBScript file WiPolicy.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample shows how script can be used to manage system policy. Policy can be configured by an administrator using the Group Policy Editor (GPE).
 ms.assetid: 17cfed46-503f-4124-9f0e-1655fda153d0
 title: Manage Policy Settings
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -34,7 +34,7 @@ If no arguments are specified on the command line, the sample returns the curren
 | EU   | System privileges (HKCU). For more information, see [AlwaysInstallElevated](alwaysinstallelevated.md).                                      |
 | DR   | Disable rollback policy. For more information, see [DisableRollback](disablerollback.md).                                                   |
 | TS   | Locate transforms at root of source image. For more information, see [TransformsAtSource policy](transformsatsource-policy.md).             |
-| TP   | Pin secure tranforms in client-side-cache. For more information, see [TransformsSecure policy](transformssecure-policy.md).                 |
+| TP   | Pin secure transforms in client-side-cache. For more information, see [TransformsSecure policy](transformssecure-policy.md).                 |
 | SO   | Search order of source types. For more information, see [SearchOrder](searchorder.md).                                                      |
 
 

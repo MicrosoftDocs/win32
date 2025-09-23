@@ -43,7 +43,7 @@ Packed calls associated with this operation.
 The render target originally associated (inside the captured application) with this operation.
 
 **iPrim**  
-The index of the actual primitive associated witht his operation.
+The index of the actual primitive associated with this operation.
 
 **numPrims**  
 The total number of primitives associated with this operation.

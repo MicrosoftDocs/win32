@@ -2,7 +2,7 @@
 description: Cryptography tools provide command-line tools for code signing, signature verification, and other cryptography tasks.
 ms.assetid: 21adbcfb-fadd-4818-9dc5-23bfd526b525
 title: Cryptography Tools
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -69,7 +69,7 @@ The publishing tools and the signing DLL are installed in the \\Bin directory of
 
 | File name                    | Remarks                                                                                                                                                                                             |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Cert2SPC.exe](cert2spc.md) | Creates an [*Software Publisher Certificate*](../secgloss/s-gly.md) (SPC) for testing purposes only.<br/> |
+| [Cert2SPC.exe](cert2spc.md) | Creates a [*Software Publisher Certificate*](../secgloss/s-gly.md) (SPC) for testing purposes only.<br/> |
 | [CertMgr.exe](certmgr.md)   | Manages certificates, CTLs, and [*certificate revocation lists*](../secgloss/c-gly.md) (CRLs).<br/>             |
 | [MakeCat.exe](makecat.md)   | Creates an unsigned catalog file that contains the hashes of a set of files along with associated attributes of each file.<br/>                                                               |
 | [MakeCert.exe](makecert.md) | Creates an [*X.509*](../secgloss/x-gly.md) certificate for testing purposes only.<br/>                                                                      |

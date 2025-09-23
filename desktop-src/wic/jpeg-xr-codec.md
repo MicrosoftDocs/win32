@@ -2,7 +2,7 @@
 description: The native JPEG XR codec is available through the Windows Imaging Component (WIC). The JPEG XR format, which the codec supports, is designed for consumer and professional digital photography.
 ms.assetid: CB8D1A5F-B544-462E-8927-F45512CED873
 title: JPEG XR Codec Overview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -55,7 +55,7 @@ JPEG XR supports high-dynamic range images, using floating-point or fixed-point 
 
 ### Tiles
 
-A frame can be partitioned into rectangular subregions called *tiles*. A tile is an area of a image that contains rectangular arrays of macroblocks. Tiles enable regions of the image to be decoded without processing the entire image.
+A frame can be partitioned into rectangular subregions called *tiles*. A tile is an area of an image that contains rectangular arrays of macroblocks. Tiles enable regions of the image to be decoded without processing the entire image.
 
 During encoding, select the number of tiles by setting the **HorizontalTileSlices** and **VerticalTileSlices** properties. The minimum tile size is 16 × 16 pixels. The encoder adjusts the number of tiles to maintain this restriction. There is storage and processing overhead associated with each tile, so you should consider the number of tiles that are needed for particular scenarios.
 

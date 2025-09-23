@@ -2,7 +2,7 @@
 title: Enabled Property (Speech Input Object)
 description: Learn about the Enabled Speech Input object property. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: d48f02f1-7d93-4780-88a7-61597672bb58
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: Scripts and Visual Basic applications must set DCOM security, espec
 ms.assetid: 4816914d-a1cf-47d8-af20-2b22c53042d6
 ms.tgt_platform: multiple
 title: Securing Scripting Clients
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

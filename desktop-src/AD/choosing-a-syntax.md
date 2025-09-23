@@ -5,7 +5,7 @@ ms.assetid: ed8a4164-5c82-43c2-8efb-a735c963a884
 ms.tgt_platform: multiple
 keywords:
 - Active Directory, syntaxes, defined
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

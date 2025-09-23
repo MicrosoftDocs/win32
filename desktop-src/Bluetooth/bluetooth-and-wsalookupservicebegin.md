@@ -2,7 +2,7 @@
 title: Bluetooth and WSALookupServiceBegin
 description: Bluetooth uses the WSALookupServiceBegin function to query for devices and to discover services.
 ms.assetid: 50bec36f-477e-4f67-ac47-842d311e54c1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

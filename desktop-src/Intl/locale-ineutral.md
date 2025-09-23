@@ -2,7 +2,7 @@
 description: LOCALE\_INEUTRAL
 ms.assetid: d6b42ba8-77e5-427c-9d01-9f2351516fd2
 title: LOCALE_INEUTRAL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

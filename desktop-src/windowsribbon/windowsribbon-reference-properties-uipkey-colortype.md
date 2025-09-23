@@ -2,7 +2,7 @@
 title: UI_PKEY_ColorType
 description: Identifies the UI\_PKEY\_ColorType property.
 ms.assetid: 7eaa9d8b-0c21-487c-9093-79ddffcae131
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

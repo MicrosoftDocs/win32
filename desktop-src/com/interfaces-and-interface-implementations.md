@@ -2,7 +2,7 @@
 title: Interfaces and Interface Implementations
 description: COM makes a fundamental distinction between interface definitions and their implementations.
 ms.assetid: f50b3e8f-bf87-4525-b47b-96e75b3a05b9
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

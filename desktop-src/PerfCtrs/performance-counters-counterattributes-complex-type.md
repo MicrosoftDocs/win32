@@ -3,7 +3,7 @@ description: Defines a list that contains up to five counter attributes.
 ms.assetid: d710c3d2-2886-4f1a-bd27-f11451d2f3c6
 title: counterAttributes Complex Type
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - kbSyntax
 api_name: 

@@ -5,7 +5,7 @@ ms.assetid: 0c066bf2-65ab-47fd-bf1e-0b3192d3b4c4
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , displaying members of a group
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -68,7 +68,7 @@ HRESULT PrintGroupObjectMembers(IADsGroup * pADsGroup)
                         for (ULONG i = 0; i < ulElementsFetched; i++ ) 
                         {
                             IDispatch * pDispatch         = NULL; 
-                            // Pointer for holding dispath of element.
+                            // Pointer for holding dispatch of element.
                             IADs      * pIADsGroupMember  = NULL; 
                             // IADs pointer to group member.
                             BSTR        bstrPath          = NULL; 

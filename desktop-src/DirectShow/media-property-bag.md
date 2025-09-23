@@ -2,7 +2,7 @@
 description: Media Property Bag
 ms.assetid: 06678d57-c00b-4575-84e7-3d09f65f19ba
 title: Media Property Bag
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

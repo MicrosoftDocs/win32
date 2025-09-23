@@ -2,7 +2,7 @@
 title: Implicit Binding Handles
 description: Implicit binding handles allow your application to select a specific server to execute its remote procedure calls.
 ms.assetid: cf4e179b-8d97-4597-89e6-c8967b9db6c7
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

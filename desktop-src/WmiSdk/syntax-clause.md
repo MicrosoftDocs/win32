@@ -3,7 +3,7 @@ description: Contains a SYNTAX clause that defines the data and type for the MIB
 ms.assetid: 24c483c8-db50-492f-9c2e-72620395331a
 ms.tgt_platform: multiple
 title: SYNTAX Clause
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

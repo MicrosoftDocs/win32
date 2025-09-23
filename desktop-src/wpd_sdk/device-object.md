@@ -2,7 +2,7 @@
 description: Device Object
 ms.assetid: 0d403a6e-c22e-4b77-9be4-b8d53092f279
 title: Device Object
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

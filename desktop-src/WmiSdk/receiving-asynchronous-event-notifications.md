@@ -3,7 +3,7 @@ description: Asynchronous event notification is a technique that allows an appli
 ms.assetid: 69ec8ead-9073-4689-bc66-5134728ab147
 ms.tgt_platform: multiple
 title: Receiving Asynchronous Event Notifications
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

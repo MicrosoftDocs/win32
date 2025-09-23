@@ -3,7 +3,7 @@ title: Testing Whether Running on a Domain Controller
 description: The following code uses the VerifyVersionInfo function to determine whether the calling process is running on a Windows 2000 Server domain controller.
 ms.assetid: 1cef6478-5503-467c-9b82-830d17018b19
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

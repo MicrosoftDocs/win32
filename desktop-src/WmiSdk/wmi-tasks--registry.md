@@ -3,7 +3,7 @@ description: WMI tasks for the registry create and modify registry keys and valu
 ms.assetid: 0785189e-9638-4776-8414-1414d7b02524
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Registry'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

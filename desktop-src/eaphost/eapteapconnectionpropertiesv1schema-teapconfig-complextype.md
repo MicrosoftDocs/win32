@@ -2,7 +2,7 @@
 title: TeapConfig Complex Type
 description: Learn about the TeapConfig complex type. This type specifies the EAP configuration required for EAP-TEAP.
 ms.assetid: 8ecec9a0-7872-4b7c-8132-bbedc7af6f11
-ms.topic: article
+ms.topic: reference
 ms.date: 07/11/2023
 ---
 

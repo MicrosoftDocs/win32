@@ -2,7 +2,7 @@
 description: Video Capture Interfaces
 ms.assetid: a7ec6607-d6fe-4cf4-b3f2-8636c4d15982
 title: Video Capture Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

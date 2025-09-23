@@ -3,7 +3,7 @@ title: DVC Server APIs
 description: The dynamic virtual channel (DVC) server APIs are implemented by the Remote Desktop Connection (RDC) server of the connection.
 ms.assetid: 9743ce32-9262-4af3-b013-668e834e279c
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

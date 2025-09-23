@@ -2,7 +2,7 @@
 description: System.SourceItem
 ms.assetid: 26b8788e-db69-43ec-befb-410edf0f42d1
 title: System.SourceItem
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

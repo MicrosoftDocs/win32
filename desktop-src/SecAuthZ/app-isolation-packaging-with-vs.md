@@ -1,11 +1,11 @@
 ---
 title: Packaging a Win32 app isolation application with Visual Studio
 description: Learn cover everything needed to package an application to leverage Win32 app isolation.
-ms.topic: article
+ms.topic: concept-article
 ms.date: 08/26/2024
 ---
 
-# Packaging a Win32 app isolation application with Visual Studio
+# Packaging an isolated Win32 application with Visual Studio
 
 This page will cover everything needed to package an application to leverage Win32 app isolation.
 
@@ -91,4 +91,4 @@ After publishing the App Packages, the *Output location* displayed shows the roo
 
 [Application Capability Profiler](app-isolation-capability-profiler.md)
 
-[Packaging an isolated Win32 app with MSIX](app-isolation-msix-packaging.md)
+[Supported Capabilities](app-isolation-supported-capabilities.md)

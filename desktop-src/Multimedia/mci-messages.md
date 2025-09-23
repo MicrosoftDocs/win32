@@ -5,7 +5,7 @@ ms.assetid: 459d0658-4654-4f4c-8a5f-72eccd7abdf3
 keywords:
 - MCI messages
 - MCI reference,messages
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

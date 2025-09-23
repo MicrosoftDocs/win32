@@ -2,7 +2,7 @@
 description: 'You can use the handle to an enhanced metafile to accomplish the following tasks:'
 ms.assetid: 8f887c38-6cfa-4918-aa44-dd5fb837b40b
 title: Enhanced Metafile Operations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

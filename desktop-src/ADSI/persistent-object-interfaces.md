@@ -5,7 +5,7 @@ ms.assetid: cbd70e89-c8cc-48b2-af00-3df613b0908e
 ms.tgt_platform: multiple
 keywords:
 - persistent object interfaces ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

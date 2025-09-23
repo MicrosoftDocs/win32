@@ -2,7 +2,7 @@
 description: The file name of a sound annotation file associated with the photo.
 ms.assetid: 9654303b-8483-4691-820a-4bfd440f2e93
 title: System.Photo.RelatedSoundFile
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

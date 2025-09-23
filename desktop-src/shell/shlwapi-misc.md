@@ -1,7 +1,7 @@
 ---
 description: This section describes those Windows Shell functions exported by Shlwapi.dll and defined in Shlwapi.h and Shlwapi.lib that do not fall under one of the other utility function categories.
 title: Shell Miscellaneous Utility Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 11787717-6370-408d-9a86-e208b33521c7
 api_name: 

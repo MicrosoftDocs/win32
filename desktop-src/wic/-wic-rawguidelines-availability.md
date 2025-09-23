@@ -2,7 +2,7 @@
 description: Codec Availability and Platform Support
 ms.assetid: 6b3d09c9-e91f-4c62-92f7-c2643e51987f
 title: Codec Availability and Platform Support
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

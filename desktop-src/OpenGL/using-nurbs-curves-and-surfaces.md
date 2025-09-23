@@ -7,7 +7,7 @@ keywords:
 - GLU (OpenGL Utility),Non-Uniform Rational B-Spline (NURBS)
 - Non-Uniform Rational B-Spline (NURBS) OpenGL
 - NURBS (Non-Uniform Rational B-Spline) OpenGL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -46,7 +46,7 @@ As with quadric objects, you can control how NURBS curves and surfaces are rende
 
 -   Whether to discard a curve or surface whose control polyhedron lies outside the current viewport.
 -   The maximum length (in pixels) of edges of polygons used to render curves and surfaces.
--   Whether you will take the projection matrix, modelview matrix, and viewport from the OpenGL server or supply them explictly with [**gluLoadSamplingMatrices**](gluloadsamplingmatrices.md).
+-   Whether you will take the projection matrix, modelview matrix, and viewport from the OpenGL server or supply them explicitly with [**gluLoadSamplingMatrices**](gluloadsamplingmatrices.md).
 
 Use [**gluNurbsProperty**](glunurbsproperty.md) to set these properties, or use the default values. You can query a NURBS object about its rendering style with [**gluGetNurbsProperty**](glugetnurbsproperty.md).
 

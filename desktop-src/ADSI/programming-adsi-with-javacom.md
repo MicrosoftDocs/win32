@@ -8,7 +8,7 @@ keywords:
 - ADSI ADSI , using, Java/COM programming for
 - ADSI ADSI , example code Java
 - ADSI ADSI , example code Java , binding to an ADSI object and invoking methods on that object
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

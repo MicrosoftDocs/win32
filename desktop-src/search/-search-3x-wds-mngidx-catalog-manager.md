@@ -2,7 +2,7 @@
 description: The ISearchCatalogManager and ISearchCatalogManager2 interfaces provide methods to manage a search catalog, such as causing re-indexing or setting time-outs.
 ms.assetid: 8dad7012-d610-4398-8e86-cd319db8c360
 title: Using the Catalog Manager
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -74,7 +74,7 @@ The following table describes the methods of ISearchCatalogManager used for mana
 
 There are three catalog properties that you can manage with the Catalog Manager:
 
-- **Diacritic sensitivity.** Diacritics are accent marks added to letters to signify a word's meaning or pronunciation. This property determines whether the catalog is sensitive to diacritics, and is important when you or your users search and index text in multiple languages. For example, with this property set to **FALSE**, the catalog would treat "resume" and "resumé" as if they were the same word.
+- **Diacritic sensitivity.** Diacritics are accent marks added to letters to signify a word's meaning or pronunciation. This property determines whether the catalog is sensitive to diacritics, and is important when you or your users search and index text in multiple languages. For example, with this property set to **FALSE**, the catalog would treat "resume" and "résumé" as if they were the same word.
 - **Connection timeouts.** This property represents the amount of time to wait for a connection response from a server or data store, as represented in a [**TIMEOUT\_INFO**](/windows/desktop/api/Searchapi/ns-searchapi-timeout_info) structure. You can use this property to fine tune Windows Search.
 - **Data timeouts** This property represents the amount of time to wait for a data transaction between the indexer and a protocol handler or filter, as represented in a [**TIMEOUT\_INFO**](/windows/desktop/api/Searchapi/ns-searchapi-timeout_info) structure. If this time has elapsed, the process from the Filter Daemon is terminated to prevent deadlock and other resource problems.
 

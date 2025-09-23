@@ -2,7 +2,7 @@
 description: Represents the thumbnail in VT\_CF format.
 ms.assetid: 9fa0d349-a793-435f-af34-270bdd0ae3ad
 title: System.Thumbnail
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

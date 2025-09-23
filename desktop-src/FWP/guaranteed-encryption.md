@@ -2,7 +2,7 @@
 title: Guaranteed Encryption
 description: The Guaranteed Encryption IPsec policy scenario requires IPsec encryption for all matching traffic. This policy must be specified in conjunction with one of the transport mode policy options.
 ms.assetid: 68758f0c-f134-4b7a-820a-313e2a82f280
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

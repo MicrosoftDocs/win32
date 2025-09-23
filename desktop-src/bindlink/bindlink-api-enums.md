@@ -2,7 +2,7 @@
 description: The native bind link API contains the following enums.
 ms.assetid: aaee6f06-8dd9-434b-9414-1438cffcd7aa
 title: Bind link API enums
-ms.topic: article
+ms.topic: reference
 ms.date: 02/27/2024
 ---
 

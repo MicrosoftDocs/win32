@@ -2,7 +2,7 @@
 title: IAgentNotifySink Move
 description: IAgentNotifySink Move
 ms.assetid: d1809fdb-df4b-4884-b9e8-2877a814dc9a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

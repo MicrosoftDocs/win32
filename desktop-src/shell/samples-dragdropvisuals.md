@@ -1,7 +1,7 @@
 ---
 description: Demonstrates how to use the Shell drag-and-drop services to get the presentation features that Shell drag-and-drop supports for both targets and sources.
 title: Drag-and-Drop Visuals Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ms.assetid: 72256871-6E14-401b-9201-23127AFB224D
 api_name: 

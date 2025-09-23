@@ -2,7 +2,7 @@
 title: How to build a simple visual tree
 description: This topic demonstrates how to build a simple Microsoft DirectComposition visual tree. The example in this topic builds and composes a visual tree that consists of a root visual and three child visuals.
 ms.assetid: 86006C3C-67A8-4931-BE76-D0CA9DB19505
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -440,7 +440,7 @@ HRESULT DemoApp::Initialize()
     wcex.cbClsExtra    = 0;
     wcex.cbWndExtra    = sizeof(LONG_PTR);
     wcex.hInstance     = HINST_THISCOMPONENT;
-    wcex.hbrBackground = (HBRUSH)(COLOR_WINDOW+1);;
+    wcex.hbrBackground = (HBRUSH)(COLOR_WINDOW+1);
     wcex.lpszMenuName  = NULL;
     wcex.hCursor       = LoadCursor(NULL, IDC_ARROW);
     wcex.lpszClassName = L"DirectCompDemoApp";

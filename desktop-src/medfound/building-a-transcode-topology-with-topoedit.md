@@ -2,7 +2,7 @@
 description: This topic describes how to create a transcoding topology in TopoEdit.
 ms.assetid: 9a7b57f9-f606-4874-9fd3-aa37215f6f20
 title: Building a Transcode Topology with TopoEdit
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

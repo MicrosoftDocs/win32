@@ -2,7 +2,7 @@
 description: Understanding the Application Compatibility Challenge
 ms.assetid: 3FF3C91F-3E06-473C-BAC2-0C8C322303C1
 title: Understanding the Application Compatibility Challenge
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

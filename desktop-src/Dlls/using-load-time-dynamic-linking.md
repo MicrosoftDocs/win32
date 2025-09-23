@@ -2,7 +2,7 @@
 description: After you have created a DLL, you can use the functions it defines in an application. The following is a simple console application that uses the myPuts function exported from Myputs.dll (see Creating a Simple Dynamic-Link Library).
 ms.assetid: d67000c2-21ca-49c2-86f1-708f33003d1e
 title: Using Load-Time Dynamic Linking
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

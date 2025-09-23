@@ -2,7 +2,7 @@
 description: The IInstallationJob interface defines the following properties.
 ms.assetid: 74087098-bef0-41f8-8d7b-bbca1d000df8
 title: IInstallationJob Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Server-side Cleanup
 description: Server-side cleanup and Remote Procedure Call (RPC).
 ms.assetid: 8a48f698-82ae-464b-bdd9-f0245bbc7733
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

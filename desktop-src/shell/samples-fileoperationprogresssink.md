@@ -1,7 +1,7 @@
 ---
 description: Demonstrates how to use the IFileOperationProgressSink interface methods for monitoring the details of IFileOperation interface actions.
 title: File Operation Progress Sink
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ms.assetid: 196ABB75-1FE0-44f5-9060-59AAB4231567
 api_name: 

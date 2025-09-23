@@ -1,7 +1,7 @@
 ---
 title: MSFT_NetFirewallHyperVPort class
 description: Represents a particular Windows Defender Firewall Hyper-V port.
-ms.topic: article
+ms.topic: reference
 ms.date: 05/16/2024
 topic_type: 
 - APIRef

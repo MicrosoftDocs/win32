@@ -2,7 +2,7 @@
 title: Multi-engine synchronization
 description: This topic discusses synchronizing access to the multiple independent engines found in most modern GPUs.
 ms.assetid: 93903F50-A6CA-41C2-863D-68D645586B4C
-ms.topic: article
+ms.topic: concept-article
 ms.date: 08/09/2024
 ---
 

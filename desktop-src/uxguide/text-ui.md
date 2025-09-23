@@ -2,7 +2,7 @@
 title: User Interface Text
 description: Learn about the user interface text that appears on UI surfaces.
 ms.assetid: db42fe22-9baf-453a-9b89-9bbb251b0b6f
-ms.topic: article
+ms.topic: concept-article
 ms.date: 10/20/2020
 ---
 

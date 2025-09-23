@@ -3,7 +3,7 @@ title: Obtaining an Object Identifier
 description: Two of the most common ways to get an Object Identifier (OID) are discussed in the following topics.
 ms.assetid: 0c505790-ba20-432a-8786-de4e1ad03f0a
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 02/13/2024
 ---
 

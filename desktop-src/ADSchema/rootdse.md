@@ -5,7 +5,7 @@ ms.assetid: dd5a160d-6604-43ca-878c-6b19e90d3adb
 ms.tgt_platform: multiple
 keywords:
 - rootDSE Active Directory Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

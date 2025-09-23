@@ -2,7 +2,7 @@
 description: This section provides info about the DXGI API.
 ms.assetid: d78ccfe3-2e6f-4e8c-9ea3-1f577e40d21a
 title: DXGI Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -4,7 +4,7 @@ description: Glossary page
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: bbda0db7-f473-444b-85ab-f3c5240c4b18
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 
@@ -380,7 +380,7 @@ A connection between a Windows Remote Management [*client*](windows-remote-manag
 **Simple and Protected GSS-API Negotiation Mechanism (SPNEGO)**
 </dt> <dd>
 
-An authentication mechanism used by the client or server receiving requests for data through the WinRM in an Active Directory context. SPNEGO is based on an Request For Comments (RFC) protocol produced by the Internet Engineering Task Force (IETF). SPNEGO is also known as [*Windows Integrated Authentication*](windows-remote-management-glossary.md), the term used in the Windows Remote Management help topics.
+An authentication mechanism used by the client or server receiving requests for data through the WinRM in an Active Directory context. SPNEGO is based on a Request For Comments (RFC) protocol produced by the Internet Engineering Task Force (IETF). SPNEGO is also known as [*Windows Integrated Authentication*](windows-remote-management-glossary.md), the term used in the Windows Remote Management help topics.
 
 </dd> <dt>
 

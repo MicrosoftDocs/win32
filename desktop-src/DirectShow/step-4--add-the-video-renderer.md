@@ -2,7 +2,7 @@
 description: This topic is step 4 of the tutorial Audio/Video Playback in DirectShow.
 ms.assetid: 34f35a95-1981-4467-a581-46db96c05224
 title: 'Step 4: Add the Video Renderer'
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

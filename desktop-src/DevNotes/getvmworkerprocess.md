@@ -34,7 +34,7 @@ GetVmWorkerProcess(
 
 ### VirtualMachineId [in]
 
-Returns the specified COM interface from a running worker rocess.
+Returns the specified COM interface from a running worker process.
 
 ### InterfaceId [in]
 

@@ -3,7 +3,7 @@ description: Making an asynchronous call to a WMI method or a provider method al
 ms.assetid: 61f401d9-c874-472d-8dd3-7cf9d7f20a12
 ms.tgt_platform: multiple
 title: Making an Asynchronous Call with VBScript
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

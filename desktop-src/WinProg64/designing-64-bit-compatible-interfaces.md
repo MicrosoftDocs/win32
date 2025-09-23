@@ -7,7 +7,7 @@ keywords:
 - 64-bit-compatible interfaces 64-bit Windows Programming
 - 64-bit Windows programming guide 64-bit Windows Programming , compatibility
 - compatibility 64-bit Windows Programming
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

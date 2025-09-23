@@ -2,7 +2,7 @@
 title: HTTP Channel Layer Examples
 ms.assetid: 2a49dfc9-8cb0-457b-9726-eb9c13ee773e
 description: "Learn more about: HTTP Channel Layer Examples"
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

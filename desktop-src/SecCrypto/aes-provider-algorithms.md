@@ -2,7 +2,7 @@
 description: The following table lists the algorithms supported by the Microsoft Advanced Encryption Standard (AES) Cryptographic Provider.
 ms.assetid: 34d0479f-9d1e-41cd-87b0-6bc18c7a062b
 title: AES Provider Algorithms
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

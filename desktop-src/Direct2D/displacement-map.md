@@ -4,7 +4,7 @@ description: Use the displacement map effect to displace the pixels of the input
 ms.assetid: 07AA64B1-B570-428E-924F-D7DF3E4DB3F8
 keywords:
 - displacement map effect
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

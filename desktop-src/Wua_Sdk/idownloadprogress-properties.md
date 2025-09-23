@@ -2,7 +2,7 @@
 description: The IDownloadProgress interface defines the following properties.
 ms.assetid: 8f64c702-b2b5-4a5f-9365-bc962e35f499
 title: IDownloadProgress Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

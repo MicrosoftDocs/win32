@@ -1,7 +1,7 @@
 ---
 description: Understand common concepts when you want to extend Windows Explorer, which is one of many extensibility options in the Windows Shell UI.
 title: Common Explorer Concepts
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.assetid: 78136c36-bd3c-4114-8b69-fef4e307566d
 api_name: 

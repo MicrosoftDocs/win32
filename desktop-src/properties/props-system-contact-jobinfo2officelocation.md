@@ -2,7 +2,7 @@
 description: System.Contact.JobInfo2OfficeLocation
 ms.assetid: 0ab74bf1-67ef-4b97-810f-3e6f34876052
 title: System.Contact.JobInfo2OfficeLocation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

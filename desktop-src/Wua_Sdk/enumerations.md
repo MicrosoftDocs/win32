@@ -2,7 +2,7 @@
 description: Enumerations (Controls and Property Pages)
 ms.assetid: 2ac80d0f-94c2-4d70-a48a-1b0060f91902
 title: WUA Controls and Property Pages enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

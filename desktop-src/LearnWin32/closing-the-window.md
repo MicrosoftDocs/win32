@@ -2,7 +2,7 @@
 title: Closing the Window
 description: When the user closes a window, that action triggers a sequence of window messages.
 ms.assetid: f0449f11-0569-4a3a-92bc-bced7e0db516
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

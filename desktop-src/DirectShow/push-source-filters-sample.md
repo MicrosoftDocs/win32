@@ -2,7 +2,7 @@
 description: Push Source Filters Sample
 ms.assetid: fc52f7bc-e9c7-4cd4-91e8-5c8f3450ca95
 title: Push Source Filters Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

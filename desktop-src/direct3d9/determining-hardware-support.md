@@ -2,7 +2,7 @@
 description: Direct3D provides the following functions to determine hardware support.
 ms.assetid: 63afa799-2c2c-432c-993e-dca8f7433d59
 title: Determining Hardware Support (Direct3D 9)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

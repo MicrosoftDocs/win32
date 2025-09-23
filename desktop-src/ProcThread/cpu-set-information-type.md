@@ -3,7 +3,7 @@ description: Represents the type of information in the SYSTEM\_CPU\_SET\_INFORMA
 ms.assetid: B42CB8E8-0010-4B11-AB0D-6D196DCCC90A
 title: CPU_SET_INFORMATION_TYPE enumeration (Processthreadapi.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - APIRef
 - kbSyntax

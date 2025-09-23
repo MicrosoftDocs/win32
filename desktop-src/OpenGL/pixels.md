@@ -7,7 +7,7 @@ keywords:
 - OpenGL processing pipeline,pixels
 - pixels OpenGL
 - framebuffers,converting fragments to pixels
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

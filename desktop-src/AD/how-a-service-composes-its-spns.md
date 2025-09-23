@@ -5,7 +5,7 @@ ms.assetid: 8710409a-67b1-45e5-9cd7-5125443ab921
 ms.tgt_platform: multiple
 keywords:
 - service principal name AD ,how a service composes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Filter Graph Manager
 ms.assetid: 'b1a53193-27c6-4e86-a5b9-f3c1e4401690'
 title: Filter Graph Manager
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

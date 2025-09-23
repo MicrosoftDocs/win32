@@ -2,7 +2,7 @@
 description: The comm/datamodem/portname device class consists of the device names to which modems are attached.
 ms.assetid: 174519f6-3e73-4f05-9718-9e38680a0fb7
 title: comm/datamodem/portname
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

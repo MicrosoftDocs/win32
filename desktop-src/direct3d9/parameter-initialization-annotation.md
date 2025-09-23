@@ -2,7 +2,7 @@
 description: Use this annotation to define the contents of an external file as the initialization value for an effect parameter.
 ms.assetid: 3da1f951-cb8b-49ce-aba2-0badb3178093
 title: Parameter Initialization Annotation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: System.Identity.IsMeIdentity
 ms.assetid: 4aae7a73-e0e9-4e11-811b-4a7a936b8084
 title: System.Identity.IsMeIdentity
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

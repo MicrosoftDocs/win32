@@ -3,7 +3,7 @@ description: WMI runs as part of a shared service host with ports assigned throu
 ms.assetid: 62908445-2a43-4a20-a998-e497c6ecf48e
 ms.tgt_platform: multiple
 title: Setting Up a Fixed Port for WMI
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

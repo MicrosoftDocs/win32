@@ -2,7 +2,7 @@
 description: MUI Fundamental Concepts Explained
 ms.assetid: 9ab19a56-4d31-471d-949e-a539751b62e3
 title: MUI Fundamental Concepts Explained
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

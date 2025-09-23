@@ -2,8 +2,8 @@
 title: UI Automation
 description: Microsoft UI Automation is an accessibility framework that enables Windows applications to provide and consume programmatic information about user interfaces (UIs).
 ms.assetid: 700ca38d-ff40-472b-a95a-11fa94c3bc1d
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # UI Automation

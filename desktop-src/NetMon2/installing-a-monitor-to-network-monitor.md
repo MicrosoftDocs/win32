@@ -2,7 +2,7 @@
 description: Installing a monitor DLL is a simple process.
 ms.assetid: f2c18faa-0010-4d26-b7e9-e8a7b5d11981
 title: Installing a Monitor to Network Monitor
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

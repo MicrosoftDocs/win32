@@ -2,7 +2,7 @@
 title: Call Synchronization
 description: Call Synchronization
 ms.assetid: e74407ef-f500-4d13-aef4-ca6bb37d5858
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

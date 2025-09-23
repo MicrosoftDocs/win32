@@ -2,7 +2,7 @@
 description: Learn about setting properties in the ASF file sink, which an application can use to archive ASF media data to a file.
 ms.assetid: a47caabd-23e3-4d22-b4b6-5fdb79d62ca1
 title: Setting Properties in the File Sink
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

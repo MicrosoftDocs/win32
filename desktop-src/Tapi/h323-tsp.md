@@ -2,7 +2,7 @@
 description: The H323 TSP (H323.tsp), when paired with the H323 MSP (H323msp.dll), allows an application to make and receive video and audio calls using the H.323 protocol for IP telephony.
 ms.assetid: d25010ba-1a69-44c0-a3b8-b86d1dd981c8
 title: H323 TSP
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

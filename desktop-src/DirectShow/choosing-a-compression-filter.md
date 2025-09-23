@@ -2,7 +2,7 @@
 description: Choosing a Compression Filter
 ms.assetid: 9a2c3c48-771e-44db-a042-3db0fd9a6c76
 title: Choosing a Compression Filter
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: ICE83 validates the MsiAssembly table.
 ms.assetid: dd290c73-6528-482d-8276-ac56d0fec181
 title: ICE83
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

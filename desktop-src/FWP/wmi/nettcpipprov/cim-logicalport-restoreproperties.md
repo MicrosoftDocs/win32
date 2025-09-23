@@ -5,7 +5,7 @@ title: RestoreProperties method of the CIM\_LogicalPort class
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax

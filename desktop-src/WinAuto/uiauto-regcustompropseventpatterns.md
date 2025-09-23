@@ -22,8 +22,8 @@ keywords:
 - client wrappers
 - pattern handlers
 - implementing pattern handlers
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: how-to
+ms.date: 07/14/2025
 ---
 
 # Register custom properties, events, and control patterns

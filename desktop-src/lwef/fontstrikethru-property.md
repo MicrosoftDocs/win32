@@ -2,7 +2,7 @@
 title: FontStrikeThru Property
 description: FontStrikeThru Property
 ms.assetid: 2d87fded-2f3e-44cd-b2a5-5f9c76ca1cf5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

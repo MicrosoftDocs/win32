@@ -2,7 +2,7 @@
 description: Back up volumes while applications on a system continue to write to the volumes. Minimize application downtime by quickly creating a snapshot (shadow copy) of a volume that duplicates all data. Perform multivolume backup.
 ms.assetid: 1eca1e3e-fc86-44b5-b3c4-bcee41bc5a43
 title: Volume Shadow Copy Service
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

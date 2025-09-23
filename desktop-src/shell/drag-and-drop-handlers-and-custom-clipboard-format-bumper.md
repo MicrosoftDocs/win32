@@ -1,7 +1,7 @@
 ---
 description: Drag-and-Drop Handlers and Custom Clipboard Format
 title: Drag-and-Drop Handlers and Custom Clipboard Format
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

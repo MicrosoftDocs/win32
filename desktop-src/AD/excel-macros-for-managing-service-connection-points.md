@@ -3,7 +3,7 @@ title: Excel Macros for Managing Service Connection Points
 description: Service Connection Points can be managed using simple Excel Macros.
 ms.assetid: da8a7363-6814-4c26-b259-53e6f6ba98cd
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle
@@ -42,7 +42,7 @@ Private Sub p_CreateExampleSCP()
                     
     IADsSCP.PutEx 2, "Keywords", _
                     Array( _
-                        "KW1=A kewyrowd value" _
+                        "KW1=A keyword value" _
                     )
                     
     IADsSCP.SetInfo

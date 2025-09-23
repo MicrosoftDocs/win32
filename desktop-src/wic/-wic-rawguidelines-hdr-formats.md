@@ -2,7 +2,7 @@
 description: High Dynamic Range Pixel Formats
 ms.assetid: 037b6bde-a3e0-401d-9be7-b58c5f74c30a
 title: High Dynamic Range Pixel Formats
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

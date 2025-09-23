@@ -5,7 +5,7 @@ ms.assetid: c7d4ed96-1356-4361-b464-7454661d73d8
 ms.tgt_platform: multiple
 keywords:
 - utility interfaces ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

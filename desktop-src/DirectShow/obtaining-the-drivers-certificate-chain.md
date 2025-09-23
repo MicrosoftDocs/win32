@@ -2,7 +2,7 @@
 description: Obtaining the Drivers Certificate Chain
 ms.assetid: bc7b346c-3382-4f2b-90b6-03f6a1a5a9ce
 title: Obtaining the Drivers Certificate Chain
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

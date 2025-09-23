@@ -2,7 +2,7 @@
 description: Indicates the resolution units. Used for images with a non-square aspect ratio, but without meaningful absolute dimensions. 1 = No absolute unit of measurement. 2 = Inches. 3 = Centimeters. The default value is 2 (Inches).
 ms.assetid: ff10ed8a-d73b-4d9b-b224-9ecfcc37d5af
 title: System.Image.ResolutionUnit
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

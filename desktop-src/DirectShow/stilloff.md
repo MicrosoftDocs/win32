@@ -2,7 +2,7 @@
 description: The StillOff event is sent when the StillOff command has been enabled or disabled.
 ms.assetid: '365021d5-ba09-4a39-b919-0d6055382996'
 title: StillOff
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

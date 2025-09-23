@@ -7,7 +7,7 @@ keywords:
 - OpenGL on Windows,palette management
 - palette management OpenGL
 - color modes OpenGL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

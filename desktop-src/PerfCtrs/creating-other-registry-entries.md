@@ -2,8 +2,8 @@
 description: The performance DLLs OpenPerformanceData function takes a string argument as input.
 ms.assetid: 8ec0ea45-5789-4801-b486-555779a7303e
 title: Creating Other Registry Entries
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Creating Other Registry Entries

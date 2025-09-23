@@ -4,7 +4,7 @@ description: Use the discrete transfer effect to map the color intensities of an
 ms.assetid: 5A612002-2B1D-4FC3-B364-AACD9FD44BEC
 keywords:
 - discrete transfer effect
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

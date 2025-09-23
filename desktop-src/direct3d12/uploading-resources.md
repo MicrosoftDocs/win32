@@ -2,7 +2,7 @@
 title: Uploading different types of resources
 description: Shows how to use one buffer to upload both constant buffer data and vertex buffer data to the GPU, and how to properly sub-allocate and place data within buffers.
 ms.assetid: 255B0482-21D6-4276-8009-3F3891879CA1
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

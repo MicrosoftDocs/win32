@@ -4,7 +4,7 @@ description: Controls the global activation and call policies of the machine. On
 ms.assetid: 8533270d-f1b0-42b9-a50d-b05a0dfeee22
 keywords:
 - EnableDCOM registry value COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

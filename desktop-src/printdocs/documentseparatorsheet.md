@@ -2,7 +2,7 @@
 description: Learn about the DocumentSeparatorSheet element, which describes the separator sheet usage for a document.
 ms.assetid: f0b2192d-4bb7-4ba2-8dd0-35a20183ea31
 title: DocumentSeparatorSheet
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

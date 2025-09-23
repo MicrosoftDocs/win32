@@ -2,7 +2,7 @@
 description: This section provides an overview of common audio concepts with which an audio developer should be familiar.
 ms.assetid: 35aa5f10-0bf5-2928-ef9e-ede8b37d8eee
 title: Common Audio Concepts
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

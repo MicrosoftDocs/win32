@@ -3,7 +3,7 @@ title: Installation and configuration for Windows Remote Management
 description: Learn how to install and configure Windows Remote Management in order to run Windows Remote Management scripts and for the Winrm tool to perform data operations.
 ms.date: 07/15/2024
 ms.assetid: 81c40456-0003-46d0-8695-83bf77432056
-ms.topic: conceptual
+ms.topic: how-to
 ---
 
 # Installation and configuration for Windows Remote Management
@@ -171,6 +171,9 @@ Specifies a URL prefix on which to accept HTTP or HTTPS requests. The default UR
 ### AllowUnencrypted
 
 Allows the client computer to request unencrypted traffic. By default, the client computer requires encrypted network traffic and this setting is *False*.
+
+> [!NOTE]
+> Allowing unencrypted traffic isn't considered secure.
 
 ### Basic
 

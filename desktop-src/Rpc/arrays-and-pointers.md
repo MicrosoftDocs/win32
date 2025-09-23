@@ -4,7 +4,7 @@ description: Remote Procedure Call (RPC) is designed to be mostly transparent to
 ms.assetid: 5ad5a51d-a821-44a5-bbc3-14409cb42cb4
 keywords:
 - Remote Procedure Call RPC , described, arrays and pointers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

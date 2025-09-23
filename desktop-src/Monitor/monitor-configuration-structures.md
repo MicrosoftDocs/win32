@@ -6,7 +6,7 @@ keywords:
 - monitor,structures
 - structures for monitor configuration
 - monitor configuration,structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

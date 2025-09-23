@@ -2,7 +2,7 @@
 description: The user-friendly form of System.Importance. This value is not intended to be parsed programmatically.
 ms.assetid: 04bd4b6c-b850-4c55-bb8f-20bb45a7a5e5
 title: System.ImportanceText
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

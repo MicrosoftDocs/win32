@@ -2,7 +2,7 @@
 title: Guidelines for Services
 description: Services should adhere to these guidelines to ensure that the Restart Manager can shut down and restart services if necessary to install updates. Applications can use the guidelines that are described in Guidelines for Applications.
 ms.assetid: 69a98f82-71bb-4780-8a3f-294cc5629900
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

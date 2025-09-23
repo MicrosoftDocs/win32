@@ -8,7 +8,7 @@ keywords:
 - ASF (Advanced Systems Format),device registration objects
 - objects,device registration objects
 - device registration objects
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

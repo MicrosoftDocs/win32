@@ -4,7 +4,7 @@ description: Sets the verbosity of event log entries about failed requests for c
 ms.assetid: c3981621-5826-405c-8962-edfa9c783c2d
 keywords:
 - ActivationFailureLoggingLevel registry value COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

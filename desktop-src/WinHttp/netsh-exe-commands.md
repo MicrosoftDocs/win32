@@ -1,7 +1,7 @@
 ---
 title: Netsh.exe commands
 description: You can use commands in the netsh winhttp context to configure proxy and tracing settings for Windows HTTP.
-ms.topic: article
+ms.topic: concept-article
 ms.date: 12/11/2023
 ---
 

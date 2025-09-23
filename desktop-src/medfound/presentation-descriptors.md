@@ -2,7 +2,7 @@
 description: Presentation Descriptors
 ms.assetid: 714c8bda-5ce1-47e2-ba73-9304e26b3129
 title: Presentation Descriptors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

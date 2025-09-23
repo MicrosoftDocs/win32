@@ -3,7 +3,7 @@ description: Defines an attribute of a counter that specifies how the counter da
 ms.assetid: 3749501b-4f3e-42e5-b1d5-2700b6d4a48a
 title: counterAttribute Complex Type
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - kbSyntax
 api_name: 

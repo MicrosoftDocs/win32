@@ -2,7 +2,7 @@
 description: End-of-Stream Notifications
 ms.assetid: cf2b13bc-5b54-4ac7-8a33-7434126fdf31
 title: End-of-Stream Notifications
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---
@@ -28,7 +28,7 @@ To determine the number of streams, the Filter Graph Manager counts the number o
 
 ### End-of-Stream Notifications in Pull Mode
 
-In an [**IAsyncReader**](/windows/desktop/api/Strmif/nn-strmif-iasyncreader) connection, the source filter does not send an end-of-stream notification. Instread, this is done by the downstream filter, which is typically a parser filter. The parser sends the [**EndOfStream**](/windows/desktop/api/Strmif/nf-strmif-ipin-endofstream) call downstream. It does not send one upstream to the source filter.
+In an [**IAsyncReader**](/windows/desktop/api/Strmif/nn-strmif-iasyncreader) connection, the source filter does not send an end-of-stream notification. Instead, this is done by the downstream filter, which is typically a parser filter. The parser sends the [**EndOfStream**](/windows/desktop/api/Strmif/nf-strmif-ipin-endofstream) call downstream. It does not send one upstream to the source filter.
 
 ## Related topics
 

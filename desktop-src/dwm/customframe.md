@@ -18,7 +18,7 @@ keywords:
 - hit testing
 - Desktop Window Manager (DWM),hit testing
 - DWM (Desktop Window Manager),hit testing
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

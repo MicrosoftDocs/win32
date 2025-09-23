@@ -1,9 +1,9 @@
 ---
 title: DNS constants
 description: The following constants are defined for DNS in host byte order.
+ms.date: 06/24/2025
 ms.assetid: 95bc9193-7962-498a-9abd-c4718ac35f0f
-ms.topic: article
-ms.date: 07/13/2023
+ms.topic: reference
 ---
 
 # DNS constants
@@ -11,6 +11,8 @@ ms.date: 07/13/2023
 The following constants are defined for DNS in host byte order.
 
 ## DNS record types
+
+These are DNS query/record types.
 
 | Constant | Value |
 |-|-|
@@ -76,6 +78,9 @@ The following constants are defined for DNS in host byte order.
 | DNS_TYPE_WINS | 0xff01 |
 | DNS_TYPE_WINSR | 0xff02 |
 | DNS_TYPE_NBSTAT | DNS_TYPE_WINSR |
+| DNS_TYPE_TLSA. See RFC 6698. | 0x0034 (52) |
+| DNS_TYPE_SVCB. See draft-ietf-dnsop-svcb-https. When DNS_TYPE_SVCB is set (in [DNS_QUERY_REQUEST3::QueryType](/windows/win32/api/windns/ns-windns-dns_query_request3)), the response from [DnsQueryEx](/windows/win32/api/windns/nf-windns-dnsqueryex) is in the format [DNS_SVCB_DATA](/windows/win32/api/windnsdef/ns-windnsdef-dns_svcb_data). | 0x0040 (64) |
+| DNS_TYPE_HTTPS. See draft-ietf-dnsop-svcb-https. When DNS_TYPE_HTTPS is set (in [DNS_QUERY_REQUEST3::QueryType](/windows/win32/api/windns/ns-windns-dns_query_request3)), the response from [DnsQueryEx](/windows/win32/api/windns/nf-windns-dnsqueryex) is in the format [DNS_SVCB_DATA](/windows/win32/api/windnsdef/ns-windnsdef-dns_svcb_data). | 0x0041 (65) |
 
 ## DNS class types
 
@@ -152,6 +157,7 @@ The following flags are mutually exclusive:
 | DNS_QUERY_DISABLE_IDN_ENCODING | 0x00200000 | Disables International Domain Name (IDN) encoding support in the [**DnsQuery**](/windows/desktop/api/Windns/nf-windns-dnsquery_a), [**DnsQueryEx**](/windows/desktop/api/Windns/nf-windns-dnsqueryex), [**DnsModifyRecordsInSet**](/windows/desktop/api/Windns/nf-windns-dnsmodifyrecordsinset_a), and [**DnsReplaceRecordSet**](/windows/desktop/api/Windns/nf-windns-dnsreplacerecordseta) APIs. All punycode names are treated as ASCII and will be ASCII encoded on the wire. All non-ASCII names are encoded in UTF8 on the wire. **Windows 8 or later.:** This value is supported. |
 | DNS_QUERY_APPEND_MULTILABEL | 0x00800000 | |
 | DNS_QUERY_RESERVED | 0xf0000000 | Reserved. |
+| DNS_QUERY_PARSE_ALL_RECORDS | 0x0400000000000000 | When DNS_QUERY_PARSE_ALL_RECORDS is set (in [DNS_QUERY_REQUEST3::QueryOptions](/windows/win32/api/windns/ns-windns-dns_query_request3)), [DnsQueryEx](/windows/win32/api/windns/nf-windns-dnsqueryex) screens out all non-parseable return records. Only parsed records will be returned (unknown records that can't be parsed won't be returned).<br><br>When DNS_QUERY_PARSE_ALL_RECORDS is not set, a best effort is made to return everything. So if a record can't be parsed, then it will be returned as a flat buffer. To determine whether a return record is in flat format or parsed format, you can call [DnsIsFlatRecord](/windows/win32/api/windns/nf-windns-dnsisflatrecord). That's useful as we add parsing for future record types that we don't currently parse.<br><br>When DNS_QUERY_PARSE_ALL_RECORDS is not set, the following records will be parsed: DNS_TYPE_A, DNS_TYPE_NS, DNS_TYPE_MD, DNS_TYPE_MF, DNS_TYPE_CNAME, DNS_TYPE_SOA, DNS_TYPE_MB, DNS_TYPE_MG, DNS_TYPE_MR, DNS_TYPE_WKS, DNS_TYPE_PTR, DNS_TYPE_HINFO, DNS_TYPE_MINFO, DNS_TYPE_MX, DNS_TYPE_TEXT, DNS_TYPE_RP, DNS_TYPE_AFSDB, DNS_TYPE_X25, DNS_TYPE_ISDN, DNS_TYPE_RT, DNS_TYPE_SIG, DNS_TYPE_KEY, DNS_TYPE_AAAA, DNS_TYPE_SRV, DNS_TYPE_ATMA, DNS_TYPE_NAPTR, DNS_TYPE_DNAME, DNS_TYPE_OPT, DNS_TYPE_DS, DNS_TYPE_RRSIG, DNS_TYPE_NSEC, DNS_TYPE_DNSKEY, DNS_TYPE_DHCID, DNS_TYPE_NSEC3, DNS_TYPE_NSEC3PARAM, DNS_TYPE_TLSA, DNS_TYPE_TKEY, DNS_TYPE_TSIG, DNS_TYPE_WINS, DNS_TYPE_WINSR. All other record types will be returned in flat format (so long as they're flat read compatible), and it's the caller's responsibility to parse them if needed. To get any other record types back in a parsed format (where available), you must set DNS_QUERY_PARSE_ALL_RECORDS.<br><br>For backward compatibility, you must set  DNS_QUERY_PARSE_ALL_RECORDS in order to parse [**DNS_TYPE_SVCB**](#dns-record-types) and **DNS_TYPE_HTTPS**, or any new record types defined in the future. |
 
 ## DNS update options
 

@@ -2,7 +2,7 @@
 title: HTTP Server Sample Application
 description: This topic contains a sample application that shows how to use the HTTP Server API to perform server-side tasks.
 ms.assetid: 49952ff5-ac8b-4192-a446-5a117f9a8e52
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 
@@ -597,7 +597,7 @@ DWORD SendHttpPostResponse(
                         GENERIC_READ | GENERIC_WRITE, 
                         0,                  // Do not share.
                         NULL,               // No security descriptor.
-                        CREATE_ALWAYS,      // Overrwrite existing.
+                        CREATE_ALWAYS,      // Overwrite existing.
                         FILE_ATTRIBUTE_NORMAL,    // Normal file.
                         NULL
                         );
@@ -673,7 +673,7 @@ DWORD SendHttpPostResponse(
                     //
                     // Alternatively, the response could have been
                     // sent using chunked transfer encoding, by  
-                    // passimg "Transfer-Encoding: Chunked".
+                    // passing "Transfer-Encoding: Chunked".
                     //
 
                     // NOTE: Because the TotalBytesread in a ULONG

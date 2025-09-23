@@ -2,7 +2,7 @@
 description: Properties are used to associate a value with a certificate.
 ms.assetid: a6433416-fe77-4bb0-bd8e-9410a49ab861
 title: External Property Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

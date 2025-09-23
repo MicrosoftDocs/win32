@@ -15,7 +15,7 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),reference
 - reference for MIDI,about
 - MIDI reference,about
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

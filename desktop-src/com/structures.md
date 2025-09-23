@@ -2,7 +2,7 @@
 title: Structures (COM)
 ms.assetid: 07f65855-f529-4d57-81fe-150167a03901
 description: "Learn more about: Structures (COM)"
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

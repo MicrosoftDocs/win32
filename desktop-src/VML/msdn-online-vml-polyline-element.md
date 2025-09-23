@@ -2,7 +2,7 @@
 title: VML Polyline Element
 description: VML Polyline Element
 ms.assetid: 29ccbf78-af1b-475c-b2a4-e1f646db19e9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

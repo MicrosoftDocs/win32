@@ -5,7 +5,7 @@ ms.assetid: D4563FEA-767E-4B16-8F3C-3D548A64B206
 keywords:
 - Direct2D device
 - Direct2D device context
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

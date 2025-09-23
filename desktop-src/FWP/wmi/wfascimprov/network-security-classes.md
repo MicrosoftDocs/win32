@@ -3,7 +3,7 @@ title: WFasCim provider
 description: The WFasCim provider exposes network security and filtering features.
 ms.date: 05/17/2024
 ms.assetid: 27B99B67-1872-4042-939B-8D3936391E05
-ms.topic: article
+ms.topic: reference
 topic_type: 
 - kbSyntax
 api_name: 

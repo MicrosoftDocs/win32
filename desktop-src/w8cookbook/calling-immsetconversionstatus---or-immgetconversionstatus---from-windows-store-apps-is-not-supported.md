@@ -2,7 +2,7 @@
 title: Calling ImmSetConversionStatus() or ImmGetConversionStatus() from Windows Store apps is not supported
 description: Calling ImmSetConversionStatus() or ImmGetConversionStatus() from Windows Store apps is not supported
 ms.assetid: C6F3C8E7-E07A-40C6-A257-037766C670E7
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

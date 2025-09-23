@@ -12,8 +12,8 @@ keywords:
 - control types,UIA_LocalizedControlTypePropertyId property
 - predefined control types
 - UIA_LocalizedControlTypePropertyId property
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # UI Automation Control Types Overview

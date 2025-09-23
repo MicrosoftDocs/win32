@@ -7,7 +7,7 @@ keywords:
 - Querying for Category 1 or 2 Schema Objects AD
 - object AD , querying for category 1 or 2 schema objects
 - schema AD , querying for category 1 or 2 schema objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

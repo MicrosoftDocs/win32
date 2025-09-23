@@ -5,7 +5,7 @@ ms.assetid: d3163c22-22fe-4606-8cad-6f3a87f8fc36
 ms.tgt_platform: multiple
 keywords:
 - service connection points AD ,how clients find and use
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: Custom Properties
 description: Providers can expose additional objects, interfaces, and properties not defined by the ADSI schema.
 ms.assetid: c9f71fce-9dbe-4087-9a14-fcf52b1b4b35
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

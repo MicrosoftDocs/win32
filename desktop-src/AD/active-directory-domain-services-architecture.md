@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - architecture of Active Directory Active Directory
 - architecture of Active Directory Domain Services Active Directory
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

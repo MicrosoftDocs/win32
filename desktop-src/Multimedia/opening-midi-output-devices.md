@@ -11,7 +11,7 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),opening output devices
 - playing MIDI files,opening output devices
 - opening MIDI output devices
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

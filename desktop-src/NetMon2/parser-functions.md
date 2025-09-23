@@ -2,7 +2,7 @@
 description: The following helper functions are called by parsers.
 ms.assetid: 4e9a9314-8d64-46c0-ad98-bdb9dc4c225a
 title: Parser Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

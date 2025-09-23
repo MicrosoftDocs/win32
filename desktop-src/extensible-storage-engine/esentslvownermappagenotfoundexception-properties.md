@@ -6,7 +6,7 @@ ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVOwnerMapPageNotFou
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentslvownermappagenotfoundexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55102887
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # EsentSLVOwnerMapPageNotFoundException properties

@@ -5,7 +5,7 @@ ms.assetid: 1cbdba6a-e017-4f00-87cb-970686a69e0a
 keywords:
 - creating work items Task Scheduler
 - work items Task Scheduler , creating tasks
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

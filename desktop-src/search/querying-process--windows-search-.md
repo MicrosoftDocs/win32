@@ -2,7 +2,7 @@
 description: Querying Process in Windows Search
 ms.assetid: 0e5a633e-1703-4b72-8a04-6da71aec0ae2
 title: Querying Process in Windows Search
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -140,7 +140,7 @@ The [**IEntity**](/windows/desktop/api/Structuredquery/nn-structuredquery-ientit
 
 The [**IRelationship**](/windows/desktop/api/Structuredquery/nn-structuredquery-irelationship) interface represents a relationship between two entities: a source and a destination. Here's what it's individual methods do:
 
--   [**IRelationship::IsReal**](/windows/desktop/api/Structuredquery/nf-structuredquery-irelationship-isreal) reports whether a relationship is real. For example, if entity A derives from entity B and inherits a relationship named R from it, A may still have its own relationship named R. However, the relationship beween A and R must have the same destination type as that of B, and the only reason for it to exist is to store metadata specific to B. Such a relationship of B is said not to be real.
+-   [**IRelationship::IsReal**](/windows/desktop/api/Structuredquery/nf-structuredquery-irelationship-isreal) reports whether a relationship is real. For example, if entity A derives from entity B and inherits a relationship named R from it, A may still have its own relationship named R. However, the relationship between A and R must have the same destination type as that of B, and the only reason for it to exist is to store metadata specific to B. Such a relationship of B is said not to be real.
 -   [**IRelationship::Medadata**](/windows/desktop/api/Structuredquery/nf-structuredquery-irelationship-metadata) returns an enumeration of [**IMetaData**](/windows/desktop/api/Structuredquery/nn-structuredquery-imetadata) interfaces, one for each metadata pair of this entity.
 -   [**IRelationship::DefaultPhrase**](/windows/desktop/api/Structuredquery/nf-structuredquery-irelationship-defaultphrase) returns the default phrase to use for this relationship in restatements. Each relationship has a default phrase that denotes it to facilitate generating an AQS or NQS restatement of a condition tree.
 

@@ -2,7 +2,7 @@
 description: Async Filter Sample
 ms.assetid: ad1f2386-6d23-4a6d-8542-bbca53df4825
 title: Async Filter Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

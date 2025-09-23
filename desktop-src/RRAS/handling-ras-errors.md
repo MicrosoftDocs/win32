@@ -4,7 +4,7 @@ description: When an error occurs, the Remote Access Connection Manager invokes 
 ms.assetid: 73595fa9-9548-49bf-bcce-d023bc1351d5
 keywords:
 - Remote Access Service RAS ,errors
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

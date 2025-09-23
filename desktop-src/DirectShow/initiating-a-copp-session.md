@@ -2,7 +2,7 @@
 description: Initiating a COPP Session
 ms.assetid: c84a83b4-51b2-4b46-860f-d740b42323fa
 title: Initiating a COPP Session
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

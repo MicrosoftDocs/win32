@@ -2,7 +2,7 @@
 description: Partition Properties
 ms.assetid: bd6647a8-ad38-4bd9-842d-6592440099a4
 title: Partition Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

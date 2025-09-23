@@ -4,7 +4,7 @@ description: The following illustration shows the relationship between the diffe
 ms.assetid: 862566ce-47c4-424a-84c2-99f4c92efcc0
 keywords:
 - RTM, Architecture
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: 91fbbdc1-0e84-4b89-8a38-4c8d0268992b
 ms.tgt_platform: multiple
 keywords:
 - Restoring Active Directory Active Directory
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

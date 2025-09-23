@@ -5,7 +5,7 @@ ms.assetid: 9eb08fd4-899a-4610-9491-d7f377a19b46
 keywords:
 - OpenGL on Windows,extension functions
 - extension functions OpenGL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

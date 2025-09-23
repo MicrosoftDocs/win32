@@ -2,7 +2,7 @@
 title: VML Margin-Right Attribute
 description: VML Margin-Right Attribute
 ms.assetid: 7b635bea-df3f-4a24-aa22-cfca95575599
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

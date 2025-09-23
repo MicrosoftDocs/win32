@@ -2,7 +2,7 @@
 description: The following are the COM+ classes.
 ms.assetid: 236725f6-16a3-4209-a9e3-a127c1d7243a
 title: COM+ Classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

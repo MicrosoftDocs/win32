@@ -2,7 +2,7 @@
 description: Linguistic and Unicode Considerations
 ms.assetid: a210bffc-fe71-4909-bc5c-d440890265c9
 title: Linguistic and Unicode Considerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -17,7 +17,7 @@ This section includes the following topics:
 
 ## Additional Resources
 
--   For a list of lanuages supported by word breakers, see [Languages Supported by Windows Search](-search-3x-wds-language-support.md).
+-   For a list of languages supported by word breakers, see [Languages Supported by Windows Search](-search-3x-wds-language-support.md).
 -   If you need to identify the language of a piece of text, you can use Language Auto-Detection (LAD), which is available in Windows 7 and later. For more information, see [Extended Linguistic Services](../intl/extended-linguistic-services.md) (ELS).
 -   For applicable reference documentation, see [Data Add-in Interfaces](-search-data-addins-interfaces-entry-page.md).
 

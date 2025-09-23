@@ -2,7 +2,7 @@
 description: The PlayPrevChapter event is sent when the PlayPrevChapter command has been enabled or disabled.
 ms.assetid: 'bf44bd7e-cfeb-456e-a2e9-3068859d0055'
 title: PlayPrevChapter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

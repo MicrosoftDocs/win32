@@ -2,7 +2,7 @@
 description: COM+ Application Recycling Tasks
 ms.assetid: 4af5470d-6ce2-469f-aa29-55f805527cc5
 title: COM+ Application Recycling Tasks
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

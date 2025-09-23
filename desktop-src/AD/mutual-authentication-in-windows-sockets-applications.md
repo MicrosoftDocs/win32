@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Mutual Authentication in Windows Sockets Applications
 - Active Directory, using, mutual authentication, in Windows sockets applications
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

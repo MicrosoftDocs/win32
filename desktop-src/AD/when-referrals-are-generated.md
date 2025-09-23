@@ -5,7 +5,7 @@ ms.assetid: 2c11a52a-26e2-4a50-a0a3-5463a0852b27
 ms.tgt_platform: multiple
 keywords:
 - referral generation Active Directory
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

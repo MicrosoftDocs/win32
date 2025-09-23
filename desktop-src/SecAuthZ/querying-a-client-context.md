@@ -2,7 +2,7 @@
 description: Applications can call the AuthzGetInformationFromContext function to query information about an existing client context.
 ms.assetid: 32655e54-499e-439e-8d4f-f2b4eaa0b184
 title: Querying a Client Context
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

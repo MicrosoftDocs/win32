@@ -2,7 +2,7 @@
 description: Windows GDI+ exposes a flat API that consists of about 600 functions. These flat API functions are wrapped by the PathGradientBrush C++ class.
 ms.assetid: edd469df-b3e1-4ede-9194-00ce9b3be38b
 title: PathGradientBrush Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

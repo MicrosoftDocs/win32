@@ -2,7 +2,7 @@
 description: Using the System Device Enumerator
 ms.assetid: 70db139c-2c5b-4574-bec3-dfe758b16715
 title: Using the System Device Enumerator
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

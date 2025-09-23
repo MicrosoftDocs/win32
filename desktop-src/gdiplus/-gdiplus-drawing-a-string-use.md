@@ -2,7 +2,7 @@
 description: The topic Drawing a Line shows how to write a Windows application that uses Windows GDI+ to draw a line.
 ms.assetid: fcf45b19-456c-4551-8901-d587a73a5638
 title: Drawing a String
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

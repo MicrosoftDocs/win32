@@ -4,7 +4,7 @@ description: A window station contains a clipboard, an atom table, and one or mo
 ms.assetid: 617661e2-3b0d-42a9-9769-2ba0957c31a8
 keywords:
 - window station objects
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: d2535273-6671-4bd7-9c43-cbb8093d1d52
 keywords:
 - Windows Media Format SDK,privacy statement
 - privacy statement
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

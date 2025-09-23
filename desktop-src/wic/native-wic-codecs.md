@@ -1,14 +1,14 @@
 ---
 title: WIC codecs from Microsoft
-description: These WIC imaging codecs codecs are available in Windows Imaging Component (WIC). They're either built into Windows, or they're extension codecs downloadable from the Microsoft Store.
+description: These WIC imaging codecs are available in Windows Imaging Component (WIC). They're either built into Windows, or they're extension codecs downloadable from the Microsoft Store.
 ms.assetid: 8D3E4B3A-FA39-475C-B177-61FC81E5FFCC
-ms.topic: article
+ms.topic: reference
 ms.date: 01/23/2024
 ---
 
 # WIC codecs from Microsoft
 
-These WIC imaging codecs codecs are available in Windows Imaging Component (WIC). They're either built into Windows, or they're extension codecs downloadable from the Microsoft Store. But in either case, these codecs are all known to WIC because they have predefined identifiers.
+These WIC imaging codecs are available in Windows Imaging Component (WIC). They're either built into Windows, or they're extension codecs downloadable from the Microsoft Store. But in either case, these codecs are all known to WIC because they have predefined identifiers.
 
 ## In this section
 

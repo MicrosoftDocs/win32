@@ -2,7 +2,7 @@
 description: Emitted by a container IFilter for each child URL within the container. The children are eventually crawled by the indexer if they are within scope.
 ms.assetid: e864b3fa-6d43-40fe-9556-474953098947
 title: System.Search.UrlToIndex
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

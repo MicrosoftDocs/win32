@@ -2,7 +2,7 @@
 description: Explains file ratings.
 ms.assetid: 0cd6b665-faf8-4fc5-9625-7d5edbdf7e2f
 title: System.ParentalRatingReason
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

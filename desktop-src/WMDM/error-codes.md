@@ -7,7 +7,7 @@ keywords:
 - Device Manager,error codes
 - programming reference,error codes
 - reference for Windows Media Device Manager,error codes
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 

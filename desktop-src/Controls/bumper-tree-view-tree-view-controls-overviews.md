@@ -2,7 +2,7 @@
 title: Tree-View Controls Overview
 description: Tree-View Controls Overview
 ms.assetid: da126acb-d75b-4857-a11b-749ab17e7e4a
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

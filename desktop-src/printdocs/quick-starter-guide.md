@@ -2,7 +2,7 @@
 description: This article gives you a quick start to implement PrintTicket and PrintCapabilities for your application or device driver.
 ms.assetid: 2c1d912e-464e-48d2-ba4f-c0b9a811b25e
 title: Quick Starter Guide
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

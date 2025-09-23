@@ -2,7 +2,7 @@
 title: disable_consistency_check Attribute
 description: Directs RPC to not enforce correlation consistency checking.
 ms.assetid: 33ba331d-56e5-4965-a844-7780ea81623d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

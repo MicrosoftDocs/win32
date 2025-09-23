@@ -2,7 +2,7 @@
 description: The IInstallationBehavior interface defines the following properties.
 ms.assetid: abb8e247-44c4-491c-b8ea-9f32d7420c45
 title: IInstallationBehavior Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

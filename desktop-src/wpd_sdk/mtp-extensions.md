@@ -2,7 +2,7 @@
 description: MTP Extensions
 ms.assetid: ABF3CA59-5141-4A51-9D52-F5585FBBFEC8
 title: MTP Extensions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

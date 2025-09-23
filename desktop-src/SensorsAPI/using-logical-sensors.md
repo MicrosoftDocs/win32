@@ -2,11 +2,16 @@
 description: Using Logical Sensors
 ms.assetid: 97f4c44e-27dd-4f2a-b987-060bb2d9bc00
 title: Using Logical Sensors
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 09/19/2025
 ---
 
 # Using Logical Sensors
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 To instantiate a device node for a logical sensor, or to reconnect to an existing logical sensor device node, an application or service must call [**ILogicalSensorManager::Connect**](/previous-versions/windows/desktop/legacy/dd374029(v=vs.85)). The *pPropertyStore* parameter for this method requires a pointer to an [IPropertyStore](/windows/win32/api/propsys/nn-propsys-ipropertystore) interface that contains the IDs for the sensor drivers to connect to. This means that you must create a property store and add this data to the store before calling this method.
 
@@ -145,6 +150,6 @@ HRESULT UninstallLogicalSensor(REFGUID guidLogicalID)
 [About Logical Sensors](about-logical-sensors.md)
 </dt> </dl>
 
- 
 
- 
+
+

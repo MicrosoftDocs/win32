@@ -1,7 +1,7 @@
 ---
 title: Stop-Profiling cmdlet
 description: Stops access attempt profiling for a specified application package.
-ms.topic: article
+ms.topic: reference
 ms.date: 08/27/2024
 ---
 

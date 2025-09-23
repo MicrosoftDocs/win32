@@ -2,7 +2,7 @@
 title: Scroll Bar Functions
 description: Scroll Bar Functions
 ms.assetid: ed40b2c7-da99-4fff-bdb9-df682b3cc860
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

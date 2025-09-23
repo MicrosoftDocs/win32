@@ -2,7 +2,7 @@
 description: Protected data is stored as an ASN.1 encoded BLOB.
 ms.assetid: 8E287A1F-4EDF-4068-85F7-59A1D73F7BCD
 title: Protected Data Format
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

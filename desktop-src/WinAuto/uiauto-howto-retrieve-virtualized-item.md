@@ -2,8 +2,8 @@
 title: How to Retrieve a Virtualized Item
 description: This topic contains example code that shows how to find and retrieve UI information about virtualized items in a control.
 ms.assetid: 1882b8a9-0d03-4388-a1d0-1bff0ab9fc66
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: how-to
+ms.date: 07/14/2025
 ---
 
 # How to Retrieve a Virtualized Item

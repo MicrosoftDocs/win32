@@ -2,8 +2,8 @@
 description: A debugging event is an incident in the process being debugged that causes the system to notify the debugger.
 ms.assetid: 43ca51f1-ba73-4031-96c3-5815311ce6f6
 title: Debugging Events
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Debugging Events

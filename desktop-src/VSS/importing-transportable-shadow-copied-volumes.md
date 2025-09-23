@@ -2,7 +2,7 @@
 description: It is sometimes desirable to create a shadow copy on one system, but use the shadow copy on a second system.
 ms.assetid: 4ec63917-03c0-434e-892e-3d9d4c47740e
 title: Importing Transportable Shadow Copied Volumes
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

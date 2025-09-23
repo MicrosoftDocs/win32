@@ -2,8 +2,8 @@
 description: A decorated symbol name includes characters that distinguish how a public symbol has been declared.
 ms.assetid: f02fa21d-3fe9-4838-a938-3136c34bc0e8
 title: Decorated Symbol Names
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Decorated Symbol Names

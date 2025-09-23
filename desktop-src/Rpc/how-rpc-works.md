@@ -2,7 +2,7 @@
 title: How RPC Works
 description: The RPC tools make it appear to users as though a client directly calls a procedure located in a remote server program.
 ms.assetid: 265f31b8-9a41-4255-b070-fd50b00b935b
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

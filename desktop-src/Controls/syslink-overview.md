@@ -2,7 +2,7 @@
 title: About SysLink Controls
 description: A SysLink control is a window that renders marked-up text, and notifies the application when users click its embedded hyperlinks. This control provides a convenient alternative to using the Command link button. For more information, see Button Types.
 ms.assetid: 38cfac3d-de60-4882-a434-4f498330b77d
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

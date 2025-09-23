@@ -9,7 +9,7 @@ keywords:
 - service providers,interfaces
 - creating service providers,interfaces
 - interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

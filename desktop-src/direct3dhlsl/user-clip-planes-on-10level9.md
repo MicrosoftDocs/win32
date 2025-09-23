@@ -2,7 +2,7 @@
 title: User clip planes on feature level 9 hardware
 description: Starting with Windows 8, Microsoft High Level Shader Language (HLSL) supports a syntax that you can use with the Microsoft Direct3D 11 API to specify user clip planes on feature level 9\_x and higher.
 ms.assetid: C51FB0E5-94C3-4E7F-AC33-E5F0F26EDC11
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

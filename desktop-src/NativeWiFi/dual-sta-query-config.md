@@ -1,7 +1,7 @@
 ---
 title: Dual-STA query and configuration
 description: There are two types of interfaces associated with adapters that support dual station (dual-STA) connections&mdash;primary STA interfaces, and secondary STA interfaces. All adapters expose a primary STA interface, but only adapters supporting the dual-STA functionality expose secondary STA interfaces.
-ms.topic: article
+ms.topic: reference
 ms.date: 10/18/2021
 ---
 

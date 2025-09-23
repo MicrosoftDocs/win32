@@ -6,7 +6,7 @@ keywords:
 - animation manager objects Windows Animation ,creating
 - animation timer objects Windows Animation ,creating
 - transition library objects Windows Animation ,creating
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

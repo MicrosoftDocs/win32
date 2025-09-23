@@ -2,7 +2,7 @@
 description: The RegLocator table holds the information needed to search for a file or directory using the registry, or to search for a particular registry entry itself. This table has the following columns.
 ms.assetid: dc88b083-cc1d-46d7-9be8-29ebbf3767a0
 title: RegLocator Table
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -99,7 +99,7 @@ Note that if the value in the Type field is **msidbLocatorTypeRawValue**, the in
 
 | Registry type   | Prefix added by Installer                                                                                                               |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| REG\_SZ         | None, but if the first character of the registry value is \#, the installer escapes the character by prefixing a another \#.            |
+| REG\_SZ         | None, but if the first character of the registry value is \#, the installer escapes the character by prefixing another \#.            |
 | DWORD           | "\#" optionally followed by '+' or '-'                                                                                                  |
 | REG\_EXPAND\_SZ | "\#%"                                                                                                                                   |
 | REG\_MULTI\_SZ  | Null. The installer sets the property to a value beginning with a null and ending with a null.                                          |

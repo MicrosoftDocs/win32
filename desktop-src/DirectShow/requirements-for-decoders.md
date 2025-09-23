@@ -2,7 +2,7 @@
 description: Requirements for Decoders
 ms.assetid: 149aea20-0d37-4b1c-a098-8446c4088ce1
 title: Requirements for Decoders
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

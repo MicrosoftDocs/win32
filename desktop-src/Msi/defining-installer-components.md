@@ -2,7 +2,7 @@
 description: The following outlines how to organize your application into Windows Installer components.
 ms.assetid: 981a3def-1e59-4703-ad97-c8cd5431375d
 title: Defining Installer Components
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

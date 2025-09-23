@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Reading an Object's Security Descriptor AD
 - Active Directory, example code Visual Basic , reading an object's security descriptor
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

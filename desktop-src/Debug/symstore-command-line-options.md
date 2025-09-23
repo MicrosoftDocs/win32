@@ -2,8 +2,8 @@
 description: The following syntax forms are supported for SymStore transactions. The first parameter must always be add or del. The order of the other parameters does not matter.
 ms.assetid: d6d10adb-cb17-4ce3-b0e5-493b313ebdba
 title: SymStore Command-Line Options
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # SymStore Command-Line Options
@@ -21,8 +21,6 @@ The following syntax forms are supported for SymStore transactions. The first pa
 **symstore del** **/i** *ID* **/s** *Store* \[**/o**\] \[**/d** *LogFile*\]
 
 **symstore** **/?**
-
-
 
 | Parameter      | Meaning                                                                                                                                                                                                                                                                                                                                                                                                      |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -46,6 +44,10 @@ The following syntax forms are supported for SymStore transactions. The first pa
 | -:REL          | Allows the paths in the file pointers to be relative. This option implies the /l option. (This option can only be used when /p is used.)                                                                                                                                                                                                                                                                     |
 | -:NOREFS       | Omits the creation of reference pointer files for the files and pointers being stored. This option is only valid during the initial creation of a symbol store if the store being changed was created with this option.                                                                                                                                                                                      |
 | /?             | Displays help text for the SymStore command.                                                                                                                                                                                                                                                                                                                                                                 |
+
+## Example
+
+**Symstore add /p /l /r /g** http://localhost/source/symbols/*.* **/x StoreIndex /a /d /Symlog.log /f** http://localhost/source/symbols/*.*
 
 
 

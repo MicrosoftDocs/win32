@@ -2,7 +2,7 @@
 title: PEAP MS-CHAPv2 Connection Properties
 description: Learn about PEAP MS-CHAPv2 connection properties. See a sample that's an instance of the mschapv2connectionpropertiesv1 legacy schema.
 ms.assetid: a289343a-b702-4be2-baf5-2d004a8a8fea
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This topic discusses specific security considerations when using the Peer Infrastructure.
 ms.assetid: 088a2111-f4ee-4bec-98a9-ac138950958b
 title: Security Considerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Direct3D Device Manager
 ms.assetid: d82fd82d-510e-4004-b18b-8f2372e29701
 title: Direct3D Device Manager
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

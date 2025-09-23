@@ -2,7 +2,7 @@
 description: To respond to a WM_PAINT message, use code like the following.
 ms.assetid: 682d9bc6-8d74-48c4-80fb-bae73d409a6b
 title: Painting on a DC That Spans Multiple Displays
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This section contains Properties belonging to the InkEdit Control.
 ms.assetid: 6aa476b3-97ad-4289-836b-f46fe4d04280
 title: InkEdit Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

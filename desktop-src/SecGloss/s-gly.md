@@ -3,8 +3,9 @@ description: Contains definitions of security terms that begin with the letter S
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 3e9d7672-2314-45c8-8178-5a0afcfd0c50
 title: S (Security Glossary)
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: glossary
+ms.date: 07/09/2025
+# customer intent: As a Windows developer, I want to learn about security terms that begin with the letter S so that I can understand their meanings and use them correctly in my applications.
 ---
 
 # S (Security Glossary)
@@ -402,7 +403,7 @@ See also [*low-level message functions*](l-gly.md).
 <span id="_security_single_sign_on_gly"></span><span id="_SECURITY_SINGLE_SIGN_ON_GLY"></span>**single sign on**
 </dt> <dd>
 
-(SSO) The ability to link a Microsoft account (such as an Microsoft Outlook.com account) with a local account so that one logon allows the user to use other applications that support signing in with their Microsoft account.
+(SSO) The ability to link a Microsoft account (such as a Microsoft Outlook.com account) with a local account so that one logon allows the user to use other applications that support signing in with their Microsoft account.
 
 </dd> <dt>
 
@@ -611,10 +612,3 @@ See also [*access control list*](a-gly.md), [*discretionary access control list*
 The set of functions provided by a [*cryptographic service provider*](c-gly.md) (CSP) that implements an application's functions.
 
 </dd> </dl>
-
- 
-
- 
-
-
-

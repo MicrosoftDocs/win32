@@ -4,7 +4,7 @@ ms.assetid: a9800f9f-d91f-48be-bbb9-f736132c2fd7
 description: "Learn more about: Windows Virtual PC Enumerations"
 keywords:
 - Windows Virtual PC Virtual PC , enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

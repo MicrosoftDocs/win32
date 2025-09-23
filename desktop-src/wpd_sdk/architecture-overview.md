@@ -2,7 +2,7 @@
 description: Architecture Overview
 ms.assetid: ff20d83a-e9cd-46e9-95f7-3ebdf791e667
 title: Architecture Overview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -4,7 +4,7 @@ ms.assetid: 86bf2bed-1b1f-4faa-8947-416fc787cfbc
 description: "Learn more about: Windows Virtual PC Reference"
 keywords:
 - Windows Virtual PC Virtual PC , reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

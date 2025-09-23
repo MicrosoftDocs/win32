@@ -62,7 +62,7 @@ This API is a convenience wrapper around [FillDeviceMemory](winbase-filldeviceme
 // because it is typically faster to do this.
 // To ensure only naturally aligned accesses happen, use FillDeviceMemory.
 //
-// ZeroDeviceMemory is an wrapper around FillDeviceMemory that sets the memory
+// ZeroDeviceMemory is a wrapper around FillDeviceMemory that sets the memory
 // to zero.
 
 ZeroDeviceMemory(DeviceMemoryBuffer, 100);

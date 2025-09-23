@@ -3,7 +3,7 @@ description: Requests that the state of the element be changed to the value spec
 ms.assetid: 3e9e11db-01b8-4f74-96bb-0f6265ca4b20
 title: RequestStateChange method of the CIM_EnabledLogicalElement WMI class
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

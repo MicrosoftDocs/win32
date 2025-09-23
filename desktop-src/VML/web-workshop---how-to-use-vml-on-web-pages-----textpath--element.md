@@ -16,7 +16,7 @@ keywords:
 - vector graphics,drawing VML text
 - drawing text
 - VML shapes,drawing text
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

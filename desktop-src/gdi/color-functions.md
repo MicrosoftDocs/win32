@@ -2,7 +2,7 @@
 description: The following functions are used with color.
 ms.assetid: 9dd32d4a-30bd-406f-a934-bb71ad4ca2cb
 title: Color Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

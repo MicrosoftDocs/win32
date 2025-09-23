@@ -5,7 +5,7 @@ ms.assetid: 6333ce9f-0396-4af7-9e81-f008cf4536ec
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , adding a domain user or group to a local group
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

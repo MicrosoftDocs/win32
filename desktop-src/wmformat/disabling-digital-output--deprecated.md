@@ -12,7 +12,7 @@ keywords:
 - Microsoft Secure Audio Path (SAP),disabling digital output
 - Secure Audio Path (SAP),disabling digital output
 - SAP (Secure Audio Path),disabling digital output
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

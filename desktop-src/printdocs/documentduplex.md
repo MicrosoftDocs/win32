@@ -2,7 +2,7 @@
 description: Learn about the DocumentDuplex element, which describes the duplex characteristics of the output. The duplex feature allows for printing on both sides of the media.
 ms.assetid: dadc52e8-1733-4267-85aa-33d0ddd3dfa2
 title: DocumentDuplex
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

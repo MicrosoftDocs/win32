@@ -2,7 +2,7 @@
 title: Shader Model 3
 description: Shader Model 3 added additional capabilities to shader model 2.
 ms.assetid: bd09f86e-946f-4281-bc48-1db5cd32b2ae
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type:
 - kbArticle

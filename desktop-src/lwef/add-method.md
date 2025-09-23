@@ -2,7 +2,7 @@
 title: Add Method
 description: Add Method
 ms.assetid: dd258294-33d6-45f5-a6a1-a3a56b12a7df
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

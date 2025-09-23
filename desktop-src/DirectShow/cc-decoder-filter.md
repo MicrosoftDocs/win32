@@ -2,7 +2,7 @@
 description: CC Decoder Filter
 ms.assetid: 57ef75f6-411c-4b1f-b0dc-ac293ebc0b9c
 title: CC Decoder Filter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

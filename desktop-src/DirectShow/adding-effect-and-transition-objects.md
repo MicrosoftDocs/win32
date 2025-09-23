@@ -2,7 +2,7 @@
 description: Adding Effect and Transition Objects
 ms.assetid: fe82392f-33e2-432a-a6e3-710e475547b3
 title: Adding Effect and Transition Objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -4,7 +4,7 @@ description: Use the color management effect to transform an image from one ICC 
 ms.assetid: 7351C4B4-F289-4236-BB42-1B3BD8753248
 keywords:
 - color management effect
-ms.topic: article
+ms.topic: reference
 ms.date: 02/05/2019
 ---
 

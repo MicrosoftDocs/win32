@@ -2,7 +2,7 @@
 description: This section describes a set of Windows helper functions used with IPropertyBag objects.
 ms.assetid: 4ef85855-7eb6-43ec-bf29-1223eaf1a0cc
 title: Property Bag Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,8 +2,8 @@
 description: Describes error codes 6000-8199 defined in the WinError.h header file and is intended for developers.
 ms.assetid: eaaf9f65-e8ff-4e54-90a9-04252cdd773a
 title: System Error Codes (6000-8199) (WinError.h)
-ms.topic: reference
-ms.date: 07/15/2024
+ms.topic: error-reference
+ms.date: 07/14/2025
 ---
 
 # System Error Codes (6000-8199)
@@ -1999,7 +1999,7 @@ The transactional resource manager cannot currently accept transacted work due t
 
 
 
-The transactional resource manager had too many tranactions outstanding that could not be aborted. The transactional resource manger has been shut down.
+The transactional resource manager had too many transactions outstanding that could not be aborted. The transactional resource manger has been shut down.
 
 
    

@@ -2,7 +2,7 @@
 description: The provider object models the program that is responsible for storage management.
 ms.assetid: 131e927d-d32a-44f6-8aae-28839cfa9e7d
 title: Provider Object
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

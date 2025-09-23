@@ -2,7 +2,7 @@
 description: Dump Filter Sample
 ms.assetid: 2ce52e6c-a02f-4737-822a-87b2cf2d933d
 title: Dump Filter Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

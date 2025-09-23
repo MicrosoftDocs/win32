@@ -2,7 +2,7 @@
 description: Setting the Graph Clock
 ms.assetid: 23deab26-6c9a-4f94-b750-11c9b1a14ce3
 title: Setting the Graph Clock
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

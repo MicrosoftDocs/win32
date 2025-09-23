@@ -5,7 +5,7 @@ ms.assetid: 844d4280-a943-4906-b0c6-0c650ef9c114
 ms.tgt_platform: multiple
 keywords:
 - Common Errors AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

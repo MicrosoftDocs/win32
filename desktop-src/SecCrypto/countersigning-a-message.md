@@ -2,7 +2,7 @@
 description: Explains how to countersign a message by using CryptMsgCountersign.
 ms.assetid: e1969b43-f50e-4c7d-a7e5-b22db4e05be2
 title: Countersigning a Message
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

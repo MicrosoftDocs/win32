@@ -3,7 +3,7 @@ description: A management application using the System Registry provider can def
 ms.assetid: e8707a3d-a393-4be0-9e86-297f0af15d99
 ms.tgt_platform: multiple
 title: Defining Classes for the System Registry Provider
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

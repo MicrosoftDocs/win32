@@ -2,7 +2,7 @@
 description: Using DMOs in DirectShow
 ms.assetid: 47d75b9c-8b0d-4235-8ac1-02ae1502c0e7
 title: Using DMOs in DirectShow
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

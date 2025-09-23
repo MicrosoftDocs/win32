@@ -2,7 +2,7 @@
 description: This section describes the Windows Property System property sets.
 ms.assetid: 2F7D9001-8ECE-43B2-8CAA-007254038554
 title: Property Sets (Windows Property System)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: A WMI high-performance provider greatly increases the speed at whic
 ms.assetid: 767a16bb-44b6-4c56-b79b-23241fcc216e
 ms.tgt_platform: multiple
 title: Improving the Efficiency of an Instance Provider
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

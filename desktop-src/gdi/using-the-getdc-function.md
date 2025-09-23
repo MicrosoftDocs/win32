@@ -2,7 +2,7 @@
 description: You use the GetDC function to carry out drawing that must occur instantly rather than when a WM\_PAINT message is processing.
 ms.assetid: 75525e26-72f5-4a58-a663-0bbdc2034759
 title: Using the GetDC Function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Categories help you organize events so Event Viewer can filter them. Each event source can define its own numbered categories and the text strings to which they are mapped.
 ms.assetid: ddba8066-b6b9-42a6-b49f-cbae8f97ef6d
 title: Event Categories
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -35,10 +35,3 @@ Category 3
 Categories can be stored in a separate message file, or in a file that contains messages of other types. If you create a single message file, be sure that the categories are the first messages in the file. For more information on creating and using message files, see [Message Files](message-files.md).
 
 The total number of categories is stored in the **CategoryCount** value for the event source.
-
- 
-
- 
-
-
-

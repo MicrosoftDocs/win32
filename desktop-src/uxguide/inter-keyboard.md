@@ -2,7 +2,7 @@
 title: Keyboard
 description: The keyboard is the primary input device used for text input in Microsoft Windows. For accessibility and efficiency, most actions can be performed using the keyboard as well.
 ms.assetid: 27185c98-1233-4e26-a156-0ff080fd4db3
-ms.topic: article
+ms.topic: reference
 ms.date: 10/20/2020
 ---
 
@@ -486,7 +486,7 @@ When referring to interaction:
 
 -   Use press, not depress, strike, hit, or type, when pressing and immediately releasing a key initiates an action within the program or navigates within a document or UI.
 -   Use type, not enter, to direct users to type text.
--   Use use in situations when press might be confusing, such as when referring to a type of key such as the arrow keys or function keys. In such cases, press might make users think they need to press all the keys simultaneously.
+-   Use in situations when press might be confusing, such as when referring to a type of key such as the arrow keys or function keys. In such cases, press might make users think they need to press all the keys simultaneously.
 -   Use hold when pressing and holding a key, such as a modifier key.
 -   Don't use press as a synonym for click.
 

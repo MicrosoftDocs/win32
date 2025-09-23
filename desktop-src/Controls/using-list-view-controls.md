@@ -2,7 +2,7 @@
 title: Using List-View Controls
 description: This section contains code examples that demonstrate how to create and use list-view controls in your applications.
 ms.assetid: 6953cdfc-8c59-4c6d-8998-f828cea3a315
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -22,7 +22,7 @@ This section contains code examples that demonstrate how to create and use list-
 | [How to Add List-View Items and Subitems](add-list-view-items-and-subitems.md)<br/> | This topic demonstrates how to add items and subitems to a list-view control.<br/>                                                                                                                                                                                                                          |
 | [How to Use Tile Views](use-tile-views.md)<br/>                                     | This topic demonstrates how to set the tile view for a list-view control.<br/>                                                                                                                                                                                                                              |
 | [How to Use Groups in a List-View](use-groups-in-a-list-view.md)<br/>               | This topic describes how to create an instance of a group and add it to a list-view control.<br/>                                                                                                                                                                                                           |
-| [How to Use List-View Working Areas](use-list-view-working-areas.md)<br/>           | This topic demonstrates how to work with list-view working areas. Working areas are rectangular virtual areas that can be used to arrange items in a list-vew control.<br/>                                                                                                                                 |
+| [How to Use List-View Working Areas](use-list-view-working-areas.md)<br/>           | This topic demonstrates how to work with list-view working areas. Working areas are rectangular virtual areas that can be used to arrange items in a list-view control.<br/>                                                                                                                                 |
 | [How to Use Virtual List-View Controls](use-virtual-list-view-controls.md)<br/>     | This topic demonstrates how to work with virtual list-view controls.<br/>                                                                                                                                                                                                                                   |
 
 

@@ -2,7 +2,7 @@
 title: Month Calendar Control Overviews
 description: Month Calendar Control Overviews
 ms.assetid: af301cb0-0cd2-403f-9c63-8283f0fd2f2e
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

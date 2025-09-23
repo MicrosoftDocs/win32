@@ -5,7 +5,7 @@ ms.assetid: c6325068-4ae2-4348-9938-96402262cd43
 ms.tgt_platform: multiple
 keywords:
 - searching for objects ADSI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Keyboard Accelerator Functions
 description: Keyboard Accelerator Functions
 ms.assetid: f87c8238-a724-4276-8fb3-72f17038f35f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

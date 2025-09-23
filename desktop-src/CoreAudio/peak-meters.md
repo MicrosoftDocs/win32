@@ -2,7 +2,7 @@
 description: Peak Meters
 ms.assetid: 02f5d1b4-ba4f-424a-897f-b113d1f7cd6b
 title: Peak Meters
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

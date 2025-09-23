@@ -6,7 +6,7 @@ keywords:
 - video compression manager (VCM),single-image compression
 - VCM (video compression manager),single-image compression
 - ICImageCompress function
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

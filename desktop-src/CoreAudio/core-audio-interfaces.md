@@ -2,7 +2,7 @@
 description: 'This programming reference for the Core Audio SDK includes the following interfaces:'
 ms.assetid: b18e2094-e974-4c23-b70b-ace5a168132d
 title: Core Audio Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

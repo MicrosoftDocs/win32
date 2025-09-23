@@ -1,9 +1,10 @@
 ---
 title: Resource names in MRM
 description: Description of resource names in MRM.
+ms.date: 08/19/2025
 keywords:
 - MrmIndexString MrmIndexFile MrmIndexEmbeddedData Menus and Other Resources
-ms.topic: article
+ms.topic: reference
 ---
 
 # Resource names in MRM
@@ -12,7 +13,9 @@ Every resource in MRM has a name. Resource names are URIs conforming to [IETF RF
 
 A resource name in MRM is of the following form:
 
-    ms-resource://<PackageFamilyName>/<Root>/<Rest...>
+```text
+ms-resource://<PackageFamilyName>/<Root>/<Rest...>
+```
 
 Where:
 
@@ -31,16 +34,21 @@ For brevity, this documentation typically refers to resource names without the s
 
 Although the scheme `ms-resource` is case-sensitive, the paths are not. 
 
+
 All the following are equal:
 
-    ms-resource:///FILES/LOGO.PNG
-    ms-resource:///files/logo.png
-    ms-resource:///FiLeS/LoGo.PnG
+```text
+ms-resource:///FILES/LOGO.PNG
+ms-resource:///files/logo.png
+ms-resource:///FiLeS/LoGo.PnG
+```
 
 But the following are both errors:
 
-    MS-RESOURCE:///files/logo.png
-    Ms-Resource:///files.logo.png
+```text
+MS-RESOURCE:///files/logo.png
+Ms-Resource:///files.logo.png
+```
 
 If different resource candidates use different casings, the one that appears in the PRI file
 is implementation-dependent. This does not matter, since runtime resource lookup is also 
@@ -57,9 +65,11 @@ more info).
 For example, assuming the resource indexer was created with the *packageFamilyName* of `"MyApp"`
 then all of the following resource URIs are equivalent:
 
-    ms-resource://MyApp/strings/foo     // Canonical form.
-    ms-resource:///strings/foo          // Omit the PFN.
-    ms-resource://App2/strings/foo      // PFN "App2" is ignored.
+```text
+ms-resource://MyApp/strings/foo     // Canonical form.
+ms-resource:///strings/foo          // Omit the PFN.
+ms-resource://App2/strings/foo      // PFN "App2" is ignored.
+```
 
 ### Path
 
@@ -67,16 +77,20 @@ As indicated by the simplified grammar above, all resource names in MRM must hav
 two path segments, `<Root>` and `<Rest...>`. It is an error to have a single path segment in 
 the resource name, or to end the resource name with a slash. The following are errors:
 
-    ms-resource///hello                 // Error, only one path segment
-    ms-resource///strings/hello/        // Error, ends with a slash
+```text
+ms-resource///hello                 // Error, only one path segment
+ms-resource///strings/hello/        // Error, ends with a slash
+```
 
 There is no practical limit to the number of path segments you can have, other than limits
 on the total length of a URI (typically around 2,000 characters). All of the following
 are valid resource names:
 
-    ms-resource:///strings/hello
-    ms-resource:///files/assets/logo.png
-    ms-resource:///food/baked/muffins/lemon.and.blueberry/gluten_free
+```text
+ms-resource:///strings/hello
+ms-resource:///files/assets/logo.png
+ms-resource:///food/baked/muffins/lemon.and.blueberry/gluten_free
+```
 
 ### Conventions
 
@@ -84,7 +98,7 @@ Although by no means required, the following conventions are used in PRI files.
 
 * String resources are added to the "strings" `<RootPath>`.
 * File resources are added to the "files" `<RootPath>`.
-* Container resoures (e.g. resources from a `resw` file) are added to the "resources" `<RootPath>`.
+* Container resources (e.g. resources from a `resw` file) are added to the "resources" `<RootPath>`.
 
 Note that XAML localization depends on the "resources" convention (see [x:Uid directive](/windows/uwp/xaml-platform/x-uid-directive) for more info), and other libraries may depend on these conventions, too.
 

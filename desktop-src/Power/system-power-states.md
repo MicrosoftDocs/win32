@@ -2,8 +2,8 @@
 description: Learn about the multiple system power states that correspond to the Advanced Configuration and Power Interface (ACPI) specification.
 ms.assetid: 3d897a88-125e-457f-9ea7-ac2056b0767a
 title: System power states
-ms.topic: article
-ms.date: 02/08/2023
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # System power states
@@ -45,7 +45,7 @@ In the *S0* low-power idle mode of the working state, also referred to as [Moder
 
 ## Sleep state: S1-S3
 
-The system enters sleep based on a number of criteria, including user or application activity and preferences that the user sets on the **Power & sleep** page of the **Settings** app. By default, the system uses the lowest-powered sleep state supported by all enabled wake-up devices. For more information about how the system determines when to enter sleep, see [System sleep criteria](system-sleep-criteria.md).
+The system enters sleep based on a number of criteria, including user or application activity and preferences that the user sets on the **Power & sleep** page of Windows **Settings**. By default, the system uses the lowest-powered sleep state supported by all enabled wake-up devices. For more information about how the system determines when to enter sleep, see [System sleep criteria](system-sleep-criteria.md).
 
 Before the system enters sleep, it determines the appropriate sleep state, notifies applications and drivers of the pending transition, and then transitions the system to the sleep state. In the case of a critical transition, such as when the critical battery threshold is reached, the system doesn't notify applications and drivers. Applications need to be prepared for this and take the appropriate action when the system returns to the working state.
 

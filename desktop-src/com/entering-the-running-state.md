@@ -2,7 +2,7 @@
 title: Entering the Running State
 description: Entering the Running State
 ms.assetid: 2173eaa9-0e60-4411-81e4-dbabc5fe89b2
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

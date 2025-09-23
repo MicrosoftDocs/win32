@@ -9,7 +9,7 @@ keywords:
 - cancelling timer events
 - multimedia timers,cancelling events
 - timers,cancelling events
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

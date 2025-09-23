@@ -2,7 +2,7 @@
 description: The Windows Update Agent APISDK contains the most complete and current descriptions of the API. It is the primary source of developer reference material for WUA.
 ms.assetid: 49dd8a24-7f34-4036-8ff2-c3f3052ea066
 title: Other Sources of Windows Update Agent Information
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ The following resources describe how to deploy and administer Windows Server Upd
 
 -   [Subscribe to SDK assembly updates using NuGet](/power-apps/developer/data-platform/org-service/subscribe-sdk-assembly-updates-using-nuget)
 
-    You can download updates to the WUA SDK samples, headers, and libraries. You can also find downloads on MSDN, the Microsoft Developer Network, by using the [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?linkid=83468) search tool.
+    You can download updates to the WUA SDK samples, headers, and libraries. You can also find downloads on MSDN, the Microsoft Developer Network, by searching [Microsoft Download Center](https://www.microsoft.com/download).
 
 
 ## TechNet Articles and Newsgroups

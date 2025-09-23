@@ -7,7 +7,7 @@ keywords:
 - DirectX feature level
 - feature level, DX
 - feature level, DirectX
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

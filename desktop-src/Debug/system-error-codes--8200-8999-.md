@@ -2,8 +2,8 @@
 description: Describes error codes 8200-8999 defined in the WinError.h header file and is intended for developers.
 ms.assetid: f16fdfa3-b080-47ee-a7dd-241fe2d24278
 title: System Error Codes (8200-8999) (WinError.h)
-ms.topic: reference
-ms.date: 07/15/2024
+ms.topic: error-reference
+ms.date: 07/14/2025
 ---
 
 # System Error Codes (8200-8999)

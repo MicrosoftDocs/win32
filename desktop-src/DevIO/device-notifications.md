@@ -2,7 +2,7 @@
 description: The system broadcasts a set of default device change events to all applications and services.
 ms.assetid: 672ad753-210b-41c3-b8c7-e041ce7b1671
 title: Device Notifications
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

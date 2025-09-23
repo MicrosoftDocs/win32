@@ -2,7 +2,7 @@
 title: The Listening Tip Window
 description: The Listening Tip Window
 ms.assetid: 8f7075ed-1ce9-4528-9f02-95552a8446b6
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

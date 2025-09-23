@@ -2,7 +2,7 @@
 title: EAPHost Peer Method API Reference
 description: View EAPHost Peer Method API reference documentation, such as EAPHost Peer Method Configuration Functions.
 ms.assetid: 3bbc198e-4801-43c5-825f-d671c358a437
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

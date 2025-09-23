@@ -2,7 +2,7 @@
 description: Default Quality Control
 ms.assetid: 91c4b8cf-3d24-4a11-b19c-b0297734e52b
 title: Default Quality Control
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

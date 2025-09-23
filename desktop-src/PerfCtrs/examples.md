@@ -2,8 +2,8 @@
 description: The following examples demonstrate the use of the PDH API.
 ms.assetid: 6df682cf-5f7c-4add-80bf-0ea471607b76
 title: PDH Examples
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # PDH Examples

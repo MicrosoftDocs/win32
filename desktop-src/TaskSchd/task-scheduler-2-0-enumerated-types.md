@@ -2,7 +2,7 @@
 title: Task Scheduler 2.0 Enumerated Types
 description: Describes the enumerated types that define the constants that are used by the Task Scheduler 2.0 APIs.
 ms.assetid: d59f017e-df32-4826-954d-9ba338282d0d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

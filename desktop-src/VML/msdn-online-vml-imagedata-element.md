@@ -2,7 +2,7 @@
 title: VML Imagedata Element
 description: VML Imagedata Element
 ms.assetid: 91004646-b031-4973-a32d-7afdd10dab48
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -26,7 +26,7 @@ The following attributes modify an image.
 | [AltHRef](althref-attribute--imagedata--vml.md)                   | Specifies an alternate reference for an image.                        |
 | [Bilevel](msdn-online-vml-bilevel-attribute.md)                   | Determines whether an image will display in black and white.          |
 | [BlackLevel](msdn-online-vml-blacklevel-attribute.md)             | Determines the intensity of black in an image.                        |
-| [Chromakey](msdn-online-vml-chromakey-attribute.md)               | Defines the color in the palatte that will be treated as transparent. |
+| [Chromakey](msdn-online-vml-chromakey-attribute.md)               | Defines the color in the palette that will be treated as transparent. |
 | [CropBottom](msdn-online-vml-cropbottom-attribute.md)             | Defines the percentage of picture removal from the bottom side.       |
 | [CropLeft](msdn-online-vml-cropleft-attribute.md)                 | Defines the percentage of picture removal from the left side.         |
 | [CropRight](msdn-online-vml-cropright-attribute.md)               | Defines the percentage of picture removal from the right side.        |

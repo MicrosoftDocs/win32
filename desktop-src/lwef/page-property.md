@@ -2,7 +2,7 @@
 title: Page Property
 description: Page Property
 ms.assetid: c3cf07e9-a324-443b-a0c0-2fb80463548f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

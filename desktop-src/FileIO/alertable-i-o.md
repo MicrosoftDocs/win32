@@ -2,7 +2,7 @@
 description: Alertable I/O is the method by which application threads process asynchronous I/O requests only when they are in an alertable state.
 ms.assetid: d996f1cc-eeab-456b-818b-5307a79effd9
 title: Alertable I/O
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

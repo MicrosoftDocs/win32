@@ -2,7 +2,7 @@
 title: eapakaprimeconnectionpropertiesv1 Schema
 description: Defines authentication configuration data using the Improved Extensible Authentication Protocol method for 3rd generation Authentication and Key Agreement (EAP-AKA').
 ms.assetid: 99eac05c-5cc9-4f6a-b50f-8b898dadf295
-ms.topic: article
+ms.topic: reference
 ms.date: 07/12/2023
 topic_type: 
 - kbArticle

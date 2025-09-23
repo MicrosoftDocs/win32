@@ -2,7 +2,7 @@
 title: VML ForceDash Attribute
 description: VML ForceDash Attribute
 ms.assetid: 659e99bb-16d9-425a-97b1-7767c065ec41
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

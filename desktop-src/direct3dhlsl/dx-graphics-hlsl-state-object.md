@@ -2,7 +2,7 @@
 title: State Objects
 description: Use HLSL to define state objects.
 ms.assetid: a02432dc-f354-48c0-a7ac-1ff502f3b1d1
-ms.topic: article
+ms.topic: reference
 ms.date: 2/2/2021
 topic_type: 
 - kbArticle

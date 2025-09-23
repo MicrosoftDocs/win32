@@ -2,7 +2,7 @@
 description: Working with Codecs
 ms.assetid: c69e0ecf-5f72-4d77-90e6-0f493325c0f4
 title: Working with Codecs
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

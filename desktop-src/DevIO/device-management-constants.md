@@ -2,7 +2,7 @@
 description: "Learn more about: Device Management Constants"
 ms.assetid: 93401195-3619-41a0-ad24-3fddf3932ba5
 title: Device Management Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

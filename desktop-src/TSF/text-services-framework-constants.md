@@ -11,7 +11,7 @@ keywords:
 - reference for TSF,constants
 - language bar
 - text stores
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

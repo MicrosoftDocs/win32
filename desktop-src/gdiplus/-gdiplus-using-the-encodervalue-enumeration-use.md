@@ -2,7 +2,7 @@
 description: A given encoder supports certain parameter categories, and for each of those categories, that encoder allows certain values.
 ms.assetid: cb9552e9-e807-4b07-b315-4550762e7026
 title: Using the EncoderValue Enumeration
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

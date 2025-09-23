@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Example Code for Locating the Partitions Container AD
 - Application Directory Partitions AD , Example Code for Locating the Partitions Container
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

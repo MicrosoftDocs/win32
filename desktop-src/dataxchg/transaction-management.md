@@ -35,7 +35,7 @@ keywords:
 - DDE (Dynamic Data Exchange),asynchronous transactions
 - Dynamic Data Exchange Management Library (DDEML),asynchronous transactions
 - DDEML (Dynamic Data Exchange Management Library),asynchronous transactions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

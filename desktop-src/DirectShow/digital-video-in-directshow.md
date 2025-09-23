@@ -2,7 +2,7 @@
 description: Digital Video in DirectShow
 ms.assetid: '22400118-2f38-4130-b50c-dcfc96bf0ae9'
 title: Digital Video in DirectShow
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

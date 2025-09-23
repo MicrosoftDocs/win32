@@ -5,7 +5,7 @@ ms.assetid: '2586c10e-8284-419f-a200-4f6b11953688'
 keywords:
 - Remote Procedure Call RPC , described, asynchronous RPC
 - asynchronous RPC
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

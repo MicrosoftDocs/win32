@@ -6,13 +6,13 @@ keywords:
 - Internet shortcut objects
 - WebBrowser controls
 - IPropertySetStorage
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # Internet Shortcuts
 
-The Internet shortcut object is used to create desktop shortcuts to Internet sites. Like shortcuts to items in the file system, Internet shortcuts take the form of an icon on the desktop. When the user clicks the icon, the browser is launched and displays the site associated with the shortcut.
+The Internet shortcut object is used to create desktop shortcuts to Internet sites. Like shortcuts to items in the file system, Internet shortcuts take the form of an icon on the desktop. When the user clicks the icon, the URL path is opened by the handler application, typically the user's default web browser.
 
 The following topics are discussed.
 

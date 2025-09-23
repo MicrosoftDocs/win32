@@ -2,7 +2,7 @@
 title: SendMessage, PostMessage, and Related Functions
 description: This section describes considerations about forwarding messages using SendMessage, PostMessage, and related functions with touch messages.
 ms.assetid: 9fba2013-17a3-499c-80dc-627e89c0edaf
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

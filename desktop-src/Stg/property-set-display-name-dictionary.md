@@ -2,7 +2,7 @@
 title: Property Set Display Name Dictionary
 description: A dictionary of property display names enables property set users to attach meaning to properties - beyond those provided by the type indicator.
 ms.assetid: b6813a86-39d3-4754-86e4-51035a7c91d9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

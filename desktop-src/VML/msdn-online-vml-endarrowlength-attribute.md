@@ -2,7 +2,7 @@
 title: VML EndArrowLength Attribute
 description: VML EndArrowLength Attribute
 ms.assetid: aab898b6-4c59-4471-81fd-621f79610d63
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

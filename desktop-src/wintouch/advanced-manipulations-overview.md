@@ -23,7 +23,7 @@ keywords:
 - expansion,advanced
 - rotation,advanced
 - translation,advanced
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: When making calls outside of the calling process or to a remote WMI
 ms.assetid: 261b4f18-5de5-4e06-a887-f5afd9c45511
 ms.tgt_platform: multiple
 title: Setting Authentication in WMI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Primary category group for this device.
 ms.assetid: d9cb507a-3179-4cc0-83e6-9792f7e93d54
 title: System.Devices.PrimaryCategory
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

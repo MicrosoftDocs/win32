@@ -2,7 +2,7 @@
 description: Learn about Windows Installer concepts that begin with the letter B, such as basic UI.
 ms.assetid: 807a6b6a-cace-4f48-b3b3-61919a8eee32
 title: B (Windows Installer)
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

@@ -7,7 +7,7 @@ keywords:
 - multimedia,product identifiers
 - product identifiers
 - multimedia product identifiers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

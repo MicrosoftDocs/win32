@@ -2,7 +2,7 @@
 description: The longevity of IPv4 resulted in hard coding many well-known IPv4 addresses, such as loopback addresses (127.x.x.x), integer constants such as INADDR\_LOOPBACK, among others.
 ms.assetid: adb39f27-c219-43cd-9e86-b2d3b663c79c
 title: Use of Hardcoded IPv4 Addresses
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -34,7 +34,7 @@ The *Checkv4.exe* utility can help you find common literal strings, but there ma
 [IPv6 Guide for Windows Sockets Applications](ipv6-guide-for-windows-sockets-applications-2.md)
 </dt> <dt>
 
-[Changing Data Structures for IPv6 Winsock Appications](changing-data-structures-2.md)
+[Changing Data Structures for IPv6 Winsock Applications](changing-data-structures-2.md)
 </dt> <dt>
 
 [Dual-Stack Sockets for IPv6 Winsock Applications](dual-stack-sockets.md)

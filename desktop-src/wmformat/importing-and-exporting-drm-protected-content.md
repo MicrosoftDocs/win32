@@ -22,7 +22,7 @@ keywords:
 - DRM (digital rights management),exporting protected content
 - DRM Client Extended APIs,about
 - Client Extended APIs,about
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

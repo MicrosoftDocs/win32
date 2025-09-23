@@ -8,7 +8,7 @@ keywords:
 - Active Directory, using, binding, using WKGUID to bind to well-known objects
 - well-known objects AD
 - well-known objects AD , binding to using WKGUID
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

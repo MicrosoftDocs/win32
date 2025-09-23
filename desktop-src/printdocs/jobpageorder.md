@@ -2,7 +2,7 @@
 description: Learn about the JobPageOrder element, which defines the order of physical pages for the output.
 ms.assetid: 0c255d50-8b0e-4ecd-876d-eaaccdca7b27
 title: JobPageOrder
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

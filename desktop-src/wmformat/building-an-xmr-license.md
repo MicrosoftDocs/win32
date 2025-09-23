@@ -27,7 +27,7 @@ keywords:
 - licenses,XMR
 - Extensible Media Rights (XMR)
 - XMR (Extensible Media Rights)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

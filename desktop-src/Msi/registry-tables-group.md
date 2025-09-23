@@ -2,7 +2,7 @@
 description: The registry group of Windows Installer tables contains information about registry entries.
 ms.assetid: 31a75c20-79e4-4bcf-bcc1-34a7d191fa90
 title: Registry Tables Group
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: Sent to a window when its nonclient area needs to be changed to ind
 ms.assetid: d25732b9-b9ab-4754-a4cf-002d32e3945e
 title: WM_NCACTIVATE message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_NCACTIVATE message
@@ -33,9 +33,9 @@ Indicates when a title bar or icon needs to be changed to indicate an active or 
 *lParam* 
 </dt> <dd>
 
-When a [visual style](../controls/themes-overview.md) is active for this window, this parameter is not used.
+If this parameter is set to -1, [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) does not repaint the nonclient area to reflect the state change.
 
-When a visual style is not active for this window, this parameter is a handle to an optional update region for the nonclient area of the window. If this parameter is set to -1, [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) does not repaint the nonclient area to reflect the state change.
+Otherwise, if *wParam* is **TRUE**, this parameter is a handle to the previously active window. If *wParam* is **FALSE**, this parameter is a handle to the window that is going to be activated. This parameter can be **NULL** if the window that was previously active (or is going to be activated) is from another application.
 
 </dd> </dl>
 

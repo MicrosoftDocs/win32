@@ -2,7 +2,7 @@
 title: Enumerations (Windows Animation Reference)
 description: Reference documentation for enumerations defined by the Windows Animation Manager.
 ms.assetid: 4b075b30-6faa-42e5-9e72-550e81d9309c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

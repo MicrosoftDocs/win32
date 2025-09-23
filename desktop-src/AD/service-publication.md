@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Service Publication AD
 - Active Directory, using, service publication
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

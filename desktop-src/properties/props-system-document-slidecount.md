@@ -2,7 +2,7 @@
 description: System.Document.SlideCount
 ms.assetid: 77ad2da3-7927-40d5-8a62-213f88cb724e
 title: System.Document.SlideCount
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

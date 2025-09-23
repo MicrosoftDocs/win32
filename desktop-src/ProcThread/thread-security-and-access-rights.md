@@ -2,8 +2,8 @@
 description: Microsoft Windows enables you to control access to thread objects. For more information about security, see Access-Control Model.
 ms.assetid: 72709446-5c59-4fac-8dc8-7912906ecc85
 title: Thread Security and Access Rights
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Thread Security and Access Rights

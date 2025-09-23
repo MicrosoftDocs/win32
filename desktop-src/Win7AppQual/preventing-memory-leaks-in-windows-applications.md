@@ -2,7 +2,7 @@
 description: Learn how to prevent memory leaks in Windows applications for Windows 7 and Windows Server 2008 R2 platforms.
 ms.assetid: c5dedcab-3e6f-433f-95de-d741321c683e
 title: Preventing Memory Leaks in Windows Applications
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: 615e927e-a113-4557-b354-55a208a649eb
 ms.tgt_platform: multiple
 keywords:
 - Recommendations for Schema Extension Applications AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

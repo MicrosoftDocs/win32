@@ -4,7 +4,7 @@ description: Use the convolve matrix effect to apply an arbitrary 2D kernel to a
 ms.assetid: D9C23AC4-0090-4F16-AC59-B952FB616FA9
 keywords:
 - convolve matrix effect
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

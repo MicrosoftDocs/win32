@@ -2,7 +2,7 @@
 title: Position Attribute (H)(VML)
 description: Position Attribute (H)(VML)
 ms.assetid: 0bae708d-5409-4609-a102-7f799f2c1fbb
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

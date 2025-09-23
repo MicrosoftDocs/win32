@@ -5,7 +5,7 @@ ms.assetid: 4009702c-7992-4e20-9d37-384f8137ba8f
 ms.tgt_platform: multiple
 keywords:
 - Configuration of TTL Limits AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Get-ProfilingResults cmdlet
 description: App isolation PowerShell cmdlet that retrieves capability access information from input ETL files.
-ms.topic: article
+ms.topic: reference
 ms.date: 08/27/2024
 ---
 

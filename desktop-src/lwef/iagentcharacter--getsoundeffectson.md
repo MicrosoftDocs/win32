@@ -2,7 +2,7 @@
 title: IAgentCharacter GetSoundEffectsOn
 description: IAgentCharacter GetSoundEffectsOn
 ms.assetid: 11bc074e-7654-4a78-920e-acd56db52c98
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

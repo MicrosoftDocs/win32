@@ -2,7 +2,7 @@
 description: As mentioned previously, WSPJoinLeaf is used to join a leaf node into a multipoint session.
 ms.assetid: 03325f5e-4d4a-405b-b644-3d8c03435e17
 title: Using WSPJoinLeaf
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

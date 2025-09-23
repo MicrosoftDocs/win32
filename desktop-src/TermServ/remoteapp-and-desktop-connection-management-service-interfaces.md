@@ -3,7 +3,7 @@ title: RemoteApp and Desktop Connection Management Service Interfaces
 description: The RemoteApp and Desktop Connection Management Service API provides the following interfaces.
 ms.assetid: bd928bdc-e4b4-4b5a-a782-0881ed6d08bd
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

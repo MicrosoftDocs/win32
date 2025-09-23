@@ -2,7 +2,7 @@
 description: Compositor Transition
 ms.assetid: 7903ecd7-88fb-4277-82ee-a7f71cae0412
 title: Compositor Transition
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

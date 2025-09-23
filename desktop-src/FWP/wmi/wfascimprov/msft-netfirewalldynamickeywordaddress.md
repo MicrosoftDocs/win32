@@ -1,7 +1,7 @@
 ---
 title: MSFT_NetFirewallDynamicKeywordAddress class
 description: This class represents a Windows Defender Firewall dynamic keyword address.
-ms.topic: article
+ms.topic: reference
 ms.date: 05/14/2024
 topic_type: 
 - APIRef

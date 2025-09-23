@@ -3,7 +3,7 @@ title: Processing a Result Set
 description: A result set is returned as a series of rows.
 ms.assetid: e0949c1c-a31a-440a-ae10-2934ffeb7128
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

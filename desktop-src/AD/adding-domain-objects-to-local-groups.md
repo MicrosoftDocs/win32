@@ -5,7 +5,7 @@ ms.assetid: 07287190-88a1-4d4d-a91c-1e95d9903a4d
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , adding domain objects to local groups
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

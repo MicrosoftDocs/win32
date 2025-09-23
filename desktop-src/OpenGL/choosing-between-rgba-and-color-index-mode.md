@@ -7,7 +7,7 @@ keywords:
 - OpenGL on Windows,color-index mode
 - RGBA mode OpenGL
 - color-index mode OpenGL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: You can use the following methods to configure application recycling values for your COM+ application.
 ms.assetid: 8f6a4879-cf4c-4171-8448-bc07371e038c
 title: Configuring COM+ Application Recycling Values
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

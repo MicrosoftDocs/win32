@@ -2,7 +2,7 @@
 description: New Segments
 ms.assetid: 6c470b38-481f-4e52-93b8-eb6b343dcefc
 title: New Segments
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

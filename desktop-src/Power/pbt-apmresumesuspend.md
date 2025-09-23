@@ -3,7 +3,7 @@ description: Notifies applications that the system has resumed operation after b
 ms.assetid: 9058a2ff-9b8e-48e5-accb-4810c8598294
 title: PBT_APMRESUMESUSPEND event (WinUser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # PBT_APMRESUMESUSPEND event

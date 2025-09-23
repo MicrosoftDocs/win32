@@ -2,7 +2,7 @@
 title: Windows Web Services Functions
 description: The Windows Web Services Functions support the method-based programming model of the Windows Web Services API.
 ms.assetid: 7eb62c55-d01e-43aa-aeb7-2940bf505b66
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

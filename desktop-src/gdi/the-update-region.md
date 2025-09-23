@@ -2,7 +2,7 @@
 description: The update region identifies the portion of a window that is out-of-date or invalid and in need of redrawing.
 ms.assetid: '21228620-9491-4e1b-8658-15e9605951f2'
 title: The Update Region
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

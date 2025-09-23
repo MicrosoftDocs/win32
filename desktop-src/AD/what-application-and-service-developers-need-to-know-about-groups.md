@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - What Application and Service Developers Need to Know About Groups
 - groups AD , information for application and service developers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

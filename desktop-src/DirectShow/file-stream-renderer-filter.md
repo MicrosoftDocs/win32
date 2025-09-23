@@ -2,7 +2,7 @@
 description: File Stream Renderer Filter
 ms.assetid: e26462bb-e67f-4522-bec2-88378c4ff442
 title: File Stream Renderer Filter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

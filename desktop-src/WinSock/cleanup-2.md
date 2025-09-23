@@ -2,7 +2,7 @@
 description: The Ws2\_32.dll (and layered protocols) will call WSPCleanup once for each invocation of WSPStartup.
 ms.assetid: c3b7b648-5727-47d6-9ddc-9d9f6511949d
 title: Cleanup
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

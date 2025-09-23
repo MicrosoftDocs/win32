@@ -4,7 +4,7 @@ description: This section contains information about the layer interfaces.
 ms.assetid: 100cb66a-9bf5-4d0b-9f03-ad7c00e76d9d
 keywords:
 - interfaces, Direct3D 11 Layer
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

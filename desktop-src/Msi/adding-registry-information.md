@@ -2,7 +2,7 @@
 description: The Registry table, and related tables, of the installation database holds the registry information the application needs written in the system registry.
 ms.assetid: e4695018-e9c3-400c-b4bb-6160e154d2cf
 title: Adding Registry Information
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

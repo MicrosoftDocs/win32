@@ -2,8 +2,8 @@
 title: Getting an Accessible Object Interface Pointer
 description: Microsoft Active Accessibility client applications retrieve interface pointers to accessible objects by using one of the following functions.
 ms.assetid: b82467f0-0d46-482a-8f6d-ad64f236601e
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Getting an Accessible Object Interface Pointer

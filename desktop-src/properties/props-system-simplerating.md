@@ -2,7 +2,7 @@
 description: A rating system that uses a range of integer values between 0 and 5.
 ms.assetid: 50353ba9-86dd-4172-91b4-1898c8fc5522
 title: System.SimpleRating
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Windows Media Source Filter
 ms.assetid: e59b3086-4f62-4541-8bef-b0581f01906f
 title: Windows Media Source Filter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

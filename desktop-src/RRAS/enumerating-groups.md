@@ -2,7 +2,7 @@
 title: Enumerating Groups (RRAS)
 description: The following table summarizes a series of steps in an interaction between a routing protocol and the multicast group manager.
 ms.assetid: 30a81946-fa60-4424-9a16-a9b4dfe1961e
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

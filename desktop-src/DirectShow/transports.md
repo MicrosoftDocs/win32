@@ -2,7 +2,7 @@
 description: Transports
 ms.assetid: 63c5ff5b-293d-4a80-92e8-3ece41321095
 title: Transports
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

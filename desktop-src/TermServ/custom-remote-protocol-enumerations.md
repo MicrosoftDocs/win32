@@ -3,7 +3,7 @@ title: Remote Desktop Protocol Provider Enumerations
 description: Enumeration types that are supported by the Remote Desktop Protocol Provider API.
 ms.assetid: ddc665dd-3a06-4383-b747-e666b8c1090c
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

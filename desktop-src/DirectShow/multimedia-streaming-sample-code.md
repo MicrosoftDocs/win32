@@ -2,7 +2,7 @@
 description: Multimedia Streaming Sample Code
 ms.assetid: 3fe2996b-b4de-40ad-bd02-d850a45f3a2c
 title: Multimedia Streaming Sample Code
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

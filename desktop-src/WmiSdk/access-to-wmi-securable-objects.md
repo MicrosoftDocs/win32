@@ -3,7 +3,7 @@ description: WMI relies on standard Windows security descriptors to control and 
 ms.assetid: 5893457d-3fc2-4d64-a6c2-0f410052ce52
 ms.tgt_platform: multiple
 title: Access to WMI Securable Objects
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

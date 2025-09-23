@@ -5,7 +5,7 @@ ms.assetid: 1da9907d-a09d-41e1-aca1-9a8e2b91296f
 keywords:
 - HTTP Server API Version 1.0 Functions
 - Functions HTTP , HTTP Server API Version 1.0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

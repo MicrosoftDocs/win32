@@ -4,7 +4,7 @@ description: Handling MCI Errors
 ms.assetid: 01a2ff95-34a2-434f-9c7e-d0cdac826c02
 keywords:
 - mciSendCommand function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 title: Components of EAPHost
 description: Learn about the three components of EAPHost authentication. View additional available resources for using EAPHost authentication.
 ms.assetid: f875c3f8-d2fb-461e-b356-e1b2ccaf9981
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: EapTeap Complex Type
 description: Learn about the EapTeap complex type. This type contains the EAP configuration required for EAP-TEAP.
 ms.assetid: 8a9b7cda-0e12-4866-93b2-bed4102db091
-ms.topic: article
+ms.topic: reference
 ms.date: 07/11/2023
 ---
 

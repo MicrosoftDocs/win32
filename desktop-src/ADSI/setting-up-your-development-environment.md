@@ -5,7 +5,7 @@ ms.assetid: 3020931f-d3d6-41ff-9855-14526d222d5c
 ms.tgt_platform: multiple
 keywords:
 - Setting Up Your Development Environment Active Directory
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

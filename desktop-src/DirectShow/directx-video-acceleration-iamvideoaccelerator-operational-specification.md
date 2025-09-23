@@ -2,7 +2,7 @@
 description: DirectX Video Acceleration IAMVideoAccelerator Operational Specification
 ms.assetid: 25ee05d5-8554-4739-9122-e3c0255bf965
 title: DirectX Video Acceleration IAMVideoAccelerator Operational Specification
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

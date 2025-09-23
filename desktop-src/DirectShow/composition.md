@@ -2,7 +2,7 @@
 description: Composition
 ms.assetid: b5f607b2-9cca-4eef-9c63-d2015bd10469
 title: Composition
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

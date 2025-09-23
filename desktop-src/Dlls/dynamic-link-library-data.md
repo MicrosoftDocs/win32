@@ -2,7 +2,7 @@
 description: A Dynamic-Link Library (DLL) can contain global data or local data.
 ms.assetid: b1f6811e-c413-4124-9ccb-ea59b7a8a7ff
 title: Dynamic-Link Library Data
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

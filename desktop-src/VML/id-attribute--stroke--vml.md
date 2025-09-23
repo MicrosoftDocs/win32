@@ -2,7 +2,7 @@
 title: ID Attribute (Stroke)(VML)
 description: ID Attribute (Stroke)(VML)
 ms.assetid: 584b0e90-9d66-471b-a1d2-33a236c2ed8e
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

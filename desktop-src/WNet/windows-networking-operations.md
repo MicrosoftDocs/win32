@@ -2,7 +2,7 @@
 title: Windows Networking Operations
 description: An application can use the WNet functions to browse, add, or cancel network connections anywhere in the network hierarchy.
 ms.assetid: 8f17af6c-e1b2-4b53-b3f0-698d42beb704
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

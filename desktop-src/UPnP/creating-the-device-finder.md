@@ -2,7 +2,7 @@
 title: Creating the Device Finder
 description: The following examples demonstrate how to create an instance of the Device Finder object in C++, Visual Basic, and VBScript.
 ms.assetid: 0084a64d-458e-471c-a6be-aeb6ed0962d0
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,11 +2,16 @@
 description: Fundamentals of Light-Aware User Interfaces
 ms.assetid: 7ea391cb-f72b-4ac1-99be-c957d4ccc8af
 title: Fundamentals of Light-Aware User Interfaces
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 09/19/2025
 ---
 
 # Fundamentals of Light-Aware User Interfaces
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 The term *light-aware UI* refers to a program that uses light sensor data to optimize its content, controls, and other graphics for an optimum user experience in many lighting conditions, ranging from darkness to direct sunlight. Perhaps the most important optimizations are legibility, readability, and interactions in direct sunlight, because screens do not typically perform well in these conditions. In this section, we focus on three UI properties: scale, contrast, and color. These properties can be changed to optimize the visual user experience.
 
@@ -44,9 +49,9 @@ One way to increase color contrast is through color saturation. Another way is b
 
 ![example of the effects of text color on readability.](images/color.png)
 
- 
 
- 
+
+
 
 
 

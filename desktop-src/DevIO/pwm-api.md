@@ -2,7 +2,7 @@
 description: Pulse Width Modulation (PWM) is the technique of generating a rectangular pulse wave that has a pulse width that is modulated to result in the variation of the average value of the waveform.
 ms.assetid: 16B1E46F-2C42-4D94-949E-BE8F53EB1E1E
 title: PWM API
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

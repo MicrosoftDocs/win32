@@ -2,7 +2,7 @@
 title: Router Management Structures
 description: The Router Administration Functions and the Router Configuration Functions use the following structures
 ms.assetid: 767733eb-1cbd-4b8d-98b7-41d1d0f2c630
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

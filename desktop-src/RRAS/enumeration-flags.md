@@ -5,7 +5,7 @@ ms.assetid: d5677e3a-c0c1-4768-aae4-f6564a40ee99
 keywords:
 - Enumeration
 - Enumeration Flags
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

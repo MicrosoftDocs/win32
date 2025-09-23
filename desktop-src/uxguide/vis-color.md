@@ -2,7 +2,7 @@
 title: Color
 description: Color is an important visual element of most user interfaces.
 ms.assetid: 30a60e9e-ebb4-40f2-8535-a9b58dc668a8
-ms.topic: article
+ms.topic: reference
 ms.date: 10/20/2020
 ---
 

@@ -23,6 +23,9 @@ To get started with VBS Enclaves, you need to meet the following requirements:
 - Download the [sample code](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/VbsEnclave) from GitHub. It demonstrates the life cycle of a VBS enclave including how to make function calls into the enclave.
   - Every enclave must have a host app. The sample code contains a Visual Studio Solution with two projects – the *enclave host* and the *test enclave*.
 
+> [!WARNING]
+> Ensure you have reviewed the OS support for VBS enclaves above, as support has recently changed.
+
 ## Getting started
 
 After satisfying the prerequisites above, you should be able to open the solution file from the **VbsEnclave** sample in Visual Studio and compile it. It creates a test application along with the corresponding enclave. However, you can't run your application successfully until the enclave is signed with a valid certificate.
@@ -134,6 +137,9 @@ In our enclave Sample, we create a simple enclave which XORs the input with `0xD
 
 And that’s how you write a basic VBS enclave DLL.
 
+> [!IMPORTANT]
+> Please note that to read/write Normal (non-enclave) memory, using the enclave memory accessors ([EnclaveCopyOutOfEnclave](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclavecopyoutofenclave) and [EnclaveCopyIntoEnclave](/windows/win32/api/winenclaveapi/nf-winenclaveapi-enclavecopyintoenclave)) is strongly recommended. Please ensure all memory accesses to normal memory are made via these accessors.
+
 ## Step 2: Compiling VBS enclaves
 
 Now that we’ve written our VBS enclave DLL, let’s compile it.
@@ -196,7 +202,7 @@ Each enclave signing certificate requires at least 3 EKUs:
 
 1. Code Signing EKU - `1.3.6.1.5.5.7.3.3`
 1. Enclave EKU - `1.3.6.1.4.1.311.76.57.1.15`
-1. Author EKU - The EKU is of the form `1.3.6.1.4.1.311.97.X.Y.Z`, where `X` is greater than `999`.
+1. Author EKU - The EKU is of the form `1.3.6.1.4.1.311.97.X.Y.Z...`, where `X` is greater than `999`. The `...` indicates additional values in the EKU format. See the example below for clarification.
 
     For testing, you can choose to use any Author EKU that matches this pattern. For production, an Author EKU will be provided as part of the production certificate (more details on production signing are [below](#production-signing--trusted-signing-formerly-azure-code-signing)).
 

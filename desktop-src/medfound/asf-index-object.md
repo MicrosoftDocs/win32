@@ -2,7 +2,7 @@
 description: ASF Indexer
 ms.assetid: 3f95b0ac-d70f-4bc2-8524-c7de1df34afa
 title: ASF Indexer
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

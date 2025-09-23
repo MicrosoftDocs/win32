@@ -2,7 +2,7 @@
 description: Before an application can search the Distributed Routing Table (DRT), a search query must be created.
 ms.assetid: b3403a64-128c-461e-9384-8e62c03322e1
 title: Searching a Distributed Routing Table
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

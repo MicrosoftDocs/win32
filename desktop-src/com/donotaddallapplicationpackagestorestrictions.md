@@ -2,7 +2,7 @@
 title: DoNotAddAllApplicationPackagesToRestrictions
 description: Determines whether RPCSS automatically appends an **ALL_APPLICATION_PACKAGES** SID to COM restrictions by default.
 ms.assetid: 4DC1237E-F3EF-40EA-8E64-57320F0C4CC5
-ms.topic: article
+ms.topic: reference
 ms.date: 07/24/2023
 ---
 

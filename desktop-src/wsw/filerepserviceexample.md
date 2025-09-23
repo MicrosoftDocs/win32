@@ -6,7 +6,7 @@ keywords:
 - FileRepServiceExample Web Services for Windows
 - WWSAPI
 - WWS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -464,12 +464,12 @@ protected:
 // If there are more idle channels than maxIdleChannels then we destroy the next channel that 
 // becomes idle. There are never more than maxTotalChannels channels overall.
 // The reason for having a minimum number of idle channels is that otherwise there would be a 
-// bottleneck when multiple requests come in simultaniously as channel creation takes some time.
+// bottleneck when multiple requests come in simultaneously as channel creation takes some time.
 // The reason for having a maximum number of idle channels is to limit resource consumption.
 // Resource reuse is an important performance booster. Resetting a data structure is a lot cheaper 
 // than destroying and recreating it later, which is why there are so many reset APIs. 
 // However, never destroying resources can also be problematic as you can potentially hold on
-// to significant resources much longer than neccessary. This class, using the algorithm described 
+// to significant resources much longer than necessary. This class, using the algorithm described 
 // above, tries to find a middle ground.
 // If the last issue is not a concern, a simpler and most likely superior implementation is to 
 // simply create as many channels and associated resources as needed and to reuse them perpetually
@@ -640,7 +640,7 @@ protected:
     
     HRESULT SendError(CRequest* request, __in const WCHAR errorMessage[]);
     HRESULT ReadAndSendFile(CRequest* request, __in const LPWSTR fileName, LONGLONG chunkPosition, WS_ERROR *error);
-    HRESULT SendFileInfo(CRequest* requeste, __in const LPWSTR fileName, LONGLONG llFileLength, DWORD chunkSize);
+    HRESULT SendFileInfo(CRequest* request, __in const LPWSTR fileName, LONGLONG llFileLength, DWORD chunkSize);
     HRESULT ReadAndSendChunk(CRequest* request, long chunkSize, LONGLONG chunkPosition, HANDLE file);
 
     long chunkSize;
@@ -815,7 +815,7 @@ HRESULT CChannelManager::CreateChannels()
     for (long i = 0; i < newChannels; i++)
     {
         // Even though our main request processing loop is asynchronous, there is enough
-        // synchronous work done (eg state creartion) to warrant farming this out to work items. Also, 
+        // synchronous work done (eg state creation) to warrant farming this out to work items. Also, 
         // WsAsyncExecute can return synchronously if the request ends before the first asynchronous
         // function is called and in that case we dont want to get stuck here by doing this synchronously.
 
@@ -1193,7 +1193,7 @@ void CFileRep::PrintInfo(__in_z const WCHAR message[])
 
 void CFileRep::PrintError(HRESULT hr, WS_ERROR* error, bool displayAlways)
 {
-    // We don't alyways display errors since in during shutdown certain
+    // We don't always display errors since in during shutdown certain
     // failures are expected.
     if (!(displayAlways || started))
     {
@@ -1302,7 +1302,7 @@ HRESULT CFileRep::InitializeListener()
     IfNullExit(channelManager);
     IfFailedExit(channelManager->Initialize());
 
-    // Spins up a bunch of channels so that we are prepared to handle multipe requests in a timely fashion.
+    // Spins up a bunch of channels so that we are prepared to handle multiple requests in a timely fashion.
     IfFailedExit(channelManager->CreateChannels());
 
     if (NULL != error)
@@ -1533,7 +1533,7 @@ HRESULT CRequest::AcceptChannel(HRESULT hr, WS_ASYNC_OPERATION* next, WS_CALLBAC
     next->function = CRequest::ReceiveFirstMessageCallback;  
     
     PrintVerbose(L"Leaving CRequest::AcceptChannel");
-    return WsAcceptChannel(server->GetListener(), channel, asyncContext, error);;
+    return WsAcceptChannel(server->GetListener(), channel, asyncContext, error);
 }
 
 // Special case for the first message received to keep the bookkeeping of active channels in order. 
@@ -2440,7 +2440,7 @@ HRESULT CFileRepClient::DeserializeAndWriteMessage(WS_MESSAGE *message, long chu
     
     // Read file content into buffer
     // We are reading a chunk of the byte array in the message, writing it to disk and then read
-    // the next chunk. That way we only need mimimal amounts of memory compared to the total amount
+    // the next chunk. That way we only need minimal amounts of memory compared to the total amount
     // of data transferred. The exact way this is done is subject to perf tweaking.    
     while (true)
     {
@@ -2771,7 +2771,7 @@ HRESULT CFileRepServer::SendFileInfo(CRequest* request, __in const LPWSTR fileNa
 }
 
 // Reads the data and serializes it into the message. This function does custom serialization for the same
-// reason and with the same alrogithm as DeserializeAndWriteMessage.
+// reason and with the same algorithm as DeserializeAndWriteMessage.
 HRESULT CFileRepServer::ReadAndSendChunk(CRequest* request, long chunkSize, LONGLONG chunkPosition, HANDLE file)
 {
     PrintVerbose(L"Entering CFileRepServer::ReadAndSendChunk");
@@ -2821,7 +2821,7 @@ HRESULT CFileRepServer::ReadAndSendChunk(CRequest* request, long chunkSize, LONG
     IfFailedExit(WsGetMessageProperty(replyMessage, WS_MESSAGE_PROPERTY_BODY_WRITER, &writer, sizeof(writer), error));
 
     // Write FileChunk start element.
-    // This whole code block is the serialization equivalent of the desiralization code.
+    // This whole code block is the serialization equivalent of the deserialization code.
     IfFailedExit(WsWriteStartElement(writer, NULL, &fileChunkLocalName, &fileChunkNamespace, error));
 
     // Write chunkPosition element
@@ -3643,11 +3643,3 @@ WsFileRepService.exe: Service.obj CFileRep.obj CFileRepServer.obj CFileRepClient
 
 [FileRepToolExample](filereptoolexample.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-

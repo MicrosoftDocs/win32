@@ -3,7 +3,7 @@ title: GLOBALS.CPP
 description: In the example provider component, the globals used can be found in globals.cpp. Supported globals are listed in the following table.
 ms.assetid: 7362bc31-2c07-45ff-baf0-a76e68748d93
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

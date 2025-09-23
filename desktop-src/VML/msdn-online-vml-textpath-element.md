@@ -2,7 +2,7 @@
 title: VML TextPath Element
 description: VML TextPath Element
 ms.assetid: dcc3b723-4c5c-4069-93c7-c41737292109
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -9,7 +9,7 @@ keywords:
 - DrawDibSetPalette function
 - DrawDibGetPalette function
 - DrawDibChangePalette function
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -5,7 +5,7 @@ ms.assetid: 2398a44d-c5c7-4fa2-b0ed-1cfb75d8822c
 keywords:
 - profiles,system
 - system profiles,loading
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

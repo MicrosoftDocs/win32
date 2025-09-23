@@ -18,7 +18,7 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),callback functions
 - playing MIDI files,callback functions
 - MidiOutProc callback function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

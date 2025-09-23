@@ -2,7 +2,7 @@
 description: Benefits of DMOs
 ms.assetid: 7ff3fd9c-9423-4915-8ce2-22783ed455fb
 title: Benefits of DMOs
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

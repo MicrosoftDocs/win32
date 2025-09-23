@@ -2,7 +2,7 @@
 description: The Shell uses a programmatic identifier (ProgID) registry subkey to associate a file type with an application, and to control the behavior of the association.
 ms.assetid: f2b666d6-bf22-47b5-87e1-8de5ff51c152
 title: Programmatic Identifiers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

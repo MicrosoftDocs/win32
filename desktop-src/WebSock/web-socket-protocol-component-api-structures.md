@@ -2,7 +2,7 @@
 title: WebSocket Protocol Component API Structures
 description: The WebSocket Protocol Component API defines these structures.
 ms.assetid: D269624D-E733-4422-9EDC-797637076C9B
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: 13aee98b-dd49-4479-acb2-0583b689500c
 keywords:
 - MCI macros
 - MCI reference,macros
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

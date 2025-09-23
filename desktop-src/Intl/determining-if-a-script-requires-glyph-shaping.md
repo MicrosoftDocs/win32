@@ -2,7 +2,7 @@
 description: The following example calls ScriptGetProperties to find out if the script of each of several successive items requires glyph shaping.
 ms.assetid: 75c5946b-de38-48d9-a5e2-1e0b2dc9f3c7
 title: Determining If a Script Requires Glyph Shaping
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

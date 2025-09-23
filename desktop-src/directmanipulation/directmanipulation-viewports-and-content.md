@@ -2,7 +2,7 @@
 description: Direct Manipulation uses viewports, contents and contacts to describe the interactive elements of the UI.
 ms.assetid: 1564F6F2-844F-4392-9EB5-AA46059D514C
 title: Viewports and content
-ms.topic: article
+ms.topic: reference
 ms.date: 02/03/2020
 ---
 

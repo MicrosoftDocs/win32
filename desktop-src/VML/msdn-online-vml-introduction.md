@@ -18,7 +18,7 @@ keywords:
 - VML (Vector Markup Language),VBScript
 - Vector Markup Language (VML),Javascript
 - VML (Vector Markup Language),Javascript
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

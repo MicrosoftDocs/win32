@@ -2,7 +2,7 @@
 description: VMRPlayer Sample
 ms.assetid: 7fc893a6-afa5-4ada-9295-29122b43b21e
 title: VMRPlayer Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---
@@ -19,7 +19,7 @@ This sample uses the Video Mixing Renderer 9 (VMR-9) filter to alpha blend one o
 
 To open the first video, choose **Open Primary Stream** from the **File** menu. To open a second video, choose **Open Secondary Stream** from the **File** menu (you must open the primary stream first). To play the video, click the **Play** button.
 
-You can set the position, size, and alpha values of the videos by selecting **Primary Stream** or **Secondard Stream** from the **VMR Properties** menu.
+You can set the position, size, and alpha values of the videos by selecting **Primary Stream** or **Secondary Stream** from the **VMR Properties** menu.
 
 To add a static bitmap over the video, choose **Static App Image** from the **VMR Properties** menu and click the **Display App Image** box. You can use the same dialog to control the position, size, and alpha value of the bitmap.
 

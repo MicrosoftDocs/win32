@@ -2,7 +2,7 @@
 title: Image Mastering API (IMAPI.h)
 description: The Microsoft Windows image mastering API enables applications to stage and burn images to CD, DVD, and Blu-ray optical storage media.
 ms.assetid: 4902d3fb-3195-4909-ab64-28f8a77ba14c
-ms.topic: article
+ms.topic: reference
 ms.date: 04/04/2023
 ---
 

@@ -2,7 +2,7 @@
 description: The MsiAssembly Table and MsiAssemblyName Table specify Windows Installer settings for common language runtime assemblies and Win32 assemblies.
 ms.assetid: cfe9a0a3-e40f-4c59-b2e4-ad7654528e3b
 title: MsiAssemblyName Table
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

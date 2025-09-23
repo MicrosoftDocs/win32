@@ -2,7 +2,7 @@
 title: Subelements of Shape
 description: Subelements of Shape
 ms.assetid: 85E36F7B-25FA-4032-B4BE-DD95EBACDB14
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

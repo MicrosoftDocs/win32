@@ -7,7 +7,7 @@ keywords:
 - OpenGL on Windows,hardware palettes
 - palette manager OpenGL
 - hardware palettes OpenGL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

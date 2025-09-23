@@ -6,8 +6,8 @@ keywords:
 - user input,mouse input
 - capturing user input,mouse input
 - mouse input
-ms.topic: article
-ms.date: 08/01/2022
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Mouse Input

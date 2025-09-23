@@ -2,7 +2,7 @@
 description: The CRM infrastructure provides a set of interfaces that can be used for monitoring the CRMs within a particular server application.
 ms.assetid: b8f40c91-001b-4003-b377-57a918988100
 title: COM+ CRM Monitoring Interfaces
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

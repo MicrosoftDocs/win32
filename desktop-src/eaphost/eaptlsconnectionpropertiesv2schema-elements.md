@@ -2,7 +2,7 @@
 title: eaptlsconnectionpropertiesv2 Schema Elements
 description: Learn about eaptlsconnectionpropertiesv2 schema elements. See a list of the elements and view additional available resources.
 ms.assetid: a3e6a555-d847-4453-9fb6-3530a3e7130c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

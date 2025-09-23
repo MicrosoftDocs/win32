@@ -33,7 +33,7 @@ keywords:
 - approximate seeking mode
 - metadata,multiple-language support
 - Windows Media Device Manager SDK
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

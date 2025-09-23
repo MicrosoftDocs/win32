@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Example Code for Using Ranging to Retrieve Members of a Group ADSI
 - example code C/C++ ADSI , using ranging to retrieve members of a group
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

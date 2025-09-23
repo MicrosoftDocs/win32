@@ -2,7 +2,7 @@
 description: Indicates the unit used to express the speed of the GPS receiver movement, (for example,kilometers per hour, miles per hour, knots).
 ms.assetid: 80873d5d-a7cb-44d5-8b91-9c5513121989
 title: System.GPS.SpeedRef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

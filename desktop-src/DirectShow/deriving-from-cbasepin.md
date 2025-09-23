@@ -2,7 +2,7 @@
 description: Deriving from CBasePin
 ms.assetid: ef453bec-e5a9-4185-94e3-f934e748b11f
 title: Deriving from CBasePin
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -4,7 +4,7 @@ description: Phone books provide a standard way to collect and specify the infor
 ms.assetid: db6d076c-c683-4e27-ace1-d2c0cd0931f6
 keywords:
 - Phone books, RAS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

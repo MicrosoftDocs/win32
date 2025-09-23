@@ -2,7 +2,7 @@
 description: Device is present.
 ms.assetid: e523cf70-21be-40cc-af91-19459ef13f6c
 title: System.Devices.Present
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

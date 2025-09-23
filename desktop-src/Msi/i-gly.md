@@ -2,7 +2,7 @@
 description: Learn about Windows Installer concepts that begin with the letter I, such as Import Address table and install level.
 ms.assetid: b8e0a14f-ebdc-4b8f-a884-f6276dccda49
 title: I (Windows Installer)
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: 'There are two types of brushes: logical and physical.'
 ms.assetid: 2e15376d-6b4c-41c5-aef8-0dbb91b81505
 title: About Brushes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

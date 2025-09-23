@@ -1,7 +1,7 @@
 ---
 title: Host bus adapter (HBA) functions
 description: Host bus adapter (HBA) defines the following functions.
-ms.topic: article
+ms.topic: reference
 ms.date: 08/04/2022
 ---
 

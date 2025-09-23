@@ -3,7 +3,7 @@ description: The GROUP clause causes WMI to generate a single notification to re
 ms.assetid: 811e72f8-2e50-4696-ad58-50bb5e211afb
 ms.tgt_platform: multiple
 title: GROUP Clause
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

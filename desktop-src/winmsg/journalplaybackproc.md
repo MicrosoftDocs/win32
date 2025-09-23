@@ -4,7 +4,7 @@ title: JournalPlaybackProc callback function
 description: Plays back a series of mouse and keyboard messages recorded previously.
 old-location: 
 ms.assetid: na
-ms.date: 04/05/2019
+ms.date: 07/14/2025
 ms.keywords: 
 ms.topic: reference
 req.header: 

@@ -9,7 +9,7 @@ keywords:
 - service providers,PnP devices
 - creating service providers,PnP devices
 - PnP devices
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

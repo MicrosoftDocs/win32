@@ -2,8 +2,8 @@
 title: Enabling a Built-in Accessibility Feature
 ms.assetid: f97a445d-f93d-4462-bce5-d853f5076b9c
 description: "Learn more about: Enabling a Built-in Accessibility Feature"
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Enabling a Built-in Accessibility Feature

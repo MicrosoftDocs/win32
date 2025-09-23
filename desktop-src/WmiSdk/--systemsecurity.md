@@ -21,7 +21,7 @@ api_location:
 The **\_\_SystemSecurity** system class contains methods that let you access and modify the security settings for a namespace. The **\_\_SystemSecurity** class is a singleton class in each namespace.
 
 > [!Note]  
-> For more information, see [Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md).
+> For more information, see [Setting Namespace Security Descriptors](setting-namespace-security-descriptors.md).
 
  
 

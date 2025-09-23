@@ -2,7 +2,7 @@
 title: Windows Networking Structures
 description: The following structures are used in Windows networking
 ms.assetid: 7969ccbb-d1ae-4a1f-8b9c-862cc6ddef1a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Name Formats for Unique SPNs AD
 - Service Principal Name AD , Name Formats for
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

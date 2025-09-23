@@ -2,7 +2,7 @@
 description: This topic introduces how to print from a native Windows program using the GDI&\#160;Print&\#160;API.
 ms.assetid: C212DD92-2B90-45BC-8746-29C193FBDF69
 title: 'How To: Print Using the GDI Print API'
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

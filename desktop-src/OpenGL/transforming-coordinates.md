@@ -9,7 +9,7 @@ keywords:
 - OpenGL Utility (GLU),transforming coordinates
 - GLU (OpenGL Utility),transforming coordinates
 - transforming coordinates OpenGL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

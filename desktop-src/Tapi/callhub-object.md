@@ -2,7 +2,7 @@
 description: The CallHub object represents a third-party view of a multiparty call.
 ms.assetid: ea23ae25-2fbb-4060-8273-cd7921d49e52
 title: CallHub Object
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

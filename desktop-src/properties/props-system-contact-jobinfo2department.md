@@ -2,7 +2,7 @@
 description: System.Contact.JobInfo2Department
 ms.assetid: 66691b5f-be06-4ae3-b41b-e58e3dc86296
 title: System.Contact.JobInfo2Department
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

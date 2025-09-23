@@ -1,7 +1,7 @@
 ---
 title: Enable method of the MSFT_NetFirewallHyperVRule class
 description: Enable this rule.
-ms.topic: article
+ms.topic: reference
 ms.date: 05/16/2024
 topic_type: 
 - APIRef

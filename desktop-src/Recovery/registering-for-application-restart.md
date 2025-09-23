@@ -2,7 +2,7 @@
 title: Registering for Application Restart
 description: To register your application to be restarted, call the RegisterApplicationRestart function.
 ms.assetid: 4dfbced7-77db-4042-823f-b4b81b2b27a6
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

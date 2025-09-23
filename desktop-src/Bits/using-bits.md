@@ -7,7 +7,7 @@ keywords:
 - Background Intelligent Transfer Service,tasks
 - file transfer BITS
 - Using BITS BITS
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

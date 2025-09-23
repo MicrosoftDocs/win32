@@ -2,7 +2,7 @@
 title: AVIFile Reference
 description: AVIFile Reference
 ms.assetid: 73532d83-89c2-4911-8558-ce110e9f0f95
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

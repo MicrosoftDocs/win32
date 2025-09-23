@@ -5,7 +5,7 @@ ms.assetid: c2345967-8415-4cc0-96d3-12c48e74028e
 ms.tgt_platform: multiple
 keywords:
 - Active Directory,using,service logon
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

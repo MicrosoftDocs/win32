@@ -3,7 +3,7 @@ description: Association providers enable Windows Management Instrumentation (WM
 ms.assetid: 00c654d1-a5de-40c5-a190-99382949486a
 ms.tgt_platform: multiple
 title: Accessing Data in the Interop Namespace
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Introductory Example Using the COM+ Administration Catalog
 ms.assetid: e9ce25aa-4fb1-4357-9f4e-5bf649e29447
 title: Introductory Example Using the COM+ Administration Catalog
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

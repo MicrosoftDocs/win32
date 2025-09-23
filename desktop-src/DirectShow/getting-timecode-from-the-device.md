@@ -2,7 +2,7 @@
 description: Getting Timecode from the Device
 ms.assetid: e3d06e0c-a595-4bc3-be62-168bd5122397
 title: Getting Timecode from the Device
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

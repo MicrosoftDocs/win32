@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Active Directory Domain Services Active Directory , recovery planning
 - Active Directory Domain Services Active Directory , backup
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

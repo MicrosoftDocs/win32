@@ -2,7 +2,7 @@
 description: DV Splitter Filter
 ms.assetid: 099d1cc7-f0c5-4c50-a1d5-f2defde7e104
 title: DV Splitter Filter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

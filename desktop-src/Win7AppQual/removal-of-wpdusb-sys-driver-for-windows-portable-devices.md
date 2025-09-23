@@ -2,7 +2,7 @@
 description: Removal of WPDUSB.SYS Driver for Windows Portable Devices
 ms.assetid: 3ad0c892-8b19-465d-af2f-9207f98e27b7
 title: Removal of WPDUSB.SYS Driver for Windows Portable Devices
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

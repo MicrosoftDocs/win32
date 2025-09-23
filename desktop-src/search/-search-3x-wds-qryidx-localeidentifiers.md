@@ -2,7 +2,7 @@
 description: Understand the inputlocale and keywordlocale arguments in Windows Search, which helps the search engine use the correct word breakers.
 ms.assetid: dc610f49-5106-47f9-b29b-84949dd2c42b
 title: Locale Identifier Arguments (Windows Search)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

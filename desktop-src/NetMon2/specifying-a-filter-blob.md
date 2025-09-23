@@ -2,7 +2,7 @@
 description: When you select a registered network interface card (NIC) listed on a local computer, you can use a filter BLOB to disregard the NICs you are not interested in.
 ms.assetid: fa87bb7d-c481-4eb1-b116-b22643a7c9da
 title: Specifying a Filter BLOB
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

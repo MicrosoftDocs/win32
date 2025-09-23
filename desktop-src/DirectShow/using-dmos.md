@@ -2,7 +2,7 @@
 description: Using DMOs
 ms.assetid: 1b82d64d-5f20-4286-815a-f868427b11ce
 title: Using DMOs
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: The following table lists packet property GUIDs used by the PACKET\_PROPERTY structure.
 ms.assetid: d3e94b57-3078-4a84-b58a-faa31bdff79e
 title: PacketProperty GUIDs
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

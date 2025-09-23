@@ -24,7 +24,7 @@ keywords:
 - IManipulationProcessor interface,sample code
 - IInertiaProcessor interface,code samples
 - IInertiaProcessor interface,sample code
-ms.topic: article
+ms.topic: sample
 ms.date: 02/18/2020
 ---
 
@@ -269,7 +269,7 @@ After the [**ManipulationCompleted**](/windows/win32/api/manipulations/nf-manipu
 
     // Set properties for inertia events.
 
-    // Deceleration for tranlations in pixel / msec^2.
+    // Deceleration for translations in pixel / msec^2.
     m_inert->put_DesiredDeceleration(0.001f);
 
     // Deceleration for rotations in radians / msec^2.

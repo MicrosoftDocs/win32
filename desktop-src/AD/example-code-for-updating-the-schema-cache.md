@@ -5,7 +5,7 @@ ms.assetid: e955588d-a92c-4406-a197-bb8c36329f88
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Updating the Schema Cache AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

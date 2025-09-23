@@ -2,7 +2,7 @@
 title: About multiple display monitors
 description: When multiple monitors are part of the desktop, objects can travel seamlessly between monitors.
 ms.assetid: eb7576c6-322c-48d0-abbb-bdc3b34976c3
-ms.topic: article
+ms.topic: concept-article
 ms.date: 11/06/2024
 ---
 

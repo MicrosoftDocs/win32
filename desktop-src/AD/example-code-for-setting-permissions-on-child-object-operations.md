@@ -5,7 +5,7 @@ ms.assetid: 51010092-fa85-4f9c-8869-97fed30acc7f
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , setting permissions on child object operations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

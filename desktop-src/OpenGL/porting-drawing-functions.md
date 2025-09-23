@@ -8,7 +8,7 @@ keywords:
 - porting to OpenGL from IRIS GL,drawing functions
 - OpenGL porting from IRIS GL,drawing functions
 - drawing functions,porting from IRIS GL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

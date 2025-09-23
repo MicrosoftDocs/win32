@@ -2,7 +2,7 @@
 title: Nested Calls to SRSetRestorePoint
 description: This topic describes support for nested calls to SRSetRestorePoint through the BEGIN\_NESTED\_SYSTEM\_CHANGE and END\_NESTED\_SYSTEM\_CHANGE event types.
 ms.assetid: ee2dea47-f95d-4293-ac33-eff622b84db6
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

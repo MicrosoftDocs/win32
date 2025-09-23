@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Client Time Limit with IDirectorySearch
 - ADSI, Searching, IDirectorySearch, Other Search Options, Client Time Limit
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

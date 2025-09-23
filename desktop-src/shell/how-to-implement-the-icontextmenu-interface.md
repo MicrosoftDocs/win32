@@ -2,7 +2,7 @@
 description: IContextMenu is the most powerful but also the most complicated interface to implement.
 ms.assetid: F0C1D60E-7A5A-4609-9136-F4E535E9F6F1
 title: How to Implement the IContextMenu Interface
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

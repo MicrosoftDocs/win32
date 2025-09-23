@@ -2,7 +2,7 @@
 description: This section contains Properties for the InkPicture Control.
 ms.assetid: d724c177-af57-4c99-94f2-c70904910b49
 title: InkPicture Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

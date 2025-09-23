@@ -2,7 +2,7 @@
 title: IAgentNotifySink VisibleState
 description: IAgentNotifySink VisibleState
 ms.assetid: b0346296-74e9-448f-aa6d-a9fb1e645f05
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

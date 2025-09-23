@@ -2,8 +2,8 @@
 description: The following sample code demonstrates the use of the wait chain traversal API. It enumerates all threads in the system and prints the wait chain for each thread.
 ms.assetid: 7c5fa606-6e9b-41da-bfa9-1f066449d813
 title: Using WCT
-ms.topic: article
-ms.date: 11/19/2019
+ms.topic: how-to
+ms.date: 07/14/2025
 ---
 
 # Using WCT

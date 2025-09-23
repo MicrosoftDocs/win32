@@ -202,7 +202,7 @@
         href: appcontainer-for-legacy-applications-.md
       - name: "AppContainer isolation"
         href: appcontainer-isolation.md
-      - name: "Implement an AppContainer"
+      - name: "Launch an AppContainer"
         href: implementing-an-appcontainer.md
       - name: "App Isolation"
         items:
@@ -210,10 +210,10 @@
           href: app-isolation-overview.md
         - name: "Release notes"
           href: app-isolation-release-notes.md
+        - name: "Supported Capabilities"
+          href: app-isolation-supported-capabilities.md
         - name: "Consent for Isolated Win32 apps"
           href: app-isolation-app-consent.md
-        - name: "Package isolated Win32 apps with MSIX"
-          href: app-isolation-msix-packaging.md
         - name: "Package isolated Win32 apps with Visual Studio"
           href: app-isolation-packaging-with-vs.md
         - name: "Application capability profiler (ACP)"

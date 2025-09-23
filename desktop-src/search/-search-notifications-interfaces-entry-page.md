@@ -2,7 +2,7 @@
 description: Notifications Interfaces
 ms.assetid: 32638e85-7c24-4756-99f2-478316b5a326
 title: Notifications Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

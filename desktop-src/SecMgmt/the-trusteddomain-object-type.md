@@ -2,7 +2,7 @@
 description: Windows-based systems can have multiple instances of the TrustedDomain object type.
 ms.assetid: 13efedb5-ebb6-459b-8c4f-06774226278c
 title: The TrustedDomain Object Type
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

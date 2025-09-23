@@ -2,7 +2,7 @@
 title: Control Messages
 description: This section contains information about how Windows messages are used to communicate with controls.
 ms.assetid: 94d34132-25c2-4a1a-bd0e-35e5a666bbfa
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

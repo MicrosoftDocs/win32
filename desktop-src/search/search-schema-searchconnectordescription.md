@@ -2,7 +2,7 @@
 description: The &lt;searchConnectorDescriptionType&gt; element is the top level container for the search connector definition.
 ms.assetid: a6b45864-210d-4099-804d-7548fd8eb562
 title: searchConnectorDescriptionType Element (Search Connector Schema)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

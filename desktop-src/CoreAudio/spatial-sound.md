@@ -2,7 +2,7 @@
 description: Developer guidance for Microsoft Spatial Sound, Microsoft’s platform-level solution for spatial sound on Xbox, Windows and HoloLens 2, enabling both surround & elevation audio cues.
 ms.assetid: 4F962F1A-CA4A-4018-BA97-516EA3519650
 title: Spatial Sound for app developers for Windows, Xbox, and Hololens 2
-ms.topic: article
+ms.topic: concept-article
 ms.date: 07/18/2024
 ---
 
@@ -33,7 +33,7 @@ You can also enable Microsoft Spatial Sound by right-clicking the **Volume** ico
 
 ### Xbox
 
-On Xbox, Microsoft Spatial Sound capabilities are always available for the consumer, and are enabled via the Settings App under **General -> Volume & audio output**. 
+On Xbox, Microsoft Spatial Sound capabilities are always available for the consumer, and are enabled via Windows Settings under **General -> Volume & audio output**.
 
 The HDMI audio button is populated with all the formats supported by the Audio Video Receiver (AVR) or Soundbar or the TV that is directly connected to your Xbox console. The “Optical audio” option is only available on older Xbox consoles and not on Xbox Series X|S and above.
 

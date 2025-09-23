@@ -2,7 +2,7 @@
 description: These articles describe the public keywords which may appear in either a PrintCapabilities document or PrintTicket.
 ms.assetid: 1aa38771-65c1-4441-8ea3-9bda4071879f
 title: User Configurable Elements
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -6,7 +6,7 @@ keywords:
 - AsmxTerraServiceSampleWithCustomProxy Native-Web-Services
 - WWSAPI
 - WWS
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 
@@ -252,7 +252,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
         {
             goto Exit;
         }
-        wprintf(L"Place @ Lattitude=%f, Longitutde=%f is %s\n", 
+        wprintf(L"Place @ Latitude=%f, Longitude=%f is %s\n", 
             point.Lon,
             point.Lat,
             place);

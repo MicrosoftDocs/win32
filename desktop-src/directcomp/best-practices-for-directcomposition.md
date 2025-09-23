@@ -5,7 +5,7 @@ ms.assetid: D3A1ECD4-9358-44B9-8A84-7D901219D5CD
 keywords:
 - best practices for DirectComposition
 - recommended practices for DirectComposition
-ms.topic: article
+ms.topic: best-practice
 ms.date: 05/31/2018
 ---
 

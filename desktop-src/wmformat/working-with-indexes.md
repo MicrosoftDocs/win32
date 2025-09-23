@@ -7,7 +7,7 @@ keywords:
 - Advanced Systems Format (ASF),indexes
 - ASF (Advanced Systems Format),indexes
 - indexes,about
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

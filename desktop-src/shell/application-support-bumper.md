@@ -1,7 +1,7 @@
 ---
 description: Supporting Shell Applications
 title: Supporting Shell Applications
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.assetid: 66c8c8ff-e111-473f-802d-264da37e585b
 api_name: 

@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Password Never Expires ADSI ,LDAP provider
 - LDAP provider ADSI ,user management examples,Password Never Expires
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

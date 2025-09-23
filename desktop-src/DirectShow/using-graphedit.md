@@ -2,7 +2,7 @@
 description: Using GraphEdit
 ms.assetid: 91a8f111-fce4-4284-afa2-e3ea0ec35bff
 title: Using GraphEdit
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

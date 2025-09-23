@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Linked Attributes AD
 - Attributes AD ,linked
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

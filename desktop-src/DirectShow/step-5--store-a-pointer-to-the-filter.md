@@ -2,7 +2,7 @@
 description: Store a pointer to a filter as part of creating a filter property page for a custom DirectShow filter.
 ms.assetid: 7c715129-5bdf-468f-96cd-a46ab9c97f4c
 title: Step 5. Store a Pointer to the Filter
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

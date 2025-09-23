@@ -3,7 +3,7 @@ description: Another way of creating a namespace is to use Managed Object Format
 ms.assetid: 1a3f8569-e725-4158-9a2b-b440b9247925
 ms.tgt_platform: multiple
 title: Creating a Sibling Namespace with MOF Code
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

@@ -5,7 +5,7 @@ ms.assetid: 0c159c44-f96c-4c08-bd3f-9e65b413026c
 keywords:
 - MCIWndSave macro
 - MCIWndSaveDialog macro
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

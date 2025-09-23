@@ -2,7 +2,7 @@
 description: Control codes used in volume management.
 ms.assetid: 87f39e1c-3ebf-4c6f-a842-699ec3c45e76
 title: Volume Management Control Codes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

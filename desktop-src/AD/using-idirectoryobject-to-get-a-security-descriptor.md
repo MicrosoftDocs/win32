@@ -5,7 +5,7 @@ ms.assetid: 989abd3f-9043-4c3f-a99a-63fa95daf203
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , using IDirectoryObject to get a security descriptor
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

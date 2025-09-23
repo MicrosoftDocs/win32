@@ -2,7 +2,7 @@
 description: The native WebAuthN API (webauthn.h) includes the following constants.
 ms.assetid: e59eca78-b20a-4173-a7ef-7d2539dadd84
 title: WebAuthN constants
-ms.topic: article
+ms.topic: reference
 ms.date: 08/22/2022
 ---
 

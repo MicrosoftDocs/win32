@@ -2,7 +2,7 @@
 title: Pager Control Macros
 description: Pager Control Macros
 ms.assetid: eb0fa59b-e938-47d0-bf0c-429c9cf58095
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

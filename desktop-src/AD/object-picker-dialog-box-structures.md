@@ -3,7 +3,7 @@ title: Object Picker Dialog Box Structures
 description: The following structures are used with the object picker dialog boxes.
 ms.assetid: 69bf9c21-46ef-4ea1-aa29-d05ba69fd5c8
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

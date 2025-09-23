@@ -7,7 +7,7 @@ keywords:
 - ADSI ADSI ,using,collections and groups
 - collections ADSI
 - groups ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

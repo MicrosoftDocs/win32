@@ -2,7 +2,7 @@
 description: The following functions are used with file queues.
 ms.assetid: f05e2abf-983f-4418-bf92-f5ca6502196e
 title: File Queue Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

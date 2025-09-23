@@ -9,7 +9,7 @@ keywords:
 - desktop applications,RSS feeds
 - creating Windows Media Device Manager applications,RSS feeds
 - RSS feeds
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Security Contexts for Tasks
 description: Tasks are registered and run under a specific security context.
 ms.assetid: be86eb9f-f6ec-4dce-afe8-e3314a74062a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -35,7 +35,7 @@ From an elevated privilege process, you can register a task with the [**RunLevel
 
 From an elevated process, you can register a Task Scheduler 1.0 task. The Task Scheduler service will set the run level of the task to TASK\_RUNLEVEL\_HIGHEST and the task will run with elevated privileges.
 
-From an low privilege process, you can also register a Task Scheduler 1.0 task. The Task Scheduler service will set the run level of the task to TASK\_RUNLEVEL\_LUA, and the task will run with low privileges. If this task is updated from an elevated process, the run level of the task will remain TASK\_RUNLEVEL\_LUA.
+From a low privilege process, you can also register a Task Scheduler 1.0 task. The Task Scheduler service will set the run level of the task to TASK\_RUNLEVEL\_LUA, and the task will run with low privileges. If this task is updated from an elevated process, the run level of the task will remain TASK\_RUNLEVEL\_LUA.
 
 ## Security for Registering Tasks
 

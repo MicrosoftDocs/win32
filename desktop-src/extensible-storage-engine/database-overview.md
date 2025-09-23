@@ -6,7 +6,7 @@ ms:assetid: 6e4ebfab-8bd2-4fcf-9d91-2148a693596c
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg269290(v=EXCHG.10)
 ms:contentKeyID: 32765582
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Database Overview

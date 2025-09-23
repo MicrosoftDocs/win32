@@ -7,7 +7,7 @@ keywords:
 - Advanced Systems Format (ASF),protocol rollover
 - ASF (Advanced Systems Format),protocol rollover
 - protocol rollover
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

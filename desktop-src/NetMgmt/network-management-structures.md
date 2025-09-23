@@ -2,7 +2,7 @@
 title: Network management structures
 description: The network management structures can be grouped as follows.
 ms.assetid: a4b05054-bef2-4cab-89f6-725d92ee75b8
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

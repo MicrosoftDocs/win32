@@ -7,7 +7,7 @@ keywords:
 - ADSI, Example Code C/C++ , Searching for Attributes
 - Example Code for Searching for Attributes
 - ADSI, Searching, IDirectorySearch, Other Search Options, Returning Only Attribute Names, Example Code
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

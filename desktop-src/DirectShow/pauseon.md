@@ -2,7 +2,7 @@
 description: The PauseOn event is sent when the PauseOn command has been enabled or disabled.
 ms.assetid: '1220f17d-86f6-40c8-9efa-fbd4ba81c474'
 title: PauseOn
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

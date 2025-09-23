@@ -2,7 +2,7 @@
 description: Querying Interfaces
 ms.assetid: 904e5325-4bcb-42cf-8e7f-eb9641c94633
 title: Querying Interfaces
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

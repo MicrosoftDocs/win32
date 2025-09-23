@@ -2,7 +2,7 @@
 description: Recommended 8-Bit YUV Formats for Video Rendering
 ms.assetid: 675d4c60-4c58-4f15-9bae-ffb0c389c608
 title: Recommended 8-Bit YUV Formats for Video Rendering
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -56,6 +56,7 @@ Compared with the MPEG-1 scheme, it is simpler to convert between the MPEG-2 sch
 This section describes the 8-bit YUV formats that are recommended for video rendering. These fall into several categories:
 
 -   [4:4:4 Formats, 32 Bits per Pixel](#444-formats-32-bits-per-pixel)
+-   [4:4:4 Formats, 24 Bits per Pixel](#444-formats-24-bits-per-pixel)
 -   [4:2:2 Formats, 16 Bits per Pixel](#422-formats-16-bits-per-pixel)
 -   [4:2:0 Formats, 16 Bits per Pixel](#420-formats-16-bits-per-pixel)
 -   [4:2:0 Formats, 12 Bits per Pixel](#420-formats-12-bits-per-pixel)
@@ -71,9 +72,12 @@ Each of the YUV formats described in this article has an assigned FOURCC code. A
 
 -   4:4:4 (32 bpp)
     -   [AYUV](#ayuv)
+-   4:4:4 (24 bpp)
+    -   [I444](#i444)
 -   4:2:2 (16 bpp)
     -   [YUY2](#yuy2)
     -   [UYVY](#uyvy)
+    -   [UI422](#i422)
 -   4:2:0 (16 bpp)
     -   [IMC1](#imc1)
     -   [IMC3](#imc3)
@@ -93,6 +97,14 @@ A single 4:4:4 format is recommended, with the FOURCC code AYUV. This is a packe
 
 The bytes marked A contain values for alpha.
 
+## 4:4:4 Formats, 24 Bits per Pixel
+
+### I444
+
+In I444 format, all of the Y samples appear first in memory as an array of unsigned char values. This array is followed immediately by all of the U (Cb) samples. The stride of the U plane is the same stride of the Y plane; and the U plane contains the same number of lines as the Y plane. The U plane is followed immediately by all of the V (Cr) samples, with the same stride and number of lines as the U plane. There is no padding for Y/U/V planes.
+
+![A diagram illustrating the I444 memory layout.](images/yuvformats-i444.png)
+
 ## 4:2:2 Formats, 16 Bits per Pixel
 
 Two 4:2:2 formats are recommended, with the following FOURCC codes:
@@ -106,7 +118,7 @@ Both are packed formats, where each macropixel is two pixels encoded as four con
 
 In YUY2 format, the data can be treated as an array of unsigned **char** values, where the first byte contains the first Y sample, the second byte contains the first U (Cb) sample, the third byte contains the second Y sample, and the fourth byte contains the first V (Cr) sample, as shown in the following diagram.
 
-![figure 3. yuy2 memory layout](images/yuvformats02.gif)
+![A diagram illustrating the yuy2 memory layout](images/yuvformats02.gif)
 
 If the image is addressed as an array of little-endian **WORD** values, the first **WORD** contains the first Y sample in the least significant bits (LSBs) and the first U (Cb) sample in the most significant bits (MSBs). The second **WORD** contains the second Y sample in the LSBs and the first V (Cr) sample in the MSBs.
 
@@ -116,7 +128,14 @@ YUY2 is the preferred 4:2:2 pixel format for Microsoft DirectX Video Acceleratio
 
 This format is the same as the YUY2 format except the byte order is reversed—that is, the chroma and luma bytes are flipped (Figure 4). If the image is addressed as an array of two little-endian **WORD** values, the first **WORD** contains U in the LSBs and Y0 in the MSBs, and the second **WORD** contains V in the LSBs and Y1 in the MSBs.
 
-![figure 4. uyvy memory layout](images/yuvformats03.gif)
+![A diagram illustrating the uyvy memory layout](images/yuvformats03.gif)
+
+### I422
+
+In I422 format, all of the Y samples appear first in memory as an array of unsigned char values. This array is followed immediately by all of the U (Cb) samples. The stride of the U plane is half the stride of the Y plane; and the U plane contains the same number of lines as the Y plane. The U plane is followed immediately by all of the V (Cr) samples, with the same stride and number of lines as the U plane, as shown in the following illustration. There is no padding for the Y/U/V planes.
+
+![A diagram illustrating the I422 memory layout.](images/yuvformats-i422.png)
+
 
 ## 4:2:0 Formats, 16 Bits per Pixel
 
@@ -138,13 +157,13 @@ BYTE* pU = pY + (((((Height * 3) / 2) + 15) & ~15) * Stride);
 
 where *pY* is a byte pointer to the start of the memory array, as shown in the following diagram.
 
-![figure 5. imc1 memory layout (example)](images/yuvformats04.gif)
+![A diagram illustrating the imc1 memory layout (example)](images/yuvformats04.gif)
 
 ### IMC3
 
 This format is identical to IMC1, except the U and V planes are swapped, as shown in the following diagram.
 
-![figure 6. imc3 memory layout](images/yuvformats05.gif)
+![A diagram illustrating the imc3 memory layout](images/yuvformats05.gif)
 
 ## 4:2:0 Formats, 12 Bits per Pixel
 
@@ -161,25 +180,25 @@ In all of these formats, the chroma channels are subsampled by a factor of two i
 
 This format is the same as IMC1 except for the following difference: The V (Cr) and U (Cb) lines are interleaved at half-stride boundaries. In other words, each full-stride line in the chroma area starts with a line of V samples, followed by a line of U samples that begins at the next half-stride boundary (Figure 7). This layout makes more efficient use of address space than IMC1. It cuts the chroma address space in half, and thus the total address space by 25 percent. Among 4:2:0 formats, IMC2 is the second-most preferred format, after NV12. The following image illustrates this process.
 
-![figure 7. imc2 memory layout](images/yuvformats07.gif)
+![A diagram illustrating the imc2 memory layout](images/yuvformats07.gif)
 
 ### IMC4
 
 This format is identical to IMC2, except the U (Cb) and V (Cr) lines are swapped, as shown in the following illustration.
 
-![figure 8. imc4 memory layout](images/yuvformats06.gif)
+![A diagram illustrating the imc4 memory layout](images/yuvformats06.gif)
 
 ### YV12
 
 All of the Y samples appear first in memory as an array of unsigned **char** values. This array is followed immediately by all of the V (Cr) samples. The stride of the V plane is half the stride of the Y plane; and the V plane contains half as many lines as the Y plane. The V plane is followed immediately by all of the U (Cb) samples, with the same stride and number of lines as the V plane, as shown in the following illustration.
 
-![figure 9. yv12 memory layout](images/yuvformats08.gif)
+![A diagram illustrating the yv12 memory layout](images/yuvformats08.gif)
 
 ### NV12
 
 All of the Y samples appear first in memory as an array of unsigned **char** values with an even number of lines. The Y plane is followed immediately by an array of unsigned **char** values that contains packed U (Cb) and V (Cr) samples. When the combined U-V array is addressed as an array of little-endian **WORD** values, the LSBs contain the U values, and the MSBs contain the V values. NV12 is the preferred 4:2:0 pixel format for DirectX VA. It is expected to be an intermediate-term requirement for DirectX VA accelerators supporting 4:2:0 video. The following illustration shows the Y plane and the array that contains packed U and V samples.
 
-![figure 10. nv12 memory layout](images/yuvformats09.gif)
+![A diagram illustrating the nv12 memory layout](images/yuvformats09.gif)
 
 ## Color Space and Chroma Sampling Rate Conversions
 
@@ -337,7 +356,7 @@ where clip() denotes clipping to a range of \[0..255\].
 
 In effect, this method calculates each missing value by interpolating the curve over the four adjacent pixels, weighted toward the values of the two nearest pixels (Figure 11). The specific interpolation method used in this example generates missing samples at half-integer positions using a well-known method called Catmull-Rom interpolation, also known as cubic convolution interpolation.
 
-![figure 11. diagram showing 4:2:0 to 4:2:2 upsampling](images/yuvformats14.gif)
+![A diagram illustrating 4:2:0 to 4:2:2 upsampling](images/yuvformats14.gif)
 
 In signal processing terms, the vertical upconversion should ideally include a phase shift compensation to account for the half-pixel vertical offset (relative to the output 4:2:2 sampling grid) between the locations of the 4:2:0 sample lines and the location of every other 4:2:2 sample line. However, introducing this offset would increase the amount of processing required to generate the samples, and make it impossible to reconstruct the original 4:2:0 samples from the upsampled 4:2:2 image. It would also make it impossible to decode video directly into 4:2:2 surfaces and then use those surfaces as reference pictures for decoding subsequent pictures in the stream. Therefore, the method provided here does not take into account the precise vertical alignment of the samples. Doing so is probably not visually harmful at reasonably high picture resolutions.
 
@@ -350,6 +369,108 @@ Converting 4:2:2 YUV to 4:4:4 YUV requires horizontal upconversion by a factor o
 ## Converting 4:2:0 YUV to 4:4:4 YUV
 
 To convert 4:2:0 YUV to 4:4:4 YUV, you can simply follow the two methods described previously. Convert the 4:2:0 image to 4:2:2, and then convert the 4:2:2 image to 4:4:4. You can also switch the order of the two upconversion processes, as the order of operation does not really matter to the visual quality of the result.
+
+## Converting YUY2 to I422
+
+For the 4:2:2 color format, some decoders may output MFVideoFormat_YUY2 by default, which is a packed format. However, many encoders expect input in the planar format MFVideoFormat_I422. In such cases, the Transcoding Video Processor Media Foundation Transform (commonly referred to as “XVP”) can be inserted into the pipeline to convert MFVideoFormat_YUY2 to MFVideoFormat_I422. For more information, see [Transcoding Video Processor Media Foundation Transform](video-processor-mft.md). This example demonstrates how to use XVP to perform this conversion for encoding workflows.
+
+```cpp
+#include <mfapi.h> 
+#include <wmcodecdsp.h>  // CLSID_VideoProcessorMFT 
+
+using Microsoft::WRL; 
+
+HRESULT ConvertYUY2toI422WithXVP( 
+    _In_ IMFSample* inputSample, 
+    _In_ MFT_OUTPUT_DATA_BUFFER* outputBuffer, 
+    UINT32 width, 
+    UINT32 height)
+{ 
+    RETURN_HR_IF_NULL(E_INVALIDARG, inputSample);     
+    RETURN_HR_IF_NULL(E_INVALIDARG, outputBuffer);     
+
+    ComPtr<IMFTransform> xvp; 
+    RETURN_IF_FAILED(CoCreateInstance( 
+        CLSID_VideoProcessorMFT, 
+        nullptr, 
+        CLSCTX_INPROC_SERVER, 
+        IID_PPV_ARGS(&xvp))); 
+
+    // Set input type: MFVideoFormat_YUY2 
+    ComPtr<IMFMediaType> inputType; 
+    RETURN_IF_FAILED(MFCreateMediaType(&inputType)); 
+    RETURN_IF_FAILED(inputType->SetGUID(MF_MT_MAJOR_TYPE, MFMediaType_Video)); 
+    RETURN_IF_FAILED(inputType->SetGUID(MF_MT_SUBTYPE, MFVideoFormat_YUY2)); 
+    RETURN_IF_FAILED(MFSetAttributeSize(inputType.Get(), MF_MT_FRAME_SIZE, width, height)); 
+    RETURN_IF_FAILED(spXVP->SetInputType(0, inputType.Get(), 0)); 
+
+    // Set output type: MFVideoFormat_I422 
+    ComPtr<IMFMediaType> outputType; 
+    RETURN_IF_FAILED(MFCreateMediaType(&outputType)); 
+    RETURN_IF_FAILED(outputType->SetGUID(MF_MT_MAJOR_TYPE, MFMediaType_Video)); 
+    RETURN_IF_FAILED(outputType->SetGUID(MF_MT_SUBTYPE, MFVideoFormat_I422)); 
+    RETURN_IF_FAILED(MFSetAttributeSize(outputType.Get(), MF_MT_FRAME_SIZE, width, height)); 
+    RETURN_IF_FAILED(xvp->SetOutputType(0, outputType.Get(), 0)); 
+
+    // Submit input sample 
+    RETURN_IF_FAILED(xvp->ProcessInput(0, inputSample, 0)); 
+
+    // Request the converted output sample 
+    DWORD status = 0; 
+    return xvp->ProcessOutput(0, 1, outputBuffer, &status);
+} 
+```
+
+## Converting AYUV to I444
+
+For the 4:4:4 color format, some decoders may output MFVideoFormat_AYUV by default, which is a packed format. However, many encoders expect input in the planar format MFVideoFormat_I444. In such cases, the Transcoding Video Processor Media Foundation Transform (XVP) can be inserted into the pipeline to convert MFVideoFormat_AYUV to MFVideoFormat_I444. This example demonstrates how to use XVP to perform this conversion for encoding workflows.
+
+```cpp
+#include <mfapi.h> 
+#include <wmcodecdsp.h>  // CLSID_VideoProcessorMFT 
+
+using Microsoft::WRL; 
+
+HRESULT ConvertAYUVtoI444WithXVP( 
+    _In_ IMFSample* inputSample, 
+    _In_ MFT_OUTPUT_DATA_BUFFER* outputBuffer, 
+    UINT32 width, 
+    UINT32 height) 
+{ 
+    RETURN_HR_IF_NULL(E_INVALIDARG, inputSample);     
+    RETURN_HR_IF_NULL(E_INVALIDARG, outputBuffer);     
+
+    ComPtr<IMFTransform> xvp; 
+    RETURN_IF_FAILED(CoCreateInstance( 
+        CLSID_VideoProcessorMFT, 
+        nullptr, 
+        CLSCTX_INPROC_SERVER, 
+        IID_PPV_ARGS(&xvp))); 
+
+    // Set input type: MFVideoFormat_AYUV 
+    ComPtr<IMFMediaType> inputType; 
+    RETURN_IF_FAILED(MFCreateMediaType(&inputType)); 
+    RETURN_IF_FAILED(inputType->SetGUID(MF_MT_MAJOR_TYPE, MFMediaType_Video)); 
+    RETURN_IF_FAILED(inputType->SetGUID(MF_MT_SUBTYPE, MFVideoFormat_AYUV)); 
+    RETURN_IF_FAILED(MFSetAttributeSize(inputType.Get(), MF_MT_FRAME_SIZE, width, height)); 
+    RETURN_IF_FAILED(xvp->SetInputType(0, inputType.Get(), 0)); 
+
+    // Set output type: MFVideoFormat_I444 
+    ComPtr<IMFMediaType> outputType; 
+    RETURN_IF_FAILED(MFCreateMediaType(&outputType)); 
+    RETURN_IF_FAILED(outputType->SetGUID(MF_MT_MAJOR_TYPE, MFMediaType_Video)); 
+    RETURN_IF_FAILED(outputType->SetGUID(MF_MT_SUBTYPE, MFVideoFormat_I444)); 
+    RETURN_IF_FAILED(MFSetAttributeSize(outputType.Get(), MF_MT_FRAME_SIZE, width, height)); 
+    RETURN_IF_FAILED(xvp->SetOutputType(0, outputType.Get(), 0)); 
+
+    // Submit input sample 
+    RETURN_IF_FAILED(xvp->ProcessInput(0, inputSample, 0)); 
+
+    // Request the converted output sample 
+    DWORD status = 0; 
+    return xvp->ProcessOutput(0, 1, outputBuffer, &status); 
+} 
+```
 
 ## Other YUV Formats
 

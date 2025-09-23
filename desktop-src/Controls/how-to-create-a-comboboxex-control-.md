@@ -2,7 +2,7 @@
 title: How to Create a ComboBoxEx Control
 description: This topic demonstrates how to create a ComboBoxEx control.
 ms.assetid: E3D577AF-3290-431E-AA6C-1E9A9ED6448C
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

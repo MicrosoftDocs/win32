@@ -1,7 +1,7 @@
 ---
 title: DXCore
 description: DXCore is an adapter enumeration API for DirectX devices.
-ms.topic: article
+ms.topic: reference
 ms.date: 08/17/2023
 ---
 

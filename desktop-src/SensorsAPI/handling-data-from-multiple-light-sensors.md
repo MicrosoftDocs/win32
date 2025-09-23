@@ -2,11 +2,16 @@
 description: Using Light Sensor Data
 ms.assetid: 98272df5-08c0-4392-a74b-2919bbdcb022
 title: Using Light Sensor Data
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 09/19/2025
 ---
 
 # Using Light Sensor Data
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 There are two recommended ways of interpreting and using lux data that comes from ambient light sensors.
 
@@ -77,6 +82,6 @@ STDMETHODIMP CALSEventSink::OnDataUpdated(
 
 
 
- 
 
- 
+
+

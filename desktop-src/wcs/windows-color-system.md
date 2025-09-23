@@ -4,7 +4,7 @@ description: Color management schemes are implemented in Microsoft Windows oper
 ms.assetid: 9e8b7c38-3c4f-4537-a7e1-6ad0daa39497
 
 
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

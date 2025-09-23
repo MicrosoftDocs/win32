@@ -8,7 +8,7 @@ ms.date: 10/01/2024
 
 # Win32 app isolation overview
 
-The Win32 app isolation security feature for Windows provides a sandbox environment that can integrated into Win32 apps, providing an additional layer of security. This enhancement requires little to no change to your code.
+The Win32 app isolation security feature for Windows provides a sandbox environment that can be integrated into Win32 apps, providing an additional layer of security. This enhancement requires little to no change to your code.
 
 For the latest updates and enhancements, please refer to the [Release notes](app-isolation-release-notes.md).
 
@@ -25,25 +25,20 @@ If you have a feature request or wish to report a bug, file an issue in our GitH
 
 ## Minimum requirements
 
-The following are the minimum requirements to create a Win32 app isolation app:
+The following are the minimum requirements to create an isolated Win32 app:
 
 - Windows 11, version 24H2 (build 26100) or later.
 - Development tools for packaging:
   - [Visual Studio](https://visualstudio.microsoft.com/) version 17.10.2 or greater.
-  - Or use the [Customized MSIX Packaging Tool](https://github.com/microsoft/win32-app-isolation/releases/tag/v0.1.1) on GitHub.
 - (Optional) [Application Capability Profiler (ACP)](https://github.com/microsoft/win32-app-isolation/releases/tag/v0.1.1) and [Windows Performance Recorder (WPR)](/windows-hardware/test/wpt/windows-performance-recorder) are available, if you need to identify the capabilities to use.
 
-## Creating a Win32 app isolation app
+## Creating an isolated Win32 app
 
-These are the steps to consider when creating a Win32 app isolation app:
+These are the steps to consider when creating an isolated Win32 app:
 
-- If you are using Visual Studio to build your project:
-  - Follow the [packaging instructions](app-isolation-packaging-with-vs.md) for Visual Studio.
-- Or if you have the Win32 installer / MSIX package:
-  - [Create](app-isolation-msix-packaging.md#packaging-an-isolated-win32-app-with-msix) an MSIX package from a Win32 installer.
-  - [Turn](app-isolation-msix-packaging.md#convert-an-existing-msix-app-to-run-isolated) an MSIX Package into an isolated Win32 app.
+-  Follow the [packaging instructions](app-isolation-packaging-with-vs.md) for Visual Studio.
 - If you need to identify the required capabilities:
-  - Use the [ACP](app-isolation-capability-profiler.md) tool.
+  - Use the [ACP](app-isolation-capability-profiler.md) tool or the [Supported Capabilities](app-isolation-supported-capabilities.md) section.
   - Repackage the app with the capabilities that were identified.
 
 ## Related topics

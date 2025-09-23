@@ -5,7 +5,7 @@ description:
   event only when the session verbosity level is verbose, and how to log
   structured event data.
 ms.assetid: 156016FE-FDC7-4361-BFD0-5F41254FE14D
-ms.topic: article
+ms.topic: concept-article
 ms.date: 06/06/2022
 ---
 

@@ -2,7 +2,7 @@
 description: Full-scene antialiasing refers to blurring the edges of each polygon in the scene as it is rasterized in a single pass; no second pass is required.
 ms.assetid: b57974ab-5654-412d-ae59-58f67a88c121
 title: Full-Scene Antialiasing (Direct3D 9)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

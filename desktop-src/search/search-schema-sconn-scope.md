@@ -2,7 +2,7 @@
 description: The optional &lt;scope&gt; element specifies a collection of &lt;scopeItem&gt; elements that define the scope inclusions and exclusions for this particular search connector.
 ms.assetid: 9e92e3db-3d5e-4f86-8d67-90eb5469b04b
 title: scope Element (Search Connector Schema)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

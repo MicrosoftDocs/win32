@@ -2,7 +2,7 @@
 description: Used to add attributes to a certificate request.
 ms.assetid: 7007c751-f1a4-4ddc-a66e-d3edefc6ed97
 title: Attribute Architecture
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

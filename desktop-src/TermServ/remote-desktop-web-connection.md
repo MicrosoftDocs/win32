@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Web Connection Remote Desktop Services
 - Remote Desktop Protocol (RDP) Remote Desktop Services , Remote Desktop Web Connection overview
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

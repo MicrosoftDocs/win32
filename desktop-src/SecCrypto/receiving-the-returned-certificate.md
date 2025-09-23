@@ -2,7 +2,7 @@
 description: Explains how an application receives a certificate.
 ms.assetid: 7f87dcf5-b434-4f63-abcd-6873831d22bc
 title: Receiving the Returned Certificate
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

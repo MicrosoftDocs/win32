@@ -2,8 +2,8 @@
 title: Appendixes (UI Automation)
 description: This section provides supplemental information about Microsoft UI Automation.
 ms.assetid: faea97d1-5937-4fa2-acbf-a2142dd2a382
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Appendixes (UI Automation)

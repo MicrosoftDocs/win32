@@ -7,7 +7,7 @@ keywords:
 - security descriptors AD ,modifying the defaultSecurityDescriptor for an object class
 - objects AD ,modifying the defaultSecurityDescriptor for an object class
 - class AD ,modifying the defaultSecurityDescriptor for an object class
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

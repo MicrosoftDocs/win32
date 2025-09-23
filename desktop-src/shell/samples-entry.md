@@ -1,7 +1,7 @@
 ---
 description: This section describes the Shell samples available on GitHub.
 title: Shell SDK Samples
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ms.assetid: CFC388BE-5D74-440c-9C57-7EB853637712
 api_name: 

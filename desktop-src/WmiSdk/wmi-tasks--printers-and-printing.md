@@ -3,7 +3,7 @@ description: WMI tasks for printers and printing manage and obtain data about pr
 ms.assetid: 56aa8043-08cc-42c9-82b0-f1328cd52ff8
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Printers and Printing'
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

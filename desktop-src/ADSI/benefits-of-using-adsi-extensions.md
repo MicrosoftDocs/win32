@@ -3,7 +3,7 @@ title: Benefits of Using ADSI Extensions
 description: The way in which extension methods are implemented depends on the extension writer.
 ms.assetid: dbd1a203-b94c-4739-8c9d-aed1c9b43426
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

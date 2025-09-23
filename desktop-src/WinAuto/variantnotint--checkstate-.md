@@ -2,15 +2,15 @@
 title: VariantNotInt (CheckState)
 description: VariantNotInt (CheckState)
 ms.assetid: 77140193-22E8-427D-AE9C-FEC6B93483DD
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # VariantNotInt (CheckState)
 
 ## Text
 
-The variant returned from {0} should be an {1} but is a {2}.
+The variant returned from {0} should be a {1} but is a {2}.
 
 ## Type
 

@@ -3,7 +3,7 @@ description: A WMI provider creates a group of supported classes, instances, and
 ms.assetid: 919dfa7c-4a36-4e59-8377-72cf9735eaec
 ms.tgt_platform: multiple
 title: Supplying Data to WMI by Writing a Provider
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -1284,7 +1284,7 @@ STDAPI DllUnregisterServer(void)
 
 <dl> <dt>
 
-[Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md)
+[Setting Namespace Security Descriptors](setting-namespace-security-descriptors.md)
 </dt> <dt>
 
 [Securing Your Provider](securing-your-provider.md)

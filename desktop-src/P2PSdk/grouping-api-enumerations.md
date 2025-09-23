@@ -2,7 +2,7 @@
 description: 'The Grouping API uses the following enumerations:'
 ms.assetid: 7f7e926c-e8dc-48c0-b5b9-0dc98686a174
 title: Grouping API Enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -7,7 +7,7 @@ keywords:
 - mutual exclusion,about
 - profiles,mutual exclusion
 - streams,mutual exclusion
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

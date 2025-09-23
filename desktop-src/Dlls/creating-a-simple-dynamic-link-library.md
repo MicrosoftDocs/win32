@@ -2,7 +2,7 @@
 description: The following example is the source code needed to create a simple DLL, Myputs.dll.
 ms.assetid: 3b11a83b-9943-4b66-8d0d-4a236ad5ffb8
 title: Creating a Simple Dynamic-Link Library
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

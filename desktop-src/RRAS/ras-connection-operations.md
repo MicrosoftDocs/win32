@@ -4,7 +4,7 @@ description: Windows NT and later versions provide the RasPhonebookDlg and RasD
 ms.assetid: 1e0f82e1-5995-4b47-970b-e6a7ff6d52e0
 keywords:
 - Connection Operations, RAS
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Quality Messages
 ms.assetid: ff98cb51-6300-470d-b696-5e27591c6b3f
 title: Quality Messages
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

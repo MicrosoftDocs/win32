@@ -3,7 +3,7 @@ title: Remote Desktop Services AudioEndpoint Structures
 description: The following structures are used with the AudioEndpoint API.
 ms.assetid: 174661a6-f6be-4aac-837a-43dbee9cd839
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

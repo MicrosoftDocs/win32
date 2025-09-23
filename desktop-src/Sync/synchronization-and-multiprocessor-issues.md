@@ -2,7 +2,7 @@
 description: Applications may encounter problems when run on multiprocessor systems due to assumptions they make which are valid only on single-processor systems.
 ms.assetid: b20a1d2c-b795-4ed8-ac33-539a347020c8
 title: Synchronization and Multiprocessor Issues
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Implementing IWICMetadataBlockReader
 ms.assetid: 80ad8e20-a9d4-4503-94ba-1b7699e36111
 title: Implementing IWICMetadataBlockReader
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

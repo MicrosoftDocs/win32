@@ -2,7 +2,7 @@
 title: Working with MCI Devices
 description: Working with MCI Devices
 ms.assetid: 29c4dc94-276e-4acf-8cad-f52bdeefd9e7
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: Seeking
 ms.assetid: 'ceccb657-f1e1-4d59-920a-477a95b8a1a4'
 title: Seeking
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

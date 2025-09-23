@@ -3,7 +3,7 @@ description: A ProtocolEndpoint that is dedicated to running IP.
 ms.assetid: 54499dbb-ef81-4e31-a1ef-76ec1884ec31
 title: CIM_IPProtocolEndpoint WMI class
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -532,7 +532,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > *OrgID*:*LocalID*
 >
-> *OrgID* must include a copyrighted, trademarked or otherwise unique name that is owned by the business entity defining the **InstanceID**, or be a registered ID that is assigned by a recognized global authority. This is similar to the structure of Schema class names. In addition, to ensure uniqueness the first colon in **InstanceID** must be between the *OrgID* and*LocalID*. Therefor the *OrgID* must not contain a colon (':').
+> *OrgID* must include a copyrighted, trademarked or otherwise unique name that is owned by the business entity defining the **InstanceID**, or be a registered ID that is assigned by a recognized global authority. This is similar to the structure of Schema class names. In addition, to ensure uniqueness the first colon in **InstanceID** must be between the *OrgID* and*LocalID*. Therefore the *OrgID* must not contain a colon (':').
 >
 > *LocalID* is chosen by the business entity and should not be re-used to identify different underlying real-world elements.
 >

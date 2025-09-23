@@ -7,7 +7,7 @@ keywords:
 - Using Active Directory Service Interfaces ADSI
 - ADSI ADSI , Using
 - Active Directory Service Interfaces ADSI , Using
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: 1f1aef71-a2b7-49ad-a0bc-f61f10b701c9
 keywords:
 - Change
 - Change Notification Flags
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

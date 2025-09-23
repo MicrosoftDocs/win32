@@ -2,7 +2,7 @@
 description: The following example uses the ExitWindows function to log off the current user.
 ms.assetid: 74be3505-c4bd-4ae2-aaed-700382839006
 title: How to Log Off the Current User
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Service control manager
 description: The service control manager (SCM) is started at system boot. It's a remote procedure call (RPC) server, so that service configuration and service control programs can manipulate services on remote machines.
 ms.assetid: 56ad011d-17c4-4410-b598-6ef47fb3638f
-ms.topic: article
+ms.topic: concept-article
 ms.date: 01/25/2022
 ---
 

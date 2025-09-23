@@ -56,7 +56,7 @@ The policy is the default policy that the Windows Biometric Framework provides.
 <span id="WINBIO_POLICY_LOCAL"></span><span id="winbio_policy_local"></span>**WINBIO\_POLICY\_LOCAL**
 </dt> <dd>
 
-The policy that the individual user set for their account by using the **Settings** app. This policy overrides the default policy.
+The policy that the individual user set for their account by using Windows **Settings**. This policy overrides the default policy.
 
 </dd> <dt>
 

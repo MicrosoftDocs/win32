@@ -2,7 +2,7 @@
 description: System.Contact.JobInfo2CompanyName
 ms.assetid: dfbad5d9-e45d-42cd-a570-d35899859473
 title: System.Contact.JobInfo2CompanyName
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

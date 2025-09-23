@@ -2,7 +2,7 @@
 title: Queued present model is being deprecated
 description: Queued present model is being deprecated
 ms.assetid: 271CD4F7-0992-47DB-AF5A-B77570EF681A
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

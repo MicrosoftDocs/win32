@@ -2,7 +2,7 @@
 title: WebSocket Protocol Component API Enumerations
 description: The WebSocket Protocol Component API defines these enumerations.
 ms.assetid: E655C906-FF38-468F-B9DC-F0CF8323FF88
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

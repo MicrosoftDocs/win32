@@ -7,7 +7,7 @@ keywords:
 - multimedia,Media Control Interface (MCI)
 - Media Control Interface (MCI),about
 - MCI (Media Control Interface),about
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

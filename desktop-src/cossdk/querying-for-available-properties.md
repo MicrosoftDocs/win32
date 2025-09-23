@@ -2,7 +2,7 @@
 description: Querying for Available Properties
 ms.assetid: 9acf10cd-19a8-4542-8078-3e4ee275d4d5
 title: Querying for Available Properties
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

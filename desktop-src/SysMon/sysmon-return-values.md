@@ -2,7 +2,7 @@
 title: SYSMON Return Values
 description: The following is a list of the System Monitor return values that are defined in Smonmsg.h.
 ms.assetid: f1cc7668-4a6f-4b70-9591-62bd447fe8fb
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,7 +1,7 @@
 ---
 description: The Windows Shell provides a powerful set of automation objects that enable you to program the Shell with Microsoft Visual Basic and scripting languages such as Microsoft JScript (compatible with ECMA 262 language specification) and Microsoft Visual Basic Scripting Edition (VBScript). You can use these objects to access many of the Shell's features and dialog boxes. For example, you can access the file system, launch programs, and change system settings.
 title: Scriptable Shell Objects
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 09455fad-a769-42ef-83ba-b745ac819bf3
 api_name: 

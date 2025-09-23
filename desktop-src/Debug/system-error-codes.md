@@ -1,8 +1,8 @@
 ---
 description: Provides guidance on debugging system error codes & links to system error codes defined in the WinError.h header file.
 title: Tutorial - Debug system error codes
-ms.topic: article
-ms.date: 07/15/2024
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Debug system error codes

@@ -70,7 +70,7 @@ This type is available only in C++. Its .NET equivalent is [System.Numerics.Quat
 | `quaternion& operator+= (quaternion& value1, quaternion const& value2)` | In-place adds two quaternions. |
 | `quaternion& operator-= (quaternion& value1, quaternion const& value2)` | In-place subtracts a quaternion from another quaternion. |
 | `quaternion& operator*= (quaternion& value1, quaternion const& value2)` | In-place multiplies a quaternion by another quaternion. |
-| `quaternion& operator*= (quaternion& value1, float value2)` | In-place nultiplies a quaternion by a scalar value. |
+| `quaternion& operator*= (quaternion& value1, float value2)` | In-place multiplies a quaternion by a scalar value. |
 | `quaternion& operator/= (quaternion& value1, quaternion const& value2)` | In-place divides a quaternion by another quaternion. |
 | `bool operator== (quaternion const& value1, quaternion const& value2)` | Determines whether two instances of quaternion are equal. |
 | `bool operator!= (quaternion const& value1, quaternion const& value2)` | Determines whether two instances of quaternion are not equal. |

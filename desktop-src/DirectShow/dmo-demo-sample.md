@@ -2,7 +2,7 @@
 description: DMO Demo Sample
 ms.assetid: b19f0ca0-65ca-4a3b-97e3-dbd1aafe77d9
 title: DMO Demo Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

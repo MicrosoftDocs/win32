@@ -6,7 +6,7 @@ keywords:
 - Helper functions
 - Helper structures
 - d3dx12.h
-ms.topic: article
+ms.topic: concept-article
 ms.date: 11/07/2024
 ---
 

@@ -2,7 +2,7 @@
 title: Best Practices When Using BITS
 description: This section contains information you should consider when designing an application that uses BITS.
 ms.assetid: f4a09a80-2a85-4b59-b0fd-c23c128973f7
-ms.topic: article
+ms.topic: best-practice
 ms.date: 7/12/2019
 ---
 

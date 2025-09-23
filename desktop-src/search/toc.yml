@@ -135,6 +135,8 @@
                 href: -search-sql-isabout.md
               - name: "NEAR Term"
                 href: -search-sql-near.md
+            - name: "CONTAINSSEMANTIC Predicate"
+              href: -search-sql-containssemantic.md
             - name: "FREETEXT Predicate"
               href: -search-sql-freetext.md
           - name: "Non-Full-Text Predicates"

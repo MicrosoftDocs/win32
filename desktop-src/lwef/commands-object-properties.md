@@ -2,7 +2,7 @@
 title: Commands Object Properties
 description: Commands Object Properties
 ms.assetid: 889a56b2-0b6d-4df8-a313-7553371e4413
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

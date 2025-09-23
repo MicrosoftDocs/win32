@@ -3,7 +3,7 @@ title: Manipulation-Rule
 description: The manipulation rule to apply to the data specified by the Manipulation-Target attribute. For more information, see Realms Processing and Attribute Manipulation.
 ms.assetid: afe85f68-d905-4c95-9c23-b24a117d0155
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

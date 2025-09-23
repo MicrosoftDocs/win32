@@ -2,7 +2,7 @@
 title: Setting System-Wide Security Using DCOMCNFG
 description: When you want all of the applications on one computer that do not provide their own security to share the same default security settings, you would set security on a system-wide basis.
 ms.assetid: 23d1e222-c00b-497c-adc8-4ae14c5bdd98
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

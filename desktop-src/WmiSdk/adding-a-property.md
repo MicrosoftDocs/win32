@@ -3,7 +3,7 @@ description: Properties in WMI classes describe data about a managed object.
 ms.assetid: 4046bfc7-9528-4737-ad61-bbb8419d0b51
 ms.tgt_platform: multiple
 title: Adding a WMI Property
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

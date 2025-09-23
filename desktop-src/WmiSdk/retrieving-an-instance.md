@@ -3,7 +3,7 @@ description: Retrieving an instance is one of the most common retrieval procedur
 ms.assetid: c3258783-ffcd-4c40-aaf2-7c65617cf9f8
 ms.tgt_platform: multiple
 title: Retrieving a WMI Instance
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

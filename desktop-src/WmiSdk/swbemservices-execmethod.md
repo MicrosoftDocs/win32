@@ -176,7 +176,7 @@ Set oProcess = Services.Get("Win32_Process")
 ' to hold the input parameter needed
 ' for the Win32_Process.Create method call.
 ' The oProcess.Methods_("Create") call
-' obtains obtains a class object that
+' obtains a class object that
 ' defines the correct input parameters
 ' for the Win32_Process.Create call.
 ' The InParameters object is an 

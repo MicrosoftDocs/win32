@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Binding to the Global Catalog AD
 - global catalog AD , binding to
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

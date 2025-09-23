@@ -2,7 +2,7 @@
 title: ComboBox Control Structures
 description: ComboBox Control Structures
 ms.assetid: a7e698b7-1b9b-4b41-92f4-b177ef37aa96
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

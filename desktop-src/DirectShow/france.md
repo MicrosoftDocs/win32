@@ -2,7 +2,7 @@
 description: This article contains frequency tables for international analog TV tuning for France. Frequency indexes are not suitable for channel numbers.
 ms.assetid: 852ead0e-3539-483d-943d-1779f7358ba5
 title: France
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

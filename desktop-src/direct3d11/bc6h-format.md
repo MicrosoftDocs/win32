@@ -5,7 +5,7 @@ ms.assetid: D6A1A729-5023-4A94-A8DB-5954D453E136
 keywords:
 - BC6H
 - DXGI_FORMAT_BC6H
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

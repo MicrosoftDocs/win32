@@ -2,7 +2,7 @@
 description: When using Microsoft Windows dialog boxes, you must label all controls to facilitate speech functionality. The following Run dialog box shows a static text control label for a drop-down list box. Static text ends with a colon.
 ms.assetid: 3b01a4d2-9deb-413f-bab8-566df86b6af9
 title: Naming Controls in Dialog Boxes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: In general, each Active Directory object maps to exactly one WMI in
 ms.assetid: c6c7f3c3-7174-4278-bf40-d99ed8bd0c8d
 ms.tgt_platform: multiple
 title: Mapping Active Directory Instances
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

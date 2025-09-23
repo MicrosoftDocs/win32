@@ -2,7 +2,7 @@
 description: This article contains frequency tables for international analog TV tuning for Ireland. Frequency indexes are not suitable for channel numbers.
 ms.assetid: be60ca37-9f3a-44cd-8646-28fcbda5e79e
 title: Ireland
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

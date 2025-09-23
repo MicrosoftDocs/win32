@@ -3,7 +3,7 @@ description: Provides a list of steps on how to retrieve a WMI class definition 
 ms.assetid: cfe4bcca-692e-45cd-a840-93ebfe4ae267
 ms.tgt_platform: multiple
 title: Retrieving a WMI Class
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

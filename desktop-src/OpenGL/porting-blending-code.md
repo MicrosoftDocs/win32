@@ -8,7 +8,7 @@ keywords:
 - porting to OpenGL from IRIS GL,blending
 - OpenGL porting from IRIS GL,blending
 - blending
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

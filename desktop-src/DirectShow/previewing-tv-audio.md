@@ -2,7 +2,7 @@
 description: Previewing TV Audio
 ms.assetid: 25da8bcc-51c1-49f0-b4b5-885ff4f254d8
 title: Previewing TV Audio
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

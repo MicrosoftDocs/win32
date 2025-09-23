@@ -2,7 +2,7 @@
 title: Authenticator Method API Call Sequence
 description: Learn about the authenticator method API call sequence. See a list that demonstrates the sequence of calls made by an EAPHost on an EAP authenticator method.
 ms.assetid: 4756300c-5e49-44e8-ab49-1993d780d2a3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

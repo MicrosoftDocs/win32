@@ -4,7 +4,7 @@ description: This section describes the Windows XP publishing wizards.
 ms.assetid: 53279837-f57b-447a-8c71-03f635959fdb
 keywords:
 - publishing wizards,about
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

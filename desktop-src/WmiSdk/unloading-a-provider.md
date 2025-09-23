@@ -3,7 +3,7 @@ description: After WMI is finished with a provider, it unloads the provider from
 ms.assetid: 6116769f-3402-42b3-835d-9bdb0fc27ce0
 ms.tgt_platform: multiple
 title: Unloading a Provider
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -108,7 +108,7 @@ There are many restrictions as to what can be done in the cleanup code with eith
 
 <dl> <dt>
 
-[Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md)
+[Setting Namespace Security Descriptors](setting-namespace-security-descriptors.md)
 </dt> <dt>
 
 [Securing Your Provider](securing-your-provider.md)

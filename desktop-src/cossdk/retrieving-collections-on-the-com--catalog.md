@@ -2,7 +2,7 @@
 description: Retrieving Collections on the COM+ Catalog
 ms.assetid: 7cd5c491-6c85-410f-845b-c2f7b4f2a560
 title: Retrieving Collections on the COM+ Catalog
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

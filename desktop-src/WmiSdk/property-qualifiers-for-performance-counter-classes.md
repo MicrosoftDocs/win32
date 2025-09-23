@@ -3,7 +3,7 @@ description: Property qualifiers specify information about the performance count
 ms.assetid: f1761f71-af4e-4b89-aba7-b7f294c30ffc
 ms.tgt_platform: multiple
 title: Property Qualifiers for Performance Counter Classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

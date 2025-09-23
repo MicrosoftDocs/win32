@@ -4,7 +4,7 @@ description: Writing a task that starts an executable when a task is registered 
 ms.assetid: 426fa79d-7f0d-42fb-a8c4-15981d13be71
 keywords:
 - Task Scheduler examples Task Scheduler , registration trigger
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

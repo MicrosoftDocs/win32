@@ -2,7 +2,7 @@
 description: What's New in IP Helper
 ms.assetid: fa9d72d0-2f9c-433d-b05a-8423664b2e3e
 title: What's New in IP Helper
-ms.topic: article
+ms.topic: whats-new
 ms.date: 05/31/2018
 ---
 

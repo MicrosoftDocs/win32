@@ -2,7 +2,7 @@
 description: ASF header information is stored in the ASF Header Objects of a media file.
 ms.assetid: 1654af97-f4fe-427f-b562-3b109e921719
 title: Getting Information from ASF Header Objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

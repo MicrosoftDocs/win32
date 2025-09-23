@@ -2,8 +2,8 @@
 description: This specification describes the structure of executable (image) files and object files under the Windows family of operating systems. These files are referred to as Portable Executable (PE) and Common Object File Format (COFF) files, respectively.
 ms.assetid: 3dbfbf7f-6662-45a4-99f1-e0e24c370dee
 title: PE Format
-ms.topic: article
-ms.date: 02/29/2024
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # PE Format
@@ -127,6 +127,8 @@ The Machine field has one of the following values, which specify the CPU type. A
 | IMAGE\_FILE\_MACHINE\_AMD64 <br/>     | 0x8664 <br/> | x64 <br/>                                                                         |
 | IMAGE\_FILE\_MACHINE\_ARM <br/>       | 0x1c0 <br/>  | ARM little endian <br/>                                                           |
 | IMAGE\_FILE\_MACHINE\_ARM64 <br/>     | 0xaa64 <br/> | ARM64 little endian <br/>                                                         |
+| IMAGE\_FILE\_MACHINE\_ARM64EC <br/>     | 0xA641 <br/> | ABI that enables interoperability between native ARM64 and emulated x64 code. <br/>                                                         |
+| IMAGE\_FILE\_MACHINE\_ARM64X <br/>     | 0xA64E <br/> | Binary format that allows both native ARM64 and ARM64EC code to coexist in the same file.  <br/>                                                         |
 | IMAGE\_FILE\_MACHINE\_ARMNT <br/>     | 0x1c4 <br/>  | ARM Thumb-2 little endian <br/>                                                   |
 | IMAGE\_FILE\_MACHINE\_AXP64 <br/>     | 0x284 <br/>  | AXP 64 (Same as Alpha 64) <br/>                                                   |
 | IMAGE\_FILE\_MACHINE\_EBC <br/>       | 0xebc <br/>  | EFI byte code <br/>                                                               |
@@ -140,7 +142,10 @@ The Machine field has one of the following values, which specify the CPU type. A
 | IMAGE\_FILE\_MACHINE\_MIPSFPU16 <br/> | 0x466 <br/>  | MIPS16 with FPU <br/>                                                             |
 | IMAGE\_FILE\_MACHINE\_POWERPC <br/>   | 0x1f0 <br/>  | Power PC little endian <br/>                                                      |
 | IMAGE\_FILE\_MACHINE\_POWERPCFP <br/> | 0x1f1 <br/>  | Power PC with floating point support <br/>                                        |
-| IMAGE\_FILE\_MACHINE\_R4000 <br/>     | 0x166 <br/>  | MIPS little endian <br/>                                                          |
+| IMAGE\_FILE\_MACHINE\_R3000BE <br/>   | 0x160 <br/>  | MIPS I compatible 32-bit big endian <br/>                                         |
+| IMAGE\_FILE\_MACHINE\_R3000 <br/>     | 0x162 <br/>  | MIPS I compatible 32-bit little endian <br/>                                      |
+| IMAGE\_FILE\_MACHINE\_R4000 <br/>     | 0x166 <br/>  | MIPS III compatible 64-bit little endian <br/>                                    |
+| IMAGE\_FILE\_MACHINE\_R10000 <br/>    | 0x168 <br/>  | MIPS IV compatible 64-bit little endian <br/>                                     |
 | IMAGE\_FILE\_MACHINE\_RISCV32 <br/>   | 0x5032 <br/> | RISC-V 32-bit address space <br/>                                                 |
 | IMAGE\_FILE\_MACHINE\_RISCV64 <br/>   | 0x5064 <br/> | RISC-V 64-bit address space <br/>                                                 |
 | IMAGE\_FILE\_MACHINE\_RISCV128 <br/>  | 0x5128 <br/> | RISC-V 128-bit address space <br/>                                                |
@@ -162,12 +167,12 @@ The Characteristics field contains flags that indicate attributes of the object 
 | IMAGE\_FILE\_LINE\_NUMS\_STRIPPED <br/>        | 0x0004 <br/> | COFF line numbers have been removed. This flag is deprecated and should be zero. <br/>                                                                                                                                                                                                                                                                       |
 | IMAGE\_FILE\_LOCAL\_SYMS\_STRIPPED <br/>       | 0x0008 <br/> | COFF symbol table entries for local symbols have been removed. This flag is deprecated and should be zero. <br/>                                                                                                                                                                                                                                             |
 | IMAGE\_FILE\_AGGRESSIVE\_WS\_TRIM <br/>        | 0x0010 <br/> | Obsolete. Aggressively trim working set. This flag is deprecated for Windows 2000 and later and must be zero. <br/>                                                                                                                                                                                                                                          |
-| IMAGE\_FILE\_LARGE\_ADDRESS\_ AWARE <br/>      | 0x0020 <br/> | Application can handle > 2-GB addresses. <br/>                                                                                                                                                                                                                                                                                                            |
+| IMAGE\_FILE\_LARGE\_ADDRESS\_AWARE <br/>      | 0x0020 <br/> | Application can handle > 2-GB addresses. <br/>                                                                                                                                                                                                                                                                                                            |
 |                                                      | 0x0040 <br/> | This flag is reserved for future use. <br/>                                                                                                                                                                                                                                                                                                                  |
 | IMAGE\_FILE\_BYTES\_REVERSED\_LO <br/>         | 0x0080 <br/> | Little endian: the least significant bit (LSB) precedes the most significant bit (MSB) in memory. This flag is deprecated and should be zero. <br/>                                                                                                                                                                                                          |
 | IMAGE\_FILE\_32BIT\_MACHINE <br/>              | 0x0100 <br/> | Machine is based on a 32-bit-word architecture. <br/>                                                                                                                                                                                                                                                                                                        |
 | IMAGE\_FILE\_DEBUG\_STRIPPED <br/>             | 0x0200 <br/> | Debugging information is removed from the image file. <br/>                                                                                                                                                                                                                                                                                                  |
-| IMAGE\_FILE\_REMOVABLE\_RUN\_ FROM\_SWAP <br/> | 0x0400 <br/> | If the image is on removable media, fully load it and copy it to the swap file. <br/>                                                                                                                                                                                                                                                                        |
+| IMAGE\_FILE\_REMOVABLE\_RUN\_FROM\_SWAP <br/> | 0x0400 <br/> | If the image is on removable media, fully load it and copy it to the swap file. <br/>                                                                                                                                                                                                                                                                        |
 | IMAGE\_FILE\_NET\_RUN\_FROM\_SWAP <br/>        | 0x0800 <br/> | If the image is on network media, fully load it and copy it to the swap file. <br/>                                                                                                                                                                                                                                                                          |
 | IMAGE\_FILE\_SYSTEM <br/>                      | 0x1000 <br/> | The image file is a system file, not a user program. <br/>                                                                                                                                                                                                                                                                                                   |
 | IMAGE\_FILE\_DLL <br/>                         | 0x2000 <br/> | The image file is a dynamic-link library (DLL). Such files are considered executable files for almost all purposes, although they cannot be directly run. <br/>                                                                                                                                                                                              |
@@ -295,7 +300,7 @@ The following values are defined for the DllCharacteristics field of the optiona
 
 Each data directory gives the address and size of a table or string that Windows uses. These data directory entries are all loaded into memory so that the system can use them at run time. A data directory is an 8-byte field that has the following declaration:
 
-```cpp
+```C++
 typedef struct _IMAGE_DATA_DIRECTORY {
     DWORD   VirtualAddress;
     DWORD   Size;
@@ -1362,7 +1367,7 @@ The reserved sections and their attributes are described in the table below, fol
 | .sdata <br/>    | GP-relative initialized data (free format) <br/>                                                                                                                   | IMAGE\_SCN\_CNT\_INITIALIZED\_DATA \| IMAGE\_SCN\_MEM\_READ \| IMAGE\_SCN\_MEM\_WRITE \| IMAGE \_SCN\_GPREL The IMAGE\_SCN\_GPREL flag should be set for IA64 architectures only; this flag is not valid for other architectures. The IMAGE\_SCN\_GPREL flag is for object files only; when this section type appears in an image file, the IMAGE\_SCN\_GPREL flag must not be set. <br/>   |
 | .srdata <br/>   | GP-relative read-only data (free format) <br/>                                                                                                                     | IMAGE\_SCN\_CNT\_INITIALIZED\_DATA \| IMAGE\_SCN\_MEM\_READ \| IMAGE \_SCN\_GPREL The IMAGE\_SCN\_GPREL flag should be set for IA64 architectures only; this flag is not valid for other architectures. The IMAGE\_SCN\_GPREL flag is for object files only; when this section type appears in an image file, the IMAGE\_SCN\_GPREL flag must not be set. <br/>                             |
 | .sxdata <br/>   | Registered exception handler data (free format and x86/object only) <br/>                                                                                          | IMAGE\_SCN\_LNK\_INFO Contains the symbol index of each of the exception handlers being referred to by the code in that object file. The symbol can be for an UNDEF symbol or one that is defined in that module. <br/>                                                                                                                                                                     |
-| .text <br/>     | Executable code (free format) <br/>                                                                                                                                | IMAGE\_SCN\_CNT\_CODE \| IMAGE\_SCN\_MEM\_EXECUTE \| IIMAGE\_SCN\_MEM\_READ <br/>                                                                                                                                                                                                                                                                                                           |
+| .text <br/>     | Executable code (free format) <br/>                                                                                                                                | IMAGE\_SCN\_CNT\_CODE \| IMAGE\_SCN\_MEM\_EXECUTE \| IMAGE\_SCN\_MEM\_READ <br/>                                                                                                                                                                                                                                                                                                           |
 | .tls <br/>      | Thread-local storage (object only) <br/>                                                                                                                           | IMAGE\_SCN\_CNT\_INITIALIZED\_DATA \| IMAGE\_SCN\_MEM\_READ \| IMAGE\_SCN\_MEM\_WRITE <br/>                                                                                                                                                                                                                                                                                                 |
 | .tls$ <br/>     | Thread-local storage (object only) <br/>                                                                                                                           | IMAGE\_SCN\_CNT\_INITIALIZED\_DATA \| IMAGE\_SCN\_MEM\_READ \| IMAGE\_SCN\_MEM\_WRITE <br/>                                                                                                                                                                                                                                                                                                 |
 | .vsdata <br/>   | GP-relative initialized data (free format and for ARM, SH4, and Thumb architectures only) <br/>                                                                    | IMAGE\_SCN\_CNT\_INITIALIZED\_DATA \| IMAGE\_SCN\_MEM\_READ \| IMAGE\_SCN\_MEM\_WRITE <br/>                                                                                                                                                                                                                                                                                                 |
@@ -1464,7 +1469,7 @@ typedef struct _FPO_DATA {
 
 The presence of an entry of type IMAGE\_DEBUG\_TYPE\_REPRO indicates the PE file is built in a way to achieve determinism or reproducibility. If the input does not change, the output PE file is guaranteed to be bit-for-bit identical no matter when or where the PE is produced. Various date/time stamp fields in the PE file are filled with part or all the bits from a calculated hash value that uses PE file content as input, and therefore no longer represent the actual date and time when a PE file or related specific data within the PE is produced. The raw data of this debug entry may be empty, or may contain a calculated hash value preceded by a four-byte value that represents the hash value length.
 
-If the Type field is set to IMAGE\_DEBUG\_TYPE\_EX\_DLLCHARACTERISTICS, the debug raw data contains extended DLL characteristics bits, in additional to those that could be set in image’s optional header. See [DLL Characteristics](#dll-characteristics) in section [Optional Header Windows-Specific Fields (Image Only)](#optional-header-windows-specific-fields-image-only).
+If the Type field is set to IMAGE\_DEBUG\_TYPE\_EX\_DLLCHARACTERISTICS, the debug raw data contains extended DLL characteristics bits, in additional to those that could be set in image's optional header. See [DLL Characteristics](#dll-characteristics) in section [Optional Header Windows-Specific Fields (Image Only)](#optional-header-windows-specific-fields-image-only).
 
 ##### Extended DLL Characteristics
 
@@ -1836,7 +1841,7 @@ Executable code accesses a static TLS data object through the following steps:
 
     The Microsoft run-time library facilitates this process by defining a memory image of the TLS directory and giving it the special name "\_\_tls\_used" (Intel x86 platforms) or "\_tls\_used" (other platforms). The linker looks for this memory image and uses the data there to create the TLS directory. Other compilers that support TLS and work with the Microsoft linker must use this same technique.
 
-2.  When a thread is created, the loader communicates the address of the thread's TLS array by placing the address of the thread environment block (TEB) in the FS register. A pointer to the TLS array is at the offset of 0x2C from the beginning of TEB. This behavior is Intel x86-specific.
+2.  When a thread is created, the loader communicates the address of the thread's TLS array by placing the address of the thread environment block (TEB) in the FS (for x86) or GS (for x64) register. A pointer to the TLS array is at the offset of 0x2C from the beginning of TEB. This behavior is Intel x86-specific.
 
 3.  The loader assigns the value of the TLS index to the place that was indicated by the Address of Index field.
 
@@ -2164,7 +2169,7 @@ The archive file signature identifies the file type. Any utility (for example, a
 
 The Windows SDK winnt.h header defines the following macros:
 
-```
+```C++
 #define IMAGE_ARCHIVE_START_SIZE             8
 #define IMAGE_ARCHIVE_START                  "!<arch>\n"
 #define IMAGE_ARCHIVE_END                    "`\n"
@@ -2333,7 +2338,7 @@ The null-terminated import symbol name immediately follows its associated import
 - [What is an Authenticode PE Image Hash?](#what-is-an-authenticode-pe-image-hash)
 - [What is Covered in an Authenticode PE Image Hash?](#what-is-covered-in-an-authenticode-pe-image-hash)
 
-Several attribute certificates are expected to be used to verify the integrity of the images. However, the most common is Authenticode signature. An Authenticode signature can be used to verify that the relevant sections of a PE image file have not been altered in any way from the file’s original form. To accomplish this task, Authenticode signatures contain something called a PE image hash
+Several attribute certificates are expected to be used to verify the integrity of the images. However, the most common is Authenticode signature. An Authenticode signature can be used to verify that the relevant sections of a PE image file have not been altered in any way from the file's original form. To accomplish this task, Authenticode signatures contain something called a PE image hash
 
 ### What is an Authenticode PE Image Hash?
 

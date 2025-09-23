@@ -2,7 +2,7 @@
 title: Memory-Management Models
 description: Memory-Management Models
 ms.assetid: 1690901b-2a1e-455b-a440-2674f5e5dfa4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

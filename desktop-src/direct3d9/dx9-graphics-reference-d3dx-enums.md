@@ -2,7 +2,7 @@
 description: This section contains information about the following enumerated types and flags used with D3DX.
 ms.assetid: dff4c800-0db9-47b7-8e5c-61debbdf865a
 title: D3DX Enumerations (Direct3D 9 Graphics)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

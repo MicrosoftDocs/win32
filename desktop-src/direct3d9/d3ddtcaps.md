@@ -2,7 +2,7 @@
 description: Constants describing the vertex data types supported by a device.
 ms.assetid: 751d7b92-b187-40e5-882c-6fdb80e1ff5f
 title: D3DDTCAPS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

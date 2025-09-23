@@ -3,7 +3,7 @@ title: H (UPnP APIs)
 description: Contains UPnP-related terms that begin with the letter H.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 28c09321-2caa-4b8f-bf0f-187616ac30b2
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: MPEG-2 Splitter
 ms.assetid: 06704a5a-e7ae-4187-ae36-32512d951aaf
 title: MPEG-2 Splitter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

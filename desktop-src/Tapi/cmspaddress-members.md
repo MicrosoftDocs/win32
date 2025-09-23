@@ -2,7 +2,7 @@
 description: The following list contains the CMSP address members.
 ms.assetid: ef15adef-1f4d-4bfc-8362-97fe1d118204
 title: CMSPAddress Members
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

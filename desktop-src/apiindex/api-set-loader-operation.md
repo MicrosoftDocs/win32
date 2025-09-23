@@ -1,7 +1,7 @@
 ---
 description: Describes how Windows uses API sets in loader operations. 
 title: API set loader operation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2023
 ---
 

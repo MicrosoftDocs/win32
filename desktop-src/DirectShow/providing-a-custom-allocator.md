@@ -2,7 +2,7 @@
 description: Providing a Custom Allocator
 ms.assetid: 4ce2db4b-c901-43a5-b905-7d6d923c940b
 title: Providing a Custom Allocator
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

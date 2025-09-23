@@ -2,7 +2,7 @@
 description: An application can add security identifiers (SIDs) to an existing client context by calling the AuthzAddSidsToContext function.
 ms.assetid: d49ce47b-e91a-452b-b423-07e8d282d28a
 title: Adding SIDs to a Client Context
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

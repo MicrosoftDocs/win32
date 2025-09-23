@@ -2,7 +2,7 @@
 description: The Microsoft Enhanced RSA and AES Cryptographic Provider supports the same capabilities as the Microsoft Base Cryptographic Provider, called the Base Provider.
 ms.assetid: a01bc5db-17b9-44fe-adf8-0c2954fcd369
 title: Microsoft AES Cryptographic Provider
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

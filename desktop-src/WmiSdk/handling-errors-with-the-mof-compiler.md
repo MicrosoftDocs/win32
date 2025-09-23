@@ -3,7 +3,7 @@ description: If the MOF compiler cannot finish compiling a MOF file, the WMI rep
 ms.assetid: 13adc666-6588-4cfd-a5eb-17da93434468
 ms.tgt_platform: multiple
 title: Handling Errors with the MOF Compiler
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

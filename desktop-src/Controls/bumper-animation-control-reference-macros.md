@@ -2,7 +2,7 @@
 title: Animation Control Macros
 description: Animation Control Macros
 ms.assetid: aeb94086-267a-41e0-89d9-3a1b6209b646
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

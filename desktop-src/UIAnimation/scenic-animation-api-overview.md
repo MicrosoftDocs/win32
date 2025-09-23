@@ -11,7 +11,7 @@ keywords:
 - context-sensitive duration Windows Animation
 - velocity matching Windows Animation
 - contention management Windows Animation
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

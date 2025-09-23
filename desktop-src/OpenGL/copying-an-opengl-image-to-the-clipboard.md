@@ -5,7 +5,7 @@ ms.assetid: 8cda0919-5884-4ebe-92a1-0b3e694989be
 keywords:
 - OpenGL on Windows,copying to Clipboard
 - copying OpenGL images to Clipboard OpenGL
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

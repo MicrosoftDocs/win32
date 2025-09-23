@@ -2,7 +2,7 @@
 description: Internet Explorer 8 Developer Tools
 ms.assetid: D721167E-B04B-4B06-A9EE-56711A7A1942
 title: Internet Explorer 8 Developer Tools
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

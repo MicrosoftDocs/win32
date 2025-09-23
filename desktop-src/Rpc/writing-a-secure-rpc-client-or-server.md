@@ -4,7 +4,7 @@ description: This section provides best practice recommendations for writing a s
 ms.assetid: b738b780-247c-4108-b64d-0a4883895182
 keywords:
 - Remote Procedure Call RPC , best practices, writing a secure client or server
-ms.topic: article
+ms.topic: concept-article
 ms.date: 09/17/2024
 ---
 

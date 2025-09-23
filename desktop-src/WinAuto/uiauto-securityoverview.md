@@ -17,8 +17,8 @@ keywords:
 - security,user account control
 - security,manifest files
 - security,requestedExecutionLevel tag
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Security Considerations for Assistive Technologies

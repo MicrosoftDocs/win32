@@ -2,7 +2,7 @@
 description: The following file name extensions are used with the Windows Installer.
 ms.assetid: 30a5c826-1eaf-4a9e-8c8b-c020a76a0582
 title: Windows Installer File Name Extensions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

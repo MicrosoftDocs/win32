@@ -6,7 +6,7 @@ keywords:
 - Extended Protection Native-Web-Services
 - WWSAPI
 - WWS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -57,7 +57,7 @@ The following Enums/Constants are part of extended protection:
 -   [**WS\_EXTENDED\_PROTECTION\_POLICY**](/windows/desktop/api/WebServices/ne-webservices-ws_extended_protection_policy)
 -   [**WS\_EXTENDED\_PROTECTION\_SCENARIO**](/windows/desktop/api/WebServices/ne-webservices-ws_extended_protection_scenario)
 
-The following stuctures are part of extended protection:
+The following structures are part of extended protection:
 
 -   [**WS\_SERVICE\_SECURITY\_IDENTITIES**](/windows/desktop/api/WebServices/ns-webservices-ws_service_security_identities)
 

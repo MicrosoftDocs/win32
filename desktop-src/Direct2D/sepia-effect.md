@@ -2,7 +2,7 @@
 title: Sepia effect
 description: Converts an image to sepia tones.
 ms.assetid: fe321be9-6ade-bd0c-1c66-cc8042e5a5e1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

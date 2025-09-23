@@ -2,7 +2,7 @@
 description: Guidelines for Registering Filters
 ms.assetid: 05945937-9e01-4930-ae95-1931a711b55e
 title: Guidelines for Registering Filters
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

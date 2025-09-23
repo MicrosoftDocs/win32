@@ -2,7 +2,7 @@
 title: Getting started with Winsock
 description: Use the links and resources in this topic as a step-by-step guide to getting started with Windows Sockets programming.
 ms.assetid: 905cd5bc-44af-4d3f-841a-9e9a2700a785
-ms.topic: conceptual
+ms.topic: get-started
 ms.date: 02/09/2023
 ---
 

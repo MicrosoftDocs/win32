@@ -3,7 +3,7 @@ description: Starting with Windows Server 2008, the Server Feature Provider sup
 ms.assetid: f7932eaa-6730-4301-9809-32de9c1a20de
 ms.tgt_platform: multiple
 title: Server Feature Provider
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

@@ -2,7 +2,7 @@
 title: IPsec Types
 description: IPsec Types
 ms.assetid: 05071777-FB3B-4B36-A9DC-14F004FEA39F
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

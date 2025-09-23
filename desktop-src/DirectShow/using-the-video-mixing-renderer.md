@@ -2,7 +2,7 @@
 description: Using the Video Mixing Renderer
 ms.assetid: 3d0fdfac-ec7e-4e02-886b-2039c607dac7
 title: Using the Video Mixing Renderer
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

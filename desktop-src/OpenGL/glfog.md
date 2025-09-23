@@ -2,7 +2,7 @@
 title: glFog Functions
 description: These functions specify fog parameters.
 ms.assetid: 019c2006-679a-4611-8156-f6665d3ef5b2
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

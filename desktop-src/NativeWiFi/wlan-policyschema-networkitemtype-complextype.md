@@ -3,7 +3,7 @@ description: Specifies the name and type of a wireless network.
 ms.assetid: 839afae0-b8e1-489f-8811-19a82c173627
 title: networkItemType Complex Type
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 05/14/2025
 topic_type: 
 - APIRef
 - kbSyntax
@@ -18,7 +18,7 @@ api_location:
 
 The networkItemType complex type specifies the name and type of a wireless network.
 
-``` syntax
+```XSD
 <xs:complexType name="networkItemType">
     <xs:sequence>
         <xs:element name="networkName"
@@ -56,13 +56,3 @@ The networkItemType complex type specifies the name and type of a wireless netwo
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
-
-
-
- 
-
- 
-
-
-
-

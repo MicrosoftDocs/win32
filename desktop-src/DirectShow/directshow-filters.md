@@ -2,7 +2,7 @@
 description: DirectShow Filters
 ms.assetid: 'a7cb806e-5705-483e-b7b2-39f427681ae5'
 title: DirectShow Filters
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

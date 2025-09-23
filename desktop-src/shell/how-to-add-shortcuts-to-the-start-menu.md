@@ -2,7 +2,7 @@
 description: To add an item to the Programs submenu, follow these steps.
 ms.assetid: F8793C33-2281-4E4A-9659-4189E1C8279A
 title: How to Add Shortcuts to the Start Menu
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

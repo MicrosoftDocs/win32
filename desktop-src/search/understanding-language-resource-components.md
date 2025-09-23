@@ -2,7 +2,7 @@
 description: Language resources consist of word breakers and stemmers that extend index building and querying capabilities to new languages and locales.
 ms.assetid: 7963805e-e279-42cf-ba95-f81a7de8e68e
 title: Understanding Language Resource Components
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

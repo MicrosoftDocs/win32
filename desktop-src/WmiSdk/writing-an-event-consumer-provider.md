@@ -3,7 +3,7 @@ description: An event consumer provider is a component of the permanent consumer
 ms.assetid: c5a0d0ec-99af-4815-9ad2-e59db70e04ce
 ms.tgt_platform: multiple
 title: Writing an Event Consumer Provider
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

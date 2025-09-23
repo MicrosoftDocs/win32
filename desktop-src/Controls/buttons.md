@@ -2,7 +2,7 @@
 title: Button (Windows Controls)
 description: This section contains information about the programming elements used with button controls. A button is a control the user can click to provide input to an application.
 ms.assetid: 'vs|controls|~\controls\buttons\buttons.htm'
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -19,7 +19,7 @@ This section contains information about the programming elements used with butto
 | [Button Messages](button-messages.md)      | This topic discusses messages that are used with buttons.<br/>                                               |
 | [Button States](button-states.md)          | This section discusses how selecting a button changes its state and how the application should respond.<br/> |
 | [Button Types](button-types-and-styles.md) | This topic discusses the different kinds of buttons.<br/>                                                    |
-| [Using Buttons](using-buttons.md)          | This section explains how to perform certains tasks associated with buttons.<br/>                            |
+| [Using Buttons](using-buttons.md)          | This section explains how to perform certain tasks associated with buttons.<br/>                            |
 
 
 

@@ -13,7 +13,7 @@ keywords:
 - I/O (input and output),mmioOpen function
 - mmioOpen function
 - opening I/O files
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -1,7 +1,7 @@
 ---
 description: Extending the clipboard with custom data format handlers.
 title: How to Create Data Handlers
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

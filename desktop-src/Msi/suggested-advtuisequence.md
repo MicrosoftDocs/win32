@@ -2,7 +2,7 @@
 description: Do not author the AdvtUISequence table.
 ms.assetid: b915abc1-da53-4b39-a026-3ba76eaf9510
 title: Suggested AdvtUISequence
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

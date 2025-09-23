@@ -2,7 +2,7 @@
 description: TAPI divides communications services into Basic, Supplemental, and Extended. Please see TAPI Levels of Service for additional information.
 ms.assetid: e2e6b113-b6b0-43a1-ac95-6e8e188a6120
 title: TSPI Levels of Service
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

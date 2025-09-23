@@ -5,7 +5,7 @@ ms.assetid: 59e39273-1f66-4bdd-89ed-31947a268d1f
 ms.tgt_platform: multiple
 keywords:
 - extensions ADSI ,extension architecture
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

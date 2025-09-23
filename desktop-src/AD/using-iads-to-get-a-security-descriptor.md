@@ -5,7 +5,7 @@ ms.assetid: ce8948ac-0644-42a0-8b77-5a06d3fcf042
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , using IADs to get a security descriptor
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

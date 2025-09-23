@@ -2,7 +2,7 @@
 title: Edit Control Messages
 description: Edit Control Messages
 ms.assetid: b5c12b71-b7c3-4331-a656-15718121ddf4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

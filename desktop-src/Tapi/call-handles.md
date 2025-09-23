@@ -2,7 +2,7 @@
 description: As is mentioned in the Session Identifier overview, a call handle is the means by which a TAPI 2.2 application identifies a particular communications session.
 ms.assetid: 5f6a7adf-c074-4bf6-9828-76604eb7609c
 title: Call Handles
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

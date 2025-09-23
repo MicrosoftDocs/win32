@@ -2,7 +2,7 @@
 title: Using SysLink Controls
 description: This section contains example code and information about how to create and use SysLink controls.
 ms.assetid: E9EF05EF-3C0B-4133-8871-0E273E15DE54
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

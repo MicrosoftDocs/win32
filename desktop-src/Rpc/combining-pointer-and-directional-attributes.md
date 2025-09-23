@@ -2,7 +2,7 @@
 title: Combining Pointer and Directional Attributes
 description: A few caveats apply to certain combinations of directional attributes and pointer attributes.
 ms.assetid: f381af3e-0dad-4ce1-afb9-083402b6249c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

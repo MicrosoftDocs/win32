@@ -2,7 +2,7 @@
 title: About the Network List Manager API
 description: About the Network List Manager API
 ms.assetid: 675cf7ed-9f57-4d62-8091-1f4e8812f2ad
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

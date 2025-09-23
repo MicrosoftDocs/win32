@@ -2,7 +2,7 @@
 description: ICE58 checks that your Media table does not have more than 80 rows.
 ms.assetid: 693b195e-1e69-4895-87dd-59714646cff9
 title: ICE58
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The Unicode-based OpenType font format extends the TrueType font file format.
 ms.assetid: 0d67481a-79ff-448c-b77c-a55bf935a22a
 title: OpenType Font Format
-ms.topic: article
+ms.topic: reference
 ms.date: 11/06/2023
 ---
 

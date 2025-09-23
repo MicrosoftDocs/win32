@@ -3,7 +3,7 @@ description: Use SWbemServices.ExecQuery to request all existing events.
 ms.assetid: bc99719a-7e33-4e2d-8355-f8fc97c66f71
 ms.tgt_platform: multiple
 title: Receiving Synchronous and Semisynchronous Event Notifications
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

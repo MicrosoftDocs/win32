@@ -2,7 +2,7 @@
 description: This topic provides an example of using the geometry-related interfaces in an XPS OM.
 ms.assetid: 2663c6fc-301e-4765-b37c-b5e29a714ce8
 title: XPS OM Geometry Objects
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

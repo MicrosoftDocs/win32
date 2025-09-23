@@ -2,7 +2,7 @@
 description: The following functions are used with transactions.
 ms.assetid: e9704ea8-e67d-4278-b77e-1d4787224d52
 title: Kernel Transaction Manager Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -64,7 +64,7 @@ The following functions are used with resource managers.
 | [**GetNotificationResourceManagerAsync**](/windows/desktop/api/KtmW32/nf-ktmw32-getnotificationresourcemanagerasync) | Requests and receives asynchronous notification for a RM. This function is used by the RM to register to receive notifications when a transaction changes state. |
 | [**OpenResourceManager**](/windows/desktop/api/Ktmw32/nf-ktmw32-openresourcemanager)                                 | Opens an existing RM.                                                                                                                                            |
 | [**PrepareComplete**](/windows/desktop/api/Ktmw32/nf-ktmw32-preparecomplete)                                         | Indicates that the RM has completed all processing necessary to guarantee that a commit or abort operation will succeed for the specified transaction.           |
-| [**PrePrepareComplete**](/windows/desktop/api/Ktmw32/nf-ktmw32-prepreparecomplete)                                   | Signals that this RM has completed its preprepare work, so that other RMs can now begin their prepare operations.                                                |
+| [**PrePrepareComplete**](/windows/desktop/api/Ktmw32/nf-ktmw32-prepreparecomplete)                                   | Signals that this RM has completed its prepare work, so that other RMs can now begin their prepare operations.                                                |
 | [**RecoverResourceManager**](/windows/desktop/api/Ktmw32/nf-ktmw32-recoverresourcemanager)                           | Recovers a RM's state from its log file.                                                                                                                         |
 | [**SetResourceManagerCompletionPort**](/windows/desktop/api/Ktmw32/nf-ktmw32-setresourcemanagercompletionport)       | Associates the specified I/O completion port with the specified RM. This port receives all notifications for the RM.                                             |
 

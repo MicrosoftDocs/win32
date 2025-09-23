@@ -2,7 +2,7 @@
 description: Called identification identifies the original destination address for a session. In situations where a session was redirected, forwarded, or transferred, this will be different than the connected identification.
 ms.assetid: a03286eb-83a9-4170-b514-e8899fd04c74
 title: Called Identification
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

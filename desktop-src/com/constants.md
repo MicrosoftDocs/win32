@@ -2,7 +2,7 @@
 title: Constants (COM)
 ms.assetid: 'ec12a8ae-bdd6-473c-b72b-2ba5fe5fc9c0'
 description: "Learn more about: Constants (COM)"
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

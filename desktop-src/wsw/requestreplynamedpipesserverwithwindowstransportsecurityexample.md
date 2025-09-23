@@ -2,7 +2,7 @@
 title: RequestReplyNamedPipesServerWithWindowsTransportSecurityExample
 description: This example shows a named pipes server that accepts a channel, and receives and replies to messages with security provided by Windows SSPI transport security.
 ms.assetid: EF43DC45-378A-4269-998B-17EFEBF8740E
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -104,7 +104,7 @@ int __cdecl wmain()
     WS_LISTENER* listener = NULL;
     WS_HEAP* heap = NULL;
     
-    // declare and initialize an Windows SSPI transport security binding
+    // declare and initialize a Windows SSPI transport security binding
     WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING sspiBinding = {}; // zero out the struct
     sspiBinding.binding.bindingType = WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING_TYPE; // set the binding type
     

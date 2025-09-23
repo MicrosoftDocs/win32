@@ -3,7 +3,7 @@ title: Remote Desktop Services API Enumeration Types
 description: Lists enumeration types that are used with the Remote Desktop Services API.
 ms.assetid: b5ef61e2-07fa-4963-9b9b-977cc04dab10
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Windows Property System
 ms.assetid: c2094bbe-a4ca-4f30-b16e-14dced2912bc
 title: Windows Property System
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

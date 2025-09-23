@@ -2,7 +2,7 @@
 description: Media Type Conversions
 ms.assetid: 6aee18b8-79b1-47fb-816f-d1c2c77b3a03
 title: Media Type Conversions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

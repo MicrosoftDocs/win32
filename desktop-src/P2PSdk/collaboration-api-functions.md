@@ -2,7 +2,7 @@
 description: Collaboration API Functions
 ms.assetid: 00c3c1f1-c36c-469a-a644-0ec60f02d25e
 title: Collaboration API Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

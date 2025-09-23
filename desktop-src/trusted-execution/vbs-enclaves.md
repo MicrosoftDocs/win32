@@ -4,7 +4,7 @@ ms.assetid: c6b272ee-c284-4c49-b12d-6a49b0315281
 title: Virtualization-based security (VBS) enclaves
 titleSuffix: Secure Enclaves
 ms.topic: concept-article
-ms.date: 11/20/2024
+ms.date: 04/30/2025
 # customer intent: To learn about the Virtualization-based security (VBS) Enclaves feature in Windows.
 ---
 
@@ -25,6 +25,9 @@ The following are required to run VBS Enclaves:
 - VBS/HVCI must be enabled. This should be enabled on Windows 11 or later by default. See [Enable virtualization-based protection of code integrity](/windows/security/hardware-security/enable-virtualization-based-protection-of-code-integrity) for more information.
 - Windows 11 Build 26100.2314 or later ***or*** Windows Server 2025 or later.
 
+> [!WARNING]
+> Ensure you have reviewed the OS support for VBS enclaves above, as support has recently changed.
+
 ## Development prerequisites
 
 In addition to the device requirements, the following are required to develop VBS Enclaves:
@@ -33,9 +36,21 @@ In addition to the device requirements, the following are required to develop VB
 - The [Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads/windows-sdk/) version 10.0.22621.3233 or later, which provides `veiid.exe` (the VBS Enclave import ID binding utility) and `signtool.exe`.
 - A [Trusted Signing](https://azure.microsoft.com/products/trusted-signing) account.
 
+## Development resources
+
+The following tools, information, and samples are available to help you develop VBS Enclaves:
+
+| Resource | Description |
+|----------|-------------|
+| [VBS Enclaves development guide](vbs-enclaves-dev-guide.md) | A guide to get started developing VBS Enclaves. |
+| [VBS Enclaves tooling](https://github.com/microsoft/VbsEnclaveTooling) | The repo that contains the VBS Enclaves SDK - a set of libraries and tools to help you develop VBS Enclaves. |
+| [Code Generation for VBS Enclaves](https://github.com/microsoft/VbsEnclaveTooling/blob/main/docs/CodeGeneration.md) | Learn about the code generation process for VBS Enclaves. |
+| [Vbs Enclaves code generator usage in Visual Studio](https://github.com/microsoft/VbsEnclaveTooling/blob/main/README.md#codegenerator-usage) | Learn how to use the VBS Enclaves code generator (`edlcodegen.exe`) in Visual Studio. |
+| [What are edl files](https://github.com/microsoft/VbsEnclaveTooling/blob/main/docs/Edl.md) | Learn about `.edl` files and how the VBS Enclaves SDK uses them. |
+| [Hello World VBS Enclave SDK Walkthrough](https://github.com/microsoft/VbsEnclaveTooling/blob/main/docs/HelloWorldWalkthrough.md) | A walkthrough to get started with VBS Enclaves and the new tooling for Visual Studio. |
+
 ## Related content
 
-- [VBS Enclaves development guide](vbs-enclaves-dev-guide.md)
 - [APIs available in VBS enclaves](available-in-enclaves.md)
 - [Securing your sensitive workloads with VBS Enclaves](https://aka.ms/VBSEnclavesBlog)
 - [Secure Enclaves (Trusted Execution) overview](enclaves.md)

@@ -2,7 +2,7 @@
 description: Learn to use the Microsoft Web Services on Devices (WSD) API (WSDAPI) to implement client-controlled devices and services, and device hosts conforming to DPWS.
 ms.assetid: 88de8dea-56d5-4bfc-8837-03da81b7d0f9
 title: WSD Application Development on Windows
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

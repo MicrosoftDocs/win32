@@ -2,7 +2,7 @@
 title: VML OLEIcon Attribute
 description: VML OLEIcon Attribute
 ms.assetid: 52a664c6-7424-4d1d-929b-fe9fb3fefb88
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

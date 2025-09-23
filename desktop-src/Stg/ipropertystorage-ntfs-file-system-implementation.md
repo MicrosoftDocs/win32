@@ -4,7 +4,7 @@ description: The NTFS version 5.0 provides an implementation of the IPropertySto
 ms.assetid: d0ffd975-5bc2-4de3-b0c1-c9188541f46a
 keywords:
 - IPropertyStorage Strctd Stg , implementations, NTFS file system
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

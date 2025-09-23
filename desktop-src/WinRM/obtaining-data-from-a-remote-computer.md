@@ -3,7 +3,7 @@ title: Obtaining Data from a Remote Computer
 description: You can obtain data or manage resources on remote computers as well as the local computer. Connecting to a remote computer in a Windows Remote Management script is very similar to making a local connection.
 ms.assetid: 578eee80-a6c1-4456-9683-14e0a3386248
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle
@@ -97,12 +97,12 @@ End Sub
 
     
 
-3.  Call the [**WSMan.CreateConnectionOptions**](wsman-createconnectionoptions.md) method to create a [**ConnectionOptions**](connectionoptions.md) object. The account on the remote computer must be a member of the local computer administrators group.
+3.  Call the [**WSMan.CreateConnectionOptions**](wsman-createconnectionoptions.md) method to create a [**ConnectionOptions**](connectionoptions.md) object. The account on the remote computer must be a member of the local computer administrators group. Note: Do not store passwords in plain text in scripts.
 
     ```VB
     Set objConnectionOptions = objWsman.CreateConnectionOptions
-    objConnectionOptions.UserName = "Username"
-    objConnectionOptions.Password = "Password"
+    objConnectionOptions.UserName = "<username>"
+    objConnectionOptions.Password = "<password>"
     ```
 
     
@@ -130,8 +130,8 @@ Const RemoteComputer = "ComputerName.domain.com"
 
 Set objWsman = CreateObject("Wsman.Automation")
 Set objConnectionOptions = objWsman.CreateConnectionOptions
-objConnectionOptions.UserName = "Username"
-objConnectionOptions.Password = "Password"
+objConnectionOptions.UserName = "<username>"
+objConnectionOptions.Password = "<password>"
 iFlags = objWsman.SessionFlagUseKerberos Or _
   objWsman.SessionFlagCredUserNamePassword
 Set objSession = objWsman.CreateSession("https://" & RemoteComputer, _

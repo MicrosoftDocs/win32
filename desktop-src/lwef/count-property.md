@@ -2,7 +2,7 @@
 title: Count Property
 description: Count Property
 ms.assetid: a0375aa9-495d-47be-a3f7-4d5987688555
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

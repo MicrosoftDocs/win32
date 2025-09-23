@@ -2,7 +2,7 @@
 title: Installing the Direct2D debug layer
 description: Describes how to install the Direct2D debug layer.
 ms.assetid: 0d213d12-33f1-449d-b32f-2e3ee259441c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 10/26/2021
 ---
 

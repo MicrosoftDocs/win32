@@ -5,7 +5,7 @@ ms.assetid: 0ea5aadf-0b3f-44ac-9bb7-a7e8292f04c2
 keywords:
 - IPropertySetStorage Strctd Stg , implementations
 - IPropertySetStorage Strctd Stg , implementations, stand-alone
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Explains how to verify a countersignature by using CryptMsgVerifyCountersignatureEncoded.
 ms.assetid: b7be0d4c-338f-4319-bd82-5cf3d158d6fe
 title: Verifying a Countersignature
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Following User Interface Guidelines
 description: This topic defines what user interface guidelines are and describes why following guidelines exclusively might not be the best strategy.
 ms.assetid: a9c750f1-4a72-493e-a7c8-6f6be0f1f34b
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

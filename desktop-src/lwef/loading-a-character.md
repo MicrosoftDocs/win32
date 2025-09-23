@@ -2,7 +2,7 @@
 title: Loading a Character
 description: Loading a Character
 ms.assetid: 973de75b-b530-40c6-896d-e2ab0755ae2c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

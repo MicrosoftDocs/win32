@@ -2,7 +2,7 @@
 description: Learn about TLS cipher suites in Windows 8. Cipher suites can only be negotiated for TLS versions which support them.
 ms.assetid: F37C3596-E273-4144-87B9-D589EBB82C0B
 title: TLS Cipher Suites in Windows 8
-ms.topic: article
+ms.topic: reference
 ms.date: 06/26/2024
 ---
 

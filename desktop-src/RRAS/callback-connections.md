@@ -2,7 +2,7 @@
 title: Callback Connections
 description: RAS supports connections in which the remote server hangs up and then calls back to the client to establish the connection.
 ms.assetid: 25f0e84d-8900-4efe-b07d-59f25186c976
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

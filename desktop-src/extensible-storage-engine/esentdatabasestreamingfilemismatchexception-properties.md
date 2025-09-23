@@ -6,7 +6,7 @@ ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseStreamingFile
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentdatabasestreamingfilemismatchexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55101444
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # EsentDatabaseStreamingFileMismatchException properties

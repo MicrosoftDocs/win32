@@ -2,7 +2,7 @@
 title: Group Functions
 description: A global group contains user accounts from one domain that are grouped together under one group account name.
 ms.assetid: 2199258d-bde9-4fdb-b9c1-147616420fbe
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

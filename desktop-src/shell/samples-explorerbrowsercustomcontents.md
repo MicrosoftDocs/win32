@@ -1,7 +1,7 @@
 ---
 description: Demonstrates how to implement a custom Explorer Browser control for your application.
 title: Explorer Browser Custom Contents Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ms.assetid: 1C8699DB-9415-4499-9A80-397AF4ECB606
 api_name: 

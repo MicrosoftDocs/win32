@@ -2,7 +2,7 @@
 description: These escapes are used with the ImmEscape function.
 ms.assetid: ede886dc-8a92-428c-8975-3feadc1d4f90
 title: IME Escapes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

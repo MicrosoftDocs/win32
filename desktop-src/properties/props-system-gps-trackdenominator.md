@@ -2,7 +2,7 @@
 description: The denominator of PKEY\_GPS\_Track.
 ms.assetid: 339e785c-5532-4e49-810c-d8723e27ee0b
 title: System.GPS.TrackDenominator
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

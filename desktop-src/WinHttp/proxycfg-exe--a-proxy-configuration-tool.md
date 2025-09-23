@@ -2,7 +2,7 @@
 title: ProxyCfg.exe proxy configuration tool
 description: This topic explains the use of the Microsoft Windows HTTP Services (WinHTTP) proxy configuration tool ProxyCfg.exe.
 ms.assetid: f96adf59-59be-414e-ad6f-9eac05f4b975
-ms.topic: article
+ms.topic: reference
 ms.date: 12/06/2023
 ---
 

@@ -2,7 +2,7 @@
 description: Learn about the JobBindAllDocuments element, which describes Describes the method of binding. All documents in the job are bound together.
 ms.assetid: f21199e2-2220-40c4-9429-72aa2a34a5f2
 title: JobBindAllDocuments
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

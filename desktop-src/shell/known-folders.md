@@ -1,7 +1,7 @@
 ---
 description: Windows Vista introduces new storage scenarios and a new user profile namespace.
 title: Known Folders
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.assetid: d0c25eef-53ac-4dad-805a-b9ba4cd86be9
 api_name: 

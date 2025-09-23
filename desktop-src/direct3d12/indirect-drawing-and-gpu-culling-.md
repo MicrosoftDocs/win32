@@ -2,7 +2,7 @@
 title: Indirect drawing and GPU culling
 description: The D3D12ExecuteIndirect sample demonstrates how to use indirect commands to draw content. It also demonstrates how these commands can be manipulated on the GPU in a compute shader before they are issued.
 ms.assetid: 09F90837-D6BF-498E-8018-5C28EDD9BDC3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

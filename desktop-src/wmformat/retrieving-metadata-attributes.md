@@ -8,7 +8,7 @@ keywords:
 - ASF (Advanced Systems Format),retrieving metadata attributes
 - metadata,retrieving attributes
 - streams,retrieving metadata attributes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

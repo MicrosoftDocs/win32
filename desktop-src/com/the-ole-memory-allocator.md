@@ -2,7 +2,7 @@
 title: The OLE Memory Allocator
 description: The OLE Memory Allocator
 ms.assetid: 026c62e5-c296-4059-b028-77c98fdb77ce
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -4,7 +4,7 @@ description: Use the 3D perspective transform effect to rotate the image in 3 di
 ms.assetid: 0E1A940E-2DCA-4772-BB68-7E5EF5CEF833
 keywords:
 - 3d perspective transform effect
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -45,7 +45,7 @@ m_d2dContext->CreateEffect(CLSID_D2D13DPerspectiveTransform, &perspectiveTransfo
 
 perspectiveTransformEffect->SetInput(0, bitmap);
 
-perspectiveTransformEffect->SetValue(D2D1_3DPERSPECTIVETRANSFORM_PROP_PERSPECTIVE_ORIGIN, D2D1::Vector3F(0.0f, 192.0f, 0.0f));
+perspectiveTransformEffect->SetValue(D2D1_3DPERSPECTIVETRANSFORM_PROP_PERSPECTIVE_ORIGIN, D2D1::Vector2F(0.0f, 192.0f));
 perspectiveTransformEffect->SetValue(D2D1_3DPERSPECTIVETRANSFORM_PROP_ROTATION, D2D1::Vector3F(0.0f, 30.0f, 0.0f));
 
 m_d2dContext->BeginDraw();

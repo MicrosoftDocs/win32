@@ -1,7 +1,7 @@
 ---
 title: How to use the Appx module in a netfx host other than powershell.exe
 description: Learn how to use the Appx module in a netfx host other than powershell.exe.
-ms.topic: article
+ms.topic: how-to
 ms.date: 06/13/2024
 ---
 

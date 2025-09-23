@@ -2,7 +2,7 @@
 description: Tee/Sink-to-Sink Converter
 ms.assetid: 8ee5e20c-f37a-4a9b-9382-2ed94333c6ec
 title: Tee/Sink-to-Sink Converter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

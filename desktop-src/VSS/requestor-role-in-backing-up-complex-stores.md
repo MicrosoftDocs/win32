@@ -2,7 +2,7 @@
 description: Learn about the requestor role in incremental and differential backups, which require close cooperation between requesters and writers.
 ms.assetid: 00391a49-8c81-4518-88a2-741ad5ee4ac3
 title: Requester Role in Backing Up Complex Stores
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

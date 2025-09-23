@@ -5,7 +5,7 @@ ms.assetid: 1d1803c8-f315-463e-ae0d-a258aa3af3c9
 keywords:
 - MCI_NOTIFY flag
 - MCI_PLAY command
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

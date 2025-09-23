@@ -2,7 +2,7 @@
 description: Working with 16-bit RGB
 ms.assetid: 0a245187-4120-4003-9a8f-6b1e8fa40d38
 title: Working with 16-bit RGB
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

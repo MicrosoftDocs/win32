@@ -2,7 +2,7 @@
 description: The photo metadata policy for the System.DateAcquired property.
 ms.assetid: 04a61ecc-d168-4f93-b143-3e6ba8aaf322
 title: System.DateAcquired Photo Metadata Policy
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

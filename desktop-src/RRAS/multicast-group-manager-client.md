@@ -2,7 +2,7 @@
 title: Multicast Group Manager Client
 description: A client is an entity that calls an MGM function, such as a routing protocol or an administrative application.
 ms.assetid: 98d13b48-9f1d-4649-a5a3-03926c7facee
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

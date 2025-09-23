@@ -4,7 +4,7 @@ description:
   Record TraceLogging events with the Windows Performance Recorder (WPR) and
   view them with the Windows Performance Analyzer (WPA).
 ms.assetid: 906589FA-F48D-4105-9E56-1EC8B86542FB
-ms.topic: article
+ms.topic: how-to
 ms.date: 06/06/2022
 ---
 

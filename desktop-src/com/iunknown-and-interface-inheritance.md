@@ -2,7 +2,7 @@
 title: IUnknown and Interface Inheritance
 description: IUnknown and Interface Inheritance
 ms.assetid: c45f0947-6020-4aa1-9250-561603a46a68
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

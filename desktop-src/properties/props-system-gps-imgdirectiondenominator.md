@@ -2,7 +2,7 @@
 description: The denominator of PKEY\_GPS\_Img Direction.
 ms.assetid: dde7852f-0a5b-4f17-9857-bc0d3e093b01
 title: System.GPS.ImgDirectionDenominator
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

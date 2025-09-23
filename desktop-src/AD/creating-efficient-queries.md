@@ -5,7 +5,7 @@ ms.assetid: 1eb92d74-0a17-43f9-b5bf-eed731a52551
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , creating efficient queries
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

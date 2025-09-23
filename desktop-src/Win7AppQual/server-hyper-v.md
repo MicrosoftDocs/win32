@@ -2,7 +2,7 @@
 description: Server Hyper-V
 ms.assetid: 6a31cca3-f47c-4663-b2e8-aad6b4a6f28f
 title: Server Hyper-V
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -44,7 +44,7 @@ Server virtualization enables multiple operating systems to run on a single phys
 
 -   **Live Migration:** Provide prescriptive Guidance to end users with best practices and recommendations for storage system design. You must inform the end user about the options and recommendations.
 
-## Leveraging Capabilitities
+## Leveraging Capabilities
 
 -   **Live Migration:** This feature enables the Dynamic IT environment. Virtualization Management Application Developers must modify their application to leverage this new feature. Microsoft will make WMI interfaces publically available to allow a developer to integrate applications with this feature.
 -   **Terminal Services virtualization:** This feature enables a new virtualization scenario. Applications that leverage Terminal Services (TS) may be impacted. This feature directly integrates with TS and therefore applications that configure TS may require updating in order to manage this new feature.

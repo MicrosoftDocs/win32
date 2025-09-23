@@ -5,7 +5,7 @@ ms.assetid: d47eee76-059b-43dc-a51f-7c08d932a1c7
 keywords:
 - Windows Virtual PC Virtual PC
 - Windows Virtual PC Virtual PC , home page
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

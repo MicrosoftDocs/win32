@@ -2,7 +2,7 @@
 description: This topic identifies the structures that WinHTTP uses.
 ms.assetid: e1567393-162e-48d4-8e6b-7620e351136c
 title: WinHTTP structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

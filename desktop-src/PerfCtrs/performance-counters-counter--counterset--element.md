@@ -3,7 +3,7 @@ description: Identifies a counter in a counter set that the provider provides.
 ms.assetid: 5b39804f-c117-4f1f-b100-d02674d1e8ad
 title: counter (counterSet) Element
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - kbSyntax
 api_name: 

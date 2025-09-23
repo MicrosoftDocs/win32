@@ -2,7 +2,7 @@
 title: Animation Services
 description: Animation Services
 ms.assetid: d28bd71e-93ae-406e-b5a6-0806c00ec2d9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,14 +2,11 @@
 title: Encoding overview
 description: An encoder writes image data to a stream. Encoders can compress, encrypt, and alter the image pixels in a number of ways prior to writing them to the stream.
 ms.assetid: e1e3a9d9-209b-46a6-92da-5570476507cf
-ms.topic: article
+ms.topic: concept-article
 ms.date: 01/29/2024
 ---
 
 # Encoding overview
-
-> [!IMPORTANT]
-> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 An encoder writes image data to a stream. Encoders can compress, encrypt, and alter the image pixels in a number of ways prior to writing them to the stream. Using some encoders results in tradeoffs—for example, JPEG, which trades off color information for better compression. Other encoders do not result in such losses—for example, bitmap (BMP). Because many codecs use proprietary technology to achieve better compression and image fidelity, the details on how an image gets encoded are up to the codec developer.
 
@@ -172,11 +169,11 @@ An application can expect to encounter the following set of encoder options. Enc
 
 | Property Name | VARTYPE | Value | Applicable Codecs |
 |-|-|-|-|
-| BitmapTransform | VT\_UI1 | [**WICBitmapTransformOptions**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmaptransformoptions) | JPEG, HEIF |
-| CompressionQuality | VT\_R4 | 0-1.0 | TIFF |
-| HeifCompressionMethod | [WICHeifCompressionOption](/windows/win32/api/wincodec/ne-wincodec-wicheifcompressionoption) | various | HEIF |
-| ImageQuality | VT\_R4 | 0-1.0 | JPEG, HDPhoto, HEIF |
-| Lossless | VT\_BOOL | **TRUE**, **FALSE** | HDPhoto |
+| BitmapTransform | VT\_UI1 | [**WICBitmapTransformOptions**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmaptransformoptions) | JPEG, JPEG XL, HEIF |
+| CompressionQuality | VT\_R4 | 0-1.0 | TIFF, JPEG XL |
+| HeifCompressionMethod | VT\_UI1 | [WICHeifCompressionOption](/windows/win32/api/wincodec/ne-wincodec-wicheifcompressionoption) | HEIF |
+| ImageQuality | VT\_R4 | 0-1.0 | JPEG, JPEG XL, HDPhoto, HEIF |
+| Lossless | VT\_BOOL | **TRUE**, **FALSE** | JPEG XL, HDPhoto |
 
 ImageQualty of 0.0 means the lowest possible fidelity rendition and 1.0 means the highest fidelity, which may also imply lossless depending on the codec.
 

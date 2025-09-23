@@ -2,7 +2,7 @@
 title: How to Translate an Object
 description: Shows how to translate an object.
 ms.assetid: 0fc48801-de14-4398-816d-6e7ddf4ffdd7
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

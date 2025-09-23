@@ -2,7 +2,7 @@
 description: This topic describes the three stages of the indexing process and the primary components involved in each, explains the timing of indexing activity, and provides some notes for third-party developers who want their data stores or file formats indexed.
 ms.assetid: cfba12eb-4123-4b57-8311-d4fc8f9f514e
 title: Indexing Process in Windows Search
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

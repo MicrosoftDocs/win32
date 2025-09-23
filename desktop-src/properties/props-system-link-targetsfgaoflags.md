@@ -2,7 +2,7 @@
 description: The IShellFolder::GetAttributesOf flags for the target of a link, with SFGAO\_PKEYSFGAOMASK attributes masked out.
 ms.assetid: ac17754c-efd5-4894-8013-dd67a5d2e486
 title: System.Link.TargetSFGAOFlags
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

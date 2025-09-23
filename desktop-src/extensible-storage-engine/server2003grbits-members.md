@@ -6,7 +6,7 @@ ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Server2003.Server2003Grbit
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.server2003.server2003grbits_members(v=EXCHG.10)
 ms:contentKeyID: 55107767
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # Server2003Grbits members

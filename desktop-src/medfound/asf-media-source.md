@@ -2,7 +2,7 @@
 description: Media Foundation provides the ASF media source that an application can use to represent an ASF file in the pipeline layer of the architecture.
 ms.assetid: a2d2b382-d666-4a37-a6a9-0b839fbfbec3
 title: ASF Media Source
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

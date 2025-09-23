@@ -3,7 +3,7 @@ title: E (UPnP APIs)
 description: Contains UPnP-related terms that begin with the letter E.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 954d2471-dea7-4bac-92be-042f5974d8e4
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

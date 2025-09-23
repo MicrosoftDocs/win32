@@ -2,7 +2,7 @@
 title: Attributes (VML)
 description: This article lists the attributes of the Shape element in VML. VML has been deprecated as of Windows Internet Explorer 9.
 ms.assetid: 0EBA02C8-3F44-492E-BC55-AD56849093D2
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

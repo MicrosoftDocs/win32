@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - example code for deleting an application directory partition Active Directory
 - application directory partitions Active Directory , example code for deleting
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

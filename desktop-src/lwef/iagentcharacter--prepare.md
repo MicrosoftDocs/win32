@@ -2,7 +2,7 @@
 title: IAgentCharacter Prepare
 description: IAgentCharacter Prepare
 ms.assetid: e016039f-a0b1-4ae9-bff6-7212b02c1ad8
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

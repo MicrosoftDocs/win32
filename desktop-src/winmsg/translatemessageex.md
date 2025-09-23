@@ -2,7 +2,7 @@
 description: Translates virtual-key messages into character messages.
 title: TranslateMessageEx
 ms.topic: reference
-ms.date: 03/23/2023
+ms.date: 07/14/2025
 topic_type: 
 - APIRef
 - kbSyntax

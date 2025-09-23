@@ -2,7 +2,7 @@
 title: Digital-Video Command Set
 description: Digital-Video Command Set
 ms.assetid: 408587b1-3ead-4720-a063-5fb749273043
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

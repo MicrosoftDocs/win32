@@ -2,7 +2,7 @@
 title: Moniker Clients
 description: Moniker clients must start by getting a moniker, and there are several ways for a moniker client to get a moniker.
 ms.assetid: ab1758c4-8dfc-47f6-8e1b-875e033a54d6
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

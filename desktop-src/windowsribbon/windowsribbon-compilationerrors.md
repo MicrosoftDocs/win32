@@ -15,7 +15,7 @@ keywords:
 - Ribbon,information messages
 - UI Command Compiler (UICC.exe)
 - UICC.exe (UI Command Compiler)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

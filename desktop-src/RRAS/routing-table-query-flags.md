@@ -4,7 +4,7 @@ description: Use these constants for router table queries.
 ms.assetid: 345a8edc-c2aa-483e-8685-15a692bbfd56
 keywords:
 - Routing Table Query Flags
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

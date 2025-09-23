@@ -15,7 +15,7 @@ keywords:
 - service providers,header files
 - creating service providers,header files
 - header files
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

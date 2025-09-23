@@ -2,7 +2,7 @@
 title: User Interface Principles
 description: This topic discusses how to implement intuitive user interface and user experience design principles into a Windows applications.
 ms.assetid: 603bc184-3eec-4281-8caa-993834da3131
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

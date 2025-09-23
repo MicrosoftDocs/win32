@@ -2,7 +2,7 @@
 title: IKE/AuthIP Exemptions
 description: Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP), in order to function, need to exempt their network traffic from the IPsec filtering.
 ms.assetid: 365bfebc-250a-440f-8056-ff9601daa030
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

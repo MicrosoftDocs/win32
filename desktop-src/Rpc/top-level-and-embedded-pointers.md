@@ -2,7 +2,7 @@
 title: Top-Level and Embedded Pointers
 description: To understand how pointers and their associated data elements are allocated in Microsoft RPC, you have to differentiate between top-level pointers and embedded pointers.
 ms.assetid: 217b9200-827c-4d36-9412-5e65858b8a97
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -17,7 +17,7 @@ To understand how pointers and their associated data elements are allocated in M
 If the embedded pointer is not null on the client before the call, the stubs do not allocate memory on the client on return. Instead, the stubs attempt to write the memory associated with the embedded pointer into the existing memory on the client associated with that pointer, overwriting the data already there.
 
 > [!Note]  
-> For data read from or writen to a buffer, and which does not specify the buffer size, output length must be less than or equal to input length. An RPC exception is raised when overflow is detected. For string data, output length is determined by checking length of the input string. Therefore, output strings cannot exceed length of input strings. Best practice guidance is to avoid this by always including a size-specified parameter to indicate size of the buffer.
+> For data read from or written to a buffer, and which does not specify the buffer size, output length must be less than or equal to input length. An RPC exception is raised when overflow is detected. For string data, output length is determined by checking length of the input string. Therefore, output strings cannot exceed length of input strings. Best practice guidance is to avoid this by always including a size-specified parameter to indicate size of the buffer.
 
  
 

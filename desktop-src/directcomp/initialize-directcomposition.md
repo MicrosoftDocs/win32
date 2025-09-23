@@ -2,7 +2,7 @@
 title: How to initialize DirectComposition
 description: This topic demonstrates how to create and initialize the minimum set of Microsoft DirectComposition objects needed to create a simple composition.
 ms.assetid: F2BF9CE2-05EF-4345-A00E-F5C8A8660B24
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -453,7 +453,7 @@ private:
 //
 // SimpleComposition.cpp
 //
-// THIS CODE AND INFORMATION IS PROVIDED &quot;AS IS&quot; WITHOUT WARRANTY OF
+// THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF
 // ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO
 // THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
 // PARTICULAR PURPOSE.
@@ -463,7 +463,7 @@ private:
 // Instructions: Right-click in the client area to cause DirectCompostion
 // to create a simple composition consisting of a single GDI bitmap.
 
-#include &quot;SimpleComposition.h&quot;
+#include "SimpleComposition.h"
 
 /******************************************************************
 *                                                                 *
@@ -544,10 +544,10 @@ HRESULT DemoApp::Initialize()
     wcex.cbClsExtra    = 0;
     wcex.cbWndExtra    = sizeof(LONG_PTR);
     wcex.hInstance     = HINST_THISCOMPONENT;
-    wcex.hbrBackground = (HBRUSH)(COLOR_WINDOW+1);;
+    wcex.hbrBackground = (HBRUSH)(COLOR_WINDOW+1);
     wcex.lpszMenuName  = nullptr;
     wcex.hCursor       = LoadCursor(NULL, IDC_ARROW);
-    wcex.lpszClassName = L&quot;DirectCompDemoApp&quot;;
+    wcex.lpszClassName = L"DirectCompDemoApp";
 
     RegisterClassEx(&wcex);
 
@@ -566,8 +566,8 @@ HRESULT DemoApp::Initialize()
     }
 
     m_hwnd = CreateWindow(
-        L&quot;DirectCompDemoApp&quot;,
-        L&quot;DirectComposition Demo Application&quot;,
+        L"DirectCompDemoApp",
+        L"DirectComposition Demo Application",
         WS_OVERLAPPEDWINDOW,
         CW_USEDEFAULT,
         CW_USEDEFAULT,
@@ -665,7 +665,7 @@ HRESULT DemoApp::CreateResources()
 {
     HRESULT hr = S_OK;
 
-    hr = LoadResourceGDIBitmap(L&quot;Logo&quot;, m_hBitmap);
+    hr = LoadResourceGDIBitmap(L"Logo", m_hBitmap);
    
     return hr;
 }
@@ -981,7 +981,3 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
 
 [**SafeRelease**](/windows/desktop/medfound/saferelease)
 </dt> </dl>
-
- 
-
- 

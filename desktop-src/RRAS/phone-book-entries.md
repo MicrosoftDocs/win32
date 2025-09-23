@@ -2,7 +2,7 @@
 title: Phone-Book Entries
 description: Phone-book entries contain the information necessary to establish a RAS connection. A user or administrator can use the Dial-Up Networking dialog box to create, edit, and dial phone-book entries.
 ms.assetid: 971d7020-f9fd-42d1-97c3-79ad6eba6964
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

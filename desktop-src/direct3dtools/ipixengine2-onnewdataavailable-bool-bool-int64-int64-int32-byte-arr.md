@@ -56,7 +56,7 @@ The file position, in bytes, at which the new data ends.
 The number of bytes contained in count4\_pObjectTableData.
 
 *count4\_pObjectTableData*   
-An buffer containing data for the object table.
+A buffer containing data for the object table.
 
 ## Return value
 

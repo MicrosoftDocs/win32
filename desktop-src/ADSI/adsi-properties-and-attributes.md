@@ -9,7 +9,7 @@ keywords:
 - properties ADSI
 - attributes ADSI
 - properties ADSI , defined
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

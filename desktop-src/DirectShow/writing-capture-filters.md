@@ -2,7 +2,7 @@
 description: Writing Capture Filters
 ms.assetid: 7dfd1009-da09-49dc-a200-3d7a9f1c70c1
 title: Writing Capture Filters
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

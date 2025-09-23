@@ -2,7 +2,7 @@
 description: The MsiUnpublishAssemblies action manages the advertisement of common language runtime assemblies and Win32 assemblies that are being removed.
 ms.assetid: 199d72be-bbe1-4777-a913-2e4b92576bfa
 title: MsiUnpublishAssemblies Action
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

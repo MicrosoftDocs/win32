@@ -2,7 +2,7 @@
 description: Before the default queue callback routine can be used, either by specifying it as the callback routine when committing a file queue, or by calling it from a custom callback routine, it must be initialized.
 ms.assetid: e25a9787-a4a3-4d06-bf55-f6f7cfb23481
 title: Initializing and Terminating the Callback Context
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

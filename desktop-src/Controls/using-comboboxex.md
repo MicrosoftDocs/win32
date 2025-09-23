@@ -2,7 +2,7 @@
 title: Using ComboBoxEx Controls
 description: This section contains sample code and information about how to use ComboBoxEx controls.
 ms.assetid: 3c932a7e-e0cb-4e1e-a982-c480fac4a323
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

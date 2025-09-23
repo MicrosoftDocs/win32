@@ -2,7 +2,7 @@
 title: Multi-engine n-body gravity simulation
 description: The D3D12nBodyGravity sample demonstrates how to do compute work asynchronously.
 ms.assetid: B20C5575-0616-43F7-9AC9-5F802E5597B5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

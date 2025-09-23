@@ -2,7 +2,7 @@
 description: Learn about the JobDuplexAllDocumentsContiguously element, which describes the duplex characteristics of the output.
 ms.assetid: dd24166c-d5e2-420e-8a8c-e1a25728ab2f
 title: JobDuplexAllDocumentsContiguously
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

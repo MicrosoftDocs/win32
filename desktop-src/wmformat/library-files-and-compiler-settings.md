@@ -6,7 +6,7 @@ keywords:
 - Windows Media Format SDK,library files
 - Windows Media Format SDK,compiler settings
 - Windows Media Format SDK,header files
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

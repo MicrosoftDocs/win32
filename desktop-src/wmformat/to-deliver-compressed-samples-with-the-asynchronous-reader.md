@@ -12,7 +12,7 @@ keywords:
 - asynchronous readers,delivering compressed samples
 - asynchronous readers,compressed samples
 - compressed samples,delivering
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -6,7 +6,7 @@ ms:assetid: d0249519-4c7c-49c1-9c80-b3cae2537d61
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg294096(v=EXCHG.10)
 ms:contentKeyID: 32765711
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Using Extensible Storage Engine

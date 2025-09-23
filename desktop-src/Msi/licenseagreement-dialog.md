@@ -2,7 +2,7 @@
 description: This modal dialog box displays the license agreement to the user.
 ms.assetid: 367fe264-6e08-4b40-b61b-617bb92986b7
 title: LicenseAgreement Dialog
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

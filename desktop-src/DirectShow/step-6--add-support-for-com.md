@@ -2,7 +2,7 @@
 description: Add support for COM as part of writing a transform filter. This is the final step in this tutorial.
 ms.assetid: 53e4f5b7-c85d-4b44-9a0c-0ad05ca872cc
 title: Step 6. Add Support for COM
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 title: Containers and Servers
 description: Containers and Servers
 ms.assetid: 4918fa52-3598-4f4d-b2e7-7a47a37b216d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

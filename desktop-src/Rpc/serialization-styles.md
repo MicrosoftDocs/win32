@@ -2,7 +2,7 @@
 title: Serialization Styles
 description: There are three styles you can use to manipulate serialization handles.
 ms.assetid: 40b609b2-abad-4967-a5d1-948ac26fd65c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

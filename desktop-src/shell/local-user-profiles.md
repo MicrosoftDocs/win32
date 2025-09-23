@@ -1,7 +1,7 @@
 ---
 description: The system automatically creates a local user profile for each user when the user logs on to the computer for the first time. The system automatically maintains the settings for each user's work environment in a user profile on the local computer.
 title: Local User Profiles
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 0e6c060e-025e-4d00-9b92-4f3b7bf66dda
 api_name: 

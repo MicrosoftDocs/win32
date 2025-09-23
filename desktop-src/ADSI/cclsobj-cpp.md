@@ -5,7 +5,7 @@ ms.assetid: e8cdef8e-c031-49e0-9496-871064aec8bd
 ms.tgt_platform: multiple
 keywords:
 - CSampleDSClass
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

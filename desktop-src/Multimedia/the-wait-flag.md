@@ -4,7 +4,7 @@ description: The Wait Flag
 ms.assetid: b971ccd4-0507-4f05-adb3-d4930496034d
 keywords:
 - MCI_WAIT flag
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -11,7 +11,7 @@ keywords:
 - Direct3D,Direct2D interoperation
 - Direct2D,DXGI
 - DXGI
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

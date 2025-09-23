@@ -2,7 +2,7 @@
 title: VML CropRight Attribute
 description: VML CropRight Attribute
 ms.assetid: 1e2bd8e8-3d56-435d-bfaf-fb07f6b6fba6
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

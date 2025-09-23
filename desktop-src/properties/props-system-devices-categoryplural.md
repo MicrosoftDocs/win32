@@ -2,7 +2,7 @@
 description: A property with multiple device categories.
 ms.assetid: b8cbdb96-b4dd-44c2-b1fe-08b22c0380c2
 title: System.Devices.CategoryPlural
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

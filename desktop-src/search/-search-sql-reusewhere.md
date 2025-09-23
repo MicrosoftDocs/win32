@@ -2,7 +2,7 @@
 description: The WHERE clause in a query specifies a set of items to match results against.
 ms.assetid: ed51edd5-6edc-4fcd-a69b-cb48c399ba7c
 title: ReuseWhere Function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -44,7 +44,7 @@ WHERE CONTAINS(*, 'pencil') AND System.ItemDate > '2007-3-5' AND Scope='file:'
 
 
 
-The ReuseWhere function can be used anwhere in the [WHERE](-search-sql-where.md) clause.
+The ReuseWhere function can be used anywhere in the [WHERE](-search-sql-where.md) clause.
 
 ## Related topics
 

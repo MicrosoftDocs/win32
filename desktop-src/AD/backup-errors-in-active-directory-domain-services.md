@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Active Directory Backup Errors
 - Active Directory Domain Service Backup Errors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

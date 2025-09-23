@@ -19,7 +19,7 @@ keywords:
 - MCCS (Monitor Control Command Set)
 - Virtual Control Panel (VCP)
 - VCP (Virtual Control Panel)
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

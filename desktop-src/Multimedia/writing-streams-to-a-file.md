@@ -4,7 +4,7 @@ description: Writing Streams to a File
 ms.assetid: a3766f8c-aaa6-4fc5-a306-54aee71018f1
 keywords:
 - AVIFileCreateStream function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

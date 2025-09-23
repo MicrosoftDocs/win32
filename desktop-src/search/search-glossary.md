@@ -3,8 +3,9 @@ description: Glossary page
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 8e9b45de-c81b-4324-b00b-b11ee6749920
 title: Windows Search Glossary
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
+no-loc: [Verb, verb, Shell, shell]
 ---
 
 # Windows Search Glossary

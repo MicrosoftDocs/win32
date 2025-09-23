@@ -2,7 +2,7 @@
 description: A superset of the PROV\_DSS provider type.
 ms.assetid: 2ad176e9-30c6-411a-b3ed-bc6656c96768
 title: PROV_DSS_DH
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

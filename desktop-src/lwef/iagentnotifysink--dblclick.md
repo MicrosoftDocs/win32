@@ -2,7 +2,7 @@
 title: IAgentNotifySink DblClick
 description: IAgentNotifySink DblClick
 ms.assetid: 7e86cc9b-8bc3-405e-9bbf-764cec9c3130
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

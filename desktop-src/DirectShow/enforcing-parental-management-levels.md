@@ -2,7 +2,7 @@
 description: Enforcing Parental Management Levels
 ms.assetid: ad996a03-e94e-4743-90a2-aa390984a231
 title: Enforcing Parental Management Levels
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

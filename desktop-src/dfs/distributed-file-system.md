@@ -2,7 +2,7 @@
 title: Distributed File System
 description: Provide the ability to logically group shares on multiple servers and to transparently link shares into a single hierarchical namespace.
 ms.assetid: ab7b3460-0bf6-4780-a50b-c3a82f7bd6b1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

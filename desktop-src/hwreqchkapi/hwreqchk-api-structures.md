@@ -2,7 +2,7 @@
 description: The native HWREQCHK API contains the following structures.
 ms.assetid: 2d839886-10a1-4476-997a-774772eb0529
 title: HWREQCHK API structures
-ms.topic: article
+ms.topic: reference
 ms.date: 04/28/2023
 ---
 

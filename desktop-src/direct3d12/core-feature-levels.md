@@ -1,7 +1,7 @@
 ---
 title: The Direct3D 12 Core 1.0 Feature Level
 description: The Core 1.0 Feature Level is a subset of the full Direct3D 12 feature set.
-ms.topic: article
+ms.topic: concept-article
 ms.date: 11/05/2019
 ---
 

@@ -2,7 +2,7 @@
 title: Default Behavior of Drivers
 description: Default Behavior of Drivers
 ms.assetid: ed6905eb-67ad-421d-be00-4a5585dff7fb
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

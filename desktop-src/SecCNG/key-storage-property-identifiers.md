@@ -3,7 +3,7 @@ description: Used to identify a key storage property.
 ms.assetid: 407f0e42-07c8-4ec6-81c6-f8bde005adb0
 title: Key Storage Property Identifiers (Ncrypt.h)
 ms.topic: reference
-ms.date: 11/13/2024
+ms.date: 05/08/2025
 ---
 
 # Key Storage Property Identifiers
@@ -79,12 +79,26 @@ A **DWORD** that contains a set of flags that specify the export policy for a pe
 
 A **DWORD** that contains a set of flags that define implementation details of the provider. This property only applies to key storage providers. This can contain zero or a combination of one or more of the following values.
 
-| Identifier                        | Value      | Description                                               |
-|-----------------------------------|------------|-----------------------------------------------------------|
-| **NCRYPT_IMPL_HARDWARE_FLAG**     | 0x00000001 | The provider is hardware based.                           |
-| **NCRYPT_IMPL_SOFTWARE_FLAG**     | 0x00000002 | The provider is software based.                           |
-| **NCRYPT_IMPL_REMOVABLE_FLAG**    | 0x00000008 | The provider is removable.                                |
-| **NCRYPT_IMPL_HARDWARE_RNG_FLAG** | 0x00000010 | The provider is a hardware based random number generator. |
+| Identifier                             | Value      | Description                                               |
+|----------------------------------------|------------|-----------------------------------------------------------|
+| **NCRYPT_IMPL_HARDWARE_FLAG**          | 0x00000001 | The provider is hardware based.                           |
+| **NCRYPT_IMPL_SOFTWARE_FLAG**          | 0x00000002 | The provider is software based.                           |
+| **NCRYPT_IMPL_REMOVABLE_FLAG**         | 0x00000008 | The provider is removable.                                |
+| **NCRYPT_IMPL_HARDWARE_RNG_FLAG**      | 0x00000010 | The provider is a hardware based random number generator. |
+| **NCRYPT_IMPL_VIRTUAL_ISOLATION_FLAG** | 0x00000020 | The provider is a virtualized isolation provider.         |
+
+
+### NCRYPT_KEM_CIPHERTEXT_LENGTH_PROPERTY
+
+`L"KEM Ciphertext Length"`
+
+A **DWORD** that contains the length, in bytes, of the ciphertext. This property only applies to keys that support key encapsulation mechanisms (KEM).
+
+### NCRYPT_KEM_SHARED_SECRET_LENGTH_PROPERTY
+
+`L"KEM Shared Secret Length"`
+
+A **DWORD** that contains the length, in bytes, of the shared secret. This property only applies to keys that support key encapsulation mechanisms (KEM).
 
 ### NCRYPT_KEY_TYPE_PROPERTY
 

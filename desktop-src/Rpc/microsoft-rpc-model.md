@@ -4,7 +4,7 @@ description: Remote Procedure Call (RPC) for the C and C++ programming languages
 ms.assetid: ebab41a5-e841-4e0f-8acd-d0aab94f01c1
 keywords:
 - Remote Procedure Call RPC , described, the RPC model
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

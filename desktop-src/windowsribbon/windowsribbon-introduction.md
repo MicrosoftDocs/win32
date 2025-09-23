@@ -17,7 +17,7 @@ keywords:
 - Ribbon,APIs
 - Windows Ribbon,security
 - Ribbon,security
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
