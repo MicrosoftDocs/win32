@@ -1,15 +1,15 @@
 ---
-description: File attributes are metadata values stored by the file system on disk and are used by the system and are available to developers via various file I/O APIs.
+description: Learn about file attribute constants in WinNT.h. File attributes are metadata values stored by the file system and available to developers via file I/O APIs.
 ms.assetid: ed9a73d2-7fb6-4fb7-97f6-4dbf89e2f156
 title: File Attribute Constants (WinNT.h)
 ms.topic: reference
 ms.custom: snippet-project
-ms.date: 09/05/2024
+ms.date: 09/23/2025
 ---
 
 # File Attribute Constants
 
-File attributes are metadata values stored by the file system on disk and are used by the system and are available to developers via various file I/O APIs. For a list of related APIs and topics, see the [See also](#see-also) section.
+File attribute constants define metadata values stored by the file system on disk and are used by the system and available to developers via various file I/O APIs. These constants allow developers to check and set file properties such as read-only, hidden, or compressed attributes. For a list of related APIs and topics, see the [See also](#see-also) section.
 
 ## Example
 
@@ -50,7 +50,7 @@ Example taken from a [Windows Classic Sample](https://github.com/microsoft/Windo
 
 | Constant/value | Description |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="FILE_ATTRIBUTE_READONLY"></span><span id="file_attribute_readonly"></span><dl> <dt>**FILE\_ATTRIBUTE\_READONLY**</dt> <dt>1 (0x00000001)</dt> </dl> | A file that is read-only. Applications can read the file, but cannot write to it or delete it. This attribute is not honored on directories. For more information, see [You cannot view or change the Read-only or the System attributes of folders in Windows Server 2003, in Windows XP, in Windows Vista or in Windows 7](https://support.microsoft.com/topic/you-cannot-view-or-change-the-read-only-or-the-system-attributes-of-folders-in-windows-server-2003-in-windows-xp-in-windows-vista-or-in-windows-7-55bd5ec5-d19e-6173-0df1-8f5b49247165). |
+| <span id="FILE_ATTRIBUTE_READONLY"></span><span id="file_attribute_readonly"></span><dl> <dt>**FILE\_ATTRIBUTE\_READONLY**</dt> <dt>1 (0x00000001)</dt> </dl> | A file that is read-only. Applications can read the file, but cannot write to it or delete it. This attribute is not honored on directories. |
 | <span id="FILE_ATTRIBUTE_HIDDEN"></span><span id="file_attribute_hidden"></span><dl> <dt>**FILE\_ATTRIBUTE\_HIDDEN**</dt> <dt>2 (0x00000002)</dt> </dl> | The file or directory is hidden. It is not included in an ordinary directory listing. |
 | <span id="FILE_ATTRIBUTE_SYSTEM"></span><span id="file_attribute_system"></span><dl> <dt>**FILE\_ATTRIBUTE\_SYSTEM**</dt> <dt>4 (0x00000004)</dt> </dl> | A file or directory that the operating system uses a part of, or uses exclusively. |
 | <span id="FILE_ATTRIBUTE_DIRECTORY"></span><span id="file_attribute_directory"></span><dl> <dt>**FILE\_ATTRIBUTE\_DIRECTORY**</dt> <dt>16 (0x00000010)</dt> </dl> | The handle that identifies a directory. |
@@ -106,3 +106,5 @@ Example taken from a [Windows Classic Sample](https://github.com/microsoft/Windo
 [SetFileAttributesTransacted](/windows/win32/api/WinBase/nf-winbase-setfileattributestransacteda)
 
 [SetFileInformationByHandle](/windows/win32/api/FileAPI/nf-fileapi-setfileinformationbyhandle)
+
+[File Explorer in Windows](https://support.microsoft.com/windows/file-explorer-in-windows-ef370130-1cca-9dc5-e0df-2f7416fe1cb1)
