@@ -49,6 +49,9 @@ For Windows Server 2022, the following cipher suites are enabled and in this pri
 | TLS_RSA_WITH_NULL_SHA256<br/>Only used when application explicitly requests. | No  | TLS 1.2       |
 | TLS_RSA_WITH_NULL_SHA<br/>Only used when application explicitly requests. | No  | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0 |
 
+> [!NOTE]
+> The following cipher suites from the table above are not enabled by default in Windows Server 2022 23H2 and later: **TLS_RSA_WITH_3DES_EDE_CBC_SHA**, **TLS_DHE_RSA_WITH_AES_256_GCM_SHA384**, and **TLS_DHE_RSA_WITH_AES_128_GCM_SHA256**. These cipher suites are still supported but must be explicitly enabled by the user.
+
 The following cipher suites are supported by the Microsoft Schannel Provider, but not enabled by default:
 
 | Cipher suite string | Allowed by SCH_USE_STRONG_CRYPTO | TLS/SSL Protocol versions |
