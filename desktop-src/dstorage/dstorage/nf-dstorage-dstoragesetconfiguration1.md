@@ -59,7 +59,7 @@ HRESULT DStorageSetConfiguration1(
 
 `configuration`
 
-Type: **[DSTORAGE_CONFIGURATION1](ns-dstorage-dstorage_configuration1.md1**
+Type: **[DSTORAGE_CONFIGURATION1](ns-dstorage-dstorage_configuration1.md)**
 
 Specifies the configuration.
 
