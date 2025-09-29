@@ -444,6 +444,12 @@
         items: 
         - name: "System.AcquisitionID"
           href: props-system-acquisitionid.md
+        - name: "System.ActivityDate"
+          href: props-system-activitydate.md
+        - name: "System.ActivityIcon"
+          href: props-system-activityicon.md
+        - name: "System.ActivityInfo"
+          href: props-system-activityinfo.md
         - name: "System.ApplicationDefinedProperties"
           href: props-system-applicationdefinedproperties.md
         - name: "System.ApplicationName"
@@ -472,6 +478,8 @@
           href: props-system-contentstatus.md
         - name: "System.ContentType"
           href: props-system-contenttype.md
+        - name: "System.ContentUri"
+          href: props-system-contenturi.md
         - name: "System.Copyright"
           href: props-system-copyright.md
         - name: "System.CreatorAppId"
@@ -708,14 +716,26 @@
           href: props-system-storageprovidererror.md
         - name: "System.StorageProviderFileChecksum"
           href: props-system-storageproviderfilechecksum.md
+        - name: "System.StorageProviderFileCreatedBy"
+          href: props-system-storageproviderfilecreatedby.md
+        - name: "System.StorageProviderFileDateShared"
+          href: props-system-storageproviderfiledateshared.md
         - name: "System.StorageProviderFileIdentifier"
           href: props-system-storageproviderfileidentifier.md
+        - name: "System.StorageProviderFileModifiedBy"
+          href: props-system-storageproviderfilemodifiedby.md
+        - name: "System.StorageProviderFileRemoteLocation"
+          href: props-system-storageproviderfileremotelocation.md
         - name: "System.StorageProviderFileRemoteUri"
           href: props-system-storageproviderfileremoteuri.md
+        - name: "System.StorageProviderFileSharedBy"
+          href: props-system-storageproviderfilesharedby.md
         - name: "System.StorageProviderFileVersion"
           href: props-system-storageproviderfileversion.md
         - name: "System.StorageProviderFileVersionWaterline"
           href: props-system-storageproviderfileversionwaterline.md
+        - name: "System.StorageProviderFullyQualifiedId"
+          href: props-system-storageproviderfullyqualifiedid.md
         - name: "System.StorageProviderId"
           href: props-system-storageproviderid.md
         - name: "System.StorageProviderShareStatuses"
@@ -724,6 +744,8 @@
           href: props-system-storageprovidersharingstatus.md
         - name: "System.StorageProviderStatus"
           href: props-system-storageproviderstatus.md
+        - name: "System.StorageProviderUserId"
+          href: props-system-storageprovideruserid.md
         - name: "System.Subject"
           href: props-system-subject.md
         - name: "System.SyncTransferStatus"
