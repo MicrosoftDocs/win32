@@ -2787,7 +2787,7 @@
           href: mf-capture-metadata-frame-illumination.md
         - name: "MF_CAPTURE_METADATA_PHOTO_FRAME_FLASH"
           href: mf-capture-metadata-photo-frame-flash.md
-        - name: "MF_DECODER_FWD_CUSTOM_SEI_DECODE_ORDERgit "
+        - name: "MF_DECODER_FWD_CUSTOM_SEI_DECODE_ORDER"
           href: mf-decoder-fwd-custom-set-decode-order.md
         - name: "MF_DEVICE_THERMAL_STATE_CHANGED"
           href: mf-device-thermal-state-changed.md
