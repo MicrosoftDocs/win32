@@ -2787,6 +2787,8 @@
           href: mf-capture-metadata-frame-illumination.md
         - name: "MF_CAPTURE_METADATA_PHOTO_FRAME_FLASH"
           href: mf-capture-metadata-photo-frame-flash.md
+        - name: "MF_DECODER_FWD_CUSTOM_SEI_DECODE_ORDER"
+          href: mf-decoder-fwd-custom-set-decode-order.md
         - name: "MF_DEVICE_THERMAL_STATE_CHANGED"
           href: mf-device-thermal-state-changed.md
         - name: "MF_DEVICESTREAM_ATTRIBUTE_FRAMESOURCE_TYPES"
@@ -3513,6 +3515,8 @@
           href: mf-transform-flags-attribute.md
         - name: "MF_USER_DATA_PAYLOAD"
           href: mf-user-data-payload.md
+        - name: "MF_VIDEO_RENDERER_EFFECT_APP_SERVICE_NAME"
+          href: mf-video-renderer-effect-app-service-name.md
         - name: "MF_VIDEO_MAX_MB_PER_SEC"
           href: mf-video-max-mb-per-sec.md
         - name: "MF_VIDEO_PROCESSOR_ALGORITHM"
@@ -3529,6 +3533,8 @@
           href: mf-xvp-caller-allocates-output.md
         - name: "MF_XVP_DISABLE_FRC"
           href: mf-xvp-disable-frc.md
+        - name: "MF_XVP_SAMPLE_LOCK_TIMEOUT"
+          href: mf-xvp-sample-lock-timeout.md
         - name: "MFASFSPLITTER_PACKET_BOUNDARY"
           href: mfasfsplitter-packet-boundary-attribute.md
         - name: "MFPROTECTION_ACP"

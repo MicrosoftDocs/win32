@@ -72,6 +72,7 @@ This section contains an alphabetical list of Microsoft Media Foundation attribu
 | [MF\_CAPTURE\_METADATA\_FRAME\_ILLUMINATION](mf-capture-metadata-frame-illumination.md) | A value indicating whether a frame was captured using active infrared (IR) illumination. |
 | [MF\_CAPTURE\_METADATA\_PHOTO\_FRAME\_FLASH](mf-capture-metadata-photo-frame-flash.md) | Indicates if a flash was triggered for the captured frame. |
 | [MF\_DEVICE\_THERMAL\_STATE\_CHANGED](mf-device-thermal-state-changed.md) | Represents an event that signals a thermal state change in the device.  |
+| [MF\_DECODER\_FWD\_CUSTOM\_SEI\_DECODE\_ORDER](mf-decoder-fwd-custom-set-decode-order.md) | Specifies that the SEI unit type to forward on output samples of the decoder shall be sent out in decode order. |
 | [MF\_DEVICESTREAM\_ATTRIBUTE\_FRAMESOURCE\_TYPES](mf-devicestream-attribute-framesource-types.md) | Represents the frame source type. |
 | [MF\_DEVICESTREAM\_EXTENSION\_PLUGIN\_CONNECTION\_POINT](mf-devicestream-extension-plugin-connection-point.md) | Represents a extension plugin connection point. |
 | [MF\_DEVICESTREAM\_EXTENSION\_PLUGIN\_CLSID](mf-devicestream-extension-plugin-clsid.md) | Specifies the CLSID of a post-processing plug-in for a video capture device. |
@@ -430,6 +431,7 @@ This section contains an alphabetical list of Microsoft Media Foundation attribu
 | [MF\_TRANSFORM\_CATEGORY\_Attribute](mf-transform-category-attribute.md) | Specifies the category for a Media Foundation transform (MFT). |
 | [MF\_TRANSFORM\_FLAGS\_Attribute](mf-transform-flags-attribute.md) | Contains flags for a Media Foundation transform (MFT) activation object. |
 | [MF\_USER\_DATA\_PAYLOAD](mf-user-data-payload.md) | Sets whether to include a user data payload with the output sample. |
+| [MF\_VIDEO\_RENDERER\_EFFECT\_APP\_SERVICE\_NAME](mf-video-renderer-effect-app-service-name.md) | Specifies the name of the video renderer effect app service with which a communication channel will be opened. |
 | [MF\_VIDEO\_MAX\_MB\_PER\_SEC](mf-video-max-mb-per-sec.md) | Specifies, on [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform), the maximum macroblock processing rate, in macroblocks per second, that is supported by the hardware encoder. |
 | [MF\_VIDEO\_PROCESSOR\_ALGORITHM](mf-video-processor-algorithm.md) | Sets the algorithm used by the video processor.  |
 | [MF\_VIDEODSP\_MODE](mf-videodsp-mode.md) | Sets the processing mode of the [**Video Stabilization MFT**](video-stabilization-mft.md). |
@@ -438,6 +440,7 @@ This section contains an alphabetical list of Microsoft Media Foundation attribu
 | [MF\_VIRTUALCAMERA\_PROVIDE\_ASSOCIATED\_CAMERA\_SOURCES](mf-virtualcamera-provide-associated-camera-sources.md) | Specifies that the pipeline should provide the list of physical camera sources associated with a virtual camera. |
 | [MF\_XVP\_CALLER\_ALLOCATES\_OUTPUT](mf-xvp-caller-allocates-output.md) | Specifies whether that the caller will allocate the textures used for output. |
 | [MF\_XVP\_DISABLE\_FRC](mf-xvp-disable-frc.md) | Disables frame-rate conversion in the [**Video Processor MFT**](video-processor-mft.md). |
+| [MF\_XVP\_SAMPLE\_LOCK\_TIMEOUT](mf-xvp-sample-lock-timeout.md) | Specifies the timeout value used for sample locking operations in XVP. |
 | [MFASFSPLITTER\_PACKET\_BOUNDARY](mfasfsplitter-packet-boundary-attribute.md) | Specifies whether a buffer contains the start of an Advanced Systems Format (ASF) packet.  |
 | [MFPROTECTION\_ACP](mfprotection-acp.md) | Specifies Analog Copy Protection (ACP) protection. |
 | [MFPROTECTION\_CGMSA](mfprotection-cgmsa.md) | Specifies Copy Generational Management System - A (CGMS-A) protection.  |
