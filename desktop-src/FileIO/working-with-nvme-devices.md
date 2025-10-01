@@ -3,7 +3,7 @@ description: Learn how to work with high-speed NVMe devices from your Windows ap
 ms.assetid: 037AF841-C2C9-4551-9CCB-F2A2F199083A
 title: Working with NVMe Drives
 ms.topic: concept-article
-ms.date: 07/08/2025
+ms.date: 09/30/2025
 # customer intent: As a Windows app developer, I want to understand how to work with NVMe drives in Windows, so that I can access high-speed storage devices and utilize their features effectively.
 ---
 
@@ -109,7 +109,7 @@ For example, in NVMe, the IOCTL will allow the sending down of the following com
 
 As with all other IOCTLs, Use [DeviceIoControl](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) to send the pass-through IOCTL down. The IOCTL is populated using the [STORAGE\_PROTOCOL\_COMMAND](/windows/win32/api/winioctl/ns-winioctl-storage_protocol_command) input-buffer structure found in **ntddstor.h**. Populate the **Command** field with the vendor-specific command.
 
-```C++
+```cpp
 typedef struct _STORAGE_PROTOCOL_COMMAND {
 
     ULONG   Version;                        // STORAGE_PROTOCOL_STRUCTURE_VERSION
@@ -164,9 +164,6 @@ For getting storage information and updating firmware, Windows also supports [Po
 - `Get-StorageFirmwareInfo`
 - `Update-StorageFirmware`
 
-> [!NOTE]
-> To update firmware on NVMe, use IOCTL\_SCSI\_MINIPORT\_FIRMWARE. For more information, see [Upgrading Firmware for an NVMe Device](/windows-hardware/drivers/storage/upgrading-firmware-for-an-nvme-device).
-
 ### Returning errors through the pass-through mechanism
 
 Similar to SCSI and ATA pass-through IOCTLs, when a command/request is sent to the miniport or device, the IOCTL returns if it was successful or not. In the [STORAGE\_PROTOCOL\_COMMAND](/windows/win32/api/winioctl/ns-winioctl-storage_protocol_command) structure, the IOCTL returns the status through the **ReturnStatus** field.
@@ -175,7 +172,7 @@ Similar to SCSI and ATA pass-through IOCTLs, when a command/request is sent to t
 
 In this example, an arbitrary vendor-specific command (0xFF) is sent via pass-through to an NVMe drive. The following code allocates a buffer, initializes a query, and then sends the command down to the device via DeviceIoControl.
 
-```C++
+```cpp
 ZeroMemory(buffer, bufferLength);  
 protocolCommand = (PSTORAGE_PROTOCOL_COMMAND)buffer;  
 
@@ -220,7 +217,7 @@ Windows 8.1 introduced [IOCTL\_STORAGE\_QUERY\_PROPERTY](/windows/win32/api/Win
 
 The input buffer for the IOCTL, [STORAGE\_PROPERTY\_QUERY](/windows/win32/api/WinIoCtl/ns-winioctl-storage_property_query) (from Windows 10 and later) is shown here:
 
-```C++
+```cpp
 typedef struct _STORAGE_PROPERTY_QUERY {
     STORAGE_PROPERTY_ID PropertyId;
     STORAGE_QUERY_TYPE QueryType;
@@ -237,7 +234,7 @@ When using [IOCTL\_STORAGE\_QUERY\_PROPERTY](/windows/win32/api/WinIoCtl/ni-wini
 
 The [STORAGE\_PROTOCOL\_SPECIFIC\_DATA](/windows/win32/api/WinIoCtl/ns-winioctl-storage_protocol_specific_data) structure (from Windows 10 and later) is shown here:
 
-```C++
+```cpp
 typedef struct _STORAGE_PROTOCOL_SPECIFIC_DATA {
 
     STORAGE_PROTOCOL_TYPE ProtocolType;
@@ -274,7 +271,7 @@ The following examples demonstrate NVMe protocol-specific queries.
 
 In this example, the **Identify** request is sent to an NVMe drive. The following code initializes the query data structure and then sends the command down to the device via **DeviceIoControl**.
 
-```C++
+```cpp
 BOOL    result;
 PVOID   buffer = NULL;
 ULONG   bufferLength = 0;
@@ -399,7 +396,7 @@ identifyControllerData->NN is Number of Namespaces (NN). Windows detects a names
 
 In this example, based off of the previous one, the **Get Log Pages** request is sent to an NVMe drive. The following code prepares the query data structure and then sends the command down to the device via **DeviceIoControl**.
 
-```C++
+```cpp
 ZeroMemory(buffer, bufferLength);  
 
 query = (PSTORAGE_PROPERTY_QUERY)buffer;  
@@ -473,7 +470,7 @@ Callers could use a [STORAGE_PROPERTY_ID](/windows/win32/api/winioctl/ne-winioct
 
 In this example, based off of the previous one, the **Get Features** request is sent to an NVMe drive. The following code prepares the query data structure and then sends the command down to the device via **DeviceIoControl**.
 
-```C++
+```cpp
 //  
 // Initialize query data structure to Volatile Cache feature.  
 //  
@@ -540,7 +537,7 @@ Note that in Windows 10 19H1 and later, the IOCTL_STORAGE_SET_PROPERTY was enhan
 
 The input buffer for the IOCTL_STORAGE_SET_PROPERTY is shown here:
 
-```C++
+```cpp
 typedef struct _STORAGE_PROPERTY_SET {
 
     //
@@ -572,7 +569,7 @@ When using **IOCTL_STORAGE_SET_PROPERTY** to set NVMe feature, configure the **S
 
 The **STORAGE_PROTOCOL_SPECIFIC_DATA_EXT** structure is shown here.
 
-```C++
+```cpp
 typedef struct _STORAGE_PROTOCOL_SPECIFIC_DATA_EXT {
 
     STORAGE_PROTOCOL_TYPE ProtocolType;
@@ -606,7 +603,7 @@ The following examples demonstrate NVMe feature set.
 
 In this example, the Set Features request is sent to an NVMe drive. The following code prepares the set data structure and then sends the command down to the device via DeviceIoControl.
 
-```C++
+```cpp
 PSTORAGE_PROPERTY_SET                   setProperty = NULL;
 PSTORAGE_PROTOCOL_SPECIFIC_DATA_EXT     protocolData = NULL;
 PSTORAGE_PROTOCOL_DATA_DESCRIPTOR_EXT   protocolDataDescr = NULL;
@@ -670,7 +667,7 @@ To retrieve temperature information from an NVMe drive in the [STORAGE\_TEMPERAT
 
 The [STORAGE\_TEMPERATURE\_INFO](/windows/win32/api/WinIoctl/ns-winioctl-storage_temperature_info) structure (available in Windows 10 and later) is shown here:
 
-```C++
+```cpp
 typedef struct _STORAGE_TEMPERATURE_INFO {
 
     USHORT  Index;                      // Starts from 0. Index 0 may indicate a composite value.
@@ -701,7 +698,7 @@ Windows 10 introduced [IOCTL\_STORAGE\_SET\_TEMPERATURE\_THRESHOLD](/windows/wi
 
 In this example, an NVMe drive's over-threshold temperature is set. The following code prepares the command and then sends it down to the device via **DeviceIoControl**.
 
-```C++
+```cpp
 BOOL    result;  
 ULONG   returnedLength = 0;  
 
