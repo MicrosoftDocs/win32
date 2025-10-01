@@ -85,6 +85,7 @@ The following RIDs are relative to each domain.
 
 | RID                                                                | Identifies |
 |--------------------------------------------------------------------|------------|
+| DOMAIN_ALIAS_RID_RAS_SERVERS<br/>Value: `0x00000229` | A local group that represents RAS and IAS servers. This group permits access to various attributes of user objects. |
 | DOMAIN_ALIAS_RID_CERTSVC_DCOM_ACCESS_GROUP<br/>Value: `0x0000023E` | The group of users who can connect to certification authorities using Distributed Component Object Model (DCOM). |
 | DOMAIN_USER_RID_ADMIN<br/>Value: `0x000001F4` | The administrative user account in a domain. |
 | DOMAIN_USER_RID_GUEST<br/>Value: `0x000001F5` | The guest-user account in a domain. Users who do not have an account can automatically log on to this account. |
@@ -132,7 +133,6 @@ The following table has examples of domain-relative RIDs that you can use to for
 | DOMAIN\_ALIAS\_RID\_PRINT\_OPS<br/>Value: `0x00000226`<br/>String value: `S-1-5-32-550` | A local group that exists only on systems running server operating systems. This local group controls printers and print queues. |
 | DOMAIN\_ALIAS\_RID\_BACKUP\_OPS<br/>Value: `0x00000227`<br/>String value: `S-1-5-32-551` | A local group used for controlling assignment of file backup-and-restore privileges. |
 | DOMAIN\_ALIAS\_RID\_REPLICATOR<br/>Value: `0x00000228`<br/>String value: `S-1-5-32-552` | A local group responsible for copying security databases from the primary domain controller to the backup domain controllers. These accounts are used only by the system. |
-| DOMAIN\_ALIAS\_RID\_RAS\_SERVERS<br/>Value: `0x00000229`<br/>String value: `S-1-5-32-553` | A local group that represents RAS and IAS servers. This group permits access to various attributes of user objects. |
 | DOMAIN\_ALIAS\_RID\_PREW2KCOMPACCESS<br/>Value: `0x0000022A`<br/>String value: `S-1-5-32-554` | A local group that exists only on systems running Windows 2000 Server. For more information, see [Allowing Anonymous Access](allowing-anonymous-access.md). |
 | DOMAIN\_ALIAS\_RID\_REMOTE\_DESKTOP\_USERS<br/>Value: `0x0000022B`<br/>String value: `S-1-5-32-555` | A local group that represents all remote desktop users. |
 | DOMAIN\_ALIAS\_RID\_NETWORK\_CONFIGURATION\_OPS<br/>Value: `0x0000022C`<br/>String value: `S-1-5-32-556` | A local group that represents the network configuration. |
