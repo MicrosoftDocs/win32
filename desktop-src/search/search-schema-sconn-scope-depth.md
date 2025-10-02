@@ -1,12 +1,12 @@
 ---
 description: The &lt;depth&gt; element specifies whether the search connector's scope should include child URLs. The allowed values are Deep and Shallow. This element has no child elements and no attributes.
 ms.assetid: 859decab-cbe3-4cec-b37c-6d0e7c353876
-title: depth Element (Search Connector Schema)
+title: Depth element (search connector schema)
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# depth Element (Search Connector Schema)
+# Depth element (search connector schema)
 
 The &lt;depth&gt; element specifies whether the search connector's scope should include child URLs. The allowed values are `Deep` and `Shallow`. This element has no child elements and no attributes.
 
@@ -49,7 +49,7 @@ The &lt;depth&gt; element specifies whether the search connector's scope should 
 
 
 
-## Element Information
+## Element information
 
 
 

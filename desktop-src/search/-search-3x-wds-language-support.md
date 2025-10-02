@@ -1,16 +1,16 @@
 ---
 description: This topic describes how Windows Search supports multiple languages.
 ms.assetid: a800d2ac-3aee-4e74-a29a-a70355138ebc
-title: Languages Supported by Windows Search
+title: Languages supported by Windows Search
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Languages Supported by Windows Search
+# Languages supported by Windows Search
 
 This topic describes how Windows Search supports multiple languages.
 
-## Tokenization, Wordbreakers, and Language Resources
+## Tokenization, wordbreakers, and language resources
 
 Windows Search is language-independent, but the accuracy of search across languages may vary because of the way wordbreakers tokenize text. Wordbreakers implement various tokenization rules for languages and break text into individual tokens, or words, to be indexed or searched.
 
@@ -55,7 +55,7 @@ For example, if you implement a filter handler (an implementation of the [**IFil
 
  
 
-## Languages Supported by Wordbreakers
+## Languages supported by wordbreakers
 
 Windows Search includes wordbreakers to support the following languages.
 
@@ -134,7 +134,7 @@ For more information about languages and associated identifiers, see [Language I
 
 **Beginning in Windows 8.1**, the preferred way to use wordbreakers is via the WinRT API [**WordsSegmenter class**](/uwp/api/Windows.Data.Text.WordsSegmenter).
 
-## Additional Resources
+## Additional resources
 
 -   For information on how to implement and use custom word breakers and stemmers for additional languages and locales, see [Extending Language Resources in Windows Search](extending-language-resources-in-windows-search.md).
 -   If you need to identify the language of a piece of text, you can use Language Auto-Detection (LAD), which is available in Windows 7 and later. For more information, see [Extended Linguistic Services](../intl/extended-linguistic-services.md) (ELS).

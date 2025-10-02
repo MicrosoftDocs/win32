@@ -1,12 +1,12 @@
 ---
 description: The Crawl Scope Manager (CSM) enables you to add and remove search roots for your data stores to and from the Windows Search crawl scope.
 ms.assetid: 0f1ff41f-7c4c-4516-bb55-bf09a8f2f3bc
-title: Managing Search Roots
+title: Managing search roots
 ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
-# Managing Search Roots
+# Managing search roots
 
 The Crawl Scope Manager (CSM) enables you to add and remove search roots for your data stores to and from the Windows Search crawl scope.
 
@@ -22,7 +22,7 @@ This topic includes the following subjects:
 
  
 
-## About Search Roots
+## About search roots
 
 A search root defines the base of a Shell namespace where specific scopes could be included or excluded, and is usually the highest level container in a protocol that can be enumerated. It does not specify which parts of this store should or should not be indexed; it merely signals that a content store exists and is associated with a registered protocol handler. The syntax for identifying a search root URL includes the protocol, the store or user's security identifier, the path, and optionally a specific item (like a file). The following examples show two forms of the syntax for a search root.
 
@@ -60,7 +60,7 @@ The user interface for setting Windows Search options displays search roots to u
 
  
 
-## Before You Begin
+## Before you begin
 
 Before you can use any of the Crawl Scope Manager (CSM) interfaces, you must perform the following prerequisite steps:
 
@@ -72,13 +72,13 @@ After making any changes to the Crawl Scope Manager (CSM), you must call [**ISea
 
  
 
-## Windows 7: New Crawl Scope Manager API
+## Windows 7: new Crawl Scope Manager API
 
 In **Windows 7 and later**, [**ISearchCrawlScopeManager2**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager2) extends the functionality of the [**ISearchCrawlScopeManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager) interface. The [**ISearchCrawlScopeManager2::GetVersion**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager2-getversion) method gets the Crawl Scope Manager (CSM) version, which informs clients if the state of the CSM has changed. **ISearchCrawlScopeManager2::GetVersion** does not result in a cross-process call. If the function succeeds, then the pointer that is returned remains valid until the client calls **UnmapViewOfFile** on the pointer and **CloseHandle** on the returned handle.
 
  
 
-## Adding Roots to the Crawl Scope
+## Adding roots to the crawl scope
 
 The [**ISearchCrawlScopeManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager) tells the search engine about containers to crawl and/or watch, and items under those containers to include or exclude. To add a new search root, instantiate an [**ISearchRoot**](/windows/desktop/api/Searchapi/nn-searchapi-isearchroot) object, set the root attributes, and then call [**ISearchCrawlScopeManager::AddRoot**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager-addroot) and pass it a pointer to your **ISearchRoot** object. The search root URL takes the same form as the search root described earlier.
 
@@ -107,7 +107,7 @@ To add the appropriate roots for new users:
 
  
 
-## Removing Roots from the Crawl Scope
+## Removing roots from the crawl scope
 
 You can use [**ISearchCrawlScopeManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager) to remove a root from the crawl scope when you no longer want that URL indexed. Removing a root also deletes all scope rules for that URL. For example, suppose you want to uninstall a content store and/or its protocol handler from a system. You can uninstall the application, remove all data, and then remove the search root from the crawl scope, and the Crawl Scope Manager will remove the root and all scope rules associated with the root.
 
@@ -122,7 +122,7 @@ Removing a search root also removes the URL from the user interface for Windows 
 
  
 
-## Enumerating Roots in the Crawl Scope
+## Enumerating roots in the crawl scope
 
 The CSM enumerates search roots using a standard COM-style enumerator interface, [**IEnumSearchRoots**](/windows/desktop/api/Searchapi/nn-searchapi-ienumsearchroots). You can use this interface to enumerate search roots for a number of purposes. For example, you might want to display the entire crawl scope in a user interface, or discover whether a particular root or the child of a root is already in the crawl scope.
 

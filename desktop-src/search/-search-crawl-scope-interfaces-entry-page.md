@@ -1,12 +1,12 @@
 ---
 description: Crawl Scope Interfaces
 ms.assetid: 3e91974d-4868-4646-95fd-da6e63551973
-title: Crawl Scope Interfaces
+title: Crawl scope interfaces
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Crawl Scope Interfaces
+# Crawl scope interfaces
 
 
 This Windows Search reference section consists of the following crawl scope interfaces:

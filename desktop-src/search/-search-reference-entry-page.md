@@ -1,12 +1,12 @@
 ---
 description: Windows Search Reference
 ms.assetid: 3590cdab-5831-4372-adf7-61814031c931
-title: Windows Search Reference
+title: Windows Search reference
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Windows Search Reference
+# Windows Search reference
 
 
 This reference consists of the following sections:

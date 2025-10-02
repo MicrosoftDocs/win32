@@ -1,12 +1,12 @@
 ---
 description: This topic describes technologies that are related to Windows Search.
 ms.assetid: 76b39ea6-2aaf-40e0-aa56-2165e188244d
-title: Related Search Technologies
+title: Related search technologies
 ms.topic: sample
 ms.date: 05/31/2018
 ---
 
-# Related Search Technologies
+# Related search technologies
 
 This topic describes technologies that are related to [Windows Search](-search-3x-wds-overview.md).
 
@@ -18,14 +18,14 @@ This topic is organized as follows:
 -   [Platform SDK: Indexing Service](#platform-sdk-indexing-service)
 -   [Related topics](#related-topics)
 
-## Enterprise Search
+## Enterprise search
 
 For an overview of technical resources for [Enterprise Search from Microsoft](https://www.microsoft.com/enterprisesearch/en/us/default.aspx), see:
 
 -   [Enterprise Search Resource Center](https://developer.microsoft.com/office/docs)
 -   [Microsoft Enterprise Search Blog](https://blogs.msdn.com/b/enterprisesearch/rss.aspx)
 
-### SharePoint Enterprise Search
+### SharePoint enterprise search
 
 SharePoint Foundation 2010 provides [querying from server-side code](/previous-versions/office/developer/sharepoint-2010/ee536691(v=office.14)) and [querying from client-side code](/previous-versions/office/developer/sharepoint-2010/ee539764(v=office.14)). For more information on querying, searching for new content, and improving relevance with Sharepoint Server 2010 Enterprise Search, see [Enterprise Search Fundamentals](/previous-versions/office/ee554857(v=office.14)).
 
@@ -33,11 +33,11 @@ Windows 7 Search supports search federation to remote data stores by using Open
 
 Windows Search protocol handlers use design specifications similar to SharePoint Server, and they can often be used interchangeably. Hence, when users need to search legacy databases, email stores or other data structures that are not supported by Windows Search, you should first determine whether a protocol handler already exists for that data store, perhaps for use with another application such as SharePoint Server. If so, you can install that protocol handler on the system.
 
-## Windows Desktop Search 2.x
+## Windows desktop search 2.x
 
 The use of and development for the 2.x versions of Microsoft Windows Desktop Search (WDS) is strongly discouraged. Instead of using [Windows Desktop Search 2.x](../lwef/-search-2x-wds-overview.md), use [Windows Search](-search-3x-wds-overview.md) and [Windows Search API](-search-reference-entry-page.md).
 
-## Platform SDK: Indexing Service
+## Platform sdk: indexing service
 
 [Platform SDK: Indexing Service](/previous-versions/windows/desktop/indexsrv/indexsrv-portal) is obsolete as of Windows XP. Instead, use [Windows Search](-search-3x-wds-overview.md) and [Windows Search API](-search-reference-entry-page.md).
 

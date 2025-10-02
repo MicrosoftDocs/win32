@@ -5,230 +5,230 @@
     items: 
     - name: "Technical Overview"
       href: -search-3x-wds-overview.md
-    - name: "Windows Search as a Development Platform"
+    - name: "Windows Search as a development platform"
       href: -search-3x-wds-development-ovr.md
-    - name: "What is Included in the Index"
+    - name: "What is included in the index"
       href: -search-3x-wds-included-in-index.md
-    - name: "Indexing Process in Windows Search"
+    - name: "Indexing process in Windows Search"
       href: -search-indexing-process-overview.md
-    - name: "Querying Process in Windows Search"
+    - name: "Querying process in Windows Search"
       href: querying-process--windows-search-.md
-    - name: "Notifications Process in Windows Search"
+    - name: "Notifications process in Windows Search"
       href: -search-3x-wds-support.md
-    - name: "URL Formatting Requirements"
+    - name: "URL formatting requirements"
       href: url-formatting-requirements.md
-    - name: "New for Windows 7 Search"
+    - name: "New for Windows 7 search"
       href: new-for-windows-7-search.md
-    - name: "Indexing Prioritization and Rowset Events in Windows 7"
+    - name: "Indexing prioritization and rowset events in Windows 7"
       href: indexing-prioritization-and-rowset-events.md
-    - name: "Windows Shell Libraries"
+    - name: "Windows Shell libraries in Windows 7"
       href: -search-win7-development-scenarios.md
-    - name: "Languages Supported by Windows Search"
+    - name: "Languages supported by Windows Search"
       href: -search-3x-wds-language-support.md
-    - name: "Using Managed Code with Shell Data and Windows Search"
+    - name: "Using managed code with shell data and Windows Search"
       href: -search-3x-wds-managed-code.md
-  - name: "Windows Search Developer's Guide"
+  - name: "Windows Search developer's guide"
     href: -search-developers-guide-entry-page.md
     items: 
-    - name: "Managing the Index"
+    - name: "Managing the index"
       href: -search-3x-wds-mngidx-overview.md
       items: 
-      - name: "Interfaces for Managing the Index"
+      - name: "Interfaces for managing the index"
         href: interfaces-for-managing-the-index.md
-      - name: "Using the Search Manager"
+      - name: "Using the search manager"
         href: -search-3x-wds-mngidx-searchmanager.md
-      - name: "Using the Catalog Manager"
+      - name: "Using the catalog manager"
         href: -search-3x-wds-mngidx-catalog-manager.md
       - name: "Using the Crawl Scope Manager"
         href: -search-3x-wds-extidx-csm.md
         items: 
-        - name: "Managing Search Roots"
+        - name: "Managing search roots"
           href: -search-3x-wds-extidx-csm-searchroots.md
-        - name: "Managing Scope Rules"
+        - name: "Managing scope rules"
           href: -search-3x-wds-extidx-csm-scoperules.md
-    - name: "Querying the Index Programmatically"
+    - name: "Querying the index programmatically"
       href: -search-3x-wds-qryidx-overview.md
       items: 
-      - name: "Using SQL and AQS Approaches to Query the Index"
+      - name: "Using SQL and AQS approaches to query the index"
         href: using-sql-and-aqs-to-query-the-index.md
-      - name: "Querying the Index with ISearchQueryHelper"
+      - name: "Querying the index with ISearchQueryHelper"
         href: -search-3x-wds-qryidx-searchqueryhelper.md
-      - name: "Querying the Index with the search-ms Protocol"
+      - name: "Querying the index with the search-ms protocol"
         href: -search-3x-wds-qryidx-searchms.md
         items: 
-        - name: "Getting Started with Parameter-Value Arguments"
+        - name: "Getting started with parameter-value arguments"
           href: getting-started-with-parameter-value-arguments.md
-        - name: "Locale Identifier Arguments"
+        - name: "Locale identifier arguments"
           href: -search-3x-wds-qryidx-localeidentifiers.md
-        - name: "CRUMB Argument"
+        - name: "CRUMB argument"
           href: -search-3x-wds-qryidx-crumb.md
-        - name: "SYNTAX Argument"
+        - name: "SYNTAX argument"
           href: -search-3x-wds-qryidx-syntaxargument.md
-        - name: "STACKEDBY Argument"
+        - name: "STACKEDBY argument"
           href: -search-3x-wds-qryidx-stackedby.md
         - name: "SUBQUERY Argument"
           href: -search-3x-wds-qryidx-subquery.md
-      - name: "Querying the Index with Windows Search SQL Syntax"
+      - name: "Querying the index with Windows Search SQL syntax"
         href: -search-sql-windowssearch-entry.md
         items: 
-        - name: "Overview of Windows Search SQL Syntax"
+        - name: "Overview of Windows Search SQL syntax"
           href: -search-sql-ovwofsearchquery.md
-        - name: "General Query Language Information"
+        - name: "General query language information"
           href: -search-sql-generalqueryinfo.md
           items: 
-          - name: "SQL Extensions in Microsoft Windows Search"
+          - name: "SQL extensions in Microsoft Windows Search"
             href: -search-sql-extensions-sps.md
-          - name: "SQL Features Unavailable in Microsoft Windows Search"
+          - name: "SQL features unavailable in Microsoft Windows Search"
             href: -search-sql-featuresunavailableinspssearch.md
           - name: "Identifiers"
             href: -search-sql-identifiers.md
           - name: "Literals"
             href: -search-sql-literals.md
-          - name: "Case Sensitivity in Searches"
+          - name: "Case sensitivity in searches"
             href: -search-sql-casesensitivityinsearches.md
-          - name: "Diacritic Sensitivity in Searches"
+          - name: "Diacritic sensitivity in searches"
             href: -search-sql-accentinsensitivitysearches.md
-          - name: "Casting the Data Type of a Column"
+          - name: "Casting the data type of a column"
             href: -search-sql-castingdatacolumntype.md
-          - name: "Data Type Mappings"
+          - name: "Data type mappings"
             href: -search-sql-datatypemappings.md
-          - name: "Understanding Relevance Values"
+          - name: "Understanding relevance values"
             href: -search-sql-understandingrelevancevalues.md
-          - name: "Using Localized Searches"
+          - name: "Using localized searches"
             href: -search-sql-usinglocsearches.md
             items: 
-            - name: "Document and System Locale Settings"
+            - name: "Document and system locale settings"
               href: -search-sql-docandlocalesystemsettings.md
-            - name: "Specifying Languages"
+            - name: "Specifying languages"
               href: -search-sql-specifyinglanguages.md
-        - name: "GROUP ON ... OVER ... Statement"
+        - name: "GROUP ON ... OVER ... statement"
           href: -search-sql-group-on-over.md
           items: 
-          - name: "ORDER IN GROUP Clause"
+          - name: "ORDER IN GROUP clause"
             href: -search-sql-orderingroup.md
-          - name: "Aggregate Functions"
+          - name: "Aggregate functions"
             href: -search-sql-aggregates.md
-        - name: "SELECT Statement"
+        - name: "SELECT statement"
           href: -search-sql-select.md
-        - name: "FROM Clause"
+        - name: "FROM clause"
           href: -search-sql-from.md
         - name: "WHERE Clause"
           href: -search-sql-where.md
           items: 
-          - name: "ReuseWhere Function"
+          - name: "ReuseWhere function"
             href: -search-sql-reusewhere.md
-          - name: "SCOPE and DIRECTORY Predicates"
+          - name: "SCOPE and DIRECTORY predicates"
             href: -search-sql-folderdepth.md
-          - name: "WITH -- AS Group Alias Predicate"
+          - name: "WITH -- AS group alias predicate"
             href: -search-sql-with-as.md
-          - name: "Full-Text Predicates"
+          - name: "Full-text predicates"
             href: -search-sql-fulltextpredicates.md
             items: 
-            - name: "CONTAINS Predicate"
+            - name: "CONTAINS predicate"
               href: -search-sql-contains.md
               items: 
-              - name: "Using Wildcard Characters in the CONTAINS Predicate"
+              - name: "Using wildcard characters in the CONTAINS predicate"
                 href: -search-sql-wildcards.md
-              - name: "FORMSOF Term"
+              - name: "FORMSOF term"
                 href: -search-sql-formsof.md
-              - name: "ISABOUT Term"
+              - name: "ISABOUT term"
                 href: -search-sql-isabout.md
-              - name: "NEAR Term"
+              - name: "NEAR term"
                 href: -search-sql-near.md
-            - name: "CONTAINSSEMANTIC Predicate"
+            - name: "CONTAINSSEMANTIC predicate"
               href: -search-sql-containssemantic.md
-            - name: "FREETEXT Predicate"
+            - name: "FREETEXT predicate"
               href: -search-sql-freetext.md
-          - name: "Non-Full-Text Predicates"
+          - name: "Non-full-text predicates"
             href: -search-sql-nonfulltextpredicates.md
             items: 
             - name: "ALL BITWISE and SOME_BITWISE"
               href: all-bitwise.md
-            - name: "DATEADD Function"
+            - name: "DATEADD function"
               href: -search-sql-dateadd.md
-            - name: "LIKE Predicate"
+            - name: "LIKE predicate"
               href: -search-sql-like.md
-            - name: "Literal Value Comparison"
+            - name: "Literal value comparison"
               href: -search-sql-literalvaluecomparison.md
-            - name: "Multi-Valued (ARRAY) Comparisons"
+            - name: "Multi-valued (array) comparisons"
               href: -search-sql-multivaluedcomparisons.md
-            - name: "NULL Predicate"
+            - name: "NULL predicate"
               href: -search-sql-null.md
-        - name: "ORDER BY Clause"
+        - name: "ORDER BY clause"
           href: -search-sql-orderby.md
-        - name: "RANK BY Clause"
+        - name: "RANK BY clause"
           href: -search-sql-rankby.md
-        - name: "SET Statement"
+        - name: "SET statement"
           href: -search-sql-set.md
-        - name: "Rowset Properties"
+        - name: "Rowset properties"
           href: -search-sql-rowset-properties.md
-      - name: "Using Advanced Query Syntax Programmatically"
+      - name: "Using Advanced Query Syntax programmatically"
         href: -search-3x-advancedquerysyntax.md
     - name: "Extending the Index"
       href: -search-3x-wds-extidx-overview.md
       items: 
-      - name: "Developing Filter Handlers for Windows Search"
+      - name: "Developing filter handlers for Windows Search"
         href: -search-ifilter-conceptual.md
         items: 
-        - name: "Understanding Filter Handlers in Windows Search"
+        - name: "Understanding filter handlers in Windows Search"
           href: -search-ifilter-about.md
-        - name: "Best Practices for Creating Filter Handlers in Windows Search"
+        - name: "Best practices for creating filter handlers in Windows Search"
           href: -search-3x-wds-extidx-filters.md
-        - name: "Returning Properties from a Filter Handler"
+        - name: "Returning properties from a filter handler"
           href: -search-ifilter-property-filtering.md
-        - name: "Filter Handlers that Ship with Windows"
+        - name: "Filter handlers that ship with Windows"
           href: -search-ifilter-implementations.md
-        - name: "Implementing Filter Handlers in Windows Search"
+        - name: "Implementing filter handlers in Windows Search"
           href: -search-ifilter-constructing-filters.md
-        - name: "Registering Filter Handlers"
+        - name: "Registering filter handlers"
           href: -search-ifilter-registering-filters.md
-        - name: "Testing Filter Handlers"
+        - name: "Testing filter handlers"
           href: -search-ifilter-testing-filters.md
-      - name: "Developing Property Handlers for Windows Search"
+      - name: "Developing property handlers for Windows Search"
         href: -search-3x-wds-extidx-propertyhandlers.md
         items: 
-        - name: "System-Defined Properties for Custom File Formats"
+        - name: "System-defined properties for custom file formats"
           href: -shell-systemdefinedpropertiesforfileformats.md
-      - name: "Developing Protocol Handlers for Windows Search"
+      - name: "Developing protocol handlers for Windows Search"
         href: -search-3x-wds-phaddins.md
         items: 
-        - name: "Understanding Protocol Handlers"
+        - name: "Understanding protocol handlers"
           href: -search-3x-wds-extidx-prot-implementing.md
         - name: "Notifying the Index of Changes"
           href: -search-3x-wds-notifyingofchanges.md
-        - name: "Adding Icons, Previews and Shortcut Menus"
+        - name: "Adding icons, previews and shortcut menus"
           href: -search-3x-wds-ph-ui-extensions.md
-        - name: "Code Sample: Shell Extensions for Protocol Handlers"
+        - name: "Code sample: shell extensions for protocol handlers"
           href: -search-3x-wds-ph-ui-samplecode.md
         - name: "Installing and Registering Protocol Handlers"
           href: -search-3x-wds-ph-install-registration.md
-        - name: "Creating a Search Connector for a Protocol Handler"
+        - name: "Creating a search connector for a protocol handler"
           href: -search-3x-wds-ph-search-connector.md
         - name: "Debugging Protocol Handlers"
           href: -search-ws-protocolhandlertesting.md
-    - name: "Extending Language Resources"
+    - name: "Extending language resources"
       href: extending-language-resources-in-windows-search.md
       items: 
-      - name: "Understanding Language Resource Components"
+      - name: "Understanding language resource components"
         href: understanding-language-resource-components.md
-      - name: "Implementing a Word Breaker and Stemmer"
+      - name: "Implementing a word breaker and stemmer"
         href: implementing-a-word-breaker-and-stemmer.md
-      - name: "Linguistic and Unicode Considerations"
+      - name: "Linguistic and unicode considerations"
         href: linguistic-and-unicode-considerations.md
         items: 
-        - name: "Surface Form Normalization"
+        - name: "Surface form normalization"
           href: surface-form-normalization.md
-        - name: "Miscellaneous Linguistic and Unicode Considerations"
+        - name: "Miscellaneous linguistic and unicode considerations"
           href: miscellaneous-linguistic-and-unicode-considerations.md
-      - name: "Troubleshooting Language Resources and Best Practices"
+      - name: "Troubleshooting language resources and best practices"
         href: troubleshooting-language-resources.md
-  - name: "Windows Search Reference"
+  - name: "Windows Search reference"
     href: -search-reference-entry-page.md
     items: 
-    - name: "Windows Search Interfaces"
+    - name: "Windows Search interfaces"
       href: -search-interfaces-entry-page.md
       items: 
-      - name: "Protocol Handlers Interfaces"
+      - name: "Protocol handlers interfaces"
         href: -search-protocol-handlers-interfaces-entry-page.md
         items: 
         - name: "IItemPropertyBag"
@@ -343,7 +343,7 @@
             href: /windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor4-shouldindexitemcontent
           - name: "ShouldIndexProperty method"
             href: /windows/desktop/api/Searchapi/nf-searchapi-iurlaccessor4-shouldindexproperty
-      - name: "Querying Interfaces"
+      - name: "Querying interfaces"
         href: -search-querying-interfaces-entry-page.md
         items: 
         - name: "ICondition"
@@ -616,7 +616,7 @@
             href: /windows/desktop/api/Structuredquery/nf-structuredquery-itokencollection-gettoken
           - name: "NumberOfTokens"
             href: /windows/desktop/api/Structuredquery/nf-structuredquery-itokencollection-numberoftokens
-      - name: "Crawl Scope Interfaces"
+      - name: "Crawl scope interfaces"
         href: -search-crawl-scope-interfaces-entry-page.md
         items: 
         - name: "IEnumSearchRoots"
@@ -746,7 +746,7 @@
             href: -search-isearchitem-getparentfolder.md
           - name: "GetUIObjectOf"
             href: /previous-versions/windows/desktop/legacy/dd756721(v=vs.85)
-      - name: "Data Add-in Interfaces"
+      - name: "Data add-in interfaces"
         href: -search-data-addins-interfaces-entry-page.md
         items: 
         - name: "ISimpleCommandCreator"
@@ -860,7 +860,7 @@
             href: iwordsink-putword.md
           - name: "StartAltPhrase Method"
             href: iwordsink-startaltphrase.md
-      - name: "Index Management Interfaces"
+      - name: "Index management interfaces"
         href: -search-index-mgt-interfaces-entry-page.md
         items: 
         - name: "ISearchCatalogManager"
@@ -959,7 +959,7 @@
             href: isearchmanager2-createcatalog.md
           - name: "DeleteCatalog Method"
             href: /windows/desktop/api/searchapi/nf-searchapi-isearchmanager2-deletecatalog
-      - name: "Notifications Interfaces"
+      - name: "Notifications interfaces"
         href: -search-notifications-interfaces-entry-page.md
         items: 
         - name: "IGatherInlineStatus"
@@ -1015,7 +1015,7 @@
           items: 
           - name: "OnChange"
             href: /windows/desktop/api/searchapi/nf-searchapi-isearchviewchangedsink-onchange
-    - name: "Windows Search Structures"
+    - name: "Windows Search structures"
       href: -search-structures-entry-page.md
       items: 
       - name: "AUTHENTICATION_INFO"
@@ -1054,10 +1054,10 @@
         href: /windows/win32/api/Indexsrv/ns-indexsrv-text_source
       - name: "TIMEOUT_INFO"
         href: /windows/win32/api/Searchapi/ns-searchapi-timeout_info
-    - name: "Windows Search Constants and Enumerations"
+    - name: "Windows Search constants and enumerations"
       href: -search-constants-and-enumerations-entry-page.md
       items: 
-      - name: "Search Protocol Handler Error Messages"
+      - name: "Search protocol handler error messages"
         href: -search-prth-error-constants.md
       - name: "AUTH_TYPE"
         href: /windows/win32/api/Searchapi/ne-searchapi-auth_type
@@ -1127,11 +1127,11 @@
         href: /windows/win32/api/Structuredquery/ne-structuredquery-structured_query_syntax
       - name: "WORDREP_BREAK_TYPE"
         href: /previous-versions/windows/desktop/legacy/ff819130(v=vs.85)
-    - name: "Property Mappings (from WDS 2.x to 3.x)"
+    - name: "Property mappings (from WDS 2.x to 3.x)"
       href: -search-3x-wds-propertymappings.md
-    - name: "Saved Search File Format"
+    - name: "Saved search file format"
       href: -search-savedsearchfileformat.md
-  - name: "Windows Search Code Samples"
+  - name: "Windows Search code samples"
     href: -search-samples-ovw.md
     items: 
     - name: "CrawlScopeCommandLine"
@@ -1156,81 +1156,81 @@
       href: -search-sample-wsoledb.md
     - name: "WSSQL"
       href: -search-sample-wssql.md
-  - name: "Federated Search in Windows"
+  - name: "Federated search in Windows"
     href: -search-federated-search-overview.md
     items: 
-    - name: "Getting Started with Federated Search in Windows"
+    - name: "Getting started with federated search in Windows"
       href: getting-started-with-federated-search-in-windows.md
-    - name: "Connecting Your Web Service in Windows Federated Search"
+    - name: "Connecting your web service in Windows Federated Search"
       href: -search-federated-search-web-service.md
-    - name: "Enabling Your Data Store in Windows Federated Search"
+    - name: "Enabling your data store in Windows Federated Search"
       href: -search-federated-search-data-store.md
-    - name: "Creating an OpenSearch Description File in Windows Federated Search"
+    - name: "Creating an OpenSearch description file in Windows Federated Search"
       href: -search-federated-search-osdx-file.md
-    - name: "Following Best Practices in Windows Federated Search"
+    - name: "Following best practices in Windows Federated Search"
       href: -search-fedsearch-best.md
-    - name: "Deploying Search Connectors in Windows Federated Search"
+    - name: "Deploying search connectors in Windows Federated Search"
       href: -search-federated-search-deploying.md
-    - name: "Search Connector Description Schema"
+    - name: "Search connector description schema"
       href: search-sconn-desc-schema-entry.md
       items: 
-      - name: "searchConnectorDescriptionType Element (Search Connector Schema)"
+      - name: "searchConnectorDescriptionType element (search connector schema)"
         href: search-schema-searchconnectordescription.md
-      - name: "isSearchOnlyItem Element (Search Connector Schema)"
+      - name: "isSearchOnlyItem element (search connector schema)"
         href: search-schema-sconn-issearchonlyitem.md
-      - name: "isDefaultSaveLocation Element (Search Connector Schema)"
+      - name: "isDefaultSaveLocation element (search connector schema)"
         href: search-schema-sconn-isdefaultsavelocation.md
-      - name: "isDefaultNonOwnerSaveLocation Element (Search Connector Schema)"
+      - name: "isDefaultNonOwnerSaveLocation element (search connector schema)"
         href: search-schema-sconn-isdefaultnonownersavelocation.md
-      - name: "description Element (Search Connector Schema)"
+      - name: "Description element (search connector schema)"
         href: search-schema-sconn-description.md
-      - name: "iconReference Element (Search Connector Schema)"
+      - name: "iconReference element (search connector schema)"
         href: search-schema-sconn-iconreference.md
-      - name: "imageLink Element (Search Connector Schema)"
+      - name: "imageLink element (search connector schema)"
         href: search-schema-sconn-imagelink.md
-      - name: "imageLink url Element (Search Connector Schema)"
+      - name: "imageLink url element (search connector schema)"
         href: search-schema-sconn-imagelink-url.md
-      - name: "author Element (Search Connector Schema)"
+      - name: "Author element (search connector schema)"
         href: search-schema-sconn-author.md
-      - name: "dateCreated Element (Search Connector Schema)"
+      - name: "dateCreated element (search connector schema)"
         href: search-schema-sconn-datecreated.md
-      - name: "templateInfo Element (Search Connector Schema)"
+      - name: "templateInfo element (search connector schema)"
         href: search-schema-sconn-templateinfo.md
-      - name: "folderType Element (Search Connector Schema)"
+      - name: "folderType element (search connector schema)"
         href: search-schema-sconn-foldertype.md
-      - name: "simpleLocation Element (Search Connector Schema)"
+      - name: "simpleLocation element (search connector schema)"
         href: search-schema-sconn-simplelocation.md
-      - name: "simpleLocation url Element (Search Connector Schema)"
+      - name: "simpleLocation url element (search connector schema)"
         href: search-schema-sconn-url.md
-      - name: "locationProvider Element (Search Connector Schema)"
+      - name: "locationProvider element (search connector schema)"
         href: search-schema-sconn-locationprovider.md
-      - name: "propertyBag Element (Search Connector Schema)"
+      - name: "propertyBag element (search connector schema)"
         href: search-schema-sconn-propertybag.md
-      - name: "property Element of locationProvider (Search Connector Schema)"
+      - name: "Property element of locationProvider (search connector schema)"
         href: search-schema-sconn-locationproviderproperty.md
-      - name: "scope Element (Search Connector Schema)"
+      - name: "Scope element (search connector schema)"
         href: search-schema-sconn-scope.md
-      - name: "scopeItem Element (Search Connector Schema)"
+      - name: "scopeItem element (search connector schema)"
         href: search-schema-sconn-scopeitem.md
-      - name: "mode Element (Search Connector Schema)"
+      - name: "Mode element (search connector schema)"
         href: search-schema-sconn-scope-mode.md
-      - name: "depth Element (Search Connector Schema)"
+      - name: "Depth element (search connector schema)"
         href: search-schema-sconn-scope-depth.md
-      - name: "scopeItem url Element (Search Connector Schema)"
+      - name: "scopeItem url element (search connector schema)"
         href: search-schema-sconn-scope-url.md
-      - name: "propertyStore Element (Search Connector Schema)"
+      - name: "propertyStore element (search connector schema)"
         href: search-schema-sconn-propertystore.md
-      - name: "property Element of propertyStore (Search Connector Schema)"
+      - name: "Property element of propertyStore (search connector schema)"
         href: search-schema-sconn-propstore-property.md
-      - name: "includeInStartMenuScope Element (Search Connector Schema)"
+      - name: "includeInStartMenuScope element (search connector schema)"
         href: search-schema-sconn-includeinstartmenuscope.md
-      - name: "domain Element (Search Connector Schema)"
+      - name: "Domain element (search connector schema)"
         href: search-schema-sconn-domain.md
-      - name: "supportsAdvancedQuerySyntax Element (Search Connector Schema)"
+      - name: "supportsAdvancedQuerySyntax element (search connector schema)"
         href: search-schema-sconn-supportsadvancedquerysyntax.md
-      - name: "isIndexed Element (Search Connector Schema)"
+      - name: "isIndexed element (search connector schema)"
         href: search-schema-sconn-isindexed.md
-  - name: "Related Search Technologies"
+  - name: "Related search technologies"
     href: -search-3x-wds-sampleentry.md
-  - name: "Windows Search Glossary"
+  - name: "Windows Search glossary"
     href: search-glossary.md

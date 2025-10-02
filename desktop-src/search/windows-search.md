@@ -20,7 +20,7 @@ Windows Search is a desktop search platform that has instant search capabilities
 - [Federated Search in Windows](-search-federated-search-overview.md)
 - [Windows Search Glossary](search-glossary.md)
 
-## Additional Resources
+## Additional resources
 
 - For community-supported question and discussion message boards on Search technologies, see [Microsoft Q&A](/answers/).
 - To download the Search Code Samples:

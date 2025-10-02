@@ -1,12 +1,12 @@
 ---
 description: The &lt;url&gt; element specifies a URL to the thumbnail for this search connector. If &lt;imageLink&gt; exists, this element is required. It has no child elements and no attributes.
 ms.assetid: addb2614-9f4f-4cab-a678-b6020b8c4648
-title: imageLink url Element (Search Connector Schema)
+title: imageLink url element (search connector schema)
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# imageLink url Element (Search Connector Schema)
+# imageLink url element (search connector schema)
 
 The &lt;url&gt; element specifies a URL to the thumbnail for this search connector. If &lt;imageLink&gt; exists, this element is required. It has no child elements and no attributes.
 
@@ -34,7 +34,7 @@ The &lt;url&gt; element specifies a URL to the thumbnail for this search connect
 
 
 
-## Element Information
+## Element information
 
 
 
@@ -50,7 +50,7 @@ The &lt;url&gt; element specifies a URL to the thumbnail for this search connect
 
 The value can be a local file system path or a URL. The image file can be any of the basic image types supported by Windows 7 (PNG, BMP, JPG, GIF).
 
-## Example of an imageLinkurl Element
+## Example of an imageLinkurl element
 
 
 ```

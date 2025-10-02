@@ -1,12 +1,12 @@
 ---
 description: Learn about managing the Windows Search index with Search Manager, Catalog Manager, and Crawl Scope Manager.
 ms.assetid: 345d1159-aa51-4a01-9831-216075a8fb78
-title: Managing the Index
+title: Managing the index
 ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Managing the Index
+# Managing the index
 
 Windows Search enables you to manage the Windows Search index with three main components: Search Manager, Catalog Manager, and Crawl Scope Manager.
 
@@ -17,7 +17,7 @@ This section is organized as follows:
 - [Using the Catalog Manager](-search-3x-wds-mngidx-catalog-manager.md)
 - [Using the Crawl Scope Manager](-search-3x-wds-extidx-csm.md)
 
-## Additional Resources
+## Additional resources
 
 - For community-supported question and discussion message boards on Search technologies, see [Microsoft Q&A](/answers/).
 - To download the Search SDK Code Samples:

@@ -1,12 +1,12 @@
 ---
 description: Introduces the Search Connector Description schema that is used by Windows Explorer libraries and federated search providers.
 ms.assetid: b85a04c6-9398-4cc7-a894-881216600203
-title: Search Connector Description Schema
+title: Search connector description schema
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Search Connector Description Schema
+# Search connector description schema
 
 Introduces the Search Connector Description schema that is used by Windows Explorer libraries and federated search providers. The schema specifies the structure and requirements for Search Connector Description files (\*.searchConnector-ms) and for **searchConnectorDescriptionType** elements of the Shell Library Description (\*.library-ms) files.
 
@@ -22,13 +22,13 @@ This topic includes the following sections:
 -   [Additional Resources](#additional-resources)
 -   [Related topics](#related-topics)
 
-## What Are Search Connectors?
+## What are search connectors?
 
 Search connectors connect users with data stored in web services or remote storage locations. With Windows 7, users can install search connectors for locations, like web services, so that they search those locations directly from Windows Explorer. Search connectors are Search Connector Description files (\*.searchConnector-ms) that specify how to connect to, send queries to, and receive results from the location.
 
 In addition to web services, search connectors can be used to search local index scopes created by protocol handlers. For example, users can search email indexed locally with the MAPI protocol handler by using a search connector for that email store.
 
-## How Do Search Connector Description Files Work?
+## How do search connector description files work?
 
 When Search Connector Description files are installed on users' systems, users can open Windows Explorer, click the search connector in the navigation pane, and enter a search query. Windows Explorer sends the query using information from the Search Connector Description file, such as which provider to use and the scope of the search. The results are returned as RSS or Atom feed items and displayed to users as if they were regular Shell items.
 
@@ -42,11 +42,11 @@ You should ensure that the following things happen when a user opens the .osdx f
 -   The .searchconnector-ms file is created in the users' **Windows Searches** folder (%userprofile%/Searches).
 -   A shortcut to the .searchconnector-ms file is created in the users' **Links** folder (%userprofile%/Links).
 
-## What Is the Search Connector Description Schema?
+## What is the search connector description schema?
 
 The Search Connector Description schema is an XML schema that defines the structure of Search Connector Description files (\*.searchConnector-ms). Each search connector must have a Search Connector Description file that specifies how to connect to, send queries to, and receive results from the location.
 
-## What Are the Major Parts of the Schema?
+## What are the major parts of the schema?
 
 The following table lists the major parts of the schema.
 
@@ -75,7 +75,7 @@ The following table lists the major parts of the schema.
 
  
 
-## Examples of Search Connector Description Files
+## Examples of search connector description files
 
 The following is an example of a Search Connector Description file for a federated search web service.
 
@@ -125,7 +125,7 @@ The following is an example of a Search Connector Description file for a MAPI pr
 
 
 
-## Additional Resources
+## Additional resources
 
 -   For more information about the Library Description schema, see [Library Description Schema](../shell/library-schema-entry.md).
 -   For more information on installing a search connector, see [Federated Search in Windows](-search-federated-search-overview.md).

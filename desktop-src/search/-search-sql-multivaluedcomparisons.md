@@ -1,12 +1,12 @@
 ---
 description: Columns stored in the content index can have multiple values, and those multivalued columns can be compared by using the ARRAY comparison predicate.
 ms.assetid: bc3de1bd-b833-459d-81a3-c6b08314e26f
-title: Multi-Valued (ARRAY) Comparisons
+title: Multi-valued (array) comparisons
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Multi-Valued (ARRAY) Comparisons
+# Multi-valued (array) comparisons
 
 Columns stored in the content index can have multiple values, and those multivalued columns can be compared by using the ARRAY comparison predicate.
 
@@ -43,7 +43,7 @@ ARRAY '['<literal> [,<literal>]']'
 
 The method used to determine whether the multivalued comparison returns true or false is specified by the optional quantifier. The following sections describe each quantifier, and how each comparison operator works when the quantifier is used.
 
-## Absent Quantifier
+## Absent quantifier
 
 If no quantifier is specified, each element on the left side of the comparison is compared to the element in the same position on the right side. The comparison begins with the first element in the arrays, and progresses through the last element. If all the elements on the left side are equivalent to the corresponding elements on the right side, the number of array elements is used to determine which array is greater.
 
@@ -64,7 +64,7 @@ The following table shows the operation of the comparison operators when no quan
 
  
 
-## ALL Quantifier
+## ALL quantifier
 
 The ALL quantifier specifies that each element in the left side is compared against every element on the right side. To return true, the comparison must be true for each element on the left side when compared to every element on the right side. The number of elements in the left and right array sides has no effect on the result.
 
@@ -85,7 +85,7 @@ The following table shows how each comparison operator functions with the ALL qu
 
  
 
-## SOME (or ANY) Quantifier
+## SOME (or any) quantifier
 
 The SOME quantifier and the ANY quantifier can be used interchangeably. Like the ALL quantifier, the SOME quantifier specifies that each element in the left side is compared against every element on the right side. To return true, the comparison must be true for at least one of the elements on the left side when compared to any element on the right side. The number of elements on the left and right side arrays has no effect on the result.
 

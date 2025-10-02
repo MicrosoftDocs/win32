@@ -1,12 +1,12 @@
 ---
 description: Microsoft supplies several standard filters with Windows Search. Clients call these filter handlers (which are implementations of the IFilter interface) to extract text and properties from a document.
 ms.assetid: e19ae220-5c59-482e-8b02-00889600c4d6
-title: Filter Handlers that Ship with Windows
+title: Filter handlers that ship with Windows
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Filter Handlers that Ship with Windows
+# Filter handlers that ship with Windows
 
 Microsoft supplies several standard filters with Windows Search. Clients call these filter handlers (which are implementations of the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface) to extract text and properties from a document.
 
@@ -25,11 +25,11 @@ This topic is organized as follows:
 - [Additional Resources](#additional-resources)
 - [Related topics](#related-topics)
 
-## Windows Search Implementation Notes
+## Windows Search implementation notes
 
 In Windows 7 and later, filters written in managed code are explicitly blocked. Filters MUST be written in native code due to potential CLR versioning issues with the process that multiple add-ins run in.
 
-### Windows 7 and 10 Implementation
+### Windows 7 and 10 implementation
 
 In Windows 7 and later, there is new behavior that occurs when registering a filter handler, property handler, or new extension. When a new property handler and/or filter handler is installed, files with the corresponding extensions are automatically re-indexed.
 
@@ -39,7 +39,7 @@ If only a filter handler is installed without a corresponding property handler, 
 
 For property description flags specific to Windows 7, see the following reference topics: [GETPROPERTYSTOREFLAGS](/windows/win32/api/propsys/ne-propsys-getpropertystoreflags), [PROPDESC\_COLUMNINDEX\_TYPE](/windows/win32/api/propsys/ne-propsys-propdesc_columnindex_type) and [PROPDESC\_SEARCHINFO\_FLAGS](/windows/win32/api/propsys/ne-propsys-propdesc_searchinfo_flags).
 
-### Windows Vista Implementation
+### Windows Vista implementation
 
 In Windows Vista and earlier, installing an [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) or property handler does not initiate a re-indexing of existing items unless an independent software vendor (ISV) explicitly calls a rebuild or re-indexing of matching URLs.
 
@@ -66,13 +66,13 @@ However, there are times when you need to implement a filter that handles both c
 
 In these situations, you need a full filter implementation, including the [**IFilter::GetValue**](/windows/win32/api/filter/nf-filter-ifilter-getvalue) method to access property values.
 
-### Legacy Implementation
+### Legacy implementation
 
 As noted earlier, Windows Vista and Windows Search include a new property system that encapsulates an item's properties that is separate from an item's content. This property system does not exist in earlier versions of Microsoft Windows Desktop Search (WDS) 2.x. If your filter must support other applications as described above, it may need to handle both content and properties.
 
 For more information on developing a compatible filter, see the following topics, [IFilter (for legacy applications)](/windows/win32/api/filter/nn-filter-ifilter), and [Developing Filter Add-ins (for legacy applications)](../lwef/-search-2x-wds-ifilteraddins.md).
 
-## Windows Search Filters
+## Windows Search filters
 
 Microsoft supplies several standard filters with Windows Search. The [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)  DLL contents are summarized in the following table. Clicking the name of a filter handler takes you to the description for that **IFilter** implementation.
 
@@ -84,11 +84,11 @@ Microsoft supplies several standard filters with Windows Search. The [**IFilter*
 | [Plain Text Filter Handler](#plain-text-filter-handler)         | Plain text files - Default IFilter          | query.dll    |
 | [Binary or Null Filter Handler](#binary-or-null-filter-handler) | Binary files - Null IFilter                 | query.dll    |
 
-### MIME Filter Handler
+### MIME filter handler
 
 The MIME filter handler (in mimefilt.dll) extracts text and property information from files with the extensions .eml, .mht and .mhtml.
 
-### HTML Filter Handler
+### HTML filter handler
 
 The HTML filter handler (in nlhtml.dll) extracts text and property information from the class "htmlfiles" so that it can be indexed by Windows Search. For a description of the association between [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) and file type, see "Finding the IFilter DLL for a File" in [Registering Filter Handlers](-search-ifilter-registering-filters.md).
 
@@ -199,11 +199,11 @@ The filtering process can generate abstracts for each filtered file, which defau
 </table>
 <!-- markdownlint-enable MD033 -->
 
-### Document Filter Handler
+### Document filter handler
 
 The Document filter handler (in offilt.dll) filters files for some extensions of documents in Microsoft Office. These include files with the extensions .doc, .mdb, .ppt, and .xlt, for example.
 
-### Plain Text Filter Handler
+### Plain text filter handler
 
 For plain-text files, Windows Search uses the text filter handler, which filters both the system properties (such as file names) and the contents of a file. When a file type does not have an [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) association in the registry, Windows Search indexes only the Shell properties for the file. However the user can use the **Advanced Options** in the **Indexing Options** control panel to **Index Properties** or **Index Properties and File Contents**.
 
@@ -211,11 +211,11 @@ For plain-text files, Windows Search uses the text filter handler, which filters
 
 If the user chooses this option for a file type without an associated [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter), the text filter handler is used to extract the content of the file. The text filter handler does not "understand" any document format; when filtering the contents of a file, it treats the file as a sequence of characters. It does check for the Unicode byte-order mark at the beginning of the file.
 
-### Binary or Null Filter Handler
+### Binary or null filter handler
 
 When a registered binary file is encountered, the null filter handler is used. The null filter handler retrieves only the system properties. The contents of a binary file are not filtered. Examples of system properties are **FileName**, **LastWriteTime**, **FileSize**, and **Attributes**.
 
-## Additional Resources
+## Additional resources
 
 - The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), demonstrates how to create an IFilter base class for implementing the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface.
 - For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).

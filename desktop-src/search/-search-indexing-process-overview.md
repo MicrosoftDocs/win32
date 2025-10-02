@@ -1,12 +1,12 @@
 ---
 description: This topic describes the three stages of the indexing process and the primary components involved in each, explains the timing of indexing activity, and provides some notes for third-party developers who want their data stores or file formats indexed.
 ms.assetid: cfba12eb-4123-4b57-8311-d4fc8f9f514e
-title: Indexing Process in Windows Search
+title: Indexing process in Windows Search
 ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Indexing Process in Windows Search
+# Indexing process in Windows Search
 
 This topic describes the three stages of the indexing process and the primary components involved in each, explains the timing of indexing activity, and provides some notes for third-party developers who want their data stores or file formats indexed.
 
@@ -30,7 +30,7 @@ The following diagram shows the principal components and flow of data through th
 
 ![diagram showing interaction between components during the indexing process](images/indexingcompoverview.jpg)
 
-## Stage 1: Queuing URLs for Indexing
+## Stage 1: queuing urls for indexing
 
 In the first stage of indexing, the gatherer collects information about updates to data stores, compares that information to the known crawl scope, and then builds a queue of URLs to traverse to collect data for the index. For sources that are not based on notification, such as FAT drives, the gatherer periodically initiates a full traversal of the crawl scope so that the data in the index is kept fresh. For sources such as NTFS, there is only a single crawl and everything else is handled by notifications from the [USN Change Journal](/windows/desktop/FileIO/change-journals). There is also no crawl of Microsoft Outlook. The following diagram shows a high-level view of the queuing process for non-crawl indexing.
 
@@ -48,7 +48,7 @@ There are three queues: high priority notifications, normal notifications, and p
 
 For more information on prioritization, and eventing APIs introduced in Windows 7, see [Indexing Prioritization and Rowset Events in Windows 7](indexing-prioritization-and-rowset-events.md). For more information on crawl scope management and notifications, see [Providing Change Notifications](-search-3x-wds-notifyingofchanges.md) and [Using the Crawl Scope Manager](-search-3x-wds-extidx-csm.md).
 
-## Stage 2: Crawling URLs
+## Stage 2: crawling urls
 
 In the second stage of indexing, the gatherer crawls through the queues, accessing data stores and retrieving item streams. First, the gatherer finds the appropriate protocol handler for each URL. Then, the gatherer passes the URL to the protocol handler. The protocol handler accesses the item and passes item metadata back to the gatherer. The gatherer uses the metadata to identify the correct filter.
 
@@ -71,7 +71,7 @@ Windows Search also uses the host process to isolate an instance of a protocol h
 
 **Metadata and Stream**  Using metadata returned by the protocol handler's [**IUrlAccessor**](/windows/desktop/api/Searchapi/nn-searchapi-iurlaccessor) object, the gatherer identifies the correct filter for the URL. The gatherer parses the item's file name extension and looks up the filter registered for that extension. If the gatherer is unable to find a filter, Windows Search uses the metadata to derive a minimal set of system property information (like System.ItemName) and updates the index. Otherwise, if the gatherer finds the filter, the third stage of indexing begins.
 
-## Stage 3: Updating the Index
+## Stage 3: updating the index
 
 In the third stage of indexing, the gatherer instantiates the correct filter for the URL and initializes the filter with the stream from the [**IUrlAccessor**](/windows/desktop/api/Searchapi/nn-searchapi-iurlaccessor) object. The filter then accesses the item and returns content for the index. If you have a custom file format, Windows Search relies on your filter to access URLs and emit content and properties for indexing.
 
@@ -117,11 +117,11 @@ The following table lists the results that the gatherer receives from a filter (
 > [!NOTE]  
 > Remember that when you re-register a schema, changes made to attributes of previously defined properties may not be respected by the indexer. The solution is either to rebuild the index, or introduce new properties that reflect the changes instead of updating old ones (not recommended). For more information, see [Note to Implementers](#notes-to-implementers) in [Properties System Overview](../properties/property-system-overview.md).
 
-## How Indexing is Scheduled
+## How indexing is scheduled
 
 When Windows Search is first installed, it performs a full indexing of the crawl scope, pausing during periods of high I/O and user activity. The default crawl scope consists of the default library locations, such as **Documents**, **Music**, **Pictures**, and **Videos**. Notifications are processed even before the initial crawl is finished. Occasionally, the gatherer crawls the URLs from the full crawl scope. These full crawls ensure that the data in the index is fresh. For example, if a notification provider fails to send notifications or if the Windows Search service is terminated unexpectedly, the gatherer would have no knowledge of new or changed items and would not index these items. There are two kinds of sources: notification only and notification enabled. In both sources, the gatherer initially crawls the index. After the initial crawl, the notification-only sources will never do a full crawl again unless there is a failure, such as the [USN Change Journal](/windows/desktop/FileIO/change-journals) rolling over. Notification-enabled sources do an incremental crawl when the indexer is started, but then listen to notifications while running. NTFS and Microsoft Outlook are notification only. Internet Explorer and FAT are notification enabled.
 
-## Notes to Implementers
+## Notes to implementers
 
 The quality of the data in the index and the efficiency of the indexing process depend largely on your filter and property handler implementation. Because the filter is called every time a URL identifies your file format, the indexing process can slow down dramatically if your filter is inefficient. If your property handler doesn't correctly map all file properties to system properties or doesn't correctly emit these properties, the data in the index will be incorrect and later searches for those properties will return incorrect results. If your filter or property handler fails, the indexer won't be able to index data.
 

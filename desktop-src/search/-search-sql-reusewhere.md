@@ -1,12 +1,12 @@
 ---
 description: The WHERE clause in a query specifies a set of items to match results against.
 ms.assetid: ed51edd5-6edc-4fcd-a69b-cb48c399ba7c
-title: ReuseWhere Function
+title: ReuseWhere function
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# ReuseWhere Function
+# ReuseWhere function
 
 The [WHERE](-search-sql-where.md) clause in a query specifies a set of items to match results against. Subsequent queries can share the work performed for a previous query by using the ReuseWhere function in a new query WHERE clause. Queries that take advantage of this function execute faster.
 

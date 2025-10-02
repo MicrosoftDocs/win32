@@ -1,12 +1,12 @@
 ---
 description: Learn about best practices for creating filter handlers in Windows Search. Search uses filters to extract items for inclusion in a full-text index.
 ms.assetid: 7b86a1b4-c8a9-400d-a9f1-a3b821c0269d
-title: Best Practices for Filter Handlers in Windows Search
+title: Best practices for filter handlers in Windows Search
 ms.topic: best-practice
 ms.date: 05/31/2018
 ---
 
-# Best Practices for Creating Filter Handlers in Windows Search
+# Best practices for creating filter handlers in Windows Search
 
 Microsoft Windows Search uses filters to extract the content of items for inclusion in a full-text index. You can extend Windows Search to index new or proprietary file types by writing filter handlers to extract the content, and property handlers to extract the properties of files. Filters are associated with file types, as denoted by file name extensions, MIME types or class identifiers (CLSIDs). While one filter can handle multiple file types, each type works with only one filter.
 
@@ -17,11 +17,11 @@ This topic contains the following sections:
 -   [Additional Resources](#additional-resources)
 -   [Related topics](#related-topics)
 
-## Native Code
+## Native code
 
 In Windows 7 and later, filters written in managed code are explicitly blocked. Filters MUST be written in native code due to potential CLR versioning issues with the process that multiple add-ins run in.
 
-## Secure Code Practices for Windows Search
+## Secure code practices for Windows Search
 
 The following are practices for writing secure applications for use with Windows Search.
 
@@ -39,7 +39,7 @@ The following are practices for writing secure applications for use with Windows
 -   Avoid creating temporary files or writing to the registry.
 -   If you use the Microsoft Visual C++ compiler, ensure that you compile your application using the **/GS** option. The **/GS** option is used to detect buffer overruns. The /GS option places security checks into the compiled code. For more information, see [DllGetClassObject Function](https://msdn.microsoft.com/library/8dbf701c(vs.71).aspx) /**GS** (Buffer Security Check) in the Visual C++ Compiler Options section of the Platform SDK.
 
-## Additional Resources
+## Additional resources
 
 -   The [IFilterSample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample) sample demonstrates how to create an IFilter base class for implementing the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface.
 -   For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
