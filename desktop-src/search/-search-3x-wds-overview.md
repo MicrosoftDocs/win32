@@ -1,12 +1,12 @@
 ---
 description: Windows Search is a desktop search platform that has instant search capabilities for most common file types and data types, and third-party developers can extend these capabilities to new file types and data types.
 ms.assetid: 6da601c6-3742-40ad-99f2-8817f7f642b3
-title: Windows Search Overview
+title: Windows Search overview
 ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Windows Search Overview
+# Windows Search overview
 
 Windows Search is a desktop search platform that has instant search capabilities for most common file types and data types, and third-party developers can extend these capabilities to new file types and data types.
 
@@ -33,7 +33,7 @@ Windows Search is composed of three components:
 -   [Development platform](#development-platform)
 -   [User interface](#user-interface)
 
-### Windows Search Service
+### Windows Search service
 
 The WSS organizes the extracted features of a collection of documents. The Windows Search Protocol enables a client to communicate with a server that is hosting a WSS, both to issue queries and to enable an administrator to manage the indexing server. When processing files, WSS analyzes a set of documents, extracts useful information, and then organizes the extracted information so that properties of those documents can be efficiently returned in response to queries.
 
@@ -53,7 +53,7 @@ The Search service is designed to protect the user experience and system perform
 -   Low battery life.
 -   Low disk space on the drive that stores the index.
 
-### Development Platform
+### Development platform
 
 The preferred way to access the Search APIs and create Windows Search applications is through a Shell data source. A Shell data source is a component that is used to extend the Shell namespace and expose items in a data store. A data store is a repository of data. A data store can be exposed to the Shell programming model as a container that uses a Shell data source. The items in a data store can be indexed by the Windows Search system using a protocol handler.
 
@@ -72,7 +72,7 @@ A protocol handler is required for Windows to obtain information about file cont
 
  
 
-### User Interface
+### User interface
 
 In Windows Vista and later, Windows Search is integrated into all Windows Explorer windows for instant access to search. This enables users to quickly search for files and items by file name, properties, and full-text contents. Results can also be filtered further to refine the search. Here are some more features of Windows Search:
 
@@ -83,7 +83,7 @@ In Windows Vista and later, Windows Search is integrated into all Windows Explo
 -   Searches can be saved (to be retrieved later) by clicking the **Save Search** button in the search pane in Windows Explorer. The results will be dynamically repopulated based on the original criteria when the saved search is opened. For instructions, see [Save Your Search Results](https://windows.microsoft.com/windows-vista/Save-your-search-results).
 -   Preview handlers and thumbnail handlers enable users to preview documents in Windows Explorer without having to open the application that created them.
 
-## Technical Prerequisites
+## Technical prerequisites
 
 Before you start reading the Windows Search SDK documentation, you should have a fundamental understanding of the following concepts:
 
@@ -95,11 +95,11 @@ A Shell data source is a component that is used to extend the Shell namespace an
 
 For more information about the Windows Search SDK interoperability assembly for working with COM objects that are exposed by Windows Search and other programs that use managed code, see [Using Managed Code with Shell Data and Windows Search](-search-3x-wds-managed-code.md). However, note that filters, property handlers, and protocol handlers must be written in native code. This is due to potential common language runtime (CLR) versioning issues with the process that multiple add-ins run in. Developers who are new to C++ can get started with the [Visual C++ Developer Center](https://msdn.microsoft.com/vstudio//default.aspx) and [Windows Development Getting Started](../desktop-programming.md).
 
-### SDK Download and Contents
+### SDK download and contents
 
 In addition to meeting the listed technical prerequisites, you must also download the [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx) to get the Windows Search libraries. The [Windows Search Code Samples](-search-samples-ovw.md) contain useful code samples and an interoperability assembly for developing with managed code.
 
-## Windows Search SDK Documentation
+## Windows Search SDK documentation
 
 The contents of the Windows Search SDK documentation are as follows:
 
@@ -144,7 +144,7 @@ Windows Search is built into Windows Vista and later, and is available as a red
 
 Systems running these operating systems must have Windows Search installed in order to run applications written for Windows Search.
 
-## Additional Resources
+## Additional resources
 
 -   For information about creating a Shell data source, see [Implementing the Basic Folder Object Interfaces](/previous-versions//bb776815(v=vs.85)).
 -   For more information about [ISearchFolderItemFactory](/windows/win32/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory) and the DB folder data source, see the description of the STR\_PARSE\_WITH\_PROPERTIES constant in [Bind Context String Keys](../shell/str-constants.md). See also [Association Arrays](/previous-versions/windows/desktop/legacy/ee872122(v=vs.85)) and [IPropertySystem::GetPropertyDescriptionListFromString](/windows/win32/api/propsys/nf-propsys-ipropertysystem-getpropertydescriptionlistfromstring).

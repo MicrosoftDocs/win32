@@ -1,12 +1,12 @@
 ---
 description: Microsoft provides word breakers and stemmers for a number of languages. This topic describes how to implement, and use custom word breakers and stemmers for languages, and locales beyond those provided by Microsoft.
 ms.assetid: 47768691-7071-440e-bfbf-975713880c00
-title: Implementing a Word Breaker and Stemmer
+title: Implementing a Word breaker and stemmer
 ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Implementing a Word Breaker and Stemmer
+# Implementing a Word breaker and stemmer
 
 Microsoft provides word breakers and stemmers for a number of languages. This topic describes how to implement, and use custom word breakers and stemmers for languages, and locales beyond those provided by Microsoft.
 
@@ -25,7 +25,7 @@ This topic is organized as follows:
     -   [Scalability, Performancy, and Security](#scalability-performancy-and-security)
 -   [Related topics](#related-topics)
 
-## Registering a Language Resource DLL
+## Registering a language resource DLL
 
 Each language resource DLL must implement and export the following entry points. The DLL can be registered to be in any folder.
 
@@ -34,7 +34,7 @@ Each language resource DLL must implement and export the following entry points.
 -   DllCanUnloadNow enables clients to call this entry point through Component Object Model (COM) to determine whether it is possible to unload the language resource DLL.
 -   DllUnRegisterServer removes the DLL from the registry.
 
-## Registering a Language
+## Registering a language
 
 The registry contains language-specific entries for the language being indexed, and these entries control the parts of the indexing and query processes that are language specific. These registry entries can be found under the following registry key.
 
@@ -48,7 +48,7 @@ HKEY_LOCAL_MACHINE
                   
 ```
 
-## Implementing a Word Beaker
+## Implementing a Word beaker
 
 Word breakers implement [**IWordBreaker**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordbreaker). The [**IWordBreaker::BreakText**](/windows/desktop/api/Indexsrv/nf-indexsrv-iwordbreaker-breaktext) method performs all text processing and parsing. To implement a word breaker component, you must have language heuristics for your language. This includes information about syntax and morphology. You may also need a list of words to exclude or include. You build the file of noise words for your language locale from the list of excluded words. For more information about linguistic considerations and how these considerations affect word breaker implementations, see [Linguistic and Unicode Considerations](linguistic-and-unicode-considerations.md).
 
@@ -88,7 +88,7 @@ Word breakers use the [**IWordSink**](iwordsink.md) and [**IPhraseSink**](/windo
 
 Breaks are the spaces between words. White space, punctuation, formatting, or just the nature of the language itself can cause breaks. There are four different types of breaks that the indexer uses: end of word (EOW), end of sentence (EOS), end of paragraph (EOP) and end of chapter (EOC). The EOW break is the default break. After each token, each break indicates a different semantic distance between the words on either side. Words separated by EOW have the tightest semantic link, followed by EOS, EOP, and EOC. Multiple calls to [**IWordSink::PutBreak**](iwordsink-putbreak.md) are cumulative, and are analogous to inserting null words or sentences.
 
-### Scalability, Performancy, and Security
+### Scalability, performancy, and security
 
 The way the word breaker responds to simultaneous calls is largely determined by your choice of threading model. The indexer is a single-threaded application. For word breakers to work in a single-threaded environment, word breakers must be written using a "free" or "both" threading model. Word breakers must not register with COM by using the "apartment" threading model.
 
@@ -96,7 +96,7 @@ We recommend that word breakers avoid global states and store data in the instan
 
 Word breakers for the indexer run in the Local System security context. They should be written to manage buffers and to stack correctly. All string copies must have explicit checks to guard against buffer overruns. You should always verify the allocated size of the buffer and test the size of the data against the size of the buffer. Word breakers cannot assume that the text passed to the [**IWordBreaker::BreakText**](/windows/desktop/api/Indexsrv/nf-indexsrv-iwordbreaker-breaktext) method is well formed. For more information about troubleshooting word breakers, see [Troubleshooting Language Resources and Best Practices](troubleshooting-language-resources.md).
 
-## Implementing a Stemmer
+## Implementing a stemmer
 
 Stemmers implement the [**IStemmer**](/windows/desktop/api/Indexsrv/nn-indexsrv-istemmer) interface. The [**IStemmer::GenerateWordForms**](/windows/desktop/api/Indexsrv/nf-indexsrv-istemmer-generatewordforms) method generates a list of inflected word forms for a particular input word. To implement a stemmer component, you must have language heuristics for your language. This includes information about morphology. You may also need a list of words to exclude or include. For more information about linguistic considerations and how these considerations affect stemmer implementations, see [Linguistic and Unicode Considerations](linguistic-and-unicode-considerations.md).
 
@@ -104,7 +104,7 @@ We recommend that stemmers should not generate the genitive, or possessive, case
 
 The stemmer uses the [IWordFormSink](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordformsink) object to gather the list of alternative words. [**IWordFormSink::PutWord**](iwordformsink-putword.md) generates the final word from the stemmer. In all cases, this final word is the same as the input word from [**IStemmer::GenerateWordForms**](/windows/desktop/api/Indexsrv/nf-indexsrv-istemmer-generatewordforms). For example, given the word "swim," the stemmer generates the following word forms: "swimming," "swimmer," "swims," "swam," and "swum," through calls to [**IWordFormSink::PutAltWord**](iwordformsink-putphrase.md). The stemmer generates "swim" through **IWordFormSink::PutWord**.
 
-### Scalability, Performancy, and Security
+### Scalability, performancy, and security
 
 Stemmers, like word breakers, must use a "free" threading model and register with COM with their threading model set to "free" or "both." Windows Search calls separate instances of the stemmer from different threads at the same time. Stemmers should therefore have minimal instance data.
 

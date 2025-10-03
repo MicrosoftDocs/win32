@@ -1,12 +1,12 @@
 ---
 description: The ISearchManager interface provides methods that make changes across catalogs.
 ms.assetid: e6f4432b-03bf-4711-a79e-1bf9242c5683
-title: Using the Search Manager
+title: Using the search manager
 ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Using the Search Manager
+# Using the search manager
 
 The [**ISearchManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchmanager) interface provides methods that make changes across catalogs. Changes made at the **ISearchManager** level apply globally to all catalogs used by the indexer, while changes made at the [**ISearchCatalogManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager) level apply to specific catalogs. However, currently, Windows Search uses only one catalog, SystemIndex. You can use the Search Manager to do the following:
 

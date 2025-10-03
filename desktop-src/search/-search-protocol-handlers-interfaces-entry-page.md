@@ -1,12 +1,12 @@
 ---
 description: This Windows Search reference section consists of protocol handler interfaces.
 ms.assetid: 7089a107-ef3c-4215-aa75-3107815807a1
-title: Protocol Handlers Interfaces
+title: Protocol handlers interfaces
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Protocol Handlers Interfaces
+# Protocol handlers interfaces
 
 This Windows Search reference section consists of protocol handler interfaces.
 

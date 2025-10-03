@@ -1,12 +1,12 @@
 ---
 description: This optional &lt;templateInfo&gt; element specifies a folder type for displaying the results from a query over this search connector. This element has no attributes and only one mandatory child.
 ms.assetid: fe42f589-5c47-4629-94eb-78dbaffa4112
-title: templateInfo Element (Search Connector Schema)
+title: templateInfo element (search connector schema)
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# templateInfo Element (Search Connector Schema)
+# templateInfo element (search connector schema)
 
 This optional &lt;templateInfo&gt; element specifies a folder type for displaying the results from a query over this search connector. This element has no attributes and only one mandatory child.
 
@@ -34,7 +34,7 @@ This optional &lt;templateInfo&gt; element specifies a folder type for displayin
 
 
 
-## Element Information
+## Element information
 
 
 
@@ -50,7 +50,7 @@ This optional &lt;templateInfo&gt; element specifies a folder type for displayin
 
 If you don't specify a particular folder type in the &lt;templateInfo&gt; element, Windows uses the general search connector folder type {8FAF9629-1980-46FF-8023-9DCEAB9C3EE3}.
 
-## Example of a templateInfo Element
+## Example of a templateInfo element
 
 
 ```

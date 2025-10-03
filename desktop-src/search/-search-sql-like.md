@@ -1,12 +1,12 @@
 ---
 description: The LIKE predicate performs pattern-matching comparison on the specified column.
 ms.assetid: d4bcf406-1253-4e56-b770-79edd4a98205
-title: LIKE Predicate
+title: LIKE predicate
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# LIKE Predicate
+# LIKE predicate
 
 The LIKE predicate performs pattern-matching comparison on the specified column. It uses the following syntax:
 

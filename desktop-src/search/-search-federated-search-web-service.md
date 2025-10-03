@@ -1,12 +1,12 @@
 ---
 description: This topic describes the steps involved in connecting a web service between your data store and Windows Federated Search, and how to send queries and return search results in RSS or Atom.
 ms.assetid: 4c8de310-49e6-4d90-a920-0c715351c86a
-title: Connecting Your Web Service in Windows Federated Search
+title: Connecting your web service in Windows Federated Search
 ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
-# Connecting Your Web Service in Windows Federated Search
+# Connecting your web service in Windows Federated Search
 
 This topic describes the steps involved in connecting a web service between your data store and Windows Federated Search, and how to send queries and return search results in RSS or Atom.
 
@@ -17,7 +17,7 @@ This topic is organized as follows:
 -   [Additional Resources](#additional-resources)
 -   [Related topics](#related-topics)
 
-## Connect Your web Service
+## Connect your web service
 
 **To connect the web service of your data store to federated search, perform the following steps:**
 
@@ -25,7 +25,7 @@ This topic is organized as follows:
 2.  Supply the .osdx file to users so that they can add the service on demand by opening the .osdx file.
 3.  Generate a search connector and actively deploy it in your enterprise.
 
-## Register an Existing Remote Data Store
+## Register an existing remote data store
 
 A user registers a new remote data store with Windows Federated Search by opening an OpenSearch Description (.osdx) file. When the user does so, the following events occur:
 
@@ -38,7 +38,7 @@ A user registers a new remote data store with Windows Federated Search by openin
 
  
 
-## Additional Resources
+## Additional resources
 
 For additional information about implementing search federation to remote data stores using OpenSearch technologies in Windows 7 and later, see "Additional Resources" at [Federated Search in Windows](/previous-versions//dd742958(v=vs.85)).
 

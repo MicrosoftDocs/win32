@@ -1,12 +1,12 @@
 ---
 description: The Crawl Scope Manager (CSM) enables you define scope rules that include or exclude URLs from the Windows Search crawl scope.
 ms.assetid: 132a55f9-680d-438e-b983-f5ce4cf66a41
-title: Managing Scope Rules
+title: Managing scope rules
 ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
-# Managing Scope Rules
+# Managing scope rules
 
 The Crawl Scope Manager (CSM) enables you define scope rules that include or exclude URLs from the Windows Search crawl scope.
 
@@ -31,7 +31,7 @@ This topic includes the following subjects:
 -   [Tracing Scope Rules](#tracing-scope-rules)
 -   [Related topics](#related-topics)
 
-## About Scope Rules
+## About scope rules
 
 A scope rule is a rule that includes or excludes URLs within a search root from being crawled and indexed. Inclusion rules cause the indexer to include that URL in the scrawl scope, and exclusion rules cause the indexer exclude that URL (and its children) from the crawl scope.
 
@@ -62,7 +62,7 @@ But the indexer would not crawl items in:
 
  
 
-## Before You Begin
+## Before you begin
 
 Before you use any of the Crawl Scope Manager interfaces, you must perform the following prerequisite steps:
 
@@ -74,7 +74,7 @@ After making any changes to the Crawl Scope Manager, you must call the [**ISearc
 
  
 
-## Adding Scope Rules
+## Adding scope rules
 
 The working rules set for the CSM includes user and default rules, as well as any rules forced by group policy. User rules are set up by users in a user interface, and default rules can be set by any of the following:
 
@@ -101,7 +101,7 @@ Each method takes a URL to an indexable location and flags that determine whethe
 
 **Tip:** While the file:// root is included by default in the crawl scope, Program Files is not indexed by default. Therefore, applications with data saved to their Program Files directory need to add their location as a default rule.
 
-### Notes on User Rules
+### Notes on user rules
 
 If a new user rule is the same as an existing default rule, the new user rule overrides the default rule in the working rule set. If the new user rule is the same as an existing user rule, the old user rule is replaced.
 
@@ -112,7 +112,7 @@ Setting the flag *fOverrideChildren* has the following results in the working ru
 
  
 
-## Removing Scope Rules
+## Removing scope rules
 
 You can use the [**ISearchCrawlScopeManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager) interface to remove a scope rule from the working rule set. This interface provides the following two methods for removing scope rules.
 
@@ -140,19 +140,19 @@ It is also possible to remove all user-set overrides of a search root and revert
 
  
 
-## Reverting to Default Rules
+## Reverting to default rules
 
 Reverting to default rules removes all user rules for a URL or root and restores all default rules to the working rule set. It does not, however, remove rules set by group policy. The [**RevertToDefaultScopes**](/windows/desktop/api/Searchapi/nf-searchapi-isearchcrawlscopemanager-reverttodefaultscopes) method takes no parameters and returns an error code if it is unable to revert to default rules.
 
  
 
-## Enumerating Scope Rules
+## Enumerating scope rules
 
 The CSM enumerates scope rules by using a standard COM-style enumerator interface, [**IEnumSearchScopeRules**](/windows/desktop/api/Searchapi/nn-searchapi-ienumsearchscoperules) . You can use this interface to enumerate scope rules for several purposes. For example, you might want to display the entire working rule set in a user interface, or discover whether a rule or the child of a rule is already in the crawl scope.
 
  
 
-## Tracing Scope Rules
+## Tracing scope rules
 
 The CSM also enables you to determine whether a specified URL is included in the crawl scope and whether it has a parent or child scope rule. You can also find out why a URL is included or excluded from the crawl scope. These methods are not intended to be used with pattern URLs.
 

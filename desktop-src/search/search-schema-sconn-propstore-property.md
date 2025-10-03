@@ -1,12 +1,12 @@
 ---
 description: The optional &lt;property&gt; element specifies a property used by the search connector. These properties are specific to this search connector, so there is no predefined set of names to use. This element has no child elements.
 ms.assetid: 33854123-d4c0-4385-910b-a32d6922423f
-title: property Element of propertyStore (Search Connector Schema)
+title: Property element of propertyStore (search connector schema)
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# property Element of propertyStore (Search Connector Schema)
+# Property element of propertyStore (search connector schema)
 
 The optional &lt;property&gt; element specifies a property used by the search connector. These properties are specific to this search connector, so there is no predefined set of names to use. This element has no child elements.
 
@@ -28,7 +28,7 @@ The optional &lt;property&gt; element specifies a property used by the search co
     </xs:element>
 ```
 
-## Element Information
+## Element information
 
 | Parent Element                                                                           | Child Elements |
 |------------------------------------------------------------------------------------------|----------------|

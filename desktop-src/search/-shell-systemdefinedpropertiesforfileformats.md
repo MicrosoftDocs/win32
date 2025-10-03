@@ -1,12 +1,12 @@
 ---
 description: Microsoft Windows supplies a number of system properties that you can use for your file formats.
 ms.assetid: 3a25c4fb-ffea-4524-b59b-912416b2fc7d
-title: System-Defined Properties for Custom File Formats
+title: System-defined properties for custom file formats
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# System-Defined Properties for Custom File Formats
+# System-defined properties for custom file formats
 
 Microsoft Windows supplies a number of system properties that you can use for your file formats. If you are creating a custom file format, you should support as many system-defined properties as you can. Before creating a custom property handler, you should review the system-supplied handlers to see if you can use one instead of writing your own.
 

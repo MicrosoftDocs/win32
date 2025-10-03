@@ -1,12 +1,12 @@
 ---
 description: By default, the Windows Search engine and catalog are insensitive to diacritics, which are accent marks added to letters to alter a word's meaning or pronunciation.
 ms.assetid: 71007bd4-5232-469c-982b-ff0d24bd0c1f
-title: Diacritic Sensitivity in Searches
+title: Diacritic sensitivity in searches
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Diacritic Sensitivity in Searches
+# Diacritic sensitivity in searches
 
 By default, the Windows Search engine and catalog are insensitive to diacritics, which are accent marks added to letters to alter a word's meaning or pronunciation. However, Windows Search enables you to change this for your catalog using the [Catalog Manager](-search-3x-wds-mngidx-catalog-manager.md) to set diacritic sensitivity. For example, with diacritic sensitivity set to **FALSE**, the catalog would treat "resume" and "résumé" as if they were the same word.
 

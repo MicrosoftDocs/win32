@@ -1,12 +1,12 @@
 ---
 description: 'The following shows the basic syntax of the SELECT statement for a local query:'
 ms.assetid: 334aa2b9-0ef2-4a4b-9352-de5ded95afa6
-title: SELECT Statement
+title: SELECT statement
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# SELECT Statement
+# SELECT statement
 
 The following shows the basic syntax of the SELECT statement for a local query:
 
@@ -41,7 +41,7 @@ When the query returns a document that does not have the requested column, the v
 
 You must provide at least one column name in a SELECT statement. In the Structured Query Language (SQL) query, you are allowed to use the asterisk (\*) to specify that all columns in a table are to be returned. However, no defined and fixed set of properties applies to all documents. For this reason, the SQL asterisk is not permitted in the &lt;columns&gt; specifier of the SELECT statement.
 
-## Getting the Top n Results
+## Getting the top n results
 
 You can specify a maximum number of results to return by using the TOP syntax:
 
@@ -52,7 +52,7 @@ SELECT TOP <positive integer> <column> [ {, <column>} ...]
 
 
 
-## Casting Column Data Types
+## Casting column data types
 
 At times, you might need to cast string data extracted from documents as another data type so that an appropriate comparison can be made. For more information, refer to [Casting the Data Type of a Column](-search-sql-castingdatacolumntype.md).
 

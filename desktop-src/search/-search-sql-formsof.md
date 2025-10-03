@@ -1,12 +1,12 @@
 ---
 description: The FORMSOF term performs matches using other linguistic forms of the word.
 ms.assetid: b705b8bc-dc2c-4cee-8306-f494b0f96cbf
-title: FORMSOF Term
+title: FORMSOF term
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# FORMSOF Term
+# FORMSOF term
 
 The FORMSOF term performs matches using other linguistic forms of the word. The following is the FORMSOF term syntax:
 

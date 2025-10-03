@@ -1,12 +1,12 @@
 ---
 description: The optional &lt;domain&gt; element specifies the URL of the search service used by this search connector. It is displayed in the details pane. This element has no child elements and no attributes.
 ms.assetid: 60a27b13-0bb0-4cf6-9dce-a3abc79ce623
-title: domain Element (Search Connector Schema)
+title: Domain element (search connector schema)
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# domain Element (Search Connector Schema)
+# Domain element (search connector schema)
 
 The optional &lt;domain&gt; element specifies the URL of the search service used by this search connector. It is displayed in the details pane. This element has no child elements and no attributes.
 
@@ -28,7 +28,7 @@ The optional &lt;domain&gt; element specifies the URL of the search service used
 
 
 
-## Element Information
+## Element information
 
 
 

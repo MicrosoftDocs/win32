@@ -1,12 +1,12 @@
 ---
 description: Describes how to create an OpenSearch Description (.osdx) file to connect external data stores to the Windows Client via the OpenSearch protocol.
 ms.assetid: 62cd88cd-e6ff-4e46-887d-e62f7018c065
-title: Creating an OpenSearch Description File in Windows Federated Search
+title: Creating an OpenSearch description file in Windows Federated Search
 ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
-# Creating an OpenSearch Description File in Windows Federated Search
+# Creating an OpenSearch description file in Windows Federated Search
 
 Describes how to create an OpenSearch Description (.osdx) file to connect external data stores to the Windows Client via the [OpenSearch](https://github.com/dewitt/opensearch) protocol. Federated search enables users to search a remote data store and view the results from within Windows Explorer.
 
@@ -32,7 +32,7 @@ This topic contains the following sections:
 -   [Additional Resources](#additional-resources)
 -   [Related topics](#related-topics)
 
-## OpenSearch Description File
+## OpenSearch description file
 
 An OpenSearch Description (.osdx) file for Windows Federated Search must abide by the following rules:
 
@@ -41,7 +41,7 @@ An OpenSearch Description (.osdx) file for Windows Federated Search must abide b
 -   Use the .osdx file name extension, or be associated with the .osdx file name extension when downloading from the web. For example, a server is not required to use .osdx. A server can return the file with any file name extension, such as .xml for example, and treated as if it were an .osdx file if it uses the correct MIME Type for OpenSearch Description documents (.osdx files).
 -   Provide a **ShortName** element value (recommended).
 
-### Mininum Required Child Elements
+### Mininum required child elements
 
 The following example .osdx file consists of **ShortName** and `Url` elements, which are the minimum required child elements.
 
@@ -57,7 +57,7 @@ The following example .osdx file consists of **ShortName** and `Url` elements, w
 
 
 
-## Standard Elements in Windows Federated Search
+## Standard elements in Windows Federated Search
 
 In addition to the minimum child elements, federated search supports the following standard elements.
 
@@ -91,7 +91,7 @@ Windows uses the **Description** element value to populate the file description 
 
 
 
-### URL Template for RSS/Atom Results
+### URL template for rss/atom results
 
 The .osdx file must include one **Url format** element and **template** attribute (a URL template) that returns results in either RSS or Atom format. The format attribute must be set to `application/rss+xml` for RSS formatted results, or `application/atom+xml` for Atom formatted results, as shown in the following code.
 
@@ -111,7 +111,7 @@ The .osdx file must include one **Url format** element and **template** attribut
 
 
 
-### URL Template for web Results
+### URL template for web results
 
 If there is a version of the search results that can be viewed in a web browser, you should provide a **Url format=**`text/html` element, and **template** attribute, as shown in the following code.
 
@@ -131,7 +131,7 @@ If you provide a **Url format="text/html"** element and **template** attribute, 
 
 The roll-over of the query back to the data store's web UI is important in some scenarios. For example, a user may want to view more than 100 results (the default number of items the OpenSearch provider requests). If so, the user may also want to use search features that are available only on the data store's website, such as re-querying with a different sort order, or pivoting and filtering the query with related metadata.
 
-### URL Template Parameters
+### URL template parameters
 
 The OpenSearch provider performs always the following actions:
 
@@ -156,11 +156,11 @@ The OpenSearch provider performs always the following actions:
 
  
 
-### Paged Results
+### Paged results
 
 You may want to limit the number of results returned per request. You can opt to return a "page" of results at a time, or to have the OpenSearch provider get additional pages of results either by item number or page number. For example, if you send twenty results per page, the first page you send starts at item index 1 and at page 1; the second page you send starts at item index 21 and at page 2. You can define how you want the OpenSearch provider to request items by using either the `{startItem}` or the `{startPage}` token in the URL template.
 
-### Paging Using the Item Index
+### Paging using the item index
 
 An item index identifies the first result item in a page of results. If you want clients to send requests using an item index, you can use the `{startIndex}` token in your **Url** element **template** attribute, as shown in the following code.
 
@@ -188,7 +188,7 @@ The OpenSearch provider can get additional items by changing the `{startIndex}` 
 
  
 
-### Paging Using the Page Index
+### Paging using the page index
 
 A page index identifies the specified page of results. If you want clients to send requests using a page number, you can use the `{startPage}` token in your **Url format** element **template** attribute to indicate that, as illustrated in the following example:
 
@@ -214,7 +214,7 @@ https://example.com/rss.php?query=frogs&page=1
 
  
 
-### Page Size
+### Page size
 
 You may want to configure your web service to permit a request to specify the size of the pages by using some parameter in the URL. A request must be specified in the .osdx file by using the `{count}` token, as follows:
 
@@ -239,7 +239,7 @@ By default the OpenSearch provider makes requests using a page size of 50. If yo
 
 The OpenSearch provider determines the page size based on the number of results returned on the first request. If the first page of results received has fewer items than the count requested, the provider resets the page size for any subsequent page requests. If subsequent page requests return fewer items than requested, the OpenSearch provider assumes that it has reached the end of the results.
 
-## Extended Elements in Windows Federated Search
+## Extended elements in Windows Federated Search
 
 In addition to the standard elements, federated search supports the following extended elements: **MaximumResultCount** and **ResultsProcessing**.
 
@@ -252,7 +252,7 @@ http://schemas.microsoft.com/opensearchext/2009/
 
 
 
-### Maximum Result Count
+### Maximum result count
 
 By default, search connectors are limited to 100 results per user query. This limit can be customized by including the **MaximumResultCount** element within the OSD file as shown in the following example:
 
@@ -269,13 +269,13 @@ By default, search connectors are limited to 100 results per user query. This li
 
 The preceding example declares the namespace prefix `ms-ose` in the top-level **OpenSearchDescription** element, and then uses it as a prefix in the element name. This declaration is required because the **MaximumResultCount** is not supported in the [OpenSearch](https://github.com/dewitt/opensearch) v1.1 specification.
 
-### Property Mapping
+### Property mapping
 
 When results are returned by the web service as an RSS or Atom feed, the OpenSearch provider must map the item metadata in the feeds to properties that the Windows Shell can use. The following screen shot illustrates how the OpenSearch provider maps some of the default RSS elements.
 
 ![screen shot showing built-in rss-to-windows-shell property mappings](images/built-inrsstowindowsshellpropertymappings.png)
 
-### Default Mappings
+### Default mappings
 
 The default mappings of RSS XML elements to Windows Shell system properties, are listed in the following table. XML paths are relative to the item element. The `"media:"` prefix is defined by the [Yahoo Search Namespace](https://www.rssboard.org/media-rss) namespace.
 
@@ -310,7 +310,7 @@ The default mappings of RSS XML elements to Windows Shell system properties, are
 
  
 
-### Custom Property Mappings
+### Custom property mappings
 
 You can customize the mapping of elements from your RSS output to Windows Shell system properties by specifying the mapping in the .osdx file.
 
@@ -325,7 +325,7 @@ The following diagram illustrates how an RSS extension maps to Windows propertie
 
 ![diagram showing that the combination of xml namespace and xml path produces the canonical name](images/rssextensionsusexmlnamespaceandpathstomaptowindowsproperties.png)
 
-### Example RSS results and OSD Property Mapping
+### Example RSS results and OSD property mapping
 
 The following example RSS output identifies `https://example.com/schema/2009` as the XML namespace with the prefix "example". This prefix must appear again before the **email** element.
 
@@ -369,7 +369,7 @@ There are some properties that cannot be mapped because values for them are eith
 
 Thumbnail image URLs can be provided for any item by using the **media:thumbnail url=""** element. The ideal resolution is 150 x 150 pixels. The largest thumbnails supported are 256 x 256 pixels. Providing larger images takes more bandwidth for no extra benefit to the user.
 
-### Open File Location Context Menu
+### Open file location context menu
 
 Windows provides a shortcut menu named **Open file location** for result items. If the user selects an item from that menu, the "parent" URL for the selected item is opened. If the URL is a web URL, such as `https://...`, the web browser is opened and navigated to that URL. Your feed should provide a custom URL for each item to ensure that Windows opens a valid URL. This can be accomplished by including the URL within an element inside the item's XML, as illustrated in the following example:
 
@@ -391,7 +391,7 @@ Windows provides a shortcut menu named **Open file location** for result items. 
 
 If this property is not explicitly set in the item's XML, the OpenSearch provider sets it to the parent folder of the URL of the item. In the example above, the OpenSearch provider would use the link value, and set the [System.ItemFolderPathDisplay](../properties/props-system-itemfolderpathdisplay.md) Windows Shell property value to `"https://example.com/"`.
 
-### Customize Windows Explorer Views with Property Description Lists
+### Customize Windows Explorer views with property description lists
 
 Some Windows Explorer view layouts are defined by property description lists, or proplists. A proplist is a semicolon-delimited list of properties, such as `"prop:System.ItemName; System.Author"`, that is used to control how your results appear in Windows Explorer.
 
@@ -441,7 +441,7 @@ Each area of Windows Explorer has an associated set of proplists, which themselv
 
     
 
-### Content View Mode Layout of Properties
+### Content view mode layout of properties
 
 The list of properties specified in the **System.PropList.ContentViewModeForSearch** and **System.PropList.ContentViewModeForBrowse** proplists determines what is shown in Content view mode. For more information about property lists, see [PropList](/windows/win32/api/propsys/nf-propsys-ipropertysystem-getpropertydescriptionlistfromstring).
 
@@ -468,7 +468,7 @@ Then we see the following display:
 
  
 
-### Property List Flags
+### Property list flags
 
 Only one of the flags defined in the proplists documentation applies to the display of items in Content View mode layouts:` "~"`. In the previous examples, the Windows Explorer view labels some of the properties, such as `Tags: animals; zoo; lion`. That is the default behavior when you specify a property in the list. For example, the proplist has `"System.Author"` which is displayed as `"Authors: value"`. When you want to hide the property label, place a `"~"` in front of the property name. For example, if the proplist has `"~System.Size"`, the property is displayed as just a value, without the label.
 
@@ -502,7 +502,7 @@ How Windows Explorer determines what URL to use:
 
      
 
-## Open File Location Menu Item
+## Open file location menu item
 
 When a right-clicks an item, the **Open file location** menu command appears. This command takes the user to the container for or location of that item. For example, in a SharePoint search, selecting this option for a file in a document library would open the document library root in the web browser.
 
@@ -510,7 +510,7 @@ When a user clicks **Open file location**, Windows Explorer attempts to find a p
 
 ![flowchart showing how windows explorer identifies a parent container](images/howwindowsexploreridentifiesaparentcontainer.png)
 
-## Additional Resources
+## Additional resources
 
 For additional information about implementing search federation to remote data stores using OpenSearch technologies in Windows 7 and later, see "Additional Resources" at [Federated Search in Windows](/previous-versions//dd742958(v=vs.85)).
 

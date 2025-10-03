@@ -1,12 +1,12 @@
 ---
 description: Windows Explorer controls the creation of a search connector for a protocol handler through registry key entries. Through the registry both implementers and third parties can enable new and legacy protocol handlers to participate in Windows 7 Search.
 ms.assetid: 79abdcbc-ba60-43bd-9895-18ee8b6c5829
-title: Creating a Search Connector for a Protocol Handler
+title: Creating a search connector for a protocol handler
 ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Creating a Search Connector for a Protocol Handler
+# Creating a search connector for a protocol handler
 
 Windows Explorer controls the creation of a search connector for a protocol handler through registry key entries. Through the registry both implementers and third parties can enable new and legacy protocol handlers to participate in Windows 7 Search.
 
@@ -21,7 +21,7 @@ This topic is organized as follows:
 -   [Additional Resources](#additional-resources)
 -   [Related topics](#related-topics)
 
-## About Search Connectors for Protocol Handlers in Windows 7
+## About search connectors for protocol handlers in Windows 7
 
 In Windows 7, searches from the **Start** menu or Windows Explorer include only files in indexed locations, and non-file system items such as remote data stores or protocol handler items that have a search connector. In addition to including the protocol handler items in the scope of **Start** menu and Shell searches, the search connector enables the **Start** menu to group protocol handler items together in **Start** menu results, with the resulting benefit that the user can click the group header and view results from only the protocol handler. Alternatively, the user can navigate to the **Searches** folder, open the search connector file, and perform a search that includes only items from the specific protocol handler associated with that search connector.
 
@@ -44,7 +44,7 @@ Windows Explorer controls the creation of a search connector for a protocol hand
 
  
 
-## Enabling Protocol Handlers to Participate in Search
+## Enabling protocol handlers to participate in search
 
 Registry keys and their possible values are outlined in the following table. A protocol handler can populate some or all of these registry keys where &lt;protocol&gt; is replaced with the actual name of its protocol, such as MAPI, file, or csc, for example.
 
@@ -62,7 +62,7 @@ Registry keys and their possible values are outlined in the following table. A p
 
  
 
-### Disabling Protocol Handler Search Connector Creation
+### Disabling protocol handler search connector creation
 
 If your application exposes items through a protocol handler for use in the application itself and you do not want to expose the items through the Shell (in **Start** menu and Windows Explorer searches), you need to disable the creation of a search connector for your protocol handler.
 
@@ -82,7 +82,7 @@ If DoNotCreateSearchConnectors is set to 1, then we recommend that you expose th
 
 If DoNotCreateSearchConnectors is present and set to zero, then Windows Explorer will create a search connector for the protocol handler, and the protocol handler items will be returned in **Start** menu and Windows Explorer searches.
 
-### Customizing the Name, Description or FolderType for a Protocol Handler Search Connector
+### Customizing the name, description or FolderType for a protocol handler search connector
 
 The search connector name is used not only to identify the search connector in the **Searches** folder, but as the group header for the results in **Start** menu searches. Hence, it is important to provide a descriptive name for the search connector. If a name is not provided in the registry key, by default Windows Explorer uses the name provided by [IShellFolder Interface](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder) for the protocol handler's search root and blank description. You can override the default name through a registry key entry without having to rename the IShellFolder Interface. Although it is not as visible as the search connector name, you can also override the description for the search connector by providing your own description.
 
@@ -113,7 +113,7 @@ HKEY_LOCAL_MACHINE
                      FolderType = {94d6ddcc-4a68-4175-a374-bd584a510b78}
 ```
 
-### Using Registry String Redirection
+### Using registry string redirection
 
 You can use a [redirected string](../intl/using-registry-string-redirection.md) to ensure that the name you provide for the search connector can be localized. You can include localizable strings for the name and description registry keys instead of entering the actual string into the registry.
 
@@ -137,13 +137,13 @@ The localizable string takes the following format:
 
 The format for an indirect string, and an indirect string appended with a version modifier, is described in [SHLoadIndirectString Function](/windows/win32/api/shlwapi/nf-shlwapi-shloadindirectstring).
 
-### Restoring a Deleted Protocol Handler Search Connector
+### Restoring a deleted protocol handler search connector
 
 Because search connectors are files on the user's computer, they can be mistakenly deleted. To restore all deleted protocol handler search connectors, restore the default libraries. To so do, open Windows Explorer, right-click the **Libraries** folder, and then select **Restore Default Libraries**.
 
 ![screen shot showing the restore default libraries menu option](images/libraries.png)
 
-## Additional Resources
+## Additional resources
 
 -   [IShellItem::GetDisplayName](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-getdisplayname)
 -   [SIGDN\_NORMALDISPLAY](/windows/win32/api/shobjidl_core/ne-shobjidl_core-sigdn)
