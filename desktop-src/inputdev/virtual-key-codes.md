@@ -172,7 +172,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 09/11/2025
+ms.date: 10/06/2025
 ---
 
 # Virtual-Key Codes
@@ -228,43 +228,43 @@ The following table shows the symbolic constant names, hexadecimal values, and m
 | `VK_INSERT` | 0x2D | Insert key |
 | `VK_DELETE` | 0x2E | Delete key |
 | `VK_HELP` | 0x2F | Help key |
-| `` `0` `` | 0x30 | 0 key |
-| `` `1` `` | 0x31 | 1 key |
-| `` `2` `` | 0x32 | 2 key |
-| `` `3` `` | 0x33 | 3 key |
-| `` `4` `` | 0x34 | 4 key |
-| `` `5` `` | 0x35 | 5 key |
-| `` `6` `` | 0x36 | 6 key |
-| `` `7` `` | 0x37 | 7 key |
-| `` `8` `` | 0x38 | 8 key |
-| `` `9` `` | 0x39 | 9 key |
+| 0 | 0x30 | 0 key |
+| 1 | 0x31 | 1 key |
+| 2 | 0x32 | 2 key |
+| 3 | 0x33 | 3 key |
+| 4 | 0x34 | 4 key |
+| 5 | 0x35 | 5 key |
+| 6 | 0x36 | 6 key |
+| 7 | 0x37 | 7 key |
+| 8 | 0x38 | 8 key |
+| 9 | 0x39 | 9 key |
 |  | 0x3A-40 | Undefined |
-| `` `A` `` | 0x41 | A key |
-| `` `B` `` | 0x42 | B key |
-| `` `C` `` | 0x43 | C key |
-| `` `D` `` | 0x44 | D key |
-| `` `E` `` | 0x45 | E key |
-| `` `F` `` | 0x46 | F key |
-| `` `G` `` | 0x47 | G key |
-| `` `H` `` | 0x48 | H key |
-| `` `I` `` | 0x49 | I key |
-| `` `J` `` | 0x4A | J key |
-| `` `K` `` | 0x4B | K key |
-| `` `L` `` | 0x4C | L key |
-| `` `M` `` | 0x4D | M key |
-| `` `N` `` | 0x4E | N key |
-| `` `O` `` | 0x4F | O key |
-| `` `P` `` | 0x50 | P key |
-| `` `Q` `` | 0x51 | Q key |
-| `` `R` `` | 0x52 | R key |
-| `` `S` `` | 0x53 | S key |
-| `` `T` `` | 0x54 | T key |
-| `` `U` `` | 0x55 | U key |
-| `` `V` `` | 0x56 | V key |
-| `` `W` `` | 0x57 | W key |
-| `` `X` `` | 0x58 | X key |
-| `` `Y` `` | 0x59 | Y key |
-| `` `Z` `` | 0x5A | Z key |
+| A | 0x41 | A key |
+| B | 0x42 | B key |
+| C | 0x43 | C key |
+| D | 0x44 | D key |
+| E | 0x45 | E key |
+| F | 0x46 | F key |
+| G | 0x47 | G key |
+| H | 0x48 | H key |
+| I | 0x49 | I key |
+| J | 0x4A | J key |
+| K | 0x4B | K key |
+| L | 0x4C | L key |
+| M | 0x4D | M key |
+| N | 0x4E | N key |
+| O | 0x4F | O key |
+| P | 0x50 | P key |
+| Q | 0x51 | Q key |
+| R | 0x52 | R key |
+| S | 0x53 | S key |
+| T | 0x54 | T key |
+| U | 0x55 | U key |
+| V | 0x56 | V key |
+| W | 0x57 | W key |
+| X | 0x58 | X key |
+| Y | 0x59 | Y key |
+| Z | 0x5A | Z key |
 | `VK_LWIN` | 0x5B | Left Windows logo key |
 | `VK_RWIN` | 0x5C | Right Windows logo key |
 | `VK_APPS` | 0x5D | Application key |
