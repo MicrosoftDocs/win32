@@ -105,7 +105,6 @@ Beginning in Windows 10, CNG (Cryptography API: Next Generation) provides pre-de
 
 | Constant | Description | Standards |
 |----------|-------------|-----------|
-| **BCRYPT_RC4_ALG_HANDLE**<br/>0x00000071 | A handle to the RC4 symmetric encryption algorithm. | Various |
 | **BCRYPT_AES_CMAC_ALG_HANDLE**<br/>0x00000101 | A handle for the Advanced Encryption Standard (AES) cipher based message authentication code (CMAC) symmetric encryption algorithm. | [SP 800-38B](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-38b.pdf) |
 | **BCRYPT_AES_GMAC_ALG_HANDLE**<br/>0x00000111 | A handle for the Advanced Encryption Standard (AES) Galois message authentication code (GMAC) symmetric encryption algorithm. [SP800-38D](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38d.pdf) |
 | **BCRYPT_3DES_CBC_ALG_HANDLE**<br/>0x00000141 | A handle for the triple Data Encryption Standard algorithm using Cipher Block Chaining mode (CBC). | [SP 800-67](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-67r2.pdf), [SP 800-38A](https://csrc.nist.gov/pubs/sp/800/38/a/final) |
