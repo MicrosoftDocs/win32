@@ -29,7 +29,7 @@ Static samplers do not have any cost in the size of the root signature.
 
 ## Performance costs
 
-The performance cost (in terms of levels of indirection) are zero for a root constant, 1 for a root descriptor, and 2 for a descriptor table. If a root signature is large and overflows out of the fastest memory into slightly slower memory (which can happen on some hardware), then add 1 to the performance cost for the overflowing items at the end of the root signature.
+The performance costs (in terms of levels of indirection) are zero for a root constant, 1 for a root descriptor, and 2 for a descriptor table. If a root signature is large and overflows out of the fastest memory into slightly slower memory (which can happen on some hardware), then add 1 to the performance cost for the overflowing items at the end of the root signature.
 
 An overflow can occur on hardware that might have, for example, a fixed size of 16 DWORDs for root argument space. This limit might be further reduced by one if the Input Assembler is used. In this case there is overflow into slightly slower memory if the root signature is too large for the 15 or 16 DWORD native memory. In other hardware there is no fixed native root argument memory (so the overflow situation never occurs).
 
