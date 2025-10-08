@@ -62,7 +62,7 @@ Beginning in Windows 10, CNG (Cryptography API: Next Generation) provides pre-de
 
 | Constant | Description | Standards |
 |----------|-------------|-----------|
-| **BCRYPT_RNG_ALG_HANDLE**<br/>0x00000081 | A handle to the random-number generator algorithm. | **Windows 8:** The RNG algorithm supports [FIPS 186-3](https://csrc.nist.gov/pubs/fips/186-3/final). Keys less than or equal to 1024 bits adhere to [FIPS 186-2](https://csrc.nist.gov/pubs/fips/186-2/final) and keys greater than 1024 to [FIPS 186-3](https://csrc.nist.gov/pubs/fips/186-3/final).<br/> **Windows Vista with SP1 and Windows Server 2008:** The random number generator is based on the AES counter mode specified in the [NIST SP 800-90](https://csrc.nist.gov/pubs/sp/800/90/r1/final) standard.<br/> **Windows Vista:** The random number generator is based on the hash-based random number generator specified in the [FIPS 186-2](https://csrc.nist.gov/pubs/fips/186-2/final) standard. |
+| **BCRYPT_RNG_ALG_HANDLE**<br/>0x00000081 | A handle to the random-number generator algorithm. | **Starting with Windows 10:** The RNG algorithm used is AES CTR_DRBG, defined in [SP 800-90A](https://csrc.nist.gov/pubs/sp/800/90/a/r1/final). |
 
 ## Key derivation function (KDF) algorithms
 
