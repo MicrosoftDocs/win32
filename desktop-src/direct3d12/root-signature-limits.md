@@ -37,7 +37,7 @@ For all hardware, if any root argument changes, the driver must maintain a versi
 
 Generally, consider the following guidelines:
 
--   Use a small a root signature as necessary, though balance this with the flexibility of a larger root signature.
+-   Use as small a root signature as necessary, while balancing this with the flexibility of a larger root signature.
 -   Arrange parameters in a large root signature so that the parameters most likely to change often, or if low access latency for a given parameter is important, occur first.
 -   If convenient, use root constants or root constant buffer views over putting constant buffer views in a descriptor heap.
 
