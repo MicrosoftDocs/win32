@@ -65,7 +65,7 @@ BOOL SetPrivilege(
            hToken, 
            FALSE, 
            &tp, 
-           sizeof(TOKEN_PRIVILEGES), 
+           0, 
            (PTOKEN_PRIVILEGES) NULL, 
            (PDWORD) NULL) )
     { 
