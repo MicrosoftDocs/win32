@@ -34,7 +34,7 @@ This method has no parameters.
 
 ## Return value
 
-This method does not return a value.
+This method returns a [Record](https://learn.microsoft.com/en-us/windows/win32/msi/record-object) object containing the requested column data if more rows are available in the result set, otherwise, it returns null.
 
 ## Remarks
 
