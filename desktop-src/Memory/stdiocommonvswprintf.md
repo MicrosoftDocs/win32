@@ -2,7 +2,7 @@
 description: Prints a formatted list of arguments to a character array.
 title: __stdio_common_vswprintf
 ms.topic: reference
-ms.date: 11/21/2023
+ms.date: 10/14/2025
 topic_type:
 - APIRef
 - kbSyntax
@@ -44,7 +44,7 @@ The options that modify the behavior of the function.
 The destination buffer where the formatted output is stored.
 
 *`buffer_count`*\
-The size of the destination buffer in bytes.
+The total capacity of the destination buffer, in wide characters (not bytes), including space for the terminating null character.
 
 *`format`*\
 The format string that specifies how to format the output.
