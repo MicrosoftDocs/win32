@@ -37,7 +37,7 @@ NTSTATUS RtlNtPathNameToDosPathName(
 
 ### Flags [in]
 
-A pointer to a DOS file name path.
+Flags. Must be set to 0.
 
 ### Path [in, out]
 
