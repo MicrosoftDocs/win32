@@ -1,7 +1,6 @@
 ---
 title: IsoEnvBroker interface
-description: Isolation Environment Broker Service.
-ms.assetid: a2c7fa29-47c7-443b-8357-d6782083fa94
+description: Isolation Environment Broker Service performs tasks related to managing background user sessions.
 ms.tgt_platform: multiple
 keywords:
 - IsoEnvBroker
@@ -14,17 +13,14 @@ api_location:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 09/31/2025
+ms.date: 10/24/2025
 ---
 
 # IsoEnvBroker interface
 
-The Isolation Environment Broker is a windows service that performs tasks
-related to managing background user sessions.
+The Isolation Environment Broker is a windows service that performs tasks related to managing background user sessions.
 
-This service is still experimental. The interface below will change on future
-OS releases.
-
+This service is still experimental. The interface below will change on future OS releases.
 
 ## Windows.AI.IsolationEnvironment.idl
 
@@ -106,10 +102,9 @@ namespace Windows.AI.IsolationEnvironment.Preview
 
 ## Requirements
 
-
 | Requirement | Value |
 |-------------------------------------|----------------------------------------|
-| Minimum supported client<br/> | Windows 11<br/>                                                                 |
-| Minimum supported server<br/> | <br/>                                                      |
-| Type library<br/>             | <dl> <dt>IsoEnvBroker.dll</dt> </dl> |
-| DLL<br/>                      | <dl> <dt>IsoEnvBroker.dll</dt> </dl> |
+| Minimum supported client | Windows 11 |
+| Minimum supported server |  |
+| Type library          | IsoEnvBroker.dll |
+| DLL                      | IsoEnvBroker.dll |
