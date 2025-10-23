@@ -1,6 +1,5 @@
 ---
-description: Converts a DOS path name to an NT path name.
-title: RtlNtPathNameToDosPathName function
+description: Converts an NT path name to a DOS path name.
 ms.topic: reference
 ms.date: 10/23/2025
 topic_type: 
