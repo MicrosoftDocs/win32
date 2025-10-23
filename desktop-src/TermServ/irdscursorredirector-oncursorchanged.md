@@ -13,13 +13,12 @@ api_location:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 09/30/2025
+ms.date: 10/24/2025
 ---
 
 # IRdsCursorRedirector::OnCursorChanged method
 
-This is a callback defined by an app hosting a Remote Desktop control, which
-is called when the cursor on the remote session changes.
+This is a callback defined by an app hosting a Remote Desktop control, which is called when the cursor on the remote session changes.
 
 
 ## Syntax
@@ -40,15 +39,11 @@ interface IRdsCursorRedirector: IUnknown
 
 ## Parameters
 
-<dl> <dt>
 *hCursor* \[in\]
-</dt> <dd>
 
 Type: **BYTE***
 
 A handle to a cursor that contains the image of the cursor from the remote session.
-</dd> </dl>
-
 
 ## Return value
 
@@ -58,19 +53,14 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 ## Requirements
 
-
 | Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 8<br/>                                                                   |
-| Minimum supported server<br/> | Windows Server 2012<br/>                                                         |
-| Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
-| DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
-| IID<br/>                      | IID\_IMsRdpClient8 is defined as 4247E044-9271-43A9-BC49-E2AD9E855D62<br/>       |
-
+| Minimum supported client| Windows 8                                                                 |
+| Minimum supported server | Windows Server 2012                                                       |
+| Type library             |MsTscAx.dll |
+| DLL                      |MsTscAx.dll |
+| IID                      | IID\_IMsRdpClient8 is defined as 4247E044-9271-43A9-BC49-E2AD9E855D62      |
 
 ## See also
 
-<dl> <dt>
-
 [**IRdsCursorRedirector**](irdscursorredirector.md)
-</dt> <dt>
