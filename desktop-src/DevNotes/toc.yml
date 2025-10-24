@@ -861,6 +861,8 @@
       href: /windows/win32/api/Winternl/nf-winternl-rtlinitunicodestring
     - name: "RtlMoveMemory"
       href: rtlmovememory.md
+    - name: RtlNtPathNameToDosPathName
+      hred: rtlntpathnametodospathname.md
     - name: "RtlPrefixUnicodeString"
       href: rtlprefixunicodestring.md
     - name: "RtlUnicodeStringToAnsiString"
