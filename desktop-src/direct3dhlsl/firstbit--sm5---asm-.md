@@ -32,7 +32,7 @@ Finds the first bit set in a number, either from LSB or MSB.
 
 ## Remarks
 
-This operation returns the integer position of the first bit set in the 32-bit input starting from the LSB for firstbit\_lo or MSB for firstbit\_hi. For example firstbit\_lo on 0x00000001 returns 0. firstbit\_hi on 0x10000000 returns 3.
+This operation returns the integer position of the first bit set in the 32-bit input starting from the LSB for firstbit\_lo or MSB for firstbit\_hi. For example firstbit\_lo on 0x00000001 returns 0. firstbit\_hi on 0x10000000 returns 28.
 
 firstbit\_shi (s for signed) returns the first 0 from the MSB if the number is negative; otherwise it returns the first 1 from the MSB.
 
