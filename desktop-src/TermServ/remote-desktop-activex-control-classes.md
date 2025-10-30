@@ -197,7 +197,7 @@ Microsoft RDP Client Control (redistributable) - version 13
 
 </dd> <dt>
 
-[**MsRdpClient11NotSafeForScripting**](msrdpclient12notsafeforscripting.md)
+[**MsRdpClient12NotSafeForScripting**](msrdpclient12notsafeforscripting.md)
 </dt> <dd>
 
 Microsoft RDP Client Control - version 13
