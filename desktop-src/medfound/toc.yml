@@ -2937,6 +2937,12 @@
           href: mf-mp2dlna-use-mmcss.md
         - name: "MF_MP2DLNA_VIDEO_BIT_RATE"
           href: mf-mp2dlna-video-bit-rate.md
+        - name: "MF_MPEG4SINK_MAX_CODED_SEQUENCES_PER_FRAGMENT"
+          href: mf-mpeg4sink-max-coded-sequences-per-fragment.md
+        - name: "MF_MPEG4SINK_MIN_FRAGMENT_DURATION"
+          href: mf-mpeg4sink-min-fragment-duration.md
+        - name: "MF_MPEG4SINK_MINIMUM_PROPERTIES_SIZE"
+          href: mf-mpeg4sink-minimum-properties-size.md
         - name: "MF_MPEG4SINK_MOOV_BEFORE_MDAT"
           href: mf-mpeg4sink-moov-before-mdat.md
         - name: "MF_MPEG4SINK_SPSPPS_PASSTHROUGH"
