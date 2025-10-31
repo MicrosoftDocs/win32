@@ -12,7 +12,8 @@ ms.date: 05/31/2018
 
 The following techniques can be used for communication between 32-bit and 64-bit applications:
 
--   64-bit versions of Windows use 32-bit handles for interoperability. When sharing a handle between 32-bit and 64-bit applications, only the lower 32 bits are significant, so it is safe to truncate the handle (when passing it from 64-bit to 32-bit) or sign-extend the handle (when passing it from 32-bit to 64-bit). Handles that can be shared include handles to user objects such as windows (**HWND**), handles to GDI objects such as pens and brushes (**HBRUSH** and **HPEN**), and handles to named objects such as mutexes, semaphores, and file handles.
+-   64-bit versions of Windows use 32-bit handles for interoperability. When sharing a handle between 32-bit and 64-bit applications, only the lower 32 bits are significant, so it is safe to truncate the handle (when passing it from 64-bit to 32-bit) or sign-extend the handle (when passing it from 32-bit to 64-bit). Handles that can be shared include handles to user objects such as windows (**HWND**) and handles to GDI objects such as pens and brushes (**HBRUSH** and **HPEN**).
+-   Named objects created from a 32-bit process can be accessed by 64-bit processes and vice versa (subject to the usual security rules). Named objects include objects such as mutexes, semaphores, and file handles.
 -   Remote procedure calls (RPC) can be used.
 -   COM LocalServers can be used if both 32-bit and 64-bit proxy/stub DLLs are registered for all interfaces used.
 -   Shared memory can be used if pointer-dependent types are converted properly (or avoided).
