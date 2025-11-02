@@ -53,6 +53,5 @@ This function has no associated import library or header file; you must call it 
 |-|-|
 | Minimum supported client | Windows 7 \[desktop apps only\] |
 | Minimum supported server | None supported |
-| End of client support | Windows 7 |
 | Header | N/A |
 | DLL | user32.dll |
