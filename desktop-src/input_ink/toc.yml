@@ -1,0 +1,72 @@
+- name: Ink input
+  href: input-ink-portal.md
+  items: 
+    - name: Ink presenter
+      href: ink-presenter.md
+      items: 
+        - name: Ink presenter classes
+          href: ink-presenter-classes.md
+          items: 
+            - name: InkDesktopHost
+              href: /windows/win32/api/InkPresenterDesktop/
+              items: 
+                - name: CreateAndInitializeInkPresenter method
+                  href: /windows/win32/api/inkpresenterdesktop/nf-inkpresenterdesktop-iinkdesktophost-createandinitializeinkpresenter
+                - name: CreateInkPresenter method
+                  href: /windows/win32/api/inkpresenterdesktop/nf-inkpresenterdesktop-iinkdesktophost-createinkpresenter
+                - name: QueueWorkItem method
+                  href: /windows/win32/api/inkpresenterdesktop/nf-inkpresenterdesktop-iinkdesktophost-queueworkitem
+        - name: Ink presenter interfaces
+          href: ink-presenter-interfaces.md
+          items: 
+            - name: IInkCommitRequestHandler
+              href: /windows/win32/api/InkPresenterDesktop/nn-inkpresenterdesktop-iinkcommitrequesthandler
+              items: 
+                - name: OnCommitRequested method
+                  href: /windows/win32/api/InkPresenterDesktop/nf-inkpresenterdesktop-iinkcommitrequesthandler-oncommitrequested
+            - name: IInkDesktopHost
+              href: /windows/win32/api/InkPresenterDesktop/nn-inkpresenterdesktop-iinkdesktophost
+              items: 
+                - name: CreateAndInitializeInkPresenter method
+                  href: /windows/win32/api/InkPresenterDesktop/nf-inkpresenterdesktop-iinkdesktophost-createandinitializeinkpresenter
+                - name: CreateInkPresenter method
+                  href: /windows/win32/api/InkPresenterDesktop/nf-inkpresenterdesktop-iinkdesktophost-createinkpresenter
+                - name: QueueWorkItem method
+                  href: /windows/win32/api/InkPresenterDesktop/nf-inkpresenterdesktop-iinkdesktophost-queueworkitem
+            - name: IInkHostWorkItem
+              href: /windows/win32/api/InkPresenterDesktop/nn-inkpresenterdesktop-iinkhostworkitem
+              items: 
+                - name: Invoke method
+                  href: /windows/win32/api/InkPresenterDesktop/nf-inkpresenterdesktop-iinkhostworkitem-invoke
+            - name: IInkPresenterDesktop
+              href: /windows/win32/api/InkPresenterDesktop/nn-inkpresenterdesktop-iinkpresenterdesktop
+              items: 
+                - name: GetSize method
+                  href: /windows/win32/api/InkPresenterDesktop/nf-inkpresenterdesktop-iinkpresenterdesktop-getsize
+                - name: OnHighContrastChanged method
+                  href: /windows/win32/api/InkPresenterDesktop/nf-inkpresenterdesktop-iinkpresenterdesktop-onhighcontrastchanged
+                - name: SetCommitRequestHandler method
+                  href: /windows/win32/api/InkPresenterDesktop/nf-inkpresenterdesktop-iinkpresenterdesktop-setcommitrequesthandler
+                - name: SetRootVisual method
+                  href: /windows/win32/api/InkPresenterDesktop/nf-inkpresenterdesktop-iinkpresenterdesktop-setrootvisual
+                - name: SetSize method
+                  href: /windows/win32/api/InkPresenterDesktop/nf-inkpresenterdesktop-iinkpresenterdesktop-setsize
+    - name: Ink renderer
+      href: ink-renderer.md
+      items: 
+        - name: Ink renderer classes
+          href: ink-renderer-classes.md
+          items: 
+            - name: InkD2DRenderer
+              href: /windows/win32/api/inkrenderer/
+              items: 
+                - name: Draw method
+                  href: /windows/win32/api/inkrenderer/nf-inkrenderer-iinkd2drenderer-draw
+        - name: Ink renderer interfaces
+          href: ink-renderer-interfaces.md
+          items: 
+            - name: IInkD2DRenderer
+              href: /windows/win32/api/inkrenderer/nn-inkrenderer-iinkd2drenderer
+              items: 
+                - name: Draw method
+                  href: /windows/win32/api/inkrenderer/nf-inkrenderer-iinkd2drenderer-draw
