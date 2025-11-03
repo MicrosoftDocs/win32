@@ -20,7 +20,7 @@ The following file name extensions are used with the Windows Installer.
 | .mst      | Windows Installer Transform.               |
 | .idt      | Exported Windows Installer Database Table. |
 | .cub      | Validation module.                         |
-| .pcp      | Windows Installer Patch Creation File      |
+| .pcp      | Windows Installer Patch Creation File.     |
 
 
 
