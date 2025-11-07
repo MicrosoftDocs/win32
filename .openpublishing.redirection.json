@@ -1,5 +1,55 @@
 {
   "redirections": [
+    {
+      "source_path": "desktop-src/win_cert/archive--certification-requirements-for-windows-desktop-apps-v1-1.md",
+      "redirect_url": "/previous-versions/windows/win32/win_cert/archive--certification-requirements-for-windows-desktop-apps-v1-1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/win_cert/archive--certification-requirements-for-windows-desktop-apps-v1-2.md",
+      "redirect_url": "/previous-versions/windows/win32/win_cert/archive--certification-requirements-for-windows-desktop-apps-v1-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/win_cert/archive--certification-requirements-for-windows-desktop-apps-v3-0.md",
+      "redirect_url": "/previous-versions/windows/win32/win_cert/archive--certification-requirements-for-windows-desktop-apps-v3-0",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/win_cert/archive--certification-requirements-for-windows-desktop-apps-v3-1.md",
+      "redirect_url": "/previous-versions/windows/win32/win_cert/archive--certification-requirements-for-windows-desktop-apps-v3-1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/win_cert/certification-requirements-for-windows-desktop-apps-v3-3.md",
+      "redirect_url": "/previous-versions/windows/win32/win_cert/certification-requirements-for-windows-desktop-apps-v3-3",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/win_cert/certification-requirements-for-windows-desktop-apps.md",
+      "redirect_url": "/previous-versions/windows/win32/win_cert/certification-requirements-for-windows-desktop-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/win_cert/using-the-windows-app-certification-kit.md",
+      "redirect_url": "/previous-versions/windows/win32/win_cert/using-the-windows-app-certification-kit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/win_cert/what-are-the-benefits-.md",
+      "redirect_url": "/previous-versions/windows/win32/win_cert/what-are-the-benefits-",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/win_cert/windows-app-certification-kit-tests.md",
+      "redirect_url": "/previous-versions/windows/win32/win_cert/windows-app-certification-kit-tests",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/win_cert/windows-certification-portal.md",
+      "redirect_url": "/previous-versions/windows/win32/win_cert/windows-certification-portal",
+      "redirect_document_id": false
+    },
       {
             "source_path": "desktop-src/EventLog/viewing-the-event-log.md",
             "redirect_url": "/windows/win32/eventlog/event-logging",
