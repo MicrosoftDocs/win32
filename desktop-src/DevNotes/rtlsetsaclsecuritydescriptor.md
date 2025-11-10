@@ -22,7 +22,7 @@ Adds the suppled SACL to the specified security descriptor.
 
 
 ```cpp
-NTSTATUS RtlSetSaclSecurityDescriptor (
+NTSTATUS NTAPI RtlSetSaclSecurityDescriptor (
     PSECURITY_DESCRIPTOR SecurityDescriptor,
     BOOLEAN SaclPresent,
     PACL Sacl,
