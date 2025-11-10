@@ -22,7 +22,7 @@ Sets the control bits of a security descriptor.
 
 
 ```cpp
-RtlSetControlSecurityDescriptor (
+NTSTATUS RtlSetControlSecurityDescriptor (
      IN PSECURITY_DESCRIPTOR pSecurityDescriptor,
      IN SECURITY_DESCRIPTOR_CONTROL ControlBitsOfInterest,
      IN SECURITY_DESCRIPTOR_CONTROL ControlBitsToSet
