@@ -864,7 +864,7 @@
     - name: RtlNtPathNameToDosPathName
       hred: rtlntpathnametodospathname.md
     - name: "RtlPrefixUnicodeString"
-      href: rtlprefixunicodestring.
+      href: rtlprefixunicodestring.md
     - name: "RtlSetControlSecurityDescriptor"
       href: rtlsetcontrolsecuritydescriptor.md
     - name: "RtlSetSaclSecurityDescriptor"
