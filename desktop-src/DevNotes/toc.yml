@@ -864,7 +864,11 @@
     - name: RtlNtPathNameToDosPathName
       hred: rtlntpathnametodospathname.md
     - name: "RtlPrefixUnicodeString"
-      href: rtlprefixunicodestring.md
+      href: rtlprefixunicodestring.
+    - name: "RtlSetControlSecurityDescriptor"
+      href: rtlsetcontrolsecuritydescriptor.md
+    - name: "RtlSetSaclSecurityDescriptor"
+      href: rtlsetsaclsecuritydescriptor.md
     - name: "RtlUnicodeStringToAnsiString"
       href: /windows/win32/api/Winternl/nf-winternl-rtlunicodestringtoansistring
     - name: "RtlUnicodeStringToOemString"
