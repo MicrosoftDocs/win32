@@ -1,8 +1,8 @@
 ---
 title: FWEnumFirewallRules
-description: TBD
+description: Requests the server to return all the firewall rules contained in the specified store.
 ms.topic: reference
-ms.date: 11/11/2025
+ms.date: 11/12/2025
 req.lib: 
 req.dll: FirewallAPI.dll
 topic_type:
@@ -20,7 +20,7 @@ ms.localizationpriority: low
 
 # FWEnumFirewallRules function
 
-TBD
+Requests the server to return all the firewall rules contained in the specified store.
 
 See **Remarks** for info about how to call the function.
 
@@ -45,27 +45,27 @@ An opened policy store **HANDLE** that was successfully opened by using the [FWO
 
 `dwFilteredByStatus`
 
-Bit-flags from **FW_RULE_STATUS_CLASS**.
+A combination of flags from the **FW_RULE_STATUS_CLASS** enumeration. The function uses this bitmask to determine which rules will be returned. Rules that contain a status code from the class specified by this parameter will be returned.
 
 `dwProfileFilter`
 
-Bit-flags from **FW_PROFILE_TYPE**.
+A combination of flags from the **FW_PROFILE_TYPE** enumeration. The function uses this bitmask to determine which rules will be returned. Rules that contain a profile specified by this parameter will be returned.
 
 `wFlags`
 
-Bit-flags from **FW_ENUM_RULES_FLAGS**.
+A combination of flags from the **FW_ENUM_RULES_FLAGS** enumeration, which modifies the behavior of the function, and performs operations on the rules before returning them.
 
 `pdwNumRules`
 
-TBD
+This output parameter, if the function completes successfully, is equal to the number of rules returned.
 
 `ppRules`
 
-TBD
+This output parameter, if the function completes successfully, contains a linked list of [FW_RULE2_27](/openspecs/windows_protocols/ms-fasp/a6175371-a526-4e65-a14e-1929fd60dcec) data types.
 
 ## Return value
 
-TBD
+0 if successful. If it fails, it returns a nonzero error code, as specified in [MS-ERREF](/openspecs/windows_protocols/ms-erref/1bc92ddf-b79e-413c-bbaa-99a5281a6c90).
 
 ## Remarks
 

@@ -1,8 +1,8 @@
 ---
 title: FWDeleteFirewallRule
-description: TBD
+description: Requests the server to delete the specified firewall rule in the policy contained in the specified policy store.
 ms.topic: reference
-ms.date: 11/11/2025
+ms.date: 11/12/2025
 req.lib: 
 req.dll: FirewallAPI.dll
 topic_type:
@@ -20,7 +20,7 @@ ms.localizationpriority: low
 
 # FWDeleteFirewallRule function
 
-TBD
+Requests the server to delete the specified firewall rule in the policy contained in the specified policy store.
 
 See **Remarks** for info about how to call the function.
 
@@ -41,11 +41,11 @@ An opened policy store **HANDLE** that was successfully opened by using the [FWO
 
 `wszRuleID`
 
-TBD
+A pointer to a string that is the ID of the firewall rule the client wants to delete from the specified store.
 
 ## Return value
 
-TBD
+0 if successful. If it fails, it returns a nonzero error code, as specified in [MS-ERREF](/openspecs/windows_protocols/ms-erref/1bc92ddf-b79e-413c-bbaa-99a5281a6c90).
 
 ## Remarks
 
