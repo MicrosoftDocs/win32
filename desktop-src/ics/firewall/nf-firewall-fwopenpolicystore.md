@@ -1,8 +1,8 @@
 ---
 title: FWOpenPolicyStore
-description: TBD
+description: Requests the server to open the specified policy store. The store can be opened for reading or for editing the firewall policy.
 ms.topic: reference
-ms.date: 11/11/2025
+ms.date: 11/12/2025
 req.lib: 
 req.dll: FirewallAPI.dll
 topic_type:
@@ -20,7 +20,7 @@ ms.localizationpriority: low
 
 # FWOpenPolicyStore function
 
-TBD
+Requests the server to open the specified policy store. The store can be opened for reading or for editing the firewall policy. Via this function, you also retrieve a handle to the opened store, with which you can then perform operations on the policy store. The server allocates a policy store connection object to track the policy store type and the binary version associated with the handle.
 
 See **Remarks** for info about how to call the function.
 
@@ -41,7 +41,7 @@ DWORD WINAPI FWOpenPolicyStore(
 
 `wBinaryVersion`
 
-TBD
+Specifies the RPC interface binary version. This implies versions of the methods and versions of the structures. This value must be a valid protocol version.
 
 `wszMachineOrGPO`
 
@@ -49,23 +49,23 @@ The object to connect to. A machine name or a GPO path. **NULL** for local machi
 
 `StoreType`
 
-TBD
+The policy store type that the client wants to open.
 
 `AccessRight`
 
-TBD
+The read or read/write access rights that the client is requesting on the store.
 
 `dwFlags`
 
-TBD
+Not used. The server ignores this parameter; the client should pass a value of zero.
 
 `phPolicyStore`
 
-TBD
+An output parameter that provides a pointer to an opened policy store **HANDLE**. If successful, this parameter contains a handle to the opened store.
 
 ## Return value
 
-TBD
+0 if successful. If it fails, it returns a nonzero error code, as specified in [MS-ERREF](/openspecs/windows_protocols/ms-erref/1bc92ddf-b79e-413c-bbaa-99a5281a6c90).
 
 ## Remarks
 
