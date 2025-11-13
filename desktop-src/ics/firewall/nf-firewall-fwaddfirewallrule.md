@@ -41,7 +41,7 @@ An opened policy store **HANDLE** that was successfully opened by using the [FWO
 
 `pRule`
 
-The firewall rule that the client wants to add to the store. The rule must be a valid rule, as specified in the definition of the [FW_RULE2_27](/openspecs/windows_protocols/ms-fasp/a6175371-a526-4e65-a14e-1929fd60dcec) data type.
+A pointer to an [FW_RULE](./ns-firewall-fw_rule.md) containing The firewall rule that the client wants to add to the store. The rule must be a valid rule, as specified in the definition of the [FW_RULE2_27](/openspecs/windows_protocols/ms-fasp/a6175371-a526-4e65-a14e-1929fd60dcec) data type.
 
 ## Return value
 
