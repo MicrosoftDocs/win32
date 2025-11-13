@@ -61,7 +61,7 @@ This output parameter, if the function completes successfully, is equal to the n
 
 `ppRules`
 
-This output parameter, if the function completes successfully, contains a linked list of [FW_RULE2_27](/openspecs/windows_protocols/ms-fasp/a6175371-a526-4e65-a14e-1929fd60dcec) data types.
+A pointer to a pointer to an [FW_RULE](./ns-firewall-fw_rule.md). This output parameter, if the function completes successfully, contains a linked list of [FW_RULE2_27](/openspecs/windows_protocols/ms-fasp/a6175371-a526-4e65-a14e-1929fd60dcec) data types.
 
 ## Return value
 
