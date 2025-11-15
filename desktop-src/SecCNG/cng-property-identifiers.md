@@ -1,14 +1,14 @@
 ---
-description: Used with the BCryptGetProperty and BCryptSetProperty functions to identify a property.
+description: Learn about cryptography primitive property identifiers used with BCryptGetProperty and BCryptSetProperty functions to identify properties.
 ms.assetid: ebcc8202-94b4-47ad-9918-e5bc843a258f
 title: Cryptography Primitive Property Identifiers (Bcrypt.h)
 ms.topic: reference
-ms.date: 05/08/2025
+ms.date: 11/13/2025
 ---
 
 # Cryptography Primitive Property Identifiers
 
-The following values are used with the [BCryptGetProperty](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptgetproperty) and [BCryptSetProperty](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptsetproperty) functions to identify a property.
+This article explains the cryptography primitive property identifiers used with the [BCryptGetProperty](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptgetproperty) and [BCryptSetProperty](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptsetproperty) functions. Learn how these values help identify properties in cryptographic algorithms.
 
 <dl> <dt>
 
@@ -63,10 +63,10 @@ A pointer to a null-terminated Unicode string that represents the chaining mode 
 | Identifier | Value | Description |
 |------------|-------|-------------|
 | **BCRYPT\_CHAIN\_MODE\_CBC** | L"ChainingModeCBC" | Sets the algorithm's chaining mode to [cipher block chaining](/windows/win32/SecGloss/c-gly). |
-| **BCRYPT\_CHAIN\_MODE\_CCM** | L"ChainingModeCCM" | Sets the algorithm's chaining mode to counter with CBC-MAC mode (CCM).<br/>**Windows Vista:** This value is supported beginning with Windows Vista with SP1. |
+| **BCRYPT\_CHAIN\_MODE\_CCM** | L"ChainingModeCCM" | Sets the algorithm's chaining mode to counter with CBC-MAC mode (CCM).<br/>Supports key lengths of 128, 192, and 256 bits.<br/><br/>**Note:** This value is supported beginning with Windows Vista with SP1. |
 | **BCRYPT\_CHAIN\_MODE\_CFB** | L"ChainingModeCFB" | Sets the algorithm's chaining mode to [cipher feedback](/windows/win32/SecGloss/c-gly). |
 | **BCRYPT\_CHAIN\_MODE\_ECB** | L"ChainingModeECB" | Sets the algorithm's chaining mode to [electronic codebook](/windows/win32/SecGloss/e-gly). |
-| **BCRYPT\_CHAIN\_MODE\_GCM** | L"ChainingModeGCM" | Sets the algorithm's chaining mode to Galois/counter mode (GCM).<br/>**Windows Vista:** This value is supported beginning with Windows Vista with SP1. |
+| **BCRYPT\_CHAIN\_MODE\_GCM** | L"ChainingModeGCM" | Sets the algorithm's chaining mode to Galois/counter mode (GCM).<br/>Supports key lengths of 128, 192, and 256 bits.<br/><br/>**Note:** This value is supported beginning with Windows Vista with SP1. |
 | **BCRYPT\_CHAIN\_MODE\_NA**  | L"ChainingModeN/A" | The algorithm does not support chaining. |
 
 </dt> </dl> </dd> <dt>
