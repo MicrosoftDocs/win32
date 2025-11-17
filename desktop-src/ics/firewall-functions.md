@@ -15,4 +15,5 @@ Windows Firewall with Advanced Security contains the following functions.
 * [FWClosePolicyStore](./firewall/nf-firewall-fwclosepolicystore.md)
 * [FWDeleteFirewallRule](./firewall/nf-firewall-fwdeletefirewallrule.md)
 * [FWEnumFirewallRules](./firewall/nf-firewall-fwenumfirewallrules.md)
+* [FWFreeFirewallRules](./firewall/nf-firewall-fwfreefirewallrules.md)
 * [FWOpenPolicyStore](./firewall/nf-firewall-fwopenpolicystore.md)
