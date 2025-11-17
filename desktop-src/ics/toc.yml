@@ -55,5 +55,9 @@
         href: ./firewall/nf-firewall-fwdeletefirewallrule.md
       - name: "FWEnumFirewallRules"
         href: ./firewall/nf-firewall-fwenumfirewallrules.md
+      - name: "FWFreeFirewallRules"
+        href: ./firewall/nf-firewall-fwfreefirewallrules.md
       - name: "FWOpenPolicyStore"
         href: ./firewall/nf-firewall-fwopenpolicystore.md
+    - name: "Windows Firewall with Advanced Security enums and structs"
+      href: firewall-enums-structs.md

@@ -2,7 +2,7 @@
 title: FWEnumFirewallRules
 description: Requests the server to return all the firewall rules contained in the specified store.
 ms.topic: reference
-ms.date: 11/12/2025
+ms.date: 11/14/2025
 req.lib: 
 req.dll: FirewallAPI.dll
 topic_type:
@@ -80,3 +80,7 @@ This function does not have an associated header file or library file. Your appl
 | **Header** | None |
 | **Library** | None |
 | **DLL** | FirewallAPI.dll |
+
+## See also
+
+* [Windows Firewall with Advanced Security enums and structs](../firewall-enums-structs.md)

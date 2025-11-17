@@ -1,8 +1,8 @@
 ---
-title: FWAddFirewallRule
-description: Requests the server to add the specified firewall rule in the policy contained in the specified policy store.
+title: FWFreeFirewallRules
+description: Requests the server to free rules previously retrieved from the FWEnumFirewallRules function.
 ms.topic: reference
-ms.date: 11/14/2025
+ms.date: 11/17/2025
 req.lib: 
 req.dll: FirewallAPI.dll
 topic_type:
@@ -13,35 +13,30 @@ api_type:
 api_location:
 - FirewallAPI.dll
 api_name:
-- FWAddFirewallRule
+- FWFreeFirewallRules
 targetos: Windows
 ms.localizationpriority: low
 ---
 
-# FWAddFirewallRule function
+# FWFreeFirewallRules function
 
-Requests the server to add the specified firewall rule in the policy contained in the specified policy store.
+Requests the server to free rules previously retrieved from the [FWEnumFirewallRules](./nf-firewall-fwfreefirewallrules.md) function.
 
 See **Remarks** for info about how to call the function.
 
 ## Syntax
 
 ```cpp
-DWORD WINAPI FWAddFirewallRule(
-  FW_POLICY_STORE_HANDLE hPolicyStore,
-  FW_RULE*               pRule,
+DWORD WINAPI FWFreeFirewallRules(
+  FW_RULE* pRules
 );
 ```
 
 ## Parameters
 
-`hPolicyStore`
-
-An opened policy store **HANDLE** that was successfully opened by using the [FWOpenPolicyStore](./nf-firewall-fwopenpolicystore.md) function. The handle must have read/write access rights.
-
 `pRule`
 
-A pointer to an [FW_RULE](./ns-firewall-fw_rule.md) containing The firewall rule that the client wants to add to the store. The rule must be a valid rule, as specified in the definition of the [FW_RULE2_27](/openspecs/windows_protocols/ms-fasp/a6175371-a526-4e65-a14e-1929fd60dcec) data type.
+A pointer to the linked list of [FW_RULE](./ns-firewall-fw_rule.md) previously retrieved from the [FWEnumFirewallRules](./nf-firewall-fwfreefirewallrules.md) function.
 
 ## Return value
 

@@ -2,7 +2,7 @@
 title: FW_RULE
 description: TBD
 ms.topic: reference
-ms.date: 11/13/2025
+ms.date: 11/14/2025
 tech.root: ics
 topic_type:
 - APIRef
@@ -84,7 +84,7 @@ struct FW_RULE
 
 	FW_NETWORK_NAMES OnNetworkNames;
 
-  WCHAR* wszSecurityRealmId;
+    WCHAR* wszSecurityRealmId;
 
 	WORD wFlags2;
 
@@ -261,3 +261,7 @@ TBD
 | **Minimum supported client** | Windows 11, version 23H2 [desktop apps only] |
 | **Target Platform** | Windows |
 | **Header** | None |
+
+## See also
+
+* [Windows Firewall with Advanced Security enums and structs](../firewall-enums-structs.md)
