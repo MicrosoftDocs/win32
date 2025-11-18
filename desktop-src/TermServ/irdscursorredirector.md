@@ -14,7 +14,7 @@ api_location:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 09/31/2025
+ms.date: 11/18/2025
 ---
 
 # IRdsCursorRedirector interface
@@ -51,10 +51,10 @@ interface IRdsCursorRedirector: IUnknown
 
 | Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 11<br/>                                                                 |
-| Minimum supported server<br/> | <br/>                                                      |
-| Type library<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl> |
-| DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl> |
-| IID<br/>                      | IID\_IRdsCursorRedirector is defined as 54ee23c4-8d8b-4911-9f24-db0d4ac1fec4<br/>     |
+| Minimum supported client | Windows 11                                                                 |
+| Minimum supported server |                                                    |
+| Type library            | <dl> <dt>MsTscAx.dll |
+| DLL                     | <dl> <dt>MsTscAx.dll |
+| IID                     | IID\_IRdsCursorRedirector is defined as 54ee23c4-8d8b-4911-9f24-db0d4ac1fec4    |
 
 
