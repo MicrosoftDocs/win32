@@ -143,7 +143,7 @@ To mitigate this compatibility issue, the cloud files API always hides its repar
 
 ## Cloud files search
 
-Cloud files search is supported in Windows 11, version 24H2 and later on [Copilot+ PCs](https://www.microsoft.com/windows/copilot-plus-pcs). The following features are available for cloud storage providers to integrate with the Windows Search experience:
+Cloud files search is supported in Windows 11, version 24H2 and later on [Copilot+ PCs](https://www.microsoft.com/windows/copilot-plus-pcs) or [AI-enabled Cloud PCs](/windows-365/enterprise/ai-enabled-cloud-pcs). The following features are available for cloud storage providers to integrate with the Windows Search experience:
 
 - Cloud storage providers can register a file search handler for their sync root, enabling them to contribute search results to File Explorer and Windows Search.
 - Cloud storage providers register a search handler by setting the **SearchHandlerFactory** registry value under their sync root registry key to the CLSID of their COM local server object. This local server object implements the [IStorageProviderSearchHandlerFactory](/uwp/api/windows.storage.provider.istorageprovidersearchhandlerfactory) interface.

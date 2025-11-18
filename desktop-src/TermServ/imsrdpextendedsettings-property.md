@@ -18,7 +18,7 @@ api_location:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 10/24/2025
 ---
 
 # IMsRdpExtendedSettings::Property property
@@ -80,8 +80,9 @@ The named property value.
 | GatewayCertificateLogonAuthority  |VT_BSTR  |W  |No  |This property is not supported anymore. It is subject to removal in future versions of Windows. Do not use this property.  |
 | EnableRemoteEdgeBar  |VT_BOOL  |R/W  |No  |If **True** and the **ServerSupportsEdgeActions** property is **True**, additional commands are shown in the connection toolbar of the remote session.  |
 | TSGTransportIsUsed  |VT_BOOL  |R  |N/A  |If **True**, a Remote Desktop gateway is in use for the associated remote session.  |
-| DiagnosticsInfo  |VT_BSTR  |W  |No  |A hexadecimal string representing the **rdpCorrelationInfo.correlationId** field of the [Client X.224 Connection Request PDU](/openspecs/windows_protocols/ms-rdpbcgr/aaaa0000-bb11-2222-33cc-444444dddddd).  |
+| DiagnosticsInfo  |VT_BSTR  |W  |No  |A hexadecimal string representing the **rdpCorrelationInfo.correlationId** field of the [Client X.224 Connection Request PDU](/openspecs/windows_protocols/ms-rdpbcgr/18a27ef9-6f9a-4501-b000-94b1fe3c2c10).  |
 | EndpointFedAuth  |VT_BSTR  |W  |No  |The token used for claim-based federated [RDSTLS authentication](/openspecs/windows_protocols/ms-rdpbcgr/2aa353a2-2e46-4bb7-84ef-9354eb07a25f).  |
+| ConnectToAgentSession | **VT\_BOOL** | Read/Write | Yes | Introduced in Windows 11 version 24H2. Setting this property to **True** causes the client control to connect to a session on the local machine instead of a remote server. See [Agent Sessions](agent-sessions.md). |
 | AllowAxToContainerEvents  |VT_BOOL  |W  |No  |This property was added in Windows 11 22H2. <ul><li>If **False** (default behavior starting in Windows 11 22H2), CTRL+ALT+ARROW key combinations are sent to the remote session.</li><li>If **True** (default behavior before Windows 11 22H2), CTRL+ALT+ARROW key combinations raises a [IMsTscAxEvents::OnFocusReleased](/windows/win32/termserv/imstscaxevents-onfocusreleased) event to the application.</li></ul> |
 | ServerSupportsEdgeActions  |VT_BOOL  |R  |N/A  |Read-only property to determine whether the remote session has the **RNS_UD_SC_EDGE_ACTIONS_SUPPORTED_V1** capability [https://learn.microsoft.com/openspecs/windows_protocols/ms-rdpbcgr/379a020e-9925-4b4f-98f3-7d634e10b411](/openspecs/windows_protocols/ms-rdpbcgr/379a020e-9925-4b4f-98f3-7d634e10b411).  |
 | AppContainerID  |VT_BSTR  |W  |No  |The AppContainer ID passed to [IWorkspaceScriptable3::StartWorkspaceEx2](/windows/win32/api/workspaceruntime/nf-workspaceruntime-iworkspacescriptable3-startworkspaceex2) when [IMsRdpClientNonScriptable8::StartWorkspaceExtension](/windows/win32/termserv/imsrdpclientnonscriptable8-startworkspaceextension) is invoked.<br>Note: The RemoteApp and Desktop Connections control panel is no longer in active development. It may be altered or unavailable in future versions of Windows. The use of this API is discouraged. |
@@ -102,6 +103,8 @@ The named property value.
 | allowed security protocols | VT_BSTR | W | No | Introduced in Windows 11 version 24H2. This property is used to restrict the list of security protocols the client can negotiate. The actual list of negotiated protocols is determined by other configuration settings and the connection scenario, and can be smaller than the list specified in this property. The value must contain the list of protocol names separated by ';' or the value can be set to "*" which means that all normally negotiated protocols are allowed. Supported protocol names are: "TLS", "CredSSP", "RDSTLS" and "RDS AAD Auth" The default value is "*". |
 | AllowRelativeMouseMode | VT_BOOL | R/W | No | Introduced in Windows 11 version 24H2. If True, mouse movements are represented relative to the current mouse position. |
 | RemoteAppMouseMoveInject | VT_BOOL | W |No | Introduced in Windows 11 version 24H2. Writing True to this property forces the injection of a mouse move when the cursor leaves a RemoteApp window. This is intended to be a workaround for a tooltip bug. |
+| FrameBufferRedirectionPresenter | IUnknown | W |No | Introduced in Windows 11 version 24H2. Requests raw bytes representing the frame buffer when they change. See [IRdsFbrPresenter](irdsfbrpresenter.md) |
+| CursorRedirector | IUnknown | W |No | Introduced in Windows 11 version 24H2. Get the handle to the cursor image representing the remote session when it changes. See [IRdsCursorRedirector](irdscursorredirector.md) |
 
 
  
