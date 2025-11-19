@@ -76,7 +76,7 @@ This function is supported in the following shader models.
 
 | Shader Model                                                                | Supported |
 |-----------------------------------------------------------------------------|-----------|
-| [Shader Model 5](d3d11-graphics-reference-sm5.md) and higher shader models | yes       |
+| [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) and higher shader models | yes       |
 
 
 
