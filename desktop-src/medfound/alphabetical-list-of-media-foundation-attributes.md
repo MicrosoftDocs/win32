@@ -146,6 +146,9 @@ This section contains an alphabetical list of Microsoft Media Foundation attribu
 | [MF\_MP2DLNA\_STATISTICS](mf-mp2dlna-statistics.md) | Gets statistics from the DLNA media sink. |
 | [MF\_MP2DLNA\_USE\_MMCSS](mf-mp2dlna-use-mmcss.md) | Specifies whether the DLNA media sink uses the Multimedia Class Scheduler Service (MMCSS) |
 | [MF\_MP2DLNA\_VIDEO\_BIT\_RATE](mf-mp2dlna-video-bit-rate.md) | Specifies the maximum video bit rate for the DLNA media sink. |
+| [MF\_MPEG4SINK\_MAX\_CODED\_SEQUENCES\_PER\_FRAGMENT](mf-mpeg4sink-minimum-properties-size.md) | Specifies the maximum number of coded sequences which the MPEG4 sink will place in each fragment when operating in fragmented mode. |
+| [MF\_MPEG4SINK\_MIN\_FRAGMENT\_DURATION](mf-mpeg4sink-min-fragment-duration.md) | Specifies the minimum duration in hns of each fragment which the MPEG4 sink produces when operating in fragmented mode. |
+| [MF\_MPEG4SINK\_MINIMUM\_PROPERTIES\_SIZE](mf-mpeg4sink-minimum-properties-size.md) | Tells the MPEG-4 MediaSink how much space to reserve in the MP4 file format header for metadata properties. |
 | [MF\_MPEG4SINK\_MOOV\_BEFORE\_MDAT](mf-mpeg4sink-moov-before-mdat.md) | Indicates that 'moov' will be written before 'mdat' box in the generated file. |
 | [MF\_MPEG4SINK\_SPSPPS\_PASSTHROUGH](mf-mpeg4sink-spspps-passthrough.md) | Specifies whether the [**MPEG-4 File Sink**](mpeg-4-file-sink.md) filters out sequence parameter set (SPS) and picture parameter set (PPS) NALUs. |
 | [MF\_MSE\_ACTIVELIST\_CALLBACK](mf-mse-activelist-callback.md) | Contains a pointer to the application's callback interface for the [**IMFBufferListNotify**](/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfbufferlistnotify) interface for the active buffer list. |
