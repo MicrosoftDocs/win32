@@ -92,7 +92,7 @@ The MPEG-4 file sink creates the MPEG-4 variant of the MP3 sample description bo
 
 ## Limitations
 
--   The maximum size of the authored file is 4 GB. In Windows 8, files large than 4 GBGB are supported.
+-   The maximum size of the authored file is 4 GB. In Windows 8, files large than 4 GB are supported.
 -   The MPEG-4 file sink does not support edit lists ('edts' and 'elst' boxes).
 
 ## Windows 8 updates to MPEG-4 source and sink
