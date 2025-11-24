@@ -1,6 +1,61 @@
 {
   "redirections": [
     {
+      "source_path": "desktop-src/DevNotes/ctl3dautosubclass.md",
+      "redirect_url": "/previous-versions/windows/win32/DevNotes/ctl3dautosubclass",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/DevNotes/ctl3dcolorchange.md",
+      "redirect_url": "/previous-versions/windows/win32/DevNotes/ctl3dcolorchange",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/DevNotes/ctl3dctlcolorex.md",
+      "redirect_url": "/previous-versions/windows/win32/DevNotes/ctl3dctlcolorex",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/DevNotes/ctl3denabled.md",
+      "redirect_url": "/previous-versions/windows/win32/DevNotes/ctl3denabled",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/DevNotes/ctl3dgetver.md",
+      "redirect_url": "/previous-versions/windows/win32/DevNotes/ctl3dgetver",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/DevNotes/ctl3dregister.md",
+      "redirect_url": "/previous-versions/windows/win32/DevNotes/ctl3dregister",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/DevNotes/ctl3dsubclassctl.md",
+      "redirect_url": "/previous-versions/windows/win32/DevNotes/ctl3dsubclassctl",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/DevNotes/ctl3dsubclassdlgex.md",
+      "redirect_url": "/previous-versions/windows/win32/DevNotes/ctl3dsubclassdlgex",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/DevNotes/ctl3dunautosubclass.md",
+      "redirect_url": "/previous-versions/windows/win32/DevNotes/ctl3dunautosubclass",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/DevNotes/ctl3dunregister.md",
+      "redirect_url": "/previous-versions/windows/win32/DevNotes/ctl3dunregister",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/DevNotes/ctl3dunsubclassctl.md",
+      "redirect_url": "/previous-versions/windows/win32/DevNotes/ctl3dunsubclassctl",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "desktop-src/win_cert/archive--certification-requirements-for-windows-desktop-apps-v1-1.md",
       "redirect_url": "/previous-versions/windows/win32/win_cert/archive--certification-requirements-for-windows-desktop-apps-v1-1",
       "redirect_document_id": false
