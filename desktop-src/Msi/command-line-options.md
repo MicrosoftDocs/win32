@@ -167,5 +167,8 @@ When you apply patches to a specific product, the /i and /p options cannot be sp
 
 The [**PATCH**](patch.md) property cannot be set in a command line, when /p option is used. If the **PATCH** property is set when the /p option is used, the value of **PATCH** property is ignored and overwritten.
 
+The following example shows you how to uninstall a product.
+
+**msiexec /x msisample.msi**
  
 
