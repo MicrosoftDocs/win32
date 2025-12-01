@@ -1,6 +1,6 @@
 ---
 title: LB_INITSTORAGE message (Winuser.h)
-description: Allocates memory for storing list box items. This message is used before an application adds a large number of items to a list box.
+description: Allocates memory for storing list box items. This message can be used before an application adds a large number of items to a list box.
 ms.assetid: abc49049-3424-46c6-981a-b858afe88883
 keywords:
 - LB_INITSTORAGE message Windows Controls
@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # LB\_INITSTORAGE message
 
-Allocates memory for storing list box items. This message is used before an application adds a large number of items to a list box.
+Allocates memory for storing list box items. This message can be used before an application adds a large number of items to a list box.
 
 ## Parameters
 
@@ -27,7 +27,7 @@ Allocates memory for storing list box items. This message is used before an appl
 *wParam* 
 </dt> <dd>
 
-The number of items to add.
+The number of items for which to reserve space.
 
 Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* parameter is limited to 16-bit values. This means list boxes cannot contain more than 32,767 items. Although the number of items is restricted, the total size in bytes of the items in a list box is limited only by available memory.
 
@@ -36,13 +36,13 @@ Windows 95/Windows 98/Windows Millennium Edition (Windows Me) : The *wParam* par
 *lParam* 
 </dt> <dd>
 
-The amount of memory, in bytes, to allocate for item strings.
+The amount of additional memory, in bytes, to allocate for item strings.
 
 </dd> </dl>
 
 ## Return value
 
-If the message is successful, the return value is the total number of items for which memory has been pre-allocated, that is, the total number of items added by all successful **LB\_INITSTORAGE** messages.
+If the message is successful, the return value is the total number of items that the list box can store before a memory reallocation is needed.
 
 If the message fails, the return value is LB\_ERRSPACE.
 
@@ -50,7 +50,9 @@ Microsoft Windows NT 4.0 : This message does not allocate the specified amount o
 
 ## Remarks
 
-The **LB\_INITSTORAGE** message helps speed up the initialization of list boxes that have a large number of items (more than 100). It reserves the specified amount of memory so that subsequent [**LB\_ADDSTRING**](lb-addstring.md), [**LB\_INSERTSTRING**](lb-insertstring.md), [**LB\_DIR**](lb-dir.md), and [**LB\_ADDFILE**](lb-addfile.md) messages take the shortest possible time. You can use estimates for the *wParam* and *lParam* parameters. If you overestimate, the extra memory is allocated; if you underestimate, the normal allocation is used for items that exceed the requested amount.
+The **LB\_INITSTORAGE** message helps speed up the initialization of list boxes that have a large number of items (more than 100). It reserves the specified amount of memory so that subsequent [**LB\_ADDSTRING**](lb-addstring.md), [**LB\_INSERTSTRING**](lb-insertstring.md), [**LB\_DIR**](lb-dir.md), and [**LB\_ADDFILE**](lb-addfile.md) messages are more efficient. You can use estimates for the *wParam* and *lParam* parameters. If you overestimate, the extra memory remains allocated; if you underestimate, the list box will allocate additional memory as necessary.
+
+The memory required to store a string includes the null terminator. Therefore, if you plan to add 100 strings, each with a length of 10 characters, you would pass a *wParam* of 100 and an *lParam* of 100 &times; (10 + 1) &times; sizeof(TCHAR).
 
 ## Requirements
 
