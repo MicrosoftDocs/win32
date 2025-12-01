@@ -47,10 +47,7 @@ Example from [Windows Classic Samples](https://github.com/microsoft/Windows-clas
 *wParam* 
 </dt> <dd>
 
-The type of system command requested. This parameter can be one of the following values.
-
-
-
+The type of system command requested. The four low-order bits of the *wParam* parameter are used internally by the system. Bits 4-15 contain a command code which can be one of the following values.
 
 | Value | Meaning | 
 |-------|---------|
@@ -59,7 +56,6 @@ The type of system command requested. This parameter can be one of the following
 | <span id="SC_DEFAULT"></span><span id="sc_default"></span><dl><dt><strong>SC_DEFAULT</strong></dt><dt>0xF160</dt></dl> | Selects the default item; the user double-clicked the window menu.<br /> | 
 | <span id="SC_HOTKEY"></span><span id="sc_hotkey"></span><dl><dt><strong>SC_HOTKEY</strong></dt><dt>0xF150</dt></dl> | Activates the window associated with the application-specified hot key. The <em>lParam</em> parameter identifies the window to activate.<br /> | 
 | <span id="SC_HSCROLL"></span><span id="sc_hscroll"></span><dl><dt><strong>SC_HSCROLL</strong></dt><dt>0xF080</dt></dl> | Scrolls horizontally.<br /> | 
-| <span id="SCF_ISSECURE"></span><span id="scf_issecure"></span><dl><dt><strong>SCF_ISSECURE</strong></dt><dt>0x00000001</dt></dl> | Indicates whether the screen saver is secure. <br /> | 
 | <span id="SC_KEYMENU"></span><span id="sc_keymenu"></span><dl><dt><strong>SC_KEYMENU</strong></dt><dt>0xF100</dt></dl> | Retrieves the window menu as a result of a keystroke. For more information, see the Remarks section.<br /> | 
 | <span id="SC_MAXIMIZE"></span><span id="sc_maximize"></span><dl><dt><strong>SC_MAXIMIZE</strong></dt><dt>0xF030</dt></dl> | Maximizes the window.<br /> | 
 | <span id="SC_MINIMIZE"></span><span id="sc_minimize"></span><dl><dt><strong>SC_MINIMIZE</strong></dt><dt>0xF020</dt></dl> | Minimizes the window.<br /> | 
@@ -74,10 +70,12 @@ The type of system command requested. This parameter can be one of the following
 | <span id="SC_TASKLIST"></span><span id="sc_tasklist"></span><dl><dt><strong>SC_TASKLIST</strong></dt><dt>0xF130</dt></dl> | Activates the <strong>Start</strong> menu.<br /> | 
 | <span id="SC_VSCROLL"></span><span id="sc_vscroll"></span><dl><dt><strong>SC_VSCROLL</strong></dt><dt>0xF070</dt></dl> | Scrolls vertically.<br /> | 
 
+If the command code is <strong>SC_SCREENSAVE</strong>, then the following flags are available in the four low-order bits:
 
+| Flag | Meaning |
+|------|---------|
+| <span id="SCF_ISSECURE"></span><span id="scf_issecure"></span><dl><dt><strong>SCF_ISSECURE</strong></dt><dt>0x0001</dt></dl> | The screen saver is secure. | 
 
-
- 
 
 </dd> <dt>
 
@@ -108,7 +106,7 @@ yPos = GET_Y_LPARAM(lParam);    // vertical position
 
 The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function carries out the window menu request for the predefined actions specified in the previous table.
 
-In **WM\_SYSCOMMAND** messages, the four low-order bits of the *wParam* parameter are used internally by the system. To obtain the correct result when testing the value of *wParam*, an application must combine the value 0xFFF0 with the *wParam* value by using the bitwise AND operator.
+In **WM\_SYSCOMMAND** messages, the four low-order bits of the *wParam* parameter are used internally by the system. To obtain the command code from the *wParam* value, an application must combine the value 0xFFF0 with the *wParam* value by using the bitwise AND operator, as shown in the example above.
 
 The menu items in a window menu can be modified by using the [**GetSystemMenu**](/windows/desktop/api/Winuser/nf-winuser-getsystemmenu), [**AppendMenu**](/windows/desktop/api/Winuser/nf-winuser-appendmenua), [**InsertMenu**](/windows/desktop/api/Winuser/nf-winuser-insertmenua), [**ModifyMenu**](/windows/desktop/api/Winuser/nf-winuser-modifymenua), [**InsertMenuItem**](/windows/desktop/api/Winuser/nf-winuser-insertmenuitema), and [**SetMenuItemInfo**](/windows/desktop/api/Winuser/nf-winuser-setmenuiteminfoa) functions. Applications that modify the window menu must process **WM\_SYSCOMMAND** messages.
 
