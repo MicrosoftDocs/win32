@@ -727,6 +727,41 @@ The following relocation type indicators are defined for the Intel Itanium proce
 
  
 
+##### LoongArch Processors
+The following relocation type indicators are defined for LoongArch processors.
+
+| Constant                               | Value        | Description                                                                                                                                             |
+|----------------------------------------|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| IMAGE\_REL\_LARCH\_ABSOLUTE <br/>      | 0x0000 <br/> | The relocation is ignored. <br/>                                                                                                                        |
+| IMAGE\_REL\_LARCH\_SECTION <br/>       | 0x0001 <br/> | The 16-bit section index of the section that contains the target. This is used to support debugging information. <br/>                                  |
+| IMAGE\_REL\_LARCH\_SECREL <br/>        | 0x0002 <br/> | The 32-bit offset of the target from the beginning of its section. This is used to support debugging information and static thread local storage. <br/> |
+| IMAGE\_REL\_LARCH\_REL32 <br/>         | 0x0003 <br/> | The 32-bit relative address from the byte following the relocation. <br/>                                                                               |
+| IMAGE\_REL\_LARCH\_ADDR32 <br/>        | 0x0004 <br/> | The 32-bit VA of the relocation target. <br/>                                                                                                           |
+| IMAGE\_REL\_LARCH\_ADDR32NB <br/>      | 0x0005 <br/> | The 32-bit RVA (address without an image base) of the relocation target. <br/>                                                                          |
+| IMAGE\_REL\_LARCH\_ADDR64 <br/>        | 0x0006 <br/> | The 64-bit VA of the relocation target. <br/>                                                                                                           |
+| IMAGE\_REL\_LARCH\_ABS\_HI20 <br/>     | 0x0007 <br/> | Bits [31:12] of the 32/64-bit absolute address, for lu12i.w instructions. <br/>                                                                         |
+| IMAGE\_REL\_LARCH\_ABS\_LO12 <br/>     | 0x0008 <br/> | Bits [11:0] of the 32/64-bit absolute address, for addi-format instructions. <br/>                                                                      |
+| IMAGE\_REL\_LARCH\_ABS64\_LO20 <br/>   | 0x0009 <br/> | Bits [51:32] of the 64-bit absolute address, for lu32i.d instructions. <br/>                                                                            |
+| IMAGE\_REL\_LARCH\_ABS64\_HI12 <br/>   | 0x000A <br/> | Bits [63:52] of the 64-bit absolute address, for lu52i.d instructions. <br/>                                                                            |
+| IMAGE\_REL\_LARCH\_B16 <br/>           | 0x000B <br/> | The 18-bit PC-relative jump offset, for branch instructions with 16-bit offsets. <br/>                                                                  |
+| IMAGE\_REL\_LARCH\_B21 <br/>           | 0x000C <br/> | The 23-bit PC-relative jump offset, for branch instructions with 21-bit offsets. <br/>                                                                  |
+| IMAGE\_REL\_LARCH\_B26 <br/>           | 0x000D <br/> | The 28-bit PC-relative jump offset, for jump instructions with 26-bit offsets. <br/>                                                                    |
+| IMAGE\_REL\_LARCH\_CALL30 <br/>        | 0x000E <br/> | The 32-bit PC-relative call offset, for paired and adjacent pcaddu12i and jirl instructions. <br/>                                                      |
+| IMAGE\_REL\_LARCH\_CALL36 <br/>        | 0x000F <br/> | The 38-bit PC-relative call offset, for paired and adjacent pcaddu18i and jirl instructions. <br/>                                                      |
+| IMAGE\_REL\_LARCH\_PCREL20\_S2 <br/>   | 0x0010 <br/> | The 22-bit PC-relative offset, for pcaddi instructions with 20-bit offsets. <br/>                                                                       |
+| IMAGE\_REL\_LARCH\_PCADD\_HI20 <br/>   | 0x0011 <br/> | Bits [31:12] of the 32-bit PC-relative offset, for pcaddu12i instructions. <br/>                                                                        |
+| IMAGE\_REL\_LARCH\_PCADD\_LO12 <br/>   | 0x0012 <br/> | Bits [11:0] of the 32-bit PC-relative offset, for addi-format instructions and use with a matching IMAGE_REL_LARCH_PCADD_HI20. <br/>                    |
+| IMAGE\_REL\_LARCH\_PCALA\_HI20 <br/>   | 0x0013 <br/> | Bits [31:12] of the 32/64-bit PC-relative offset, for pcalau12i instructions. <br/>                                                                     |
+| IMAGE\_REL\_LARCH\_PCALA\_LO12 <br/>   | 0x0014 <br/> | Bits [11:0] of the 32/64-bit PC-relative offset, for addi-format instructions and use with a matching IMAGE_REL_LARCH_PCALA_HI20. <br/>                 |
+| IMAGE\_REL\_LARCH\_PCALA64\_LO20 <br/> | 0x0015 <br/> | Bits [51:32] of the 64-bit PC-relative offset, for lu32i.d instructions and use with a matching IMAGE_REL_LARCH_PCALA_HI20. <br/>                       |
+| IMAGE\_REL\_LARCH\_PCALA64\_HI12 <br/> | 0x0016 <br/> | Bits [63:52] of the 64-bit PC-relative offset, for lu52i.d instructions and use with a matching IMAGE_REL_LARCH_PCALA_HI20. <br/>                       |
+
+Note: The pcalau12i instruction and its following companion instructions (addi.d, lu32i.d, lu52i.d) must be kept strictly adjacent and in the expected order. The linker determines the PC value of the pcalau12i from the address of the subsequent relocation site(s). If any instruction is inserted between them or the sequence crosses a 4 KiB page boundary, the computed offset will be incorrect.
+
+
+
+ 
+
 ##### MIPS Processors
 
 The following relocation type indicators are defined for MIPS processors.
