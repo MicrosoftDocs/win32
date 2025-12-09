@@ -3,7 +3,7 @@ description: Describes the relationship between the adapter refresh rate and the
 ms.assetid: a7d774c1-93c0-47d8-a8a7-e66e394726a3
 title: D3DPRESENT (D3d9.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 12/10/2025
 ---
 
 # D3DPRESENT
