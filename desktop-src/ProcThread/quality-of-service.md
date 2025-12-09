@@ -28,7 +28,7 @@ The system maintains multiple QoS levels, each with differentiated performance a
 ### How to Disable User Inactivity Feature
 
 > [!Note]
-> Reviewers and testers should disable this feature during testing (example: running performance benchmarks) on battery. Automated tests lacking user input may trigger this feature, lowering QoS and skewing results.
+> Reviewers and testers should disable this feature during testing on battery (for example, when running performance benchmarks). Automated tests lacking user input may trigger this feature, lowering QoS and skewing results.
 
 By default, Windows may lower the QoS policy of a foreground application to Medium QoS after a period of user inactivity where no input is detected. You can disable this feature by setting the following registry value:
 
