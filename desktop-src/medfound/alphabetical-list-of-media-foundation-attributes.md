@@ -501,6 +501,8 @@ This section contains an alphabetical list of Microsoft Media Foundation attribu
 | [MFSampleExtension\_Token](mfsampleextension-token-attribute.md) | Contains a pointer to the token that was provided to the [**IMFMediaStream::RequestSample**](/windows/desktop/api/mfidl/nf-mfidl-imfmediastream-requestsample) method.  |
 | [MFSampleExtension\_VideoDSPMode](mfsampleextension-videodspmode.md) | Indicates whether video stabilization was applied to a video frame. |
 | [MFSampleExtension\_VideoEncodeBitsUsedMap](mfsampleextension-videoencodebitsusedmap.md) | Stores a map of the number of bits used for encoding each block in an encoded video frame. |
+| [MFSampleExtension\_VideoEncodeInputAbsoluteQPMap](mfsampleextension-videoencodeinputabsoluteqpmap.md) | Stores a map of the absolute Quantization Parameter (QP) values provided as input to the encoder MFT.  |
+| [MFSampleExtension\_VideoEncodeInputDeltaQPMap](mfsampleextension-videoencodeinputdeltaqpmap.md) | Stores a map of the delta Quantization Parameter (QP) values provided as input to the encoder MFT. |
 | [MFSampleExtension\_VideoEncodePictureType](mfsampleextension-videoencodepicturetype.md) | Specifies the type of picture that is output by a video encoder. |
 | [MFSampleExtension\_VideoEncodeQP](mfsampleextension-videoencodeqp.md) | Specifies the quantization parameter (QP) that was used to encode a video sample. |
 | [MFSampleExtension\_VideoEncodeQPMap](mfsampleextension-videoencodeqpmap.md) | Stores a map of the Quantization Parameter (QP) values used for each block in an encoded video frame. |
