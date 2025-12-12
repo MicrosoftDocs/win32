@@ -11,7 +11,7 @@ Read-only property that specifies the settings that the encoder MFT supports for
 
 ## Data type
 
-[InputQPSettings](/windows/win32/api/mfapi/ns-mfapi-inputqpsettings.md) (VT\_BLOB)
+[InputQPSettings](/windows/win32/api/mfapi/ns-mfapi-inputqpsettings) (VT\_BLOB)
 
 ## Property GUID
 
@@ -36,7 +36,7 @@ The **minBlockSize** and **maxBlockSize** fields of the **InputQPSettings** stru
 
 Rectangular blocks of size MxN (e.g., 32x16), are not supported.
 
-Providing delta QP values may conflict and have an overriding effect on bitrate properties like [AVEncCommonMeanBitRate](avenccommonmeanbitrate-property.md) or [CODECAPI_AVEncCommonMaxBitRate](/windows/win32/codecapi/avenccommonmaxbitrate-property.md).
+Providing delta QP values may conflict and have an overriding effect on bitrate properties like [AVEncCommonMeanBitRate](/windows/win32/codecapi/avenccommonmeanbitrate-property) or [CODECAPI_AVEncCommonMaxBitRate](/windows/win32/codecapi/avenccommonmaxbitrate-property).
 
 
 ## Examples

@@ -2,7 +2,7 @@
 description: Stores a map of the absolute Quantization Parameter (QP) values provided as input to the encoder MFT. 
 title: MFSampleExtension_VideoEncodeInputAbsoluteQPMap attribute (Mfapi.h)
 ms.topic: reference
-ms.date: 23/09/2025
+ms.date: 12/09/2025
 ---
 
 # MFSampleExtension\_VideoEncodeInputAbsoluteQPMap attribute
@@ -33,9 +33,9 @@ Simultaneous usage of both delta QP and absolute QP is not supported. If an abso
 
 [MFCreateDXGISurfaceBuffer](/windows/win32/api/mfapi/nf-mfapi-mfcreatedxgisurfacebuffer) can be used to wrap a GPU resource into an **IMFMediaBuffer**.
 
-The data type of each element in the absolute QP map should match what is indicated in the **dataType** field of the [InputQPSettings](/windows/win32/api/mfapi/ns-mfapi-inputqpsettings.md) passed in the blob obtained with the [CODECAPI_AVEncVideoInputDeltaQPSettings](codecapi-avencvideoinputdeltaqpblocksettings.md) property.
+The data type of each element in the absolute QP map should match what is indicated in the **dataType** field of the [InputQPSettings](/windows/win32/api/mfapi/ns-mfapi-inputqpsettings) passed in the blob obtained with the [CODECAPI_AVEncVideoInputDeltaQPSettings](codecapi-avencvideoinputdeltaqpblocksettings.md) property.
 
-Providing delta QP values may conflict and have an overriding effect on bitrate properties like [AVEncCommonMeanBitRate](avenccommonmeanbitrate-property.md) or [CODECAPI_AVEncCommonMaxBitRate](/windows/win32/codecapi/avenccommonmaxbitrate-property.md).
+Providing delta QP values may conflict and have an overriding effect on bitrate properties like [AVEncCommonMeanBitRate](/windows/win32/codecapi/avenccommonmeanbitrate-property) or [CODECAPI_AVEncCommonMaxBitRate](/windows/win32/codecapi/avenccommonmaxbitrate-property).
 
 Encoder MFT that support **MFSampleExtension_VideoEncodeInputAbsoluteQPMap** must also support **CODECAPI_AVEncVideoInputDeltaQPSettings**.
 

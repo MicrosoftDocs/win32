@@ -1,5 +1,5 @@
 ---
-description: Read-only property that specifies the settings that the encoder MFT supports for delta QP input values.
+description: Read-only property that specifies the settings that the encoder MFT supports for absolute QP input values.
 title: CODECAPI_AVEncVideoInputAbsoluteQPBlockSettings property (Codecapi.h)
 ms.topic: reference
 ms.date: 12/09/2025
@@ -11,7 +11,7 @@ Read-only property that specifies the settings that the encoder MFT supports for
 
 ## Data type
 
-[InputQPSettings](/windows/win32/api/mfapi/ns-mfapi-inputqpsettings.md) (VT\_BLOB)
+[InputQPSettings](/windows/win32/api/mfapi/ns-mfapi-inputqpsettings) (VT\_BLOB)
 
 ## Property GUID
 
@@ -21,7 +21,7 @@ Read-only property that specifies the settings that the encoder MFT supports for
 
 The value of this property is an **InputQPSettings** structure. If the property is present, the video encoder MFT supports receiving absolute QP values that conform to the settings provided by the **InputQPSettings** structure. If the property is missing, the video encoder MFT does not support receiving absolute QP values.
 
-When supported, absolute QP values can be provided as input for the video encoder MFT to apply during the quantization step of the encoding process. The [MFSampleExtension_VideoEncodeInputAbsoluteQPMap](mfsampleextension-videoencodeinputabsolluteqpmap.md) attribute is used to provide the QP values.
+When supported, absolute QP values can be provided as input for the video encoder MFT to apply during the quantization step of the encoding process. The [MFSampleExtension_VideoEncodeInputAbsoluteQPMap](mfsampleextension-videoencodeinputabsoluteqpmap.md) attribute is used to provide the QP values.
 
 
 ## Remarks
@@ -36,7 +36,7 @@ The **minBlockSize** and **maxBlockSize** fields of the **InputQPSettings** stru
 
 Rectangular blocks of size MxN (e.g., 32x16), are not supported.
 
-Providing absolute QP values may conflict and have an overriding effect on bitrate properties like [AVEncCommonMeanBitRate](avenccommonmeanbitrate-property.md) or [CODECAPI_AVEncCommonMaxBitRate](/windows/win32/codecapi/avenccommonmaxbitrate-property.md).
+Providing absolute QP values may conflict and have an overriding effect on bitrate properties like [AVEncCommonMeanBitRate](/windows/win32/codecapi/avenccommonmeanbitrate-property) or [CODECAPI_AVEncCommonMaxBitRate](/windows/win32/codecapi/avenccommonmaxbitrate-property).
 
 
 ## Examples
