@@ -331,7 +331,7 @@ Call the [**Stopwatch.GetTimeStamp**](/previous-versions/windows/) method from t
 <span id="Under_what_circumstances_does_QueryPerformanceFrequency_return_FALSE__or_________QueryPerformanceCounter_return_zero_"></span><span id="under_what_circumstances_does_queryperformancefrequency_return_false__or_________queryperformancecounter_return_zero_"></span><span id="UNDER_WHAT_CIRCUMSTANCES_DOES_QUERYPERFORMANCEFREQUENCY_RETURN_FALSE__OR_________QUERYPERFORMANCECOUNTER_RETURN_ZERO_"></span>**Under what circumstances does QueryPerformanceFrequency return FALSE, or QueryPerformanceCounter return zero?**
 </dt> <dd>
 
-This won't occur on any system that runs Windows XP or later.
+This won't occur on any system that runs Windows XP or later, provided you pass valid parameters to the functions.
 
 </dd> <dt>
 
