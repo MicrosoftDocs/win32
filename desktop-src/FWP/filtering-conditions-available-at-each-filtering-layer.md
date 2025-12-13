@@ -482,6 +482,7 @@ The list of filtering conditions that are available at each layer are as follows
 - FWPM_CONDITION_RPC_PROTOCOL
 - FWPM_CONDITION_SEC_ENCRYPT_ALGORITHM
 - FWPM_CONDITION_SEC_KEY_SIZE
+- FWPM_CONDITION_RPC_OPNUM (with the October 2025 Cumulative Update or later)
 ### Windows 11 and later
 - FWPM_CONDITION_RPC_OPNUM
 ## FWPM_LAYER_RPC_EPMAP
