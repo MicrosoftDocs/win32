@@ -13,6 +13,8 @@ ms.date: 07/09/2025
 
 The *clipboard* is a set of functions and messages that enable applications to transfer data. Because all applications have access to the clipboard, data can be easily transferred between applications or within an application.
 
+SECURITY NOTE: The clipboard should not be used to transfer sensitive data.
+
 This overview does not describe how to copy and paste linked or embedded objects. For information on these subjects, see the Component Object Model (COM) documentation.
 
 ### In this section
