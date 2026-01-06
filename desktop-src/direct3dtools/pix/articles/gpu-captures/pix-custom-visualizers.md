@@ -203,6 +203,21 @@ You are allowed to have a single user constant block (`PixExt_Declare_UserConsta
 
 ![User constants example](../../images/custom-visualizers-user-constants.png)
 
+## User configurations
+
+Compiler and UI behavior options can be specified directly in HLSL. The syntax is as follows:
+
+```hlsl
+PixExt_Start_Configuration
+    PixExt_Config_OutputFormatOverride(PixExt_R16G16B16A16_UNORM);
+    PixExt_Config_HlslVersion(PixExt_HLSL2018);
+    PixExt_Config_ShaderModel(PixExt_SM_6_7);
+    PixExt_Config_MatrixPacking(PixExt_Row);
+PixExt_End_Configuration
+```
+
+For details on all available options, refer to the PIX HLSL API section.
+
 ## PIX HLSL API 
 
 To give you access to all resources, and to have a standard mean of outputting data to the viewers, PIX will inject internal implementation code when compiling your shader. The implementation is always subject to change, but the following documented API is stable across PIX versions.
@@ -439,6 +454,113 @@ template<typename TypeName>
 void PixExt_StoreBufferData(uint offset, TypeName data);
 ```
 
-## Requirements
+### Configurations
 
-Custom visualizer shaders will be compiled using Shader Model 6.6 (namely cs_6_6) and HLSL version 2021. We plan to support newer shader models and relax the restriction on HLSL 2021 in a future release.
+A single configuration section is allowed per visualizer.
+
+Syntax:
+
+```hlsl
+PixExt_Start_Configuration
+    <List of configurations>
+PixExt_End_Configuration
+```
+
+#### HLSL version
+
+```hlsl
+enum PixExtHlslVersion
+{
+    PixExt_HLSL2018,
+    PixExt_HLSL2021
+};
+
+PixExt_Config_HlslVersion(PixExtHlslVersion);
+```
+
+#### Shader model
+
+```hlsl
+enum PixExtShaderModel
+{
+    PixExt_SM_6_6,
+    PixExt_SM_6_7,
+    PixExt_SM_6_8
+};
+
+PixExt_Config_ShaderModel(PixExtShaderModel);
+```
+
+#### Matrix packing
+
+```hlsl
+enum PixExtMatrixPacking
+{
+    PixExt_Row,
+    PixExt_Column
+};
+
+PixExt_Config_MatrixPacking(PixExtMatrixPacking);
+```
+
+#### Output format override
+
+```hlsl
+enum PixExtOutputFormatOverride
+{
+    PixExt_R32G32B32A32_FLOAT,
+    PixExt_R32G32B32A32_UINT,
+    PixExt_R32G32B32A32_SINT,
+    PixExt_R32G32B32_FLOAT,
+    PixExt_R32G32B32_UINT,
+    PixExt_R32G32B32_SINT,
+    PixExt_R16G16B16A16_FLOAT,
+    PixExt_R16G16B16A16_UNORM,
+    PixExt_R16G16B16A16_UINT,
+    PixExt_R16G16B16A16_SNORM,
+    PixExt_R16G16B16A16_SINT,
+    PixExt_R32G32_FLOAT,
+    PixExt_R32G32_UINT,
+    PixExt_R32G32_SINT,
+    PixExt_R10G10B10A2_UNORM,
+    PixExt_R10G10B10A2_UINT,
+    PixExt_R11G11B10_FLOAT,
+    PixExt_R8G8B8A8_UNORM,
+    PixExt_R8G8B8A8_UNORM_SRGB,
+    PixExt_R8G8B8A8_UINT,
+    PixExt_R8G8B8A8_SNORM,
+    PixExt_R8G8B8A8_SINT,
+    PixExt_R16G16_FLOAT,
+    PixExt_R16G16_UNORM,
+    PixExt_R16G16_UINT,
+    PixExt_R16G16_SNORM,
+    PixExt_R16G16_SINT,
+    PixExt_R32_FLOAT,
+    PixExt_R32_UINT,
+    PixExt_R32_SINT,
+    PixExt_R8G8_UNORM,
+    PixExt_R8G8_UINT,
+    PixExt_R8G8_SNORM,
+    PixExt_R8G8_SINT,
+    PixExt_R16_FLOAT,
+    PixExt_R16_UNORM,
+    PixExt_R16_UINT,
+    PixExt_R16_SNORM,
+    PixExt_R16_SINT,
+    PixExt_R8_UNORM,
+    PixExt_R8_UINT,
+    PixExt_R8_SNORM,
+    PixExt_R8_SINT,
+    PixExt_R1_UNORM,
+    PixExt_R9G9B9E5_SHAREDEXP,
+    PixExt_R8G8_B8G8_UNORM,
+    PixExt_G8R8_G8B8_UNORM,
+    PixExt_B5G6R5_UNORM,
+    PixExt_B5G5R5A1_UNORM,
+    PixExt_B8G8R8A8_UNORM,
+    PixExt_B8G8R8X8_UNORM,
+    PixExt_B8G8R8A8_UNORM_SRGB
+};
+
+PixExt_Config_OutputFormatOverride(PixExtOutputFormatOverride);
+```
