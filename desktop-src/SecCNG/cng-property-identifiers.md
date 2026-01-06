@@ -169,7 +169,11 @@ The size, in bytes, of the ciphertext for a key encapsulation mechanism (KEM) ke
 L"PublicKeyLength"
 </dt> <dt>
 
-The size, in bits, of the public key. For ECC we return the size, in bits, of the field modulus. This data type is a **DWORD**.
+The size, in bits, of the public key. This data type is a **DWORD**.
+
+This specific size returned varies according to the algorithm. For programmatic use, most callers should use the `pcbResult` output of a [BCryptExportKey](https://learn.microsoft.com/en-us/windows/win32/api/bcrypt/nf-bcrypt-bcryptexportkey) call.
+
+For most algorithms, the returned length corresponds to the bit-size of the serialized public key without any further encoding. For ECC, the returned length corresponds to the bit-size of the field modulus. For example, requesting the public key length size for a P-256 curve key returns 256 bits, even though the public key is represented by a pair of 256-bit coordinates.
 
 </dt> </dl> </dd> <dt>
 
@@ -180,6 +184,8 @@ L"KeyLength"
 </dt> <dt>
 
 The size, in bits, of the key value of a symmetric key provider. This data type is a **DWORD**.
+
+This specific size returned varies according to the algorithm. For programmatic use, most callers should use the `pcbResult` output of a [BCryptExportKey](https://learn.microsoft.com/en-us/windows/win32/api/bcrypt/nf-bcrypt-bcryptexportkey) call.
 
 </dt> </dl> </dd> <dt>
 
