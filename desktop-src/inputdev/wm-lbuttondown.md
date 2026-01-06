@@ -74,24 +74,25 @@ If an application processes this message, it should return zero.
 
 
 ```cpp
-LRESULT CALLBACK WndProc(_In_ HWND hWnd, _In_ UINT msg, _In_ WPARAM wParam, _In_ LPARAM lParam)
+LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 {
-    POINT pt;
-
     switch (msg)
     {
-
     case WM_LBUTTONDOWN:
-            {
-                pt.x = GET_X_LPARAM(lParam);
-                pt.y = GET_Y_LPARAM(lParam);
-            }
-        break;
-
+        {
+            // Extract cursor coordinates using the recommended macros
+            int xPos = GET_X_LPARAM(lParam);
+            int yPos = GET_Y_LPARAM(lParam);
+            
+            // TODO: Add your left-click handling logic here
+            // For example: track selection, start drag operation, etc.
+            
+            return 0; // Message processed
+        }
+    
     default:
         return DefWindowProc(hWnd, msg, wParam, lParam);
     }
-    return 0;
 }
 ```
 
