@@ -171,7 +171,7 @@ L"PublicKeyLength"
 
 The size, in bits, of the public key. This data type is a **DWORD**.
 
-This specific size returned varies according to the algorithm. For programmatic use, most callers should use the `pcbResult` output of a [BCryptExportKey](https://learn.microsoft.com/en-us/windows/win32/api/bcrypt/nf-bcrypt-bcryptexportkey) call.
+This specific size returned varies according to the algorithm. For programmatic use, most callers should use the `pcbResult` output of a [BCryptExportKey](/windows/win32/api/bcrypt/nf-bcrypt-bcryptexportkey) call.
 
 For most algorithms, the returned length corresponds to the bit-size of the serialized public key without any further encoding. For ECC, the returned length corresponds to the bit-size of the field modulus. For example, requesting the public key length size for a P-256 curve key returns 256 bits, even though the public key is represented by a pair of 256-bit coordinates.
 
@@ -185,7 +185,7 @@ L"KeyLength"
 
 The size, in bits, of the key value of a symmetric key provider. This data type is a **DWORD**.
 
-This specific size returned varies according to the algorithm. For programmatic use, most callers should use the `pcbResult` output of a [BCryptExportKey](https://learn.microsoft.com/en-us/windows/win32/api/bcrypt/nf-bcrypt-bcryptexportkey) call.
+This specific size returned varies according to the algorithm. For programmatic use, most callers should use the `pcbResult` output of a [BCryptExportKey](/windows/win32/api/bcrypt/nf-bcrypt-bcryptexportkey) call.
 
 </dt> </dl> </dd> <dt>
 
