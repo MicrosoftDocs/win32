@@ -37,7 +37,7 @@ The following table lists some common FOURCC codes.
 | FOURCC value | Description                                                                                                           |
 |--------------|-----------------------------------------------------------------------------------------------------------------------|
 | 'AV01'        | AOMedia Video 1.
-| 'AVP'        | Advanced Professional Video (APV) video. |
+| 'APV'        | Advanced Professional Video (APV) video. |
 | 'H263'       | H.263 video. |
 | 'H264'       | H.264 video.                                                                                                          |
 | 'I420'       | YUV video stored in planar 4:2:0 format. |
