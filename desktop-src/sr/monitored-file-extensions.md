@@ -5,7 +5,7 @@ ms.assetid: 19e509fa-58b2-48bb-ac23-269818482e6f
 keywords:
 - System Restore,reference,monitored file name extensions
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 01/27/2026
 ---
 
 # Monitored File Name Extensions
@@ -14,13 +14,7 @@ The following is a list of monitored file name extensions. Files with these exte
 
 
 
-<table>
-<tbody>
-<tr class="odd">
-<td><dl> ~~C<br />
-~~D<br />
-12A<br />
-1PA<br />
+
 1ST<br />
 386<br />
 8BA<br />
@@ -599,9 +593,71 @@ ZRW<br />
 </tr>
 </tbody>
 </table>
+<table>
+<tbody>
+<tr class="odd">
+<td><dl> ~~C<br />
+~~D<br />
+12A<br />
+1PA<br />
 
+Extensions added in Windows 10 and later versions<br />
 
-
+<table>
+<tbody>
+<tr class="odd">
+<td><dl>
+2GR<br />
+2Q0<br />
+2QM<br />
+3GR<br />
+ADMX<br />
+API<br />
+APPLICATION<br />
+APPREF-MS<br />
+</dl></td>
+<td><dl>
+CDF-MS<br />
+CONFIG<br />
+DOM<br />
+ETL<br />
+EVTX<br />
+GDL<br />
+GMMP<br />
+HKF<br />
+</dl></td>
+<td><dl>
+HPC<br />
+IEC<br />
+IME<br />
+JS<br />
+JSE<br />
+LOCAL<br />
+LOG<br />
+MUI<br />
+</dl></td>
+<td><dl>
+MUM<br />
+NLP<br />
+POLICY<br />
+RBF<br />
+RLL<br />
+SDB<br />
+SHD<br />
+SPL<br />
+</dl></td>
+<td><dl>
+TARGETS<br />
+TMP<br />
+UNINSTALL<br />
+VBE<br />
+WSF<br />
+WSH<br />
+XRM-MS<br />
+</dl></td>
+</tr>
+</tbody>
+</table>
  
 
  
