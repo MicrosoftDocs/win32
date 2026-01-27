@@ -22,6 +22,10 @@ The following is a list of monitored file name extensions. Files with these exte
 <tbody>
 <tr class="even">
 <td><dl>
+~~C<br />
+~~D<br />
+12A<br />
+1PA<br />
 1ST<br />
 386<br />
 8BA<br />
@@ -600,15 +604,9 @@ ZRW<br />
 </tr>
 </tbody>
 </table>
-<table>
-<tbody>
-<tr class="odd">
-<td><dl> ~~C<br />
-~~D<br />
-12A<br />
-1PA<br />
 
-Extensions added in Windows 10 and later versions<br />
+## Extensions added in Windows 10 and later versions.
+
 
 <table>
 <tbody>
