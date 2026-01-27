@@ -8,13 +8,20 @@ ms.topic: reference
 ms.date: 01/27/2026
 ---
 
+> [!NOTE]
+> This list is not exhaustive and may change without notice.
+
+
 # Monitored File Name Extensions
 
 The following is a list of monitored file name extensions. Files with these extensions are monitored by System Restore in Windows Vista and later. The files that are monitored or excluded from monitoring in Windows XP are specified in the file %windir%\\system32\\restore\\Filelist.xml. The file Filelist.xml does not exist in Windows Vista and later.
 
 
 
-
+<table>
+<tbody>
+<tr class="even">
+<td><dl>
 1ST<br />
 386<br />
 8BA<br />
@@ -659,11 +666,3 @@ XRM-MS<br />
 </tbody>
 </table>
  
-
- 
-
- 
-
-
-
-
