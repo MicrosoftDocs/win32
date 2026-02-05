@@ -4,7 +4,7 @@ ms.assetid: 2bc9c8fa-b411-4091-a50e-1edf849f6f35
 title: UCRT APIs available in VBS enclaves
 titleSuffix: Secure Enclaves
 ms.topic: reference
-ms.date: 11/20/2024
+ms.date: 02/02/2026
 ---
 
 # UCRT APIs available in VBS enclaves
@@ -875,6 +875,8 @@ The Universal C Runtime (UCRT, often just CRT) Library reference documentation h
 
 [`_memicmp_l`](/cpp/c-runtime-library/reference/memicmp-memicmp-l)
 
+[`memmove`](/cpp/c-runtime-library/reference/memmove-wmemmove)
+
 [`memmove_s`](/cpp/c-runtime-library/reference/memmove-s-wmemmove-s)
 
 [`modf`](/cpp/c-runtime-library/reference/modf-modff-modfl)
@@ -1406,6 +1408,8 @@ The Universal C Runtime (UCRT, often just CRT) Library reference documentation h
 [`wctype`](/cpp/c-runtime-library/reference/wctype)
 
 [`wmemcpy_s`](/cpp/c-runtime-library/reference/memcpy-s-wmemcpy-s)
+
+[`wmemmove`](/cpp/c-runtime-library/reference/memmove-wmemmove)
 
 [`wmemmove_s`](/cpp/c-runtime-library/reference/memmove-s-wmemmove-s)
 
