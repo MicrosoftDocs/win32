@@ -28,7 +28,7 @@ This property enables apps to instantiate and initialize an Encrypted Media Exte
 
 ## Examples
 
-The following example shows a helper function that could be used by an app to instantiate and initialize an Encrypted Media Extension (EME) object in an external process. This function can be used as part of a larger implementation of the [IMFPMPHostApp::ActivateClassById](/windows/win32/api/mfidl/nf-mfidl-imfpmphostapp-activateclassbyid) method. The helper function uses [IMFPMPHost::CreateObjectByCLSID](IMFPMPHost::CreateObjectByCLSID]) to instantiate the EME object.
+The following example shows a helper function that could be used by an app to instantiate and initialize an Encrypted Media Extension (EME) object in an external process. This function can be used as part of a larger implementation of the [IMFPMPHostApp::ActivateClassById](/windows/win32/api/mfidl/nf-mfidl-imfpmphostapp-activateclassbyid) method. The helper function uses **IMFPMPHost::CreateObjectByCLSID** to instantiate the EME object.
 
 ```cpp
 #include <wil/com.h> 
