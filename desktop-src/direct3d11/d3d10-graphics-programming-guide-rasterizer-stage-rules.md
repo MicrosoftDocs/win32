@@ -24,12 +24,14 @@ There are several types of rules, which depend on the type of primitive that is 
 
 ## Triangle Rasterization Rules (Without Multisampling)
 
-Any pixel center which falls inside a triangle is drawn; a pixel is assumed to be inside if it passes the top-left rule. The top-left rule is that a pixel center is defined to lie inside of a triangle if it lies on the top edge or the left edge of a triangle.
+Any pixel center which falls inside a triangle is drawn; a pixel is assumed to be inside if it passes the top-left rule. The top-left rule is that a pixel center is defined to lie inside of a triangle if it lies on the top edge while not lying on a right edge or if it lies on a left edge while not lying on the bottom edge.
 
 Where:
 
 -   A top edge, is an edge that is exactly horizontal and is above the other edges.
+-   A bottom edge, is an edge that is exactly horizontal and is below the other edges.
 -   A left edge, is an edge that is not exactly horizontal and is on the left side of the triangle. A triangle can have one or two left edges.
+-   A right edge, is an edge that is not exactly horizontal and is on the right side of the triangle. A triangle can have one or two right edges.
 
 The top-left rule ensures that adjacent triangles are drawn once.
 
