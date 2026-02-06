@@ -145,11 +145,32 @@ An array of characters initialized to a length of `sizeof(DWORD)`. This buffer c
 
 Any names that are not provided must be represented in this buffer by empty strings.
 
+
 </dd> </dl>
+
+
 
 ## Remarks
 
-When this structure is serialized, the structure members must be aligned to boundaries that are multiples of 2 bytes.
+**bBuffer layout**
+
+The **bBuffer** begins with a DWORD-sized placeholder/prefix of `sizeof(DWORD)` bytes and then stores null-terminated strings for the card, reader, container, and CSP names (each may be an empty string except the container name which must be non-empty), followed by any CSP-specific extra data.
+
+```
+| Start of bBuffer |
+|------------------|
+| DWORD reserve (4 bytes) |
+| CardName string ("" or null-terminated) |
+| ReaderName string ("" or null-terminated) |
+| ContainerName string (null-terminated, required) |
+| CSPName string ("" or null-terminated) |
+| Additional CSP-specific data ... |
+```
+
+- **Offsets:** `nCardNameOffset`, `nReaderNameOffset`, `nContainerNameOffset`, and `nCSPNameOffset` are the number of characters from the start of `bBuffer` to the beginning of each respective string. These counts include the initial reserved `sizeof(DWORD)` region and are measured in `TCHAR` units (ANSI `char` or Unicode `wchar_t`, depending on build).
+- **Empty names:** When a name is not provided, the buffer must contain an empty string (zero-length followed by the terminator) at that position.
+- **Serialization alignment:** When serialized, structure members must be aligned to 2-byte boundaries.
+
 
 ## Requirements
 
