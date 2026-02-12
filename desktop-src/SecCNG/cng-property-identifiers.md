@@ -146,7 +146,7 @@ Contains the [initialization vector](/windows/win32/SecGloss/i-gly) (IV) for a k
 <span id="BCRYPT_KEM_SHARED_SECRET_LENGTH"></span><span id="bcrypt_kem_shared_secret_length"></span>**BCRYPT\_KEM\_SHARED\_SECRET\_LENGTH**
 </dt> <dd> <dl> <dt>
 
-L"BCRYPT_KEM_SHARED_SECRET_LENGTH"
+L"KEMSharedSecretLength"
 </dt> <dt>
 
 The size, in bytes, of the shared secret for a key encapsulation mechanism (KEM) key. This data type is a **DWORD**.
@@ -156,10 +156,24 @@ The size, in bytes, of the shared secret for a key encapsulation mechanism (KEM)
 <span id="BCRYPT_KEM_CIPHERTEXT_LENGTH"></span><span id="bcrypt_kem_ciphertext_length"></span>**BCRYPT\_KEM\_CIPHERTEXT\_LENGTH**
 </dt> <dd> <dl> <dt>
 
-L"BCRYPT_KEM_CIPHERTEXT_LENGTH"
+L"KEMCiphertextLength"
 </dt> <dt>
 
 The size, in bytes, of the ciphertext for a key encapsulation mechanism (KEM) key. This data type is a **DWORD**.
+
+</dt> </dl> </dd> <dt>
+
+<span id="BCRYPT_PUBLIC_KEY_LENGTH"></span><span id="bcrypt_public_key_length"></span>**BCRYPT\_PUBLIC\_KEY\_LENGTH**
+</dt> <dd> <dl> <dt>
+
+L"PublicKeyLength"
+</dt> <dt>
+
+The size, in bits, of the public key. This data type is a **DWORD**.
+
+This specific size returned varies according to the algorithm. For programmatic use, most callers should use the `pcbResult` output of a [BCryptExportKey](/windows/win32/api/bcrypt/nf-bcrypt-bcryptexportkey) call.
+
+For most algorithms, the returned length corresponds to the bit-size of the serialized public key without any further encoding. For ECC, the returned length corresponds to the bit-size of the field modulus. For example, requesting the public key length size for a P-256 curve key returns 256 bits, even though the public key is represented by a pair of 256-bit coordinates.
 
 </dt> </dl> </dd> <dt>
 
@@ -170,6 +184,8 @@ L"KeyLength"
 </dt> <dt>
 
 The size, in bits, of the key value of a symmetric key provider. This data type is a **DWORD**.
+
+This specific size returned varies according to the algorithm. For programmatic use, most callers should use the `pcbResult` output of a [BCryptExportKey](/windows/win32/api/bcrypt/nf-bcrypt-bcryptexportkey) call.
 
 </dt> </dl> </dd> <dt>
 
