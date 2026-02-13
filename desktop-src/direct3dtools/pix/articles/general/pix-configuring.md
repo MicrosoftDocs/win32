@@ -15,7 +15,7 @@ When debugging shaders or profiling CPU code you'll want to provide PIX with deb
 
 For details on how to generate appropriate PDBs, see the blog post [Configuring PIX to access PDBs for CPU captures](../timing-captures/pix-timing-captures-pdb-config.md).
 
-# Saving and loading settings
+## Saving and loading settings
 
 All settings, along with [Timeline configurations](../timing-captures/layouts/pix-timing-captures-timeline-layout.md#lane_config), [Metrics view configurations](../timing-captures/layouts/pix-metrics-layout.md#metrics_view_configs), and [Metrics View Consolidated Event Patterns](../timing-captures/layouts/pix-metrics-layout.md#consolidated_events) can be exported from PIX and saved to a file.  These files can then to imported into other instances of PIX.  The ability to export and import settings makes it easier for multiple users to collaborate.  For example, a studio may wish to create a custom Timing Capture configuration for use by all developers.  
 
