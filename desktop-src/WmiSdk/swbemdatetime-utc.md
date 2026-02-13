@@ -21,7 +21,7 @@ api_location:
 
 # SWbemDateTime.UTC property
 
-The **UTC** property of the [**SWbemDateTime**](swbemdatetime.md) object gets or sets the Coordinated Universal Times (UTC) representation of the **datetime** value. UTC is the time as set by the World Time Standard. UTC has replaced Greenwich Mean Time (GMT). A UTC value with a zero offset is the same as GMT with a zero offset. The signed number must be in the range of -720 through 720 or the error **wbemErrValueOutOfRange** is returned.
+The **UTC** property of the [**SWbemDateTime**](swbemdatetime.md) object gets or sets the Coordinated Universal Times (UTC) representation of the **datetime** value. UTC is the time as set by the World Time Standard. UTC has replaced Greenwich Mean Time (GMT). A UTC value with a zero offset is the same as GMT with a zero offset. The signed number must be in the range of -720 through 720 when setting this property, otherwise the error **wbemErrValueOutOfRange** is returned. Values read from the property may fall outside this range without triggering an error.
 
 For an explanation of this syntax, see [Document Conventions for the Scripting API](document-conventions-for-the-scripting-api.md).
 
@@ -40,7 +40,7 @@ SWbemDateTime.UTC As Long
 
 ## Error codes
 
-After you get or set the **UTC** property, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain the error code below.
+After you set the **UTC** property, the [Err](/previous-versions//sbf5ze0e(v=vs.85)) object may contain the error code below.
 
 <dl> <dt>
 
