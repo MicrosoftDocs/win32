@@ -17,3 +17,17 @@ items:
     items:
     - name: "Overview"
       href: articles/timing-captures/pix-timing-captures.md
+    - name: "User interface layouts"
+      items:
+      - name: "Summary"
+        href: articles/timing-captures/layouts/pix-timing-captures-summary-layout.md
+      - name: "Timeline"
+        href: articles/timing-captures/layouts/pix-timing-captures-timeline-layout.md
+      - name: "Budgets"
+        href: articles/timing-captures/layouts/pix-timing-captures-budgets-layout.md
+      - name: "Metrics"
+        href: articles/timing-captures/layouts/pix-metrics-layout.md
+      - name: "Memory"
+        href: articles/timing-captures/layouts/pix-timing-captures-memory-layout.md
+      - name: "Comparison"
+        href: articles/timing-captures/layouts/pix-timing-captures-comparison-layout.md
