@@ -36,7 +36,7 @@ req.redist:
 
 # GetMsgProc function
 
-## -description
+## Description
 
 An application-defined or library-defined callback function used with the [**SetWindowsHookExA**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa)/[**SetWindowsHookExW**](/windows/win32/api/winuser/nf-winuser-setwindowshookexw) function. The system calls this function whenever the [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) or [**PeekMessageA**](/windows/win32/api/winuser/nf-winuser-peekmessagea)/[**PeekMessageW**](/windows/win32/api/winuser/nf-winuser-peekmessagew) function has retrieved a message from an application message queue. Before returning the retrieved message to the caller, the system passes the message to the hook procedure. 
 
@@ -50,7 +50,7 @@ LRESULT CALLBACK GetMsgProc(
 );
 ```
 
-## -parameters
+## Parameters
 
 ### code [in]
 
@@ -78,14 +78,14 @@ Type: **LPARAM**
 
 A pointer to an [MSG](/windows/desktop/api/winuser/ns-winuser-msg) structure that contains details about the message.
 
-## -returns
+## Returns
 
 If *code* is less than zero, the hook procedure must return the value returned by [CallNextHookEx](/windows/desktop/api/winuser/nf-winuser-callnexthookex).
 
 If *code* is greater than or equal to zero, it is highly recommended that you call **CallNextHookEx** and return the value it returns; otherwise, other applications that have installed [WH_GETMESSAGE](about-hooks.md) hooks will not receive hook notifications and may behave incorrectly as a result.
 If the hook procedure does not call **CallNextHookEx**, the return value should be zero.
 
-## -remarks
+## Remarks
 
 The **GetMsgProc** hook procedure can examine or modify the message.
 
