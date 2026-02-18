@@ -18,7 +18,7 @@ keywords:
 - security,manifest files
 - security,requestedExecutionLevel tag
 ms.topic: concept-article
-ms.date: 07/14/2025
+ms.date: 02/18/2026
 ---
 
 # Security Considerations for Assistive Technologies
@@ -56,7 +56,7 @@ An assistive technology application gets access to other processes by setting th
 
 To use UIAccess, an assistive technology application needs to:
 
--   Be signed with a certificate to interact with applications running at a higher privilege level.
+-   Be signed using an Authenticode code signing certificate.
 -   Be trusted by the system. The application must be installed in a secure location that requires a user account control (UAC) prompt for access. For example, the Program Files folder.
 -   Be built with a manifest file that includes the uiAccess flag.
 
