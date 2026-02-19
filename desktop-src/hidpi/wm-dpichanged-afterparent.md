@@ -1,6 +1,6 @@
 ---
 title: WM_DPICHANGED_AFTERPARENT message (Winuser.h)
-description: For Per Monitor v2 top-level windows, this message is sent to all HWNDs in the child HWDN tree of the window that is undergoing a DPI change. | WM_DPICHANGED_AFTERPARENT message (Winuser.h)
+description: For Per Monitor v2 top-level windows, this message is sent to all HWNDs in the child HWND tree of the window that is undergoing a DPI change. | WM_DPICHANGED_AFTERPARENT message (Winuser.h)
 ms.assetid: FEA1BF07-55B6-4584-ABD3-340515831E0A
 keywords:
 - WM_DPICHANGED_AFTERPARENT message High DPI
@@ -18,7 +18,7 @@ ms.date: 07/14/2025
 
 # WM\_DPICHANGED\_AFTERPARENT message
 
-For [Per Monitor v2](dpi-awareness-context.md) top-level windows, this message is sent to all HWNDs in the child HWDN tree of the window that is undergoing a DPI change. This message occurs after the top-level window receives [**WM\_DPICHANGED**](wm-dpichanged.md), and traverses the child tree from the top down.
+For [Per Monitor v2](dpi-awareness-context.md) top-level windows, this message is sent to all HWNDs in the child HWND tree of the window that is undergoing a DPI change. This message occurs after the top-level window receives [**WM\_DPICHANGED**](wm-dpichanged.md), and traverses the child tree from the top down.
 
 
 ```C++
