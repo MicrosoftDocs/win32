@@ -67,16 +67,3 @@ HKEY_LOCAL_MACHINE
                   Open Timeout = Timeout value for your open function, in milliseconds
                   Collect Timeout = Timeout value for your collect function, in milliseconds
 ```
-
-## DOS Devices
-
-To obtain the performance data for some applications (those that return counters using the [**DeviceIoControl**](/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) function), it is necessary to use the [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) function to open the device associated with the application. In this case, the name specified in **CreateFile** must also be installed in the DOS Devices node of the registry, as shown here:
-
-```
-HKEY_LOCAL_MACHINE
-   \SYSTEM
-      \CurrentControlSet
-         \Control
-            \Session Manager
-               \DOS Devices
-```
