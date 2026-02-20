@@ -29,6 +29,11 @@ By default, these keys are ignored when the computer is started in Safe Mode. Th
 
 A program that is run from any of these keys should not write to the key during its execution because this will interfere with the execution of other programs registered under the key. Applications should use the `RunOnce` key only for transient conditions, such as to complete application setup. An application must not continually recreate entries under `RunOnce` because this will interfere with Windows Setup.
 
+The system does not provide guarantees about how promptly the programs in the `Run` key are run.
+To improve the user experience, the system may choose to delay the execution of programs in the `Run` key
+and in the Startup group to a time when they are less likely to interfere with the foreground user experience
+or with each other.
+
 ## Related topics
 
 [Windows Registry](../sysinfo/registry.md), [RunOnce Registry Key](/windows-hardware/drivers/install/runonce-registry-key)
