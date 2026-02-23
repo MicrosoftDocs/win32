@@ -74,7 +74,7 @@ Type: **WPARAM**
 
 The identifier of the mouse message.
 
-This parameter can be one of the following messages: [WM_LBUTTONDOWN](/windows/desktop/inputdev/wm-lbuttondown), [WM_LBUTTONUP](/windows/desktop/inputdev/wm-lbuttonup), [WM_MOUSEMOVE](/windows/desktop/inputdev/wm-mousemove), [WM_MOUSEWHEEL](/windows/desktop/inputdev/wm-mousewheel), [WM_RBUTTONDOWN](/windows/desktop/inputdev/wm-rbuttondown), [WM_RBUTTONUP](/windows/desktop/inputdev/wm-rbuttonup), [WM_MBUTTONDOWN](/windows/desktop/inputdev/wm-mbuttondown), [WM_MBUTTONUP](/windows/desktop/inputdev/wm-mbuttonup), [WM_XBUTTONDOWN](/windows/desktop/inputdev/wm-xbuttondown) or [WM_XBUTTONUP](/windows/desktop/inputdev/wm-xbuttonup).
+This parameter can be one of the following messages: [WM_LBUTTONDOWN](/windows/desktop/inputdev/wm-lbuttondown), [WM_LBUTTONUP](/windows/desktop/inputdev/wm-lbuttonup), [WM_MOUSEMOVE](/windows/desktop/inputdev/wm-mousemove), [WM_MOUSEWHEEL](/windows/desktop/inputdev/wm-mousewheel), [WM_RBUTTONDOWN](/windows/desktop/inputdev/wm-rbuttondown), [WM_RBUTTONUP](/windows/desktop/inputdev/wm-rbuttonup), [WM_MBUTTONDOWN](/windows/desktop/inputdev/wm-mbuttondown), [WM_MBUTTONUP](/windows/desktop/inputdev/wm-mbuttonup), [WM_XBUTTONDOWN](/windows/desktop/inputdev/wm-xbuttondown), or [WM_XBUTTONUP](/windows/desktop/inputdev/wm-xbuttonup).
 
 ### lParam [in]
 
