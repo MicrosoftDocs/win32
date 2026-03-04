@@ -48,6 +48,8 @@ The following tools, information, and samples are available to help you develop 
 | [Vbs Enclaves code generator usage in Visual Studio](https://github.com/microsoft/VbsEnclaveTooling/blob/main/README.md#codegenerator-usage) | Learn how to use the VBS Enclaves code generator (`edlcodegen.exe`) in Visual Studio. |
 | [What are edl files](https://github.com/microsoft/VbsEnclaveTooling/blob/main/docs/Edl.md) | Learn about `.edl` files and how the VBS Enclaves SDK uses them. |
 | [Hello World VBS Enclave SDK Walkthrough](https://github.com/microsoft/VbsEnclaveTooling/blob/main/docs/HelloWorldWalkthrough.md) | A walkthrough to get started with VBS Enclaves and the new tooling for Visual Studio. |
+| [Windows Hello user verification sample](https://github.com/microsoft/VbsEnclaveTooling/blob/main/SampleApps/SampleApps/README.md#4-hostappuserbound---windows-hello-integration) | Sample demonstrating user-bound encryption using Windows Hello |
+| [Windows Enclave RUST crate](https://crates.io/crates/windows-enclave) | A RUST crate for supporting vbs enclaves |
 
 ## Related content
 
