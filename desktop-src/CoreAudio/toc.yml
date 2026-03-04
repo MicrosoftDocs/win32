@@ -1121,6 +1121,10 @@
         href: pkey-audioendpoint-guid.md
       - name: "PKEY_AudioEndpoint_JackSubType"
         href: pkey-audioendpoint-jacksubtype.md
+      - name: "PKEY_AudioEndpoint_Max_VolumeInDb"
+        href: pkey-audioendpoint-max-volumeindb.md
+      - name: "PKEY_AudioEndpoint_Min_VolumeInDb"
+        href: pkey-audioendpoint-min-volumeindb.md
       - name: "PKEY_AudioEndpoint_PhysicalSpeakers"
         href: pkey-audioendpoint-physicalspeakers.md
       - name: "PKEY_AudioEndpoint_Supports_EventDriven_Mode"
