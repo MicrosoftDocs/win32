@@ -19,8 +19,8 @@ The **lVal** member of the **PROPVARIANT** structure contains a float value expr
 
 | Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Build 26100 \[desktop apps only\]<br/>                                     |
-| Minimum supported server<br/> | Windows Server 2025 \[desktop apps only\]<br/>                                     |
+| Minimum supported client<br/> | Windows Build 26100<br/>                                                           |
+| Minimum supported server<br/> | Windows Server 2025<br/>                                                           |
 | Header<br/>                   | <dl> <dt>Mmdeviceapi.h</dt> </dl> |
 
 
