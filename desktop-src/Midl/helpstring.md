@@ -99,9 +99,9 @@ library Lines
      ]
      interface ILine : IDispatch                         
      {
-         [propget, helpstring("Returns and sets RGB color.")]
+         [propget, helpstring("Returns the current RGB color.")]
          HRESULT Color([out, retval] long* ReturnVal); 
-         [propput, helpstring("Returns and sets RGB color.")]
+         [propput, helpstring("Sets a new RGB color.")]
          HRESULT Color([in] long rgb);
      }
 };
