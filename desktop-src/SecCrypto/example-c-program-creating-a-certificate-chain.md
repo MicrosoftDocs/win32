@@ -211,7 +211,7 @@ if((errorStatus & CERT_TRUST_CTL_IS_NOT_VALID_FOR_USAGE) != 0)
     printf("A CTL used to create this chain did not have a valid "
          "signature.\n");
 }
-else // CERT_TRUST_NO_ERROR 
+if(errorStatus == CERT_TRUST_NO_ERROR)
 {
     printf("No error found for this certificate or chain.\n");
 }
