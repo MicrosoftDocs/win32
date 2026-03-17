@@ -103,6 +103,7 @@ The named property value.
 | AllowRelativeMouseMode | VT_BOOL | R/W | No | Introduced in Windows 11 version 24H2. If **True**, mouse movements are represented relative to the current mouse position. |
 | RemoteAppMouseMoveInject | VT_BOOL | W |No | Introduced in Windows 11 version 24H2. Writing **True** to this property forces the injection of a mouse move when the cursor leaves a RemoteApp window. This is intended to be a workaround for a tooltip bug. |
 | EnableZoom | VT_BOOL | W | No | Introduced in Windows 11 version 24H2. Writing **True** to this property enables the user to zoom into the remote session window when using the [smart sizing](/windows/win32/termserv/imsrdpclientadvancedsettings-smartsizing) functionality. |
+| SmartRawPrinters | VT_BSTR | R/W | No | Introduced in Windows 11 version 26H1. Writing `*` to this property results in the smart raw printing mode to be enabled for all printers. Writing the prefix of a printer's driver name to this property results in the mode being enabled only for the printers using that driver. In smart raw printer mode, the Remote Desktop client operates a redirected printer in the raw printing mode if it is being operated in raw printing mode on the server. |
 
  
 ## Requirements
