@@ -23,8 +23,8 @@ This section includes sample code for the following purposes:
 -   [Registering for Raw Input](#registering-for-raw-input)
     -   [Example 1](#example-1)
     -   [Example 2](#example-2)
--   [Reading Raw Input from a WM_INPUT Handler](#reading-raw-input-from-a-wm_input-handler)
--   [Performing a Batched Read of Raw Input Using a Timer](#performing-a-batched-read-of-raw-input-using-a-timer)
+-   [Performing a Standard Read of Raw Input](#performing-a-standard-read-of-raw-input)
+-   [Performing a Buffered Read of Raw Input](#performing-a-buffered-read-of-raw-input)
 
 ## Registering for Raw Input
 
@@ -142,7 +142,7 @@ case WM_INPUT:
 } 
 ```
 
-## Reading Raw Input from a WM_INPUT Handler
+## Performing a Standard Read of Raw Input
 
 This sample shows the minimal pattern for reading raw input from a [**WM_INPUT**](wm-input.md) message handler. Each [**WM_INPUT**](wm-input.md) message carries an **HRAWINPUT** handle in **lParam** referencing the current input event — it must be read via [**GetRawInputData**](/windows/win32/api/winuser/nf-winuser-getrawinputdata) before calling [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowprocw).
 
@@ -179,7 +179,7 @@ case WM_INPUT:
 }
 ```
 
-## Performing a Batched Read of Raw Input Using a Timer
+## Performing a Buffered Read of Raw Input
 
 This sample shows how to read raw input in fixed-rate batches using a periodic timer. [**WM_INPUT**](wm-input.md) messages are intentionally never dispatched through [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) — because [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) removes messages from the raw input queue before returning, only [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagew) with explicit message range filters is used, skipping [**WM_INPUT**](wm-input.md) entirely. This keeps all raw input events in the queue where [**GetRawInputBuffer**](/windows/win32/api/winuser/nf-winuser-getrawinputbuffer) can drain them all at once on each timer tick. This approach is well-suited for game loops and other applications that process input at a fixed rate rather than reacting to each event individually.
 
