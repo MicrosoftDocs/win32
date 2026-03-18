@@ -19,7 +19,7 @@ To register a task that is defined in XML, you can use either the [**ITaskFolder
 
 ## To define a task to start Notepad every day at 8:00 AM
 
-The following XML example shows how to define a task with a single execution action (starting Notepad), a single calendar trigger (starts the task every day at 8:00 AM), and several other task settings that affect how the task is handled by Task Scheduler.
+The following XML example defines a task that starts Notepad and runs under the local Administrator account. The task uses a daily calendar trigger set to 8:00 AM and includes additional settings that control how Task Scheduler handles the task.
 
 
 ```XML
@@ -49,7 +49,7 @@ This sample schedules a task to start on a daily basis.
     </Triggers>
     <Principals>
         <Principal>
-            <UserId>Administrator</UserId>
+            <UserId>.\Administrator</UserId>
             <LogonType>InteractiveToken</LogonType>
         </Principal>
     </Principals>
