@@ -3,7 +3,7 @@ description: Msival2.exe is a command line utility that can run a suite of Inter
 ms.assetid: c48f4584-732a-468d-a651-2c09ce3c9ddd
 title: Msival2.exe
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 03/18/2026
 ---
 
 # Msival2.exe
@@ -16,7 +16,21 @@ For more information about ICEs and the CUB file, see [Using Internal Consistenc
 
 ## Syntax
 
-**Msival2** *{database}{CUB file}\[-f\]\[-l {logfile}\]\[-i {ICE Id}\[:{ICE Id}...\]\]*
+**Msival2** *{database} {CUB file} \[-f\] \[-l {logfile}\] \[-i {ICE Id}\[:{ICE Id}...\]\]*
+
+## Arguments
+
+*{database}*
+
+The Windows Installer database (.msi file) to validate.
+
+*{CUB file}*
+
+A .cub file is a standard Windows Installer database that contains only ICEs and their required tables, used to store and provide access to ICE custom actions. For more information, see [Building an ICE Database](building-an-ice-database.md).
+
+*{ICE Id}*
+
+An Internal Consistency Evaluator (ICE) is a custom action that scans the database for entries that are valid individually but may cause incorrect behavior in the context of the whole database. For more information, see [Internal Consistency Evaluators - ICEs](internal-consistency-evaluators-ices.md). For a list of predefined ICEs, see [ICE Reference](ice-reference.md).
 
 ## Command Line Options
 
@@ -32,7 +46,13 @@ Msival2.exe uses the following case-insensitive command line options. A slash de
 
 
 
- 
+## Example
+
+The following example validates the database *mypackage.msi* using the ICE database *darice.cub*, running only ICE01, ICE02, and ICE03, and writing the results to *validation.log*:
+
+```syntax
+msival2.exe mypackage.msi darice.cub -i ICE01:ICE02:ICE03 -l validation.log
+```
 
 ## Related topics
 

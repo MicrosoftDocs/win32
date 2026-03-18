@@ -3,14 +3,14 @@ description: The Windows Installer supports advertisement of applications and fe
 ms.assetid: 9e5158bc-4877-49d1-9bb9-4dd17abb444d
 title: Platform Support of Advertisement
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 03/18/2026
 ---
 
 # Platform Support of Advertisement
 
 The Windows Installer supports advertisement of applications and features.
 
-The following advertisement capabilities are available on Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista, Windows Server 2003, Windows XP, and Windows 2000.
+The following advertisement capabilities are available.
 
 -   Shortcuts and their icons.
 
