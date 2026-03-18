@@ -23,8 +23,8 @@ This section includes sample code for the following purposes:
 -   [Registering for Raw Input](#registering-for-raw-input)
     -   [Example 1](#example-1)
     -   [Example 2](#example-2)
--   [Performing a Standard Read of Raw Input](#performing-a-standard-read-of-raw-input)
--   [Performing a Buffered Read of Raw Input](#performing-a-buffered-read-of-raw-input)
+-   [Reading Raw Input from a WM_INPUT Handler](#reading-raw-input-from-a-wm_input-handler)
+-   [Performing a Batched Read of Raw Input Using a Timer](#performing-a-batched-read-of-raw-input-using-a-timer)
 
 ## Registering for Raw Input
 
@@ -142,54 +142,101 @@ case WM_INPUT:
 } 
 ```
 
-## Performing a Buffered Read of Raw Input
+## Reading Raw Input from a WM_INPUT Handler
 
-This sample shows how an application does a buffered read of raw input from a generic HID.
+This sample shows the minimal pattern for reading raw input from a [**WM_INPUT**](wm-input.md) message handler. Each [**WM_INPUT**](wm-input.md) message carries an **HRAWINPUT** handle in **lParam** referencing the current input event — it must be read via [**GetRawInputData**](/windows/win32/api/winuser/nf-winuser-getrawinputdata) before calling [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowprocw).
 
 ```cpp
-case MSG_GETRIBUFFER: // Private message
-    {
-    UINT cbSize;
-    Sleep(1000);
+/* Initialized once at startup */
+UINT  g_bufferSize = 64 * sizeof(RAWINPUT);
+void* g_pBuffer    = NULL;
 
-    VERIFY(GetRawInputBuffer(NULL, &cbSize, sizeof(RAWINPUTHEADER)) == 0);
-    cbSize *= 16; // up to 16 messages
-    Log(_T("Allocating %d bytes"), cbSize);
-    PRAWINPUT pRawInput = (PRAWINPUT)malloc(cbSize);
-    if (pRawInput == NULL)
-    {
-        Log(_T("Not enough memory"));
-        return;
-    }
-
-    for (;;)
-    {
-        UINT cbSizeT = cbSize;
-        UINT nInput = GetRawInputBuffer(pRawInput, &cbSizeT, sizeof(RAWINPUTHEADER));
-        Log(_T("nInput = %d"), nInput);
-        if (nInput == 0)
-        {
-            break;
-        }
-
-        ASSERT(nInput > 0);
-        PRAWINPUT* paRawInput = (PRAWINPUT*)malloc(sizeof(PRAWINPUT) * nInput);
-        if (paRawInput == NULL)
-        {
-            Log(_T("paRawInput NULL"));
-            break;
-        }
-
-        PRAWINPUT pri = pRawInput;
-        for (UINT i = 0; i < nInput; ++i)
-        {
-            Log(_T(" input[%d] = @%p"), i, pri);
-            paRawInput[i] = pri;
-            pri = NEXTRAWINPUTBLOCK(pri);
-        }
-
-        free(paRawInput);
-    }
-    free(pRawInput);
+void ProcessInput(const RAWINPUT* input)
+{
+    if (input->header.dwType == RIM_TYPEKEYBOARD)
+        printf("key vk=0x%02x flags=0x%x\n", input->data.keyboard.VKey, input->data.keyboard.Flags);
+    else if (input->header.dwType == RIM_TYPEMOUSE)
+        printf("mouse dx=%d dy=%d\n", input->data.mouse.lLastX, input->data.mouse.lLastY);
 }
+
+/* ... */
+
+g_pBuffer = malloc(g_bufferSize);
+
+/* ... */
+
+case WM_INPUT:
+{
+    UINT bufferSize = g_bufferSize;
+    UINT result = GetRawInputData((HRAWINPUT)lParam, RID_INPUT, g_pBuffer, &bufferSize, sizeof(RAWINPUTHEADER));
+
+    if (result != (UINT)-1)
+        ProcessInput((RAWINPUT*)g_pBuffer);
+    else
+        Log(_T("GetRawInputData failed: %d"), GetLastError());
+
+    return DefWindowProc(hWnd, uMsg, wParam, lParam);
+}
+```
+
+## Performing a Batched Read of Raw Input Using a Timer
+
+This sample shows how to read raw input in fixed-rate batches using a periodic timer. [**WM_INPUT**](wm-input.md) messages are intentionally never dispatched through [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) — because [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) removes messages from the raw input queue before returning, only [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagew) with explicit message range filters is used, skipping [**WM_INPUT**](wm-input.md) entirely. This keeps all raw input events in the queue where [**GetRawInputBuffer**](/windows/win32/api/winuser/nf-winuser-getrawinputbuffer) can drain them all at once on each timer tick. This approach is well-suited for game loops and other applications that process input at a fixed rate rather than reacting to each event individually.
+
+```cpp
+HWND hWnd = CreateWindowExW(0, L"RawInputSink", NULL, 0, 0, 0, 0, 0, HWND_MESSAGE, NULL, NULL, NULL);
+RAWINPUTDEVICE rid = { 0x01, 0x02, RIDEV_INPUTSINK, hWnd }; /* mouse */
+RegisterRawInputDevices(&rid, 1, sizeof(rid));
+
+/* Drain raw input queue every 16ms (~60Hz) */
+SetTimer(hWnd, 1, 16, NULL);
+
+MSG msg;
+for (;;)
+{
+    /* Dispatch all messages except WM_INPUT */
+    while (PeekMessageW(&msg, NULL, 0, WM_INPUT - 1, PM_REMOVE) ||
+           PeekMessageW(&msg, NULL, WM_INPUT + 1, 0xFFFF, PM_REMOVE))
+    {
+        if (msg.message == WM_QUIT)
+            goto Exit;
+
+        if (msg.message == WM_TIMER)
+        {
+            /* Timer tick — drain all WM_INPUT accumulated in the queue */
+            for (;;)
+            {
+                UINT bufferSize = g_bufferSize;
+                UINT count = GetRawInputBuffer((RAWINPUT*)g_pBuffer, &bufferSize, sizeof(RAWINPUTHEADER));
+
+                if (count == 0)
+                    break;
+
+                if (count == (UINT)-1)
+                {
+                    /* Buffer too small — grow and retry */
+                    g_bufferSize = max(bufferSize, g_bufferSize * 2);
+                    g_pBuffer = realloc(g_pBuffer, g_bufferSize);
+                    if (g_pBuffer == NULL)
+                        goto Exit;
+                    continue;
+                }
+
+                {
+                    RAWINPUT* input = (RAWINPUT*)g_pBuffer;
+                    UINT i;
+                    for (i = 0; i < count; ++i, input = NEXTRAWINPUTBLOCK(input))
+                        ProcessInput(input);
+                    /* Do not break — there may be more events in the queue. */
+                }
+            }
+        }
+
+        DispatchMessageW(&msg);
+    }
+
+    WaitMessage();
+}
+
+Exit:;
 ```
