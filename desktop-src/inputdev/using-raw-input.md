@@ -137,6 +137,36 @@ void ProcessInput(const RAWINPUT* input)
     }
 }
 
+void DrainRawInputQueue(void)
+{
+    for (;;)
+    {
+        UINT bufferSize = g_bufferSize;
+        UINT count = GetRawInputBuffer((RAWINPUT*)g_pBuffer, &bufferSize, sizeof(RAWINPUTHEADER));
+
+        if (count == 0)
+            break;
+
+        if (count == (UINT)-1)
+        {
+            /* Buffer too small — grow and retry. */
+            g_bufferSize = max(bufferSize, g_bufferSize * 2);
+            g_pBuffer = realloc(g_pBuffer, g_bufferSize);
+            if (g_pBuffer == NULL)
+                break;
+            continue;
+        }
+
+        {
+            RAWINPUT* ri = (RAWINPUT*)g_pBuffer;
+            UINT i;
+            for (i = 0; i < count; ++i, ri = NEXTRAWINPUTBLOCK(ri))
+                ProcessInput(ri);
+        }
+        /* Do not break — there may be more events in the queue. */
+    }
+}
+
 /* ... */
 
 case WM_INPUT:
@@ -158,32 +188,7 @@ case WM_INPUT:
     /* Phase 2 (optional): drain any additional events that accumulated in the
      * queue since this message was posted. Recommended for high-frequency
      * devices such as mice at 1000Hz. */
-    for (;;)
-    {
-        UINT cbBuffer = g_bufferSize;
-        UINT count = GetRawInputBuffer((RAWINPUT*)g_pBuffer, &cbBuffer, sizeof(RAWINPUTHEADER));
-
-        if (count == 0)
-            break;
-
-        if (count == (UINT)-1)
-        {
-            /* Buffer too small — grow and retry. */
-            g_bufferSize = max(cbBuffer, g_bufferSize * 2);
-            g_pBuffer = realloc(g_pBuffer, g_bufferSize);
-            if (g_pBuffer == NULL)
-                break;
-            continue;
-        }
-
-        {
-            RAWINPUT* ri = (RAWINPUT*)g_pBuffer;
-            UINT i;
-            for (i = 0; i < count; ++i, ri = NEXTRAWINPUTBLOCK(ri))
-                ProcessInput(ri);
-        }
-        /* Do not break — there may be more events in the queue. */
-    }
+    DrainRawInputQueue();
 
     return DefWindowProc(hWnd, uMsg, wParam, lParam);
 }
@@ -194,9 +199,6 @@ case WM_INPUT:
 This sample shows how to read raw input in fixed-rate batches using a periodic timer. [**WM_INPUT**](wm-input.md) messages are intentionally never dispatched through [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) — because [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) removes messages from the raw input queue before returning, only [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagew) with explicit message range filters is used, skipping [**WM_INPUT**](wm-input.md) entirely. This keeps all raw input events in the queue where [**GetRawInputBuffer**](/windows/win32/api/winuser/nf-winuser-getrawinputbuffer) can drain them all at once on each timer tick. This approach is well-suited for game loops and other applications that process input at a fixed rate rather than reacting to each event individually.
 
 ```cpp
-static UINT  g_bufferSize = 64 * sizeof(RAWINPUT);
-static void* g_pBuffer    = NULL;
-
 MSG msg;
 BOOL running = TRUE;
 
@@ -208,8 +210,6 @@ RAWINPUTDEVICE rid[2] = {
     { 0x01, 0x06, RIDEV_INPUTSINK, hWnd }, /* keyboard */
 };
 RegisterRawInputDevices(rid, 2, sizeof(RAWINPUTDEVICE));
-
-g_pBuffer = malloc(g_bufferSize);
 
 /* Drain raw input queue every 16ms (~60Hz) */
 SetTimer(hWnd, 1, 16, NULL);
@@ -229,32 +229,7 @@ while (running)
 
         if (msg.message == WM_TIMER)
         {
-            for (;;)
-            {
-                UINT bufferSize = g_bufferSize;
-                UINT count = GetRawInputBuffer((RAWINPUT*)g_pBuffer, &bufferSize, sizeof(RAWINPUTHEADER));
-        
-                if (count == 0)
-                    break;
-        
-                if (count == (UINT)-1)
-                {
-                    /* Buffer too small — grow and retry. */
-                    g_bufferSize = max(cbBuffer, g_bufferSize * 2);
-                    g_pBuffer = realloc(g_pBuffer, g_bufferSize);
-                    if (g_pBuffer == NULL)
-                        break;
-                    continue;
-                }
-        
-                {
-                    RAWINPUT* input = (RAWINPUT*)g_pBuffer;
-                    UINT i;
-                    for (i = 0; i < count; ++i, input = NEXTRAWINPUTBLOCK(input))
-                        ProcessInput(input);
-                }
-                /* Do not break — there may be more events in the queue. */
-            }
+            DrainRawInputQueue();
         }
         DispatchMessageW(&msg);
     }
