@@ -93,7 +93,10 @@ For high-frequency devices such as mice at 1000Hz, multiple events may accumulat
 ```c
 /* Initialized once at startup */
 UINT  g_bufferSize = 64 * sizeof(RAWINPUT);
-void* g_pBuffer    = NULL; /* g_pBuffer = malloc(g_bufferSize); */
+void* g_pBuffer    = NULL;
+
+/* Call once before entering the message loop: */
+/* g_pBuffer = malloc(g_bufferSize); */
 
 void ProcessInput(const RAWINPUT* input)
 {
@@ -172,22 +175,14 @@ void DrainRawInputQueue(void)
 case WM_INPUT:
 {
     /* Phase 1: read the event carried by this WM_INPUT message. */
-    UINT bufferSize = 0;
-    GetRawInputData((HRAWINPUT)lParam, RID_INPUT, NULL, &bufferSize, sizeof(RAWINPUTHEADER));
-
-    RAWINPUT* input = (RAWINPUT*)malloc(bufferSize);
-    if (input != NULL)
+    UINT bufferSize = g_bufferSize;
+    if (GetRawInputData((HRAWINPUT)lParam, RID_INPUT, g_pBuffer, &bufferSize, sizeof(RAWINPUTHEADER)) != (UINT)-1)
     {
-        if (GetRawInputData((HRAWINPUT)lParam, RID_INPUT, input, &bufferSize, sizeof(RAWINPUTHEADER)) != (UINT)-1)
-        {
-            ProcessInput(input);
-        }
-        free(input);
+        ProcessInput((RAWINPUT*)g_pBuffer);
     }
 
-    /* Phase 2 (optional): drain any additional events that accumulated in the
-     * queue since this message was posted. Recommended for high-frequency
-     * devices such as mice at 1000Hz. */
+    /* Phase 2 (optional): drain any additional events that accumulated in the queue since this message was posted.
+     * Recommended for high-frequency devices such as mice at 1000Hz. */
     DrainRawInputQueue();
 
     return DefWindowProc(hWnd, uMsg, wParam, lParam);
@@ -196,14 +191,13 @@ case WM_INPUT:
 
 ## Performing a Buffered Read of Raw Input
 
-This sample shows how to read raw input in fixed-rate batches using a periodic timer. [**WM_INPUT**](wm-input.md) messages are intentionally never dispatched through [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) — because [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) removes messages from the raw input queue before returning, only [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagew) with explicit message range filters is used, skipping [**WM_INPUT**](wm-input.md) entirely. This keeps all raw input events in the queue where [**GetRawInputBuffer**](/windows/win32/api/winuser/nf-winuser-getrawinputbuffer) can drain them all at once on each timer tick. This approach is well-suited for game loops and other applications that process input at a fixed rate rather than reacting to each event individually.
+This sample shows how to read raw input in fixed-rate batches using a periodic timer. [**WM_INPUT**](wm-input.md) messages are intentionally never dispatched through [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) — because [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) removes messages from the raw input queue before returning, only [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagew) with explicit message range filters is used, skipping [**WM_INPUT**](wm-input.md) entirely. All other messages are dispatched normally via [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage). This keeps all raw input events in the queue where [**GetRawInputBuffer**](/windows/win32/api/winuser/nf-winuser-getrawinputbuffer) can drain them all at once on each timer tick. This approach is well-suited for game loops and other applications that process input at a fixed rate rather than reacting to each event individually.
 
 ```cpp
 MSG msg;
 BOOL running = TRUE;
 
-HWND hWnd = CreateWindowExW(0, L"Message", NULL, 0,
-    0, 0, 0, 0, HWND_MESSAGE, NULL, NULL, NULL);
+HWND hWnd = CreateWindowExW(0, L"Message", NULL, 0, 0, 0, 0, 0, HWND_MESSAGE, NULL, NULL, NULL);
 
 RAWINPUTDEVICE rid[2] = {
     { 0x01, 0x02, RIDEV_INPUTSINK, hWnd }, /* mouse */
@@ -231,12 +225,11 @@ while (running)
         {
             DrainRawInputQueue();
         }
+
         DispatchMessageW(&msg);
     }
 
     if (running)
         WaitMessage();
 }
-
-free(g_pBuffer);
 ```
