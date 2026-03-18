@@ -88,7 +88,13 @@ if (RegisterRawInputDevices(Rid, 2, sizeof(Rid[0])) == FALSE)
 
 This sample shows the minimal pattern for standard reading raw input from a [**WM_INPUT**](wm-input.md) message handler. Each [**WM_INPUT**](wm-input.md) message carries an **HRAWINPUT** handle in **lParam** referencing the current input event — it must be read via [**GetRawInputData**](/windows/win32/api/winuser/nf-winuser-getrawinputdata) before calling [**DefWindowProc**](/windows/win32/api/winuser/nf-winuser-defwindowprocw).
 
-```cpp
+For high-frequency devices such as mice at 1000Hz, multiple events may accumulate between message loop iterations. In that case, follow up with [**GetRawInputBuffer**](/windows/win32/api/winuser/nf-winuser-getrawinputbuffer) to drain the remaining queue — see the optional Phase 2 below.
+
+```c
+/* Initialized once at startup */
+UINT  g_bufferSize = 64 * sizeof(RAWINPUT);
+void* g_pBuffer    = NULL; /* g_pBuffer = malloc(g_bufferSize); */
+
 void ProcessInput(const RAWINPUT* input)
 {
     if (input->header.dwType == RIM_TYPEKEYBOARD)
@@ -97,24 +103,17 @@ void ProcessInput(const RAWINPUT* input)
         const char* transition = (kb->Flags & RI_KEY_BREAK) ? "up" : "down";
         const char* extended   = (kb->Flags & RI_KEY_E0)    ? " e0" :
                                  (kb->Flags & RI_KEY_E1)    ? " e1" : "";
-
         printf("keyboard: vk=0x%02x scan=0x%02x %s%s msg=0x%04x extra=0x%08x\n",
-            kb->VKey,
-            kb->MakeCode,
-            transition,
-            extended,
-            kb->Message,
-            kb->ExtraInformation);
+            kb->VKey, kb->MakeCode, transition, extended,
+            kb->Message, kb->ExtraInformation);
     }
     else if (input->header.dwType == RIM_TYPEMOUSE)
     {
         const RAWMOUSE* mouse = &input->data.mouse;
+        const char* moveMode  = (mouse->usFlags & MOUSE_MOVE_ABSOLUTE) ? "abs" : "rel";
 
-        /* Movement */
-        const char* moveMode = (mouse->usFlags & MOUSE_MOVE_ABSOLUTE) ? "abs" : "rel";
         printf("mouse: move %s dx=%d dy=%d\n", moveMode, mouse->lLastX, mouse->lLastY);
 
-        /* Buttons */
         if (mouse->usButtonFlags & RI_MOUSE_LEFT_BUTTON_DOWN)   printf("  left down\n");
         if (mouse->usButtonFlags & RI_MOUSE_LEFT_BUTTON_UP)     printf("  left up\n");
         if (mouse->usButtonFlags & RI_MOUSE_RIGHT_BUTTON_DOWN)  printf("  right down\n");
@@ -126,9 +125,8 @@ void ProcessInput(const RAWINPUT* input)
         if (mouse->usButtonFlags & RI_MOUSE_BUTTON_5_DOWN)      printf("  x2 down\n");
         if (mouse->usButtonFlags & RI_MOUSE_BUTTON_5_UP)        printf("  x2 up\n");
 
-        /* Wheel */
         if (mouse->usButtonFlags & RI_MOUSE_WHEEL)
-            printf("  wheel delta=%d\n", (int)(short)mouse->usButtonData);
+            printf("  wheel delta=%d\n",  (int)(short)mouse->usButtonData);
         if (mouse->usButtonFlags & RI_MOUSE_HWHEEL)
             printf("  hwheel delta=%d\n", (int)(short)mouse->usButtonData);
     }
@@ -139,21 +137,53 @@ void ProcessInput(const RAWINPUT* input)
     }
 }
 
+/* ... */
+
 case WM_INPUT:
 {
+    /* Phase 1: read the event carried by this WM_INPUT message. */
     UINT bufferSize = 0;
-
-    /* Query required buffer size */
     GetRawInputData((HRAWINPUT)lParam, RID_INPUT, NULL, &bufferSize, sizeof(RAWINPUTHEADER));
 
     RAWINPUT* input = (RAWINPUT*)malloc(bufferSize);
-    if (input == NULL)
-        return DefWindowProc(hWnd, uMsg, wParam, lParam);
+    if (input != NULL)
+    {
+        if (GetRawInputData((HRAWINPUT)lParam, RID_INPUT, input, &bufferSize, sizeof(RAWINPUTHEADER)) != (UINT)-1)
+        {
+            ProcessInput(input);
+        }
+        free(input);
+    }
 
-    if (GetRawInputData((HRAWINPUT)lParam, RID_INPUT, input, &bufferSize, sizeof(RAWINPUTHEADER)) != (UINT)-1)
-        ProcessInput(input);
+    /* Phase 2 (optional): drain any additional events that accumulated in the
+     * queue since this message was posted. Recommended for high-frequency
+     * devices such as mice at 1000Hz. */
+    for (;;)
+    {
+        UINT cbBuffer = g_bufferSize;
+        UINT count = GetRawInputBuffer((RAWINPUT*)g_pBuffer, &cbBuffer, sizeof(RAWINPUTHEADER));
 
-    free(input);
+        if (count == 0)
+            break;
+
+        if (count == (UINT)-1)
+        {
+            /* Buffer too small — grow and retry. */
+            g_bufferSize = max(cbBuffer, g_bufferSize * 2);
+            g_pBuffer = realloc(g_pBuffer, g_bufferSize);
+            if (g_pBuffer == NULL)
+                break;
+            continue;
+        }
+
+        {
+            RAWINPUT* ri = (RAWINPUT*)g_pBuffer;
+            UINT i;
+            for (i = 0; i < count; ++i, ri = NEXTRAWINPUTBLOCK(ri))
+                ProcessInput(ri);
+            /* Do not break — there may be more events in the queue. */
+        }
+    }
 
     return DefWindowProc(hWnd, uMsg, wParam, lParam);
 }
@@ -164,14 +194,6 @@ case WM_INPUT:
 This sample shows how to read raw input in fixed-rate batches using a periodic timer. [**WM_INPUT**](wm-input.md) messages are intentionally never dispatched through [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) — because [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) removes messages from the raw input queue before returning, only [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagew) with explicit message range filters is used, skipping [**WM_INPUT**](wm-input.md) entirely. This keeps all raw input events in the queue where [**GetRawInputBuffer**](/windows/win32/api/winuser/nf-winuser-getrawinputbuffer) can drain them all at once on each timer tick. This approach is well-suited for game loops and other applications that process input at a fixed rate rather than reacting to each event individually.
 
 ```cpp
-/* Initialized once at startup */
-UINT  g_bufferSize = 64 * sizeof(RAWINPUT);
-void* g_pBuffer    = NULL;
-
-g_pBuffer = malloc(g_bufferSize);
-
-/* ... */
-
 HWND hWnd = CreateWindowExW(0, L"RawInputSink", NULL, 0, 0, 0, 0, 0, HWND_MESSAGE, NULL, NULL, NULL);
 RAWINPUTDEVICE rid = { 0x01, 0x02, RIDEV_INPUTSINK, hWnd }; /* mouse */
 RegisterRawInputDevices(&rid, 1, sizeof(rid));
