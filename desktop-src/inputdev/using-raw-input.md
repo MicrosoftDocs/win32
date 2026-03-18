@@ -181,8 +181,8 @@ case WM_INPUT:
             UINT i;
             for (i = 0; i < count; ++i, ri = NEXTRAWINPUTBLOCK(ri))
                 ProcessInput(ri);
-            /* Do not break — there may be more events in the queue. */
         }
+        /* Do not break — there may be more events in the queue. */
     }
 
     return DefWindowProc(hWnd, uMsg, wParam, lParam);
@@ -194,59 +194,74 @@ case WM_INPUT:
 This sample shows how to read raw input in fixed-rate batches using a periodic timer. [**WM_INPUT**](wm-input.md) messages are intentionally never dispatched through [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) — because [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) removes messages from the raw input queue before returning, only [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagew) with explicit message range filters is used, skipping [**WM_INPUT**](wm-input.md) entirely. This keeps all raw input events in the queue where [**GetRawInputBuffer**](/windows/win32/api/winuser/nf-winuser-getrawinputbuffer) can drain them all at once on each timer tick. This approach is well-suited for game loops and other applications that process input at a fixed rate rather than reacting to each event individually.
 
 ```cpp
-HWND hWnd = CreateWindowExW(0, L"RawInputSink", NULL, 0, 0, 0, 0, 0, HWND_MESSAGE, NULL, NULL, NULL);
-RAWINPUTDEVICE rid = { 0x01, 0x02, RIDEV_INPUTSINK, hWnd }; /* mouse */
-RegisterRawInputDevices(&rid, 1, sizeof(rid));
+static UINT  g_bufferSize = 64 * sizeof(RAWINPUT);
+static void* g_pBuffer    = NULL;
+
+MSG msg;
+BOOL running = TRUE;
+
+HWND hWnd = CreateWindowExW(0, L"Message", NULL, 0,
+    0, 0, 0, 0, HWND_MESSAGE, NULL, NULL, NULL);
+
+RAWINPUTDEVICE rid[2] = {
+    { 0x01, 0x02, RIDEV_INPUTSINK, hWnd }, /* mouse */
+    { 0x01, 0x06, RIDEV_INPUTSINK, hWnd }, /* keyboard */
+};
+RegisterRawInputDevices(rid, 2, sizeof(RAWINPUTDEVICE));
+
+g_pBuffer = malloc(g_bufferSize);
 
 /* Drain raw input queue every 16ms (~60Hz) */
 SetTimer(hWnd, 1, 16, NULL);
 
-MSG msg;
-for (;;)
+/* Message loop — WM_INPUT is skipped via range filters so it
+ * accumulates in the raw input queue for DrainRawInputQueue to drain. */
+while (running)
 {
-    /* Dispatch all messages except WM_INPUT */
     while (PeekMessageW(&msg, NULL, 0, WM_INPUT - 1, PM_REMOVE) ||
            PeekMessageW(&msg, NULL, WM_INPUT + 1, 0xFFFF, PM_REMOVE))
     {
         if (msg.message == WM_QUIT)
-            goto Exit;
+        {
+            running = FALSE;
+            break;
+        }
 
         if (msg.message == WM_TIMER)
         {
-            /* Timer tick — drain all WM_INPUT accumulated in the queue */
             for (;;)
             {
                 UINT bufferSize = g_bufferSize;
                 UINT count = GetRawInputBuffer((RAWINPUT*)g_pBuffer, &bufferSize, sizeof(RAWINPUTHEADER));
-
+        
                 if (count == 0)
                     break;
-
+        
                 if (count == (UINT)-1)
                 {
-                    /* Buffer too small — grow and retry */
-                    g_bufferSize = max(bufferSize, g_bufferSize * 2);
+                    /* Buffer too small — grow and retry. */
+                    g_bufferSize = max(cbBuffer, g_bufferSize * 2);
                     g_pBuffer = realloc(g_pBuffer, g_bufferSize);
                     if (g_pBuffer == NULL)
-                        goto Exit;
+                        break;
                     continue;
                 }
-
+        
                 {
                     RAWINPUT* input = (RAWINPUT*)g_pBuffer;
                     UINT i;
                     for (i = 0; i < count; ++i, input = NEXTRAWINPUTBLOCK(input))
                         ProcessInput(input);
-                    /* Do not break — there may be more events in the queue. */
                 }
+                /* Do not break — there may be more events in the queue. */
             }
         }
-
         DispatchMessageW(&msg);
     }
 
-    WaitMessage();
+    if (running)
+        WaitMessage();
 }
 
-Exit:;
+free(g_pBuffer);
 ```
