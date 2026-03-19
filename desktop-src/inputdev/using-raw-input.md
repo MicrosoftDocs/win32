@@ -193,6 +193,15 @@ case WM_INPUT:
 
 This sample shows how to read raw input in fixed-rate batches using a periodic timer. [**WM_INPUT**](wm-input.md) messages are intentionally never dispatched through [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage) — because [**GetMessage**](/windows/win32/api/winuser/nf-winuser-getmessage) removes messages from the raw input queue before returning, only [**PeekMessage**](/windows/win32/api/winuser/nf-winuser-peekmessagew) with explicit message range filters is used, skipping [**WM_INPUT**](wm-input.md) entirely. All other messages are dispatched normally via [**DispatchMessage**](/windows/win32/api/winuser/nf-winuser-dispatchmessage). This keeps all raw input events in the queue where [**GetRawInputBuffer**](/windows/win32/api/winuser/nf-winuser-getrawinputbuffer) can drain them all at once on each timer tick. This approach is well-suited for game loops and other applications that process input at a fixed rate rather than reacting to each event individually.
 
+> [!NOTE]
+> `RIDEV_DEVNOTIFY` is incompatible with this pattern and must not be used.
+> `WM_INPUT_DEVICE_CHANGE` is delivered through the raw input queue and is
+> not visible to the range-filtered `PeekMessage` calls used here, causing
+> the thread to spin. To receive device notifications, use the
+> [Performing a Standard Read of Raw Input](#performing-a-standard-read-of-raw-input)
+> pattern instead, which uses an unfiltered message loop and handles
+> `WM_INPUT_DEVICE_CHANGE` correctly.
+
 ```cpp
 MSG msg;
 BOOL running = TRUE;
