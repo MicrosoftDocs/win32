@@ -78,6 +78,24 @@ Sets an unsigned long integer value that specifies whether [Passport Authenticat
 
 Sets or retrieves an unsigned long integer value that contains the number of timesWinHTTP attempts to connect to a host. Microsoft Windows HTTP Services (WinHTTP) only attempts once per Internet Protocol (IP) address. For example, if you attempt to connect to a multihomed host that has 10 IP addresses and **WINHTTP\_OPTION\_CONNECT\_RETRIES** is set to 7, then WinHTTP only attempts to connect to the first seven IP address. Given the same set of 10 IP addresses, if **WINHTTP\_OPTION\_CONNECT\_RETRIES** is set to 20, WinHTTP attempts each of the 10 only once. If a connection attempt still fails after the specified number of attempts, or if the connect timeout expired before then, the request is canceled. The default value for **WINHTTP\_OPTION\_CONNECT\_RETRIES** is five attempts.
 
+## WINHTTP_OPTION_FAILED_CONNECTION_RETRIES
+
+Sets the retry behavior for failed connections on a session handle using a [**WINHTTP\_FAILED\_CONNECTION\_RETRIES**](/windows/win32/api/winhttp/ns-winhttp-winhttp_failed_connection_retries) structure. This option allows the caller to specify the maximum number of retries and the conditions under which WinHTTP should automatically retry sending a request on a failed connection. The option must be set on the session handle before any connection or request handles are created from that session. For more information on available behaviors, please see [**WINHTTP\_FAILED\_CONNECTION\_RETRIES**](/windows/win32/api/winhttp/ns-winhttp-winhttp_failed_connection_retries).
+
+The following code example shows how to set this option to retry up to 5 times on stale connection failures.
+
+``` syntax
+WINHTTP_FAILED_CONNECTION_RETRIES FailedConnectRetries;
+FailedConnectRetries.dwMaxRetries = 5;
+FailedConnectRetries.dwAllowedRetryConditions =
+    WINHTTP_CONNECTION_RETRY_CONDITION_STALE_CONNECTION;
+
+WinHttpSetOption(hSession,
+                 WINHTTP_OPTION_FAILED_CONNECTION_RETRIES,
+                 &FailedConnectRetries,
+                 sizeof(FailedConnectRetries));
+```
+
 ## WINHTTP_OPTION_CONNECT_TIMEOUT
 
 Sets or retrieves an unsigned long integer value that contains the time-out value, in milliseconds. Setting this option to infinite (0xFFFFFFFF) will disable this timer.
@@ -260,18 +278,18 @@ Set the initial HTTP/2 stream receive window size and the threshold for sending 
 ## WINHTTP_OPTION_HTTP3_HANDSHAKE_TIMEOUT
 
 Uses the buffer to set the HTTP/3 handshake timeout in milliseconds as a PDWORD.
- 
+
 ## WINHTTP_OPTION_HTTP3_INITIAL_RTT
 
 Configures the initial RTT in milliseconds used by [msquic](https://github.com/microsoft/msquic).
- 
+
 ## WINHTTP_OPTION_HTTP3_KEEPALIVE
 
 Enables keep-alive semantics for the connection. Uses the buffer to set the keep-alive timeout in milliseconds as a PDWORD.
- 
+
 ## WINHTTP_OPTION_HTTP3_STREAM_ERROR_CODE
 
-Retrieves the server-provided error on the HTTP/3 stream used to send the request. 
+Retrieves the server-provided error on the HTTP/3 stream used to send the request.
 
 ## WINHTTP_OPTION_IGNORE_CERT_REVOCATION_OFFLINE
 
@@ -650,6 +668,7 @@ Attempting to set or query an option flag on a Windows version where it is not s
 | WINHTTP\_OPTION\_CODEPAGE<br/>**DWORD** | X | \- | \- | X | \- |
 | WINHTTP\_OPTION\_CONFIGURE\_PASSPORT\_AUTH<br/>**DWORD** | X | \- | \- | X | \- |
 | WINHTTP\_OPTION\_CONNECT\_RETRIES<br/>**DWORD** | X | X | X | X | \- |
+| WINHTTP\_OPTION\_FAILED\_CONNECTION\_RETRIES<br/>[**WINHTTP\_FAILED\_CONNECTION\_RETRIES**](/windows/win32/api/winhttp/ns-winhttp-winhttp_failed_connection_retries) | X | \- | \- | X | \- |
 | WINHTTP\_OPTION\_CONNECT\_TIMEOUT<br/>**DWORD** | X | X | X | X | \- |
 | WINHTTP\_OPTION\_CONNECTION\_INFO<br/>[**WINHTTP\_CONNECTION\_INFO**](/windows/win32/api/Winhttp/ns-winhttp-winhttp_connection_info) | \- | X | X | \- | \- |
 | WINHTTP\_OPTION\_CONNECTION\_STATS\_V0<br/>[**TCP\_INFO\_v0**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v0) | \- | X | X | \- | Windows 10 Version 1903 |
