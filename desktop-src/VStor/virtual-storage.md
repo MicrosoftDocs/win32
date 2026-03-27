@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 <dl>
 
-[Virtual Disk](/previous-versions/windows/desktop/legacy/dd323684(v=vs.85))  
+[Virtual Disk](/windows/win32/vstor/portal)
 </dl>
 
  
