@@ -15,8 +15,6 @@ api_name:
 - CallWndProc
 api_type:
 - UserDefined
-product:
-- Windows
 topic_type:
 - apiref
 - kbSyntax

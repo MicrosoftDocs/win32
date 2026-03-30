@@ -24,8 +24,6 @@ api_name:
 - CBTProc
 api_type:
 - UserDefined
-product:
-- Windows
 ms.topic: reference
 topic_type:
 - apiref
