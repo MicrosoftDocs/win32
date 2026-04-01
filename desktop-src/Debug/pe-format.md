@@ -881,13 +881,13 @@ By convention, the names are treated as zero-terminated UTF-8 encoded strings.
 
 #### Section Number Values
 
-Normally, the Section Value field in a symbol table entry is a one-based index into the section table. However, this field is a signed integer and can take negative values. The following values, less than one, have special meanings.
+Normally, the SectionNumber field in a symbol table entry is a one-based index into the section table. However, this field is a signed integer and can take zero or negative values. Values less than one have the following special meanings.
 
 
 
 | Constant                          | Value          | Description                                                                                                                                                                                                                            |
 |-----------------------------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| IMAGE\_SYM\_UNDEFINED <br/> | 0 <br/>  | The symbol record is not yet assigned a section. A value of zero indicates that a reference to an external symbol is defined elsewhere. A value of non-zero is a common symbol with a size that is specified by the value. <br/> |
+| IMAGE\_SYM\_UNDEFINED <br/> | 0 <br/>  | The symbol record is not yet assigned a section. A Value field with a value of zero indicates a reference to an external symbol, which is defined elsewhere. A Value field with a non-zero value indicates a common symbol, whose size is specified by the value. <br/> |
 | IMAGE\_SYM\_ABSOLUTE <br/>  | -1 <br/> | The symbol has an absolute (non-relocatable) value and is not an address. <br/>                                                                                                                                                  |
 | IMAGE\_SYM\_DEBUG <br/>     | -2 <br/> | The symbol provides general type or debugging information but does not correspond to a section. Microsoft tools use this setting along with .file records (storage class FILE). <br/>                                            |
 
