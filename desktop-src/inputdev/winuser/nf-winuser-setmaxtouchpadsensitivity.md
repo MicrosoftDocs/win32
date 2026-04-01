@@ -62,7 +62,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## Remarks
 
-[Accidental Activation Prevention](/windows-hardware/design/component-guidelines/touchpad-accidental-activation-prevention) (AAP) is a touchpad feature that suppresses mouse moves or taps generated from the touchpad that happen a certain time after keyboard input. AAP ensures that when a user is typing on their laptop keyboard they do not accidentally cause mouse input with their palm.
+Accidental Activation Prevention (AAP) is a touchpad feature that suppresses mouse moves or taps generated from the touchpad that happen a certain time after keyboard input. AAP ensures that when a user is typing on their laptop keyboard they do not accidentally cause mouse input with their palm.
 
 There are scenarios where it is not desirable to have AAP active. For instance, certain video games use WASD keys to move a character while the mouse (or touchpad) simultaneously rotates the camera. With AAP enabled (the default), when the user holds down W, the game will not receive any subsequent mouse input from the touchpad until the AAP timeout expires.
 
