@@ -50,11 +50,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 ## Remarks
 
-Touch and pen input use different messages than mouse. See [Pointer Input](/windows/win32/api/_inputmsg/) for more info. Apps that do not handle the pointer messages get the primary pointer contact converted, or promoted, to mouse input. Apps that handle pointer input do not receive the mouse messages. This can cause problems if the app sometimes calls into code that expects mouse input, like [**DoDragDrop**](/windows/win32/api/ole2/nf-ole2-dodragdrop).
+Touch and pen input use different window messages than mouse input. See [Pointer Input](/windows/win32/api/_inputmsg/) for more info. By default, apps that do not handle pointer messages have the primary pointer contact automatically promoted to mouse input. Apps that do handle pointer messages do not receive mouse messages, which can cause problems when calling APIs that expect mouse input, such as [**DoDragDrop**](/windows/win32/api/ole2/nf-ole2-dodragdrop).
 
-**DoDragDrop** expects to be called in response to a **WM_LBUTTONDOWN** or for a **WM_MOVEMOVE** while the button is still down. It captures the mouse input and begins processing input, exiting when it gets a **WM_LBUTTONUP**. The caller is dragging an item and each move/up event interacts with the window under the cursor, if that window is registered as a drop target.
+**DoDragDrop** expects to be called while mouse input is active — typically in response to a **WM_LBUTTONDOWN** or **WM_MOUSEMOVE** while the button is held. It captures mouse input and processes drag-and-drop, exiting when it receives **WM_LBUTTONUP**. During the drag, each move and up event interacts with the window under the cursor if that window is registered as a drop target.
 
-**ConvertPrimaryPointerToMouseDrag** allows a pointer-aware app (one handling pointer messages) to switch the on-going contact to mouse. This can be done immediately before calling APIs like **DoDragDrop**. This enables the app to determine if input should cause a drag (often a press and hold) using pointer input messages, and switch to mouse only when it knows the input will become a drag and drop operation.
+**ConvertPrimaryPointerToMouseDrag** bridges this gap by allowing a pointer-aware app to promote the on-going pointer contact to mouse on demand. The app can use pointer messages to determine whether the input should become a drag (for example, by detecting a press and hold), then call this function immediately before calling **DoDragDrop** to switch the contact to mouse input for the remainder of the interaction.
 
 The calling thread must have exactly one pointer contact, and it must be primary. See [**IS_POINTER_PRIMARY_WPARAM**](/windows/win32/api/winuser/nf-winuser-is_pointer_primary_wparam).
 
