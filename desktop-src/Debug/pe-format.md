@@ -881,7 +881,7 @@ By convention, the names are treated as zero-terminated UTF-8 encoded strings.
 
 #### Section Number Values
 
-Normally, the SectionNumber field in a symbol table entry is a one-based index into the section table. However, this field is a signed integer and can take zero or negative values. The following values, less than one, have special meanings.
+Normally, the SectionNumber field in a symbol table entry is a one-based index into the section table. However, this field is a signed integer and can take zero or negative values. Values less than one have the following special meanings.
 
 
 
