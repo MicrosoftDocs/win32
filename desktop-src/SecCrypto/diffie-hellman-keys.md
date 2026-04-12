@@ -87,6 +87,7 @@ The following example demonstrates a Diffie-Hellman key exchange between two par
 #include <windows.h>
 #include <bcrypt.h>
 #include <stdio.h>
+#include <cstring>
 #pragma comment(lib, "bcrypt.lib")
 
 #define NT_SUCCESS(Status) (((NTSTATUS)(Status)) >= 0)
