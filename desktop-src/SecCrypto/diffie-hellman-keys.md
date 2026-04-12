@@ -78,10 +78,16 @@ To later import the private key, call [**BCryptImportKeyPair**](/windows/win32/a
 
 ## Example Code
 
-The following example demonstrates a Diffie-Hellman key exchange between two parties using CNG. Both parties derive the same shared secret, which is then used to construct an AES-256 symmetric key.
+The following example demonstrates a Diffie-Hellman key exchange between two
+parties using CNG. Both parties derive the same key material from the shared
+secret and compare the derived bytes.
 
 > [!NOTE]
-> **FEEDBACK REQUIRED** — Please review the parameter sizes, KDF usage, and AES key derivation in this example for correctness and completeness before publication. In particular, verify that: (1) the `BCRYPT_DH_PARAMETERS` blob layout (P then G, big-endian) is correct; (2) `BCryptDeriveKey` with `BCRYPT_KDF_HASH` produces output suitable for direct use as AES-256 key material without additional processing; (3) the Party 2 parameter-reuse approach (extracting P/G from Party 1's public blob) is the recommended pattern.
+> This example uses explicit Diffie-Hellman parameters and derives key material
+> from the shared secret by using `BCryptDeriveKey` with `BCRYPT_KDF_HASH`.
+> When adapting this sample, ensure that the parameter format, key-derivation
+> settings, and resulting key usage meet your application's security and
+> interoperability requirements.
 
 ```cpp
 #include <windows.h>
@@ -94,8 +100,7 @@ The following example demonstrates a Diffie-Hellman key exchange between two par
 #define CHECK(s, fn) if (!NT_SUCCESS(s)) { wprintf(L"Error in %s: 0x%08x\n", fn, s); goto cleanup; }
 
 // 2048-bit MODP Group 14 prime (RFC 3526), big-endian.
-// FEEDBACK REQUIRED: Confirm use of a standardized group is appropriate here,
-// or whether the example should generate parameters dynamically instead.
+// Uses the 2048-bit MODP Group 14 standardized prime.
 static const BYTE g_Prime2048[] =
 {
     0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xC9,0x0F,0xDA,0xA2,0x21,0x68,0xC2,0x34,
@@ -124,6 +129,8 @@ static BYTE g_Generator2048[256] = { 0 };  // initialized to zero; set g_Generat
 
 int wmain()
 {
+    int ret = 1;
+
     // Set generator value (g = 2)
     g_Generator2048[KEY_SIZE_BYTES - 1] = 2;
 
@@ -252,6 +259,7 @@ int wmain()
     if (cbDerivedKey == cbDerivedKey2 && memcmp(pbDerivedKey1, pbDerivedKey2, cbDerivedKey) == 0)
     {
         wprintf(L"Success: both parties derived the same %u-byte key material.\n", cbDerivedKey);
+        ret = 0;
     }
     else
     {
@@ -273,7 +281,7 @@ cleanup:
     if (hAlg1)          BCryptCloseAlgorithmProvider(hAlg1, 0);
     if (pbParams)       HeapFree(GetProcessHeap(), 0, pbParams);
 
-    return 0;
+    return ret;
 }
 ```
 
