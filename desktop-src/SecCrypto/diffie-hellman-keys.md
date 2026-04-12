@@ -213,7 +213,6 @@ int wmain()
     // Derive 32 bytes of key material using SHA-256.
     BCryptBufferDesc kdfParams = { 0 };
     BCryptBuffer kdfBuffer = { 0 };
-    DWORD dwHashAlg = 0;
     WCHAR szHashAlg[] = BCRYPT_SHA256_ALGORITHM;
     kdfBuffer.BufferType = KDF_HASH_ALGORITHM;
     kdfBuffer.cbBuffer   = sizeof(szHashAlg);
