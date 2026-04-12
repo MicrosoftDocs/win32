@@ -27,9 +27,9 @@ To generate a Diffie-Hellman key pair using CNG, perform the following steps:
 
 2. Call [**BCryptGenerateKeyPair**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptgeneratekeypair) to create the key pair, specifying the key size in bits. Use at least 2048 bits for adequate security; 512-bit keys (as used in legacy CAPI1 examples) are cryptographically weak and must not be used in new code.
 
-3. Optionally, set explicit DH parameters (the prime *P* and generator *G*) by calling [**BCryptSetProperty**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptsetproperty) with the `BCRYPT_DH_PARAMETERS` property. The property value must be a [**BCRYPT_DH_PARAMETER_HEADER**](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_dh_parameter_header) structure followed immediately by the *P* value and then the *G* value, each `cbKeyLength` bytes in length, in big-endian byte order.
+3. Set DH parameters (the prime *P* and generator *G*) by calling [**BCryptSetProperty**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptsetproperty) with the `BCRYPT_DH_PARAMETERS` property before calling `BCryptFinalizeKeyPair`. The property value must be a [**BCRYPT_DH_PARAMETER_HEADER**](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_dh_parameter_header) structure followed immediately by the *P* value and then the *G* value, each `cbKeyLength` bytes in length, in big-endian byte order.
 
-   If you skip this step, the provider generates suitable default parameters. Both parties must use the same *P* and *G* values; the `BCRYPT_DH_PUBLIC_BLOB` export format includes *P* and *G* so the recipient can extract them.
+   Both parties must use the same *P* and *G* values; the `BCRYPT_DH_PUBLIC_BLOB` export format includes *P* and *G* so the recipient can extract them.
 
 4. Call [**BCryptFinalizeKeyPair**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptfinalizekeypair) to complete the key generation. This function must be called before the key can be used or exported.
 
