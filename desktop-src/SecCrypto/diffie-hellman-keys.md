@@ -251,7 +251,7 @@ int wmain()
     //
     if (cbDerivedKey == cbDerivedKey2 && memcmp(pbDerivedKey1, pbDerivedKey2, cbDerivedKey) == 0)
     {
-        wprintf(L"Success: both parties derived the same %u-byte shared secret.\n", cbDerivedKey);
+        wprintf(L"Success: both parties derived the same %u-byte key material.\n", cbDerivedKey);
     }
     else
     {
