@@ -26,7 +26,7 @@ HRESULT WINAPI DlpAuditOperationEnforcementEvent(_In_z_ LPCWSTR source, _In_z_ L
 
 ## Parameters
 
-`source` [in]: A [fully qualified Win32 file path](https://docs.microsoft.com/windows/win32/fileio/naming-a-file) for the file to be analyzed.
+`source` [in]: A [fully qualified Win32 file path](/windows/win32/fileio/naming-a-file) for the file to be analyzed.
 
 `target` [in]: The target to trace. When investigating some operations like Print or Copy to Keyboard, this property can be NULL.
 
