@@ -27,8 +27,6 @@ api_name:
 - DebugProc
 api_type:
 - HeaderDef
-product:
-- Windows
 topic_type:
 - apiref
 - kbSyntax
