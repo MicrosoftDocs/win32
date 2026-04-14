@@ -28,8 +28,8 @@ The default value of this attribute is **FALSE**. Treat this attribute as read-o
 
 | Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 \[desktop apps \| UWP apps\]<br/>                                       |
-| Minimum supported server<br/> | Windows Server 2016 \[desktop apps \| UWP apps\]<br/>                              |
+| Minimum supported client<br/> | Windows 10                                       |
+| Minimum supported server<br/> | Windows Server 2016                              |
 | Header<br/>                   | <dl> <dt>Mfd3d12.h</dt> </dl> |
 
 
