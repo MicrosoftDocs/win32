@@ -1,9 +1,7 @@
 ---
 description: Represents the superclass for setting data on a networking.
 ms.assetid: 3c6a06d6-9384-4fd4-b185-6d40c540a632
-title: MSFT\_NetSettingData class
-
-
+title: MSFT\_NetSettingData class (NetAdapterCim)
 ms.author: windowssdkdev
 ms.topic: reference
 ms.date: 05/31/2018
@@ -23,8 +21,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# MSFT\_NetSettingData class
-
+# MSFT\_NetSettingData class (NetAdapterCim)
 Represents the superclass for setting data on a networking.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.

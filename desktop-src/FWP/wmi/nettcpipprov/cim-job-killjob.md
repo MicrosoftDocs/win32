@@ -19,8 +19,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# KillJob method of the CIM\_Job class
-
+# KillJob method of the CIM\_Job class (NetTCPIP)
 KillJob is being deprecated because there is no distinction made between an orderly shutdown and an immediate kill. [**RequestStateChange**](cim-concretejob-requeststatechange.md) provides Terminate and Kill options to allow this distinction.
 
 A method to kill this job and any underlying processes, and to remove any dangling associations.

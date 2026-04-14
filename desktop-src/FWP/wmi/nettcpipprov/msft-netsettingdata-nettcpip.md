@@ -1,9 +1,7 @@
 ---
 description: Serves as a base class for classes that provide access to network settings, including MSFT\_NetCompartment and MSFT\_NetOffloadGlobalSetting.
 ms.assetid: eef60c3e-4481-49f8-8dc7-73804e92f1b5
-title: MSFT\_NetSettingData class
-
-
+title: MSFT\_NetSettingData class (NetTCPIP)
 ms.author: windowssdkdev
 ms.topic: reference
 ms.date: 05/31/2018
@@ -23,8 +21,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# MSFT\_NetSettingData class
-
+# MSFT\_NetSettingData class (NetTCPIP)
 Serves as a base class for classes that provide access to network settings, including [**MSFT\_NetCompartment**](msft-netcompartment.md) and [**MSFT\_NetOffloadGlobalSetting**](msft-netoffloadglobalsetting.md).
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.

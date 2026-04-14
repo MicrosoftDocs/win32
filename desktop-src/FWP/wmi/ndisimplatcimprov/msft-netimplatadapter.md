@@ -1,9 +1,7 @@
 ---
 description: Represents Network Adapters used in IM Platform, ie. the members and team NICs.
 ms.assetid: d01301a0-0df4-427a-8275-82f80157cbac
-title: MSFT\_NetImPlatAdapter class
-
-
+title: MSFT\_NetImPlatAdapter class (MsNetImPlatform)
 ms.author: windowssdkdev
 ms.topic: reference
 ms.date: 05/31/2018
@@ -26,8 +24,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# MSFT\_NetImPlatAdapter class
-
+# MSFT\_NetImPlatAdapter class (MsNetImPlatform)
 Represents Network Adapters used in IM Platform, ie. the members and team NICs.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
