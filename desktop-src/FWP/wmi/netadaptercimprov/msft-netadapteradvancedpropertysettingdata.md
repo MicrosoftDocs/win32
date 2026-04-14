@@ -467,7 +467,7 @@ An array of integers specifying the registry keyword values used to represent a 
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                         |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                               |

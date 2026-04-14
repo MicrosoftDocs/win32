@@ -245,7 +245,7 @@ An embedded instance of the [**MSFT\_NetIPAddress**](msft-netipaddress.md) class
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                     |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                           |

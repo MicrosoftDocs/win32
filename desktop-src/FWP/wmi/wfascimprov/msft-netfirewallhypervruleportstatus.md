@@ -92,7 +92,7 @@ The status gives an indicator of which level of enforcement this rule is applied
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Minimum supported client | Windows 8 |
 | Minimum supported server | Windows Server 2012 |

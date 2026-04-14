@@ -39,7 +39,7 @@ A friendly name of the Hyper-V VM Creator.
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Minimum supported client | Windows 8 |
 | Minimum supported server | Windows Server 2012 |

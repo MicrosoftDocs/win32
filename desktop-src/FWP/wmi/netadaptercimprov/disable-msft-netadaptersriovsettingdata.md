@@ -49,7 +49,7 @@ Returns an embedded instance of a [**MSFT\_NetAdapterSriovSettingData**](msft-ne
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                               |

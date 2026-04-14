@@ -312,7 +312,7 @@ Gets and sets a value that indicates whether DNS clients use the global suffix s
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                        |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                              |
