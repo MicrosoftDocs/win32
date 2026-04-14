@@ -135,7 +135,7 @@ Microsoft Spatial Sound is focused on sound positioning simulation on an idealiz
 ## Additional Resources
 
 -   [Microsoft Spatial Sound samples github repository](https://github.com/Microsoft/Xbox-ATG-Samples/tree/master/UWPSamples/Audio)
--   Dolby offers a number of support resources relating to Dolby Atmos and the Dolby Access app at <https://developer.dolby.com>.
+-   Dolby offers a number of support resources relating to Dolby Atmos and the Dolby Access app, including the [App Development Knowledge Base](https://professionalsupport.dolby.com/s/app-development-knowledge-base?language=en_US) and [Dolby Access](https://dolby.my.site.com/accesssupport/s/) support.
 
 ## Spatial Sound Interfaces
 

@@ -280,7 +280,7 @@ There are three basic solutions for deploying DirectX 11 in corporate/enterprise
 
 -   In some configurations, it is possible to directly check Windows Update rather than use the locally managed WSUS server. For this reason, D3D11InstallHelper supports the **/wu** command-line switch. However, not all corporate networks allow connections to the public Microsoft servers.
 -   The local IT administrator can approve KB 971512, an enterprise-supported update deployed from WSUS, that includes the Direct3D 11 API. This is the only option for a Standard User to obtain the Direct3D 11 update in an environment that is fully locked down.
--   Alternatively, [KB 971512](https://support.microsoft.com/kb/971512/) can be manually installed.
+-   Alternatively, KB 971512 can be manually installed.
 
 It is very rare that a gamer's computer can only get updates from a locally managed WSUS server, and it is only developers in large organizations who are likely to be in such environments.
 
