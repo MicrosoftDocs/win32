@@ -29,7 +29,7 @@ To generate a Diffie-Hellman key pair using CNG, perform the following steps:
 
 3. Set DH parameters (the prime *P* and generator *G*) by calling [**BCryptSetProperty**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptsetproperty) with the `BCRYPT_DH_PARAMETERS` property before calling [**BCryptFinalizeKeyPair**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptfinalizekeypair). The property value must be a [**BCRYPT_DH_PARAMETER_HEADER**](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_dh_parameter_header) structure followed immediately by the *P* value and then the *G* value, each `cbKeyLength` bytes in length, in big-endian byte order.
 
-   Both parties must use the same *P* and *G* values; the `BCRYPT_DH_PUBLIC_BLOB` export format includes *P* and *G* so the recipient can extract them.
+   Both parties must use the same *P* and *G* values. For new code, use a well-known standardized group rather than generating custom parameters — for example, the 2048-bit MODP Group 14 from [RFC 3526](https://www.rfc-editor.org/rfc/rfc3526) (used in the example below) provides a good balance of security and compatibility. The `BCRYPT_DH_PUBLIC_BLOB` export format includes *P* and *G*, so a recipient can extract them from the received blob when the two parties are on separate machines or processes. In a self-contained example where both parties share the same process, the same parameter blob can be reused directly.
 
 4. Call [**BCryptFinalizeKeyPair**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptfinalizekeypair) to complete the key generation. This function must be called before the key can be used or exported.
 
