@@ -34,7 +34,7 @@ String representation of the unique GUID identifier of the Hyper-V VM Creator to
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Minimum supported client | Windows 8 |
 | Minimum supported server | Windows Server 2012 |

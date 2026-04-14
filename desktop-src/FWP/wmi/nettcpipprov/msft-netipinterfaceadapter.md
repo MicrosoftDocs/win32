@@ -86,7 +86,7 @@ The [**CIM\_NetworkPort**](/previous-versions//cc136873(v=vs.85)) object associa
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                          |

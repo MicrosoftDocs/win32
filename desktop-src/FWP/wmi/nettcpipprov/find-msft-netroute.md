@@ -73,7 +73,7 @@ The [**CIM\_ManagedElement**](/previous-versions/cc136871(v=vs.85)) object that 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                       |
