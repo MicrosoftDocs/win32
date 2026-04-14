@@ -146,7 +146,7 @@ as this function is essentially the same (except it uses in-memory reference PRI
 
 <dl> <dt>
 
-[**MrmCreateResourceIndexerFromPreviousPriFile**](mrmcreateresourceindexerfrompreviousprifile.md.md)
+[**MrmCreateResourceIndexerFromPreviousPriFile**](mrmcreateresourceindexerfrompreviousprifile.md)
 </dt></dl>
 
 <dl> <dt>

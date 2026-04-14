@@ -12,7 +12,7 @@ This topic provides an overview of the Microsoft UI Automation Specification, wh
 
 This topic contains the following sections:
 
--   [Introduction](#introducton)
+-   [Introduction](#introduction)
 -   [UI Automation Elements](#ui-automation-elements)
 -   [UI Automation Tree](#ui-automation-tree)
 -   [UI Automation Properties](#ui-automation-properties)

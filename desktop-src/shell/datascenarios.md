@@ -17,7 +17,7 @@ The [Shell Data Object](dataobject.md) document discussed the general approach t
     -   [Using the CFSTR\_FILECONTENTS Format to Extract Data from a File](/windows)
 -   [Handling Optimized Move Operations](#handling-optimized-move-operations)
 -   [Handling Delete-on-Paste Operations](#handling-delete-on-paste-operations)
--   [Transferring Data to and from Virtual Folders](#transfering-data-to-and-from-virtual-folders)
+-   [Transferring Data to and from Virtual Folders](#transferring-data-to-and-from-virtual-folders)
     -   [Accepting Data from a Virtual Folder](#accepting-data-from-a-virtual-folder)
     -   [Transferring Data to and from a NameSpace Extension](#transferring-data-to-and-from-a-namespace-extension)
 -   [Dropping Files on the Recycle Bin](#dropping-files-on-the-recycle-bin)
