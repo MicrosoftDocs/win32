@@ -61,7 +61,7 @@ The following list describes supported configurations and restrictions:
 
 | To compile a VSS requester, writer, or provider for        | Use                                                                                                                                       |
 |------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| Windows Server 2008 R2 or Windows 7                        | Windows SDK for Windows 7 (Available from the [Windows Download Center](https://www.microsoft.com/download/details.aspx?id=8279).)                |
+| Windows Server 2008 R2 or Windows 7                        | Windows SDK for Windows 7 (Available from the [Windows Download Center](https://developer.microsoft.com/windows/downloads/sdk-archive/).)                |
 | Windows Server 2008 or Windows Vista                       | Windows SDK for Windows Server 2008 (Available from the [Windows SDK Developer Center](https://msdn.microsoft.com/windows/bb980924.aspx).) |
 | Windows Server 2003 R2, Windows Server 2003, or Windows XP | [Volume Shadow Copy Service 7.2 SDK](https://www.microsoft.com/download/details.aspx?id=23490)                                                      |
 
