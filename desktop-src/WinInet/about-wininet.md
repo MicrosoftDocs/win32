@@ -41,7 +41,7 @@ For more information, see:
 
 The two primary Internet protocols are FTP and HTTP. For more information about these protocols, see the Request For Comments (RFC) documents for FTP and HTTP:
 
--   [RFC 959](https://www.ietf.org/rfc/rfc0959.txt), *File Transfer Protocol (FTP)*.
+-   [RFC 959](https://www.rfc-editor.org/rfc/rfc959), *File Transfer Protocol (FTP)*.
 -   [RFC 1945](ftp://ftp.isi.edu/in-notes/rfc1945.txt), *Hypertext Transfer Protocol - HTTP/1.0*.
 -   [RFC 2616](https://www.ietf.org/rfc/rfc2616.txt), *Hypertext Transfer Protocol - HTTP/1.1*.
 

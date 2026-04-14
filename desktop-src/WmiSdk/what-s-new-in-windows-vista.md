@@ -73,7 +73,7 @@ The [**Win32\_SecurityDescriptorHelper**](/previous-versions/windows/desktop/sec
 <span id="User_Account_Control"></span><span id="user_account_control"></span><span id="USER_ACCOUNT_CONTROL"></span>User Account Control
 </dt> <dd>
 
-User Account Control (UAC) affects what WMI data is returned, remote access, and how scripts must be run. For more information, see [User Account Control and WMI](user-account-control-and-wmi.md). For more information about UAC, see [Getting Started with User Account Control on Windows Vista](https://support.microsoft.com/help/922708/how-to-use-user-account-control-uac-in-windows-vista).
+User Account Control (UAC) affects what WMI data is returned, remote access, and how scripts must be run. For more information, see [User Account Control and WMI](user-account-control-and-wmi.md). For more information about UAC, see [Getting Started with User Account Control on Windows Vista](/windows/security/application-security/application-control/user-account-control/).
 
 </dd> </dl>
 
@@ -114,7 +114,7 @@ Connecting to a WMI namespace on a remote computer running Windows Vista may re
 <span id="Changes_to_________Win32_QuickFixEngineering"></span><span id="changes_to_________win32_quickfixengineering"></span><span id="CHANGES_TO_________WIN32_QUICKFIXENGINEERING"></span>Changes to [**Win32\_QuickFixEngineering**](/windows/desktop/CIMWin32Prov/win32-quickfixengineering)
 </dt> <dd>
 
-For systems running on the Windows Vista and later operating system, this class returns only the updates supplied by Component Based Servicing (CBS). These updates are not listed in the registry. Updates supplied by Windows Installer (MSI) or the [Windows Update](https://update.microsoft.com/microsoftupdate/v6/default.aspx?ln=en-us) are not returned by [**Win32\_QuickFixEngineering**](/windows/desktop/CIMWin32Prov/win32-quickfixengineering).
+For systems running on the Windows Vista and later operating system, this class returns only the updates supplied by Component Based Servicing (CBS). These updates are not listed in the registry. Updates supplied by Windows Installer (MSI) or the [Windows Update](https://support.microsoft.com/windows/update-windows-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a) are not returned by [**Win32\_QuickFixEngineering**](/windows/desktop/CIMWin32Prov/win32-quickfixengineering).
 
 </dd> <dt>
 

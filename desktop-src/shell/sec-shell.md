@@ -148,7 +148,7 @@ The following table lists some features that can, if used incorrectly, compromis
 
 <dl> <dt>
 
-[Microsoft Security](https://www.microsoft.com/security/default.aspx)
+[Microsoft Security](https://www.microsoft.com/security/)
 </dt> <dt>
 
 [Security Developer Center](https://msdn.microsoft.com/security/)
