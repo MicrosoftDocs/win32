@@ -68,5 +68,5 @@ The **D3D11_RESOURCE_MISC_HW_PROTECTED** flag is supported with the **D3D11_RESO
 
 ## Related topics
 
-* [Composition swapchain](/win32/desktop-src/comp_swapchain/comp-swapchain-portal)
+* [Composition swapchain](/windows/win32/comp_swapchain/comp-swapchain-portal)
 * [For best performance, use DXGI flip model](https://devblogs.microsoft.com/directx/dxgi-flip-model/)
