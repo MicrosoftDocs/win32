@@ -1,9 +1,7 @@
 ---
 description: An abstract class that provides a common superclass (or top of the inheritance tree) for the non-association classes in the CIM Schema.
 ms.assetid: b511459a-01a8-406f-ae93-94c9097748c5
-title: CIM\_ManagedElement class
-
-
+title: CIM\_ManagedElement class (NetTCPIP)
 ms.author: windowssdkdev
 ms.topic: reference
 ms.date: 05/31/2018
@@ -23,8 +21,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# CIM\_ManagedElement class
-
+# CIM\_ManagedElement class (NetTCPIP)
 An abstract class that provides a common superclass (or top of the inheritance tree) for the non-association classes in the CIM Schema.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.

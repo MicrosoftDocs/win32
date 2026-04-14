@@ -21,8 +21,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_LogicalPort class
-
+# CIM\_LogicalPort class (Hyper-V)
 The abstraction of a port or connection point of a device.
 
 ## Syntax

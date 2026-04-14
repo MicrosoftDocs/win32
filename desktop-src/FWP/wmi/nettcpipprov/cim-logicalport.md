@@ -63,8 +63,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# CIM\_LogicalPort class
-
+# CIM\_LogicalPort class (NetTCPIP)
 The abstraction of a port or connection point of a Device. This object should be instantiated when the Port has independent management characteristics from the Device that includes it. Examples are a Fibre Channel Port and a USB Port.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.

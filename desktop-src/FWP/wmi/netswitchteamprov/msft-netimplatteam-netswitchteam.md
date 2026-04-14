@@ -1,9 +1,7 @@
 ---
 description: Represents a team in the IM Platform.
 ms.assetid: 5a22d0b3-a4bc-42a9-a95e-177068c62c20
-title: MSFT\_NetImPlatTeam class
-
-
+title: MSFT\_NetImPlatTeam class (NetSwitchTeam)
 ms.author: windowssdkdev
 ms.topic: reference
 ms.date: 05/31/2018
@@ -21,8 +19,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# MSFT\_NetImPlatTeam class
-
+# MSFT\_NetImPlatTeam class (NetSwitchTeam)
 Represents a team in the IM Platform.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.

@@ -1,9 +1,7 @@
 ---
 description: Defines a base class for classes that contain networks settings data, such as MSFT\_Net6to4Configuration, MSFT\_NetDnsTransitionConfiguration, MSFT\_NetDnsTransitionMonitoring, MSFT\_NetIPHttpsConfiguration, MSFT\_NetISATAPConfiguration, MSFT\_NetNatTransitionConfiguration, MSFT\_NetNatTransitionMonitoring, and MSFT\_NetTeredoConfiguration.
 ms.assetid: 4fdc59d3-bde7-4a53-a654-e5c99fea8ef4
-title: MSFT\_NetSettingData class
-
-
+title: MSFT\_NetSettingData class (NetTtCim)
 ms.author: windowssdkdev
 ms.topic: reference
 ms.date: 05/31/2018
@@ -19,8 +17,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# MSFT\_NetSettingData class
-
+# MSFT\_NetSettingData class (NetTtCim)
 Defines a base class for classes that contain networks settings data, such as [**MSFT\_Net6to4Configuration**](msft-net6to4configuration.md), [**MSFT\_NetDnsTransitionConfiguration**](msft-netdnstransitionconfiguration.md), [**MSFT\_NetDnsTransitionMonitoring**](msft-netdnstransitionmonitoring.md), [**MSFT\_NetIPHttpsConfiguration**](msft-netiphttpsconfiguration.md), [**MSFT\_NetISATAPConfiguration**](msft-netisatapconfiguration.md), [**MSFT\_NetNatTransitionConfiguration**](msft-netnattransitionconfiguration.md), [**MSFT\_NetNatTransitionMonitoring**](msft-netnattransitionmonitoring.md), and [**MSFT\_NetTeredoConfiguration**](msft-netteredoconfiguration.md).
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.

@@ -1,5 +1,5 @@
 ---
-title: glTexCoord1f function (Gl.h)
+title: glTexCoord2f function (Gl.h)
 description: Sets the current texture coordinates. | glTexCoord2f function (Gl.h)
 keywords:
 - glTexCoord2f function OpenGL

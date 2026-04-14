@@ -26,8 +26,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_NetworkPort class
-
+# CIM\_NetworkPort class (Hyper-V)
 A logical representation of a network port on a network device.
 
 ## Syntax

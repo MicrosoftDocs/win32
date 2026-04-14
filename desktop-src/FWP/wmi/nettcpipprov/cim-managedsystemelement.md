@@ -1,9 +1,7 @@
 ---
 description: The base class for the System Element hierarchy.
 ms.assetid: 8f629bb9-c388-4626-ae14-85489d79f9f5
-title: CIM\_ManagedSystemElement class
-
-
+title: CIM\_ManagedSystemElement class (NetTCPIP)
 ms.author: windowssdkdev
 ms.topic: reference
 ms.date: 05/31/2018
@@ -33,8 +31,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# CIM\_ManagedSystemElement class
-
+# CIM\_ManagedSystemElement class (NetTCPIP)
 The base class for the System Element hierarchy. Any distinguishable system component is a candidate for inclusion in this class. Examples include software components, such as files; devices, such as disk drives and controllers; and physical components, such as chips and cards.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.

@@ -1,5 +1,5 @@
 ---
-title: CIM\_ManagedSystemElement class
+title: CIM\_ManagedSystemElement class (NetEventPacketCapture)
 ms.assetid: f5ef0c49-5df9-4994-9d88-4b394ab2f554
 description: 
 keywords:
@@ -35,8 +35,7 @@ ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---
 
-# CIM\_ManagedSystemElement class
-
+# CIM\_ManagedSystemElement class (NetEventPacketCapture)
 CIM\_ManagedSystemElement is the base class for the System Element hierarchy. Any distinguishable component of a System is a candidate for inclusion in this class. Examples of system components include:
 
 \- software components such as application servers, databases, and applications

@@ -23,8 +23,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# CIM\_SettingData class
-
+# CIM\_SettingData class (NetTCPIP)
 Represents configuration and operational parameters for [**CIM\_ManagedElement**](cim-managedelement.md) instances.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.

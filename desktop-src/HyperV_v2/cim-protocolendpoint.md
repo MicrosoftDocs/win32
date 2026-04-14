@@ -24,8 +24,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_ProtocolEndpoint class
-
+# CIM\_ProtocolEndpoint class (Hyper-V)
 A communication point used to send and receive data between systems, computer interfaces, and logical networks.
 
 ## Syntax
