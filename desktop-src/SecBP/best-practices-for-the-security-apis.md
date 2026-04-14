@@ -26,7 +26,7 @@ Conducting a threat model analysis can help you discover potential points of att
 
 ## Service Packs and Security Updates
 
-Build and test environments should mirror the same levels of service packs and security updates of the targeted user base. We recommend that you install the latest service packs and security updates for any Microsoft platform or application that is part of your build and test environment and encourage your users to do the same for the finished application environment. For more information about service packs and security updates, see [Microsoft Windows Update](https://www.update.microsoft.com/microsoftupdate/v6/vistadefault.aspx?ln=en-us) and [Microsoft Security](https://www.microsoft.com/security).
+Build and test environments should mirror the same levels of service packs and security updates of the targeted user base. We recommend that you install the latest service packs and security updates for any Microsoft platform or application that is part of your build and test environment and encourage your users to do the same for the finished application environment. For more information about service packs and security updates, see [Update Windows](https://support.microsoft.com/windows/update-windows-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a) and [Microsoft Security](https://www.microsoft.com/security).
 
 ## Authorization
 
