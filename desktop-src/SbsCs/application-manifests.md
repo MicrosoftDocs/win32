@@ -56,7 +56,7 @@ Application manifests have the following elements and attributes.
 | [**msix**](#msix)                                                           |                           | No       |
 | [**heapType**](#heaptype)                                                   |                           | No       |
 | [**supportedArchitectures**](#supportedarchitectures)                       |                           | No       |
-| [**consoleAllocationPolicy**](#consoleAllocationPolicy)                     |                           | No       |
+| [**consoleAllocationPolicy**](#consoleallocationpolicy)                     |                           | No       |
 | [**trustInfo**](#trustinfo)                                                 |                           | No       |
 
 ## File location
