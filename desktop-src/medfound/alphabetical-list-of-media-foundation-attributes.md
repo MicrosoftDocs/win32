@@ -326,6 +326,7 @@ This section contains an alphabetical list of Microsoft Media Foundation attribu
 | [MF\_SA\_BUFFERS\_PER\_SAMPLE](mf-sa-buffers-per-sample.md) | Specifies how many buffers the video-sample allocator creates for each video sample.  |
 | [MF\_SA\_D3D\_AWARE](mf-sa-d3d-aware-attribute.md) | Specifies whether a Media Foundation transform (MFT) supports DirectX Video Acceleration (DXVA). This attribute applies only to video MFTs.  |
 | [MF\_SA\_D3D11\_AWARE](mf-sa-d3d11-aware.md) | Specifies whether a Media Foundation transform (MFT) supports Microsoft Direct3D 11. |
+| [MF\_SA\_D3D12\_AWARE](mf-sa-d3d12-aware.md) | Specifies whether a Media Foundation transform (MFT) supports Microsoft Direct3D 12. |
 | [MF\_SA\_D3D11\_BINDFLAGS](mf-sa-d3d11-bindflags.md) | Specifies the binding flags to use when allocating Direct3D 11 surfaces for media samples. |
 | [MF\_SA\_D3D11\_SHARED](mf-sa-d3d11-shared.md) | Indicates to the video sample allocator to create textures as shareable using keyed-mutex. |
 | [MF\_SA\_D3D11\_SHARED\_WITHOUT\_MUTEX](mf-sa-d3d11-shared-without-mutex.md) | Indicates to the video sample allocator to create textures as shareable using the legacy mechanism. |
