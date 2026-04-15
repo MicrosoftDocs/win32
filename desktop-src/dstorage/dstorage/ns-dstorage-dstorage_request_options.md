@@ -51,7 +51,7 @@ struct DSTORAGE_REQUEST_OPTIONS {
   UINT8                             Reserved1[7];
   DSTORAGE_REQUEST_SOURCE_TYPE      SourceType : 1;
   DSTORAGE_REQUEST_DESTINATION_TYPE DestinationType : 7;
-  UINT64                            Reserved : 56;
+  UINT64                            Reserved : 48;
 };
 ```
 
