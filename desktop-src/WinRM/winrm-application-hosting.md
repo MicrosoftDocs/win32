@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Infrastructure for Managing Hosted Services
 
-Windows Remote Management 2.0 (WinRM) introduces a hosting framework. To use the framework, WinRM plug-ins are written that expose management data of an application within the WinRM infrastructure. Two hosting models are supported. One is Internet Information Services (IIS)â€“based and the other is WinRMâ€“service based. The WinRM-based model uses HTTP.sys and does not depend on IIS.
+Windows Remote Management 2.0 (WinRM) introduces a hosting framework. To use the framework, WinRM plug-ins are written that expose management data of an application within the WinRM infrastructure. Two hosting models are supported. One is Internet Information Services (IIS)--based and the other is WinRM--service based. The WinRM-based model uses HTTP.sys and does not depend on IIS.
 
 The following sections describe the hosting models:
 
@@ -20,7 +20,7 @@ The following sections describe the hosting models:
 
 ## WinRM IIS Extension Hosting Model
 
-The WinRM IIS extension module is an optional component that is installed using the **Server Manager**. The WinRM IIS extension module is used to create WinRMâ€“enabled endpoints from within the IIS service. This module can be enabled at either the website or virtual directory level. It works by intercepting and redirecting incoming requests to the associated website or virtual directory. The requests are redirected to a WinRM module that analyzes the content and then determines which WinRM plug-in is configured to handle each request. For more information, see [IIS Host Plug-in Configuration](iis-host-plug-in-configuration.md).
+The WinRM IIS extension module is an optional component that is installed using the **Server Manager**. The WinRM IIS extension module is used to create WinRM--enabled endpoints from within the IIS service. This module can be enabled at either the website or virtual directory level. It works by intercepting and redirecting incoming requests to the associated website or virtual directory. The requests are redirected to a WinRM module that analyzes the content and then determines which WinRM plug-in is configured to handle each request. For more information, see [IIS Host Plug-in Configuration](iis-host-plug-in-configuration.md).
 
 The WinRM IIS extension hosting model is designed to handle a large volume of requests. If the IIS-based model is used as the hosting framework, the following features are available:
 

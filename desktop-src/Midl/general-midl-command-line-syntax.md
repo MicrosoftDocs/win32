@@ -69,7 +69,7 @@ The MIDL compiler provided with Microsoft RPC invokes the C preprocessor as need
 
 The MIDL compiler switches [**/env**](-env.md), [**/server**](-server.md), [**/sstub**](-sstub.md), and [**/out**](-out.md) affect the server stub file.
 
-Starting with MIDL version 6.0.359, the default command line option for the MIDL compiler is [**/Oicf**](-oi.md)Â [**/robust**](-robust.md). To disable /robust, specify the [**/no\_robust**](-no-robust.md) option.
+Starting with MIDL version 6.0.359, the default command line option for the MIDL compiler is [**/Oicf**](-oi.md) [**/robust**](-robust.md). To disable /robust, specify the [**/no\_robust**](-no-robust.md) option.
 
 ## The Header File
 
