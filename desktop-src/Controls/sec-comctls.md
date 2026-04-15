@@ -78,7 +78,7 @@ The following table lists features that, if used incorrectly, can compromise the
 **Other Resources**
 </dt> <dt>
 
-[Microsoft Security](https://www.microsoft.com/security/default.aspx)
+[Microsoft Security](https://www.microsoft.com/security/)
 </dt> <dt>
 
 [Security](/windows/desktop/security)

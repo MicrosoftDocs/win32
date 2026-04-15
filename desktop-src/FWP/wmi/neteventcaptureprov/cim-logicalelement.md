@@ -1,5 +1,5 @@
 ---
-title: CIM\_LogicalElement class
+title: CIM\_LogicalElement class (NetEventPacketCapture)
 description: CIM\_LogicalElement is a base class for all the components of a System that represent abstract system components, such as Files, Processes, or LogicalDevices.
 ms.assetid: 45253bef-63d9-48f8-8f3e-4a9a75191715
 keywords:
@@ -35,8 +35,7 @@ ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---
 
-# CIM\_LogicalElement class
-
+# CIM\_LogicalElement class (NetEventPacketCapture)
 CIM\_LogicalElement is a base class for all the components of a System that represent abstract system components, such as Files, Processes, or LogicalDevices.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
@@ -583,7 +582,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |

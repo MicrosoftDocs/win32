@@ -86,7 +86,7 @@ A [**CIM\_ProtocolEndpoint**](cim-protocolendpoint.md) that is implemented on th
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                          |

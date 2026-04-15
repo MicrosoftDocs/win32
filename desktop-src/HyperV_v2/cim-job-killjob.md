@@ -15,8 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# KillJob method of the CIM\_Job class
-
+# KillJob method of the CIM\_Job class (Hyper-V)
 A method to kill this job and any underlying processes, and to remove any 'dangling' associations. This method is deprecated; use **RequestChangeState** instead. **KillJob** is being deprecated because there is no distinction made between an orderly shutdown and an immediate kill. [**CIM\_ConcreteJob**](cim-concretejob.md).**RequestStateChange**() provides 'Terminate' and 'Kill' options to allow this distinction.
 
 ## Syntax

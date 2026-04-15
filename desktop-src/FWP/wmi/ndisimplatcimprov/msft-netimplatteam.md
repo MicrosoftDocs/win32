@@ -1,9 +1,7 @@
 ---
 description: Represents a team in the IM Platform.
 ms.assetid: 1740eadb-e00b-4526-be64-a6395aaf2bcd
-title: MSFT\_NetImPlatTeam class
-
-
+title: MSFT\_NetImPlatTeam class (MsNetImPlatform)
 ms.author: windowssdkdev
 ms.topic: reference
 ms.date: 05/31/2018
@@ -21,8 +19,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# MSFT\_NetImPlatTeam class
-
+# MSFT\_NetImPlatTeam class (MsNetImPlatform)
 Represents a team in the IM Platform.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
@@ -83,7 +80,7 @@ The name of the team.
 
 
 
-|                                     |                                                                                                |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                           |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                 |

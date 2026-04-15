@@ -1,531 +1,303 @@
 ---
-description: Explains how to generate, exchange, import, and export Diffie-Hellman keys.
+description: "Explains how to generate, exchange, import, and export Diffie-Hellman keys using the Cryptography API: Next Generation (CNG)."
 ms.assetid: 623a8c9e-3f6a-470b-be30-dec13342bb90
 title: Diffie-Hellman Keys
-ms.topic: reference
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 04/12/2026
 ---
 
 # Diffie-Hellman Keys
 
--   [Generating Diffie-Hellman Keys](#generating-diffie-hellman-keys)
--   [Exchanging Diffie-Hellman Keys](#exchanging-diffie-hellman-keys)
--   [Exporting a Diffie-Hellman Private Key](#exporting-a-diffie-hellman-private-key)
--   [Example Code](#example-code)
+> [!IMPORTANT]
+> This article uses the [Cryptography API: Next Generation (CNG)](/windows/win32/seccng/cng-portal), which is the recommended API for new Windows cryptographic applications. For most new applications, consider using [Elliptic Curve Diffie-Hellman (ECDH)](/windows/win32/api/bcrypt/nf-bcrypt-bcryptsecretagreement) with a standard named curve such as P-256 or P-384, which provides equivalent or stronger security with shorter keys and less parameter management overhead.
+>
+> The legacy CryptoAPI (CAPI1) functions (`CryptGenKey`, `CryptExportKey`, `CryptAcquireContext`, and so on) are deprecated. Do not use them in new applications.
+
+- [Generating Diffie-Hellman Keys](#generating-diffie-hellman-keys)
+- [Exchanging Diffie-Hellman Keys](#exchanging-diffie-hellman-keys)
+- [Exporting a Diffie-Hellman Private Key](#exporting-a-diffie-hellman-private-key)
+- [Example Code](#example-code)
+- [Related content](#related-content)
 
 ## Generating Diffie-Hellman Keys
 
-To generate a Diffie-Hellman key, perform the following steps:
+To generate a Diffie-Hellman key pair using CNG, perform the following steps:
 
-1.  Call the [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) function to get a handle to the Microsoft Diffie-Hellman Cryptographic Provider.
-2.  Generate the new key. There are two ways to accomplish this—by having CryptoAPI generate all new values for G, P, and X or by using existing values for G and P, and generating a new value for X.
+1. Call [**BCryptOpenAlgorithmProvider**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider) with `BCRYPT_DH_ALGORITHM` to get an algorithm provider handle.
 
-    **To generate the key by generating all new values**
+2. Call [**BCryptGenerateKeyPair**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptgeneratekeypair) to create the key pair, specifying the key size in bits. Use at least 2048 bits for adequate security; 512-bit keys (as used in legacy CAPI1 examples) are cryptographically weak and must not be used in new code.
 
-    1.  Call the [**CryptGenKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenkey) function, passing either **CALG\_DH\_SF** (store and forward) or **CALG\_DH\_EPHEM** (ephemeral) in the *Algid* parameter. The key will be generated using new, random values for G and P, a newly calculated value for X, and its handle will be returned in the *phKey* parameter.
-    2.  The new key is now ready for use. The values of G and P must be sent to the recipient along with the key (or sent by some other method) when doing a [*key exchange*](../secgloss/e-gly.md).
+3. Set DH parameters (the prime *P* and generator *G*) by calling [**BCryptSetProperty**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptsetproperty) with the `BCRYPT_DH_PARAMETERS` property before calling [**BCryptFinalizeKeyPair**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptfinalizekeypair). The property value must be a [**BCRYPT_DH_PARAMETER_HEADER**](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_dh_parameter_header) structure followed immediately by the *P* value and then the *G* value, each `cbKeyLength` bytes in length, in big-endian byte order.
 
-    **To generate the key by using predefined values for G and P**
+   Both parties must use the same *P* and *G* values. For new code, use a well-known standardized group rather than generating custom parameters — for example, the 2048-bit MODP Group 14 from [RFC 3526](https://www.rfc-editor.org/rfc/rfc3526) (used in the example below) provides a good balance of security and compatibility. The `BCRYPT_DH_PUBLIC_BLOB` export format includes *P* and *G*, so a recipient can extract them from the received blob when the two parties are on separate machines or processes. In a self-contained example where both parties share the same process, the same parameter blob can be reused directly.
 
-    1.  Call [**CryptGenKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenkey) passing either **CALG\_DH\_SF** (store and forward) or **CALG\_DH\_EPHEM** (ephemeral) in the *Algid* parameter and **CRYPT\_PREGEN** for the *dwFlags* parameter. A key handle will be generated and returned in the *phKey* parameter.
-    2.  Initialize a [**CRYPT\_DATA\_BLOB**](/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)) structure with the **pbData** member set to the P value. The [*BLOB*](../secgloss/b-gly.md) contains no header information and the **pbData** member is in [*little-endian*](../secgloss/l-gly.md) format.
-    3.  The value of P is set by calling the [**CryptSetKeyParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam) function, passing the key handle retrieved in step a in the *hKey* parameter, the **KP\_P** flag in the *dwParam* parameter, and a pointer to the structure that contains the value of P in the *pbData* parameter.
-    4.  Initialize a [**CRYPT\_DATA\_BLOB**](/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)) structure with the **pbData** member set to the G value. The BLOB contains no header information and the **pbData** member is in little-endian format.
-    5.  The value of G is set by calling the [**CryptSetKeyParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam) function, passing the key handle retrieved in step a in the *hKey* parameter, the **KP\_G** flag in the *dwParam* parameter, and a pointer to the structure that contains the value of G in the *pbData* parameter.
-    6.  The value of X is generated by calling the [**CryptSetKeyParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam) function, passing the key handle retrieved in step a in the *hKey* parameter, the **KP\_X** flag in the *dwParam* parameter, and **NULL** in the *pbData* parameter.
-    7.  If all the function calls succeeded, the Diffie-Hellman public key is ready for use.
+4. Call [**BCryptFinalizeKeyPair**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptfinalizekeypair) to complete the key generation. This function must be called before the key can be used or exported.
 
-3.  When the key is no longer needed, destroy it by passing the key handle to the [**CryptDestroyKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdestroykey) function.
-
-If **CALG\_DH\_SF** was specified in the previous procedures, the key values are persisted to storage with each call to [**CryptSetKeyParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam). The G and P values can then be retrieved by using the [**CryptGetKeyParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetkeyparam) function. Some CSPs may have hard-coded G and P values. In this case a **NTE\_FIXEDPARAMETER** error will be returned if **CryptSetKeyParam** is called with **KP\_G** or **KP\_P** specified in the *dwParam* parameter. If **CryptDestroyKey** is called, the handle to the key is destroyed, but the key values are retained in the CSP. However, if **CALG\_DH\_EPHEM** was specified, the handle to the key is destroyed, and all values are cleared from the CSP.
+5. When the key is no longer needed, call [**BCryptDestroyKey**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptdestroykey) to release the key handle, and [**BCryptCloseAlgorithmProvider**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptclosealgorithmprovider) to release the provider handle.
 
 ## Exchanging Diffie-Hellman Keys
 
-The purpose of the Diffie-Hellman algorithm is to make it possible for two or more parties to create and share an identical, secret session key by sharing information over a network that is not secure. The information that gets shared over the network is in the form of a couple of constant values and a Diffie-Hellman public key. The process used by two key-exchange parties is as follows:
+The purpose of the Diffie-Hellman algorithm is to make it possible for two or more parties to create and share an identical, secret value by sharing information over a network that is not secure. The information that gets shared over the network is each party's Diffie-Hellman public key. The process used by two key-exchange parties is as follows:
 
--   Both parties agree to the Diffie-Hellman parameters which are a prime number (P) and a generator number (G).
--   Party 1 sends its Diffie-Hellman public key to party 2.
--   Party 2 computes the secret session key by using the information contained in its private key and party 1's public key.
--   Party 2 sends its Diffie-Hellman public key to party 1.
--   Party 1 computes the secret session key by using the information contained in its private key and party 2's public key.
--   Both parties now have the same session key, which can be used for encrypting and decrypting data. The steps necessary for this are shown in the following procedure.
+- Both parties agree on Diffie-Hellman parameters: a prime number (*P*) and a generator number (*G*).
+- Party 1 sends its Diffie-Hellman public key to Party 2.
+- Party 2 computes the shared secret by using its own private key and Party 1's public key.
+- Party 2 sends its Diffie-Hellman public key to Party 1.
+- Party 1 computes the shared secret by using its own private key and Party 2's public key.
+- Both parties now have the same shared secret, which can be used to derive a symmetric encryption key.
 
-**To prepare a Diffie-Hellman public key for transmission**
+**To prepare a Diffie-Hellman public key for transmission:**
 
-1.  Call the [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) function to get a handle to the Microsoft Diffie-Hellman Cryptographic Provider.
-2.  Create a Diffie-Hellman key by calling the [**CryptGenKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenkey) function to create a new key, or by calling the [**CryptGetUserKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetuserkey) function to retrieve an existing key.
-3.  Get the size needed to hold the Diffie-Hellman key BLOB by calling the [**CryptExportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey), passing **NULL** for the *pbData* parameter. The required size will be returned in *pdwDataLen*.
-4.  Allocate memory for the key BLOB.
-5.  Create a Diffie-Hellman [*public key BLOB*](../secgloss/p-gly.md) by calling the [**CryptExportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey) function, passing **PUBLICKEYBLOB** in the *dwBlobType* parameter and the handle to the Diffie-Hellman key in the *hKey* parameter. This function call causes the calculation of the public key value, (G^X) mod P.
-6.  If all the preceding function calls were successful, the Diffie-Hellman public key BLOB is now ready to be encoded and transmitted.
+1. After generating and finalizing the key pair, call [**BCryptExportKey**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptexportkey) with `BCRYPT_DH_PUBLIC_BLOB` as the blob type to get the public key bytes. The blob includes the *P*, *G*, and public key *Y* values, all in big-endian byte order.
 
-**To import a Diffie-Hellman public key and calculate the secret session key**
+2. Transmit those bytes to the other party over the network.
 
-1.  Call the [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) function to get a handle to the Microsoft Diffie-Hellman Cryptographic Provider.
-2.  Create a Diffie-Hellman key by calling the [**CryptGenKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenkey) function to create a new key, or by calling the [**CryptGetUserKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetuserkey) function to retrieve an existing key.
-3.  To import the Diffie-Hellman public key into the CSP, call the [**CryptImportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptimportkey) function, passing a pointer to the public key BLOB in the *pbData* parameter, the length of the BLOB in the *dwDataLen* parameter, and the handle to the Diffie-Hellman key in the *hPubKey* parameter. This causes the calculation, (Y^X) mod P, to be performed, thus creating the shared, secret key and completing the [*key exchange*](../secgloss/e-gly.md). This function call returns a handle to the new, secret, session key in the *hKey* parameter.
-4.  At this point, the imported Diffie-Hellman is of type **CALG\_AGREEDKEY\_ANY**. Before the key can be used, it must be converted into a session key type. This is accomplished by calling the [**CryptSetKeyParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptsetkeyparam) function with *dwParam* set to **KP\_ALGID** and with *pbData* set to a pointer to a [**ALG\_ID**](alg-id.md) value that represents a session key, such as **CALG\_RC4**. The key must be converted before using the shared key in the [**CryptEncrypt**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptencrypt) or [**CryptDecrypt**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdecrypt) function. Calls made to either of these functions prior to converting the key type will fail.
-5.  The secret session key is now ready to be used for encryption or decryption.
-6.  When the key is no longer needed, destroy the key handle by calling the [**CryptDestroyKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdestroykey) function.
+> [!NOTE]
+> Key material in CNG DH blobs (`BCRYPT_DH_PUBLIC_BLOB`, `BCRYPT_DH_PRIVATE_BLOB`) is in **big-endian** byte order. This is the opposite of the little-endian format used by the deprecated CryptoAPI (CAPI1). Take care when interoperating with CAPI1-encoded key material.
+
+**To import a Diffie-Hellman public key and derive the shared secret:**
+
+1. Call [**BCryptImportKeyPair**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptimportkeypair) with `BCRYPT_DH_PUBLIC_BLOB` to import the other party's public key. This requires an algorithm provider handle opened with `BCRYPT_DH_ALGORITHM`.
+
+2. Call [**BCryptSecretAgreement**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptsecretagreement) with your own private key handle and the imported public key handle. This produces a *secret agreement* handle representing the raw shared secret value, (Y^X) mod P.
+
+3. Call [**BCryptDeriveKey**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptderivekey) to derive usable key material from the shared secret. Use a key derivation function (KDF) appropriate for your scenario; `BCRYPT_KDF_HASH` with `SHA-256` is a suitable general-purpose choice.
+
+4. Use the derived key bytes to construct a symmetric key (for example, call [**BCryptGenerateSymmetricKey**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptgeneratesymmetrickey) with `BCRYPT_AES_ALGORITHM`) for subsequent encryption or decryption.
+
+5. When finished, call [**BCryptDestroySecret**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptdestroysecret) to release the secret agreement handle, and [**BCryptDestroyKey**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptdestroykey) to release all key handles.
 
 ## Exporting a Diffie-Hellman Private Key
 
-To export a Diffie-Hellman private key, perform the following steps:
+> [!CAUTION]
+> Exporting private keys is a security-sensitive operation. Only export private key material when absolutely necessary, and protect it appropriately. For keys stored in a key storage provider (KSP), the provider may restrict export based on key policy.
 
-1.  Call the [**CryptAcquireContext**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptacquirecontexta) function to get a handle to the Microsoft Diffie-Hellman Cryptographic Provider.
-2.  Create a Diffie-Hellman key by calling the [**CryptGenKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgenkey) function to create a new key, or by calling the [**CryptGetUserKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetuserkey) function to retrieve an existing key.
-3.  Create a Diffie-Hellman [*private key BLOB*](../secgloss/p-gly.md) by calling the [**CryptExportKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptexportkey) function, passing **PRIVATEKEYBLOB** in the *dwBlobType* parameter and the handle to the Diffie-Hellman key in the *hKey* parameter.
-4.  When the key handle is no longer needed, call the [**CryptDestroyKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptdestroykey) function to destroy the key handle.
+To export a Diffie-Hellman private key as a memory blob, call [**BCryptExportKey**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptexportkey) with `BCRYPT_DH_PRIVATE_BLOB`. The resulting blob contains a [**BCRYPT_DH_KEY_BLOB**](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_dh_key_blob) header followed by the *P*, *G*, public *Y*, and private *X* values, each in big-endian byte order.
+
+To later import the private key, call [**BCryptImportKeyPair**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptimportkeypair) with `BCRYPT_DH_PRIVATE_BLOB`.
 
 ## Example Code
 
-The following example shows how to create, export, import, and use a Diffie-Hellman key to perform a key exchange.
+The following example demonstrates a Diffie-Hellman key exchange between two
+parties using CNG. Both parties derive the same key material from the shared
+secret and compare the derived bytes.
 
+> [!NOTE]
+> This example uses explicit Diffie-Hellman parameters and derives key material
+> from the shared secret by using `BCryptDeriveKey` with `BCRYPT_KDF_HASH`.
+> When adapting this sample, ensure that the parameter format, key-derivation
+> settings, and resulting key usage meet your application's security and
+> interoperability requirements.
 
-```C++
-#include <tchar.h>
+```cpp
 #include <windows.h>
-#include <wincrypt.h>
-#pragma comment(lib, "crypt32.lib")
+#include <bcrypt.h>
+#include <stdio.h>
+#include <cstring>
+#pragma comment(lib, "bcrypt.lib")
 
-// The key size, in bits.
-#define DHKEYSIZE 512
+#define NT_SUCCESS(Status) (((NTSTATUS)(Status)) >= 0)
+#define CHECK(s, fn) if (!NT_SUCCESS(s)) { wprintf(L"Error in %s: 0x%08x\n", fn, s); goto cleanup; }
 
-// Prime in little-endian format.
-static const BYTE g_rgbPrime[] = 
+// 2048-bit MODP Group 14 prime (RFC 3526), big-endian.
+// Uses the 2048-bit MODP Group 14 standardized prime.
+static const BYTE g_Prime2048[] =
 {
-    0x91, 0x02, 0xc8, 0x31, 0xee, 0x36, 0x07, 0xec, 
-    0xc2, 0x24, 0x37, 0xf8, 0xfb, 0x3d, 0x69, 0x49, 
-    0xac, 0x7a, 0xab, 0x32, 0xac, 0xad, 0xe9, 0xc2, 
-    0xaf, 0x0e, 0x21, 0xb7, 0xc5, 0x2f, 0x76, 0xd0, 
-    0xe5, 0x82, 0x78, 0x0d, 0x4f, 0x32, 0xb8, 0xcb,
-    0xf7, 0x0c, 0x8d, 0xfb, 0x3a, 0xd8, 0xc0, 0xea, 
-    0xcb, 0x69, 0x68, 0xb0, 0x9b, 0x75, 0x25, 0x3d,
-    0xaa, 0x76, 0x22, 0x49, 0x94, 0xa4, 0xf2, 0x8d 
+    0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xC9,0x0F,0xDA,0xA2,0x21,0x68,0xC2,0x34,
+    0xC4,0xC6,0x62,0x8B,0x80,0xDC,0x1C,0xD1,0x29,0x02,0x4E,0x08,0x8A,0x67,0xCC,0x74,
+    0x02,0x0B,0xBE,0xA6,0x3B,0x13,0x9B,0x22,0x51,0x4A,0x08,0x79,0x8E,0x34,0x04,0xDD,
+    0xEF,0x95,0x19,0xB3,0xCD,0x3A,0x43,0x1B,0x30,0x2B,0x0A,0x6D,0xF2,0x5F,0x14,0x37,
+    0x4F,0xE1,0x35,0x6D,0x6D,0x51,0xC2,0x45,0xE4,0x85,0xB5,0x76,0x62,0x5E,0x7E,0xC6,
+    0xF4,0x4C,0x42,0xE9,0xA6,0x37,0xED,0x6B,0x0B,0xFF,0x5C,0xB6,0xF4,0x06,0xB7,0xED,
+    0xEE,0x38,0x6B,0xFB,0x5A,0x89,0x9F,0xA5,0xAE,0x9F,0x24,0x11,0x7C,0x4B,0x1F,0xE6,
+    0x49,0x28,0x66,0x51,0xEC,0xE4,0x5B,0x3D,0xC2,0x00,0x7C,0xB8,0xA1,0x63,0xBF,0x05,
+    0x98,0xDA,0x48,0x36,0x1C,0x55,0xD3,0x9A,0x69,0x16,0x3F,0xA8,0xFD,0x24,0xCF,0x5F,
+    0x83,0x65,0x5D,0x23,0xDC,0xA3,0xAD,0x96,0x1C,0x62,0xF3,0x56,0x20,0x85,0x52,0xBB,
+    0x9E,0xD5,0x29,0x07,0x70,0x96,0x96,0x6D,0x67,0x0C,0x35,0x4E,0x4A,0xBC,0x98,0x04,
+    0xF1,0x74,0x6C,0x08,0xCA,0x18,0x21,0x7C,0x32,0x90,0x5E,0x46,0x2E,0x36,0xCE,0x3B,
+    0xE3,0x9E,0x77,0x2C,0x18,0x0E,0x86,0x03,0x9B,0x27,0x83,0xA2,0xEC,0x07,0xA2,0x8F,
+    0xB5,0xC5,0x5D,0xF0,0x6F,0x4C,0x52,0xC9,0xDE,0x2B,0xCB,0xF6,0x95,0x58,0x17,0x18,
+    0x39,0x95,0x49,0x7C,0xEA,0x95,0x6A,0xE5,0x15,0xD2,0x26,0x18,0x98,0xFA,0x05,0x10,
+    0x15,0x72,0x8E,0x5A,0x8A,0xAC,0xAA,0x68,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF,0xFF
 };
 
-// Generator in little-endian format.
-static BYTE g_rgbGenerator[] = 
+// Generator for MODP Group 14 (g = 2), big-endian, zero-padded to 256 bytes.
+static BYTE g_Generator2048[256] = { 0 };  // initialized to zero; set g_Generator2048[255] = 2 below
+
+#define KEY_SIZE_BITS  2048
+#define KEY_SIZE_BYTES (KEY_SIZE_BITS / 8)
+
+int wmain()
 {
-    0x02, 0x88, 0xd7, 0xe6, 0x53, 0xaf, 0x72, 0xc5,
-    0x8c, 0x08, 0x4b, 0x46, 0x6f, 0x9f, 0x2e, 0xc4,
-    0x9c, 0x5c, 0x92, 0x21, 0x95, 0xb7, 0xe5, 0x58, 
-    0xbf, 0xba, 0x24, 0xfa, 0xe5, 0x9d, 0xcb, 0x71, 
-    0x2e, 0x2c, 0xce, 0x99, 0xf3, 0x10, 0xff, 0x3b,
-    0xcb, 0xef, 0x6c, 0x95, 0x22, 0x55, 0x9d, 0x29,
-    0x00, 0xb5, 0x4c, 0x5b, 0xa5, 0x63, 0x31, 0x41,
-    0x13, 0x0a, 0xea, 0x39, 0x78, 0x02, 0x6d, 0x62
-};
+    int ret = 1;
 
-BYTE g_rgbData[] = {0x01, 0x02, 0x03, 0x04,    0x05, 0x06, 0x07, 0x08};
+    // Set generator value (g = 2)
+    g_Generator2048[KEY_SIZE_BYTES - 1] = 2;
 
-int _tmain(int argc, _TCHAR* argv[])
-{
-    UNREFERENCED_PARAMETER(argc);
-    UNREFERENCED_PARAMETER(argv);
-    
-    BOOL fReturn;
-    HCRYPTPROV hProvParty1 = NULL; 
-    HCRYPTPROV hProvParty2 = NULL; 
-    DATA_BLOB P;
-    DATA_BLOB G;
-    HCRYPTKEY hPrivateKey1 = NULL;
-    HCRYPTKEY hPrivateKey2 = NULL;
-    PBYTE pbKeyBlob1 = NULL;
-    PBYTE pbKeyBlob2 = NULL;
-    HCRYPTKEY hSessionKey1 = NULL;
-    HCRYPTKEY hSessionKey2 = NULL;
-    PBYTE pbData = NULL;
+    NTSTATUS status;
+    BCRYPT_ALG_HANDLE hAlg1 = NULL, hAlg2 = NULL;
+    BCRYPT_KEY_HANDLE hKey1 = NULL, hKey2 = NULL;
+    BCRYPT_KEY_HANDLE hPubKey1 = NULL, hPubKey2 = NULL;
+    BCRYPT_SECRET_HANDLE hSecret1 = NULL, hSecret2 = NULL;
+    PBYTE pbPubBlob1 = NULL, pbPubBlob2 = NULL;
+    PBYTE pbParams = NULL;
+    PBYTE pbDerivedKey1 = NULL, pbDerivedKey2 = NULL;
+    ULONG cbPubBlob1 = 0, cbPubBlob2 = 0;
+    ULONG cbDerivedKey = 0;
 
-    /************************
-    Construct data BLOBs for the prime and generator. The P and G 
-    values, represented by the g_rgbPrime and g_rgbGenerator arrays 
-    respectively, are shared values that have been agreed to by both 
-    parties.
-    ************************/
-    P.cbData = DHKEYSIZE/8;
-    P.pbData = (BYTE*)(g_rgbPrime);
+    // Build the BCRYPT_DH_PARAMETERS blob: header + P + G (all big-endian).
+    ULONG cbParams = sizeof(BCRYPT_DH_PARAMETER_HEADER) + 2 * KEY_SIZE_BYTES;
+    pbParams = (PBYTE)HeapAlloc(GetProcessHeap(), HEAP_ZERO_MEMORY, cbParams);
+    if (!pbParams) { wprintf(L"Out of memory\n"); goto cleanup; }
 
-    G.cbData = DHKEYSIZE/8;
-    G.pbData = (BYTE*)(g_rgbGenerator);
+    BCRYPT_DH_PARAMETER_HEADER* pHeader = (BCRYPT_DH_PARAMETER_HEADER*)pbParams;
+    pHeader->cbLength    = cbParams;
+    pHeader->dwMagic     = BCRYPT_DH_PARAMETERS_MAGIC;
+    pHeader->cbKeyLength = KEY_SIZE_BYTES;
+    memcpy(pbParams + sizeof(BCRYPT_DH_PARAMETER_HEADER),                   g_Prime2048,     KEY_SIZE_BYTES); // P
+    memcpy(pbParams + sizeof(BCRYPT_DH_PARAMETER_HEADER) + KEY_SIZE_BYTES,  g_Generator2048, KEY_SIZE_BYTES); // G
 
-    /************************
-    Create the private Diffie-Hellman key for party 1. 
-    ************************/
-    // Acquire a provider handle for party 1.
-    fReturn = CryptAcquireContext(
-        &hProvParty1, 
-        NULL,
-        MS_ENH_DSS_DH_PROV,
-        PROV_DSS_DH, 
-        CRYPT_VERIFYCONTEXT);
-    if(!fReturn)
+    //
+    // --- Party 1: generate key pair ---
+    //
+    status = BCryptOpenAlgorithmProvider(&hAlg1, BCRYPT_DH_ALGORITHM, NULL, 0);
+    CHECK(status, L"BCryptOpenAlgorithmProvider (Party 1)");
+
+    status = BCryptGenerateKeyPair(hAlg1, &hKey1, KEY_SIZE_BITS, 0);
+    CHECK(status, L"BCryptGenerateKeyPair (Party 1)");
+
+    status = BCryptSetProperty(hKey1, BCRYPT_DH_PARAMETERS, pbParams, cbParams, 0);
+    CHECK(status, L"BCryptSetProperty BCRYPT_DH_PARAMETERS (Party 1)");
+
+    status = BCryptFinalizeKeyPair(hKey1, 0);
+    CHECK(status, L"BCryptFinalizeKeyPair (Party 1)");
+
+    // Export Party 1's public key blob (includes P, G, Y).
+    status = BCryptExportKey(hKey1, NULL, BCRYPT_DH_PUBLIC_BLOB, NULL, 0, &cbPubBlob1, 0);
+    CHECK(status, L"BCryptExportKey size (Party 1)");
+
+    pbPubBlob1 = (PBYTE)HeapAlloc(GetProcessHeap(), 0, cbPubBlob1);
+    if (!pbPubBlob1) { wprintf(L"Out of memory\n"); goto cleanup; }
+
+    status = BCryptExportKey(hKey1, NULL, BCRYPT_DH_PUBLIC_BLOB, pbPubBlob1, cbPubBlob1, &cbPubBlob1, 0);
+    CHECK(status, L"BCryptExportKey (Party 1)");
+
+    //
+    // --- Party 2: generate key pair using same P and G ---
+    //
+    status = BCryptOpenAlgorithmProvider(&hAlg2, BCRYPT_DH_ALGORITHM, NULL, 0);
+    CHECK(status, L"BCryptOpenAlgorithmProvider (Party 2)");
+
+    status = BCryptGenerateKeyPair(hAlg2, &hKey2, KEY_SIZE_BITS, 0);
+    CHECK(status, L"BCryptGenerateKeyPair (Party 2)");
+
+    // Party 2 reuses the same DH parameters as Party 1.
+    status = BCryptSetProperty(hKey2, BCRYPT_DH_PARAMETERS, pbParams, cbParams, 0);
+    CHECK(status, L"BCryptSetProperty BCRYPT_DH_PARAMETERS (Party 2)");
+
+    status = BCryptFinalizeKeyPair(hKey2, 0);
+    CHECK(status, L"BCryptFinalizeKeyPair (Party 2)");
+
+    // Export Party 2's public key blob.
+    status = BCryptExportKey(hKey2, NULL, BCRYPT_DH_PUBLIC_BLOB, NULL, 0, &cbPubBlob2, 0);
+    CHECK(status, L"BCryptExportKey size (Party 2)");
+
+    pbPubBlob2 = (PBYTE)HeapAlloc(GetProcessHeap(), 0, cbPubBlob2);
+    if (!pbPubBlob2) { wprintf(L"Out of memory\n"); goto cleanup; }
+
+    status = BCryptExportKey(hKey2, NULL, BCRYPT_DH_PUBLIC_BLOB, pbPubBlob2, cbPubBlob2, &cbPubBlob2, 0);
+    CHECK(status, L"BCryptExportKey (Party 2)");
+
+    //
+    // --- Party 1: import Party 2's public key, compute shared secret ---
+    //
+    status = BCryptImportKeyPair(hAlg1, NULL, BCRYPT_DH_PUBLIC_BLOB, &hPubKey2, pbPubBlob2, cbPubBlob2, 0);
+    CHECK(status, L"BCryptImportKeyPair Party 2 public key (into Party 1)");
+
+    status = BCryptSecretAgreement(hKey1, hPubKey2, &hSecret1, 0);
+    CHECK(status, L"BCryptSecretAgreement (Party 1)");
+
+    // Derive 32 bytes of key material using SHA-256.
+    BCryptBufferDesc kdfParams = { 0 };
+    BCryptBuffer kdfBuffer = { 0 };
+    WCHAR szHashAlg[] = BCRYPT_SHA256_ALGORITHM;
+    kdfBuffer.BufferType = KDF_HASH_ALGORITHM;
+    kdfBuffer.cbBuffer   = sizeof(szHashAlg);
+    kdfBuffer.pvBuffer   = szHashAlg;
+    kdfParams.ulVersion  = BCRYPTBUFFER_VERSION;
+    kdfParams.cBuffers   = 1;
+    kdfParams.pBuffers   = &kdfBuffer;
+
+    status = BCryptDeriveKey(hSecret1, BCRYPT_KDF_HASH, &kdfParams, NULL, 0, &cbDerivedKey, 0);
+    CHECK(status, L"BCryptDeriveKey size (Party 1)");
+
+    pbDerivedKey1 = (PBYTE)HeapAlloc(GetProcessHeap(), HEAP_ZERO_MEMORY, cbDerivedKey);
+    if (!pbDerivedKey1) { wprintf(L"Out of memory\n"); goto cleanup; }
+
+    status = BCryptDeriveKey(hSecret1, BCRYPT_KDF_HASH, &kdfParams, pbDerivedKey1, cbDerivedKey, &cbDerivedKey, 0);
+    CHECK(status, L"BCryptDeriveKey (Party 1)");
+
+    //
+    // --- Party 2: import Party 1's public key, compute shared secret ---
+    //
+    status = BCryptImportKeyPair(hAlg2, NULL, BCRYPT_DH_PUBLIC_BLOB, &hPubKey1, pbPubBlob1, cbPubBlob1, 0);
+    CHECK(status, L"BCryptImportKeyPair Party 1 public key (into Party 2)");
+
+    status = BCryptSecretAgreement(hKey2, hPubKey1, &hSecret2, 0);
+    CHECK(status, L"BCryptSecretAgreement (Party 2)");
+
+    pbDerivedKey2 = (PBYTE)HeapAlloc(GetProcessHeap(), HEAP_ZERO_MEMORY, cbDerivedKey);
+    if (!pbDerivedKey2) { wprintf(L"Out of memory\n"); goto cleanup; }
+
+    ULONG cbDerivedKey2 = cbDerivedKey;
+    status = BCryptDeriveKey(hSecret2, BCRYPT_KDF_HASH, &kdfParams, pbDerivedKey2, cbDerivedKey2, &cbDerivedKey2, 0);
+    CHECK(status, L"BCryptDeriveKey (Party 2)");
+
+    //
+    // Verify both parties derived the same key material.
+    //
+    if (cbDerivedKey == cbDerivedKey2 && memcmp(pbDerivedKey1, pbDerivedKey2, cbDerivedKey) == 0)
     {
-        goto ErrorExit;
+        wprintf(L"Success: both parties derived the same %u-byte key material.\n", cbDerivedKey);
+        ret = 0;
     }
-
-    // Create an ephemeral private key for party 1.
-    fReturn = CryptGenKey(
-        hProvParty1, 
-        CALG_DH_EPHEM, 
-        DHKEYSIZE << 16 | CRYPT_EXPORTABLE | CRYPT_PREGEN,
-        &hPrivateKey1);
-    if(!fReturn)
+    else
     {
-        goto ErrorExit;
+        wprintf(L"Error: derived keys do not match.\n");
     }
 
-    // Set the prime for party 1's private key.
-    fReturn = CryptSetKeyParam(
-        hPrivateKey1,
-        KP_P,
-        (PBYTE)&P,
-        0);
-    if(!fReturn)
-    {
-        goto ErrorExit;
-    }
+cleanup:
+    if (pbDerivedKey2)  { SecureZeroMemory(pbDerivedKey2, cbDerivedKey); HeapFree(GetProcessHeap(), 0, pbDerivedKey2); }
+    if (pbDerivedKey1)  { SecureZeroMemory(pbDerivedKey1, cbDerivedKey); HeapFree(GetProcessHeap(), 0, pbDerivedKey1); }
+    if (hSecret2)       BCryptDestroySecret(hSecret2);
+    if (hSecret1)       BCryptDestroySecret(hSecret1);
+    if (hPubKey1)       BCryptDestroyKey(hPubKey1);
+    if (hPubKey2)       BCryptDestroyKey(hPubKey2);
+    if (pbPubBlob2)     HeapFree(GetProcessHeap(), 0, pbPubBlob2);
+    if (pbPubBlob1)     HeapFree(GetProcessHeap(), 0, pbPubBlob1);
+    if (hKey2)          BCryptDestroyKey(hKey2);
+    if (hKey1)          BCryptDestroyKey(hKey1);
+    if (hAlg2)          BCryptCloseAlgorithmProvider(hAlg2, 0);
+    if (hAlg1)          BCryptCloseAlgorithmProvider(hAlg1, 0);
+    if (pbParams)       HeapFree(GetProcessHeap(), 0, pbParams);
 
-    // Set the generator for party 1's private key.
-    fReturn = CryptSetKeyParam(
-        hPrivateKey1,
-        KP_G,
-        (PBYTE)&G,
-        0);
-    if(!fReturn)
-    {
-        goto ErrorExit;
-    }
-
-    // Generate the secret values for party 1's private key.
-    fReturn = CryptSetKeyParam(
-        hPrivateKey1,
-        KP_X,
-        NULL,
-        0);
-    if(!fReturn)
-    {
-        goto ErrorExit;
-    }
-
-    /************************
-    Create the private Diffie-Hellman key for party 2. 
-    ************************/
-    // Acquire a provider handle for party 2.
-    fReturn = CryptAcquireContext(
-        &hProvParty2, 
-        NULL,
-        MS_ENH_DSS_DH_PROV,
-        PROV_DSS_DH, 
-        CRYPT_VERIFYCONTEXT);
-    if(!fReturn)
-    {
-        goto ErrorExit;
-    }
-
-    // Create an ephemeral private key for party 2.
-    fReturn = CryptGenKey(
-        hProvParty2, 
-        CALG_DH_EPHEM, 
-        DHKEYSIZE << 16 | CRYPT_EXPORTABLE | CRYPT_PREGEN,
-        &hPrivateKey2);
-    if(!fReturn)
-    {
-        goto ErrorExit;
-    }
-
-    // Set the prime for party 2's private key.
-    fReturn = CryptSetKeyParam(
-        hPrivateKey2,
-        KP_P,
-        (PBYTE)&P,
-        0);
-    if(!fReturn)
-    {
-        goto ErrorExit;
-    }
-
-    // Set the generator for party 2's private key.
-    fReturn = CryptSetKeyParam(
-        hPrivateKey2,
-        KP_G,
-        (PBYTE)&G,
-        0);
-    if(!fReturn)
-    {
-        goto ErrorExit;
-    }
-
-    // Generate the secret values for party 2's private key.
-    fReturn = CryptSetKeyParam(
-        hPrivateKey2,
-        KP_X,
-        NULL,
-        0);
-    if(!fReturn)
-    {
-        goto ErrorExit;
-    }
-
-    /************************
-    Export Party 1's public key.
-    ************************/
-    // Public key value, (G^X) mod P is calculated.
-    DWORD dwDataLen1;
-
-    // Get the size for the key BLOB.
-    fReturn = CryptExportKey(
-        hPrivateKey1,
-        NULL,
-        PUBLICKEYBLOB,
-        0,
-        NULL,
-        &dwDataLen1);
-    if(!fReturn)
-    {
-        goto ErrorExit;
-    }
-
-    // Allocate the memory for the key BLOB.
-    if(!(pbKeyBlob1 = (PBYTE)malloc(dwDataLen1)))
-    { 
-        goto ErrorExit;
-    }
-
-    // Get the key BLOB.
-    fReturn = CryptExportKey(
-        hPrivateKey1,
-        0,
-        PUBLICKEYBLOB,
-        0,
-        pbKeyBlob1,
-        &dwDataLen1);
-    if(!fReturn)
-    {
-        goto ErrorExit;
-    }
-
-    /************************
-    Export Party 2's public key.
-    ************************/
-    // Public key value, (G^X) mod P is calculated.
-    DWORD dwDataLen2;
-
-    // Get the size for the key BLOB.
-    fReturn = CryptExportKey(
-        hPrivateKey2,
-        NULL,
-        PUBLICKEYBLOB,
-        0,
-        NULL,
-        &dwDataLen2);
-    if(!fReturn)
-    {
-        goto ErrorExit;
-    }
-
-    // Allocate the memory for the key BLOB.
-    if(!(pbKeyBlob2 = (PBYTE)malloc(dwDataLen2)))
-    { 
-        goto ErrorExit;
-    }
-
-    // Get the key BLOB.
-    fReturn = CryptExportKey(
-        hPrivateKey2,
-        0,
-        PUBLICKEYBLOB,
-        0,
-        pbKeyBlob2,
-        &dwDataLen2);
-    if(!fReturn)
-    {
-        goto ErrorExit;
-    }
-
-    /************************
-    Party 1 imports party 2's public key.
-    The imported key will contain the new shared secret 
-    key (Y^X) mod P. 
-    ************************/
-    fReturn = CryptImportKey(
-        hProvParty1,
-        pbKeyBlob2,
-        dwDataLen2,
-        hPrivateKey1,
-        0,
-        &hSessionKey2);
-    if(!fReturn)
-    {
-        goto ErrorExit;
-    }
-    
-    /************************
-    Party 2 imports party 1's public key.
-    The imported key will contain the new shared secret 
-    key (Y^X) mod P. 
-    ************************/
-    fReturn = CryptImportKey(
-        hProvParty2,
-        pbKeyBlob1,
-        dwDataLen1,
-        hPrivateKey2,
-        0,
-        &hSessionKey1);
-    if(!fReturn)
-    {
-        goto ErrorExit;
-    }
-
-    /************************
-    Convert the agreed keys to symmetric keys. They are currently of 
-    the form CALG_AGREEDKEY_ANY. Convert them to CALG_RC4.
-    ************************/
-    ALG_ID Algid = CALG_RC4;
-
-    // Enable the party 1 public session key for use by setting the 
-    // ALGID.
-    fReturn = CryptSetKeyParam(
-        hSessionKey1,
-        KP_ALGID,
-        (PBYTE)&Algid,
-        0);
-    if(!fReturn)
-    {
-        goto ErrorExit;
-    }
-
-    // Enable the party 2 public session key for use by setting the 
-    // ALGID.
-    fReturn = CryptSetKeyParam(
-        hSessionKey2,
-        KP_ALGID,
-        (PBYTE)&Algid,
-        0);
-    if(!fReturn)
-    {
-        goto ErrorExit;
-    }
-
-    /************************
-    Encrypt some data with party 1's session key. 
-    ************************/
-    // Get the size.
-    DWORD dwLength = sizeof(g_rgbData);
-    fReturn = CryptEncrypt(
-        hSessionKey1, 
-        0, 
-        TRUE,
-        0, 
-        NULL, 
-        &dwLength,
-        sizeof(g_rgbData));
-    if(!fReturn)
-    {
-        goto ErrorExit;
-    }
-
-    // Allocate a buffer to hold the encrypted data.
-    pbData = (PBYTE)malloc(dwLength);
-    if(!pbData)
-    {
-        goto ErrorExit;
-    }
-
-    // Copy the unencrypted data to the buffer. The data will be 
-    // encrypted in place.
-    memcpy(pbData, g_rgbData, sizeof(g_rgbData)); 
-
-    // Encrypt the data.
-    dwLength = sizeof(g_rgbData);
-    fReturn = CryptEncrypt(
-        hSessionKey1, 
-        0, 
-        TRUE,
-        0, 
-        pbData, 
-        &dwLength,
-        sizeof(g_rgbData));
-    if(!fReturn)
-    {
-        goto ErrorExit;
-    }
-  
-    /************************
-    Decrypt the data with party 2's session key. 
-    ************************/
-    dwLength = sizeof(g_rgbData);
-    fReturn = CryptDecrypt(
-        hSessionKey2,
-        0,
-        TRUE,
-        0,
-        pbData,
-        &dwLength);
-    if(!fReturn)
-    {
-        goto ErrorExit;
-    }
-
-
-ErrorExit:
-    if(pbData)
-    {
-        free(pbData);
-        pbData = NULL;
-    }
-
-    if(hSessionKey2)
-    {
-        CryptDestroyKey(hSessionKey2);
-        hSessionKey2 = NULL;
-    }
-
-    if(hSessionKey1)
-    {
-        CryptDestroyKey(hSessionKey1);
-        hSessionKey1 = NULL;
-    }
-
-    if(pbKeyBlob2)
-    {
-        free(pbKeyBlob2);
-        pbKeyBlob2 = NULL;
-    }
-
-    if(pbKeyBlob1)
-    {
-        free(pbKeyBlob1);
-        pbKeyBlob1 = NULL;
-    }
-
-    if(hPrivateKey2)
-    {
-        CryptDestroyKey(hPrivateKey2);
-        hPrivateKey2 = NULL;
-    }
-
-    if(hPrivateKey1)
-    {
-        CryptDestroyKey(hPrivateKey1);
-        hPrivateKey1 = NULL;
-    }
-
-    if(hProvParty2)
-    {
-        CryptReleaseContext(hProvParty2, 0);
-        hProvParty2 = NULL;
-    }
-
-    if(hProvParty1)
-    {
-        CryptReleaseContext(hProvParty1, 0);
-        hProvParty1 = NULL;
-    }
-
-    return 0;
+    return ret;
 }
 ```
+
+## Related content
+
+- [Cryptography API: Next Generation (CNG)](/windows/win32/seccng/cng-portal)
+- [Overview of typical CNG programming](/windows/win32/seccng/typical-cng-programming)
+- [**BCryptOpenAlgorithmProvider**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptopenalgorithmprovider)
+- [**BCryptGenerateKeyPair**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptgeneratekeypair)
+- [**BCryptFinalizeKeyPair**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptfinalizekeypair)
+- [**BCryptSecretAgreement**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptsecretagreement)
+- [**BCryptDeriveKey**](/windows/win32/api/bcrypt/nf-bcrypt-bcryptderivekey)
+- [**BCRYPT_DH_KEY_BLOB**](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_dh_key_blob)
+- [**BCRYPT_DH_PARAMETER_HEADER**](/windows/win32/api/bcrypt/ns-bcrypt-bcrypt_dh_parameter_header)
+- [CNG Algorithm Identifiers](/windows/win32/seccng/cng-algorithm-identifiers)
+
 
 
 

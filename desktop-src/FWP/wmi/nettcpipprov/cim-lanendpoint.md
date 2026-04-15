@@ -54,8 +54,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# CIM\_LANEndpoint class
-
+# CIM\_LANEndpoint class (NetTCPIP)
 A communication endpoint which, when its associated interface device is connected to a LAN, may send and receive data frames. LAN endpoints include Ethernet, Token Ring and FDDI interfaces.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
@@ -1980,7 +1979,7 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                          |

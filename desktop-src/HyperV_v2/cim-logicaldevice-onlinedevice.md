@@ -15,8 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# OnlineDevice method of the CIM\_LogicalDevice class
-
+# OnlineDevice method of the CIM\_LogicalDevice class (Hyper-V)
 The **OnlineDevice** method has been deprecated in lieu of the more general **RequestStateChange** method that directly overlaps with the functionality provided by this method.
 
 ## Syntax

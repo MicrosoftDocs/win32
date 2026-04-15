@@ -40,7 +40,7 @@ While not exhaustive, AppVerifier can be one more component of a tester's toolbo
 
 For more information about Application Verifier, see [Application Verifier](/previous-versions/ms220948(v=vs.80)) and [Using Application Verifier Within Your Software Development Lifecycle](/previous-versions/aa480483(v=msdn.10)). 
 
-A similar tool for drivers, Driver Verifier, is also available. For more information, see [Using Driver Verifier to Identify Issues with Windows Drivers for Advanced Users](https://support.microsoft.com/Default.aspx?kbid=244617) on Microsoft Help and Support.
+A similar tool for drivers, Driver Verifier, is also available. For more information, see [Using Driver Verifier to Identify Issues with Windows Drivers for Advanced Users](/troubleshoot/windows-server/performance/use-driver-verifier-to-identify-issues).
 
 ## Microsoft Application Compatibility Toolkit
 
@@ -80,7 +80,7 @@ For more information about WER, see [Crash Dump Analysis](./crash-dump-analysis.
 
 ## Performance Tuning Tools
 
-Developers can use performance analyzers to tune performance of their game. In addition to PIX, there are a number of popular performance analyzers for Windows, such as the Intel VTune Performance Analyzer and the [AMD CodeAnalyst Performance Analyzer](https://developer.amd.com/cpu/CodeAnalyst/). These tools help with identifying bottlenecks and with deciding how to improve the overall performance of an application. Improving performance bottlenecks prior to release will help bring down post-release costs.
+Developers can use performance analyzers to tune performance of their game. In addition to PIX, there are a number of popular performance analyzers for Windows, such as the Intel VTune Performance Analyzer and [AMD μProf](https://www.amd.com/en/developer/uprof.html). These tools help with identifying bottlenecks and with deciding how to improve the overall performance of an application. Improving performance bottlenecks prior to release will help bring down post-release costs.
 
 ## Summary
 

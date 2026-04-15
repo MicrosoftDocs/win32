@@ -80,7 +80,7 @@ Defines the NAT64 settings associated with this interface.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                          |

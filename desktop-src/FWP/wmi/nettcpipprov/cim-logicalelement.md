@@ -1,9 +1,7 @@
 ---
 description: The base class for all the components of a System that represent abstract system components, such as files, processes, or logical devices.
 ms.assetid: 35d9b309-5558-483a-b2aa-8a76dcf7c464
-title: CIM\_LogicalElement class
-
-
+title: CIM\_LogicalElement class (NetTCPIP)
 ms.author: windowssdkdev
 ms.topic: reference
 ms.date: 05/31/2018
@@ -33,8 +31,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# CIM\_LogicalElement class
-
+# CIM\_LogicalElement class (NetTCPIP)
 The base class for all the components of a System that represent abstract system components, such as files, processes, or logical devices.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
@@ -514,7 +511,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                          |

@@ -1,9 +1,7 @@
 ---
 description: Represents Network Adapters used in IM Platform, ie. the members and team NICs.
 ms.assetid: 0cd76a9f-84d4-4b40-a6f1-4b7dbfc9a6f3
-title: MSFT\_NetImPlatAdapter class
-
-
+title: MSFT\_NetImPlatAdapter class (NetSwitchTeam)
 ms.author: windowssdkdev
 ms.topic: reference
 ms.date: 05/31/2018
@@ -27,8 +25,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# MSFT\_NetImPlatAdapter class
-
+# MSFT\_NetImPlatAdapter class (NetSwitchTeam)
 Represents Network Adapters used in IM Platform, ie. the members and team NICs.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
@@ -202,7 +199,7 @@ The transmission speed of the adapter.
 
 
 
-|                                     |                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                            |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |

@@ -449,7 +449,7 @@ The locale-independent name of the rule. Might be an indirect string.
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Minimum supported client | Windows 8 |
 | Minimum supported server | Windows Server 2012 |

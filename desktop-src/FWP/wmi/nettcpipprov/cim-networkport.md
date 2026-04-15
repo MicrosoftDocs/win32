@@ -73,8 +73,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# CIM\_NetworkPort class
-
+# CIM\_NetworkPort class (NetTCPIP)
 NetworkPort is the logical representation of network communications hardware such as a physical connector and the setup or operation of the network chips, at the lowest layers of a network stack.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
@@ -1676,7 +1675,7 @@ This property is inherited from [**CIM\_LogicalPort**](cim-logicalport.md).
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                          |

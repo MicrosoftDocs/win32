@@ -3303,6 +3303,8 @@
           href: mf-sa-d3d-aware-attribute.md
         - name: "MF_SA_D3D11_AWARE"
           href: mf-sa-d3d11-aware.md
+        - name: "MF_SA_D3D12_AWARE"
+          href: mf-sa-d3d12-aware.md
         - name: "MF_SA_D3D11_BINDFLAGS"
           href: mf-sa-d3d11-bindflags.md
         - name: "MF_SA_D3D11_SHARED"

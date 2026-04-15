@@ -4,6 +4,7 @@ description: Description of qualifiers used by MRM.
 keywords:
 - MrmCreateResourceIndexer MrmCreateConfig MrmIndexString MrmIndexFile MrmIndexEmbeddedData Menus and Other Resources
 ms.topic: reference
+ms.date: 06/13/2025
 ---
 
 # Qualifiers in MRM

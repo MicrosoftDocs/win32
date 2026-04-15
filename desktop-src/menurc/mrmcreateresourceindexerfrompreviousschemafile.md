@@ -205,7 +205,7 @@ that actually performed a delete operation - a serious bug.
 
 <dl> <dt>
 
-[**MrmCreateResourceIndexerFromPreviousPriFile**](mrmcreateresourceindexerfrompreviousprifile.md.md)
+[**MrmCreateResourceIndexerFromPreviousPriFile**](mrmcreateresourceindexerfrompreviousprifile.md)
 </dt></dl>
 
 <dl> <dt>

@@ -95,7 +95,7 @@ Supplies an optional IPv4 address representing the Source Protocol Address (SPA)
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                               |

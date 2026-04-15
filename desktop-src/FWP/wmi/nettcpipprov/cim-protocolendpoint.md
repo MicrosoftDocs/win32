@@ -47,8 +47,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# CIM\_ProtocolEndpoint class
-
+# CIM\_ProtocolEndpoint class (NetTCPIP)
 A communication point from which data can be sent or received. Protocol endpoints link system or computer interfaces to logical networks.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
@@ -1831,7 +1830,7 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](cim-enabledlogi
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                          |

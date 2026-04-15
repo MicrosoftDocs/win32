@@ -463,7 +463,7 @@ Indicates that the network adapter supports filtering received packets based on 
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                               |

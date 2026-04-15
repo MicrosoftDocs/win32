@@ -47,11 +47,11 @@ The currently selected budget profile determines the budget values that are used
 
 When **min spec PC performance profile** is selected in the Budgets layout, the graph of the *Working Set Size* metric in the [Metrics layout](pix-metrics-layout.md) will use the budget of 108.  Switching to a different budget profile will change the budget values that are used.
 
-![The Metrics layout and budget profiles](../../../images/pix_timing_capture_budget_profiles_metrics_layout.png)
+![The Metrics layout showing budget profile selection](../../../images/pix_timing_capture_budget_profiles_metrics_layout.png)
 
 Similarly, a budget of 108 will be used in the Comparison layout when comparing points above and below the budget line.
 
 Budgets can also be set using the [Metrics layout](pix-metrics-layout.md).  Right clicking a point on the graph and selecting **Set budget for &lt;metric&gt;** creates a budget with the value of the selected point.  The new budget will be added to the currently active budget profile.  If no budget profiles exist, you will be prompted to create one.
 
-![The Metrics layout and budget profiles](../../../images/pix_timing_capture_metrics_layout_add_budget.png)
+![Adding a budget from the Metrics layout context menu](../../../images/pix_timing_capture_metrics_layout_add_budget.png)
 

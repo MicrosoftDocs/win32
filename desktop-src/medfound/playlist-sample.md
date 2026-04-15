@@ -54,7 +54,7 @@ This sample is available in the following locations.
 
 | Location                                                     | Path/URL                                                   |
 |--------------------------------------------------------------|------------------------------------------------------------|
-| [Windows SDK](https://www.microsoft.com/download/details.aspx?id=8279) | *SDK Root*\\Samples\\multimedia\\mediafoundation\\Playlist |
+| [Windows SDK](https://developer.microsoft.com/windows/downloads/sdk-archive/) | *SDK Root*\\Samples\\multimedia\\mediafoundation\\Playlist |
 
 
 

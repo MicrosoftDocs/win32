@@ -57,7 +57,7 @@ An array that contains the names of the initial members of the new switch team.
 
 
 
-|                                     |                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                            |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                  |
