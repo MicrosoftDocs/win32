@@ -45,7 +45,3 @@ Creates a bitmap from a DXGI surface that can be set as a target surface or have
 
 [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext)
 </dt> </dl>
-
-�
-
-�

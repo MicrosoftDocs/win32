@@ -59,7 +59,3 @@ Sets an attribute of this element.
 
 [**ID2D1SvgElement**](/windows/win32/api/d2d1svg/nn-d2d1svg-id2d1svgelement)
 </dt> </dl>
-
-�
-
-�

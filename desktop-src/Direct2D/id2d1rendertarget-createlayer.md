@@ -100,7 +100,3 @@ HRESULT DemoApp::RenderWithLayer(ID2D1RenderTarget *pRT)
 
 [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget)
 </dt> </dl>
-
-�
-
-�

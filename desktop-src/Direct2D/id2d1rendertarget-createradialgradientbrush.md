@@ -58,7 +58,3 @@ For an example, see [How to Create a Radial Gradient Brush](how-to-create-a-radi
 
 [Brushes Overview](direct2d-brushes-overview.md)
 </dt> </dl>
-
-�
-
-�

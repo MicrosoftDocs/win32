@@ -45,7 +45,3 @@ Trims the populated regions of the image source cache to just the specified rect
 
 [**ID2D1ImageSourceFromWic**](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1imagesourcefromwic)
 </dt> </dl>
-
-�
-
-�
