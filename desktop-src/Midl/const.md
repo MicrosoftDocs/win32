@@ -38,7 +38,7 @@ const-type [declarator], [ [ parameter-attribute-list ] ] pointer-type const [de
 *const-type* 
 </dt> <dd>
 
-Specifies a valid MIDL integer, character, string, or Boolean type. Valid MIDL types include [**small**](small.md), [**short**](short.md), [**long**](long.md), [**char**](char-idl.md), **charÂ \***, [**wchar\_t**](wchar-t.md), **wchar\_tÂ \***, [**byte**](byte.md), **byteÂ \***, and [**voidÂ \***](void.md). The integer and character types can be [**signed**](signed.md) or [**unsigned**](unsigned.md).
+Specifies a valid MIDL integer, character, string, or Boolean type. Valid MIDL types include [**small**](small.md), [**short**](short.md), [**long**](long.md), [**char**](char-idl.md), **char \***, [**wchar\_t**](wchar-t.md), **wchar\_t \***, [**byte**](byte.md), **byte \***, and [**void \***](void.md). The integer and character types can be [**signed**](signed.md) or [**unsigned**](unsigned.md).
 
 </dd> <dt>
 
@@ -52,7 +52,7 @@ Specifies a valid MIDL identifier. Valid MIDL identifiers consist of up to 31 al
 *const-expression* 
 </dt> <dd>
 
-Specifies an expression, identifier, or numeric or character constant appropriate for the specified type: constant integer literals or constant integer expressions for integer constants; Boolean expressions that can be computed at compilation for [**Boolean**](boolean.md) types; single-character constants for [**char**](char-idl.md) types; and string constants for **\[**[**string**](string.md)**\]** types. The [**voidÂ \***](void.md) type can be initialized only to **NULL**.
+Specifies an expression, identifier, or numeric or character constant appropriate for the specified type: constant integer literals or constant integer expressions for integer constants; Boolean expressions that can be computed at compilation for [**Boolean**](boolean.md) types; single-character constants for [**char**](char-idl.md) types; and string constants for **\[**[**string**](string.md)**\]** types. The [**void \***](void.md) type can be initialized only to **NULL**.
 
 </dd> <dt>
 
@@ -124,7 +124,7 @@ The value of a character constant must be a single-quoted ASCII character. When 
 
 The value of a character-string constant must be a double-quoted string. Within a string, the backslash (**\\**) character must precede a literal double-quote character ( **"** ), as in **\\"**. Within a string, the backslash character (**\\**) represents an escape character. String constants can consist of up to 255 characters.
 
-The value **NULL** is the only valid value for constants of type [**voidÂ \***](void.md). Any attributes associated with the **const** declaration are ignored.
+The value **NULL** is the only valid value for constants of type [**void \***](void.md). Any attributes associated with the **const** declaration are ignored.
 
 The MIDL compiler does not check for range errors in **const** initialization. For example, when you specify "const short x = 0xFFFFFFFF;" the MIDL compiler does not report an error and the initializer is reproduced in the generated header file.
 

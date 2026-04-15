@@ -50,7 +50,7 @@ In combination with the **\[**[**uuid**](uuid.md)**\]** value, the **\[version\]
 -   The major version number is the same.
 -   The client's minor version number is less than or equal to the server's minor version number.
 
-It is to your benefit and your users' benefit to retain upward compatibility among versionsÂ that is, to modify the interface so that only the minor version number changes. You can retain upward compatibility when you add new data types that are not used by existing functions and when you add new functions without changing the interface specification for existing functions.
+It is to your benefit and your users' benefit to retain upward compatibility among versions that is, to modify the interface so that only the minor version number changes. You can retain upward compatibility when you add new data types that are not used by existing functions and when you add new functions without changing the interface specification for existing functions.
 
 Change the major version number if any one of the following conditions apply:
 
