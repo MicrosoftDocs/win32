@@ -70,7 +70,3 @@ For an example showing how to create a gradient stop collection and use it to de
 
 [Brushes Overview](direct2d-brushes-overview.md)
 </dt> </dl>
-
-�
-
-�

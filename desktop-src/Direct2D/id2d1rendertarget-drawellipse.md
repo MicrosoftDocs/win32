@@ -58,7 +58,3 @@ For an example, see [How to Draw and Fill a Basic Shape](how-to-draw-an-ellipse.
 
 [**FillEllipse**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillellipse(constd2d1_ellipse_id2d1brush))
 </dt> </dl>
-
-�
-
-�

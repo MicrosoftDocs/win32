@@ -125,7 +125,3 @@ Code has been omitted from this example.
 
 [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget)
 </dt> </dl>
-
-�
-
-�
