@@ -60,7 +60,7 @@ Use the **\[range\]** attribute to modify the meaning of sensitive parameters or
 
 The **\[range\]** attribute can also be used on conformant data such as buffers or arrays with a conformance attribute. The effect is to limit all conformance sizes for the conformant data to the specified range. If the conformant data is a multi-dimensional array, each array dimension is limited to the specified range.
 
-Use of **\[range\]** on conformant data requires that the compilation target be --target NT60 or higher.
+Use of **\[range\]** on conformant data requires that the compilation target be `--target NT60` or higher.
 
 Note that you must use the [**/robust**](-robust.md) compiler option when you compile your IDL file in order to generate the stub code that will perform these checks. Without the **/robust** switch, the MIDL compiler ignores this attribute.
 
