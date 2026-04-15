@@ -34,7 +34,7 @@ The authentication level is used to tell COM at what level you want the client t
 
 2.  Choose the **Default Properties** tab.
 
-3.  From the **DefaultÂ AuthenticationÂ Level** list box, choose a value other than **(None)**.
+3.  From the **Default Authentication Level** list box, choose a value other than **(None)**.
 
 4.  If you will be setting more properties for the computer, click the **Apply** button to apply the new authentication level. Otherwise, click **OK** to apply the changes and exit Dcomcnfg.exe.
 
@@ -119,9 +119,9 @@ Disabling DCOM on a computer has no effect on local COM objects. COM still looks
 
 1.  Run Dcomcnfg.exe.
 
-2.  Choose the **DefaultÂ Properties** tab.
+2.  Choose the **Default Properties** tab.
 
-3.  Select (or clear) the **Enable Distributed COMÂ on this Computer** check box.
+3.  Select (or clear) the **Enable Distributed COM on this Computer** check box.
 
 4.  If you will be setting more properties for the computer, click the **Apply** button to enable (or disable) DCOM. Otherwise, click **OK** to apply the changes and exit Dcomcnfg.exe.
 

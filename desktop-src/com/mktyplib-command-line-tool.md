@@ -16,7 +16,7 @@ To generate a type library from a ODL file:
 
 -   From the command prompt, run the following command:
 
-    **mktyplibÂ ***filename*
+    **mktyplib ***filename*
 
     where *filename*is the name of the ODL file.
 

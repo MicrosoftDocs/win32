@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Visual Basic handles pointers implicitly. In C++, your application is responsible for performing any necessary pointer arithmetic.
 
-By default, Visual Basic passes parameters by reference (as pointers). Parameters that are meant to be passed by value only are specified by the keyword **ByVal**. For example, a **ByVal**Â **Integer** parameter in Visual Basic is equivalent to a **short** parameter in C++, whereas a **ByRef**Â **Integer** parameter in Visual Basic is equivalent to a **short\*** parameter.
+By default, Visual Basic passes parameters by reference (as pointers). Parameters that are meant to be passed by value only are specified by the keyword **ByVal**. For example, a **ByVal** **Integer** parameter in Visual Basic is equivalent to a **short** parameter in C++, whereas a **ByRef** **Integer** parameter in Visual Basic is equivalent to a **short\*** parameter.
 
 A parameter that is declared **As String** in Visual Basic is declared as a pointer to a **BSTR** in C++. Setting a string pointer to **NULL** in C++ is equivalent to setting the string to the **vbNullString** constant in Visual Basic. Passing a zero-length string ("") to a function designed to receive **NULL** does not work, because this passes a pointer to a zero-length string instead of a zero pointer.
 

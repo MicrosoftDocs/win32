@@ -26,7 +26,7 @@ The format for <*version-independent ProgID*> is <*program*>.<*component*>, sepa
 
 *ProgID* is the ProgID of the latest installed version of the class.
 
-Applications must register a version-independent programmatic identifier under the *version-independent ProgID* key. The version-independent ProgID refers to the application's class and does not change from version to version, instead remaining constant across all versionsâ€”for example, Microsoft Word Document. It is used with macro languages and refers to the currently installed version of the application's class. The version-independent ProgID must correspond to the name of the latest version of the object application.
+Applications must register a version-independent programmatic identifier under the *version-independent ProgID* key. The version-independent ProgID refers to the application's class and does not change from version to version, instead remaining constant across all versions--for example, Microsoft Word Document. It is used with macro languages and refers to the currently installed version of the application's class. The version-independent ProgID must correspond to the name of the latest version of the object application.
 
 For example, the version-independent ProgID is used when a container application creates a chart or table with a toolbar button. In this situation, the application can use the version-independent ProgID to determine the latest version of the needed object application.
 
