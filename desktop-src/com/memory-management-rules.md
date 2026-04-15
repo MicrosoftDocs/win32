@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The lifetime of pointers to interfaces is always managed through the [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) and [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) methods on every COM interface. For more information, see [Rules for Managing Reference Counts](rules-for-managing-reference-counts.md).
 
-For all other parameters, it is important to adhere to certain rules for managing memory. The following rules apply to all parameters of interface methodsâ€”including the return valueâ€”that are not passed by value:
+For all other parameters, it is important to adhere to certain rules for managing memory. The following rules apply to all parameters of interface methods--including the return value--that are not passed by value:
 
 -   In-parameters must be allocated and freed by the caller.
 -   Out-parameters must be allocated by the one called; they are freed by the caller using the standard COM task memory allocator. See [The OLE Memory Allocator](the-ole-memory-allocator.md) for more information.

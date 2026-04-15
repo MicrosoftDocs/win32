@@ -29,7 +29,7 @@ propertyDescription
 
 PKEY values are defined in Propkey.h.
 
-Historically, this information was often displayed in the Windows XPÂ **Version** property sheet page. Under Windows Vista, the information was moved to the **Details** tab. However, this particular property was not made public in Windows Vista until Service Pack 1 (SP1).
+Historically, this information was often displayed in the Windows XP **Version** property sheet page. Under Windows Vista, the information was moved to the **Details** tab. However, this particular property was not made public in Windows Vista until Service Pack 1 (SP1).
 
 ## Related topics
 
