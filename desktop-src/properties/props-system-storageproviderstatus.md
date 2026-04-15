@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 ```
 propertyDescription
-   name = System.StorageProviderStatus
+   name = System.StorageProviderState
    shellPKey = PKEY_StorageProviderState
    formatID = FCEFF153-E839-4CF3-A9E7-EA22832094B8
    propID = 110
