@@ -81,7 +81,7 @@ By default, calls on context handles are serialized. An application can call [**
 
 This attribute is available in MIDL version 5.0.
 
-**Windows ServerÂ 2003 and WindowsÂ XP or later:** A single interface can accommodate both serialized and nonserialized context handles, enabling one method on an interface to access a context handle exclusively (serialized), while other methods access that context handle in shared mode (nonserialized). These access capabilities are comparable to read/write locking mechanisms; methods using a serialized context handle are exclusive users (writers), whereas methods using a nonserialized context handle are shared users (readers). Methods that destroy or modify the state of a context handle must be serialized. Methods that do not modify the state of a context handle, such as those methods that simply read from a context handle, can be nonserialized. Note that creation methods are implicitly serialized.
+**Windows Server 2003 and Windows XP or later:** A single interface can accommodate both serialized and nonserialized context handles, enabling one method on an interface to access a context handle exclusively (serialized), while other methods access that context handle in shared mode (nonserialized). These access capabilities are comparable to read/write locking mechanisms; methods using a serialized context handle are exclusive users (writers), whereas methods using a nonserialized context handle are shared users (readers). Methods that destroy or modify the state of a context handle must be serialized. Methods that do not modify the state of a context handle, such as those methods that simply read from a context handle, can be nonserialized. Note that creation methods are implicitly serialized.
 
 ## Examples
 

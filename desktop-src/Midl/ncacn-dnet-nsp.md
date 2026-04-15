@@ -45,7 +45,7 @@ Specifies a DECnet object name or object number. The object name can consist of 
 The syntax of the DECnet transport port string, like all port strings, is defined independently of the IDL specification. The compiler performs some syntax checking but does not guarantee that the endpoint specification is correct. Some errors may be reported at run time rather than at compile time.
 
 > [!Note]  
-> This protocol family is not supported in WindowsÂ XP.
+> This protocol family is not supported in Windows XP.
 
  
 

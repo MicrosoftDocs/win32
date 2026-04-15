@@ -185,7 +185,7 @@ The following topics list the Object Description Language (ODL) attributes, keyw
         \[[**version**](version.md)\]
     :::column-end:::
     :::column:::
-        Â
+        
     :::column-end:::
 :::row-end:::
 

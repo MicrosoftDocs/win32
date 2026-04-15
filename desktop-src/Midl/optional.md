@@ -63,7 +63,7 @@ Specifies the name of the optional parameter.
 
 ## Remarks
 
-The **\[optional\]** attribute is valid only if the parameter is of type **VARIANT** or **VARIANT**Â \*.
+The **\[optional\]** attribute is valid only if the parameter is of type **VARIANT** or **VARIANT** \*.
 
 The MIDL compiler accepts the following parameter ordering (from left-to-right):
 
