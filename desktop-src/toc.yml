@@ -22,8 +22,6 @@
       - name: Windows 7 guides
         href: ./windows-7.md
         items:
-        - name: Windows 7 and Windows Server 2008 R2 Application Quality Cookbook
-          href: ./win7appqual/windows-7-application-quality-cookbook.md
         - name: Windows 7 Developer Guide
           href: ./win7devguide/windows-7-developer-guide.md
         - name: Platform Update for Windows Vista
