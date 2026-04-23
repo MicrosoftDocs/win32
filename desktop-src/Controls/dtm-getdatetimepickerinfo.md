@@ -32,7 +32,7 @@ Must be zero.
 </dd> <dt>
 
 *lParam* \[in\]
-</dt> <dd> A pointer to <a href="/windows/win32/api/commctrl/ns-commctrl-datetimepickerinfo">**DATETIMEPICKERINFO**</a> to receive the information. The caller is responsible for allocating the memory for this structure. Set the **cbSize** member of the structure to sizeof(DATETIMEPICKERINFO) before sending this message.</dd> </dl>
+</dt> <dd> A pointer to <a href="/windows/win32/api/commctrl/ns-commctrl-datetimepickerinfo">DATETIMEPICKERINFO</a> to receive the information. The caller is responsible for allocating the memory for this structure. Set the <b>cbSize</b> member of the structure to sizeof(DATETIMEPICKERINFO) before sending this message.</dd> </dl>
 
 ## Return value
 
