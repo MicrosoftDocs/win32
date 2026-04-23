@@ -59,7 +59,7 @@ You will follow these steps to set up the algorithm handles and key pairs for ML
 1. Use [BCryptSetProperty](/windows/win32/api/bcrypt/nf-bcrypt-bcryptsetproperty) to specify the parameter set to use for ML-DSA, which have tradeoffs for strength and performance. In this example the ML-DSA-44 parameter set is chosen.
 
    ```cpp
-   status = BCryptSetProperty(&hKeyPair, BCRYPT_PARAMETER_SET_NAME, (PUCHAR)BCRYPT_MLDSA_PARAMETER_SET_44, sizeof(BCRYPT_MLDSA_PARAMETER_SET_44), 0); 
+   status = BCryptSetProperty(hKeyPair, BCRYPT_PARAMETER_SET_NAME, (PUCHAR)BCRYPT_MLDSA_PARAMETER_SET_44, sizeof(BCRYPT_MLDSA_PARAMETER_SET_44), 0); 
 
    if (!NT_SUCCESS(status)) { 
        goto cleanup; 
@@ -372,7 +372,7 @@ NTSTATUS MLDSASignSample()
         goto cleanup;
     }
 
-    status = BCryptSetProperty(&hKeyPair, BCRYPT_PARAMETER_SET_NAME, (PUCHAR)BCRYPT_MLDSA_PARAMETER_SET_44, sizeof(BCRYPT_MLDSA_PARAMETER_SET_44), 0);
+    status = BCryptSetProperty(hKeyPair, BCRYPT_PARAMETER_SET_NAME, (PUCHAR)BCRYPT_MLDSA_PARAMETER_SET_44, sizeof(BCRYPT_MLDSA_PARAMETER_SET_44), 0);
 
     if (!NT_SUCCESS(status)) {
         goto cleanup;
