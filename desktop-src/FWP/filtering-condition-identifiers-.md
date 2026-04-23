@@ -154,10 +154,10 @@ The standard conditions are listed first, followed by the conditions specific to
 | **FWPM_CONDITION_ALE_PACKAGE_FAMILY_NAME** | The package family name of the app.<br/>**Data type**: FWP_SECURITY_DESCRIPTOR_TYPE |
 | **FWPM_CONDITION_ALE_SECURITY_ATTRIBUTE_FQBN_VALUE** | The Fully Qualified Binary Name of the app.<br/>**Data type**: FWP_BYTE_BLOB |
 | **FWPM_CONDITION_IPSEC_SECURITY_REALM_ID** | The ID of the IPSec security realm.<br/>**Data type**: FWP_BYTE_BLOB |
-| **FWPM_CONDITION_ALE_EFFECTIVE_NAME** | The name of the server.<br/>**Data type**: FWP_BYTE_BLOB |
+| **FWPM_CONDITION_ALE_EFFECTIVE_NAME [CONFLICT]** | The name of the server.<br/>**Data type**: FWP_BYTE_BLOB |
 | **FWPM_CONDITION_RPC_OPNUM** | The RPC OpNum for an RPC call made to an RPC listener.<br/>**Data type**: FWP_UINT16 |
 | **FWPM_CONDITION_COMPARTMENT_ID** | The ID of the TCPIP compartment.<br/>**Data type**type: FWP_UINT32 |
-| **FWPM_CONDITION_ALE_EFFECTIVE_NAME** | A buffer containing the server address.<br/>**Data type**: FWP_BYTE_BLOB |
+| **FWPM_CONDITION_ALE_EFFECTIVE_NAME [CONFLICT]** | A buffer containing the server address.<br/>**Data type**: FWP_BYTE_BLOB |
 | **FWPM_CONDITION_NET_EVENT_TYPE** | This 32-bit value is an [FWPM_NET_EVENT_TYPE](/windows/win32/api/fwpmtypes/ne-fwpmtypes-fwpm_net_event_type). You can use this condition in a [FWPM_NET_EVENT_ENUM_TEMPLATE0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_enum_template0) structure, and thus also with [FWPM_NET_EVENT_SUBSCRIPTION0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_subscription0). |
 | **FWPM_CONDITION_IP_PROTOCOL** | You can use this condition in a [FWPM_NET_EVENT_ENUM_TEMPLATE0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_enum_template0) structure, and thus also with [FWPM_NET_EVENT_SUBSCRIPTION0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_subscription0). |
 | **FWPM_CONDITION_IP_LOCAL_ADDRESS** | You can use this condition in a [FWPM_NET_EVENT_ENUM_TEMPLATE0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_enum_template0) structure, and thus also with [FWPM_NET_EVENT_SUBSCRIPTION0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_subscription0). |
