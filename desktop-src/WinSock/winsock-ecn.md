@@ -20,7 +20,7 @@ Your application isn't allowed to specify the Congestion Encountered (CE) code p
 ## Query ECN with WSAGetRecvIPEcn
 
 > [!IMPORTANT]
-> [**WSAGetRecvIPEcn**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetrecvipecn) is deprecated and does not properly support dual-stack sockets. Use the **IP_RECVECN** and **IPV6_RECVECN** socket options directly with [getsockopt](/windows/desktop/api/winsock/nf-winsock-getsockopt) instead. On a dual-stack socket, applications need to get both **IP_RECVECN** (level **IPPROTO_IP**) and **IPV6_RECVECN** (level **IPPROTO_IPV6**) separately, unless the socket is currently bound to an IPv4-mapped IPv6 address (for example, `::ffff:192.0.2.1`), in which case only the **IP_RECVECN** option applies.
+> [**WSAGetRecvIPEcn**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetrecvipecn) is deprecated and does not properly support dual-stack sockets. Use the **IP_RECVECN** and **IPV6_RECVECN** socket options directly with [getsockopt](/windows/desktop/api/winsock/nf-winsock-getsockopt) instead. On a dual-stack socket that is unbound or bound to a wildcard address, applications need to get both **IP_RECVECN** (level **IPPROTO_IP**) and **IPV6_RECVECN** (level **IPPROTO_IPV6**) separately. If the socket is bound to a specific IPv6 address, only the **IPV6_RECVECN** option should be retrieved. If the socket is bound to an IPv4-mapped IPv6 address (for example, `::ffff:192.0.2.1`), only the **IP_RECVECN** option should be retrieved.
 
 [**WSAGetRecvIPEcn**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetrecvipecn) is an inline function, defined in `ws2tcpip.h`.
 
@@ -41,7 +41,7 @@ Also see the [**WSAMSG**](/windows/win32/api/ws2def/ns-ws2def-wsamsg) structure.
 ## Specify ECN with WSASetRecvIPEcn
 
 > [!IMPORTANT]
-> [**WSASetRecvIPEcn**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetrecvipecn) is deprecated and does not properly support dual-stack sockets. Use the **IP_RECVECN** and **IPV6_RECVECN** socket options directly with [setsockopt](/windows/desktop/api/winsock/nf-winsock-setsockopt) instead. On a dual-stack socket, applications need to set both **IP_RECVECN** (level **IPPROTO_IP**) and **IPV6_RECVECN** (level **IPPROTO_IPV6**) separately, unless the socket is currently bound to an IPv4-mapped IPv6 address (for example, `::ffff:192.0.2.1`), in which case only the **IP_RECVECN** option applies.
+> [**WSASetRecvIPEcn**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetrecvipecn) is deprecated and does not properly support dual-stack sockets. Use the **IP_RECVECN** and **IPV6_RECVECN** socket options directly with [setsockopt](/windows/desktop/api/winsock/nf-winsock-setsockopt) instead. On a dual-stack socket that is unbound or bound to a wildcard address, applications need to set both **IP_RECVECN** (level **IPPROTO_IP**) and **IPV6_RECVECN** (level **IPPROTO_IPV6**) separately. If the socket is bound to a specific IPv6 address, only the **IPV6_RECVECN** option should be set. If the socket is bound to an IPv4-mapped IPv6 address (for example, `::ffff:192.0.2.1`), only the **IP_RECVECN** option should be set.
 
 [**WSASetRecvIPEcn**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetrecvipecn) is an inline function, defined in `ws2tcpip.h`.
 
