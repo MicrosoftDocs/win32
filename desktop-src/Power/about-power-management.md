@@ -15,6 +15,7 @@ The power management functions and messages retrieve the system power status, no
 -   [Windows Power Management](windows-power-management.md)
 -   [System Power Status](system-power-status.md)
 -   [System Power States](system-power-states.md)
+-   [PowerSnap events](powersnap.md)
 -   [System Power Management Events](system-power-management-events.md)
 -   [WM\_POWERBROADCAST Messages](wm-powerbroadcast-messages.md)
 -   [System Sleep Criteria](system-sleep-criteria.md)
@@ -34,6 +35,4 @@ The power management functions and messages retrieve the system power status, no
  
 
  
-
-
 
