@@ -129,7 +129,7 @@ use the formula $Owned - Avail = Used$ (retrievable with _JET_IdxInfoSpaceOwned_
 [JET_INDEXCREATE](./jet-indexcreate-structure.md)
 [JET_INDEXCREATE2](./jet-indexcreate2-structure.md)
 [JET_INDEXID](./jet-indexid-structure.md)
-[JET_INDEXLIST](./jet-indexcreate2-list.md)
+[JET_INDEXLIST](./jet-indexlist-structure.md)
 [JET_SESID](./jet-sesid.md)
 [JET_TABLEID](./jet-tableid.md)
 [JetGetTableIndexInfo](./jetgettableindexinfo-function.md)

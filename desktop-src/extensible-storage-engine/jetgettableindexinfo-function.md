@@ -126,5 +126,5 @@ This function returns the [JET_ERR](./jet-err.md) datatype with one of the follo
 [JET_INDEXCREATE](./jet-indexcreate-structure.md)  
 [JET_INDEXCREATE2](./jet-indexcreate2-structure.md)
 [JET_INDEXID](./jet-indexid-structure.md)  
-[JET_INDEXLIST](./jet-indexcreate2-list.md)
+[JET_INDEXLIST](./jet-indexlist-structure.md)
 [JetGetIndexInfo](./jetgetindexinfo-function.md)
