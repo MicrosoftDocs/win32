@@ -86,8 +86,8 @@ Specifies which information will be stored in *pvResult*. The valid values are:
 | <p>JET_IdxInfoKeyMost</p> | <p><em>pvResult</em> is interpreted as a USHORT. On success, the USHORT holds the value of cbKeyMost used when the index was created. See the <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a> structure for a description of cbKeyMost. On failure, the contents of <em>pvBuffer</em> are undefined.</p> | 
 | <p>JET_IdxInfoCreateIndex</p> | <p><em>pvResult</em> is interpreted as a <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a> structure. On failure, the contents of <em>pvBuffer</em> are undefined.</p><p><strong>Windows 7:  </strong>JET_IdxInfoCreateIndex is introduced in Windows 7.</p> | 
 | <p>JET_IdxInfoCreateIndex2</p> | <p><em>pvResult</em> is interpreted as a <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> structure. On failure, the contents of <em>pvBuffer</em> are undefined.</p><p><strong>Windows 7:  </strong>JET_IdxInfoCreateIndex2 is introduced in Windows 7.</p> | 
-
-
+| JET_IdxInfoSpaceOwned | _pvResult_ is interpreted as a `ULONG`. On success, the `ULONG` holds the number of pages owned by the index. See [Remarks](#remarks) for more information. <p> <p> **Windows 11:** _JET_IdxInfoSpaceOwned_ is introduced in Windows 11. |
+| JET_IdxInfoSpaceAvail | _pvResult_ is interpreted as a `ULONG`. On success, the `ULONG` holds the number of pages available in the index. See [Remarks](#remarks) for more information. <p> <p> **Windows 11:** _JET_IdxInfoSpaceAvail_ is introduced in Windows 11. |
 
 ### Return Value
 
@@ -99,8 +99,6 @@ This function returns the [JET_ERR](./jet-err.md) datatype with one of the follo
 | <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
 | <p>JET_errIndexNotFound</p> | <p>The specified index cannot be found in the specified table.</p> | 
 | <p>JET_wrnBufferTruncated</p> | <p>The buffer passed in as <em>pvResult</em> was too small. The contents of the buffer are undefined.</p> | 
-
-
 
 #### Remarks
 
@@ -118,8 +116,6 @@ This function returns the [JET_ERR](./jet-err.md) datatype with one of the follo
 | <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
 | <p><strong>Unicode</strong></p> | <p>Implemented as <strong>JetGetTableIndexInfoW</strong> (Unicode) and <strong>JetGetTableIndexInfoA</strong> (ANSI).</p> | 
 
-
-
 #### See Also
 
 [JET_COLUMNID](./jet-columnid.md)  
@@ -128,5 +124,7 @@ This function returns the [JET_ERR](./jet-err.md) datatype with one of the follo
 [JET_SESID](./jet-sesid.md)  
 [JET_TABLEID](./jet-tableid.md)  
 [JET_INDEXCREATE](./jet-indexcreate-structure.md)  
+[JET_INDEXCREATE2](./jet-indexcreate2-structure.md)
 [JET_INDEXID](./jet-indexid-structure.md)  
+[JET_INDEXLIST](./jet-indexcreate2-list.md)
 [JetGetIndexInfo](./jetgetindexinfo-function.md)
