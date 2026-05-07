@@ -45,7 +45,3 @@ Sets the transform to apply to this style's nib shape.
 
 [**ID2D1InkStyle**](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1inkstyle)
 </dt> </dl>
-
-�
-
-�

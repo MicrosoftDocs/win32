@@ -32,15 +32,11 @@ The [**WBEMTime**](wbemtime.md) class assignment operators are overloaded to fac
 
 
 
-| Requirement | Value |
-|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows�Vista<br/>                                                                                                                                      |
-| Minimum supported server<br/> | Windows Server�2008<br/>                                                                                                                                |
-| Header<br/>                   | <dl> <dt>WbemTime.h</dt> </dl>                                                                         |
+| Requirement                   | Value                                                      |
+|-------------------------------|------------------------------------------------------------|
+| Minimum supported client<br/> | Windows Vista<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                   |
+| Header<br/>                   | <dl> <dt>WbemTime.h</dt> </dl>                             |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll; </dt> <dt>FrameDyn.dll</dt> </dl> |
 
 
-
-�
-
-�

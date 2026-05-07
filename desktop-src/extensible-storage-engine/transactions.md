@@ -12,7 +12,7 @@ ms.topic: reference
 # Transactions (Windows Events)
 
 
-_**Applies to:** Windows�| Windows Server_
+_**Applies to:** Windows | Windows Server_
 
 ## Transactions
 

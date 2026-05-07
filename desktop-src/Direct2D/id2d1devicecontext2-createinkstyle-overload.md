@@ -45,7 +45,3 @@ Creates a new [**ID2D1InkStyle**](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1inkst
 
 [**ID2D1DeviceContext2**](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2)
 </dt> </dl>
-
-�
-
-�

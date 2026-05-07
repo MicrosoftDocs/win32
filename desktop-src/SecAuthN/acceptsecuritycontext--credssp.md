@@ -129,8 +129,8 @@ After the security context has been established, the server application can use 
 
 | Requirement | Value |
 |--------------------------|-------------------------------------------|
-| Minimum supported client | Windows�Vista \[desktop apps only\]       |
-| Minimum supported server | Windows Server�2008 \[desktop apps only\] |
+| Minimum supported client | Windows Vista \[desktop apps only\]       |
+| Minimum supported server | Windows Server 2008 \[desktop apps only\] |
 | Header                   | Sspi.h (include Security.h)               |
 | Library                  | Secur32.lib                               |
 | DLL                      | Secur32.dll                               |

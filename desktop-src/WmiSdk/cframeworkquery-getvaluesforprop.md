@@ -33,16 +33,12 @@ If the constraints on "Name" are not sufficiently limiting, an empty *sa* array 
 
 
 
-| Requirement | Value |
-|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows�Vista<br/>                                                                                                                                      |
-| Minimum supported server<br/> | Windows Server�2008<br/>                                                                                                                                |
-| Header<br/>                   | <dl> <dt>FrQuery.h (include FwCommon.h)</dt> </dl>                                                     |
-| Library<br/>                  | <dl> <dt>FrameDyn.lib</dt> </dl>                                                                       |
+| Requirement                   | Value                                                      |
+|-------------------------------|------------------------------------------------------------|
+| Minimum supported client<br/> | Windows Vista<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                   |
+| Header<br/>                   | <dl> <dt>FrQuery.h (include FwCommon.h)</dt> </dl>         |
+| Library<br/>                  | <dl> <dt>FrameDyn.lib</dt> </dl>                           |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll; </dt> <dt>FrameDyn.dll</dt> </dl> |
 
 
-
-�
-
-�

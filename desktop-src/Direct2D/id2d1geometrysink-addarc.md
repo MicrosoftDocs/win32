@@ -47,7 +47,3 @@ Creates a single arc and adds it to the path geometry.
 
 [**ID2D1GeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink)
 </dt> </dl>
-
-�
-
-�

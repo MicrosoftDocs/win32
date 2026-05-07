@@ -7,7 +7,7 @@ ms.topic: whats-new
 ms.date: 05/31/2018
 ---
 
-# Whats New in Windows�Vista
+# Whats New in Windows Vista
 
 Starting with Windows Vista, WMI contains many new features based upon requests by WMI users.
 
