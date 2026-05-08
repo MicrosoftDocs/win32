@@ -3,7 +3,7 @@ description: Device Properties
 ms.assetid: ad8753ba-ad20-4122-b0f2-eb165f98db67
 title: Device Properties (Core Audio APIs)
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 05/08/2026
 ---
 
 # Device Properties (Core Audio APIs)
@@ -36,6 +36,11 @@ The following code example prints the display names of all audio-rendering endpo
 // rendering endpoint devices. It prints the friendly name
 // and endpoint ID string of each endpoint device.
 //-----------------------------------------------------------
+#include <stdio.h>
+#include <winerror.h>
+#include <Mmdeviceapi.h>
+#include <Functiondiscoverykeys_devpkey.h>
+
 #define EXIT_ON_ERROR(hres)  \
               if (FAILED(hres)) { goto Exit; }
 #define SAFE_RELEASE(punk)  \
