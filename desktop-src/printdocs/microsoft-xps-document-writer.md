@@ -3,25 +3,25 @@ description: The Microsoft XPS Document Writer (MXDW) is a print-to-file driver 
 ms.assetid: cb431700-f10f-4c53-9944-d6769895595d
 title: Microsoft XPS Document Writer (MXDW)
 ms.topic: concept-article
-ms.date: 07/24/2021
+ms.date: 05/08/2026
 ---
 
 # Microsoft XPS Document Writer (MXDW)
 
-The Microsoft XPS Document Writer (MXDW) is a print-to-file driver that enables a Windows application to create XML Paper Specification (XPS) document files on versions of Windows starting with Windows XP with Service Pack 2 (SP2). Using the MXDW makes it possible for a Windows application to save its content as an XPS document without changing any of the application's program code.
+The Microsoft XPS Document Writer (MXDW) is a print-to-file driver that enables a Windows application to create XML Paper Specification (XPS) document files. Using the MXDW makes it possible for a Windows application to save its content as an XPS document without changing any of the application's program code.
 
-If you create an XPS file, but don't have an app to save or store the contents, you can use the Microsoft XPS Document Writer printer to save all content of the XPS file. Microsoft XPS Document Writer comes pre-installed on Windows 10 and Windows 11, just press `Ctrl` + `P` to print/save an XPS file.
-
-> [!NOTE]
-> You can enable XPS in Windows Settings. You can repair the XPS Document Writer by removing and re-adding it.
->
->1. Launch 'Settings' -> 'System' -> 'Optional Features' 
->2. Select 'More Windows features' under 'Related Settings'
->3. Check 'Microsoft XPS Document Writer' to enable it
->4. Uncheck and recheck 'Microsoft XPS Document Writer' to repair it
-
+If you create an XPS file, but don't have an app to save or store the contents, you can use the Microsoft XPS Document Writer printer to save all content of the XPS file. Press `Ctrl` + `P` to print/save an XPS file.
 
 For more information about V4 print driver, see [Exploring the Driver Options in the Wizard](/windows-hardware/drivers/print/exploring-the-driver-options-in-the-wizard).
+
+## Enable or re-enable XPS Document Writer
+
+Microsoft XPS Document Writer comes pre-installed on Windows 11, but it may not always be enabled. You can enable or repair XPS Document Writer through Windows Settings:
+
+1. Go to **Settings** > **System** > **Optional Features**.
+2. Select **More Windows features** under **Related Settings**.
+3. Check **Microsoft XPS Document Writer** to enable it.
+4. To repair, uncheck and then recheck **Microsoft XPS Document Writer**.
 
 ## When to Use
 
