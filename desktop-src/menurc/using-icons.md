@@ -213,16 +213,15 @@ The following code uses the functions [**CreateIconFromResourceEx**](/windows/de
 **Security Warning:** Using [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) incorrectly can compromise the security of your application by loading the wrong DLL. Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.
 
 ```cpp
-HICON hIcon1;       // icon handle 
-HINSTANCE hExe;     // handle to loaded .EXE file 
-HRSRC hResource;    // handle to FindResource  
-HRSRC hMem;         // handle to LoadResource 
-BYTE *lpResource;   // pointer to resource data  
-int nID;            // ID of resource that best fits current screen 
- 
-HDC hdc;        // handle to display context 
- 
-// Load the file from which to copy the icon. 
+HICON hIcon1;       // icon handle
+HINSTANCE hExe;     // handle to loaded .EXE file
+HRSRC hResource;    // handle to FindResource
+HRSRC hMem;         // handle to LoadResource
+BYTE *lpResource;   // pointer to resource data
+int nID;            // ID of resource that best fits current screen
+HDC hdc;            // handle to display context
+
+// Load the file from which to copy the icon.
 // Note: LoadLibrary should have a fully explicit path.
 //
 hExe = LoadLibrary("myapp.exe");
@@ -231,45 +230,29 @@ if (hExe == NULL)
     //Error loading module -- fail as securely as possible
     return;
 }
+
+// Find the icon directory whose identifier is 440.
+hResource = FindResource(hExe, MAKEINTRESOURCE(440), RT_GROUP_ICON);
+
+// Load and lock the icon directory.
+hMem = LoadResource(hExe, hResource);
+
+lpResource = LockResource(hMem);
+
+// Get the identifier of the icon that is most appropriate for the video display mode.
+nID = LookupIconIdFromDirectoryEx((PBYTE) lpResource, TRUE, 0, 0, LR_DEFAULTCOLOR);
  
- 
-// Find the icon directory whose identifier is 440. 
- 
-hResource = FindResource(hExe, 
-    MAKEINTRESOURCE(440), 
-    RT_GROUP_ICON); 
- 
-// Load and lock the icon directory. 
- 
-hMem = LoadResource(hExe, hResource); 
- 
-lpResource = LockResource(hMem); 
- 
-// Get the identifier of the icon that is most appropriate 
-// for the video display. 
- 
-nID = LookupIconIdFromDirectoryEx((PBYTE) lpResource, TRUE, 
-    CXICON, CYICON, LR_DEFAULTCOLOR); 
- 
-// Find the bits for the nID icon. 
- 
-hResource = FindResource(hExe, 
-    MAKEINTRESOURCE(nID), 
-    MAKEINTRESOURCE(RT_ICON)); 
- 
-// Load and lock the icon. 
- 
-hMem = LoadResource(hExe, hResource); 
- 
-lpResource = LockResource(hMem); 
- 
-// Create a handle to the icon. 
- 
-hIcon1 = CreateIconFromResourceEx((PBYTE) lpResource, 
-    SizeofResource(hExe, hResource), TRUE, 0x00030000, 
-    CXICON, CYICON, LR_DEFAULTCOLOR); 
- 
-// Draw the icon in the client area. 
- 
-DrawIcon(hdc, 10, 20, hIcon1); 
+// Find the bits for the nID icon.
+hResource = FindResource(hExe, MAKEINTRESOURCE(nID), MAKEINTRESOURCE(RT_ICON));
+
+// Load and lock the icon.
+hMem = LoadResource(hExe, hResource);
+
+lpResource = LockResource(hMem);
+
+// Create a handle to the icon.
+hIcon1 = CreateIconFromResourceEx((PBYTE) lpResource, SizeofResource(hExe, hResource), TRUE, 0x00030000, 0, 0, LR_DEFAULTCOLOR);
+
+// Draw the icon in the client area.
+DrawIcon(hdc, 10, 20, hIcon1);
 ```
