@@ -7,7 +7,7 @@ keywords:
 - Modifying User Cannot Change Password (WinNT Provider)
 - User Cannot Change Password (WinNT Provider),modifying
 - WinNT provider ADSI ,user management examples,User Cannot Change Password,modifying
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

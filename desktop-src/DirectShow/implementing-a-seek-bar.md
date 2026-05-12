@@ -2,7 +2,7 @@
 description: Implementing a Seek Bar
 ms.assetid: 384f0732-e0c5-4b1f-b590-195e0acf90e1
 title: Implementing a Seek Bar
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: Explains how to create a CALG\_SSL3\_SHAMD5 hash.
 ms.assetid: dad6fc7f-8abd-4f90-b3e4-8d0169e95087
 title: Creating a CALG_SSL3_SHAMD5 Hash
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

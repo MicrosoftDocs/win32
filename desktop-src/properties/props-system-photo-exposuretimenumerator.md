@@ -2,7 +2,7 @@
 description: The numerator of PKEY\_Photo\_ExposureTime.
 ms.assetid: 625b7868-2ec0-4edb-acb2-c6e511ae1050
 title: System.Photo.ExposureTimeNumerator
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Advanced Tasks
 ms.assetid: 8961ab3a-e82b-45bb-9dd2-c2ae196343fe
 title: Advanced Tasks
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

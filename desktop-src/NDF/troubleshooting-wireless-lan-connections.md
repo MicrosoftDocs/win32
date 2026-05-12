@@ -2,8 +2,9 @@
 title: Troubleshooting Wireless LAN Connections
 description: In this scenario, a user is attempting to connect to a wireless LAN, but is unable to connect. You can use Netsh and Network Monitor to collect and view traces in order to help determine why the connection failed.
 ms.assetid: 558dae83-aa16-4751-a497-d7a0da01ce5d
-ms.topic: article
+ms.topic: troubleshooting-general
 ms.date: 05/31/2018
+ms.custom: sfi-image-nochange
 ---
 
 # Troubleshooting Wireless LAN Connections

@@ -2,7 +2,7 @@
 title: Interface Marshaling
 description: Interface Marshaling
 ms.assetid: 71069bd3-5f90-406a-be78-bb1af9b1c1c0
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: eapakaconnectionpropertiesv1 Schema Elements
 description: Learn about eapakaconnectionpropertiesv1 schema elements. See a list of the elements and view additional available resources.
 ms.assetid: 2e60bd02-d0a0-4ba2-beeb-8e788637e572
-ms.topic: article
+ms.topic: reference
 ms.date: 07/12/2023
 topic_type: 
 - kbArticle

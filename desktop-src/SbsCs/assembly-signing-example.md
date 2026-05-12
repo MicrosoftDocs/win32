@@ -2,7 +2,7 @@
 description: The following example discusses how to generate a signed side-by-side assembly consisting of the assembly manifest, the verification catalog, and the assembly files.
 ms.assetid: fa95f292-36e6-4e88-8a0d-aa8bd08def2b
 title: Assembly Signing Example
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -61,7 +61,7 @@ The final step is to run SignTool.exe to sign the catalog file with the certific
 
 **c:\\MySampleAssembly>signtool sign /f \<fullpath>mycompany.pfx /du https:\//www.mycompany.com/MySampleAssembly /t https:\//timestamp.digicert.com MySampleAssembly.cat**
 
-If you have an authenticated digital certificate, and your certification authority uses the PVK file format to store the private key, you can use the PVK Digital Certificate Files Importer (pvkimprt.exe) to import the key into your cryptographic service provider (CSP). This utility enables you to export to the industry standard format of PFX/P12. For more information about the PVK Digital Certificate Files Importer, see the Deployment Resources section of the MSDN library or contact your certification authority.
+If you have an authenticated digital certificate, and your certification authority uses the PVK file format to store the private key, you can use the PVK Digital Certificate Files Importer (pvkimprt.exe) to import the key into your cryptographic service provider (CSP). This utility enables you to export to the industry standard format of PFX/P12.
 
 See also, [Creating Signed Files and Catalogs](creating-signed-files-and-catalogs.md).
 

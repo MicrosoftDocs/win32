@@ -5,7 +5,7 @@ ms.assetid: f80e2c62-71c5-4a05-bd17-465962be3c2d
 ms.tgt_platform: multiple
 keywords:
 - Asynchronous Searches ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

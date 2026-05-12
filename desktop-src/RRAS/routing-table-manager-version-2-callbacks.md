@@ -5,7 +5,7 @@ ms.assetid: 98fd8197-0717-48a6-8a78-990bb7fb3bec
 keywords:
 - Routing and Remote Access Service RRAS ,Routing Table Manager Version 2,callbacks
 - Routing Table Manager Version 2 RRAS ,callbacks
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

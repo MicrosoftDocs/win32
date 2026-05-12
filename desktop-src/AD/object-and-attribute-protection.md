@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Object and Attribute Protection
 - security AD , object and attribute protection
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

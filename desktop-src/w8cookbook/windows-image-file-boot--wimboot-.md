@@ -2,7 +2,7 @@
 title: Windows Image File Boot (WimBoot)
 description: Windows Image File Boot (WimBoot)
 ms.assetid: 1C4EFC42-6698-4981-8C55-D1DFC6309F31
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

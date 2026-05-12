@@ -2,7 +2,7 @@
 description: Windows Image Acquisition (WIA) device type.
 ms.assetid: c530d36c-eeff-4d91-8c60-5da7c83415ef
 title: System.Devices.WiaDeviceType
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

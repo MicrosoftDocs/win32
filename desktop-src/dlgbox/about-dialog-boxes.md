@@ -14,7 +14,7 @@ keywords:
 - dialog boxes,message boxes
 - dialog box procedures
 - message boxes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

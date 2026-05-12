@@ -4,7 +4,7 @@ description: The following attributes specify the characteristics of pointers.
 ms.assetid: 310d0dfe-eef3-447e-89fb-40f620976d00
 keywords:
 - IDL MIDL , attributes, pointer-type
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,12 +1,12 @@
 ---
 description: Querying Process in Windows Search
 ms.assetid: 0e5a633e-1703-4b72-8a04-6da71aec0ae2
-title: Querying Process in Windows Search
-ms.topic: article
+title: Querying process in Windows Search
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Querying Process in Windows Search
+# Querying process in Windows Search
 
 This topic is organized as follows:
 
@@ -18,7 +18,7 @@ This topic is organized as follows:
     -   [Querying the Index](#querying-the-index)
 -   [Related topics](#related-topics)
 
-## About Querying in Windows Search
+## About querying in Windows Search
 
 Querying in Windows Search is based on the following four approaches:
 
@@ -35,7 +35,7 @@ SQL is a text language that defines queries. SQL is common across many different
 
 The structured query APIs are described later in this topic. For reference documentation on the structured query APIs, see [Querying Interfaces](-search-querying-interfaces-entry-page.md). Interfaces such as [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) help construct SQL strings from a set of input values. This interface converts AQS user queries to Windows Search SQL and specifies query restrictions that can be expressed in SQL but not in AQS. [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) also obtains an OLE DB connection string to connect to the Windows Search database.
 
-### Local and Remote Queries
+### Local and remote queries
 
 You can execute your queries either locally or remotely. A local query using the [FROM clause](-search-sql-from.md) is shown in the following example. A local query queries the local SystemIndex catalog only.
 
@@ -74,7 +74,7 @@ SELECT System.ItemName FROM MachineName.SystemIndex WHERE SCOPE='file://MachineN
 
 The examples provided here use SQL.
 
-### Structured Query API Overview
+### Structured query API overview
 
 A structured query provides the ability to search for information by Boolean combinations of queries over individual properties. In this topic we outline the functionality of the most important structured query APIs and methods. For reference documentation on the structured query APIs, see [Querying Interfaces](-search-querying-interfaces-entry-page.md).
 
@@ -140,7 +140,7 @@ The [**IEntity**](/windows/desktop/api/Structuredquery/nn-structuredquery-ientit
 
 The [**IRelationship**](/windows/desktop/api/Structuredquery/nn-structuredquery-irelationship) interface represents a relationship between two entities: a source and a destination. Here's what it's individual methods do:
 
--   [**IRelationship::IsReal**](/windows/desktop/api/Structuredquery/nf-structuredquery-irelationship-isreal) reports whether a relationship is real. For example, if entity A derives from entity B and inherits a relationship named R from it, A may still have its own relationship named R. However, the relationship beween A and R must have the same destination type as that of B, and the only reason for it to exist is to store metadata specific to B. Such a relationship of B is said not to be real.
+-   [**IRelationship::IsReal**](/windows/desktop/api/Structuredquery/nf-structuredquery-irelationship-isreal) reports whether a relationship is real. For example, if entity A derives from entity B and inherits a relationship named R from it, A may still have its own relationship named R. However, the relationship between A and R must have the same destination type as that of B, and the only reason for it to exist is to store metadata specific to B. Such a relationship of B is said not to be real.
 -   [**IRelationship::Medadata**](/windows/desktop/api/Structuredquery/nf-structuredquery-irelationship-metadata) returns an enumeration of [**IMetaData**](/windows/desktop/api/Structuredquery/nn-structuredquery-imetadata) interfaces, one for each metadata pair of this entity.
 -   [**IRelationship::DefaultPhrase**](/windows/desktop/api/Structuredquery/nf-structuredquery-irelationship-defaultphrase) returns the default phrase to use for this relationship in restatements. Each relationship has a default phrase that denotes it to facilitate generating an AQS or NQS restatement of a condition tree.
 
@@ -148,11 +148,11 @@ The [**IRelationship**](/windows/desktop/api/Structuredquery/nn-structuredquery-
 
 Metadata are key-value pairs that are each associated with either an entity, a relationship, or the whole schema. Because keys are not necessarily unique, a collection of metadata can be thought of as a multi-map. [**IMetaData::GetData**](/windows/desktop/api/Structuredquery/nf-structuredquery-imetadata-getdata) is called to retrieve the key and value for a metatdata pair.
 
-## Querying Scenarios
+## Querying scenarios
 
 The following scenarios describe the use of structured query APIs in Windows Search in common querying scenarios, such as creating a condition tree and querying the index.
 
-### Condition Extraction and Query Parsing
+### Condition extraction and query parsing
 
 When a query is created, its scope is defined by telling the system where to search. This restricts the search results. After the scope is defined, a filter is applied, and a filter set is returned. Search results are restricted by building a condition tree with leaf nodes, similar to a graph. Those conditions are then extracted. A condition tree is a Boolean combination (AND, OR, NOT) of leaf conditions, each of which relates a property, through an operation, to a value. A leaf node represents a restriction on a single property to a value through some operations.
 
@@ -274,7 +274,7 @@ IRichChunk** ppValueTerm);
 
 
 
-### Querying the Index
+### Querying the index
 
 There are several approaches to querying the index. Some are based on the SQL and others are based on AQS. You can also query the Windows Search index programmatically by using [querying interfaces](./-search-querying-interfaces-entry-page.md). There are three interfaces that are specific to querying the index: [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper), [**IRowsetPrioritization**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetprioritization), and [**IRowsetEvents**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetevents). For conceptual information, see [Querying the Index Programmatically](-search-3x-wds-qryidx-overview.md).
 

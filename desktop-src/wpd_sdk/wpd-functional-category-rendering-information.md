@@ -2,7 +2,7 @@
 description: WPD\_FUNCTIONAL\_CATEGORY\_RENDERING\_INFORMATION
 ms.assetid: 84ec6f14-fe90-42a5-ba2b-6c4cc406935c
 title: WPD_FUNCTIONAL_CATEGORY_RENDERING_INFORMATION
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: How to Support Callback Items
 description: This topic demonstrates how to provide support for callback items.
 ms.assetid: BD32666F-9445-4871-AE21-5DC9F5FC9C1B
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

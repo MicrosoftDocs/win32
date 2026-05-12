@@ -2,7 +2,7 @@
 description: Over time, different versions may exist for TAPI applications, TAPI, and the service providers.
 ms.assetid: '39b16328-931e-4d75-a6ec-1edc97f1a287'
 title: Version Negotiation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

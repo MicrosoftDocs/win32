@@ -3,7 +3,7 @@ title: Remote Desktop ActiveX control classes
 description: The following classes implement the Remote Desktop ActiveX control.
 ms.assetid: 5680DFB3-63EC-4F34-B1A6-08E1521A1827
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -197,7 +197,7 @@ Microsoft RDP Client Control (redistributable) - version 13
 
 </dd> <dt>
 
-[**MsRdpClient11NotSafeForScripting**](msrdpclient12notsafeforscripting.md)
+[**MsRdpClient12NotSafeForScripting**](msrdpclient12notsafeforscripting.md)
 </dt> <dd>
 
 Microsoft RDP Client Control - version 13

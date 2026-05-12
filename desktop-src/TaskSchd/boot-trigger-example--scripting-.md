@@ -2,7 +2,7 @@
 title: Boot Trigger Example (Scripting)
 description: This scripting example shows how to create a task that is scheduled to execute Notepad when the system is booted.
 ms.assetid: 73ae9cc4-ef89-4390-ac05-8a773f45fa46
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

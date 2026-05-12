@@ -2,11 +2,14 @@
 description: Querying for Event Information
 ms.assetid: e03d2ab5-50ea-4916-9774-850506714538
 title: Querying for Event Information
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
 # Querying for Event Information
+
+> [!Note]  
+> The Event Logging API was designed for applications that run on the Windows Server 2003, Windows XP, or Windows 2000 operating system. In Windows Vista, the event logging infrastructure was redesigned. Applications that are designed to run on the Windows Vista or later operating systems should now use [Windows Event Log](/windows/desktop/WES/windows-event-log).
 
 The following example shows how to open an event log, read events from the log, print information about the events, and then close the event log. This example filters for the events written by the example in [Reporting an Event](reporting-an-event.md).
 
@@ -30,9 +33,7 @@ DWORD ApplyParameterStringsToMessage(CONST LPCWSTR pMessage, LPWSTR & pFinalMess
 
 CONST LPWSTR pEventTypeNames[] = {L"Error", L"Warning", L"Informational", L"Audit Success", L"Audit Failure"};
 
-
 HANDLE g_hResources = NULL;
-
 
 void wmain(void)
 {
@@ -148,7 +149,6 @@ HANDLE GetMessageResources()
     return hResources;
 }
 
-
 // Loop through the buffer and print the contents of each record 
 // in the buffer.
 DWORD DumpRecordsInBuffer(PBYTE pBuffer, DWORD dwBytesRead)
@@ -215,7 +215,6 @@ DWORD DumpRecordsInBuffer(PBYTE pBuffer, DWORD dwBytesRead)
     return status;
 }
 
-
 // Get an index value to the pEventTypeNames array based on 
 // the event type value.
 DWORD GetEventTypeName(DWORD EventType)
@@ -243,7 +242,6 @@ DWORD GetEventTypeName(DWORD EventType)
 
     return index;
 }
-
 
 // Formats the specified message. If the message uses inserts, build
 // the argument list to pass to FormatMessage.
@@ -504,11 +502,6 @@ void GetTimestamp(const DWORD Time, WCHAR DisplayString[])
         st.wMonth, st.wDay, st.wYear, st.wHour, st.wMinute, st.wSecond);
 }
 ```
-
-
-
- 
-
  
 
 

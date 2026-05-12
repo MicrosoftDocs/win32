@@ -3,7 +3,7 @@ title: File System Operation Notifications
 description: Describes how a provider can receive notifications of file system operations.
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 10/04/2018
-ms.topic: article
+ms.topic: reference
 ---
 
 # File System Operation Notifications
@@ -112,7 +112,7 @@ ProjFS sends the notifications in the following list after the associated file s
 * PRJ_NOTIFICATION_FILE_RENAMED - A file has been renamed.
 * PRJ_NOTIFICATION_HARDLINK_CREATED - A [hard link](/windows/desktop/FileIO/hard-links-and-junctions#hard-links) has been created for a file.
 * PRJ_NOTIFICATION_FILE_HANDLE_CLOSED_NO_MODIFICATION - A file handle has been closed, and the file's content was not modified, nor was the file deleted.
-* PRJ_NOTIFICATION_FILE_HANLDE_CLOSED_FILE_MODIFIED - A file handle has been closed, and the file's content has been modified.
+* PRJ_NOTIFICATION_FILE_HANDLE_CLOSED_FILE_MODIFIED - A file handle has been closed, and the file's content has been modified.
 * PRJ_NOTIFICATION_FILE_HANDLE_CLOSED_FILE_DELETED - A file handle has been closed, and the file was deleted as part of closing the handle.
 
 For more details on each notification refer to the documentation for **[PRJ_NOTIFICATION](/windows/desktop/api/projectedfslib/ne-projectedfslib-prj_notification)**.

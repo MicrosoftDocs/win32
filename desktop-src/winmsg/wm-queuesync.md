@@ -3,7 +3,7 @@ description: Sent by a computer-based training (CBT) application to separate use
 ms.assetid: 9ac265be-1fcc-476f-9dee-3e961340b5a1
 title: WM_QUEUESYNC message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_QUEUESYNC message

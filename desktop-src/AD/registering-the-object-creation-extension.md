@@ -3,7 +3,7 @@ title: Registering the Object Creation Extension
 description: When an object creation extension DLL in Active Directory Domain Services is created, it must be registered with the Windows registry and Active Directory Domain Services to make COM and the Active Directory administrative MMC snap-ins aware of the extension.
 ms.assetid: 6e950c6c-1a4f-4de0-9be1-004c31d4734c
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

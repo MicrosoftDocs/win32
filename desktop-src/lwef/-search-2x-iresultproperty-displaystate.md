@@ -1,6 +1,6 @@
 ---
 title: IResultProperty DisplayState property (WdsSharedIDL.h)
-description: Visability of the property.
+description: Visibility of the property.
 ms.assetid: 4fdf6cdb-30bd-4582-a573-a1cc9f4052e6
 keywords:
 - DisplayState property Legacy Windows Environment Features
@@ -24,7 +24,7 @@ ms.date: 05/31/2018
 > [!NOTE]
 > Windows Desktop Search 2.x is an obsolete technology that was originally available as an add-in for Windows XP and Windows Server 2003. On later releases, use the [Windows Search API](../search/-search-reference-entry-page.md) instead. 
 
-Visability of the property.
+Visibility of the property.
 
 This property is read-only.
 

@@ -2,7 +2,7 @@
 title: SysLink Control Messages
 description: SysLink Control Messages
 ms.assetid: 51f8d185-067a-4629-9c4f-1ea23a0d5262
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,30 +2,23 @@
 description: User-Mode Audio Components
 ms.assetid: b240b629-5bb6-4b07-95be-8ca5a14a3567
 title: User-Mode Audio Components
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 03/20/2026
 ---
 
 # User-Mode Audio Components
 
-In Windows Vista, the core audio APIs serve as the foundation of the user-mode audio subsystem. The core audio APIs are implemented as a thin layer of user-mode system components that separate user-mode clients from kernel-mode audio drivers and audio hardware. Higher-level audio APIs, such as DirectSound and the Windows multimedia functions, access audio devices through the core audio APIs. In addition, some audio applications communicate directly with the core audio APIs.
+The core audio APIs serve as the foundation of the user-mode audio subsystem. The core audio APIs are implemented as a thin layer of user-mode system components that separate user-mode clients from kernel-mode audio drivers and audio hardware. Higher-level audio APIs, such as Media Foundation, access audio devices through the core audio APIs. In addition, some audio applications communicate directly with the core audio APIs.
 
 The core audio APIs support the user-friendly notion of an audio endpoint device. An audio endpoint device is a software abstraction that represents a physical device that the user manipulates directly. Examples of audio endpoint devices are speakers, headphones, and microphones. For more information, see [Audio Endpoint Devices](audio-endpoint-devices.md).
 
-The following diagram shows the core audio APIs and their relationship to the other user-mode audio components in Windows Vista.
+The following diagram shows the core audio APIs and their relationship to the other user-mode audio components.
 
 ![diagram of user-mode audio-rendering components](images/fig1.jpg)
 
 For simplicity, the preceding diagram shows only an audio-rendering data path to the endpoint device—the diagram does not show an audio-capture data path. The core audio APIs include the [MMDevice API](mmdevice-api.md), [WASAPI](wasapi.md), the [DeviceTopology API](devicetopology-api.md), and the [EndpointVolume API](endpointvolume-api.md), which are implemented in the Audioses.dll and Mmdevapi.dll user-mode system modules.
 
-As shown in the preceding diagram, the core audio APIs provide a foundation for the following higher-level APIs:
-
--   Media Foundation
--   Windows multimedia **waveXxx** and **mixerXxx** functions
--   DirectSound
--   DirectMusic
-
-DirectSound, the Windows multimedia audio functions, and Media Foundation (through its streaming audio renderer, or SAR, component) communicate directly with the core audio APIs. DirectMusic communicates with the core audio APIs indirectly through DirectSound.
+The core audio APIs provide a foundation for higher-level APIs such as Media Foundation, which communicates with the core audio APIs through its streaming audio renderer (SAR) component.
 
 A client of WASAPI passes data to an endpoint device through an *endpoint buffer*. System software and hardware components manage the movement of data from the endpoint buffer to the endpoint device in a manner that is largely transparent to the client. Furthermore, for an endpoint device that plugs into an audio adapter with jack-presence detection, the client can create an endpoint buffer only for an endpoint device that is physically present. For more information about jack-presence detection, see [Audio Endpoint Devices](audio-endpoint-devices.md).
 
@@ -33,9 +26,9 @@ The preceding diagram shows two types of endpoint buffer. If a client of WASAPI 
 
 In exclusive mode, the client can choose to open the stream in any audio format that the endpoint device supports. In shared mode, the client must open the stream in the mix format that is currently in use by the audio engine (or a format that is similar to the mix format). The audio engine's input streams and the output mix from the engine are all in this format.
 
-In Windows 7, a new feature called *low-latence mode* has been added for streams in share mode. In this mode, the audio engine runs in pull mode, in which there a significant reduction in latency. This is very useful for communication applications that require low audio stream latency for faster streaming.
+In *low-latency mode*, which is available for streams in shared mode, the audio engine runs in pull mode, in which there is a significant reduction in latency. This is useful for communication applications that require low audio stream latency for faster streaming.
 
-Applications that manage low-latency audio streams can use the Multimedia Class Scheduler Service (MMCSS) in Windows Vista to increase the priority of application threads that access endpoint buffers. MMCSS enables audio applications to run at high priority without denying CPU resources to lower-priority applications. MMCSS assigns a priority to a thread based on its task name. For example, Windows Vista supports the task names "Audio" and "Pro Audio" for threads that manage audio streams. By default, the priority of a "Pro Audio" thread is higher than that of an "Audio" thread. For more information about MMCSS, see the Windows SDK documentation.
+Applications that manage low-latency audio streams can use the Multimedia Class Scheduler Service (MMCSS) to increase the priority of application threads that access endpoint buffers. MMCSS enables audio applications to run at high priority without denying CPU resources to lower-priority applications. MMCSS assigns a priority to a thread based on its task name. For example, the task names "Audio" and "Pro Audio" are supported for threads that manage audio streams. By default, the priority of a "Pro Audio" thread is higher than that of an "Audio" thread. For more information about MMCSS, see the Windows SDK documentation.
 
 The core audio APIs support both PCM and non-PCM stream formats. However, the audio engine can mix only PCM streams. Thus, only exclusive-mode streams can have non-PCM formats. For more information, see [Device Formats](device-formats.md).
 

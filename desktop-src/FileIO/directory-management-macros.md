@@ -2,7 +2,7 @@
 description: Macros used with reparse points.
 ms.assetid: f90082e7-b39e-41fb-800b-1afa2b574f96
 title: Directory Management Macros
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

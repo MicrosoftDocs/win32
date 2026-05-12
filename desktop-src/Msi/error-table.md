@@ -2,7 +2,7 @@
 description: The Error table is used to look up error message formatting templates when processing errors with an error code set but without a formatting template set (this is the normal situation).
 ms.assetid: 3c817468-cba7-46bf-9208-5e6699c02fb6
 title: Error Table
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

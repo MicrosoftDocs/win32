@@ -2,7 +2,7 @@
 description: Video FOURCCs
 ms.assetid: bea4835d-fd7f-4ac3-8466-7f4e0d799a12
 title: Video FOURCCs
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -36,16 +36,23 @@ The following table lists some common FOURCC codes.
 
 | FOURCC value | Description                                                                                                           |
 |--------------|-----------------------------------------------------------------------------------------------------------------------|
+| 'AV01'        | AOMedia Video 1.
+| 'APV'        | Advanced Professional Video (APV) video. |
+| 'H263'       | H.263 video. |
 | 'H264'       | H.264 video.                                                                                                          |
-| 'I420'       | YUV video stored in planar 4:2:0 format.                                                                              |
-| 'IYUV'       | YUV video stored in planar 4:2:0 format.                                                                              |
-| 'M4S2'       | MPEG-4 part 2 video.                                                                                                  |
+| 'I420'       | YUV video stored in planar 4:2:0 format. |
+| 'I422'       | YUV video stored in planar 4:2:2 format. |
+| 'I444'       | YUV video stored in planar 4:4:4 format. |
+| 'IYUV'       | YUV video stored in planar 4:2:0 format. |
+| 'M4S2'       | MPEG-4 part 2 video.   |
 | 'MP4S'       | Microsoft MPEG 4 codec version 3. This codec is no longer supported.                                                  |
 | 'MP4V'       | MPEG-4 part 2 video.                                                                                                  |
 | 'MPG1'       | MPEG-1 video.                                                                                                         |
 | 'MSS1'       | Content encoded with the Windows Media Video 7 screen codec.                                                          |
 | 'MSS2'       | Content encoded with the Windows Media Video 9 screen codec.                                                          |
+| 'theo'       | Theora video. |
 | 'UYVY'       | YUV video stored in packed 4:2:2 format. Similar to YUY2 but with different ordering of data.                         |
+| 'VP10'       | VP10 video. |
 | 'WMV1'       | Content encoded with the Windows Media Video 7 codec.                                                                 |
 | 'WMV2'       | Content encoded with the Windows Media Video 8 codec.                                                                 |
 | 'WMV3'       | Content encoded with the Windows Media Video 9 codec.                                                                 |

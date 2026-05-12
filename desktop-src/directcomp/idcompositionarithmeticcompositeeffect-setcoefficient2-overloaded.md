@@ -1,5 +1,5 @@
 ---
-title: idcompositionarithmeticcompositeeffect setcoefficient2 methods (Dcomp.h)
+title: IDCompositionArithmeticCompositeEffect SetCoefficient2 methods (Dcomp.h)
 description: Sets the second coefficient for the equation used to composite the two input images.
 ms.assetid: 58ecefbe-ca31-3c13-7bea-e97fb73753e2
 keywords:
@@ -14,7 +14,7 @@ ms.date: 07/02/2019
 ms.topic: reference
 ---
 
-# idcompositionarithmeticcompositeeffect::setcoefficient2 methods
+# IDCompositionArithmeticCompositeEffect::SetCoefficient2 methods
 
 Sets the second coefficient for the equation used to composite the two input images.
 
@@ -43,9 +43,6 @@ Sets the second coefficient for the equation used to composite the two input ima
 
 <dl> <dt>
 
-[**idcompositionarithmeticcompositeeffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionarithmeticcompositeeffect)
+[**IDCompositionArithmeticCompositeEffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionarithmeticcompositeeffect)
 </dt> </dl>
 
-�
-
-�

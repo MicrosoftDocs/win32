@@ -5,7 +5,7 @@ ms.assetid: 88a2b2a3-e8e2-4be1-9784-9709cbea08d6
 ms.tgt_platform: multiple
 keywords:
 - Characteristics of Object Classes AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

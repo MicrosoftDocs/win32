@@ -7,7 +7,7 @@ keywords:
 - Using DsAddSidHistory Active Directory
 - Active Directory Active Directory , using, Using DsAddSidHistory
 - DsAddSidHistory Active Directory , using
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

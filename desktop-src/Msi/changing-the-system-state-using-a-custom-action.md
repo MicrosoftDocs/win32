@@ -2,7 +2,7 @@
 description: Custom actions intended to change the system state must be deferred execution custom actions.
 ms.assetid: 48707ae1-9488-4bbb-8447-b24e383affb7
 title: Changing the System State Using a Custom Action
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

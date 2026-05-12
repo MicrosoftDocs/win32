@@ -1,7 +1,7 @@
-﻿---
+---
 title: ForegroundIdleProc callback function (Windows)
 description: The system calls this function whenever the foreground thread is about to become idle.
-ms.date: 06/28/2023
+ms.date: 07/14/2025
 ms.topic: reference
 f1_keywords:
 - ForegroundIdleProc
@@ -15,8 +15,6 @@ api_name:
 - ForegroundIdleProc
 api_type:
 - UserDefined
-product:
-- Windows
 topic_type:
 - apiref
 - kbSyntax

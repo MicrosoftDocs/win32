@@ -2,7 +2,7 @@
 description: Stream Control
 ms.assetid: b529b38c-a25c-42dd-aee1-5d263c94202d
 title: Stream Control
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

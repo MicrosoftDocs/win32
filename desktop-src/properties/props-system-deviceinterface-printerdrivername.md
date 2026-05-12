@@ -2,7 +2,7 @@
 description: The name of the printer driver file.
 ms.assetid: 82366686-8661-466b-881D-EBB2E03993C5
 title: System.DeviceInterface.PrinterDriverName
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

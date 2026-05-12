@@ -7,7 +7,7 @@ keywords:
 - Advanced Systems Format (ASF),indexing files
 - ASF (Advanced Systems Format),indexing files
 - indexes,indexing ASF files
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: FOURCC Codes
 ms.assetid: 7627b580-4119-48e2-88b7-51b714b5d5b2
 title: FOURCC Codes
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

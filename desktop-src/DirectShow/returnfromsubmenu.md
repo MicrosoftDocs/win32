@@ -2,7 +2,7 @@
 description: The ReturnFromSubmenu event is sent when the ReturnFromSubmenu command has been enabled or disabled.
 ms.assetid: '3bfb5d96-c37e-4113-9074-9f99658a8ce6'
 title: ReturnFromSubmenu
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

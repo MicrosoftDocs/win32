@@ -4,7 +4,7 @@ description: MIDL generates a serialization stub for the procedure with the attr
 ms.assetid: b1fce133-32e3-4b5e-9f9d-ffbe60e9d9cd
 keywords:
 - Remote Procedure Call RPC , tasks, using serialization services
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

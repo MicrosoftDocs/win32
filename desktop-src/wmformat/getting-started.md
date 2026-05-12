@@ -5,7 +5,7 @@ ms.assetid: 'e6f560a6-e677-47dc-b99c-e14bd60e4007'
 keywords:
 - Windows Media Format SDK,getting started
 - Windows Media Format SDK,about
-ms.topic: article
+ms.topic: get-started
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: Processing Data
 ms.assetid: 823615df-ce50-4e20-957a-f83d3be66658
 title: Processing Data
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 title: Example SHV
 description: The following example sets up a system health validator (SHV) on a NAP health policy server.
 ms.assetid: 2264c1d7-b1fb-4937-bf24-d6fa05bdc6fe
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -259,7 +259,7 @@ HRESULT CSampleShv::FillResponseSoH(HRESULT validationResult,
     //
     // SDK Note:
     //
-    // Append the manditory attribute: Compliance Result Codes. If SHV was not able to 
+    // Append the mandatory attribute: Compliance Result Codes. If SHV was not able to 
     // contact the external server (due to network failure, the is server down, etc...),
     // then the SHV should return the failure category attribute instead of the 
     // compliance result with FailureCategory = failureCategoryServerCommunication. 

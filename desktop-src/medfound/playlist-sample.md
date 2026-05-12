@@ -2,7 +2,7 @@
 description: Playlist Sample
 ms.assetid: ffe663ce-3e9a-4dfc-8904-6f055332c119
 title: Playlist Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 
@@ -54,7 +54,7 @@ This sample is available in the following locations.
 
 | Location                                                     | Path/URL                                                   |
 |--------------------------------------------------------------|------------------------------------------------------------|
-| [Windows SDK](https://www.microsoft.com/download/details.aspx?id=8279) | *SDK Root*\\Samples\\multimedia\\mediafoundation\\Playlist |
+| [Windows SDK](https://developer.microsoft.com/windows/downloads/sdk-archive/) | *SDK Root*\\Samples\\multimedia\\mediafoundation\\Playlist |
 
 
 

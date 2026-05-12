@@ -2,7 +2,7 @@
 description: This topic describes how to add a signature request to an XPS document.
 ms.assetid: 95eb1887-8754-43e0-8886-1f23653bff26
 title: Add a Signature Request to an XPS Document
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Registers - ds_5_0
 description: The following input and output registers are implemented in the domain shader version 5\_0.
 ms.assetid: 8AE00EC6-0BDC-4F63-B95C-FF434B98D7CE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

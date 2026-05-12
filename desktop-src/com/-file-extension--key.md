@@ -2,7 +2,7 @@
 title: file_extension Key
 description: Associates a file name extension with a ProgID.
 ms.assetid: 018998a8-c0da-43ea-bae2-3b184897eb9b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

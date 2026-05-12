@@ -51,22 +51,22 @@ To enumerate protocols and discover supported properties for each installed prot
 
 | Option                          | Windows Vista and later | Windows Server 2003 | Windows XP | Windows 2000 | Windows NT4 | Windows 9x/Me |
 |---------------------------------|-------------------------|---------------------|------------|--------------|-------------|---------------|
-| SO\_CONFIRM\_NAME               |                         | x                   | x          | x            | x           |               |
-| SO\_DEREGISTER\_NAME            |                         | x                   | x          | x            | x           |               |
-| SO\_GETLOCALZONES               |                         | x                   | x          | x            | x           |               |
-| SO\_GETMYZONE                   |                         | x                   | x          | x            | x           |               |
-| SO\_GETNETINFO                  |                         | x                   | x          | x            | x           |               |
-| SO\_GETZONELIST                 |                         | x                   | x          | x            | x           |               |
-| SO\_LOOKUP\_MYZONE              |                         | x                   | x          | x            | x           |               |
-| SO\_LOOKUP\_NAME                |                         | x                   | x          | x            | x           |               |
-| SO\_LOOKUP\_NETDEF\_ON\_ADAPTER |                         | x                   | x          | x            | x           |               |
-| SO\_LOOKUP\_ZONES               |                         | x                   | x          | x            | x           |               |
-| SO\_LOOKUP\_ZONES\_ON\_ADAPTER  |                         | x                   | x          | x            | x           |               |
-| SO\_PAP\_GET\_SERVER\_STATUS    |                         | x                   | x          | x            | x           |               |
-| SO\_PAP\_PRIME\_READ            |                         | x                   | x          | x            | x           |               |
-| SO\_PAP\_SET\_SERVER\_STATUS    |                         | x                   | x          | x            | x           |               |
-| SO\_REGISTER\_NAME              |                         | x                   | x          | x            | x           |               |
-| SO\_REMOVE\_NAME                |                         | x                   | x          | x            | x           |               |
+| SO\_CONFIRM\_NAME               |                          yes                     yes            yes              yes            |               |
+| SO\_DEREGISTER\_NAME            |                          yes                     yes            yes              yes            |               |
+| SO\_GETLOCALZONES               |                          yes                     yes            yes              yes            |               |
+| SO\_GETMYZONE                   |                          yes                     yes            yes              yes            |               |
+| SO\_GETNETINFO                  |                          yes                     yes            yes              yes            |               |
+| SO\_GETZONELIST                 |                          yes                     yes            yes              yes            |               |
+| SO\_LOOKUP\_MYZONE              |                          yes                     yes            yes              yes            |               |
+| SO\_LOOKUP\_NAME                |                          yes                     yes            yes              yes            |               |
+| SO\_LOOKUP\_NETDEF\_ON\_ADAPTER |                          yes                     yes            yes              yes            |               |
+| SO\_LOOKUP\_ZONES               |                          yes                     yes            yes              yes            |               |
+| SO\_LOOKUP\_ZONES\_ON\_ADAPTER  |                          yes                     yes            yes              yes            |               |
+| SO\_PAP\_GET\_SERVER\_STATUS    |                          yes                     yes            yes              yes            |               |
+| SO\_PAP\_PRIME\_READ            |                          yes                     yes            yes              yes            |               |
+| SO\_PAP\_SET\_SERVER\_STATUS    |                          yes                     yes            yes              yes            |               |
+| SO\_REGISTER\_NAME              |                          yes                     yes            yes              yes            |               |
+| SO\_REMOVE\_NAME                |                          yes                     yes            yes              yes            |               |
 
 
 

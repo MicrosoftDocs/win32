@@ -5,7 +5,7 @@ title: MSFT\_DNSClient class
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -158,7 +158,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Gets a value that indicates the ability of the DNS client to communicate with the underlying [**CIM\_ManagedElement**](../iscsitarg/cim-managedelement.md) object.
+Gets a value that indicates the ability of the DNS client to communicate with the underlying [**CIM\_ManagedElement**](/previous-versions/cc136871(v=vs.85)) object.
 
 This property is inherited from **CIM\_ManagedSystemElement**.
 
@@ -303,7 +303,7 @@ This property can contain the following values:
 | <dl> <dt>8</dt> </dl>           | Domain Name Server<br/> |
 | <dl> <dt>14</dt> </dl>          | Host Name<br/>          |
 | <dl> <dt>17</dt> </dl>          | Domain Name<br/>        |
-| <dl> <dt>18 32767</dt> </dl>    | DMTF Reserverd<br/>     |
+| <dl> <dt>18 32767</dt> </dl>    | DMTF Reserved<br/>     |
 | <dl> <dt>32768 65535</dt> </dl> | Vendor Reserved<br/>    |
 
 
@@ -1302,7 +1302,7 @@ Indicates whether to use the DNS suffix for the connection during DNS registrati
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                        |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                              |

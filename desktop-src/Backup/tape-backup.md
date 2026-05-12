@@ -5,7 +5,7 @@ ms.assetid: 2057e6e4-b674-4151-b3b6-bde5d87d10c1
 keywords:
 - backup Backup , tape
 - tape backup Backup
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

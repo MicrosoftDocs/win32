@@ -3,7 +3,7 @@ description: Power setting GUIDs identify power change events.
 ms.assetid: 39D432A7-54F8-4135-B98C-7290F95B054A
 title: Power Setting GUIDs (WinNT.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Power Setting GUIDs
@@ -71,7 +71,7 @@ This notification is sent only services and other programs running in session 0.
 
 **Windows 7, Windows Server 2008 R2, Windows Vista and Windows Server 2008:** This notification is available starting with Windows 8 and Windows Server 2012.
 
-The **Data** member is a **DWORD** with a value from the **USER_ACTIVITY_PRESENCE** enumeration:
+The **Data** member is a **DWORD** with a value from the **[USER_ACTIVITY_PRESENCE](/windows/win32/api/winnt/ne-winnt-user_activity_presence)** enumeration:
 
 **PowerUserPresent** (0) - The user is present in any local or remote session on the system.
 
@@ -213,7 +213,7 @@ The user status associated with the application's session has changed.
 
 This notification is sent only to user-mode applications running in an interactive session. Services and other programs running in session 0 should register for **GUID\_GLOBAL\_USER\_PRESENCE**.
 
-The **Data** member is a **DWORD** with a value from the **USER_ACTIVITY_PRESENCE** enumeration:
+The **Data** member is a **DWORD** with a value from the **[USER_ACTIVITY_PRESENCE](/windows/win32/api/winnt/ne-winnt-user_activity_presence)** enumeration:
 
 **PowerUserPresent** (0) - The user is providing input to the session.
 

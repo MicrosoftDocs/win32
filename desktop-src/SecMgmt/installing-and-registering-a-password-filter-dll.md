@@ -1,58 +1,47 @@
 ---
-description: The Windows password filter DLL, Passfilt.dll, runs in the security context of the local system account and helps you filter domain or local account passwords.
+description: The Windows password filter DLL, Passfilt.dll, runs in the security context of the local system account and helps you filter domain or local account passwords. Learn how to install and register a password filter DLL on a domain controller or local computer.
 ms.assetid: 12a6fe6d-5b37-4fcf-bd04-0a22d84ba323
 title: Installing and Registering a Password Filter DLL
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: install-set-up-deploy
+ms.date: 07/09/2025
+# customer intent: As a Windows developer, I want to learn how to install and register a password filter DLL so that I can enforce password policies for domain or local accounts.
 ---
 
-# Installing and Registering a Password Filter DLL
+# Installing and registering a password filter DLL
 
 You can use the Windows password filter to filter domain or local account passwords. To use the password filter for domain accounts, install and register the DLL on each domain controller in the domain.
 
+## Steps to install and register a password filter DLL
+
 Perform the following steps to install your password filter. You can perform these steps manually, or you can write an installer to perform these steps. You need to be an Administrator or belong to the Administrator Group to perform these steps.
 
-**To install and register a Windows password filter DLL**
+1. Copy the DLL to the Windows installation directory on the domain controller or local computer. On standard installations, the default folder is `\Windows\System32`. Make sure that you create a 32-bit password filter DLL for 32-bit computers and a 64-bit password filter DLL for 64-bit computers, and then copy them to the appropriate location.
+1. To register the password filter, update the following system registry key:
 
-1.  Copy the DLL to the Windows installation directory on the domain controller or local computer. On standard installations, the default folder is \\Windows\\System32. Make sure that you create a 32-bit password filter DLL for 32-bit computers and a 64-bit password filter DLL for 64-bit computers, and then copy them to the appropriate location.
-2.  To register the password filter, update the following system registry key:
+   ```
+   HKEY_LOCAL_MACHINE
+      SYSTEM
+         CurrentControlSet
+            Control
+               Lsa
+   ```
 
-    ```
-    HKEY_LOCAL_MACHINE
-       SYSTEM
-          CurrentControlSet
-             Control
-                Lsa
-    ```
+   If the **Notification Packages** value of type *REG_MULTI_SZ* exists, add the name of your DLL to the existing value data. Do not overwrite the existing values, and do not include the .dll extension.
 
-    If the **Notification Packages** value of type *REG_MULTI_SZ* exists, add the name of your DLL to the existing value data. Do not overwrite the existing values, and do not include the .dll extension.
+   If the **Notification Packages** value does not exist, create it, give it the *REG_MULTI_SZ* type and then specify the name of the DLL for the value data. Do not include the .dll extension.
 
-    If the **Notification Packages** value does not exist, create it, give it the *REG_MULTI_SZ* type and then specify the name of the DLL for the value data. Do not include the .dll extension.
+   The **Notification Packages** value can add multiple packages.
 
-    The **Notification Packages** value can add multiple packages.
+1. Find the password complexity setting.
 
-3.  Find the password complexity setting.
+   In Control Panel, click **Windows Tools**, double-click **Local Security Policy**, double-click **Account Policies**, and then double-click **Password Policy**. You can also search for **Local Security Policy** in the Start menu and open it with Administrative privileges.
 
-    In Control Panel, click **Performance and Maintenance**, click **Administrative Tools**, double-click **Local Security Policy**, double-click **Account Policies**, and then double-click **Password Policy**.
+1. To enforce both the default Windows password filter and the custom password filter, ensure that the **Passwords must meet complexity requirements** policy setting is enabled. Otherwise, disable the **Passwords must meet complexity requirements** policy setting.
 
-4.  To enforce both the default Windows password filter and the custom password filter, ensure that the **Passwords must meet complexity requirements** policy setting is enabled. Otherwise, disable the **Passwords must meet complexity requirements** policy setting.
-
-## Related topics
-
-<dl> <dt>
+## Related content
 
 [Password Filter Programming Considerations](password-filter-programming-considerations.md)
-</dt> <dt>
 
 [Strong Password Enforcement and Passfilt.dll](strong-password-enforcement-and-passfilt-dll.md)
-</dt> <dt>
 
 [Password Filter Functions](management-functions.md)
-</dt> </dl>
-
- 
-
- 
-
-
-

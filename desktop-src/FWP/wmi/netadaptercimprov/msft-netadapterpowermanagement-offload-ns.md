@@ -5,7 +5,7 @@ title: MSFT\_NetAdapterPowerManagement\_Offload\_NS class
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -110,7 +110,7 @@ Supplies an array of two IPv6 addresses. An NA message will be sent in response 
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                               |

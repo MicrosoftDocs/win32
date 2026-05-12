@@ -2,7 +2,7 @@
 title: Keyboard Handling for Controls
 description: A control responds to keyboard accelerators so the end-user can initiate actions performed by the control.
 ms.assetid: 59aca5cb-f109-49ee-897d-43610501f7f8
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: fad5e813-a2e9-40af-97a9-4f92debf1808
 keywords:
 - work items Task Scheduler , adding
 - tasks Task Scheduler , adding
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

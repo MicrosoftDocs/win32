@@ -2,8 +2,8 @@
 description: Command-line options for msiexec.exe for Windows Installer 3.0 and earlier. Provides a table showing options, parameters, and descriptions. Examples showing how to install products and other tasks.
 ms.assetid: a70d8cc8-af47-4472-aabc-97481d97080d
 title: Command-Line Options
-ms.topic: article
-ms.date: 09/10/2021
+ms.topic: reference
+ms.date: 07/18/2024
 ---
 
 # Command-Line Options
@@ -100,7 +100,7 @@ The length of <em>filename</em> must be no more than eight characters.
 </tr>
 <tr class="odd">
 <td><strong>/c</strong></td>
-
+<td></td>
 <td>Advertises a new instance of the product. Must be used in conjunction with /t. Available starting with the Windows Installer version that is shipped with Windows Server 2003 and Windows XP with Service Pack 1 (SP1).<br/></td>
 </tr>
 <tr class="even">
@@ -167,5 +167,8 @@ When you apply patches to a specific product, the /i and /p options cannot be sp
 
 The [**PATCH**](patch.md) property cannot be set in a command line, when /p option is used. If the **PATCH** property is set when the /p option is used, the value of **PATCH** property is ignored and overwritten.
 
+The following example shows you how to uninstall a product.
+
+**msiexec /x msisample.msi**
  
 

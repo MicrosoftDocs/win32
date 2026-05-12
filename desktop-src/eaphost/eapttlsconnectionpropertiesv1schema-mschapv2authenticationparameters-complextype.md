@@ -2,7 +2,7 @@
 title: MSCHAPv2AuthenticationParameters Complex Type
 description: Learn about the MSCHAPv2AuthenticationParameters complex type. This optional type specifies additional authentication parameters for EAP-TTLS.
 ms.assetid: efa72c9d-8f46-4253-8528-18b9fda0d7dd
-ms.topic: article
+ms.topic: reference
 ms.date: 07/10/2023
 ---
 

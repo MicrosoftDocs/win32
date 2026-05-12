@@ -2,8 +2,8 @@
 title: TreeMightBeCyclic
 description: TreeMightBeCyclic
 ms.assetid: 9A997949-A1A2-448C-9739-BE176621F1B4
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # TreeMightBeCyclic
@@ -28,14 +28,6 @@ Multiple elements, or their parents, are custom controls that do not implement t
 
 ## Related topics
 
-<dl> <dt>
+[Keyboard](../uxguide/inter-keyboard.md)
 
 [Guidelines for Keyboard User Interface Design](/previous-versions/windows/desktop/dnacc/guidelines-for-keyboard-user-interface-design)
-</dt> <dt>
-
-[Windows User Experience Interaction Guidelines - Keyboard](/#guidelines)
-</dt> </dl>
-
- 
-
- 

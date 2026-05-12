@@ -4,8 +4,8 @@ description: Extensions are monitored by System Restore in Windows Vista and la
 ms.assetid: 19e509fa-58b2-48bb-ac23-269818482e6f
 keywords:
 - System Restore,reference,monitored file name extensions
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 01/27/2026
 ---
 
 # Monitored File Name Extensions
@@ -13,11 +13,16 @@ ms.date: 05/31/2018
 The following is a list of monitored file name extensions. Files with these extensions are monitored by System Restore in Windows Vista and later. The files that are monitored or excluded from monitoring in Windows XP are specified in the file %windir%\\system32\\restore\\Filelist.xml. The file Filelist.xml does not exist in Windows Vista and later.
 
 
+> [!NOTE]
+> This list is not exhaustive and may change without notice.
+
+
 
 <table>
 <tbody>
-<tr class="odd">
-<td><dl> ~~C<br />
+<tr class="even">
+<td><dl>
+~~C<br />
 ~~D<br />
 12A<br />
 1PA<br />
@@ -600,14 +605,62 @@ ZRW<br />
 </tbody>
 </table>
 
+## Extensions added in Windows 10 and later versions.
 
 
+<table>
+<tbody>
+<tr class="odd">
+<td><dl>
+2GR<br />
+2Q0<br />
+2QM<br />
+3GR<br />
+ADMX<br />
+API<br />
+APPLICATION<br />
+APPREF-MS<br />
+</dl></td>
+<td><dl>
+CDF-MS<br />
+CONFIG<br />
+DOM<br />
+ETL<br />
+EVTX<br />
+GDL<br />
+GMMP<br />
+HKF<br />
+</dl></td>
+<td><dl>
+HPC<br />
+IEC<br />
+IME<br />
+JS<br />
+JSE<br />
+LOCAL<br />
+LOG<br />
+MUI<br />
+</dl></td>
+<td><dl>
+MUM<br />
+NLP<br />
+POLICY<br />
+RBF<br />
+RLL<br />
+SDB<br />
+SHD<br />
+SPL<br />
+</dl></td>
+<td><dl>
+TARGETS<br />
+TMP<br />
+UNINSTALL<br />
+VBE<br />
+WSF<br />
+WSH<br />
+XRM-MS<br />
+</dl></td>
+</tr>
+</tbody>
+</table>
  
-
- 
-
- 
-
-
-
-

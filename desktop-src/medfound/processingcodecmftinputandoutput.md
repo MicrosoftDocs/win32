@@ -2,7 +2,7 @@
 description: Processing Codec MFT Input and Output
 ms.assetid: 2d012508-de13-411f-9102-22e47faddffd
 title: Processing Codec MFT Input and Output
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

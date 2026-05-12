@@ -5,7 +5,7 @@ ms.assetid: 2c6fef91-990e-4954-9aff-c9ec72d13972
 ms.tgt_platform: multiple
 keywords:
 - Reading a Control Access Right Set in an Object's ACL Active Directory
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

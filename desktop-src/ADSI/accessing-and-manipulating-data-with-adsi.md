@@ -5,7 +5,7 @@ ms.assetid: 366a1fbc-3089-406a-9819-cf2ba7636c5f
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI , accessing and manipulating data
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

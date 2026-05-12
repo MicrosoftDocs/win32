@@ -2,7 +2,7 @@
 description: The Auto Claims sample addresses a hypothetical scenario for an insurance assessor.
 ms.assetid: bec4333a-62ca-4254-a39b-04bc2c556992
 title: Auto Claims Form Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 
@@ -231,7 +231,7 @@ Private Sub chHideLayer_CheckedChanged(ByVal sender As System.Object, ByVal e As
             ' If ink collection is enabled, the active ink cannot be changed
             ' and it is necessary to restore the checkbox to its previous value.
             chHideLayer.Checked = selectedHidden
-            MessageBox.Show("Cannot change visiblity while collecting ink.")
+            MessageBox.Show("Cannot change visibility while collecting ink.")
        End If
    End If
 End Sub

@@ -3,7 +3,7 @@ title: WinRM Service Plug-in Configuration
 description: A Windows Remote Management (WinRM) plug-in must be registered in the WinRM catalog to enable the infrastructure to dynamically determine the set of available plug-ins and the resource URIs that they support.
 ms.assetid: d71cd244-3f10-40e3-a756-36cdf41b9cad
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

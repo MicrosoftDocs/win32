@@ -2,7 +2,7 @@
 title: IAgentCommandsEx SetHelpContextID
 description: IAgentCommandsEx SetHelpContextID
 ms.assetid: b49d8184-f8dd-4359-9d45-3f038af18da5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

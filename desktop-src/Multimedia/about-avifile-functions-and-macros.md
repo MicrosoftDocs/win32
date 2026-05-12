@@ -5,7 +5,7 @@ ms.assetid: 877f6759-8271-47eb-8a7f-540393e5ae89
 keywords:
 - AVIFileInit function
 - AVIFileExit function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

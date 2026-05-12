@@ -2,7 +2,7 @@
 description: The design of SSPI enables additional SSPs to be written and added to the system.
 ms.assetid: 0d462340-e485-4746-b627-d823752462d9
 title: Writing and Installing a Security Support Provider
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Use SasHostParameterValue Collection to define the collection of host application values, as well as their type and members, exposed to effects.
 ms.assetid: 3fef353d-323a-4cc1-a8c9-2bf154754835
 title: Data Binding
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -154,7 +154,7 @@ float3 LightColors[6]
 
 
 
-The asterisk index token denotes that all elements of the particular host envirnmant value array (color in this case) should be bound in the associated parameter. Multiple asterisk index tokens allow effects to bind to sub-elements of an array of structures without the need to bind the entire structure itself. This example binds the color values of the first six lights to an effect parameter.
+The asterisk index token denotes that all elements of the particular host environment value array (color in this case) should be bound in the associated parameter. Multiple asterisk index tokens allow effects to bind to sub-elements of an array of structures without the need to bind the entire structure itself. This example binds the color values of the first six lights to an effect parameter.
 
 ## Related topics
 

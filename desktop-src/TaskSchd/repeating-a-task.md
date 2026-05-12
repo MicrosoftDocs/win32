@@ -4,7 +4,7 @@ description: Task Scheduler can run a task any number of times after a trigger i
 ms.assetid: 69c60713-134c-4602-9e7b-cc3eea871068
 keywords:
 - repetition pattern Task Scheduler
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

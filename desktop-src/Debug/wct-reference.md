@@ -2,8 +2,8 @@
 description: "Learn more about: WCT Reference"
 ms.assetid: 479ca55a-d570-44bc-9f52-88432804df6f
 title: WCT Reference
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # WCT Reference

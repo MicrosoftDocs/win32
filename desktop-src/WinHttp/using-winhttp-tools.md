@@ -2,7 +2,7 @@
 title: Using WinHTTP tools
 description: For the commands you can use in Windows Vista and later to configure proxy and tracing settings for Windows HTTP, see Netsh.exe commands.
 ms.assetid: 81f6b25e-ea14-4dbd-a715-926db7cf90e7
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

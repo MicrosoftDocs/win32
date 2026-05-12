@@ -3,7 +3,7 @@ title: Writing Data by Using a DVC Channel
 description: Writing channel data by using a dynamic virtual channel (DVC) is symmetric for both the Remote Desktop Session Host (RD Session Host) server and the client.
 ms.assetid: 33bacbf0-c558-497a-a08a-95eb398fad97
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: For uniformity, each instance of the TRAP-TYPE macro is first mappe
 ms.assetid: ed3536b8-5846-4207-aa9d-6814b1f4a35f
 ms.tgt_platform: multiple
 title: TRAP-TYPE Macro
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

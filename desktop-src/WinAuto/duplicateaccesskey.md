@@ -2,8 +2,8 @@
 title: DuplicateAccessKey
 description: DuplicateAccessKey
 ms.assetid: D2F94C6D-65D6-4A73-9421-43C22BAFA085
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # DuplicateAccessKey

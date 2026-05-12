@@ -7,7 +7,7 @@ keywords:
 - Advanced Systems Format (ASF),copying data
 - ASF (Advanced Systems Format),copying data
 - streams,copying data
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: Indicates the horizontal portion of the pixel aspect ratio. The Y portion of XX:YY. For example, 11 is the Y portion of 10:11 .
 ms.assetid: b463b51e-3e00-4f80-a7b9-f5ff5432b7ef
 title: System.Video.VerticalAspectRatio
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

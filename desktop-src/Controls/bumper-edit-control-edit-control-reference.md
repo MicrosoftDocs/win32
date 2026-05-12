@@ -2,7 +2,7 @@
 title: Edit Control Reference
 description: Edit Control Reference
 ms.assetid: 80e362e7-df31-4a87-ac4d-80d24bd95db0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

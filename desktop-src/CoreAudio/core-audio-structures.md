@@ -2,7 +2,7 @@
 description: Core Audio Structures
 ms.assetid: 92585cd4-baa9-4f75-816e-b83f5badad37
 title: Core Audio Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

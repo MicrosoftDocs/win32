@@ -2,7 +2,7 @@
 description: Working with Effects and Transitions
 ms.assetid: 00e97d02-ff43-4e1f-9806-abaeb9288058
 title: Working with Effects and Transitions
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

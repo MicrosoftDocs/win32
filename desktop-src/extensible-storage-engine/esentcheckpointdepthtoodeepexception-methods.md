@@ -6,7 +6,7 @@ ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCheckpointDepthTooDeepEx
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentcheckpointdepthtoodeepexception_methods(v=EXCHG.10)
 ms:contentKeyID: 55101253
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # EsentCheckpointDepthTooDeepException methods

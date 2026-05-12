@@ -2,7 +2,7 @@
 description: Learn about rendering an effect for Direct3D 10. An effect can be used to store information, or to render using a group of state.
 ms.assetid: c5654335-ad80-4a5b-bf1f-5f32b2cc8ea2
 title: Rendering an Effect (Direct3D 10)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

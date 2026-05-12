@@ -2,7 +2,7 @@
 description: This section contains reference information for the Microsoft Direct3D 12 video API structures.
 ms.assetid: 
 title: Direct3D 12 Video Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 06/03/2019
 ---
 
@@ -85,7 +85,7 @@ This section contains reference information for the Microsoft Direct3D 12 video
 | [D3D12_VIDEO_ENCODER_PICTURE_CONTROL_CODEC_DATA](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_encoder_picture_control_codec_data)  | Represents the picture level control elements for the associated EncodeFrame command for multiple codecs.|
 | [D3D12_VIDEO_ENCODER_PICTURE_CONTROL_CODEC_DATA_H264](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_encoder_picture_control_codec_data_h264)  | Represents the picture level control elements for the associated EncodeFrame command for H.264 encoding.|
 | [D3D12_VIDEO_ENCODER_PICTURE_CONTROL_CODEC_DATA_H264_REFERENCE_PICTURE_LIST_MODIFICATION_OPERATION](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_encoder_picture_control_codec_data_h264_reference_picture_list_modification_operation)  | Represents a picture list modification operation for H264 video encoding.|
-| [D3D12_VIDEO_ENCODER_PICTURE_CONTROL_CODEC_DATA_H264_REFERENCE_PICTURE_MARKING_OPERATION](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_encoder_picture_control_codec_data_h264_reference_picture_marking_operation)  | Describes changes in the reference pictures as memory operations as a tuple of an operation identificator and associated parameters needed for the operation.|
+| [D3D12_VIDEO_ENCODER_PICTURE_CONTROL_CODEC_DATA_H264_REFERENCE_PICTURE_MARKING_OPERATION](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_encoder_picture_control_codec_data_h264_reference_picture_marking_operation)  | Describes changes in the reference pictures as memory operations as a tuple of an operation identifier and associated parameters needed for the operation.|
 | [D3D12_VIDEO_ENCODER_PICTURE_CONTROL_CODEC_DATA_HEVC](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_encoder_picture_control_codec_data_hevc)  | Represents the picture level control elements for the associated EncodeFrame command for HEVC encoding.|
 | [D3D12_VIDEO_ENCODER_PICTURE_CONTROL_DESC](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_encoder_picture_control_desc)  | 06/30/2021|
 | [D3D12_VIDEO_ENCODER_PICTURE_CONTROL_SUBREGIONS_LAYOUT_DATA](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_encoder_picture_control_subregions_layout_data)  | Defines picture control subregions as slices for multiple codecs.|

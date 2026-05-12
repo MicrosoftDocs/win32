@@ -2,7 +2,7 @@
 description: DirectShow Base Class Reference
 ms.assetid: 56f3685f-3df8-4358-b04e-3efc04b58008
 title: DirectShow Base Class Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---
@@ -50,7 +50,7 @@ This section contains reference entries for all the Microsoft [DirectShow Base C
 | [**CDeferredCommand**](cdeferredcommand.md)                           | Implements the [**IDeferredCommand**](/windows/desktop/api/Control/nn-control-ideferredcommand) interface.                                                            |
 | [**CDispParams**](cdispparams.md)                                     | Wrapper class for the DISPPARAMS structure.                                                                                       |
 | [**CDrawImage**](cdrawimage.md)                                       | Helper class for drawing to a window.                                                                                             |
-| [**CDynamicOutputPin**](cdynamicoutputpin.md)                         | Output pin that supports dyanamic reconnections and format changes.                                                               |
+| [**CDynamicOutputPin**](cdynamicoutputpin.md)                         | Output pin that supports dynamic reconnections and format changes.                                                               |
 | [**CEnumMediaTypes**](cenummediatypes.md)                             | Enumerator for preferred media types.                                                                                             |
 | [**CEnumPins**](cenumpins.md)                                         | Enumerator for pins.                                                                                                              |
 | [**CFactoryTemplate**](cfactorytemplate.md)                           | Class that provides information for a class factory.                                                                              |

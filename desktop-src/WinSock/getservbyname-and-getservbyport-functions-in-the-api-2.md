@@ -2,7 +2,7 @@
 description: The getservbyname and getservbyport functions use the WSALookupServiceBegin function to query SVCID\_INET\_SERVICEBYNAME as the service class GUID.
 ms.assetid: 6d4eb1d4-1498-4367-886b-6b08e87bc4a0
 title: getservbyname and getservbyport Functions in the API
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -52,17 +52,21 @@
         href: directory-management-functions.md
         items: 
         - name: "CreateDirectory"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-createdirectorya
+          href: /windows/win32/api/FileAPI/nf-fileapi-createdirectorya
+        - name: "CreateDirectory2A"
+          href: /windows/win32/api/FileAPI/nf-fileapi-createdirectory2a
+        - name: "CreateDirectory2W"
+          href: /windows/win32/api/FileAPI/nf-fileapi-createdirectory2w
         - name: "CreateDirectoryEx"
           href: /windows/desktop/api/WinBase/nf-winbase-createdirectoryexa
         - name: "CreateDirectoryTransacted"
           href: /windows/desktop/api/WinBase/nf-winbase-createdirectorytransacteda
         - name: "FindCloseChangeNotification"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-findclosechangenotification
+          href: /windows/win32/api/FileAPI/nf-fileapi-findclosechangenotification
         - name: "FindFirstChangeNotification"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-findfirstchangenotificationa
+          href: /windows/win32/api/FileAPI/nf-fileapi-findfirstchangenotificationa
         - name: "FindNextChangeNotification"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-findnextchangenotification
+          href: /windows/win32/api/FileAPI/nf-fileapi-findnextchangenotification
         - name: "GetCurrentDirectory"
           href: /windows/desktop/api/WinBase/nf-winbase-getcurrentdirectory
         - name: "ReadDirectoryChangesExW"
@@ -70,7 +74,11 @@
         - name: "ReadDirectoryChangesW"
           href: /windows/desktop/api/WinBase/nf-winbase-readdirectorychangesw
         - name: "RemoveDirectory"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-removedirectorya
+          href: /windows/win32/api/FileAPI/nf-fileapi-removedirectorya
+        - name: "RemoveDirectory2A"
+          href: /windows/win32/api/FileAPI/nf-fileapi-removedirectory2a
+        - name: "RemoveDirectory2W"
+          href: /windows/win32/api/FileAPI/nf-fileapi-removedirectory2w
         - name: "RemoveDirectoryTransacted"
           href: /windows/desktop/api/WinBase/nf-winbase-removedirectorytransacteda
         - name: "SetCurrentDirectory"
@@ -231,9 +239,9 @@
         href: disk-management-functions.md
         items: 
         - name: "GetDiskFreeSpace"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-getdiskfreespacea
+          href: /windows/win32/api/FileAPI/nf-fileapi-getdiskfreespacea
         - name: "GetDiskFreeSpaceEx"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-getdiskfreespaceexa
+          href: /windows/win32/api/FileAPI/nf-fileapi-getdiskfreespaceexa
       - name: "Disk Management Interfaces"
         href: disk-management-interfaces.md
         items: 
@@ -795,7 +803,7 @@
         - name: "AddUsersToEncryptedFile"
           href: /windows/desktop/api/Winefs/nf-winefs-adduserstoencryptedfile
         - name: "AreFileApisANSI"
-          href: /windows/desktop/api/fileapi/nf-fileapi-arefileapisansi
+          href: /windows/win32/api/FileAPI/nf-fileapi-arefileapisansi
         - name: "CancelIo"
           href: cancelio.md
         - name: "CancelIoEx"
@@ -819,9 +827,11 @@
         - name: "CopyProgressRoutine"
           href: /windows/desktop/api/WinBase/nc-winbase-lpprogress_routine
         - name: "CreateFile"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-createfilea
+          href: /windows/win32/api/FileAPI/nf-fileapi-createfilea
         - name: "CreateFile2"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-createfile2
+          href: /windows/win32/api/FileAPI/nf-fileapi-createfile2
+        - name: "CreateFile3"
+          href: /windows/win32/api/FileAPI/nf-fileapi-createfile3
         - name: "CreateFileTransacted"
           href: /windows/desktop/api/WinBase/nf-winbase-createfiletransacteda
         - name: "CreateHardLink"
@@ -837,7 +847,11 @@
         - name: "DecryptFile"
           href: /windows/desktop/api/WinBase/nf-winbase-decryptfilea
         - name: "DeleteFile"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-deletefilea
+          href: /windows/win32/api/FileAPI/nf-fileapi-deletefilea
+        - name: "DeleteFile2A"
+          href: /windows/win32/api/FileAPI/nf-fileapi-deletefile2a
+        - name: "DeleteFile2W"
+          href: /windows/win32/api/FileAPI/nf-fileapi-deletefile2w
         - name: "DeleteFileTransacted"
           href: /windows/desktop/api/WinBase/nf-winbase-deletefiletransacteda
         - name: "DuplicateEncryptionInfoFile"
@@ -853,65 +867,65 @@
         - name: "FileIOCompletionRoutine"
           href: /windows/desktop/api/minwinbase/nc-minwinbase-lpoverlapped_completion_routine
         - name: "FindClose"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-findclose
+          href: /windows/win32/api/FileAPI/nf-fileapi-findclose
         - name: "FindFirstFile"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-findfirstfilea
+          href: /windows/win32/api/FileAPI/nf-fileapi-findfirstfilea
         - name: "FindFirstFileEx"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-findfirstfileexa
+          href: /windows/win32/api/FileAPI/nf-fileapi-findfirstfileexa
         - name: "FindFirstFileNameTransactedW"
           href: /windows/desktop/api/WinBase/nf-winbase-findfirstfilenametransactedw
         - name: "FindFirstFileNameW"
-          href: /windows/desktop/api/fileapi/nf-fileapi-findfirstfilenamew
+          href: /windows/win32/api/FileAPI/nf-fileapi-findfirstfilenamew
         - name: "FindFirstFileTransacted"
           href: /windows/desktop/api/WinBase/nf-winbase-findfirstfiletransacteda
         - name: "FindFirstStreamTransactedW"
           href: /windows/desktop/api/WinBase/nf-winbase-findfirststreamtransactedw
         - name: "FindFirstStreamW"
-          href: /windows/desktop/api/fileapi/nf-fileapi-findfirststreamw
+          href: /windows/win32/api/FileAPI/nf-fileapi-findfirststreamw
         - name: "FindNextFile"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-findnextfilea
+          href: /windows/win32/api/FileAPI/nf-fileapi-findnextfilea
         - name: "FindNextFileNameW"
-          href: /windows/desktop/api/fileapi/nf-fileapi-findnextfilenamew
+          href: /windows/win32/api/FileAPI/nf-fileapi-findnextfilenamew
         - name: "FindNextStreamW"
-          href: /windows/desktop/api/fileapi/nf-fileapi-findnextstreamw
+          href: /windows/win32/api/FileAPI/nf-fileapi-findnextstreamw
         - name: "FlushFileBuffers"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-flushfilebuffers
+          href: /windows/win32/api/FileAPI/nf-fileapi-flushfilebuffers
         - name: "FreeEncryptionCertificateHashList"
           href: /windows/desktop/api/Winefs/nf-winefs-freeencryptioncertificatehashlist
         - name: "GetBinaryType"
           href: /windows/desktop/api/WinBase/nf-winbase-getbinarytypea
         - name: "GetCompressedFileSize"
-          href: /windows/desktop/api/fileapi/nf-fileapi-getcompressedfilesizea
+          href: /windows/win32/api/FileAPI/nf-fileapi-getcompressedfilesizea
         - name: "GetCompressedFileSizeTransacted"
           href: /windows/desktop/api/WinBase/nf-winbase-getcompressedfilesizetransacteda
         - name: "GetExpandedName"
           href: /windows/desktop/api/LzExpand/nf-lzexpand-getexpandednamea
         - name: "GetFileAttributes"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-getfileattributesa
+          href: /windows/win32/api/FileAPI/nf-fileapi-getfileattributesa
         - name: "GetFileAttributesEx"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-getfileattributesexa
+          href: /windows/win32/api/FileAPI/nf-fileapi-getfileattributesexa
         - name: "GetFileAttributesTransacted"
           href: /windows/desktop/api/WinBase/nf-winbase-getfileattributestransacteda
         - name: "GetFileBandwidthReservation"
           href: /windows/desktop/api/WinBase/nf-winbase-getfilebandwidthreservation
         - name: "GetFileInformationByHandle"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-getfileinformationbyhandle
+          href: /windows/win32/api/FileAPI/nf-fileapi-getfileinformationbyhandle
         - name: "GetFileInformationByHandleEx"
           href: /windows/desktop/api/WinBase/nf-winbase-getfileinformationbyhandleex
         - name: "GetFileSize"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-getfilesize
+          href: /windows/win32/api/FileAPI/nf-fileapi-getfilesize
         - name: "GetFileSizeEx"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-getfilesizeex
+          href: /windows/win32/api/FileAPI/nf-fileapi-getfilesizeex
         - name: "GetFileType"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-getfiletype
+          href: /windows/win32/api/FileAPI/nf-fileapi-getfiletype
         - name: "GetFinalPathNameByHandle"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-getfinalpathnamebyhandlea
+          href: /windows/win32/api/FileAPI/nf-fileapi-getfinalpathnamebyhandlea
         - name: "GetFullPathName"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-getfullpathnamea
+          href: /windows/win32/api/FileAPI/nf-fileapi-getfullpathnamea
         - name: "GetFullPathNameTransacted"
           href: /windows/desktop/api/WinBase/nf-winbase-getfullpathnametransacteda
         - name: "GetLongPathName"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-getlongpathnamea
+          href: /windows/win32/api/FileAPI/nf-fileapi-getlongpathnamea
         - name: "GetLongPathNameTransacted"
           href: /windows/desktop/api/WinBase/nf-winbase-getlongpathnametransacteda
         - name: "GetQueuedCompletionStatus"
@@ -919,17 +933,17 @@
         - name: "GetQueuedCompletionStatusEx"
           href: getqueuedcompletionstatusex-func.md
         - name: "GetShortPathName"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-getshortpathnamew
+          href: /windows/win32/api/FileAPI/nf-fileapi-getshortpathnamew
         - name: "GetTempFileName"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-gettempfilenamea
+          href: /windows/win32/api/FileAPI/nf-fileapi-gettempfilenamea
         - name: "GetTempPath"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-gettemppatha
+          href: /windows/win32/api/FileAPI/nf-fileapi-gettemppatha
         - name: "ImportCallback"
           href: /windows/desktop/api/WinBase/nc-winbase-pfe_import_func
         - name: "LockFile"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-lockfile
+          href: /windows/win32/api/FileAPI/nf-fileapi-lockfile
         - name: "LockFileEx"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-lockfileex
+          href: /windows/win32/api/FileAPI/nf-fileapi-lockfileex
         - name: "LZClose"
           href: /windows/desktop/api/LzExpand/nf-lzexpand-lzclose
         - name: "LZCopy"
@@ -965,11 +979,11 @@
         - name: "ReadEncryptedFileRaw"
           href: /windows/desktop/api/WinBase/nf-winbase-readencryptedfileraw
         - name: "ReadFile"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-readfile
+          href: /windows/win32/api/FileAPI/nf-fileapi-readfile
         - name: "ReadFileEx"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-readfileex
+          href: /windows/win32/api/FileAPI/nf-fileapi-readfileex
         - name: "ReadFileScatter"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-readfilescatter
+          href: /windows/win32/api/FileAPI/nf-fileapi-readfilescatter
         - name: "RemoveUsersFromEncryptedFile"
           href: /windows/desktop/api/Winefs/nf-winefs-removeusersfromencryptedfile
         - name: "ReOpenFile"
@@ -979,13 +993,13 @@
         - name: "SearchPath"
           href: /windows/desktop/api/processenv/nf-processenv-searchpathw
         - name: "SetEndOfFile"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-setendoffile
+          href: /windows/win32/api/FileAPI/nf-fileapi-setendoffile
         - name: "SetFileApisToANSI"
-          href: /windows/desktop/api/fileapi/nf-fileapi-setfileapistoansi
+          href: /windows/win32/api/FileAPI/nf-fileapi-setfileapistoansi
         - name: "SetFileApisToOEM"
-          href: /windows/desktop/api/fileapi/nf-fileapi-setfileapistooem
+          href: /windows/win32/api/FileAPI/nf-fileapi-setfileapistooem
         - name: "SetFileAttributes"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-setfileattributesa
+          href: /windows/win32/api/FileAPI/nf-fileapi-setfileattributesa
         - name: "SetFileAttributesTransacted"
           href: /windows/desktop/api/WinBase/nf-winbase-setfileattributestransacteda
         - name: "SetFileBandwidthReservation"
@@ -993,25 +1007,25 @@
         - name: "SetFileCompletionNotificationModes"
           href: /windows/desktop/api/WinBase/nf-winbase-setfilecompletionnotificationmodes
         - name: "SetFileInformationByHandle"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-setfileinformationbyhandle
+          href: /windows/win32/api/FileAPI/nf-fileapi-setfileinformationbyhandle
         - name: "SetFileIoOverlappedRange"
-          href: /windows/desktop/api/fileapi/nf-fileapi-setfileiooverlappedrange
+          href: /windows/win32/api/FileAPI/nf-fileapi-setfileiooverlappedrange
         - name: "SetFilePointer"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-setfilepointer
+          href: /windows/win32/api/FileAPI/nf-fileapi-setfilepointer
         - name: "SetFilePointerEx"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-setfilepointerex
+          href: /windows/win32/api/FileAPI/nf-fileapi-setfilepointerex
         - name: "SetFileShortName"
           href: /windows/desktop/api/WinBase/nf-winbase-setfileshortnamea
         - name: "SetFileValidData"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-setfilevaliddata
+          href: /windows/win32/api/FileAPI/nf-fileapi-setfilevaliddata
         - name: "SetSearchPathMode"
           href: /windows/desktop/api/WinBase/nf-winbase-setsearchpathmode
         - name: "SetUserFileEncryptionKey"
           href: /windows/desktop/api/Winefs/nf-winefs-setuserfileencryptionkey
         - name: "UnlockFile"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-unlockfile
+          href: /windows/win32/api/FileAPI/nf-fileapi-unlockfile
         - name: "UnlockFileEx"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-unlockfileex
+          href: /windows/win32/api/FileAPI/nf-fileapi-unlockfileex
         - name: "WofEnumEntries"
           href: /windows/desktop/api/wofapi/nf-wofapi-wofenumentries
         - name: "WofEnumEntryProc"
@@ -1047,11 +1061,11 @@
         - name: "WriteEncryptedFileRaw"
           href: /windows/desktop/api/WinBase/nf-winbase-writeencryptedfileraw
         - name: "WriteFile"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-writefile
+          href: /windows/win32/api/FileAPI/nf-fileapi-writefile
         - name: "WriteFileEx"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-writefileex
+          href: /windows/win32/api/FileAPI/nf-fileapi-writefileex
         - name: "WriteFileGather"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-writefilegather
+          href: /windows/win32/api/FileAPI/nf-fileapi-writefilegather
       - name: "File Management Structures"
         href: file-management-structures.md
         items: 
@@ -1063,6 +1077,8 @@
           href: /windows/desktop/api/WinBase/ns-winbase-copyfile2_message
         - name: "CREATEFILE2_EXTENDED_PARAMETERS"
           href: /windows/win32/api/FileAPI/ns-fileapi-createfile2_extended_parameters
+        - name: "LPCREATEFILE3_EXTENDED_PARAMETERS"
+          href: /windows/win32/api/FileAPI/ns-fileapi-createfile3_extended_parameters
         - name: "CSV_CONTROL_PARAM"
           href: /windows/win32/api/WinIoCtl/ns-winioctl-csv_control_param
         - name: "CSV_QUERY_FILE_REVISION"
@@ -1444,39 +1460,39 @@
         href: volume-management-functions.md
         items: 
         - name: "DefineDosDevice"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-definedosdevicew
+          href: /windows/win32/api/FileAPI/nf-fileapi-definedosdevicew
         - name: "DeleteVolumeMountPoint"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-deletevolumemountpointw
+          href: /windows/win32/api/FileAPI/nf-fileapi-deletevolumemountpointw
         - name: "FindFirstVolume"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-findfirstvolumew
+          href: /windows/win32/api/FileAPI/nf-fileapi-findfirstvolumew
         - name: "FindFirstVolumeMountPoint"
           href: /windows/desktop/api/WinBase/nf-winbase-findfirstvolumemountpointa
         - name: "FindNextVolume"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-findnextvolumew
+          href: /windows/win32/api/FileAPI/nf-fileapi-findnextvolumew
         - name: "FindNextVolumeMountPoint"
           href: /windows/desktop/api/WinBase/nf-winbase-findnextvolumemountpointa
         - name: "FindVolumeClose"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-findvolumeclose
+          href: /windows/win32/api/FileAPI/nf-fileapi-findvolumeclose
         - name: "FindVolumeMountPointClose"
           href: /windows/desktop/api/WinBase/nf-winbase-findvolumemountpointclose
         - name: "GetDriveType"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-getdrivetypea
+          href: /windows/win32/api/FileAPI/nf-fileapi-getdrivetypea
         - name: "GetLogicalDrives"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-getlogicaldrives
+          href: /windows/win32/api/FileAPI/nf-fileapi-getlogicaldrives
         - name: "GetLogicalDriveStrings"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-getlogicaldrivestringsw
+          href: /windows/win32/api/FileAPI/nf-fileapi-getlogicaldrivestringsw
         - name: "GetVolumeInformation"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa
+          href: /windows/win32/api/FileAPI/nf-fileapi-getvolumeinformationa
         - name: "GetVolumeInformationByHandleW"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationbyhandlew
+          href: /windows/win32/api/FileAPI/nf-fileapi-getvolumeinformationbyhandlew
         - name: "GetVolumeNameForVolumeMountPoint"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-getvolumenameforvolumemountpointw
+          href: /windows/win32/api/FileAPI/nf-fileapi-getvolumenameforvolumemountpointw
         - name: "GetVolumePathName"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-getvolumepathnamew
+          href: /windows/win32/api/FileAPI/nf-fileapi-getvolumepathnamew
         - name: "GetVolumePathNamesForVolumeName"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-getvolumepathnamesforvolumenamew
+          href: /windows/win32/api/FileAPI/nf-fileapi-getvolumepathnamesforvolumenamew
         - name: "QueryDosDevice"
-          href: /windows/desktop/api/FileAPI/nf-fileapi-querydosdevicew
+          href: /windows/win32/api/FileAPI/nf-fileapi-querydosdevicew
         - name: "SetVolumeLabel"
           href: /windows/desktop/api/WinBase/nf-winbase-setvolumelabela
         - name: "SetVolumeMountPoint"

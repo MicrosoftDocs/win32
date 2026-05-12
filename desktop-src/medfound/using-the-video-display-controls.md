@@ -2,7 +2,7 @@
 description: Using the Video Display Controls
 ms.assetid: 09501d67-effb-41ce-a7b7-d2415acdf3ac
 title: Using the Video Display Controls
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

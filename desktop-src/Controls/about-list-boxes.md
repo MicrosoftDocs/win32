@@ -2,7 +2,7 @@
 title: About List Boxes
 description: This section describes list box features.
 ms.assetid: 359bb363-5b97-4e0c-bdc4-bfa6a6504a76
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -70,7 +70,7 @@ The following example shows the proper usage of this method for JScript embedded
 
 ...
 
-<object id=FileList classid="clsid:1820FED0-473E-11D0-A96C-00C04FD705A2" tabIndex=1>
+<object id=FileList classid="clsid:aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb" tabIndex=1>
 </body>
 </html>
 ```
@@ -92,4 +92,3 @@ The following example shows the proper usage of this method for JScript embedded
 
 
  
-

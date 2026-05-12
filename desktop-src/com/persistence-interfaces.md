@@ -2,7 +2,7 @@
 title: Persistence Interfaces
 description: Persistence Interfaces
 ms.assetid: a93582b3-bdbf-430d-b4a6-c0df7bc35dc0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

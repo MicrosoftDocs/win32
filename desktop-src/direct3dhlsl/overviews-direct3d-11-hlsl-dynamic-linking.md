@@ -2,7 +2,7 @@
 title: Dynamic Linking
 description: Graphics developers sometimes create large, general-purpose shaders that can be used by a wide variety of scene items.
 ms.assetid: 2f5f7852-0f0a-4fad-a412-9a0d634c73b6
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

@@ -45,7 +45,3 @@ Creates a paint object which can be used to set the 'fill' or 'stroke' propertie
 
 [**ID2D1SvgDocument**](/windows/win32/api/d2d1svg/nn-d2d1svg-id2d1svgdocument)
 </dt> </dl>
-
-�
-
-�

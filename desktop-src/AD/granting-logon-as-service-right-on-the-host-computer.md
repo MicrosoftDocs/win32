@@ -3,7 +3,7 @@ title: Granting Logon as Service Right on the Host Computer
 description: When installing a service to run under a domain user account, the account must have the right to logon as a service on the local computer.
 ms.assetid: 1b217650-4397-4e28-b53e-8b03f3caf903
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 02/13/2024
 ---
 

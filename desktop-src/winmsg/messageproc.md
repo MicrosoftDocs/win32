@@ -4,7 +4,7 @@ title: MessageProc callback function
 description: The system calls this function after an input event occurs in a dialog box, message box, menu, or scroll bar.
 old-location: 
 ms.assetid: na
-ms.date: 06/29/2023
+ms.date: 07/14/2025
 ms.keywords: 
 ms.topic: reference
 req.header: 

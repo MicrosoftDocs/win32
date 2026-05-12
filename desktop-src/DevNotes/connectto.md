@@ -2,7 +2,7 @@
 description: HKLM\\SOFTWARE\\Microsoft\\MSSQLServer\\Client.
 ms.assetid: d6eb774b-d7ae-4f51-9947-90fb176e9acf
 title: ConnectTo
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: aaa79d61-c9ba-4575-853f-c01caf10594f
 ms.tgt_platform: multiple
 keywords:
 - User Address Book Attributes AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

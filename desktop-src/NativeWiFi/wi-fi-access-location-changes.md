@@ -1,17 +1,11 @@
 ---
 title: Changes to API behavior for Wi-Fi access and location
 description: In order to better manage which apps have access to location, Windows is adding new privacy controls.
-ms.topic: article
-ms.date: 04/01/2024
+ms.topic: concept-article
+ms.date: 05/30/2025
 ---
 
 # Changes to API behavior for Wi-Fi access and location
-
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
-> [!IMPORTANT]
-> The feature described in this topic is available in pre-release versions of the [Windows Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
 ## A summary of the changes
 
@@ -73,6 +67,7 @@ Your app will be affected if it calls any of these APIs:
 To create a better experience for your app's users, and to ensure smooth operation, you should make the following changes to your app's behavior in order to control when system prompts are shown:
 
 * If your app needs to know the host device's location, then it should call the Geolocation APIs, rather than use a Wi-Fi scan.
+* If your app needs to know the Wi-Fi SSID, then it can use the [WlanConnectionProfileDetails.GetConnectedSsid](/uwp/api/windows.networking.connectivity.wlanconnectionprofiledetails.getconnectedssid) API.
 * In order to cause the one-time-per-app system prompt to be displayed at a suitable point in the user-experience, your app should call [WiFiAdapter.RequestAccessAsync](/uwp/api/windows.devices.wifi.wifiadapter.requestaccessasync). The process must be running within the user's context and outside of the `C:\Windows\System32` folder. The call should align to a user action that requires Wi-Fi or location (resulting in higher consent rates than prompting the user immediately after installation).
 * Your app can query its location access status by using the [AppCapability.CheckAccess](/uwp/api/windows.security.authorization.appcapabilityaccess.appcapability.checkaccess) API with the **wiFiControl** device capability. If the following access will trigger a dialog, then the API will return [AppCapabilityAccessStatus.UserPromptRequired](/uwp/api/windows.security.authorization.appcapabilityaccess.appcapabilityaccessstatus).
 * In order to be notified and respond accordingly whenever the user changes location consent, your app should subscribe to the [AppCapability.AccessChanged](/uwp/api/windows.security.authorization.appcapabilityaccess.appcapability.accesschanged) event.

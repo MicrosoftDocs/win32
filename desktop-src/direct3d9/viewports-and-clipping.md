@@ -2,7 +2,7 @@
 description: Conceptually, a viewport is a two-dimensional (2D) rectangle into which a 3D scene is projected.
 ms.assetid: eddadaa1-9181-47fa-8530-44aa46fea286
 title: Viewports and Clipping (Direct3D 9)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

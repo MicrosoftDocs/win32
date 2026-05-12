@@ -5,7 +5,7 @@ ms.assetid: cfcb0998-4400-45cd-bbee-415d43b96a99
 ms.tgt_platform: multiple
 keywords:
 - object AD ,controlling access to
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

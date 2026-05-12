@@ -5,7 +5,7 @@ ms.assetid: 0a159c0b-d236-449d-b68c-991ebce6541f
 keywords:
 - OpenGL processing pipeline,lighting
 - lighting OpenGL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

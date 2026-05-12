@@ -9,7 +9,7 @@ keywords:
 - desktop applications,manual file transfers
 - creating Windows Media Device Manager applications,manual file transfers
 - manual file transfers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

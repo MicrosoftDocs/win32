@@ -2,7 +2,7 @@
 title: IAgentSpeechInputProperties GetHotKey
 description: IAgentSpeechInputProperties GetHotKey
 ms.assetid: b93e5b46-b8f8-4ca4-8417-7626b97d8928
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

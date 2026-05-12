@@ -2,7 +2,7 @@
 description: System.ShareUserRating
 ms.assetid: c1735b3d-d77b-41c6-9b88-22284750e558
 title: System.ShareUserRating
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: RequestReplyNamedPipesServerExample
 description: This example shows a named pipes server that accepts a channel and receives and replies to messages.
 ms.assetid: 19375B2A-7650-4587-B600-B6A43571A8EF
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -257,7 +257,7 @@ int __cdecl wmain()
             }
             else if (requestMessageDescription == &PurchaseOrder_wsdl.messages.GetOrderStatus)
             {
-                // The message was a order status request.  Get the pointer to the deserialized value.
+                // The message was an order status request.  Get the pointer to the deserialized value.
                 _GetOrderStatusType* getOrderStatus = (_GetOrderStatusType*)requestBodyPointer;
         
                 // Generate a fault if we don't recognize the order ID

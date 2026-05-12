@@ -2,7 +2,7 @@
 description: Setting the Playback Rate
 ms.assetid: 74ae45d3-4fea-491c-af1f-46768df41c5f
 title: Setting the Playback Rate
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

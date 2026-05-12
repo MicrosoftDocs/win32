@@ -4,14 +4,14 @@ description: Retrieves the package graph's current generation ID.
 ms.topic: reference
 ms.date: 05/03/2022
 req.lib: 
-req.dll: Kernel32.dll
+req.dll: Kernelbase.dll
 topic_type:
 - APIRef
 - kbSyntax
 api_type:
 - DllExport
 api_location:
-- Kernel32.dll
+- Kernelbase.dll
 api_name:
 - GetCurrentPackageInfo3
 targetos: Windows
@@ -88,7 +88,7 @@ If the function succeeds it returns **ERROR_SUCCESS**. Otherwise, the function r
 
 ## Remarks
 
-This function does not have an associated header file or library file. Your application can call [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) with the DLL name (`Kernel32.dll`) to obtain a module handle. It can then call [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) with the module handle and the name of this function to get the function address.
+This function does not have an associated header file or library file. Your application can call [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) with the DLL name (`Kernelbase.dll`) to obtain a module handle. It can then call [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) with the module handle and the name of this function to get the function address.
 
 ## Requirements
 
@@ -99,7 +99,7 @@ This function does not have an associated header file or library file. Your appl
 | **Target Platform** | Windows |
 | **Header** | None |
 | **Library** | None |
-| **DLL** | Kernel32.dll |
+| **DLL** | Kernelbase.dll |
 
 ## See also
 

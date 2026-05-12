@@ -2,7 +2,7 @@
 description: Learn about the DocumentRollCut element, which describes the cutting method for roll paper. Each document is handled separately.
 ms.assetid: 8eb4e574-3209-459c-9a25-95377b2f7439
 title: DocumentRollCut
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

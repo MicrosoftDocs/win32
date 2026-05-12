@@ -2,7 +2,7 @@
 description: 'Consider the following when deciding when and how to use the Divider object in an application:'
 ms.assetid: 17404789-7f08-4cf1-88f8-e1f70296c163
 title: Other Divider Considerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

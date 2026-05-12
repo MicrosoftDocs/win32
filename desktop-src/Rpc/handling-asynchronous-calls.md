@@ -2,7 +2,7 @@
 title: Handling Asynchronous Calls
 description: The manager routine of an asynchronous function always receives the asynchronous handle as the first parameter. The server must keep track of this handle and use it to send the reply when the asynchronous remote procedure call finishes.
 ms.assetid: 4f38b68b-0bea-4fa7-8c7e-dd09e7daf8bf
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

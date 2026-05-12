@@ -2,7 +2,7 @@
 description: The ModuleExclusion table keeps a list of other merge modules that are incompatible in the same installer database.
 ms.assetid: c28d9afa-152c-43b5-9892-7a38fae8c593
 title: ModuleExclusion Table
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

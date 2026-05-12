@@ -2,7 +2,7 @@
 description: The denominator of PKEY\_Photo\_Brightness.
 ms.assetid: 20b70981-2437-4f7d-b1b7-ec0e68b8377e
 title: System.Photo.BrightnessDenominator
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: If this bit is set on a control, the associated property specified in the Property column of the Control table is an integer. If this bit is not set, the property is a string value.
 ms.assetid: 58db9451-d152-439b-b7cf-39ddea84bcc9
 title: Integer Control Attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

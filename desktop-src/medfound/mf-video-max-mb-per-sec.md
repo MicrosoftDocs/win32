@@ -18,8 +18,6 @@ Specifies, on [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform
 
 This is a read-only attribute.
 
-**H.264/AVC encoders:**
-
 This attribute is affected by the following properties:
 
 -   [MF\_MT\_VIDEO\_LEVEL](mf-mt-video-level.md) (which is an alias of [MF\_MT\_MPEG2\_LEVEL](mf-mt-mpeg2-level-attribute.md))
@@ -33,6 +31,16 @@ If the [CODECAPI\_AVEncCommonQualityVsSpeed](../directshow/avenccommonqualityvss
 If the [CODECAPI\_AVEncMPVDefaultBPictureCount](../directshow/avencmpvdefaultbpicturecount-property.md) ICodecAPI property has been set to a valid and supported value, the encoder should return the processing rate corresponding the value set for this property. If the CODECAPI\_AVEncMPVDefaultBPictureCount attribute is not present, then it should use a default value of 0 B frames.
 
 Only the lower 28 bits should be used by an application. The upper 4bits are reserved for future use. Applications should ignore the upper 4 bits and MFTs should set the upper 4 bits to 0.
+
+**H.265, VP8, VP9 and AV1 encoders:**
+H.265, VP8, VP9 and AV1 codecs do not have the same definition of macroblock as H.264.  These codecs can have smaller or larger coding blocks compared to H.264.  For these encoders this attribute is defined as the number of 16x16 pixel blocks that can be processed per second.  
+
+
+This attribute is supported by the following encoders:
+* H.264/AVC
+* H.265/HEVC
+* VP8, VP9
+* AV1
 
 ## Requirements
 

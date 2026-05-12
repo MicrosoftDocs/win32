@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # MDM\_VPNv2\_Sso03 class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+
 
 The **MDM\_VPNv2\_Sso03** class can be used to select a certificate different from the VPN Authentication certificate for the Kerberos Authentication in the case of Device Compliance.
 

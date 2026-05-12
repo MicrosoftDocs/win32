@@ -2,7 +2,7 @@
 description: Capturing to Multiple Files
 ms.assetid: 6073a891-e9f5-442d-a2d9-3a7b97f7f735
 title: Capturing to Multiple Files
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

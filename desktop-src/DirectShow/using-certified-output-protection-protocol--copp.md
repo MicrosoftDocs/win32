@@ -2,7 +2,7 @@
 description: Using Certified Output Protection Protocol (COPP)
 ms.assetid: 23eebe93-416b-48c8-a05f-019e38b9a660
 title: Using Certified Output Protection Protocol (COPP)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

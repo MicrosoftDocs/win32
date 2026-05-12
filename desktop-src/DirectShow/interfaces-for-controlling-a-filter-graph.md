@@ -2,7 +2,7 @@
 description: Interfaces for Controlling a Filter Graph
 ms.assetid: f7de0165-e356-45d5-baed-d127caeebaf6
 title: Interfaces for Controlling a Filter Graph
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -14,7 +14,7 @@ keywords:
 - DRM Client Extended APIs,deleting licenses
 - Client Extended APIs,deleting licenses
 - licenses,deleting
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

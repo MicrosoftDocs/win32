@@ -2,7 +2,7 @@
 description: Adding a Source
 ms.assetid: 8c5d1050-a696-4a5d-be68-806420d0cd78
 title: Adding a Source
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

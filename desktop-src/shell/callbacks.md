@@ -1,7 +1,7 @@
 ---
 description: This section describes the Windows Shell callback functions.
 title: Shell Callback Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 617a73d9-e3e6-4def-a5b2-557faa7b03c0
 api_name: 

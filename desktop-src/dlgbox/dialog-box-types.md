@@ -18,7 +18,7 @@ keywords:
 - predefined dialog boxes
 - dialog boxes,Common Dialog Box Library
 - dialog boxes,predefined
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

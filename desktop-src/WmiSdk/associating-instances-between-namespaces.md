@@ -3,7 +3,7 @@ description: An association view class allows you to use ASSOCIATORS OF queries 
 ms.assetid: 4af4fe1b-2b19-472e-8261-798b374ae57e
 ms.tgt_platform: multiple
 title: Associating Instances Between Namespaces
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: Notifies applications that the system is resuming from sleep or hib
 ms.assetid: cd331f79-b64d-479e-aea8-5118ccc87224
 title: PBT_APMRESUMEAUTOMATIC event (WinUser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # PBT_APMRESUMEAUTOMATIC event

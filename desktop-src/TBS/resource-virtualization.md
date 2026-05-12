@@ -2,7 +2,7 @@
 title: Resource Virtualization
 description: Resource Virtualization
 ms.assetid: ead0e99a-94da-4e80-bb68-d8f4b199173d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

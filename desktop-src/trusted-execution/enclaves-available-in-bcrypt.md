@@ -3,11 +3,13 @@ description: Enclaves are used to create trusted execution environments. These B
 ms.assetid: 11903971-331b-4184-a7f9-635414f62243
 title: Bcrypt APIs available in VBS enclaves
 titleSuffix: Secure Enclaves
-ms.topic: article
-ms.date: 08/02/2023
+ms.topic: reference
+ms.date: 11/20/2024
 ---
 
 # Bcrypt APIs available in VBS enclaves
+
+[!INCLUDE [enclaves-os-reqs.md](../includes/enclaves-os-reqs.md)]
 
 Enclaves are used to create trusted execution environments. These Bcrypt APIs are available to developers in VBS enclaves.
 

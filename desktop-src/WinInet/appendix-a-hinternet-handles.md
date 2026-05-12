@@ -2,7 +2,7 @@
 title: HINTERNET Handles
 description: This section contains information about the handles that are used by the WinINet functions and the hierarchy in which they work.
 ms.assetid: 8a9788ed-eb25-42cb-b912-8dffa3df1850
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

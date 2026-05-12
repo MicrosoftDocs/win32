@@ -3,7 +3,7 @@ title: WER Enumerations
 description: The following enumerations are used in Windows Error Reporting.
 keywords:
 - Windows error reporting Windows Error Reporting , enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 07/27/2023
 ---
 

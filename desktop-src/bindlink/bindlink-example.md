@@ -2,7 +2,7 @@
 description: These examples for the bind link API demonstrates how it can be leveraged to create and remove bind links.
 ms.assetid: c869d763-3771-4cbd-911c-f670a0bee4ab
 title: Bind link API examples
-ms.topic: article
+ms.topic: reference
 ms.date: 02/27/2024
 ---
 

@@ -2,7 +2,7 @@
 description: Stream Format
 ms.assetid: 7ed095f2-b541-4b99-8afc-9acba58081cd
 title: Stream Format
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

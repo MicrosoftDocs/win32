@@ -5,7 +5,7 @@ ms.assetid: 0ff8da8a-d3d3-4a15-8103-4fe6ec307427
 ms.tgt_platform: multiple
 keywords:
 - class display names AD ,icons
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

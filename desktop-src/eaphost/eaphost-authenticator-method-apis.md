@@ -2,7 +2,7 @@
 title: EAPHost Authenticator Method APIs
 description: Learn about EAPHost Authenticator Method APIs. View different sections of the EAPHost Authenticator Method API documentation.
 ms.assetid: f0c2f2a6-f03c-4a63-bf4d-5314d89c8010
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

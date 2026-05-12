@@ -3,7 +3,7 @@ title: WinRM Constants and Enumerations
 description: Windows Remote Management has bit flags used in creating sessions and enumerations, and for access types and authentication to a proxy server.
 ms.assetid: 17e59245-26a3-4383-a741-4a09f3cfcec6
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: System.Contact.BusinessAddress3Street
 ms.assetid: c99a73fb-9c03-47d2-a3b8-2391f19650a0
 title: System.Contact.BusinessAddress3Street
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

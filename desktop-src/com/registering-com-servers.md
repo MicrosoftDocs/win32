@@ -2,7 +2,7 @@
 title: Registering COM Servers
 description: Registering COM Servers
 ms.assetid: aaa09a1b-deb8-424f-a911-ae22d39919d3
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

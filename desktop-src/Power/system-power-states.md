@@ -2,8 +2,8 @@
 description: Learn about the multiple system power states that correspond to the Advanced Configuration and Power Interface (ACPI) specification.
 ms.assetid: 3d897a88-125e-457f-9ea7-ac2056b0767a
 title: System power states
-ms.topic: article
-ms.date: 02/08/2023
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # System power states
@@ -18,7 +18,7 @@ The following table lists the ACPI power states from highest to lowest power con
 | Power state | ACPI state | Description | 
 |-------------|------------|-------------|
 | Working | *S0* | The system is fully usable. Hardware components that aren't in use can save power by entering a lower power state. | 
-| Sleep (Modern Standby) | *S0* low-power idle | Some SoC systems support a low-power idle state known as [Modern Standby](/windows-hardware/design/device-experiences/modern-standby). In this state, the system can very quickly switch from a low-power state to high-power state in response to hardware and network events. Systems that support Modern Standby do not use *S1-S3*. | 
+| Sleep (Modern Standby) | *S0* low-power idle | Some SoC systems support a low-power idle state known as [Modern Standby](/windows-hardware/design/device-experiences/modern-standby). In this state, the system can very quickly switch from a low-power state to high-power state in response to hardware and network events. **Note:** SoC systems that support Modern Standby don't use *S1-S3*. | 
 | Sleep | *S1*<br> *S2*<br> *S3* | The system appears to be off. The amount of power consumed in states *S1-S3* is less than *S0* and more than *S4*. *S3* consumes less power than *S2*, and *S2* consumes less power than *S1*. Systems typically support one of these three states, not all three.<br><br> In states *S1-S3*, volatile memory is kept refreshed to maintain the system state. Some components remain powered so the computer can wake from input from the keyboard, LAN, or a USB device.<br><br> *Hybrid sleep*, used on desktops, is where a system uses a hibernation file with *S1-S3*. The hibernation file saves the system state in case the system loses power while in sleep.<br><br> **Note:** SoC systems that support Modern Standby don't use *S1-S3*. | 
 | Hibernate | *S4* | The system appears to be off. Power consumption is reduced to the lowest level. The system saves the contents of volatile memory to a hibernation file to preserve system state. Some components remain powered so the computer can wake from input from the keyboard, LAN, or a USB device. The working context can be restored if it's stored on nonvolatile media.<br><br> *Fast startup* is where the user is logged off before the hibernation file is created. This allows for a smaller hibernation file, more appropriate for systems with less storage capabilities. | 
 | Soft off | *S5* | The system appears to be off. This state is comprised of a full shutdown and boot cycle. | 
@@ -45,7 +45,7 @@ In the *S0* low-power idle mode of the working state, also referred to as [Moder
 
 ## Sleep state: S1-S3
 
-The system enters sleep based on a number of criteria, including user or application activity and preferences that the user sets on the **Power & sleep** page of the **Settings** app. By default, the system uses the lowest-powered sleep state supported by all enabled wake-up devices. For more information about how the system determines when to enter sleep, see [System sleep criteria](system-sleep-criteria.md).
+The system enters sleep based on a number of criteria, including user or application activity and preferences that the user sets on the **Power & sleep** page of Windows **Settings**. By default, the system uses the lowest-powered sleep state supported by all enabled wake-up devices. For more information about how the system determines when to enter sleep, see [System sleep criteria](system-sleep-criteria.md).
 
 Before the system enters sleep, it determines the appropriate sleep state, notifies applications and drivers of the pending transition, and then transitions the system to the sleep state. In the case of a critical transition, such as when the critical battery threshold is reached, the system doesn't notify applications and drivers. Applications need to be prepared for this and take the appropriate action when the system returns to the working state.
 

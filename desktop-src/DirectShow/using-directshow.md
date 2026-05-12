@@ -2,7 +2,7 @@
 description: Using DirectShow
 ms.assetid: 37fd7afc-6068-46bf-80d1-9a6268b16a56
 title: Using DirectShow
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -4,7 +4,7 @@ description: This section refers to Windows 2000 and Windows XP.
 ms.assetid: 'a1f0408c-7739-4fca-b9b2-f045dad0c392'
 keywords:
 - Remote Procedure Call RPC , best practices, using context handles
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Winsock explicit congestion notification (ECN)
 description: Some applications and/or protocols that are based on the User Datagram Protocol (UDP) (for example, QUIC) seek to leverage the use of explicit congestion notification (ECN) codepoints in order to improve latency and jitter in congested networks.
-ms.topic: article
+ms.topic: reference
 ms.date: 11/13/2020
 ---
 
@@ -18,6 +18,9 @@ For more information regarding ECN, see [The Addition of Explicit Congestion Not
 Your application isn't allowed to specify the Congestion Encountered (CE) code point when sending datagrams. The send will return with error **WSAEINVAL**.
 
 ## Query ECN with WSAGetRecvIPEcn
+
+> [!IMPORTANT]
+> [**WSAGetRecvIPEcn**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetrecvipecn) is deprecated and does not properly support dual-stack sockets. Use the **IP_RECVECN** and **IPV6_RECVECN** socket options directly with [getsockopt](/windows/desktop/api/winsock/nf-winsock-getsockopt) instead. On a dual-stack socket that is unbound or bound to a wildcard address, applications need to get both **IP_RECVECN** (level **IPPROTO_IP**) and **IPV6_RECVECN** (level **IPPROTO_IPV6**) separately. If the socket is bound to a specific IPv6 address, only the **IPV6_RECVECN** option should be retrieved. If the socket is bound to an IPv4-mapped IPv6 address (for example, `::ffff:192.0.2.1`), only the **IP_RECVECN** option should be retrieved.
 
 [**WSAGetRecvIPEcn**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetrecvipecn) is an inline function, defined in `ws2tcpip.h`.
 
@@ -36,6 +39,9 @@ Also see the [**WSAMSG**](/windows/win32/api/ws2def/ns-ws2def-wsamsg) structure.
 - **Description**: Specifies/receives ECN codepoint in the Traffic Class IPv6 header field.
 
 ## Specify ECN with WSASetRecvIPEcn
+
+> [!IMPORTANT]
+> [**WSASetRecvIPEcn**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetrecvipecn) is deprecated and does not properly support dual-stack sockets. Use the **IP_RECVECN** and **IPV6_RECVECN** socket options directly with [setsockopt](/windows/desktop/api/winsock/nf-winsock-setsockopt) instead. On a dual-stack socket that is unbound or bound to a wildcard address, applications need to set both **IP_RECVECN** (level **IPPROTO_IP**) and **IPV6_RECVECN** (level **IPPROTO_IPV6**) separately. If the socket is bound to a specific IPv6 address, only the **IPV6_RECVECN** option should be set. If the socket is bound to an IPv4-mapped IPv6 address (for example, `::ffff:192.0.2.1`), only the **IP_RECVECN** option should be set.
 
 [**WSASetRecvIPEcn**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetrecvipecn) is an inline function, defined in `ws2tcpip.h`.
 
@@ -162,10 +168,90 @@ void receiver(SOCKET sock, PSOCKADDR_STORAGE addr, LPFN_WSARECVMSG recvmsg)
     }
 
     enabled = TRUE;
-    error = WSASetRecvIPEcn(sock, enabled);
-    if (error == SOCKET_ERROR) {
-        printf(" WSASetRecvIPEcn failed %d\n", WSAGetLastError());
-        return;
+    if (addr->ss_family == AF_INET) {
+        // IPv4 socket: only IP_RECVECN is needed.
+        error =
+            setsockopt(
+                sock,
+                IPPROTO_IP,
+                IP_RECVECN,
+                (PCHAR)&enabled,
+                sizeof(enabled));
+        if (error == SOCKET_ERROR) {
+            printf("setsockopt(IP_RECVECN) failed %d\n", WSAGetLastError());
+            return;
+        }
+    } else if (INETADDR_ISV4MAPPED((PSOCKADDR)addr)) {
+        // AF_INET6 socket bound to an IPv4-mapped address
+        // (e.g. ::ffff:192.0.2.1): only IP_RECVECN is needed.
+        error =
+            setsockopt(
+                sock,
+                IPPROTO_IP,
+                IP_RECVECN,
+                (PCHAR)&enabled,
+                sizeof(enabled));
+        if (error == SOCKET_ERROR) {
+            printf("setsockopt(IP_RECVECN) failed %d\n", WSAGetLastError());
+            return;
+        }
+    } else if (INETADDR_ISANY((PSOCKADDR)addr)) {
+        // AF_INET6 socket bound to the any address (::). Check
+        // IPV6_V6ONLY to determine if the socket is dual-stack.
+        DWORD v6Only;
+        INT v6OnlyLen = sizeof(v6Only);
+        error =
+            getsockopt(
+                sock,
+                IPPROTO_IPV6,
+                IPV6_V6ONLY,
+                (PCHAR)&v6Only,
+                &v6OnlyLen);
+        if (error == SOCKET_ERROR) {
+            printf("getsockopt(IPV6_V6ONLY) failed %d\n", WSAGetLastError());
+            return;
+        }
+
+        // Always set IPV6_RECVECN for v6 traffic.
+        error =
+            setsockopt(
+                sock,
+                IPPROTO_IPV6,
+                IPV6_RECVECN,
+                (PCHAR)&enabled,
+                sizeof(enabled));
+        if (error == SOCKET_ERROR) {
+            printf("setsockopt(IPV6_RECVECN) failed %d\n", WSAGetLastError());
+            return;
+        }
+
+        if (!v6Only) {
+            // Dual-stack socket: also set IP_RECVECN for v4 traffic.
+            error =
+                setsockopt(
+                    sock,
+                    IPPROTO_IP,
+                    IP_RECVECN,
+                    (PCHAR)&enabled,
+                    sizeof(enabled));
+            if (error == SOCKET_ERROR) {
+                printf("setsockopt(IP_RECVECN) failed %d\n", WSAGetLastError());
+                return;
+            }
+        }
+    } else {
+        // AF_INET6 socket bound to a specific IPv6 address: v6 only.
+        error =
+            setsockopt(
+                sock,
+                IPPROTO_IPV6,
+                IPV6_RECVECN,
+                (PCHAR)&enabled,
+                sizeof(enabled));
+        if (error == SOCKET_ERROR) {
+            printf("setsockopt(IPV6_RECVECN) failed %d\n", WSAGetLastError());
+            return;
+        }
     }
 
     do {

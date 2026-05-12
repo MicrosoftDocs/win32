@@ -2,7 +2,7 @@
 description: This topic identifies several error-handling strategies to keep in mind as you develop components for COM+.
 ms.assetid: 1ae5875b-8085-44f2-9071-c2a5d7543ac1
 title: Strategies for Handling Errors in COM+
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

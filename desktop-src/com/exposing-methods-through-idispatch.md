@@ -2,7 +2,7 @@
 title: Exposing Methods through IDispatch
 description: Exposing Methods through IDispatch
 ms.assetid: 83938d74-ef50-448f-a93f-7527f4102064
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

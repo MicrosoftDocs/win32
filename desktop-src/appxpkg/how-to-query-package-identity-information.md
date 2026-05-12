@@ -2,7 +2,7 @@
 title: Query app package manifest info (C++)
 description: Learn how to get info from the app package manifest for a Windows app using the packaging API.
 ms.assetid: A29986F9-C620-48CD-87F8-525DFA076AAB
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

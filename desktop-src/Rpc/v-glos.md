@@ -3,7 +3,7 @@ title: V (RPC)
 description: Words starting with V in Remote Procedure Call (RPC) glossary.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 30a8c42a-b66a-4354-aece-0fc43721fdc1
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

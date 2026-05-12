@@ -15,7 +15,7 @@ keywords:
 - desktop applications,header files
 - creating Windows Media Device Manager applications,header files
 - header files
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

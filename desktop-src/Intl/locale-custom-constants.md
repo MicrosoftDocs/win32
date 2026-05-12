@@ -2,7 +2,7 @@
 description: LOCALE\_CUSTOM\* Constants
 ms.assetid: a41a7f55-8905-47a1-86c3-74ed40b3834c
 title: LOCALE_CUSTOM* Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

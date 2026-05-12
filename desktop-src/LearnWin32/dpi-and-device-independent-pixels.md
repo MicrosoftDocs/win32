@@ -2,7 +2,7 @@
 title: DPI and device-independent pixels
 ms.assetid: d282de02-62f4-4a12-a77c-f602f6db0216
 description: "Learn more about: DPI and Device-Independent Pixels"
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/26/2022
 ---
 
@@ -123,7 +123,7 @@ float PixelsToDipsX(T x)
 }
 
 template <typename T>
-float PixelsToDips(T y)
+float PixelsToDipsY(T y)
 {
     return static_cast<float>(y) / g_DPIScale;
 }
@@ -143,6 +143,7 @@ void InitializeDPIScale(HWND hwnd)
 
 > [!NOTE]  
 > We recommend that for a desktop app, you use [GetDpiForWindow](/windows/win32/api/winuser/nf-winuser-getdpiforwindow); and for a Universal Windows Platform (UWP) app, use [DisplayInformation::LogicalDpi](/uwp/api/windows.graphics.display.displayinformation.logicaldpi). Although we don't recommend it, it's possible to set the default DPI awareness programmatically using [**SetProcessDpiAwarenessContext**](/windows/win32/api/winuser/nf-winuser-setprocessdpiawarenesscontext). Once a window (an HWND) has been created in your process, changing the DPI awareness mode is no longer supported. If you are setting the process-default DPI awareness mode programmatically, you must call the corresponding API before any HWNDs have been created. For more info, see [Setting the default DPI awareness for a process](../hidpi/setting-the-default-dpi-awareness-for-a-process.md).
+
 
 ## Resizing the render target
 

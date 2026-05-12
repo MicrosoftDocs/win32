@@ -2,7 +2,7 @@
 description: Implement a property page as part of creating a filter property page for a custom DirectShow filter.
 ms.assetid: ed71f26b-0812-4be8-96a4-b9f5dde45540
 title: Step 4. Create the Property Page
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 title: Type Attribute (Shape)(VML)
 description: Type Attribute (Shape)(VML)
 ms.assetid: 41f0d1d3-3a2c-47cf-b2ec-d983b14aea87
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

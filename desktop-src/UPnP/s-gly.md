@@ -3,7 +3,7 @@ title: S (UPnP APIs)
 description: Contains UPnP-related terms that begin with the letter S.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 94be0f7f-8263-40ad-9d48-35540eaa3a3d
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

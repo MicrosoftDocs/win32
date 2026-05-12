@@ -2,7 +2,7 @@
 description: Frame Stepping Property Set
 ms.assetid: 01abe1fe-fc2f-44cb-9546-45a8d682a179
 title: Frame Stepping Property Set
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

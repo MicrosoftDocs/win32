@@ -5,7 +5,7 @@ ms.assetid: 32a4724b-3182-4521-975c-cef33afee0b2
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Messages AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: A name that represents a specific series, such as a podcast or recorded television series.
 ms.assetid: fce78030-462d-4472-885c-c16d2667629a
 title: System.Media.SeriesName
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

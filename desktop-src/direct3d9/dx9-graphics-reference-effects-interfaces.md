@@ -2,7 +2,7 @@
 description: Effects are implemented with the following interfaces.
 ms.assetid: 7170b9db-7c6b-4a1d-a920-15b5b2eab8b0
 title: Effect Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

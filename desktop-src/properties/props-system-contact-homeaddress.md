@@ -2,7 +2,7 @@
 description: Home address of the contact.
 ms.assetid: c187317a-5636-4542-a97d-e9cc80e9aaa9
 title: System.Contact.HomeAddress
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

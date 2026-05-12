@@ -2,7 +2,7 @@
 description: Creating Groups Compositions and Tracks
 ms.assetid: c3bef3cd-5e3c-42c5-850f-b4cb00c414bd
 title: Creating Groups Compositions and Tracks
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

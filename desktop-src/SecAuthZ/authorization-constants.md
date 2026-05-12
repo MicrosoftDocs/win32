@@ -2,7 +2,7 @@
 title: Authorization constants (Authorization)
 description: Lists the constants used in authorization APIs.
 ms.assetid: be5637e3-0932-49b6-a5af-a542060545e0
-ms.topic: article
+ms.topic: reference
 ms.date: 07/20/2023
 ---
 

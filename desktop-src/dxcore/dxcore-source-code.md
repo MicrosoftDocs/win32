@@ -2,7 +2,7 @@
 title: Minimal DXCore application
 description: The full source code listing for a minimal DXCore application.
 ms.custom: 19H1
-ms.topic: article
+ms.topic: reference
 ms.date: 08/17/2023
 ---
 
@@ -53,7 +53,7 @@ winrt::com_ptr<IDXCoreAdapter> TryFindComputeAdapter()
             d3D12CoreComputeAdapters.put()));
 
     // If there are any hardware adapters, then choose the first.
-    // Otherwise, choose the first sofware adapter.
+    // Otherwise, choose the first software adapter.
     winrt::com_ptr<IDXCoreAdapter> preferredAdapter;
 
     const uint32_t count{ d3D12CoreComputeAdapters->GetAdapterCount() };
@@ -273,5 +273,5 @@ int main()
 ## Related topics
 
 * [Using DXCore to enumerate adapters](dxcore-enum-adapters.md)
-* [DXCore Reference](./dxcore-reference.md)
+* [DXCore reference](./dxcore-reference.md)
 * [Direct3D 12 graphics](../direct3d12/direct3d-12-graphics.md)

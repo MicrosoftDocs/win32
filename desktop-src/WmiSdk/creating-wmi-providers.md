@@ -3,7 +3,7 @@ description: Developers can extend the WMI infrastructure by developing WMI prov
 ms.assetid: 87bc5d10-a5d7-444b-b823-4e1a2d63efb3
 ms.tgt_platform: multiple
 title: Creating WMI Providers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

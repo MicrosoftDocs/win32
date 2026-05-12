@@ -2,8 +2,8 @@
 description: Use Run or RunOnce registry keys to make a program run when a user logs on.
 ms.assetid: 5a6c17f1-d4c0-4005-9b26-036d8b27703a
 title: Run and RunOnce Registry Keys
-ms.topic: article
-ms.date: 01/04/2022
+ms.topic: concept-article
+ms.date: 07/19/2024
 ---
 
 # Run and RunOnce Registry Keys
@@ -28,6 +28,11 @@ By default, the value of a `RunOnce` key is deleted before the command line is r
 By default, these keys are ignored when the computer is started in Safe Mode. The value name of `RunOnce` keys can be prefixed with an asterisk (\*) to force the program to run even in Safe Mode.
 
 A program that is run from any of these keys should not write to the key during its execution because this will interfere with the execution of other programs registered under the key. Applications should use the `RunOnce` key only for transient conditions, such as to complete application setup. An application must not continually recreate entries under `RunOnce` because this will interfere with Windows Setup.
+
+The system does not provide guarantees about how promptly the programs in the `Run` key are run.
+To improve the user experience, the system may choose to delay the execution of programs in the `Run` key
+and in the Startup group to a time when they are less likely to interfere with the foreground user experience
+or with each other.
 
 ## Related topics
 

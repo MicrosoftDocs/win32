@@ -2,7 +2,7 @@
 description: Data Flow in the DVD Navigator
 ms.assetid: 14f9cfa3-5ef6-419c-9196-2e4060549c03
 title: Data Flow in the DVD Navigator
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

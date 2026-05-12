@@ -3,7 +3,7 @@ title: Fundamental SDO Operations
 description: This section provides sample code for performing frequently-used operations with the SDO API.
 ms.assetid: 196e75e8-35b6-48d8-b85d-6c2206503ae3
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

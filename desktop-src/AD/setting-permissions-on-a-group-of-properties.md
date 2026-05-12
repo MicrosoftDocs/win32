@@ -5,7 +5,7 @@ ms.assetid: cb9f6c04-be94-45b4-ba84-2a79b7625fdd
 ms.tgt_platform: multiple
 keywords:
 - Setting Permissions on a Group of Properties AD
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

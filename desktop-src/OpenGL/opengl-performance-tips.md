@@ -5,7 +5,7 @@ ms.assetid: f85bf725-1361-49b9-894c-c803b2dead60
 keywords:
 - OpenGL,performance tips
 - OpenGL,best practices
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

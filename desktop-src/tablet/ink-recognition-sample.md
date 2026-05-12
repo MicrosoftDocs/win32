@@ -2,7 +2,7 @@
 description: This application demonstrates how you can build a handwriting recognition application.The Windows Vista SDK provides versions of this sample in C\# and Visual Basic .NET, as well.
 ms.assetid: 4b3fc078-731e-4263-8e95-2c273d69a457
 title: Ink Recognition Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

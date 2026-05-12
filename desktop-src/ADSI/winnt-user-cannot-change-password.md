@@ -7,7 +7,7 @@ keywords:
 - User Cannot Change Password (WinNT Provider) ADSI
 - User Cannot Change Password ADSI , WinNT provider
 - WinNT provider ADSI , user management examples, User Cannot Change Password
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

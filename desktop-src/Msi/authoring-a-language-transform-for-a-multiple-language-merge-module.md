@@ -1,14 +1,14 @@
 ---
-description: When a module is merged into an database that has a different default language, the merge tool may need to apply a language transform to the module to provide the final language. For more information, see Multiple Language Merge Modules.
+description: When a module is merged into a database that has a different default language, the merge tool may need to apply a language transform to the module to provide the final language. For more information, see Multiple Language Merge Modules.
 ms.assetid: 51e8774e-f358-423f-a283-ad7beeabbbdb
 title: Authoring a Language Transform for a Multiple Language Merge Module
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
 # Authoring a Language Transform for a Multiple Language Merge Module
 
-When a module is merged into an database that has a different default language, the merge tool may need to apply a language transform to the module to provide the final language. For more information, see [Multiple Language Merge Modules](multiple-language-merge-modules.md).
+When a module is merged into a database that has a different default language, the merge tool may need to apply a language transform to the module to provide the final language. For more information, see [Multiple Language Merge Modules](multiple-language-merge-modules.md).
 
 The language transforms are stored in the module's .msm file and must have the name and format: MergeModule.Lang\#\#\#\#. The \#\#\#\# represents the up-to four digit [LANGID](localizing-the-error-and-actiontext-tables.md) of the final language. For example, MergeModule.Lang1033, MergeModule.Lang9, and MergeModule.Lang0 for transforms to US English, world English, and language neutral. These are the same as [Embedded Transforms](embedded-transforms.md) and you can add them to substorages in the .msm file.
 

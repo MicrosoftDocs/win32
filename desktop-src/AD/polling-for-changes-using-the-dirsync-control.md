@@ -5,7 +5,7 @@ ms.assetid: f77caeb3-bfc9-4ae6-8d1d-73f4ee554336
 ms.tgt_platform: multiple
 keywords:
 - Polling for Changes Using the DirSync Control AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

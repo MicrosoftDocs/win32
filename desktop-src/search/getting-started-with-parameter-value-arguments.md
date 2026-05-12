@@ -1,12 +1,12 @@
 ---
 description: The search-ms ?application protocol is a convention for querying the Windows Search index.
 ms.assetid: e8b18018-c712-4007-bb0a-af90a75780d6
-title: Getting Started with Parameter-Value Arguments
-ms.topic: article
+title: Getting started with parameter-value arguments
+ms.topic: get-started
 ms.date: 05/31/2018
 ---
 
-# Getting Started with Parameter-Value Arguments
+# Getting started with parameter-value arguments
 
 The **search-ms** ?[application protocol](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767916(v=vs.85)) is a convention for querying the Windows Search index. The protocol enables applications, like Windows Explorer, to query the index with parameter-value arguments, including property arguments, previously saved searches, Advanced Query Syntax (AQS), Natural Query Syntax (NQS), and language code identifiers (LCIDs) for both the indexer and the query itself.
 
@@ -16,7 +16,7 @@ This topic is organized as follows:
 - [Examples](#examples)
 - [Related topics](#related-topics)
 
-## About Parameter-Value Arguments
+## About parameter-value arguments
 
 The search-ms protocol uses the following standard URL-encoded syntax:
 

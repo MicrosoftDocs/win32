@@ -136,7 +136,7 @@ A value that specifies the path and file name of the task to be run at the sched
 <span id="_ST_starttime"></span><span id="_st_starttime"></span><span id="_ST_STARTTIME"></span>**/ST** **starttime**
 </dt> <dd>
 
-A value that specifies the start time to run the task. The time format is HH:mm (24-hour time). For example, 14:30 specifies 2:30PM. The default is the current time is /ST is not specified. This option is required wit the /SC ONCE argument.
+A value that specifies the start time to run the task. The time format is HH:mm (24-hour time). For example, 14:30 specifies 2:30PM. The default is the current time if /ST is not specified. This option is required wit the /SC ONCE argument.
 
 </dd> <dt>
 

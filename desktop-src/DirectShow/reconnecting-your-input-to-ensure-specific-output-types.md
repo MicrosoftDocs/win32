@@ -2,7 +2,7 @@
 description: Reconnecting Your Input to Ensure Specific Output Types
 ms.assetid: c83d002e-59bf-4d03-9917-e39ceab9a4ce
 title: Reconnecting Your Input to Ensure Specific Output Types
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

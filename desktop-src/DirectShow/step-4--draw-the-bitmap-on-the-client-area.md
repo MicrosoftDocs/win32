@@ -2,7 +2,7 @@
 description: 'Step 4: Draw the Bitmap on the Client Area'
 ms.assetid: fb22468c-9113-46ff-a576-8dee30c458be
 title: 'Step 4: Draw the Bitmap on the Client Area'
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

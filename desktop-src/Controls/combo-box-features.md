@@ -2,7 +2,7 @@
 title: Combo Box Features
 description: This document discusses features of the combo box.
 ms.assetid: 7102beff-7f67-4e4e-a32b-9ccae1522ebd
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

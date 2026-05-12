@@ -2,7 +2,7 @@
 description: To apply special formatting to text, initialize a StringFormat object and pass the address of that object to the DrawString method of the Graphics class.
 ms.assetid: 4014a602-88f6-4fac-b4b2-3dafdcff8f33
 title: Formatting Text (GDI+)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

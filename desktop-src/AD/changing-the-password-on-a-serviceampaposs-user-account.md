@@ -5,7 +5,7 @@ ms.assetid: d9cef772-bd85-4103-901e-3cf786b29163
 ms.tgt_platform: multiple
 keywords:
 - Changing the Password on a Service's User Account AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -58,8 +58,16 @@ if( !szServerDNS ||
 // Use the distinguished name to bind to the account object.
 _tcsncpy_s(szAccountPath, TEXT("LDAP://"), MAX_PATH);
 _tcscat_s(szAccountPath, 
-    szAccountDN, 
-    MAX_PATH - _tcslen(szAccountPath));
+    MAX_PATH, 
+    szAccountDN);
+
+hr = CoInitialize(NULL);
+if (FAILED(hr)) 
+{
+    _tprintf(TEXT("Initializing COM failed - 0x%x\n"), dwStatus = hr);
+       goto cleanup;
+}
+
 hr = ADsGetObject(szAccountPath, IID_IADsUser, (void**)&pUser);
 if (FAILED(hr)) 
 {

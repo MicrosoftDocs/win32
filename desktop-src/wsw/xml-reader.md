@@ -6,7 +6,7 @@ keywords:
 - XML Reader Web Services for Windows
 - WWSAPI
 - WWS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -46,7 +46,7 @@ Users of the reader should not allocate memory based simply on values read from 
 </array>
 ```
 
-Allocating an array based soley on the assumption that some number of elements will follow would be a potential attack vector. The user of the reader in this case should instead incrementally allocate the memory as the elements appear.
+Allocating an array based solely on the assumption that some number of elements will follow would be a potential attack vector. The user of the reader in this case should instead incrementally allocate the memory as the elements appear.
 
 XML reader does not support DTD. The user of the reader does not need to concern about DTD verification.
 

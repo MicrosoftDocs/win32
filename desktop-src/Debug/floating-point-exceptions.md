@@ -2,8 +2,8 @@
 description: Describes floating-point exceptions and how to trap them using structured exception handling by calling the \_controlfp_\s library function.
 ms.assetid: efbea036-de9c-4f92-865a-494161da375e
 title: Floating-Point Exceptions
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Floating-Point Exceptions

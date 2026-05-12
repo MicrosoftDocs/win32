@@ -55,7 +55,7 @@ Pointer to a null-terminated string that specifies the name of an output file. T
 **pDatatype**
 </dt> <dd>
 
-Pointer to a null-terminated string that identifies the type of data used to record the document.
+Pointer to a null-terminated string that identifies the type of data used to record the document. You can retrieve a list of the data type strings supported by a printer by calling [EnumPrintProcessorDatatypes](/windows/win32/printdocs/enumprintprocessordatatypes).
 
 </dd> </dl>
 

@@ -4,7 +4,7 @@ description: This example sets the name of the application associated with a kno
 ms.assetid: 1d86f945-0f13-4a7f-8123-df7e63a02238
 keywords:
 - setting task properties Task Scheduler , application name
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

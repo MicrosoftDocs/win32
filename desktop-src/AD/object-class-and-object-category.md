@@ -3,7 +3,7 @@ title: Object Class and Object Category
 description: Each instance of an object class has a multi-valued objectClass property that identifies the class of which the object is an instance, as well as all structural or abstract superclasses from which that class is derived.
 ms.assetid: b3c5f9ee-98e0-42dd-9b61-3731e14b9cd4
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

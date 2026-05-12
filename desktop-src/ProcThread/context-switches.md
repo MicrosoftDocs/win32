@@ -1,19 +1,19 @@
 ---
-description: The scheduler maintains a queue of executable threads for each priority level.
+description: The scheduler maintains separate queues of executable threads for each priority level.
 ms.assetid: 82463d71-9cef-4608-b997-25dc9c1e1c0a
 title: Context Switches
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Context Switches
 
-The scheduler maintains a queue of executable threads for each priority level. These are known as *ready threads*. When a processor becomes available, the system performs a *context switch*. The steps in a context switch are:
+The scheduler maintains separate queues of executable threads for each priority level. These threads are known as *ready threads*. When a processor becomes available, the system performs a *context switch*. The steps in a context switch are:
 
-1.  Save the context of the thread that just finished executing.
-2.  Place the thread that just finished executing at the end of the queue for its priority.
+1.  Save the context of the thread that was preempted or voluntarily yielded by the processor.
+2.  If the thread remains in a ready state, place it at the end of the queue for its priority level.
 3.  Find the highest priority queue that contains ready threads.
-4.  Remove the thread at the head of the queue, load its context, and execute it.
+4.  Remove the thread at the head of the queue, restore its context, and resume execution.
 
 The following classes of threads are not ready threads.
 

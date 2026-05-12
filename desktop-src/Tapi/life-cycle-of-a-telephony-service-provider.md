@@ -2,7 +2,7 @@
 description: This topic provides a high-level review of TSP operations.
 ms.assetid: 8ee592ff-387e-449e-8e3f-4f6407166fe5
 title: Life Cycle of a Telephony Service Provider
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

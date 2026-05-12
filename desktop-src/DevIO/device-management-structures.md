@@ -2,7 +2,7 @@
 description: 'The following structures are used with device management:'
 ms.assetid: 85ebbdca-94a0-4467-8d15-ee3a850e1cd9
 title: Device Management Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

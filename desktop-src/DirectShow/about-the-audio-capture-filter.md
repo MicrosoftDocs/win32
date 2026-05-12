@@ -2,7 +2,7 @@
 description: About the Audio Capture Filter
 ms.assetid: ff345670-5a75-40d3-a228-8bc22aa76708
 title: About the Audio Capture Filter
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: Registering MPEG2 Codecs
 ms.assetid: f730a7df-af8f-4dce-9bfe-6ee1eca8fd90
 title: Registering MPEG2 Codecs
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

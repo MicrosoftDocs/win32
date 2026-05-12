@@ -2,7 +2,7 @@
 title: Introduction (Windows 7 Developer Guide)
 ms.assetid: ce331fe5-b28a-49b7-9854-4312dc18bba4
 description: "Learn more about: Introduction (Windows 7 Developer Guide)"
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -18,7 +18,7 @@ This guide summarizes the key developer advances in each of the following three 
 
 Great user experiences start with a solid foundation. Windows 7 delivers a solid development platform and innovative tools that give you more options, increased application compatibility, better performance, and sophisticated document support. This results in a simple, more reliable environment for your applications and a familiar, intuitive one for your users.
 
-We've kept the user interface consistent, predictable and easy to use, while adding multi-touch support, scrolling, and other intuitive interaction features that take advantage of the latest PC and mobile device capabilities. With Windows 7, developers have the power to build the right user experiences for their applications. (See [Windows User Experience Interaction Guidelines](/windows/apps/desktop/).)
+We've kept the user interface consistent, predictable and easy to use, while adding multi-touch support, scrolling, and other intuitive interaction features that take advantage of the latest PC and mobile device capabilities. With Windows 7, developers have the power to build the right user experiences for their applications. (See [Windows User Experience Interaction Guidelines](../uxguide/interaction.md).)
 
 [Richer Application Experiences](richer-application-experiences.md)
 

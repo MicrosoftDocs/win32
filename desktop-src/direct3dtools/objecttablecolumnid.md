@@ -85,7 +85,7 @@ An ID that corresponds to the Mips column.
 An ID that corresponds to the ID column.
 
 <span id="ObjectTableColumnID_FileName"></span><span id="objecttablecolumnid_filename"></span><span id="OBJECTTABLECOLUMNID_FILENAME"></span>**ObjectTableColumnID\_FileName**  
-An ID that corresonds to the filename column.
+An ID that corresponds to the filename column.
 
 <span id="ObjectTableColumnID_InUse"></span><span id="objecttablecolumnid_inuse"></span><span id="OBJECTTABLECOLUMNID_INUSE"></span>**ObjectTableColumnID\_InUse**  
 An ID that corresponds to the In Use column.

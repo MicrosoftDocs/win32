@@ -2,7 +2,7 @@
 title: IPsec Configuration
 description: Windows Filtering Platform (WFP) is the underlying platform for Windows Firewall with Advanced Security.
 ms.assetid: d54b5caa-daea-4231-9909-7a8d388df661
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -40,9 +40,9 @@ For more information on IKE, see also:
 
 ## What is AuthIP
 
-Authenticated Internet Protocol (AuthIP) is a new key exchange protocol that expands IKE as follows.
+Authenticated Internet Protocol (AuthIP) is a key exchange protocol that expands IKEv1 as follows.
 
-<dl> While IKE only supports computer authentication credentials, AuthIP also supports:
+<dl> While IKEv1 supports only computer authentication credentials, AuthIP also supports:
 
 -   User credentials: NTLM, Kerberos, certificates.
 -   Network Access Protection (NAP) health certificates.
@@ -57,7 +57,9 @@ AuthIP can be used with secure sockets to implement application-based IPsec secu
 -   Client impersonation. (IPsec impersonates the security context under which the socket is created.)
 -   Inbound and outbound peer name validation. See [**WSASetSocketPeerTargetName**](/windows/desktop/api/ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname) for more information.
 
-  
+> [!NOTE]
+> Microsoft recommends the usage of IKEv2 whenever possible.
+
 </dl>
 
 ## What is an IPsec Policy

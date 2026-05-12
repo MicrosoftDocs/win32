@@ -1,10 +1,10 @@
-﻿---
+---
 title: DNS functions
 description: The following functions are defined for DNS.
 ms.assetid: 9b3c1c20-5516-41de-b00f-b95736ff53f1
 keywords:
 - Domain Name System, reference, functions
-ms.topic: article
+ms.topic: reference
 ms.date: 07/13/2023
 ---
 

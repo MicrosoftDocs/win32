@@ -9,7 +9,7 @@ keywords:
 - ODL MIDL , keywords
 - ODL MIDL , statements
 - ODL MIDL , directives
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -185,7 +185,7 @@ The following topics list the Object Description Language (ODL) attributes, keyw
         \[[**version**](version.md)\]
     :::column-end:::
     :::column:::
-        Â
+        
     :::column-end:::
 :::row-end:::
 

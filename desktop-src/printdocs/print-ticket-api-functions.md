@@ -2,7 +2,7 @@
 description: The following functions are used to manage print tickets.
 ms.assetid: 9e942a1d-660b-4691-9282-ffb49e0b9848
 title: Print Ticket API Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

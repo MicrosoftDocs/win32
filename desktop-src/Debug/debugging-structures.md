@@ -2,8 +2,8 @@
 description: 'The following structures are used with debugging:'
 ms.assetid: bf1294cd-1836-49d3-9cc4-4532429a301f
 title: Debugging Structures
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Debugging Structures

@@ -2,7 +2,7 @@
 description: A unique identifier for an identity.
 ms.assetid: b5566533-4757-4882-86ea-c7c902d529d2
 title: System.Identity.UniqueID
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

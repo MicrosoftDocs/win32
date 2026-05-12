@@ -3,7 +3,7 @@ description: WMI queries use WMI Query Language (WQL), a subset of SQL. For more
 ms.assetid: 5ab1b92d-cc3c-4298-9af9-a5a2b37f0abd
 ms.tgt_platform: multiple
 title: WMI and SQL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

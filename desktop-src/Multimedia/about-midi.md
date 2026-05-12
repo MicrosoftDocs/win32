@@ -19,7 +19,7 @@ keywords:
 - MCI (Media Control Interface),Musical Instrument Digital Interface (MIDI)
 - stream buffers,about
 - MIDI services,about
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

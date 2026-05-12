@@ -2,7 +2,7 @@
 title: Collect WinHTTP traces
 description: On Windows 7 and later, you can collect WinHTTP traces by using netsh.exe.
 ms.date: 11/02/2022
-ms.topic: article
+ms.topic: reference
 ---
 
 # Collect WinHTTP traces

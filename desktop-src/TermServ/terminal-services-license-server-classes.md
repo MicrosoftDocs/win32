@@ -3,7 +3,7 @@ title: Remote Desktop License Server classes
 description: The Remote Desktop License Server WMI provider provides the following classes.
 ms.assetid: 9b069e50-1c1d-45d9-81f5-6e9735ff4ae7
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

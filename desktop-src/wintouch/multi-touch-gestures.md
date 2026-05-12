@@ -5,7 +5,7 @@ ms.assetid: 0ffe222a-a0ac-498b-a4ca-85cfb1caba93
 keywords:
 - Windows Touch,gestures
 - gestures,about
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

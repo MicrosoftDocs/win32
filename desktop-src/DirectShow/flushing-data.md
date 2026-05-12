@@ -2,7 +2,7 @@
 description: Flushing Data
 ms.assetid: 528763a2-c0f2-4981-91dc-dd17987f5bd5
 title: Flushing Data
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -3,7 +3,7 @@ title: Projected File System Programming Guide
 description: Conceptual information on implementing a ProjFS provider application.
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 01/17/2020
-ms.topic: article
+ms.topic: reference
 ---
 
 # Projected File System (ProjFS) programming guide

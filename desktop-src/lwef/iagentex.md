@@ -2,7 +2,7 @@
 title: IAgentEx
 description: IAgentEx
 ms.assetid: 6d9d67c6-26f6-435a-9ddf-f1f0a667f963
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

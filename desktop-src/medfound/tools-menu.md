@@ -2,7 +2,7 @@
 description: Tools Menu
 ms.assetid: ed623e1c-3df8-400c-8c5b-134c8a1f2ab8
 title: Tools Menu
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

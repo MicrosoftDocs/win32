@@ -2,7 +2,7 @@
 description: Advanced Capture Topics
 ms.assetid: 407702b2-5f4f-424d-a3ec-b0473e1b0da3
 title: Advanced Capture Topics
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

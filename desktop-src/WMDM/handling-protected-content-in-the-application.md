@@ -15,7 +15,7 @@ keywords:
 - desktop applications,DRM-protected content
 - creating Windows Media Device Manager applications,DRM-protected content
 - DRM-protected content
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -32,7 +32,7 @@ Before using a device, your application should determine whether the device supp
 
  
 
-If your application will link to Windows Media Format SDK methods, it will need to link to the Windows Media Format library WMStubDRM.lib. For more information on calling Windows Media Format methods on DRM-protected content, see "Enabling DRM Support" in the Windows Media Format SDK documentation. Note that there is a problem with linking to both Mssachlp.lib and WMStubDRM.lib. This is covered in [KB article 890079 on MSDN](https://support.microsoft.com/default.aspx?scid=kb;en-us;890079).
+If your application will link to Windows Media Format SDK methods, it will need to link to the Windows Media Format library WMStubDRM.lib. For more information on calling Windows Media Format methods on DRM-protected content, see "Enabling DRM Support" in the Windows Media Format SDK documentation. Note that there is a problem with linking to both Mssachlp.lib and WMStubDRM.lib. This is covered in KB article 890079.
 
 The following C++ code example determines whether a device is a Windows Media DRM 10 device and, if so, that its clock is up to date.
 

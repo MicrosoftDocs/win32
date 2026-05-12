@@ -2,7 +2,7 @@
 title: Drop-Down Color Picker
 description: The Windows Ribbon framework provides a specialized Drop-Down Color Picker control that exposes a variety of color settings through a split button and customizable drop-down color selector.
 ms.assetid: 65e1fc23-7ac0-4bb3-9359-28ce88acf356
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -92,18 +92,18 @@ The basic markup required for each Drop-Down Color Picker type is demonstrated i
 
 ```XML
 
-<Group CommandName=&quot;cmdDropDownColorPickerGroup&quot;
-       SizeDefinition=&quot;ThreeButtons&quot;>
+<Group CommandName="cmdDropDownColorPickerGroup"
+       SizeDefinition="ThreeButtons">
   <DropDownColorPicker
-    CommandName=&quot;cmdDropDownColorPickerThemeColors&quot;
-    ColorTemplate=&quot;ThemeColors&quot;/>
+    CommandName="cmdDropDownColorPickerThemeColors"
+    ColorTemplate="ThemeColors"/>
   <DropDownColorPicker
-    CommandName=&quot;cmdDropDownColorPickerStandardColors&quot;
-    ColorTemplate=&quot;StandardColors&quot;/>
+    CommandName="cmdDropDownColorPickerStandardColors"
+    ColorTemplate="StandardColors"/>
   <DropDownColorPicker
-    CommandName=&quot;cmdDropDownColorPickerHighlightColors&quot;
-    ColorTemplate=&quot;HighlightColors&quot;
-    StandardColorGridRows=&quot;1&quot;/>
+    CommandName="cmdDropDownColorPickerHighlightColors"
+    ColorTemplate="HighlightColors"
+    StandardColorGridRows="1"/>
 </Group>
 ```
 
@@ -113,7 +113,7 @@ The basic markup required for each Drop-Down Color Picker type is demonstrated i
 
 ## Code
 
-As a specialized control that supports customization, any implemention of the Drop-Down Color Picker that takes advantage of these capabilities requires specialized application code to manage properties and handle any Commands issued by the control.
+As a specialized control that supports customization, any implementation of the Drop-Down Color Picker that takes advantage of these capabilities requires specialized application code to manage properties and handle any Commands issued by the control.
 
 ### Properties
 

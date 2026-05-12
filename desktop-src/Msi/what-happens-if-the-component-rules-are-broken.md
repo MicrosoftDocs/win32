@@ -2,7 +2,7 @@
 description: In certain cases, authors may decide they need to break the rules for creating components as discussed in Organizing Applications into Components and Changing the Component Code.
 ms.assetid: 487b6a00-77eb-4c51-8e32-46bcd4493df8
 title: What happens if the component rules are broken?
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

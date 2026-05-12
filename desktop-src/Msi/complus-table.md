@@ -2,7 +2,7 @@
 description: The Complus table contains information needed to install COM+ applications.
 ms.assetid: 0c9a7469-5959-45ad-b84d-6cfd3e169ff6
 title: Complus Table
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

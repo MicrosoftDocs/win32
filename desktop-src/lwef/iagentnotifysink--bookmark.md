@@ -2,7 +2,7 @@
 title: IAgentNotifySink Bookmark
 description: IAgentNotifySink Bookmark
 ms.assetid: 172042af-a524-4ea4-955d-4e3dee079344
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Installing a COM+ Application with the Windows Installer
 ms.assetid: 75c3c287-36c6-49b3-aa28-89e5a99f4c54
 title: Installing a COM+ Application with the Windows Installer
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

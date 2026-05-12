@@ -1,6 +1,6 @@
 ---
 title: MrmDumpPriFile function (MrmResourceIndexer.h)
-description: Dumps a PRI file (which is binary) to its XML equivalent (as a file on disk), in order to make it more easily readable.
+description: Dumps a binary PRI file to its XML equivalent on disk.
 ms.assetid: FE1982AB-881C-4F07-8B9E-E3770E5B5099
 keywords:
 - MrmDumpPriFile function Menus and Other Resources
@@ -18,9 +18,12 @@ ms.date: 05/31/2018
 
 # MrmDumpPriFile function
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+Dumps a PRI file to its XML equivalent. PRI files are stored in an undocumented binary format, so in order to view 
+the contents of a file for debugging etc. it must be saved ("dumped") as an XML file.  
 
-Dumps a PRI file (which is binary) to its XML equivalent (as a file on disk), in order to make it more easily readable. For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
+This function performs the equivalent of the `makepri dump` command.
+
+COM must be initialized (e.g. by calling **[CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex)**) before using this function.
 
 ## Syntax
 
@@ -45,7 +48,7 @@ HRESULT HRESULT MrmDumpPriFile(
 
 Type: **PCWSTR**
 
-A full file path to a PRI file. This is the PRI file that will be dumped to XML.
+The path to the PRI file to dump. If this file does not have an embedded schema, then *schemaPriFile* is required.
 
 </dd> <dt>
 
@@ -54,16 +57,18 @@ A full file path to a PRI file. This is the PRI file that will be dumped to XML.
 
 Type: **PCWSTR**
 
-An optional full file path to a schema file (or to a PRI file representing a schema; see Remarks).
+The path to the PRI file that provides the scheme for the *indexFileName* if needed, otherwise **NULL**. 
+See **Remarks** for more info.
 
 </dd> <dt>
 
 *dumpType* \[in\]
 </dt> <dd>
 
-Type: **[**MrmDumpType**](mrmdumptype.md)**
+Type: [**MrmDumpType**](mrmdumptype.md)
 
-Specifies how detailed the XML dump should be, or whether a schema should be dumped.
+Specified the kind of dump to create. For most use-cases, **MrmDumpTypeBasic** is sufficient. See the 
+[**MrmDumpType** reference](mrmdumptype.md) for more info.
 
 </dd> <dt>
 
@@ -72,7 +77,7 @@ Specifies how detailed the XML dump should be, or whether a schema should be dum
 
 Type: **PCWSTR**
 
-The path of an XML file to create.
+The path of the XML file to create. If the file already exists, it will be overwritten.
 
 </dd> </dl>
 
@@ -80,11 +85,26 @@ The path of an XML file to create.
 
 Type: **HRESULT**
 
-S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED() or FAILED() macros (defined in winerror.h) to determine success or failure.
+S\_OK if the function succeeded, otherwise some other value. Use the **SUCCEEDED** or **FAILED** macros (defined in winerror.h) 
+to determine success or failure.
 
 ## Remarks
 
-A schema-free resource pack is one that was created with the [**MrmPackagingOptionsOmitSchemaFromResourcePacks**](mrmpackagingoptions.md) argument passed to [**MrmCreateResourceFile**](mrmcreateresourcefile.md) or [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md) (or with the *omitSchemaFromResourcePacks* switch in the PRI config file). To dump a schema-free resource pack, pass the path to your main package PRI data as the argument for the *schemaPriFile* parameter.
+You can create XML dumps from a PRI file, but there is no equivalent function to build a PRI file from an
+XML dump - that must be done manually by using the other Resource Indexer APIs. 
+
+### When to use a *schemaPriFile*
+
+In a PRI file, resources are identified by both a name and an index (known as the "Schema"). When a resource-pack 
+PRI file is created, the resource names can be omitted to save space. The resource-pack PRI file will contain only
+the resource indexes, not the names. In order to produce the dump file (which includes resource names), the original 
+base PRI file is required.
+
+A schema-free resource pack PRI file is created by using the 
+[**MrmPackagingOptionsOmitSchemaFromResourcePacks**](mrmpackagingoptions.md) option when creating a resource file via 
+one of the **MrmCreateResourceFile...** functions. When dumping such a resource-pack PRI file, pass the original (main) 
+PRI file as the *schemaPriFile* argument.
+
 
 ## Requirements
 
@@ -101,11 +121,16 @@ A schema-free resource pack is one that was created with the [**MrmPackagingOpti
 
 
 ## See also
+<dl> <dt>
 
+[**MrmDumpPriDataInMemory**](mrmdumppridatainmemory.md)
+</dt></dl>
+
+<dl> <dt>
+
+[**MrmDumpPriFileInMemory**](mrmdumpprifileinmemory.md)
+</dt></dl>
 <dl> <dt>
 
 [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
-
- 
-

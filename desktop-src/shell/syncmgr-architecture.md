@@ -1,7 +1,7 @@
 ---
 description: The Synchronization Manager includes user interface components, such as the tabbed dialog boxes in the SyncMgr service, error dialogs, and progress dialogs.
 title: Synchronization Manager Architecture
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: db338835-ca8d-4e9f-973a-8eb081feda2b
 api_name: 

@@ -2,7 +2,7 @@
 description: Given that in many cases you will be able to debug only a portion of your components functionality within the Microsoft Visual Basic environment, there will be situations in which you will need to debug components built with Visual Basic after they have been compiled. Since the Visual Basic environment doesnt enable this, you must instead use the Microsoft Visual C++ environment.
 ms.assetid: a58c5884-3c2d-4699-8b19-277003912dfd
 title: Debugging Compiled Visual Basic Components
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

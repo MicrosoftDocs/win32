@@ -2,7 +2,7 @@
 description: 'The following elements are associated with painting and drawing:'
 ms.assetid: 6dd65dce-0736-411c-b35e-20e4c4eb834c
 title: Painting and Drawing Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

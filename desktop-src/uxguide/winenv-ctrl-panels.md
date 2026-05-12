@@ -2,7 +2,7 @@
 title: Control Panels
 description: Use control panel items to help users configure system-level features and perform related tasks. Programs that have a user interface should be configured directly from their UI instead.
 ms.assetid: 845325ef-9f1d-4aa7-a5b0-685fac74a9f8
-ms.topic: article
+ms.topic: reference
 ms.date: 10/20/2020
 ---
 

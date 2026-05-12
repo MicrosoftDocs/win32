@@ -2,8 +2,8 @@
 description: Loopback Recording
 ms.assetid: 71c567f7-fffa-4b75-897a-63ed30c4c9b0
 title: Loopback Recording
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 04/16/2025
 ---
 
 # Loopback Recording
@@ -68,7 +68,7 @@ WASAPI supports loopback recording regardless of whether the audio hardware cont
 
 Windows Vista provides digital rights management (DRM). Content providers rely on DRM to protect their proprietary music or other content from unauthorized copying and other illegal uses. Similarly, a trusted audio driver does not permit a loopback device to capture digital streams that contain protected content. Windows Vista allows only trusted drivers to play protected content. For more information about trusted drivers and DRM, see the Windows DDK documentation.
 
-WASAPI loopback contains the mix of all audio being played, regardless of the Terminal Services session the audio originated from. For example, you can run a loopback client in a service running in session 0 and capture audio from all user sessions, as well as audio being played from session 0.
+WASAPI loopback by default contains the mix of all audio being played, regardless of the Terminal Services session the audio originated from. For example, you can run a loopback client in a service running in session 0 and capture audio from all user sessions, as well as audio being played from session 0.
 
 Remote Desktop allows redirecting audio to the client. This is implemented by creating new audio devices that only appear for that session.
 

@@ -12,7 +12,7 @@ keywords:
 - reference for WCS,structures
 
 
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

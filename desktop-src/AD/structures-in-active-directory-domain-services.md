@@ -7,7 +7,7 @@ keywords:
 - Active Directory Structures AD
 - Active Directory, Reference, Structures
 - Structures AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

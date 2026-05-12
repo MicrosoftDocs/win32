@@ -25,6 +25,8 @@
           href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_custom_decompression_flags
         - name: "DSTORAGE_DEBUG"
           href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_debug
+        - name: "DSTORAGE_ENQUEUE_REQUEST_FLAGS"
+          href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_enqueue_request_flags
         - name: "DSTORAGE_GET_REQUEST_FLAGS"
           href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_get_request_flags
         - name: "DSTORAGE_PRIORITY"
@@ -123,6 +125,11 @@
           items: 
           - name: "GetCompressionSupport"
             href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragequeue2-getcompressionsupport
+        - name: "IDStorageQueue3"
+          href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragequeue3
+          items: 
+          - name: "EnqueueRequests"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragequeue3-enqueurequests
         - name: "IDStorageStatusArray"
           href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragestatusarray
           items: 
@@ -149,6 +156,8 @@
           href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_destination_memory
         - name: "DSTORAGE_DESTINATION_MULTIPLE_SUBRESOURCES structure"
           href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_destination_multiple_subresources
+        - name: "DSTORAGE_DESTINATION_MULTIPLE_SUBRESOURCES_RANGE structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_destination_multiple_subresources_range
         - name: "DSTORAGE_DESTINATION_TEXTURE_REGION structure"
           href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_destination_texture_region
         - name: "DSTORAGE_DESTINATION_TILES structure"

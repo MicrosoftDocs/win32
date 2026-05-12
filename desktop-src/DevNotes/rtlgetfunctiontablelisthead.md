@@ -36,7 +36,7 @@ This function has no parameters.
 
 ## Return value
 
-Returns a pointer to the head of the function table list.
+Returns a pointer to the head of the function table linked list. Nodes in this list are of type [**DYNAMIC\_FUNCTION\_TABLE**](dynamic_function_table_type.md). A debugger can walk all the entries in this list to find all of the function tables in a target process.
 
 ## Remarks
 

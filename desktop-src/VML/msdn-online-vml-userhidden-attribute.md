@@ -2,7 +2,7 @@
 title: VML UserHidden Attribute
 description: VML UserHidden Attribute
 ms.assetid: 0e4616c7-a456-4157-b77a-56cd289e913c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,8 +2,8 @@
 description: 'The following constants are used with power policy schemes:'
 ms.assetid: 475c2819-5ed7-4b83-a119-4c55b215b9b6
 title: Power Management Constants
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Power Management Constants

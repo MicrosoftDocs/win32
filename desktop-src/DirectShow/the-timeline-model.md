@@ -2,7 +2,7 @@
 description: The Timeline Model
 ms.assetid: 53e782a2-0fab-46b4-b029-20017d9905bd
 title: The Timeline Model
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---
@@ -15,7 +15,7 @@ ms.custom: UpdateFrequency5
 
 A *timeline* is an object that [DirectShow Editing Services](directshow-editing-services.md) (DES) uses to represent a video editing project. An editing project starts as a collection of source clips, taken from video files, sound files, or still image files. A linear sequence of clips forms a *track*. In DirectShow Editing Services (DES), audio and video are placed in separate tracks.
 
-Tracks can also be layered. Multiple audio tracks are mixed together, and might include audio effects, such as fades or reverb. Multiple video tracks are used to create transitions. For example, you can create a wipe from one clip to another. Another example is a chroma key, in which the background of one clip is keyed out and replaced by a different track. (The weather forecaster in front of a satelite image is an example of chroma keying.)
+Tracks can also be layered. Multiple audio tracks are mixed together, and might include audio effects, such as fades or reverb. Multiple video tracks are used to create transitions. For example, you can create a wipe from one clip to another. Another example is a chroma key, in which the background of one clip is keyed out and replaced by a different track. (The weather forecaster in front of a satellite image is an example of chroma keying.)
 
 DES uses a tree structure to represent an editing:
 

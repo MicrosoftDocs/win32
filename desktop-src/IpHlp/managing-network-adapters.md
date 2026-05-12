@@ -2,7 +2,7 @@
 description: IP Helper provides capabilities for managing network adapters. There is a one-to-one correspondence between the interfaces and adapters on a given computer. An interface is an IP-level abstraction, whereas an adapter is a datalink-level abstraction.
 ms.assetid: fbb32941-2add-4f74-90c4-1dc1bfebd64c
 title: Managing Network Adapters
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

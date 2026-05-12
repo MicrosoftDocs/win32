@@ -2,7 +2,7 @@
 title: OLE/COM Object Viewer
 description: The OLE-COM object viewer, Oleview.exe, is an application supplied with Visual C++ that displays the COM objects installed on your computer and the interfaces they support. You can use this object viewer to view type libraries.
 ms.assetid: 896a78a7-f023-4f32-b5bb-afee4a40a7fc
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The OLE/COM Object Viewer, oleview.exe, is an application supplied in the Windows SDK that displays the COM objects installed on your computer and the interfaces they support. You can use this object viewer to view type libraries and interfaces. 
 
-The OLE/COM Object Viewer app is found in the Windows SDK in \\Program Files (x86)\\Windows Kits\\10\\[version]\\[architecture]\\oleview.exe. The first time you use oleview.exe, run it from an elevated command prompt. The interface viewer requires administrator rights to register its DLL.
+The OLE/COM Object Viewer app is found in the Windows SDK in \\Program Files (x86)\\Windows Kits\\10\\bin\\[version]\\[architecture]\\oleview.exe. The first time you use oleview.exe, run it from an elevated command prompt. The interface viewer requires administrator rights to register its DLL.
 
 ## To view a COM object's type library
 

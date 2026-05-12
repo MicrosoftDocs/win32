@@ -2,7 +2,7 @@
 description: The USERNAME property is a user performing installation.
 ms.assetid: '13f3cf1a-e303-469c-9166-bba96046188b'
 title: USERNAME property
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

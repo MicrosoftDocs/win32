@@ -2,7 +2,7 @@
 title: How To Check for Driver Support
 description: This topic shows how to determine whether multithreading features (including resource creation and command lists) are supported for hardware acceleration.
 ms.assetid: f577357c-c2e5-4e58-9870-2e995bdc6782
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -26,7 +26,7 @@ The runtime supports multithreading and command lists regardless of driver and h
 
         If **DriverCommandLists** is **TRUE**, the driver supports command lists. That is, rendering commands issued by an immediate context can be concurrent with object creation on separate threads with low risk of a frame rate stutter.
 
-    -   If **DriverConcurrentCreates** is **FALSE**, a driver does not support concurrent creation, which means the amount of concurrency possible is extremely limited. The graphics hardware cannot create objects of different types on different threads simultanueously. Additionally, the graphics hardware cannot use an immediate context to issue render commands while the graphics hardware attempts to create a resource on another thread.
+    -   If **DriverConcurrentCreates** is **FALSE**, a driver does not support concurrent creation, which means the amount of concurrency possible is extremely limited. The graphics hardware cannot create objects of different types on different threads simultaneously. Additionally, the graphics hardware cannot use an immediate context to issue render commands while the graphics hardware attempts to create a resource on another thread.
 
 ## Related topics
 

@@ -2,7 +2,7 @@
 title: Getting a Pointer to an Object
 description: Getting a Pointer to an Object
 ms.assetid: 4af9d356-402b-4e69-9f6e-8589057d3ac4
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

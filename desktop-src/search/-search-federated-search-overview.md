@@ -1,12 +1,12 @@
 ---
 description: Windows 7 support for search federation to remote data stores using OpenSearch technologies enables users to access and interact with their remote data from within Windows Explorer.
 ms.assetid: 2014b7ac-4885-4f17-b6d4-5fd95872ed59
-title: Federated Search in Windows
-ms.topic: article
+title: Federated search in Windows
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Federated Search in Windows
+# Federated search in Windows
 
 Windows 7 support for search federation to remote data stores using OpenSearch technologies enables users to access and interact with their remote data from within Windows Explorer.
 
@@ -20,7 +20,7 @@ The following list of topics describe how you can build a web-based data store t
 -   [Deploying Search Connectors in Windows Federated Search](-search-federated-search-deploying.md)
 -   [Search Connector Description Schema](search-sconn-desc-schema-entry.md)
 
-## Additional Resources
+## Additional resources
 
 -   The [OpenSearch](-search-sample-opensearch.md) code sample demonstrates how to create a federated search service using the [OpenSearch](https://github.com/dewitt/opensearch) protocol, and an OpenSearch Descriptor (.osdx) file (a search connector).
 -   For a video demonstration of creating an [OpenSearch](https://github.com/dewitt/opensearch) web service for a SQL database, see [Windows 7: Empower Users to Find, Visualize and Organize their Data with Libraries and the Explorer](https://channel9.msdn.com/pdc2008/PC16/).

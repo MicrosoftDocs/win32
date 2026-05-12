@@ -2,7 +2,7 @@
 description: Learn about Windows Installer concepts that begin with the letter P, such as package code and patching.
 ms.assetid: 868f5ed3-b179-404b-9462-1d3a179103f8
 title: P (Windows Installer)
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 
@@ -36,7 +36,7 @@ Method of updating a file that replaces only the bits being changed, rather than
 <span id="_msi_patch_file_gly"></span><span id="_MSI_PATCH_FILE_GLY"></span>**patch file**
 </dt> <dd>
 
-P [atch package](patch-packages.md) used for patching. For more information, see [Patching and Upgrades](patching-and-upgrades.md).
+[Patch package](patch-packages.md) used for patching. For more information, see [Patching and Upgrades](patching-and-upgrades.md).
 
 </dd> <dt>
 

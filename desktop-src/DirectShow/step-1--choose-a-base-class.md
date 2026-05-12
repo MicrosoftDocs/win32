@@ -2,7 +2,7 @@
 description: Choose a base class as part of writing a transform filter. Learn which classes are appropriate for transform filters.
 ms.assetid: 4b2d3add-0430-480b-ad5f-bb1aa19fef21
 title: Step 1. Choose a Base Class
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: DirectShow Editing Services C++ Reference
 ms.assetid: 17da83d8-bd39-457c-b9cf-343cfec249f8
 title: DirectShow Editing Services C++ Reference
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

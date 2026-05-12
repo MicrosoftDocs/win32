@@ -2,7 +2,7 @@
 description: Learn about the PageBlendColorSpace user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 86e3f44d-192e-412a-abb1-118e8592d90b
 title: PageBlendColorSpace
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

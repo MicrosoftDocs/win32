@@ -2,7 +2,7 @@
 title: Create a directory listing in a ListBox
 description: This topic demonstrates how to use a single-selection list box to display and access the contents of a directory.
 ms.assetid: 11C0DB10-59BA-47C4-8687-101A2A85D660
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -81,7 +81,7 @@ INT_PTR CALLBACK DlgDelFileProc(HWND hDlg, UINT message,
                     iRet = MessageBox(hDlg, achTemp, L"Deleting Files", 
                         MB_YESNO | MB_ICONEXCLAMATION);
                     if (iRet == IDNO)
-                        return TRUE;;
+                        return TRUE;
 
                     // Delete the file.
                     fResult = DeleteFile(pszFileToDelete); 
@@ -146,7 +146,3 @@ INT_PTR CALLBACK DlgDelFileProc(HWND hDlg, UINT message,
 
 [Using List Boxes](using-list-boxes.md)
 </dt> </dl>
-
- 
-
- 

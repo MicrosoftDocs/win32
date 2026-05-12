@@ -2,7 +2,7 @@
 description: This section lists the upcalls that service providers may make into the Windows Sockets client.
 ms.assetid: a2069814-de95-40a2-ab09-c5187ecd56a7
 title: Upcalls Exposed by Windows Sockets 2 DLL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -14,7 +14,7 @@ It is not mandatory that providers use all of these upcalls. The following table
 
 | Function                                                               | Description                                                                                                              | Status                         | Meaning                                                                                                                                                                          |
 |------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**WPUCloseEvent**](/windows/desktop/api/Ws2spi/nf-ws2spi-wpucloseevent)                               | Closes an open event object handle.                                                                                      | Optional.                      | The provider may use an an appropriate Windows call instead.                                                                                                                     |
+| [**WPUCloseEvent**](/windows/desktop/api/Ws2spi/nf-ws2spi-wpucloseevent)                               | Closes an open event object handle.                                                                                      | Optional.                      | The provider may use an appropriate Windows call instead.                                                                                                                     |
 | [**WPUCloseSocketHandle**](/windows/desktop/api/Ws2spi/nf-ws2spi-wpuclosesockethandle)                 | Closes a socket handle allocated by the Windows Sockets DLL.                                                             | Required.                      | The Ws2\_32.dll needs to query and/or modify internal state information associated with the socket handle.                                                                       |
 | [**WPUCloseThread**](/windows/desktop/api/Ws2spi/nf-ws2spi-wpuclosethread)                             | Closes a thread ID for an internal service thread.                                                                       |                                |                                                                                                                                                                                  |
 | [**WPUCompleteOverlappedRequest**](/windows/desktop/api/Ws2spi/nf-ws2spi-wpucompleteoverlappedrequest) | Delivers overlapped I/O completion notification where the completion mechanism is something other than user mode APC.    |                                |                                                                                                                                                                                  |

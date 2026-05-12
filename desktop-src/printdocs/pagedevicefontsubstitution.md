@@ -2,7 +2,7 @@
 description: Review the PageDeviceFontSubstitution user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 741aa729-35c3-43c2-93d8-e25ed508cfa6
 title: PageDeviceFontSubstitution
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

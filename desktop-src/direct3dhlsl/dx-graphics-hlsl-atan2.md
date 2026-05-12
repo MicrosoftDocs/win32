@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # atan2
 
-Returns the arctangent of two values (x,y).
+Returns the arctangent of two values (y,x).
 
 
 

@@ -1,12 +1,12 @@
 ---
 description: You can extend Windows Search to index the contents and properties of new file formats, and data stores using data add-in interfaces.
 ms.assetid: 69edf316-77a8-4cc5-9af8-fb89f440c9ea
-title: Extending the Index (Windows Search)
-ms.topic: article
+title: Extending the index (Windows Search)
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Extending the Index (Windows Search)
+# Extending the index (Windows Search)
 
 You can extend Windows Search to index the contents and properties of new file formats, and data stores using [data add-in interfaces](./-search-data-addins-interfaces-entry-page.md). To create Windows Search add-ins, third-party developers must first implement a Shell data store, and then develop a protocol handler so that Windows Search can access the data for indexing. If you have a custom file format, you must develop a filter handler to index file contents, and a property handler for every file type to index properties.
 
@@ -23,7 +23,7 @@ This section on extending the index with add-ins contains the following topics:
 -   [Developing Property Handlers for Windows Search](-search-3x-wds-extidx-propertyhandlers.md)
 -   [Developing Protocol Handlers](-search-3x-wds-phaddins.md)
 
-## Additional Resources
+## Additional resources
 
 For related code samples, see [Windows Search Code Samples](-search-samples-ovw.md).
 

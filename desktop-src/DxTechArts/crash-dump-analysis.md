@@ -2,7 +2,7 @@
 title: Crash Dump Analysis
 description: This technical article provides info about how to write and use a minidump.
 ms.assetid: 575c4716-18c2-7b11-7308-aa2e3d8efac7
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -115,7 +115,7 @@ If you archive the product during your daily build process, also be sure to incl
 3.  Click **Optimization**, and set **References** to E**liminate Unreferenced Data (/OPT:REF)**.
 4.  Set **Enable COMDAT Folding** to **Remove Redundant COMDATs (/OPT:ICF)**.
 
-MSDN has more detailed information on the [**MINIDUMP\_EXCEPTION\_INFORMATION**](/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_exception_information) structure and the [**MiniDumpWriteDump**](/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) function.
+For more information, see the [**MINIDUMP\_EXCEPTION\_INFORMATION**](/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_exception_information) structure and the [**MiniDumpWriteDump**](/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump) function.
 
 ## Using Dumpchk.exe
 

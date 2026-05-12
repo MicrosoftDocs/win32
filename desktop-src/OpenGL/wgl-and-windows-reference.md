@@ -2,7 +2,7 @@
 title: WGL and Windows Reference
 description: WGL and Windows Reference
 ms.assetid: 76775ae9-0467-487f-afbd-a995d2c157d9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

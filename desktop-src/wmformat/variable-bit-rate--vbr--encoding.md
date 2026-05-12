@@ -18,7 +18,7 @@ keywords:
 - quality-based VBR encoding,about
 - unconstrained VBR encoding,about
 - constrained VBR encoding
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -971,8 +971,6 @@
           href: /windows/win32/api/Fwpmtypes/ns-fwpmtypes-fwpm_layer0
         - name: "FWPM_LAYER_ENUM_TEMPLATE0"
           href: /windows/win32/api/Fwpmtypes/ns-fwpmtypes-fwpm_layer_enum_template0
-        - name: "FWPM_LAYER_STATISTICS0"
-          href: /windows/win32/api/Fwpmtypes/ns-fwpmtypes-fwpm_layer_statistics0
         - name: "FWPM_NET_EVENT0"
           href: /windows/win32/api/Fwpmtypes/ns-fwpmtypes-fwpm_net_event0
         - name: "FWPM_NET_EVENT1"
@@ -1045,8 +1043,6 @@
           href: /windows/win32/api/Fwpmtypes/ns-fwpmtypes-fwpm_session0
         - name: "FWPM_SESSION_ENUM_TEMPLATE0"
           href: /windows/win32/api/Fwpmtypes/ns-fwpmtypes-fwpm_session_enum_template0
-        - name: "FWPM_STATISTICS0"
-          href: /windows/win32/api/Fwpmtypes/ns-fwpmtypes-fwpm_statistics0
         - name: "FWPM_SUBLAYER0"
           href: /windows/win32/api/Fwpmtypes/ns-fwpmtypes-fwpm_sublayer0
         - name: "FWPM_SUBLAYER_CHANGE0"

@@ -4,7 +4,7 @@ description: How to build a distributed Remote Procedure Call (RPC) application.
 ms.assetid: 6491d69b-b93a-45bb-9f41-d97f8b2c9516
 keywords:
 - Remote Procedure Call RPC , tasks, building applications
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

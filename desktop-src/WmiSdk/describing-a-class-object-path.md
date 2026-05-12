@@ -3,7 +3,7 @@ description: A class object path describes the location of a class within a name
 ms.assetid: 5ae95707-d023-4102-9b41-140c54b0c5b7
 ms.tgt_platform: multiple
 title: Describing a Class Object Path
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

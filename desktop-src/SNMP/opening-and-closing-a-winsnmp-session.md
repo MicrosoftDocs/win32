@@ -2,7 +2,7 @@
 title: Opening and Closing a WinSNMP Session
 description: To open a session, an application calls the SnmpCreateSession function.
 ms.assetid: 76650231-509b-45be-b156-09752b817854
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

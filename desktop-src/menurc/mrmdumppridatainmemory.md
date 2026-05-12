@@ -1,6 +1,6 @@
 ---
 title: MrmDumpPriDataInMemory function (MrmResourceIndexer.h)
-description: Dumps PRI info (as a blob in memory, created by a previous call to MrmCreateResourceFileInMemory) to its XML equivalent (as in-memory data), in order to make it more easily readable.
+description: Dumps an in-memory binary PRI file to its XML equivalent in memory.
 ms.assetid: 6E563B43-4E0A-465D-A8EA-7DE61738DE06
 keywords:
 - MrmDumpPriDataInMemory function Menus and Other Resources
@@ -18,9 +18,13 @@ ms.date: 05/31/2018
 
 # MrmDumpPriDataInMemory function
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+Dumps an in-memory PRI file to its XML equivalent, storing the result in memory. PRI files are stored in an
+undocumented binary format, so in order to view the contents of a file for debugging etc. it must be saved
+("dumped") XML. 
 
-Dumps PRI info (as a blob in memory, created by a previous call to [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md)) to its XML equivalent (as in-memory data), in order to make it more easily readable. The function allocates memory and returns a pointer to that memory in *outputXmlData*. Call [**MrmFreeMemory**](mrmfreememory.md) with the same pointer to free that memory. For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
+This function performs the equivalent of the `makepri dump` command, but entirely in memory.
+
+COM must be initialized (e.g. by calling **[CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex)**) before using this function.
 
 ## Syntax
 
@@ -48,7 +52,8 @@ HRESULT HRESULT MrmDumpPriDataInMemory(
 
 Type: **BYTE\***
 
-A pointer to PRI data created by a previous call to [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md).
+A pointer to an in-memory PRI file. If this in-memory file does not have an embedded schema, then *schemaPriData* 
+is required.
 
 </dd> <dt>
 
@@ -66,7 +71,8 @@ The size of the data pointed to by *inputPriData*.
 
 Type: **BYTE\***
 
-An optional pointer to PRI info (as a blob in memory) representing schema data created by a previous call to [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md). Don't free *schemaPriData* until after you've finished using the resource indexer. Also see Remarks.
+A pointer to an in-memory PRI file that provides the schema for *inputPriData* if needed, otherwise **NULL**. 
+See the **Remarks** section of [**MrmDumpPriFile**](mrmdumpprifile.md) for more info.
 
 </dd> <dt>
 
@@ -84,7 +90,8 @@ The size of the data pointed to by *schemaPriData*.
 
 Type: **[**MrmDumpType**](mrmdumptype.md)**
 
-Specifies how detailed the XML dump should be, or whether a schema should be dumped.
+Specified the kind of dump to create. For most debugging use-cases, **MrmDumpTypeBasic** is sufficient. See the 
+[**MrmDumpType** reference](mrmdumptype.md) for more info.
 
 </dd> <dt>
 
@@ -93,7 +100,9 @@ Specifies how detailed the XML dump should be, or whether a schema should be dum
 
 Type: **BYTE\*\***
 
-The address of a pointer to BYTE. The function allocates memory and returns a pointer to that memory in *outputXmlData*. Call [**MrmFreeMemory**](mrmfreememory.md) with your pointer to BYTE to free that memory.
+The address of a **BYTE** pointer. On successful return, contains a pointer to the buffer allocated by
+the function that contains the generated XML content. You must free the memory by calling 
+[**MrmFreeMemory**](mrmfreememory.md) when you are done with it.
 
 </dd> <dt>
 
@@ -102,7 +111,8 @@ The address of a pointer to BYTE. The function allocates memory and returns a po
 
 Type: **ULONG\***
 
-The address of a ULONG. In *outputXmlSize*, the function returns the size of the allocated memory pointed to by *outputXmlData*.
+The address of a **ULONG**. On successful return, contains the size of the allocated memory buffer pointed to by
+ *outputXmlData*.
 
 </dd> </dl>
 
@@ -110,11 +120,16 @@ The address of a ULONG. In *outputXmlSize*, the function returns the size of the
 
 Type: **HRESULT**
 
-S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED() or FAILED() macros (defined in winerror.h) to determine success or failure.
+S\_OK if the function succeeded, otherwise some other value. Use the **SUCCEEDED** or **FAILED** macros (defined in winerror.h) 
+to determine success or failure.
 
 ## Remarks
 
-A schema-free resource pack is one that was created with the [**MrmPackagingOptionsOmitSchemaFromResourcePacks**](mrmpackagingoptions.md) argument passed to [**MrmCreateResourceFile**](mrmcreateresourcefile.md) or [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md) (or with the *omitSchemaFromResourcePacks* switch in the PRI config file). To dump a schema-free resource pack, pass the path to your main package PRI data as the argument for the *schemaPriData* parameter.
+See the **Remarks** section of [**MrmDumpPriFile**](mrmdumpprifile.md) for more info,
+as this function is essentially the same (except it works with in-memory data instead of files).
+
+You can obtain an in-memory PRI file either by manually loading an existing PRI file from disk, or by creating it 
+in-memory with [**MrmCreateResourceFileInMemory**](mrmcreateconfig.md).
 
 ## Requirements
 
@@ -131,7 +146,15 @@ A schema-free resource pack is one that was created with the [**MrmPackagingOpti
 
 
 ## See also
+<dl> <dt>
 
+[**MrmDumpPriFile**](mrmdumpprifile.md)
+</dt></dl>
+
+<dl> <dt>
+
+[**MrmDumpPriFileInMemory**](mrmdumpprifileinmemory.md)
+</dt></dl>
 <dl> <dt>
 
 [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems)

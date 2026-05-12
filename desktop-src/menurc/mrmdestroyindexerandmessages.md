@@ -1,6 +1,6 @@
 ---
 title: MrmDestroyIndexerAndMessages function (MrmResourceIndexer.h)
-description: Releases machine resources associated with a resource indexer.
+description: Releases resources associated with a resource indexer.
 ms.assetid: AD770F40-BEDB-46C3-9527-DC46169C6193
 keywords:
 - MrmDestroyIndexerAndMessages function Menus and Other Resources
@@ -18,9 +18,12 @@ ms.date: 05/31/2018
 
 # MrmDestroyIndexerAndMessages function
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+Releases resources associated with a resource indexer. Destroys the handle, frees the indexer, and deletes any messages
+retrieved via **MrmPeekResourceIndexerMessages**. 
 
-Releases machine resources associated with a resource indexer. Destroys the handle, frees the indexer, and deletes any messages. For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
+Note this *does not* free memory allocated via functions such as **MrmCreateConfigInMemory** or 
+**MrmCreateResourceFileInMemory** that produce outputs; that memory must be freed by using **MrmFreeMemory**, 
+as outlined in the specific API topics.
 
 ## Syntax
 
@@ -30,7 +33,6 @@ HRESULT HRESULT MrmDestroyIndexerAndMessages(
   _In_ MrmResourceIndexerHandle indexer
 );
 ```
-
 
 
 ## Parameters
@@ -50,7 +52,8 @@ A handle identifying the resource indexer to destroy.
 
 Type: **HRESULT**
 
-S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED() or FAILED() macros (defined in winerror.h) to determine success or failure.
+S\_OK if the function succeeded, otherwise some other value. Use the **SUCCEEDED** or **FAILED** macros (defined in winerror.h) 
+to determine success or failure.
 
 ## Requirements
 
@@ -68,6 +71,10 @@ S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED()
 
 ## See also
 
+<dl> <dt>
+
+[**MrmFreeMemory**](mrmfreememory.md)
+</dt></dl>
 <dl> <dt>
 
 [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems)

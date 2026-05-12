@@ -2,7 +2,7 @@
 description: The IUpdateServiceRegistration interface defines the following properties.
 ms.assetid: 2bcde8b4-7bff-4887-8080-89da817afb5f
 title: IUpdateServiceRegistration Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

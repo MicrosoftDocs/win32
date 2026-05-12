@@ -6,7 +6,7 @@ keywords:
 - Domain Name System, reference, WMI classes
 - WMI classes
 - WMI classes, DNS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: System.Contact.JobInfo2CompanyAddress
 ms.assetid: d0863304-0f10-47fa-8b86-d552e004f4dd
 title: System.Contact.JobInfo2CompanyAddress
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

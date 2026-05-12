@@ -2,7 +2,7 @@
 title: Specifying Root Signatures in HLSL
 description: Specifying root signatures in HLSL Shader Model 5.1 is an alternative to specifying them in C++ code.
 ms.assetid: 399F5E91-B017-4F5E-9037-DC055407D96F
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

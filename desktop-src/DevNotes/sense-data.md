@@ -192,7 +192,7 @@ Can contain additional detail about the **AdditionalSenseCode** field.
 **FieldReplaceableUnitCode**
 </dt> <dd>
 
-Vender-specific information about the component associated with this sense data.
+Vendor-specific information about the component associated with this sense data.
 
 </dd> <dt>
 

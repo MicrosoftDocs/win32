@@ -2,7 +2,7 @@
 title: File server API support
 description: File server API support
 ms.assetid: C06223B2-C1BD-4CD6-83C8-517F0DD45401
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -30,7 +30,6 @@ Certain APIs are not supported with all protocols or in all scenarios while othe
 
 ## Resources
 
--   [API Support and Compatibility Matrix](https://www.microsoft.com/download/en/details.aspx?id=29043)
 
  
 

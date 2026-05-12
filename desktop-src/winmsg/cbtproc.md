@@ -1,7 +1,7 @@
-﻿---
+---
 title: CBTProc callback function (Windows)
 description: Receive useful notifications from the system.
-ms.date: 06/27/2023
+ms.date: 07/14/2025
 f1_keywords:
 - CBTProc
 - HCBT_ACTIVATE
@@ -24,8 +24,6 @@ api_name:
 - CBTProc
 api_type:
 - UserDefined
-product:
-- Windows
 ms.topic: reference
 topic_type:
 - apiref
@@ -148,8 +146,6 @@ The system has retrieved a [**WM_QUEUESYNC**](wm-queuesync.md) message from the 
     Depends on the *nCode* parameter. For details, see the following Remarks section.
 
 ## Return value
-
-Type: ****
 
 Type: LRESULT
 

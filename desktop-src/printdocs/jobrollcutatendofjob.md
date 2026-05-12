@@ -2,7 +2,7 @@
 description: Learn about the JobRollCutAtEndOfJob element, which describes the cutting method for roll paper. The roll should be cut at the end of the job.
 ms.assetid: 1e2cd767-685b-47d8-9020-a0a5dda63506
 title: JobRollCutAtEndOfJob
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

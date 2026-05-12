@@ -3,7 +3,7 @@ description: An alias in WMI is a symbolic reference in either a class or a clas
 ms.assetid: bf4981dc-3aab-46c5-bf02-48132ccec8c2
 ms.tgt_platform: multiple
 title: Creating a WMI Alias
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

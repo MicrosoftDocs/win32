@@ -29,12 +29,12 @@ An overloaded method that releases the memory that contains the path.
 
 
 
-| Requirement | Value |
-|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows�Vista<br/>                                                                                                                                      |
-| Minimum supported server<br/> | Windows Server�2008<br/>                                                                                                                                |
-| Header<br/>                   | <dl> <dt>ObjPath.h (include ObjPath.h)</dt> </dl>                                                      |
-| Library<br/>                  | <dl> <dt>FrameDyn.lib</dt> </dl>                                                                       |
+| Requirement                   | Value                                                      |
+|-------------------------------|------------------------------------------------------------|
+| Minimum supported client<br/> | Windows Vista<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                   |
+| Header<br/>                   | <dl> <dt>ObjPath.h (include ObjPath.h)</dt> </dl>          |
+| Library<br/>                  | <dl> <dt>FrameDyn.lib</dt> </dl>                           |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll; </dt> <dt>FrameDyn.dll</dt> </dl> |
 
 
@@ -45,7 +45,3 @@ An overloaded method that releases the memory that contains the path.
 
 [**CObjectPathParser**](/windows/win32/api/objpath/nl-objpath-cobjectpathparser)
 </dt> </dl>
-
-�
-
-�

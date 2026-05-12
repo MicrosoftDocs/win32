@@ -2,8 +2,9 @@
 title: Windows 7 Dialog Boxes (Design basics)
 description: A Windows 7 dialog box is a secondary window that allows users to perform a command, asks users a question, or provides users with information or progress feedback.
 ms.assetid: 2ded9f30-d45f-4027-a85d-4e7d0e412793
-ms.topic: article
+ms.topic: concept-article
 ms.date: 01/25/2022
+ms.custom: sfi-image-nochange
 ---
 
 # Windows 7 Dialog Boxes (Design basics)

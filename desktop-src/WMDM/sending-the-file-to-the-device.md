@@ -9,7 +9,7 @@ keywords:
 - desktop applications,sending files to devices
 - creating Windows Media Device Manager applications,sending files to devices
 - writing files to devices,sending files to devices
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

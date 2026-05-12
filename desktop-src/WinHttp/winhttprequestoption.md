@@ -168,7 +168,7 @@ Controls whether the [**WinHttpRequest**](winhttprequest.md) object temporarily 
 <span id="WinHttpRequestOption_EnableHttpsToHttpRedirects"></span><span id="winhttprequestoption_enablehttpstohttpredirects"></span><span id="WINHTTPREQUESTOPTION_ENABLEHTTPSTOHTTPREDIRECTS"></span>**WinHttpRequestOption\_EnableHttpsToHttpRedirects**
 </dt> <dd>
 
-Controls whether or not WinHTTP allows redirects. By default, all redirects are automatically followed, except those that transfer from a secure (https) URL to an non-secure (http) URL. Set this option to **TRUE** to enable HTTPS to HTTP redirects.
+Controls whether or not WinHTTP allows redirects. By default, all redirects are automatically followed, except those that transfer from a secure (https) URL to a non-secure (http) URL. Set this option to **TRUE** to enable HTTPS to HTTP redirects.
 
 </dd> <dt>
 

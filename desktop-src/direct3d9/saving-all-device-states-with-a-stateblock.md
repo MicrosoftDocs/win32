@@ -2,7 +2,7 @@
 description: A state block can be used to capture all device states (see State Blocks Save and Restore State (Direct3D 9)).
 ms.assetid: e14077e4-1453-4aa3-b2de-4d3a829a819a
 title: Saving All Device States with a StateBlock (Direct3D 9)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

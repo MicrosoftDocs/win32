@@ -2,7 +2,7 @@
 title: Considerations for PrintTicket Providers
 description: Learn about additional considerations for PrintTicket providers, inlcuidng supporting PrintTicket deltas and creating a default PrintTicket.
 ms.assetid: b6ffcd54-b50c-477c-8bb7-de5b7ffa1c73
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The data object is central to all Shell data transfers.
 ms.assetid: c63d339e-ac62-4da1-b5ce-22d45a6a3413
 title: Shell Data Object
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

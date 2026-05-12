@@ -2,36 +2,35 @@
 title: How to Create a Simple Combo Box
 description: This topic describes how to create, add items to, and retrieve items from a simple combo box.
 ms.assetid: E432AEC0-6C06-40C7-BBFE-B66C21DB8ACA
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: how-to
+ms.date: 07/31/2025
 ---
 
 # How to Create a Simple Combo Box
 
 This topic describes how to create, add items to, and retrieve items from a simple combo box. Specifically, the accompanying code examples demonstrate how to perform the following functions:
 
--   Dynamically create a simple combo box in a parent window.
--   Add a list of items to the combo box and display an initial item in the selection field of the combo box.
--   Detect when the user has selected an item from the combo box.
--   Retrieve the selected item from the combo box.
+- Dynamically create a simple combo box in a parent window.
+- Add a list of items to the combo box and display an initial item in the selection field of the combo box.
+- Detect when the user has selected an item from the combo box.
+- Retrieve the selected item from the combo box.
 
 ## What you need to know
 
 ### Technologies
 
--   [Windows Controls](window-controls.md)
+- [Windows Controls](window-controls.md)
 
 ### Prerequisites
 
--   C/C++
--   Windows User Interface Programming
+- C/C++
+- Windows User Interface Programming
 
 ## Instructions
 
-### Step 1: Create an instance of the combo box.
+### Step 1: Create an instance of the combo box
 
 The example application calls the [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) function to create a child window of the application window. The [**WC\_COMBOBOX**](common-control-window-classes.md) window style specifies that it is a combo box.
-
 
 ```C++
 // Create the Combobox
@@ -53,12 +52,9 @@ The example application calls the [**CreateWindow**](/windows/desktop/api/winuse
 
 ```
 
-
-
-### Step 2: Load the combo box with the item list.
+### Step 2: Load the combo box with the item list
 
 The application sends a [**CB\_ADDSTRING**](cb-addstring.md) message for each item in the list. After the list is loaded, the application sends the [**CB\_SETCURSEL**](cb-setcursel.md) message to display an initial item in the combo box selection field.
-
 
 ```C++
 // load the combobox with item list.  
@@ -88,17 +84,12 @@ for (k = 0; k <= 8; k += 1)
 SendMessage(hWndComboBox, CB_SETCURSEL, (WPARAM)2, (LPARAM)0);
 ```
 
-
-
-### Step 3: Detect when the user selects an item and retrieve it from the combo box.
+### Step 3: Detect when the user selects an item and retrieve it from the combo box
 
 When the user makes a selection from the list, the combo box sends a [CBN\_SELCHANGE](cbn-selchange.md) notification to the parent window via a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message. The application retrieves the handle to the combo box from the *lParam* field of the notification message and sends a [**CB\_GETCURSEL**](cb-getcursel.md) message to the combo box to retrieve the index of the selected list item. After obtaining the item index, the application sends a [**CB\_GETLBTEXT**](cb-getlbtext.md) message to get the item. It then displays the item in a message box.
 
-> [!Note]  
+> [!NOTE]  
 > The [CBN\_SELCHANGE](cbn-selchange.md) notification is sent and processed before the item is placed in the combo box selection field. As result, in this example, the selected item won't appear in selection field until after the message box is closed.
-
- 
-
 
 ```C++
 switch (message)
@@ -124,12 +115,19 @@ switch (message)
     break;
 ```
 
-
-
 ## Complete example
 
+To build and run this example, paste it into a new C++ Windows Empty Project in Visual Studio (enter "Empty Project" in the search box to help find the template). Name the project `DemoApp`.
+
+After the project is created, open **Project > DemoApp Properties**, then set **Linker > System > SubSystem** to `Windows (/SUBSYSTEM:WINDOWS)`.
+
+In the project, create a new header file named `SimpleComboBox.h` and a new source file named `SimpleComboBox.cpp`.
+
+Paste this code into the `SimpleComboBox.h` file.
 
 ```C++
+// SimpleComboBox.h
+
 // Windows Header Files:
 #include <windows.h>
 #include <CommCtrl.h>
@@ -205,8 +203,11 @@ private:
  };
 ```
 
+Paste this code into the `SimpleComboBox.cpp` file.
 
 ```C++
+// SimpleComboBox.cpp
+
 #include "SimpleComboBox.h"
 
 /******************************************************************
@@ -282,7 +283,7 @@ HRESULT DemoApp::Initialize()
     wcex.cbClsExtra    = 0;
     wcex.cbWndExtra    = sizeof(LONG_PTR);
     wcex.hInstance     = HINST_THISCOMPONENT;
-    wcex.hbrBackground = (HBRUSH)(COLOR_WINDOW+1);;
+    wcex.hbrBackground = (HBRUSH)(COLOR_WINDOW+1);
     wcex.lpszMenuName  = NULL;
     wcex.hCursor       = LoadCursor(NULL, IDC_ARROW);
     wcex.lpszClassName = TEXT("DemoApp");
@@ -474,6 +475,7 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
     }
 
     return result;
+}
 ```
 
 
@@ -492,7 +494,3 @@ LRESULT CALLBACK DemoApp::WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM
 
 [ComboBox](combo-boxes.md)
 </dt> </dl>
-
- 
-
- 

@@ -9,7 +9,7 @@ keywords:
 - capCaptureGetSetup macro
 - WM_CAP_SET_SEQUENCE_SETUP message
 - capCaptureSetSetup macro
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

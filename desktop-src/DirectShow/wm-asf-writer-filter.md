@@ -2,7 +2,7 @@
 description: WM ASF Writer Filter
 ms.assetid: 1b12f65f-8d77-4d38-aad9-92bb15cc0426
 title: WM ASF Writer Filter (DirectShow)
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---
@@ -38,7 +38,7 @@ For more information, see [Creating ASF Files in DirectShow](creating-asf-files-
 
 The filter requires the Windows Media Format Software Development Kit (SDK) and its underlying dependencies.
 
-The number of input pins on the filter dependings on the profile or profile identifier of the ASF stream.
+The number of input pins on the filter depending on the profile or profile identifier of the ASF stream.
 
 The input pins support one method from the **IAMStreamConfig** interface: [**IAMStreamConfig::GetFormat**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getformat). All other methods return E\_NOTIMPL. Call the **GetFormat** method to query the pin's destination compression format, which is defined by the current ASF profile. Use the [**IConfigAsfWriter**](/previous-versions/windows/desktop/api/Dshowasf/nn-dshowasf-iconfigasfwriter) interface to set the profile.
 
@@ -74,7 +74,7 @@ if (SUCCEEDED(hr))
 
 
 
-Applications should not use any of the **IWMWriterAdvanced** methods that the **IWMWriterAdvanced2** interface inherits. Calling any these methods could interere with the operation of the filter.
+Applications should not use any of the **IWMWriterAdvanced** methods that the **IWMWriterAdvanced2** interface inherits. Calling any these methods could interfere with the operation of the filter.
 
 The only file-writing mode supported by this filter is AM\_FILE\_OVERWRITE. See [**IFileSinkFilter2::GetMode**](/windows/desktop/api/Strmif/nf-strmif-ifilesinkfilter2-getmode).
 

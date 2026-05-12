@@ -2,7 +2,7 @@
 title: Creating a Virtual Function Table for a Stream Handler
 description: Creating a Virtual Function Table for a Stream Handler
 ms.assetid: 8f43b0d4-6710-4175-8da0-aafd6b6d753a
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

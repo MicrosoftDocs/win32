@@ -3,7 +3,7 @@ title: Graphic effects
 description: A list of features that should be disabled when running as a remote session in a Remote Desktop Services environment.
 ms.assetid: 229a1058-acba-4d4b-ba52-824dda4f91a5
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

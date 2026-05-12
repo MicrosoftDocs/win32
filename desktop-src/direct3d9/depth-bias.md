@@ -2,7 +2,7 @@
 description: Polygons that are coplanar in your 3D space can be made to appear as if they are not coplanar by adding a z-bias to each one.
 ms.assetid: 0ab4f63b-49de-4bd0-a10f-6f90b9706c58
 title: Depth Bias (Direct3D 9)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

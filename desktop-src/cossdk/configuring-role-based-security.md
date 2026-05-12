@@ -2,7 +2,7 @@
 description: If your COM+ application uses role-based security, there are several tasks that need to be completed.
 ms.assetid: f53b9945-cd34-4afc-a03a-dd72b0af160d
 title: Configuring Role-Based Security
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

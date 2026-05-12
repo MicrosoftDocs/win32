@@ -4,7 +4,7 @@ description: Beginning with Windows Vista, Windows provides crash, non-response,
 ms.assetid: c096cd89-e3a7-4959-a35f-40e6168f277e
 keywords:
 - Windows error reporting Windows Error Reporting , using
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

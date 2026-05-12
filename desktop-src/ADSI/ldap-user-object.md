@@ -5,7 +5,7 @@ ms.assetid: 43e33a88-0626-4e29-8fd2-03901380bf62
 ms.tgt_platform: multiple
 keywords:
 - LDAP provider ADSI ,user object
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

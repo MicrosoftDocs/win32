@@ -3,7 +3,7 @@ description: Returns a CIM_Error instance if the Job instance fails or is termin
 ms.assetid: 0ee9c545-d372-4b16-b48d-57b23fe704c7
 title: GetError method of the CIM_ConcreteJob WMI class
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef

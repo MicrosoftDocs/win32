@@ -12,8 +12,9 @@ keywords:
 - register,Preview verb
 - register,Slideshow verb
 - Slideshow verb
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
+no-loc: [Verb, verb, Shell, shell, Preview, Slideshow]
 ---
 
 # Replacing the Windows Picture and Fax Viewer Application Using the Preview Verb
@@ -37,7 +38,7 @@ In Windows XP and later, the Shell includes a verb that you can use to enable u
 
 The Windows Picture and Fax Viewer, or any application that owns a file association, includes an item that launches the user's editing application. Because the Preview verb is only used to preview images rather than edit them, your application must be careful to follow the recommendations in this document when claiming that association.
 
-You want to ensure that an application that edits images can still take over the Edit verb. For example, if a user has Microsoft Picture It! installed, when they double-click a .jpg file the computer should launch the Windows Picture and Fax Viewer application. But, when they click **Edit** in the toolbar, then the computer should launch Picture It! with that .jpg file.
+You want to ensure that an application that edits images can still take over the :::no-loc text="Edit"::: verb. For example, if a user has Microsoft Picture It! installed, when they double-click a .jpg file the computer should launch the Windows Picture and Fax Viewer application. But, when they click **Edit** in the toolbar, then the computer should launch Picture It! with that .jpg file.
 
 There are three considerations you should take into account when you replace the Windows Picture and Fax Viewer. These are:
 
@@ -114,7 +115,7 @@ This registers the application and makes it the default application for the Prev
 
 ## Registering for the Edit Verb
 
-This registers an application for the Edit Verb and makes it the new default application for editing an image. The registered application should take over the editing capability of the existing default application at the install time and install it back as the handler at the time of uninstall. This can be achieved by registering the new application lower in the association list than the default application. The default application is registered here:
+This registers an application for the :::no-loc text="Edit"::: Verb and makes it the new default application for editing an image. The registered application should take over the editing capability of the existing default application at the install time and install it back as the handler at the time of uninstall. This can be achieved by registering the new application lower in the association list than the default application. The default application is registered here:
 
 ```
 HKEY_CLASSES_ROOT
@@ -139,7 +140,7 @@ HKEY_CLASSES_ROOT
 
 ## Registering for the Slideshow Verb
 
-As of Windows Vista, an application can also register the **slideshow** verb. Applications that implement a slide show can register to be invoked when the Slideshow verb is chosen. This registration is accomplished in exactly the same fashion as explained for the preview verb above. It is strongly recommended that applications implement the DropTarget form of the verb. In that way, they can be passed a complete set of items. The DropTarget implementation is registered as shown here:
+As of Windows Vista, an application can also register the `slideshow` verb. Applications that implement a slide show can register to be invoked when the Slideshow verb is chosen. This registration is accomplished in exactly the same fashion as explained for the Preview verb above. It is strongly recommended that applications implement the `DropTarget` form of the verb. In that way, they can be passed a complete set of items. The `DropTarget` implementation is registered as shown here:
 
 ```
 HKEY_CLASSES_ROOT

@@ -6,7 +6,7 @@ ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDataHasChangedException
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentdatahaschangedexception_methods(v=EXCHG.10)
 ms:contentKeyID: 55101574
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # EsentDataHasChangedException methods

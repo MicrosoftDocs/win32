@@ -2,8 +2,8 @@
 description: To consume counter data, see Consuming Counter Data.
 ms.assetid: fff8bc4a-3d7a-4d70-ba03-347f9f063c84
 title: Using Performance Counters
-ms.topic: article
-ms.date: 08/17/2020
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Using Performance Counters

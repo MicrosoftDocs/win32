@@ -2,7 +2,7 @@
 description: Use this example to understand how the RLE encoder might implement the method as part of writing a transform filter.
 ms.assetid: b7d878ab-523f-4b52-b98d-c9d4fa18ce8a
 title: Step 5. Transform the Image
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

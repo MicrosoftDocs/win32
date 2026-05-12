@@ -1,16 +1,16 @@
 ---
 description: An aggregate function performs a calculation on a set of values and returns a value. Doing so makes it possible to generate summary statistics for multi-level groups with little overhead.
 ms.assetid: 82a93f57-8273-45bf-81d7-50a673845ae1
-title: Aggregate Functions
-ms.topic: article
+title: Aggregate functions
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Aggregate Functions
+# Aggregate functions
 
 An aggregate function performs a calculation on a set of values and returns a value. Doing so makes it possible to generate summary statistics for multi-level groups with little overhead.
 
-## About Aggregate Functions
+## About aggregate functions
 
 Aggregate functions in Windows Search Structured Query Language (SQL) have the following syntax:
 
@@ -53,7 +53,7 @@ You can use any numeric or date column for aggregations, and not only those that
 
 The label portion is optional and provides a more readable alias for the label. If you do not include an alias label, then Windows Search transforms the function and column name into a label. For example, MAX(System.Document.WordCount) becomes MAX\_SystemDocumentWordCount.
 
-## Multi-level Groups and Counting
+## Multi-level groups and counting
 
 Aggregates are defined over leaves and are duplicated. An aggregate takes as input the leaves of the group that defines it (documents), rather than the subgroups of its children. This functionality is referred to as multi-level grouping.
 
@@ -61,7 +61,7 @@ In addition to aggregates being defined over leaves and duplicated, they are cou
 
 ![diagram showing that aggregates are defined over leaves and duplicated, and are counted only once](images/aggregates.png)
 
-## Aggregate Examples
+## Aggregate examples
 
 The following are examples of aggregate functions within the GROUP ON clause:
 
@@ -98,7 +98,7 @@ GROUP ON System.author
 
 
 
-## Return Value
+## Return value
 
 The return value is a variant found on the rowset as a custom property, either as the specified aliases or as "Aggregates" if no alias label is specified.
 

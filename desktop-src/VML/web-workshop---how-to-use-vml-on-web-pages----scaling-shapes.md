@@ -15,7 +15,7 @@ keywords:
 - vector graphics,sizing shapes
 - VML shapes,sizing
 - sizing shapes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

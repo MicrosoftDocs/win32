@@ -2,7 +2,7 @@
 description: The text format types of configurable data may be text strings of any length. Embedded nulls are not allowed.
 ms.assetid: 71b89f87-43ba-41cd-a969-765d45da4ba4
 title: Text Format Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: DWM Overviews
 description: DWM Overviews
 ms.assetid: 32ff4ab3-e02e-4e6a-8833-2537eb3f65c5
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

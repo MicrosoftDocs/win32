@@ -5,7 +5,7 @@ title: CIM\_DeviceSAPImplementation class
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -90,7 +90,7 @@ The cardinality of this association is many-to-many. A SAP can be provided by mo
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                          |

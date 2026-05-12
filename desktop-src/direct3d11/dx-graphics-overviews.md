@@ -2,7 +2,7 @@
 title: Programming guide for Direct3D 11
 description: The programming guide contains information about how to use the Microsoft Direct3D 11 programmable pipeline to create realtime 3D graphics for games as well as scientific and desktop applications.
 ms.assetid: 1db500e4-c03d-442a-b429-1599d9591292
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

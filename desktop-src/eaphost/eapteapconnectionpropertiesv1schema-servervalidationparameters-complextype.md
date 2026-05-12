@@ -2,7 +2,7 @@
 title: ServerValidationParameters Complex Type for EAP-TEAP
 description: Learn about the ServerValidationParameters complex type. This optional type specifies server information for EAP-TEAP.
 ms.assetid: 6688b699-d96f-416e-bb20-b9e77f06a6aa
-ms.topic: article
+ms.topic: reference
 ms.date: 07/11/2023
 ---
 

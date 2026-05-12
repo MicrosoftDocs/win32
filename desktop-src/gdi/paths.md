@@ -2,7 +2,7 @@
 description: A path is one or more figures (or shapes) that are filled, outlined, or both filled and outlined.
 ms.assetid: 'fbbd3ea0-9b35-4aaf-8498-187957e29cf0'
 title: Paths (Windows GDI)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

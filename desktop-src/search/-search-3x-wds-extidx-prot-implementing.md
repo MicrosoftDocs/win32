@@ -1,12 +1,12 @@
 ---
 description: Some applications store their items in databases or custom file types.
 ms.assetid: 0e2b7b4b-ae87-4092-b924-6191cdf42c9b
-title: Understanding Protocol Handlers
-ms.topic: article
+title: Understanding protocol handlers
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Understanding Protocol Handlers
+# Understanding protocol handlers
 
 Some applications store their items in databases or custom file types. While Windows Search can index the name and properties of the file, Windows has no knowledge of the content of the file. As a result, such items cannot be indexed or exposed in the Windows Shell. By creating a protocol handler you can make these items available for indexing. You can also index a compound file format such as a .zip file.
 
@@ -19,13 +19,13 @@ This topic is organized as follows:
 -   [Indexing a Compound File Format](#indexing-a-compound-file-format)
 -   [Related topics](#related-topics)
 
-## Indexing Data Stores with Protocol Handlers
+## Indexing data stores with protocol handlers
 
 When users need to search legacy databases, email stores or other data structures that are not supported by Windows Search, you should first determine whether a protocol handler already exists for that data store, perhaps for use with another application such as SharePoint Server. If so, you can install that protocol handler on the system. Windows Search protocol handlers use design specifications similar to SharePoint Server, and they can often be used interchangeably.
 
 For more information about Search Server 2008 deployment with Office SharePoint Server 2007, see [Federated Search \[Search Server 2008\]](/previous-versions/office/bb931109(v=office.14)).
 
-### Shell Data Stores
+### Shell data stores
 
 Before a third-party developer of new file formats and data stores can get those formats and stores to appear in query results in Windows Explorer, the developer must implement a Shell data source. A Shell data source is a component that is used to extend the Shell namespace and expose items in a data store. A data store is a repository of data. A data store can be exposed to the Shell programming model as a container that uses a Shell data source. The items in a data store can be indexed by the Windows Search system using a protocol handler. The protocol handler implements the protocol for accessing a content source in its native format. The [**ISearchProtocol**](/windows/desktop/api/Searchapi/nn-searchapi-isearchprotocol) and [**ISearchProtocol2**](/windows/desktop/api/Searchapi/nn-searchapi-isearchprotocol2) interfaces are used to implement a custom protocol handler to expand the data sources that can be indexed.
 
@@ -44,19 +44,19 @@ If you want users to view their search results from within Windows Explorer, the
 
 For a list of handlers identified by the developer scenario you are trying to achieve, see "Overview of Handlers" in [Windows Search as a Development Platform](-search-3x-wds-development-ovr.md). For information on creating handlers, see [Registering Shell Extensions](../shell/reg-shell-exts.md), [Context Menu](/previous-versions/windows/desktop/legacy/cc144169(v=vs.85)), and [File Type Handlers](../shell/fa-file-extensions.md).
 
-### Protocol Handlers
+### Protocol handlers
 
 If the data store is also a container (such as a file system folder), you must implement a filter to enumerate the URLs in the container. If the data store contains data or file types other than one of the 200 file types supported by Windows Search, you must implement a filter to access and index the contents of items in the store. Windows Search uses protocol handler and [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) technology similar to that used by SharePoint Server. If you already have filters for a specific store and file type installed on the system being indexed, Windows Search may be able to use the existing interfaces to index this data.
 
 For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md). For conceptual information on filter handlers, see [Developing Filter Handlers](-search-ifilter-conceptual.md).
 
-### Filters and Protocol Handlers
+### Filters and protocol handlers
 
 Protocol handlers give the Windows Search indexer access to data stores, enabling the indexer to crawl the nodes of a data store and extract relevant information to index. Windows Search, for example, ships with protocol handlers for file system stores and for some versions of both Microsoft Outlook data stores. When indexing Outlook email, the protocol handler crawls all messages in a set of Outlook folders and extracts information from each message and attachment. This information is passed to the indexer for inclusion in the Windows Search catalog.
 
 For overviews of the Catalog Manager and Crawl Scope Manager (CSM), see [Using the Catalog Manager](-search-3x-wds-mngidx-catalog-manager.md) and [Using the Crawl Scope Manager](-search-3x-wds-extidx-csm.md).
 
-## Indexing a Compound File Format
+## Indexing a compound file format
 
 A compound file format can be indexed so that individual items in the file can be returned as individual results. A compound file format such as a compressed file with a .zip file name extension is essentially a data store and can be treated as such for indexing purposes. The following example displays a .zip file in the file system namespace (FILE://c:/test/test.zip) in which there are both subfolders and individual items.
 

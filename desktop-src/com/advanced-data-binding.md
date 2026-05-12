@@ -2,7 +2,7 @@
 title: Advanced Data Binding
 description: Advanced Data Binding
 ms.assetid: 389df708-5fff-4961-8d7a-344fc673f051
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

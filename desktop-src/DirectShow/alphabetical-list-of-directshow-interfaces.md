@@ -2,7 +2,7 @@
 description: Alphabetical List of DirectShow Interfaces
 ms.assetid: 9c7f56f4-92af-40c6-8124-f2715ac3f6d7
 title: Alphabetical List of DirectShow Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---
@@ -126,8 +126,7 @@ The following is an alphabetical list of DirectShow interfaces.
 | <a href="/previous-versions/windows/desktop/api/vidcap/nn-vidcap-iksnodecontrol"><strong>IKsNodeControl</strong></a> | Exposed by USB Video Class (UVC) extension units. | 
 | <a href="ikspin.md"><strong>IKsPin</strong></a> | Retrieves the mediums supported by a kernel-mode pin. | 
 | <a href="ikspropertyset.md"><strong>IKsPropertySet</strong></a> | Sets properties on a kernel-mode filter. | 
-| <a href="/windows/win32/api/vidcap/nn-vidcap-ikstopologyinfo"><strong>IKsTopologyInfo</strong></a> | Enumerates the nodes in a stream class driver. | 
-| <a href="/windows/desktop/api/Control/nn-control-imediacontrol"><strong>IMediaControl</strong></a> | Controls the flow of data through the filter graph. | 
+| <a href="/windows/desktop/api/Control/nn-control-imediacontrol"><strong>IMediaControl</strong></a> | Controls the flow of data through the filter graph. |
 | <a href="/windows/desktop/api/Control/nn-control-imediaevent"><strong>IMediaEvent</strong></a> | Retrieves event notifications from the filter graph. | 
 | <a href="/windows/desktop/api/Control/nn-control-imediaeventex"><strong>IMediaEventEx</strong></a> | Extends the <a href="/windows/desktop/api/Control/nn-control-imediaevent"><strong>IMediaEvent</strong></a> interface. | 
 | <a href="/windows/desktop/api/Strmif/nn-strmif-imediaeventsink"><strong>IMediaEventSink</strong></a> | Notifies the Filter Graph Manager of events that occur within the filter graph. | 

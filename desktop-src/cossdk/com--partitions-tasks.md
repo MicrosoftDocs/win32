@@ -2,7 +2,7 @@
 description: COM+ Partitions Tasks
 ms.assetid: ebcbfced-7d7a-46dc-a728-cdb920ccb874
 title: COM+ Partitions Tasks
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The following Direct Manipulation Class GUIDs are defined in DirectManipulation.idl.
 ms.assetid: 6747D082-4B7B-4C7E-A230-2E8C8412FABD
 title: Direct Manipulation GUIDs
-ms.topic: article
+ms.topic: reference
 ms.date: 02/03/2020
 ---
 
@@ -36,7 +36,7 @@ The following [Direct Manipulation](direct-manipulation-portal.md) Class GUIDs a
 |------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **CLSID\_DragDropConfigurationBehavior** | Drag & Drop Behavior. Enables items to be selected and dragged.                                                                                       |
 | **CLSID\_AutoScrollBehavior**            | Autoscroll Behavior. Enables content to automatically scroll as it approaches the boundary of a given axis.                                           |
-| **CLSID\_DeferContactService**           | Contact deferral behavior. The amount of time (in millliseconds) to wait before calling [**SetContact**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact). |
+| **CLSID\_DeferContactService**           | Contact deferral behavior. The amount of time (in milliseconds) to wait before calling [**SetContact**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact). |
 
 ## Related topics
 

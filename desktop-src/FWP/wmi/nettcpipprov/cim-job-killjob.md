@@ -5,7 +5,7 @@ title: KillJob method of the CIM\_Job class
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -19,8 +19,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# KillJob method of the CIM\_Job class
-
+# KillJob method of the CIM\_Job class (NetTCPIP)
 KillJob is being deprecated because there is no distinction made between an orderly shutdown and an immediate kill. [**RequestStateChange**](cim-concretejob-requeststatechange.md) provides Terminate and Kill options to allow this distinction.
 
 A method to kill this job and any underlying processes, and to remove any dangling associations.
@@ -82,7 +81,7 @@ Indicates whether or not the Job should be automatically deleted upon terminatio
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                          |

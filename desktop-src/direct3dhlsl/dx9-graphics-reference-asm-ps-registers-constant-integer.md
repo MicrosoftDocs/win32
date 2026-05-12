@@ -2,7 +2,7 @@
 title: Constant integer register (HLSL PS reference)
 description: Constant integer registers are used only by loop - ps and rep - ps.
 ms.assetid: 85720ec0-b6aa-4a24-910c-3ad0468300dc
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

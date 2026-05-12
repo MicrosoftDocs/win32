@@ -5,7 +5,7 @@ title: MSFT\_NetAdapterHardwareInfoSettingData class
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -709,7 +709,7 @@ This property indicates the status of SR-IOV support for the device.
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                               |

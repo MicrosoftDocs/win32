@@ -55,7 +55,7 @@ When *ppAbortedRegion* is **NULL**, this method performs the abort as normal, be
 
 **IInkAnalyzer::Abort Method** silences the [**\_IAnalysisEvents::Results**](-ianalysisevents-results.md) and [**\_IAnalysisEvents::Activity**](-ianalysisevents-activity.md) events for the current analysis operation.
 
-**IInkAnalyzer::Abort Method** runs asynchronously until the current background analysis operation is canceled. Because the cancellation process is asynchronous, the application can perform other tasks while the current analysis opertions is canceled.
+**IInkAnalyzer::Abort Method** runs asynchronously until the current background analysis operation is canceled. Because the cancellation process is asynchronous, the application can perform other tasks while the current analysis operations is canceled.
 
 If no analysis operations are in progress, this method returns an empty analysis region.
 

@@ -2,7 +2,7 @@
 description: The following tools are only available in the Windows SDK Components for Windows Installer Developers.
 ms.assetid: b1305eaf-cd25-4684-a593-d8b1aac83592
 title: Windows Installer Development Tools
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,6 @@ The following tools are only available in the [Windows SDK Components for Window
 | [Msitool.mak](msitool-mak.md)   | Makefile that can be used to make tools and custom actions.                                                                                                                                                                                      |
 | [Msitran.exe](msitran-exe.md)   | Generates a transform or applies a transform file to a database.                                                                                                                                                                                 |
 | [Msival2.exe](msival2-exe.md)   | Runs one or a suite of [Internal Consistency Evaluators - ICEs](internal-consistency-evaluators-ices.md).                                                                                                                                       |
-| [Msizap.exe](msizap-exe.md)     | Removes Windows Installer information for a product or all products installed on a machine.                                                                                                                                                      |
 | [Orca.exe](orca-exe.md)         | Database editor. Creates and edits .msi files and merge modules.                                                                                                                                                                                 |
 | [PATCHWIZ.DLL](patchwiz-dll.md) | Generates a Windows Installer [patch package](patch-packages.md) from a patch creation properties file (.pcp file). The recommended method for generating a patch package is to use a patch creation tool such as Msimsp.exe with PATCHWIZ.DLL. |
 | [Wilogutl.exe](wilogutl-exe.md) | Assists the analysis of log files from a Windows Installer installation and displays suggested solutions to errors.                                                                                                                              |

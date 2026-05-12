@@ -2,7 +2,7 @@
 description: The OpenSearch code sample demonstrates how to create a federated search service using the OpenSearch protocol, and an OpenSearch Descriptor (.osdx) file (a search connector).
 ms.assetid: 792884e4-826b-4474-82e1-1680d4d8b602
 title: OpenSearch
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 
@@ -31,7 +31,7 @@ This topic contains the following sections.
 
  
 
-## Downloading the Sample
+## Downloading the sample
 
 This sample is available in the following locations.
 
@@ -52,7 +52,7 @@ This sample is available in the following locations.
 
  
 
-## Building the Sample
+## Building the sample
 
 To build the sample from the Command Prompt:
 
@@ -70,7 +70,7 @@ To build the sample using Microsoft Visual Studio (preferred):
 
 3.  From the **Build** menu, select **Build Solution**.
 
-## Running the Sample
+## Running the sample
 
 1.  Navigate to the directory that contains the new executable, using the Command Prompt window or Windows Explorer.
 2.  At the command prompt, enter `AdventureSearch.exe`, or from Windows Explorer, double-click the icon for AdventureSearch.exe.

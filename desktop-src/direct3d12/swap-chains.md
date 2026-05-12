@@ -2,7 +2,7 @@
 title: Swap Chains
 description: Swap chains control the back buffer rotation, forming the basis of graphics animation.
 ms.assetid: AABF5FDE-DB49-4B29-BC0E-032E0C7DF9EB
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -16,7 +16,7 @@ The programming model for swap chains in Direct3D 12 is not identical to that in
 
 ### Buffer lifetime
 
-Apps are allowed to store pre-created descriptors which reference back buffers This is enabled by ensuring that the set of buffers owned by a swap chain never changes for the lifetime of the swap chain. The set of buffers returned by [**IDXGISwapChain::GetBuffer**](/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getbuffer) doesn't change until certain APIs are called:
+Apps are allowed to store pre-created descriptors which reference back buffers. This is enabled by ensuring that the set of buffers owned by a swap chain never changes for the lifetime of the swap chain. The set of buffers returned by [**IDXGISwapChain::GetBuffer**](/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-getbuffer) doesn't change until certain APIs are called:
 
 -   [**IDXGISwapChain::ResizeTarget**](/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-resizetarget)
 -   [**IDXGISwapChain::ResizeBuffers**](/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-resizebuffers)

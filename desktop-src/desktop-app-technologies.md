@@ -2,13 +2,13 @@
 description: This article provides an index of documentation about the available Win32 APIs for Windows features and technologies.
 ms.assetid: FF115416-220F-4FCD-8690-F9C0890CD6CC
 title: Desktop app technologies
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 11/19/2025
 ---
 
 # Desktop app technologies
 
-This section provides in-depth guidance and code examples about Windows features that are available to desktop applications by using the Win32 API.
+This section provides in-depth guidance and code examples about Windows features that desktop applications can access through the Win32 API.
 
 ## In this section
 
@@ -27,7 +27,7 @@ This section provides in-depth guidance and code examples about Windows features
 | [Networking and Internet](networking.md) | Provides guidance about the networking and Internet-related features of Windows, including network management, HTTP APIs, and Remote Procedure Call (RPC). |
 | [Security and identity](security.md) | Provides information about authentication, authorization, cryptography, and other security features of Windows. |
 | [System services](system-services.md) | Provides guidance about fundamental OS features such as process and threads, services, dynamic-link libraries, COM, the registry, and more. |
-| [AI and machine learning](/windows/ai/) | Transform your Windows application with the power of artificial intelligence. Windows AI empowers you and your business to achieve more by providing intelligent solutions to complex problems. |
+| [AI and machine learning](/windows/ai/) | Transform your Windows application with the power of artificial intelligence. Microsoft Foundry on Windows empowers you and your business to achieve more by providing intelligent solutions to complex problems. |
 
 <!--
 <br/>
@@ -54,7 +54,7 @@ This section provides in-depth guidance and code examples about Windows features
 :::row:::
     :::column:::
         ![User Interface and accessibility](/media/illustrations/bcs-partner-advanced-management-add-user-1.svg?branch=master)
-        ### User Interface and accessibility
+        ### User interface and accessibility
         * [Desktop User Interface](windows-application-ui-development.md)
         * [Windows and messages](winmsg/windowing.md)
         * [Desktop Window Manager](dwm/dwm-overview.md)

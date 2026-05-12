@@ -2,7 +2,7 @@
 description: The following code fragment illustrates the enumeration of conferences on a specified ILS server. This fragment assumes that connecting to an ILS server has already been performed.
 ms.assetid: da01c534-c700-4b4f-ac22-cede9930f80d
 title: Enumerating Conference Directories
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: You may find a situation where an instance that was created as a ch
 ms.assetid: 6d0fd456-81ab-4665-bb88-f9fb29fbbd39
 ms.tgt_platform: multiple
 title: Changing the Inheritance of an Instance
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

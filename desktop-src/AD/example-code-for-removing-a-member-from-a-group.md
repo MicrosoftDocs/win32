@@ -5,7 +5,7 @@ ms.assetid: 8a9c65bb-1b61-432b-9ef4-1d257c501026
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , removing a member from a group
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

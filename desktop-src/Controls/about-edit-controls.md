@@ -2,7 +2,7 @@
 title: About Edit Controls
 description: An edit control is a rectangular control window typically used in a dialog box to enable the user to enter and edit text.
 ms.assetid: 43baa58a-bc00-47c0-a3fe-413d50f08c29
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: Example Code for Creating a Control Access Right
 description: This topic includes a code example that creates a controlAccessRight object in the Extended-Rights container.
 ms.assetid: b1b644ee-c38a-47da-8a0a-31a06361f35a
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

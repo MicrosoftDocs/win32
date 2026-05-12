@@ -2,7 +2,7 @@
 description: The following example demonstrates how to re-encode an image and its metadata to a new file of the same format.
 ms.assetid: a7cfaa6d-e17d-458a-ae63-72963615bef8
 title: 'How-to re-encode a JPEG image with metadata'
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -343,7 +343,7 @@ Once you commit the frame, you must release the COM objects created in the loop.
 
 ## JPEG Re-encode Example Code
 
-The following is the code from Parts 1 through 6 in one convienient block.
+The following is the code from Parts 1 through 6 in one convenient block.
 
 
 ```C++

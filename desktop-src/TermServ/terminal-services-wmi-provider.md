@@ -5,7 +5,7 @@ ms.assetid: d205a3da-3f9a-4ee1-9c99-a39e9cce0a11
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , WMI provider
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

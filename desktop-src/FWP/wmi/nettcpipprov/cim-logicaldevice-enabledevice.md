@@ -5,7 +5,7 @@ title: EnableDevice method of the CIM\_LogicalDevice class
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax
@@ -14,8 +14,7 @@ api_type:
 api_location: 
 ---
 
-# EnableDevice method of the CIM\_LogicalDevice class
-
+# EnableDevice method of the CIM\_LogicalDevice class (NetTCPIP)
 The EnableDevice method has been deprecated in lieu of the more general RequestStateChange method that directly overlaps with the functionality provided by this method.
 
 Requests that the LogicalDevice be enabled ("Enabled" input parameter = TRUE) or disabled (= FALSE). If successful, the Device\\'s StatusInfo/EnabledState properties should reflect the desired state (enabled/disabled). Note that this method\\'s function overlaps with the RequestedState property. RequestedState was added to the model to maintain a record (i.e., a persisted value) of the last state request. Invoking the EnableDevice method should set the RequestedState property appropriately.
@@ -52,7 +51,7 @@ TBD
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                          |

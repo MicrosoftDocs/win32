@@ -2,7 +2,7 @@
 description: Creating an Audio Capture Graph
 ms.assetid: 2302bb40-a5db-473a-afeb-71905ac41f47
 title: Creating an Audio Capture Graph
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---
@@ -31,7 +31,7 @@ The System Device Enumerator returns a list of monikers for the devices; each mo
 
 For more information, see [Using the System Device Enumerator](using-the-system-device-enumerator.md).
 
-To specify which input to capture from, obtain the [**IAMAudioInputMixer**](/windows/desktop/api/Strmif/nn-strmif-iamaudioinputmixer) interface from the Audio Capture filter and call the **put\_Enable** method to specify the input. One limitation of this method, however, is that different hardware devices may use different strings to identify their inputs. For example, one card may use "Microphone" to identify the microphone input and another card may use "Mic". To determine the string identifier for a given input, use the Windows Multimedia functions [**waveOutOpen**](/previous-versions//dd743866(v=vs.85)), [**mixerOpen**](/previous-versions//dd757308(v=vs.85)), and [**mixerGetLineInfo**](/previous-versions//dd757303(v=vs.85)). See the MSDN topic [Mixer Device Queries](/windows/desktop/Multimedia/mixer-device-queries) for more information.
+To specify which input to capture from, obtain the [**IAMAudioInputMixer**](/windows/desktop/api/Strmif/nn-strmif-iamaudioinputmixer) interface from the Audio Capture filter and call the **put\_Enable** method to specify the input. One limitation of this method, however, is that different hardware devices may use different strings to identify their inputs. For example, one card may use "Microphone" to identify the microphone input and another card may use "Mic". To determine the string identifier for a given input, use the Windows Multimedia functions [**waveOutOpen**](/previous-versions//dd743866(v=vs.85)), [**mixerOpen**](/previous-versions//dd757308(v=vs.85)), and [**mixerGetLineInfo**](/previous-versions//dd757303(v=vs.85)). See [Mixer Device Queries](/windows/desktop/Multimedia/mixer-device-queries) for more information.
 
 Adding the Multiplexer and the File Writer
 

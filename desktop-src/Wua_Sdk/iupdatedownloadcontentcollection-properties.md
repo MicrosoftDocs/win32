@@ -2,7 +2,7 @@
 description: The IUpdateDownloadContentCollection interface defines the following properties.
 ms.assetid: b59403c9-7aa4-4e53-84b2-bea9e3ac84a4
 title: IUpdateDownloadContentCollection Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

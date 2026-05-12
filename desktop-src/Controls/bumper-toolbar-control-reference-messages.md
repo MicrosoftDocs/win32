@@ -2,7 +2,7 @@
 title: Toolbar Control Messages
 description: Toolbar Control Messages
 ms.assetid: 0af20ecd-b473-4c3b-8b66-2d177105bf89
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

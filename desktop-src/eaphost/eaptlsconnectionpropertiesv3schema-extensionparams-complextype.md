@@ -2,7 +2,7 @@
 title: ExtensionParams Complex Type
 description: Learn about the ExtensionParams complex type. This type enables future enhancements to the schema.
 ms.assetid: 19917856-930a-4521-9929-4e086116017b
-ms.topic: article
+ms.topic: reference
 ms.date: 07/07/2023
 ---
 

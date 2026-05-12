@@ -2,7 +2,7 @@
 description: This topic applies to Windows Vista and later.
 ms.assetid: 4d88806a-68a6-4394-a704-c7a47a0fdc70
 title: Integration with Windows Photo Gallery and Windows Explorer
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

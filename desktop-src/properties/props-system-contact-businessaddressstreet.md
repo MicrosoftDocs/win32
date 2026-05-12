@@ -2,7 +2,7 @@
 description: Business address street of the contact.
 ms.assetid: f8f70268-a28d-4b6b-a87c-4bffc89f2b61
 title: System.Contact.BusinessAddressStreet
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

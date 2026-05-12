@@ -43,9 +43,6 @@ Sets the x value of the white point.
 
 <dl> <dt>
 
-[**idcompositionbrightnesseffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionbrightnesseffect)
+[**IDCompositionBrightnessEffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionbrightnesseffect)
 </dt> </dl>
 
-�
-
-�

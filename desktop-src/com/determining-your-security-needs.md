@@ -2,7 +2,7 @@
 title: Determining Your Security Needs
 description: How you set up COM security for your application depends on what kind of security your application needs. There are several common situations that determine what you should do.
 ms.assetid: db5c9adb-b04b-4621-b738-2959cac40985
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 How you set up COM security for your application depends on what kind of security your application needs. There are several common situations that determine what you should do.
 
-If you decide to use the COM security defaults, you do not have to do anythingâ€”COM handles it all. For information on what these default settings are, see [COM Security Defaults](com-security-defaults.md).
+If you decide to use the COM security defaults, you do not have to do anything--COM handles it all. For information on what these default settings are, see [COM Security Defaults](com-security-defaults.md).
 
 You can also prevent any remote calls into your machine by disabling DCOM altogether (COM between remote computers). For more information, see [Setting System-Wide Security Using DCOMCNFG](setting-machine-wide-security-using-dcomcnfg.md).
 

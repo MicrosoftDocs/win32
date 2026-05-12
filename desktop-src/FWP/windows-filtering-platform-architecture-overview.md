@@ -2,7 +2,7 @@
 title: WFP Architecture
 description: This section provides a brief overview of the Windows Filtering Platform architecture.
 ms.assetid: 17a90f5c-ef82-4b14-b7f1-dd025d5f7303
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -18,7 +18,7 @@ The filter engine contains a user-mode component and a kernel-mode component, wh
 
 The user-mode component performs RPC and IPsec filtering. The filter engine contains approximately 10 user-mode filtering layers.
 
-The kernel-mode component performs filtering at the network and transport layers of the TC/IP stack. This component also calls the available callout functions during the [classification](basic-operation.md) process. The filter engine contains approximately 50 kernel-mode filtering layers.
+The kernel-mode component performs filtering at the network and transport layers of the TCP/IP stack. This component also calls the available callout functions during the [classification](basic-operation.md) process. The filter engine contains approximately 50 kernel-mode filtering layers.
 
 See [**Filtering Layer Identifiers**](management-filtering-layer-identifiers-.md) for a description of each of the filter engine layers.
 

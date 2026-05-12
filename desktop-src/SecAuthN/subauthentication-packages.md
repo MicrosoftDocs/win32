@@ -2,7 +2,7 @@
 description: The authentication packages provided with Windows support customization using subauthentication packages.
 ms.assetid: e1f202c2-8574-4193-a99a-3922a4446013
 title: Subauthentication Packages
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

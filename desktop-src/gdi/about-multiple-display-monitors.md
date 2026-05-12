@@ -1,12 +1,12 @@
 ---
+title: About multiple display monitors
 description: When multiple monitors are part of the desktop, objects can travel seamlessly between monitors.
 ms.assetid: eb7576c6-322c-48d0-abbb-bdc3b34976c3
-title: About Multiple Display Monitors
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 11/06/2024
 ---
 
-# About Multiple Display Monitors
+# About multiple display monitors
 
 When multiple monitors are part of the desktop, objects can travel seamlessly between monitors. That is, you can drag windows or shortcuts from one monitor to another, and you can size windows to cover more than one monitor. Also, if one monitor is installed above another, a cursor that leaves the bottom of the upper monitor appears at the top of the lower monitor.
 
@@ -14,7 +14,10 @@ Typically, a user arranges the monitors in the system to reflect the arrangement
 
 When a window is moved or resized, some part of the caption is always visible so the user can move and resize the window using the mouse. Cursor movement is restricted to the area of the monitors, so it is always visible. Shell icons are positioned on the same monitor as the taskbar, and the taskbar can be on any monitor, see [Multiple Monitor Considerations for Older Programs](multiple-monitor-considerations-for-older-programs.md).
 
-A multiple monitor system affects certain key combinations. The ALT+PRINTSCRN key combination takes a snapshot of the foreground window, as always. However, the PRINTSCRN key takes a snapshot of the monitor that has the mouse. The CTRL+PRINTSCRN key combination takes a snapshot of the entire virtual screen, see [The Virtual Screen](the-virtual-screen.md).
+A multiple monitor system affects certain key combinations.
+* CTRL+PRINTSCRN takes a snapshot of the entire virtual screen, see [The Virtual Screen](the-virtual-screen.md).
+* ALT+PRINTSCRN takes a snapshot of the foreground window.
+* PRINTSCRN takes a snapshot of the entire virtual screen; unless **Use the Print screen to open screen capture** is on in Windows Settings, in which case PRINTSCRN launches your installed snipping tool-type app.
 
 The support for multiple monitors does not affect the performance of applications when running in a single display environment. That is, when running on a single display system, no additional overhead will be present in the high-performance graphics operations code. However, in a multiple monitor system, performance is slightly affected if an application runs only on one of the graphics devices. Also, performance may be greatly affected if an application spans multiple displays, especially for graphics-intensive operations.
 
@@ -33,10 +36,3 @@ This overview provides information on the following topics.
 -   [Positioning Objects on Multiple Display Monitors](positioning-objects-on-multiple-display-monitors.md)
 -   [Multiple Monitor Applications on Different Systems](multiple-monitor-applications-on-different-systems.md)
 -   [Multiple Monitor Considerations for Older Programs](multiple-monitor-considerations-for-older-programs.md)
-
- 
-
- 
-
-
-

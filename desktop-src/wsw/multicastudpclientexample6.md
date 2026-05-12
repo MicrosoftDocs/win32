@@ -6,7 +6,7 @@ keywords:
 - MulticastUdpClientExample6 Native-Web-Services
 - WWSAPI
 - WWS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -390,7 +390,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
             // Get multicast interface index
             ULONG interfaceIndex = adapterAddress->Ipv6IfIndex;
         
-            // Set property on channel which controls which multicast adapater address
+            // Set property on channel which controls which multicast adapter address
             // is used when sending to a multicast address.
             hr = WsSetChannelProperty(channel, WS_CHANNEL_PROPERTY_MULTICAST_INTERFACE, 
                 &interfaceIndex, sizeof(interfaceIndex), error);
@@ -436,7 +436,7 @@ int __cdecl wmain(int argc, __in_ecount(argc) wchar_t **argv)
                 goto Exit;
             }
         
-            // Set the reply to address to be a anonymous URI (modeled as a 0 length URI), which 
+            // Set the reply to address to be an anonymous URI (modeled as a 0 length URI), which 
             // indicates to the receiver that they should reply using the source IP address.
             WS_ENDPOINT_ADDRESS replyTo;
             ZeroMemory(&replyTo, sizeof(replyTo));

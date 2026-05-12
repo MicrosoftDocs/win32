@@ -22,8 +22,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_LANEndpoint class
-
+# CIM\_LANEndpoint class (Hyper-V)
 A communication endpoint that can connect to a LAN to send and receive data frames. LAN endpoints include ethernet, token Ring, and FDDI interfaces.
 
 ## Syntax

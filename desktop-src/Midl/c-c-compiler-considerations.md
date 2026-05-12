@@ -5,7 +5,7 @@ ms.assetid: 3d91d0e4-3a47-4aa2-82d6-c3af11df3a78
 keywords:
 - MIDL compiler MIDL , C-compiler
 - C-compiler MIDL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

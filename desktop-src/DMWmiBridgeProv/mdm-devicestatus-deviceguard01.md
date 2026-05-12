@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # MDM\_DeviceStatus\_DeviceGuard01 class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+
 
 The MDM\_DeviceStatus\_DeviceGuard01 class is used by the enterprise to keep track of device inventory and query the state of compliance of these devices with their enterprise policies.
 

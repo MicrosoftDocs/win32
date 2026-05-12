@@ -6,7 +6,7 @@ ms:assetid: 96551dc8-8df5-417c-850f-278b5231b0b6
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh475860(v=EXCHG.10)
 ms:contentKeyID: 37033566
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 ---
 
 # JET_ERRCAT

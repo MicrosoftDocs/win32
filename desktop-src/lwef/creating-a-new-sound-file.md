@@ -2,7 +2,7 @@
 title: Creating a New Sound File
 description: Creating a New Sound File
 ms.assetid: ebaa0578-f5f0-4b36-bc5c-99178cc99299
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

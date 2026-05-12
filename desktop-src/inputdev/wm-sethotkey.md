@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_SETHOTKEY message
@@ -34,13 +34,9 @@ Sent to a window to associate a hot key with the window. When the user presses t
 *wParam* 
 </dt> <dd>
 
-The low-order word specifies the virtual-key code to associate with the window.
+The low byte of the low-order word specifies the virtual-key code to associate with the window.
 
-The high-order word can be one or more of the following values from CommCtrl.h.
-
-Setting *wParam* to **NULL** removes the hot key associated with a window.
-
-
+The high byte of the low-order word can be one or more of the following values from CommCtrl.h.
 
 | Value                                                                                                                                                                                                                         | Meaning                 |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
@@ -50,7 +46,9 @@ Setting *wParam* to **NULL** removes the hot key associated with a window.
 | <span id="HOTKEYF_SHIFT"></span><span id="hotkeyf_shift"></span><dl> <dt>**HOTKEYF\_SHIFT**</dt> <dt>0x01</dt> </dl>       | SHIFT key<br/>    |
 
 
+The high-order word of *wParam* is ignored.
 
+Setting *wParam* to **NULL** removes the hot key associated with a window.
  
 
 </dd> <dt>
@@ -83,7 +81,7 @@ The return value is one of the following.
 
 A hot key cannot be associated with a child window.
 
-**VK\_ESCAPE**, **VK\_SPACE**, and **VK\_TAB** are invalid hot keys.
+**VK\_ESCAPE**, **VK\_SPACE**, **VK\_TAB**, and **VK\_PACKET** are invalid hot keys.
 
 When the user presses the hot key, the system generates a [**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand) message with *wParam* equal to **SC\_HOTKEY** and *lParam* equal to the window's handle. If this message is passed on to [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca), the system will bring the window's last active popup (if it exists) or the window itself (if there is no popup window) to the foreground.
 

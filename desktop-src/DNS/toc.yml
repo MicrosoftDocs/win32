@@ -31,7 +31,7 @@
       href: dns-enumerations.md
       items: 
       - name: "DNS_CHARSET"
-        href: /windows/win32/api/windns/ne-windns-dns_charset
+        href: /windows/win32/api/windnsdef/ne-windnsdef-dns_charset
       - name: "DNS_CONFIG_TYPE"
         href: /windows/win32/api/windns/ne-windns-dns_config_type
       - name: "DNS_FREE_TYPE"
@@ -41,7 +41,7 @@
       - name: "DNS_PROXY_INFORMATION_TYPE"
         href: /windows/win32/api/windns/ne-windns-dns_proxy_information_type
       - name: "DNS_SECTION"
-        href: /windows/win32/api/windns/ne-windns-dns_section
+        href: /windows/win32/api/windnsdef/ne-windnsdef-dns_section
     - name: "DNS functions"
       href: dns-functions.md
       items: 
@@ -59,6 +59,8 @@
         href: /windows/win32/api/windns/nf-windns-dnsfreeproxyname
       - name: "DnsGetProxyInformation"
         href: /windows/win32/api/windns/nf-windns-dnsgetproxyinformation
+      - name: "DnsIsFlatRecord"
+        href: /windows/win32/api/windns/nf-windns-dnsisflatrecord
       - name: "DnsModifyRecordsInSet"
         href: /windows/win32/api/windns/nf-windns-dnsmodifyrecordsinset_a
       - name: "DnsNameCompare"
@@ -123,45 +125,45 @@
       href: dns-structures.md
       items: 
       - name: "DNS_A_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_a_data
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_a_data
       - name: "DNS_AAAA_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_aaaa_data
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_aaaa_data
       - name: "DNS_ADDR"
-        href: /windows/win32/api/windns/ns-windns-dns_addr
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_addr
       - name: "DNS_ADDR_ARRAY"
-        href: /windows/win32/api/windns/ns-windns-dns_addr_array
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_addr_array
       - name: "DNS_ATMA_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_atma_data
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_atma_data
       - name: "DNS_CUSTOM_SERVER"
-        href: /windows/win32/api/windns/ns-windns-dns_custom_server
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_custom_server
       - name: "DNS_DHCID_DATA"
         href: /windows/win32/api/windns/ns-windns-dns_dhcid_data
       - name: "DNS_DS_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_ds_data
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_ds_data
       - name: "DNS_HEADER"
-        href: /windows/win32/api/windns/ns-windns-dns_header
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_header
       - name: "DNS_KEY_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_key_data
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_key_data
       - name: "DNS_LOC_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_loc_data
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_loc_data
       - name: "DNS_MESSAGE_BUFFER"
-        href: /windows/win32/api/windns/ns-windns-dns_message_buffer
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_message_buffer
       - name: "DNS_MINFO_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_minfo_dataa
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_minfo_dataa
       - name: "DNS_MX_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_mx_dataa
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_mx_dataa
       - name: "DNS_NAPTR_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_naptr_dataa
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_naptr_dataa
       - name: "DNS_NSEC_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_nsec_dataa
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_nsec_dataa
       - name: "DNS_NULL_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_null_data
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_null_data
       - name: "DNS_NXT_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_nxt_dataa
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_nxt_dataa
       - name: "DNS_OPT_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_opt_data
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_opt_data
       - name: "DNS_PTR_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_ptr_dataa
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_ptr_dataa
       - name: "DNS_PROXY_INFORMATION"
         href: /windows/win32/api/windns/ns-windns-dns_proxy_information
       - name: "DNS_QUERY_CANCEL"
@@ -181,11 +183,11 @@
       - name: "DNS_RRSET"
         href: /windows/win32/api/windns/ns-windns-dns_rrset
       - name: "DNS_SIG_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_sig_dataa
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_sig_dataa
       - name: "DNS_RECORD"
-        href: /windows/win32/api/windns/ns-windns-dns_recorda
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_recorda
       - name: "DNS_RECORD_FLAGS"
-        href: /windows/win32/api/windns/ns-windns-dns_record_flags
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_record_flags
       - name: "DNS_SERVICE_BROWSE_REQUEST"
         href: /windows/win32/api/windns/ns-windns-dns_service_browse_request
       - name: "DNS_SERVICE_CANCEL"
@@ -199,29 +201,31 @@
       - name: "DNS_SIG_DATA"
         href: /previous-versions/windows/desktop/legacy/ms682094(v=vs.85)
       - name: "DNS_SOA_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_soa_dataa
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_soa_dataa
       - name: "DNS_SRV_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_srv_dataa
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_srv_dataa
+      - name: "DNS_SVCB_DATA"
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_svcb_data
       - name: "DNS_TKEY_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_tkey_dataa
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_tkey_dataa
       - name: "DNS_TSIG_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_tsig_dataa
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_tsig_dataa
       - name: "DNS_TXT_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_txt_dataa
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_txt_dataa
       - name: "DNS_WINS_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_wins_data
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_wins_data
       - name: "DNS_WINSR_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_winsr_dataa
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_winsr_dataa
       - name: "DNS_WIRE_QUESTION"
         href: /windows/win32/api/windns/ns-windns-dns_wire_question
       - name: "DNS_WIRE_RECORD"
         href: /windows/win32/api/windns/ns-windns-dns_wire_record
       - name: "DNS_WKS_DATA"
-        href: /windows/win32/api/windns/ns-windns-dns_wks_data
+        href: /windows/win32/api/windnsdef/ns-windnsdef-dns_wks_data
       - name: "IP4_ARRAY"
         href: /windows/win32/api/windns/ns-windns-ip4_array
       - name: "IP6_ADDRESS"
-        href: /windows/win32/api/windns/ns-windns-ip6_address
+        href: /windows/win32/api/windnsdef/ns-windnsdef-ip6_address
       - name: "MDNS_QUERY_HANDLE"
         href: /windows/win32/api/windns/ns-windns-mdns_query_handle
       - name: "MDNS_QUERY_REQUEST"

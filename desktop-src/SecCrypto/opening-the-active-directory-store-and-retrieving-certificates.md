@@ -2,7 +2,7 @@
 description: Certificates can be retrieved from an Active Directory store where the certificates of users of a domain are stored.
 ms.assetid: 5c4d1629-88f3-41f4-afb3-7791cd590e6c
 title: Opening the Active Directory Store and Retrieving Certificates
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

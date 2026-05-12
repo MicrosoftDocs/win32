@@ -2,7 +2,7 @@
 description: Enumerating Pins
 ms.assetid: 231f10c1-46b4-4b66-b0ce-06a191237dfb
 title: Enumerating Pins
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

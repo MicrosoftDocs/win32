@@ -2,7 +2,7 @@
 title: XPS OM Canvas and Visual Interfaces
 description: This topic describes how to use the canvas-related interfaces of the XPS Document API in an XPS OM.
 ms.assetid: 368b8c47-9803-42ee-a3a8-681bf55315ad
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

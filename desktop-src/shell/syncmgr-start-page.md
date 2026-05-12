@@ -1,7 +1,7 @@
 ---
 description: The Synchronization Manager provides a centralized, standard technology for synchronizing files for offline use on a mobile computer or a computer connected to a local area network.
 title: Synchronization Manager
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 6cdac7e5-8985-407a-98bb-936bb20ed069
 api_name: 

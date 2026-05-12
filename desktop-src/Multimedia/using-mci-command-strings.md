@@ -2,7 +2,7 @@
 title: Using MCI Command Strings
 description: Using MCI Command Strings
 ms.assetid: 17017857-71fd-401b-b0dc-4779fddd8d32
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

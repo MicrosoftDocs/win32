@@ -7,7 +7,7 @@ keywords:
 - Advanced Systems Format (ASF),presentation times
 - ASF (Advanced Systems Format),presentation times
 - presentation times
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

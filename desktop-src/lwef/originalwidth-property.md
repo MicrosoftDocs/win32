@@ -2,7 +2,7 @@
 title: OriginalWidth Property
 description: OriginalWidth Property
 ms.assetid: bec2c0cd-bad4-4187-9535-3fd35f0daf22
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

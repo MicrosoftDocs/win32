@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Indexed Attributes AD
 - Attributes AD , indexed
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

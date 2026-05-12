@@ -2,7 +2,7 @@
 title: How to Add Client Drawing Effects to a Text Layout
 description: Provides a short tutorial on adding client drawing effects to a DirectWrite application that displays text using the IDWriteTextLayout interface and a custom text renderer.
 ms.assetid: b66ff814-2113-48b0-8913-3d30a5d20077
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -210,7 +210,7 @@ if (clientDrawingEffect != NULL)
 
     colorDrawingEffect->GetColor(&color);
 
-    // Create the brush using the color pecified by our ColorDrawingEffect object.
+    // Create the brush using the color specified by our ColorDrawingEffect object.
     if (SUCCEEDED(hr))
     {
         hr = pRT_->CreateSolidColorBrush(

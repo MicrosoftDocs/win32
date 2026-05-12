@@ -2,7 +2,7 @@
 title: Animation Design
 description: Animation Design
 ms.assetid: 8812e4cc-9062-4c65-81ef-229bd29534cd
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

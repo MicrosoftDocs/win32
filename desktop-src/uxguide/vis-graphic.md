@@ -2,7 +2,7 @@
 title: Graphic Elements
 description: Graphic elements show relationships, hierarchy, and emphasis visually. They include backgrounds, banners, glass, aggregators, separators, shadows, and handles.
 ms.assetid: f9e741e9-a72e-4bdb-bd95-8916c7cf344f
-ms.topic: article
+ms.topic: reference
 ms.date: 10/20/2020
 ---
 
@@ -127,7 +127,7 @@ In these examples, resize pointers are shown on hover.
 -   Check your program in both 96 and 120 dpi for:
     -   Graphics that are too small or too large.
     -   Graphics being clipped, overlapped, or otherwise not fitting properly.
-    -   Graphics that are poorly stretched ("pixilated").
+    -   Graphics that are poorly stretched ("pixelated").
     -   Text that is clipped or not fitting in graphic backgrounds.
 
 ## Text

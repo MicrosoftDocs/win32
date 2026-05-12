@@ -2,7 +2,7 @@
 description: Search
 ms.assetid: 8a025bee-65e1-40a7-a269-72a93aca827b
 title: Search
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

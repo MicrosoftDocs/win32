@@ -2,7 +2,7 @@
 title: Speech Input Problems
 description: Speech Input Problems
 ms.assetid: b42664a2-9615-4e15-97a6-115e9556096b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

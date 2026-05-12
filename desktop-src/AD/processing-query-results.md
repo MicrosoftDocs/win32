@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Processing Search Results AD
 - Active Directory, Searching, Processing Search Results
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

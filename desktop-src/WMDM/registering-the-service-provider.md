@@ -9,7 +9,7 @@ keywords:
 - service providers,registering service providers
 - creating service providers,registering service providers
 - registering service providers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

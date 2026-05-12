@@ -5,7 +5,7 @@ title: Create method of the MSFT\_NetRoute class
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbSyntax
@@ -165,7 +165,7 @@ The [**MSFT\_NetRoute**](msft-netroute.md) object that receives the new route.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                          |

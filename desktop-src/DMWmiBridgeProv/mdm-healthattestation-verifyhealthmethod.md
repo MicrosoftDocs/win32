@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # VerifyHealthMethod method of the MDM\_HealthAttestation class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+
 
 Method to notify the device to prepare a health certificate verification request. See also, [VerifyHealth](/windows/client-management/mdm/healthattestation-csp).
 

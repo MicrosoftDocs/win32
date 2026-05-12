@@ -5,7 +5,7 @@ title: Unlock method of the MSFT\_NetAdapter class
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -49,7 +49,7 @@ An embedded instance of the [**MSFT\_NetAdapter**](msft-netadapter.md) class.
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                         |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                               |

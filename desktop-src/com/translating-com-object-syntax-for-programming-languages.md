@@ -2,7 +2,7 @@
 title: Translating COM Object Syntax for Programming Languages
 description: Translating COM Object Syntax for Programming Languages
 ms.assetid: 021e0085-c720-401e-9637-76580e67b307
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -18,7 +18,7 @@ To call a COM object from an application written in a programming language other
 
 2.  Take into account any special considerations for translating to your programming language.
 
-    Because each programming language defines concepts that may not have an equivalent in other languages, some of an object's functionality may work differently in another language, or not be available at all. For example, the Visual Basic programming language does not recognize C++ unsigned data types, such as **unsignedÂ long**. An application written in Visual Basic cannot use COM methods that accept or return unsigned data type variables.
+    Because each programming language defines concepts that may not have an equivalent in other languages, some of an object's functionality may work differently in another language, or not be available at all. For example, the Visual Basic programming language does not recognize C++ unsigned data types, such as **unsigned long**. An application written in Visual Basic cannot use COM methods that accept or return unsigned data type variables.
 
 3.  Add the COM object's compiled code to your project. The compiled code is typically contained in a .dll or .ocx file. This step is necessary for the compiler to recognize the COM object's classes. After you add the COM object, your application can use its classes and interfaces.
 

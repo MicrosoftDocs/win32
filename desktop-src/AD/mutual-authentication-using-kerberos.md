@@ -8,7 +8,7 @@ keywords:
 - Active Directory, using, security, mutual authentication
 - security AD
 - security AD , mutual authentication
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

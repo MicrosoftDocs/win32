@@ -2,7 +2,7 @@
 title: Filter Weight Assignment
 description: Every filter in the Windows Filtering Platform (WFP) has an associated weight, which is used during filter arbitration.
 ms.assetid: c78854c2-9aa1-408f-82d6-4b9e52f38e84
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

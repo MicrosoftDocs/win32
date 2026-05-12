@@ -2,7 +2,7 @@
 title: IAgentCommands GetVoice
 description: IAgentCommands GetVoice
 ms.assetid: ef8983bc-c70c-48c7-9c5f-1dae61028d90
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

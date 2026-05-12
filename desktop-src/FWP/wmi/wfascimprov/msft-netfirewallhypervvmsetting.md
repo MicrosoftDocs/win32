@@ -1,7 +1,7 @@
 ---
 title: MSFT_NetFirewallHyperVVMSetting class
 description: Represents Windows Defender Firewall Hyper-V settings for a VM type.
-ms.topic: article
+ms.topic: reference
 ms.date: 05/17/2024
 topic_type: 
 - APIRef
@@ -170,7 +170,7 @@ This field is ignored.
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Minimum supported client | Windows 8 |
 | Minimum supported server | Windows Server 2012 |

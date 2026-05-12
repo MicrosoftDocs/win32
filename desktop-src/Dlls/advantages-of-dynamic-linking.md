@@ -2,7 +2,7 @@
 description: Dynamic linking has the following advantages over static linking.
 ms.assetid: adfd941d-1a36-4dd8-af1f-b105466e0668
 title: Advantages of Dynamic Linking
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

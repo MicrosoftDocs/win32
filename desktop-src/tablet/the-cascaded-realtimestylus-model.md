@@ -2,7 +2,7 @@
 description: Overview of the cascaded model for the RealTimeStylus class.
 ms.assetid: f4c377a7-979d-4a06-a8de-31b8e67d74f8
 title: The Cascaded RealTimeStylus Model
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Introduction to the Filter Base Classes
 ms.assetid: db6324d7-1914-44a8-a202-dff752b61c1a
 title: Introduction to the Filter Base Classes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---
@@ -32,7 +32,7 @@ The following classes support the creation of COM objects:
 
 Most of the DirectShow classes derive from **CBaseObject**. This class provides debugging assistance by keeping a count of all the active objects in the DLL at run time. In debug builds, the DLL asserts if it is unloaded while the object count is greater than zero. This makes it easier to track down leaks caused by reference-counting problems.
 
-All of the base classes that support COM interfaces derive from **CUnknown**, which inherits **CBaseObject**. The **CUnknown** class supports reference counting, **QueryInterface**, and aggregration. For more information, see [How to Implement IUnknown](how-to-implement-iunknown.md).
+All of the base classes that support COM interfaces derive from **CUnknown**, which inherits **CBaseObject**. The **CUnknown** class supports reference counting, **QueryInterface**, and aggregation. For more information, see [How to Implement IUnknown](how-to-implement-iunknown.md).
 
 **Filter and Pin Classes**
 

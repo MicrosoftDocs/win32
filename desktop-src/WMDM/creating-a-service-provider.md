@@ -14,7 +14,7 @@ keywords:
 - Device Manager,service providers
 - service providers,creating
 - creating service providers,about
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

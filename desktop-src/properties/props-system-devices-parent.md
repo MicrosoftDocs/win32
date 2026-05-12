@@ -2,7 +2,7 @@
 description: Parent device.
 ms.assetid: 55ab5289-4f68-495c-86b7-e67a8b556f44
 title: System.Devices.Parent
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

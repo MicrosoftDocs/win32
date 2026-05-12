@@ -2,7 +2,7 @@
 description: A bit mask that specifies which connection types should be included in the search.
 ms.assetid: 3cc019b8-3dbe-4a06-8c21-f04a7ee33370
 title: System.Devices.Aep.PointOfService.ConnectionTypes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

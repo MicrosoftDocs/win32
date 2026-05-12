@@ -2,7 +2,7 @@
 description: IP Helper enumeration navigation page.
 ms.assetid: 1c73fe50-8a0d-4462-bf8a-fc53d8153eda
 title: IP Helper enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

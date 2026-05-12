@@ -5,7 +5,7 @@ ms.assetid: cb59ab96-c58e-47cb-9031-5432e83771bd
 ms.tgt_platform: multiple
 keywords:
 - OBJECT.CPP
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

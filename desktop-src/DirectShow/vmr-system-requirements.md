@@ -2,7 +2,7 @@
 description: VMR System Requirements
 ms.assetid: fd50b312-73f0-4c68-a8b1-3497d958bc8f
 title: VMR System Requirements
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

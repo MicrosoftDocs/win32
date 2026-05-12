@@ -1,6 +1,6 @@
 ---
 title: WM_XBUTTONUP message (Winuser.h)
-description: Posted when the user releases the first or second X button while the cursor is in the client area of a window.
+description: Posted when the user releases either XBUTTON1 or XBUTTON2 while the cursor is in the client area of a window.
 ms.assetid: ad726859-368a-4603-bffa-4e639bc69a6a
 keywords:
 - WM_XBUTTONUP message Keyboard and Mouse Input
@@ -13,12 +13,12 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 08/23/2019
+ms.date: 07/14/2025
 ---
 
 # WM\_XBUTTONUP message
 
-Posted when the user releases the first or second X button while the cursor is in the client area of a window. If the mouse is not captured, the message is posted to the window beneath the cursor. Otherwise, the message is posted to the window that has captured the mouse.
+Posted when the user releases either XBUTTON1 or XBUTTON2 while the cursor is in the client area of a window. If the mouse is not captured, the message is posted to the window beneath the cursor. Otherwise, the message is posted to the window that has captured the mouse.
 
 A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
@@ -47,8 +47,8 @@ The low-order word indicates whether various virtual keys are down. It can be on
 | <span id="MK_MBUTTON"></span><span id="mk_mbutton"></span><dl> <dt>**MK\_MBUTTON**</dt> <dt>0x0010</dt> </dl>    | The middle mouse button is down.<br/> |
 | <span id="MK_RBUTTON"></span><span id="mk_rbutton"></span><dl> <dt>**MK\_RBUTTON**</dt> <dt>0x0002</dt> </dl>    | The right mouse button is down.<br/>  |
 | <span id="MK_SHIFT"></span><span id="mk_shift"></span><dl> <dt>**MK\_SHIFT**</dt> <dt>0x0004</dt> </dl>          | The SHIFT key is down.<br/>           |
-| <span id="MK_XBUTTON1"></span><span id="mk_xbutton1"></span><dl> <dt>**MK\_XBUTTON1**</dt> <dt>0x0020</dt> </dl> | The first X button is down.<br/>      |
-| <span id="MK_XBUTTON2"></span><span id="mk_xbutton2"></span><dl> <dt>**MK\_XBUTTON2**</dt> <dt>0x0040</dt> </dl> | The second X button is down.<br/>     |
+| <span id="MK_XBUTTON1"></span><span id="mk_xbutton1"></span><dl> <dt>**MK\_XBUTTON1**</dt> <dt>0x0020</dt> </dl> | The XBUTTON1 is down.<br/>      |
+| <span id="MK_XBUTTON2"></span><span id="mk_xbutton2"></span><dl> <dt>**MK\_XBUTTON2**</dt> <dt>0x0040</dt> </dl> | The XBUTTON2 is down.<br/>     |
 
 
 
@@ -60,8 +60,8 @@ The high-order word indicates which button was released. It can be one of the fo
 
 | Value                                                                                                                                                                                                     | Meaning                                            |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
-| <span id="XBUTTON1"></span><span id="xbutton1"></span><dl> <dt>**XBUTTON1**</dt> <dt>0x0001</dt> </dl> | The first X button was released.<br/>  |
-| <span id="XBUTTON2"></span><span id="xbutton2"></span><dl> <dt>**XBUTTON2**</dt> <dt>0x0002</dt> </dl> | The second X button was released.<br/> |
+| <span id="XBUTTON1"></span><span id="xbutton1"></span><dl> <dt>**XBUTTON1**</dt> <dt>0x0001</dt> </dl> | The XBUTTON1 was released.<br/>  |
+| <span id="XBUTTON2"></span><span id="xbutton2"></span><dl> <dt>**XBUTTON2**</dt> <dt>0x0002</dt> </dl> | The XBUTTON2 was released.<br/> |
 
 
 
@@ -83,6 +83,8 @@ The high-order word specifies the y-coordinate of the cursor. The coordinate is 
 If an application processes this message, it should return **TRUE**. For more information about processing the return value, see the Remarks section.
 
 ## Remarks
+
+Windows supports mice with up to five buttons: left, middle, and right, plus two additional buttons called XBUTTON1 and XBUTTON2. The XBUTTON1 and XBUTTON2 buttons are often located on the sides of the mouse, near the base. These extra buttons are not present on all mice. If present, the XBUTTON1 and XBUTTON2 buttons are often mapped to an application function, such as forward and backward navigation in a Web browser.
 
 Use the following code to get the information in the *wParam* parameter:
 

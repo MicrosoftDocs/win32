@@ -1,12 +1,12 @@
 ---
 description: Installing a protocol handler involves copying the DLL(s) to an appropriate location in the Program Files directory, and then registering the protocol handler through the registry.
 ms.assetid: 07c40c0c-2729-462c-ba40-e05ffea2b889
-title: Installing and Registering Protocol Handlers (Windows Search)
-ms.topic: article
+title: Installing and registering protocol handlers (Windows Search)
+ms.topic: install-set-up-deploy
 ms.date: 05/31/2018
 ---
 
-# Installing and Registering Protocol Handlers (Windows Search)
+# Installing and registering protocol handlers (Windows Search)
 
 Installing a protocol handler involves copying the DLL(s) to an appropriate location in the Program Files directory, and then registering the protocol handler through the registry. The installation application can also add a search root and scope rules to define a default crawl scope for the Shell data source.
 
@@ -25,7 +25,7 @@ This topic is organized as follows:
 -   [Ensuring that Your Items are Indexed](#ensuring-that-your-items-are-indexed)
 -   [Related topics](#related-topics)
 
-## About URLs
+## About urls
 
 Windows Search uses URLs to uniquely identify items in the hierarchy of your Shell data source. The URL that is the first node in the hierarchy is called the [search root](-search-3x-wds-extidx-csm-searchroots.md); Windows Search will begin indexing at the search root, requesting that the protocol handler enumerate child links for each URL.
 
@@ -57,7 +57,7 @@ The Windows Search Indexer trims the final slash from URLs. As a result you cann
 
 For more information on creating a Shell data source, see [Implementing the Basic Folder Object Interfaces](/previous-versions/windows/desktop/legacy/cc144093(v=vs.85)).
 
-## Implementing Protocol Handler Interfaces
+## Implementing protocol handler interfaces
 
 Creating a protocol handler requires the implementation of the following three interfaces:
 
@@ -71,7 +71,7 @@ Other than the three mandatory interfaces listed, the other interfaces are optio
 
 The SearchProtocol interfaces initialize and manage your protocol handler UrlAccessor objects. The [**ISearchProtocol2**](/windows/desktop/api/Searchapi/nn-searchapi-isearchprotocol2) interface is an optional extension of [**ISearchProtocol**](/windows/desktop/api/Searchapi/nn-searchapi-isearchprotocol), and includes an extra method to specify more information about the user and the item.
 
-### IUrlAccessor, IUrlAccessor2, IUrlAccessor3, and IUrlAccessor4
+### Iurlaccessor, iurlaccessor2, iurlaccessor3, and IUrlAccessor4
 
 The [**IUrlAccessor**](/windows/desktop/api/Searchapi/nn-searchapi-iurlaccessor) interfaces are described in the following table.
 
@@ -108,7 +108,7 @@ The UrlAccessor object is instantiated and initialized by a SearchProtocol objec
 
 The [**IProtocolHandlerSite**](/windows/desktop/api/Searchapi/nn-searchapi-iprotocolhandlersite) interface is used to instantiate a filter handler, which is hosted in an isolated process. The appropriate filter handler is obtained for a specified persistent class identifier (CLSID), document storage class, or file name extension. The benefit of asking the host process to bind to [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) is that the host process can manage the process of locating an appropriate filter handler, and control the security involved in calling the handler.
 
-## Implementing Filter Handlers for Containers
+## Implementing filter handlers for containers
 
 If you are implementing a hierarchical protocol handler, then you must implement a filter handler for a container that enumerates child URLs. A filter handler is an implementation of the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface. The enumeration process is a loop through the [**IFilter::GetChunk**](/windows/win32/api/filter/nf-filter-ifilter-getchunk) and [**IFilter::GetValue**](/windows/win32/api/filter/nf-filter-ifilter-getvalue) methods of the **IFilter** interface; each child URL is exposed as the value of the property.
 
@@ -201,11 +201,11 @@ HRESULT GetPropVariantForUrlAndTime
 
  
 
-## Installing and Registering a Protocol Handler
+## Installing and registering a protocol handler
 
 Installing protocol handlers involves copying the DLL(s) to an appropriate location in the Program Files directory, and then registering the DLL(s). Protocol handlers should implement self-registration for installation. The installation application can also add a search root, and scope rules to define a default crawl scope for the Shell data source, which is discussed in [Ensuring that Your Items are Indexed](#ensuring-that-your-items-are-indexed) at the end of this topic.
 
-### Guidelines for Registering a Protocol Handler
+### Guidelines for registering a protocol handler
 
 You should follow these guidelines when registering a protocol handler:
 
@@ -217,7 +217,7 @@ You should follow these guidelines when registering a protocol handler:
 -   If a newer add-in has overwritten the previous add-in, there should be the ability to restore the previous add-in's functionality and make it the default add-in for that file type again.
 -   The installer should define a default crawl scope for the indexer by adding a search root, and scope rules using the Crawl Scope Manager (CSM).
 
-### Registering a Protocol Handler
+### Registering a protocol handler
 
 You need to make fourteen entries in the registry to register the protocol handler component, where:
 
@@ -343,7 +343,7 @@ You need to make fourteen entries in the registry to register the protocol handl
                             HasStartPage = dword:00000000
     ```
 
-### Registering the Protocol Handler's File Type Handler
+### Registering the protocol handler's file type handler
 
 You need to make two entries in the registry to register the protocol handler's file type handler (which is also known as a Shell extension).
 
@@ -372,7 +372,7 @@ You need to make two entries in the registry to register the protocol handler's 
                             {CLSID of PH Implementation} = <Shell Implementation Description>
     ```
 
-## Ensuring that Your Items are Indexed
+## Ensuring that your items are indexed
 
 After you have implemented your protocol handler, you must specify which Shell items your protocol handler is to index. You can use the Catalog Manager to initiate re-indexing (for more information, see [Using the Catalog Manager](-search-3x-wds-mngidx-catalog-manager.md)). Or you can also use the Crawl Scope Manager (CSM) to set up default rules indicating the URLs that you want the indexer to crawl (for more information, see [Using the Crawl Scope Manager](-search-3x-wds-extidx-csm.md) and [Managing Scope Rules](-search-3x-wds-extidx-csm-scoperules.md)). You can also add a search root (for more information, see [Managing Search Roots](-search-3x-wds-extidx-csm-searchroots.md)). Another option available to you is to follow the procedure in the ReIndex sample in [Windows Search Code Samples](-search-samples-ovw.md).
 

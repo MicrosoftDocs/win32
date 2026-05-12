@@ -2,7 +2,7 @@
 description: The following enumeration types are used to retrieve or set system information.
 ms.assetid: 477c1dc7-04c7-4332-95ed-3d833f5650df
 title: System Information Enumeration Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

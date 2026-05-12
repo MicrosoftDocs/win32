@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # MDM\_Policy\_Config01\_ActiveXControls02 class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+
 
 This policy setting determines which ActiveX installation sites standard users in your organization can use to install ActiveX controls on their computers. When this setting is enabled, the administrator can create a list of approved Activex Install sites specified by host URL.
 

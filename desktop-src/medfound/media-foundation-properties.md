@@ -2,7 +2,7 @@
 description: Describes Media Foundation properties and provides a list of properties and links to related reference articles.
 ms.assetid: 98510fda-7e10-4b63-83d4-5a224aed67a3
 title: Media Foundation Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

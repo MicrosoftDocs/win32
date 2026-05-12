@@ -2,7 +2,7 @@
 description: The Windows Security app
 ms.assetid: FF0D7B81-AFDC-4DB2-B2B0-0D2536B2757B
 title: The Windows Security app
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

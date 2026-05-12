@@ -2,7 +2,7 @@
 description: Explains the strings used by SDDLs.
 ms.assetid: a531532f-afba-46a1-8576-90d4ff881b94
 title: SID Strings
-ms.topic: article
+ms.topic: reference
 ms.date: 09/26/2023
 ---
 
@@ -77,6 +77,7 @@ The following SID string constants for well-known SIDs are defined in Sddl.h. Fo
 | "RS" | SDDL\_RAS\_SERVERS | RAS servers group. The corresponding RID is DOMAIN\_ALIAS\_RID\_RAS\_SERVERS. |
 | "RU" | SDDL\_ALIAS\_PREW2KCOMPACC | Alias to grant permissions to accounts that use applications compatible with operating systems previous to Windows 2000. The corresponding RID is DOMAIN\_ALIAS\_RID\_PREW2KCOMPACCESS. |
 | "SA" | SDDL\_SCHEMA\_ADMINISTRATORS | Schema administrators. The corresponding RID is DOMAIN\_GROUP\_RID\_SCHEMA\_ADMINS. |
+| "SH" | SDDL\_OPENSSH\_USERS | Users allowed to connect with OpenSSH. The corresponding RID is DOMAIN\_ALIAS\_RID\_OPENSSH\_USERS. |
 | "SI" | SDDL\_ML\_SYSTEM | System integrity level. The corresponding RID is SECURITY\_MANDATORY\_SYSTEM\_RID. **Windows Server 2003:** Not available. |
 | "SO" | SDDL\_SERVER\_OPERATORS | Server operators. The corresponding RID is DOMAIN\_ALIAS\_RID\_SYSTEM\_OPS. |
 | "SS" | SDDL\_SERVICE\_ASSERTED | Authentication service asserted. The corresponding RID is SECURITY\_AUTHENTICATION\_SERVICE\_ASSERTED\_RID. **Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Not available. |

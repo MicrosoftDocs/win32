@@ -2,7 +2,7 @@
 title: Strict and Type Strict Context Handles
 description: Use the strict\_context\_handle attribute for all context handles.
 ms.assetid: 2483aa76-0814-4f63-9c38-0aa050d73772
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

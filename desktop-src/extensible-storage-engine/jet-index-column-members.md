@@ -6,7 +6,7 @@ ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_COLUMN
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows8.jet_index_column_members(v=EXCHG.10)
 ms:contentKeyID: 55104315
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # JET_INDEX_COLUMN members
@@ -64,7 +64,7 @@ Top
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335479(v=exchg.10).md">pvData</a></td>
-<td>Gets or sets the value to comparte the column with.</td>
+<td>Gets or sets the value to compare the column with.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>

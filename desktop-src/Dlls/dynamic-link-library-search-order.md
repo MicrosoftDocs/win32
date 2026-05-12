@@ -3,7 +3,7 @@ title: Dynamic-link library search order
 description: You can control the specific location from which any given DLL is loaded by specifying a full path. If you don't use that method, then the system searches for the DLL at load time as described in this topic.
 ms.date: 02/08/2023
 ms.assetid: 44228cf2-6306-466c-8f16-f513cd3ba8b5
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Dynamic-link library search order

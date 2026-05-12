@@ -2,8 +2,8 @@
 description: The following functions are used with debugging.
 ms.assetid: 95a838a2-f138-4682-b733-3f363b6c4a4b
 title: Debugging Functions
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Debugging Functions

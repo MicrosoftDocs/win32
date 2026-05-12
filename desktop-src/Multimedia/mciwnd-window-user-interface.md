@@ -2,7 +2,7 @@
 title: MCIWnd Window User Interface
 description: MCIWnd Window User Interface
 ms.assetid: 422c5acb-bce5-4be2-96ba-5ab7f9dcc826
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

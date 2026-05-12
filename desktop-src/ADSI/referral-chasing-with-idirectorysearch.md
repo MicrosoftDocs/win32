@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Referral Chasing with IDirectorySearch ADSI
 - ADSI, Searching, IDirectorySearch, Other Search Options, Referral Chasing
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

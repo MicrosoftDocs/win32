@@ -2,7 +2,7 @@
 description: Heap fragmentation occurs when available memory is broken into small, noncontiguous blocks. The low-fragmentation heap (LFH) helps to reduce heap fragmentation.
 ms.assetid: d10abf82-423c-4942-b05e-55de3a5c4219
 title: Low-fragmentation Heap
-ms.topic: article
+ms.topic: reference
 ms.date: 09/12/2023
 ---
 

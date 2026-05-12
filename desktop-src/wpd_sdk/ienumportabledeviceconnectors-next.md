@@ -89,7 +89,7 @@ IEnumPortableDeviceConnectors* pEnum = NULL;
        UINT32  uFetched        = 0;
        LPWSTR  wszDevicePnPID  = NULL;
        IPortableDeviceConnector* pDevice = NULL;
-       hrEnum = pEnum->Next(1, &spDevice, &uFetched);
+       hrEnum = pEnum->Next(1, &pDevice, &uFetched);
        if (hrEnum == S_OK && uFetched == 1)
         {
           // Send an asynchronous connect request.  

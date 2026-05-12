@@ -2,7 +2,7 @@
 description: The media type (or mode) describes the type of information being exchanged, such as interactive voice. A given communications session may involve several media types.
 ms.assetid: 2eb140f0-ca07-4e60-b9f3-be2f466f4fca
 title: Media Type for a Session
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

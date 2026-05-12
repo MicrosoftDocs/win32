@@ -2,7 +2,7 @@
 description: Windows provides APIs that you can use to acquire high-resolution time stamps or measure time intervals.
 ms.assetid: D66E0FC2-3AF2-489B-B4B5-78648905B77B
 title: Acquiring high-resolution time stamps
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -331,7 +331,7 @@ Call the [**Stopwatch.GetTimeStamp**](/previous-versions/windows/) method from t
 <span id="Under_what_circumstances_does_QueryPerformanceFrequency_return_FALSE__or_________QueryPerformanceCounter_return_zero_"></span><span id="under_what_circumstances_does_queryperformancefrequency_return_false__or_________queryperformancecounter_return_zero_"></span><span id="UNDER_WHAT_CIRCUMSTANCES_DOES_QUERYPERFORMANCEFREQUENCY_RETURN_FALSE__OR_________QUERYPERFORMANCECOUNTER_RETURN_ZERO_"></span>**Under what circumstances does QueryPerformanceFrequency return FALSE, or QueryPerformanceCounter return zero?**
 </dt> <dd>
 
-This won't occur on any system that runs Windows XP or later.
+This won't occur on any system that runs Windows XP or later, provided you pass valid parameters to the functions.
 
 </dd> <dt>
 
@@ -460,7 +460,8 @@ A convenient reference is that a frequency error of 100 ppm causes an error of 8
 | 1 microsecond          | ± 10 picoseconds (10-12)                                                             |
 | 1 millisecond          | ± 10 nanoseconds (10-9)                                                              |
 | 1 second               | ± 10 microseconds                                                                    |
-| 1 hour                 | ± 60 microseconds                                                                    |
+| 1 minute                 | ± 60 microseconds                                                                    |
+| 1 hour                 | ± 36 milliseconds                                                                   |
 | 1 day                  | ± 0.86 seconds                                                                       |
 | 1 week                 | ± 6.08 seconds                                                                       |
 

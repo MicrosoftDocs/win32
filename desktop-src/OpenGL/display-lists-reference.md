@@ -5,7 +5,7 @@ ms.assetid: 12e5051d-8277-4c4c-981f-25e4ba7d7697
 keywords:
 - OpenGL,display lists reference
 - display lists reference OpenGL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

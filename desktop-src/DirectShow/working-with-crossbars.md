@@ -2,7 +2,7 @@
 description: Working with Crossbars
 ms.assetid: 6e8ee9c3-6776-498b-ad38-36f8172a27ae
 title: Working with Crossbars
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

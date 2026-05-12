@@ -2,7 +2,7 @@
 title: Render to a GDI Surface
 description: Render to a GDI Surface
 ms.assetid: a6096ff5-1e6e-4edb-b455-ea5d205072ff
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

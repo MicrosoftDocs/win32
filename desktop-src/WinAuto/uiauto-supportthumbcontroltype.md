@@ -19,8 +19,8 @@ keywords:
 - control types,control patterns for Thumb control type
 - control types,support for Thumb
 - control types,Thumb
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Thumb Control Type

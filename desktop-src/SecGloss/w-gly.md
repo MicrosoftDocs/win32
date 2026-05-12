@@ -3,7 +3,7 @@ description: Contains definitions of security terms that begin with the letter W
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 031c898b-3b4d-4b29-811a-112da37b5e3d
 title: W (Security Glossary)
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

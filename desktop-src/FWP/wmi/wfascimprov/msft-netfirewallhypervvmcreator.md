@@ -1,7 +1,7 @@
 ---
 title: MSFT_NetFirewallHyperVVMCreator class
 description: Represents a particular Windows Defender Firewall Hyper-V VM Creator.
-ms.topic: article
+ms.topic: reference
 ms.date: 05/17/2024
 topic_type: 
 - APIRef
@@ -123,7 +123,7 @@ This field is ignored.
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Minimum supported client | Windows 8 |
 | Minimum supported server | Windows Server 2012 |

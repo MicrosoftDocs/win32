@@ -86,7 +86,7 @@ To create a static control using the [**CreateWindow**](/windows/desktop/api/win
 
 ## Remarks
 
-To use a style which truncates words or strings with an ellipsis for multiline text, [**DrawThemeText**](/windows/desktop/api/Uxtheme/nf-uxtheme-drawthemetext) or [**DrawText**](/windows/desktop/api/winuser/nf-winuser-drawtext) can be used on a owner-draw control with formatting flags **DT\_WORDBREAK** and **DT\_ENDELLIPSIS** set.
+To use a style which truncates words or strings with an ellipsis for multiline text, [**DrawThemeText**](/windows/desktop/api/Uxtheme/nf-uxtheme-drawthemetext) or [**DrawText**](/windows/desktop/api/winuser/nf-winuser-drawtext) can be used on an owner-draw control with formatting flags **DT\_WORDBREAK** and **DT\_ENDELLIPSIS** set.
 
 ## Requirements
 

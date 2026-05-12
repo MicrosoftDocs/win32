@@ -2,7 +2,7 @@
 description: An application can convert a path into a region by calling the PathToRegion function.
 ms.assetid: c4261516-7872-4118-99e2-138f0ac3c38a
 title: Conversion of Paths to Regions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

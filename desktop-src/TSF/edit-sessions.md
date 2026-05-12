@@ -7,7 +7,7 @@ keywords:
 - TSF (Text Services Framework),edit session
 - text services,edit session
 - edit session
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

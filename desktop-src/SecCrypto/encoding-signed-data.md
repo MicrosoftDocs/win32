@@ -2,8 +2,9 @@
 description: Depicts the procedure for encoding a signed message.
 ms.assetid: 40d1c417-6d88-4421-920f-8b40d88d28ce
 title: Encoding Signed Data
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
+ms.custom: sfi-image-nochange
 ---
 
 # Encoding Signed Data

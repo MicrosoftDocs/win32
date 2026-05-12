@@ -8,7 +8,7 @@ keywords:
 - Queries ADSI , Query Interfaces, IDirectorySearch
 - ADSI ADSI , Example Code C/C++ , Searching a Directory with IDirectorySearch
 - IDirectorySearch ADSI , Using to Search a Directory
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: An association provider provides a mechanism to register profiles a
 ms.assetid: e6aab944-4ed8-4678-ad35-426f7b4f9a35
 ms.tgt_platform: multiple
 title: Writing an Association Provider for Interop
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

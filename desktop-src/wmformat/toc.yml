@@ -1,622 +1,622 @@
-- name: "windows media format 11 sdk"
+- name: "Windows Media Format 11 SDK"
   href: windows-media-format-11-sdk.md
   items: 
-  - name: "about the windows media format sdk"
+  - name: "About the Windows Media Format SDK"
     href: about-the-windows-media-format-sdk.md
     items: 
-    - name: "what's new"
+    - name: "What's new"
       href: whats-new.md
-    - name: "features added in the windows media 9.5 sdk"
+    - name: "Features added in the Windows Media 9.5 SDK"
       href: features-added-in-the-windows-media-9-5-sdk.md
-    - name: "features added in the windows media format 9 series sdk"
+    - name: "Features added in the Windows Media Format 9 series SDK"
       href: features-added-in-the-windows-media-format-9-series-sdk.md
-    - name: "sdk versions"
+    - name: "SDK versions"
       href: sdk-versions.md
-    - name: "windows media format 9.5 sdk x64 edition"
+    - name: "Windows Media Format 9.5 SDK x64 edition"
       href: windows-media-format-9-5-sdk-x64-edition.md
-    - name: "privacy statement"
+    - name: "Privacy statement"
       href: privacy-statement.md
-    - name: "overview of the windows media format sdk"
+    - name: "Overview of the Windows Media Format SDK"
       href: overview-of-the-windows-media-format-sdk.md
-    - name: "overview of the asf format"
+    - name: "Overview of the ASF format"
       href: overview-of-the-asf-format.md
-    - name: "concepts"
+    - name: "Concepts"
       href: concepts.md
       items: 
-      - name: "advanced systems format (asf) files"
+      - name: "Advanced systems format (ASF) files"
         href: advanced-systems-format--asf--files.md
-      - name: "profiles"
+      - name: "Profiles"
         href: profiles.md
-      - name: "media samples"
+      - name: "Media samples"
         href: media-samples.md
-      - name: "inputs, streams and outputs"
+      - name: "Inputs, streams and outputs"
         href: inputs-streams-and-outputs.md
-      - name: "formats"
+      - name: "Formats"
         href: formats.md
-      - name: "bit rate"
+      - name: "Bit rate"
         href: bit-rate.md
-      - name: "metadata"
+      - name: "Metadata"
         href: metadata.md
-      - name: "presentation time"
+      - name: "Presentation time"
         href: presentation-time.md
-      - name: "buffering content"
+      - name: "Buffering content"
         href: buffering-content.md
-    - name: "features"
+    - name: "Features"
       href: features.md
       items: 
-      - name: "asf file features"
+      - name: "ASF file features"
         href: asf-file-features.md
         items: 
-        - name: "audio and video streams"
+        - name: "Audio and video streams"
           href: audio-and-video-streams.md
-        - name: "image streams"
+        - name: "Image streams"
           href: image-streams.md
-        - name: "arbitrary streams"
+        - name: "Arbitrary streams"
           href: arbitrary-streams.md
           items: 
-          - name: "text streams"
+          - name: "Text streams"
             href: text-streams.md
-          - name: "file streams"
+          - name: "File streams"
             href: file-streams.md
-          - name: "web streams"
+          - name: "Web streams"
             href: web-streams.md
-          - name: "custom arbitrary data streams"
+          - name: "Custom arbitrary data streams"
             href: custom-arbitrary-data-streams.md
-        - name: "script commands"
+        - name: "Script commands"
           href: script-commands.md
-        - name: "data unit extensions"
+        - name: "Data unit extensions"
           href: data-unit-extensions.md
-        - name: "smpte time code support"
+        - name: "SMPTE time code support"
           href: smpte-time-code-support.md
-        - name: "mutual exclusion"
+        - name: "Mutual exclusion"
           href: mutual-exclusion.md
-        - name: "stream prioritization"
+        - name: "Stream prioritization"
           href: stream-prioritization.md
-        - name: "bandwidth sharing"
+        - name: "Bandwidth sharing"
           href: bandwidth-sharing.md
-        - name: "indexes"
+        - name: "Indexes"
           href: indexes.md
-        - name: "markers"
+        - name: "Markers"
           href: markers.md
-        - name: "reader response to asf features"
+        - name: "Reader response to ASF features"
           href: reader-response-to-asf-features.md
-      - name: "codec features"
+      - name: "Codec features"
         href: codec-features.md
         items: 
-        - name: "supported codecs"
+        - name: "Supported codecs"
           href: supported-codecs.md
-        - name: "constant bit rate (cbr) encoding"
+        - name: "Constant bit rate (CBR) encoding"
           href: constant-bit-rate--cbr--encoding.md
-        - name: "variable bit rate (vbr) encoding"
+        - name: "Variable bit rate (VBR) encoding"
           href: variable-bit-rate--vbr--encoding.md
-        - name: "two-pass encoding"
+        - name: "Two-pass encoding"
           href: two-pass-encoding.md
-        - name: "high-resolution audio support"
+        - name: "High-resolution audio support"
           href: high-resolution-audio-support.md
-        - name: "low-delay audio"
+        - name: "Low-delay audio"
           href: low-delay-audio.md
-        - name: "s/pdif audio output"
+        - name: "S/PDIF audio output"
           href: s-pdif-audio-output.md
-        - name: "video image"
+        - name: "Video image"
           href: video-image.md
-        - name: "device conformance templates"
+        - name: "Device conformance templates"
           href: device-conformance-templates.md
-        - name: "video complexity settings"
+        - name: "Video complexity settings"
           href: video-complexity-settings.md
-        - name: "frame interpolation"
+        - name: "Frame interpolation"
           href: frame-interpolation.md
-      - name: "file writing features"
+      - name: "File writing features"
         href: file-writing-features.md
         items: 
-        - name: "video resizing"
+        - name: "Video resizing"
           href: video-resizing.md
-        - name: "color space conversion"
+        - name: "Color space conversion"
           href: color-space-conversion.md
-        - name: "audio resampling"
+        - name: "Audio resampling"
           href: audio-resampling.md
-        - name: "sinks"
+        - name: "Sinks"
           href: sinks.md
-        - name: "watermarking support"
+        - name: "Watermarking support"
           href: watermarking-support.md
-        - name: "input formats, input settings, and data unit extensions"
+        - name: "Input formats, input settings, and data unit extensions"
           href: input-formats-input-settings-and-data-unit-extensions.md
-        - name: "input format enumeration"
+        - name: "Input format enumeration"
           href: input-format-enumeration.md
-      - name: "file reading features"
+      - name: "File reading features"
         href: file-reading-features.md
         items: 
-        - name: "user allocated sample support"
+        - name: "User allocated sample support"
           href: user-allocated-sample-support.md
-        - name: "output format enumeration"
+        - name: "Output format enumeration"
           href: output-format-enumeration.md
-      - name: "metadata features"
+      - name: "Metadata features"
         href: metadata-features.md
         items: 
-        - name: "id3 support"
+        - name: "ID3 support"
           href: id3.md
-        - name: "custom metadata"
+        - name: "Custom metadata"
           href: custom-metadata.md
-      - name: "digital rights management features"
+      - name: "Digital rights management features"
         href: digital-rights-management-features.md
         items: 
-        - name: "drm basics"
+        - name: "DRM basics"
           href: drm-basics.md
-        - name: "drm versions"
+        - name: "DRM versions"
           href: drm-versions.md
-        - name: "live drm"
+        - name: "Live DRM"
           href: live-drm.md
-        - name: "drm individualization"
+        - name: "DRM individualization"
           href: drm-individualization.md
-        - name: "backing up and restoring of drm licenses"
+        - name: "Backing up and restoring of DRM licenses"
           href: backing-up-and-restoring-of-drm-licenses.md
-        - name: "viewing drm attributes in the metadata editor"
+        - name: "Viewing DRM attributes in the metadata editor"
           href: viewing-drm-attributes-in-the-metadata-editor.md
-        - name: "output protection levels"
+        - name: "Output protection levels"
           href: output-protection-levels.md
-        - name: "license revocation"
+        - name: "License revocation"
           href: license-revocation.md
-        - name: "windows media drm 10 for network devices"
+        - name: "Windows Media DRM 10 for network devices"
           href: windows-media-drm-10-for-network-devices.md
-        - name: "microsoft secure audio path (deprecated)"
+        - name: "Microsoft secure audio path (deprecated)"
           href: microsoft-secure-audio-path--deprecated.md
           items: 
-          - name: "the secure audio path model (deprecated)"
+          - name: "The secure audio path model (deprecated)"
             href: the-secure-audio-path-model--deprecated.md
-          - name: "viewing or modifying the music signal (deprecated)"
+          - name: "Viewing or modifying the music signal (deprecated)"
             href: viewing-or-modifying-the-music-signal--deprecated.md
-          - name: "the drm kernel component (deprecated)"
+          - name: "The DRM kernel component (deprecated)"
             href: the-drm-kernel-component--deprecated.md
-          - name: "disabling digital output (deprecated)"
+          - name: "Disabling digital output (deprecated)"
             href: disabling-digital-output--deprecated.md
-        - name: "playlist burning"
+        - name: "Playlist burning"
           href: playlist-burning.md
-    - name: "sample applications"
+    - name: "Sample applications"
       href: sample-applications.md
-    - name: "for more information"
+    - name: "For more information"
       href: for-more-information.md
-  - name: "programming guide"
+  - name: "Programming guide"
     href: programming-guide.md
     items: 
-    - name: "getting started"
+    - name: "Getting started"
       href: getting-started.md
       items: 
-      - name: "library files and compiler settings"
+      - name: "Library files and compiler settings"
         href: library-files-and-compiler-settings.md
-      - name: "using the code examples"
+      - name: "Using the code examples"
         href: using-the-code-examples.md
-    - name: "using the callback methods"
+    - name: "Using the callback methods"
       href: using-the-callback-methods.md
       items: 
-      - name: "using the onstatus callback"
+      - name: "Using the onstatus callback"
         href: using-the-onstatus-callback.md
-      - name: "using events with asynchronous calls"
+      - name: "Using events with asynchronous calls"
         href: using-events-with-asynchronous-calls.md
-      - name: "using the context parameter"
+      - name: "Using the context parameter"
         href: using-the-context-parameter.md
-    - name: "working with profiles"
+    - name: "Working with profiles"
       href: working-with-profiles.md
       items: 
-      - name: "designing profiles"
+      - name: "Designing profiles"
         href: designing-profiles.md
         items: 
-        - name: "selecting profile features"
+        - name: "Selecting profile features"
           href: selecting-profile-features.md
-        - name: "choosing an encoding method"
+        - name: "Choosing an encoding method"
           href: choosing-an-encoding-method.md
-        - name: "selecting bit rates"
+        - name: "Selecting bit rates"
           href: selecting-bit-rates.md
-        - name: "working with device conformance templates"
+        - name: "Working with device conformance templates"
           href: working-with-device-conformance-templates.md
-      - name: "creating profiles"
+      - name: "Creating profiles"
         href: creating-profiles.md
-      - name: "configuring streams"
+      - name: "Configuring streams"
         href: configuring-streams.md
         items: 
-        - name: "configuration common to all streams"
+        - name: "Configuration common to all streams"
           href: configuration-common-to-all-streams.md
-        - name: "getting stream configuration information from codecs"
+        - name: "Getting stream configuration information from codecs"
           href: getting-stream-configuration-information-from-codecs.md
           items: 
-          - name: "to enumerate all installed windows media codecs"
+          - name: "To enumerate all installed Windows Media codecs"
             href: to-enumerate-all-installed-windows-media-codecs.md
-          - name: "to enumerate codec formats"
+          - name: "To enumerate codec formats"
             href: to-enumerate-codec-formats.md
-        - name: "configuring audio streams"
+        - name: "Configuring audio streams"
           href: configuring-audio-streams.md
           items: 
-          - name: "to find audio formats"
+          - name: "To find audio formats"
             href: to-find-audio-formats.md
-        - name: "configuring video streams"
+        - name: "Configuring video streams"
           href: configuring-video-streams.md
-        - name: "configuring video streams for seeking performance"
+        - name: "Configuring video streams for seeking performance"
           href: configuring-video-streams-for-seeking-performance.md
-        - name: "configuring screen capture streams"
+        - name: "Configuring screen capture streams"
           href: configuring-screen-capture-streams.md
-        - name: "configuring image streams"
+        - name: "Configuring image streams"
           href: configuring-image-streams.md
-        - name: "using uncompressed audio and video streams"
+        - name: "Using uncompressed audio and video streams"
           href: using-uncompressed-audio-and-video-streams.md
-        - name: "configuring arbitrary stream types"
+        - name: "Configuring arbitrary stream types"
           href: configuring-arbitrary-stream-types.md
           items: 
-          - name: "configuring script streams"
+          - name: "Configuring script streams"
             href: configuring-script-streams.md
-          - name: "configuring file transfer streams"
+          - name: "Configuring file transfer streams"
             href: configuring-file-transfer-streams.md
-          - name: "configuring web streams"
+          - name: "Configuring web streams"
             href: configuring-web-streams.md
-          - name: "configuring text streams"
+          - name: "Configuring text streams"
             href: configuring-text-streams.md
-          - name: "configuring custom arbitrary streams"
+          - name: "Configuring custom arbitrary streams"
             href: configuring-custom-arbitrary-streams.md
-          - name: "calculating bit rate and buffer window values for arbitrary streams"
+          - name: "Calculating bit rate and buffer window values for arbitrary streams"
             href: calculating-bit-rate-and-buffer-window-values-for-arbitrary-streams.md
-        - name: "configuring vbr streams"
+        - name: "Configuring VBR streams"
           href: configuring-vbr-streams.md
           items: 
-          - name: "to configure quality-based vbr"
+          - name: "To configure quality-based VBR"
             href: to-configure-quality-based-vbr.md
-          - name: "to configure unconstrained vbr"
+          - name: "To configure unconstrained VBR"
             href: to-configure-unconstrained-vbr.md
-          - name: "to configure constrained vbr"
+          - name: "To configure constrained VBR"
             href: to-configure-constrained-vbr.md
-        - name: "configuring data unit extensions"
+        - name: "Configuring data unit extensions"
           href: configuring-data-unit-extensions.md
-        - name: "reusing stream configurations"
+        - name: "Reusing stream configurations"
           href: reusing-stream-configurations.md
-      - name: "using mutual exclusion"
+      - name: "Using mutual exclusion"
         href: using-mutual-exclusion.md
         items: 
-        - name: "using multiple bit rate mutual exclusion"
+        - name: "Using multiple bit rate mutual exclusion"
           href: using-multiple-bit-rate-mutual-exclusion.md
-        - name: "using custom mutual exclusion types"
+        - name: "Using custom mutual exclusion types"
           href: using-custom-mutual-exclusion-types.md
-      - name: "using bandwidth sharing"
+      - name: "Using bandwidth sharing"
         href: using-bandwidth-sharing.md
-      - name: "using stream prioritization"
+      - name: "Using stream prioritization"
         href: using-stream-prioritization.md
-      - name: "saving profiles"
+      - name: "Saving profiles"
         href: saving-profiles.md
-      - name: "using system profiles"
+      - name: "Using system profiles"
         href: using-system-profiles.md
         items: 
-        - name: "to change system profile versions"
+        - name: "To change system profile versions"
           href: to-change-system-profile-versions.md
-        - name: "to load a system profile"
+        - name: "To load a system profile"
           href: to-load-a-system-profile.md
-        - name: "working with localized system profiles"
+        - name: "Working with localized system profiles"
           href: working-with-localized-system-profiles.md
-      - name: "managing packet size"
+      - name: "Managing packet size"
         href: managing-packet-size.md
-    - name: "writing asf files"
+    - name: "Writing ASF files"
       href: writing-asf-files.md
       items: 
-      - name: "to use profiles with the writer"
+      - name: "To use profiles with the writer"
         href: to-use-profiles-with-the-writer.md
-      - name: "working with inputs"
+      - name: "Working with inputs"
         href: working-with-inputs.md
         items: 
-        - name: "to identify inputs by number"
+        - name: "To identify inputs by number"
           href: to-identify-inputs-by-number.md
-        - name: "to enumerate input formats"
+        - name: "To enumerate input formats"
           href: to-enumerate-input-formats.md
-        - name: "assigning input formats"
+        - name: "Assigning input formats"
           href: assigning-input-formats.md
-        - name: "working with high-resolution pcm audio"
+        - name: "Working with high-resolution PCM audio"
           href: working-with-high-resolution-pcm-audio.md
-        - name: "arbitrary and precompressed stream inputs"
+        - name: "Arbitrary and precompressed stream inputs"
           href: arbitrary-and-precompressed-stream-inputs.md
-        - name: "to set input settings"
+        - name: "To set input settings"
           href: to-set-input-settings.md
-      - name: "to edit metadata with the writer"
+      - name: "To edit metadata with the writer"
         href: to-edit-metadata-with-the-writer.md
-      - name: "to write samples"
+      - name: "To write samples"
         href: to-write-samples.md
-      - name: "setting data unit extensions"
+      - name: "Setting data unit extensions"
         href: setting-data-unit-extensions.md
-      - name: "writing compressed samples"
+      - name: "Writing compressed samples"
         href: writing-compressed-samples.md
-      - name: "writing image streams"
+      - name: "Writing image streams"
         href: writing-image-streams.md
-      - name: "writing video image samples"
+      - name: "Writing video image samples"
         href: writing-video-image-samples.md
-      - name: "writing variable bit rate streams"
+      - name: "Writing variable bit rate streams"
         href: writing-variable-bit-rate-streams.md
-      - name: "using two-pass encoding"
+      - name: "Using two-pass encoding"
         href: using-two-pass-encoding.md
-      - name: "to force key-frame insertion"
+      - name: "To force key-frame insertion"
         href: to-force-key-frame-insertion.md
-      - name: "to manage writer latency"
+      - name: "To manage writer latency"
         href: to-manage-writer-latency.md
-      - name: "working with writer sinks"
+      - name: "Working with writer sinks"
         href: working-with-writer-sinks.md
         items: 
-        - name: "adding sinks to the writer"
+        - name: "Adding sinks to the writer"
           href: adding-sinks-to-the-writer.md
-        - name: "enumerating sinks"
+        - name: "Enumerating sinks"
           href: enumerating-sinks.md
-        - name: "getting error messages from a sink"
+        - name: "Getting error messages from a sink"
           href: getting-error-messages-from-a-sink.md
-        - name: "using file sinks"
+        - name: "Using file sinks"
           href: using-file-sinks.md
-        - name: "using custom sinks"
+        - name: "Using custom sinks"
           href: using-custom-sinks.md
-      - name: "to get writer statistics"
+      - name: "To get writer statistics"
         href: to-get-writer-statistics.md
-      - name: "to use writer postview"
+      - name: "To use writer postview"
         href: to-use-writer-postview.md
-    - name: "reading asf files"
+    - name: "Reading ASF files"
       href: reading-asf-files.md
       items: 
-      - name: "working with outputs"
+      - name: "Working with outputs"
         href: working-with-outputs.md
         items: 
-        - name: "to identify output numbers"
+        - name: "To identify output numbers"
           href: to-identify-output-numbers.md
-        - name: "assigning output formats"
+        - name: "Assigning output formats"
           href: assigning-output-formats.md
-      - name: "allocating buffers for file reading"
+      - name: "Allocating buffers for file reading"
         href: allocating-buffers-for-file-reading.md
-      - name: "reading metadata at playback"
+      - name: "Reading metadata at playback"
         href: reading-metadata-at-playback.md
-      - name: "getting profile information at playback"
+      - name: "Getting profile information at playback"
         href: getting-profile-information-at-playback.md
-      - name: "reading multichannel audio"
+      - name: "Reading multichannel audio"
         href: reading-multichannel-audio.md
-      - name: "rendering content"
+      - name: "Rendering content"
         href: rendering-content.md
-      - name: "getting the best video seeking performance"
+      - name: "Getting the best video seeking performance"
         href: getting-the-best-video-seeking-performance.md
-      - name: "reading files with the asynchronous reader"
+      - name: "Reading files with the asynchronous reader"
         href: reading-files-with-the-asynchronous-reader.md
         items: 
-        - name: "to implement reader messages in the onstatus callback"
+        - name: "To implement reader messages in the onstatus callback"
           href: to-implement-reader-messages-in-the-onstatus-callback.md
-        - name: "to implement the onsample callback"
+        - name: "To implement the onsample callback"
           href: to-implement-the-onsample-callback.md
-        - name: "to create a reader and open a file"
+        - name: "To create a reader and open a file"
           href: to-create-a-reader-and-open-a-file.md
-        - name: "to retrieve media samples with the asynchronous reader"
+        - name: "To retrieve media samples with the asynchronous reader"
           href: to-retrieve-media-samples-with-the-asynchronous-reader.md
-        - name: "to seek by time using the asynchronous reader"
+        - name: "To seek by time using the asynchronous reader"
           href: to-seek-by-time-using-the-asynchronous-reader.md
-        - name: "to seek by frame number using the asynchronous reader"
+        - name: "To seek by frame number using the asynchronous reader"
           href: to-seek-by-frame-number-using-the-asynchronous-reader.md
-        - name: "to seek by smpte time code using the asynchronous reader"
+        - name: "To seek by SMPTE time code using the asynchronous reader"
           href: to-seek-by-smpte-time-code-using-the-asynchronous-reader.md
-        - name: "to seek to markers"
+        - name: "To seek to markers"
           href: to-seek-to-markers.md
-        - name: "to pause or stop playback"
+        - name: "To pause or stop playback"
           href: to-pause-or-stop-playback.md
-        - name: "to get reader performance statistics"
+        - name: "To get reader performance statistics"
           href: to-get-reader-performance-statistics.md
-        - name: "to use manual stream selection"
+        - name: "To use manual stream selection"
           href: to-use-manual-stream-selection.md
-        - name: "to deliver compressed samples with the asynchronous reader"
+        - name: "To deliver compressed samples with the asynchronous reader"
           href: to-deliver-compressed-samples-with-the-asynchronous-reader.md
-      - name: "reading files with the synchronous reader"
+      - name: "Reading files with the synchronous reader"
         href: reading-files-with-the-synchronous-reader.md
         items: 
-        - name: "to create a synchronous reader and open a file"
+        - name: "To create a synchronous reader and open a file"
           href: to-create-a-synchronous-reader-and-open-a-file.md
-        - name: "to find stream numbers and output numbers"
+        - name: "To find stream numbers and output numbers"
           href: to-find-stream-numbers-and-output-numbers.md
-        - name: "to retrieve media samples with the synchronous reader"
+        - name: "To retrieve media samples with the synchronous reader"
           href: to-retrieve-media-samples-with-the-synchronous-reader.md
-        - name: "to seek by time using the synchronous reader"
+        - name: "To seek by time using the synchronous reader"
           href: to-seek-by-time-using-the-synchronous-reader.md
-        - name: "to seek by frame number using the synchronous reader"
+        - name: "To seek by frame number using the synchronous reader"
           href: to-seek-by-frame-number-using-the-synchronous-reader.md
-        - name: "to seek by smpte time code using the synchronous reader"
+        - name: "To seek by SMPTE time code using the synchronous reader"
           href: to-seek-by-smpte-time-code-using-the-synchronous-reader.md
-        - name: "to retrieve stream samples with the synchronous reader"
+        - name: "To retrieve stream samples with the synchronous reader"
           href: to-retrieve-stream-samples-with-the-synchronous-reader.md
-        - name: "to retrieve compressed samples with the synchronous reader"
+        - name: "To retrieve compressed samples with the synchronous reader"
           href: to-retrieve-compressed-samples-with-the-synchronous-reader.md
-      - name: "enabling directx video acceleration"
+      - name: "Enabling directx video acceleration"
         href: enabling-directx-video-acceleration.md
-    - name: "working with metadata"
+    - name: "Working with metadata"
       href: working-with-metadata.md
       items: 
-      - name: "retrieving metadata attributes"
+      - name: "Retrieving metadata attributes"
         href: retrieving-metadata-attributes.md
         items: 
-        - name: "to retrieve all metadata in a file"
+        - name: "To retrieve all metadata in a file"
           href: to-retrieve-all-metadata-in-a-file.md
-      - name: "setting metadata attributes"
+      - name: "Setting metadata attributes"
         href: setting-metadata-attributes.md
-      - name: "editing metadata attributes"
+      - name: "Editing metadata attributes"
         href: editing-metadata-attributes.md
-      - name: "removing metadata attributes"
+      - name: "Removing metadata attributes"
         href: removing-metadata-attributes.md
-      - name: "using complex metadata attributes"
+      - name: "Using complex metadata attributes"
         href: using-complex-metadata-attributes.md
-    - name: "using markers"
+    - name: "Using markers"
       href: using-markers.md
-    - name: "working with indexes"
+    - name: "Working with indexes"
       href: working-with-indexes.md
       items: 
-      - name: "to disable automatic indexing"
+      - name: "To disable automatic indexing"
         href: to-disable-automatic-indexing.md
-      - name: "to configure the indexer"
+      - name: "To configure the indexer"
         href: to-configure-the-indexer.md
-      - name: "to index an asf file"
+      - name: "To index an ASF file"
         href: to-index-an-asf-file.md
-      - name: "to stop indexing in progress"
+      - name: "To stop indexing in progress"
         href: to-stop-indexing-in-progress.md
-    - name: "using script commands"
+    - name: "Using script commands"
       href: using-script-commands.md
       items: 
-      - name: "to use a script stream"
+      - name: "To use a script stream"
         href: to-use-a-script-stream.md
-      - name: "to add script data to the header"
+      - name: "To add script data to the header"
         href: to-add-script-data-to-the-header.md
-      - name: "using script commands supported by windows media player"
+      - name: "Using script commands supported by Windows Media player"
         href: using-script-commands-supported-by-windows-media-player.md
-    - name: "copying data from one file to another"
+    - name: "Copying data from one file to another"
       href: copying-data-from-one-file-to-another.md
       items: 
-      - name: "copying streams without decompressing the data"
+      - name: "Copying streams without decompressing the data"
         href: copying-streams-without-decompressing-the-data.md
-      - name: "copying streams using decompressed samples"
+      - name: "Copying streams using decompressed samples"
         href: copying-streams-using-decompressed-samples.md
-    - name: "enabling drm support"
+    - name: "Enabling DRM support"
       href: enabling-drm-support.md
       items: 
-      - name: "obtaining the required drm library"
+      - name: "Obtaining the required DRM library"
         href: obtaining-the-required-drm-library.md
-      - name: "drm protection and content license distribution"
+      - name: "DRM protection and content license distribution"
         href: drm-protection-and-content-license-distribution.md
-      - name: "drm network operations"
+      - name: "DRM network operations"
         href: drm-network-operations.md
-      - name: "creating protected files"
+      - name: "Creating protected files"
         href: creating-protected-files.md
         items: 
-        - name: "protecting files with drm version 1"
+        - name: "Protecting files with DRM version 1"
           href: protecting-files-with-drm-version-1.md
-        - name: "protecting files with drm version 7 or later"
+        - name: "Protecting files with DRM version 7 or later"
           href: protecting-files-with-drm-version-7-or-later.md
-      - name: "reading protected files"
+      - name: "Reading protected files"
         href: reading-protected-files.md
         items: 
-        - name: "specifying the actions to be performed"
+        - name: "Specifying the actions to be performed"
           href: specifying-the-actions-to-be-performed.md
-        - name: "handling license acquisition events"
+        - name: "Handling license acquisition events"
           href: handling-license-acquisition-events.md
-      - name: "viewing attributes of protected files"
+      - name: "Viewing attributes of protected files"
         href: viewing-attributes-of-protected-files.md
-      - name: "working with revocation lists"
+      - name: "Working with revocation lists"
         href: working-with-revocation-lists.md
-      - name: "backing up and restoring licenses"
+      - name: "Backing up and restoring licenses"
         href: backing-up-and-restoring-licenses.md
-      - name: "individualizing drm applications"
+      - name: "Individualizing DRM applications"
         href: individualizing-drm-applications.md
         items: 
-        - name: "handling individualization events"
+        - name: "Handling individualization events"
           href: handling-individualization-events.md
-      - name: "working with output protection levels"
+      - name: "Working with output protection levels"
         href: working-with-output-protection-levels.md
-      - name: "using the windows media drm 10 for network devices protocol"
+      - name: "Using the Windows Media DRM 10 for network devices protocol"
         href: using-the-windows-media-drm-10-for-network-devices-protocol.md
         items: 
-        - name: "device registration"
+        - name: "Device registration"
           href: device-registration.md
-        - name: "performing proximity detection"
+        - name: "Performing proximity detection"
           href: performing-proximity-detection.md
-        - name: "converting a drm-protected file to a windows media drm 10 for network devices stream"
+        - name: "Converting a drm-protected file to a Windows Media DRM 10 for network devices stream"
           href: converting-a-drm-protected-file-to-a-windows-media-drm-10-for-network-devices-stream.md
-      - name: "implementing license revocation"
+      - name: "Implementing license revocation"
         href: implementing-license-revocation.md
-      - name: "burning playlists that contain secure files"
+      - name: "Burning playlists that contain secure files"
         href: burning-playlists-that-contain-secure-files.md
-    - name: "implementing network functionality"
+    - name: "Implementing network functionality"
       href: implementing-network-functionality.md
       items: 
-      - name: "overview of networking interfaces"
+      - name: "Overview of networking interfaces"
         href: overview-of-networking-interfaces.md
-      - name: "reading asf data over a network"
+      - name: "Reading ASF data over a network"
         href: reading-asf-data-over-a-network.md
         items: 
-        - name: "playing files from a network source"
+        - name: "Playing files from a network source"
           href: playing-files-from-a-network-source.md
-        - name: "protocol rollover"
+        - name: "Protocol rollover"
           href: protocol-rollover.md
-        - name: "saving content"
+        - name: "Saving content"
           href: saving-content.md
-        - name: "authentication"
+        - name: "Authentication"
           href: authentication.md
-        - name: "enabling fast cache streaming from the client"
+        - name: "Enabling fast cache streaming from the client"
           href: enabling-fast-cache-streaming-from-the-client.md
-        - name: "client logging"
+        - name: "Client logging"
           href: client.md
-        - name: "configuration persistence"
+        - name: "Configuration persistence"
           href: configuration-persistence.md
-      - name: "sending asf data over a network"
+      - name: "Sending ASF data over a network"
         href: sending-asf-data-over-a-network.md
         items: 
-        - name: "broadcasting asf data"
+        - name: "Broadcasting ASF data"
           href: broadcasting-asf-data.md
-        - name: "sending asf data to a publishing point"
+        - name: "Sending ASF data to a publishing point"
           href: sending-asf-data-to-a-publishing-point.md
-      - name: "default networking settings"
+      - name: "Default networking settings"
         href: default-networking-settings.md
-    - name: "advanced topics"
+    - name: "Advanced topics"
       href: advanced-topics.md
       items: 
-      - name: "getting good results with the windows media video 9 screen codec"
+      - name: "Getting good results with the Windows Media Video 9 screen codec"
         href: getting-good-results-with-the-windows-media-video-9-screen-codec.md
-      - name: "to support multiple languages"
+      - name: "To support multiple languages"
         href: to-support-multiple-languages.md
-      - name: "to use interlaced video"
+      - name: "To use interlaced video"
         href: to-use-interlaced-video.md
-      - name: "to deinterlace video"
+      - name: "To deinterlace video"
         href: to-deinterlace-video.md
-      - name: "to use dynamic range control"
+      - name: "To use dynamic range control"
         href: to-use-dynamic-range-control.md
-      - name: "to transcode content with smart recompression"
+      - name: "To transcode content with smart recompression"
         href: to-transcode-content-with-smart-recompression.md
-      - name: "to read and write video streams with non-square pixels"
+      - name: "To read and write video streams with non-square pixels"
         href: to-read-and-write-video-streams-with-non-square-pixels.md
         items: 
-        - name: "reading streams with non-square pixels"
+        - name: "Reading streams with non-square pixels"
           href: reading-streams-with-non-square-pixels.md
-        - name: "writing streams with non-square pixels"
+        - name: "Writing streams with non-square pixels"
           href: writing-streams-with-non-square-pixels.md
-      - name: "to use inverse telecine"
+      - name: "To use inverse telecine"
         href: to-use-inverse-telecine.md
-      - name: "to create asf files using third-party codecs"
+      - name: "To create ASF files using third-party codecs"
         href: to-create-asf-files-using-third-party-codecs.md
-      - name: "to decode audio to s/pdif"
+      - name: "To decode audio to S/PDIF"
         href: to-decode-audio-to-s-pdif.md
-    - name: "directshow and windows media"
+    - name: "DirectShow and Windows Media"
       href: directshow-and-windows-media.md
       items: 
-      - name: "about directshow"
+      - name: "About DirectShow"
         href: about-directshow.md
-      - name: "why use directshow?"
+      - name: "Why use DirectShow?"
         href: why-use-directshow.md
-      - name: "reading asf files in directshow"
+      - name: "Reading ASF files in DirectShow"
         href: reading-asf-files-in-directshow.md
         items: 
-        - name: "multichannel audio playback in directshow"
+        - name: "Multichannel audio playback in DirectShow"
           href: multichannel-audio-playback-in-directshow.md
-        - name: "obtaining a pointer to the reader object"
+        - name: "Obtaining a pointer to the reader object"
           href: obtaining-a-pointer-to-the-reader-object.md
-        - name: "web stream playback in directshow"
+        - name: "Web stream playback in DirectShow"
           href: web-stream-playback-in-directshow.md
-        - name: "script streams in directshow"
+        - name: "Script streams in DirectShow"
           href: script-streams-in-directshow.md
-        - name: "seeking in asf files"
+        - name: "Seeking in ASF files"
           href: seeking-in-asf-files.md
-      - name: "creating asf files in directshow"
+      - name: "Creating ASF files in DirectShow"
         href: creating-asf-files-in-directshow.md
         items: 
-        - name: "configuring the wm asf writer (qasf)"
+        - name: "Configuring the wm ASF writer (QASF)"
           href: configuring-the-wm-asf-writer--qasf.md
-        - name: "building filter graphs to write asf files (qasf)"
+        - name: "Building filter graphs to write ASF files (QASF)"
           href: building-filter-graphs-to-write-asf-files--qasf.md
           items: 
-          - name: "transcoding files (qasf)"
+          - name: "Transcoding files (QASF)"
             href: transcoding-files--qasf.md
-          - name: "inserting native stream formats into asf files (qasf)"
+          - name: "Inserting native stream formats into ASF files (QASF)"
             href: inserting-native-stream-formats-into-asf-files--qasf.md
-          - name: "capturing directly from a device to an asf file (qasf)"
+          - name: "Capturing directly from a device to an ASF file (QASF)"
             href: capturing-directly-from-a-device-to-an-asf-file--qasf.md
-        - name: "configuring profiles and other file properties (qasf)"
+        - name: "Configuring profiles and other file properties (QASF)"
           href: configuring-profiles-and-other-file-properties--qasf.md
-        - name: "wmt_status event notification in directshow"
+        - name: "wmt_status event notification in DirectShow"
           href: wmt-status-notification-in-directshow.md
-        - name: "drm support in directshow"
+        - name: "DRM support in DirectShow"
           href: drm-support-in-directshow.md
           items: 
-          - name: "building filter graphs in drm-enabled applications"
+          - name: "Building filter graphs in drm-enabled applications"
             href: building-filter-graphs-in-drm-enabled-applications.md
-      - name: "directshow qasf reference"
+      - name: "DirectShow QASF reference"
         href: directshow-qasf-reference.md
         items: 
-        - name: "wm asf reader filter"
+        - name: "Wm ASF reader filter"
           href: wm-asf-reader-filter.md
-        - name: "wm asf writer filter"
+        - name: "Wm ASF writer filter"
           href: wm-asf-writer-filter.md
         - name: "iamwmbufferpass interface"
           href: /previous-versions/windows/desktop/legacy/dd798276(v=vs.85)
@@ -660,83 +660,83 @@
             href: iconfigasfwriter2-streamnumfrompin.md
         - name: "_am_asfwriterconfig_param enumeration"
           href: /previous-versions/windows/desktop/legacy/dd758054(v=vs.85)
-        - name: "am_wmt_event_data structure"
+        - name: "Am_wmt_event_data structure"
           href: /previous-versions/windows/desktop/api/evcode/ns-evcode-am_wmt_event_data
           items: 
           - name: "ec_wmt_event"
             href: ec-wmt-event.md
           - name: "ec_wmt_index_event"
             href: ec-wmt-index-event.md
-    - name: "project considerations"
+    - name: "Project considerations"
       href: project-considerations.md
       items: 
-      - name: "file name extension guidelines"
+      - name: "File name extension guidelines"
         href: file-name-extension-guidelines.md
-      - name: "software redistribution"
+      - name: "Software redistribution"
         href: software-redistribution.md
         items: 
-        - name: "to create a redistribution setup"
+        - name: "To create a redistribution setup"
           href: to-create-a-redistribution-setup.md
-        - name: "detecting setup status"
+        - name: "Detecting setup status"
           href: detecting-setup-status.md
-        - name: "example code for redistribution setup"
+        - name: "Example code for redistribution setup"
           href: example-code-for-redistribution-setup.md
-      - name: "registering application dependency"
+      - name: "Registering application dependency"
         href: registering-application-dependency.md
-  - name: "programming reference"
+  - name: "Programming reference"
     href: programming-reference.md
     items: 
-    - name: "objects"
+    - name: "Objects"
       href: objects.md
       items: 
-      - name: "backup restorer object"
+      - name: "Backup restorer object"
         href: backup-restorer-object.md
-      - name: "bandwidth sharing object"
+      - name: "Bandwidth sharing object"
         href: bandwidth-sharing-object.md
-      - name: "buffer object"
+      - name: "Buffer object"
         href: buffer-object.md
-      - name: "device registration object"
+      - name: "Device registration object"
         href: device-registration-object.md
-      - name: "drm transcryptor object"
+      - name: "DRM transcryptor object"
         href: drm-transcryptor-object.md
-      - name: "indexer object"
+      - name: "Indexer object"
         href: indexer-object.md
-      - name: "input media properties object"
+      - name: "Input media properties object"
         href: input-media-properties-object.md
-      - name: "license revocation agent object"
+      - name: "License revocation agent object"
         href: license-revocation-agent-object.md
-      - name: "metadata editor object"
+      - name: "Metadata editor object"
         href: metadata-editor-object.md
-      - name: "mutual exclusion object"
+      - name: "Mutual exclusion object"
         href: mutual-exclusion-object.md
-      - name: "output media properties object"
+      - name: "Output media properties object"
         href: output-media-properties-object.md
-      - name: "profile object"
+      - name: "Profile object"
         href: profile-object.md
-      - name: "profile manager object"
+      - name: "Profile manager object"
         href: profile-manager-object.md
-      - name: "reader object"
+      - name: "Reader object"
         href: reader-object.md
-      - name: "stream configuration object"
+      - name: "Stream configuration object"
         href: stream-configuration-object.md
-      - name: "stream prioritization object"
+      - name: "Stream prioritization object"
         href: stream-prioritization-object.md
-      - name: "synchronous reader object"
+      - name: "Synchronous reader object"
         href: synchronous-reader-object.md
-      - name: "writer object"
+      - name: "Writer object"
         href: writer-object.md
-      - name: "writer file sink object"
+      - name: "Writer file sink object"
         href: writer-file-sink-object.md
-      - name: "writer network sink object"
+      - name: "Writer network sink object"
         href: writer-network-sink-object.md
-      - name: "writer push sink object"
+      - name: "Writer push sink object"
         href: writer-push-sink-object.md
-    - name: "functions"
+    - name: "Functions"
       href: functions.md
       items: 
-      - name: "wmcheckurlextension"
+      - name: "Wmcheckurlextension"
         href: /previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlextension
-      - name: "wmcheckurlscheme"
+      - name: "Wmcheckurlscheme"
         href: /previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmcheckurlscheme
       - name: "wmcreatebackuprestorer"
         href: /previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatebackuprestorer
@@ -776,52 +776,52 @@
         href: /previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriternetworksink
       - name: "wmcreatewriterpushsink"
         href: /previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmcreatewriterpushsink
-      - name: "wmisavailableoffline"
+      - name: "Wmisavailableoffline"
         href: /previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmisavailableoffline
-      - name: "wmiscontentprotected"
+      - name: "Wmiscontentprotected"
         href: /previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-wmiscontentprotected
-      - name: "wmvalidatedata"
+      - name: "Wmvalidatedata"
         href: /previous-versions/windows/desktop/api/wmsdkvalidate/nf-wmsdkvalidate-wmvalidatedata
-    - name: "interfaces"
+    - name: "Interfaces"
       href: interfaces.md
       items: 
-      - name: "insnetsourcecreator interface"
+      - name: "Insnetsourcecreator interface"
         href: /previous-versions/windows/desktop/api/wmnetsourcecreator/nn-wmnetsourcecreator-insnetsourcecreator
         items: 
-        - name: "insnetsourcecreator::getnetsourceadmininterface"
+        - name: "Insnetsourcecreator::getnetsourceadmininterface"
           href: /previous-versions/windows/desktop/api/wmnetsourcecreator/nf-wmnetsourcecreator-insnetsourcecreator-getnetsourceadmininterface
-        - name: "insnetsourcecreator::initialize"
+        - name: "Insnetsourcecreator::initialize"
           href: /previous-versions/windows/desktop/api/wmnetsourcecreator/nf-wmnetsourcecreator-insnetsourcecreator-initialize
-        - name: "insnetsourcecreator::shutdown"
+        - name: "Insnetsourcecreator::shutdown"
           href: /previous-versions/windows/desktop/api/wmnetsourcecreator/nf-wmnetsourcecreator-insnetsourcecreator-shutdown
-      - name: "inssbuffer interface"
+      - name: "Inssbuffer interface"
         href: /previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer
         items: 
-        - name: "inssbuffer::getbuffer"
+        - name: "Inssbuffer::getbuffer"
           href: /previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getbuffer
-        - name: "inssbuffer::getbufferandlength"
+        - name: "Inssbuffer::getbufferandlength"
           href: /previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getbufferandlength
-        - name: "inssbuffer::getlength"
+        - name: "Inssbuffer::getlength"
           href: /previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getlength
-        - name: "inssbuffer::getmaxlength"
+        - name: "Inssbuffer::getmaxlength"
           href: /previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-getmaxlength
-        - name: "inssbuffer::setlength"
+        - name: "Inssbuffer::setlength"
           href: /previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-setlength
-      - name: "inssbuffer2 interface"
+      - name: "Inssbuffer2 interface"
         href: /previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer2
-      - name: "inssbuffer3 interface"
+      - name: "Inssbuffer3 interface"
         href: /previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer3
         items: 
-        - name: "inssbuffer3::getproperty"
+        - name: "Inssbuffer3::getproperty"
           href: /previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer3-getproperty
-        - name: "inssbuffer3::setproperty"
+        - name: "Inssbuffer3::setproperty"
           href: /previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty
-      - name: "inssbuffer4 interface"
+      - name: "Inssbuffer4 interface"
         href: /previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer4
         items: 
-        - name: "inssbuffer4::getpropertybyindex"
+        - name: "Inssbuffer4::getpropertybyindex"
           href: /previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer4-getpropertybyindex
-        - name: "inssbuffer4::getpropertycount"
+        - name: "Inssbuffer4::getpropertycount"
           href: /previous-versions/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer4-getpropertycount
       - name: "ireferenceclock interface"
         href: ireferenceclock.md
@@ -2111,26 +2111,26 @@
           href: /previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwritersink-onendwriting
         - name: "iwmwritersink::onheader"
           href: /previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwritersink-onheader
-    - name: "structures"
+    - name: "Structures"
       href: structures.md
       items: 
-      - name: "drm_copy_opl"
+      - name: "Drm_copy_opl"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_copy_opl
-      - name: "drm_license_state_data"
+      - name: "Drm_license_state_data"
         href: drm-license-state-data.md
-      - name: "drm_minimum_output_protection_levels"
+      - name: "Drm_minimum_output_protection_levels"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_minimum_output_protection_levels
-      - name: "drm_opl_output_ids"
+      - name: "Drm_opl_output_ids"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_opl_output_ids
-      - name: "drm_play_opl"
+      - name: "Drm_play_opl"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_play_opl
-      - name: "drm_playlist_content_id"
+      - name: "Drm_playlist_content_id"
         href: drm-playlist-content-id.md
-      - name: "drm_val16"
+      - name: "Drm_val16"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_val16
-      - name: "drm_video_output_protection"
+      - name: "Drm_video_output_protection"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_output_protection
-      - name: "drm_video_output_protection_ids"
+      - name: "Drm_video_output_protection_ids"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-drm_video_output_protection_ids
       - name: "wm_address_accessentry"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_address_accessentry
@@ -2148,7 +2148,7 @@
         href: /previous-versions/windows/desktop/legacy/dd757942(v=vs.85)
       - name: "wm_media_type"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_media_type
-      - name: "wmmpeg2videoinfo"
+      - name: "Wmmpeg2videoinfo"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmmpeg2videoinfo
       - name: "wm_picture"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_picture
@@ -2158,7 +2158,7 @@
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_reader_clientinfo
       - name: "wm_reader_statistics"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_reader_statistics
-      - name: "wmscriptformat"
+      - name: "Wmscriptformat"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmscriptformat
       - name: "wm_stream_priority_record"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_stream_priority_record
@@ -2200,20 +2200,20 @@
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_webstream_format
       - name: "wmt_webstream_sample_header"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmt_webstream_sample_header
-      - name: "wmvideoinfoheader"
+      - name: "Wmvideoinfoheader"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmvideoinfoheader
-      - name: "wmvideoinfoheader2"
+      - name: "Wmvideoinfoheader2"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wmvideoinfoheader2
-    - name: "enumeration types"
+    - name: "Enumeration types"
       href: enumeration-types.md
       items: 
-      - name: "drm_http_status"
+      - name: "Drm_http_status"
         href: drm-http-status.md
-      - name: "drm_individualization_status"
+      - name: "Drm_individualization_status"
         href: drm-individualization-status.md
-      - name: "drm_license_state_category"
+      - name: "Drm_license_state_category"
         href: drm-license-state-category.md
-      - name: "netsource_urlcredpolicy_settings"
+      - name: "Netsource_urlcredpolicy_settings"
         href: /previous-versions/windows/desktop/api/wmsinternaladminnetsource/ne-wmsinternaladminnetsource-netsource_urlcredpolicy_settings
       - name: "wm_aetype"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wm_aetype
@@ -2259,107 +2259,107 @@
         href: /previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_version
       - name: "wmt_watermark_entry_type"
         href: /previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_watermark_entry_type
-    - name: "attributes"
+    - name: "Attributes"
       href: attributes.md
       items: 
-      - name: "attribute list"
+      - name: "Attribute list"
         href: attribute-list.md
         items: 
         - name: "asfleakybucketpairs"
           href: asfleakybucketpairs.md
-        - name: "aspectratiox"
+        - name: "Aspectratiox"
           href: aspectratiox.md
-        - name: "aspectratioy"
+        - name: "Aspectratioy"
           href: aspectratioy.md
-        - name: "author"
+        - name: "Author"
           href: author.md
-        - name: "averagelevel"
+        - name: "Averagelevel"
           href: averagelevel.md
-        - name: "bannerimagedata"
+        - name: "Bannerimagedata"
           href: bannerimagedata.md
-        - name: "bannerimagetype"
+        - name: "Bannerimagetype"
           href: bannerimagetype.md
-        - name: "bannerimageurl"
+        - name: "Bannerimageurl"
           href: bannerimageurl.md
-        - name: "bitrate"
+        - name: "Bitrate"
           href: bitrate.md
-        - name: "broadcast"
+        - name: "Broadcast"
           href: broadcast.md
-        - name: "bufferaverage"
+        - name: "Bufferaverage"
           href: bufferaverage.md
-        - name: "can_skip_backward"
+        - name: "Can_skip_backward"
           href: can-skip-backward.md
-        - name: "can_skip_forward"
+        - name: "Can_skip_forward"
           href: can-skip-forward.md
-        - name: "copyright"
+        - name: "Copyright"
           href: copyright.md
-        - name: "copyrighturl"
+        - name: "Copyrighturl"
           href: copyrighturl.md
-        - name: "currentbitrate"
+        - name: "Currentbitrate"
           href: currentbitrate.md
-        - name: "description"
+        - name: "Description"
           href: description.md
-        - name: "drm_contentid"
+        - name: "Drm_contentid"
           href: drm-contentid.md
-        - name: "drm_drmheader"
+        - name: "Drm_drmheader"
           href: drm-drmheader.md
-        - name: "drm_drmheader_keyid"
+        - name: "Drm_drmheader_keyid"
           href: drm-drmheader-keyid.md
-        - name: "drm_drmheader_licenseacqurl"
+        - name: "Drm_drmheader_licenseacqurl"
           href: drm-drmheader-licenseacqurl.md
-        - name: "drm_drmheader_contentid"
+        - name: "Drm_drmheader_contentid"
           href: drm-drmheader-contentid.md
-        - name: "drm_drmheader_individualizedversion"
+        - name: "Drm_drmheader_individualizedversion"
           href: drm-drmheader-individualizedversion.md
-        - name: "drm_drmheader_contentdistributor"
+        - name: "Drm_drmheader_contentdistributor"
           href: drm-drmheader-contentdistributor.md
-        - name: "drm_drmheader_subscriptioncontentid"
+        - name: "Drm_drmheader_subscriptioncontentid"
           href: drm-drmheader-subscriptioncontentid.md
-        - name: "drm_individualizedversion"
+        - name: "Drm_individualizedversion"
           href: drm-individualizedversion.md
-        - name: "drm_keyid"
+        - name: "Drm_keyid"
           href: drm-keyid.md
-        - name: "drm_lasignaturecert"
+        - name: "Drm_lasignaturecert"
           href: drm-lasignaturecert.md
-        - name: "drm_lasignaturelicsrvcert"
+        - name: "Drm_lasignaturelicsrvcert"
           href: drm-lasignaturelicsrvcert.md
-        - name: "drm_lasignatureprivkey"
+        - name: "Drm_lasignatureprivkey"
           href: drm-lasignatureprivkey.md
-        - name: "drm_lasignaturerootcert"
+        - name: "Drm_lasignaturerootcert"
           href: drm-lasignaturerootcert.md
-        - name: "drm_licenseacqurl"
+        - name: "Drm_licenseacqurl"
           href: drm-licenseacqurl.md
-        - name: "drm_licenseid"
+        - name: "Drm_licenseid"
           href: drm-licenseid.md
-        - name: "drm_sourceid"
+        - name: "Drm_sourceid"
           href: drm-sourceid.md
-        - name: "drm_v1licenseacqurl"
+        - name: "Drm_v1licenseacqurl"
           href: drm-v1licenseacqurl.md
-        - name: "duration"
+        - name: "Duration"
           href: duration.md
-        - name: "filesize"
+        - name: "Filesize"
           href: filesize.md
-        - name: "hasarbitrarydatastream"
+        - name: "Hasarbitrarydatastream"
           href: hasarbitrarydatastream.md
-        - name: "hasattachedimages"
+        - name: "Hasattachedimages"
           href: hasattachedimages.md
-        - name: "hasaudio"
+        - name: "Hasaudio"
           href: hasaudio.md
-        - name: "hasfiletransferstream"
+        - name: "Hasfiletransferstream"
           href: hasfiletransferstream.md
-        - name: "hasimage"
+        - name: "Hasimage"
           href: hasimage.md
-        - name: "hasscript"
+        - name: "Hasscript"
           href: hasscript.md
-        - name: "hasvideo"
+        - name: "Hasvideo"
           href: hasvideo.md
-        - name: "is_protected"
+        - name: "Is_protected"
           href: is-protected.md
-        - name: "is_trusted"
+        - name: "Is_trusted"
           href: is-trusted.md
-        - name: "isan"
+        - name: "ISAN"
           href: isan.md
-        - name: "isvbr"
+        - name: "Isvbr"
           href: isvbr.md
         - name: "nsc_address"
           href: nsc-address.md
@@ -2371,314 +2371,314 @@
           href: nsc-name.md
         - name: "nsc_phone"
           href: nsc-phone.md
-        - name: "numberofframes"
+        - name: "Numberofframes"
           href: numberofframes.md
-        - name: "optimalbitrate"
+        - name: "Optimalbitrate"
           href: optimalbitrate.md
-        - name: "peakvalue"
+        - name: "Peakvalue"
           href: peakvalue.md
-        - name: "rating"
+        - name: "Rating"
           href: rating.md
-        - name: "seekable"
+        - name: "Seekable"
           href: seekable.md
-        - name: "signature_name"
+        - name: "Signature_name"
           href: signature-name.md
-        - name: "stridable"
+        - name: "Stridable"
           href: stridable.md
-        - name: "title"
+        - name: "Title"
           href: title.md
-        - name: "vbrpeak"
+        - name: "Vbrpeak"
           href: vbrpeak.md
-        - name: "wm/albumartist"
+        - name: "Wm/albumartist"
           href: wm-albumartist.md
-        - name: "wm/albumcoverurl"
+        - name: "Wm/albumcoverurl"
           href: wm-albumcoverurl.md
-        - name: "wm/albumtitle"
+        - name: "Wm/albumtitle"
           href: wm-albumtitle.md
-        - name: "wm/asfpacketcount"
+        - name: "Wm/asfpacketcount"
           href: wm-asfpacketcount.md
-        - name: "wm/asfsecurityobjectssize"
+        - name: "Wm/asfsecurityobjectssize"
           href: wm-asfsecurityobjectssize.md
-        - name: "wm/audiofileurl"
+        - name: "Wm/audiofileurl"
           href: wm-audiofileurl.md
-        - name: "wm/audiosourceurl"
+        - name: "Wm/audiosourceurl"
           href: wm-audiosourceurl.md
-        - name: "wm/authorurl"
+        - name: "Wm/authorurl"
           href: wm-authorurl.md
-        - name: "wm/beatsperminute"
+        - name: "Wm/beatsperminute"
           href: wm-beatsperminute.md
-        - name: "wm/category"
+        - name: "Wm/category"
           href: wm-category.md
-        - name: "wm/codec"
+        - name: "Wm/codec"
           href: wm-codec.md
-        - name: "wm/composer"
+        - name: "Wm/composer"
           href: wm-composer.md
-        - name: "wm/conductor"
+        - name: "Wm/conductor"
           href: wm-conductor.md
-        - name: "wm/containerformat"
+        - name: "Wm/containerformat"
           href: wm-containerformat.md
-        - name: "wm/contentdistributor"
+        - name: "Wm/contentdistributor"
           href: wm-contentdistributor.md
-        - name: "wm/contentgroupdescription"
+        - name: "Wm/contentgroupdescription"
           href: wm-contentgroupdescription.md
-        - name: "wm/director"
+        - name: "Wm/director"
           href: wm-director.md
-        - name: "wm/drm"
+        - name: "Wm/drm"
           href: wm-drm.md
-        - name: "wm/dvdid"
+        - name: "Wm/dvdid"
           href: wm-dvdid.md
-        - name: "wm/encodedby"
+        - name: "Wm/encodedby"
           href: wm-encodedby.md
-        - name: "wm/encodingsettings"
+        - name: "Wm/encodingsettings"
           href: wm-encodingsettings.md
-        - name: "wm/encodingtime"
+        - name: "Wm/encodingtime"
           href: wm-encodingtime.md
-        - name: "wm/genre"
+        - name: "Wm/genre"
           href: wm-genre.md
-        - name: "wm/genreid"
+        - name: "Wm/genreid"
           href: wm-genreid.md
-        - name: "wm/initialkey"
+        - name: "Wm/initialkey"
           href: wm-initialkey.md
-        - name: "wm/isrc"
+        - name: "Wm/isrc"
           href: wm-isrc.md
-        - name: "wm/language"
+        - name: "Wm/language"
           href: wm-language.md
-        - name: "wm/lyrics"
+        - name: "Wm/lyrics"
           href: wm-lyrics.md
-        - name: "wm/lyrics_synchronised"
+        - name: "Wm/lyrics_synchronised"
           href: wm-lyrics-synchronised.md
-        - name: "wm/mcdi"
+        - name: "Wm/mcdi"
           href: wm-mcdi.md
-        - name: "wm/mediaclassprimaryid"
+        - name: "Wm/mediaclassprimaryid"
           href: wm-mediaprimaryid.md
-        - name: "wm/mediaclasssecondaryid"
+        - name: "Wm/mediaclasssecondaryid"
           href: wm-mediasecondaryid.md
-        - name: "wm/mediacredits"
+        - name: "Wm/mediacredits"
           href: wm-mediacredits.md
-        - name: "wm/mediaisdelay"
+        - name: "Wm/mediaisdelay"
           href: wm-mediaisdelay.md
-        - name: "wm/mediaisfinale"
+        - name: "Wm/mediaisfinale"
           href: wm-mediaisfinale.md
-        - name: "wm/mediaislive"
+        - name: "Wm/mediaislive"
           href: wm-mediaislive.md
-        - name: "wm/mediaispremiere"
+        - name: "Wm/mediaispremiere"
           href: wm-mediaispremiere.md
-        - name: "wm/mediaisrepeat"
+        - name: "Wm/mediaisrepeat"
           href: wm-mediaisrepeat.md
-        - name: "wm/mediaissap"
+        - name: "Wm/mediaissap"
           href: wm-mediaissap.md
-        - name: "wm/mediaisstereo"
+        - name: "Wm/mediaisstereo"
           href: wm-mediaisstereo.md
-        - name: "wm/mediaissubtitled"
+        - name: "Wm/mediaissubtitled"
           href: wm-mediaissubtitled.md
-        - name: "wm/mediaistape"
+        - name: "Wm/mediaistape"
           href: wm-mediaistape.md
-        - name: "wm/medianetworkaffiliation"
+        - name: "Wm/medianetworkaffiliation"
           href: wm-medianetworkaffiliation.md
-        - name: "wm/mediaoriginalbroadcastdatetime"
+        - name: "Wm/mediaoriginalbroadcastdatetime"
           href: wm-mediaoriginalbroadcastdatetime.md
-        - name: "wm/mediaoriginalchannel"
+        - name: "Wm/mediaoriginalchannel"
           href: wm-mediaoriginalchannel.md
-        - name: "wm/mediastationcallsign"
+        - name: "Wm/mediastationcallsign"
           href: wm-mediastationcallsign.md
-        - name: "wm/mediastationname"
+        - name: "Wm/mediastationname"
           href: wm-mediastationname.md
-        - name: "wm/modifiedby"
+        - name: "Wm/modifiedby"
           href: wm-modifiedby.md
-        - name: "wm/mood"
+        - name: "Wm/mood"
           href: wm-mood.md
-        - name: "wm/originalalbumtitle"
+        - name: "Wm/originalalbumtitle"
           href: wm-originalalbumtitle.md
-        - name: "wm/originalartist"
+        - name: "Wm/originalartist"
           href: wm-originalartist.md
-        - name: "wm/originalfilename"
+        - name: "Wm/originalfilename"
           href: wm-originalfilename.md
-        - name: "wm/originallyricist"
+        - name: "Wm/originallyricist"
           href: wm-originallyricist.md
-        - name: "wm/originalreleasetime"
+        - name: "Wm/originalreleasetime"
           href: wm-originalreleasetime.md
-        - name: "wm/originalreleaseyear"
+        - name: "Wm/originalreleaseyear"
           href: wm-originalreleaseyear.md
-        - name: "wm/parentalrating"
+        - name: "Wm/parentalrating"
           href: wm-parentalrating.md
-        - name: "wm/parentalratingreason"
+        - name: "Wm/parentalratingreason"
           href: wm-parentalratingreason.md
-        - name: "wm/partofset"
+        - name: "Wm/partofset"
           href: wm-partofset.md
-        - name: "wm/peakbitrate"
+        - name: "Wm/peakbitrate"
           href: wm-peakbitrate.md
-        - name: "wm/period"
+        - name: "Wm/period"
           href: wm-period.md
-        - name: "wm/picture"
+        - name: "Wm/picture"
           href: wmpicture.md
-        - name: "wm/playlistdelay"
+        - name: "Wm/playlistdelay"
           href: wm-playlistdelay.md
-        - name: "wm/producer"
+        - name: "Wm/producer"
           href: wm-producer.md
-        - name: "wm/promotionurl"
+        - name: "Wm/promotionurl"
           href: wm-promotionurl.md
-        - name: "wm/protectiontype"
+        - name: "Wm/protectiontype"
           href: wm-protectiontype.md
-        - name: "wm/provider"
+        - name: "Wm/provider"
           href: wm-provider.md
-        - name: "wm/providercopyright"
+        - name: "Wm/providercopyright"
           href: wm-providercopyright.md
-        - name: "wm/providerrating"
+        - name: "Wm/providerrating"
           href: wm-providerrating.md
-        - name: "wm/providerstyle"
+        - name: "Wm/providerstyle"
           href: wm-providerstyle.md
-        - name: "wm/publisher"
+        - name: "Wm/publisher"
           href: wm-publisher.md
-        - name: "wm/radiostationname"
+        - name: "Wm/radiostationname"
           href: wm-radiostationname.md
-        - name: "wm/radiostationowner"
+        - name: "Wm/radiostationowner"
           href: wm-radiostationowner.md
-        - name: "wm/shareduserrating"
+        - name: "Wm/shareduserrating"
           href: wm-shareduserrating.md
-        - name: "wm/streamtypeinfo"
+        - name: "Wm/streamtypeinfo"
           href: wm-streamtypeinfo.md
-        - name: "wm/subscriptioncontentid"
+        - name: "Wm/subscriptioncontentid"
           href: wm-subscriptioncontentid.md
-        - name: "wm/subtitle"
+        - name: "Wm/subtitle"
           href: wm-subtitle.md
-        - name: "wm/subtitledescription"
+        - name: "Wm/subtitledescription"
           href: wm-subtitledescription.md
-        - name: "wm/text"
+        - name: "Wm/text"
           href: wm-text.md
-        - name: "wm/toolname"
+        - name: "Wm/toolname"
           href: wm-toolname.md
-        - name: "wm/toolversion"
+        - name: "Wm/toolversion"
           href: wm-toolversion.md
-        - name: "wm/track"
+        - name: "Wm/track"
           href: wm-track.md
-        - name: "wm/tracknumber"
+        - name: "Wm/tracknumber"
           href: wm-tracknumber.md
-        - name: "wm/uniquefileidentifier"
+        - name: "Wm/uniquefileidentifier"
           href: wm-uniquefileidentifier.md
-        - name: "wm/userweburl"
+        - name: "Wm/userweburl"
           href: wm-userweburl.md
-        - name: "wm/videoclosedcaptioning"
+        - name: "Wm/videoclosedcaptioning"
           href: wm-videoclosedcaptioning.md
-        - name: "wm/videoframerate"
+        - name: "Wm/videoframerate"
           href: wm-videoframerate.md
-        - name: "wm/videoheight"
+        - name: "Wm/videoheight"
           href: wm-videoheight.md
-        - name: "wm/videowidth"
+        - name: "Wm/videowidth"
           href: wm-videowidth.md
-        - name: "wm/wmadrcaveragereference"
+        - name: "Wm/wmadrcaveragereference"
           href: wm-wmadrcaveragereference.md
-        - name: "wm/wmadrcaveragetarget"
+        - name: "Wm/wmadrcaveragetarget"
           href: wm-wmadrcaveragetarget.md
-        - name: "wm/wmadrcpeakreference"
+        - name: "Wm/wmadrcpeakreference"
           href: wm-wmadrcpeakreference.md
-        - name: "wm/wmadrcpeaktarget"
+        - name: "Wm/wmadrcpeaktarget"
           href: wm-wmadrcpeaktarget.md
-        - name: "wm/wmcollectiongroupid"
+        - name: "Wm/wmcollectiongroupid"
           href: wm-wmcollectiongroupid.md
-        - name: "wm/wmcollectionid"
+        - name: "Wm/wmcollectionid"
           href: wm-wmcollectionid.md
-        - name: "wm/wmcontentid"
+        - name: "Wm/wmcontentid"
           href: wm-wmcontentid.md
-        - name: "wm/wmshadowfilesourcedrmtype"
+        - name: "Wm/wmshadowfilesourcedrmtype"
           href: wm-wmshadowfilesourcedrmtype.md
-        - name: "wm/wmshadowfilesourcefiletype"
+        - name: "Wm/wmshadowfilesourcefiletype"
           href: wm-wmshadowfilesourcefiletype.md
-        - name: "wm/writer"
+        - name: "Wm/writer"
           href: wm-writer.md
-        - name: "wm/year"
+        - name: "Wm/year"
           href: wm-year.md
-      - name: "attributes with multiple values"
+      - name: "Attributes with multiple values"
         href: attributes-with-multiple-values.md
-      - name: "attributes by type"
+      - name: "Attributes by type"
         href: attributes-by-type.md
         items: 
-        - name: "attributes for music files"
+        - name: "Attributes for music files"
           href: attributes-for-music-files.md
-        - name: "attributes for video files"
+        - name: "Attributes for video files"
           href: attributes-for-video-files.md
-        - name: "multicast station attributes"
+        - name: "Multicast station attributes"
           href: multicast-station-attributes.md
-        - name: "drm attribute list"
+        - name: "DRM attribute list"
           href: drm-attribute-list.md
-      - name: "id3 tag support"
+      - name: "ID3 tag support"
         href: id3-tag-support.md
-    - name: "drm properties"
+    - name: "DRM properties"
       href: drm-properties.md
       items: 
-      - name: "drm_actionallowed"
+      - name: "Drm_actionallowed"
         href: drm-actionallowed.md
-      - name: "drm_actionallowed_backup"
+      - name: "Drm_actionallowed_backup"
         href: drm-actionallowed-backup.md
-      - name: "drm_actionallowed_collaborativeplay"
+      - name: "Drm_actionallowed_collaborativeplay"
         href: drm-actionallowed-collaborativeplay.md
-      - name: "drm_actionallowed_copy"
+      - name: "Drm_actionallowed_copy"
         href: drm-actionallowed-copy.md
-      - name: "drm_actionallowed_copytocd"
+      - name: "Drm_actionallowed_copytocd"
         href: drm-actionallowed-copytocd.md
-      - name: "drm_actionallowed_copytononsdmidevice"
+      - name: "Drm_actionallowed_copytononsdmidevice"
         href: drm-actionallowed-copytononsdmidevice.md
-      - name: "drm_actionallowed_copytosdmidevice"
+      - name: "Drm_actionallowed_copytosdmidevice"
         href: drm-actionallowed-copytosdmidevice.md
-      - name: "drm_actionallowed_playback"
+      - name: "Drm_actionallowed_playback"
         href: drm-actionallowed-playback.md
-      - name: "drm_actionallowed_playlistburn"
+      - name: "Drm_actionallowed_playlistburn"
         href: drm-actionallowed-playlistburn.md
-      - name: "drm_baselicenseacqurl"
+      - name: "Drm_baselicenseacqurl"
         href: drm-baselicenseacqurl.md
-      - name: "drm_flags"
+      - name: "Drm_flags"
         href: drm-flags.md
-      - name: "drm_headersignprivkey"
+      - name: "Drm_headersignprivkey"
         href: drm-headersignprivkey.md
-      - name: "drm_isdrm"
+      - name: "Drm_isdrm"
         href: drm-isdrm.md
-      - name: "drm_isdrmcached"
+      - name: "Drm_isdrmcached"
         href: drm-isdrmcached.md
-      - name: "drm_keyseed"
+      - name: "Drm_keyseed"
         href: drm-keyseed.md
-      - name: "drm_level"
+      - name: "Drm_level"
         href: drm-level.md
-      - name: "drm_licensestate"
+      - name: "Drm_licensestate"
         href: drm-licensestate.md
-      - name: "drm_licensestate_collaborativeplay"
+      - name: "Drm_licensestate_collaborativeplay"
         href: drm-licensestate-collaborativeplay.md
-      - name: "drm_licensestate_copy"
+      - name: "Drm_licensestate_copy"
         href: drm-licensestate-copy.md
-      - name: "drm_licensestate_copytocd"
+      - name: "Drm_licensestate_copytocd"
         href: drm-licensestate-copytocd.md
-      - name: "drm_licensestate_copytosdmidevice"
+      - name: "Drm_licensestate_copytosdmidevice"
         href: drm-licensestate-copytosdmidevice.md
-      - name: "drm_licensestate_copytononsdmidevice"
+      - name: "Drm_licensestate_copytononsdmidevice"
         href: drm-licensestate-copytononsdmidevice.md
-      - name: "drm_licensestate_playback"
+      - name: "Drm_licensestate_playback"
         href: drm-licensestate-playback.md
-      - name: "drm_licensestate_playlistburn"
+      - name: "Drm_licensestate_playlistburn"
         href: drm-licensestate-playlistburn.md
-      - name: "drm_rights"
+      - name: "Drm_rights"
         href: drm-rights.md
-      - name: "drm_saplevel (deprecated)"
+      - name: "Drm_saplevel (deprecated)"
         href: drm-saplevel--deprecated.md
-      - name: "use_advanced_drm"
+      - name: "Use_advanced_drm"
         href: use-advanced-drm.md
-      - name: "use_drm"
+      - name: "Use_drm"
         href: use-drm.md
       - name: "wmdrmnet_revocation"
         href: wmdrmnet-revocation.md
-    - name: "media types"
+    - name: "Media types"
       href: media-types.md
       items: 
-      - name: "uncompressed media subtypes"
+      - name: "Uncompressed media subtypes"
         href: uncompressed-media-subtypes.md
-      - name: "compressed media subtypes"
+      - name: "Compressed media subtypes"
         href: compressed-media-subtypes.md
-      - name: "video input formats"
+      - name: "Video input formats"
         href: video-input-formats.md
-    - name: "input settings"
+    - name: "Input settings"
       href: input-settings.md
-    - name: "output settings"
+    - name: "Output settings"
       href: output-settings.md
-    - name: "language strings"
+    - name: "Language strings"
       href: language-strings.md
-    - name: "video image transitions"
+    - name: "Video image transitions"
       href: video-image-transitions.md
       items: 
       - name: "wmt_videoimage_transition_bow_tie"
@@ -2715,179 +2715,179 @@
         href: wmt-videoimage-transition-star.md
       - name: "wmt_videoimage_transition_wheel"
         href: wmt-videoimage-transition-wheel.md
-    - name: "device conformance template parameters"
+    - name: "Device conformance template parameters"
       href: device-conformance-template-parameters.md
       items: 
-      - name: "video device conformance templates"
+      - name: "Video device conformance templates"
         href: video-device-conformance-templates.md
-      - name: "audio device conformance templates"
+      - name: "Audio device conformance templates"
         href: audio-device-conformance-templates.md
-      - name: "recommended device conformance template combinations"
+      - name: "Recommended device conformance template combinations"
         href: recommended-device-conformance-template-combinations.md
-    - name: "system profiles"
+    - name: "System profiles"
       href: system-profiles.md
-    - name: "localized system profiles"
+    - name: "Localized system profiles"
       href: localized-system-profiles.md
-    - name: "sample extension types"
+    - name: "Sample extension types"
       href: sample-extension-types.md
-    - name: "guid values"
+    - name: "GUID values"
       href: guid-values.md
       items: 
-      - name: "interface identifiers"
+      - name: "Interface identifiers"
         href: interface-identifiers.md
-      - name: "media type identifiers"
+      - name: "Media type identifiers"
         href: media-type-identifiers.md
-      - name: "mutual exclusion types"
+      - name: "Mutual exclusion types"
         href: mutual-exclusion-types.md
-      - name: "bandwidth sharing types"
+      - name: "Bandwidth sharing types"
         href: bandwidth-sharing-types.md
-      - name: "watermark category types"
+      - name: "Watermark category types"
         href: watermark-category-types.md
-    - name: "error codes"
+    - name: "Error codes"
       href: error-codes.md
-    - name: "source plug-ins"
+    - name: "Source plug-ins"
       href: source-plug-ins.md
       items: 
       - name: "wmcreatestreamforurl"
         href: wmcreatestreamforurl.md
-  - name: "windows media audio and video codec interfaces"
+  - name: "Windows Media Audio and video codec interfaces"
     href: windows-media-audio-and-video-codec-interfaces--deprecated.md
     items: 
-    - name: "about the windows media audio and video codec interfaces"
+    - name: "About the Windows Media Audio and video codec interfaces"
       href: about-the-windows-media-audio-and-video-codec-interfaces--deprecated.md
       items: 
-      - name: "comparing the windows media audio and video codec interfaces and the windows media format sdk"
+      - name: "Comparing the Windows Media Audio and video codec interfaces and the Windows Media Format SDK"
         href: comparing-the-windows-media-audio-and-video-codec-interfaces-and-the-windows-media-format-sdk--deprecated.md
-      - name: "about the windows media audio and video codecs"
+      - name: "About the Windows Media Audio and video codecs"
         href: about-the-windows-media-audio-and-video-codecs--deprecated.md
-      - name: "codec concepts"
+      - name: "Codec concepts"
         href: codec-concepts--deprecated.md
         items: 
-        - name: "media types"
+        - name: "Media types"
           href: media-types--deprecated.md
-        - name: "media quality"
+        - name: "Media quality"
           href: media-quality--deprecated.md
-        - name: "the leaky bucket buffer model"
+        - name: "The leaky bucket buffer model"
           href: the-leaky-bucket-buffer-model--deprecated.md
-        - name: "encoding methods"
+        - name: "Encoding methods"
           href: encoding-methods--deprecated.md
-        - name: "video encoding with temporal compression"
+        - name: "Video encoding with temporal compression"
           href: video-encoding-with-temporal-compression--deprecated.md
-      - name: "codec dmo samples"
+      - name: "Codec DMO samples"
         href: codec-dmo-samples--deprecated.md
         items: 
-        - name: "aviencoderdshow"
+        - name: "Aviencoderdshow"
           href: aviencoderdshow--deprecated.md
-        - name: "aviencodervfw"
+        - name: "Aviencodervfw"
           href: aviencodervfw--deprecated.md
-        - name: "avidecodervfw"
+        - name: "Avidecodervfw"
           href: avidecodervfw--deprecated.md
-    - name: "codec programming guide"
+    - name: "Codec programming guide"
       href: codec-programming-guide--deprecated.md
       items: 
-      - name: "getting started"
+      - name: "Getting started"
         href: getting-started--deprecated.md
         items: 
-        - name: "header and library files"
+        - name: "Header and library files"
           href: header-and-library-files--deprecated.md
-        - name: "dmo basics"
+        - name: "DMO basics"
           href: dmo-basics--deprecated.md
-        - name: "working with media types"
+        - name: "Working with media types"
           href: working-with-media-types--deprecated.md
-        - name: "working with media buffers"
+        - name: "Working with media buffers"
           href: working-with-media-buffers--deprecated.md
-        - name: "using the code examples"
+        - name: "Using the code examples"
           href: using-the-code-examples--deprecated.md
-      - name: "instantiating the codec dmos"
+      - name: "Instantiating the codec DMOS"
         href: instantiating-the-codec-dmos--deprecated.md
-      - name: "configuring the codec dmos"
+      - name: "Configuring the codec DMOS"
         href: configuring-the-codec-dmos--deprecated.md
-      - name: "processing samples"
+      - name: "Processing samples"
         href: processing-samples--deprecated.md
-      - name: "working with audio"
+      - name: "Working with audio"
         href: working-with-audio--deprecated.md
         items: 
-        - name: "choosing an audio codec"
+        - name: "Choosing an audio codec"
           href: choosing-an-audio-codec--deprecated.md
-        - name: "configuring audio encoding"
+        - name: "Configuring audio encoding"
           href: configuring-audio-encoding--deprecated.md
           items: 
-          - name: "finding audio encoder output types"
+          - name: "Finding audio encoder output types"
             href: finding-audio-encoder-output-types--deprecated.md
-          - name: "enumerating audio types for specific encoding modes"
+          - name: "Enumerating audio types for specific encoding modes"
             href: enumerating-audio-types-for-specific-encoding-modes--deprecated.md
-        - name: "configuring audio decoding"
+        - name: "Configuring audio decoding"
           href: configuring-audio-decoding--deprecated.md
-        - name: "using high-definition audio"
+        - name: "Using high-definition audio"
           href: using-high-definition-audio--deprecated.md
-        - name: "using the windows media audio codec"
+        - name: "Using the Windows Media Audio codec"
           href: using-the-windows-media-audio-codec--deprecated.md
-        - name: "using the windows media audio professional codec"
+        - name: "Using the Windows Media Audio professional codec"
           href: using-the-windows-media-audio-professional-codec--deprecated.md
-        - name: "using the windows media audio lossless codec"
+        - name: "Using the Windows Media Audio lossless codec"
           href: using-the-windows-media-audio-lossless-codec--deprecated.md
-        - name: "using the windows media audio 9 voice codec"
+        - name: "Using the Windows Media Audio 9 voice codec"
           href: using-the-windows-media-audio-9-voice-codec--deprecated.md
           items: 
-          - name: "using a voice editing decision list"
+          - name: "Using a voice editing decision list"
             href: using-a-voice-editing-decision-list--deprecated.md
-        - name: "decoding to s/pdif"
+        - name: "Decoding to S/PDIF"
           href: decoding-to-s-pdif--deprecated.md
-      - name: "working with video"
+      - name: "Working with video"
         href: working-with-video--deprecated.md
         items: 
-        - name: "choosing a video codec"
+        - name: "Choosing a video codec"
           href: choosing-a-video-codec--deprecated.md
-        - name: "configuring video encoding"
+        - name: "Configuring video encoding"
           href: configuring-video-encoding--deprecated.md
           items: 
-          - name: "using video codec private data"
+          - name: "Using video codec private data"
             href: using-video-codec-private-data--deprecated.md
-        - name: "configuring video decoding"
+        - name: "Configuring video decoding"
           href: configuring-video-decoding--deprecated.md
-        - name: "forced key frame insertion"
+        - name: "Forced key frame insertion"
           href: forced-key-frame-insertion--deprecated.md
-        - name: "interlaced video encoding"
+        - name: "Interlaced video encoding"
           href: interlaced-video-encoding--deprecated.md
-        - name: "using the windows media video 9 codec"
+        - name: "Using the Windows Media Video 9 codec"
           href: using-the-windows-media-video-9-codec--deprecated.md
-        - name: "using the windows media video 9 screen codec"
+        - name: "Using the Windows Media Video 9 screen codec"
           href: using-the-windows-media-video-9-screen-codec--deprecated.md
-        - name: "using the windows media video 9 image codec"
+        - name: "Using the Windows Media Video 9 image codec"
           href: using-the-windows-media-video-9-image-codec--deprecated.md
-      - name: "using two encoding passes"
+      - name: "Using two encoding passes"
         href: using-two-encoding-passes--deprecated.md
-      - name: "using vbr encoding"
+      - name: "Using VBR encoding"
         href: using-vbr-encoding--deprecated.md
-      - name: "getting encoding statistics"
+      - name: "Getting encoding statistics"
         href: getting-encoding-statistics--deprecated.md
-      - name: "using data unit extensions"
+      - name: "Using data unit extensions"
         href: using-data-unit-extensions--deprecated.md
-      - name: "using the codec dmos with directshow"
+      - name: "Using the codec DMOS with DirectShow"
         href: using-the-codec-dmos-with-directshow--deprecated.md
-      - name: "storing compressed media in avi files"
+      - name: "Storing compressed media in AVI files"
         href: storing-compressed-media-in-avi-files--deprecated.md
-      - name: "frequently asked questions"
+      - name: "Frequently asked questions"
         href: frequently-asked-questions--deprecated.md
         items: 
-        - name: "why does a decoder dmo not accept the input format that i set?"
+        - name: "Why does a decoder DMO not accept the input format that i set?"
           href: why-does-a-decoder-dmo-not-accept-the-input-format-that-i-set---deprecated.md
-        - name: "why does the audio encoder dmo report no supported input types?"
+        - name: "Why does the audio encoder DMO report no supported input types?"
           href: why-does-the-audio-encoder-dmo-report-no-supported-input-types---deprecated.md
-        - name: "why does the video encoder dmo reject an output format that i try to set, when i retrieved the format from the same dmo?"
+        - name: "Why does the video encoder DMO reject an output format that i try to set, when i retrieved the format from the same dmo?"
           href: why-does-the-video-encoder-dmo-reject-an-output-format-that-i-try-to-set-when-i-retrieved-the-format-from-the-same-dmo---deprecated.md
-        - name: "how can a video stream encoded using quality-based vbr have fewer frames than the original stream?"
+        - name: "How can a video stream encoded using quality-based VBR have fewer frames than the original stream?"
           href: how-can-a-video-stream-encoded-using-quality-based-vbr-have-fewer-frames-than-the-original-stream---deprecated.md
-        - name: "when using peak-constrained vbr, the average bit rate retrieved from the dmo is larger than the peak bit rate. how is that possible?"
+        - name: "When using peak-constrained vbr, the average bit rate retrieved from the DMO is larger than the peak bit rate. how is that possible?"
           href: when-using-peak-constrained-vbr-the-average-bit-rate-retrieved-from-the-dmo-is-larger-than-the-peak-bit-rate--how-is-that-possible---deprecated.md
-        - name: "i have an avi file containing a windows media video stream. how can i convert it to a wmv file?"
+        - name: "I have an AVI file containing a Windows Media Video stream. how can i convert it to a WMV file?"
           href: i-have-an-avi-file-containing-a-windows-media-video-stream--how-can-i-convert-it-to-a-wmv-file---deprecated.md
-        - name: "how do i decompress streams from an avi file or other file about which i have no format information?"
+        - name: "How do i decompress streams from an AVI file or other file about which i have no format information?"
           href: how-do-i-decompress-streams-from-an-avi-file-or-other-file-about-which-i-have-no-format-information---deprecated.md
-    - name: "codec programming reference"
+    - name: "Codec programming reference"
       href: codec-programming-reference--deprecated.md
       items: 
-      - name: "codec interfaces"
+      - name: "Codec interfaces"
         href: codec-interfaces--deprecated.md
         items: 
         - name: "iwmcodecleakybucket interface"
@@ -2943,26 +2943,26 @@
             href: iwmvideodecoderhurryup-gethurryup.md
           - name: "iwmvideodecoderhurryup::sethurryup"
             href: iwmvideodecoderhurryup-sethurryup.md
-      - name: "codec enumeration types"
+      - name: "Codec enumeration types"
         href: codec-enumeration-types--deprecated.md
         items: 
         - name: "wmt_prop_datatype"
           href: wmt-prop-datatype--deprecated.md
-      - name: "media type identifiers"
+      - name: "Media type identifiers"
         href: media-type-identifiers--deprecated.md
         items: 
-        - name: "compressed media type identifiers"
+        - name: "Compressed media type identifiers"
           href: compressed-media-type-identifiers--deprecated.md
-        - name: "uncompressed media type identifiers"
+        - name: "Uncompressed media type identifiers"
           href: uncompressed-media-type-identifiers--deprecated.md
-      - name: "codec dmo class identifiers"
+      - name: "Codec DMO class identifiers"
         href: codec-dmo-class-identifiers--deprecated.md
-      - name: "fourcc constants"
+      - name: "FOURCC constants"
         href: fourcc-constants--deprecated.md
-      - name: "codec properties"
+      - name: "Codec properties"
         href: codec-properties--deprecated.md
         items: 
-        - name: "codec property list"
+        - name: "Codec property list"
           href: codec-property-list--deprecated.md
           items: 
           - name: "g_wszwmacavgbytespersec"
@@ -3079,134 +3079,134 @@
             href: g-wszwmvcvideowindow--deprecated.md
           - name: "g_wszwmvczerobyteframes"
             href: g-wszwmvczerobyteframes--deprecated.md
-        - name: "audio encoding properties"
+        - name: "Audio encoding properties"
           href: audio-encoding-properties--deprecated.md
-        - name: "audio decoding properties"
+        - name: "Audio decoding properties"
           href: audio-decoding-properties--deprecated.md
-        - name: "s/pdif dmo properties"
+        - name: "S/PDIF DMO properties"
           href: s-pdif-dmo-properties--deprecated.md
-        - name: "video encoding properties"
+        - name: "Video encoding properties"
           href: video-encoding-properties--deprecated.md
-        - name: "video decoding properties"
+        - name: "Video decoding properties"
           href: video-decoding-properties--deprecated.md
-  - name: "windows media drm client extended apis"
+  - name: "Windows Media DRM client extended apis"
     href: windows-media-drm-client-extended-apis.md
     items: 
-    - name: "about the windows media drm client extended apis"
+    - name: "About the Windows Media DRM client extended apis"
       href: about-the-windows-media-drm-client-extended-apis.md
       items: 
-      - name: "overview of windows media drm"
+      - name: "Overview of Windows Media DRM"
         href: overview-of-windows-media-drm.md
-      - name: "concepts"
+      - name: "Concepts"
         href: drmconcepts.md
         items: 
-        - name: "actions and rights"
+        - name: "Actions and rights"
           href: actions-and-rights.md
-        - name: "key and key id"
+        - name: "Key and key id"
           href: key-and-key-id.md
-        - name: "licenses"
+        - name: "Licenses"
           href: licenses.md
-        - name: "local license store"
+        - name: "Local license store"
           href: local-license-store.md
-        - name: "protected files"
+        - name: "Protected files"
           href: protected-files.md
-      - name: "introduction for users of the windows media format sdk"
+      - name: "Introduction for users of the Windows Media Format SDK"
         href: introduction-for-users-of-the-windows-media-format-sdk.md
-    - name: "importing and exporting drm protected content"
+    - name: "Importing and exporting DRM protected content"
       href: importing-and-exporting-drm-protected-content.md
-    - name: "sample applications"
+    - name: "Sample applications"
       href: drm-sample-applications.md
-    - name: "for more information"
+    - name: "For more information"
       href: drm-for-more-information.md
-    - name: "programming guide"
+    - name: "Programming guide"
       href: drm-programming-guide.md
       items: 
-      - name: "getting started"
+      - name: "Getting started"
         href: drm-getting-started.md
         items: 
-        - name: "library files, header files, and compiler settings"
+        - name: "Library files, header files, and compiler settings"
           href: library-files-header-files-and-compiler-settings.md
-        - name: "using the code examples"
+        - name: "Using the code examples"
           href: drm-using-the-code-examples.md
-        - name: "application basics"
+        - name: "Application basics"
           href: application-basics.md
-        - name: "using the media foundation event model"
+        - name: "Using the media foundation event model"
           href: using-the-media-foundation-model.md
-      - name: "acquiring licenses"
+      - name: "Acquiring licenses"
         href: acquiring-licenses.md
         items: 
-        - name: "silent license acquisition"
+        - name: "Silent license acquisition"
           href: silent-license-acquisition.md
-        - name: "non-silent license acquisition"
+        - name: "Non-silent license acquisition"
           href: non-silent-license-acquisition.md
-        - name: "license pre-delivery"
+        - name: "License pre-delivery"
           href: license-pre-delivery.md
-        - name: "creating licenses locally"
+        - name: "Creating licenses locally"
           href: creating-licenses-locally.md
-      - name: "getting information from licenses in the local license store"
+      - name: "Getting information from licenses in the local license store"
         href: getting-information-from-licenses-in-the-local-license-store.md
         items: 
-        - name: "querying for simple rights information"
+        - name: "Querying for simple rights information"
           href: querying-for-simple-rights-information.md
-        - name: "querying for detailed rights information"
+        - name: "Querying for detailed rights information"
           href: querying-for-detailed-rights-information.md
-        - name: "enumerating licenses in the local license store"
+        - name: "Enumerating licenses in the local license store"
           href: enumerating-licenses-in-the-local-license-store.md
-      - name: "performing drm individualization"
+      - name: "Performing DRM individualization"
         href: performing-drm-individualization.md
         items: 
-        - name: "drm individualization example"
+        - name: "DRM individualization example"
           href: drm-individualization-example.md
-      - name: "drm export"
+      - name: "DRM export"
         href: drm-export.md
         items: 
-        - name: "export application certificate"
+        - name: "Export application certificate"
           href: export-application-certificate.md
-        - name: "explicit authorization and inclusion lists"
+        - name: "Explicit authorization and inclusion lists"
           href: explicit-authorization-and-inclusion-lists.md
-        - name: "exporting compressed content"
+        - name: "Exporting compressed content"
           href: exporting-compressed-content.md
           items: 
-          - name: "verification and initialization"
+          - name: "Verification and initialization"
             href: verification-and-initialization.md
-          - name: "asf payload decryption and re-encryption"
+          - name: "ASF payload decryption and re-encryption"
             href: asf-payload-decryption-and-re-encryption.md
-      - name: "drm import"
+      - name: "DRM import"
         href: drm-import.md
         items: 
-        - name: "importing license and key material"
+        - name: "Importing license and key material"
           href: importing-license-and-key-material.md
-        - name: "checking certificate revocation"
+        - name: "Checking certificate revocation"
           href: checking-certificate-revocation.md
-        - name: "building an xmr license"
+        - name: "Building an XMR license"
           href: building-an-xmr-license.md
-        - name: "creating and initializing a drm writer"
+        - name: "Creating and initializing a DRM writer"
           href: creating-and-initializing-a-drm-writer.md
-        - name: "encrypting and importing media samples"
+        - name: "Encrypting and importing media samples"
           href: encrypting-and-importing-media-samples.md
-        - name: "license deletion"
+        - name: "License deletion"
           href: license-deletion.md
-        - name: "drm import examples"
+        - name: "DRM import examples"
           href: drm-import-examples.md
           items: 
-          - name: "create session key example"
+          - name: "Create session key example"
             href: create-session-key-example.md
-          - name: "create content key example"
+          - name: "Create content key example"
             href: create-content-key-example.md
-          - name: "get machine certificate example"
+          - name: "Get machine certificate example"
             href: get-machine-certificate-example.md
-          - name: "initialize drm import example"
+          - name: "Initialize DRM import example"
             href: initialize-drm-import-example.md
-          - name: "media sample encryption example"
+          - name: "Media sample encryption example"
             href: media-sample-encryption-example.md
-      - name: "license revocation"
+      - name: "License revocation"
         href: drm-license-revocation.md
-      - name: "automated component revocation and renewal"
+      - name: "Automated component revocation and renewal"
         href: automated-component-revocation-and-renewal.md
-    - name: "programming reference"
+    - name: "Programming reference"
       href: drm-programming-reference.md
       items: 
-      - name: "functions"
+      - name: "Functions"
         href: drm-functions.md
         items: 
         - name: "wmdrmcreateprovider"
@@ -3217,7 +3217,7 @@
           href: wmdrmshutdown.md
         - name: "wmdrmstartup"
           href: wmdrmstartup.md
-      - name: "interfaces"
+      - name: "Interfaces"
         href: drm-interfaces.md
         items: 
         - name: "idrmstatuscallback interface"
@@ -3378,32 +3378,32 @@
             href: iwmsecurebuffer-decrypt.md
           - name: "iwmsecurebuffer::encrypt"
             href: iwmsecurebuffer-encrypt.md
-      - name: "structures"
+      - name: "Structures"
         href: drm-structures.md
         items: 
-        - name: "drm_audio_output_protection_ids"
+        - name: "Drm_audio_output_protection_ids"
           href: drm-audio-output-protection-ids.md
-        - name: "drm_audio_output_protection_ids_ex"
+        - name: "Drm_audio_output_protection_ids_ex"
           href: drm-audio-output-protection-ids-ex.md
-        - name: "drm_copy_opl"
+        - name: "Drm_copy_opl"
           href: drmdrm-copy-opl.md
-        - name: "drm_license_state_data"
+        - name: "Drm_license_state_data"
           href: drmdrm-license-state-data.md
-        - name: "drm_minimum_output_protection_levels"
+        - name: "Drm_minimum_output_protection_levels"
           href: drmdrm-minimum-output-protection-levels.md
-        - name: "drm_opl_output_ids"
+        - name: "Drm_opl_output_ids"
           href: drmdrm-opl-output-ids.md
-        - name: "drm_output_protection"
+        - name: "Drm_output_protection"
           href: drm-output-protection.md
-        - name: "drm_output_protection_ex"
+        - name: "Drm_output_protection_ex"
           href: drm-output-protection-ex.md
-        - name: "drm_play_opl"
+        - name: "Drm_play_opl"
           href: drmdrm-play-opl.md
-        - name: "drm_play_opl_ex"
+        - name: "Drm_play_opl_ex"
           href: drm-play-opl-ex.md
-        - name: "drm_video_output_protection_ids"
+        - name: "Drm_video_output_protection_ids"
           href: drmdrm-video-output-protection-ids.md
-        - name: "drm_video_output_protection_ids_ex"
+        - name: "Drm_video_output_protection_ids_ex"
           href: drm-video-output-protection-ids-ex.md
         - name: "wm_backup_restore_status"
           href: wm-backup-restore-status.md
@@ -3431,20 +3431,20 @@
           href: wmdrmnet-policy-minimum-environment.md
         - name: "wmdrmnet_policy_transcryptplay"
           href: wmdrmnet-policy-transcryptplay.md
-      - name: "enumeration types"
+      - name: "Enumeration types"
         href: drm-enumeration-types.md
         items: 
-        - name: "drm_action_allowed_query_results"
+        - name: "Drm_action_allowed_query_results"
           href: drm-action-allowed-query-results.md
-        - name: "drm_attr_datatype"
+        - name: "Drm_attr_datatype"
           href: drm-attr-datatype.md
-        - name: "drm_crypto_type"
+        - name: "Drm_crypto_type"
           href: drm-crypto-type.md
-        - name: "drm_http_status"
+        - name: "Drm_http_status"
           href: drmdrm-http-status.md
-        - name: "drm_individualization_status"
+        - name: "Drm_individualization_status"
           href: drmdrm-individualization-status.md
-        - name: "drm_license_state_category"
+        - name: "Drm_license_state_category"
           href: drmdrm-license-state-category.md
         - name: "msdrm_status"
           href: msdrm-status.md
@@ -3452,12 +3452,12 @@
           href: wmdrmnet-policy-type.md
         - name: "wmt_rights"
           href: drm-wmt-rights.md
-      - name: "constants"
+      - name: "Constants"
         href: constants.md
         items: 
-        - name: "rights constants"
+        - name: "Rights constants"
           href: rights-constants.md
-        - name: "revocation type identifiers"
+        - name: "Revocation type identifiers"
           href: revocation-type-identifiers.md
-  - name: "glossary"
+  - name: "Glossary"
     href: wmformat-glossary.md

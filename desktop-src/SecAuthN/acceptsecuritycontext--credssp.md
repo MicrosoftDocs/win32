@@ -2,7 +2,7 @@
 description: Lets the server component of a transport application establish a security context between the server and a remote client.
 ms.assetid: 'a53f733e-b646-4431-b021-a2c446308849'
 title: AcceptSecurityContext (CredSSP) function
-ms.topic: article
+ms.topic: reference
 ms.date: 03/17/2023
 ---
 
@@ -96,7 +96,7 @@ This function returns one of the following values.
 
 | Return code/value | Description |
 |--------|--------|
-| SEC_E_INCOMPLETE_MESSAGE <br/> 0x80090318L          | The function succeeded. The data in the input buffer is incomplete. The application must read additional data from the client and call [AcceptSecurityContext (CredSSP)](acceptsecuritycontext--credssp.md) again. |
+| SEC_E_INCOMPLETE_MESSAGE <br/> 0x80090318L          | The function succeeded. The data in the input buffer is incomplete. The application must read additional data from the client and call **AcceptSecurityContext (CredSSP)** again. |
 | SEC_E_INSUFFICIENT_MEMORY <br/> 0x80090300L         | The function failed. There is not enough memory available to complete the requested action. |
 | SEC_E_INTERNAL_ERROR <br/> 0x80090304L              | The function failed. An error occurred that did not map to an SSPI error code. |
 | SEC_E_INVALID_HANDLE <br/> 0x80100003L              | The function failed. The handle passed to the function is not valid. |
@@ -106,9 +106,9 @@ This function returns one of the following values.
 | SEC_E_NO_CREDENTIALS <br/>0x8009030EL               | The function failed. The credentials handle specified in the *phCredential* parameter is not valid. |
 | SEC_E_OK <br/> 0x00000000L                          | The function succeeded. The security context received from the client was accepted. If the function generated an output token, the token must be sent to the client process. |
 | SEC_E_UNSUPPORTED_FUNCTION <br/> 0x80090302L        | The function failed. The *fContextReq* parameter specified a context attribute flag (ASC_REQ_DELEGATE or ASC_REQ_PROMPT_FOR_CREDS) that was not valid. |
-| SEC_I_COMPLETE_AND_CONTINUE <br/> 0x00090314L       | The function succeeded. The server must call [CompleteAuthToken](/windows/win32/api/sspi/nf-sspi-completeauthtoken) and pass the output token to the client. The server must then wait for a return token from the client before making another call to [AcceptSecurityContext (CredSSP)](acceptsecuritycontext--credssp.md). |
+| SEC_I_COMPLETE_AND_CONTINUE <br/> 0x00090314L       | The function succeeded. The server must call [CompleteAuthToken](/windows/win32/api/sspi/nf-sspi-completeauthtoken) and pass the output token to the client. The server must then wait for a return token from the client before making another call to **AcceptSecurityContext (CredSSP)**. |
 | SEC_I_COMPLETE_NEEDED <br/> 0x00090313L             | The function succeeded. The server must finish building the message from the client before calling [CompleteAuthToken](/windows/win32/api/sspi/nf-sspi-completeauthtoken) |
-| SEC_I_CONTINUE_NEEDED <br/> 0x00090312L             | The function succeeded. The server must send the output token to the client and wait for a returned token. The returned token should be passed in *pInput* for another call to [AcceptSecurityContext (CredSSP)](acceptsecuritycontext--credssp.md).
+| SEC_I_CONTINUE_NEEDED <br/> 0x00090312L             | The function succeeded. The server must send the output token to the client and wait for a returned token. The returned token should be passed in *pInput* for another call to **AcceptSecurityContext (CredSSP)**.
 
 ## Remarks
 
@@ -129,8 +129,8 @@ After the security context has been established, the server application can use 
 
 | Requirement | Value |
 |--------------------------|-------------------------------------------|
-| Minimum supported client | Windows�Vista \[desktop apps only\]       |
-| Minimum supported server | Windows Server�2008 \[desktop apps only\] |
+| Minimum supported client | Windows Vista \[desktop apps only\]       |
+| Minimum supported server | Windows Server 2008 \[desktop apps only\] |
 | Header                   | Sspi.h (include Security.h)               |
 | Library                  | Secur32.lib                               |
 | DLL                      | Secur32.dll                               |

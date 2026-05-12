@@ -2,7 +2,7 @@
 description: Key Transition
 ms.assetid: 5d1ed2e4-82c2-4364-b8f0-22bba974bc22
 title: Key Transition
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

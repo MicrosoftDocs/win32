@@ -2,7 +2,7 @@
 description: Viewing Closed Captions
 ms.assetid: 86c0c553-af35-4ad1-8918-63d9e4577c73
 title: Viewing Closed Captions
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

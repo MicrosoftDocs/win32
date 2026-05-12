@@ -26,7 +26,7 @@ HRESULT WINAPI DlpGetFileApplicationAccessEx(_In_z_ LPCWSTR filePath, _In_z_ LPC
 
 ## Parameters
 
-`filePath` [in]: A [fully qualified Win32 file path](https://docs.microsoft.com/windows/win32/fileio/naming-a-file) for the file to be analyzed.
+`filePath` [in]: A [fully qualified Win32 file path](/windows/win32/fileio/naming-a-file) for the file to be analyzed.
 
 `applicationName` [in]: The disk image name of the process that handles the file (such as `notepad.exe`, `chrome.exe`, etc).
 

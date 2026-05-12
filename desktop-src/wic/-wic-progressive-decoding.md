@@ -2,7 +2,7 @@
 description: This topic introduces progressive decoding and how to use progressive decoding in applications.
 ms.assetid: d22c2c59-0fa1-4452-93f1-dbf151033714
 title: Progressive Decoding Overview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

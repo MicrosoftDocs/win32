@@ -7,7 +7,7 @@ keywords:
 - TSF (Text Services Framework),display attributes
 - TSF-enabled applications,display attributes
 - display attributes
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

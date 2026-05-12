@@ -4,7 +4,7 @@ ms.assetid: e3e14dcd-9236-48bd-a692-6985d8146f81
 title: WM_SIZE message (Winuser.h)
 ms.topic: reference
 ms.custom: snippet-project
-ms.date: 07/27/2020
+ms.date: 07/14/2025
 ---
 
 # WM\_SIZE message

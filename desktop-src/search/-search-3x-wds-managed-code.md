@@ -1,12 +1,12 @@
 ---
 description: The Windows Search SDK provides an interopability assembly for you to work with Component Object Model (COM) objects that are exposed by Windows Search and other programs against the interfaces and classes using managed code.
 ms.assetid: 9ade6f55-de65-4f73-9d22-1be819549704
-title: Using Managed Code with Shell Data and Windows Search
-ms.topic: article
+title: Using managed code with shell data and Windows Search
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Using Managed Code with Shell Data and Windows Search
+# Using managed code with shell data and Windows Search
 
 The Windows Search SDK provides an interopability assembly for you to work with Component Object Model (COM) objects that are exposed by Windows Search and other programs against the interfaces and classes using managed code. The interopability assembly is digitally signed by Microsoft and can be found with the [Windows Search samples](-search-samples-ovw.md).
 
@@ -35,7 +35,7 @@ foreach (ShellObject so in KnownFolders.SavedSearches)
 
 
 
-### Accessing Index Results
+### Accessing index results
 
 You can access index results through either OLE DB or the Shell data model. There are advantages and disadvantages with either approach. One advantage is that OLE DB and Structured Query Language (SQL) are familiar to database programmers. Other advantages are better control over performance when querying only the indexer, and access to additional functionality such as the ability to locate previous results in a new rowset quickly.
 
@@ -43,7 +43,7 @@ Advantages of the Shell data model are that it abstracts across different source
 
 OpenSearch data sources are not exposed through OLE DB for federated search in Windows 7 and later. For this reason we recommend that you consider writing a LINQ provider for the Shell namespace instead of using OLE DB to access the indexer results. For more information, see [Walkthrough: Creating an IQueryable LINQ Provider](/previous-versions/bb546158(v=vs.140)).
 
-### Sample Application Using the Windows API Codepack
+### Sample application using the Windows API codepack
 
 The following screenshot represents a mock up of a sample application created with the [Windows API Code Pack for Microsoft .NET Framework](https://www.nuget.org/packages/Microsoft.Windows.Compatibility).
 

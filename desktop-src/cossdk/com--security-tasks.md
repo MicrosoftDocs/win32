@@ -2,7 +2,7 @@
 description: COM+ Security Tasks
 ms.assetid: ab00de56-a5e6-41e9-9193-adb60d17854f
 title: COM+ Security Tasks
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

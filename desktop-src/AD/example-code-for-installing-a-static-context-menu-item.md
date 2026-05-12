@@ -3,7 +3,7 @@ title: Example Code for Installing a Static Context Menu Item
 description: The following code example uses two scripts.
 ms.assetid: 22d6a220-7712-4b07-a6d9-67dd748358a6
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,10 +3,15 @@ description: The SENSOR\_CATEGORY\_MOTION category contains sensors that provide
 ms.assetid: be025c86-46b5-4f50-a3af-0408bb3c9b5b
 title: SENSOR_CATEGORY_MOTION (Sensors.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # SENSOR\_CATEGORY\_MOTION
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 The SENSOR\_CATEGORY\_MOTION category contains sensors that provide information that is related to physical movement. Accelerometers measure acceleration of the sensor, including gravitational acceleration. Motion detectors, such as human movement detection in a security system, sense moving objects. Gyrometers sense changes in angular velocity. Speedometers measure velocity.
 
@@ -67,9 +72,9 @@ This category includes the following platform-defined data fields.
 
 
 
- 
 
- 
+
+
 
 
 

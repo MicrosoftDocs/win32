@@ -2,7 +2,7 @@
 description: Australia
 ms.assetid: f7d5aa66-3b8e-496a-a7fd-209f7334a868
 title: Australia
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

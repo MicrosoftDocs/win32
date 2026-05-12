@@ -2,7 +2,7 @@
 description: Previewing a Project
 ms.assetid: '2efa3f25-a93f-4362-b461-b67475e5d78c'
 title: Previewing a Project
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

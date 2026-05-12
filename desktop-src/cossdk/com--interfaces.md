@@ -2,7 +2,7 @@
 description: The following are the COM+ interfaces.
 ms.assetid: 5b289e57-bfb9-4e93-82c6-a59e1d1ec0fe
 title: COM+ Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

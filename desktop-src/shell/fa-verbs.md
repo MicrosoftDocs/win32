@@ -2,8 +2,9 @@
 description: When a user right-clicks a Shell object such as a file, the Shell displays a shortcut (context) menu.
 ms.assetid: 4f46b8c3-1e12-447c-87f4-bbe2c305f77a
 title: Verbs and File Associations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
+no-loc: [Verb, verb, Shell, shell]
 ---
 
 # Verbs and File Associations

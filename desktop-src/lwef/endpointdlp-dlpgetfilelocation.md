@@ -26,7 +26,7 @@ FileLocation WINAPI DlpGetFileLocation(_In_z_ LPCWSTR destinationFilePath);
 
 ## Parameters
 
-`destinationFilePath` [in]: A [fully qualified Win32 file path](https://docs.microsoft.com/windows/win32/fileio/naming-a-file) for the file to be analyzed.
+`destinationFilePath` [in]: A [fully qualified Win32 file path](/windows/win32/fileio/naming-a-file) for the file to be analyzed.
 
 ## Return value
 

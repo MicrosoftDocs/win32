@@ -6,11 +6,10 @@ ms:assetid: b89a8f78-f2c4-4cbf-a000-a95c34589033
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg294069(v=EXCHG.10)
 ms:contentKeyID: 32765684
 ms.date: 09/22/2016
-ms.topic: article
+ms.topic: reference
 ---
 
 # Extensible Storage Engine Files
-
 
 _**Applies to:** Windows | Windows Server_
 
@@ -19,27 +18,24 @@ _**Applies to:** Windows | Windows Server_
 The Extensible Storage Engine uses the following types of files:
 
 - [Transaction Log Files](#transaction-log-files)
-
 - [Temporary Transaction Log Files](#temporary-transaction-log-files)
-
 - [Reserved Transaction Log Files](#reserved-transaction-log-files)
-
 - [Checkpoint Files](#checkpoint-files)
-
 - [Database Files](#database-files)
-
 - [Temporary Databases](#temporary-databases)
-
 - [Flush Map Files](#flush-map-files)
 
-This table contains an overview of the data file names that are managed by ESE. For Windows Vista and later, the JET_paramLegacyNames setting impacts the file names that are used.
+This table contains an overview of the data file names that are managed by ESE. For Windows Vista and later, the JET_paramLegacyFileNames setting impacts the file names that are used.
 
-
-| Label | Value |
-|--------|-------|
-|  | 
-
-
+| File Type | Legacy Names (JET_bitESE98FileNames) | Modern Names (Default) |
+|-----------|--------------------------------------|------------------------|
+| Transaction Log Files | \<base\>.log, \<base\>XXXXX.log | \<base\>.jtx, \<base\>XXXXX.jtx |
+| Temporary Transaction Log | \<base\>tmp.log | \<base\>tmp.jtx |
+| Reserved Transaction Log Files | res1.log, res2.log (Windows Server 2003 and earlier) | \<base\>RESXXXXX.jrs (Windows Vista and later) |
+| Checkpoint Files | \<base\>.chk | \<base\>.jcp |
+| Database Files | User-specified (e.g., .edb) | User-specified (e.g., .edb) |
+| Temporary Databases | User-specified via JET_paramTempPath | User-specified via JET_paramTempPath |
+| Flush Map Files | N/A | \<database\>.jfm (Windows 10 Anniversary Update and later) |
 
 ### Transaction Log Files
 

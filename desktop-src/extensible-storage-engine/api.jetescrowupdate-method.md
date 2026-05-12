@@ -118,7 +118,7 @@ public static void JetEscrowUpdate(
   - previousValue  
     Type: \[\]  
     
-    An output buffer that will recieve the current value of the column. This buffer can be null.
+    An output buffer that will receive the current value of the column. This buffer can be null.
 
 <!-- end list -->
 

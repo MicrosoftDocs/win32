@@ -2,7 +2,7 @@
 title: Configuring Load Balancing
 description: Configuring Load Balancing
 ms.assetid: c78ffde1-1811-4065-941f-c24692eb144c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -38,7 +38,7 @@ DWORD. The **ConfigurationType** DWORD is stored under the **Resource UUID** key
 
 **HKLM\\SOFTWARE\\Microsoft\\Rpc\\RpcProxy\\LBSConfiguration\\XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX\\ServerFarm**
 
-REG\_SZ. The **ServerFarm** registry value contains a semicolon delimitated list of server identifiers. The format for the server identifiers is:
+REG\_SZ. The **ServerFarm** registry value contains a semicolon delimited list of server identifiers. The format for the server identifiers is:
 
 "ServerID1,ServerPort1,LBSPort1,\[LBSPort2, …LBSPortN\];"
 

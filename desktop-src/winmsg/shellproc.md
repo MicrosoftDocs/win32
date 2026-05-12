@@ -4,7 +4,7 @@ title: ShellProc callback function
 description: The function receives notifications of Shell events from the system.
 old-location: 
 ms.assetid: na
-ms.date: 04/05/2019
+ms.date: 07/14/2025
 ms.keywords: 
 ms.topic: reference
 req.header: 

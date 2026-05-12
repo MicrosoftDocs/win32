@@ -2,7 +2,7 @@
 title: COM Error Codes
 description: The following topics provide lists of error codes used by COM-based APIs. These values are defined in the Winerror.h header file.
 ms.assetid: 373671fe-489e-4f12-afe5-b7541f32441b
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

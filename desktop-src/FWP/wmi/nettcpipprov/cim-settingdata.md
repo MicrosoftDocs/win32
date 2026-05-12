@@ -5,7 +5,7 @@ title: CIM\_SettingData class
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -23,8 +23,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# CIM\_SettingData class
-
+# CIM\_SettingData class (NetTCPIP)
 Represents configuration and operational parameters for [**CIM\_ManagedElement**](cim-managedelement.md) instances.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
@@ -121,7 +120,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > *OrgID*:*LocalID*
 >
-> *OrgID* must include a copyrighted, trademarked or otherwise unique name that is owned by the business entity defining the **InstanceID**, or be a registered ID that is assigned by a recognized global authority. This is similar to the structure of Schema class names. In addition, to ensure uniqueness the first colon in **InstanceID** must be between the *OrgID* and*LocalID*. Therefor the *OrgID* must not contain a colon (':').
+> *OrgID* must include a copyrighted, trademarked or otherwise unique name that is owned by the business entity defining the **InstanceID**, or be a registered ID that is assigned by a recognized global authority. This is similar to the structure of Schema class names. In addition, to ensure uniqueness the first colon in **InstanceID** must be between the *OrgID* and*LocalID*. Therefore the *OrgID* must not contain a colon (':').
 >
 > *LocalID* is chosen by the business entity and should not be re-used to identify different underlying real-world elements.
 >
@@ -137,7 +136,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                          |

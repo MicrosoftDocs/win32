@@ -58,7 +58,3 @@ For an example, see [How to Draw and Fill a Basic Shape](how-to-draw-an-ellipse.
 
 [How to Draw and Fill a Basic Shape](how-to-draw-an-ellipse.md)
 </dt> </dl>
-
-�
-
-�

@@ -2,7 +2,7 @@
 title: Implementing the Teredo Security Model
 description: The Teredo security model is based on the Windows Filtering Platform (WFP) technology built into Windows Vista. As a result, it is recommended that third-party firewalls use WFP to enforce the Teredo security model.
 ms.assetid: ee81e5f1-e3e0-440e-a53f-2accced476bc
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

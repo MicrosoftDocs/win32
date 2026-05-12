@@ -5,7 +5,7 @@ ms.assetid: e38f7a05-f966-4853-be3b-5cdbf224719e
 keywords:
 - HTTP Server API Structures
 - Structures HTTP , HTTP Server API
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

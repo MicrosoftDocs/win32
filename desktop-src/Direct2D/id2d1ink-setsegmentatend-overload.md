@@ -45,7 +45,3 @@ Updates the last segment in this ink object with new control points.
 
 [**ID2D1Ink**](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1ink)
 </dt> </dl>
-
-�
-
-�

@@ -2,7 +2,7 @@
 title: Stop Method (Legacy Windows Environment Features)
 description: Stop Method
 ms.assetid: 68372f72-db9c-447c-a3e4-488940c730d7
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

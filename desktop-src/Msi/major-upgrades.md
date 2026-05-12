@@ -2,7 +2,7 @@
 description: A major upgrade is a comprehensive update of a product that needs a change of the ProductCode Property.
 ms.assetid: 0c8f2aad-b301-4404-9051-694d97db1a8d
 title: Major Upgrades
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

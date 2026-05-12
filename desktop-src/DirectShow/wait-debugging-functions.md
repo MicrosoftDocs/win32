@@ -2,7 +2,7 @@
 description: Wait Debugging Functions
 ms.assetid: 784ef76e-3c17-45e0-9a0b-656c11c71322
 title: Wait Debugging Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

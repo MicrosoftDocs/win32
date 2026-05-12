@@ -2,7 +2,7 @@
 title: What are the Basic Actions of the Control Point API
 description: All control points perform the following tasks.
 ms.assetid: f681468f-90ab-4533-8ee7-6e4f93e08cf2
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

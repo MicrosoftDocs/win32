@@ -2,7 +2,7 @@
 description: DirectShow Video Capture Filters
 ms.assetid: e4d1452d-ceac-4b5c-b9ba-ad4722ecff76
 title: DirectShow Video Capture Filters
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - GetEx ADSI , using IADs GetEx
 - ADSI ADSI ,using,using the IADs GetEx method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

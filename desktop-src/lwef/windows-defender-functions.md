@@ -2,7 +2,7 @@
 title: Windows Defender Functions
 description: Functions called by apps to request scans, signature updates, or information from Windows Defender.
 ms.assetid: BB3DF71E-1085-45D0-B739-F4C272E7098B
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

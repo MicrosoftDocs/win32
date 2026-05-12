@@ -6,7 +6,7 @@ keywords:
 - Extended Protection Native-Web-Services
 - WWSAPI
 - WWS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -31,7 +31,7 @@ The following configurations involving extended protection are possible:
 Client
 
 -   [**WS\_SSL\_TRANSPORT\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_ssl_transport_security_binding) is used with [**WS\_KERBEROS\_APREQ\_MESSAGE\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_kerberos_apreq_message_security_binding) or [**WS\_HTTP\_HEADER\_AUTH\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_http_header_auth_security_binding). In this configuration the authentication binding is bound to the SSL connection via an extended protection token that is automatically extracted from the SSL connection.
--   No SSL is used and [**WS\_HTTP\_HEADER\_AUTH\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_http_header_auth_security_binding) is set. The authentication binding is bound via the Server Principal Name (SPN), which is autonatically determined from the [**WS\_ENDPOINT\_ADDRESS**](/windows/desktop/api/WebServices/ns-webservices-ws_endpoint_address).
+-   No SSL is used and [**WS\_HTTP\_HEADER\_AUTH\_SECURITY\_BINDING**](/windows/desktop/api/WebServices/ns-webservices-ws_http_header_auth_security_binding) is set. The authentication binding is bound via the Server Principal Name (SPN), which is automatically determined from the [**WS\_ENDPOINT\_ADDRESS**](/windows/desktop/api/WebServices/ns-webservices-ws_endpoint_address).
 
 Server
 
@@ -57,7 +57,7 @@ The following Enums/Constants are part of extended protection:
 -   [**WS\_EXTENDED\_PROTECTION\_POLICY**](/windows/desktop/api/WebServices/ne-webservices-ws_extended_protection_policy)
 -   [**WS\_EXTENDED\_PROTECTION\_SCENARIO**](/windows/desktop/api/WebServices/ne-webservices-ws_extended_protection_scenario)
 
-The following stuctures are part of extended protection:
+The following structures are part of extended protection:
 
 -   [**WS\_SERVICE\_SECURITY\_IDENTITIES**](/windows/desktop/api/WebServices/ns-webservices-ws_service_security_identities)
 

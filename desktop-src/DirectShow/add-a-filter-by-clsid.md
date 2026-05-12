@@ -2,7 +2,7 @@
 description: Add a Filter by CLSID
 ms.assetid: b15cf324-5b9b-41da-a8cf-87071aaf3b60
 title: Add a Filter by CLSID
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

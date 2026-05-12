@@ -3,7 +3,7 @@ title: Providing File Data
 description: Describes how a provider supplies placeholder info and file data.
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 10/01/2018
-ms.topic: article
+ms.topic: how-to
 ---
 
 # Providing File Data

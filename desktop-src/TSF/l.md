@@ -3,7 +3,7 @@ title: L (Text Services Framework)
 description: Glossary page
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: bff7bd4e-aef3-4865-828d-6a1e0a5ff35a
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

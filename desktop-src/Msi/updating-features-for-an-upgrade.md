@@ -2,7 +2,7 @@
 description: The sample Windows Installer upgrade package adds new features to the original product.
 ms.assetid: cbc4c2ff-e08b-4ebb-a306-a80f9a6e4360
 title: Updating Features for an Upgrade
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

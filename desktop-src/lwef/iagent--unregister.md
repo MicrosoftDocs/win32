@@ -2,7 +2,7 @@
 title: IAgent Unregister
 description: IAgent Unregister
 ms.assetid: d81cde72-f9ff-45aa-9dbf-faea9a478c3c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

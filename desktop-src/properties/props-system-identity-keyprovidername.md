@@ -2,7 +2,7 @@
 description: Identity key provider name.
 ms.assetid: 31ead002-b69b-444c-bada-f311eb0d8bb3
 title: System.Identity.KeyProviderName
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

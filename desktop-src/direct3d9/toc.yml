@@ -1087,6 +1087,8 @@
       - name: "Direct3D Functions"
         href: dx9-graphics-reference-d3d-functions.md
         items: 
+        - name: "D3D9GetSWInfo"
+          href: ./d3d9/nf-d3d9-d3d9getswinfo.md
         - name: "D3DPERF_BeginEvent"
           href: ./d3d9/nf-d3d9-d3dperf_beginevent.md
         - name: "D3DPERF_EndEvent"

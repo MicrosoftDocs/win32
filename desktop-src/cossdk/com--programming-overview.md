@@ -2,7 +2,7 @@
 description: COM+ provides an enterprise development environment, based on the Microsoft Component Object Model (COM), for creating component-based, distributed applications.
 ms.assetid: 141982d4-1e6c-4f01-8b0e-8b94f20dd82c
 title: COM+ Programming Overview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

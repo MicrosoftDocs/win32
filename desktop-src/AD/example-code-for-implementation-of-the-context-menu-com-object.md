@@ -5,7 +5,7 @@ ms.assetid: dc8f2c31-6031-4c7d-a173-5cedcedbfb26
 ms.tgt_platform: multiple
 keywords:
 - Active Directory AD , example code C/C++ , implementation of the context menu COM object
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

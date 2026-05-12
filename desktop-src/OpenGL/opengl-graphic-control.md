@@ -5,7 +5,7 @@ ms.assetid: 327f2920-1bc9-4de7-aa12-3e9f74a94759
 keywords:
 - OpenGL,graphic control
 - graphic control OpenGL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

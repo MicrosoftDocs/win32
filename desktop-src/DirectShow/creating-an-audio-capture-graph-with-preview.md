@@ -2,7 +2,7 @@
 description: Creating an Audio Capture Graph with Preview
 ms.assetid: 73c0b799-060b-4b20-b072-6a0c5c30de20
 title: Creating an Audio Capture Graph with Preview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

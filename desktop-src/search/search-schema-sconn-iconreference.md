@@ -1,12 +1,12 @@
 ---
 description: The optional &lt;iconReference&gt; element specifies a custom icon for this location. This element has no attributes and no child elements.
 ms.assetid: c2fa5e99-a7fd-423e-9952-5233e8c83619
-title: iconReference Element (Search Connector Schema)
-ms.topic: article
+title: iconReference element (search connector schema)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# iconReference Element (Search Connector Schema)
+# iconReference element (search connector schema)
 
 The optional &lt;iconReference&gt; element specifies a custom icon for this location. This element has no attributes and no child elements.
 
@@ -28,7 +28,7 @@ The optional &lt;iconReference&gt; element specifies a custom icon for this loca
 
 
 
-## Element Information
+## Element information
 
 
 

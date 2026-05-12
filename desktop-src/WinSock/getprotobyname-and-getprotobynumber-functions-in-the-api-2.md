@@ -2,7 +2,7 @@
 description: The getprotobyname and getprotobynumber functions are implemented within the Ws2\_32.dll by consulting a local protocols database. They do not result in any name resolution query.
 ms.assetid: e344c580-c81b-446a-93bb-6acf8f5a9f17
 title: getprotobyname and getprotobynumber Functions in the API
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

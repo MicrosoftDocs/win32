@@ -2,7 +2,7 @@
 description: System.TransferSize
 ms.assetid: aa3ebe48-08e7-43d3-a25c-1a71d42267e9
 title: System.TransferSize
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

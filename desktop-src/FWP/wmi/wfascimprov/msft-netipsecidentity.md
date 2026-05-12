@@ -5,7 +5,7 @@ title: MSFT\_NetIPsecIdentity class
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -109,7 +109,7 @@ ImpersonationType
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                         |

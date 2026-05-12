@@ -2,7 +2,7 @@
 description: The following example illustrates the use of the HeapWalk function to enumerate a heap.
 ms.assetid: ef37d644-473f-4e51-9785-5b44fe0dce42
 title: Enumerating a Heap
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

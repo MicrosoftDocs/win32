@@ -2,7 +2,7 @@
 title: Predicate register (HLSL PS reference)
 description: This pixel shader output register contains a per-channel boolean value.
 ms.assetid: dc5bff90-4efa-4390-b744-dd1e894ff540
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

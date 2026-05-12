@@ -1,12 +1,12 @@
 ---
 description: To ensure that your data is indexed and presented correctly to the user during searches, you need to implement Shell data stores (also known as Shell Namespace Extensions), and file type handlers (also known as Shell extensions, extension handlers, or Shell extension handlers).
 ms.assetid: 38cebb3c-51bf-439c-8d4e-445344f6cb66
-title: Adding Icons, Previews and Shortcut Menus
-ms.topic: article
+title: Adding icons, previews and shortcut menus
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
-# Adding Icons, Previews and Shortcut Menus
+# Adding icons, previews and shortcut menus
 
 To ensure that your data is indexed and presented correctly to the user during searches, you need to implement Shell data stores (also known as [Shell Namespace Extensions](../shell/nse-works.md)), and file type handlers (also known as Shell extensions, [extension handlers](../shell/handlers.md), or Shell extension handlers).
 
@@ -22,7 +22,7 @@ This topic describes the following interfaces:
 -   [Additional Resources](#additional-resources)
 -   [Related topics](#related-topics)
 
-## Implementing File Type Handlers
+## Implementing file type handlers
 
 These Shell extensions or file type handlers provide your users with the following Shell experiences:
 
@@ -166,7 +166,7 @@ To reuse an existing preview handler for your file type, follow these two steps:
 
 For more information on creating preview handlers, see [IPreviewHandler](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandler) and [Preview Handlers](../shell/preview-handlers.md).
 
-## Additional Resources
+## Additional resources
 
 -   For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
 -   For information about creating handlers, see [Registering Shell Extensions](../shell/reg-shell-exts.md), [Creating Shell Extension Handlers](../shell/handlers.md), [Context Menu](/previous-versions/windows/desktop/legacy/cc144169(v=vs.85)), [Shell Namespace Extensions](../shell/nse-works.md) and [Preview Handlers](../shell/preview-handlers.md).

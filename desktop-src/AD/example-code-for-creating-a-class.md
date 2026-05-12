@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Example Code for Creating a Class
 - Creating a Class, Example Code AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

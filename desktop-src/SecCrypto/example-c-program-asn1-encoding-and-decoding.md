@@ -2,7 +2,7 @@
 description: Shows using CryptEncodeObjectEx and CryptDecodeObjectEx.
 ms.assetid: 78108cd5-531e-4d0c-96cf-6f6264b7716c
 title: 'Example C Program: ASN.1 Encoding and Decoding'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

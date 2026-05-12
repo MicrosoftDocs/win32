@@ -2,7 +2,7 @@
 title: Reliability of Extended Error Information
 description: Extended error information is not reliable.
 ms.assetid: d4735a7b-ede0-4230-b10a-bf9772aca6a6
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

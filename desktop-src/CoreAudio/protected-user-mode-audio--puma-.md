@@ -2,7 +2,7 @@
 description: Windows Vista introduced Protected User Mode Audio (PUMA), the user-mode audio engine in the Protected Environment (PE) that provides a safer environment for audio processing and rendering.
 ms.assetid: 27a50026-9e48-48b1-9249-7528a97333c9
 title: Protected User Mode Audio (PUMA)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -203,7 +203,7 @@ The media application must perform the following tasks.
 
             
 
-        2.  Use DSound object created above to program DSound for steaming. For more information about this process, see [DirectSound](/previous-versions//bb219818(v=vs.85)) on MSDN.
+        2.  Use DSound object created above to program DSound for steaming. For more information about this process, see [DirectSound](/previous-versions//bb219818(v=vs.85)).
     -   For WASAPI:
         1.  Create an [**IAudioClient**](/windows/desktop/api/Audioclient/nn-audioclient-iaudioclient) COM object by calling [**IMMDevice::Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) and specifying IID\_IAudioClient as the interface identifier.
             ```cpp

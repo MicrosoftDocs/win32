@@ -2,7 +2,7 @@
 description: Defining file type attributes in the registry.
 ms.assetid: EE35E3E7-0573-45CA-A21A-89E50B86487D
 title: How to Define File Type Attributes
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

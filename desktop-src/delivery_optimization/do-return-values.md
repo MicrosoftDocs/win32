@@ -2,7 +2,7 @@
 title: Delivery Optimization Return Values
 description: The below constants represent return values that Delivery Optimization generates and HTTP return values that Delivery Optimization captures.
 ms.assetid: 68AC4581-C748-49AB-A588-15816E534756
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

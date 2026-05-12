@@ -2,7 +2,7 @@
 description: VAUX Source Control (VSC) Pack
 ms.assetid: 9d5dd89e-9084-409d-86c0-30b57645d33d
 title: VAUX Source Control (VSC) Pack
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

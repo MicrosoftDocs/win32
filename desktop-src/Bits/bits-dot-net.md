@@ -2,7 +2,7 @@
 title: Using BITS from .NET using Reference DLLs
 description: The following examples show how to call into the BITS COM interface from a .NET program
 ms.assetid: 1058970C-CE81-47D6-950E-3B6289E956B6
-ms.topic: article
+ms.topic: how-to
 ms.date: 11/13/2018
 ---
 
@@ -131,7 +131,7 @@ typedef [switch_type(BITS_FILE_PROPERTY_ID)] union
 BITS_FILE_PROPERTY_VALUE;
 ```
 
-The LPWSTR field won’t be included in the .NET version of the union. To fix this, change the LPWSTR to a WCHAR*. The resulting field (called String) will be passed as a IntPtr. Convert this into a string using the  System.Runtime.InteropServices.Marshal.PtrToStringAuto(value.String); method.
+The LPWSTR field won’t be included in the .NET version of the union. To fix this, change the LPWSTR to a WCHAR*. The resulting field (called String) will be passed as an IntPtr. Convert this into a string using the  System.Runtime.InteropServices.Marshal.PtrToStringAuto(value.String); method.
 
 ### Unions in structures
 

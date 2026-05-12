@@ -2,7 +2,7 @@
 description: This documentation specifically refers to the Windows Vista extensions for DirectX graphics.
 ms.assetid: 3cc0b08c-e126-4f1b-b5d1-0d6c1ebeb0c5
 title: Feature Summary (Direct3D 9 for Windows Vista)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -27,9 +27,9 @@ Devices are now only lost under two circumstances; when the hardware is reset be
 
 After a driver is stopped, the IDirect9Ex object must be recreated to resume rendering.
 
-When the presentation area is obscured by another window in windowed mode, or when a fullscreen application is minimized, [**PresentEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex) will return S\_D3DPRESENTATIONOCCLUDED. Full screen applications can resume rendering when they receive a [**WM\_ACTIVATEAPP**](../winmsg/wm-activateapp.md) callback message.
+When the presentation area is obscured by another window in windowed mode, or when a fullscreen application is minimized, [**PresentEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex) will return S\_PRESENT_OCCLUDED. Full screen applications can resume rendering when they receive a [**WM\_ACTIVATEAPP**](../winmsg/wm-activateapp.md) callback message.
 
-In previous versions of DirectX, when an application experienced a mode change, the only way to recover was to reset the device and re-create all video memory resources and swap chains. Now with DirectX for Windows Vista, calling Reset after a mode change does not cause texture memory surfaces, textures and state information to be lost and these resources do not need to be recreated.
+In previous versions of DirectX, when an application experienced a mode change, the only way to recover was to reset the device and re-create all video memory resources and swap chains. Now with DirectX for Windows Vista, calling [**Reset**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-reset) after a mode change does not cause texture memory surfaces, textures and state information to be lost and these resources do not need to be recreated.
 
 ## Disabling Multithreaded Software Vertex Processing
 
@@ -89,7 +89,7 @@ Resource creation APIs include - [**CreateTexture**](/windows/desktop/api), [**C
 
 There are some restrictions for using shared resources. These include:
 
--   The API that you use to open a shared resource must match the API that you used to create the shared resource. For example, if you used [**CreateTexture**](/windows/desktop/api) to create a shared resource, you must use **CreateTexture** to open that shared resource; if you used [**CreateRenderTarget**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createrendertarget) to create a shared resource, you must use **CreateRenderTarget** to open that shared resource;and so on.
+-   The API that you use to open a shared resource must match the API that you used to create the shared resource. For example, if you used [**CreateTexture**](/windows/desktop/api) to create a shared resource, you must use **CreateTexture** to open that shared resource; if you used [**CreateRenderTarget**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createrendertarget) to create a shared resource, you must use **CreateRenderTarget** to open that shared resource; and so on.
 -   When you open a shared resource, you must specify D3DPOOL\_DEFAULT.
 -   Lockable resources (textures with D3DUSAGE\_DYNAMIC, vertex buffers and index buffers, for instance) can experience poor performance when shared. Lockable rendertargets will fail to be shared on some hardware.
 -   References to a cross-process shared resource must have the same dimensions as the original resource. When passing a handle across process, include the dimension information so that the reference can be created identically.

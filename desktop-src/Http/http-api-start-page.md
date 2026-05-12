@@ -5,7 +5,7 @@ ms.assetid: ef18716c-7511-4c8a-99bc-28369c3e46f4
 keywords:
 - HTTP Server API
 - HTTP Server API, start page
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

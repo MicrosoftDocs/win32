@@ -2,7 +2,7 @@
 description: Features of the VMR
 ms.assetid: a809045b-b60d-4092-bc4d-0e70e17d2913
 title: Features of the VMR
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

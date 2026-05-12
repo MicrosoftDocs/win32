@@ -1,12 +1,12 @@
 ---
 description: Windows Search Interfaces
 ms.assetid: 72a30318-d557-4f32-85e6-25f1f97fdd9f
-title: Windows Search Interfaces
-ms.topic: article
+title: Windows Search interfaces
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Windows Search Interfaces
+# Windows Search interfaces
 
 
 This section documents the following categories of interfaces:

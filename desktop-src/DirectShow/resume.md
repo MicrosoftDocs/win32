@@ -2,7 +2,7 @@
 description: The Resume event is sent when the Resume command has been enabled or disabled.
 ms.assetid: '283f5956-9e44-4474-afb9-bbd1453ec419'
 title: Resume
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

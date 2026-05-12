@@ -1,12 +1,12 @@
 ---
 description: Understand how to use the stackedby argument in Windows Search. This argument specifies the property column to stack results by.
 ms.assetid: 7563bf34-b790-4cb0-94fa-31e771f34455
-title: STACKEDBY Argument (Windows Search)
-ms.topic: article
+title: STACKEDBY argument (Windows Search)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# STACKEDBY Argument (Windows Search)
+# STACKEDBY argument (Windows Search)
 
 The **stackedby** argument specifies the property column to stack results by. You can stack by any valid property from the property system.
 

@@ -6,7 +6,7 @@ ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentReadLostFlushVerifyFa
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentreadlostflushverifyfailureexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55102554
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # EsentReadLostFlushVerifyFailureException properties

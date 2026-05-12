@@ -2,7 +2,7 @@
 description: For information on control attributes, see the link to the particular control that you need to create in Controls as well as the links to particular control attributes in the following lists.
 ms.assetid: 948ce3d3-e463-40de-8b5f-21ef18b1a0ce
 title: Control Attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

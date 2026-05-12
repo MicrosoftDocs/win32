@@ -2,7 +2,7 @@
 description: This article contains code for the winmain.cpp file for the tutorial How to Play Media Files with Media Foundation.
 ms.assetid: f13cba48-bfb6-4964-a9de-004cbb5c0dce
 title: winmain.cpp
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

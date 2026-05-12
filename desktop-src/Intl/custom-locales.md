@@ -2,7 +2,7 @@
 description: Custom Locales
 ms.assetid: 110efeab-c02f-4244-8950-a975cfc91e8a
 title: Custom Locales
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,8 +2,9 @@
 title: User Account Control for Game Developers
 description: This article describes the guidelines and best practices for game developers to work effectively with the User Account Control (UAC) security feature introduced in Windows Vista.
 ms.assetid: dbac1c07-73dd-f2bc-3c5c-d6160368a88f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
+ms.custom: sfi-image-nochange
 ---
 
 # User Account Control for Game Developers

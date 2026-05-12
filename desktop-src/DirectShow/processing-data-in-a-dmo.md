@@ -2,7 +2,7 @@
 description: Processing Data in a DMO
 ms.assetid: 715482d9-23f4-40d0-9c09-7a81e148c543
 title: Processing Data in a DMO
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -15,7 +15,7 @@ keywords:
 - service providers,secure communication
 - programming guide,secure communication
 - secure communication
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

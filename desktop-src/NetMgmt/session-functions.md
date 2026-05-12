@@ -2,7 +2,7 @@
 title: Session Functions (Network Management)
 description: Review session functions, which are a network management function group. These functions control network sessions established between workstations and servers.
 ms.assetid: ef912cd9-be5c-4202-89aa-e60f275e8938
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

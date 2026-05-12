@@ -2,7 +2,7 @@
 description: Before an application can add data to the registry, it must create or open a key.
 ms.assetid: 7b0b24d2-b54f-4243-95d0-2adbd87cb4df
 title: Opening, Creating, and Closing Keys
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

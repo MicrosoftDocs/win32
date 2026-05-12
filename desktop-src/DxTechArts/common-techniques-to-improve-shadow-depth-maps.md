@@ -2,7 +2,7 @@
 title: Common Techniques to Improve Shadow Depth Maps
 description: This technical article provides an overview of some common shadow depth map algorithms and common artifacts, and explains several techniques—ranging in difficulty from basic to intermediate—that can be used to increase the quality of standard shadow maps.
 ms.assetid: bf994838-a261-0379-9301-eb9b250d216c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -259,6 +259,12 @@ Narrow objects such as walls should have backs even if they are never visible. T
 
 It's also important to make sure that the direction the geometry is facing is correct; that is, the outside of an object should be back facing and the inside of an object should be front facing. This is important for rendering with back-face culling enabled, as well as for combating the effects of depth bias.
 
+## Cascaded shadow maps
+
+Also see [Cascaded shadow maps](/windows/win32/dxtecharts/cascaded-shadow-maps), and the CascadedShadowMaps11 sample app. The sample demonstrates the cascaded shadow map (CSM) algorithm, as well as several techniques that can be used to make efficient use of the shadow map.
+
+You can find the sample in the DirectX Software Development Kit (SDK). Or you can perform a web search to find it on GitHub.
+
 ## Summary
 
 The techniques described in this article can be used to increase the quality of standard shadow maps. The next step is to look at techniques that can work well with standard shadow maps. CSMs are recommended as a superior technique to combat perspective aliasing. Percentage closer filtering or variance shadow maps can be used to soften shadow edges. See the [Cascaded Shadow Maps](/windows/desktop/DxTechArts/cascaded-shadow-maps) technical article for more information.
@@ -270,7 +276,3 @@ Engel, Woflgang F. Section 4. Cascaded Shadow Maps. ShaderX5, *Advanced Renderin
 Stamminger, Marc, and Drettakis, George. [Perspective Shadow Maps](https://portal.acm.org/citation.cfm?id=566616). International Conference on Computer Graphics and Interactive Techniques, *Proceedings of the 29th Annual Conference on Computer Graphics and Interactive Techniques*. 2002, pp 557–562.
 
 Wimmer, M., Scherzer, D., and Purgathofer, W. [Light Space Perspective Shadow Maps](https://www.cg.tuwien.ac.at/research/vr/lispsm/shadows_egsr2004_revised.pdf). Eurographics Symposium on Rendering. 2004. Revised June 10, 2005. [Technische Universität Wien](https://www.cg.tuwien.ac.at/research/vr/lispsm/).
-
- 
-
- 

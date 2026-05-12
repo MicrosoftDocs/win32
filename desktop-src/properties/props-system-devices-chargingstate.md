@@ -2,7 +2,7 @@
 description: Device charging status.
 ms.assetid: 33ef8ecb-29e3-4809-9d56-8d884f9c9ff6
 title: System.Devices.ChargingState
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

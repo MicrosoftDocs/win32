@@ -2,7 +2,7 @@
 description: Optional Streams
 ms.assetid: 94477a71-c267-4602-893b-1bd1256b34ef
 title: Optional Streams
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

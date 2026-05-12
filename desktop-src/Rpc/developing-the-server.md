@@ -4,7 +4,7 @@ description: When you create a server program for a distributed application, you
 ms.assetid: 2b7b14f5-5692-41b8-bb98-7edd36309d21
 keywords:
 - Remote Procedure Call RPC , tasks, developing the server
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # MDM\_VPNv2\_TrafficFilterList02\_App04 class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+
 
 The **MDM\_TrafficFilterList02\_App04** class provides configuration of the apps that are allowed over the VPN interface.
 

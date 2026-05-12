@@ -2,7 +2,7 @@
 description: The native WebAuthN API (webauthn.h) includes the following structures.
 ms.assetid: 2f60fc4f-2636-45f3-b7d4-e319cecaafcd
 title: WebAuthN structures
-ms.topic: article
+ms.topic: reference
 ms.date: 08/22/2022
 ---
 

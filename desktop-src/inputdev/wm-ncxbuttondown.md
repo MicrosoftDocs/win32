@@ -1,6 +1,6 @@
 ---
 title: WM_NCXBUTTONDOWN message (Winuser.h)
-description: Posted when the user presses the first or second X button while the cursor is in the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
+description: Posted when the user presses either XBUTTON1 or XBUTTON2 while the cursor is in the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
 ms.assetid: 72744c98-1898-4548-bd10-61ad53eeab15
 keywords:
 - WM_NCXBUTTONDOWN message Keyboard and Mouse Input
@@ -13,12 +13,12 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_NCXBUTTONDOWN message
 
-Posted when the user presses the first or second X button while the cursor is in the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is *not* posted.
+Posted when the user presses either XBUTTON1 or XBUTTON2 while the cursor is in the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is *not* posted.
 
 A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
@@ -42,8 +42,8 @@ The low-order word specifies the hit-test value returned by the [**DefWindowProc
 
 | Value                                                                                                                                                                                                     | Meaning                                     |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
-| <span id="XBUTTON1"></span><span id="xbutton1"></span><dl> <dt>**XBUTTON1**</dt> <dt>0x0001</dt> </dl> | The first X button was pressed.<br/>  |
-| <span id="XBUTTON2"></span><span id="xbutton2"></span><dl> <dt>**XBUTTON2**</dt> <dt>0x0002</dt> </dl> | The second X button was pressed.<br/> |
+| <span id="XBUTTON1"></span><span id="xbutton1"></span><dl> <dt>**XBUTTON1**</dt> <dt>0x0001</dt> </dl> | The XBUTTON1 was pressed.<br/>  |
+| <span id="XBUTTON2"></span><span id="xbutton2"></span><dl> <dt>**XBUTTON2**</dt> <dt>0x0002</dt> </dl> | The XBUTTON2 was pressed.<br/> |
 
 
 
@@ -63,6 +63,8 @@ A pointer to a [**POINTS**](/windows/win32/api/windef/ns-windef-points) structur
 If an application processes this message, it should return **TRUE**. For more information about processing the return value, see the Remarks section.
 
 ## Remarks
+
+Windows supports mice with up to five buttons: left, middle, and right, plus two additional buttons called XBUTTON1 and XBUTTON2. The XBUTTON1 and XBUTTON2 buttons are often located on the sides of the mouse, near the base. These extra buttons are not present on all mice. If present, the XBUTTON1 and XBUTTON2 buttons are often mapped to an application function, such as forward and backward navigation in a Web browser.
 
 Use the following code to get the information in the *wParam* parameter.
 

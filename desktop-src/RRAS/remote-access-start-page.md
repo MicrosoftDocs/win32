@@ -7,7 +7,7 @@ keywords:
 - RAS RAS
 - Remote Access Service RAS , start page
 - RAS RAS , see Remote Access
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

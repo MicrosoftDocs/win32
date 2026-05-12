@@ -2,7 +2,7 @@
 description: QT Decompressor Filter
 ms.assetid: d013075f-deab-40ef-8438-4fb09820da3e
 title: QT Decompressor Filter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

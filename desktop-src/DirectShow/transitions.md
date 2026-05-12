@@ -2,7 +2,7 @@
 description: Transitions
 ms.assetid: '432db77f-c3fa-4234-bbce-cf17d8878b99'
 title: Transitions
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

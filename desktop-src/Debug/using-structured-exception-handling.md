@@ -2,8 +2,8 @@
 description: 'The following examples demonstrate how to use structured exception handling in your code:'
 ms.assetid: 1e4f9cd8-11c6-4dc2-883c-7de02375d7ed
 title: Using Structured Exception Handling
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Using Structured Exception Handling

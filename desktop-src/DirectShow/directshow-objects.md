@@ -2,7 +2,7 @@
 description: DirectShow Objects
 ms.assetid: 4b5068b5-4af9-40cb-b5a2-c9761ef13c55
 title: DirectShow Objects
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

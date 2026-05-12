@@ -2,8 +2,8 @@
 description: This reference section describes configuration for Windows and Messages. Learn about display elements and system metrics.
 ms.assetid: aba21473-07cc-4de9-a310-ad9b43c133eb
 title: Configuration (Windows and Messages)
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Configuration (Windows and Messages)

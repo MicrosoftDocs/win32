@@ -2,7 +2,7 @@
 description: The following is the complete listing of the manifest file schema.
 ms.assetid: 5a4040a4-66ed-44ea-a07f-6410f88d1446
 title: Manifest File Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -184,12 +184,9 @@ The following is the complete listing of the manifest file schema.
   -->
   <ElementType name="heapType" />
 
+  <!-- WindowsSettings elements from XML namespace http://schemas.microsoft.com/SMI/2024/WindowsSettings
+  -->
+  <ElementType name="supportedArchitectures" />
+
   </Schema>
 ```
-
- 
-
- 
-
-
-

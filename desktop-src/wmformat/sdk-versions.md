@@ -4,7 +4,7 @@ description: SDK Versions
 ms.assetid: 60aa5235-8983-4ccd-85ce-4e47e76a2a70
 keywords:
 - Windows Media Format SDK,versions
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

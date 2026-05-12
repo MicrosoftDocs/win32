@@ -5,7 +5,7 @@ ms.assetid: 0c8e1207-daeb-4dc8-b83a-a54cd59a46a7
 ms.tgt_platform: multiple
 keywords:
 - Publishing with the RPC Name Service AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

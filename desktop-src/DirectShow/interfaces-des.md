@@ -2,7 +2,7 @@
 description: Interfaces For DirectShow Editing Services
 ms.assetid: e7fdb387-83b3-4fa2-9608-2f5dc95975bf
 title: Interfaces For DirectShow Editing Services
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

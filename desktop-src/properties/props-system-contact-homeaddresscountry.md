@@ -2,7 +2,7 @@
 description: Home address country name of the contact.
 ms.assetid: d65a6718-0220-4b2f-a1fb-af0c08dbb135
 title: System.Contact.HomeAddressCountry
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

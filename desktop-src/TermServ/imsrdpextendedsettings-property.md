@@ -18,7 +18,7 @@ api_location:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 10/24/2025
 ---
 
 # IMsRdpExtendedSettings::Property property
@@ -100,9 +100,13 @@ The named property value.
 | DisableAutoReconnectComponent | VT_BOOL |W |No | If **True**, the server connection will not be disconnected and reconnected automatically when network configuration is changed. By default, this is set to **False**.
 | RedirectUsbDrive  |VT_UI4   |R/W  | No  | Introduced in Windows 11 version 24H2. When not set or set to 0, the USB thumb drive redirects as drive direction. When set to 1, all USB thumb drives are redirected as USB devices automatically. When set to 2, USB thumb drives are listed as USB devices, users can choose to redirect them through USB redirection from the UI (device dialog in the connection bar) or RDP file entry "UsbDevicesToRedirect". |
 | allowed security protocols | VT_BSTR | W | No | Introduced in Windows 11 version 24H2. This property is used to restrict the list of security protocols the client can negotiate. The actual list of negotiated protocols is determined by other configuration settings and the connection scenario, and can be smaller than the list specified in this property. The value must contain the list of protocol names separated by ';' or the value can be set to "*" which means that all normally negotiated protocols are allowed. Supported protocol names are: "TLS", "CredSSP", "RDSTLS" and "RDS AAD Auth" The default value is "*". |
-| AllowRelativeMouseMode | VT_BOOL | R/W | No | Introduced in Windows 11 version 24H2. If True, mouse movements are represented relative to the current mouse position. |
-| RemoteAppMouseMoveInject | VT_BOOL | W |No | Introduced in Windows 11 version 24H2. Writing True to this property forces the injection of a mouse move when the cursor leaves a RemoteApp window. This is intended to be a workaround for a tooltip bug. |
-
+| AllowRelativeMouseMode | VT_BOOL | R/W | No | Introduced in Windows 11 version 24H2. If **True**, mouse movements are represented relative to the current mouse position. |
+| RemoteAppMouseMoveInject | VT_BOOL | W |No | Introduced in Windows 11 version 24H2. Writing **True** to this property forces the injection of a mouse move when the cursor leaves a RemoteApp window. This is intended to be a workaround for a tooltip bug. |
+| EnableZoom | VT_BOOL | W | No | Writing **True** to this property allows the user to scale the remote session window above its native resolution while [smart sizing](/windows/win32/termserv/imsrdpclientadvancedsettings-smartsizing) is active. |
+| SmartRawPrinters | VT_BSTR | R/W | No | Introduced in Windows 11 version 26H1. Writing `*` to this property enables smart raw printing mode for all printers. Setting it to a printer driver name prefix enables the mode only for printers whose driver matches that prefix. When smart raw printing mode is enabled, the Remote Desktop client uses raw printing for a redirected printer whenever the server is also using raw printing for that printer. |
+| RedirectionWarningDialogVersion  | VT_UI4 | W | No | Specifies the version of the connection security dialog shown before a connection is established. The default value is **2**, which shows the new connection security dialog introduced with the [April 2026 security update](/windows-server/remote/remote-desktop-services/remotepc/understanding-security-warnings). Writing **1** restores the previous dialog behavior. When set to **2**, the following properties have no effect: [IMsRdpClientNonScriptable3::WarnAboutClipboardRedirection](/windows/win32/termserv/imsrdpclientnonscriptable3-warnaboutclipboardredirection), [IMsRdpClientNonScriptable3::WarnAboutSendingCredentials](/windows/win32/termserv/imsrdpclientnonscriptable3-warnaboutsendingcredentials), [IMsRdpClientNonScriptable4::WarnAboutPrinterRedirection](/windows/win32/termserv/imsrdpclientnonscriptable4-warnaboutprinterredirection), and [IMsRdpClientNonScriptable5::WarnAboutDirectXRedirection](/windows/win32/termserv/imsrdpclientnonscriptable5-warnaboutdirectxredirection).  |
+| RemoteApplicationFile | VT_BSTR | W | No | Specifies the path of the remote application file shown in version 2 of the connection security dialog. This is the same value that would be passed as the *bstrFilePath* parameter of [ITSRemoteProgram::ServerStartProgram](/windows/win32/termserv/itsremoteprogram-serverstartprogram) after connecting. Because the dialog is shown before the connection is established, this property must be set before connecting.  |
+| RemoteApplicationAppID | VT_BSTR | W | No | Specifies the app user model ID of the remote application shown in version 2 of the connection security dialog. This is the same value that would be passed as the *bstrAppUserModelId* parameter of [ITSRemoteProgram3::ServerStartApp](/windows/win32/termserv/itsremoteprogram3-serverstartapp) after connecting. Because the dialog is shown before the connection is established, this property must be set before connecting.  |
 
  
 ## Requirements
@@ -130,8 +134,3 @@ The named property value.
  
 
  
-
-
-
-
-

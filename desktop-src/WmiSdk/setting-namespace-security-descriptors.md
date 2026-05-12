@@ -3,7 +3,7 @@ description: Both C++ applications and scripts running under a full administrato
 ms.assetid: d3e56b30-d5a8-446a-89aa-645b44a75af6
 ms.tgt_platform: multiple
 title: Setting Namespace Security Descriptors
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

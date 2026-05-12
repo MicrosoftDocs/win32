@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Synchronous and Asynchronous Searches with IDirectorySearch ADSI
 - ADSI, Searching, IDirectorySearch, Other Search Options, Synchronous and Asynchronous Searches
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

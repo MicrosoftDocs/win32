@@ -2,7 +2,7 @@
 description: LOCALE\_SLOCALIZED\* Constants
 ms.assetid: 1f91461a-ece3-4c71-b399-3d22eec368a9
 title: LOCALE_SLOCALIZED* Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

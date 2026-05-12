@@ -2,8 +2,8 @@
 description: The following code demonstrates how to initialize the symbol handler.
 ms.assetid: e8c8f648-c3b0-4595-ac07-f508dd576d9f
 title: Initializing the Symbol Handler
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Initializing the Symbol Handler

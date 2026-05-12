@@ -62,4 +62,4 @@ You can call **GetProperty** on an adapter that's no longer valid&mdash;the func
 
 ## See also
 
-[IDXCoreAdapter](./nn-dxcore_interface-idxcoreadapter.md), [DXCore Reference](../dxcore-reference.md), [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md)
+[IDXCoreAdapter](./nn-dxcore_interface-idxcoreadapter.md), [DXCore reference](../dxcore-reference.md), [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md)

@@ -2,7 +2,7 @@
 description: Overview of Event Notification
 ms.assetid: c8b960db-fb8b-4c32-99c3-9d83432574cc
 title: Overview of Event Notification
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

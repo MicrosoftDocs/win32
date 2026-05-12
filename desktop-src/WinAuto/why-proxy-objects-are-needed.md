@@ -2,8 +2,8 @@
 title: Why Proxy Objects Are Needed
 description: With accessible objects, when a client sets an in-context hook function, the DLL in which the client's hook function is implemented is loaded into the server's address space.
 ms.assetid: e8e93271-1da6-42cd-9200-23a3e08b490b
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Why Proxy Objects Are Needed

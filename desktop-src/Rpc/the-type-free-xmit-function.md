@@ -4,7 +4,7 @@ description: The stubs call the type\_free\_xmit function to free memory associa
 ms.assetid: f15ce25b-d36c-4ee5-b796-f0aba1997047
 keywords:
 - type_free_xmit
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

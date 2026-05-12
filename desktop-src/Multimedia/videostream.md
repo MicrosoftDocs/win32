@@ -4,7 +4,7 @@ description: Videostream
 ms.assetid: '76b27360-f69b-4682-be61-05aca8cd1d3b'
 keywords:
 - AVICap callback functions,videostream
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,11 +1,9 @@
 ---
 description: Serves as a base class for classes that provide access to network settings, including MSFT\_NetCompartment and MSFT\_NetOffloadGlobalSetting.
 ms.assetid: eef60c3e-4481-49f8-8dc7-73804e92f1b5
-title: MSFT\_NetSettingData class
-
-
+title: MSFT\_NetSettingData class (NetTCPIP)
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -23,8 +21,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# MSFT\_NetSettingData class
-
+# MSFT\_NetSettingData class (NetTCPIP)
 Serves as a base class for classes that provide access to network settings, including [**MSFT\_NetCompartment**](msft-netcompartment.md) and [**MSFT\_NetOffloadGlobalSetting**](msft-netoffloadglobalsetting.md).
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
@@ -122,7 +119,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > *OrgID*:*LocalID*
 >
-> *OrgID* must include a copyrighted, trademarked or otherwise unique name that is owned by the business entity defining the **InstanceID**, or be a registered ID that is assigned by a recognized global authority. This is similar to the structure of Schema class names. In addition, to ensure uniqueness the first colon in **InstanceID** must be between the *OrgID* and*LocalID*. Therefor the *OrgID* must not contain a colon (':').
+> *OrgID* must include a copyrighted, trademarked or otherwise unique name that is owned by the business entity defining the **InstanceID**, or be a registered ID that is assigned by a recognized global authority. This is similar to the structure of Schema class names. In addition, to ensure uniqueness the first colon in **InstanceID** must be between the *OrgID* and*LocalID*. Therefore the *OrgID* must not contain a colon (':').
 >
 > *LocalID* is chosen by the business entity and should not be re-used to identify different underlying real-world elements.
 >
@@ -140,7 +137,7 @@ This property is inherited from [**CIM\_SettingData**](cim-settingdata.md).
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                          |

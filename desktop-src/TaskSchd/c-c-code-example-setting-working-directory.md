@@ -4,7 +4,7 @@ description: This example sets the working directory of a known task. This examp
 ms.assetid: bcfcd6af-a3aa-45a8-bde6-0c90aec3e27a
 keywords:
 - setting task properties Task Scheduler , working directory
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Learn about the PageBorderless user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: c5e75f57-7426-41fa-88f4-789153fcd0c5
 title: PageBorderless
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

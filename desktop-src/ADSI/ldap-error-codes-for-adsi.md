@@ -3,7 +3,7 @@ title: LDAP Error Codes for ADSI
 description: When an LDAP server generates an error and passes the error to the client, the error is then translated into a string by the LDAP client.
 ms.assetid: 7a0a5a1b-8473-405b-a590-3f917e50cbdc
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 

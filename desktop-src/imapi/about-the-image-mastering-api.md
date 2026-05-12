@@ -4,7 +4,7 @@ description: This documentation focuses on a description of the Adaptec implemen
 ms.assetid: 596ec3ea-17d1-4e60-8789-528ff00ae421
 keywords:
 - Image Mastering API IMAPI ,described
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

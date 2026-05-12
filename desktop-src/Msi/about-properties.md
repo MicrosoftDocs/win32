@@ -2,7 +2,7 @@
 description: Windows Installer can configure software installation by using the values of variables defined in an installation package or by the user.
 ms.assetid: b7b715e7-e92c-4b84-b60d-a0ff8412749b
 title: About Properties
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

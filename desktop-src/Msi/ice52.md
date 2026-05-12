@@ -2,7 +2,7 @@
 description: ICE52 checks for private properties in the AppSearch table. See About Properties.
 ms.assetid: 18d1489e-666a-488d-ae12-5dbe60885a2e
 title: ICE52
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

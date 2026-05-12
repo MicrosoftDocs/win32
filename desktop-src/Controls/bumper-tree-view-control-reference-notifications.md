@@ -2,7 +2,7 @@
 title: Tree View Notifications
 description: Tree View Notifications
 ms.assetid: 571748a0-f5f0-4436-a8c3-ff9af754c7ad
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

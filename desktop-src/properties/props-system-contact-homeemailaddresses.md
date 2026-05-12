@@ -2,7 +2,7 @@
 description: System.Contact.HomeEmailAddresses
 ms.assetid: e88afa55-424b-4e99-b930-04bdc31fca45
 title: System.Contact.HomeEmailAddresses
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

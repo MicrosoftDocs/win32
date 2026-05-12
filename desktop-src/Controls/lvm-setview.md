@@ -25,7 +25,7 @@ Sets the view of a list-view control.
 <dl> <dt>
 
 *wParam* 
-</dt> <dd>**DWORD** that specifies the view.</dd> <dt>
+</dt> <dd><b>DWORD</b> that specifies the view.</dd> <dt>
 
 *lParam* 
 </dt> <dd>Must be zero.</dd> </dl>

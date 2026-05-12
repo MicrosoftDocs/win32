@@ -1,11 +1,9 @@
 ---
 description: The base class for all the components of a System that represent abstract system components, such as files, processes, or logical devices.
 ms.assetid: 35d9b309-5558-483a-b2aa-8a76dcf7c464
-title: CIM\_LogicalElement class
-
-
+title: CIM\_LogicalElement class (NetTCPIP)
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -33,8 +31,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# CIM\_LogicalElement class
-
+# CIM\_LogicalElement class (NetTCPIP)
 The base class for all the components of a System that represent abstract system components, such as files, processes, or logical devices.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
@@ -250,7 +247,7 @@ Uniquely and opaquely identifies an instance of this class within the scope of t
 >
 > *OrgID*:*LocalID*
 >
-> *OrgID* must include a copyrighted, trademarked or otherwise unique name that is owned by the business entity defining the **InstanceID**, or be a registered ID that is assigned by a recognized global authority. This is similar to the structure of Schema class names. In addition, to ensure uniqueness the first colon in **InstanceID** must be between the *OrgID* and*LocalID*. Therefor the *OrgID* must not contain a colon (':').
+> *OrgID* must include a copyrighted, trademarked or otherwise unique name that is owned by the business entity defining the **InstanceID**, or be a registered ID that is assigned by a recognized global authority. This is similar to the structure of Schema class names. In addition, to ensure uniqueness the first colon in **InstanceID** must be between the *OrgID* and*LocalID*. Therefore the *OrgID* must not contain a colon (':').
 >
 > *LocalID* is chosen by the business entity and should not be re-used to identify different underlying real-world elements.
 >
@@ -514,7 +511,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                          |

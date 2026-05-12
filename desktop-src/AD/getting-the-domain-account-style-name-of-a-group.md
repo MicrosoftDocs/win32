@@ -5,7 +5,7 @@ ms.assetid: 85627d2d-2845-4998-9957-ce0c8b6473bd
 ms.tgt_platform: multiple
 keywords:
 - groups AD ,getting the domain account-style name of a group
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

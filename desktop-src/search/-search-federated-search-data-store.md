@@ -1,12 +1,12 @@
 ---
 description: Explains how to enable your data store to be accessed by an OpenSearch web service, and how to avoid potential barriers for doing so.
 ms.assetid: 27d7676c-f4e8-43b4-856b-826e07afcd78
-title: Enabling Your Data Store in Windows Federated Search
-ms.topic: article
+title: Enabling your data store in Windows Federated Search
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
-# Enabling Your Data Store in Windows Federated Search
+# Enabling your data store in Windows Federated Search
 
 Explains how to enable your data store to be accessed by an [OpenSearch](https://github.com/dewitt/opensearch) web service, and how to avoid potential barriers for doing so.
 
@@ -23,7 +23,7 @@ This topic is organized as follows:
 -   [Additional Resources](#additional-resources)
 -   [Related topics](#related-topics)
 
-## Conditions for Search Request Acceptance
+## Conditions for search request acceptance
 
 The [OpenSearch](https://github.com/dewitt/opensearch) web service you create on your web server **must** fulfill the following two requirements:
 
@@ -45,13 +45,13 @@ The [OpenSearch](https://github.com/dewitt/opensearch) web service you create on
 
 For more information about constructing a URL, see "URL Template Parameters" in [Creating an OpenSearch Description File in Windows Federated Search](-search-federated-search-osdx-file.md).
 
-### Supported Query Syntax
+### Supported query syntax
 
 There is no specific query syntax expected in Windows 7. The OpenSearch provider accepts whatever terms the user enters in the input box in Windows Explorer, and encodes it into the URL. It does so according to the URL template described in "URL Template Parameters" in [Creating an OpenSearch Description File in Windows Federated Search](-search-federated-search-osdx-file.md).
 
 Users expect that separate terms are treated as implicitly ANDed together. For example, a query for "Microsoft Windows" should return only results that contain both "Windows" and "Microsoft".
 
-### Supported Authentication Protocols
+### Supported authentication protocols
 
 Windows Federated Search supports Windows-based authentication, and can provide credentials to web services via the following protocols:
 
@@ -60,11 +60,11 @@ Windows Federated Search supports Windows-based authentication, and can provide 
 -   Basic (only over https).
 -   Other Security Support Providers (SSPs) installed on Windows that provide additional querying capacity. See the [SSP Interface](../secauthn/sspi.md) SDK documentation to keep abreast of the potential addition of other SSPs.
 
-## Sending Queries and Returning Search Results in RSS or Atom
+## Sending queries and returning search results in RSS or atom
 
 The [OpenSearch](https://github.com/dewitt/opensearch) provider is responsible for mapping the XML element values to Windows Shell system properties that can be used by Windows applications. But you are not limited to the default mappings of standard RSS or Atom elements, and can include custom XML elements in the Windows namespace for each of the properties. For example, you can add your own custom XML elements within the **item** element to provide additional metadata to Windows. You can also map elements from other XML namespaces, such as iTunes
 
-### Example of an RSS Feed Output
+### Example of an RSS feed output
 
 The following example RSS feed output returns one item.
 
@@ -90,7 +90,7 @@ The following example RSS feed output returns one item.
 
 For more detailed information about property mapping, see the "Extended Elements in WIndows Federated Search" and "Custom Property Mappings" sections in [Creating an OpenSearch Description File in Windows Federated Search](-search-federated-search-osdx-file.md).
 
-## Automatic Mapping to Windows Shell Properties
+## Automatic mapping to Windows Shell properties
 
 Within the items in your RSS feed, you can choose to include other XML elements that automatically map to Windows Shell system properties. To do so, include an element named after the Windows Shell property and prefixed with the Windows Shell system namespace. The following example illustrates the namespace declaration `win=" http://schemas.microsoft.com/windows/2008/propertynamespace"` and the inclusion of an element for the property mapping `win:System.Contact.PrimaryEmailAddress`:
 
@@ -135,7 +135,7 @@ The preferred date and time format is ISO-8601, as shown in the following exampl
 
 For more detailed information about property mapping, see "Extended Elements in Windows Federated Search" in [Creating an OpenSearch Description File in Windows Federated Search](-search-federated-search-osdx-file.md).
 
-## Understanding How Windows Maps Items to File Types
+## Understanding how Windows maps items to file types
 
 Searching within the Windows Explorer UI permits users to treat results as files when an RSS item points to a file stored remotely. The user can drag and drop items to the desktop, and the Windows Explorer UI displays the correct icon and provides the appropriate shortcut menu. If the RSS item does not point to a remotely stored file, the file is treated as a link, and users can perform actions on it such as creating a shortcut or opening it in the browser.
 
@@ -156,7 +156,7 @@ If the item uses the standard RSS enclosure or **MediaRSS media:content** elemen
 -   If the [System.FileExtension](../properties/props-system-fileextension.md) Windows Shell property has not been mapped, the provider uses the **Type** attribute specified in the enclosure or content element. This element should contain a `MIMEType` string, such as `"image/jpeg"`. If the `MIMEType` is associated with a file name extension that is registered on the client computer, the item is regarded as a file of that type. If the `MIMEType` is not associated with a file name extension registered on the client computer, the item is treated as a web link type. The [OpenSearch](https://github.com/dewitt/opensearch) provider does not attempt to parse the **Url** attribute to locate the file name extension.
 -   If the `MIMEType` is associated with a file name extension that is registered on the client computer, the provider determines whether the file name extension is a known web file type (.htm, .html, .asp, .aspx, .php, .swf, .stm). If so, the file type is regarded as a web link type; otherwise, it is regarded as a file type. For example, if the `MIMEType "text/html"` is associated with the .htm file name extension, that item is regarded as a web link instead of as an .htm file type.
 
-## Avoiding Potential Barriers to Enabling a Data Store
+## Avoiding potential barriers to enabling a data store
 
 Some data stores do not provide an [OpenSearch](https://github.com/dewitt/opensearch)-compatible web service but can still be connected to Windows Federated Search. Such data stores include:
 
@@ -213,7 +213,7 @@ However, there are alternatives that can avoid barriers to enabling a data store
 
  
 
-## Additional Resources
+## Additional resources
 
 For additional information about implementing search federation to remote data stores using OpenSearch technologies in Windows 7 and later, see "Additional Resources" at [Federated Search in Windows](/previous-versions//dd742958(v=vs.85)).
 

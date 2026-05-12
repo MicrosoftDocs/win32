@@ -2,7 +2,7 @@
 description: 'The addresses in the Cc: field.'
 ms.assetid: afddbc0f-d82b-44c0-b5c8-955b8887ba91
 title: System.Message.CcAddress
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

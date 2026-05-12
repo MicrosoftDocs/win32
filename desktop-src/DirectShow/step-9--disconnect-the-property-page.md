@@ -2,7 +2,7 @@
 description: Step 9.
 ms.assetid: 3e476422-ab76-4a2b-af9b-d9d065d79e5b
 title: Step 9. Disconnect the Property Page
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

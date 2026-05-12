@@ -1,7 +1,7 @@
 ---
 title: IP Helper structures
 description: IP Helper Structures navigation page.
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: d53c3821-00a0-4eaa-9a06-69ec7aa98d84
 ---

@@ -2,7 +2,7 @@
 description: Windows GDI+ exposes a flat API that consists of about 600 functions. These flat API functions are wrapped by the TextureBrush C++ class.
 ms.assetid: e338126d-0732-442b-8c3c-b69eb3c7b1ba
 title: Texture Brush Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

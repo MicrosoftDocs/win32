@@ -3,7 +3,7 @@ description: Sent to a window whose size, position, or place in the Z order is a
 ms.assetid: 45ecd966-5222-4738-9e99-8a6edbdd435a
 title: WM_WINDOWPOSCHANGING message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_WINDOWPOSCHANGING message
@@ -48,6 +48,9 @@ If an application processes this message, it should return zero.
 For a window with the [**WS\_OVERLAPPED**](window-styles.md) or **WS\_THICKFRAME** style, the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function sends the [**WM\_GETMINMAXINFO**](wm-getminmaxinfo.md) message to the window. This is done to validate the new size and position of the window and to enforce the [CS\_BYTEALIGNCLIENT](about-window-classes.md) and CS\_BYTEALIGNWINDOW client styles. By not passing the **WM\_WINDOWPOSCHANGING** message to the **DefWindowProc** function, an application can override these defaults.
 
 While this message is being processed, modifying any of the values in [**WINDOWPOS**](/windows/win32/api/winuser/ns-winuser-windowpos) affects the window's new size, position, or place in the Z order. An application can prevent changes to the window by setting or clearing the appropriate bits in the **flags** member of **WINDOWPOS**.
+
+> [!NOTE]
+> Changes to some SWP flags, including SWP_NOACTIVATE and SWP_NOOWNERZORDER, are ignored when they are modified during WM_WINDOWPOSCHANGING.
 
 ## Requirements
 

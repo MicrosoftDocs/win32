@@ -1,14 +1,14 @@
 ---
 title: UMA Optimizations CPU Accessible Textures and Standard Swizzle
-description: Universal Memory Architecture (UMA) GPUs offer some efficiency advantages over discrete GPUs, especially when optimizing for mobile devices.
+description: Unified Memory Architecture (UMA) GPUs offer some efficiency advantages over discrete GPUs, especially when optimizing for mobile devices.
 ms.assetid: 26C41948-9625-4786-BBDF-552D1F8A2437
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # UMA Optimizations: CPU Accessible Textures and Standard Swizzle
 
-Universal Memory Architecture (UMA) GPUs offer some efficiency advantages over discrete GPUs, especially when optimizing for mobile devices. Giving resources CPU access when the GPU is UMA can reduce the amount of copying that occurs between CPU and GPU. While we don’t recommend applications blindly give CPU access to all resources on UMA designs, there are opportunities to improve efficiencies by giving the right resources CPU access. Unlike discrete GPUs, the CPU can technically have a pointer to all resources that the GPU can access.
+Unified Memory Architecture (UMA) GPUs offer some efficiency advantages over discrete GPUs, especially when optimizing for mobile devices. Giving resources CPU access when the GPU is UMA can reduce the amount of copying that occurs between CPU and GPU. While we don’t recommend applications blindly give CPU access to all resources on UMA designs, there are opportunities to improve efficiencies by giving the right resources CPU access. Unlike discrete GPUs, the CPU can technically have a pointer to all resources that the GPU can access.
 
 -   [Overview of CPU accessible textures](#overview-of-cpu-accessible-textures)
 -   [Overview of Standard Swizzle](#overview-of-standard-swizzle)

@@ -7,7 +7,7 @@ keywords:
 - Users in Active Directory Domain Services Active Directory
 - users, active directory domain services
 - active directory domain services, users
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

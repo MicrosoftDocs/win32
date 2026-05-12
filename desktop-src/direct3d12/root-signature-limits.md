@@ -2,7 +2,7 @@
 title: Root Signature Limits
 description: The root signature is prime real estate, and there are strict limits and costs to consider.
 ms.assetid: 01121D3A-1926-4246-9C20-5E11F2E0B092
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -29,7 +29,7 @@ Static samplers do not have any cost in the size of the root signature.
 
 ## Performance costs
 
-The performance cost (in terms of levels of indirection) are zero for a root constant, 1 for a root descriptor, and 2 for a descriptor table. If a root signature is large and overflows out of the fastest memory into slightly slower memory (which can happen on some hardware), then add 1 to the performance cost for the overflowing items at the end of the root signature.
+The performance costs (in terms of levels of indirection) are zero for a root constant, 1 for a root descriptor, and 2 for a descriptor table. If a root signature is large and overflows out of the fastest memory into slightly slower memory (which can happen on some hardware), then add 1 to the performance cost for the overflowing items at the end of the root signature.
 
 An overflow can occur on hardware that might have, for example, a fixed size of 16 DWORDs for root argument space. This limit might be further reduced by one if the Input Assembler is used. In this case there is overflow into slightly slower memory if the root signature is too large for the 15 or 16 DWORD native memory. In other hardware there is no fixed native root argument memory (so the overflow situation never occurs).
 
@@ -37,7 +37,7 @@ For all hardware, if any root argument changes, the driver must maintain a versi
 
 Generally, consider the following guidelines:
 
--   Use a small a root signature as necessary, though balance this with the flexibility of a larger root signature.
+-   Use as small a root signature as necessary, while balancing this with the flexibility of a larger root signature.
 -   Arrange parameters in a large root signature so that the parameters most likely to change often, or if low access latency for a given parameter is important, occur first.
 -   If convenient, use root constants or root constant buffer views over putting constant buffer views in a descriptor heap.
 

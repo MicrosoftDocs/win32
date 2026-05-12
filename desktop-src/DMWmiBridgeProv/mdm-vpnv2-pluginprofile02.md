@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # MDM\_VPNv2\_PluginProfile02 class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+
 
 The **MDM\_VPNv2\_PlugInProfile02** class describes the information needed when using a Windows Store based VPN plugin.
 

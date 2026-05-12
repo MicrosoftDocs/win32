@@ -2,7 +2,7 @@
 description: The sample application described in this topic demonstrates the representation of strings using Unicode normalization.
 ms.assetid: f1f789f9-f12b-465c-8c84-33a8efa6fbc5
 title: 'NLS: Unicode Normalization Sample'
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

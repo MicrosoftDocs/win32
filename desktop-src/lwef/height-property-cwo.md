@@ -2,7 +2,7 @@
 title: Height Property (CommandsWindow Object)
 description: Learn about the Height property of the CommandsWindow object. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: ca273dcd-2973-4813-b98b-b7dab3fb842c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

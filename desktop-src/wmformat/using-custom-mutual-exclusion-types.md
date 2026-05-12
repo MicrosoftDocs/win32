@@ -7,7 +7,7 @@ keywords:
 - mutual exclusion,IWMMutualExclusion interface
 - mutual exclusion,custom types
 - profiles,custom mutual exclusion types
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

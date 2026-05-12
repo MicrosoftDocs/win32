@@ -2,7 +2,7 @@
 title: How to create an app package (C++)
 description: Learn how to create an app package for a Windows app using the packaging API.
 ms.assetid: FD677D75-50D5-4228-891F-73B5F40679B0
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

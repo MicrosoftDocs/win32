@@ -2,7 +2,7 @@
 description: The following example shows how to use the Certificate Enrollment API to enumerate the providers installed on a computer.
 ms.assetid: d7fa03d5-775c-41f3-9fef-8929bd25ed92
 title: Enumerating Installed Providers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -53,7 +53,7 @@ int _tmain(int argc, _TCHAR* argv[])
 HRESULT enumProviders(void)
 {
    CComPtr<ICspInformations>     pCSPs;   // Provider collection
-   CComPtr<ICspInformation>      pCSP;    // Provider instgance
+   CComPtr<ICspInformation>      pCSP;    // Provider instance
    HRESULT           hr          = S_OK;  // Return value
    long              lCount      = 0;     // Count of providers
    CComBSTR          bstrName;            // Provider name

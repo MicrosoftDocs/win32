@@ -2,7 +2,7 @@
 description: Functions exported by Xenroll.dll that can be used to manage a cryptographic provider.
 ms.assetid: 4f6f353d-6b06-45b4-8808-56998d3727a4
 title: Cryptographic Service Provider Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

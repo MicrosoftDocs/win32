@@ -5,7 +5,7 @@ ms.assetid: 83970563-1a56-4671-b264-56e29939e369
 ms.tgt_platform: multiple
 keywords:
 - searching the global catalog Active Directory
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

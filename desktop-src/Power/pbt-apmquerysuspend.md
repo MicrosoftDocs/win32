@@ -3,7 +3,7 @@ description: Requests permission to suspend the computer. An application that gr
 ms.assetid: 83cb0fdc-437e-4d03-87f0-6a416281c0d5
 title: PBT_APMQUERYSUSPEND event (WinUser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # PBT_APMQUERYSUSPEND event

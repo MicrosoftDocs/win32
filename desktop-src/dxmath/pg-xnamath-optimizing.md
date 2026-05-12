@@ -2,7 +2,7 @@
 description: This topic describes optimization considerations and strategies with the DirectXMath Library.
 ms.assetid: bcbf8ae1-ed49-fdf7-812d-b2089537ab28
 title: Code Optimization with the DirectXMath Library
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -115,7 +115,7 @@ When working with the IEEE 754 single precision floating-point number, it is imp
 
 ## Prefer Template Forms
 
-Template form exists for [**XMVectorSwizzle**](/windows/win32/api/directxmath/nf-directxmath-xmvectorswizzle), [**XMVectorPermute**](/windows/win32/api/directxmath/nf-directxmath-xmvectorpermute), [**XMVectorInsert**](/windows/win32/api/directxmath/nf-directxmath-xmvectorinsert), [**XMVectorShiftLeft**](/windows/win32/api/directxmath/nf-directxmath-xmvectorshiftleft), [**XMVectorRotateLeft**](/windows/win32/api/directxmath/nf-directxmath-xmvectorrotateleft), and [**XMVectorRotateRight**](/windows/win32/api/directxmath/nf-directxmath-xmvectorrotateright). Using these instead of the general function form allows the compiler to create much more efficent implementations. For [SSE](/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100)), this often collapses down to one or two \_mm\_shuffle\_ps values. For ARM-NEON, the **XMVectorSwizzle** template can utilize a number of special cases rather than the more general VTBL swizzle/permute.
+Template form exists for [**XMVectorSwizzle**](/windows/win32/api/directxmath/nf-directxmath-xmvectorswizzle), [**XMVectorPermute**](/windows/win32/api/directxmath/nf-directxmath-xmvectorpermute), [**XMVectorInsert**](/windows/win32/api/directxmath/nf-directxmath-xmvectorinsert), [**XMVectorShiftLeft**](/windows/win32/api/directxmath/nf-directxmath-xmvectorshiftleft), [**XMVectorRotateLeft**](/windows/win32/api/directxmath/nf-directxmath-xmvectorrotateleft), and [**XMVectorRotateRight**](/windows/win32/api/directxmath/nf-directxmath-xmvectorrotateright). Using these instead of the general function form allows the compiler to create much more efficient implementations. For [SSE](/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100)), this often collapses down to one or two \_mm\_shuffle\_ps values. For ARM-NEON, the **XMVectorSwizzle** template can utilize a number of special cases rather than the more general VTBL swizzle/permute.
 
 ## Using DirectXMath with Direct3D
 

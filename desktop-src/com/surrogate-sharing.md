@@ -2,7 +2,7 @@
 title: Surrogate Sharing
 description: DLL servers will share a surrogate if they have matching security identities and share the same AppID value.
 ms.assetid: 88544be1-4716-47b6-9c08-2b5b2b178e1f
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -21,15 +21,15 @@ Following is an example of administering surrogate sharing with AppIDs:
 
 ``` syntax
     AppID
-        {12345678-0000-0000-0000-abcdabcdabcd}
+        {00001111-aaaa-2222-bbbb-3333cccc4444}
             @DllSurrogate    REG_SZ
     CLSID
         {12345678-0000-0000-0000-000000000001}
-            @AppId    REG_SZ    {12345678-0000-0000-0000-abcdabcdabcd}
+            @AppId    REG_SZ    {00001111-aaaa-2222-bbbb-3333cccc4444}
             InProcServer32
     @    REG_SZ    c:\myapp\comp1.dll
         {12345678-0000-0000-0000-000000000002}
-            @AppId    REG_SZ    {12345678-0000-0000-0000-abcdabcdabcd}
+            @AppId    REG_SZ    {00001111-aaaa-2222-bbbb-3333cccc4444}
             InProcServer32
     @    REG_SZ    c:\myapp\comp2.dll
  
@@ -50,7 +50,3 @@ The two CLSIDs for DLL components comp1.dll and comp2.dll have been configured t
  
 
  
-
-
-
-

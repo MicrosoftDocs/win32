@@ -44,7 +44,7 @@ api_type:
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---
@@ -471,7 +471,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-Specifies if the capture is required at each possible layer in the target networking stack, or just the default layer. For a VMSwitch, the filter is installed at the top of the extension stack by default. For a physical network adapater, the filter is installed just above the miniport.
+Specifies if the capture is required at each possible layer in the target networking stack, or just the default layer. For a VMSwitch, the filter is installed at the top of the extension stack by default. For a physical network adapter, the filter is installed just above the miniport.
 
 </dd> <dt>
 
@@ -811,7 +811,7 @@ Specifies the direction of the traffic to be captured when Vm Targets are added 
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |

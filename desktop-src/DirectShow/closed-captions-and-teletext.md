@@ -2,7 +2,7 @@
 description: Closed Captions and Teletext
 ms.assetid: faa34cdc-bee0-44c4-bd1c-84a688a27b9e
 title: Closed Captions and Teletext
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

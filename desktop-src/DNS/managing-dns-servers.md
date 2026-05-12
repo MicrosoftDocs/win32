@@ -2,11 +2,11 @@
 title: Managing DNS Servers
 description: Learn about managing DNS Servers. A DNS Server is a computer that completes the process of name resolution in DNS.
 ms.assetid: 9ac68e35-112a-44d3-918d-2caea47b6e52
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Managing DNS Servers
+# Managing DNS Servers using WMI
 
 A DNS Server is a computer that completes the process of name resolution in DNS. DNS Servers contain files, called *zone files*, that enable them to resolve names to IP addresses (or vice versa). When queried, a DNS Server responds in one of three ways:
 

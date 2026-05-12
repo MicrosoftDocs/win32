@@ -2,7 +2,7 @@
 title: Events in Controls
 description: Events in Controls
 ms.assetid: b326a540-290d-4735-9af5-5422ba708c13
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

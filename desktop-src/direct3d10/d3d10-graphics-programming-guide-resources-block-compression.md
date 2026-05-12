@@ -2,7 +2,7 @@
 description: Block compression is a texture compression technique for reducing texture size.
 ms.assetid: add98d8f-6846-4dd6-b0e2-a4b6e89cbcc5
 title: Block Compression (Direct3D 10)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -235,9 +235,6 @@ The algorithm works on 4×4 blocks of texels. Instead of storing 16 colors, the 
 The algorithm uses the 3-bit indices to look up colors from a color table that contains 8 colors. The first two colors—red\_0 and red\_1—are the minimum and maximum colors. The algorithm calculates the remaining colors using linear interpolation.
 
 The algorithm determines the number of interpolated color values by examining the two reference values. If red\_0 is greater than red\_1, then BC4 interpolates 6 color values; otherwise, it interpolates 4. When BC4 interpolates only 4 color values, it sets two additional color values (0.0f for fully transparent and 1.0f for fully opaque). BC4 compresses the alpha values in the 4×4 texel area by storing the bit code corresponding to the interpolated alpha values that most closely matches the original alpha for a given texel.
-
--   [BC4\_UNORM](/windows)
--   [BC4\_SNORM](/windows)
 
 ### BC4\_UNORM
 

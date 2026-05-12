@@ -2,7 +2,7 @@
 description: System.Contact.HomeAddress1Street
 ms.assetid: 288eabb9-9591-4fb2-8b34-182c3ea1f0a1
 title: System.Contact.HomeAddress1Street
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

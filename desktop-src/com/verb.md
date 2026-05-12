@@ -4,8 +4,9 @@ description: Specifies the verbs to be registered for an application.
 ms.assetid: 'bfcad36d-a52a-4117-bf0b-6135b197a7ee'
 keywords:
 - Verb registry key COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
+no-loc: [Verb, verb]
 ---
 
 # Verb

@@ -2,7 +2,7 @@
 title: Device Installation Reference in SDK header files
 description: This section lists header files and reference used in device installation. The header files in this section are included in the Windows Software Development Kit (SDK).
 ms.assetid: a160d1de-332b-4c91-840d-feaaa76274c4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

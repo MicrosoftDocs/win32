@@ -2,7 +2,7 @@
 description: VMR Renderless Playback Mode (Custom Allocator-Presenters)
 ms.assetid: 0381f862-2f16-4b4d-be48-40f7fe151585
 title: VMR Renderless Playback Mode (Custom Allocator-Presenters)
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

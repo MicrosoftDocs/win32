@@ -4,7 +4,7 @@ description: A desktop has a logical display surface and contains user interface
 ms.assetid: 'c56cd63b-c260-40d0-9a62-1dee1eb18679'
 keywords:
 - desktop objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

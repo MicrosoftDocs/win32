@@ -2,7 +2,7 @@
 description: External Device Transport Property Set
 ms.assetid: 9c80cf59-054f-49b6-9456-ed5e091cbfaf
 title: External Device Transport Property Set
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

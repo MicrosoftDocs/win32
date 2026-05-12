@@ -2,7 +2,7 @@
 description: System.Media.Writer
 ms.assetid: a9ef9c5b-dc7b-4d1a-b47f-093d4f37bba4
 title: System.Media.Writer
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

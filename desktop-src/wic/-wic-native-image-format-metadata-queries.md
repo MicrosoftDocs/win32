@@ -2,7 +2,7 @@
 description: This topic provides an overview of the metadata query language queries for reading and writing metadata supported by GIF, PNG, TIFF and JPEG images.
 ms.assetid: a6ab1708-dd82-4960-b908-f1daef7374ef
 title: Native Image Format Metadata Queries
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -203,7 +203,7 @@ The following table provides the available metadata query paths that can be used
 The Tagged Image File Format (TIFF) image format supports frame level metadata.
 
 > [!Note]  
-> For a full list of TIFF metadata along with more detailed information, see [the TIFF standard](https://www.adobe.io/content/dam/udp/en/open/standards/tiff/TIFF6.pdf).
+> For a full list of TIFF metadata along with more detailed information, see [the TIFF standard](https://en.wikipedia.org/wiki/TIFF).
 
  
 

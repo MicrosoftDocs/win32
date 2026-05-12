@@ -2,14 +2,13 @@
 description: Shows how to play a media file using the MFPlay API.
 ms.assetid: 1acd6f98-af59-47fd-9a3e-38a668fb6acf
 title: SimplePlay Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 
 # SimplePlay Sample
 
-> [!IMPORTANT]
-> Deprecated. This API may be removed from future releases of Windows. Applications should use the [Media Session](media-session.md) for playback.
+\[The feature associated with this page, MFPlay, is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and  [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
  
 

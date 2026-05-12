@@ -3,7 +3,7 @@ description: This section provides a list of the WMI return codes, symbolic cons
 ms.assetid: 7ae47482-edf4-4aa4-858a-76e55f3cb0a3
 ms.tgt_platform: multiple
 title: WMI Return Codes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

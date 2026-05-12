@@ -2,7 +2,7 @@
 description: COM+ Security
 ms.assetid: 561593c0-d897-4c3a-a4f5-f25351d2c05c
 title: COM+ Security
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

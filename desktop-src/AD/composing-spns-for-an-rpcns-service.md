@@ -5,7 +5,7 @@ ms.assetid: 4fd585b3-3f9b-4f7f-bc1b-22879587a590
 ms.tgt_platform: multiple
 keywords:
 - Composing SPNs for an RpcNs Service AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -42,7 +42,7 @@ This code example calls the [**DsGetSpn**](/windows/desktop/api/Ntdsapi/nf-ntdsa
     SPNs. This array must freed with the DsFreeSpnArray function when 
     it is no longer required.
 
-    pulSpn - Pointer to a unsigned long that receives the number of 
+    pulSpn - Pointer to an unsigned long that receives the number of 
     elements in the pspn array.
 
 ***********/

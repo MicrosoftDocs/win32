@@ -5,7 +5,7 @@ ms.assetid: c6231c30-9d5a-428d-a94d-9dc8db933432
 keywords:
 - common stores Backup
 - single-instance store (SIS) Backup , common stores
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

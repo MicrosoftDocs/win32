@@ -1,12 +1,12 @@
 ---
 description: Language resources consist of word breakers and stemmers that extend index building and querying capabilities to new languages and locales.
 ms.assetid: 7963805e-e279-42cf-ba95-f81a7de8e68e
-title: Understanding Language Resource Components
-ms.topic: article
+title: Understanding language resource components
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Understanding Language Resource Components
+# Understanding language resource components
 
 Language resources consist of word breakers and stemmers that extend index building and querying capabilities to new languages and locales. Word breakers are used during both index creation and querying. Stemmers are used only for querying. Windows Search uses language resource DLLs to bind to [**IWordBreaker**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordbreaker) and [**IStemmer**](/windows/desktop/api/Indexsrv/nn-indexsrv-istemmer) implementations for a specific language locale.
 
@@ -19,7 +19,7 @@ This topic is organized as follows:
 -   [Noise Words](#noise-words)
 -   [Related topics](#related-topics)
 
-## About Language Resources
+## About language resources
 
 Windows Search uses a filter (an implementation of the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface) and [**ILoadFilter**](/windows/desktop/api/filtereg/nn-filtereg-iloadfilter) to access a document in its native format. The [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) component extracts text content, properties, and formatting from the document. The [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) identifies the locale of the document that it is filtering. The indexing component invokes the appropriate word breaker for that locale. If none is available, the indexing component invokes the neutral word breaker. The word breaker receives, from an [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter), an input stream of Unicode characters that the word breaker parses to produce individual words and phrases. The word breaker also normalizes date and time formats. The indexer normalizes the words produced by the word breaker by converting the words to all uppercase letters. The indexer saves the uppercase words to the full-text index, with the exception of noise words identified for that locale.
 
@@ -61,7 +61,7 @@ The following table lists the actions and corresponding results for the query "a
 
 The expanded query terms increase the likelihood that the query will find documents that match the intent of the original query. Text that the word breaker or stemmer generates at query time is not stored on disk.
 
-## Word Breaking
+## Word breaking
 
 Word breaking is the separation of text into individual text tokens, or words. Many languages, especially those with Roman alphabets, have an array of word separators (such as white space) and punctuation that are used to discern words, phrases, and sentences. Word breakers must rely on accurate language heuristics to provide reliable and accurate results. Word breaking is more complex for character-based systems of writing or script-based alphabets, where the meaning of individual characters is determined from context. For more information about linguistic considerations that may affect your word breaker implementation, see [Linguistic and Unicode Considerations](linguistic-and-unicode-considerations.md).
 
@@ -75,7 +75,7 @@ Some languages require that inflected terms be generated at both index time and 
 
 Documents of all languages are stored in a single index. Although words and linguistic rules differ dramatically, there are some considerations, such as numbers, dates, and times, that are handled consistently across all word breakers. For more information about normalization considerations that may affect your word breaker implementation, see [Surface Form Normalization](surface-form-normalization.md).
 
-## Noise Words
+## Noise words
 
 Noise words, also known as stop words, are words that are not significant indicators for content. Indexing Service removes noise words from query terms and from content that is included in the full-text index. An *offset* is the occurrence of a word in a document or in a list of query terms. The offset of noise words in a document or query is recorded as blank. Removing noise words improves query performance by avoiding unnecessary index growth. It also improves the relevance of query results. You can configure Windows Search to use noise word lists for specific languages. These lists are used when a word breaker is invoked for that language. For example, "the" in the English language occurs so often that it has little value as a unique key. "The" is in the noise word list, is not written to the content index, and, if queried for, returns no results.
 

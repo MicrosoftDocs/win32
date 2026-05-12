@@ -5,7 +5,7 @@ ms.assetid: 48d83e06-9e6e-498b-ad9b-0b66f235db25
 keywords:
 - MCI_PLAY command
 - MCIAVI playback window
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

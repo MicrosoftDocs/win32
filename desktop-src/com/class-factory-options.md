@@ -2,7 +2,7 @@
 title: Class Factory Options
 description: Class Factory Options
 ms.assetid: e9e33e07-7628-4c5e-965d-e12a9c1d69c2
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

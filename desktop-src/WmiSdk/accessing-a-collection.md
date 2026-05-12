@@ -3,7 +3,7 @@ description: A collection is a standard automation concept that provides a unifo
 ms.assetid: c1ebe529-33cb-4158-923d-124d6328fc60
 ms.tgt_platform: multiple
 title: Accessing a WMI Collection
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

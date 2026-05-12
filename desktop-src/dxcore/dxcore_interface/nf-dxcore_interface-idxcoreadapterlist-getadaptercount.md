@@ -23,4 +23,4 @@ Returns the number of adapter items in the list.
 
 ## See also
 
-[IDXCoreAdapterList](./nn-dxcore_interface-idxcoreadapterlist.md), [DXCore Reference](../dxcore-reference.md), [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md)
+[IDXCoreAdapterList](./nn-dxcore_interface-idxcoreadapterlist.md), [DXCore reference](../dxcore-reference.md), [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md)

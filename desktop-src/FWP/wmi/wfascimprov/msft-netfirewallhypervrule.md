@@ -1,7 +1,7 @@
 ---
 title: MSFT_NetFirewallHyperVRule class
 description: Represents a Windows Defender firewall Hyper-V rule.
-ms.topic: article
+ms.topic: reference
 ms.date: 05/17/2024
 topic_type: 
 - APIRef
@@ -449,7 +449,7 @@ The locale-independent name of the rule. Might be an indirect string.
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Minimum supported client | Windows 8 |
 | Minimum supported server | Windows Server 2012 |

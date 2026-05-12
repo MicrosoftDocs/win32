@@ -2,7 +2,7 @@
 description: Smart Tee Filter
 ms.assetid: 25bfbd62-b6be-4d1f-aa4c-77798bbb9fc9
 title: Smart Tee Filter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: Capturing Video to an AVI File
 ms.assetid: 0f5f4a82-4a2e-4c48-b201-bda641cb8619
 title: Capturing Video to an AVI File
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

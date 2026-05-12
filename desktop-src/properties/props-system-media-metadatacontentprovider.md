@@ -2,7 +2,7 @@
 description: System.Media.MetadataContentProvider
 ms.assetid: 6fb4f43b-e274-4be5-a128-5b20ad3c4203
 title: System.Media.MetadataContentProvider
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

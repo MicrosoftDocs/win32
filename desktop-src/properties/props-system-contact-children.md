@@ -2,7 +2,7 @@
 description: Indicates the number of children the contact has.
 ms.assetid: 44d260a1-ad42-4822-ab4d-205f6999e5aa
 title: System.Contact.Children
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: DirectShow Editing Services
 ms.assetid: 35abb5fe-ef57-4d49-bd58-f2bca10727e8
 title: DirectShow Editing Services
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 title: IAgentCommandWindow GetVisible
 description: IAgentCommandWindow GetVisible
 ms.assetid: a69a2aaa-5a3a-46b8-b505-49609a2aa5ba
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: 4ae61101-f123-44bd-8bec-bade51d22217
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , changing the scope of a group
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

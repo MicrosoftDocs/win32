@@ -2,7 +2,7 @@
 description: DLL Load Notification
 ms.assetid: 53eae36c-f52c-4316-b050-2b95974f339d
 title: DLL Load Notification
-ms.topic: article
+ms.topic: reference
 ms.date: 08/31/2023
 ---
 

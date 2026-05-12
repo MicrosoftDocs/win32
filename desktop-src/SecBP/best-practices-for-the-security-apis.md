@@ -2,7 +2,7 @@
 description: Suggestions for application security assessments for app development of Windows security software and secure software development, including application security testing.
 ms.assetid: bb0ddae2-f559-4785-97c7-182fc204fa60
 title: Best Practices for the Security APIs
-ms.topic: article
+ms.topic: best-practice
 ms.date: 05/31/2018
 ---
 
@@ -26,7 +26,7 @@ Conducting a threat model analysis can help you discover potential points of att
 
 ## Service Packs and Security Updates
 
-Build and test environments should mirror the same levels of service packs and security updates of the targeted user base. We recommend that you install the latest service packs and security updates for any Microsoft platform or application that is part of your build and test environment and encourage your users to do the same for the finished application environment. For more information about service packs and security updates, see [Microsoft Windows Update](https://www.update.microsoft.com/microsoftupdate/v6/vistadefault.aspx?ln=en-us) and [Microsoft Security](https://www.microsoft.com/security).
+Build and test environments should mirror the same levels of service packs and security updates of the targeted user base. We recommend that you install the latest service packs and security updates for any Microsoft platform or application that is part of your build and test environment and encourage your users to do the same for the finished application environment. For more information about service packs and security updates, see [Update Windows](https://support.microsoft.com/windows/update-windows-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a) and [Microsoft Security](https://www.microsoft.com/security).
 
 ## Authorization
 
@@ -45,7 +45,6 @@ For more information about best practices, see the following topics.
 | [Control Flow Guard (CFG)](control-flow-guard.md)<br/>                                                                | Discusses memory corruption vulnerabilities.<br/>                                                                                                                                    |
 | [Creating a DACL](creating-a-dacl.md)<br/>                                                                            | Shows how to create a discretionary access control list (DACL) by using the [Security Descriptor Definition Language](/windows/desktop/SecAuthZ/security-descriptor-definition-language) (SDDL).<br/> |
 | [Handling Passwords](handling-passwords.md)<br/>                                                                      | Discusses security implications of using passwords.<br/>                                                                                                                             |
-| [How to Optimize Your MSDN Library Search](how-to-optimize-your-msdn-library-search.md)<br/>                          | Discusses options for searching Security SDK content on MSDN Library.<br/>                                                                                                           |
 | [Dynamic Access Control developer extensibility](/previous-versions/windows/desktop/dacx/dynamic-access-control-developer-extensibility-roadmap)<br/> | Basic orientation to some of the developer extensibility points for the new Dynamic Access Control solutions.<br/>                                                                   |
 
 

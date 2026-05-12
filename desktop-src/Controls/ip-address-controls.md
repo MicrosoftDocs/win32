@@ -2,7 +2,7 @@
 title: About IP Address Controls
 description: An Internet Protocol (IP) address control allows the user to enter an IP address in an easily understood format.
 ms.assetid: cf6a59fc-661c-420a-a67f-a42619946357
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

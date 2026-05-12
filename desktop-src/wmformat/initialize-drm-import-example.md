@@ -23,7 +23,7 @@ keywords:
 - Client Extended APIs,example code
 - DRM Client Extended APIs,code examples
 - Client Extended APIs,code examples
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

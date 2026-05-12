@@ -2,7 +2,7 @@
 description: Working with Video Frames
 ms.assetid: a5ad74dd-abfd-4810-a512-42e4b98a6c59
 title: Working with Video Frames
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

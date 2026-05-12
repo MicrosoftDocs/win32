@@ -2,7 +2,7 @@
 title: VML Width Attribute
 description: VML Width Attribute
 ms.assetid: e01c60d4-3c3a-41e5-8c28-6da9533921df
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

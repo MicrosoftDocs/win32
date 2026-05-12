@@ -2,8 +2,8 @@
 description: 'Cryptography API: Next Generation (CNG) provides functions that query, add, remove, and prioritize the cipher suites that a provider supports. Changes made by using these functions take effect immediately and do not require restarting an active server.'
 ms.assetid: e919be5c-ac2c-446c-a422-971805b1f672
 title: Prioritizing Schannel Cipher Suites
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 10/23/2024
 ---
 
 # Prioritizing Schannel Cipher Suites
@@ -43,7 +43,7 @@ The following example demonstrates how to use the [**BCryptEnumContextFunctions*
 #include <stdio.h>
 #include <windows.h>
 #include <bcrypt.h>
-
+#pragma comment(lib, "Bcrypt.lib")
 
 void main()
 {
@@ -103,7 +103,7 @@ The following example shows how to add a cipher suite to the top of the prioriti
 #include <stdio.h>
 #include <windows.h>
 #include <bcrypt.h>
-
+#pragma comment(lib, "Bcrypt.lib")
 
 void main()
 {
@@ -131,7 +131,7 @@ The following example shows how to remove a cipher suite from the prioritized li
 #include <stdio.h>
 #include <windows.h>
 #include <bcrypt.h>
-
+#pragma comment(lib, "Bcrypt.lib")
 
 void main()
 {

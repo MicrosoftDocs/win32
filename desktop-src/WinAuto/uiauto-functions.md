@@ -2,8 +2,8 @@
 title: Functions for Providers
 description: This section describes the functions for UI Automation provider for Microsoft Win32 applications.
 ms.assetid: 76012ec7-0114-4b6b-a35e-5cfde5b90230
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Functions for Providers

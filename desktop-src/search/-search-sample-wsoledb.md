@@ -2,7 +2,7 @@
 description: The WSOleDB code sample demonstrates Active Template Library (ATL) OLE DB access to Windows Search applications, and demonstrates two additional methods for retrieving results from Windows Search.
 ms.assetid: c81bf3af-e023-4384-8c89-0fa9c8f08773
 title: WSOleDB
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,7 @@ This topic contains the following sections.
 | Windows     | Windows 7, 8.1, or 10    |
 | Windows SDK | 7.0 or greater           |
 
-## Downloading the Sample
+## Downloading the sample
 
 This sample is available in the following location.
 
@@ -36,7 +36,7 @@ This sample is available in the following location.
 > [!NOTE]  
 > For all versions of Windows, including Windows 7, it is recommended to download the samples directly from GitHub for the most up to date version.
 
-## Building the Sample
+## Building the sample
 
 1. Open Windows Explorer and navigate to the **WSOleDB** project directory.
 2. Double-click the icon for the WSOleDB.sln file to open the project in Visual Studio.
@@ -46,7 +46,7 @@ This sample is available in the following location.
 
 3. From the **Build** menu, select **Build Solution**.
 
-## Running the Sample
+## Running the sample
 
 1. Navigate to the directory that contains the new executable, using the Command Prompt window or Windows Explorer.
 2. At the command prompt, enter `WSOleDB.exe`, or from Windows Explorer, double-click the icon for WSOleDB.exe.
@@ -67,6 +67,6 @@ This sample is available in the following location.
 
 [OLE DB Programming Overview](/cpp/data/oledb/ole-db-programming-overview)
 
-### Other Samples
+### Other samples
 
 [Search Code Samples](-search-samples-ovw.md)

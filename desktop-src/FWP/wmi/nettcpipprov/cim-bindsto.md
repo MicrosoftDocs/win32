@@ -3,7 +3,7 @@ title: CIM_BindsTo WMI class
 description: This association establishes a service access point as a requestor of protocol services from a protocol endpoint.
 ms.assetid: 6b7ef455-4560-44bc-aa34-ca140d69c8c8
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -86,7 +86,7 @@ The **AccessPoint** or **ProtocolEndpoint** that is dependent on the lower-level
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                          |

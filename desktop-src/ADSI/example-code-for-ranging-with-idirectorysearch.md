@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Example Code for Ranging with IDirectorySearch ADSI
 - Range Retrieval ADSI , Example code, Using IDirectorySearch
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

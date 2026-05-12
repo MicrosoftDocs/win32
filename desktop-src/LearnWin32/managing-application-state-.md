@@ -2,7 +2,7 @@
 title: Managing Application State
 description: A window procedure is just a function that gets invoked for every message, so it is inherently stateless. Therefore, you need a way to track the state of your application from one function call to the next.
 ms.assetid: 2f03961e-a886-4947-8f5d-62543c6b8815
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -19,7 +19,7 @@ The [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa
 
 These messages are sent in the order listed. (These are not the only two messages sent during [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa), but we can ignore the others for this discussion.)
 
-The [**WM\_NCCREATE**](/windows/desktop/winmsg/wm-nccreate) and [**WM\_CREATE**](/windows/desktop/winmsg/wm-create) message are sent before the window becomes visible. That makes them a good place to initialize your UI—for example, to determine the initial layout of the window.
+The [**WM\_NCCREATE**](/windows/desktop/winmsg/wm-nccreate) and [**WM\_CREATE**](/windows/desktop/winmsg/wm-create) messages are sent before the window becomes visible. That makes them a good place to initialize your UI—for example, to determine the initial layout of the window.
 
 The last parameter of [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) is a pointer of type **void\***. You can pass any pointer value that you want in this parameter. When the window procedure handles the [**WM\_NCCREATE**](/windows/desktop/winmsg/wm-nccreate) or [**WM\_CREATE**](/windows/desktop/winmsg/wm-create) message, it can extract this value from the message data.
 

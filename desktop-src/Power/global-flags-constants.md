@@ -3,7 +3,7 @@ description: The global flags constants are used to enable or disable user power
 ms.assetid: d98190ef-f70e-4796-960e-ff32d2cf6f4f
 title: Global Flags Constants (PowrProf.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Global Flags Constants

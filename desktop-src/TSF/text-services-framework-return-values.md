@@ -10,7 +10,7 @@ keywords:
 - text services,return values
 - TSF-enabled applications,return values
 - return values
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

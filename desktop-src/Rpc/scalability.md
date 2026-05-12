@@ -5,7 +5,7 @@ ms.assetid: 39327621-b536-4494-9319-9e9d4f534123
 keywords:
 - Scalability
 - Remote Procedure Call RPC , best practices, scalability
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

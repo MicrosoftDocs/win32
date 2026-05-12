@@ -7,7 +7,7 @@ keywords:
 - compilers MIDL , MIDL and RPC
 - MIDL and RPC MIDL
 - RPC MIDL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

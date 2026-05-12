@@ -6,7 +6,7 @@ ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidPagesE
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentdatabaseinvalidpagesexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55101393
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # EsentDatabaseInvalidPagesException properties

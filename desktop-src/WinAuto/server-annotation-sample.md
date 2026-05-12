@@ -2,8 +2,8 @@
 title: Server Annotation Sample
 description: Server Annotation Sample
 ms.assetid: 8e87a2ca-236c-4082-acf5-dc3807dde6bc
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: sample
+ms.date: 07/14/2025
 ---
 
 # Server Annotation Sample

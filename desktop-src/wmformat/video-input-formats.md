@@ -12,7 +12,7 @@ keywords:
 - ASF (Advanced Systems Format),video formats
 - video formats
 - Windows Media Video 9 codec,video input formats
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

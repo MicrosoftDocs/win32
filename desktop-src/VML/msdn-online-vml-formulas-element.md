@@ -2,7 +2,7 @@
 title: VML Formulas Element
 description: VML Formulas Element
 ms.assetid: e5552a91-c3c4-4953-8bd3-f120b917e26f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -14,8 +14,8 @@ keywords:
 - interfaces,control patterns
 - clients,control patterns
 - dynamic control patterns
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # UI Automation Control Patterns Overview

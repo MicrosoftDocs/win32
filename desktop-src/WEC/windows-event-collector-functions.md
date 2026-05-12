@@ -3,8 +3,8 @@ title: Windows Event Collector Functions
 description: The following list briefly describes the functions that are used in Windows Event Collector.
 ms.assetid: 48155df6-ba9c-4abe-ba84-6190cee95878
 ms.tgt_platform: multiple
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Windows Event Collector Functions

@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - scope of query ADSI
 - queries ADSI , scope
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

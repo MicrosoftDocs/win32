@@ -2,7 +2,7 @@
 description: Learn about the DocumentCollate element, which describes the collating characteristics of the output.
 ms.assetid: 752cccf7-1f95-4597-b0e2-a96fd22ffeef
 title: DocumentCollate
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

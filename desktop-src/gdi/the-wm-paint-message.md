@@ -2,7 +2,7 @@
 description: Typically, an application draws in a window in response to a WM\_PAINT message.
 ms.assetid: 'b2317ce9-e775-450e-91f5-00f735f256a3'
 title: The WM_PAINT Message
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

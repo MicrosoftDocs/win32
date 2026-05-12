@@ -6,7 +6,7 @@ keywords:
 - interfaces MIDL , COM
 - interfaces MIDL , DCOM
 - interfaces MIDL , type libraries
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

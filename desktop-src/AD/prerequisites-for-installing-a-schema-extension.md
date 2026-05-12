@@ -3,7 +3,7 @@ title: Prerequisites for Installing a Schema Extension
 description: To modify the schema, ensure you have the following rights and are aware of the following information You must have sufficient rights to modify the schema.
 ms.assetid: f7795eac-2b95-4b6c-a2f5-8728316059ab
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

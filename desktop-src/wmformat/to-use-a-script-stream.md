@@ -7,7 +7,7 @@ keywords:
 - Advanced Systems Format (ASF),script streams
 - ASF (Advanced Systems Format),script streams
 - script streams,about
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

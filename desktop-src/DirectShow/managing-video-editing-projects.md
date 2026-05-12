@@ -2,7 +2,7 @@
 description: Managing Video Editing Projects
 ms.assetid: f8d74807-562f-429b-93a1-e65d0f15163b
 title: Managing Video Editing Projects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

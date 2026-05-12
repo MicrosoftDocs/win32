@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/24/2025
 ---
 
 # WM\_INITDIALOG message
@@ -41,7 +41,7 @@ A handle to the control to receive the default keyboard focus. The system assign
 *lParam* 
 </dt> <dd>
 
-Additional initialization data. This data is passed to the system as the *lParam* parameter in a call to the [**CreateDialogIndirectParam**](/windows/desktop/api/Winuser/nf-winuser-createdialogindirectparama), [**CreateDialogParam**](/windows/desktop/api/Winuser/nf-winuser-createdialogparama), [**DialogBoxIndirectParam**](/windows/desktop/api/Winuser/nf-winuser-dialogboxindirectparama), or [**DialogBoxParam**](/windows/desktop/api/Winuser/nf-winuser-dialogboxparama) function used to create the dialog box. For property sheets, this parameter is a pointer to the [**PROPSHEETPAGE**](/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2) structure used to create the page. This parameter is zero if any other dialog box creation function is used.
+Additional initialization data. This data is passed to the system as the *lParam* parameter in a call to the [**CreateDialogIndirectParam**](/windows/desktop/api/Winuser/nf-winuser-createdialogindirectparama), [**CreateDialogParam**](/windows/desktop/api/Winuser/nf-winuser-createdialogparama), [**DialogBoxIndirectParam**](/windows/desktop/api/Winuser/nf-winuser-dialogboxindirectparama), or [**DialogBoxParam**](/windows/desktop/api/Winuser/nf-winuser-dialogboxparama) function used to create the dialog box. For property sheets, this parameter is a pointer to the [**PROPSHEETPAGE**](/windows/win32/controls/pss-propsheetpage) structure used to create the page. This parameter is zero if any other dialog box creation function is used.
 
 </dd> </dl>
 
@@ -100,7 +100,7 @@ An application can return **FALSE** only if it has set the keyboard focus to one
 **Other Resources**
 </dt> <dt>
 
-[**PROPSHEETPAGE**](/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2)
+[**PROPSHEETPAGE**](/windows/win32/controls/pss-propsheetpage)
 </dt> </dl>
 
  

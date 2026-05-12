@@ -96,7 +96,7 @@ If the *pvResult* buffer provided is too small, either JET_errInvalidBufferSize 
 </tr>
 <tr class="odd">
 <td><p>JET_DbInfoPageSize</p></td>
-<td><p><em>pvResult</em> will be interpreted as a unsigned long. This will return the page size of the database in bytes.</p>
+<td><p><em>pvResult</em> will be interpreted as an unsigned long. This will return the page size of the database in bytes.</p>
 <p><strong>Windows XP:  </strong>This value is introduced in Windows XP.</p></td>
 </tr>
 <tr class="even">

@@ -3,7 +3,7 @@ title: Application Inventory Classes
 description: .
 ms.assetid: f5816782-d0d8-405c-b212-a45a3869e2bd
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

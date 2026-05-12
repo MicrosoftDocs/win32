@@ -2,7 +2,7 @@
 description: This topic discusses the specific interfaces and methods required to create a preview handler.
 ms.assetid: 6c240a63-c184-4b65-9483-794f5de4d695
 title: Building Preview Handlers
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

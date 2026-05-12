@@ -2,8 +2,8 @@
 title: Generating Appropriate WinEvents
 description: Server developers need to ensure that appropriate WinEvents are generated for all UI elements, including window-based UI elements, windowless UI elements, and UI elements with highly customized behaviors.
 ms.assetid: 253e0162-20e6-4e89-b563-aae9cf7e53a9
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Generating Appropriate WinEvents

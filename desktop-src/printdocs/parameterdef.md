@@ -2,7 +2,7 @@
 description: Learn about the ParameterDef element, which defines the valid characteristics of parameter input. The value is entered by means of a ParameterInit element.
 ms.assetid: cb00edc9-2c8a-446d-989b-a4429ee8f544
 title: ParameterDef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

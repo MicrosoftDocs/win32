@@ -2,7 +2,7 @@
 title: Reference (Microsoft Agent Server Interface)
 description: These reference topic describe objects in Microsoft Agent Server Interface. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: 'vs|msagent|~\paface_83s5.htm'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

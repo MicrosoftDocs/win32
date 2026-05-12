@@ -2,7 +2,7 @@
 title: vs_1_1
 description: Learn about vs_1_1, a programmable vertex shader, which is made up of a set of instructions that operate on vertex data.
 ms.assetid: 54ad41d7-aaa4-4cf4-8834-47f10cd5425c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

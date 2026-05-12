@@ -1,7 +1,7 @@
 ---
 title: Rename method of the MSFT_NetFirewallHyperVRule class
 description: Rename this rule.
-ms.topic: article
+ms.topic: reference
 ms.date: 05/16/2024
 topic_type: 
 - APIRef
@@ -35,7 +35,7 @@ The new name for the rule.
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Minimum supported client | Windows 8 |
 | Minimum supported server | Windows Server 2012 |

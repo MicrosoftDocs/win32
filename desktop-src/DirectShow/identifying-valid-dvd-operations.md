@@ -2,7 +2,7 @@
 description: Identifying Valid DVD Operations
 ms.assetid: d368b552-7ed3-4334-b97b-ff49d6c331c3
 title: Identifying Valid DVD Operations
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

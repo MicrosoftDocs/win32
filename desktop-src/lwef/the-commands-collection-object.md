@@ -2,7 +2,7 @@
 title: The Commands Collection Object
 description: The Commands Collection Object
 ms.assetid: 8726ce04-77d3-4ae3-bd46-e75f42b36d6f
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

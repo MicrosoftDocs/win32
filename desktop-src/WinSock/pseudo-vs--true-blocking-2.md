@@ -2,7 +2,7 @@
 title: Pseudo-blocking and true blocking
 description: Pseudo-blocking operations in Windows Sockets (Winsock).
 ms.assetid: fa8f29f1-bb4f-4814-ab8a-52d3c83232bb
-ms.topic: article
+ms.topic: concept-article
 ms.date: 02/08/2023
 ---
 

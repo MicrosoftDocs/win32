@@ -2,7 +2,7 @@
 title: HelpComplete Event
 description: HelpComplete Event
 ms.assetid: d805f089-154f-4b39-9d78-a02b732f87ed
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

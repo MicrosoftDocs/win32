@@ -3,7 +3,7 @@ description: The System Registry provider attempts to send one notification for 
 ms.assetid: 51ef0ccb-02d5-4dac-9c71-a7f4e25a0d00
 ms.tgt_platform: multiple
 title: Receiving Registry Events
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

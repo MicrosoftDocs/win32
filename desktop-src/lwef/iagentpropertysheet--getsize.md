@@ -2,7 +2,7 @@
 title: IAgentPropertySheet GetSize
 description: IAgentPropertySheet GetSize
 ms.assetid: 09bac150-ad68-40b2-9c2c-760f6bc919e4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -4,7 +4,7 @@ description: Determines whether AddRef/Release invocations are secured for appli
 ms.assetid: 955b599b-1858-475a-95c4-a55038a28e69
 keywords:
 - LegacySecureReferences registry value COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

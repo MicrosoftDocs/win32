@@ -4,7 +4,7 @@ description: Reading from a File
 ms.assetid: 7c728304-7d05-4e28-a9bd-83b5b1af39be
 keywords:
 - AVIFileInfo function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

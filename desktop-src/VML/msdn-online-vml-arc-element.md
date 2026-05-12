@@ -2,7 +2,7 @@
 title: VML Arc Element
 description: VML Arc Element
 ms.assetid: 46b5b78a-9a69-432b-9008-0ce7a658b9dd
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

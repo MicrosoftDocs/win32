@@ -2,7 +2,7 @@
 title: Intuitive User Experience
 description: For the first time, Windows 7 allows developers and their end-users to control their computers by touching the screen.
 ms.assetid: cf5be4d6-4284-43e3-86ba-293c4513b477
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

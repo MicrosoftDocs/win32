@@ -2,7 +2,7 @@
 title: What's New (Windows Event Log)
 description: This page summarizes the new features that were added to the Windows Event Log API for each release.
 ms.assetid: 90adf08c-177f-46ae-82e1-f7cca5a46db8
-ms.topic: article
+ms.topic: whats-new
 ms.date: 05/31/2018
 ---
 

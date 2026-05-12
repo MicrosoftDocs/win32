@@ -2,7 +2,7 @@
 description: Encoding Properties
 ms.assetid: 6845c3fb-38a8-4b0d-aea2-e10f7e518653
 title: Encoding Properties
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -60,7 +60,7 @@ If you are using an encoder MFT:
 2.  Querying the encoder MFT for the **IPropertyStore** interface.
 3.  Setting the required properties by calling **IPropertyStore::SetValue**.
 
-If you are using the built-in encoder activation objects and have already created an configured the ASF file sink, you can pass the ASF media sink's property store to [**MFCreateWMAEncoderActivate**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreatewmaencoderactivate) or [**MFCreateWMVEncoderActivate**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreatewmvencoderactivate). The encoder is configured automatically based on the settings specified by the application. For more information, see the procedure described in [Using an Encoder's Activation Objects](using-an-encoder-s-activation-objects.md).
+If you are using the built-in encoder activation objects and have already created and configured the ASF file sink, you can pass the ASF media sink's property store to [**MFCreateWMAEncoderActivate**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreatewmaencoderactivate) or [**MFCreateWMVEncoderActivate**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreatewmvencoderactivate). The encoder is configured automatically based on the settings specified by the application. For more information, see the procedure described in [Using an Encoder's Activation Objects](using-an-encoder-s-activation-objects.md).
 
 For more information about creating Media Foundation objects by using activation objects, see [Activation Objects](activation-objects.md).
 

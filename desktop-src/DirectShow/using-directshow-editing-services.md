@@ -2,7 +2,7 @@
 description: Using DirectShow Editing Services
 ms.assetid: c4182f5c-0710-4a77-894f-759f64974df6
 title: Using DirectShow Editing Services
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

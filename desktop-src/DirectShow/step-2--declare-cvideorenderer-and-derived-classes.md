@@ -2,7 +2,7 @@
 description: This topic is step 2 of the tutorial Audio/Video Playback in DirectShow.
 ms.assetid: 61106781-d10c-41a8-993e-121e0a1e4c4d
 title: 'Step 2: Declare CVideoRenderer and Derived Classes'
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

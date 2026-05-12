@@ -2,7 +2,7 @@
 title: VML Length Attribute
 description: VML Length Attribute
 ms.assetid: b646b827-4b8d-4491-abdf-f1f88e3a6fbc
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

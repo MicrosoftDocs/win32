@@ -5,7 +5,7 @@ ms.assetid: 4b6ef607-8d2e-4209-be61-498302749f7c
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , checking for membership in a group
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,11 +2,16 @@
 description: This topic describes how to retrieve and set values for sensor properties. The ISensor interface provides the methods to set and retrieve values for sensor properties.
 ms.assetid: 7d10e5b4-bae7-4564-84eb-75c6a2eeef8f
 title: Retrieving and Setting Sensor Properties
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 09/19/2025
 ---
 
-# Retrieving and Setting Sensor Properties
+# Setting and Retrieving Sensor Properties
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 This topic describes how to retrieve and set values for sensor properties. The [**ISensor**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor) interface provides the methods to set and retrieve values for sensor properties.
 
@@ -244,6 +249,6 @@ HRESULT SetCurrentReportInterval(ISensor* pSensor, ULONG ulNewInterval)
 [**Sensor Properties**](sensor-properties.md)
 </dt> </dl>
 
- 
 
- 
+
+

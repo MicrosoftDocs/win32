@@ -2,7 +2,7 @@
 description: MJPEG Decompressor Filter
 ms.assetid: 0862fd8c-7e64-4472-9405-4d8e31e4401f
 title: MJPEG Decompressor Filter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

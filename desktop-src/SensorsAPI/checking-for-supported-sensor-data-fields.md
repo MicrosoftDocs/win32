@@ -2,11 +2,16 @@
 description: This topic describes how to verify that a sensor can provide a particular set of data fields.
 ms.assetid: 918ba4a3-d2ac-47ee-ba29-f7ddf67ffbc5
 title: Checking for Supported Sensor Data Fields
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 09/19/2025
 ---
 
 # Checking for Supported Sensor Data Fields
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 This topic describes how to verify that a sensor can provide a particular set of data fields.
 
@@ -90,6 +95,6 @@ BOOL CheckForSupportedDataFields(ISensor* pSensor)
 [**ISensorDataReport**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport)
 </dt> </dl>
 
- 
 
- 
+
+

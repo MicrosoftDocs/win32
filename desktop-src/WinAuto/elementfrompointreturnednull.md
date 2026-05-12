@@ -2,8 +2,8 @@
 title: ElementFromPointReturnedNull
 description: ElementFromPointReturnedNull
 ms.assetid: DBCA6705-BDFD-4024-A505-4539F72A9421
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # ElementFromPointReturnedNull

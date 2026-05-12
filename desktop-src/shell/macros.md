@@ -1,7 +1,7 @@
 ---
 description: This section describes the Windows Shell utility macros.
 title: Shell Macros
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 5be120f4-bf5d-44b3-b508-20a2104655fa
 api_name: 

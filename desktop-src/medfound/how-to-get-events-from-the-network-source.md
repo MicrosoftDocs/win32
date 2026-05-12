@@ -2,7 +2,7 @@
 description: How to Get Events from the Network Source
 ms.assetid: 46869f52-323c-41ec-95f7-e7e5d177b782
 title: How to Get Events from the Network Source
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

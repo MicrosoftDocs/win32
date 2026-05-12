@@ -8,7 +8,7 @@ topic_type:
 - APIRef
 - kbSyntax
 api_name: 
-- COPY_CHUNK
+- IOCTL_LMR_DISABLE_LOCAL_BUFFERING
 api_type: 
 - NA
 api_location: 

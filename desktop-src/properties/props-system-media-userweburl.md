@@ -2,7 +2,7 @@
 description: System.Media.UserWebUrl
 ms.assetid: f4609eb7-6bad-44cb-8b87-daf350931cab
 title: System.Media.UserWebUrl
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

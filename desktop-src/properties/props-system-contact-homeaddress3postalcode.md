@@ -2,7 +2,7 @@
 description: System.Contact.HomeAddress3PostalCode
 ms.assetid: 552ade43-e792-45f2-9b16-f4dd1b4ae2f9
 title: System.Contact.HomeAddress3PostalCode
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

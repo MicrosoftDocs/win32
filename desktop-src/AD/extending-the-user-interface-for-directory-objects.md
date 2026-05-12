@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Active Directory,using,extending the user interface
 - objects AD ,extending the user interface for directory objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

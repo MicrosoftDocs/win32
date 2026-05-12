@@ -3,7 +3,7 @@ description: Completes an asynchronous request to unregister a work queue with a
 ms.assetid: 0E8F9BF6-AC1E-4FC0-BFAE-F292C4859F1F
 title: RtwqEndUnregisterWorkQueueWithMMCSS function
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - APIRef
 - kbSyntax

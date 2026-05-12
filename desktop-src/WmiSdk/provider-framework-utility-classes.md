@@ -3,7 +3,7 @@ description: WMI C++ classes that are part of the WMI Provider Framework are no 
 ms.assetid: d2414a72-3435-4035-bcd9-b3ec87f5709c
 ms.tgt_platform: multiple
 title: Provider Framework Utility Classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -50,7 +50,7 @@ The following table lists the provider framework utility classes.
  
 
 > [!Note]  
-> The [**CHString**](chstring.md) and [**CHStringArray**](/windows/desktop/api/ChStrArr/nl-chstrarr-chstringarray) classes are similar to the Microsoft Foundation Classes (MFC) **CString** and **CStringArray**. The WMI versions exist so that developers can access to string manipulation and comparison methods without having to access MFC. The [**WBEMTime**](wbemtime.md) and [**WBEMTimeSpan**](/windows/desktop/api/WbemTime/nl-wbemtime-wbemtimespan) classes are also similar to the MFC **CTime** and **CTimeSpan** classes. The WMI versions are capable of storing time to nanosecond accuracy, and can also convert to and from **BSTR**. For more information about the CString, CStringArray, CTime, and CTimeSpan classes, see the [Microsoft Foundation Classes](https://msdn.microsoft.com/library/d06h2x6e(VS.71).aspx) on MSDN.
+> The [**CHString**](chstring.md) and [**CHStringArray**](/windows/desktop/api/ChStrArr/nl-chstrarr-chstringarray) classes are similar to the Microsoft Foundation Classes (MFC) **CString** and **CStringArray**. The WMI versions exist so that developers can access to string manipulation and comparison methods without having to access MFC. The [**WBEMTime**](wbemtime.md) and [**WBEMTimeSpan**](/windows/desktop/api/WbemTime/nl-wbemtime-wbemtimespan) classes are also similar to the MFC **CTime** and **CTimeSpan** classes. The WMI versions are capable of storing time to nanosecond accuracy, and can also convert to and from **BSTR**. For more information about the CString, CStringArray, CTime, and CTimeSpan classes, see the [MFC Desktop Applications](/cpp/mfc/mfc-desktop-applications) documentation.
 
  
 

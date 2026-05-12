@@ -2,7 +2,7 @@
 title: WebSocket Protocol Component API
 description: WebSocket Protocol Component API
 ms.assetid: ae73fd5e-9715-448c-b7ca-898f2705e228
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

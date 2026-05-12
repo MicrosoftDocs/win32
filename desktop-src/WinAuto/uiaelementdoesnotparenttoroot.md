@@ -2,8 +2,8 @@
 title: UiaElementDoesNotParentToRoot
 description: UiaElementDoesNotParentToRoot
 ms.assetid: 0A1EDF46-420D-46ED-BD61-CA5E40847071
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # UiaElementDoesNotParentToRoot

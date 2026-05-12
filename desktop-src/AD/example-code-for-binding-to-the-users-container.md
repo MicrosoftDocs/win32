@@ -5,7 +5,7 @@ ms.assetid: 78524b05-f57a-4816-92eb-e37be74dd245
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , binding to user's container
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

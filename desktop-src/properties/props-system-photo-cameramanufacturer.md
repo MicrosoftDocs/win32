@@ -2,7 +2,7 @@
 description: The manufacturer name of the camera that took the photo, in a string format.
 ms.assetid: cf68067a-742b-4acd-b8b1-c6758c35845f
 title: System.Photo.CameraManufacturer
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

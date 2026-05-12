@@ -2,7 +2,7 @@
 description: Configure the Video Output Format
 ms.assetid: 1969072e-575e-49b4-88db-4c7e7a5a1c37
 title: Configure the Video Output Format
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

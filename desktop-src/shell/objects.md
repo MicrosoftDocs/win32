@@ -1,7 +1,7 @@
 ---
 description: This section describes the Windows objects implemented by the Shell.
 title: Shell Objects for Scripting and Microsoft Visual Basic
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: eee58404-808b-451c-8325-8dcd9537fd11
 api_name: 

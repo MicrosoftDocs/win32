@@ -2,7 +2,7 @@
 description: Scope Filter Sample
 ms.assetid: f967d4c7-94d2-440b-9e52-423feefec66d
 title: Scope Filter Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

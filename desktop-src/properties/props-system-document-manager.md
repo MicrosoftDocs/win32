@@ -2,7 +2,7 @@
 description: System.Document.Manager
 ms.assetid: 21b75af5-b53a-430c-9f6c-9296159bec89
 title: System.Document.Manager
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

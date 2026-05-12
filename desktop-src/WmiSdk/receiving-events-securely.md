@@ -3,7 +3,7 @@ description: Temporary and permanent consumers have different methods of securin
 ms.assetid: cd02e5db-f9e2-438b-9632-0a1387a6d4e3
 ms.tgt_platform: multiple
 title: Receiving Events Securely
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

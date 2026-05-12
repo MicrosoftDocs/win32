@@ -2,7 +2,7 @@
 description: Learn about notifications for stream routing. APIs implement stream routing by handling stream switching to a new default audio endpoint.
 ms.assetid: caf831bb-b8de-467f-bdb4-f9f8991dc7a8
 title: Relevant Notifications for Stream Routing
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

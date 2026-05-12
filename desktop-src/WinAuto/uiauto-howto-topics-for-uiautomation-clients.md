@@ -2,8 +2,8 @@
 title: How-To Topics for UI Automation Clients
 description: This section contains code examples that demonstrate tasks in writing Microsoft UI Automation client applications.
 ms.assetid: 36651fe8-c0f0-4f2b-93d0-8168ccfb1af7
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # How-To Topics for UI Automation Clients

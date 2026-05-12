@@ -2,7 +2,7 @@
 title: VML Top Attribute
 description: VML Top Attribute
 ms.assetid: faad0c76-3566-4a51-962b-971667df2025
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

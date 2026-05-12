@@ -1,12 +1,12 @@
 ---
 description: Filter handlers, which are implementations of the IFilter interface, scan documents for text and properties.
 ms.assetid: 2ee9ea19-ae03-4f14-8f06-f8aa670e204e
-title: Understanding Filter Handlers in Windows Search
-ms.topic: article
+title: Understanding filter handlers in Windows Search
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Understanding Filter Handlers in Windows Search
+# Understanding filter handlers in Windows Search
 
 Filter handlers, which are implementations of the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface, scan documents for text and properties. Filter handlers extract chunks of text from these items, filtering out embedded formatting and retaining information about the position of the text. They also extract chunks of values, which are document properties. **IFilter** is the foundation for building higher-level applications such as document indexers and application-independent viewers.
 
@@ -22,7 +22,7 @@ This topic is organized as follows:
 - [Additional Resources](#additional-resources)
 - [Related topics](#related-topics)
 
-## About the IFilter Interface
+## About the IFilter interface
 
 Microsoft Windows Search uses filters to extract the content of items for inclusion in a full-text index. You can extend Windows Search to index new or proprietary file types by writing filters to extract the content, and property handlers to extract the properties of files.
 
@@ -46,7 +46,7 @@ The [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface has fiv
 | [**IFilter::GetValue**](/windows/win32/api/filter/nf-filter-ifilter-getvalue)     | Retrieves values from the current chunk.                                                                           |
 | [**IFilter::BindRegion**](/windows/win32/api/filter/nf-filter-ifilter-bindregion) | Retrieves an interface representing the specified portion of object. Reserved for future use.                      |
 
-### Isolation Process
+### Isolation process
 
 Windows Search runs IFilters in the Local System security context with restricted rights. In this [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) host isolation process, a number of rights are removed:
 
@@ -63,21 +63,21 @@ The removal of these rights means the [**IFilter**](/windows/win32/api/filter/nn
 > [!NOTE]  
 > Filter handlers must be written to manage buffers, and stack correctly. All string copies must have explicit checks to guard against buffer overruns. You should always verify the allocated size of the buffer. You should always test the size of the data against the size of the buffer.
 
-### IFilter DLLs
+### IFilter dlls
 
 [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) DLLs implement the **IFilter** interface to enable a client to extract text and property value information from a file type, class, or perceived type. The Windows Search filtering process **SearchFilterHost.exe** binds to the **IFilter** that is registered for the class, perceived type, or name extension of the item.
 
-### IFilter Structure
+### IFilter structure
 
 Each [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) is a DLL file that implements an in-process Component Object Model (COM) server to supply the specified filtering capabilities. The following figure illustrates shows the overall structure of a typical **IFilter** DLLs. A more complex example could implement more than one **IFilter** class.
 
 ![diagram of the structure of a typical ifilter dll](images/ifilter-structure.png)
 
-### Native Code
+### Native code
 
 Filters must be written in native code due to potential common language runtime (CLR) versioning issues with the process that multiple add-ins run in. In Windows 7 and later and later, filters written in managed code are explicitly blocked.
 
-## Finding the IFilter Class Identifier
+## Finding the IFilter class identifier
 
 The class of the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) DLL is registered under the PersistentHandler registry key. The following example, for HTML files, illustrates how to find the **IFilter** DLL for an HTML document. This example follows logic similar to that used by the system to find the **IFilter** associated with an item.
 
@@ -135,7 +135,7 @@ The class of the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) DLL
 > [!NOTE]  
 > In this example, the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) DLL for HTML documents is nlhtml.dll.
 
-### IFilter::GetChunk and Locale Code Identifiers
+### IFilter::GetChunk and locale code identifiers
 
 The LCID of text can change within a single file. For example, the text of an instruction manual might alternate between English (en-us) and Spanish (es) or the text may include a single word in a language other than the primary language. In either case, your [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) must begin a new chunk each time the LCID changes. Because the LCID is used to choose an appropriate word breaker, it is very important that you correctly identify it. If the **IFilter** cannot determine the locale of the text, then it should return an LCID of zero with the chunk. Returning an LCID of zero causes Windows Search to use Language Auto-Detection (LAD) technology to determine the locale ID of the chunk. If Windows Search cannot find a match, it defaults to the system default locale (by calling the [GetSystemDefaultLocaleName Function](/windows/win32/api/winnls/nf-winnls-getsystemdefaultlocalename) function). For more information, see [**IFilter::GetChunk**](/windows/win32/api/filter/nf-filter-ifilter-getchunk), [**CHUNK\_BREAKTYPE**](/windows/win32/api/filter/ne-filter-chunk_breaktype), [**CHUNKSTATE**](/windows/win32/api/filter/ne-filter-chunkstate), and [**STAT\_CHUNK**](/windows/win32/api/filter/ns-filter-stat_chunk).
 
@@ -144,7 +144,7 @@ If you control the file format and it currently does not contain locale informat
 > [!NOTE]  
 > Filters are associated with file types, as denoted by file name extensions, MIME types or CLSIDs. While one filter can handle multiple file types, each type works with only one filter.
 
-## Additional Resources
+## Additional resources
 
 - The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [GitHub](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), demonstrates how to create an IFilter base class for implementing the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface.
 - For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).

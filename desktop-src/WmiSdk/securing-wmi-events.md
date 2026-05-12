@@ -3,7 +3,7 @@ description: WMI events are delivered by the event provider to a temporary or pe
 ms.assetid: 86eaeb5c-c27e-4794-88e2-e0ffbb885290
 ms.tgt_platform: multiple
 title: Securing WMI Events
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

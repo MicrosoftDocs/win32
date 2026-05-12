@@ -9,7 +9,7 @@ keywords:
 - type definitions MIDL
 - construct declarations MIDL
 - imports MIDL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

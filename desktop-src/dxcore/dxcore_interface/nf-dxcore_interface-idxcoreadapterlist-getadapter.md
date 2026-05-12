@@ -62,4 +62,4 @@ Multiple calls passing an index that represents the same adapter return identica
 
 ## See also
 
-[IDXCoreAdapterList](./nn-dxcore_interface-idxcoreadapterlist.md), [DXCore Reference](../dxcore-reference.md), [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md)
+[IDXCoreAdapterList](./nn-dxcore_interface-idxcoreadapterlist.md), [DXCore reference](../dxcore-reference.md), [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md)

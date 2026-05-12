@@ -2,7 +2,7 @@
 description: Encoder-Specific Registry Entries
 ms.assetid: bbb78d70-bd3e-4d5a-ba59-2e17d2d1cf30
 title: Encoder-Specific Registry Entries
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

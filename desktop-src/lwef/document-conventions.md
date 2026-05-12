@@ -2,7 +2,7 @@
 title: Document Conventions
 description: Document Conventions
 ms.assetid: 63ff3427-6a91-4968-ad8d-f8b56c3587a8
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

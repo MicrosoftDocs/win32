@@ -2,7 +2,7 @@
 title: About Tooltip Controls
 description: Tooltips appear automatically, or pop up, when the user pauses the mouse pointer over a tool or some other UI element.
 ms.assetid: 1020cec7-57b4-4463-9419-f80fd14fa12c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

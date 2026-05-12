@@ -5,7 +5,7 @@ ms.assetid: ed945812-3adb-4058-bdb6-8d9d34468265
 ms.tgt_platform: multiple
 keywords:
 - Registering a Static Context Menu Item AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

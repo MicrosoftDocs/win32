@@ -3,7 +3,7 @@ description: Describes how to retrieve a WMI qualifier using Powershell, C#, VBS
 ms.assetid: 53a307da-2e81-4361-876a-16b51484512e
 ms.tgt_platform: multiple
 title: Accessing a WMI qualifier
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

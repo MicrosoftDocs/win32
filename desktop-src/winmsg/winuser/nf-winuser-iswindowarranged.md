@@ -27,7 +27,7 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+ - APIRef
 api_type:
  - DllExport
 api_location:

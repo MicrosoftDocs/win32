@@ -15,7 +15,7 @@ keywords:
 - glIndex functions
 - index functions
 - color functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: About the Video Mixing Render
 ms.assetid: ae1564c2-5084-45c7-af69-b9120c4a290c
 title: About the Video Mixing Render
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

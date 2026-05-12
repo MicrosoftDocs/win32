@@ -2,7 +2,7 @@
 title: Descriptor Heap Configurability Summary
 description: The following table summarizes information about Shader and non-Shader visible heap support.
 ms.assetid: DF266915-6224-4FFB-BE3E-34A44F7318DD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

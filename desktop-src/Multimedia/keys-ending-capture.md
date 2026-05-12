@@ -8,7 +8,7 @@ keywords:
 - CAPTUREPARMS structure
 - WM_CAP_SET_SEQUENCE_SETUP message
 - capCaptureSetSetup macro
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

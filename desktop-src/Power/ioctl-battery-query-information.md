@@ -3,7 +3,7 @@ description: Retrieves a variety of information for the battery.
 ms.assetid: 4cc89b89-ab33-47c2-8327-9627cbd1595e
 title: IOCTL_BATTERY_QUERY_INFORMATION control code (Poclass.h)
 ms.topic: reference
-ms.date: 01/06/2022
+ms.date: 07/14/2025
 topic_type:
 - APIRef
 - kbSyntax

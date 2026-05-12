@@ -2,7 +2,7 @@
 description: The Microsoft Windows Journal Note Reader component provides programmatic read access to files in the Journal format.
 ms.assetid: 85dcda59-2972-48e3-a9f5-5cce0b60a1f1
 title: Using the Journal Reader Component
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

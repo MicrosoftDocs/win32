@@ -2,7 +2,7 @@
 description: A list of the Windows Installer properties giving values written under the Uninstall registry key.
 ms.assetid: f831cc62-4b19-4285-8bb1-6080567ac985
 title: Windows Installer Properties for the Uninstall Registry Key
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ The following installer properties give the values written under the registry ke
 
 **HKEY\_LOCAL\_MACHINE**\\**Software**\\**Microsoft**\\**Windows**\\**CurrentVersion**\\**Uninstall**
 
-The values are stored in a subkey identified by the application's product code GUID.
+The values are stored in a subkey identified by the application's [product code](productcode.md) GUID.
 
 
 

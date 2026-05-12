@@ -7,7 +7,7 @@ keywords:
 - Accessing the Property Cache Directly with the IADsProperty Interfaces ADSI
 - property cache ADSI
 - property cache ADSI , using IADsProperty interfaces to access the property cache
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

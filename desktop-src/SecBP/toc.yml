@@ -28,5 +28,5 @@
       href: password-threat-assessment.md
     - name: "Threat Mitigation Techniques"
       href: threat-mitigation-techniques.md
-  - name: "How to Optimize Your MSDN Library Search"
-    href: how-to-optimize-your-msdn-library-search.md
+  - name: "Understanding PE Signatures"
+    href: understanding-pe-signatures.md

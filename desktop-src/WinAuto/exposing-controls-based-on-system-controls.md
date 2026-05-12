@@ -2,8 +2,8 @@
 title: Exposing Controls Based on System Controls
 description: Exposing Controls Based on System Controls
 ms.assetid: 9291b79e-3ed0-4f3c-a610-38215d84f5ff
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Exposing Controls Based on System Controls

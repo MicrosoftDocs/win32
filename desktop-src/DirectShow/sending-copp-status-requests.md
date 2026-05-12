@@ -2,7 +2,7 @@
 description: Sending COPP Status Requests
 ms.assetid: 9f9950ff-469f-4cea-924e-3f9471eb4838
 title: Sending COPP Status Requests
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

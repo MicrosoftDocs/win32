@@ -1,7 +1,7 @@
 ---
 title: RegisterHyperVVMCreator method of the MSFT_NetFirewallHyperVVMCreator class
 description: Registers a Hyper-V VM Creator with the firewall service.
-ms.topic: article
+ms.topic: reference
 ms.date: 05/17/2024
 topic_type: 
 - APIRef
@@ -39,7 +39,7 @@ A friendly name of the Hyper-V VM Creator.
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Minimum supported client | Windows 8 |
 | Minimum supported server | Windows Server 2012 |

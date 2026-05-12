@@ -2,7 +2,7 @@
 description: Evalcom2.dll can be used to implement validation operations for installation packages and merge modules using Internal Consistency Evaluators - ICEs.
 ms.assetid: df38e75e-554c-4a6d-b9ad-8eee5123a16f
 title: Using Evalcom2
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

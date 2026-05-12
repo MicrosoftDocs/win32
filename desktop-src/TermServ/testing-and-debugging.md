@@ -3,7 +3,7 @@ title: Testing and Debugging
 description: There is an \ 0034;echo \ 0034; listener that is implemented by the Remote Desktop Connection (RDC) client, which is always present and listening for incoming connections.
 ms.assetid: ae14af04-7d19-406b-998e-a0579cfe73eb
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -1,12 +1,12 @@
 ---
 description: Microsoft Windows Search uses property handlers to extract the values of properties from items and uses the property system schema to determine how a specific property should be indexed.
 ms.assetid: b475329a-1ed7-43a4-8e11-3700889a4ce9
-title: Developing Property Handlers for Windows Search
-ms.topic: article
+title: Developing property handlers for Windows Search
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
-# Developing Property Handlers for Windows Search
+# Developing property handlers for Windows Search
 
 Microsoft Windows Search uses property handlers to extract the values of properties from items and uses the property system schema to determine how a specific property should be indexed. To read and index property values, property handlers are invoked out-of-process by Windows Search to improve security and robustness. In contrast, property handlers are invoked in-process by Windows Explorer to read and write property values.
 
@@ -31,7 +31,7 @@ This topic supplements the [Property System](../properties/building-property-han
 
  
 
-## Design Decisions for Property Handlers
+## Design decisions for property handlers
 
 Implementing property handlers involves the following steps:
 
@@ -58,7 +58,7 @@ Before you begin, you need to consider the following design questions:
 
 After you have made these decisions, you can write formal descriptions of your custom properties so that the Windows Search engine can begin indexing your files and properties. These formal descriptions are XML files, described in [Property Description Schema](/previous-versions//cc144127(v=vs.85)).
 
-### Property Decisions
+### Property decisions
 
 When considering which properties to support, you should identify your users' indexing and searching needs. For example, you may be able to identify one hundred potentially useful properties for your file type, but users may be interested in searching on only a handful. Furthermore, you may want to display a different, larger or smaller, group of those properties to users in Windows Explorer, and allow users to edit only a subset of those properties displayed.
 
@@ -130,7 +130,7 @@ For each of these properties, you need to determine what attributes it should ha
 
  
 
-### Full-Text Support
+### Full-text support
 
 Generally speaking, full-text search is supported by components called [filters](-search-3x-wds-extidx-filters.md); however, for text-based file types with uncomplicated file formats, property handlers may be able to provide this functionality with less development effort. You should review the [Full-Text Contents](../properties/building-property-handlers-property-handlers.md) section for a comparison of filter and property handler functionality to help you decide what is best for your file type. Of particular importance is the fact that filters can handle multiple language code identifiers (LCIDs) per file while property handlers cannot.
 
@@ -139,9 +139,9 @@ Generally speaking, full-text search is supported by components called [filters]
 
  
 
-### Operating System Implementatation Considerations
+### Operating system implementatation considerations
 
-### Implementation Information for Windows 7
+### Implementation information for Windows 7
 
 In Windows 7 and later, there is new behavior when registering a property handler, [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter), or new extension. When a new property handler and/or **IFilter** is installed, files with the corresponding extensions are automatically reindexed.
 
@@ -155,7 +155,7 @@ For property description flags specific to Windows 7, see the following referen
 -   [PROPDESC\_COLUMNINDEX\_TYPE](/windows/win32/api/propsys/ne-propsys-propdesc_columnindex_type)
 -   [PROPDESC\_SEARCHINFO\_FLAGS](/windows/win32/api/propsys/ne-propsys-propdesc_searchinfo_flags)
 
-### Implementation Information for Windows Vista and Earlier
+### Implementation information for Windows Vista and earlier
 
 Prior to Windows Vista, filters provided support for parsing and enumerating file content and properties. With the introduction of the property system, property handlers handle file properties while filters handle file content. For Windows Vista, you need develop only a partial implementation of the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)interface in coordination with a property handler, as described in [Best Practices for Creating Filter Handlers in Windows Search](-search-3x-wds-extidx-filters.md).
 
@@ -163,7 +163,7 @@ While the property system is also included with the Windows Search installation 
 
  
 
-## Writing Property Description Files
+## Writing property description files
 
 The structure of property description XML files (.propdesc) is described in the [propertyDescription](../properties/propdesc-schema-propertydescription.md) topic. Of particular interest for search are the attributes of the [searchInfo](../properties/propdesc-schema-searchinfo.md) element. Once you've decided which properties to support, you need to create and register property description files for each properties. When you register your .propdesc files, they are included in the schema's property description list and become column names within the Search engine's property store.
 
@@ -171,7 +171,7 @@ You can register your custom property descriptions using the [PSRegisterProperty
 
  
 
-## Implementing Property Handlers
+## Implementing property handlers
 
 Developing a property handler involves implementing the following interfaces:
 
@@ -220,7 +220,7 @@ Property handlers can optionally implement this interface to disable a user's ab
 
  
 
-## Ensuring Your Items Get Indexed
+## Ensuring your items get indexed
 
 Now that you've implemented your property handler, you want to make sure the items your handler is registered for get indexed. You can use the [Catalog Manager](-search-3x-wds-mngidx-catalog-manager.md) to initiate re-indexing, and you can also use the [Crawl Scope Manager](-search-3x-wds-extidx-csm.md) to set up default rules indicating the URLs you want the Indexer to crawl. Another option is to follow the ReIndex code sample in the [Windows Search Code Samples](-search-samples-ovw.md).
 
@@ -228,7 +228,7 @@ For further information, refer to [Using the Catalog Manager](-search-3x-wds-mng
 
  
 
-## Installing and Registering Property Handlers
+## Installing and registering property handlers
 
 With the property handler implemented, it must be registered and its file name extension associated with the handler. The following example shows the registry keys and values required to do this.
 
@@ -256,7 +256,7 @@ HKEY_LOCAL_MACHINE
 
  
 
-## Testing and Troubleshooting Property Handlers
+## Testing and troubleshooting property handlers
 
 The following list provides advice on the kinds of tests you should perform:
 
@@ -270,7 +270,7 @@ The following list provides advice on the kinds of tests you should perform:
     -   Use multiple special Unicode characters in the file contents and test for their output.
     -   Test the handling of very large documents to ensure the property handler works as expected.
 
-### Installation and Setup Tests
+### Installation and setup tests
 
 Lastly, you need to test your install and uninstall routines.
 
@@ -280,7 +280,7 @@ Lastly, you need to test your install and uninstall routines.
 -   Registry keys associated with the property handler must be removed when uninstalled.
 -   Uninstall must work even if files are deleted from the installation directory.
 
-### Troubleshooting Property Handlers
+### Troubleshooting property handlers
 
 The following are some common errors made while developing property handlers:
 
@@ -309,7 +309,7 @@ If your test file is in an indexed location and the indexer has already crawled 
 
  
 
-## Using System-Supplied Property Handlers
+## Using system-supplied property handlers
 
 Windows includes a number of system-supplied property handlers that you can use if the format of your file type is compatible. If you define a new file extension that uses one of these formats you can use the system-provided handlers by registering the handler class identifier (CLSID) for your file extension.
 

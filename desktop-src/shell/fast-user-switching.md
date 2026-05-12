@@ -2,7 +2,7 @@
 description: In older operating systems, a user was required to log off before another user could log on. As of Windows XP, a user does not have to log off to allow another user to log on.
 ms.assetid: 72f99d32-184f-4f0b-bec1-6068c6e32f88
 title: Fast User Switching
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

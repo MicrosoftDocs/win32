@@ -1,12 +1,12 @@
 ---
 description: This topic lists new documentation introduced for Windows 7. Some documentation that is not listed here also contains new Windows 7 content, such as conceptual topics, and new enumeration, constant, and flag values in revisions to existing topics.
 ms.assetid: 1e6808b0-c00f-46ec-9743-5300117f7d47
-title: New for Windows 7 Search
-ms.topic: article
+title: New for Windows 7 search
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# New for Windows 7 Search
+# New for Windows 7 search
 
 This topic lists new documentation introduced for Windows 7. Some documentation that is not listed here also contains new Windows 7 content, such as conceptual topics, and new enumeration, constant, and flag values in revisions to existing topics.
 
@@ -24,7 +24,7 @@ This topic is organized as follows:
 -   [Structures](#structures)
 -   [Related topics](#related-topics)
 
-## Code Samples
+## Code samples
 
 
 
@@ -46,11 +46,11 @@ This topic is organized as follows:
 
  
 
-## Conceptual Overviews
+## Conceptual overviews
 
 There are Windows 7 conceptual overviews for the following areas.
 
-### Federated Search
+### Federated search
 
 
 
@@ -87,7 +87,7 @@ There are Windows 7 conceptual overviews for the following areas.
 
  
 
-### Indexing, and Querying the Index
+### Indexing, and querying the index
 
 
 
@@ -140,7 +140,7 @@ There are Windows 7 conceptual overviews for the following areas.
 | [**ICondition2**](/windows/desktop/api/Structuredquerycondition/nn-structuredquerycondition-icondition2)                             | Extends the functionality of the [**ICondition**](/windows/desktop/api/Structuredquerycondition/nn-structuredquerycondition-icondition) interface. [**ICondition2**](/windows/desktop/api/Structuredquerycondition/nn-structuredquerycondition-icondition2) provides methods for retrieving information about a search condition.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | [**IConditionFactory2**](/windows/desktop/api/Structuredquery/nn-structuredquery-iconditionfactory2)               | Extends the functionality of [**IConditionFactory**](/windows/desktop/api/Structuredquery/nn-structuredquery-iconditionfactory). [**IConditionFactory2**](/windows/desktop/api/Structuredquery/nn-structuredquery-iconditionfactory2) provides methods for creating or resolving a condition tree that was obtained by parsing a query string.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | [**IRichChunk**](/windows/desktop/api/Structuredquerycondition/nn-structuredquerycondition-irichchunk)                               | Represents a chunk of data as a string and a [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) value. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| [**IRowsetEvents**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetevents)                         | Exposes methods for receiving event notifications. In Windows 7 and later, indexer eventing permits data providers to receive notifications on their rowsets. Providers that utilize indexing eventing are able to maintain their rowsets in a manner akin to actual file system locations (examples of such non file system locations are Libraries and Searches). Indexer eventing is to Library views what file system notifications is to file folder views.<br/> [**IRowsetEvents**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetevents) must be implemented to receive the following notifications on events: [OnChangedItem](/windows/win32/api/searchapi/nf-searchapi-irowsetevents-onchangeditem), [OnDeletedItem](/windows/win32/api/searchapi/nf-searchapi-irowsetevents-ondeleteditem), [OnNewItem](/windows/win32/api/searchapi/nf-searchapi-irowsetevents-onnewitem) and [OnRowsetEvent](/windows/win32/api/searchapi/nf-searchapi-irowsetevents-onrowsetevent). The [**ROWSETEVENT\_ITEMSTATE**](/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate) and [**ROWSETEVENT\_TYPE**](/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type) enumeratiors capture the item state and rowset event, respectively. <br/> |
+| [**IRowsetEvents**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetevents)                         | Exposes methods for receiving event notifications. In Windows 7 and later, indexer eventing permits data providers to receive notifications on their rowsets. Providers that utilize indexing eventing are able to maintain their rowsets in a manner akin to actual file system locations (examples of such non file system locations are Libraries and Searches). Indexer eventing is to Library views what file system notifications is to file folder views.<br/> [**IRowsetEvents**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetevents) must be implemented to receive the following notifications on events: [OnChangedItem](/windows/win32/api/searchapi/nf-searchapi-irowsetevents-onchangeditem), [OnDeletedItem](/windows/win32/api/searchapi/nf-searchapi-irowsetevents-ondeleteditem), [OnNewItem](/windows/win32/api/searchapi/nf-searchapi-irowsetevents-onnewitem) and [OnRowsetEvent](/windows/win32/api/searchapi/nf-searchapi-irowsetevents-onrowsetevent). The [**ROWSETEVENT\_ITEMSTATE**](/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate) and [**ROWSETEVENT\_TYPE**](/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type) enumerators capture the item state and rowset event, respectively. <br/> |
 | [**IRowsetPrioritization**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetprioritization)         | Sets or retrieves the current indexer prioritization level for the scope specified by this query. <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | [**ISearchCrawlScopeManager2**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager2) | Extends the functionality of the [**ISearchCrawlScopeManager**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager) interface. [**ISearchCrawlScopeManager2**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcrawlscopemanager2) provides methods that notify the search engine of containers to crawl and/or watch, and items under those containers to include or exclude when crawling or watching.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 
@@ -148,7 +148,7 @@ There are Windows 7 conceptual overviews for the following areas.
 
  
 
-## Schema Elements
+## Schema elements
 
 
 

@@ -2,7 +2,7 @@
 description: This section describes including cabinet files in installations. For more information, see Using Cabinets and Compressed Sources.
 ms.assetid: 17ea7f76-90b2-48fb-8187-64dc6d294443
 title: Including a Cabinet File in an Installation
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This section describes including cabinet files in installations. For more information, see [Using Cabinets and Compressed Sources](using-cabinets-and-compressed-sources.md).
 
-**To include a cabinet file in a installation package**
+**To include a cabinet file in an installation package**
 
 1.  Use a cabinet creation tool to compress the source files into a cabinet file. See [Cabinet Files](cabinet-files.md).
 2.  The cabinet file must either be located in a data stream inside the .msi file or in a separate cabinet file located at the root of the source tree specified by the [Directory Table](directory-table.md).

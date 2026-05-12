@@ -2,7 +2,7 @@
 description: Calculating Parameter Values
 ms.assetid: cc3c26ed-a007-4350-99be-0ebd94953689
 title: Calculating Parameter Values
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

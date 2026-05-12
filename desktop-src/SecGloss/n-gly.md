@@ -3,7 +3,7 @@ description: Contains definitions of security terms that begin with the letter N
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 28d229ef-53ce-4d17-aba0-3bbf51e3ff0c
 title: N (Security Glossary)
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

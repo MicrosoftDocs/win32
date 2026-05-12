@@ -2,7 +2,7 @@
 description: 'The following functions enable an application to save, restore, and reset a device context: SaveDC, RestoreDC, and ResetDC.'
 ms.assetid: 22837876-2665-49c6-908e-80e107fc09f4
 title: Saving, Restoring, and Resetting a Device Context
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

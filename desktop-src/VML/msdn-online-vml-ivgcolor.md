@@ -2,7 +2,7 @@
 title: VML IVgColor
 description: VML IVgColor
 ms.assetid: 6121c5bf-1969-4402-9f45-8891a1538fea
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

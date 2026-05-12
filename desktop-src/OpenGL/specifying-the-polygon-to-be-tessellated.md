@@ -2,7 +2,7 @@
 title: Specifying the Polygon to Be Tessellated
 description: You specify a polygon (possibly containing holes) to be tessellated using
 ms.assetid: 23e56d3e-c26c-4158-b0ce-cf8fcea22927
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

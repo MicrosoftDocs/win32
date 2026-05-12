@@ -2,7 +2,7 @@
 description: 'WsdCodeGen has two functions: generating configuration files and generating source code for WSDAPI client and host applications.'
 ms.assetid: 75f5071c-040b-4e65-a80e-e1fea63535b0
 title: WsdCodeGen Command Line Syntax
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

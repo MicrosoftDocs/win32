@@ -2,7 +2,7 @@
 title: Delegation of QueryInterface
 description: Delegation of QueryInterface
 ms.assetid: c5c1b584-9ca3-4dc4-a769-0142e5d8790a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

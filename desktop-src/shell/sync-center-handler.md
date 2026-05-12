@@ -1,7 +1,7 @@
 ---
 description: This topic provides a step-by-step examination of the requirements to build a DLL file that implements a handler to be used with Sync Center. This information is valid as of Windows Vista.
 title: Developing a Windows Sync Center Handler
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.assetid: 66b40f81-9515-4190-8ced-44f20bb9df86
 api_name: 

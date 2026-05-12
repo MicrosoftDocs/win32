@@ -4,7 +4,7 @@ description: One of the most common current uses of persistent properties is to 
 ms.assetid: 95136e9a-4c80-4704-ae65-9759487cf8f8
 keywords:
 - COM Objects and Structured Storage
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -18,7 +18,7 @@ In Windows 3.1, each application had a different way of storing this data within
 
 COM property sets and the property set interfaces make it possible to see the document properties without running the creating application. For example, all versions of Microsoft Word 6.0 or later, and many other COM-enabled applications now save their documents using COM structured storage and the property set standard described here. Thus, other Office Suite applications are able to display [The Summary Information Property Set](the-summary-information-property-set.md) for such a file, as long as that file is a COM structured storage file, and the creating application saved the information in the COM Property Set format. The Windows 95 or Windows 98 shell, for example, uses this, and allows the end user to view the properties of any Word 6.0 or later document directly from the shell.
 
-To use property sets from other applications, the other applications must recognize how to interpret the properties within a property set, which implies a standard. COM has pioneered this approach by defining one standard property set, the COM Summary Information Property Set. Any application that has the definition of this property set can easily access the summary information contained in any document created by an COM application that uses that property set specification.
+To use property sets from other applications, the other applications must recognize how to interpret the properties within a property set, which implies a standard. COM has pioneered this approach by defining one standard property set, the COM Summary Information Property Set. Any application that has the definition of this property set can easily access the summary information contained in any document created by a COM application that uses that property set specification.
 
  
 

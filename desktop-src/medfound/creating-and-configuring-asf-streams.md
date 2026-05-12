@@ -2,7 +2,7 @@
 description: Each ASF file contains one or more streams. The ASF Profile object represents a collection of ASF streams. For ASF encoding, you must create and configure the streams that you want to encode.
 ms.assetid: cc89e8bc-58ff-48e2-9668-0dcd6cfd25e1
 title: Creating and Configuring ASF Streams
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

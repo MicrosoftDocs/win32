@@ -2,7 +2,7 @@
 title: Cursor Functions
 description: Cursor Functions
 ms.assetid: fa74eed0-a862-4345-a13a-0c4234b6a5b6
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

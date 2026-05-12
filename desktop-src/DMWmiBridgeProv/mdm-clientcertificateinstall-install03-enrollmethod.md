@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # EnrollMethod method of the MDM\_ClientCertificateInstall\_Install03 class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+
 
 Triggers the device to start the certificate enrollment. The device will not notify MDM server after certificate enrollment is done. The MDM server could later query the device to find out whether new certificate is added. See also, [**Enroll**](/windows/client-management/mdm/clientcertificateinstall-csp).
 

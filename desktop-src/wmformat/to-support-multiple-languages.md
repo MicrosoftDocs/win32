@@ -12,7 +12,7 @@ keywords:
 - ASF (Advanced Systems Format),multiple language support
 - Advanced Systems Format (ASF),language support
 - ASF (Advanced Systems Format),language support
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

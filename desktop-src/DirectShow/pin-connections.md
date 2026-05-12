@@ -2,7 +2,7 @@
 description: Pin Connections
 ms.assetid: 1406ade4-77d8-49a7-8f36-cc49ff007a26
 title: Pin Connections
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

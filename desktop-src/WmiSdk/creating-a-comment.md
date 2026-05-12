@@ -3,7 +3,7 @@ description: The Managed Object Format (MOF) compiler supports two styles of com
 ms.assetid: 5ab71b45-7ed1-44c4-8710-6b833b0afb80
 ms.tgt_platform: multiple
 title: Creating a Comment
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

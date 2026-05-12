@@ -23,4 +23,4 @@ Returns `true` if this DXCore adapter object is still valid. Otherwise, return
 
 ## See also
 
-[IDXCoreAdapter](./nn-dxcore_interface-idxcoreadapter.md), [DXCore Reference](../dxcore-reference.md), [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md)
+[IDXCoreAdapter](./nn-dxcore_interface-idxcoreadapter.md), [DXCore reference](../dxcore-reference.md), [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md)

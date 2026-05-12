@@ -7,7 +7,7 @@ keywords:
 - transfer job BITS , errors
 - errors BITS
 - errors BITS , handling
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

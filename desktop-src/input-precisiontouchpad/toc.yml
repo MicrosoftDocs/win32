@@ -1,0 +1,32 @@
+- name: "Precision Touchpad Input"
+  href: precision-touchpad-portal.md
+  items: 
+  - name: "Precision Touchpad Programming Guide"
+    href: precision-touchpad-guide.md
+  - name: "Precision Touchpad Reference"
+    href: precision-touchpad-reference.md
+    items: 
+    - name: "Functions"
+      items: 
+      - name: "RegisterTouchpadCapableWindow, RegisterTouchpadCapableThread"
+        href: registertouchpadcapable.md
+      - name: "GetPointerTouchpadInfo"
+        href: getpointertouchpadinfo.md
+      - name: "ReportWindowContentInertia"
+        href: reportwindowcontentinertia.md
+      - name: "ProcessPointerFramesInteractionContext2, BufferPointerPacketsInteractionContext2"
+        href: processpointerframesinteractioncontext2.md
+      - name: "CreateSyntheticPointerDevice2"
+        href: createsyntheticpointerdevice2.md
+      - name: "InjectTouchpadAction"
+        href: injecttouchpadaction.md
+    - name: "Classes and Interfaces"
+      items: 
+      - name: "TouchpadGesturesController"
+        href: touchpadgesturescontroller.md
+      - name: "PhysicalGestureRecognizer"
+        href: physicalgesturerecognizer.md
+      - name: "IPointerPointPhysicalPosition"
+        href: ipointerpointphysicalposition.md
+      - name: "IPointerDeviceInterop"
+        href: ipointerdeviceinterop.md

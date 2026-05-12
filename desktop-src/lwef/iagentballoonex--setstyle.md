@@ -2,7 +2,7 @@
 title: IAgentBalloonEx SetStyle
 description: IAgentBalloonEx SetStyle
 ms.assetid: 5be569b7-8a2d-437b-b5db-401af343bc78
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

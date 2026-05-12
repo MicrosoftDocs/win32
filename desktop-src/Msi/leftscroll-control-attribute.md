@@ -2,7 +2,7 @@
 description: If this bit is set, the scroll bar is located on the left side of the control.
 ms.assetid: bf59ec6b-ac24-4a0b-9326-aea181b7539b
 title: LeftScroll Control Attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

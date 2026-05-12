@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MFNETSOURCE\_PPBANDWIDTH property
 
-Specifies the packet-pair bandwidth and run-time bandwidth detected by the network source. The property value is a array of two values:
+Specifies the packet-pair bandwidth and run-time bandwidth detected by the network source. The property value is an array of two values:
 
 -   Packet-pair bandwidth, in bits per second.
 -   Run-time bandwidth, in bits per second.

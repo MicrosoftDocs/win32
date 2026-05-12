@@ -2,7 +2,7 @@
 title: What Happens During a Query
 description: This section describes how the network handles the query when a 32-bit client searches for a name in its own domain.
 ms.assetid: a8a88743-a245-4258-af05-9261c214ab50
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

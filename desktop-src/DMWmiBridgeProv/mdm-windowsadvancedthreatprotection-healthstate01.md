@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # MDM\_WindowsAdvancedThreatProtection\_HealthState01 class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+
 
 The **MDM\_WindowsAdvancedThreatProtection\_HealthState01** class is used to determine the health status of Windows Defender Advanced Threat Protection (WDATP) endpoints.
 

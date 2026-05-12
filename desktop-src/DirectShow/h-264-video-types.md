@@ -2,7 +2,7 @@
 description: H.264 Video Types
 ms.assetid: aa3166b2-6b04-44fa-bc9d-c8ff46f99201
 title: H.264 Video Types
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -1,11 +1,9 @@
 ---
 description: Serves as a base class for classes that provice access to network settings data, such as MSFT\_NetIPsecDoSPSetting and MSFT\_NetSecuritySettingData.
 ms.assetid: 33499cab-f593-47b6-852a-fb20278e1339
-title: MSFT\_NetSettingData class
-
-
+title: MSFT\_NetSettingData class (WFasCim)
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -19,8 +17,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# MSFT\_NetSettingData class
-
+# MSFT\_NetSettingData class (WFasCim)
 Serves as a base class for classes that provice access to network settings data, such as [**MSFT\_NetIPsecDoSPSetting**](msft-netipsecdospsetting.md) and [**MSFT\_NetSecuritySettingData**](msft-netsecuritysettingdata.md).
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
@@ -41,7 +38,7 @@ The **MSFT\_NetSettingData** class does not define any members.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                         |

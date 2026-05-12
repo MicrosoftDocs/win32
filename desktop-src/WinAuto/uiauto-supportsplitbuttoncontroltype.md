@@ -19,8 +19,8 @@ keywords:
 - control types,control patterns for SplitButton control type
 - control types,support for SplitButton
 - control types,SplitButton
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # SplitButton Control Type

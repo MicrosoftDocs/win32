@@ -2,7 +2,7 @@
 title: Management Types
 description: Management Types
 ms.assetid: 9C392913-C1CA-4988-978C-8AC030FD0A26
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

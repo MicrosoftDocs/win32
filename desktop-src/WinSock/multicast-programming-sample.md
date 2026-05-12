@@ -2,7 +2,7 @@
 description: Multicast Programming Sample
 ms.assetid: 87a6d3bb-3827-4a84-ba2d-c7bd2dd73eb2
 title: Multicast Programming Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

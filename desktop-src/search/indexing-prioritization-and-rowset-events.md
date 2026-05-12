@@ -1,12 +1,12 @@
 ---
 description: Outlines the introduction of indexing prioritization and rowset events for Windows 7.
 ms.assetid: 6cdfb7d3-f849-432c-960f-912e5024c583
-title: Indexing Prioritization and Rowset Events in Windows 7
-ms.topic: article
+title: Indexing prioritization and rowset events in Windows 7
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Indexing Prioritization and Rowset Events in Windows 7
+# Indexing prioritization and rowset events in Windows 7
 
 This topic outlines the introduction of indexing prioritization and rowset events for Windows 7.
 
@@ -18,7 +18,7 @@ This topic is organized as follows:
 -   [Additional Resources](#additional-resources)
 -   [Related topics](#related-topics)
 
-## Indexing Prioritization and Rowset Events
+## Indexing prioritization and rowset events
 
 In Windows 7?and later, there is a priority stack within which the context of any particular query, the client can request that the scopes used in that query be prioritized above that of normal items.
 
@@ -46,7 +46,7 @@ The priority stack sets an overall priority of items that are processed in the i
 
      
 
-### IRowsetPriorization Examples
+### IRowsetPriorization examples
 
 The primary API for prioritization work is available through the following interface, which can be called by querying the returned rowset:
 
@@ -91,7 +91,7 @@ Rowset prioritization works as follows:
 2.  [**IRowsetPrioritization::SetScopePriority**](/windows/desktop/api/Searchapi/nf-searchapi-irowsetprioritization-setscopepriority) sets the prioritization for the scopes belonging to the query, and the interval the scope statistics event is raised when there are outstanding documents to be indexed within the query scopes. This event is raised if the priority level is set to default.
 3.  [**IRowsetPrioritization::GetScopeStatistics**](/windows/desktop/api/Searchapi/nf-searchapi-irowsetprioritization-getscopestatistics) can be used to get the number of indexed items in the scope, the number of outstanding documents to be added in the scope, and the number of documents that need to be re-indexed within this scope.
 
-### IRowsetPrioritization Events
+### IRowsetPrioritization events
 
 There are three rowset events in [**IRowsetEvents::OnRowsetEvent**](/windows/desktop/api/Searchapi/nf-searchapi-irowsetevents-onrowsetevent) in the [**ROWSETEVENT\_TYPE**](/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type) enumeration:
 
@@ -119,7 +119,7 @@ The rowset events are as follows:
     -   This event is guaranteed to raise a "bounce zero" state (zero items remaining to be added, zero modifies remaining), provided that a non-zero event has been raised.
     -   The indexer may process items without sending this event, if the queue empties before the statistics event frequency.
 
-## Additional Resources
+## Additional resources
 
 See the following resources related to prioritization and rowsets:
 

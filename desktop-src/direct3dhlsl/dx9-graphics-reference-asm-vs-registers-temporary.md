@@ -2,7 +2,7 @@
 title: Temporary Register (HLSL VS reference)
 description: A vertex shader temporary register is used to hold intermediate results.
 ms.assetid: 186adff6-0641-4507-9adc-e02cf1cc3ea9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

@@ -1,12 +1,12 @@
 ---
 description: When adding support for IPv6, you must ensure that your application defines properly sized data structures.
 ms.assetid: 2bf353e2-38d5-462c-9e6c-65886b617215
-title: Changing Data Structures for IPv6 Winsock Appications
-ms.topic: article
+title: Changing Data Structures for IPv6 Winsock Applications
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
-# Changing Data Structures for IPv6 Winsock Appications
+# Changing Data Structures for IPv6 Winsock Applications
 
 When adding support for IPv6, you must ensure that your application defines properly sized data structures. The size of an IPv6 address is much larger than an IPv4 address. Structures that are hard-coded to handle the size of an IPv4 address when storing an IP address will cause problems in your application, and must be modified.
 
@@ -83,7 +83,7 @@ Coding Task
 
 **To modify your existing code base from IPv4 to IPv4- and IPv6-interoperability**
 
-1.  Acquire the Checkv4.exe utility. The utility is included with the Microsoft Windows Software Development Kit (SDK) which is made available through your MSDN subscription, or from the web as a download.
+1.  Acquire the Checkv4.exe utility. The utility is included with the Microsoft Windows Software Development Kit (SDK).
 2.  Run the Checkv4.exe utility against your code. Learn about how to run the Checkv4.exe utility against your files in the section on [Using the Checkv4.exe Utility](using-the-checkv4-exe-utility-2.md).
 3.  The utility alerts you to usage of **sockaddr** or **sockaddr\_in** structures, and provides recommendations on how to replace either with the IPv6 compatible structure [**SOCKADDR\_STORAGE**](/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)).
 4.  Replace any such instances, and associated code as appropriate, to use the **SOCKADDR\_STORAGE** structure.

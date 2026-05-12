@@ -2,7 +2,7 @@
 title: VML Chromakey Attribute
 description: VML Chromakey Attribute
 ms.assetid: 937ced3f-2e55-4a22-a9e0-83dc198104d4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

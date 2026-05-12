@@ -6,7 +6,7 @@ keywords:
 - Operation Context Lifetime and Threading Web Services for Windows
 - WWSAPI
 - WWS
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

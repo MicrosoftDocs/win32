@@ -2,7 +2,7 @@
 title: Router Information Reference
 ms.assetid: 9d4e2cf6-3e02-4872-9632-933da653efee
 description: "Learn more about: Router Information Reference"
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

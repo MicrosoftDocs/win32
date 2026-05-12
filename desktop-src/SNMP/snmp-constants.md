@@ -5,7 +5,7 @@ ms.assetid: 18d0eede-c89b-41e3-8380-d88f893ba491
 keywords:
 - SNMP Constants SNMP
 - Constants SNMP , SNMP
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

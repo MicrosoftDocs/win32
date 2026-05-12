@@ -2,7 +2,7 @@
 description: In Windows Vista, Microsoft Media Foundation exposes metadata through the IMFMetadata interface.
 ms.assetid: a26e40c2-1717-4a13-8bf0-e41376a8d317
 title: Metadata Providers in Windows Vista
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

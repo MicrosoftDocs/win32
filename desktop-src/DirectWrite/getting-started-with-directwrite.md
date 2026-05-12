@@ -13,7 +13,7 @@ keywords:
 - IDWriteTypography interface
 - DirectWrite,IDWriteTextFormat interface
 - IDWriteTextFormat interface
-ms.topic: article
+ms.topic: get-started
 ms.date: 05/31/2018
 ---
 
@@ -486,7 +486,7 @@ Formatting, such as the font size, weight, and underlining, can be applied to su
 
 To draw the text with the text layout settings specified by the [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) object, change the code in the MultiformattedText::DrawText method to use [**IDWriteTextLayout::DrawTextLayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout).
 
-1.  Delcare a [**D2D1\_POINT\_2F**](../direct2d/d2d1-point-2f.md) variable and set it to the upper-left point of the window.
+1.  Declare a [**D2D1\_POINT\_2F**](../direct2d/d2d1-point-2f.md) variable and set it to the upper-left point of the window.
     ```C++
     D2D1_POINT_2F origin = D2D1::Point2F(
         static_cast<FLOAT>(rc.left / dpiScaleX_),

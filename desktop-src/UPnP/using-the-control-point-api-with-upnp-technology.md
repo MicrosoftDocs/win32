@@ -2,7 +2,7 @@
 title: Using the Control Point API
 description: This section contains sample code that illustrates how to use the Control Point API with UPnP technology to create applications that control UPnP-based devices and request services.
 ms.assetid: 36d5a7ce-185a-4dd1-8649-982fdfd0e9d7
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

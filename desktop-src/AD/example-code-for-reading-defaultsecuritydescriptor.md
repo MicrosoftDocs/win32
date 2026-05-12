@@ -5,7 +5,7 @@ ms.assetid: 9462686d-654b-40bb-be10-80ca03790ad5
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , reading defaultSecurityDescriptor
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

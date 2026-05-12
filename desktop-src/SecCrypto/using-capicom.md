@@ -2,7 +2,7 @@
 description: This section includes scenarios that use CAPICOM procedures.
 ms.assetid: 'f886e04a-4ea7-4d24-a05f-3e08742fe134'
 title: Using CAPICOM
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

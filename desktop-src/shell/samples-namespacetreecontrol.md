@@ -1,7 +1,7 @@
 ---
 description: Demonstrates how to implement a custom namespace tree control for an application.
 title: NameSpace Tree Control Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ms.assetid: 5452C317-C8EB-488d-B39B-4CBE70EAC03A
 api_name: 

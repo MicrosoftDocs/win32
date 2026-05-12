@@ -2,7 +2,7 @@
 description: This section contains information about the events used in ink analysis.
 ms.assetid: e12eddd4-57fb-4d64-90b1-e05d043013a2
 title: Ink Analysis Events
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

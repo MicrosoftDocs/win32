@@ -2,8 +2,8 @@
 title: Property Condition Interfaces for Clients
 description: This section describes property condition interfaces for UI Automation clients for Microsoft Win32 applications.
 ms.assetid: cea34e47-03a9-4ff9-9019-427a2a3e13d6
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Property Condition Interfaces for Clients

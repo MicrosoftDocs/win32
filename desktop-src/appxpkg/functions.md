@@ -1,8 +1,8 @@
-﻿---
+---
 title: Package query API
 description: Learn about the package query API, which you can use to get info about the app packages installed on the system. Each app package contains the files that constitute a Windows app, and a manifest file that describes the software to Windows.
 ms.assetid: EDDFC8B1-E224-4921-BED6-FC81711BA5BF
-ms.topic: article
+ms.topic: reference
 ms.date: 05/02/2022
 ms.custom: 19H1
 ---

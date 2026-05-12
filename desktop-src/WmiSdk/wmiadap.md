@@ -1,15 +1,15 @@
 ---
-description: Wmiadap is a application that runs on Windows that can update performance information in the WMI repository.
+description: Wmiadap is an application that runs on Windows that can update performance information in the WMI repository.
 ms.assetid: 459fe19e-3e2e-4a58-b3e7-75fd285f7389
 ms.tgt_platform: multiple
 title: wmiadap
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
 # wmiadap
 
-Wmiadap is a application that runs on Windows that can update performance information in the WMI repository. Generally, this allows developers and IT Administrators to create scripts that access performance information, such as the amount of memory used by an application. The following topic describes the command-line interface you can use to control how wmiadap retrieves information.
+Wmiadap is an application that runs on Windows that can update performance information in the WMI repository. Generally, this allows developers and IT Administrators to create scripts that access performance information, such as the amount of memory used by an application. The following topic describes the command-line interface you can use to control how wmiadap retrieves information.
 
 Wmiadap is installed with the operating system on most systems, in the C:\\Windows\\System32\\wbem directory. If you are seeing error messages concerning wmiadap.exe, search [Microsoft Support](https://support.microsoft.com/). Generally, you should not delete wmiadap.exe from your system, unless otherwise instructed.
 

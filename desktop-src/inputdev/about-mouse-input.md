@@ -18,8 +18,8 @@ keywords:
 - Mouse Sonar accessibility feature
 - mouse wheel
 - WM_MOUSEWHEEL message
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Mouse Input Overview
@@ -38,7 +38,7 @@ This section covers the following topics:
 -   [Mouse Messages](#mouse-messages)
     -   [Client Area Mouse Messages](#client-area-mouse-messages)
     -   [Nonclient Area Mouse Messages](#nonclient-area-mouse-messages)
-    -   [The WM\_NCHITTEST Message](/windows)
+    -   [The WM\_NCHITTEST Message](#the-wm_nchittest-message)
 -   [Mouse Sonar](#mouse-sonar)
 -   [Mouse Vanish](#mouse-vanish)
 -   [The Mouse Wheel](#the-mouse-wheel)
@@ -79,15 +79,15 @@ Windows supports a mouse having up to three buttons. On a three-button mouse, th
 
 Applications can also support a mouse wheel. The mouse wheel can be pressed or rotated. When the mouse wheel is pressed, it acts as the middle (third) button, sending normal middle button messages to your application. When it is rotated, a wheel message is sent to your application. For more information, see [The Mouse Wheel](#the-mouse-wheel) section.
 
-Applications can support application-command buttons. These buttons, called X buttons, are designed to allow easier access to an Internet browser, electronic mail, and media services. When an X button is pressed, a [**WM\_APPCOMMAND**](wm-appcommand.md) message is sent to your application. For more information, see the description in the **WM\_APPCOMMAND** message.
+Applications can support application-command buttons. These buttons, called either XBUTTON1 or XBUTTON2, are designed to allow easier access to an Internet browser, electronic mail, and media services. When either XBUTTON1 or XBUTTON2 is pressed, a [**WM\_APPCOMMAND**](wm-appcommand.md) message is sent to your application. For more information, see the description in the **WM\_APPCOMMAND** message.
 
 An application can determine the number of buttons on the mouse by passing the **SM\_CMOUSEBUTTONS** value to the [**GetSystemMetrics**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function. To configure the mouse for a left-handed user, the application can use the [**SwapMouseButton**](/windows/win32/api/winuser/nf-winuser-swapmousebutton) function to reverse the meaning of the left and right mouse buttons. Passing the **SPI\_SETMOUSEBUTTONSWAP** value to the [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) function is another way to reverse the meaning of the buttons. Note, however, that the mouse is a shared resource, so reversing the meaning of the buttons affects all applications.
 
 ## XBUTTONs
 
-Windows supports a mouse with five buttons. In addition to the left, middle, and right buttons there are XBUTTON1 and XBUTTON2, which provide backward and forward navigation when using your browser.
+Windows supports mice with up to five buttons: left, middle, and right, plus two additional buttons called XBUTTON1 and XBUTTON2. The XBUTTON1 and XBUTTON2 buttons are often located on the sides of the mouse, near the base. These extra buttons are not present on all mice. If present, the XBUTTON1 and XBUTTON2 buttons are often mapped to an application function, such as forward and backward navigation in a Web browser.
 
-The window manager supports XBUTTON1 and XBUTTON2 through the **WM\_XBUTTON\*** and **WM\_NCXBUTTON\*** messages. The HIWORD of the **WPARAM** in these messages contains a flag indicating which X button was pressed. Because these mouse messages also fit between the constants **WM\_MOUSEFIRST** and **WM\_MOUSELAST**, an application can filter all mouse messages with [**GetMessage**](/windows/desktop/api/winuser/nf-winuser-getmessage) or [**PeekMessage**](/windows/desktop/api/winuser/nf-winuser-peekmessagea).
+The window manager supports XBUTTON1 and XBUTTON2 through the **WM\_XBUTTON\*** and **WM\_NCXBUTTON\*** messages. The HIWORD of the **WPARAM** in these messages contains a flag indicating which XBUTTON was pressed. Because these mouse messages also fit between the constants **WM\_MOUSEFIRST** and **WM\_MOUSELAST**, an application can filter all mouse messages with [**GetMessage**](/windows/desktop/api/winuser/nf-winuser-getmessage) or [**PeekMessage**](/windows/desktop/api/winuser/nf-winuser-peekmessagea).
 
 The following support XBUTTON1 and XBUTTON2:
 
@@ -108,7 +108,7 @@ The following APIs were modified to support these buttons:
 -   [**MOUSEINPUT**](/windows/win32/api/winuser/ns-winuser-mouseinput)
 -   [**WM\_PARENTNOTIFY**](/previous-versions/windows/desktop/inputmsg/wm-parentnotify)
 
-It is unlikely that a child window in a component application will be able to directly implement commands for the XBUTTON1 and XBUTTON2. So [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) sends a [**WM\_APPCOMMAND**](wm-appcommand.md) message to a window when an X button is clicked. **DefWindowProc** also sends the **WM\_APPCOMMAND** message to its parent window. This is similar to the way context menus are invoked with a right click—**DefWindowProc** sends a [**WM\_CONTEXTMENU**](/windows/desktop/menurc/wm-contextmenu) message to the menu and also sends it to its parent. Additionally, if **DefWindowProc** receives a **WM\_APPCOMMAND** message for a top-level window, it calls a shell hook with code HSHELL\_APPCOMMAND.
+It is unlikely that a child window in a component application will be able to directly implement commands for the XBUTTON1 and XBUTTON2. So [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) sends a [**WM\_APPCOMMAND**](wm-appcommand.md) message to a window when either XBUTTON1 or XBUTTON2 is clicked. **DefWindowProc** also sends the **WM\_APPCOMMAND** message to its parent window. This is similar to the way context menus are invoked with a right click—**DefWindowProc** sends a [**WM\_CONTEXTMENU**](/windows/desktop/menurc/wm-contextmenu) message to the menu and also sends it to its parent. Additionally, if **DefWindowProc** receives a **WM\_APPCOMMAND** message for a top-level window, it calls a shell hook with code HSHELL\_APPCOMMAND.
 
 There is support for the keyboards that have extra keys for browser functions, media functions, application launching, and power management. For more information, see [Keyboard Keys for Browsing and Other Functions](about-keyboard-input.md).
 
@@ -166,8 +166,8 @@ The *wParam* parameter contains flags that indicate the status of the other mous
 | **MK\_MBUTTON**  | The middle mouse button is down. |
 | **MK\_RBUTTON**  | The right mouse button is down.  |
 | **MK\_SHIFT**    | The SHIFT key is down.           |
-| **MK\_XBUTTON1** | The first X button is down.      |
-| **MK\_XBUTTON2** | The second X button is down.     |
+| **MK\_XBUTTON1** | The XBUTTON1 is down.      |
+| **MK\_XBUTTON2** | The XBUTTON2 is down.     |
 
 
 

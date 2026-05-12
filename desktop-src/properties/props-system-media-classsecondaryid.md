@@ -2,7 +2,7 @@
 description: System.Media.ClassSecondaryID
 ms.assetid: 79c197b5-a551-4e17-ab92-6eac99da4647
 title: System.Media.ClassSecondaryID
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,8 +2,8 @@
 description: Message Constants
 ms.assetid: 1205d9ec-ace1-48b5-9465-967ac6a23c74
 title: Message Constants
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Message Constants

@@ -2,7 +2,7 @@
 description: EZRGB24 Filter Sample
 ms.assetid: c702eb37-b55f-4707-ae0a-8aba11997ef3
 title: EZRGB24 Filter Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

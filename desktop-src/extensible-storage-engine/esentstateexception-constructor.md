@@ -6,7 +6,7 @@ ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentStateException.#ctor
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentstateexception.esentstateexception(v=EXCHG.10)
 ms:contentKeyID: 55102929
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.EsentStateException.EsentStateException
 dev_langs:

@@ -2,7 +2,7 @@
 description: After the queue has finished committing its operations, it should be closed using the SetupCloseFileQueue function with the handle that was created by SetupOpenFileQueue.
 ms.assetid: 4cb21699-e476-4832-9678-2bf36f3bda08
 title: Closing the File Queue and INF File
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

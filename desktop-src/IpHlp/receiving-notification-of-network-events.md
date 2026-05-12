@@ -2,7 +2,7 @@
 description: Use the following functions to ensure that an application receives notification of certain network events.
 ms.assetid: e1ca5abf-83c2-44f0-8049-ddf1b81ef088
 title: Receiving Notification of Network Events
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

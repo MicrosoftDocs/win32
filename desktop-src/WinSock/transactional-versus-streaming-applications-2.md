@@ -2,7 +2,7 @@
 description: 'There are two fundamental types of network applications: transactional and streaming. These application types are also called interactive and batch processing application types, respectively.'
 ms.assetid: 85795cdd-5a4f-4199-98bd-b5ce2299338b
 title: Transactional versus Streaming Applications
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

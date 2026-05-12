@@ -5,7 +5,7 @@ ms.assetid: ebc8b5d3-0ab0-4bee-be20-aad4729ce0f8
 ms.tgt_platform: multiple
 keywords:
 - Storing Dynamic Data
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

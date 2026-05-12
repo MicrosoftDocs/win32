@@ -6,7 +6,7 @@ keywords:
 - Bluetooth Bluetooth
 - getpeername Bluetooth
 - Bluetooth and getpeername Bluetooth
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

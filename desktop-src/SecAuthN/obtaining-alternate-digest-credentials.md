@@ -2,7 +2,7 @@
 description: To obtain credentials other than those associated with the current logon session, populate a SEC\_WINNT\_AUTH\_IDENTITY structure with information for the alternate security principal.
 ms.assetid: f590ddb5-39a1-4d0c-a787-da938a63c206
 title: Obtaining Alternate Digest Credentials
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

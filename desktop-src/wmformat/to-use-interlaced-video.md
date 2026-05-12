@@ -22,7 +22,7 @@ keywords:
 - interlaced video,encoding
 - interlaced video,decoding
 - interlaced video,field order
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

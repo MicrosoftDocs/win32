@@ -6,7 +6,7 @@ keywords:
 - MCI_WAIT flag
 - MCI_NOTIFY flag
 - MCI_TEST flag
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

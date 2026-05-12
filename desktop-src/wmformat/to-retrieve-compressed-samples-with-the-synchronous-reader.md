@@ -12,7 +12,7 @@ keywords:
 - synchronous readers,retrieving compressed samples
 - synchronous readers,compressed samples
 - compressed samples,retrieving
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

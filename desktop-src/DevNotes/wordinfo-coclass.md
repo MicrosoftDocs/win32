@@ -2,7 +2,7 @@
 description: Breaks Japanese text into words or dictionary forms.
 ms.assetid: f51ff969-c13c-4584-9795-1e4748eeb91d
 title: WordInfo
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: A list of some of the possible return codes for methods and functions.
 ms.assetid: 391b56a1-d0aa-4d35-8dba-cf7de66513d8
 title: S_PRESENT
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

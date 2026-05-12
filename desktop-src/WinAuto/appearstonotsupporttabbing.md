@@ -2,8 +2,8 @@
 title: AppearsToNotSupportTabbing
 description: AppearsToNotSupportTabbing
 ms.assetid: AA0A982E-A342-4B49-B159-A2683C8F5CC4
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # AppearsToNotSupportTabbing

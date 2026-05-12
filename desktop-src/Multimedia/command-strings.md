@@ -5,7 +5,7 @@ ms.assetid: ca9ca153-f2bf-45ed-84e6-44e86e8efaed
 keywords:
 - MCI command strings,about
 - MCI command strings,syntax
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

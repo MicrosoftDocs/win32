@@ -2,7 +2,7 @@
 description: The class of the program used by the camera to set exposure.
 ms.assetid: 81fbd968-935a-4600-9346-9c14d1eb3f12
 title: System.Photo.ProgramMode
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

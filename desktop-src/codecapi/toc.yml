@@ -1,0 +1,452 @@
+- name: "Codec API Reference"
+  href: codec-api-reference.md
+  items: 
+  - name: "Codec API Properties"
+    href: codec-api-properties.md
+    items: 
+    - name: "AVAudioChannelConfig"
+      href: avaudiochannelconfig-property.md
+    - name: "AVAudioChannelCount"
+      href: avaudiochannelcount-property.md
+    - name: "AVAudioSampleRate"
+      href: avaudiosamplerate-property.md
+    - name: "AVDDSurroundMode"
+      href: avddsurroundmode-property.md
+    - name: "AVDecAACDownmixMode"
+      href: avdecaacdownmixmode-property.md
+    - name: "AVDecAudioDualMono"
+      href: avdecaudiodualmono-property.md
+    - name: "AVDecAudioDualMonoReproMode"
+      href: avdecaudiodualmonorepromode-property.md
+    - name: "AVDecCommonInputFormat"
+      href: avdeccommoninputformat-property.md
+    - name: "AVDecCommonMeanBitRate"
+      href: avdeccommonmeanbitrate.md
+    - name: "AVDecCommonOutputFormat"
+      href: avdeccommonoutputformat-property.md
+    - name: "AVDecDDDynamicRangeScaleHigh"
+      href: avdecdddynamicrangescalehigh-property.md
+    - name: "AVDecDDDynamicRangeScaleLow"
+      href: avdecdddynamicrangescalelow-property.md
+    - name: "AVDecDDOperationalMode"
+      href: avdecddoperationalmode-property.md
+    - name: "AVDecHEAACDynamicRangeControl"
+      href: avdecheaacdynamicrangecontrol-property.md
+    - name: "AVDecMmcssClass"
+      href: avdecmmcss-property.md
+    - name: "AVDecVideoAcceleration_H264"
+      href: avdecvideoacceleration-h264-property.md
+    - name: "AVDecVideoAcceleration_VC1"
+      href: avdecvideoacceleration-vc1-property.md
+    - name: "AVDecVideoAcceleration_MPEG2"
+      href: avdecvideoacceleration-mpeg2-property.md
+    - name: "AVDecVideoDropPicWithMissingRef"
+      href: avdecvideodroppicwithmissingref-property.md
+    - name: "AVDecVideoFastDecodeMode"
+      href: avdecvideofastdecodemode.md
+    - name: "AVDecVideoImageSize"
+      href: avdecvideoimagesize.md
+    - name: "AVDecVideoInputScanType"
+      href: avdecvideoinputscantype-property.md
+    - name: "AVDecVideoPixelAspectRatio"
+      href: avdecvideopixelaspectratio-property.md
+    - name: "AVDecVideoSoftwareDeinterlaceMode"
+      href: avdecvideosoftwaredeinterlacemode-property.md
+    - name: "AVDecVideoSWPowerLevel"
+      href: avdecvideoswpowerlevel-property.md
+    - name: "AVDecVideoThumbnailGenerationMode"
+      href: avdecvideothumbnailgenerationmode-property.md
+    - name: "AVDSPLoudnessEqualization"
+      href: avdsploudnessequalization-property.md
+    - name: "AVDSPSpeakerFill"
+      href: avdspspeakerfill-property.md
+    - name: "AVEncAudioDualMono"
+      href: avencaudiodualmono-property.md
+    - name: "AVEncAudioInputContent"
+      href: avencaudioinputcontent-property.md
+    - name: "AVEncAudioIntervalToEncode"
+      href: avencaudiointervaltoencode-property.md
+    - name: "AVEncAudioIntervalToSkip"
+      href: avencaudiointervaltoskip-property.md
+    - name: "AVEncAudioMapDestChannelN"
+      href: avencaudiomapdestchanneln-property.md
+    - name: "AVEncAudioMeanBitRate"
+      href: avencaudiomeanbitrate.md
+    - name: "AVEncCodecType"
+      href: avenccodectype-property.md
+    - name: "AVEncCommonBufferInLevel"
+      href: avenccommonbufferinlevel-property.md
+    - name: "AVEncCommonBufferOutLevel"
+      href: avenccommonbufferoutlevel-property.md
+    - name: "AVEncCommonBufferSize"
+      href: avenccommonbuffersize-property.md
+    - name: "AVEncCommonFormatConstraint"
+      href: avenccommonformatconstraint-property.md
+    - name: "AVEncCommonLowLatency"
+      href: avenccommonlowlatency-property.md
+    - name: "AVEncCommonMaxBitRate"
+      href: avenccommonmaxbitrate-property.md
+    - name: "AVEncCommonMeanBitRate"
+      href: avenccommonmeanbitrate-property.md
+    - name: "AVEncCommonMeanBitRateInterval"
+      href: avenccommonmeanbitrateinterval-property.md
+    - name: "AVEncCommonMinBitRate"
+      href: avenccommonminbitrate-property.md
+    - name: "AVEncCommonMultipassMode"
+      href: avenccommonmultipassmode-property.md
+    - name: "AVEncCommonPassEnd"
+      href: avenccommonpassend-property.md
+    - name: "AVEncCommonPassStart"
+      href: avenccommonpassstart-property.md
+    - name: "AVEncCommonQuality"
+      href: avenccommonquality-property.md
+    - name: "AVEncCommonQualityVsSpeed"
+      href: avenccommonqualityvsspeed-property.md
+    - name: "AVEncCommonRateControlMode"
+      href: avenccommonratecontrolmode-property.md
+    - name: "AVEncCommonRealTime"
+      href: avenccommonrealtime-property.md
+    - name: "AVEncCommonStreamEndHandling"
+      href: avenccommonstreamendhandling-property.md
+    - name: "AVEncDDAtoDConverterType"
+      href: avencddatodconvertertype-property.md
+    - name: "AVEncDDCentreDownMixLevel"
+      href: avencddcentredownmixlevel-property.md
+    - name: "AVEncDDChannelBWLowPassFilter"
+      href: avencddchannelbwlowpassfilter-property.md
+    - name: "AVEncDDCopyright"
+      href: avencddcopyright-property.md
+    - name: "AVEncDDDCHighPassFilter"
+      href: avencdddchighpassfilter-property.md
+    - name: "AVEncDDDialogNormalization"
+      href: avencdddialognormalization-property.md
+    - name: "AVEncDDDigitalDeemphasis"
+      href: avencdddigitaldeemphasis-property.md
+    - name: "AVEncDDDynamicRangeCompressionControl"
+      href: avencdddynamicrangecompressioncontrol-property.md
+    - name: "AVEncDDHeadphoneMode"
+      href: avencddheadphonemode-property.md
+    - name: "AVEncDDLFELowPassFilter"
+      href: avencddlfelowpassfilter-property.md
+    - name: "AVEncDDLoRoCenterMixLvl_x10"
+      href: avencddlorocentermixlvl-x10-property.md
+    - name: "AVEncDDLoRoSurroundMixLvl_x10"
+      href: avencddlorosurroundmixlvl-x10-property.md
+    - name: "AVEncDDLtRtCenterMixLvl_x10"
+      href: avencddltrtcentermixlvl-x10-property.md
+    - name: "AVEncDDLtRtSurroundMixLvl_x10"
+      href: avencddltrtsurroundmixlvl-x10-property.md
+    - name: "AVEncDDOriginalBitstream"
+      href: avencddoriginalbitstream-property.md
+    - name: "AVEncDDPreferredStereoDownMixMode"
+      href: avencddpreferredstereodownmixmode-property.md
+    - name: "AVEncDDProductionInfoExists"
+      href: avencddproductioninfoexists-property.md
+    - name: "AVEncDDProductionMixLevel"
+      href: avencddproductionmixlevel-property.md
+    - name: "AVEncDDProductionRoomType"
+      href: avencddproductionroomtype-property.md
+    - name: "AVEncDDRFPreEmphasisFilter"
+      href: avencddrfpreemphasisfilter-property.md
+    - name: "AVEncDDService"
+      href: avencddservice-property.md
+    - name: "AVEncDDSurround3dBAttenuation"
+      href: avencddsurround3dbattenuation-property.md
+    - name: "AVEncDDSurround90DegreeePhaseShift"
+      href: avencddsurround90degreeephaseshift-property.md
+    - name: "AVEncDDSurroundDownMixLevel"
+      href: avencddsurrounddownmixlevel-property.md
+    - name: "AVEncDDSurroundExMode"
+      href: avencddsurroundexmode-property.md
+    - name: "AVEncInputVideoSystem"
+      href: avencinputvideosystem-property.md
+    - name: "AVEncMPACodingMode"
+      href: avencmpacodingmode-property.md
+    - name: "AVEncMPACopyright"
+      href: avencmpacopyright-property.md
+    - name: "AVEncMPAEmphasisType"
+      href: avencmpaemphasistype-property.md
+    - name: "AVEncMPAEnableRedundancyProtection"
+      href: avencmpaenableredundancyprotection-property.md
+    - name: "AVEncMPALayer"
+      href: avencmpalayer-property.md
+    - name: "AVEncMPAOriginalBitstream"
+      href: avencmpaoriginalbitstream-property.md
+    - name: "AVEncMPAPrivateUserBit"
+      href: avencmpaprivateuserbit-property.md
+    - name: "AVEncMPVAddSeqEndCode"
+      href: avencmpvaddseqendcode-property.md
+    - name: "AVEncMPVDefaultBPictureCount"
+      href: avencmpvdefaultbpicturecount-property.md
+    - name: "AVEncMPVFrameFieldMode"
+      href: avencmpvframefieldmode-property.md
+    - name: "AVEncMPVGenerateHeaderPicDispExt"
+      href: avencmpvgenerateheaderpicdispext-property.md
+    - name: "AVEncMPVGenerateHeaderPicExt"
+      href: avencmpvgenerateheaderpicext-property.md
+    - name: "AVEncMPVGenerateHeaderSeqDispExt"
+      href: avencmpvgenerateheaderseqdispext-property.md
+    - name: "AVEncMPVGenerateHeaderSeqExt"
+      href: avencmpvgenerateheaderseqext-property.md
+    - name: "AVEncMPVGenerateHeaderSeqScaleExt"
+      href: avencmpvgenerateheaderseqscaleext-property.md
+    - name: "AVEncMPVGOPOpen"
+      href: avencmpvgopopen-property.md
+    - name: "AVEncMPVGOPSInSeq"
+      href: avencmpvgopsinseq-property.md
+    - name: "AVEncMPVGOPSize"
+      href: avencmpvgopsize-property.md
+    - name: "AVEncMPVIntraDCPrecision"
+      href: avencmpvintradcprecision-property.md
+    - name: "AVEncMPVIntraVLCTable"
+      href: avencmpvintravlctable-property.md
+    - name: "AVEncMPVLevel"
+      href: avencmpvlevel-property.md
+    - name: "AVEncMPVProfile"
+      href: avencmpvprofile-property.md
+    - name: "AVEncMPVQuantMatrixChromaIntra"
+      href: avencmpvquantmatrixchromaintra-property.md
+    - name: "AVEncMPVQuantMatrixChromaNonIntra"
+      href: avencmpvquantmatrixchromanonintra-property.md
+    - name: "AVEncMPVQuantMatrixIntra"
+      href: avencmpvquantmatrixintra-property.md
+    - name: "AVEncMPVQuantMatrixNonIntra"
+      href: avencmpvquantmatrixnonintra-property.md
+    - name: "AVEncMPVQScaleType"
+      href: avencmpvqscaletype-property.md
+    - name: "AVEncMPVScanPattern"
+      href: avencmpvscanpattern-property.md
+    - name: "AVEncMPVSceneDetection"
+      href: avencmpvscenedetection-property.md
+    - name: "AVEncMPVUseConcealmentMotionVectors"
+      href: avencmpvuseconcealmentmotionvectors-property.md
+    - name: "AVEncMuxOutputStreamType"
+      href: avencmuxoutputstreamtype.md
+    - name: "AVEncStatAudioAverageBPS"
+      href: avencstataudioaveragebps-property.md
+    - name: "AVEncStatAudioPeakPCMValue"
+      href: avencstataudiopeakpcmvalue-property.md
+    - name: "AVEncStatAudioAveragePCMValue"
+      href: avencstataudioaveragepcmvalue-property.md
+    - name: "AVEncStatCommonCompletedPasses"
+      href: avencstatcommoncompletedpasses-property.md
+    - name: "AVEncStatVideoCodedFrames"
+      href: avencstatvideocodedframes-property.md
+    - name: "AVEncStatVideoOutputFrameRate"
+      href: avencstatvideooutputframerate-property.md
+    - name: "AVEncStatVideoTotalFrames"
+      href: avencstatvideototalframes-property.md
+    - name: "AVEncVideoCBRMotionTradeoff"
+      href: avencvideocbrmotiontradeoff-property.md
+    - name: "AVEncVideoCodedVideoAccessUnitSize"
+      href: avencvideocodedvideoaccessunitsize-property.md
+    - name: "AVEncVideoDefaultUpperFieldDominant"
+      href: avencvideodefaultupperfielddominant-property.md
+    - name: "AVEncVideoDisplayDimension"
+      href: avencvideodisplaydimension-property.md
+    - name: "AVEncVideoEncodeDimension"
+      href: avencvideoencodedimension-property.md
+    - name: "AVEncVideoEncodeOffsetOrigin"
+      href: avencvideoencodeoffsetorigin-property.md
+    - name: "AVEncVideoFieldSwap"
+      href: avencvideofieldswap-property.md
+    - name: "AVEncVideoForceSourceScanType"
+      href: avencvideoforcesourcescantype-property.md
+    - name: "AVEncVideoHeaderDropFrame"
+      href: avencvideoheaderdropframe-property.md
+    - name: "AVEncVideoHeaderFrames"
+      href: avencvideoheaderframes-property.md
+    - name: "AVEncVideoHeaderHours"
+      href: avencvideoheaderhours-property.md
+    - name: "AVEncVideoHeaderMinutes"
+      href: avencvideoheaderminutes-property.md
+    - name: "AVEncVideoHeaderSeconds"
+      href: avencvideoheaderseconds-property.md
+    - name: "AVEncVideoInputChromaResolution"
+      href: avencvideoinputchromaresolution-property.md
+    - name: "AVEncVideoInputChromaSubsampling"
+      href: avencvideoinputchromasubsampling-property.md
+    - name: "AVEncVideoInputColorLighting"
+      href: avencvideoinputcolorlighting-property.md
+    - name: "AVEncVideoInputColorNominalRange"
+      href: avencvideoinputcolornominalrange-property.md
+    - name: "AVEncVideoInputColorPrimaries"
+      href: avencvideoinputcolorprimaries-property.md
+    - name: "AVEncVideoInputColorTransferFunction"
+      href: avencvideoinputcolortransferfunction-property.md
+    - name: "AVEncVideoInputColorTransferMatrix"
+      href: avencvideoinputcolortransfermatrix-property.md
+    - name: "AVEncVideoInverseTelecineEnable"
+      href: avencvideoinversetelecineenable-property.md
+    - name: "AVEncVideoInverseTelecineThreshold"
+      href: avencvideoinversetelecinethreshold-property.md
+    - name: "AVEncVideoMaxKeyframeDistance"
+      href: avencvideomaxkeyframedistance-property.md
+    - name: "AVEncVideoNoOfFieldsToEncode"
+      href: avencvideonooffieldstoencode-property.md
+    - name: "AVEncVideoNoOfFieldsToSkip"
+      href: avencvideonooffieldstoskip-property.md
+    - name: "AVEncVideoOutputChromaResolution"
+      href: avencvideooutputchromaresolution-property.md
+    - name: "AVEncVideoOutputChromaSubsampling"
+      href: avencvideooutputchromasubsampling-property.md
+    - name: "AVEncVideoOutputColorLighting"
+      href: avencvideooutputcolorlighting-property.md
+    - name: "AVEncVideoOutputColorNominalRange"
+      href: avencvideooutputcolornominalrange-property.md
+    - name: "AVEncVideoOutputColorPrimaries"
+      href: avencvideooutputcolorprimaries-property.md
+    - name: "AVEncVideoOutputColorTransferFunction"
+      href: avencvideooutputcolortransferfunction-property.md
+    - name: "AVEncVideoOutputColorTransferMatrix"
+      href: avencvideooutputcolortransfermatrix-property.md
+    - name: "AVEncVideoOutputFrameRate"
+      href: avencvideooutputframerate-property.md
+    - name: "AVEncVideoOutputFrameRateConversion"
+      href: avencvideooutputframerateconversion-property.md
+    - name: "AVEncVideoOutputScanType"
+      href: avencvideooutputscantype-property.md
+    - name: "AVEncVideoPixelAspectRatio"
+      href: avencvideopixelaspectratio-property.md
+    - name: "AVEncVideoSourceFilmContent"
+      href: avencvideosourcefilmcontent-property.md
+    - name: "AVEncVideoSourceIsBW"
+      href: avencvideosourceisbw-property.md
+  - name: "Codec API Enumerations"
+    href: codec-api-enumerations.md
+    items:
+    - name: "eAVAudioChannelConfig"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavaudiochannelconfig
+    - name: "eAVDDSurroundMode"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavddsurroundmode
+    - name: "eAVDecAACDownmixMode"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavdecaacdownmixmode
+    - name: "eAVDecAudioDualMono"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavdecaudiodualmono
+    - name: "eAVDecAudioDualMonoReproMode"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavdecaudiodualmonorepromode
+    - name: "eAVDecDDOperationalMode"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavdecddoperationalmode
+    - name: "eAVDecHEAACDynamicRangeControl"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavdecheaacdynamicrangecontrol
+    - name: "eAVDecVideoInputScanType"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavdecvideoinputscantype
+    - name: "eAVDecVideoSoftwareDeinterlaceMode"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavdecvideosoftwaredeinterlacemode
+    - name: "eAVDecVideoSWPowerLevel"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavdecvideoswpowerlevel
+    - name: "eAVDSPLoudnessEqualization"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavdsploudnessequalization
+    - name: "eAVDSPSpeakerFill"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavdspspeakerfill
+    - name: "eAVEncAudioDualMono"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencaudiodualmono
+    - name: "eAVEncAudioInputContent"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencaudioinputcontent
+    - name: "eAVEncCommonRateControlMode"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavenccommonratecontrolmode
+    - name: "eAVEncCommonStreamEndHandling"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavenccommonstreamendhandling
+    - name: "eAVEncDDAtoDConverterType"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencddatodconvertertype
+    - name: "eAVEncDDDynamicRangeCompressionControl"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencdddynamicrangecompressioncontrol
+    - name: "eAVEncDDHeadphoneMode"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencddheadphonemode
+    - name: "eAVEncDDPreferredStereoDownMixMode"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencddpreferredstereodownmixmode
+    - name: "eAVEncDDProductionRoomType"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencddproductionroomtype
+    - name: "eAVEncDDService"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencddservice
+    - name: "eAVEncDDSurroundExMode"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencddsurroundexmode
+    - name: "eAVEncInputVideoSystem"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencinputvideosystem
+    - name: "eAVEncMPACodingMode"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencmpacodingmode
+    - name: "eAVEncMPAEmphasisType"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencmpaemphasistype
+    - name: "eAVEncMPALayer"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencmpalayer
+    - name: "eAVEncMPVFrameFieldMode"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencmpvframefieldmode
+    - name: "eAVEncMPVIntraVLCTable"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencmpvintravlctable
+    - name: "eAVEncMPVLevel"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencmpvlevel
+    - name: "eAVEncMPVProfile"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencmpvprofile
+    - name: "eAVEncMPVQScaleType"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencmpvqscaletype
+    - name: "eAVEncMPVScanPattern"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencmpvscanpattern
+    - name: "eAVEncMPVSceneDetection"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencmpvscenedetection
+    - name: "eAVEncMuxOutput"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencmuxoutput
+    - name: "eAVEncVideoChromaResolution"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencvideochromaresolution
+    - name: "eAVEncVideoChromaSubsampling"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencvideochromasubsampling
+    - name: "eAVEncVideoColorLighting"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencvideocolorlighting
+    - name: "eAVEncVideoColorNominalRange"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencvideocolornominalrange
+    - name: "eAVEncVideoColorPrimaries"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencvideocolorprimaries
+    - name: "eAVEncVideoColorTransferFunction"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencvideocolortransferfunction
+    - name: "eAVEncVideoColorTransferMatrix"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencvideocolortransfermatrix
+    - name: "eAVEncVideoFilmContent"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencvideofilmcontent
+    - name: "eAVEncVideoOutputFrameRateConversion"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencvideooutputframerateconversion
+    - name: "eAVEncVideoOutputScanType"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencvideooutputscantype
+    - name: "eAVEncVideoSourceScanType"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavencvideosourcescantype
+    - name: "eAVFastDecodeMode"
+      href: /windows/win32/api/codecapi/ne-codecapi-eavfastdecodemode
+  - name: "Codec API Interfaces"
+    href: codec-api-interfaces.md
+    items: 
+    - name: "ICodecAPI"
+      href: /windows/win32/api/icodecapi/nn-icodecapi-icodecapi
+      items:
+      - name: "GetAllSettings"
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-getallsettings
+      - name: "GetDefaultValue"
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-getdefaultvalue
+      - name: "GetParameterRange"
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-getparameterrange
+      - name: "GetParameterValues"
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-getparametervalues
+      - name: "GetValue"
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-getvalue
+      - name: "IsModifiable"
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-ismodifiable
+      - name: "IsSupported"
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-issupported
+      - name: "RegisterForEvent"
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-registerforevent
+      - name: "SetAllDefaults"
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-setalldefaults
+      - name: "SetAllDefaultsWithNotify"
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-setalldefaultswithnotify
+      - name: "SetAllSettings"
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-setallsettings
+      - name: "SetAllSettingsWithNotify"
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-setallsettingswithnotify
+      - name: "SetValue"
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-setvalue
+      - name: "SetValueWithNotify"
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-setvaluewithnotify
+      - name: "UnregisterForEvent"
+        href: /windows/win32/api/icodecapi/nf-icodecapi-icodecapi-unregisterforevent
+  - name: "Codec API Structures"
+    href: codec-api-structures.md
+    items:
+    - name: "CodecAPIEventData"
+      href: /windows/win32/api/icodecapi/ns-icodecapi-codecapieventdata

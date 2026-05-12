@@ -2,7 +2,7 @@
 title: How to troubleshoot app package signature errors
 description: An app deployment failure can be caused by a failure to validate the digital signature of the app package. Learn how to recognize these failures, and what to do about them.
 ms.assetid: CE868296-87F6-4BD5-8AC5-914E429EDEBC
-ms.topic: article
+ms.topic: troubleshooting-general
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Step 3 Implement the Frame-Grabbing Function
 ms.assetid: 4ec2e4a4-3ab0-45f1-b29a-313599fe9e7d
 title: Step 3 Implement the Frame-Grabbing Function
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

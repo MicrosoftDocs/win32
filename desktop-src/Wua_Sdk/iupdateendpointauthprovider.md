@@ -42,7 +42,7 @@ The **IUpdateEndpointAuthProvider** interface has these methods.
 
 ## Remarks
 
-WUA calls the [**GetPreferredEndpointTokenType**](iupdateendpointauthprovider-getpreferredendpointtokentype.md) method of this interface to start the negotiation process. When the call is made WUA passes in the service identifier, the type of endpoint implemented by the service, and the token types that are available. The implementation of this interface then returns the token types that it preferes to use.
+WUA calls the [**GetPreferredEndpointTokenType**](iupdateendpointauthprovider-getpreferredendpointtokentype.md) method of this interface to start the negotiation process. When the call is made WUA passes in the service identifier, the type of endpoint implemented by the service, and the token types that are available. The implementation of this interface then returns the token types that it prefers to use.
 
 ## Requirements
 

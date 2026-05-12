@@ -2,7 +2,7 @@
 description: System.Contact.OtherAddress1Street
 ms.assetid: 059e034c-afe9-4564-87f1-21e74835c171
 title: System.Contact.OtherAddress1Street
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,17 +1,17 @@
 ---
-description: The following are the window styles. After the window has been created, these styles cannot be modified, except as noted.
+description: This topic provides a list of the various styles that can be applied to a window.
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstyles.htm'
 title: Window Styles (Winuser.h)
-ms.topic: article
-ms.date: 10/26/2021
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Window Styles
 
-The following are the window styles. After the window has been created, these styles cannot be modified, except as noted.
+This topic provides a list of the various styles that can be applied to a window (after the window has been created, these styles cannot be modified, except as noted).
 
 | Constant name            | Constant value | Description                       |
-|:------------------------:|:--------------:|-----------------------------------|
+|------------------------|--------------|-----------------------------------|
 | **WS\_BORDER**           | 0x00800000L    | The window has a thin-line border |
 | **WS\_CAPTION**          | 0x00C00000L    | The window has a title bar (includes the **WS\_BORDER** style). |
 | **WS\_CHILD**            | 0x40000000L    | The window is a child window. A window with this style cannot have a menu bar. This style cannot be used with the **WS\_POPUP** style. |

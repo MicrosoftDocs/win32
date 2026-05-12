@@ -5,7 +5,7 @@ title: MSFT\_Net6to4Configuration class
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -59,7 +59,7 @@ The **MSFT\_Net6to4Configuration** class has these methods.
 
 | Method                                                                       | Description                                                            |
 |:-----------------------------------------------------------------------------|:-----------------------------------------------------------------------|
-| [**GetConfig**](../raserverpsprov/getconfigurationversion-ps-remoteaccesslocal.md) | Obtains the configuration given the specified policy store.<br/> |
+| [**GetConfig**](/previous-versions/windows/desktop/raserverpsprov/getconfigurationversion-ps-remoteaccesslocal) | Obtains the configuration given the specified policy store.<br/> |
 | [**Reset**](reset-msft-net6to4configuration.md)                             | Resets the 6to4 configuration.<br/>                              |
 
 
@@ -169,7 +169,7 @@ Specifies the 6to4 service state using one of the following values:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                          |

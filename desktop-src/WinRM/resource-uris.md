@@ -3,7 +3,7 @@ title: Resource URIs
 description: A resource URI is an identifier for a distinct type of management operation or value used by management services that implement the WS-Management protocol.
 ms.assetid: 478a6e5d-0675-462e-b2fd-fd2b5379e298
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle
@@ -47,7 +47,7 @@ The following list describes several types of resource URIs used by Windows Remo
 
     This group of URIs represent industry standard URIs based upon CIM version 2.9. IPMI URIs can be used in [**Session**](session.md) methods [**Get**](session-get.md), [**Put**](session-put.md), [**Enumerate**](session-enumerate.md) , and [**Invoke**](session-invoke.md).
 
-    An example is https://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_NumericSensor.xsd. This resource is defined according to the [DMTF.org](https://www.dmtf.org/home) CIM schema.
+    An example is https://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_NumericSensor.xsd. This resource is defined according to the [DMTF.org](https://www.dmtf.org) CIM schema.
 
 -   WinRM configuration URIs
 

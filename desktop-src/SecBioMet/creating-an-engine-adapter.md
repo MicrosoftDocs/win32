@@ -2,7 +2,7 @@
 title: Creating an Engine Adapter
 description: Basic structure of an engine adapter plug-in implemented as a C++ dynamic link library (DLL).
 ms.assetid: d443ee2d-6b45-44ac-9d79-f71033d8b7f4
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

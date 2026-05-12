@@ -2,7 +2,7 @@
 description: Windows 8 and Windows Server 2012 include the following new capabilities for services.
 ms.assetid: 42BC7325-4FAC-493E-95AC-AEF660F499C0
 title: Whats New in Services for Windows 8
-ms.topic: article
+ms.topic: whats-new
 ms.date: 05/31/2018
 ---
 

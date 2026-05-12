@@ -8,7 +8,7 @@ keywords:
 - ASF (Advanced Systems Format),writer file sink objects
 - objects,writer file sink objects
 - writer file sink objects
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

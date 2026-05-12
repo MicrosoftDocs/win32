@@ -2,7 +2,7 @@
 description: This topic describes how an application can programmatically change the image and camera settings on a video capture device.
 ms.assetid: f789db78-292e-4092-a5dc-1906845fb1dd
 title: Configure the Video Quality
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

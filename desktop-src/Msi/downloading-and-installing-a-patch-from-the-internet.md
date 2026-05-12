@@ -2,7 +2,7 @@
 description: Microsoft Windows Installer accepts a Uniform Resource Locator (URL) as a valid source for a patch.
 ms.assetid: 11a65123-a8bd-46d8-a416-4fc2f2f1e121
 title: Downloading and Installing a Patch From the Internet
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

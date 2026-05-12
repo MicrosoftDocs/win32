@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - What Makes a Fast Query ADSI
 - queries ADSI , what makes a fast query
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

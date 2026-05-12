@@ -1,12 +1,12 @@
 ---
 description: Advanced Query Syntax (AQS) is the default query syntax used by Windows Search to query the index and to refine and narrow search parameters.
 ms.assetid: 76e33903-d063-48c0-9afe-912c3daa8237
-title: Using Advanced Query Syntax Programmatically
-ms.topic: article
+title: Using Advanced Query Syntax programmatically
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Using Advanced Query Syntax Programmatically
+# Using Advanced Query Syntax programmatically
 
 Advanced Query Syntax (AQS) is the default query syntax used by Windows Search to query the index and to refine and narrow search parameters. AQS is employed by developers to build queries programmatically (and by users to narrow their search parameters). Canonical AQS was introduced in Windows 7 and must be used in Windows 7 and later to programmatically generate AQS queries.
 
@@ -135,7 +135,7 @@ System.Size:>1kb
 
 Properties are referred to by a keyword, which can be a canonical property name in Windows 7 and later. AQS in the Windows UI can use the label instead of the canonical property name, such as author instead of [System.Author](../properties/props-system-author.md). In Windows Vista and earlier it was possible to use English labels regardless of the UI language. In Windows 7 and later, Windows Search recognizes keywords in the current default UI language only.
 
-### Support for Custom Properties
+### Support for custom properties
 
 In Windows Vista and earlier, custom properties were not available in AQS. In Windows 7 and later, AQS works with custom properties that are registered with the property system. For more information on creating custom properties, see [Property System](../properties/building-property-handlers.md).
 
@@ -151,7 +151,7 @@ As of Windows 8, DateTime properties (like [System.DateModified](../properties/p
 
     This format specifies a time at the specified UTC time zone.
 
-## Keyword Use in Local Languages
+## Keyword use in local languages
 
 In Windows 7 and later, mnemonic keywords work in the system language only, such as German keywords only on a German operating system, and English keywords only on an English operating system. [System.Author](../properties/props-system-author.md) is a canonical keyword, and the mnemonic value for the System.Author property is Author, for example. The introduction of canonical keywords compensates for the fact that English mnemonic keywords are no longer universally recognized on all operating systems regardless of language, as was the case in Windows Vista and earlier.
 
@@ -202,7 +202,7 @@ The following table shows some examples of canonical properties and the syntax f
 
 For more information about canonical properties and the property system generally, see [System Properties](../properties/props.md). Alternatively, refer to the public header files.
 
-### Query Operators
+### Query operators
 
 If a property, p, has multiple values for some item, an AQS query for p:&lt;restr&gt; returns the item if &lt;restr&gt; is **true** for at least one of the values. (&lt;restr&gt; represents a restriction.)
 
@@ -319,7 +319,7 @@ The syntax listed in the following table consists of an operator, operator symbo
 
 For string properties the default operation is either COP\_WORD\_STARTS\_WITH or COP\_WORD\_EQUAL.
 
-### Query Values
+### Query values
 
 Useful examples of how query values can be restricted are listed in the following table.
 
@@ -401,7 +401,7 @@ In addition to searching on specific dates and date ranges, AQS recognizes relat
 
  
 
-## Scope Restrictions
+## Scope restrictions
 
 Users can limit the scope of their searches to specific folder locations or data stores. For example, if you use several email accounts and you want to limit a query to either Microsoft Outlook or Microsoft Outlook Express, you can use `System.Search.Store:mapi` or `System.Search.Store:oe` respectively. The following table shows some examples of how to restrict a search by data store.
 
@@ -419,7 +419,7 @@ Users can limit the scope of their searches to specific folder locations or data
 
  
 
-## Additional Resources
+## Additional resources
 
 -   In Windows 7 and later, a shortcut menu option can be available based on whether an AQS condition is met. For more information, see "Getting Dynamic Behavior for Static Verbs by Using Advanced Query Syntax" in [Creating Context Menu Handlers](../shell/context-menu-handlers.md).
 -   AQS queries can be limited to specific types of files, which are known as file kinds. For more information, see [File Types and Associations](../shell/fa-intro.md). For property reference documentation, see [System.Kind](../properties/props-system-kind.md), and [System.KindText](../properties/props-system-kindtext.md).

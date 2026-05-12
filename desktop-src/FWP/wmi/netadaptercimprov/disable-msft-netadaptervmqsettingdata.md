@@ -5,7 +5,7 @@ title: Disable method of the MSFT\_NetAdapterVmqSettingData class
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -49,7 +49,7 @@ Returns an embedded instance of a [**MSFT\_NetAdapterVmqSettingData**](msft-neta
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                               |

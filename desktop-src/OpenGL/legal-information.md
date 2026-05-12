@@ -4,7 +4,7 @@ description: This article provides legal information about OpenGL, including inf
 ms.assetid: c17525c3-b438-4529-abf7-a55f532398f8
 keywords:
 - OpenGL,legal information
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

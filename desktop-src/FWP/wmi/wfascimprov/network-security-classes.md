@@ -3,7 +3,7 @@ title: WFasCim provider
 description: The WFasCim provider exposes network security and filtering features.
 ms.date: 05/17/2024
 ms.assetid: 27B99B67-1872-4042-939B-8D3936391E05
-ms.topic: article
+ms.topic: reference
 topic_type: 
 - kbSyntax
 api_name: 
@@ -90,4 +90,4 @@ This section provides reference information for Windows Firewall and advanced se
 | [**MSFT_NetSecDeltaCollection**](msft-netsecdeltacollection.md) | IPSec policy delta |
 | [**MSFT_NetSecuritySettingData**](msft-netsecuritysettingdata.md) | Global settings for IPsec. |
 | [**MSFT_NetServiceFilter**](msft-netservicefilter.md) | Filters traffic based on which Windows service it is sent or received by. |
-| [**MSFT_NetSettingData**](msft-netsettingdata-wfascim.md) | Serves as a base class for classes that provice access to network settings data, such as [**MSFT_NetIPsecDoSPSetting**](msft-netipsecdospsetting.md) and [**MSFT_NetSecuritySettingData**](msft-netsecuritysettingdata.md). |
+| [**MSFT_NetSettingData**](msft-netsettingdata-wfascim.md) | Serves as a base class for classes that provide access to network settings data, such as [**MSFT_NetIPsecDoSPSetting**](msft-netipsecdospsetting.md) and [**MSFT_NetSecuritySettingData**](msft-netsecuritysettingdata.md). |

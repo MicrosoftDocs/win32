@@ -2,7 +2,7 @@
 title: VML XRange Attribute
 description: VML XRange Attribute
 ms.assetid: c2881fd6-08b2-4ec8-b4fd-b271a049da09
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

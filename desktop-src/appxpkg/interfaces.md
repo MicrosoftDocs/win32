@@ -2,7 +2,7 @@
 title: Packaging API
 description: Learn about the packaging API, which you can use to create, read, and write app packages. Each app package contains the files that constitute a Windows app, and a manifest file that describes the software to Windows.
 ms.assetid: 90E68C37-8552-49DA-9E18-8804F1A5A7AE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

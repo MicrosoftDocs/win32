@@ -2,7 +2,7 @@
 description: Setup functions can generate dialog boxes to handle common installation situations and gather information from the user.
 ms.assetid: 0bff17a6-590d-4410-9ed1-0a655d94caad
 title: About Disk Prompting and Error Handling
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

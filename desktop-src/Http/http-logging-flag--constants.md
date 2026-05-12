@@ -40,7 +40,7 @@ The log file rollover is based on local time. By default, log file rollovers is 
 
 
 
-The unicode fields are converted to UTF8 multibytes when writting to the log files. By default, the log files are written with the local code page conversion.
+The unicode fields are converted to UTF8 multibytes when writing to the log files. By default, the log files are written with the local code page conversion.
 
 
 </dt> </dl> </dd> <dt>

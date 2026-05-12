@@ -5,7 +5,7 @@ ms.assetid: f93c1310-7c8b-4d28-bd4d-6fab969d3353
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , binding to a search start point
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

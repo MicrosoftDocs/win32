@@ -3,7 +3,7 @@ title: Sample webpage included with the Remote Desktop ActiveX control
 description: A sample webpage (Default.htm) is in the directory where Remote Desktop Web Connection is installed.
 ms.assetid: 3137f58b-1aec-4bd6-a3b2-d1db6c8b96e4
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

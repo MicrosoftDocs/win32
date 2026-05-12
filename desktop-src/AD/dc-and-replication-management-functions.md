@@ -3,7 +3,7 @@ title: Domain Controller and Replication Management Functions
 description: This topic contains a list of functions used for domain controller and replication management.
 ms.assetid: a92783c2-ffb8-473e-8484-1c05ca5453ff
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

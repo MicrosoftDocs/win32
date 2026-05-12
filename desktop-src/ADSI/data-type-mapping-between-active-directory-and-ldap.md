@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - data type mapping between Active Directory and LDAP ADSI
 - LDAP service provider ADSI , data type mapping between Active Directory and LDAP
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

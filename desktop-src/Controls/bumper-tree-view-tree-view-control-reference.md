@@ -2,7 +2,7 @@
 title: Tree-View Control Reference
 description: Tree-View Control Reference
 ms.assetid: 7bb54094-ddc7-4643-9b11-15775e6c6d2d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

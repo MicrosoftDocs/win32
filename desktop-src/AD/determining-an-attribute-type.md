@@ -5,7 +5,7 @@ ms.assetid: 58f44ea4-ecbd-4650-b366-37b05a975c68
 ms.tgt_platform: multiple
 keywords:
 - Determining an Attribute Type AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Resource Records
 description: Learn about resource records. A resource record is the unit of information entry in DNS zone files, which used to resolve all DNS queries.
 ms.assetid: 'c64907c2-ebd3-4550-9454-13f51a6d7ca6'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

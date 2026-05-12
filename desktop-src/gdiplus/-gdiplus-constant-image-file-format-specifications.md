@@ -2,7 +2,7 @@
 description: The following table lists several documents that give detailed descriptions of how metadata is stored in image files.
 ms.assetid: 659f5214-c43d-443d-9abc-62595766a3f7
 title: Image File Format Specifications
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

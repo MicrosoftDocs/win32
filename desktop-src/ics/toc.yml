@@ -44,3 +44,18 @@
         href: /windows/win32/api/netfw/ne-netfw-fw_dynamic_keyword_address_flags
       - name: "FW_DYNAMIC_KEYWORD_ORIGIN_TYPE"
         href: /windows/win32/api/netfw/ne-netfw-fw_dynamic_keyword_origin_type
+    - name: "Windows Firewall with Advanced Security functions"
+      href: firewall-functions.md
+      items: 
+      - name: "FWAddFirewallRule"
+        href: ./firewall/nf-firewall-fwaddfirewallrule.md
+      - name: "FWClosePolicyStore"
+        href: ./firewall/nf-firewall-fwclosepolicystore.md
+      - name: "FWDeleteFirewallRule"
+        href: ./firewall/nf-firewall-fwdeletefirewallrule.md
+      - name: "FWEnumFirewallRules"
+        href: ./firewall/nf-firewall-fwenumfirewallrules.md
+      - name: "FWOpenPolicyStore"
+        href: ./firewall/nf-firewall-fwopenpolicystore.md
+    - name: "Windows Firewall with Advanced Security enums and structs"
+      href: firewall-enums-structs.md

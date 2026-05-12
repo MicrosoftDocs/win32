@@ -2,7 +2,7 @@
 description: The SystemTraceProvider is a kernel provider with a predefined sets of kernel events supported on Windows 7, Windows Server 2008 R2, and later.
 ms.assetid: 6808EC45-C8C3-45D7-9E4C-337F6A4CF9C8
 title: Configuring and Starting a SystemTraceProvider Session
-ms.topic: article
+ms.topic: concept-article
 ms.date: 06/02/2021
 ---
 
@@ -26,7 +26,7 @@ To programmatically enable the SystemTraceProvider to start a session other than
 
 -   Define a private logger name.
 
-    **\#define PRIVATE\_LOGGER\_NAME L”Some Private Trace Session”**
+    **\#define PRIVATE\_LOGGER\_NAME L"Some Private Trace Session"**
 
 -   At the controller, set the following members of the [**EVENT\_TRACE\_PROPERTIES**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) structure.
 
@@ -39,7 +39,7 @@ To programmatically enable the SystemTraceProvider to start a session other than
 -   At the consumer, set the **LoggerName** member of the [**EVENT\_TRACE\_LOGFILE**](/windows/win32/api/evntrace/ns-evntrace-event_trace_logfilea) structure to this private logger.
 
 > [!Note]  
-> If you want a non-administrators or a non-TCB process to be able to start a profiling trace session using the SystemTraceProvider on behalf of third party applications, then you need to grant the user profile privilege and then add this user to both the session **GUID** (created for the logger session) and the system trace provider **GUID** to enable the system trace provider. For more information, see the [**EventAccessControl**](/windows/desktop/api/Evntcons/nf-evntcons-eventaccesscontrol) function.
+> If you want a non-administrators or a non-TCP control block (TCB) process to be able to start a profiling trace session using the SystemTraceProvider on behalf of third party applications, then you need to grant the user profile privilege and then add this user to both the session **GUID** (created for the logger session) and the system trace provider **GUID** to enable the system trace provider. For more information, see the [**EventAccessControl**](/windows/desktop/api/Evntcons/nf-evntcons-eventaccesscontrol) function.
 
  
 

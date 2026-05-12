@@ -2,7 +2,7 @@
 title: Distributed File System Functions
 description: The following are the Distributed File System (DFS) functions.
 ms.assetid: 8f86b717-fe26-4550-8b71-8f7df5ca6022
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

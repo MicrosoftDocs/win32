@@ -2,7 +2,7 @@
 title: Reference (Microsoft Agent Control)
 description: These reference topic describe objects in Microsoft Agent Control. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: 'vs|msagent|~\paface_4dk5.htm'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

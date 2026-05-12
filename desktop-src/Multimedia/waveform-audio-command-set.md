@@ -2,7 +2,7 @@
 title: Waveform-Audio Command Set
 description: Waveform-Audio Command Set
 ms.assetid: 469e29bf-8f7c-41d8-9d18-08b19cd14110
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -4,7 +4,7 @@ title: LowLevelMouseProc callback function
 description: The system calls this function every time a new mouse input event is about to be posted into a thread input queue.
 old-location: 
 ms.assetid: na
-ms.date: 04/05/2019
+ms.date: 07/14/2025
 ms.keywords: 
 ms.topic: reference
 req.header: 
@@ -74,7 +74,7 @@ Type: **WPARAM**
 
 The identifier of the mouse message.
 
-This parameter can be one of the following messages: [WM_LBUTTONDOWN](/windows/desktop/inputdev/wm-lbuttondown), [WM_LBUTTONUP](/windows/desktop/inputdev/wm-lbuttonup), [WM_MOUSEMOVE](/windows/desktop/inputdev/wm-mousemove), [WM_MOUSEWHEEL](/windows/desktop/inputdev/wm-mousewheel), [WM_RBUTTONDOWN](/windows/desktop/inputdev/wm-rbuttondown) or [WM_RBUTTONUP](/windows/desktop/inputdev/wm-rbuttonup).
+This parameter can be one of the following messages: [WM_LBUTTONDOWN](/windows/desktop/inputdev/wm-lbuttondown), [WM_LBUTTONUP](/windows/desktop/inputdev/wm-lbuttonup), [WM_MOUSEMOVE](/windows/desktop/inputdev/wm-mousemove), [WM_MOUSEWHEEL](/windows/desktop/inputdev/wm-mousewheel), [WM_RBUTTONDOWN](/windows/desktop/inputdev/wm-rbuttondown), [WM_RBUTTONUP](/windows/desktop/inputdev/wm-rbuttonup), [WM_MBUTTONDOWN](/windows/desktop/inputdev/wm-mbuttondown), [WM_MBUTTONUP](/windows/desktop/inputdev/wm-mbuttonup), [WM_XBUTTONDOWN](/windows/desktop/inputdev/wm-xbuttondown), or [WM_XBUTTONUP](/windows/desktop/inputdev/wm-xbuttonup).
 
 ### lParam [in]
 

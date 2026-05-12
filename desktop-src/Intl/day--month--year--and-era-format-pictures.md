@@ -2,7 +2,7 @@
 description: The application uses the elements described in this topic to construct a null-terminated format picture string.
 ms.assetid: c18868a9-6912-46fd-93f5-d8021937b049
 title: Day, Month, Year, and Era Format Pictures
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

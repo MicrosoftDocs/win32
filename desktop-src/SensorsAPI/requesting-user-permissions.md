@@ -2,15 +2,20 @@
 description: This topic describes how to request permissions from the user to use sensors. For background information about permissions in the Sensor API, see Managing User Permissions.
 ms.assetid: e43ad497-86f1-4804-a67a-0aeb56b80d7f
 title: Requesting User Permissions
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 09/19/2025
 ---
 
 # Requesting User Permissions
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 This topic describes how to request permissions from the user to use sensors. For background information about permissions in the Sensor API, see [Managing User Permissions](managing-user-permissions.md).
 
-The following examples illustrate some of the common scenarious where you can choose to request user permissions.
+The following examples illustrate some of the common scenarios where you can choose to request user permissions.
 
 The following example code simply requests permissions for all sensors retrieved from the sensor manager, by type, using an asynchronous method call. The platform will open a dialog box to prompt the user only to enable sensors that are not already enabled. To determine whether the user enabled any sensors in this case, you must handle the [**ISensorEvents::OnStateChanged**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensorevents-onstatechanged) event.
 
@@ -105,6 +110,6 @@ if(SUCCEEDED(hr))
 [Managing User Permissions](managing-user-permissions.md)
 </dt> </dl>
 
- 
 
- 
+
+

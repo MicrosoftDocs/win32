@@ -1,8 +1,8 @@
 ---
+title: Adding a Resource to an Object
 description: Adding a Resource to an Object
 ms.assetid: 81476f50-5ea0-4e02-9e38-2b1dfcc32c4f
-title: Adding a Resource to an Object
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -109,7 +109,7 @@ if (SUCCEEDED(hr))
     OpenFileNameInfo.hwndOwner      = NULL;
     OpenFileNameInfo.lpstrFile      = wszFilePath;
     OpenFileNameInfo.nMaxFile       = ARRAYSIZE(wszFilePath);
-    OpenFileNameInfo.lpstrFilter    = L"JPEG (*.JPG)\0*.JPG\0JPEG (*.JPEG)\0*.JPEG\0JPG (*.JPE)\0*.JPE\0JPG (*.JFIF)\0*.JFIF\0\0";;
+    OpenFileNameInfo.lpstrFilter    = L"JPEG (*.JPG)\0*.JPG\0JPEG (*.JPEG)\0*.JPEG\0JPG (*.JPE)\0*.JPE\0JPG (*.JFIF)\0*.JFIF\0\0";
     OpenFileNameInfo.nFilterIndex   = 1;
     OpenFileNameInfo.Flags          = OFN_PATHMUSTEXIST | OFN_FILEMUSTEXIST;
     OpenFileNameInfo.lpstrDefExt    = L"JPG";
@@ -296,10 +296,3 @@ if (SUCCEEDED(hr))
 
 [**Programming Guide**](programming-guide.md)
 </dt> </dl>
-
- 
-
- 
-
-
-

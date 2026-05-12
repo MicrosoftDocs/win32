@@ -2,7 +2,7 @@
 title: Button Messages
 description: A button can send messages to its parent window, and a parent window can send messages to a button.
 ms.assetid: 2d2358fb-b17d-48a9-8def-15ae8bad9162
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

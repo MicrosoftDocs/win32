@@ -46,6 +46,3 @@ Sets the Y-intercept of the linear function for the alpha channel.
 [**IDCompositionLinearTransferEffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionlineartransfereffect)
 </dt> </dl>
 
-�
-
-�

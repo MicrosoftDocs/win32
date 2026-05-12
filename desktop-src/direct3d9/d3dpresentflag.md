@@ -2,7 +2,7 @@
 description: Constants used by D3DPRESENT\_PARAMETERS.
 ms.assetid: 1294171e-b3f6-4264-8411-b69427cefe7b
 title: D3DPRESENTFLAG
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

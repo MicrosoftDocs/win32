@@ -8,8 +8,8 @@ keywords:
 - clients,text ranges
 - clients,Text control pattern
 - clients,TextRange control pattern
-ms.topic: article
-ms.date: 12/09/2022
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Understanding Performance Issues When Using the Text and TextRange Control Patterns

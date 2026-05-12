@@ -2,7 +2,7 @@
 description: Eastern Europe
 ms.assetid: 0e2e81b3-52dc-451b-9734-464052128efe
 title: Eastern Europe
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

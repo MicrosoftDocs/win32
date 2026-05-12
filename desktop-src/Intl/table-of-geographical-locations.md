@@ -2,7 +2,7 @@
 description: This topic lists the available geographical locations with identifiers (data type GEOID).
 ms.assetid: 6e424bd4-389c-4f51-9898-f60a8a818f89
 title: Table of Geographical Locations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -225,7 +225,7 @@ This topic lists the available geographical locations with identifiers (data typ
 | 0x105                                  | 261                                        | Yemen                                        | Republic of Yemen                                     |
 | 0x107                                  | 263                                        | Zambia                                       | Republic of Zambia                                    |
 | 0x108                                  | 264                                        | Zimbabwe                                     | Republic of Zimbabwe                                  |
-| 0x10d                                  | 269                                        | Serbia              | Serbia                        |
+| 0x10d                                  | 269                                        | Serbia and Montenegro (Former)             | Serbia                        |
 | 0x10e                                  | 270                                        | Montenegro                                   | Montenegro                                            |
 | 0x10f                                  | 271                                        | Serbia                                       | Serbia                                                |
 | 0x111                                  | 273                                        | Curaçao                                      |                                                       |

@@ -2,7 +2,7 @@
 title: Debugging Memory Allocations
 description: Debugging Memory Allocations
 ms.assetid: 522adb1f-0e3e-4dfb-8836-f539a79a3d9e
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

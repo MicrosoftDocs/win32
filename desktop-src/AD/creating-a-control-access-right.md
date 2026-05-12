@@ -5,7 +5,7 @@ ms.assetid: dacd42c6-17d9-4dfe-8f51-e4a470766494
 ms.tgt_platform: multiple
 keywords:
 - Creating a Control Access Right AD
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

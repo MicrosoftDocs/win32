@@ -5,7 +5,7 @@ ms.assetid: bd9a8d62-c8e8-4ee5-86d8-bda5ddeb6e2c
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , creating a container object
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,8 +2,9 @@
 description: This topic discusses how applications can expose information about themselves necessary to enable certain scenarios.
 ms.assetid: F88AA3E6-6F7B-442d-935A-7D2CB4958E6B
 title: Application Registration
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
+no-loc: [Verb, verb, Shell, shell]
 ---
 
 # Application Registration

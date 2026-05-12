@@ -3,7 +3,7 @@ title: Terminal Services has been renamed
 description: In Windows Server 2008 R2, Terminal Services has been named to Remote Desktop Services
 ms.assetid: 49f9e9fe-987d-43fc-9f36-642842f18aa9
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 01/25/2022
 ---
 

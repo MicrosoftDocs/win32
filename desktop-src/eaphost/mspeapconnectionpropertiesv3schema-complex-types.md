@@ -2,7 +2,7 @@
 title: mspeapconnectionpropertiesv3 Schema Complex Types
 description: Learn about the mspeapconnectionpropertiesv3 schema complex types. The complex type is PeapExtensionsTypeV3.
 ms.assetid: 5edc9d55-6522-4ef0-bf29-13477a2b1fdf
-ms.topic: article
+ms.topic: reference
 ms.date: 07/10/2023
 topic_type: 
 - kbArticle

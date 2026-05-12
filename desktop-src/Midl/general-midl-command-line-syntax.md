@@ -4,7 +4,7 @@ description: The MIDL compiler processes an IDL file and an optional application
 ms.assetid: 1906b374-d0d1-4ec8-9a00-c5228b4c29ca
 keywords:
 - command-line reference MIDL , general syntax
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -69,7 +69,7 @@ The MIDL compiler provided with Microsoft RPC invokes the C preprocessor as need
 
 The MIDL compiler switches [**/env**](-env.md), [**/server**](-server.md), [**/sstub**](-sstub.md), and [**/out**](-out.md) affect the server stub file.
 
-Starting with MIDL version 6.0.359, the default command line option for the MIDL compiler is [**/Oicf**](-oi.md)Â [**/robust**](-robust.md). To disable /robust, specify the [**/no\_robust**](-no-robust.md) option.
+Starting with MIDL version 6.0.359, the default command line option for the MIDL compiler is [**/Oicf**](-oi.md) [**/robust**](-robust.md). To disable /robust, specify the [**/no\_robust**](-no-robust.md) option.
 
 ## The Header File
 

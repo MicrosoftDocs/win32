@@ -2,7 +2,7 @@
 description: Filter States
 ms.assetid: 97418307-eb50-4c8e-b03b-a2cd08139bdc
 title: Filter States
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

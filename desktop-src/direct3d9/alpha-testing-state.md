@@ -2,7 +2,7 @@
 description: C++ applications can use alpha testing to control when pixels are written to the render-target surface.
 ms.assetid: 368c3d12-2c8b-43e3-94c3-bccfe6c73e66
 title: Alpha Testing State (Direct3D 9)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

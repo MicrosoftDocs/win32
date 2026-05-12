@@ -2,7 +2,7 @@
 description: This topic describes how to write a Media Foundation transform (MFT) that acts as a proxy to a hardware encoder, decoder, or digital signal processor (DSP).
 ms.assetid: 9922d403-5d0d-433f-ad9f-c86142ac0f46
 title: Hardware MFTs
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

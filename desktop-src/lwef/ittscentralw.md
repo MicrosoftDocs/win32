@@ -2,7 +2,7 @@
 title: ITTSCentralW
 description: ITTSCentralW
 ms.assetid: 09799cc3-bf92-4307-b3a0-0188ebafa9a6
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

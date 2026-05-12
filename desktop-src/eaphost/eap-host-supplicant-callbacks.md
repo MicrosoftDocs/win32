@@ -2,7 +2,7 @@
 title: EAPHost Supplicant Callbacks
 description: Learn about EAPHost Supplicant API callback functions, such as the NotificationHandler callback prototype.
 ms.assetid: a32ff75d-17c2-482f-b22d-0f6bf6003772
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

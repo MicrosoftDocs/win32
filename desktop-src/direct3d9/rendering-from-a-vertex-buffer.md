@@ -2,7 +2,7 @@
 description: Rendering vertex data from a vertex buffer requires a few steps. First, you need to set the stream source by calling the IDirect3DDevice9::SetStreamSource method, as shown in the following example.
 ms.assetid: a0435a3d-e1dd-4365-904d-8e5713e379ce
 title: Rendering from a Vertex Buffer (Direct3D 9)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

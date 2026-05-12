@@ -2,7 +2,7 @@
 title: Asynchronous Compound Files
 description: Asynchronous Compound Files, the system-provided implementation of asynchronous storage, enables the efficient downloading of compound files from the Internet in general and the Web in particular.
 ms.assetid: 6cad074e-07a8-434f-a402-e29cb66a1a18
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

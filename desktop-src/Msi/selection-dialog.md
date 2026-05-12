@@ -2,7 +2,7 @@
 description: This modal dialog box enables users to select particular items.
 ms.assetid: 76e0f369-839e-4dc0-bb42-c48dbf1511f3
 title: Selection Dialog
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

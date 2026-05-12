@@ -2,7 +2,7 @@
 title: Introduction To Textures in Direct3D 11
 description: A texture resource is a structured collection of data designed to store texels.
 ms.assetid: d745093e-2d51-4d45-a88a-caa0ca58b2ba
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

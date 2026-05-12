@@ -2,7 +2,7 @@
 description: Bitmaps should be saved in a file that uses the established bitmap file format and assigned a name with the three-character .bmp extension.
 ms.assetid: 44f19d14-4e0e-4512-8c86-6bd34ca4e87b
 title: Bitmap Storage
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -75,8 +75,8 @@ The following table shows the data bytes associated with the structures in a bit
 | Structure                                    | Corresponding bytes |
 |----------------------------------------------|---------------------|
 | [**BITMAPFILEHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapfileheader) | 0x00 0x0D           |
-| [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) | 0x0E 0x35           |
-| [**RGBQUAD**](/windows/win32/api/wingdi/ns-wingdi-rgbquad) array             | 0x36 0x75           |
+| [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) | 0x0E 0x36           |
+| [**RGBQUAD**](/windows/win32/api/wingdi/ns-wingdi-rgbquad) array             | 0x37 0x75           |
 | Color-index array                            | 0x76 0x275          |
 
 

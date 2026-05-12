@@ -2,7 +2,7 @@
 title: Named Request Queue
 description: Named Request Queue
 ms.assetid: d0686a9b-fc3d-4b69-b083-d04b35ce5b50
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

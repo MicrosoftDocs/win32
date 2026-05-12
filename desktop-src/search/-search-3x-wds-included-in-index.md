@@ -1,12 +1,12 @@
 ---
 description: This topic describes the items that Windows Search indexes.
 ms.assetid: 'vs|search|~\search\wds3x\overviews\misc_items_in_index.htm'
-title: What Is Included in the Index
-ms.topic: article
+title: What is included in the index
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# What Is Included in the Index
+# What is included in the index
 
 This topic describes the items that Windows Search indexes.
 
@@ -21,7 +21,7 @@ This topic is organized as follows:
 
  
 
-## Indexed by Default
+## Indexed by default
 
 Protocol handlers and filters are included in Windows Search to index the following kinds of content:
 
@@ -31,7 +31,7 @@ Protocol handlers and filters are included in Windows Search to index the follow
 -   Windows Vista and later continue to expose a per-folder/per-file property to enable indexing: the "**For fast searching, allowing Indexing Service to index this folder**" option in the **Property** dialog box. Setting the FANCI bit flag ensures that basic properties from the protocol, such as URL, filename, and size are indexed, but that neither filter handlers nor property handlers are run.
 -   Text content is indexed but punctuation is not.
 
-## File Formats Supported
+## File formats supported
 
 Windows Search has protocol handlers, property handlers, and filter handlers to index the following formats automatically:
 
@@ -51,7 +51,7 @@ Properties are indexed for all files except structured storage. On Windows Vist
 
  
 
-## File Exclusions
+## File exclusions
 
 When a file type does not have an associated filter, or when a file does not have an extension, the system properties for files of that type are indexed, but the file content is not indexed.
 
@@ -64,7 +64,7 @@ On Windows Vista (only), the following files are excluded from indexing by defa
 
     .386, .aps, .AudioCD, .bin, .bk1, .bk2, .bkf, .bsc, .btr, .chk, .ci, .crwl, .dbg, .dct, .DeskLink, .dir, .dl\_, .dll, .drv, .dvd, .evt, .ex\_, .exe, .exp, .eyb, .fnd, .fnt, .Folder, .fon, .ghi, .gthr, .hqx, .icm, .idb, .idx, .ilk, .imc, .in\_, .ini, .inv, .jbf, .latex, .lib, .local, .m14, .mac, .manifest, .map, .MAPIMail, .mmf, .movie, .mv, .mydocs, .ncb, .obj, .oc\_, .ocx, .pch, .pdb, .pf, .pma, .pmc, .pml, .pmr, .res, .rmp, .rpc, .rsp, .sbr, .sc2, .sit, .sr\_, .sy\_, .sym, .sys, .tlb, .trc, .ttc, .ttf, .vbx, .vxd, .wll, .wlt, .xix, .z96, .ZFSendToTarget.
 
-## Folder Exclusions
+## Folder exclusions
 
 > [!TIP]
 > Folder names are not case-sensitive.
@@ -100,7 +100,7 @@ The following folders are excluded from indexing by default:
 
  
 
-## Drive Exclusions
+## Drive exclusions
 
 On Windows 7 and Windows Vista, removable drives are not indexed by default.
 

@@ -3,7 +3,7 @@ title: ADSI and User Account Control
 description: Windows and Windows Server have User Account Control, which has ramifications for applications that use Active Directory Service Interfaces (ADSI).
 ms.assetid: 0b286252-8c24-4a18-9dc6-063ca158a8ff
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

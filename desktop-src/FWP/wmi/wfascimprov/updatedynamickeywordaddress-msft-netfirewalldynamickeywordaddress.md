@@ -1,7 +1,7 @@
 ---
 title: UpdateDynamicKeywordAddress method of the MSFT_NetFirewallDynamicKeywordAddress class
 description: Updates the dynamic keyword address.
-ms.topic: article
+ms.topic: reference
 ms.date: 05/14/2024
 topic_type: 
 - APIRef
@@ -45,7 +45,7 @@ TRUE if the addresses should be appended to keyword's existing addresses, FALSE 
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Minimum supported client | Windows 8 |
 | Minimum supported server | Windows Server 2012 |

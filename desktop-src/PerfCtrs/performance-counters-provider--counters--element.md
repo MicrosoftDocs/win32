@@ -3,7 +3,7 @@ description: Identifies the provider and the counters that it provides.
 ms.assetid: 54a8b293-8e35-4b15-901a-e0cf608595d3
 title: provider (counters) Element
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - kbSyntax
 api_name: 

@@ -2,7 +2,7 @@
 description: AppSequence information contained in WS-Discovery announcement and response messages (Hello, ProbeMatches, and ResolveMatches).
 ms.assetid: f54eaa09-7ce8-4948-a0c5-edf2d054f6d5
 title: AppSequence Validation Rules
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

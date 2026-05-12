@@ -13,8 +13,8 @@ keywords:
 - microphone raw input
 - Human Interface Device (HID)
 - HID (Human Interface Device)
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Raw Input Overview
@@ -59,14 +59,22 @@ To get an application's registration status, call [**GetRegisteredRawInputDevice
 
 ## Reading Raw Input
 
-An application receives raw input from any HID whose [top level collection](/windows-hardware/drivers/hid/top-level-collections) (TLC) matches a TLC from the registration. When an application receives raw input, its message queue gets a [**WM\_INPUT**](wm-input.md) message and the queue status flag **QS\_RAWINPUT** is set (**QS\_INPUT** also includes this flag). An application can receive data when it is in the foreground and when it is in the background.
+An application receives raw input from any HID whose [top level collection](/windows-hardware/drivers/hid/top-level-collections) (TLC) matches a TLC from the registration. When an application receives raw input, its message queue gets a [WM_INPUT](wm-input.md) message and the queue status flag **QS_RAWINPUT** is set (**QS_INPUT** also includes this flag). An application can receive data when it is in the foreground and when it is in the background (if registered with **RIDEV_INPUTSINK**).
 
-There are two ways to read the raw data: the unbuffered (or standard) method and the buffered method. The unbuffered method gets the raw data one [**RAWINPUT**](/windows/win32/api/winuser/ns-winuser-rawinput) structure at a time and is adequate for many HIDs. Here, the application calls [**GetMessage**](/windows/desktop/api/winuser/nf-winuser-getmessage) to get the [**WM\_INPUT**](wm-input.md) message. Then the application calls [**GetRawInputData**](/windows/win32/api/winuser/nf-winuser-getrawinputdata) using the **RAWINPUT** handle contained in **WM\_INPUT**. For an example, see [Doing a Standard Read of Raw Input](using-raw-input.md).
+There are two ways to read the raw data: the standard method and the buffered method.
 
-In contrast, the buffered method gets an array of [**RAWINPUT**](/windows/win32/api/winuser/ns-winuser-rawinput) structures at a time. This is provided for devices that can produce large amounts of raw input. In this method, the application calls [**GetRawInputBuffer**](/windows/win32/api/winuser/nf-winuser-getrawinputbuffer) to get an array of **RAWINPUT** structures. Note that the [**NEXTRAWINPUTBLOCK**](/windows/win32/api/winuser/nf-winuser-nextrawinputblock) macro is used to traverse an array of **RAWINPUT** structures. For an example, see [Doing a Buffered Read of Raw Input](using-raw-input.md).
+**Standard method** reads one [RAWINPUT](/windows/win32/api/winuser/ns-winuser-rawinput) structure at a time and is adequate for most devices. The application calls [GetMessage](/windows/win32/api/winuser/nf-winuser-getmessage) to retrieve the [WM_INPUT](wm-input.md) message, then calls [GetRawInputData](/windows/win32/api/winuser/nf-winuser-getrawinputdata) with the **HRAWINPUT** handle passed in *lParam*. For an example, see [Performing a Standard Read of Raw Input](using-raw-input.md).
 
-To interpret the raw input, detailed information about the HIDs is required. An application gets the device information by calling [**GetRawInputDeviceInfo**](/windows/win32/api/winuser/nf-winuser-getrawinputdeviceinfoa) with the device handle. This handle can come either from [**WM\_INPUT**](wm-input.md) or from the **hDevice** member of [**RAWINPUTHEADER**](/windows/win32/api/winuser/ns-winuser-rawinputheader).
+**Buffered method** reads an array of [RAWINPUT](/windows/win32/api/winuser/ns-winuser-rawinput) structures at a time and is useful for high-frequency devices such as mice at 1000Hz, where multiple events may accumulate between message loop iterations. The application calls [GetRawInputBuffer](/windows/win32/api/winuser/nf-winuser-getrawinputbuffer) to drain all accumulated events in a single batch. Use the [NEXTRAWINPUTBLOCK](/windows/win32/api/winuser/nf-winuser-nextrawinputblock) macro to traverse the resulting array.
 
+> [!IMPORTANT]
+> [GetMessage](/windows/win32/api/winuser/nf-winuser-getmessage) removes the current [WM_INPUT](wm-input.md) from the raw input queue before returning. As a result, [GetRawInputBuffer](/windows/win32/api/winuser/nf-winuser-getrawinputbuffer) will not see the current event — only events that arrived after it. When combining both methods, the correct pattern is:
+> 1. Call [GetRawInputData](/windows/win32/api/winuser/nf-winuser-getrawinputdata) with the *lParam* handle to read the current event.
+> 2. Call [GetRawInputBuffer](/windows/win32/api/winuser/nf-winuser-getrawinputbuffer) in a loop to drain any additional events that accumulated in the queue.
+>
+> For an example, see [Performing a Batched Read of Raw Input](using-raw-input.md).
+
+To interpret the raw input, detailed information about the HIDs may be required. An application gets the device information by calling [GetRawInputDeviceInfo](/windows/win32/api/winuser/nf-winuser-getrawinputdeviceinfoa) with the device handle. This handle can come either from the *lParam* of [WM_INPUT](wm-input.md) via [GetRawInputData](/windows/win32/api/winuser/nf-winuser-getrawinputdata) with **RID_HEADER**, or from the **hDevice** member of [RAWINPUTHEADER](/windows/win32/api/winuser/ns-winuser-rawinputheader).
 
 ## See also
 - [Keyboard Input](keyboard-input.md)

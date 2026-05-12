@@ -2,7 +2,7 @@
 description: Overview of the Timeline Components
 ms.assetid: 0c67fc5f-2f80-481d-8cf4-989855050196
 title: Overview of the Timeline Components
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

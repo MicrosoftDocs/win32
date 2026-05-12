@@ -2,7 +2,7 @@
 title: Kerberos v5 Protocol
 description: Kerberos v5 Protocol
 ms.assetid: a53a1edf-f374-4cbf-8050-7cde45284157
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ The Kerberos protocol requires mutual authentication and supports it remotely. T
 
 With the Kerberos protocol, the impersonation levels identify, impersonate, and delegate can be used. When a server calls [**CoImpersonateClient**](/windows/desktop/api/combaseapi/nf-combaseapi-coimpersonateclient), the token returned is valid off the computer for some time period between 5 minutes and 8 hours. After this time, it can be used on the server computer only. If a server is "run as activator" and the activation is done with the Kerberos protocol, the server's token will expire between 5 minutes and 8 hours after activation.
 
-The Kerberos v5 authentication protocol implemented by WindowsÂ supports [cloaking](cloaking.md).
+The Kerberos v5 authentication protocol implemented by Windows supports [cloaking](cloaking.md).
 
 ## Related topics
 

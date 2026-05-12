@@ -5,7 +5,7 @@ title: MSFT\_NetIPsecDoSPSetting class
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -469,7 +469,7 @@ State entry idle timeout in seconds. Value must be greater than 0.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                         |

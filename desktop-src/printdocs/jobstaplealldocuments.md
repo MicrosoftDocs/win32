@@ -2,7 +2,7 @@
 description: Learn about the JobStapleAllDocuments element, which describes the stapling characteristics of the job output.
 ms.assetid: a6721c13-a3dc-4273-b40f-2a28184b04a9
 title: JobStapleAllDocuments
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

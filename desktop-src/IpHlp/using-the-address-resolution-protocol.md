@@ -2,7 +2,7 @@
 description: You can use IP Helper to perform Address Resolution Protocol (ARP) operations for the local computer. Use the following functions to retrieve and modify the ARP table.
 ms.assetid: 2c5dc1f8-590f-4b41-b6bb-f82ab093252f
 title: Using the Address Resolution Protocol
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

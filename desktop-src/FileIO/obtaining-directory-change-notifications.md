@@ -2,7 +2,7 @@
 description: An application can monitor the contents of a directory and its subdirectories by using change notifications.
 ms.assetid: ad884b15-e040-478b-aa99-d8622198f62a
 title: Obtaining Directory Change Notifications
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -15,6 +15,9 @@ An application can specify a set of conditions that trigger a change notificatio
 Use [**FindCloseChangeNotification**](/windows/desktop/api/FileAPI/nf-fileapi-findclosechangenotification) to close the notification handle.
 
 To retrieve information about the specific change as part of the notification, use the [**ReadDirectoryChangesW**](/windows/desktop/api/WinBase/nf-winbase-readdirectorychangesw) function. This function also enables you to provide a completion routine.
+
+> [!NOTE]
+> The **FindFirstChangeNotification** and **ReadDirectoryChangesW** functions are mutually exclusive. You should use one or the other, but not both.
 
 To track changes on a volume, see [change journals](change-journals.md).
 

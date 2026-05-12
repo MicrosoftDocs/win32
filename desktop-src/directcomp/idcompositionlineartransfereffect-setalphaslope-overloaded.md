@@ -1,5 +1,5 @@
 ---
-title: idcompositionlineartransfereffect SetAlphaSlope methods (Dcomp.h)
+title: IDCompositionLinearTransferEffect SetAlphaSlope methods (Dcomp.h)
 description: Sets the slope of the linear function for the alpha channel.
 ms.assetid: 1de76dcb-9fcb-ddda-0a98-be151ff869ff
 keywords:
@@ -14,7 +14,7 @@ ms.date: 07/02/2019
 ms.topic: reference
 ---
 
-# idcompositionlineartransfereffect::SetAlphaSlope methods
+# IDCompositionLinearTransferEffect::SetAlphaSlope methods
 
 Sets the slope of the linear function for the alpha channel.
 
@@ -46,6 +46,3 @@ Sets the slope of the linear function for the alpha channel.
 [**IDCompositionLinearTransferEffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionlineartransfereffect)
 </dt> </dl>
 
-�
-
-�

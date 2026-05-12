@@ -7,7 +7,7 @@ keywords:
 - Device Manager,error codes
 - programming reference,error codes
 - reference for Windows Media Device Manager,error codes
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 
@@ -248,7 +248,7 @@ The following error codes are defined in the Windows Media DRM for Portable Devi
 
 **Windows Media Rights Manager SDK errors**
 
-Occasionally, you might encounter an error defined in the Windows Media Rights Manager SDK. A list of errors defined by that SDK is given in the [MSDN library](/previous-versions//bb614577(v=vs.85)). However, the following Windows Media Rights Manager SDK errors were not documented.
+Occasionally, you might encounter an error defined in the Windows Media Rights Manager SDK. A list of errors defined by that SDK can be found at [Error Codes and Messages](/previous-versions//bb614577(v=vs.85)). However, the following Windows Media Rights Manager SDK errors were not documented.
 
 
 

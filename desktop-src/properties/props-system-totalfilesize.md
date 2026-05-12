@@ -2,7 +2,7 @@
 description: System.TotalFileSize
 ms.assetid: 10e1f806-e408-48ab-8fe7-1d7a4d41f320
 title: System.TotalFileSize
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

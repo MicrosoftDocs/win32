@@ -2,7 +2,7 @@
 title: Designing a User Interface
 description: This section describes in detail some of the tasks associated with designing a UI for a Windows application.
 ms.assetid: 22deda0c-bf03-4fcd-9cc9-6381b601c152
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -37,7 +37,7 @@ Consider the following suggestions early in the design phase to optimize the use
 
 -   Follow UI design guidelines.
 
-    Become familiar with the [Windows User Experience Interaction Guidelines](../uxguide/guidelines.md) and refer to them often as the design, implementation, and testing of the application UI progresses.
+    Become familiar with the [Windows User Experience Interaction Guidelines](../uxguide/interaction.md) and refer to them often as the design, implementation, and testing of the application UI progresses.
 
 -   Ensure that the UI is accessible.
 

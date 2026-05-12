@@ -2,7 +2,7 @@
 title: Function Reference
 description: This section documents the Remote Procedure Call (RPC) run-time functions supported in Microsoft RPC.
 ms.assetid: 135bef8d-1794-420e-a111-604d02dbcc06
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

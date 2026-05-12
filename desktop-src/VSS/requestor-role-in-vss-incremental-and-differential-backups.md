@@ -2,7 +2,7 @@
 description: 'To support an incremental or differential backup operation, a requester must do the following:'
 ms.assetid: a77700e3-8217-460e-bec9-1041d03eec41
 title: Requester Role in VSS Incremental and Differential Backups
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

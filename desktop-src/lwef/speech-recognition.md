@@ -2,7 +2,7 @@
 title: Speech Recognition
 description: Speech Recognition
 ms.assetid: cb5ac509-12a4-4ca4-8776-424568cf780d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

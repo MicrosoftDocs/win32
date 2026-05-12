@@ -2,7 +2,7 @@
 description: Device-dependent bitmaps (DDBs) are described by using a single structure, the BITMAP structure.
 ms.assetid: 63ff9cd6-cd07-4085-b166-268e4d9b7aad
 title: Device-Dependent Bitmaps
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

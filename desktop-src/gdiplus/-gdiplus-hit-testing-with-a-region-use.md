@@ -2,7 +2,7 @@
 description: The purpose of hit testing is to determine whether the cursor is over a given object, such as an icon or a button.
 ms.assetid: 9776b73e-191e-4a8e-9abe-e485ffed954c
 title: Hit Testing with a Region
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

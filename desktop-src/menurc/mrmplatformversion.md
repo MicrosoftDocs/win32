@@ -1,6 +1,6 @@
 ---
 title: MrmPlatformVersion enumeration (MrmResourceIndexer.h)
-description: Defines constants that specify a platform version. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
+description: Defines constants that specify the target platform version for a PRI file.
 ms.assetid: 7BA30B8F-FB23-4DCA-930D-099C7F8476E9
 keywords:
 - MrmPlatformVersion enumeration Menus and Other Resources
@@ -18,9 +18,9 @@ ms.date: 05/31/2018
 
 # MrmPlatformVersion enumeration
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
-
-Defines constants that specify a platform version. For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
+Defines constants that specify the target platform version for a PRI file. The target platform version is the minimum 
+version of Windows that the file can be used with. In most cases, you should just use the value 
+**MrmPlatformVersion_Windows10_0_0_5** unless you need to run on older releases of Windows.
 
 ## Syntax
 
@@ -42,21 +42,21 @@ typedef enum _MrmPlatformVersion {
 <span id="MrmPlatformVersion_Default"></span><span id="mrmplatformversion_default"></span><span id="MRMPLATFORMVERSION_DEFAULT"></span>**MrmPlatformVersion\_Default**
 </dt> <dd>
 
-Specifies that the platform version is the default.
+The PRI file is supported on the default platform version, which is currently the same as 10.0.0.0.
 
 </dd> <dt>
 
 <span id="MrmPlatformVersion_Windows10_0_0_0"></span><span id="mrmplatformversion_windows10_0_0_0"></span><span id="MRMPLATFORMVERSION_WINDOWS10_0_0_0"></span>**MrmPlatformVersion\_Windows10\_0\_0\_0**
 </dt> <dd>
 
-Specifies a platform version of Windows 10.0.0.0.
+The PRI file is supported on the initial release of Windows 10 (build 10240) and above. 
 
 </dd> <dt>
 
 <span id="MrmPlatformVersion_Windows10_0_0_5"></span><span id="mrmplatformversion_windows10_0_0_5"></span><span id="MRMPLATFORMVERSION_WINDOWS10_0_0_5"></span>**MrmPlatformVersion\_Windows10\_0\_0\_5**
 </dt> <dd>
 
-Specifies a platform version of Windows 10.0.0.5.
+The PRI file is supported on the 1809 release of Windows 10 (build 17763) and above. Most callers should specify this value.
 
 </dd> </dl>
 
@@ -73,11 +73,31 @@ Specifies a platform version of Windows 10.0.0.5.
 
 
 ## See also
+<dl> <dt>
+
+[**MrmCreateResourceIndexer**](mrmcreateresourceindexer.md)
+</dt></dl>
+<dl> <dt>
+
+[**MrmCreateResourceIndexerFromPreviousPriData**](mrmcreateresourceindexerfrompreviouspridata-.md)
+</dt></dl>
+
+<dl> <dt>
+
+[**MrmCreateResourceIndexerFromPreviousPriFile**](mrmcreateresourceindexerfrompreviousprifile.md)
+</dt></dl>
+
+<dl> <dt>
+
+[**MrmCreateResourceIndexerFromPreviousSchemaData**](mrmcreateresourceindexerfrompreviousschemadata.md)
+</dt></dl>
+
+<dl> <dt>
+
+[**MrmCreateResourceIndexerFromPreviousSchemaFile**](mrmcreateresourceindexerfrompreviousschemafile.md)
+</dt></dl>
 
 <dl> <dt>
 
 [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems)
-</dt> </dl>
-
- 
-
+</dt></dl>

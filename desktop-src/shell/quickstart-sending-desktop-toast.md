@@ -1,7 +1,7 @@
 ---
 description: This quickstart shows how to raise a toast notification from a desktop app.
 title: Sending a toast notification from the desktop
-ms.topic: article
+ms.topic: quickstart
 ms.date: 05/31/2018
 ms.assetid: 1D20ED75-E24A-4e60-91AB-CFCBE902A68E
 api_name: 

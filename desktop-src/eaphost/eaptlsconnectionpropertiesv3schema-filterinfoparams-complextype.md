@@ -2,7 +2,7 @@
 title: FilterInfoParams Complex Type
 description: Learn about the FilterInfoParams complex type. This type enables future enhancements to the schema.
 ms.assetid: ff133035-cbbf-4c52-bc40-e3cbce7de309
-ms.topic: article
+ms.topic: reference
 ms.date: 07/07/2023
 ---
 

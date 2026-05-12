@@ -7,7 +7,7 @@ keywords:
 - WinNT User Account Management Examples ADSI
 - User Account Management Examples ADSI , WinNT provider
 - WinNT provider ADSI , user management examples
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

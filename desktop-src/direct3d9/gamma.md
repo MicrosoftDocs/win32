@@ -2,7 +2,7 @@
 description: Texture content is often stored in sRGB format.
 ms.assetid: d076140d-3e91-412a-b099-9baa52f8d7d8
 title: Gamma (Direct3D 9)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

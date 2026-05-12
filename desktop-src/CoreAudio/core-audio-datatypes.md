@@ -2,7 +2,7 @@
 description: This section describes the datatypes that are used by the Core Audio APIs, such as SpatialAudioHrtfOrientation.
 ms.assetid: B2ED2C84-3226-49B3-9391-E1A2B2391A94
 title: Core Audio Datatypes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

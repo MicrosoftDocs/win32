@@ -19,7 +19,7 @@ keywords:
 - RAS_EAP_VALUENAME_PER_POLICY_CONFIG
 - RAS_EAP_VALUENAME_ISTUNNEL_METHOD
 - RAS_EAP_VALUENAME_FILTER_INNERMETHODS
-ms.topic: article
+ms.topic: reference
 ms.date: 06/14/2023
 ms.contributor: samyun
 ---

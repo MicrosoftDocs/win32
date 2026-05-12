@@ -2,7 +2,7 @@
 title: ID Attribute (VML)
 description: ID Attribute (VML)
 ms.assetid: 39575a1c-f8ea-43e0-9ad5-540e9d803748
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

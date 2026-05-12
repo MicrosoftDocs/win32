@@ -7,7 +7,7 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),errors
 - MIDI services,errors
 - MIDI errors
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

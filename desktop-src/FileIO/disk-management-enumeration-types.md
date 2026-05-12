@@ -2,7 +2,7 @@
 description: Enumeration types used with disk management.
 ms.assetid: ed8fe5c1-dbdf-43bc-a0a7-17e541eba950
 title: Disk Management Enumeration Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

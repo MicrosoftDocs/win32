@@ -2,8 +2,8 @@
 description: "Learn more about: Using Hooks"
 ms.assetid: f0ca9e41-a9f7-435f-a601-f0959adcb514
 title: Using Hooks
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Using Hooks
@@ -19,7 +19,7 @@ You can install a hook procedure by calling the [**SetWindowsHookEx**](/windows/
 
 You must place a global hook procedure in a DLL separate from the application installing the hook procedure. The installing application must have the handle to the DLL module before it can install the hook procedure. To retrieve a handle to the DLL module, call the [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) function with the name of the DLL. After you have obtained the handle, you can call the [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) function to retrieve a pointer to the hook procedure. Finally, use [**SetWindowsHookEx**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa) to install the hook procedure address in the appropriate hook chain. **SetWindowsHookEx** passes the module handle, a pointer to the hook-procedure entry point, and 0 for the thread identifier, indicating that the hook procedure should be associated with all threads in the same desktop as the calling thread. This sequence is shown in the following example.
 
-``` syntax
+```cpp
 HOOKPROC hkprcSysMsg;
 static HINSTANCE hinstDLL; 
 static HHOOK hhookSysMsg; 
@@ -55,7 +55,7 @@ The following example uses a variety of thread-specific hook procedures to monit
 The user can install and remove a hook procedure by using the menu. When a hook procedure is installed and an event that is monitored by the procedure occurs, the procedure writes information about the event to the client area of the application's main window.
 
 
-```
+```cpp
 #include <windows.h>
 #include <strsafe.h>
 #include "app.h"

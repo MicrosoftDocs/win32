@@ -2,13 +2,13 @@
 description: MTP Extension Events
 ms.assetid: c04554cd-d68d-455e-afa3-29d4186dad65
 title: MTP Extension Events
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # MTP Extension Events
 
-Events notify an application that changes have occurred on, or with, a device. For example, an application can register to receive notfications that a device has been removed .
+Events notify an application that changes have occurred on, or with, a device. For example, an application can register to receive notifications that a device has been removed .
 
 ## Vendor-Extended Event Codes
 

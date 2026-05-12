@@ -2,7 +2,7 @@
 description: This sample demonstrates how to serialize and de-serialize ink in various formats.
 ms.assetid: 468d9c2a-0b3c-4a44-a049-3f3b78e952ba
 title: Ink Serialization Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 
@@ -138,7 +138,7 @@ else
     using (FileStream gifFile = File.OpenWrite(nameBase + "_files\\signature.gif"))
     {
 
-        // Generate the fortified GIF represenation of the ink
+        // Generate the fortified GIF representation of the ink
         fortifiedGif = ic.Ink.Save(PersistenceFormat.Gif);
 
         // Write and close the gif file

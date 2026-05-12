@@ -2,7 +2,7 @@
 title: ' in, out, string Prototype'
 description: The following function prototype uses a single \ in, out, string\ parameter for both the input and output strings.
 ms.assetid: 5a652b79-11ca-4780-aac1-60a22f96b4af
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -13,7 +13,7 @@ keywords:
 - Client Extended APIs,pre-delivery of licenses
 - pre-delivery of licenses
 - licenses,pre-delivery of licenses
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

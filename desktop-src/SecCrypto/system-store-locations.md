@@ -1,23 +1,23 @@
 ---
-description: A system store is a collection that consists of one or more physical sibling stores.
+description: Learn about Windows certificate system store locations, registry paths, and predefined physical stores for CURRENT_USER, LOCAL_MACHINE, and other system locations.
 ms.assetid: 41fe9366-4c17-43bb-91d6-934c7aa87a2d
-title: System Store Locations
-ms.topic: article
-ms.date: 05/31/2018
+title: Windows Certificate System Store Locations and Registry Paths
+ms.topic: reference
+ms.date: 08/25/2025
 ---
 
 # System Store Locations
 
-A system store is a collection that consists of one or more physical sibling stores. For each system store, there are predefined physical sibling stores. After opening a system store such as MY at CERT\_SYSTEM\_STORE\_CURRENT\_USER, the store provider calls [**CertOpenStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certopenstore) to open each of the physical stores in the system store collection. In the open process, each of these physical stores is added to the system store collection using [**CertAddStoreToCollection**](/windows/desktop/api/Wincrypt/nf-wincrypt-certaddstoretocollection). All certificates in those physical stores are available through the logical system store collection.
+Windows certificate system stores are collections that consist of one or more physical sibling stores located in specific registry paths. This article explains the predefined system store locations, their registry paths, and associated physical stores for certificate management in Windows applications. For each system store, there are predefined physical sibling stores. After opening a system store such as MY at CERT_SYSTEM_STORE_CURRENT_USER, the store provider calls [CertOpenStore](/windows/win32/api/Wincrypt/nf-wincrypt-certopenstore) to open each of the physical stores in the system store collection using [CertAddStoreToCollection](/windows/win32/api/Wincrypt/nf-wincrypt-certaddstoretocollection).
 
-For each system store location, the predefined systems stores are:
+All certificates in those physical stores are available through the logical system store collection. For each system store location, the predefined systems stores are:
 
--   MY
--   Root
--   Trust
--   CA
+- MY
+- Root
+- Trust
+- CA
 
-In CERT\_SYSTEM\_STORE\_CURRENT\_USER, there is also a predefined UserDS store. A smart card store is planned for this location.
+In **CERT_SYSTEM_STORE_CURRENT_USER**, there is also a predefined UserDS store. A smart card store is planned for this location.
 
 Here are the system stores followed by further remarks:
 
@@ -176,7 +176,7 @@ CERT\_SYSTEM\_CURRENT\_USER\_GROUP\_POLICY system stores are at the following re
 ```
 HKEY_CURRENT_USER
    Software
-      Policy
+      Policies
          Microsoft
             SystemCertificates
 ```
@@ -188,7 +188,7 @@ CERT\_SYSTEM\_LOCAL\_MACHINE\_GROUP\_POLICY system stores are at the following r
 ```
 HKEY_LOCAL_MACHINE
    Software
-      Policy
+      Policies
          Microsoft
             SystemCertificates
 ```

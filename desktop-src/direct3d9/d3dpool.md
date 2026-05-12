@@ -89,13 +89,13 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 All pool types are valid with all resources including: vertex buffers, index buffers, textures, and surfaces.
 
-The following tables indicate restrictions on pool types for render targets, depth stencils, and dynamic and mipmap usages. An x indicates a compatible combination; lack of an x indicates incompatibility.
+The following tables indicate restrictions on pool types for render targets, depth stencils, and dynamic and mipmap usages. A yes indicates a compatible combination; lack of a yes indicates incompatibility.
 
 
 
 | Pool               | D3DUSAGE\_RENDERTARGET | D3DUSAGE\_DEPTHSTENCIL |
 |--------------------|------------------------|------------------------|
-| D3DPOOL\_DEFAULT   | x                      | x                      |
+| D3DPOOL\_DEFAULT   | yes                      | yes                      |
 | D3DPOOL\_MANAGED   |                        |                        |
 | D3DPOOL\_SCRATCH   |                        |                        |
 | D3DPOOL\_SYSTEMMEM |                        |                        |
@@ -108,10 +108,10 @@ The following tables indicate restrictions on pool types for render targets, dep
 
 | Pool               | D3DUSAGE\_DYNAMIC | D3DUSAGE\_AUTOGENMIPMAP |
 |--------------------|-------------------|-------------------------|
-| D3DPOOL\_DEFAULT   | x                 | x                       |
-| D3DPOOL\_MANAGED   |                   | x                       |
+| D3DPOOL\_DEFAULT   | yes                 | yes                       |
+| D3DPOOL\_MANAGED   |                   | yes                       |
 | D3DPOOL\_SCRATCH   |                   |                         |
-| D3DPOOL\_SYSTEMMEM | x                 |                         |
+| D3DPOOL\_SYSTEMMEM | yes                 |                         |
 
 
 

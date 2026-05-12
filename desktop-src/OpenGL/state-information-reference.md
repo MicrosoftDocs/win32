@@ -4,7 +4,7 @@ description: The following list contains the functions that get state informatio
 ms.assetid: 8ff75690-41ed-43cf-a000-1893755163f4
 keywords:
 - OpenGL,state information reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

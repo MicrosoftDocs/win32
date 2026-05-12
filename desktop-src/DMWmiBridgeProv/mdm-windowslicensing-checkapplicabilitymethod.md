@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # CheckApplicabilityMethod method of the MDM\_WindowsLicensing class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+
 
 Checks if the entered product key can be used for an edition upgrade, activation or changing a product key of Windows 10 for desktop devices. See also, [CheckApplicability](/windows/client-management/mdm/windowslicensing-csp).
 

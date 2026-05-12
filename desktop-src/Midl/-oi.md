@@ -61,7 +61,7 @@ Specifies the codeless proxy method of marshaling that includes all the features
 
 Please note the restrictions related to supporting platforms.
 
-The MIDL 3.0 compiler provides two methods for marshaling code: fully-interpreted ( **/Oi**, **/Oic** and **/Oicf**) and mixed-mode ( [**/Os**](-os.md)). Starting with MIDL version 6.0.359, the MIDL compiler generates **/Oicf**Â [**/robust**](-robust.md) stubs by default. Some language features are not supported in some modes. In this case, the compiler automatically switches to the appropriate mode and issues a warning.
+The MIDL 3.0 compiler provides two methods for marshaling code: fully-interpreted ( **/Oi**, **/Oic** and **/Oicf**) and mixed-mode ( [**/Os**](-os.md)). Starting with MIDL version 6.0.359, the MIDL compiler generates **/Oicf** [**/robust**](-robust.md) stubs by default. Some language features are not supported in some modes. In this case, the compiler automatically switches to the appropriate mode and issues a warning.
 
 If performance is a concern, the mixed-mode ( [**/Os**](-os.md)) method can be the best approach. In this mode, the compiler chooses to marshal some parameters inline in the generated stubs. While this results in larger stub size, it offers increased performance.
 

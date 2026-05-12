@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - directory services ADSI
 - directory services ADSI ,background for directory services
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

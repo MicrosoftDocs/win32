@@ -3,7 +3,7 @@ description: When connecting remotely to an Active Directory server other than t
 ms.assetid: f1478b9d-4a92-4340-8721-1f443eb6ace2
 ms.tgt_platform: multiple
 title: Describing the LDAP Namespace
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

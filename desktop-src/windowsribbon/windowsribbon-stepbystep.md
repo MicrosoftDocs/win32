@@ -9,7 +9,7 @@ keywords:
 - Ribbon,roadmap
 - Windows Ribbon,markup
 - Ribbon,markup
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

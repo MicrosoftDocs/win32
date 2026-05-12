@@ -2,7 +2,7 @@
 title: Volume management structures
 description: Structures used in volume management (fileio.h).
 ms.assetid: bbde9dfb-c205-4432-be71-250d73b881f1
-ms.topic: article
+ms.topic: reference
 ms.date: 02/09/2023
 ---
 

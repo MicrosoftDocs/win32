@@ -2,7 +2,7 @@
 description: Signal Format
 ms.assetid: 8684972c-3233-49bf-8c34-ca644aca432a
 title: Signal Format
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

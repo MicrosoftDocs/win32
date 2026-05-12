@@ -5,7 +5,7 @@ title: Enable method of the MSFT\_NetAdapterRdmaSettingData class
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -49,7 +49,7 @@ Returns an embedded instance of the [**MSFT\_NetAdapterRdmaSettingData**](msft-n
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                               |

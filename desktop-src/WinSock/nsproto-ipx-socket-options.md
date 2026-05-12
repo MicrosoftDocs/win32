@@ -41,22 +41,22 @@ To enumerate protocols and discover supported properties for each installed prot
 
 | Option                      | Windows Vista and later | Windows Server 2003 | Windows XP | Windows 2000 | Windows NT4 | Windows 9x/Me |
 |-----------------------------|-------------------------|---------------------|------------|--------------|-------------|---------------|
-| IPX\_ADDRESS                |                         | x                   | x          | x            | x           | x             |
-| IPX\_ADDRESS\_NOTIFY        |                         | x                   | x          | x            | x           | x             |
-| IPX\_DSTYPE                 |                         | x                   | x          | x            | x           | x             |
-| IPX\_EXTENDED\_ADDRESS      |                         | x                   | x          | x            | x           | x             |
-| IPX\_FILTERPTYPE            |                         | x                   | x          | x            | x           | x             |
-| IPX\_GETNETINFO             |                         | x                   | x          | x            | x           | x             |
-| IPX\_GETNETINFO\_NORIP      |                         | x                   | x          | x            | x           | x             |
-| IPX\_IMMEDIATESPXACK        |                         | x                   | x          | x            | x           | x             |
-| IPX\_MAX\_ADAPTER\_NUM      |                         | x                   | x          | x            | x           | x             |
-| IPX\_MAXSIZE                |                         | x                   | x          | x            | x           | x             |
-| IPX\_PTYPE                  |                         | x                   | x          | x            | x           | x             |
-| IPX\_RECEIVE\_BROADCAST     |                         | x                   | x          | x            | x           | x             |
-| IPX\_RECVHDR                |                         | x                   | x          | x            | x           | x             |
-| IPX\_RERIPNETNUMBER         |                         | x                   | x          | x            | x           | x             |
-| IPX\_SPXGETCONNECTIONSTATUS |                         | x                   | x          | x            | x           | x             |
-| IPX\_STOPFILTERPTYPE        |                         | x                   | x          | x            | x           | x             |
+| IPX\_ADDRESS                |                          yes                     yes            yes              yes             yes              |
+| IPX\_ADDRESS\_NOTIFY        |                          yes                     yes            yes              yes             yes              |
+| IPX\_DSTYPE                 |                          yes                     yes            yes              yes             yes              |
+| IPX\_EXTENDED\_ADDRESS      |                          yes                     yes            yes              yes             yes              |
+| IPX\_FILTERPTYPE            |                          yes                     yes            yes              yes             yes              |
+| IPX\_GETNETINFO             |                          yes                     yes            yes              yes             yes              |
+| IPX\_GETNETINFO\_NORIP      |                          yes                     yes            yes              yes             yes              |
+| IPX\_IMMEDIATESPXACK        |                          yes                     yes            yes              yes             yes              |
+| IPX\_MAX\_ADAPTER\_NUM      |                          yes                     yes            yes              yes             yes              |
+| IPX\_MAXSIZE                |                          yes                     yes            yes              yes             yes              |
+| IPX\_PTYPE                  |                          yes                     yes            yes              yes             yes              |
+| IPX\_RECEIVE\_BROADCAST     |                          yes                     yes            yes              yes             yes              |
+| IPX\_RECVHDR                |                          yes                     yes            yes              yes             yes              |
+| IPX\_RERIPNETNUMBER         |                          yes                     yes            yes              yes             yes              |
+| IPX\_SPXGETCONNECTIONSTATUS |                          yes                     yes            yes              yes             yes              |
+| IPX\_STOPFILTERPTYPE        |                          yes                     yes            yes              yes             yes              |
 
 
 

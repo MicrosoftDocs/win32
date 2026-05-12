@@ -4,7 +4,7 @@ description: There are two ways your client can hang network connectivity can ca
 ms.assetid: 2c201e29-9d9c-48e6-b0b5-68e4b25c3fb7
 keywords:
 - Remote Procedure Call RPC , best practices, preventing client hangs
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

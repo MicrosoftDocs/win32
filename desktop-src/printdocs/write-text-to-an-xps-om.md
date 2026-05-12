@@ -2,7 +2,7 @@
 description: This topic describes how to write text to an XPS OM.
 ms.assetid: 5552b7b0-1c95-43fa-ad06-c167c69c5a56
 title: Write Text to an XPS OM
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -1,12 +1,12 @@
 ---
 description: There are several ways to use Windows Search to query the index.
 ms.assetid: 2c161b7f-4e28-4e8a-add6-3c1cda00a622
-title: Querying the Index Programmatically
-ms.topic: article
+title: Querying the index programmatically
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Querying the Index Programmatically
+# Querying the index programmatically
 
 There are several ways to use Windows Search to query the index.
 
@@ -23,14 +23,14 @@ This section provides the conceptual framework for querying the index programmat
 
  
 
-## Additional Resources
+## Additional resources
 
 -   For information on OLE DB, see [OLE DB Programming Overview](https://msdn.microsoft.com/library/Cc522830(v=VS.71).aspx). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](/dotnet/api/system.data.oledb).
 -   For additional background on using properties in querying, see the following topics:
     -   [Property System](../properties/building-property-handlers.md)
     -   [System Properties](https://msdn.microsoft.com/library/bb763010(VS.85).aspx)
 -   For information on how to create and modify search folders, see [**ISearchFolderItemFactory Interface**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory).
--   For community-supported question and discussion message boards on Search technologies, see [MSDN Forum: Windows Desktop Search Development](https://social.msdn.microsoft.com/Forums/windowsdesktopsearchdevelopment/threads).
+-   For community-supported question and discussion message boards on Search technologies, see [Microsoft Q&A](/answers/).
 -   To download the Search SDK Code Samples:
     -   For Windows 7: [Windows Search Samples on GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch)
 -   To download the Windows SDK:

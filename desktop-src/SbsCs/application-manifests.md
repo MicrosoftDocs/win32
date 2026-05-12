@@ -2,7 +2,7 @@
 description: An application manifest is an XML file that describes and identifies the shared and private side-by-side assemblies that an application should bind to at run time.
 ms.assetid: c5016251-db7a-4edc-9be9-3acb03d495f8
 title: Application manifests
-ms.topic: article
+ms.topic: reference
 ms.date: 10/08/2020
 ms.custom: 19H1
 ---
@@ -56,6 +56,7 @@ Application manifests have the following elements and attributes.
 | [**msix**](#msix)                                                           |                           | No       |
 | [**heapType**](#heaptype)                                                   |                           | No       |
 | [**supportedArchitectures**](#supportedarchitectures)                       |                           | No       |
+| [**consoleAllocationPolicy**](#consoleallocationpolicy)                     |                           | No       |
 | [**trustInfo**](#trustinfo)                                                 |                           | No       |
 
 ## File location
@@ -516,6 +517,27 @@ This element is supported in Windows 11, version 24H2 and later.
     </asmv3:windowsSettings>
   </asmv3:application>
  ...
+</assembly>
+```
+
+### consoleAllocationPolicy
+
+Console applications automatically spawn a terminal window (a console host) when launched from Explorer or similar. Setting this element to `detached` will prevent this.
+This can be used to create an application that behaves like a pure GUI application when launched from Explorer, while permitting terminal output when launched from an existing terminal session.
+
+See [Console Allocation Policy](/windows/console/console-allocation-policy).
+
+This element has no attributes.
+
+This element is supported in Windows 11 24H2 and Windows Server 2025, or later.
+
+```xml
+<assembly manifestVersion="1.0">
+  <application>
+    <windowsSettings>
+      <consoleAllocationPolicy xmlns="http://schemas.microsoft.com/SMI/2024/WindowsSettings">detached</consoleAllocationPolicy>
+    </windowsSettings>
+  </application>
 </assembly>
 ```
 

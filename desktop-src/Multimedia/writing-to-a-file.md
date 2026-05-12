@@ -4,7 +4,7 @@ description: Writing to a File
 ms.assetid: a01f93e9-e0fe-4e81-aa9f-62cdca7bce4a
 keywords:
 - AVIFileWriteData function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

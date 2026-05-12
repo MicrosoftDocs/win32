@@ -5,7 +5,7 @@ ms.assetid: 73ebed18-0e56-4902-a229-3b03f9be1cf6
 ms.tgt_platform: multiple
 keywords:
 - Support for Queries ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

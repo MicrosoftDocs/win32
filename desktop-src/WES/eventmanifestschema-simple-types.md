@@ -2,7 +2,7 @@
 title: EventManifest Schema Simple Types
 description: The following are the simple types that the EventManifest schema defines.
 ms.assetid: 0b9f0058-58af-4143-9a9a-a900cae08d58
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

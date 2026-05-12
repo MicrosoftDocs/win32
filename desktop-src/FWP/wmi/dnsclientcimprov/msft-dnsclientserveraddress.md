@@ -5,7 +5,7 @@ title: MSFT\_DNSClientServerAddress class
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -223,7 +223,7 @@ Data type: **uint16**
 Access type: Read-only
 </dt> </dl>
 
-Gets a value that indicates the ability of the server interface to communicate with the underlying [**CIM\_ManagedElement**](../iscsitarg/cim-managedelement.md) object.
+Gets a value that indicates the ability of the server interface to communicate with the underlying [**CIM\_ManagedElement**](/previous-versions/cc136871(v=vs.85)) object.
 
 This property is inherited from **CIM\_ManagedSystemElement**.
 
@@ -959,7 +959,7 @@ This property is inherited from [**CIM\_EnabledLogicalElement**](/previous-versi
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                        |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                              |

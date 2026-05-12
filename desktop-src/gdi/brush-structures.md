@@ -2,7 +2,7 @@
 description: 'The following structures are used with brushes:'
 ms.assetid: 30fa46f7-c22e-4b37-ac8c-eece8df28611
 title: Brush Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

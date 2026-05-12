@@ -2,7 +2,7 @@
 description: Default system stores, including MY, CA, and ROOT, are implemented as logical collection stores with a number of predefined physical stores as their member stores.
 ms.assetid: 1d82b94b-4842-454a-aca4-823cd264ac52
 title: Logical and Physical Stores
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

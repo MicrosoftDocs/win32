@@ -12,7 +12,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 12/11/2023
+ms.date: 07/14/2025
 req.header: minwindef.h
 ---
 
@@ -42,7 +42,7 @@ The return value is the high-order word of the specified value.
 
 ## Requirements
 
-|  |  |
+| Requirement | Value |
 |---------|---------|
 |Minimum supported client     | Windows 2000 Professional [desktop apps only]        |
 |Minimum supported server     | Windows 2000 Server [desktop apps only]        |

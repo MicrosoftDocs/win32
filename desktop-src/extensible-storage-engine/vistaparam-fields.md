@@ -6,7 +6,7 @@ ms:assetid: Fields.T:Microsoft.Isam.Esent.Interop.Vista.VistaParam
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.vistaparam_fields(v=EXCHG.10)
 ms:contentKeyID: 55104336
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # VistaParam fields

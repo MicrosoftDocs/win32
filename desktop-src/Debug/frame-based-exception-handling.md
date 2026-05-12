@@ -2,8 +2,8 @@
 description: A frame-based exception handler allows you to deal with the possibility that an exception may occur in a certain sequence of code. A frame-based exception handler consists of the following elements.
 ms.assetid: 07aac772-f917-48b7-91a9-3b5d4cb43600
 title: Frame-based Exception Handling
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Frame-based Exception Handling

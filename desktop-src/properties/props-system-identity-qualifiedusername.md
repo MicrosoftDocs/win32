@@ -2,7 +2,7 @@
 description: The qualified user name of an identity.
 ms.assetid: 08AC11E1-1C0B-4D8A-94B0-F1EDA1B02F43
 title: System.Identity.QualifiedUserName
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

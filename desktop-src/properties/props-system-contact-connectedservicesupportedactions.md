@@ -2,7 +2,7 @@
 description: System.Contact.ConnectedServiceSupportedActions
 ms.assetid: 93c10b75-2071-46fa-9ff0-57b317f53af8
 title: System.Contact.ConnectedServiceSupportedActions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

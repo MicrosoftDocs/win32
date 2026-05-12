@@ -2,7 +2,7 @@
 title: Task Scheduler 2.0 Interfaces
 description: The interfaces that are described in the following topics provide programmatic access to the functionality that is available within the Task Scheduler that is used in the Windows Vista operating system.
 ms.assetid: 67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

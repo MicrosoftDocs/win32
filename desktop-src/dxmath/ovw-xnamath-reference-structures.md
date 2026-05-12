@@ -50,8 +50,8 @@ The DirectXMath Library provides a number of structures and defined types to enc
 | [**XMSHORTN4**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmshortn4) | A 4D vector for storing signed, normalized values as signed 16-bit integers, (type `int16_t`).  |
 | [**XMU555**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmu555) | A 4D vector with x-,y-, and z- components represented as 5 bit unsigned integer values, and the w-component as a 1 bit integer value.  |
 | [**XMU565**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmu565) | A 3D vector with x- and z- components represented as 5-bit unsigned integer values, and the y- component as a 6-bit unsigned integer value. |
-| [**XMUBYTE2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmubyte2) | Describes a 2D vector where each component is a unsigned integer, 8-bits (1 byte) in length. |
-| [**XMUBYTE4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmubyte4) | Describes a 4D vector where each component is a unsigned integer, 8-bits (1 byte) in length.  |
+| [**XMUBYTE2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmubyte2) | Describes a 2D vector where each component is an unsigned integer, 8-bits (1 byte) in length. |
+| [**XMUBYTE4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmubyte4) | Describes a 4D vector where each component is an unsigned integer, 8-bits (1 byte) in length.  |
 | [**XMUBYTEN2**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmubyten2) | A 2D vector for storing unsigned, normalized values as signed 8-bits (1 byte) integers. |
 | [**XMUBYTEN4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmubyten4) | A 3D vector for storing unsigned, normalized values as signed 8-bits (1 byte) integers.  |
 | [**XMUDEC4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmudec4) | A 4D vector with x-,y-, and z- components represented as 10 bit unsigned integer values, and the w-component as a 2 bit unsigned integer value.  |

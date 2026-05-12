@@ -1,6 +1,6 @@
 ---
 title: WM_NCXBUTTONDBLCLK message (Winuser.h)
-description: Posted when the user double-clicks the first or second X button while the cursor is in the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
+description: Posted when the user double-clicks the XBUTTON1 or XBUTTON2 while the cursor is in the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
 ms.assetid: 8c0b1e96-9cbb-4ef8-83ff-9253f1a934ef
 keywords:
 - WM_NCXBUTTONDBLCLK message Keyboard and Mouse Input
@@ -13,12 +13,12 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_NCXBUTTONDBLCLK message
 
-Posted when the user double-clicks the first or second X button while the cursor is in the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
+Posted when the user double-clicks either XBUTTON1 or XBUTTON2 while the cursor is in the nonclient area of a window. This message is posted to the window that contains the cursor. If a window has captured the mouse, this message is not posted.
 
 A window receives this message through its [**WindowProc**](/windows/win32/api/winuser/nc-winuser-wndproc) function.
 
@@ -44,8 +44,8 @@ The high-order word indicates which button was double-clicked. It can be one of 
 
 | Value                                                                                                                                                                                                     | Meaning                                            |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
-| <span id="XBUTTON1"></span><span id="xbutton1"></span><dl> <dt>**XBUTTON1**</dt> <dt>0x0001</dt> </dl> | The first X button was double-clicked..<br/> |
-| <span id="XBUTTON2"></span><span id="xbutton2"></span><dl> <dt>**XBUTTON2**</dt> <dt>0x0002</dt> </dl> | The second X button was double-clicked.<br/> |
+| <span id="XBUTTON1"></span><span id="xbutton1"></span><dl> <dt>**XBUTTON1**</dt> <dt>0x0001</dt> </dl> | The XBUTTON1 was double-clicked..<br/> |
+| <span id="XBUTTON2"></span><span id="xbutton2"></span><dl> <dt>**XBUTTON2**</dt> <dt>0x0002</dt> </dl> | The second XBUTTON2 was double-clicked.<br/> |
 
 
 
@@ -65,6 +65,8 @@ A pointer to a [**POINTS**](/windows/win32/api/windef/ns-windef-points) structur
 If an application processes this message, it should return **TRUE**. For more information about processing the return value, see the Remarks section.
 
 ## Remarks
+
+Windows supports mice with up to five buttons: left, middle, and right, plus two additional buttons called XBUTTON1 and XBUTTON2. The XBUTTON1 and XBUTTON2 buttons are often located on the sides of the mouse, near the base. These extra buttons are not present on all mice. If present, the XBUTTON1 and XBUTTON2 buttons are often mapped to an application function, such as forward and backward navigation in a Web browser.
 
 Use the following code to get the information in the *wParam* parameter.
 
@@ -93,7 +95,7 @@ yPos = GET_Y_LPARAM(lParam);
 
 By default, the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function tests the specified point to get the position of the cursor and performs the appropriate action. If appropriate, it sends the [**WM\_SYSCOMMAND**](/windows/desktop/menurc/wm-syscommand) message to the window.
 
-A window need not have the **CS\_DBLCLKS** style to receive **WM\_NCXBUTTONDBLCLK** messages. The system generates a **WM\_NCXBUTTONDBLCLK** message when the user presses, releases, and again presses an X button within the system's double-click time limit. Double-clicking one of these buttons actually generates four messages: [**WM\_NCXBUTTONDOWN**](wm-ncxbuttondown.md), [**WM\_NCXBUTTONUP**](wm-ncxbuttonup.md), **WM\_NCXBUTTONDBLCLK**, and **WM\_NCXBUTTONUP** again.
+A window need not have the **CS\_DBLCLKS** style to receive **WM\_NCXBUTTONDBLCLK** messages. The system generates a **WM\_NCXBUTTONDBLCLK** message when the user presses, releases, and again presses an XBUTTON within the system's double-click time limit. Double-clicking one of these buttons actually generates four messages: [**WM\_NCXBUTTONDOWN**](wm-ncxbuttondown.md), [**WM\_NCXBUTTONUP**](wm-ncxbuttonup.md), **WM\_NCXBUTTONDBLCLK**, and **WM\_NCXBUTTONUP** again.
 
 Unlike the [**WM\_NCLBUTTONDBLCLK**](wm-nclbuttondblclk.md), [**WM\_NCMBUTTONDBLCLK**](wm-ncmbuttondblclk.md), and [**WM\_NCRBUTTONDBLCLK**](wm-ncrbuttondblclk.md) messages, an application should return **TRUE** from this message if it processes it. Doing so will allow software that simulates this message on Windows systems earlier than Windows 2000 to determine whether the window procedure processed the message or called [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) to process it.
 

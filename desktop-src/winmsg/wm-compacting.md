@@ -3,7 +3,7 @@ description: Sent to all top-level windows when the system detects more than 12.
 ms.assetid: e8adc655-0252-4a43-8a62-b08e96f5744e
 title: WM_COMPACTING message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_COMPACTING message

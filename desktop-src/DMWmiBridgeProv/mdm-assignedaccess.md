@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # MDM\_AssignedAccess class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+
 
 The **MDM\_AssignedAccess** class is used to set the device to run in kiosk mode. Once the class has been executed, then the next user login that is associated with the kiosk mode puts the device in the kiosk mode running the application specified in the provisioning package.
 

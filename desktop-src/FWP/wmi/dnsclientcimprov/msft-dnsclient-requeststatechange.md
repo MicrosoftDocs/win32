@@ -5,7 +5,7 @@ title: RequestStateChange method of the MSFT\_DNSClient class
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -114,7 +114,7 @@ A return code that indicates whether the operation completed successfully.
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                        |

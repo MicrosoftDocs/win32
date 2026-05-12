@@ -6,7 +6,7 @@ keywords:
 - resources,version information
 - version information
 - version numbers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

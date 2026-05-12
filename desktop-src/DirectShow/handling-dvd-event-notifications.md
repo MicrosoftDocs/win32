@@ -2,7 +2,7 @@
 description: Handling DVD Event Notifications
 ms.assetid: 7a12aa36-f709-4ee2-aac6-45ab273ad3f9
 title: Handling DVD Event Notifications
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

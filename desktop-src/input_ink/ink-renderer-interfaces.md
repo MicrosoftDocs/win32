@@ -2,7 +2,7 @@
 description: The topics contained in this section provide the reference specifications for Ink renderer interfaces.
 ms.assetid: 8589130C-AC31-42A1-B248-11AA26EC34D4
 title: Ink renderer interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 02/03/2020
 ---
 

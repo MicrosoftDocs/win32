@@ -2,7 +2,7 @@
 description: Winsock Network Event Tracing Details
 ms.assetid: f0386bd3-15d0-45f3-82c9-365d1c9f59c5
 title: Winsock Network Event Tracing Details
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

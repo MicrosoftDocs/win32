@@ -2,7 +2,7 @@
 description: TV Tuner Filter
 ms.assetid: a8e101dc-78ab-495f-9086-7b1d1e87c357
 title: TV Tuner Filter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

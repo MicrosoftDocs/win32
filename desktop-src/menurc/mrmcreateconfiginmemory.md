@@ -1,6 +1,6 @@
 ---
 title: MrmCreateConfigInMemory function (MrmResourceIndexer.h)
-description: Creates new, initialized PRI configuration info (as in-memory data, not as a file) defining the qualifier defaults that you specify.
+description: Creates a new, initialized PRI config file in-memory for use with the makepri tool.
 ms.assetid: D8822D6E-5F68-46A1-B99F-52575DB1D277
 keywords:
 - MrmCreateConfigInMemory function Menus and Other Resources
@@ -18,9 +18,13 @@ ms.date: 05/31/2018
 
 # MrmCreateConfigInMemory function
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+Creates a new, initialized PRI config file in memory (i.e. not on disk) for use with the Windows SDK **MakePri** tool. 
+None of the other MRM functions work with config files.
 
-Creates new, initialized PRI configuration info (as in-memory data, not as a file) defining the qualifier defaults that you specify. The function allocates memory and returns a pointer to that memory in *outputXmlData*. Call [**MrmFreeMemory**](mrmfreememory.md) with the same pointer to free that memory. For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
+This function performs the equivalent of the `makepri createconfig` command, but in memory.
+
+COM must be initialized (e.g. by calling **[CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex)**) 
+before using this function.
 
 ## Syntax
 
@@ -45,7 +49,7 @@ HRESULT HRESULT MrmCreateConfigInMemory(
 
 Type: **[**MrmPlatformVersion**](mrmplatformversion.md)**
 
-The platform version (*targetOsVersion*) to use for the generated configuration info.
+The platform version (*targetOsVersion*) to use for the generated configuration file. Most callers should just use **MrmPlatformVersion_Windows10_0_0_5**
 
 </dd> <dt>
 
@@ -54,7 +58,7 @@ The platform version (*targetOsVersion*) to use for the generated configuration 
 
 Type: **PCWSTR**
 
-A list of default resource qualifiers. For example, L"language-en-US\_scale-100\_contrast-standard"
+A list of default resource qualifiers. For example, "language-en-US_scale-100". For more information about qualifiers, see [Qualifiers in MRM](mrmqualifiers.md).
 
 </dd> <dt>
 
@@ -63,7 +67,9 @@ A list of default resource qualifiers. For example, L"language-en-US\_scale-100\
 
 Type: **BYTE\*\***
 
-The address of a pointer to BYTE. The function allocates memory and returns a pointer to that memory in *outputXmlData*. Call [**MrmFreeMemory**](mrmfreememory.md) with your pointer to BYTE to free that memory.
+The address of a **BYTE** pointer. On successful return, contains a pointer to the buffer allocated by
+the function that contains the generated config file. 
+You must free the memory by calling [**MrmFreeMemory**](mrmfreememory.md) when you are done with it.
 
 </dd> <dt>
 
@@ -72,7 +78,8 @@ The address of a pointer to BYTE. The function allocates memory and returns a po
 
 Type: **ULONG\***
 
-The address of a ULONG. In *outputXmlSize*, the function returns the size of the allocated memory pointed to by *outputXmlData*.
+The address of a **ULONG**. On successful return, contains the size of the allocated memory buffer pointed to by
+ *outputXmlData*.
 
 </dd> </dl>
 
@@ -80,7 +87,8 @@ The address of a ULONG. In *outputXmlSize*, the function returns the size of the
 
 Type: **HRESULT**
 
-S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED() or FAILED() macros (defined in winerror.h) to determine success or failure.
+**S\_OK** if the function succeeded, otherwise an error value. Use the **SUCCEEDED** or **FAILED** macros (defined in winerror.h) to determine 
+success or failure.
 
 ## Requirements
 

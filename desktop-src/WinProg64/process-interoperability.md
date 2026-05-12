@@ -5,7 +5,7 @@ ms.assetid: a573f26c-7577-4ff0-b314-ae0a33274738
 keywords:
 - process interoperability 64-bit Windows Programming
 - interoperability 64-bit Windows Programming
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

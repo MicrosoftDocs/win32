@@ -2,7 +2,7 @@
 description: List of Model Ids for the device. Each Model Id is a Guid in string form.
 ms.assetid: f87b2939-3f9f-40da-9557-3bbdc147261b
 title: System.Devices.AepContainer.ModelIds
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

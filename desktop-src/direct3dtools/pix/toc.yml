@@ -1,0 +1,33 @@
+items:
+  - name: "Get started with PIX"
+    href: articles/general/pix-overview.md
+  - name: "General"
+    items:
+    - name: "Configure PIX"
+      href: articles/general/pix-configuring.md
+    - name: "Instrument your app"
+      href: articles/general/pix-instrumenting.md
+  - name: "Analyze frames with GPU Captures"
+    items:
+    - name: "Overview"
+      href: articles/gpu-captures/pix-gpu-captures.md
+    - name: "Custom texture/mesh visualizers in PIX"
+      href: articles/gpu-captures/pix-custom-visualizers.md
+  - name: "Profile the CPU and GPU with Timing Captures"
+    items:
+    - name: "Overview"
+      href: articles/timing-captures/pix-timing-captures.md
+    - name: "User interface layouts"
+      items:
+      - name: "Summary"
+        href: articles/timing-captures/layouts/pix-timing-captures-summary-layout.md
+      - name: "Timeline"
+        href: articles/timing-captures/layouts/pix-timing-captures-timeline-layout.md
+      - name: "Budgets"
+        href: articles/timing-captures/layouts/pix-timing-captures-budgets-layout.md
+      - name: "Metrics"
+        href: articles/timing-captures/layouts/pix-metrics-layout.md
+      - name: "Memory"
+        href: articles/timing-captures/layouts/pix-timing-captures-memory-layout.md
+      - name: "Comparison"
+        href: articles/timing-captures/layouts/pix-timing-captures-comparison-layout.md

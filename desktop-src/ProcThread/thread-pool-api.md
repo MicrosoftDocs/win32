@@ -2,8 +2,8 @@
 description: The thread pool application programming interface (API) uses an object-based design.
 ms.assetid: c8656469-a273-4838-aa1a-86140b0cd0a2
 title: Thread Pool API
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Thread Pool API

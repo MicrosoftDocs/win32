@@ -2,7 +2,7 @@
 title: System Monitor Reference
 description: The System Monitor (SYSMON) reference section contains detailed information about the following API elements ClassesEnumerationsReturn Values
 ms.assetid: d4efc073-3adf-466e-b877-917eefc3de12
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

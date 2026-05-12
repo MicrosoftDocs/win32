@@ -15,7 +15,7 @@ keywords:
 - service providers,metadata
 - programming guide,metadata
 - metadata
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

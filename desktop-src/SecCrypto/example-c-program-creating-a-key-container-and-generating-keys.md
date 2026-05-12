@@ -2,7 +2,7 @@
 description: Creates a named key container and adds a signature key pair and an exchange key pair to the container.
 ms.assetid: b9d13024-0e53-4930-9962-a2a0d0cb88de
 title: 'Example C Program: Creating a Key Container and Generating Keys'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

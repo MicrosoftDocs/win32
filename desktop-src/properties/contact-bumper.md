@@ -2,7 +2,7 @@
 description: Contact
 ms.assetid: 00198aec-d05d-4aaf-b63e-1625d8befe06
 title: Contact
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -99,9 +99,9 @@ ms.date: 05/31/2018
 | [System.Contact.HomeTelephone](./props-system-contact-hometelephone.md)<br/>                                | Home telephone number of the contact.<br/>                                                               |
 | [System.Contact.IMAddress](./props-system-contact-imaddress.md)<br/>                                        | Instant messaging address of the contact.<br/>                                                           |
 | [System.Contact.Initials](./props-system-contact-initials.md)<br/>                                          | Initials of the contact.<br/>                                                                            |
-| [System.Contact.JA.CompanyNamePhonetic](./props-system-contact-ja-companynamephonetic.md)<br/>              | Pronounciation of the contact's company name. <br/>                                                      |
-| [System.Contact.JA.FirstNamePhonetic](./props-system-contact-ja-firstnamephonetic.md)<br/>                  | Pronounciation of the first name.<br/>                                                                   |
-| [System.Contact.JA.LastNamePhonetic](./props-system-contact-ja-lastnamephonetic.md)<br/>                    | Pronounciation of the last name.<br/>                                                                    |
+| [System.Contact.JA.CompanyNamePhonetic](./props-system-contact-ja-companynamephonetic.md)<br/>              | Pronunciation of the contact's company name. <br/>                                                      |
+| [System.Contact.JA.FirstNamePhonetic](./props-system-contact-ja-firstnamephonetic.md)<br/>                  | Pronunciation of the first name.<br/>                                                                   |
+| [System.Contact.JA.LastNamePhonetic](./props-system-contact-ja-lastnamephonetic.md)<br/>                    | Pronunciation of the last name.<br/>                                                                    |
 | [System.Contact.JobInfo1CompanyAddress](props-system-contact-jobinfo1companyaddress.md)<br/>                     |                                                                                                                |
 | [System.Contact.JobInfo1CompanyName](props-system-contact-jobinfo1companyname.md)<br/>                           |                                                                                                                |
 | [System.Contact.JobInfo1Department](props-system-contact-jobinfo1department.md)<br/>                             |                                                                                                                |

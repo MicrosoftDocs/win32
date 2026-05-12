@@ -4,7 +4,7 @@ description: This sample shows how to use the new IBackgroundCopyJob5 interface'
 ms.assetid: 38808AB2-0D7A-46C6-A666-F3E0DB8A3009
 keywords:
 - downloading BITS , HTTP header
-ms.topic: article
+ms.topic: how-to
 ms.date: 10/04/2018
 ---
 

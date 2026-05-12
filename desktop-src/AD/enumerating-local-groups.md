@@ -5,7 +5,7 @@ ms.assetid: edbabbe5-13e1-42f6-8e73-f8e18ba4866b
 ms.tgt_platform: multiple
 keywords:
 - Enumerating Local Groups AD
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

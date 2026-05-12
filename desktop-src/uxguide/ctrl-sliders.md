@@ -2,7 +2,7 @@
 title: Sliders (Design basics)
 description: With a slider, users can choose from a continuous range of values.
 ms.assetid: dee70fbc-6f18-43c7-9d41-4e97eac41e53
-ms.topic: article
+ms.topic: reference
 ms.date: 10/20/2020
 ---
 

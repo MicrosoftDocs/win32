@@ -2,7 +2,7 @@
 description: Declaring the Factory Template
 ms.assetid: 3060c167-ea23-4061-b32a-16e750f55e6f
 title: Declaring the Factory Template
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

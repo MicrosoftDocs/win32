@@ -2,7 +2,7 @@
 title: DragStart Event
 description: DragStart Event
 ms.assetid: fef0ae05-1958-45c6-8260-107c47b5fa92
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

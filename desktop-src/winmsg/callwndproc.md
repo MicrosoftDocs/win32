@@ -1,7 +1,7 @@
-﻿---
+---
 title: CallWndProc callback function (Windows)
 description: The system calls this function before calling the window procedure to process a message sent to the thread.
-ms.date: 06/30/2023
+ms.date: 07/14/2025
 ms.topic: reference
 f1_keywords:
 - CallWndProc
@@ -15,8 +15,6 @@ api_name:
 - CallWndProc
 api_type:
 - UserDefined
-product:
-- Windows
 topic_type:
 - apiref
 - kbSyntax

@@ -2,8 +2,8 @@
 title: Receiving Errors for IAccessible Interface Pointers
 description: This topic describes situations in which you might receive an error for an IAccessible interface pointer.
 ms.assetid: 408bfa47-fda0-4a25-89c1-da41d967ad61
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Receiving Errors for IAccessible Interface Pointers

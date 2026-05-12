@@ -9,8 +9,8 @@ keywords:
 - clients,UI Automation application creation
 - UI Automation,creating client applications
 - UI Automation,client application creation
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # UI Automation Client Programmer's Guide

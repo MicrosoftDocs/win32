@@ -1,9 +1,10 @@
 ---
-title: Hard links and junctions
-description: Provides an overview of hard links and junctions.
+title: Hard Links and Junctions
+description: Provides an overview of hard links and junctions. Learn how to create and manage hard links and junctions in the NTFS file system.
 ms.assetid: f9e40a86-a4a6-4524-8045-312da72dc655
-ms.topic: article
-ms.date: 02/08/2023
+ms.topic: concept-article
+ms.date: 07/08/2025
+# customer intent: As a Windows app developer, I want to understand how to create and manage hard links and junctions in the NTFS file system, so that I can efficiently reference files and directories in my applications.
 ---
 
 # Hard links and junctions
@@ -12,23 +13,25 @@ The NTFS file system supports three types of file links: hard links, junctions, 
 
 ## Hard links
 
-A *hard link* is the file-system representation of a file by which more than one path references a single file in the same volume. To create a hard link, use the [CreateHardLinkA](/windows/desktop/api/WinBase/nf-winbase-createhardlinka) function.
+A *hard link* is the file-system representation of a file by which more than one path references a single file in the same volume. To create a hard link, use the [CreateHardLinkA](/windows/win32/api/WinBase/nf-winbase-createhardlinka) function.
 
 Any changes made to a hard-linked file are instantly visible to applications that access it through the links that reference it. The attributes on the file are reflected in every hard link to that file, and changes to that file's attributes propagate to all the hard links. However, the directory entry size and attribute information of the file are *visibly* updated only at the link through which the change was made. For example, if you clear the read-only attribute flag on a particular hard link so you can delete that hard link, and there are multiple hard links to the file, the other hard links display that the read-only attribute is still set, which isn't true. To change the file back to the read-only state, you must set the read-only flag on the file from one of its remaining hard links.
 
-For example, in a system where C: and D: are local drives and Z: is a network drive mapped to *\\\\fred\\share*, the following references are permitted as a hard link:
+For example, in a system where `C:` and `D:` are local drives and `Z:` is a network drive mapped to `\\fred\share`, the following references are permitted as a hard link:
 
-- *C:\\dira\\ethel.txt* linked to *C:\\dirb\\dirc\\lucy.txt*
-- *D:\\dir1\\tinker.txt* linked to *D:\\dir2\\dirx\\bell.txt*
-- *C:\\diry\\bob.bak* linked to *C:\\dir2\\mina.txt*
+- `C:\dira\ethel.txt` linked to `C:\dirb\dirc\lucy.txt`
+- `D:\dir1\tinker.txt` linked to `D:\dir2\dirx\bell.txt`
+- `C:\diry\bob.bak` linked to `C:\dir2\mina.txt`
+
+This is because all the links are files on the same volume. Hard links can't reference directories, only files, and they can't reference files on different volumes.
 
 The following references aren't permitted:
 
-- *C:\\dira* linked to *C:\\dirb*
-- *C:\\dira\\ethel.txt* linked to *D:\\dirb\\lucy.txt*
-- *C:\\dira\\ethel.txt* linked to *Z:\\dirb\\lucy.txt*
+- `C:\dira` linked to `C:\dirb`
+- `C:\dira\ethel.txt` linked to `D:\dirb\lucy.txt`
+- `C:\dira\ethel.txt` linked to `Z:\dirb\lucy.txt`
 
-To delete a hard link, use the [DeleteFileA](/windows/desktop/api/FileAPI/nf-fileapi-deletefilea) function. You can delete hard links in any order regardless of the order in which they're created.
+To delete a hard link, use the [DeleteFileA](/windows/win32/api/FileAPI/nf-fileapi-deletefilea) function. You can delete hard links in any order regardless of the order in which they're created.
 
 ## Junctions
 
@@ -36,14 +39,15 @@ A *junction* (also called a *soft link*) differs from a hard link in that the st
 
 Assuming the same conditions in the Hard Links section, the following references are permitted as junctions:
 
-- *C:\\dira* linked to *C:\\dirb\\dirc*
-- *C:\\dirx* linked to *D:\\diry*
+- `C:\dira` linked to `C:\dirb\dirc`
+- `C:\dirx` linked to `D:\diry`
 
-The following references aren't permitted:
+The following references aren't permitted because they reference mapped network volumes, or they directly reference files:
 
-- *C:\\dira\\one.txt* linked to *C:\\dirb\\two.txt*
-- *C:\\dir1* linked to *Z:\\dir2*
+- `C:\dira\one.txt` linked to `C:\dirb\two.txt`
+- `C:\dir1` linked to `Z:\dir2`
 
-## See also
+## Related content
 
-[Create symbolic links](creating-symbolic-links.md)
+- [Create symbolic links](creating-symbolic-links.md)
+- [Reparse points](reparse-points.md)

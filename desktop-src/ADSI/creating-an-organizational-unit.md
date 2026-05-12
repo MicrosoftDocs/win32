@@ -5,7 +5,7 @@ ms.assetid: c9955b44-5ca1-4b4b-85c8-e0d55a4304ca
 ms.tgt_platform: multiple
 keywords:
 - Creating an Organizational Unit ADSI
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Using National Language Support
 ms.assetid: 48d96954-90ca-4a4b-b62d-3dd2348fc61c
 title: Using National Language Support
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

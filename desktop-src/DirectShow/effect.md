@@ -2,7 +2,7 @@
 description: Effect
 ms.assetid: '5674901e-6646-4243-8ef9-5784ceae4bdb'
 title: Effect
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

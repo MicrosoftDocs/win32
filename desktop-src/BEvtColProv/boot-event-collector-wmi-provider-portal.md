@@ -3,7 +3,7 @@ description: The Boot Event Collector WMI provider provides access to connection
 ms.assetid: ab9ac8f0-69a5-4a2d-8ee5-1f003aa1bb5b
 ms.tgt_platform: multiple
 title: Boot Event Collector WMI Provider
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

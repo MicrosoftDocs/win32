@@ -2,7 +2,7 @@
 title: ComboBoxEx Messages
 description: ComboBoxEx Messages
 ms.assetid: cca4332e-2b88-4e72-82b3-e65da695b40f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

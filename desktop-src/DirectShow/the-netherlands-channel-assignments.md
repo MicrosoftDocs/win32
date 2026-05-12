@@ -2,7 +2,7 @@
 description: This topic lists the frequency tables used for analog TV tuning for the Netherlands.
 ms.assetid: bdbd88f0-43d8-456d-87ca-37e718c08ec4
 title: The Netherlands Channel Assignments
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

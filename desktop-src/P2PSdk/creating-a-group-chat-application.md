@@ -2,7 +2,7 @@
 description: This topic provides relevant code samples for the major steps of developing a chat application with the Peer Grouping API, providing a context for each API call.
 ms.assetid: 47bb8606-0b7b-4e71-9d6f-c400d6a82e43
 title: Creating a Group Chat Application
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

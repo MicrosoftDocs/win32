@@ -2,7 +2,7 @@
 title: VML ConnectType Attribute
 description: VML ConnectType Attribute
 ms.assetid: 907803c8-687b-4823-8252-b59acbbd9aa4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

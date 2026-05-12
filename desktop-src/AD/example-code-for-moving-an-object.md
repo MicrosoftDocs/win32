@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Example Code for Moving an Object AD
 - Active Directory examples Active Directory , moving an object
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

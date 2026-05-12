@@ -3,7 +3,7 @@ description: WMI has several types of class and property qualifiers. Qualifiers 
 ms.assetid: b889df69-327b-40d0-bbd7-a33d7924f3e1
 ms.tgt_platform: multiple
 title: WMI Qualifiers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

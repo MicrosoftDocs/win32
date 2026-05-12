@@ -7,7 +7,7 @@ keywords:
 - IADs ADSI ,about
 - IDirectoryObject ADSI , about
 - ADSI ADSI ,using,IADs and IDirectoryObject interfaces
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

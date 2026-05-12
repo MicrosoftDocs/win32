@@ -2,7 +2,7 @@
 description: The return value for C++ interface methods is always of type HRESULT; this value can be checked to determine success or failure.
 ms.assetid: f6478e72-0fe9-4c3b-b08a-f71c9c943910
 title: Method Return Values
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

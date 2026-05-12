@@ -5,7 +5,7 @@ ms.assetid: a975910c-3a14-4cf5-92fc-6e98fd128477
 keywords:
 - OpenGL processing pipeline,dithering
 - dithering OpenGL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

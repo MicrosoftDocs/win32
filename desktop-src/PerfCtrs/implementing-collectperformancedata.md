@@ -2,8 +2,8 @@
 description: After the system successfully calls your OpenPerformanceData function, it calls your CollectPerformanceData function to collect the counter data.
 ms.assetid: 73b022df-0148-4afc-8536-8b1c766b1ee6
 title: Implementing CollectPerformanceData
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Implementing CollectPerformanceData
@@ -15,7 +15,7 @@ The `pQuery` parameter will be one of the following:
 - A space-delimited list of one or more decimal integers: Collect performance data for any supported object types in the list.
 - `Global`: Collect performance data for all supported local object types except for those included in the `Costly` category.
 - `Costly`: Collect performance data for all supported local object types whose data is expensive to collect in terms of processor time or memory usage. (Obsolete: there should normally be no object types in this category.)
-- `Foreigh`: Collect performance data for all supported remote object types. (Obsolete: there should normally be no object types in this category.)
+- `Foreign`: Collect performance data for all supported remote object types. (Obsolete: there should normally be no object types in this category.)
 - `MetadataGlobal` (**new**): Collect metadata for all supported local object types except for those included in the `Costly` category. This is the same as `Global` except that `NumInstances` should be set to either `PERF_METADATA_MULTIPLE_INSTANCES` or `PERF_METADATA_NO_INSTANCES`, and the result should not include any `PERF_INSTANCE_DEFINITION` blocks.
 - `MetadataCostly` (**new**): Collect metadata for all supported local object types included in the `Costly` category. This is the same as `Costly` except that `NumInstances` should be set to either `PERF_METADATA_MULTIPLE_INSTANCES` or `PERF_METADATA_NO_INSTANCES`, and the result should not include any `PERF_INSTANCE_DEFINITION` blocks.
 

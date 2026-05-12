@@ -1,7 +1,7 @@
 ---
 description: This section describes the Windows Shell Structures.
 title: Shell Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 814ae153-39b3-49ee-9da1-efe7e649c73e
 api_name: 

@@ -4,7 +4,7 @@ description: The \ size\_is\ attribute lets you specify the maximum size of the 
 ms.assetid: 577a1efd-2d16-40d6-99bb-998d81ee2f8c
 keywords:
 - length_is
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

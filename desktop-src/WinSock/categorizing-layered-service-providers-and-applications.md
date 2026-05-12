@@ -2,7 +2,7 @@
 title: Categorizing layered service providers and apps
 description: Winsock 2 accommodates layered protocols.
 ms.assetid: 1c5efd2e-1b42-4c20-a4da-b81a5fc4243c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 Winsock 2 accommodates layered protocols. A layered protocol is one that implements only higher level communications functions, while relying on an underlying transport stack for the actual exchange of data with a remote endpoint. An example of a layered protocol or layered service provider would be a security layer that adds protocol to the connection establishment process in order to perform authentication and to establish a mutually agreed upon encryption scheme. Such a security protocol would generally require the services of an underlying reliable transport protocol such as TCP or SPX. The term base protocol implemented by base provider refers to a Winsock provider that implements a protocol such as TCP or SPX which is capable of performing data communications with a remote endpoint. The term layered protocol is used to describe a protocol that cannot stand alone. These layered protocols are installed as Winsock Layered Service Providers (LSPs).
 
-An example of an LSP is the Microsoft Firewall Client Service Provider installed as part of the Internet Secutity and Authentication Server (ISA) on clients. The Microsoft Firewall Client Service Provider installs over the Winsock base providers for TCP and UDP. A dynamic-link library (DLL) in the ISA Firewall Client software becomes a Winsock layered service provider that all Winsock applications use transparently. This way, the ISA Firewall Client LSP can intercept Winsock function calls from client applications and then route a request to the original underlying base service provider if the destination is local or to the Firewall service on an ISA Server computer if the destination is remote. A similar LSP is installed as part of the Microsoft Forefront Firewall Service and the Threat Management Gateway (TMG) Client on clients.
+An example of an LSP is the Microsoft Firewall Client Service Provider installed as part of the Internet Security and Authentication Server (ISA) on clients. The Microsoft Firewall Client Service Provider installs over the Winsock base providers for TCP and UDP. A dynamic-link library (DLL) in the ISA Firewall Client software becomes a Winsock layered service provider that all Winsock applications use transparently. This way, the ISA Firewall Client LSP can intercept Winsock function calls from client applications and then route a request to the original underlying base service provider if the destination is local or to the Firewall service on an ISA Server computer if the destination is remote. A similar LSP is installed as part of the Microsoft Forefront Firewall Service and the Threat Management Gateway (TMG) Client on clients.
 
 During LSP initialization, the LSP must provide pointers to a number of Winsock Service Provider Interface (SPI) functions. These functions will be called during normal processing by the layer directly above the LSP (either another LSP or Ws2\_32.DLL).
 
@@ -25,7 +25,7 @@ On Windows Vista and later, a new method is provided for categorizing both Wins
 
 One of the primary reasons is that certain system critical processes such as winlogon and lsass create sockets, but these processes do not use these sockets to send any traffic on the network. So most LSPs should not be loaded into these processes. A number of cases have also been documented where buggy LSPs can cause *lsass.exe* to crash. If lsass crashes, the system forces a shutdown. A side effect of these system processes loading LSPs is that these processes never exit so when an LSP is installed or removed, a reboot is required.
 
-A secondary reason is that there are some cases where applications may not want to load certain LSPs. For example, some applications may not want to load cryptographic LSPs which could prevent the application from communicating with other systems that do not have the cyptographic LSP installed.
+A secondary reason is that there are some cases where applications may not want to load certain LSPs. For example, some applications may not want to load cryptographic LSPs which could prevent the application from communicating with other systems that do not have the cryptographic LSP installed.
 
 Finally, LSP categories can be used by other LSPs to determine where in the Winsock protocol chain they should install themselves. For years, various LSP developers have wanted a way of knowing how an LSP will behave. For example, an LSP that inspects the data stream would want to be above an LSP that encrypts the data. Of course, this method of LSP categorization isn't fool proof since it relies on third-party LSPs to categorize themselves appropriately.
 

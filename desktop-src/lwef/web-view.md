@@ -8,7 +8,7 @@ keywords:
 - Web style
 - banners
 - FileList region
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -195,7 +195,7 @@ The Web view template controls what is displayed in a Web view and how. It uses 
             <!-- this is more efficient than a long graphic, but it has to be adjusted in FixSize() -->
             <hr id="Rule" size=1px color=black style="position: absolute; top: 44px; left: 84px">
             <!-- Load the WebViewFolderIcon object, which extracts the folder's icon -->
-            <object id=Icon classid="clsid:e5df9d10-3b52-11d1-83e8-00a0c90dc849">
+            <object id=Icon classid="clsid:aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb">
                 <param name="scale" value=200>
             </object>
         </div>
@@ -225,7 +225,7 @@ The Web view template controls what is displayed in a Web view and how. It uses 
         <!-- Load the WebViewFolderContents object. This object
          returns information on the contents of the folder that
           can be used in the information display.  -->
-        <object id="FileList" border=0 tabindex=1 classid="clsid:1820FED0-473E-11D0-A96C-00C04FD705A2"
+        <object id="FileList" border=0 tabindex=1 classid="clsid:bbbbbbbb-1111-2222-3333-cccccccccccc"
         </object>
 
     </body>
@@ -261,7 +261,7 @@ The normal banner for Generic.htt is defined by:
         %THISDIRNAME% 
     </td></tr></table>
     <hr id="Rule" size=1px color=black style="position: absolute; top: 44px; left: 84px">
-    <object id=Icon classid="clsid:e5df9d10-3b52-11d1-83e8-00a0c90dc849">
+    <object id=Icon classid="clsid:aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb">
         <param name="scale" value=200>
     </object>
 </div>
@@ -328,7 +328,7 @@ Finally, Generic.htt loads a [**WebViewFolderContents**](webviewfoldercontents.m
 
 
 ```
-<object id="FileList" border=0 tabindex=1 classid="clsid:1820FED0-473E-11D0-A96C-00C04FD705A2"
+<object id="FileList" border=0 tabindex=1 classid="clsid:bbbbbbbb-1111-2222-3333-cccccccccccc"
         </object>
                     
 ```

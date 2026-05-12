@@ -107,7 +107,7 @@ In Windows 8, the H.264 decoder also supports the following attributes.
 
  
 
-In Windows 8, the H.264 decoder supports the [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodecapi) interface. This interface provides an alternativate API for setting the following codec properties.
+In Windows 8, the H.264 decoder supports the [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodecapi) interface. This interface provides an alternative API for setting the following codec properties.
 
 -   [CODECAPI\_AVDecVideoMaxCodedWidth](codecapi-avdecvideomaxcodedwidth.md)
 -   [CODECAPI\_AVDecVideoAcceleration\_H264](../directshow/avdecvideoacceleration-h264-property.md)

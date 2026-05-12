@@ -2,7 +2,7 @@
 description: Windows Installer can use digital signatures as a means to detect corrupted resources.
 ms.assetid: fc982813-583b-4fcd-88d8-9de227994e7b
 title: Msicert.exe
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

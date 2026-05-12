@@ -79,51 +79,51 @@ Some socket options require more explanation than these tables can convey; such 
 | Option                                          | Windows 10 | Windows 7 | Windows Server 2008 | Windows Vista | Windows Server 2003 | Windows XP | Windows 2000 | Windows NT4 | Windows 9x/ME |
 |-------------------------------------------------|------------|-----------|---------------------|---------------|---------------------|------------|--------------|-------------|---------------|
 | PVD\_CONFIG                                     |            |           |                     |               |                     |            |              |             |               |
-| SO\_ACCEPTCONN                                  | x          | x         | x                   | x             | x                   | x          | x            | x           | x             |
-| SO\_BROADCAST                                   | x          | x         | x                   | x             | x                   | x          | x            | x           | x             |
-| [**SO\_BSP\_STATE**](so-bsp-state.md)          | x          | x         | x                   | x             |                     |            |              |             |               |
-| SO\_CONDITIONAL\_ACCEPT                         | x          | x         | x                   | x             | x                   | x          | x            |             |               |
-| SO\_CONNDATA                                    | x          | x         | x                   | x             | x                   | x          | x            | x           |               |
-| SO\_CONNDATALEN                                 | x          | x         | x                   | x             | x                   | x          | x            | x           |               |
-| SO\_CONNECT\_TIME                               | x          | x         | x                   | x             | x                   | x          | x            | x           | x             |
-| SO\_CONNOPT                                     | x          | x         | x                   | x             | x                   | x          | x            | x           |               |
-| SO\_CONNOPTLEN                                  | x          | x         | x                   | x             | x                   | x          | x            | x           |               |
-| SO\_DISCDATA                                    | x          | x         | x                   | x             | x                   | x          | x            | x           |               |
-| SO\_DISCDATALEN                                 | x          | x         | x                   | x             | x                   | x          | x            | x           |               |
-| SO\_DISCOPT                                     | x          | x         | x                   | x             | x                   | x          | x            | x           |               |
-| SO\_DISCOPTLEN                                  | x          | x         | x                   | x             | x                   | x          | x            | x           |               |
-| SO\_DEBUG                                       | x          | x         | x                   | x             | x                   | x          | x            | x           | x             |
-| SO\_DONTLINGER                                  | x          | x         | x                   | x             | x                   | x          | x            | x           | x             |
-| SO\_DONTROUTE                                   | x          | x         | x                   | x             | x                   | x          | x            | x           | x             |
-| SO\_ERROR                                       | x          | x         | x                   | x             | x                   | x          | x            | x           | x             |
-| [SO\_EXCLUSIVEADDRUSE](so-exclusiveaddruse.md) | x          | x         | x                   | x             | x                   | x          | x            | x SP4+      |               |
-| SO\_GROUP\_ID                                   | x          | x         | x                   | x             |                     |            |              |             |               |
-| SO\_GROUP\_PRIORITY                             | x          | x         | x                   | x             |                     |            |              |             |               |
-| SO\_KEEPALIVE                                   | x          | x         | x                   | x             | x                   | x          | x            | x           | x             |
-| SO\_LINGER                                      | x          | x         | x                   | x             | x                   | x          | x            | x           | x             |
-| SO\_MAX\_MSG\_SIZE                              | x          | x         | x                   | x             | x                   | x          | x            | x           | x             |
-| SO\_MAXDG                                       | x          | x         | x                   | x             | x                   | x          | x            |             |               |
-| SO\_MAXPATHDG                                   | x          | x         | x                   | x             | x                   | x          | x            |             |               |
-| SO\_OOBINLINE                                   | x          | x         | x                   | x             | x                   | x          | x            | x           | x             |
-| SO\_OPENTYPE                                    | x          | x         | x                   | x             | x                   | x          | x            | x           | x             |
-| SO\_PORT\_SCALABILITY                           | x          | x         | x                   |               |                     |            |              |             |               |
-| SO\_PROTECT                                     |            |           |                     |               | x                   |            |              |             |               |
-| SO\_PROTOCOL\_INFO                              | x          | x         | x                   | x             | x                   | x          | x            | x           | x             |
-| SO\_PROTOCOL\_INFOA                             | x          | x         | x                   | x             | x                   | x          | x            | x           | x             |
-| SO\_PROTOCOL\_INFOW                             | x          | x         | x                   | x             | x                   | x          | x            | x           | x             |
-| SO\_RCVBUF                                      | x          | x         | x                   | x             | x                   | x          | x            | x           | x             |
+| SO\_ACCEPTCONN                                   yes            yes           yes                     yes               yes                     yes            yes              yes             yes              |
+| SO\_BROADCAST                                    yes            yes           yes                     yes               yes                     yes            yes              yes             yes              |
+| [**SO\_BSP\_STATE**](so-bsp-state.md)           yes            yes           yes                     yes              |                     |            |              |             |               |
+| SO\_CONDITIONAL\_ACCEPT                          yes            yes           yes                     yes               yes                     yes            yes             |             |               |
+| SO\_CONNDATA                                     yes            yes           yes                     yes               yes                     yes            yes              yes            |               |
+| SO\_CONNDATALEN                                  yes            yes           yes                     yes               yes                     yes            yes              yes            |               |
+| SO\_CONNECT\_TIME                                yes            yes           yes                     yes               yes                     yes            yes              yes             yes              |
+| SO\_CONNOPT                                      yes            yes           yes                     yes               yes                     yes            yes              yes            |               |
+| SO\_CONNOPTLEN                                   yes            yes           yes                     yes               yes                     yes            yes              yes            |               |
+| SO\_DISCDATA                                     yes            yes           yes                     yes               yes                     yes            yes              yes            |               |
+| SO\_DISCDATALEN                                  yes            yes           yes                     yes               yes                     yes            yes              yes            |               |
+| SO\_DISCOPT                                      yes            yes           yes                     yes               yes                     yes            yes              yes            |               |
+| SO\_DISCOPTLEN                                   yes            yes           yes                     yes               yes                     yes            yes              yes            |               |
+| SO\_DEBUG                                        yes            yes           yes                     yes               yes                     yes            yes              yes             yes              |
+| SO\_DONTLINGER                                   yes            yes           yes                     yes               yes                     yes            yes              yes             yes              |
+| SO\_DONTROUTE                                    yes            yes           yes                     yes               yes                     yes            yes              yes             yes              |
+| SO\_ERROR                                        yes            yes           yes                     yes               yes                     yes            yes              yes             yes              |
+| [SO\_EXCLUSIVEADDRUSE](so-exclusiveaddruse.md)  yes            yes           yes                     yes               yes                     yes            yes              yes  SP4+      |               |
+| SO\_GROUP\_ID                                    yes            yes           yes                     yes              |                     |            |              |             |               |
+| SO\_GROUP\_PRIORITY                              yes            yes           yes                     yes              |                     |            |              |             |               |
+| SO\_KEEPALIVE                                    yes            yes           yes                     yes               yes                     yes            yes              yes             yes              |
+| SO\_LINGER                                       yes            yes           yes                     yes               yes                     yes            yes              yes             yes              |
+| SO\_MAX\_MSG\_SIZE                               yes            yes           yes                     yes               yes                     yes            yes              yes             yes              |
+| SO\_MAXDG                                        yes            yes           yes                     yes               yes                     yes            yes             |             |               |
+| SO\_MAXPATHDG                                    yes            yes           yes                     yes               yes                     yes            yes             |             |               |
+| SO\_OOBINLINE                                    yes            yes           yes                     yes               yes                     yes            yes              yes             yes              |
+| SO\_OPENTYPE                                     yes            yes           yes                     yes               yes                     yes            yes              yes             yes              |
+| SO\_PORT\_SCALABILITY                            yes            yes           yes                    |               |                     |            |              |             |               |
+| SO\_PROTECT                                     |            |           |                     |                yes                    |            |              |             |               |
+| SO\_PROTOCOL\_INFO                               yes            yes           yes                     yes               yes                     yes            yes              yes             yes              |
+| SO\_PROTOCOL\_INFOA                              yes            yes           yes                     yes               yes                     yes            yes              yes             yes              |
+| SO\_PROTOCOL\_INFOW                              yes            yes           yes                     yes               yes                     yes            yes              yes             yes              |
+| SO\_RCVBUF                                       yes            yes           yes                     yes               yes                     yes            yes              yes             yes              |
 | SO\_RCVLOWAT                                    |            |           |                     |               |                     |            |              |             |               |
-| SO\_RCVTIMEO                                    | x          | x         | x                   | x             | x                   | x          | x            | x           | x             |
-| SO\_RANDOMIZE\_PORT                             | x          | x         | x                   | x             |                     |            |              |             |               |
-| SO\_REUSEADDR                                   | x          | x         | x                   | x             | x                   | x          | x            | x           | x             |
-| SO\_REUSE\_UNICASTPORT                          | x          |           |                     |               |                     |            |              |             |               |
-| SO\_REUSE\_MULTICASTPORT                        | x          |           |                     |               |                     |            |              |             |               |
-| SO\_SNDBUF                                      | x          | x         | x                   | x             | x                   | x          | x            | x           | x             |
+| SO\_RCVTIMEO                                     yes            yes           yes                     yes               yes                     yes            yes              yes             yes              |
+| SO\_RANDOMIZE\_PORT                              yes            yes           yes                     yes              |                     |            |              |             |               |
+| SO\_REUSEADDR                                    yes            yes           yes                     yes               yes                     yes            yes              yes             yes              |
+| SO\_REUSE\_UNICASTPORT                           yes           |           |                     |               |                     |            |              |             |               |
+| SO\_REUSE\_MULTICASTPORT                         yes           |           |                     |               |                     |            |              |             |               |
+| SO\_SNDBUF                                       yes            yes           yes                     yes               yes                     yes            yes              yes             yes              |
 | SO\_SNDLOWAT                                    |            |           |                     |               |                     |            |              |             |               |
-| SO\_SNDTIMEO                                    | x          | x         | x                   | x             | x                   | x          | x            | x           | x             |
-| SO\_TYPE                                        | x          | x         | x                   | x             | x                   | x          | x            | x           | x             |
-| SO\_UPDATE\_ACCEPT\_CONTEXT                     | x          | x         | x                   | x             | x                   | x          | x            | x           |               |
-| SO\_UPDATE\_CONNECT\_CONTEXT                    | x          | x         | x                   | x             | x                   | x          |              |             |               |
+| SO\_SNDTIMEO                                     yes            yes           yes                     yes               yes                     yes            yes              yes             yes              |
+| SO\_TYPE                                         yes            yes           yes                     yes               yes                     yes            yes              yes             yes              |
+| SO\_UPDATE\_ACCEPT\_CONTEXT                      yes            yes           yes                     yes               yes                     yes            yes              yes            |               |
+| SO\_UPDATE\_CONNECT\_CONTEXT                     yes            yes           yes                     yes               yes                     yes           |              |             |               |
 | SO\_USELOOPBACK                                 |            |           |                     |               |                     |            |              |             |               |
 
 

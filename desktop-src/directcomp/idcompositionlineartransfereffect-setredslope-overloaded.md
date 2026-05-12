@@ -1,5 +1,5 @@
 ---
-title: idcompositionlineartransfereffect setredslope methods (Dcomp.h)
+title: IDCompositionLinearTransferEffect SetRedSlope methods (Dcomp.h)
 description: Sets the slope of the linear function for the red channel.
 ms.assetid: 486dad35-e9f2-cc7e-1c20-0e69ce1d22bb
 keywords:
@@ -14,7 +14,7 @@ ms.date: 07/02/2019
 ms.topic: reference
 ---
 
-# idcompositionlineartransfereffect::setredslope methods
+# IDCompositionLinearTransferEffect::SetRedSlope methods
 
 Sets the slope of the linear function for the red channel.
 
@@ -43,9 +43,6 @@ Sets the slope of the linear function for the red channel.
 
 <dl> <dt>
 
-[**idcompositionlineartransfereffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionlineartransfereffect)
+[**IDCompositionLinearTransferEffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionlineartransfereffect)
 </dt> </dl>
 
-�
-
-�

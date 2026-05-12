@@ -1,9 +1,9 @@
 ---
-description: The following tables describe IPPROTO\_IPV6 socket options that apply to sockets created for the IPv6 address family (AF\_INET6). See the getsockopt and setsockopt function reference pages for more information on getting and setting socket options.
-ms.assetid: 65f8f7a4-757b-43a3-9d47-b115754c89d6
 title: IPPROTO_IPV6 socket options
-ms.topic: article
-ms.date: 10/07/2019
+description: The following tables describe IPPROTO\_IPV6 socket options that apply to sockets created for the IPv6 address family (AF\_INET6). See the getsockopt and setsockopt function reference pages for more information on getting and setting socket options.
+ms.date: 10/25/2024
+ms.assetid: 65f8f7a4-757b-43a3-9d47-b115754c89d6
+ms.topic: reference
 ---
 
 # IPPROTO\_IPV6 socket options
@@ -38,35 +38,36 @@ Some socket options require more explanation than these tables can convey; such 
 | [IPV6\_PROTECTION\_LEVEL](ipv6-protection-level.md) | yes | yes | INT | Enables restriction of a socket to a specified scope, such as addresses with the same link local or site local prefix. Provides various restriction levels and default settings. See [IPV6\_PROTECTION\_LEVEL](ipv6-protection-level.md) for more information. |
 | IPV6\_RECVIF | yes | yes | DWORD (boolean) | Indicates whether the IP stack should populate the control buffer with details about which interface received a packet with a datagram socket. When this value is true, the [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg) function will return optional control data containing the interface where the packet was received for datagram sockets. This option allows the IPv6 interface where the packet was received to be returned in the [**WSAMSG**](/windows/desktop/api/Ws2def/ns-ws2def-wsamsg) structure.  This option is only valid for datagram and raw sockets (the socket type must be SOCK\_DGRAM or SOCK\_RAW). |
 | IPV6\_RECVTCLASS | yes | yes | DWORD (boolean) | Indicates whether the IP stack should populate the control buffer with a message containing the Traffic Class IPv6 header field on a received datagram. When this value is true, the [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg) function will return optional control data containing the Traffic Class IPv6 header field value of the received datagram.  This option allows the Traffic Class IPv6 header field of the received datagram to be returned in the [**WSAMSG**](/windows/desktop/api/Ws2def/ns-ws2def-wsamsg) structure. The returned message type will be IPV6\_TCLASS. All DSCP and ECN bits of the Traffic Class field will be returned.  This option is only valid on datagram sockets (the socket type must be SOCK\_DGRAM).  |
+| IPV6\_RECVECN | yes | yes | DWORD (boolean) | Indicates whether the IP stack should populate the control buffer with a message containing the ECN bits of the Traffic Class IPv6 header field on a received datagram. When this value is true, the [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg) function will return optional control data containing the ECN bits of the Traffic Class IPv6 header field value of the received datagram.  This option allows the ECN bits of the Traffic Class IPv6 header field of the received datagram to be returned in the [**WSAMSG**](/windows/desktop/api/Ws2def/ns-ws2def-wsamsg) structure. The returned message type will be IPV6\_ECN. All 2 ECN bits of the Traffic Class field will be returned.  This option is only valid on datagram and raw sockets (the socket type must be SOCK\_DGRAM or SOCK\_RAW). The [**WSAGetRecvIPEcn**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetrecvipecn) and [**WSASetRecvIPEcn**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetrecvipecn) functions are deprecated because they do not properly support dual-stack sockets. Use this socket option directly instead. On a dual-stack socket that is unbound or bound to a wildcard address, set both **IP_RECVECN** (level **IPPROTO_IP**) and **IPV6_RECVECN** (level **IPPROTO_IPV6**). If the socket is bound to a specific IPv6 address, only **IPV6_RECVECN** applies. If the socket is bound to an IPv4-mapped IPv6 address, only **IP_RECVECN** applies. |
 | IPV6\_UNICAST\_HOPS | yes | yes | DWORD | Gets or sets the current TTL value associated with IPv6 socket for unicast traffic. It is illegal to set the TTL to a value greater than 255. |
 | IPV6\_UNICAST\_IF | yes | yes | DWORD (IF\_INDEX) | Gets or sets the outgoing interface for sending IPv6 traffic. This option does not change the default interface for receiving IPv6 traffic. This option is important for multihomed computers.  The input value for setting this option is a 4-byte interface index of the desired outgoing interface in host byte order. The [**GetAdaptersAddresses**](/windows/win32/api/iphlpapi/nf-iphlpapi-getadaptersaddresses) function can be used to obtain the interface index information. If *optval* is zero, the default interface for sending IPv6 traffic is set to unspecified.  When getting this option, the *optval* returns the current default interface index for sending IPv6 traffic in host byte order. |
-| IPV6_USER_MTU | yes | yes | DWORD | Gets or sets an upper bound on the IP layer MTU (in bytes) for the given socket. If the value is higher than the system's estimate of the path MTU (which you can retrieve on a connected socket by querying the **IPV6_MTU** socket option), then the option has no effect. If the value is lower, then outbound packets larger than this will be fragmented, or will fail to send, depending on the value of **IPV6_DONTFRAG**. Default value is **IP_UNSPECIFIED_USER_MTU** (MAXULONG). For type-safety, you should use the [**WSAGetIPUserMtu**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetipusermtu) and [**WSASetIPUserMtu**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetipusermtu) functions instead of using the socket option directly. |
+| IPV6_USER_MTU | yes | yes | DWORD | Gets or sets an upper bound on the IP layer MTU (in bytes) for the given socket. If the value is higher than the system's estimate of the path MTU (which you can retrieve on a connected socket by querying the **IPV6_MTU** socket option), then the option has no effect. If the value is lower, then outbound packets larger than this will be fragmented, or will fail to send, depending on the value of **IPV6_DONTFRAG**. Default value is **IP_UNSPECIFIED_USER_MTU** (MAXULONG). The [**WSAGetIPUserMtu**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetipusermtu) and [**WSASetIPUserMtu**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetipusermtu) functions are deprecated because they do not properly support dual-stack sockets. Use this socket option directly instead. On a dual-stack socket that is unbound or bound to a wildcard address, set both **IP_USER_MTU** (level **IPPROTO_IP**) and **IPV6_USER_MTU** (level **IPPROTO_IPV6**). If the socket is bound to a specific IPv6 address, only **IPV6_USER_MTU** applies. If the socket is bound to an IPv4-mapped IPv6 address, only **IP_USER_MTU** applies. |
 | IPV6\_V6ONLY | yes | yes | DWORD (boolean) | Indicates if a socket created for the AF\_INET6 address family is restricted to IPv6 communications only. Sockets created for the AF\_INET6 address family may be used for both IPv6 and IPv4 communications. Some applications may want to restrict their use of a socket created for the AF\_INET6 address family to IPv6 communications only. When this value is nonzero (the default on Windows), a socket created for the AF\_INET6 address family can be used to send and receive IPv6 packets only. When this value is zero, a socket created for the AF\_INET6 address family can be used to send and receive packets to and from an IPv6 address or an IPv4 address. Note that the ability to interact with an IPv4 address requires the use of IPv4 mapped addresses. This socket option is supported on Windows Vista or later. |
 
 ## Windows support for IPPROTO\_IPV6 socket options
 
 | Option | Windows 8 | Windows Server 2012 | Windows 7 | Windows Server 2008 | Windows Vista |
 |-|-|-|-|-|-|
-| IP\_ORIGINAL\_ARRIVAL\_IF | x | x | x | | |
+| IP\_ORIGINAL\_ARRIVAL\_IF | yes | yes | yes | | |
 | IPV6_ADD_IFLIST | Starting with Windows 10, version 1803 | | | | |
-| IPV6\_ADD\_MEMBERSHIP | x | x | x | x | x |
+| IPV6\_ADD\_MEMBERSHIP | yes | yes | yes | yes | yes |
 | IPV6_DEL_IFLIST | Starting with Windows 10, version 1803 | | | | |
-| IPV6\_DROP\_MEMBERSHIP | x | x | x | x | x |
+| IPV6\_DROP\_MEMBERSHIP | yes | yes | yes | yes | yes |
 | IPV6_GET_IFLIST | Starting with Windows 10, version 1803 | | | | |
-| IPV6\_HDRINCL | x | x | x | x | x |
-| IPV6\_HOPLIMIT | x | x | x | x | x |
+| IPV6\_HDRINCL | yes | yes | yes | yes | yes |
+| IPV6\_HOPLIMIT | yes | yes | yes | yes | yes |
 | IPV6_IFLIST | Starting with Windows 10, version 1803 | | | | |
-| IPV6\_JOIN\_GROUP | x | x | x | x | x |
-| IPV6\_LEAVE\_GROUP | x | x | x | x | x |
-| IPV6\_MULTICAST\_HOPS | x | x | x | x | x |
-| IPV6\_MULTICAST\_IF | x | x | x | x | x |
-| IPV6\_MULTICAST\_LOOP | x | x | x | x | x |
-| IPV6\_PKTINFO | x | x | x | x | x |
-| [IPV6\_PROTECTION\_LEVEL](ipv6-protection-level.md) | x | x | x | x | x |
-| IPV6\_RECVIF | x | x | x | x | x |
-| IPV6\_UNICAST\_HOPS | x | x | x | x | x |
-| IPV6\_UNICAST\_IF | x | x | x | x | x |
-| IPV6\_V6ONLY | x | x | x | x | x |
+| IPV6\_JOIN\_GROUP | yes | yes | yes | yes | yes |
+| IPV6\_LEAVE\_GROUP | yes | yes | yes | yes | yes |
+| IPV6\_MULTICAST\_HOPS | yes | yes | yes | yes | yes |
+| IPV6\_MULTICAST\_IF | yes | yes | yes | yes | yes |
+| IPV6\_MULTICAST\_LOOP | yes | yes | yes | yes | yes |
+| IPV6\_PKTINFO | yes | yes | yes | yes | yes |
+| [IPV6\_PROTECTION\_LEVEL](ipv6-protection-level.md) | yes | yes | yes | yes | yes |
+| IPV6\_RECVIF | yes | yes | yes | yes | yes |
+| IPV6\_UNICAST\_HOPS | yes | yes | yes | yes | yes |
+| IPV6\_UNICAST\_IF | yes | yes | yes | yes | yes |
+| IPV6\_V6ONLY | yes | yes | yes | yes | yes |
 
 <br/>
 
@@ -74,22 +75,22 @@ Some socket options require more explanation than these tables can convey; such 
 |-|-|-|
 | IP\_ORIGINAL\_ARRIVAL\_IF | | |
 | IPV6_ADD_IFLIST | | |
-| IPV6\_ADD\_MEMBERSHIP | x | x |
+| IPV6\_ADD\_MEMBERSHIP | yes | yes |
 | IPV6_DEL_IFLIST | | |
-| IPV6\_DROP\_MEMBERSHIP | x | x |
+| IPV6\_DROP\_MEMBERSHIP | yes | yes |
 | IPV6_GET_IFLIST | | |
-| IPV6\_HDRINCL  x | x |
-| IPV6\_HOPLIMIT  x | x |
+| IPV6\_HDRINCL  yes | yes |
+| IPV6\_HOPLIMIT  yes | yes |
 | IPV6_IFLIST | | |
-| IPV6\_JOIN\_GROUP | x | x |
-| IPV6\_LEAVE\_GROUP | x | x |
-| IPV6\_MULTICAST\_HOPS | x | x |
-| IPV6\_MULTICAST\_IF | x | x |
-| IPV6\_MULTICAST\_LOOP | x | x |
-| IPV6\_PKTINFO | x | x |
-| [IPV6\_PROTECTION\_LEVEL](ipv6-protection-level.md) | x | x |
+| IPV6\_JOIN\_GROUP | yes | yes |
+| IPV6\_LEAVE\_GROUP | yes | yes |
+| IPV6\_MULTICAST\_HOPS | yes | yes |
+| IPV6\_MULTICAST\_IF | yes | yes |
+| IPV6\_MULTICAST\_LOOP | yes | yes |
+| IPV6\_PKTINFO | yes | yes |
+| [IPV6\_PROTECTION\_LEVEL](ipv6-protection-level.md) | yes | yes |
 | IPV6\_RECVIF | | |
-| IPV6\_UNICAST\_HOPS | x | x |
+| IPV6\_UNICAST\_HOPS | yes | yes |
 | IPV6\_UNICAST\_IF | | |
 | IPV6\_V6ONLY | | |
 

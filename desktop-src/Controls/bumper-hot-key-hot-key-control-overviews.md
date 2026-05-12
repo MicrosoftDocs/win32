@@ -2,7 +2,7 @@
 title: Hot Key Control Overviews
 description: Hot Key Control Overviews
 ms.assetid: 529af3fa-4a4a-43aa-b059-d09b3ec5adef
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

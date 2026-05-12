@@ -4,7 +4,7 @@ description: The following table identifies what is new for each release of Back
 ms.assetid: ef05f2e1-88be-4adb-aca7-a7b1451cfd04
 keywords:
 - what's new BITS
-ms.topic: article
+ms.topic: whats-new
 ms.date: 7/12/2019
 ---
 

@@ -1,16 +1,17 @@
 ---
 title: AppContainer isolation
-description: Isolation is the primary goal of an AppContainer execution environment.
+description: Isolation is the primary goal of an AppContainer execution environment. Learn how AppContainer isolation works to secure applications and limit access to system resources.
 ms.assetid: 13C579F9-7F9F-4602-9B03-08CD820C3BBA
-ms.topic: article
-ms.date: 07/20/2023
+ms.topic: concept-article
+ms.date: 07/08/2025
+# customer intent: As a Windows app developer, I want to understand how AppContainer isolation works, so that I can ensure my applications run securely and with limited access to system resources.
 ---
 
 # AppContainer isolation
 
 Isolation is the primary goal of an AppContainer execution environment. By isolating an application from unneeded resources and other applications, opportunities for malicious manipulation are minimized. Granting access based upon least-privilege prevents applications and users from accessing resources beyond their rights. Controlling access to resources protects the process, the device, and the network.
 
-Most vulnerabilities in Windows start with the application. Some common examples include an application breaking out of its browser or sending a bad document to Internet Explorer as well as exploitation of plugins, such as flash. The more these applications can be isolated in an AppContainer, the safer the device and resources are. Even if vulnerability in an app is exploited, the app cannot access resources beyond what is granted to the AppContainer. Malicious apps cannot take over the rest of the machine.
+Most vulnerabilities in Windows start with the application. Some common examples include an application breaking out of its browser or sending a bad document to the browser, as well as exploitation of plugins and extensions. The more these applications can be isolated in an AppContainer, the safer the device and resources are. Even if vulnerability in an app is exploited, the app cannot access resources beyond what is granted to the AppContainer. Malicious apps cannot take over the rest of the machine.
 
 ## Credential isolation
 
@@ -35,3 +36,7 @@ Sandboxing the application kernel objects, the AppContainer environment prevents
 ## Window isolation
 
 Isolating the application from other windows, the AppContainer environment prevents the application from affecting other application interfaces.
+
+## Related content
+
+[AppContainer for legacy apps](appcontainer-for-legacy-applications-.md)

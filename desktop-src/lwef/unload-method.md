@@ -2,7 +2,7 @@
 title: Unload Method
 description: Unload Method
 ms.assetid: 2ffaeea6-ff24-48b2-bc99-eba429434a30
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The following example shows a message being encrypted before it is sent to a remote computer over the secure connection.
 ms.assetid: 1788b496-ad19-427e-be07-4aa68543fced
 title: Encrypting a Message
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

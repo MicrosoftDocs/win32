@@ -2,7 +2,7 @@
 description: System.FileCount
 ms.assetid: 81c89caf-843e-4a87-ac41-099de9174ea6
 title: System.FileCount
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

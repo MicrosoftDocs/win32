@@ -2,8 +2,8 @@
 description: The windowing section describes the elements of an application with a Windows-based graphical user interface.
 ms.assetid: 2e00186d-cc1f-4954-a074-685efacb46de
 title: Windows and Messages
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Windows and Messages

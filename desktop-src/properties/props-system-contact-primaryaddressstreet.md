@@ -2,7 +2,7 @@
 description: Primary address street of the contact.
 ms.assetid: 6205e0c9-41bf-49a4-86e2-1d6bef3e984c
 title: System.Contact.PrimaryAddressStreet
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: VML HRNoShade Attribute
 description: VML HRNoShade Attribute
 ms.assetid: f80171ab-31b8-4029-aa18-a17a56fa8842
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

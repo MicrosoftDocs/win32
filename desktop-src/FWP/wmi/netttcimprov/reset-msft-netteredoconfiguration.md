@@ -5,7 +5,7 @@ title: Reset method of the MSFT\_NetTeredoConfiguration class
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -97,7 +97,7 @@ Specifies whether the method should output the an object that represents the res
 *OutputObject* \[out\]
 </dt> <dd>
 
-Receives the reset [**MSFT\_NetTeredoConfiguration**](msft-netteredoconfiguration.md) ojbect.
+Receives the reset [**MSFT\_NetTeredoConfiguration**](msft-netteredoconfiguration.md) object.
 
 </dd> </dl>
 
@@ -105,7 +105,7 @@ Receives the reset [**MSFT\_NetTeredoConfiguration**](msft-netteredoconfiguratio
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                          |

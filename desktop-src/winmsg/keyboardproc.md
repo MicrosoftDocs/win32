@@ -4,7 +4,7 @@ title: KeyboardProc callback function
 description: The system calls this function whenever an application calls the GetMessage or PeekMessage function and there is a keyboard message (WM_KEYUP) to be processed.
 old-location: 
 ms.assetid: na
-ms.date: 06/29/2023
+ms.date: 07/14/2025
 ms.keywords: 
 ms.topic: reference
 req.header: 

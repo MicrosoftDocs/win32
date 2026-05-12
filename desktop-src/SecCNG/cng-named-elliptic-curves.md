@@ -1,9 +1,9 @@
 ---
-description: Beginning in Windows 10, CNG provides support for the following named elliptic curves (ANSI X9.62, X9.63, FIPS 186-2).
+description: CNG provides support for the following named elliptic curves (ANSI X9.62, X9.63, FIPS 186-2).
 ms.assetid: 0607E8C3-6372-47E1-B16F-EF156D5EBA7D
 title: CNG Named Elliptic Curves (Bcrypt.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 10/30/2024
 ---
 
 # CNG Named Elliptic Curves
@@ -175,7 +175,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 | Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------|
 | Name              | nistP192                                                                                                                     |
-| Standard          | [Recommended Elliptic Curves for Federal Government Use](https://csrc.nist.rip/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
+| Standard          | [Recommended Elliptic Curves for Federal Government Use](https://csrc.nist.gov/pubs/sp/800/186/final) |
 | Key size (bits)   | 192                                                                                                                          |
 | TLS capable       | Yes                                                                                                                          |
 | Object identifier | 1.2.840.10045.3.1.1                                                                                                          |
@@ -185,7 +185,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 | Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------|
 | Name              | nistP224                                                                                                                     |
-| Standard          | [Recommended Elliptic Curves for Federal Government Use](https://csrc.nist.rip/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
+| Standard          | [Recommended Elliptic Curves for Federal Government Use](https://csrc.nist.gov/pubs/sp/800/186/final) |
 | Key size (bits)   | 224                                                                                                                          |
 | TLS capable       | Yes                                                                                                                          |
 | Object identifier | 1.3.132.0.33                                                                                                                 |
@@ -195,7 +195,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 | Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------|
 | Name              | nistP256                                                                                                                     |
-| Standard          | [Recommended Elliptic Curves for Federal Government Use](https://csrc.nist.rip/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
+| Standard          | [Recommended Elliptic Curves for Federal Government Use](https://csrc.nist.gov/pubs/sp/800/186/final) |
 | Key size (bits)   | 256                                                                                                                          |
 | TLS capable       | Yes                                                                                                                          |
 | Object identifier | 1.2.840.10045.3.1.7                                                                                                          |
@@ -205,7 +205,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 | Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------|
 | Name              | nistP384                                                                                                                     |
-| Standard          | [Recommended Elliptic Curves for Federal Government Use](https://csrc.nist.rip/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
+| Standard          | [Recommended Elliptic Curves for Federal Government Use](https://csrc.nist.gov/pubs/sp/800/186/final) |
 | Key size (bits)   | 384                                                                                                                          |
 | TLS capable       | Yes                                                                                                                          |
 | Object identifier | 1.3.132.0.34                                                                                                                 |
@@ -215,7 +215,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 | Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------|
 | Name              | nistP521                                                                                                                     |
-| Standard          | [Recommended Elliptic Curves for Federal Government Use](https://csrc.nist.rip/groups/ST/toolkit/documents/dss/NISTReCur.pdf) |
+| Standard          | [Recommended Elliptic Curves for Federal Government Use](https://csrc.nist.gov/pubs/sp/800/186/final) |
 | Key size (bits)   | 521                                                                                                                          |
 | TLS capable       | Yes                                                                                                                          |
 | Object identifier | 1.3.132.0.35                                                                                                                 |
@@ -464,7 +464,7 @@ Beginning in Windows 10, CNG provides support for the following named elliptic c
 
 ## Remarks
 
-To use a named curve, call [**BCryptOpenAlgorithmProvider**](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider) using either the **BCRYPT\_ECDSA\_ALGORITHM** or the **BCRYPT\_ECDH\_ALGORITHM** as the algorithm ID. Then, call [**BCryptSetProperty**](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptsetproperty) and set the **BCRYPT\_ECC\_CURVE\_NAME** property to one of the above curves or any named curves registered on the computer as shown by the `certutil -displayEccCurve` command.
+To use a named curve, call [BCryptOpenAlgorithmProvider](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider) using either the **BCRYPT\_ECDSA\_ALGORITHM** or the **BCRYPT\_ECDH\_ALGORITHM** as the algorithm ID. Then, call [BCryptSetProperty](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptsetproperty) and set the **BCRYPT\_ECC\_CURVE\_NAME** property to one of the above curves or any named curves registered on the computer as shown by the `certutil -displayEccCurve` command.
 
 ## Requirements
 
@@ -476,6 +476,6 @@ To use a named curve, call [**BCryptOpenAlgorithmProvider**](/windows/win32/api/
 
 ## See also
 
-[**BCryptOpenAlgorithmProvider**](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider)
+[BCryptOpenAlgorithmProvider](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider)
 
-[**NCryptCreatePersistedKey**](/windows/win32/api/Ncrypt/nf-ncrypt-ncryptcreatepersistedkey)
+[NCryptCreatePersistedKey](/windows/win32/api/Ncrypt/nf-ncrypt-ncryptcreatepersistedkey)

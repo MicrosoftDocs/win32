@@ -2,7 +2,7 @@
 description: The IUpdate5 interface defines the following properties.
 ms.assetid: 97671dac-66f3-4b37-9b33-c4e7682e8889
 title: IUpdate5 Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

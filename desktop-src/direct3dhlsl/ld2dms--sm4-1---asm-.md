@@ -26,7 +26,7 @@ Reads individual samples out of 2-dimensional multi-sample textures.
 | <span id="dest"></span><span id="DEST"></span>*dest*<br/>                                                    | \[in\] The address of result of the operation. <br/>                                                                 |
 | <span id="srcAddress"></span><span id="srcaddress"></span><span id="SRCADDRESS"></span>*srcAddress*<br/>     | \[in\] The texture coordinates needed to perform the sample.<br/>                                                    |
 | <span id="srcResource"></span><span id="srcresource"></span><span id="SRCRESOURCE"></span>*srcResource*<br/> | \[in\] A texture register (t\#) which must have been declared identifying which Texture or Buffer to fetch from<br/> |
-| <span id="sampleIndex"></span><span id="sampleindex"></span><span id="SAMPLEINDEX"></span>*sampleIndex*<br/> | \[in\] Idendifies the samples to read from *srcResource* (scalar operand).<br/>                                                       |
+| <span id="sampleIndex"></span><span id="sampleindex"></span><span id="SAMPLEINDEX"></span>*sampleIndex*<br/> | \[in\] Identifies the samples to read from *srcResource* (scalar operand).<br/>                                                       |
 
 
 
@@ -44,7 +44,7 @@ An application wishing any more flexible control over out-of-range address behav
 
 *srcAddress.b* (post-swizzle) is ignored for Texture2Ds. If the value is out of the range of available array indices \[0...(array size-1)\], then **ld2dms** always returns 0 in all components present in the format of the resource, and defaults (0,0,0,1.0f/0x00000001) for missing components.
 
-For Texture2D Arrays, *srcAddress.b* (post-swizzle) provides the array index. Oherwise it has the same behavior as Texture2D.
+For Texture2D Arrays, *srcAddress.b* (post-swizzle) provides the array index. Otherwise it has the same behavior as Texture2D.
 
 *srcAddress.a* (post-swizzle) is always ignored. The HLSL compiler will never output anything there.
 
@@ -68,7 +68,7 @@ Because the texture coordinates for **ld2dms** are unsigned integers, if the off
 
 ### Sample Number
 
-**ld2dms** is available for use on any resource. **ld2dms** operates identically to **ld** except on 2D multsample resources, by using the additional (0-based) *sampleIndex* operand to identify which sample to read from the resource.
+**ld2dms** is available for use on any resource. **ld2dms** operates identically to **ld** except on 2D multisample resources, by using the additional (0-based) *sampleIndex* operand to identify which sample to read from the resource.
 
 The result of specifying a *sampleIndex* that exceeds the number of samples in the resource is undefined, but cannot return data outside of the address space of the device context.
 

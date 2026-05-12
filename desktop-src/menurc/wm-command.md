@@ -1,6 +1,6 @@
 ---
 title: WM_COMMAND message (Winuser.h)
-description: Sent when the user selects a command item from a menu, when a control sends a notification message to its parent window, or when an accelerator keystroke is translated.
+description: Sent when the user invokes a command item from a menu, when a control sends a notification message to its parent window, or when an accelerator keystroke is translated.
 ms.assetid: 5516098e-fd90-49c8-afb0-78164b028376
 keywords:
 - WM_COMMAND message Menus and Other Resources
@@ -14,32 +14,29 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.custom: snippet-project
-ms.date: 05/31/2018
+ms.date: 09/26/2025
 ---
 
 # WM\_COMMAND message
 
-Sent when the user selects a command item from a menu, when a control sends a notification message to its parent window, or when an accelerator keystroke is translated.
+Sent when the user invokes a command item from a menu, when a control sends a notification message to its parent window, or when an accelerator keystroke is translated.
 
-
-```C++
+```cpp
 #define WM_COMMAND                      0x0111
 ```
-
-
 
 ## Parameters
 
 <dl> <dt>
 
-*wParam* 
+*wParam*
 </dt> <dd>
 
 For a description of this parameter, see Remarks.
 
 </dd> <dt>
 
-*lParam* 
+*lParam*
 </dt> <dd>
 
 For a description of this parameter, see Remarks.
@@ -54,14 +51,14 @@ If an application processes this message, it should return zero.
 
 ```c
 BOOL AboutDlg (
-    HWND hDlg, 
-    UINT message, 
-    WPARAM wParam, 
+    HWND hDlg,
+    UINT message,
+    WPARAM wParam,
     LPARAM lParam)
 {
     BOOL bRet = FALSE;
-    
-    switch (message) 
+
+    switch (message)
     {
         case WM_INITDIALOG:
             bRet = TRUE;
@@ -69,7 +66,7 @@ BOOL AboutDlg (
 
         case WM_COMMAND:
             if (wParam == IDOK ||
-                wParam == IDCANCEL) 
+                wParam == IDCANCEL)
             {
                 EndDialog(hDlg, TRUE);
                 bRet = TRUE;
@@ -80,14 +77,12 @@ BOOL AboutDlg (
     return bRet;
 }
 ```
-Example taken from [Windows classic samples](https://github.com/microsoft/Windows-classic-samples) on GitHub.
 
+Example taken from [Windows classic samples](https://github.com/microsoft/Windows-classic-samples) on GitHub.
 
 ## Remarks
 
 Use of the *wParam* and *lParam* parameters are summarized here.
-
-
 
 | Message Source | wParam (high word)                | wParam (low word)                | lParam                       |
 |----------------|-----------------------------------|----------------------------------|------------------------------|
@@ -95,15 +90,11 @@ Use of the *wParam* and *lParam* parameters are summarized here.
 | Accelerator    | 1                                 | Accelerator identifier (IDM\_\*) | 0                            |
 | Control        | Control-defined notification code | Control identifier               | Handle to the control window |
 
-
-
- 
-
 ### Menus
 
-If an application enables a menu separator, the system sends a **WM\_COMMAND** message with the low-word of the *wParam* parameter set to zero when the user selects the separator.
+In most cases, this is the message to listen for when a user invokes a command in a menu. However, if a menu is defined with a [**MENUINFO.dwStyle**](/windows/win32/api/winuser/ns-winuser-menuinfo) value of **MNS\_NOTIFYBYPOS**, [**WM\_MENUCOMMAND**](wm-menucommand.md) is sent instead of **WM\_COMMAND**.
 
-If a menu is defined with a [**MENUINFO.dwStyle**](/windows/win32/api/winuser/ns-winuser-menuinfo) value of **MNS\_NOTIFYBYPOS**, [**WM\_MENUCOMMAND**](wm-menucommand.md) is sent instead of **WM\_COMMAND**.
+If an application enables a menu separator, the system sends a **WM\_COMMAND** message with the low-word of the *wParam* parameter set to zero when the user selects the separator.
 
 ### Accelerators
 
@@ -142,5 +133,5 @@ If an accelerator keystroke occurs that corresponds to a menu item when the wind
 [Menus](menus.md)
 </dt> </dl>
 
- 
+
 

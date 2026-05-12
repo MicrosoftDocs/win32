@@ -2,7 +2,7 @@
 description: Grabbing a Poster Frame
 ms.assetid: 0727a1ed-1bc7-49fc-a288-00283e637a71
 title: Grabbing a Poster Frame
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

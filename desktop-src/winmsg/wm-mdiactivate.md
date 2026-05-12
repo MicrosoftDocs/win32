@@ -3,7 +3,7 @@ description: An application sends the WM\_MDIACTIVATE message to a multiple-docu
 ms.assetid: c5de18b5-fac3-4e55-9eca-3b6672df0e7b
 title: WM_MDIACTIVATE message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_MDIACTIVATE message

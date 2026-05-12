@@ -2,7 +2,7 @@
 title: How to Apply Effects to Primitives
 description: This topic shows how to apply a series of effect to Direct2D and DirectWrite primitives.
 ms.assetid: 9782C22E-5D4C-494D-A0B1-19474C2CA900
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -18,7 +18,7 @@ Using [Direct2D effects](effects-overview.md), you can make this image look like
 
 ![rectangles with the text "direct2d" within after several effects are applied.](images/direct2d-svg.png)
 
-After you render the rectangles and text to a intermediate surface, you can use this as input for [**ID2D1Effect**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1effect) objects in the image graph.
+After you render the rectangles and text to an intermediate surface, you can use this as input for [**ID2D1Effect**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1effect) objects in the image graph.
 
 In this example, set the original image as the input to the [Gaussian Blur effect](gaussian-blur.md) and then set the output of the blur as the input for the [Point Specular Lighting effect](specular-lighting.md). The result of this effect is then composited with the original image twice to get the final image that is rendered to the window.
 

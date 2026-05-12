@@ -2,7 +2,7 @@
 description: Debug Output Functions
 ms.assetid: dfe44c8c-43ec-461f-952f-b87256b82ee6
 title: Debug Output Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

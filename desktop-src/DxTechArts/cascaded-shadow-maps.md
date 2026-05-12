@@ -2,7 +2,7 @@
 title: Cascaded Shadow Maps
 description: Cascaded shadow maps (CSMs) are the best way to combat one of the most prevalent errors with shadowing perspective aliasing.
 ms.assetid: d3570d0a-74e0-5b9c-6586-c933f630c4ee
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -30,7 +30,7 @@ The basic idea of CSMs is to partition the frustum into multiple frusta. A shado
 
 ![shadow map coverage](images/shadow-map-coverage.png)
 
-In Figure 1, quality is shown (left to right) from highest to lowest. The series of grids representing shadow maps with a view frustum (inverted cone in red) shows how pixel coverage is affected with different resolution shadow maps. Shadows are of the highest quality (white pixels) when there is a 1:1 ratio mapping pixels in light space to texels in the shadow map. Perspective aliasing occurs in the form of large, blocky texture maps (left image) when too many pixels map to the same shadow texel. When the shadow map is too large, it is under sampled. In this case, texels are skipped, shimmering artifacts are introduced, and performance is affected.
+In Figure 1, quality is shown (left to right) from highest to lowest. The series of grids representing shadow maps with a view frustum (inverted cone in red) shows how pixel coverage is affected with different resolution shadow maps. Shadows are of the highest quality (white pixels) when there is a 1:1 ratio mapping pixels in view space to texels in the shadow map. Perspective aliasing occurs in the form of large, blocky texture maps (left image) when too many pixels map to the same shadow texel. When the shadow map is too large, it is under sampled. In this case, texels are skipped, shimmering artifacts are introduced, and performance is affected.
 
 **Figure 2. CSM shadow quality**
 
@@ -82,7 +82,7 @@ Figure 4 shows some different cameras and their respective partitions. When the 
 
 ### Orientation of the Light and the Camera
 
-Each cascade's projection matrix is fit tightly around its corresponding subfrustum. In configurations where the view camera and the light directions are orthogonal, the cascades can be fit tightly with little overlap. The overlap becomes larger as the light and the view camera move into parallel alignment (Figure 5). When the light and the view camera are nearly parallel, it is called a "dueling frusta," and is a very hard scenario for most shadowing algorithms. It is not uncommon to constrain the light and camera so that this scenario does not occur. CSMs, however, perform much better than many other algorithms in this scenario.
+Each cascade's projection matrix is fit tightly around its corresponding subfrustum. In configurations where the view camera and the light directions are orthogonal, the cascades can be fit tightly with little overlap. The overlap becomes larger as the light and the view camera move into parallel alignment (Figure 5). When the light and the view camera are nearly opposite (facing each other), it is called a "dueling frusta," and is a very hard scenario for most shadowing algorithms. It is not uncommon to constrain the light and camera so that this scenario does not occur. CSMs, however, perform much better than many other algorithms in this scenario.
 
 **Figure 5. Cascade overlap increases as light direction becomes parallel with camera direction**
 

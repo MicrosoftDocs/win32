@@ -1,12 +1,12 @@
 ---
 description: The FREETEXT predicate is part of the WHERE clause and supports searching for words and phrases in text columns.
 ms.assetid: 8afc95d1-25cd-4448-8bee-d132c2da22b3
-title: FREETEXT Predicate
-ms.topic: article
+title: FREETEXT predicate
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# FREETEXT Predicate
+# FREETEXT predicate
 
 The FREETEXT predicate is part of the [WHERE](-search-sql-where.md) clause and supports searching for words and phrases in text columns. Use the FREETEXT predicate to find documents containing combinations of the search words spread throughout the content or columns specified. To get the rank value, include System.Search.Rank, which is a ranking of relevence, as a column in the SELECT statment.
 

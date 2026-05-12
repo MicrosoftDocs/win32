@@ -2,7 +2,7 @@
 title: Determining Which Interface an Object Supports
 description: Determining Which Interface an Object Supports
 ms.assetid: cf2aacb7-5315-4907-a49b-3eb3bbfd13d1
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

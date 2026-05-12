@@ -3,7 +3,7 @@ description: Starting with Windows Vista, the WMI service does not use the WMI 
 ms.assetid: bb6401e8-caf7-4f39-ab64-b7532723ce9a
 ms.tgt_platform: multiple
 title: Tracing WMI Activity
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

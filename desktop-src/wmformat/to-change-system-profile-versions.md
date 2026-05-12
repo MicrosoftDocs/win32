@@ -6,7 +6,7 @@ keywords:
 - profiles,system
 - system profiles,versions
 - system profiles,changing versions
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

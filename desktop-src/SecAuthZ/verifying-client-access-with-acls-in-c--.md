@@ -2,7 +2,7 @@
 description: Check the access rights that a security descriptor allows for a client.
 ms.assetid: de21968e-4590-4798-9152-43204d55521f
 title: Verifying Client Access with ACLs in C++
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

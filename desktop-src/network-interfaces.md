@@ -2,7 +2,7 @@
 description: This topic describes high-level network interface concepts on Windows, including the ways they can be identified in code and their properties.
 ms.assetid: CB01B5ED-C9DB-410B-8C98-E30D9A680847
 title: Network Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 06/29/2018
 ---
 
@@ -44,8 +44,8 @@ Notes for the preceding table:
 1. **IfIndexes** are not guaranteed to be stable across reboots, even though they often receive the same value as the previous boot. Therefore, it is not recommended that drivers use **ifIndex** except where required by an API.
 2. Some `netsh` commands take `ifIndex`, or `index`, as an input. Therefore, some administrative users are familiar with the **ifIndex** property if they use the `netsh` command frequently.
 3. If a machine is cloned or imaged, then some of the GUIDs might be the same. Also, certain special network interfaces such as the built-in Teredo interface might have the same GUID on all machines.
-4. NetCfg enforces that an **ifAlias** is a non-empty string and is unique among all NICs. However, the NDIS interface provider does not. Thererfore, it is possible to find special network interfaces with duplicate or empty names. This is most commonly seen with LBFO teams.
-5. Only if the firmware supports Consistent Device Naming. Typcically, servers have this feature.
+4. NetCfg enforces that an **ifAlias** is a non-empty string and is unique among all NICs. However, the NDIS interface provider does not. Therefore, it is possible to find special network interfaces with duplicate or empty names. This is most commonly seen with LBFO teams.
+5. Only if the firmware supports Consistent Device Naming. Typically, servers have this feature.
 6. NetCfg assigns unique **ifDescrs** to all network interfaces. However, drivers can call an API to change the **ifDescr** to anything, including something that is not unique. Some 3rd party software packages do this.
 7. Not all media types have a "MAC address." For example, some tunnels do not have this concept and simply advertise a zero-length byte array as their network address.
 8. Only present on network interfaces that are backed by a PnP device. For example, loopback interfaces, light weight filter interfaces, interfaces provided by an NDIS interface provider, and certain special built-in NICs don't have PnP devices backing them.

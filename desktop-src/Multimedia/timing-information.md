@@ -13,7 +13,7 @@ keywords:
 - SMPTE format
 - quarter note time
 - ticks
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

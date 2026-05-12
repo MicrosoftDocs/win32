@@ -2,7 +2,7 @@
 title: PSAPI Structures
 description: The following are the PSAPI structures
 ms.assetid: 08e53ebf-f694-46ad-b8b7-3dc179ab80ff
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The network share functions control shared resources. A shared resource is a local resource on a server (for example, a disk directory, print device, or named pipe) that can be accessed by users and applications on the network.
 ms.assetid: 14886bb0-e597-4728-a64f-bc16e82874da
 title: Network Share Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

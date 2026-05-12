@@ -5,7 +5,7 @@ ms.assetid: 7a11b769-65b9-4eaa-bc42-5d1d744bf181
 keywords:
 - WM_CAP_FILE_ALLOCATE message
 - capFileAlloc macro
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

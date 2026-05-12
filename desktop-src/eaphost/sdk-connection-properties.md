@@ -2,7 +2,7 @@
 title: SDK Connection Properties
 description: Learn about SDK connection properties. See a sample that's an instance of the eaphostconfig native schema.
 ms.assetid: 34c9b423-4f4c-484e-86d7-4594566cd396
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

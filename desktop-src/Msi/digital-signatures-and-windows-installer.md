@@ -2,7 +2,7 @@
 description: The Windows Installer can use digital signatures to detect corrupted resources.
 ms.assetid: 68f2c686-cbe0-495d-a448-a7d2ca1df47b
 title: Digital Signatures and Windows Installer
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

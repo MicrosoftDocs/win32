@@ -3,7 +3,7 @@ title: Retrieving the objectClass Attribute
 description: The objectClass attribute contains the class of which the object is an instance, as well as all classes from which that class is derived.
 ms.assetid: 6066d9c3-f97b-482a-88c7-0fde1dc2f4c4
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

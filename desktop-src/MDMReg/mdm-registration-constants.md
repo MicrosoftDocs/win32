@@ -932,6 +932,12 @@ Mobile Device Management (MDM) is not configured.
 
 </dt> </dl> </dd> </dl>
 
+**MENROLL_E_MDM_NOT_CONFIGURED**
+
+0x80180032
+
+The server responded with a custom error string. For details, see DeviceManagement-Enterprise-Diagnostic-Provider.
+
 ## Requirements
 
 | Requirement | Value |

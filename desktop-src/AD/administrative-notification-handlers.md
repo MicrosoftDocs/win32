@@ -5,7 +5,7 @@ ms.assetid: 49dbb995-c760-4fac-a72f-d5d94afb63c7
 ms.tgt_platform: multiple
 keywords:
 - Administrative Notification Handlers AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

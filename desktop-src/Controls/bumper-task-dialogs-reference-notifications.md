@@ -2,7 +2,7 @@
 title: Task Dialog Notifications
 description: Task Dialog Notifications
 ms.assetid: 1cd6adf4-f844-4195-9e92-38bf1b05cda1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

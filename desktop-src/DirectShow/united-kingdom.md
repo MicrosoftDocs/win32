@@ -2,7 +2,7 @@
 description: United Kingdom
 ms.assetid: c969b9c6-3068-43ae-9c1d-d606df2a1d0b
 title: United Kingdom
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

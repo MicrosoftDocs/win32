@@ -2,7 +2,7 @@
 title: Using Status Bars
 description: This section contains example code and information about how to create and use status bars.
 ms.assetid: 66466293-F58E-42ED-8ECB-555B7AFCE794
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

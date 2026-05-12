@@ -2,8 +2,8 @@
 description: The CounterDetails table describes a specific counter on a particular computer.
 ms.assetid: e2a16a6e-8cd4-4fd3-adeb-461faed948e4
 title: CounterDetails
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # CounterDetails

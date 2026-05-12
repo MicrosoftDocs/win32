@@ -3,8 +3,9 @@ title: Session Constants
 description: The session constants in the \_\_WSManSessionFlags enumeration specify authentication and other information for WSMan.CreateSession or IWSMan CreateSession calls that connect to a remote computer.
 ms.assetid: 5df52696-ac2c-42b7-8b0f-99a27b58575b
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
+ms.custom: sfi-ropc-nochange
 ---
 
 # Session Constants

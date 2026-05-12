@@ -2,7 +2,7 @@
 description: The scripting sample in this topic shows you how to use Windows Update Agent (WUA) to scan, download, and install updates.
 ms.assetid: 4b2b1898-64f1-4908-98b7-ea87a6fcb71d
 title: Searching, Downloading, and Installing Updates
-ms.topic: article
+ms.topic: concept-article
 ms.date: 01/16/2020
 ---
 
@@ -17,7 +17,6 @@ If you want to search, download, and install a specific update that you identify
 Before you attempt to run this sample, note the following:
 
 -   WUA must be installed on the computer. For more information about how to determine the version of WUA that is installed, see [Determining the Current Version of WUA](determining-the-current-version-of-wua.md).
--   The sample can download updates only by using WUA. It cannot download updates from a Software Update Services (SUS) 1.0 server.
 -   Running this sample requires Windows Script Host (WSH). For more information about WSH, see the WSH section of the Platform Software Development Kit (SDK). If the sample is copied to a file named WUA\_SearchDownloadInstall.vbs, you can run the sample by opening a Command Prompt window and typing the following command at the command prompt.
 
     **cscript WUA\_SearchDownloadInstall.vbs**

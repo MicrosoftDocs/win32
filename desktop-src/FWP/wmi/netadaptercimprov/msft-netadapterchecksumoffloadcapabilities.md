@@ -5,7 +5,7 @@ title: MSFT\_NetAdapterChecksumOffloadCapabilities class
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -380,7 +380,7 @@ Indicates if the Adapter supports UDP checksum computation offload for transmit 
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                               |

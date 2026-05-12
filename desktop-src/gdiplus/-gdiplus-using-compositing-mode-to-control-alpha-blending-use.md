@@ -2,7 +2,7 @@
 description: 'There might be times when you want to create an off-screen bitmap that has the following characteristics:'
 ms.assetid: 2a7590ce-daf4-4892-a838-603e3f89b1bb
 title: Using Compositing Mode to Control Alpha Blending
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

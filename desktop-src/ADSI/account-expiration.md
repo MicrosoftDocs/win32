@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Account Expiration ADSI ,LDAP provider
 - LDAP provider ADSI ,user management examples,Account Expiration
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

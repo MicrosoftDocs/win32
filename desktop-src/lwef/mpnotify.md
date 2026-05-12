@@ -592,7 +592,7 @@ A FastPath signature has been removed.
 <span id="MPNOTIFY_NIS_PRIVATE"></span><span id="mpnotify_nis_private"></span>**MPNOTIFY\_NIS\_PRIVATE**
 </dt> <dd>
 
-NIS private notifcations. No partners should register for this.
+NIS private notifications. No partners should register for this.
 
 </dd> <dt>
 

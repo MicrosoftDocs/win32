@@ -2,7 +2,7 @@
 description: Service Interfaces
 ms.assetid: 264a0e86-49e9-4777-956b-a83e9db52a25
 title: Service Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: CIM\_ManagedElement class
+title: CIM\_ManagedElement class (NetEventPacketCapture)
 description: ManagedElement is an abstract class that provides a common superclass (or top of the inheritance tree) for the non-association classes in the CIM Schema.
 ms.assetid: 6cbd618d-2b8c-4d31-b78b-cd9628970a0c
 keywords:
@@ -20,13 +20,12 @@ api_type:
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---
 
-# CIM\_ManagedElement class
-
+# CIM\_ManagedElement class (NetEventPacketCapture)
 ManagedElement is an abstract class that provides a common superclass (or top of the inheritance tree) for the non-association classes in the CIM Schema.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
@@ -127,7 +126,7 @@ If not set to null for DMTF-defined instances, the "preferred" algorithm must be
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |

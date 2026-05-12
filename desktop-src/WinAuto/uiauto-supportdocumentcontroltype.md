@@ -19,8 +19,8 @@ keywords:
 - control types,control patterns for Document control type
 - control types,support for Document
 - control types,Document
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Document Control Type

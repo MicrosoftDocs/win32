@@ -3,7 +3,7 @@ description: WMI IP Route Provider and network classes supply data for IPv4 addr
 ms.assetid: 8ab6287d-be3f-4fa2-a9f5-fa5e1aba66c8
 ms.tgt_platform: multiple
 title: IPv6 and IPv4 Support in WMI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

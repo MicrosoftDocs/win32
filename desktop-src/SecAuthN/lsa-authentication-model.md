@@ -2,7 +2,7 @@
 description: Explains the LSA Authentication Model.
 ms.assetid: 0b2b868f-51a7-4f74-be4f-5f8db04d43ad
 title: LSA Authentication Model
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

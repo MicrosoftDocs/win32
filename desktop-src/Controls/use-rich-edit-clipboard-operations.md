@@ -2,7 +2,7 @@
 title: How to Use Rich Edit Clipboard Operations
 description: An application can paste the contents of the clipboard into a rich edit control by using either the best available clipboard format or a specific clipboard format.
 ms.assetid: 1FEFFD95-839B-4A26-A26E-B8429D5FF4C0
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

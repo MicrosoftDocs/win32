@@ -3,7 +3,7 @@ description: To create a WMI event provider you must register the \_\_Win32Provi
 ms.assetid: 81f2ba3b-a1cb-42f5-b1a7-b1ca65963902
 ms.tgt_platform: multiple
 title: Registering an Event Provider
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

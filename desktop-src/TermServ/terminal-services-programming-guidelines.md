@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , programming guidelines
 - programming guidelines Remote Desktop Services
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

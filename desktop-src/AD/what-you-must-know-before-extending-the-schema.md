@@ -3,7 +3,7 @@ title: What You Must Know Before Extending the Schema
 ms.assetid: 31e24480-2d0c-4f56-9af8-24978b7d8d99
 ms.tgt_platform: multiple
 description: "Learn more about: What You Must Know Before Extending the Schema"
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

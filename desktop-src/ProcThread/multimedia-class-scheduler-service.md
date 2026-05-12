@@ -2,8 +2,8 @@
 description: The Multimedia Class Scheduler service (MMCSS) enables multimedia applications to ensure that their time-sensitive processing receives prioritized access to CPU resources.
 ms.assetid: a7169938-1c72-4c4c-881a-cb08ad6182c7
 title: Multimedia Class Scheduler Service
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Multimedia Class Scheduler Service
@@ -22,7 +22,7 @@ The MMCSS settings are stored in the following registry key:
 
 **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Multimedia\\SystemProfile**
 
-This key contains a **REG\_DWORD** value named **SystemResponsiveness** that determines the percentage of CPU resources that should be guaranteed to low-priority tasks. For example, if this value is 20, then 20% of CPU resources are reserved for low-priority tasks. Note that values that are not evenly divisible by 10 are rounded up to the nearest multiple of 10. A value of 0 is also treated as 10.
+This key contains a **REG\_DWORD** value named **SystemResponsiveness** that determines the percentage of CPU resources that should be guaranteed to low-priority tasks. For example, if this value is 20, then 20% of CPU resources are reserved for low-priority tasks. Note that values that are not evenly divisible by 10 are rounded down to the nearest multiple of 10. Values below 10 and above 100 are clamped to 20. A value of 100 disables MMCSS (driver returns `STATUS_SERVER_DISABLED`).
 
 The key also contains a subkey named **Tasks** that contains the list of tasks. By default, Windows supports the following tasks:
 

@@ -2,7 +2,7 @@
 description: Indicates the reference for the altitude property (for example, above sea level, below sea level, absolute value).
 ms.assetid: 42b5a67d-e7e8-4edf-ba5c-c4a8022f926e
 title: System.GPS.AltitudeRef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

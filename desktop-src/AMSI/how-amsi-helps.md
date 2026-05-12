@@ -1,8 +1,9 @@
 ---
 title: How AMSI helps you defend against malware
 description: As an application developer, you can actively participate in malware defense. Specifically, you can help protect your customers from dynamic script-based malware, and from non-traditional avenues of cyber attack.
-ms.topic: article
+ms.topic: concept-article
 ms.date: 02/27/2019
+ms.custom: sfi-image-nochange
 ---
 
 # How the Antimalware Scan Interface (AMSI) helps you defend against malware

@@ -2,7 +2,7 @@
 title: Resilient file system
 description: Resilient file system
 ms.assetid: 6E5532F9-64BC-4DD7-9873-3FE4E4DE2DD0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -27,7 +27,6 @@ The key features of ReFS are:
 ## Resources
 
 -   [Building Windows 8 Blog Post – Building the next generation file system for Windows: ReFS](/archive/blogs/b8/building-the-next-generation-file-system-for-windows-refs)
--   [Application Compatibility and ReFS](https://www.microsoft.com/download/en/details.aspx?id=29043)
 
  
 

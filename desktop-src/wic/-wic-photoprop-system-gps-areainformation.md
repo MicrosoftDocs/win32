@@ -2,7 +2,7 @@
 description: The photo metadata policy for the System.GPS.AreaInformation property.
 ms.assetid: d9ecb00b-1f97-4f53-909f-30231104d398
 title: System.GPS.AreaInformation Photo Metadata Policy
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

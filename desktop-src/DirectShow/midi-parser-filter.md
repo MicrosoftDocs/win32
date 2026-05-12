@@ -2,7 +2,7 @@
 description: MIDI Parser Filter
 ms.assetid: a56576ad-f949-48fa-85e0-3e9898d2970d
 title: MIDI Parser Filter
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

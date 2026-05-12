@@ -13,6 +13,8 @@
     href: how-to-programmatically-sign-a-package.md
   - name: "How to develop an OEM app that uses a custom file"
     href: how-to-develop-oem-app-with-custom-file.md
+  - name: "How to use the Appx module in a netfx host other than powershell.exe"
+    href: how-to-use-appx-module-without-powershell.md
   - name: "Quickstart: Extract app package contents"
     href: how-to-extract-content-from-a-package.md
   - name: "Quickstart: Query app package manifest info"

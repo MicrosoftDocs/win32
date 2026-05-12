@@ -3,7 +3,7 @@ description: The following constants are used by applications or UI frameworks t
 ms.assetid: 434DC272-DC1C-4091-BB38-DDCB1A635D8D
 title: Pen Visualization (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Pen Visualization

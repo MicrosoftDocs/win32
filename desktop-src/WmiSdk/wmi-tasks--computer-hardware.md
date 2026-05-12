@@ -3,7 +3,7 @@ description: WMI tasks for computer hardware obtain information about the presen
 ms.assetid: eb4c2c38-4853-4486-b889-93a843d88edb
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Computer Hardware'
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

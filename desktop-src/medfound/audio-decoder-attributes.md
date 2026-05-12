@@ -1,7 +1,7 @@
 ---
 description: Audio Decoder Attributes
 title: Audio Decoder Attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 01/23/2024
 ---
 

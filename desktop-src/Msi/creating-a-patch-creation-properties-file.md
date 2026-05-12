@@ -2,7 +2,7 @@
 description: To reproduce the sample patch package, you need a software tool capable of creating and editing a Windows Installer patch package.
 ms.assetid: 0653d8f6-89b0-4c56-ae51-3c7cb7df2909
 title: Creating a Patch Creation Properties File
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Tunnel Method API Call Sequence
 description: Learn about the API call sequence for Tunnel Methods. See an overview and view additional available resources.
 ms.assetid: 48aad213-1d29-4809-9599-b56325b2b8e8
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ When Supplicant gets request for user identity and user data the following API c
 
 ## User Interaction with the Tunnel Methods API Call Flow
 
-In certain cases, when the identity is not available, or when the user must provide additional information, Eap Method raises an user interface dialog box on the supplicant.
+In certain cases, when the identity is not available, or when the user must provide additional information, Eap Method raises a user interface dialog box on the supplicant.
 
 In such cases following call sequence typically takes place to get information directly from the user.
 

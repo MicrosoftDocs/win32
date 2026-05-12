@@ -2,7 +2,7 @@
 description: Read about the System.PropGroup.RecordedTV property. Do not use this property for getting or setting values. It is intended only as a marker.
 ms.assetid: f852494d-4d51-4370-9d73-e0659fb5688e
 title: System.PropGroup.RecordedTV
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

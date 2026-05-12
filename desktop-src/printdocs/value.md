@@ -2,7 +2,7 @@
 description: Learn about the Value element, which associates a literal with a type. The data type of Value must be string, integer, decimal, or QName. 
 ms.assetid: 933528f6-8f34-4509-887c-c7c223c79367
 title: Value
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

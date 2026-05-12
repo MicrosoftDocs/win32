@@ -2,7 +2,7 @@
 description: Windows GDI+ exposes a flat API that consists of about 600 functions. These flat API functions are wrapped by the FontFamily C++ class.
 ms.assetid: c1a1e679-a4f5-4693-9c07-0e8c97c877f3
 title: FontFamilyFunctions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

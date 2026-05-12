@@ -69,7 +69,7 @@ Indicates the alpha channel should be used.
 <span id="D3DX10_CHANNEL_LUMINANCE"></span><span id="d3dx10_channel_luminance"></span>**D3DX10\_CHANNEL\_LUMINANCE**
 </dt> <dd>
 
-Indicates the luminaces of the red, green, and blue channels should be used.
+Indicates the luminesces of the red, green, and blue channels should be used.
 
 </dd> </dl>
 

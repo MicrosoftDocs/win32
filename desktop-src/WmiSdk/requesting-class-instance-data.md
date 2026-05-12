@@ -3,7 +3,7 @@ description: Data queries are WQL statements that request instances of classes. 
 ms.assetid: a8b9bf2f-300d-4570-8b30-7532f3421d39
 ms.tgt_platform: multiple
 title: Requesting Class Instance Data
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

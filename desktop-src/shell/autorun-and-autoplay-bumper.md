@@ -1,7 +1,7 @@
 ---
 description: AutoRun and AutoPlay
 title: AutoRun and AutoPlay
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: b54c9285-3274-4005-b098-446a9c74cbde
 api_name: 

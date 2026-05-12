@@ -2,7 +2,7 @@
 title: Status Property
 description: Status Property
 ms.assetid: 'vs|msagent|~\pacontrol_8xd6.htm'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: b27bbd5b-a218-49bb-b179-b24ce39869a1
 keywords:
 - Video for Windows (VFW),compressor system entries
 - VFW (Video for Windows),compressor system entries
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

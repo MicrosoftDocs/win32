@@ -5,7 +5,7 @@ ms.assetid: 0a93ec2e-397a-47f7-b00c-f0f9aaa06de6
 ms.tgt_platform: multiple
 keywords:
 - queries ADSI , distributed query
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

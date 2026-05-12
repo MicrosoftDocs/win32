@@ -2,8 +2,8 @@
 description: Batteries can provide power for portable computers and computers running on an uninterruptible power supply (UPS).
 ms.assetid: 3580b37d-611c-46b4-9300-4943833d6852
 title: Battery Information
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Battery Information

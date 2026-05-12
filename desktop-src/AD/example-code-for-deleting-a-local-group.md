@@ -5,7 +5,7 @@ ms.assetid: ff4fd148-2fa2-4355-bfaa-1f093d61aa00
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory ,deleting a local group
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

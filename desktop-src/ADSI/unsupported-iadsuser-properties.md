@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Unsupported IADsUser Properties ADSI
 - WinNT provider ADSI , user object, unsupported IADsUser properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

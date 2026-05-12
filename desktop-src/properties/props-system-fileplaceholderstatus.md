@@ -2,7 +2,7 @@
 description: Contains the placeholder file's status flags.
 ms.assetid: ccd34ed1-a1de-48db-acfc-8044e2536918
 title: System.FilePlaceholderStatus
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: CBasePin Connection Process
 ms.assetid: 4b3a9023-0267-4caa-9d89-88237009df05
 title: CBasePin Connection Process
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -5,7 +5,7 @@ ms.assetid: 9efa7ae1-b6a9-4b95-b031-b502772c536c
 ms.tgt_platform: multiple
 keywords:
 - attributes AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

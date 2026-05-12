@@ -2,7 +2,7 @@
 title: Richer Application Experiences
 description: Windows 7 enables developers to create distinctive and intuitive applications that significantly enhance discoverability, usability, and sheer enjoyment.
 ms.assetid: 0c3c77ba-bad9-4143-a5b5-7ff76a5aaf97
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

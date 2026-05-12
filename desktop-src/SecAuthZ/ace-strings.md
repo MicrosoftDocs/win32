@@ -2,7 +2,7 @@
 description: Explains the strings used in an access control entry (ACE).
 ms.assetid: 82c99170-784b-4724-a25b-2f2e8a2e0225
 title: ACE Strings
-ms.topic: article
+ms.topic: reference
 ms.date: 02/21/2023
 ---
 

@@ -2,45 +2,43 @@
 description: This topic discusses how hooks should be used.
 ms.assetid: 9ced0ac4-e602-425f-b954-6af9c741699a
 title: Hooks Overview
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 09/15/2025
 ---
 
 # Hooks Overview
 
 A *hook* is a mechanism by which an application can intercept events, such as messages, mouse actions, and keystrokes. A function that intercepts a particular type of event is known as a *hook procedure*. A hook procedure can act on each event it receives, and then modify or discard the event.
 
-The following some example uses for hooks:
+Some uses for hooks include:
 
--   Monitor messages for debugging purposes
--   Provide support for recording and playback of macros
--   Provide support for a help key (F1)
--   Simulate mouse and keyboard input
--   Implement a computer-based training (CBT) application
+- Monitoring messages for debugging purposes
+- Providing support for recording and playback of macros
+- Providing support for a help key (F1)
+- Simulating mouse and keyboard input
+- Implementing a computer-based training (CBT) application
 
 > [!Note]  
 > Hooks tend to slow down the system because they increase the amount of processing the system must perform for each message. You should install a hook only when necessary, and remove it as soon as possible.
 
- 
-
 This section discusses the following:
 
--   [Hook Chains](#hook-chains)
--   [Hook Procedures](#hook-procedures)
--   [Hook Types](#hook-types)
-    -   [WH\_CALLWNDPROC and WH\_CALLWNDPROCRET](#wh_callwndproc-and-wh_callwndprocret)
-    -   [WH\_CBT](#wh_cbt)
-    -   [WH_DEBUG](#wh_debug)
-    -   [WH\_FOREGROUNDIDLE](#wh_foregroundidle)
-    -   [WH\_GETMESSAGE](#wh_getmessage)
-    -   [WH_JOURNALPLAYBACK](#wh_journalplayback)
-    -   [WH\_JOURNALRECORD](#wh_journalrecord)
-    -   [WH_KEYBOARD_LL](#wh_keyboard_ll)
-    -   [WH\_KEYBOARD](#wh_keyboard)
-    -   [WH_MOUSE_LL](#wh_mouse_ll)
-    -   [WH_MOUSE](#wh_mouse)
-    -   [WH_MSGFILTER and WH\_SYSMSGFILTER](#wh_msgfilter-and-wh_sysmsgfilter)
-    -   [WH\_SHELL](#wh_shell)
+- [Hook Chains](#hook-chains)
+- [Hook Procedures](#hook-procedures)
+- [Hook Types](#hook-types)
+  - [WH\_CALLWNDPROC and WH\_CALLWNDPROCRET](#wh_callwndproc-and-wh_callwndprocret)
+  - [WH\_CBT](#wh_cbt)
+  - [WH_DEBUG](#wh_debug)
+  - [WH\_FOREGROUNDIDLE](#wh_foregroundidle)
+  - [WH\_GETMESSAGE](#wh_getmessage)
+  - [WH_JOURNALPLAYBACK](#wh_journalplayback)
+  - [WH\_JOURNALRECORD](#wh_journalrecord)
+  - [WH_KEYBOARD_LL](#wh_keyboard_ll)
+  - [WH\_KEYBOARD](#wh_keyboard)
+  - [WH_MOUSE_LL](#wh_mouse_ll)
+  - [WH_MOUSE](#wh_mouse)
+  - [WH_MSGFILTER and WH\_SYSMSGFILTER](#wh_msgfilter-and-wh_sysmsgfilter)
+  - [WH\_SHELL](#wh_shell)
 
 ## Hook Chains
 
@@ -72,32 +70,30 @@ The *nCode* parameter is a hook code that the hook procedure uses to determine t
 
 The [**SetWindowsHookEx**](/windows/win32/api/winuser/nf-winuser-setwindowshookexa) function always installs a hook procedure at the beginning of a hook chain. When an event occurs that is monitored by a particular type of hook, the system calls the procedure at the beginning of the hook chain associated with the hook. Each hook procedure in the chain determines whether to pass the event to the next procedure. A hook procedure passes an event to the next procedure by calling the [**CallNextHookEx**](/windows/win32/api/winuser/nf-winuser-callnexthookex) function.
 
-Note that the hook procedures for some types of hooks can only monitor messages. the system passes messages to each hook procedure, regardless of whether a particular procedure calls [**CallNextHookEx**](/windows/win32/api/winuser/nf-winuser-callnexthookex).
+Note that the hook procedures for some types of hooks can only monitor messages. The system passes messages to each hook procedure, regardless of whether a particular procedure calls [**CallNextHookEx**](/windows/win32/api/winuser/nf-winuser-callnexthookex).
 
 A *global hook* monitors messages for all threads in the same desktop as the calling thread. A *thread-specific hook* monitors messages for only an individual thread. A global hook procedure can be called in the context of any application in the same desktop as the calling thread, so the procedure must be in a separate DLL module. A thread-specific hook procedure is called only in the context of the associated thread. If an application installs a hook procedure for one of its own threads, the hook procedure can be in either the same module as the rest of the application's code or in a DLL. If the application installs a hook procedure for a thread of a different application, the procedure must be in a DLL. For information, see [Dynamic-Link Libraries](../dlls/dynamic-link-libraries.md).
 
 > [!Note]  
 > You should use global hooks only for debugging purposes; otherwise, you should avoid them. Global hooks hurt system performance and cause conflicts with other applications that implement the same type of global hook.
 
- 
-
 ## Hook Types
 
 Each type of hook enables an application to monitor a different aspect of the system's message-handling mechanism. The following sections describe the available hooks.
 
--   [WH\_CALLWNDPROC and WH\_CALLWNDPROCRET](#wh_callwndproc-and-wh_callwndprocret)
--   [WH\_CBT](#wh_cbt)
--   [WH_DEBUG](#wh_debug)
--   [WH\_FOREGROUNDIDLE](#wh_foregroundidle)
--   [WH\_GETMESSAGE](#wh_getmessage)
--   [WH_JOURNALPLAYBACK](#wh_journalplayback)
--   [WH\_JOURNALRECORD](#wh_journalrecord)
--   [WH_KEYBOARD_LL](#wh_keyboard_ll)
--   [WH\_KEYBOARD](#wh_keyboard)
--   [WH_MOUSE_LL](#wh_mouse_ll)
--   [WH_MOUSE](#wh_mouse)
--   [WH_MSGFILTER and WH\_SYSMSGFILTER](#wh_msgfilter-and-wh_sysmsgfilter)
--   [WH\_SHELL](#wh_shell)
+- [WH\_CALLWNDPROC and WH\_CALLWNDPROCRET](#wh_callwndproc-and-wh_callwndprocret)
+- [WH\_CBT](#wh_cbt)
+- [WH_DEBUG](#wh_debug)
+- [WH\_FOREGROUNDIDLE](#wh_foregroundidle)
+- [WH\_GETMESSAGE](#wh_getmessage)
+- [WH_JOURNALPLAYBACK](#wh_journalplayback)
+- [WH\_JOURNALRECORD](#wh_journalrecord)
+- [WH_KEYBOARD_LL](#wh_keyboard_ll)
+- [WH\_KEYBOARD](#wh_keyboard)
+- [WH_MOUSE_LL](#wh_mouse_ll)
+- [WH_MOUSE](#wh_mouse)
+- [WH_MSGFILTER and WH\_SYSMSGFILTER](#wh_msgfilter-and-wh_sysmsgfilter)
+- [WH\_SHELL](#wh_shell)
 
 ### WH\_CALLWNDPROC and WH\_CALLWNDPROCRET
 

@@ -3,7 +3,7 @@ title: Reading an Object's objectGUID and Creating a String Representation of th
 description: Use the IADs get\_GUID method to retrieve the bindable string form of a directory object's objectGUID.
 ms.assetid: 4f7f0e9d-3e06-47c9-83ce-cabed8692c15
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Capture DV to Uncompressed RGB
 ms.assetid: 02b54070-09c8-45ab-8a08-1493008a5e1f
 title: Capture DV to Uncompressed RGB
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

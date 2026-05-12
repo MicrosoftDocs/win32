@@ -6,7 +6,7 @@ keywords:
 - animating a DirectComposition visual
 - how to apply DirectComposition animations
 - applying DirectComposition animations
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -147,7 +147,6 @@ Also remember to free the other DirectComposition objects before your applicatio
 
 #pragma once
 // Modify the following definitions if you need to target a platform prior to the ones specified below.
-// Refer to MSDN for the latest info on corresponding values for different platforms.
 #ifndef WINVER              // Allow use of features specific to Windows 7 or later.
 #define WINVER 0x0700       // Change this to the appropriate value to target other versions of Windows.
 #endif
@@ -269,21 +268,21 @@ private:
 //
 // ApplyAnimations.cpp
 //
-// THIS CODE AND INFORMATION IS PROVIDED &quot;AS IS&quot; WITHOUT WARRANTY OF
+// THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF
 // ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO
 // THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
 // PARTICULAR PURPOSE.
 //
 // Copyright (c) Microsoft Corporation. All rights reserved
 
-// Instructions: Click the client area to view a &quot;slide&quot;. This creates
+// Instructions: Click the client area to view a "slide". This creates
 //     a visual and changes the visual&#39;s bitmap content with each click.
-//   Animation is applied to the opacity to &quot;fade in&quot; each new bitmap.
+//   Animation is applied to the opacity to "fade in" each new bitmap.
 
 //
 // NOTE: This app is HARDCODED to look for images in C:\IMAGES.
 //
-#include &quot;ApplyAnimations.h&quot;
+#include "ApplyAnimations.h"
 
 #define OFFSET_X 20
 #define OFFSET_Y 20
@@ -392,10 +391,10 @@ HRESULT DemoApp::Initialize()
         wcex.cbClsExtra    = 0;
         wcex.cbWndExtra    = sizeof(LONG_PTR);
         wcex.hInstance     = HINST_THISCOMPONENT;
-        wcex.hbrBackground = (HBRUSH)(COLOR_WINDOW+1);;
+        wcex.hbrBackground = (HBRUSH)(COLOR_WINDOW+1);
         wcex.lpszMenuName  = NULL;
         wcex.hCursor       = LoadCursor(NULL, IDC_ARROW);
-        wcex.lpszClassName = L&quot;DirectCompDemoApp&quot;;
+        wcex.lpszClassName = L"DirectCompDemoApp";
 
         RegisterClassEx(&wcex);
 
@@ -414,8 +413,8 @@ HRESULT DemoApp::Initialize()
         }
 
         m_hwnd = CreateWindow(
-            L&quot;DirectCompDemoApp&quot;,
-            L&quot;DirectComposition Demo Application&quot;,
+            L"DirectCompDemoApp",
+            L"DirectComposition Demo Application",
             WS_OVERLAPPEDWINDOW,
             CW_USEDEFAULT,
             CW_USEDEFAULT,
@@ -619,7 +618,7 @@ HRESULT DemoApp::CreateDeviceResources()
     // TODO: Remove hard coding. Enable the user to 
     //       select a directory.
     //***********************************************
-    GetImageFilenames(L&quot;c:\\images\\*.jpg&quot;);
+    GetImageFilenames(L"c:\\images\\*.jpg");
 
     return hr;
 }
@@ -699,7 +698,7 @@ HRESULT DemoApp::OnClick()
 
         pbuf = new TCHAR[MAX_PATH];
 
-        StringCbCopy((wchar_t *)pbuf, MAX_PATH,  L&quot;c:\\images\\&quot;);
+        StringCbCopy((wchar_t *)pbuf, MAX_PATH,  L"c:\\images\\");
         StringCchCat((wchar_t *)pbuf, MAX_PATH, m_pImageFileNames[i]);
 
         hr = m_pD2DFactory->CreateDxgiSurfaceRenderTarget(pDXGISurface, &props, &pRenderTarget);
@@ -982,7 +981,3 @@ HRESULT DemoApp::GetImageFilenames(TCHAR szDir[MAX_PATH])
 
 [Animation](animation.md)
 </dt> </dl>
-
- 
-
- 

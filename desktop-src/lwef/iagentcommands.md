@@ -2,7 +2,7 @@
 title: IAgentCommands
 description: IAgentCommands
 ms.assetid: a171a2f0-7c1c-440f-9b19-28447cc68b95
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

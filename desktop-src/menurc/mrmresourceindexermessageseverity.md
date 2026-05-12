@@ -1,6 +1,6 @@
 ---
 title: MrmResourceIndexerMessageSeverity enumeration (MrmResourceIndexer.h)
-description: Defines constants that specify the severity of an resource indexer message. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
+description: Defines constants that specify the severity of an resource indexer message
 ms.assetid: A4734256-94BD-43BE-B93C-55B98DF8A9BF
 keywords:
 - MrmResourceIndexerMessageSeverity enumeration Menus and Other Resources
@@ -18,9 +18,7 @@ ms.date: 05/31/2018
 
 # MrmResourceIndexerMessageSeverity enumeration
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
-
-Defines constants that specify the severity of an resource indexer message. For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
+Defines constants that specify the severity of an resource indexer message. 
 
 ## Syntax
 
@@ -84,8 +82,9 @@ Indicates that the message is an error.
 
 <dl> <dt>
 
+[**MrmResourceIndexerMessage**](mrmresourceindexermessage.md)
+</dt> </dl>
+<dl> <dt>
+
 [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems)
 </dt> </dl>
-
- 
-

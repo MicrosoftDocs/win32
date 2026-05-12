@@ -2,7 +2,7 @@
 title: IAgent GetCharacter
 description: IAgent GetCharacter
 ms.assetid: c54e3aa3-49ea-475c-831c-03865438e1d3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

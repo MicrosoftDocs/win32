@@ -4,7 +4,7 @@ description: To set the properties of a work item, call ITaskScheduler Activate 
 ms.assetid: 80a158de-d312-499d-8ff0-b95e794cf169
 keywords:
 - setting work item properties Task Scheduler
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

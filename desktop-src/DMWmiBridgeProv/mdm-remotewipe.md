@@ -21,9 +21,6 @@ ms.date: 05/31/2018
 
 # MDM\_RemoteWipe class
 
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
 The **MDM\_RemoteWipe** class allows a remote wipe of a device.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.

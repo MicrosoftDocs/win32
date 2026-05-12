@@ -2,7 +2,7 @@
 description: Serial device USB Product Id.
 ms.assetid: 5ac2e3cb-a314-414b-9ed3-9709965202cf
 title: System.DeviceInterface.Serial.UsbProductId
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

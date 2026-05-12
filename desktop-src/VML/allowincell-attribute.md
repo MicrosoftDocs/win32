@@ -2,7 +2,7 @@
 title: AllowInCell Attribute
 description: AllowInCell Attribute
 ms.assetid: bb17720d-931e-44ff-a6f8-47b6696a49d3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -4,7 +4,7 @@ description: Bibliography
 ms.assetid: e658f00f-6c26-426e-88c7-624b6cb6c65f
 keywords:
 - Microsoft Agent, bibliography
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

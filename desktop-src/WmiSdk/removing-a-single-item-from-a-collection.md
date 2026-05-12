@@ -3,7 +3,7 @@ description: One of the main purposes of accessing a collection is to remove an 
 ms.assetid: 4a71029c-9fe1-4348-9f78-daa345728e8d
 ms.tgt_platform: multiple
 title: Removing a Single Item from a WMI Collection
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

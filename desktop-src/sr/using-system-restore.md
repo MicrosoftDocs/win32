@@ -4,16 +4,17 @@ description: The following examples demonstrate how to create and cancel restore
 ms.assetid: 98c79305-3659-4d1a-8165-bb6e451e2d1e
 keywords:
 - System Restore, using
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 11/21/2024
 ---
 
 # Using System Restore
 
-The following examples demonstrate how to create and cancel restore points using the [**SRSetRestorePoint**](/windows/desktop/api/SRRestorePtAPI/nf-srrestoreptapi-srsetrestorepointa) function.
+The following examples demonstrate how to create and cancel restore points using the [SRSetRestorePoint](/windows/win32/api/SRRestorePtAPI/nf-srrestoreptapi-srsetrestorepointa) function.
 
-The first step to using System Restore is setting up the COM calls to [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) and [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity). This is required for any process that uses the [**SRSetRestorePoint**](/windows/desktop/api/SRRestorePtAPI/nf-srrestoreptapi-srsetrestorepointa) function. The NetworkService, LocalService, and System must be allowed make calls to the process. The following **InitializeCOMSecurity** function is an example of how to initialize COM security. You may need to modify the parameters to the **CoInitializeSecurity** function for your application.
+The first step to using System Restore is setting up the COM calls to [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) and [CoInitializeSecurity](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity). This is required for any process that uses the [SRSetRestorePoint](/windows/win32/api/SRRestorePtAPI/nf-srrestoreptapi-srsetrestorepointa) function. The NetworkService, LocalService, and System must be allowed make calls to the process. The following **InitializeCOMSecurity** function is an example of how to initialize COM security. You may need to modify the parameters to the **CoInitializeSecurity** function for your application.
 
+Note that there is a maximum frequency of system restore point creation. 24 hours is the default frequency for 1 restore point.
 
 ```C++
 #include <stdio.h>
@@ -210,10 +211,7 @@ BOOL InitializeCOMSecurity()
     
 ```
 
-
-
-## Example 1: Create a restore point.
-
+## Example 1: Create a restore point
 
 ```C++
 #include <windows.h>
@@ -342,10 +340,7 @@ exit:
 }
 ```
 
-
-
-## Example 2: Create and cancel a restore point.
-
+## Example 2: Create and cancel a restore point
 
 ```C++
 #include <stdio.h>
@@ -463,8 +458,10 @@ exit:
 }
 ```
 
+## Related content
 
+[SRSetRestorePoint](/windows/win32/api/SRRestorePtAPI/nf-srrestoreptapi-srsetrestorepointa)
 
- 
+[SRRemoveRestorePoint](/windows/win32/api/SRRestorePtAPI/nf-srrestoreptapi-srremoverestorepoint)
 
- 
+[SystemRestore class](systemrestore.md)

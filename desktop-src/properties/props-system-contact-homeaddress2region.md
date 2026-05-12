@@ -2,7 +2,7 @@
 description: System.Contact.HomeAddress2Region
 ms.assetid: 29a40295-be98-4897-8d39-0fe14af0a1d2
 title: System.Contact.HomeAddress2Region
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

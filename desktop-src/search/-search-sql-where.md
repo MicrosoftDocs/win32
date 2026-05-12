@@ -1,12 +1,12 @@
 ---
 description: The conditions that determine whether a document is included in the results returned by the query are specified by the WHERE clause.
 ms.assetid: e3b5ee92-e817-49b8-aa8b-5d68254bb819
-title: WHERE Clause (Windows Search)
-ms.topic: article
+title: WHERE clause (Windows Search)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# WHERE Clause (Windows Search)
+# WHERE clause (Windows Search)
 
 The conditions that determine whether a document is included in the results returned by the query are specified by the WHERE clause. At the highest level, there are two parts to the WHERE clause syntax:
 
@@ -24,9 +24,9 @@ The \<search condition\> portion of the WHERE clause is one or more search predi
 
 The result of a search condition is a Boolean value, either **TRUE** if the document meets the specified search conditions, or **FALSE** if it does not. If the result is **TRUE**, the document is returned. If the result is **FALSE**, the document is not returned. Documents returned in a Microsoft Windows Search query are assigned rank values according to how well they match the search conditions. Each of the query search conditions can include a [RANKBY](-search-sql-rankby.md) clause that supports modifying the returned rank values.
 
-The [ReuseWhere function](-search-sql-reusewhere.md) makes multiple queries that use the some of the same search conditions more efficient. The WHERE clause in a query specifies the set of items that match in a query. Subsequent queries can share the work performed for the previous evalution by using the ReuseWhere function in the new query WHERE clause.
+The [ReuseWhere function](-search-sql-reusewhere.md) makes multiple queries that use the some of the same search conditions more efficient. The WHERE clause in a query specifies the set of items that match in a query. Subsequent queries can share the work performed for the previous evaluation by using the ReuseWhere function in the new query WHERE clause.
 
-## Search Predicates
+## Search predicates
 
 A search condition consists of one or more predicates or search conditions that describe what the user is searching for (for example, WHERE System.DateCreated >'2006-04-19'). Search predicates can be combined using the logical operators **AND**, **OR**, or **NOT**. The optional unary operator **NOT** can be used only with **AND** and only to negate the logical value of a predicate or search condition. You can use parentheses to group and nest logical terms.
 

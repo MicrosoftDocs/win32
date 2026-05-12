@@ -7,7 +7,7 @@ keywords:
 - WOW64 64-bit Windows Programming , about
 - 32-bit applications on 64-bit Windows 64-bit Windows Programming
 - 64-bit Windows programming guide 64-bit Windows Programming , WOW64 See WOW64
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

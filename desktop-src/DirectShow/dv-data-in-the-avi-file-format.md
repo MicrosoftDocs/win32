@@ -2,7 +2,7 @@
 description: DV Data in the AVI File Format
 ms.assetid: ae1ec184-afc3-4ec1-9b92-f53656293446
 title: DV Data in the AVI File Format
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

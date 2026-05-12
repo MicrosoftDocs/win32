@@ -5,7 +5,7 @@ ms.assetid: 69c03f60-11e0-454b-a661-e608e7ca7254
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , web access control interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

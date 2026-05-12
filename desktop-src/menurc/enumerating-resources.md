@@ -2,7 +2,7 @@
 title: Enumerating resources
 description: This topic discusses the functions used to obtain lists of resources.
 ms.assetid: 388deaa1-3b04-43fa-aad2-8b52376d570c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
 ---

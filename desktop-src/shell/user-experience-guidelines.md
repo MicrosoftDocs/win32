@@ -1,7 +1,7 @@
 ---
 description: The primary responsibility of any Control Panel item is to display a window that allows the user to view and manipulate settings.
 title: User Experience Guidelines
-ms.topic: article
+ms.topic: reference
 ms.date: 09/24/2020
 ms.assetid: f03a154b-9781-4718-8244-3d57fee0755e
 api_name: 
@@ -23,7 +23,11 @@ In the past, Control Panel items were packaged as .cpl files. That is no longer 
 > [!Note]  
 > On 64-bit systems, 32-bit Control Panel items are displayed in the Control Panel when the **View 32-bit Control Panel Items folder** option is selected. The 32-bit items must be located in the %SystemRoot%\\SysWOW64 folder to be displayed. They do not require any further registration.
 
- 
+> [!Note]
+> **The right-click option to rename network adapters no longer works in Control Panel on Windows 11 and Windows Server 2025.** This is a known issue caused by a bug in elevation prompts and has been marked as won't-fix, due to the functionality moving to Windows Settings. 
+> However, there are readily available workarounds to rename network adapters:
+> 1. In Control Panel, select the adapter name and click the "Rename this connection" button. 
+> 1. In Settings > Network & internet > Advanced Network Settings, rename is available in the modern UI. Any manual test passes should now look at Settings, which has replaced the functionality of Control Panel. 
 
 ## Related topics
 

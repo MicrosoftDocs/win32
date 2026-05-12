@@ -3,7 +3,7 @@ description: WMI contains a set of classes for troubleshooting client applicatio
 ms.assetid: f69b360a-2c24-4776-bcda-b51edde0dcde
 ms.tgt_platform: multiple
 title: Troubleshooting WMI Client Applications
-ms.topic: article
+ms.topic: troubleshooting-general
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

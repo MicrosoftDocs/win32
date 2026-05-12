@@ -10,8 +10,8 @@ keywords:
 - mouse cursor
 - double-click message processing
 - mouse wheel
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Using Mouse Input

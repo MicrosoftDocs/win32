@@ -2,7 +2,7 @@
 description: A pen is a graphics tool that an application can use to draw lines and curves.
 ms.assetid: '624c3ea6-6e42-4577-9228-961501633937'
 title: Pens
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

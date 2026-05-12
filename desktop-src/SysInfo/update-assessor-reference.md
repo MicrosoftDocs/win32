@@ -2,7 +2,7 @@
 description: WaaS Assessment Reference
 ms.assetid: 1B3C8EE1-607A-43F8-AF6E-855CF2D37191
 title: WaaS Assessment Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

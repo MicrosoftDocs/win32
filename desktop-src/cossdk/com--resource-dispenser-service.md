@@ -2,7 +2,7 @@
 description: COM+ Resource Dispenser Service
 ms.assetid: 34825538-85dd-4e86-a306-79cd60b3bc0b
 title: COM+ Resource Dispenser Service
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

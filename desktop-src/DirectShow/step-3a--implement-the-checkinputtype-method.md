@@ -2,7 +2,7 @@
 description: Step 3A.
 ms.assetid: 774fcb12-8928-4667-8ef6-dce86717cc29
 title: Step 3A. Implement the CheckInputType Method
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,8 +2,8 @@
 description: Overview of references for the Microsoft Speech software development kit (SDK), Microsoft Speech API and application design guidelines.
 ms.assetid: 9bb10c52-5340-40dc-bb14-20d076c63528
 title: References (Tablet PC)
-ms.topic: article
-ms.date: 11/06/2023
+ms.topic: reference
+ms.date: 07/09/2024
 ---
 
 # References (Tablet PC)

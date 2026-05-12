@@ -2,7 +2,7 @@
 description: SMTP
 ms.assetid: 65EB0A92-C82A-4248-A3AD-CAC89D25BE31
 title: SMTP
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

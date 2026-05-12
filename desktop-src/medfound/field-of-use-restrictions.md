@@ -2,7 +2,7 @@
 description: Field of Use Restrictions
 ms.assetid: 36f28e4c-2baf-4618-9935-5d4615f6bc77
 title: Field of Use Restrictions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

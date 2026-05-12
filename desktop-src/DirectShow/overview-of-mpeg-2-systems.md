@@ -2,7 +2,7 @@
 description: Overview of MPEG-2 Systems
 ms.assetid: 1ebfb194-002f-40ac-9be5-267861b6687b
 title: Overview of MPEG-2 Systems
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

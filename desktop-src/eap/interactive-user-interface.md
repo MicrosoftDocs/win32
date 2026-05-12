@@ -2,7 +2,7 @@
 title: Interactive User Interface
 description: The vendor that implements the authentication protocol may also provide an interactive user interface (UI) for the protocol.
 ms.assetid: 4f8ba0a4-3b52-4e7c-9e67-748f8d81d7a2
-ms.topic: article
+ms.topic: reference
 ms.date: 06/14/2023
 ms.contributor: samyun
 ---

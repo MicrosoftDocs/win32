@@ -23,7 +23,7 @@ keywords:
 - Direct2D,bitmaps
 - primitives
 - Direct2D,primitives
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -93,7 +93,7 @@ At the root of the Direct2D API are the [**ID2D1Factory**](/windows/win32/api/d2
 
 The [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory) interface is the starting point for using Direct2D. You use an **ID2D1Factory** to instantiate Direct2D resources. To create an ID2D1Factory, you use one of the [**CreateFactory**](/windows/win32/api/d2d1/nf-d2d1-d2d1createfactory) methods.
 
-A factory defines a set of Create*Resource* methods that can produce the following drawing resources:
+A factory defines a set of _Create\*_ methods (where \* is a placeholder for a resource name) that can produce the following drawing resources:
 
 -   Render targets are objects that render drawing commands.
 -   Drawing state blocks are objects that store drawing state information, such as the current transformation and antialiasing mode.
@@ -156,7 +156,7 @@ A brush, represented by the [**ID2D1Brush**](/windows/win32/api/d2d1/nn-d2d1-id2
 -   [**ID2D1RadialGradientBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1radialgradientbrush) paints an area with a radial gradient that blends two or more colors around an ellipse.
 -   [**ID2D1BitmapBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush) paints an area with a bitmap.
 
-To create a brush, you use one of the [**ID2D1RenderTarget::**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget)Create*&lt;Type&gt;*Brush methods, such as [**CreateRadialGradientBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createradialgradientbrush(constd2d1_radial_gradient_brush_properties__constd2d1_brush_properties__id2d1gradientstopcollection_id2d1radialgradientbrush)). Brushes can be used with a render target Draw and Fill methods, either to paint a shape stroke or outline, or as an opacity mask.
+To create a brush, you use one of the [**ID2D1RenderTarget::**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget)_Create\*Brush_ methods (where \* is a placeholder for some brush name), such as [**CreateRadialGradientBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createradialgradientbrush(constd2d1_radial_gradient_brush_properties__constd2d1_brush_properties__id2d1gradientstopcollection_id2d1radialgradientbrush)). Brushes can be used with a render target Draw and Fill methods, either to paint a shape stroke or outline, or as an opacity mask.
 
 For more information about brushes, see the [Brushes Overview](direct2d-brushes-overview.md).
 
@@ -168,7 +168,7 @@ More complex shapes can be created by using the [**ID2D1GeometrySink**](/windows
 
 The geometry interfaces provide methods for manipulating shapes by widening or simplifying existing geometries, or by generating the intersection or union of multiple geometries. They also provide methods for determining whether geometries are intersecting or overlapping, retrieving bounds information, computing the area or length of a geometry, and interpolating locations along a geometry. Direct2D also provides the ability to create a mesh of triangles that is tessellated from a geometry.
 
-To create a geometry, you use one of the [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory)::Create*&lt;Type&gt;*Geometry methods, such as [**CreatePathGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createpathgeometry). A geometry is a device-independent resource.
+To create a geometry, you use one of the [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory)::_Create\*Geometry_ methods (where \* is a placeholder for some geometry name), such as [**CreatePathGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createpathgeometry). A geometry is a device-independent resource.
 
 To render a geometry, you use the [**DrawGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry) and [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) methods of a render target.
 

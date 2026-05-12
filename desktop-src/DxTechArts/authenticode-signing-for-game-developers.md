@@ -2,7 +2,7 @@
 title: Authenticode Signing for Game Developers
 description: This article discusses how to get started with authenticating your game and how to integrate authentication into a daily build process.
 ms.assetid: 0b3138ea-e4ea-57fb-756b-62fdc20cf813
-ms.topic: article
+ms.topic: get-started
 ms.date: 05/31/2018
 ---
 
@@ -183,6 +183,6 @@ More information about tools and processes related to signing code, see the foll
 
 -   [Cryptography Tools](/windows/desktop/SecCrypto/cryptography-tools)
 -   [Crypto API Tools Reference](/windows/desktop/SecCrypto/cryptoapi-tools-reference)
--   [Authenticode Overview and Turtorials](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537360(v=vs.85))
+-   [Authenticode Overview and Tutorials](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537360(v=vs.85))
 -   [Digital Certificates](/windows/desktop/SecCrypto/digital-certificates)
 -   [How To: Create Temporary Certificates for Use During Development](/dotnet/framework/wcf/feature-details/how-to-create-temporary-certificates-for-use-during-development)

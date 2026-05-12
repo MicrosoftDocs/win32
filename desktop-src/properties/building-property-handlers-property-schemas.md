@@ -2,7 +2,7 @@
 description: Properties used in the property system of Windows Vista and later are declared in property schemas.
 ms.assetid: 4e301210-df3a-41db-a58e-015ee8d41714
 title: Creating Custom Properties
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -19,7 +19,7 @@ This section contains the following topic, which is integral to creating custom 
 -   [Understanding the Property Description Schema](./propdesc-schema-entry.md)
 
 > [!Note]  
-> Due to potential difficulties that the indexer may have when consuming the property system's schema, it is critical that you define attributes carefully and strategically for the first release of the schema. Any changes to attributes (type, column width, whether indexible) will not be reflected in the database after a schema has been registered. The only ways to have these changes recognized after the schema has been registered once on a system would be either to rebuild the index and then register the new schema, or to register the schema and then create a new property for each subsequent release; for example `PKEY_GroupName_PropertyNameV2`, `PKEY_GroupName_PropertyNameV3`, and so forth). We do not recommend creating new properties in this manner, because multiple extraneous columns may impact system performance.
+> Due to potential difficulties that the indexer may have when consuming the property system's schema, it is critical that you define attributes carefully and strategically for the first release of the schema. Any changes to attributes (type, column width, whether indexable) will not be reflected in the database after a schema has been registered. The only ways to have these changes recognized after the schema has been registered once on a system would be either to rebuild the index and then register the new schema, or to register the schema and then create a new property for each subsequent release; for example `PKEY_GroupName_PropertyNameV2`, `PKEY_GroupName_PropertyNameV3`, and so forth). We do not recommend creating new properties in this manner, because multiple extraneous columns may impact system performance.
 
  
 

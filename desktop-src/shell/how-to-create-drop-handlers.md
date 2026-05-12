@@ -1,7 +1,7 @@
 ---
 description: How to implement and register a drop handler.
 title: How to Create Drop Handlers
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

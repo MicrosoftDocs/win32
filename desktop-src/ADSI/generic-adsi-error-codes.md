@@ -3,7 +3,7 @@ title: Generic ADSI Error Codes
 description: These types of error codes can be returned by any of the ADSI system providers to represent ADSI-specific error messages.
 ms.assetid: 193c5808-fc39-48e6-8bb8-8338e5c980ad
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 

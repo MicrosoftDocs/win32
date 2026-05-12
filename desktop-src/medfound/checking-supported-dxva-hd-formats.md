@@ -2,7 +2,7 @@
 description: Checking Supported DXVA-HD Formats
 ms.assetid: 43ae9f70-34a1-48ca-be61-e974e2daebd7
 title: Checking Supported DXVA-HD Formats
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

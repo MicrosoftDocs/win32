@@ -2,7 +2,7 @@
 description: What Gets Replicated
 ms.assetid: d1f0bc92-37bc-4de2-876a-e6b8b09da58d
 title: What Gets Replicated
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

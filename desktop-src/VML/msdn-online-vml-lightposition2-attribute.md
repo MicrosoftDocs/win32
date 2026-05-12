@@ -2,7 +2,7 @@
 title: VML LightPosition2 Attribute
 description: VML LightPosition2 Attribute
 ms.assetid: 75ae4154-240f-4981-a527-d9e0a721e8b4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

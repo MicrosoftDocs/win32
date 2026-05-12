@@ -2,7 +2,7 @@
 description: Enumerating and Freeing Services
 ms.assetid: 526e51c7-9ff2-4590-b092-172f4942ce8e
 title: Enumerating and Freeing Services
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

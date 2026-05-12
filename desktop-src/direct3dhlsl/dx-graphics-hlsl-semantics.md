@@ -55,7 +55,7 @@ keywords:
 - SV_TessFactor, semantics (DirectX HLSL)
 - SV_InsideTessFactor, semantics (DirectX HLSL)
 - SV_DomainLocation, semantics (DirectX HLSL)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

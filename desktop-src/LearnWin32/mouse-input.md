@@ -2,7 +2,7 @@
 title: Mouse Input (Get Started with Win32 and C++)
 description: Mouse Input
 ms.assetid: EB074CB6-2BB3-4593-A843-8EE25CA028BE
-ms.topic: article
+ms.topic: get-started
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ Left-handed users often find it more comfortable to swap the functions of the le
 
 Regardless of how the user configures the mouse, Windows automatically translates mouse messages so they are consistent. The user can swap the primary and secondary buttons in the middle of using your program, and it will not affect how your program behaves.
 
-MSDN documentation uses the terms *left button* and *right button* to mean *primary* and *secondary* button. This terminology is consistent with the names of the window messages for mouse input. Just remember that the physical left and right buttons might be swapped.
+The terms *left button* and *right button* are sometimes used instead of *primary* and *secondary* buttons, respectively. This terminology is consistent with the names of the window messages for mouse input. Just remember that the physical left and right buttons might be swapped.
 
 ## Next
 

@@ -2,7 +2,7 @@
 title: IAgentCommands Insert
 description: IAgentCommands Insert
 ms.assetid: f450aae4-db6f-4326-ae14-ddb68ab0953a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

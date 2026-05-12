@@ -5,7 +5,7 @@ ms.assetid: 19d52933-e4b0-414f-9785-871e624da07b
 ms.tgt_platform: multiple
 keywords:
 - Finding a List of Attributes To Query AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

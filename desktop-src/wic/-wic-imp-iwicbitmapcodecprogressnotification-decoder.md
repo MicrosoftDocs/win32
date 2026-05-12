@@ -2,7 +2,7 @@
 description: Implementing IWICBitmapCodecProgressNotification (Decoder)
 ms.assetid: 686b0875-c7ec-45ee-bd3e-94bfd9e5dcda
 title: Implementing IWICBitmapCodecProgressNotification (Decoder)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: bc31ed04-e505-4d64-9fa3-d06af7351db0
 ms.tgt_platform: multiple
 keywords:
 - Creating New Users in the Organizational Unit ADSI
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

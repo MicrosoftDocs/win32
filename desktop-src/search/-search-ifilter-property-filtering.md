@@ -1,12 +1,12 @@
 ---
 description: Properties are extracted from items using registered property handlers, or using filters registered for specific file types. A filter handler (an implementation of the IFilter interface) can interpret the contents of a file type in any number of ways.
 ms.assetid: 6701d151-c36f-43e5-929b-9831c5ce5823
-title: Returning Properties from a Filter Handler
-ms.topic: article
+title: Returning properties from a filter handler
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Returning Properties from a Filter Handler
+# Returning properties from a filter handler
 
 Properties are extracted from items using registered property handlers, or using filters registered for specific file types. A filter handler (an implementation of the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface) can interpret the contents of a file type in any number of ways.
 
@@ -17,7 +17,7 @@ This topic is organized as follows:
 - [Additional Resources](#additional-resources)
 - [Related topics](#related-topics)
 
-## Property Filtering
+## Property filtering
 
 Best practices for property filtering are listed in the following table.
 
@@ -32,7 +32,7 @@ The following illustration shows an example document. The external value-type pr
 
 ![diagram showing the elements of a typical document](images/ifilterpropertyextraction.png)
 
-### Property Size Limitations
+### Property size limitations
 
 There are two potential limitations to property size:
 
@@ -51,7 +51,7 @@ HKEY_LOCAL_MACHINE
 
 Consequently, if your file type tends to be small in total size but have larger properties, Windows Search may not accept all the property data you want to emit. However, you can increase the `MaxGrowFactor` to suit your needs.
 
-## Additional Resources
+## Additional resources
 
 - The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), demonstrates how to create an IFilter base class for implementing the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface.
 - For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).

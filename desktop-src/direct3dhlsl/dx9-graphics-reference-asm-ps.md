@@ -2,7 +2,7 @@
 title: Pixel Shaders
 description: Pixel Shaders
 ms.assetid: d5a6a9a6-5866-4b20-8529-97ce807ec5b6
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

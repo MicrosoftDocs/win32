@@ -4,7 +4,7 @@ description: Use the distant-specular lighting effect to create an image that ap
 ms.assetid: 74D71A2D-8D1D-4FDE-898A-2D2F5A8D5D31
 keywords:
 - distant specular lighting
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Media types (DirectShow)
 ms.assetid: 'c8efe9e6-7d1d-4ec2-ab1b-70ee0798a6a3'
 title: Media Types
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

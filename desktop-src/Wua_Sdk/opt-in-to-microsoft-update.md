@@ -2,7 +2,7 @@
 description: You can opt a computer in to the Microsoft Update service and then register that service with Automatic Updates.
 ms.assetid: d6f3d8ca-3b7e-409c-87b6-db247b7b68e4
 title: Opt-In to Microsoft Update
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -30,6 +30,15 @@ ServiceManager.ClientApplicationID = "My App"
 
 'add the Microsoft Update Service, GUID
 Set NewUpdateService = ServiceManager.AddService2("7971f918-a847-4430-9279-4a52d1efe18d",7,"")
+
+```
+
+```Powershell
+$ServiceManager = New-Object -ComObject Microsoft.Update.ServiceManager
+$ServiceManager.ClientApplicationID = "My App"
+
+# Add the Microsoft Update Service, GUID
+$NewUpdateService = $ServiceManager.AddService2("7971f918-a847-4430-9279-4a52d1efe18d", 7, "")
 
 ```
 

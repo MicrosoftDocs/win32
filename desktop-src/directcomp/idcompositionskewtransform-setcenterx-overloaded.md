@@ -35,8 +35,8 @@ Changes or animates the value of the CenterX property of a 2D skew transform. Th
 
 | Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows�8 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server�2012 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Dcomp.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Dcomp.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Dcomp.dll</dt> </dl> |
@@ -50,6 +50,3 @@ Changes or animates the value of the CenterX property of a 2D skew transform. Th
 [**IDCompositionSkewTransform**](/windows/win32/api/dcomp/nn-dcomp-idcompositionskewtransform)
 </dt> </dl>
 
-�
-
-�

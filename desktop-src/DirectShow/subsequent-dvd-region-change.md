@@ -2,7 +2,7 @@
 description: Subsequent DVD Region Change
 ms.assetid: 08c0b48a-2851-40c8-addc-21baeb83df1b
 title: Subsequent DVD Region Change
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

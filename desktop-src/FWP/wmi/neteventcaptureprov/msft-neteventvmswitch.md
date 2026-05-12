@@ -33,7 +33,7 @@ api_type:
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---
@@ -637,7 +637,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |

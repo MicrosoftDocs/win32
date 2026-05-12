@@ -5,7 +5,7 @@ ms.assetid: eb5ee183-949c-41f5-9f74-f9c418fdf0a2
 ms.tgt_platform: multiple
 keywords:
 - security descriptors AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

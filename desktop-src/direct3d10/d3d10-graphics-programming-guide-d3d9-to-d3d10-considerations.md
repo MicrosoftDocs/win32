@@ -2,7 +2,7 @@
 description: The following page provides a basic outline of key differences between Direct3D 9 and Direct3D 10. The outline below provides some insight to assist developers with Direct3D 9 experience to explore and relate to Direct3D 10.
 ms.assetid: 283b54e0-94cb-47a8-8cfc-5798e0538b9f
 title: Direct3D 9 to Direct3D 10 Considerations (Direct3D 10)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -340,18 +340,18 @@ The **D3DXxxCreateXXX** and **D3DXxxSaveXXX** functions that create or save a te
 
 | File Format | Direct3D 9 | Direct3D 10 |
 |-------------|------------|-------------|
-| .bmp        | x          | x           |
-| .jpg        | x          | x           |
-| .tga        | x          |             |
-| .png        | x          | x           |
-| .dds        | x          | x           |
-| .ppm        | x          |             |
-| .dib        | x          |             |
-| .hdr        | x          |             |
-| .pfm        | x          |             |
-| .tiff       |            | x           |
-| .gif        |            | x           |
-| .tif        |            | x           |
+| .bmp        | yes          | yes           |
+| .jpg        | yes          | yes           |
+| .tga        | yes          |             |
+| .png        | yes          | yes           |
+| .dds        | yes          | yes           |
+| .ppm        | yes          |             |
+| .dib        | yes          |             |
+| .hdr        | yes          |             |
+| .pfm        | yes          |             |
+| .tiff       |            | yes           |
+| .gif        |            | yes           |
+| .tif        |            | yes           |
 
 
 

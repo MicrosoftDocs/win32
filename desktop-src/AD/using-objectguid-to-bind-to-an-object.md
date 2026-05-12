@@ -8,7 +8,7 @@ keywords:
 - objectGUID AD
 - objectGUID AD , using to bind to an object
 - Active Directory, using, binding, using objectGUID to bind to object
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

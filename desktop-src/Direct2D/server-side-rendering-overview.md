@@ -4,7 +4,7 @@ description: Describes using Direct2D for server-side rendering.
 ms.assetid: 12bf4f14-d86f-40ff-b3d3-15ffb3bd7300
 keywords:
 - Direct2D, server-side rendering
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

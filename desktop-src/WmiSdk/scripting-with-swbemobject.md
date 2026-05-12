@@ -3,7 +3,7 @@ description: The SWbemObject scripting object is the generic WMI object, definin
 ms.assetid: 33252b49-00d4-4c43-8abe-9368ed82f34b
 ms.tgt_platform: multiple
 title: Scripting with SWbemObject
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

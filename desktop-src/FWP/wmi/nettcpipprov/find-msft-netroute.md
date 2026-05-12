@@ -5,7 +5,7 @@ title: Find method of the MSFT\_NetRoute class
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -65,7 +65,7 @@ The remote address of the route.
 *CmdletOutput* \[out\]
 </dt> <dd>
 
-The [**CIM\_ManagedElement**](../iscsitarg/cim-managedelement.md) object that receives the route.
+The [**CIM\_ManagedElement**](/previous-versions/cc136871(v=vs.85)) object that receives the route.
 
 </dd> </dl>
 
@@ -73,7 +73,7 @@ The [**CIM\_ManagedElement**](../iscsitarg/cim-managedelement.md) object that re
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                       |

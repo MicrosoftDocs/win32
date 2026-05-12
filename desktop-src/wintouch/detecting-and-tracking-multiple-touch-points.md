@@ -6,7 +6,7 @@ keywords:
 - Windows Touch,multiple touch points
 - detecting multiple touch points
 - tracking multiple touch points
-ms.topic: article
+ms.topic: how-to
 ms.date: 10/01/2021
 ---
 
@@ -218,7 +218,7 @@ BOOL RemoveContactIndex(int index) {
 >
 > When set to "Off", three- and four-finger interactions can be supported by apps (they will not be handled by the system).
 >
-> If your application must support these interactions, we recommend that you inform users of this setting and provide a link that launches the Settings app to the relevant page (ms-settings:devices-touch). For more details, see [Launcher.LaunchUriAsync Method](/uwp/api/windows.system.launcher.launchuriasync).
+> If your application must support these interactions, we recommend that you inform users of this setting and provide a link that launches Windows Settings to the relevant page (ms-settings:devices-touch). For more details, see [Launcher.LaunchUriAsync Method](/uwp/api/windows.system.launcher.launchuriasync).
 
 ## Draw the Points
 

@@ -2,7 +2,7 @@
 description: This section describes the format of the records for each of the record-bearing tokens. Information is divided into the following sections.
 ms.assetid: 4fdd8339-f660-4389-878a-e7ab067d8508
 title: Token Records
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -101,7 +101,7 @@ A variable-length record. The token is followed by a count value that specifies 
 
 ## TOKEN\_FLOAT\_LIST
 
-A variable-length record. The token is followed by a count value that specifies the number of floats or doubles that follow in the list field. The size of the floating point value (float or double) is determined by the value of float sizespecified in the file header. For efficiency, consecutive TOKEN\_FLOAT\_LISTs should be compounded into a single list.
+A variable-length record. The token is followed by a count value that specifies the number of floats or doubles that follow in the list field. The size of the floating point value (float or double) is determined by the value of float size specified in the file header. For efficiency, consecutive TOKEN\_FLOAT\_LISTs should be compounded into a single list.
 
 
 

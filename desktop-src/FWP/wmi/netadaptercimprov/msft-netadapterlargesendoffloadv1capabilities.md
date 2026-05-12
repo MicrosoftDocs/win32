@@ -5,7 +5,7 @@ title: MSFT\_NetAdapterLargeSendOffloadV1Capabilities class
 
 
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - APIRef
@@ -125,7 +125,7 @@ Indicates if the Adapter supports segmentation of a packet containing TCP option
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                               |

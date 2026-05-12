@@ -2,7 +2,7 @@
 title: To Attribute (Curve)(VML)
 description: To Attribute (Curve)(VML)
 ms.assetid: 61469921-5095-4cb6-b032-f3e250874958
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

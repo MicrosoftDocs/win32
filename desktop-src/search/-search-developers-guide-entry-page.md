@@ -1,14 +1,14 @@
 ---
 description: Third parties can create applications that query the index for data programmatically and can extend Windows Search to index data from custom file formats and data stores.
 ms.assetid: 70046df0-ce48-472d-b24b-8231ea3a43c0
-title: Windows Search Developer's Guide
-ms.topic: article
+title: Windows Search developer's guide
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Windows Search Developer's Guide
+# Windows Search developer's guide
 
-Third parties can create applications that query the index for data programmatically and can extend Windows Search to index data from custom file formats and data stores. To create Windows Search applications, third-party developers must first implement a Shell data store to a achieve a reasonable user experience. For more information, see [Implementing the Basic Folder Object Interfaces](/previous-versions/windows/desktop/legacy/cc144093(v=vs.85)).
+Third parties can create applications that query the index for data programmatically and can extend Windows Search to index data from custom file formats and data stores. To create Windows Search applications, third-party developers must first implement a Shell data store to achieve a reasonable user experience. For more information, see [Implementing the Basic Folder Object Interfaces](/previous-versions/windows/desktop/legacy/cc144093(v=vs.85)).
 
 You must also download the [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx) for the Windows Search libraries. The [Windows Search Code Samples](-search-samples-ovw.md) contains useful code samples and an interoperability assembly for developing with managed code.
 
@@ -19,9 +19,9 @@ This section is organized as follows:
 - [Extending the Index](-search-3x-wds-extidx-overview.md)
 - [Extending Language Resources](extending-language-resources-in-windows-search.md)
 
-## Additional Resources
+## Additional resources
 
-- For community-supported question and discussion message boards on Search technologies, see [MSDN Forum: Windows Desktop Search Development](https://social.msdn.microsoft.com/Forums/windowsdesktopsearchdevelopment/threads).
+- For community-supported question and discussion message boards on Search technologies, see [Microsoft Q&A](/answers/).
 - To download the Search Code Samples:
   - [Windows Search Samples](-search-samples-ovw.md)
 - To download the Windows SDK:

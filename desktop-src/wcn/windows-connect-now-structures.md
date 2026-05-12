@@ -2,7 +2,7 @@
 title: Windows Connect Now Structures
 description: The following structures support the Windows Connect Now API functions.
 ms.assetid: e88aaa09-1f3e-4709-ba14-5478c14c05f2
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

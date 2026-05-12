@@ -2,7 +2,7 @@
 title: String UUID
 description: A string UUID contains the character-array representation of a UUID.
 ms.assetid: a8a04c88-0d41-4e0c-aae1-caa6c95f91c9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -16,11 +16,4 @@ When providing a string UUID as an input parameter to an RPC run-time function, 
 
 ## Related topics
 
-<dl> <dt>
-  
-[**UUID**](./rpcdce/ns-rpcdce-uuid.md)
-</dt> </dl>
-
- 
-
- 
+* [**UUID**](./rpcdce/ns-rpcdce-uuid.md)

@@ -2,7 +2,7 @@
 title: CAHashListParams Complex Type
 description: Learn about the CAHashListParams complex type. This type holds a list of certificate authority issuer hashes.
 ms.assetid: 5310fcb4-49c1-4da3-ab4e-33ef79d17be8
-ms.topic: article
+ms.topic: reference
 ms.date: 07/07/2023
 ---
 

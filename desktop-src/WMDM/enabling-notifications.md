@@ -9,7 +9,7 @@ keywords:
 - desktop applications,notifications
 - creating Windows Media Device Manager applications,notifications
 - notifications
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

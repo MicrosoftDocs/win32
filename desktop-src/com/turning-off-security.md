@@ -2,7 +2,7 @@
 title: Turning Off Security
 description: Turning Off Security
 ms.assetid: 31dbf140-474d-4304-bcbf-13d6a6ce9175
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Control Spy v2.0
 description: Control Spy is a tool that helps developers understand common controls how to apply styles to them, and how they respond to messages and notifications.
 ms.assetid: 27483100-debb-4d82-ac24-b97f933a6942
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -55,7 +55,7 @@ The **Size/Color** tab can be used to change the size of the control as well as 
 
 ## Where to Get Control Spy
 
-You can download [Control Spy 2.0](https://www.microsoft.com/download/details.aspx?id=4635) from MSDN. Both versions are contained in the download.
+Download [Control Spy 2.0](https://www.microsoft.com/download/details.aspx?id=4635) (both versions are contained in the download).
 
 ## Related topics
 

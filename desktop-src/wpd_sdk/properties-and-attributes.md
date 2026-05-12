@@ -2,7 +2,7 @@
 description: Properties and Attributes
 ms.assetid: 3bfbe8d0-6ad5-42de-afdd-d83328aaaa62
 title: Properties and Attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

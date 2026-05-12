@@ -5,7 +5,7 @@ ms.assetid: 4df5f356-a39b-40a4-9e62-994ad27df3a9
 ms.tgt_platform: multiple
 keywords:
 - Directory Service Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: All Attributes
 description: Use this list of links to the reference pages for all attributes that are defined by Active Directory.
 ms.assetid: 3df1ed0a-8c92-41cf-9478-95e59b50c471
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 02/10/2023
 ---
 

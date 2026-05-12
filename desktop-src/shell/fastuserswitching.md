@@ -2,7 +2,7 @@
 description: Windows XP user accounts enable multiple users to be logged on simultaneously, each with his or her own settings and each running his or her own applications.
 ms.assetid: bc404afc-f73e-404d-854d-faab5cf205a5
 title: User Accounts with Fast User Switching and Remote Desktop
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

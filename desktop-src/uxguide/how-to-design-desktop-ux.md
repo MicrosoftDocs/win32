@@ -2,7 +2,7 @@
 title: How to design UX for desktop applications
 description: A great desktop application is powerful and, at the same time, simple. Through carefully balanced feature selection and presentation, you can achieve both power and simplicity.
 ms.assetid: 0039a3ee-95bc-457f-a1a8-6a036ce22fd2
-ms.topic: article
+ms.topic: how-to
 ms.date: 10/20/2020
 ---
 

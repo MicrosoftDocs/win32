@@ -56,4 +56,4 @@ When **Sort** returns, items in the DXCore adapter list will have been sorted fr
 
 ## See also
 
-[IDXCoreAdapterList](./nn-dxcore_interface-idxcoreadapterlist.md), [DXCore Reference](../dxcore-reference.md), [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md)
+[IDXCoreAdapterList](./nn-dxcore_interface-idxcoreadapterlist.md), [DXCore reference](../dxcore-reference.md), [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md)

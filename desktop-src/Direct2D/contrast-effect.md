@@ -2,7 +2,7 @@
 title: Contrast effect
 description: Increases or decreases the contrast of an image.
 ms.assetid: c0cc0f86-f6d4-e951-0cdd-dbad488e0793
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

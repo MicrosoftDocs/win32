@@ -2,7 +2,7 @@
 description: The photo metadata policy for the System.GPS.Speed property.
 ms.assetid: 278826c2-3057-4da2-8c86-0e44471ad7b0
 title: System.GPS.Speed Photo Metadata Policy
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

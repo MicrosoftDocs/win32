@@ -2,7 +2,7 @@
 description: Types Used in COM+ Resource Dispenser Interfaces
 ms.assetid: f4b3a828-3d66-455c-9b0c-30086f3ffe23
 title: Types Used in COM+ Resource Dispenser Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

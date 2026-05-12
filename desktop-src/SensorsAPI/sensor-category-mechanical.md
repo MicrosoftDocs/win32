@@ -3,10 +3,15 @@ description: The SENSOR\_CATEGORY\_MECHANICAL category contains sensors that pro
 ms.assetid: d1243303-d26c-45ce-b97b-d554daeeb462
 title: SENSOR_CATEGORY_MECHANICAL (Sensors.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # SENSOR\_CATEGORY\_MECHANICAL
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 The SENSOR\_CATEGORY\_MECHANICAL category contains sensors that provide information related to mechanical devices and measurements.
 
@@ -63,9 +68,9 @@ This category includes the following platform-defined data fields.
 
 
 
- 
 
- 
+
+
 
 
 

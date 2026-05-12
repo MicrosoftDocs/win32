@@ -4,7 +4,7 @@ ms.assetid: f47cb502-fe20-4810-b499-73e9a2cc1458
 description: "Learn more about: HttpCfg.exe"
 keywords:
 - HttpCfg.exe
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

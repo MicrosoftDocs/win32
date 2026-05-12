@@ -73,7 +73,7 @@ The lowest log file number that is to be replayed from *szBackupLogPath*. The fu
 
 *genHigh*
 
-The highest log file number that is to be replayed from *szBackupLogPath*. The full fidelity of a unsigned long should be preserved, but in current versions of the engine this number is a hexadecimal number in the range from 0x00000 to 0xFFFFF. This may change in future versions.
+The highest log file number that is to be replayed from *szBackupLogPath*. The full fidelity of an unsigned long should be preserved, but in current versions of the engine this number is a hexadecimal number in the range from 0x00000 to 0xFFFFF. This may change in future versions.
 
 *pfn*
 

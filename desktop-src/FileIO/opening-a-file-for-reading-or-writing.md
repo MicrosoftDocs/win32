@@ -2,20 +2,20 @@
 description: Example code that shows how to use the CreateFile function to create a new file or open an existing file.
 ms.assetid: 04e089a7-c559-4a35-a38b-e1acdf3438d1
 title: Opening a File for Reading or Writing
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/08/2025
+# customer intent: As a Windows developer, I want to know how to open files for reading or writing so that I can manage file operations in my applications.
 ---
 
-# Opening a File for Reading or Writing
+# Opening a file for reading or writing
 
-The [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) function can create a new file or open an existing file. You must specify the file name, creation instructions, and other attributes. When an application creates a new file, the operating system adds it to the specified directory.
+The [CreateFile](/windows/win32/api/FileAPI/nf-fileapi-createfilea) function can create a new file or open an existing file. You must specify the file name, creation instructions, and other attributes. When an application creates a new file, the operating system adds it to the specified directory.
 
-## Example: Open a File for Writing
+## Example: Open a file for writing
 
-The following example uses [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) to create a new file and open it for writing and [**WriteFile**](/windows/desktop/api/FileAPI/nf-fileapi-writefile) to write a simple string synchronously to the file.
+The following example uses [CreateFile](/windows/win32/api/FileAPI/nf-fileapi-createfilea) to create a new file and open it for writing and [WriteFile](/windows/win32/api/FileAPI/nf-fileapi-writefile) to write a simple string synchronously to the file.
 
-A subsequent call to open this file with [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) will fail until the handle is closed.
-
+A subsequent call to open this file with [CreateFile](/windows/win32/api/FileAPI/nf-fileapi-createfilea) will fail until the handle is closed.
 
 ```C++
 #include <windows.h>
@@ -129,18 +129,17 @@ void DisplayError(LPTSTR lpszFunction)
 
     LocalFree(lpMsgBuf);
     LocalFree(lpDisplayBuf);
+}
 ```
 
+## Example: Open a file for reading
 
+The following example uses [CreateFile](/windows/win32/api/FileAPI/nf-fileapi-createfilea) to open an existing file for reading and [ReadFile](/windows/win32/api/FileAPI/nf-fileapi-readfile) to read up to 80 characters synchronously from the file.
 
-## Example: Open a File for Reading
+In this case, [CreateFile](/windows/win32/api/FileAPI/nf-fileapi-createfilea) succeeds only if the specified file already exists in the current directory. A subsequent call to open this file with CreateFile will succeed if the call uses the same access and sharing modes.
 
-The following example uses [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) to open an existing file for reading and [**ReadFile**](/windows/desktop/api/FileAPI/nf-fileapi-readfile) to read up to 80 characters synchronously from the file.
-
-In this case, [**CreateFile**](/windows/desktop/api/FileAPI/nf-fileapi-createfilea) succeeds only if the specified file already exists in the current directory. A subsequent call to open this file with **CreateFile** will succeed if the call uses the same access and sharing modes.
-
-Tip: You can use the file you created with the previous WriteFile example to test this example.
-
+> [!TIP]
+> You can use the file you created with the previous **WriteFile** example to test this example.
 
 ```C++
 #include <windows.h>
@@ -286,18 +285,6 @@ void DisplayError(LPTSTR lpszFunction)
 
 ```
 
-
-
-## Related topics
-
-<dl> <dt>
+## Related content
 
 [Creating and Opening Files](creating-and-opening-files.md)
-</dt> </dl>
-
- 
-
- 
-
-
-

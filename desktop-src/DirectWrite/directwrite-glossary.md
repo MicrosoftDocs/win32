@@ -3,7 +3,7 @@ title: DirectWrite glossary
 description: Glossary page
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: bf50f374-440b-44f3-a365-47588eaa071f
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

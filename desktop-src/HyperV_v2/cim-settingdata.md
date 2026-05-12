@@ -17,8 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_SettingData class
-
+# CIM\_SettingData class (Hyper-V)
 Represents configuration and operational parameters for [**CIM\_ManagedElement**](cim-managedelement.md) instances.
 
 ## Syntax

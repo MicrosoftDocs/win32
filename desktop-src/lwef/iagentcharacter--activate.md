@@ -2,7 +2,7 @@
 title: IAgentCharacter Activate
 description: IAgentCharacter Activate
 ms.assetid: a81eb62d-709b-46b4-9ff2-c9017f7f853e
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

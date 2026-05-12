@@ -2,8 +2,8 @@
 title: Handling the WM_GETOBJECT Message
 description: Both Microsoft Active Accessibility and Microsoft UI Automation send the WM\_GETOBJECT message to a server or provider application to retrieve information about an accessible object supported by the server or provider.
 ms.assetid: 4b8e551f-aba7-4a89-8874-ba690175f525
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Handling the WM\_GETOBJECT Message
@@ -12,7 +12,7 @@ Both Microsoft Active Accessibility and Microsoft UI Automation send the [**WM\_
 
 Microsoft Active Accessibility or UI Automation specifies the type of object it needs information for by passing a value called an *object identifier* with the [**WM\_GETOBJECT**](wm-getobject.md) message. When it receives the message, the server or provider examines the object identifier to determine how to respond to the message. The response depends on whether the receiving application implements Microsoft Active Accessibility (a server), UI Automation (a provider), or neither, for the specified object.
 
--   If the receiving application is an Microsoft Active Accessibility server and the [**WM\_GETOBJECT**](wm-getobject.md) message includes an object identifier of [**OBJID\_CLIENT**](object-identifiers.md), the server should return the value obtained by passing the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface of the object to the [**LresultFromObject**](/windows/desktop/api/Oleacc/nf-oleacc-lresultfromobject) function.
+-   If the receiving application is a Microsoft Active Accessibility server and the [**WM\_GETOBJECT**](wm-getobject.md) message includes an object identifier of [**OBJID\_CLIENT**](object-identifiers.md), the server should return the value obtained by passing the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface of the object to the [**LresultFromObject**](/windows/desktop/api/Oleacc/nf-oleacc-lresultfromobject) function.
 -   If the receiving application is a UI Automation provider and the object identifier is **UiaRootObjectId**, the provider should return the [**IRawElementProviderSimple**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementprovidersimple) interface of the object. The provider obtains the interface by calling the [**UiaReturnRawElementProvider**](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uiareturnrawelementprovider) function.
 -   If the receiving application implements neither Microsoft Active Accessibility nor UI Automation, it should pass the [**WM\_GETOBJECT**](wm-getobject.md) message to the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function. Passing the message enables the accessibility framework to determine if a proxy is available for the specified object.
 -   If the object identifier is neither [**OBJID\_CLIENT**](object-identifiers.md) nor UiaRootObjectId, the receiving application should pass the [**WM\_GETOBJECT**](wm-getobject.md) message to the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function. Passing the message enables the accessibility framework to use the default providers for standard UI elements.

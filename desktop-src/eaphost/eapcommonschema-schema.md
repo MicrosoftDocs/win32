@@ -2,7 +2,7 @@
 title: eapcommon Schema
 description: Learn about the eapcommon schema, which defines the EapMethodType schema element. View additional resources for schema elements and complex types.
 ms.assetid: ab7d1228-8472-49c9-85be-36c189470af7
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

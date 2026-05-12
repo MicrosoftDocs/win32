@@ -2,7 +2,7 @@
 description: System.Music.Lyrics
 ms.assetid: ae7edb4e-f362-49c2-83ab-c2b832d279e5
 title: System.Music.Lyrics
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

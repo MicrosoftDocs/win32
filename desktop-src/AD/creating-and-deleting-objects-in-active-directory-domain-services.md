@@ -7,7 +7,7 @@ keywords:
 - Creating and Deleting Active Directory Objects Active Directory
 - Active Directory Domain Services Active Directory , using creating and deleting objects
 - objects Active Directory , creating and deleting Active Directory Domain Services objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

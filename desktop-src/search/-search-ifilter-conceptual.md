@@ -1,12 +1,12 @@
 ---
 description: Learn how to develop filter handlers in Windows Search. Search uses filters to extract items for inclusion in a full-text index.
 ms.assetid: 7b24986b-972d-4674-846b-f856b908edf4
-title: Developing Filter Handlers for Windows Search
-ms.topic: article
+title: Developing filter handlers for Windows Search
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Developing Filter Handlers for Windows Search
+# Developing filter handlers for Windows Search
 
 Microsoft Windows Search uses filters to extract the content of items for inclusion in a full-text index. You can extend Windows Search to index new or proprietary file types by writing filters to extract the content, and property handlers to extract the properties of files.
 
@@ -20,7 +20,7 @@ This section provides the conceptual framework that is necessary for implementin
 - [Registering Filter Handlers](-search-ifilter-registering-filters.md)
 - [Testing Filter Handlers](-search-ifilter-testing-filters.md)
 
-## Additional Resources
+## Additional resources
 
 - The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), demonstrates how to create an IFilter base class for implementing the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface.
 - For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
