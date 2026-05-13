@@ -388,7 +388,7 @@ HKEY_CLASSES_ROOT
    MyProgram.1
       (Default) = MyProgram Application
       Shellex
-         ContextMenuHandler
+         ContextMenuHandlers
             MyCommand
                (Default) = {00000000-1111-2222-3333-444444444444}
          PropertySheetHandlers
