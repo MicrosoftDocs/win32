@@ -115,6 +115,18 @@ It may be useful to give a brief outline of what this code does. Later topics wi
 
 Notice that the program does not explicitly call the `WindowProc` function, even though we said this is where most of the application logic is defined. Windows communicates with your program by passing it a series of *messages*. The code inside the **while** loop drives this process. Each time the program calls the [**DispatchMessage**](/windows/desktop/api/winuser/nf-winuser-dispatchmessage) function, it indirectly causes Windows to invoke the WindowProc function, once for each message.
 
+**Note:** In case of the error "LNK2019: unresolved external symbol main referenced in function "int_cdeclinvoke_main(void)"": 
+
+1. **Open Project Properties:**
+    - Right-Click on your project in the Solution Explorer.
+    - Select "Properties"
+
+2. **Change Subsystem:**
+    - Go to "Configuration Properties" -> "Linker" -> "System".
+    - Ensure that the "Subsystem" is set to "Windows (/SUBSYSTEM:WINDOWS)".
+
+This happens because the linker is unable to find the *main* function, which is the entry point for a console application. However, since you are writing a Windows application, the entry point should be wWinMain instead of main. 
+
 ## In this section
 
 -   [Creating a Window](creating-a-window.md)
