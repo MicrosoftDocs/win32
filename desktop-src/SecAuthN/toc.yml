@@ -280,8 +280,10 @@
               href: tls-cipher-suites-in-windows-7.md
             - name: "TLS Cipher Suites in Windows Vista"
               href: schannel-cipher-suites-in-windows-vista.md
-          - name: "Elliptic Curves in TLS (Schannel SSP)"
+          - name: "Supported Groups and Elliptic Curves in TLS (Schannel SSP)"
             items:
+            - name: "TLS Supported Groups in Windows 11, versions 24H2 and later"
+              href: tls-supported-groups-in-windows-11-24h2-and-later.md
             - name: "TLS Elliptic Curves in Windows 10, versions 1607 and later"
               href: tls-elliptic-curves-in-windows-10-1607-and-later.md
             - name: "TLS Elliptic Curves in Windows 10, versions 1507 and 1511"
