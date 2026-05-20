@@ -502,6 +502,7 @@ This section contains an alphabetical list of Microsoft Media Foundation attribu
 | [MFSampleExtension\_Token](mfsampleextension-token-attribute.md) | Contains a pointer to the token that was provided to the [**IMFMediaStream::RequestSample**](/windows/desktop/api/mfidl/nf-mfidl-imfmediastream-requestsample) method.  |
 | [MFSampleExtension\_VideoDSPMode](mfsampleextension-videodspmode.md) | Indicates whether video stabilization was applied to a video frame. |
 | [MFSampleExtension\_VideoEncodeBitsUsedMap](mfsampleextension-videoencodebitsusedmap.md) | Stores a map of the number of bits used for encoding each block in an encoded video frame. |
+| [MFSampleExtension\_VideoEncodeD3D12ReconstructedPicture](mfsampleextension-videoencoded3d12reconstructedpicture.md) | Contains the reconstructed picture from a Direct3D 12 video encoder, provided as an IMFMediaBuffer. |
 | [MFSampleExtension\_VideoEncodeInputAbsoluteQPMap](mfsampleextension-videoencodeinputabsoluteqpmap.md) | Stores a map of the absolute Quantization Parameter (QP) values provided as input to the encoder MFT.  |
 | [MFSampleExtension\_VideoEncodeInputDeltaQPMap](mfsampleextension-videoencodeinputdeltaqpmap.md) | Stores a map of the delta Quantization Parameter (QP) values provided as input to the encoder MFT. |
 | [MFSampleExtension\_VideoEncodePictureType](mfsampleextension-videoencodepicturetype.md) | Specifies the type of picture that is output by a video encoder. |
