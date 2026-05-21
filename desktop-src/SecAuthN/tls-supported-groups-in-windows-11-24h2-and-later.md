@@ -15,44 +15,44 @@ ms.date: 05/20/2026
 
 For Windows 11, versions 24H2 and later, the following groups are enabled and in this priority order by default using the Microsoft Schannel Provider:
 
-| Elliptic curve string | Available in FIPS mode |
+| Elliptic curve string | Supported Protocol Versions | Available in FIPS mode | 
 |-------------|--------------|
-| curve25519 | No |
-| nistP256 | Yes |
-| nistP384 | Yes |
+| curve25519 | TLS 1.0, 1.1, 1.2, 1.3 | No |
+| nistP256 | TLS 1.0, 1.1, 1.2, 1.3 | Yes |
+| nistP384 | TLS 1.0, 1.1, 1.2, 1.3 | Yes |
 
 
 The following groups are supported by the Microsoft Schannel Provider, but are not enabled by default:
 
-| Elliptic curve string | Available in FIPS mode |
+| Elliptic curve string |  Supported Protocol Versions | Available in FIPS mode |
 |-------------|--------------|
-| x25519_mlkem768 | No |
-| secp256r1_mlekm768 | Yes |
-| secp384r1_mlkem1024 | Yes |
-| brainpoolP256r1 | No |
-| brainpoolP384r1 | No |
-| brainpoolP512r1 | No |
-| curve25519 | No |
-| nistP192 | No |
-| nistP224 | No |
-| nistP521 | Yes |
-| secP160k1 | No |
-| secP160r1 | No |
-| secP160r2 | No |
-| secP192k1 | No |
-| secP192r1 | No |
-| secP224k1 | No |
-| secP224r1 | No |
-| secP256k1 | No |
-| secP256r1 | No |
-| secP384r1 | No |
-| secP521r1 | No |
+| x25519_mlkem768 | TLS 1.3 | Yes |
+| secp256r1_mlkem768 | TLS 1.3 | Yes |
+| secp384r1_mlkem1024 | TLS 1.3 | Yes |
+| brainpoolP256r1 | TLS 1.0, 1.1, 1.2 | No |
+| brainpoolP384r1 | TLS 1.0, 1.1, 1.2 | No |
+| brainpoolP512r1 | TLS 1.0, 1.1, 1.2 | No |
+| curve25519 | TLS 1.0, 1.1, 1.2, 1.3 | No |
+| nistP192 | TLS 1.0, 1.1, 1.2, 1.3 | No |
+| nistP224 | TLS 1.0, 1.1, 1.2, 1.3 | No |
+| nistP521 | TLS 1.0, 1.1, 1.2, 1.3 | Yes |
+| secP160k1 | TLS 1.0, 1.1, 1.2 | No |
+| secP160r1 | TLS 1.0, 1.1, 1.2 | No |
+| secP160r2 | TLS 1.0, 1.1, 1.2 | No |
+| secP192k1 | TLS 1.0, 1.1, 1.2 | No |
+| secP192r1 | TLS 1.0, 1.1, 1.2 | No |
+| secP224k1 | TLS 1.0, 1.1, 1.2 | No |
+| secP224r1 | TLS 1.0, 1.1, 1.2 | No |
+| secP256k1 | TLS 1.0, 1.1, 1.2 | No |
+| secP256r1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
+| secP384r1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
+| secP521r1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
 
 
 
-## Enabling Elliptic Curves
+## Enabling Supported Groups
 
-To add elliptic curves, either deploy a group policy or use the TLS cmdlets:
+To add supported groups or change the default priority order, either deploy a group policy or use the TLS cmdlets:
 - To use group policy, [configure ECC Curve Order](/windows-server/security/tls/manage-tls#configuring-tls-ecc-curve-order) under Computer Configuration > Administrative Templates > Network > SSL Configuration Settings with the priority list for all elliptic curves you want enabled.
 
 - To use PowerShell, see [TLS cmdlets](/powershell/module/tls) for a complete list of TLS cmdlet syntax and descriptions.
