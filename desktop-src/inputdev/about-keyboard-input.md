@@ -317,9 +317,9 @@ Notes:
 
 ### Extended-Key Flag
 
-The extended-key flag indicates whether the keystroke message originated from one of the additional keys on the Enhanced 101/102-key keyboard. The extended keys consist of the *Alt* and *Ctrl* keys on the right-hand side of the keyboard; the *Insert**, *Delete**, *Home*, *End*, *Page up*, *Page down*, and *Arrow* keys in the clusters to the left of the numeric keypad; the *Num lock* key; the *Break* (*Ctrl+Pause*) key; the *Print screen* key; and the *Divide* (/) and *Enter* keys on the numeric keypad. The right-hand *Shift* key is not considered an extended-key, it has a separate scan code instead.
+The extended-key flag indicates whether the keystroke message originated from one of the additional keys on the Enhanced 101/102-key keyboard. The extended keys consist of the *Alt* and *Ctrl* keys on the right-hand side of the keyboard; the *Insert*, *Delete*, *Home*, *End*, *Page Up*, *Page Down*, and *Arrow* keys in the clusters to the left of the numeric keypad; the *Break* (*Ctrl+Pause*) key; the *Print Screen* key; the *Divide* (/) and *Enter* keys on the numeric keypad; and the *Windows* and *Application* keys. Note that the *Num Lock* key has a separate scan code from the *Pause* key (which uses the same scan code without the extended-key flag), and is not considered an extended key despite appearing in the extended key name table. The right-hand *Shift* key is not considered an extended key either - it has a separate scan code (`0x36`) instead.
 
-If specified, the scan code consists of a sequence of two bytes, where the first byte has a value of 0xE0.
+If specified, the scan code consists of a sequence of two bytes, where the first byte has a value of `0xE0`.
 
 ### Context Code
 
