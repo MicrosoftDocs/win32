@@ -16,7 +16,7 @@ ms.date: 05/20/2026
 For Windows 11, versions 24H2 and later, the following groups are enabled and in this priority order by default using the Microsoft Schannel Provider:
 
 | Elliptic curve string | Supported Protocol Versions | Available in FIPS mode | 
-|-------------|--------------|
+|-------------|--------------|--------------|
 | curve25519 | TLS 1.0, 1.1, 1.2, 1.3 | No |
 | nistP256 | TLS 1.0, 1.1, 1.2, 1.3 | Yes |
 | nistP384 | TLS 1.0, 1.1, 1.2, 1.3 | Yes |
@@ -25,7 +25,7 @@ For Windows 11, versions 24H2 and later, the following groups are enabled and in
 The following groups are supported by the Microsoft Schannel Provider, but are not enabled by default:
 
 | Elliptic curve string |  Supported Protocol Versions | Available in FIPS mode |
-|-------------|--------------|
+|-------------|--------------|--------------|
 | x25519_mlkem768 | TLS 1.3 | Yes |
 | secp256r1_mlkem768 | TLS 1.3 | Yes |
 | secp384r1_mlkem1024 | TLS 1.3 | Yes |
