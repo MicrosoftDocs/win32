@@ -2,7 +2,7 @@
 description: Supported groups enabled in Windows 11 versions 24H2 and later.
 title: TLS Supported Groups in Windows 11 version 24H2, Windows Server 2025, and later
 ms.topic: reference
-ms.keywords: 'hybrid key exchange, tls supported groups, supported groups, ecc curves, elliptic curves, tls elliptic curves, ECC curves, schannel, ECC, EC, Elliptic Curve Cryptography'
+ms.keywords: 'hybrid key exchange, tls supported groups, supported groups, ecc curves, elliptic curves, tls elliptic curves, ECC curves, schannel, ECC, EC, Elliptic Curve Cryptography, post quantum, PQC, post-quantum TLS'
 ms.date: 05/20/2026
 ---
 
@@ -15,7 +15,7 @@ ms.date: 05/20/2026
 
 For Windows 11, versions 24H2 and later, the following groups are enabled and in this priority order by default using the Microsoft Schannel Provider:
 
-| Supported group string | Supported Protocol Versions | Available in FIPS mode | 
+| Supported Group String | Supported Protocol Versions | Available in FIPS mode | 
 |-------------|--------------|--------------|
 | curve25519 | TLS 1.0, 1.1, 1.2, 1.3 | No |
 | nistP256 | TLS 1.0, 1.1, 1.2, 1.3 | Yes |
@@ -24,7 +24,7 @@ For Windows 11, versions 24H2 and later, the following groups are enabled and in
 
 The following groups are supported by the Microsoft Schannel Provider, but are not enabled by default:
 
-| Supported group string |  Supported Protocol Versions | Available in FIPS mode |
+| Supported Group String |  Supported Protocol Versions | Available in FIPS mode |
 |-------------|--------------|--------------|
 | x25519_mlkem768 | TLS 1.3 | Yes |
 | secp256r1_mlkem768 | TLS 1.3 | Yes |
