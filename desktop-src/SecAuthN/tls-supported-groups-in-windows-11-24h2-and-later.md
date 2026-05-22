@@ -29,21 +29,21 @@ The following groups are supported by the Microsoft Schannel Provider, but are n
 | x25519_mlkem768 | TLS 1.3 | Yes |
 | secp256r1_mlkem768 | TLS 1.3 | Yes |
 | secp384r1_mlkem1024 | TLS 1.3 | Yes |
-| brainpoolP256r1 | TLS 1.0, 1.1, 1.2 | No |
-| brainpoolP384r1 | TLS 1.0, 1.1, 1.2 | No |
-| brainpoolP512r1 | TLS 1.0, 1.1, 1.2 | No |
+| brainpoolP256r1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
+| brainpoolP384r1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
+| brainpoolP512r1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
 | curve25519 | TLS 1.0, 1.1, 1.2, 1.3 | No |
 | nistP192 | TLS 1.0, 1.1, 1.2, 1.3 | No |
 | nistP224 | TLS 1.0, 1.1, 1.2, 1.3 | No |
 | nistP521 | TLS 1.0, 1.1, 1.2, 1.3 | Yes |
-| secP160k1 | TLS 1.0, 1.1, 1.2 | No |
-| secP160r1 | TLS 1.0, 1.1, 1.2 | No |
-| secP160r2 | TLS 1.0, 1.1, 1.2 | No |
-| secP192k1 | TLS 1.0, 1.1, 1.2 | No |
-| secP192r1 | TLS 1.0, 1.1, 1.2 | No |
-| secP224k1 | TLS 1.0, 1.1, 1.2 | No |
-| secP224r1 | TLS 1.0, 1.1, 1.2 | No |
-| secP256k1 | TLS 1.0, 1.1, 1.2 | No |
+| secP160k1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
+| secP160r1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
+| secP160r2 | TLS 1.0, 1.1, 1.2, 1.3 | No |
+| secP192k1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
+| secP192r1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
+| secP224k1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
+| secP224r1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
+| secP256k1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
 | secP256r1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
 | secP384r1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
 | secP521r1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
