@@ -15,7 +15,7 @@ ms.date: 05/20/2026
 
 For Windows 11, versions 24H2 and later, the following groups are enabled and in this priority order by default using the Microsoft Schannel Provider:
 
-| Elliptic curve string | Supported Protocol Versions | Available in FIPS mode | 
+| Supported group string | Supported Protocol Versions | Available in FIPS mode | 
 |-------------|--------------|--------------|
 | curve25519 | TLS 1.0, 1.1, 1.2, 1.3 | No |
 | nistP256 | TLS 1.0, 1.1, 1.2, 1.3 | Yes |
@@ -24,7 +24,7 @@ For Windows 11, versions 24H2 and later, the following groups are enabled and in
 
 The following groups are supported by the Microsoft Schannel Provider, but are not enabled by default:
 
-| Elliptic curve string |  Supported Protocol Versions | Available in FIPS mode |
+| Supported group string |  Supported Protocol Versions | Available in FIPS mode |
 |-------------|--------------|--------------|
 | x25519_mlkem768 | TLS 1.3 | Yes |
 | secp256r1_mlkem768 | TLS 1.3 | Yes |
@@ -53,7 +53,7 @@ The following groups are supported by the Microsoft Schannel Provider, but are n
 ## Enabling Supported Groups
 
 To add supported groups or change the default priority order, either deploy a group policy or use the TLS cmdlets:
-- To use group policy, [configure ECC Curve Order](/windows-server/security/tls/manage-tls#configuring-tls-ecc-curve-order) under Computer Configuration > Administrative Templates > Network > SSL Configuration Settings with the priority list for all elliptic curves you want enabled.
+- To use group policy, [configure ECC Curve Order](/windows-server/security/tls/manage-tls#configuring-tls-ecc-curve-order) under Computer Configuration > Administrative Templates > Network > SSL Configuration Settings with the priority list for all supported groups you want enabled.
 
 - To use PowerShell, see [TLS cmdlets](/powershell/module/tls) for a complete list of TLS cmdlet syntax and descriptions.
 
