@@ -110,9 +110,7 @@ For overlapped operations, [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-
 
 ## Return value
 
-If the operation completes successfully, [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) returns a nonzero value.
-
-If the operation fails or is pending, [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) returns zero. To get extended error information, call [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+As documented here, this ioctl will always return failure because (despite the name) this is a FSCTL and needs to be sent via NtfsControlFile
 
 ## Remarks
 
