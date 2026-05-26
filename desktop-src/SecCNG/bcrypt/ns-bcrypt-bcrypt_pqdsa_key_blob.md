@@ -52,6 +52,8 @@ The **dwMagic** field is a 4-byte value that indicates the format of the key bei
 | **BCRYPT_MLDSA_PUBLIC_MAGIC** `0x4B505344` | The structure represents a public key. |
 | **BCRYPT_MLDSA_PRIVATE_MAGIC** `0x4B535344` | The structure represents an expanded private key. |
 | **BCRYPT_MLDSA_PRIVATE_SEED_MAGIC** `0x53535344` | The structure represents a private seed. |
+| **BCRYPT_COMPOSITE_MLDSA_PUBLIC_MAGIC** `0x4B504D43` | The structure represents a public key. |
+| **BCRYPT_COMPOSITE_MLDSA_PRIVATE_MAGIC** `0x4B534D43` | The structure represents a private key. |
 
 ### cbParameterSet
 
@@ -59,9 +61,13 @@ The length, in bytes, of the buffer `parameterSet` directly following the struct
 
 | parameterSet | cbParameterSet | Meaning |
 |--|--|--|
-| **BCRYPT_MLDSA_PARAMETER_SET_44** `L"44"` | 6 | ML-DSA-44, security category 2. |
-| **BCRYPT_MLDSA_PARAMETER_SET_65** `L"65"` | 6 | ML-DSA-65, security category 3. |
-| **BCRYPT_MLDSA_PARAMETER_SET_87** `L"87"` | 6 | ML-DSA-87, security category 5. |
+| **BCRYPT_MLDSA_PARAMETER_SET_44** `L"44"` | byte size of parameter set | ML-DSA-44, security category 2. |
+| **BCRYPT_MLDSA_PARAMETER_SET_65** `L"65"` | byte size of parameter set | ML-DSA-65, security category 3. |
+| **BCRYPT_MLDSA_PARAMETER_SET_87** `L"87"` | byte size of parameter set | ML-DSA-87, security category 5. |
+| **BCRYPT_COMPOSITE_MLDSA_PARAMETER_SET_44_ECDSA_P256_SHA256** `L"44-ECDSA-P256-SHA256"` | byte size of parameter set | composite ML-DSA-44 and ECDSA P256 |
+| **BCRYPT_COMPOSITE_MLDSA_PARAMETER_SET_65_ECDSA_P256_SHA512** `L"65-ECDSA-P256-SHA512""` | byte size of parameter set | composite ML-DSA-65 and ECDSA P256 |
+| **BCRYPT_COMPOSITE_MLDSA_PARAMETER_SET_65_ECDSA_P384_SHA512** `L"65-ECDSA-P384-SHA512""` | byte size of parameter set | composite ML-DSA-65 and ECDSA P384 |
+| **BCRYPT_COMPOSITE_MLDSA_PARAMETER_SET_87_ECDSA_P384_SHA512** `L"87-ECDSA-P384-SHA512"` | byte size of parameter set | composite ML-DSA-87 and ECDSA P384 |
 
 ### cbKey
 

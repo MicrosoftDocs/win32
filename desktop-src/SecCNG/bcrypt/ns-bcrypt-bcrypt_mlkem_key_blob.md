@@ -50,6 +50,9 @@ The **dwMagic** field is a 4-byte value that indicates the format of the key bei
 | **BCRYPT_MLKEM_PUBLIC_MAGIC** `0x504B4C4D` | The structure represents a public key. |
 | **BCRYPT_MLKEM_PRIVATE_MAGIC** `0x524B4C4D` | The structure represents an expanded private key. |
 | **BCRYPT_MLKEM_PRIVATE_SEED_MAGIC** `0x534B4C4D` | The structure represents a private seed. |
+| **BCRYPT_COMPOSITE_MLKEM_PUBLIC_MAGIC** `0x504B4D43` | The structure represents a public key. |
+| **BCRYPT_COMPOSITE_MLKEM_PRIVATE_MAGIC** `0x524B4D43` | The structure represents a private key. |
+| **BCRYPT_COMPOSITE_MLKEM_PRIVATE_IRTF_SEED_MAGIC** `0x534B4D43` | The structure represents a private seed. |
 
 ### cbParameterSet
 
@@ -60,6 +63,9 @@ The length, in bytes, of the buffer **parameterSet** directly following the stru
 | **BCRYPT_MLKEM_PARAMETER_SET_512** `L"512"` | 8 | ML-KEM-512, security category 1. |
 | **BCRYPT_MLKEM_PARAMETER_SET_768** `L"768"` | 8 | ML-KEM-768, security category 3. |
 | **BCRYPT_MLKEM_PARAMETER_SET_1024** `L"1024"` | 10 | ML-KEM-1024, security category 5. |
+| **BCRYPT_COMPOSITE_MLKEM_PARAMETER_SET_768_P256** `L"768-P256"` | byte length of parameter set | composite ML-KEM-768 and ECDH P256 |
+| **BCRYPT_COMPOSITE_MLKEM_PARAMETER_SET_768_X25519** `L"768-X25519"` | byte length of parameter set  | composite ML-KEM-768 and curve25519 |
+| **BCRYPT_COMPOSITE_MLKEM_PARAMETER_SET_1024_P384** `L"1024-P384"` | byte length of parameter set  | composite ML-KEM-1024 and ECDH P384 |
 
 ### cbKey
 
