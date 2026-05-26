@@ -26,9 +26,9 @@ The following groups are supported by the Microsoft Schannel Provider, but are n
 
 | Supported Group String |  Supported Protocol Versions | Available in FIPS mode |
 |-------------|--------------|--------------|
-| x25519_mlkem768 | TLS 1.3 | Yes |
-| secp256r1_mlkem768 | TLS 1.3 | Yes |
-| secp384r1_mlkem1024 | TLS 1.3 | Yes |
+| x25519_mlkem768 | TLS 1.3 | No |
+| secp256r1_mlkem768 | TLS 1.3 | No |
+| secp384r1_mlkem1024 | TLS 1.3 | No |
 | brainpoolP256r1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
 | brainpoolP384r1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
 | brainpoolP512r1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
