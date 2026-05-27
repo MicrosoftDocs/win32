@@ -82,6 +82,36 @@ The Windows Connection Manager uses **TAG_WINHTTP_CONNECTION_POLICY_TAG_CONNECTI
 
 This API requires elevated (administrator/SYSTEM) privileges.
 
+### Example
+
+The following example deletes existing connection manager policy entries and then registers a new on-demand policy for all apps connecting to hosts matching `*.contoso.com`.
+
+```cpp
+// First delete existing connection manager policies
+WinHttpConnectionDeletePolicyEntries(
+    hSession,
+    TAG_WINHTTP_CONNECTION_POLICY_TAG_CONNECTION_MANAGER);
+
+// Then set new policies
+WINHTTP_CONNECTION_POLICY_ENTRY entry = {};
+entry.pwszHost = L"*.contoso.com";
+entry.pwszAppId = L"*";
+entry.dwPolicyEntryFlags = WINHTTP_CONNECTION_POLICY_ENTRY_ONDEMAND;
+
+PCWSTR connectionName = L"Contoso Cellular";
+entry.nConnections = 1;
+entry.ppwszConnections = &connectionName;
+
+WINHTTP_CONNECTION_POLICY_ENTRY_LIST list = {};
+list.pPolicyEntries = &entry;
+list.nEntries = 1;
+
+WinHttpConnectionSetPolicyEntries(
+    hSession,
+    TAG_WINHTTP_CONNECTION_POLICY_TAG_CONNECTION_MANAGER,
+    &list);
+```
+
 ## Requirements
 
 | Requirement | Value |

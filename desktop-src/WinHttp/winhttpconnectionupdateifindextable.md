@@ -64,6 +64,24 @@ Typically called by system networking components, like Windows Connection Manage
 
 Passing an empty list (**nEntries** = 0, **pConnectionIfIndexEntries** = **nullptr**) effectively clears all connection-interface mappings.
 
+### Example
+
+The following example updates the interface index table with mappings for both a Wi-Fi and a cellular connection.
+
+```cpp
+WINHTTP_CONNECTION_IFINDEX_ENTRY entries[2] = {};
+entries[0].pwszConnectionName = L"Wi-Fi";
+entries[0].dwIfIndex = 4;
+entries[1].pwszConnectionName = L"Cellular";
+entries[1].dwIfIndex = 7;
+
+WINHTTP_CONNECTION_IFINDEX_LIST ifList = {};
+ifList.pConnectionIfIndexEntries = entries;
+ifList.nEntries = 2;
+
+WinHttpConnectionUpdateIfIndexTable(hSession, &ifList);
+```
+
 ## Requirements
 
 | Requirement | Value |

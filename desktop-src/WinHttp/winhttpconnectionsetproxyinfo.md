@@ -80,6 +80,23 @@ For HTTP proxies, the function probes the proxy for authentication requirements.
 
 This API requires elevated (administrator) privileges.
 
+### Example
+
+The following example sets an HTTP proxy for a cellular connection.
+
+```cpp
+WINHTTP_CONNECTION_PROXY_INFO proxyInfo = {};
+proxyInfo.Version = WINHTTP_CONNECTION_PROXY_INFO_CURRENT_VERSION;
+proxyInfo.Switch = WINHTTP_CONNECTION_PROXY_INFO_SWITCH_CONFIG;
+proxyInfo.Config.pwszServer = L"proxy.contoso.com";
+proxyInfo.Config.Port = 8080;
+
+DWORD dwError = WinHttpConnectionSetProxyInfo(
+    L"Contoso Cellular",
+    WINHTTP_CONNECTION_PROXY_TYPE_HTTP,
+    &proxyInfo);
+```
+
 ## Requirements
 
 | Requirement | Value |
