@@ -68,8 +68,8 @@ The **dwMagic** field is a 4-byte value that indicates the format of the key bei
 
 The length, in bytes, of the buffer **parameterSet** directly following the struct. This buffer contains a null-terminated Unicode string that identifies the parameter set of the key. The following values (per [FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf)) are currently supported:
 
-| parameterSet | cbParameterSet | Meaning |
-|--|--|--|
+| parameterSet | Meaning |
+|--|--|
 | **BCRYPT_MLKEM_PARAMETER_SET_512** `L"512"` | ML-KEM-512, security category 1. |
 | **BCRYPT_MLKEM_PARAMETER_SET_768** `L"768"` | ML-KEM-768, security category 3. |
 | **BCRYPT_MLKEM_PARAMETER_SET_1024** `L"1024"` | ML-KEM-1024, security category 5. |
