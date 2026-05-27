@@ -59,15 +59,15 @@ The **dwMagic** field is a 4-byte value that indicates the format of the key bei
 
 The length, in bytes, of the buffer `parameterSet` directly following the struct. This buffer contains a null-terminated Unicode string that identifies the parameter set of the key. The following values are currently supported:
 
-| parameterSet | cbParameterSet | Meaning |
-|--|--|--|
-| **BCRYPT_MLDSA_PARAMETER_SET_44** `L"44"` | byte size of parameter set | ML-DSA-44, security category 2. |
-| **BCRYPT_MLDSA_PARAMETER_SET_65** `L"65"` | byte size of parameter set | ML-DSA-65, security category 3. |
-| **BCRYPT_MLDSA_PARAMETER_SET_87** `L"87"` | byte size of parameter set | ML-DSA-87, security category 5. |
-| **BCRYPT_COMPOSITE_MLDSA_PARAMETER_SET_44_ECDSA_P256_SHA256** `L"44-ECDSA-P256-SHA256"` | byte size of parameter set | composite ML-DSA-44 and ECDSA P256 |
-| **BCRYPT_COMPOSITE_MLDSA_PARAMETER_SET_65_ECDSA_P256_SHA512** `L"65-ECDSA-P256-SHA512""` | byte size of parameter set | composite ML-DSA-65 and ECDSA P256 |
-| **BCRYPT_COMPOSITE_MLDSA_PARAMETER_SET_65_ECDSA_P384_SHA512** `L"65-ECDSA-P384-SHA512""` | byte size of parameter set | composite ML-DSA-65 and ECDSA P384 |
-| **BCRYPT_COMPOSITE_MLDSA_PARAMETER_SET_87_ECDSA_P384_SHA512** `L"87-ECDSA-P384-SHA512"` | byte size of parameter set | composite ML-DSA-87 and ECDSA P384 |
+| parameterSet | Meaning |
+|--|--|
+| **BCRYPT_MLDSA_PARAMETER_SET_44** `L"44"` | ML-DSA-44, security category 2. |
+| **BCRYPT_MLDSA_PARAMETER_SET_65** `L"65"` | ML-DSA-65, security category 3. |
+| **BCRYPT_MLDSA_PARAMETER_SET_87** `L"87"` | ML-DSA-87, security category 5. |
+| **BCRYPT_COMPOSITE_MLDSA_PARAMETER_SET_44_ECDSA_P256_SHA256** `L"44-ECDSA-P256-SHA256"` | Composite ML-DSA-44 and ECDSA P256 |
+| **BCRYPT_COMPOSITE_MLDSA_PARAMETER_SET_65_ECDSA_P256_SHA512** `L"65-ECDSA-P256-SHA512""` | Composite ML-DSA-65 and ECDSA P256 |
+| **BCRYPT_COMPOSITE_MLDSA_PARAMETER_SET_65_ECDSA_P384_SHA512** `L"65-ECDSA-P384-SHA512""` | Composite ML-DSA-65 and ECDSA P384 |
+| **BCRYPT_COMPOSITE_MLDSA_PARAMETER_SET_87_ECDSA_P384_SHA512** `L"87-ECDSA-P384-SHA512"` | Composite ML-DSA-87 and ECDSA P384 |
 
 ### cbKey
 
@@ -75,7 +75,7 @@ The length, in bytes, of the buffer **key** directly following **parameterSet**.
 
 ## Remarks
 
-The consumers of Post-Quantum Digital Signature algorithms will use the same subset of the BCrypt API as the existing (non-Post-Quantum) Digital Signature Algorithms supported by CNG in order to perform the operations the algorithms support. These are: 
+The consumers of Post-Quantum Digital Signature algorithms will use the same subset of the BCrypt API as the existing (non-Post-Quantum) Digital Signature Algorithms supported by CNG in order to perform the operations the algorithms support. These are:
 
 - Algorithm handle manipulation: [BCryptOpenAlgorithmProvider](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider), [BCryptCloseAlgorithmProvider](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptclosealgorithmprovider)
 - Key management: [BCryptGenerateKeyPair](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptgeneratekeypair), [BCryptImportKeyPair](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptimportkeypair), [BCryptExportKey](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptexportkey), [BCryptDestroyKey](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptdestroykey), [BCryptFinalizeKeyPair](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptfinalizekeypair)
@@ -86,6 +86,6 @@ The consumers of Post-Quantum Digital Signature algorithms will use the same sub
 
 | Requirement | Value |
 | ---- | ---- |
-| **Minimum supported client** | **Windows Insiders (build 27843):** Support for ML-DSA begins. [desktop apps only] |
-| **Minimum supported server** | **Windows Insiders (build 27843):** Support for ML-DSA begins. [desktop apps only] |
+| **Minimum supported client** | **Windows 11 24H2:** Support for ML-DSA begins. [desktop apps only] |
+| **Minimum supported server** | **Windows Server 2025:** Support for ML-DSA begins. [desktop apps only] |
 | **Header** | `bcrypt.h` |
