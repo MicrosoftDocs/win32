@@ -293,8 +293,18 @@
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_certificate_info
         - name: "WINHTTP_CONNECTION_GROUP"
           href: /windows/win32/api/Winhttp/ns-winhttp-winhttp_connection_group
+        - name: "WINHTTP_CONNECTION_IFINDEX_ENTRY"
+          href: winhttpconnectionifindexentry.md
+        - name: "WINHTTP_CONNECTION_IFINDEX_LIST"
+          href: winhttpconnectionifindexlist.md
         - name: "WINHTTP_CONNECTION_INFO"
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_connection_info
+        - name: "WINHTTP_CONNECTION_POLICY_ENTRY"
+          href: winhttpconnectionpolicyentry.md
+        - name: "WINHTTP_CONNECTION_POLICY_ENTRY_LIST"
+          href: winhttpconnectionpolicyentrylist.md
+        - name: "WINHTTP_CONNECTION_PROXY_INFO"
+          href: winhttpconnectionproxyinfo.md
         - name: "WINHTTP_CREDS"
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_creds
         - name: "WINHTTP_CREDS_EX"
@@ -334,6 +344,12 @@
       - name: "WinHTTP enumerations"
         href: winhttp-enumerations.md
         items: 
+        - name: "WINHTTP_CONNECTION_POLICY_TAG"
+          href: winhttpconnectionpolicytag.md
+        - name: "WINHTTP_CONNECTION_PROXY_INFO_SWITCH"
+          href: winhttpconnectionproxyinfoswitch.md
+        - name: "WINHTTP_CONNECTION_PROXY_TYPE"
+          href: winhttpconnectionproxytype.md
         - name: "WINHTTP_PROXY_SETTINGS_TYPE"
           href: /windows/win32/api/winhttp/ne-winhttp-winhttp_proxy_settings_type
         - name: "WINHTTP_WEB_SOCKET_BUFFER_TYPE"
