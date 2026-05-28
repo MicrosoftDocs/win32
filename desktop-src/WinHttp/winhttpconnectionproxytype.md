@@ -23,10 +23,7 @@ Specifies the type of proxy protocol for a per-connection proxy configuration.
 ```cpp
 typedef enum _WINHTTP_CONNECTION_PROXY_TYPE {
     WINHTTP_CONNECTION_PROXY_TYPE_NULL   = 0,
-    WINHTTP_CONNECTION_PROXY_TYPE_HTTP   = 1,
-    WINHTTP_CONNECTION_PROXY_TYPE_WAP    = 2,
-    WINHTTP_CONNECTION_PROXY_TYPE_SOCKS4 = 4,
-    WINHTTP_CONNECTION_PROXY_TYPE_SOCKS5 = 5
+    WINHTTP_CONNECTION_PROXY_TYPE_HTTP   = 1
 } WINHTTP_CONNECTION_PROXY_TYPE;
 ```
 
@@ -36,9 +33,6 @@ typedef enum _WINHTTP_CONNECTION_PROXY_TYPE {
 |----------|-------|-------------|
 | **WINHTTP_CONNECTION_PROXY_TYPE_NULL** | 0 | No proxy / placeholder. |
 | **WINHTTP_CONNECTION_PROXY_TYPE_HTTP** | 1 | HTTP/HTTPS proxy. |
-| **WINHTTP_CONNECTION_PROXY_TYPE_WAP** | 2 | WAP gateway proxy. |
-| **WINHTTP_CONNECTION_PROXY_TYPE_SOCKS4** | 4 | SOCKS version 4 proxy. |
-| **WINHTTP_CONNECTION_PROXY_TYPE_SOCKS5** | 5 | SOCKS version 5 proxy. |
 
 ## Requirements
 

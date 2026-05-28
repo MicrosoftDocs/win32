@@ -41,9 +41,6 @@ The proxy protocol type to set. One of the following values.
 | Value | Meaning |
 |-------|---------|
 | **WINHTTP_CONNECTION_PROXY_TYPE_HTTP** (1) | HTTP proxy. |
-| **WINHTTP_CONNECTION_PROXY_TYPE_WAP** (2) | WAP proxy. |
-| **WINHTTP_CONNECTION_PROXY_TYPE_SOCKS4** (4) | SOCKS4 proxy. |
-| **WINHTTP_CONNECTION_PROXY_TYPE_SOCKS5** (5) | SOCKS5 proxy. |
 
 ### pProxyInfo [in]
 
