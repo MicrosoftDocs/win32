@@ -32,7 +32,6 @@ The following groups are supported by the Microsoft Schannel Provider, but are n
 | brainpoolP256r1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
 | brainpoolP384r1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
 | brainpoolP512r1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
-| curve25519 | TLS 1.0, 1.1, 1.2, 1.3 | No |
 | nistP192 | TLS 1.0, 1.1, 1.2, 1.3 | No |
 | nistP224 | TLS 1.0, 1.1, 1.2, 1.3 | No |
 | nistP521 | TLS 1.0, 1.1, 1.2, 1.3 | Yes |
