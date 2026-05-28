@@ -23,7 +23,7 @@ api_location:
 api_name:
  - DLLGetDocumentation
 targetos: Windows
-ms.product: Windows
+ms.prod: Windows
 req.product: Windows
 ---
 
