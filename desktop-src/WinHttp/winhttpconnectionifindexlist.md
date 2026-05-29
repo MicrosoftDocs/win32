@@ -11,7 +11,7 @@ api_name:
 api_type: 
 - HeaderDef
 api_location: 
-- winhttp_conn_proxy.h
+- N/A
 ---
 
 # WINHTTP_CONNECTION_IFINDEX_LIST structure
@@ -37,11 +37,16 @@ Pointer to an array of [WINHTTP_CONNECTION_IFINDEX_ENTRY](winhttpconnectionifind
 
 The number of entries in the **pConnectionIfIndexEntries** array. Set to 0 to clear all connection-interface mappings.
 
+## Remarks
+
+> [!NOTE]
+> This type is not currently included in an SDK header file. You must declare it yourself in your code.
+
 ## Requirements
 
 | Requirement | Value |
 |---|---|
-| Header | winhttp_conn_proxy.h |
+| Header | N/A |
 
 ## See also
 

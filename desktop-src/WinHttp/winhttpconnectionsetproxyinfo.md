@@ -71,6 +71,9 @@ Returns **ERROR_SUCCESS** (0) on success. Returns a [system error code](/windows
 
 ## Remarks
 
+> [!NOTE]
+> This API is not currently included in an SDK header file. You must declare the function yourself in your code.
+
 If the specified proxy type does not exist for the connection, it is added. If it already exists, it is replaced.
 
 For HTTP proxies, the function probes the proxy for authentication requirements. If the proxy requires authentication and credentials are supplied, they are stored in Windows Credential Manager.
@@ -98,7 +101,7 @@ DWORD dwError = WinHttpConnectionSetProxyInfo(
 
 | Requirement | Value |
 |---|---|
-| Header | winhttp.h, winhttp_conn_proxy.h |
+| Header | N/A |
 | Library | winhttp.lib |
 | DLL | winhttp.dll |
 

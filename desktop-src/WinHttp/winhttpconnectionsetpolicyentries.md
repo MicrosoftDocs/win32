@@ -71,6 +71,9 @@ Returns **ERROR_SUCCESS** (0) on success. Returns a [system error code](/windows
 
 ## Remarks
 
+> [!NOTE]
+> This API is not currently included in an SDK header file. You must declare the function yourself in your code.
+
 Policy entries instruct WinHTTP which named connections are eligible to carry traffic destined for specific hosts or originating from specific applications. This is central to connection-aware networking on devices with multiple simultaneous network connections.
 
 Calling this function replaces any previously set entries for the same *PolicyEntryTag*. The typical pattern is:
@@ -116,7 +119,7 @@ WinHttpConnectionSetPolicyEntries(
 
 | Requirement | Value |
 |---|---|
-| Header | winhttp.h, winhttp_conn_proxy.h |
+| Header | N/A |
 | Library | winhttp.lib |
 | DLL | winhttp.dll |
 

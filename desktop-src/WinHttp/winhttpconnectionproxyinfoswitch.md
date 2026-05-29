@@ -11,7 +11,7 @@ api_name:
 api_type: 
 - HeaderDef
 api_location: 
-- winhttp_conn_proxy.h
+- N/A
 ---
 
 # WINHTTP_CONNECTION_PROXY_INFO_SWITCH enumeration
@@ -36,11 +36,16 @@ typedef enum _WINHTTP_CONNECTION_PROXY_INFO_SWITCH {
 | **WINHTTP_CONNECTION_PROXY_INFO_SWITCH_SCRIPT** | 1 | Automatic proxy configuration via PAC script URL. The **Script** member of the union is used, providing a script URL and optional credentials. |
 | **WINHTTP_CONNECTION_PROXY_INFO_SWITCH_WPAD** | 2 | Automatic proxy configuration via WPAD auto-discovery. The **Script** member of the union is used, providing a WPAD URL and optional credentials. |
 
+## Remarks
+
+> [!NOTE]
+> This type is not currently included in an SDK header file. You must declare it yourself in your code.
+
 ## Requirements
 
 | Requirement | Value |
 |---|---|
-| Header | winhttp_conn_proxy.h |
+| Header | N/A |
 
 ## See also
 

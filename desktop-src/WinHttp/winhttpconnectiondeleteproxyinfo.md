@@ -52,6 +52,9 @@ Returns **ERROR_SUCCESS** (0) on success. Returns a [system error code](/windows
 
 ## Remarks
 
+> [!NOTE]
+> This API is not currently included in an SDK header file. You must declare the function yourself in your code.
+
 Before deleting the proxy entry, the function retrieves the current proxy configuration to identify stored credentials. Any credentials associated with the proxy server are removed from Windows Credential Manager on a best-effort basis.
 
 This API requires elevated (administrator) privileges.
@@ -60,7 +63,7 @@ This API requires elevated (administrator) privileges.
 
 | Requirement | Value |
 |---|---|
-| Header | winhttp.h, winhttp_conn_proxy.h |
+| Header | N/A |
 | Library | winhttp.lib |
 | DLL | winhttp.dll |
 

@@ -11,7 +11,7 @@ api_name:
 api_type: 
 - HeaderDef
 api_location: 
-- winhttp_conn_proxy.h
+- N/A
 ---
 
 # WINHTTP_CONNECTION_PROXY_TYPE enumeration
@@ -34,11 +34,16 @@ typedef enum _WINHTTP_CONNECTION_PROXY_TYPE {
 | **WINHTTP_CONNECTION_PROXY_TYPE_NULL** | 0 | No proxy / placeholder. |
 | **WINHTTP_CONNECTION_PROXY_TYPE_HTTP** | 1 | HTTP/HTTPS proxy. |
 
+## Remarks
+
+> [!NOTE]
+> This type is not currently included in an SDK header file. You must declare it yourself in your code.
+
 ## Requirements
 
 | Requirement | Value |
 |---|---|
-| Header | winhttp_conn_proxy.h |
+| Header | N/A |
 
 ## See also
 

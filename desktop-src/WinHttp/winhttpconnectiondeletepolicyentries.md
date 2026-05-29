@@ -55,6 +55,9 @@ Returns **ERROR_SUCCESS** (0) on success. Returns a [system error code](/windows
 
 ## Remarks
 
+> [!NOTE]
+> This API is not currently included in an SDK header file. You must declare the function yourself in your code.
+
 Removes all policy entries previously registered with the specified tag. Other tags' entries remain unaffected.
 
 Typically called before [**WinHttpConnectionSetPolicyEntries**](winhttpconnectionsetpolicyentries.md) to ensure a clean slate when refreshing policy from the owning component.
@@ -65,7 +68,7 @@ This API requires elevated (administrator/SYSTEM) privileges.
 
 | Requirement | Value |
 |---|---|
-| Header | winhttp.h, winhttp_conn_proxy.h |
+| Header | N/A |
 | Library | winhttp.lib |
 | DLL | winhttp.dll |
 

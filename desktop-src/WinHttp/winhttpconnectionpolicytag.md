@@ -11,7 +11,7 @@ api_name:
 api_type: 
 - HeaderDef
 api_location: 
-- winhttp_conn_proxy.h
+- N/A
 ---
 
 # WINHTTP_CONNECTION_POLICY_TAG enumeration
@@ -36,11 +36,16 @@ typedef enum _WINHTTP_CONNECTION_POLICY_TAG {
 | **TAG_WINHTTP_CONNECTION_POLICY_TAG_CONNECTION_MANAGER** | 1 | Entries managed by the system connection manager. |
 | **TAG_WINHTTP_CONNECTION_POLICY_TAG_WWWPT** | 2 | Entries managed by the WWWPT (Windows Web Platform Transport) component. |
 
+## Remarks
+
+> [!NOTE]
+> This type is not currently included in an SDK header file. You must declare it yourself in your code.
+
 ## Requirements
 
 | Requirement | Value |
 |---|---|
-| Header | winhttp_conn_proxy.h |
+| Header | N/A |
 
 ## See also
 

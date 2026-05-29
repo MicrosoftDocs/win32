@@ -56,6 +56,9 @@ Returns **ERROR_SUCCESS** (0) on success. Returns a [system error code](/windows
 
 ## Remarks
 
+> [!NOTE]
+> This API is not currently included in an SDK header file. You must declare the function yourself in your code.
+
 This function communicates with the WinHTTP Auto-Proxy Service to update the connection-to-interface mapping table.
 
 The table enables WinHTTP to bind HTTP connections to specific network interfaces, which is critical for multi-homed devices (for example, devices with both Wi-Fi and cellular connections active simultaneously).
@@ -86,7 +89,7 @@ WinHttpConnectionUpdateIfIndexTable(hSession, &ifList);
 
 | Requirement | Value |
 |---|---|
-| Header | winhttp.h, winhttp_conn_proxy.h |
+| Header | N/A |
 | Library | winhttp.lib |
 | DLL | winhttp.dll |
 

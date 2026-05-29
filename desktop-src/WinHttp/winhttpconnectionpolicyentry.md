@@ -11,7 +11,7 @@ api_name:
 api_type: 
 - HeaderDef
 api_location: 
-- winhttp_conn_proxy.h
+- N/A
 ---
 
 # WINHTTP_CONNECTION_POLICY_ENTRY structure
@@ -66,11 +66,16 @@ Policy entry flags. The following value is supported.
 |------|-------|-------------|
 | **WINHTTP_CONNECTION_POLICY_ENTRY_ONDEMAND** | 0x1 | Indicates the connection should be activated on-demand when traffic matches this policy entry. |
 
+## Remarks
+
+> [!NOTE]
+> This type is not currently included in an SDK header file. You must declare it yourself in your code.
+
 ## Requirements
 
 | Requirement | Value |
 |---|---|
-| Header | winhttp_conn_proxy.h |
+| Header | N/A |
 
 ## See also
 

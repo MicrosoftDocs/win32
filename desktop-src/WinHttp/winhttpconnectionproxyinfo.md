@@ -11,7 +11,7 @@ api_name:
 api_type: 
 - HeaderDef
 api_location: 
-- winhttp_conn_proxy.h
+- N/A
 ---
 
 # WINHTTP_CONNECTION_PROXY_INFO structure
@@ -92,11 +92,16 @@ Used when **Switch** is **WINHTTP_CONNECTION_PROXY_INFO_SWITCH_SCRIPT** or **WIN
 | **pwszUsername** | Authentication username. |
 | **pwszPassword** | Authentication password. |
 
+## Remarks
+
+> [!NOTE]
+> This type is not currently included in an SDK header file. You must declare it yourself in your code.
+
 ## Requirements
 
 | Requirement | Value |
 |---|---|
-| Header | winhttp_conn_proxy.h |
+| Header | N/A |
 
 ## See also
 
