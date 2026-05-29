@@ -4,8 +4,8 @@ description: This structure is used to import and export keys for the ML-KEM alg
 ms.topic: reference
 ms.date: 05/27/2025
 req.header: bcrypt.h
-req.target-min-winverclnt: Windows Insiders Preview
-req.target-min-winversvr: Windows Insiders Preview
+req.target-min-winverclnt: Windows 11 24H2
+req.target-min-winversvr: Windows Server 2025
 req.lib:
 req.dll:
 topic_type:
@@ -23,7 +23,7 @@ targetos: Windows
 # BCRYPT_MLKEM_KEY_BLOB structure
 
 > [!NOTE]
-> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. The feature described in this topic is available in pre-release versions of the [Windows Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
+> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. The composite features described in this topic is available in pre-release versions of the [Windows Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
 The **BCRYPT_MLKEM_KEY_BLOB** structure is used as a header for an ML-KEM [public key](/windows/win32/SecGloss/p-gly) (byte-encoded encapsulation key) or [private key](/windows/win32/SecGloss/p-gly) [BLOB](/windows/win32/SecGloss/b-gly) in memory.
 
@@ -39,6 +39,16 @@ typedef struct _BCRYPT_MLKEM_KEY_BLOB {
 } BCRYPT_MLKEM_KEY_BLOB, *PBCRYPT_MLKEM_KEY_BLOB;
 ```
 
+```cpp
+typedef struct _BCRYPT_COMPOSITE_MLKEM_KEY_BLOB {
+  ULONG dwMagic;
+  ULONG cbParameterSet;             // Byte size of parameterSet[]
+  ULONG cbKey;                      // Byte size of key[]
+  // WCHAR parameterSet[cbParameterSet / sizeof(WCHAR)];  // Including \0-terminated
+  // BYTE key[cbKey];                                     // Key material
+} BCRYPT_COMPOSITE_MLKEM_KEY_BLOB, *PBCRYPT_COMPOSITE_MLKEM_KEY_BLOB;
+```
+
 ## Fields
 
 ### dwMagic
@@ -50,16 +60,22 @@ The **dwMagic** field is a 4-byte value that indicates the format of the key bei
 | **BCRYPT_MLKEM_PUBLIC_MAGIC** `0x504B4C4D` | The structure represents a public key. |
 | **BCRYPT_MLKEM_PRIVATE_MAGIC** `0x524B4C4D` | The structure represents an expanded private key. |
 | **BCRYPT_MLKEM_PRIVATE_SEED_MAGIC** `0x534B4C4D` | The structure represents a private seed. |
+| **BCRYPT_COMPOSITE_MLKEM_PUBLIC_MAGIC** `0x504B4D43` | The structure represents a public key. |
+| **BCRYPT_COMPOSITE_MLKEM_PRIVATE_MAGIC** `0x524B4D43` | The structure represents a private key. |
+| **BCRYPT_COMPOSITE_MLKEM_PRIVATE_IRTF_SEED_MAGIC** `0x534B4D43` | The structure represents a private seed. Reference: [IRTF](https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-hybrid-kems-11#section-5.5) |
 
 ### cbParameterSet
 
-The length, in bytes, of the buffer **parameterSet** directly following the struct. This buffer contains a null-terminated Unicode string that identifies the parameter set of the key. The following values (per [FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf)) are currently supported:
+The length, in bytes, of the buffer **parameterSet** directly following the struct. This buffer contains a null-terminated Unicode string that identifies the parameter set of the key. The following values are currently supported:
 
-| parameterSet | cbParameterSet | Meaning |
-|--|--|--|
-| **BCRYPT_MLKEM_PARAMETER_SET_512** `L"512"` | 8 | ML-KEM-512, security category 1. |
-| **BCRYPT_MLKEM_PARAMETER_SET_768** `L"768"` | 8 | ML-KEM-768, security category 3. |
-| **BCRYPT_MLKEM_PARAMETER_SET_1024** `L"1024"` | 10 | ML-KEM-1024, security category 5. |
+| parameterSet | Meaning |
+|--|--|
+| **BCRYPT_MLKEM_PARAMETER_SET_512** `L"512"` | ML-KEM-512, security category 1. |
+| **BCRYPT_MLKEM_PARAMETER_SET_768** `L"768"` | ML-KEM-768, security category 3. |
+| **BCRYPT_MLKEM_PARAMETER_SET_1024** `L"1024"` | ML-KEM-1024, security category 5. |
+| **BCRYPT_COMPOSITE_MLKEM_PARAMETER_SET_768_P256** `L"768-P256"` | Composite ML-KEM-768 and ECDH P256 |
+| **BCRYPT_COMPOSITE_MLKEM_PARAMETER_SET_768_X25519** `L"768-X25519"` | Composite ML-KEM-768 and curve25519 |
+| **BCRYPT_COMPOSITE_MLKEM_PARAMETER_SET_1024_P384** `L"1024-P384"` | Composite ML-KEM-1024 and ECDH P384 |
 
 ### cbKey
 
@@ -67,20 +83,26 @@ The length, in bytes, of the buffer **key** directly following **parameterSet**.
 
 ## Remarks
 
-**BCRYPT_MLKEM_PRIVATE_SEED_BLOB** supports import and export of ML-KEM seeds. The blob has **dwMagic**  value `BCRYPT_MLKEM_PRIVATE_SEED_MAGIC` and the **key** field contains the KEM seed (defined as the 64-byte concatenation of `d || z` per [FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf)), so **cbKey** is currently always `64`.
-
-**BCRYPT_MLKEM_PRIVATE_BLOB** (also aliased as **BCRYPT_MLKEM_DECAPSULATION_BLOB**) supports import and export of standard byte-encoded ML-KEM decapsulation keys per [FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf). The blob has **dwMagic** value `BCRYPT_MLKEM_PRIVATE_MAGIC` and the **key** field contains the byte-encoded key. 
+**BCRYPT_MLKEM_PRIVATE_BLOB** (also aliased as **BCRYPT_MLKEM_DECAPSULATION_BLOB**) supports import and export of standard byte-encoded ML-KEM decapsulation keys per [FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf). The blob has **dwMagic** value `BCRYPT_MLKEM_PRIVATE_MAGIC` and the **key** field contains the byte-encoded key.
 
 **BCRYPT_MLKEM_PUBLIC_BLOB** (also aliased as **BCRYPT_MLKEM_ENCAPSULATION_BLOB**) supports import and export of standard byte-encoded ML-KEM encapsulation keys per [FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf). The blob has **dwMagic** value `BCRYPT_MLKEM_PUBLIC_MAGIC` and the **key** field contains the byte-encoded key.
 
+**BCRYPT_MLKEM_PRIVATE_SEED_BLOB** supports import and export of ML-KEM seeds. The blob has **dwMagic**  value `BCRYPT_MLKEM_PRIVATE_SEED_MAGIC` and the **key** field contains the KEM seed (defined as the 64-byte concatenation of `d || z` per [FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf)), so **cbKey** is currently always `64`.
+
 The byte sizes of the byte-encoded keys can be found in [FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf) Section 8 Table 3. Many callers can instead dynamically query the required blob sizes using **BCryptExportKey** with `NULL` *pbOutput*.
+
+**BCRYPT_COMPOSITE_MLKEM_PRIVATE_BLOB** supports import and export of standard byte-encoded Composite-ML-KEM private keys per [PQ Composite ML-KEM](https://datatracker.ietf.org/doc/html/draft-ietf-lamps-pq-composite-kem). The blob has **dwMagic** value `BCRYPT_COMPOSITE_MLKEM_PRIVATE_MAGIC` and the **key** field contains the byte-encoded key.
+
+**BCRYPT_COMPOSITE_MLKEM_PUBLIC_BLOB** supports import and export of standard byte-encoded Composite-ML-KEM public keys per [PQ Composite ML-KEM](https://datatracker.ietf.org/doc/html/draft-ietf-lamps-pq-composite-kem). The blob has **dwMagic** value `BCRYPT_COMPOSITE_MLKEM_PUBLIC_MAGIC` and the **key** field contains the byte-encoded key.
+
+**BCRYPT_COMPOSITE_MLKEM_PRIVATE_IRTF_SEED_BLOB** supports import and export of Composite-ML-KEM seeds. The blob has **dwMagic**  value `BCRYPT_COMPOSITE_MLKEM_PRIVATE_IRTF_SEED_MAGIC` and the **key** field contains the 32-byte IRTF Composite-ML-KEM seed per [CFRG Concrete Hybrid KEMs](https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-concrete-hybrid-kems), so **cbKey** is currently always `32`.
 
 ## Requirements
 
 | Requirement | Value |
 | ---- | ---- |
-| **Minimum supported client** | **Windows Insiders (build 27843):** Support for ML-KEM begins. [desktop apps only] |
-| **Minimum supported server** | **Windows Insiders (build 27843):** Support for ML-KEM begins. [desktop apps only] |
+| **Minimum supported client** | **Windows 11 24H2:** Support for ML-KEM begins. [desktop apps only] |
+| **Minimum supported server** | **Windows Server 2025:** Support for ML-KEM begins. [desktop apps only] |
 | **Header** | `bcrypt.h` |
 
 ## See also

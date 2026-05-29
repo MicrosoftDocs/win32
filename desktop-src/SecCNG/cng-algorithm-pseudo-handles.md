@@ -47,10 +47,8 @@ Beginning in Windows 10, CNG (Cryptography API: Next Generation) provides pre-de
 
 | Constant | Description | Standards |
 |----------|-------------|-----------|
-| **BCRYPT_LMS_ALG_HANDLE** | A handle to the Leighton-Micali Hash-Based Signature (LMS) algorithm. | [RFC 8554](https://datatracker.ietf.org/doc/html/rfc8554) |
-| **BCRYPT_MLDSA_ALG_HANDLE** | A handle to the Module-Lattice-Based Digital Signature Algorithm (ML-DSA). | [FIPS 204](https://csrc.nist.gov/pubs/fips/204/final) |
-| **BCRYPT_SLHDSA_ALG_HANDLE** | A handle to the Stateless Hash-based Digital Signature Algorithm (SLH-DSA). | [FIPS 205](https://csrc.nist.gov/pubs/fips/205/final) |
-| **BCRYPT_XMSS_ALG_HANDLE** | A handle to the eXtended Merkle Signature Scheme (XMSS) stateful hash-based algorithm. | [RFC 8391](https://datatracker.ietf.org/doc/html/rfc8391) |
+| **BCRYPT_MLDSA_ALG_HANDLE**<br/>0x00000471 | A handle to the Module-Lattice-Based Digital Signature Algorithm (ML-DSA). | [FIPS 204](https://csrc.nist.gov/pubs/fips/204/final) |
+| **BCRYPT_COMPOSITE_MLDSA_ALG_HANDLE**<br/>0x00000491 | A handle to the composite ML-DSA and traditional signature algorithm. | [IETF draft](https://datatracker.ietf.org/doc/html/draft-ietf-lamps-pq-composite-sigs) |
 
 ## Stream cipher algorithms
 
@@ -81,7 +79,8 @@ Beginning in Windows 10, CNG (Cryptography API: Next Generation) provides pre-de
 
 | Constant | Description | Standards |
 |----------|-------------|-----------|
-| **BCRYPT_MLKEM_ALG_HANDLE** | A handle to the Module-Lattice-Based Key Encapsulation Mechanism (ML-KEM) algorithm. | [FIPS 203](https://csrc.nist.gov/pubs/fips/203/final) |
+| **BCRYPT_MLKEM_ALG_HANDLE**<br/>0x00000481 | A handle to the Module-Lattice-Based Key Encapsulation Mechanism (ML-KEM) algorithm. | [FIPS 203](https://csrc.nist.gov/pubs/fips/203/final) |
+| **BCRYPT_COMPOSITE_MLKEM_ALG_HANDLE**<br/>0x000004A1 | A handle to the composite ML-KEM and traditional key encapsulation algorithm. | [IETF draft](https://datatracker.ietf.org/doc/html/draft-ietf-lamps-pq-composite-kem) and [CFRG draft](https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-concrete-hybrid-kems) |
 
 ## Asymmetric algorithms
 
