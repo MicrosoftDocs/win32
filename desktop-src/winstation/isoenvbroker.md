@@ -237,7 +237,7 @@ namespace Windows.AI.IsolationSession
 
 | Requirement | Value |
 |-------------------------------------|----------------------------------------|
-| Minimum supported client | Windows 11 |
+| Minimum supported client | **Windows 11 (Insiders Channel)** |
 | Minimum supported server |  |
 | Type library             | IsoSessionClient.dll |
 | DLL                      | IsoSessionClient.dll |
