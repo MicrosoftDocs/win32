@@ -9,7 +9,7 @@ topic_type:
 api_name:
 - IsolationSession
 api_location:
-- IsolationSession.dll
+- IsoSessionApp.dll
 api_type:
 - COM
 ms.topic: reference
