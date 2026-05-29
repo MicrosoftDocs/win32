@@ -80,7 +80,7 @@ Beginning in Windows 10, CNG (Cryptography API: Next Generation) provides pre-de
 | Constant | Description | Standards |
 |----------|-------------|-----------|
 | **BCRYPT_MLKEM_ALG_HANDLE**<br/>0x00000481 | A handle to the Module-Lattice-Based Key Encapsulation Mechanism (ML-KEM) algorithm. | [FIPS 203](https://csrc.nist.gov/pubs/fips/203/final) |
-| **BCRYPT_COMPOSITE_MLKEM_ALG_HANDLE**<br/>0x000004A1 | A handle to the composite ML-KEM and traditional key encapsulation algorithm. | [IETF draft](https://datatracker.ietf.org/doc/html/draft-ietf-lamps-pq-composite-kem) |
+| **BCRYPT_COMPOSITE_MLKEM_ALG_HANDLE**<br/>0x000004A1 | A handle to the composite ML-KEM and traditional key encapsulation algorithm. | [IETF draft](https://datatracker.ietf.org/doc/html/draft-ietf-lamps-pq-composite-kem) and [CFRG draft](https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-concrete-hybrid-kems) |
 
 ## Asymmetric algorithms
 
