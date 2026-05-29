@@ -4,8 +4,8 @@ description: This structure is used to import and export keys for the ML-KEM alg
 ms.topic: reference
 ms.date: 05/27/2025
 req.header: bcrypt.h
-req.target-min-winverclnt: Windows Insiders Preview
-req.target-min-winversvr: Windows Insiders Preview
+req.target-min-winverclnt: Windows 11 24H2
+req.target-min-winversvr: Windows Server 2025
 req.lib:
 req.dll:
 topic_type:
@@ -83,13 +83,19 @@ The length, in bytes, of the buffer **key** directly following **parameterSet**.
 
 ## Remarks
 
-**BCRYPT_MLKEM_PRIVATE_SEED_BLOB** supports import and export of ML-KEM seeds. The blob has **dwMagic**  value `BCRYPT_MLKEM_PRIVATE_SEED_MAGIC` and the **key** field contains the KEM seed (defined as the 64-byte concatenation of `d || z` per [FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf)), so **cbKey** is currently always `64`.
-
 **BCRYPT_MLKEM_PRIVATE_BLOB** (also aliased as **BCRYPT_MLKEM_DECAPSULATION_BLOB**) supports import and export of standard byte-encoded ML-KEM decapsulation keys per [FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf). The blob has **dwMagic** value `BCRYPT_MLKEM_PRIVATE_MAGIC` and the **key** field contains the byte-encoded key.
 
 **BCRYPT_MLKEM_PUBLIC_BLOB** (also aliased as **BCRYPT_MLKEM_ENCAPSULATION_BLOB**) supports import and export of standard byte-encoded ML-KEM encapsulation keys per [FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf). The blob has **dwMagic** value `BCRYPT_MLKEM_PUBLIC_MAGIC` and the **key** field contains the byte-encoded key.
 
+**BCRYPT_MLKEM_PRIVATE_SEED_BLOB** supports import and export of ML-KEM seeds. The blob has **dwMagic**  value `BCRYPT_MLKEM_PRIVATE_SEED_MAGIC` and the **key** field contains the KEM seed (defined as the 64-byte concatenation of `d || z` per [FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf)), so **cbKey** is currently always `64`.
+
 The byte sizes of the byte-encoded keys can be found in [FIPS 203](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.203.pdf) Section 8 Table 3. Many callers can instead dynamically query the required blob sizes using **BCryptExportKey** with `NULL` *pbOutput*.
+
+**BCRYPT_COMPOSITE_MLKEM_PRIVATE_BLOB** supports import and export of standard byte-encoded ML-KEM decapsulation keys per [PQ Composite ML-KEM](https://datatracker.ietf.org/doc/html/draft-ietf-lamps-pq-composite-kem). The blob has **dwMagic** value `BCRYPT_COMPOSITE_MLKEM_PRIVATE_MAGIC` and the **key** field contains the byte-encoded key.
+
+**BCRYPT_COMPOSITE_MLKEM_PUBLIC_BLOB** supports import and export of standard byte-encoded ML-KEM encapsulation keys per [PQ Composite ML-KEM](https://datatracker.ietf.org/doc/html/draft-ietf-lamps-pq-composite-kem). The blob has **dwMagic** value `BCRYPT_COMPOSITE_MLKEM_PUBLIC_MAGIC` and the **key** field contains the byte-encoded key.
+
+**BCRYPT_COMPOSITE_MLKEM_PRIVATE_IRTF_SEED_BLOB** supports import and export of ML-KEM seeds. The blob has **dwMagic**  value `BCRYPT_COMPOSITE_MLKEM_PRIVATE_IRTF_SEED_MAGIC` and the **key** field contains the 32-byte IRTF Composite ML-KEM seed per [Concrete Hybrid PQ/T Key Encapsulation Mechanisms](https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-concrete-hybrid-kems), so **cbKey** is currently always `32`.
 
 ## Requirements
 

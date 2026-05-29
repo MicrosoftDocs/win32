@@ -4,8 +4,8 @@ description: This structure is used to import and export keys for Post-Quantum D
 ms.topic: reference
 ms.date: 05/27/2025
 req.header: bcrypt.h
-req.target-min-winverclnt: Windows Insiders Preview
-req.target-min-winversvr: Windows Insiders Preview
+req.target-min-winverclnt: Windows 11 24H2
+req.target-min-winversvr: Windows Server 2025
 req.lib:
 req.dll:
 topic_type:
