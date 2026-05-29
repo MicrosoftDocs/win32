@@ -1,8 +1,27 @@
+---
+title: Create Process In Sandbox APIs
+description: Creates a new process in a composable sandbox (Project Tessera).
+ms.tgt_platform: multiple
+keywords:
+- CreateProcessInSandbox
+topic_type:
+- apiref
+api_name:
+- Experimental_CreateProcessInSandbox
+- Experimental_CreateProcessAsUserInSandbox
+api_location:
+- processmodel.dll
+api_type:
+- DllExport
+ms.topic: reference
+ms.date: 6/1/2026
+---
+
 # Experimental_CreateProcessInSandbox / Experimental_CreateProcessAsUserInSandbox
 
 Creates a new process in a composable sandbox (Project Tessera).
 
-These APIs launch a process with the containment properties described by a compiled sandbox specification. They are the sandboxed equivalents of [CreateProcess](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw) and [CreateProcessAsUser](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessasuserw), respectively.
+These APIs launch a process with the containment properties described by a compiled sandbox specification. They are the sandboxed equivalents of [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw) and [**CreateProcessAsUser**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessasuserw), respectively.
 
 > **Experimental:** These APIs are subject to change.
 
@@ -51,7 +70,7 @@ BOOL Experimental_CreateProcessAsUserInSandbox(
 
 A handle to the primary token that represents the user under whose identity the sandboxed process will run. The handle must have `TOKEN_QUERY`, `TOKEN_DUPLICATE`, and `TOKEN_ASSIGN_PRIMARY` access.
 
-Same as `CreateProcessAsUser`; refer to [MSDN](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessasuserw).
+Same as [**CreateProcessAsUser**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessasuserw).
 
 If this parameter is **NULL**, the function fails with `E_HANDLE`.
 
@@ -59,13 +78,13 @@ If this parameter is **NULL**, the function fails with `E_HANDLE`.
 
 ### `applicationName`
 
-Same as `CreateProcess`; refer to [MSDN](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw). If NULL, the executable is resolved from `commandLine`.
+Same as [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw). If NULL, the executable is resolved from `commandLine`.
 
 ---
 
 ### `commandLine`
 
-Same as `CreateProcess`; refer to [MSDN](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw).
+Same as [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw).
 
 ---
 
@@ -89,7 +108,7 @@ Same as `CreateProcess`; refer to [MSDN](https://learn.microsoft.com/en-us/windo
 
 ### `creationFlags`
 
-Same as `CreateProcess`; refer to [MSDN](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw).
+Same as [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw).
 
 > **Important:** If you supply an `environment` block, you **must** include `CREATE_UNICODE_ENVIRONMENT` in `creationFlags`. Only Unicode environment blocks are accepted (see *environment* below).
 
@@ -97,7 +116,7 @@ Same as `CreateProcess`; refer to [MSDN](https://learn.microsoft.com/en-us/windo
 
 ### `environment`
 
-Same as `CreateProcess`; refer to [MSDN](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw).
+Same as [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw).
 
 **Additional constraints:**
 
@@ -114,13 +133,13 @@ If NULL, the child process inherits the environment of the calling process (stan
 
 ### `currentDirectory`
 
-Same as `CreateProcess`; refer to [MSDN](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw). If NULL, defaults to the caller's current directory.
+Same as [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw). If NULL, defaults to the caller's current directory.
 
 ---
 
 ### `startupInfo`
 
-Same as `CreateProcess`; refer to [MSDN](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw).
+Same as [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw).
 
 Must not be NULL. If NULL, the function fails with `E_INVALIDARG`.
 
@@ -164,7 +183,7 @@ The size, in bytes, of the `sandboxSpecification` buffer.
 
 ### `processInformation`
 
-Same as `CreateProcess`; refer to [MSDN](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw).
+Same as [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw).
 
 Must not be NULL. If NULL, the function fails with `E_INVALIDARG`.
 
@@ -371,6 +390,6 @@ A process that is itself running inside an AppContainer **cannot** call these AP
 
 ## See Also
 
-- [CreateProcess](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw)
-- [CreateProcessAsUser](https://learn.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessasuserw)
-- [AppContainer Isolation](https://learn.microsoft.com/en-us/windows/win32/secauthz/appcontainer-isolation)
+- [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw)
+- [**CreateProcessAsUser**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessasuserw)
+- [AppContainer Isolation](/windows/win32/secauthz/appcontainer-isolation)

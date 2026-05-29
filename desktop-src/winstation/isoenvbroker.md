@@ -13,7 +13,7 @@ api_location:
 api_type:
 - COM
 ms.topic: reference
-ms.date: 10/24/2025
+ms.date: 6/1/2026
 ---
 
 # IsolationSession interface
