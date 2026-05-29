@@ -94,7 +94,6 @@ namespace Windows.AI.IsolationSession
         Read = 0,
         ReadWrite = 1,
         Remove = 2,
-        Deny = 3,
     };
 
     enum IsoSessionFolderSharingStatus
@@ -125,6 +124,47 @@ namespace Windows.AI.IsolationSession
     {
         IsoSessionError Error { get; };
         IsoSessionProcess Process { get; };
+    }
+
+    runtimeclass IsoSessionAppConfig
+    {
+        IsoSessionAppConfig();
+
+        IsoSessionConfigId ConfigId;
+        String RegistrationId;
+
+        [interface_name("IIsoSessionAppConfig2")]
+        {
+            String ProvisionId;
+            String WamToken;
+        }
+    }
+
+    runtimeclass IsoSessionAppConnectResult
+    {
+        String AgentName { get; };
+        String AgentUserName { get; };
+        IsoSessionError Error { get; };
+    }
+
+    runtimeclass IsoSessionApp : Windows.Foundation.IClosable
+    {
+        IsoSessionApp();
+
+        String AgentName { get; };
+        String AgentUserName { get; };
+        Boolean IsConnected { get; };
+
+        Windows.Foundation.IAsyncOperation<IsoSessionAppConnectResult> ConnectAsync(IsoSessionAppConfig config);
+
+        Windows.Foundation.IAsyncOperation<IsoSessionProcessResult> LaunchProcessAsync(String processPath, String arguments);
+
+        Windows.Foundation.IAsyncOperation<IsoSessionProcessResult> LaunchProcessWithOptionsAsync(
+            String processPath,
+            String arguments,
+            IsoSessionProcessOptions options);
+
+        Windows.Foundation.IAsyncAction TeardownAsync();
     }
 
     runtimeclass IsoSessionOps
@@ -161,7 +201,7 @@ namespace Windows.AI.IsolationSession
         Windows.Foundation.IAsyncOperation<IsoSessionResult> UnregisterAppAsync(String registrationId);
 
         Windows.Foundation.IAsyncOperation<
-            Windows.Foundation.Collections.IVectorView<IsoSessionFolderSharingResult>>
+            Windows.Foundation.Collections.IVectorView<IsoSessionFolderSharingResult> >
         ShareFolderBatchAsync(
             String agentName,
             Windows.Foundation.Collections.IVectorView<IsoSessionFolderSharingRequest> requests);
@@ -188,11 +228,6 @@ namespace Windows.AI.IsolationSession
             IsoSessionUserResult[] GetAllAgentUsers(Boolean includeInactive);
 
             IsoSessionProcess[] GetProcesses(String agentName);
-        }
-
-        [interface_name("IIsoSessionOps5")]
-        {
-            Int32 BehaviorVersion { get; };
         }
     }
 }
