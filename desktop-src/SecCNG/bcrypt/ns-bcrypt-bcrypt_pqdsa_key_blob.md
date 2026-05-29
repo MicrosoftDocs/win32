@@ -23,7 +23,7 @@ targetos: Windows
 # BCRYPT_PQDSA_KEY_BLOB structure
 
 > [!NOTE]
-> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. The feature described in this topic is available in pre-release versions of the [Windows Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
+> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. The composite features described in this topic is available in pre-release versions of the [Windows Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
 
 This structure is used to import and export keys for Post-Quantum Digital Signature algorithms (PQDSA).
 The **BCRYPT_PQDSA_KEY_BLOB** structure is used as a header for a Post-Quantum Digital Signature algorithm (PQDSA)
