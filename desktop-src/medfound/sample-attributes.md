@@ -49,6 +49,7 @@ The following attributes apply to [Media Samples](media-samples.md). To get the 
 | [**MFSampleExtension\_Token**](mfsampleextension-token-attribute.md)                                          | Contains a pointer to the token that was provided to the [**IMFMediaStream::RequestSample**](/windows/desktop/api/mfidl/nf-mfidl-imfmediastream-requestsample) method.                                                                                                             |
 | [MFSampleExtension\_VideoEncodePictureType](mfsampleextension-videoencodepicturetype.md)                      | Specifies the bounds of the region of interest which indicates the region of the frame that requires different quality.                                                                                                                            |
 | [MFSampleExtension\_VideoEncodeQP](mfsampleextension-videoencodeqp.md)                                        | Specifies the quantization parameter (QP) that was used to encode a video sample.                                                                                                                                                                  |
+| [MFSampleExtension\_VideoEncodeD3D12ReconstructedPicture](mfsampleextension-videoencoded3d12reconstructedpicture.md) | Contains the reconstructed picture from a Direct3D 12 video encoder, provided as an IMFMediaBuffer. |
 
 
 

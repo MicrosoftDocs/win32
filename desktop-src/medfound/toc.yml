@@ -3657,6 +3657,8 @@
           href: mfsampleextension-videodspmode.md
         - name: "MFSampleExtension_VideoEncodeBitsUsedMap"
           href: mfsampleextension-videoencodebitsusedmap.md
+        - name: "MFSampleExtension_VideoEncodeD3D12ReconstructedPicture"
+          href: mfsampleextension-videoencoded3d12reconstructedpicture.md
         - name: "MFSampleExtension_VideoEncodeInputAbsoluteQPMap"
           href: mfsampleextension-videoencodeinputabsoluteqpmap.md
         - name: "MFSampleExtension_VideoEncodeInputDeltaQPMap"
@@ -8309,6 +8311,8 @@
         href: codecapi-avencvideoencodeframetypeqp.md
       - name: "CODECAPI_AVEncVideoEncodeQP"
         href: codecapi-avencvideoencodeqp.md
+      - name: "CODECAPI_AVEncVideoD3D12ReconstructedPictureOutputMode"
+        href: codecapi-avencvideod3d12reconstructedpictureoutputmode.md
       - name: "CODECAPI_AVEncVideoForceKeyFrame"
         href: codecapi-avencvideoforcekeyframe.md
       - name: "CODECAPI_AVEncVideoInputAbsoluteQPBlockSettings"
