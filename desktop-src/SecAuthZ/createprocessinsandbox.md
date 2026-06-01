@@ -17,7 +17,7 @@ ms.topic: reference
 ms.date: 6/1/2026
 ---
 
-# Experimental_CreateProcessInSandbox function
+# Create Process in Sandbox
 
 Creates a new process in a composable sandbox.
 
