@@ -206,6 +206,8 @@
         href: implementing-an-appcontainer.md
       - name: "Create Process in Sandbox (experimental)"
         href: createprocessinsandbox.md
+      - name: "IsolationSession interface (experimental)"
+        href: isoenvbroker.md
       - name: "App Isolation"
         items:
         - name: "App Isolation overview"

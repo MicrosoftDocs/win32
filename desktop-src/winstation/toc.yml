@@ -69,7 +69,3 @@
       items: 
       - name: "USEROBJECTFLAGS"
         href: /windows/win32/api/winuser/ns-winuser-userobjectflags
-  - name: "IsolationSession (experimental)"
-    items:
-    - name: "IsolationSession interface"
-      href: isoenvbroker.md
