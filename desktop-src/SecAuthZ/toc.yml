@@ -204,6 +204,8 @@
         href: appcontainer-isolation.md
       - name: "Launch an AppContainer"
         href: implementing-an-appcontainer.md
+      - name: "Create Process in Sandbox (experimental)"
+        href: createprocessinsandbox.md
       - name: "App Isolation"
         items:
         - name: "App Isolation overview"
