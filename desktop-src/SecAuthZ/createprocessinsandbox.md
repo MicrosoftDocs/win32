@@ -17,11 +17,11 @@ ms.topic: reference
 ms.date: 6/1/2026
 ---
 
-# Experimental_CreateProcessInSandbox / Experimental_CreateProcessAsUserInSandbox
+# Experimental_CreateProcessInSandbox function
 
 Creates a new process in a composable sandbox.
 
-These APIs launch a process with the containment properties described by a compiled sandbox specification. They are the sandboxed equivalents of [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw) and [**CreateProcessAsUser**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessasuserw), respectively.
+This article documents both **Experimental_CreateProcessInSandbox** and **Experimental_CreateProcessAsUserInSandbox**. These APIs launch a process with the containment properties described by a compiled sandbox specification. They are the sandboxed equivalents of [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessw) and [**CreateProcessAsUser**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessasuserw), respectively.
 
 > **Experimental:** These APIs are subject to change.
 
