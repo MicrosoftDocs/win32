@@ -57,7 +57,7 @@ BOOL Experimental_CreateProcessAsUserInSandbox(
     _In_opt_  LPVOID                 environment,
     _In_opt_  LPCWSTR                currentDirectory,
     _In_      LPSTARTUPINFOW         startupInfo,
-    _In_opt_  LPCWSTR                identity,
+    _In_      LPCWSTR                identity,
     _In_reads_bytes_(sandboxSpecificationSize) LPCVOID sandboxSpecification,
     DWORD                            sandboxSpecificationSize,
     _Out_     LPPROCESS_INFORMATION  processInformation
@@ -346,7 +346,7 @@ A process that is itself running inside an AppContainer **cannot** call these AP
 
 - The sandbox specification buffer is a FlatBuffer binary blob (file identifier `"SBOX"`) conforming to the `SandboxSpec.fbs` schema.
 
-- The `Experimental_CreateProcessAsUserInSandbox` variant allows specifying a different user token (similar to `CreateProcessAsUser`). The `identity` parameter is optional in this variant (though the engine still requires it).
+- The `Experimental_CreateProcessAsUserInSandbox` variant allows specifying a different user token (similar to `CreateProcessAsUser`). The `identity` parameter must still be supplied.
 
 ---
 
