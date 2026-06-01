@@ -18,9 +18,10 @@ ms.date: 6/1/2026
 
 # IsolationSession interface
 
-The Isolation Environment Broker is a windows service that performs tasks related to managing background user sessions.
+The Isolation Environment Broker is a Windows service that performs tasks related to managing background user sessions.
 
-This service is still experimental. The interface below will change on future OS releases.
+> [!IMPORTANT]
+> This service is experimental. The interface below is subject to change in future OS releases.
 
 ## Windows.AI.IsolationSession.idl
 
