@@ -26,7 +26,7 @@ Everything works as expected when the input buffer to the SSPI function contains
 
 If the input buffer contains too little information, the functions return SEC\_E\_INCOMPLETE\_MESSAGE. The caller must obtain additional data from the remote party and call the function again.
 
-When the input buffers contains too much information, Schannel does not treat this as an error. The function processes as much of the input as it can, and returns the status code for that processing activity. In addition, Schannel indicates the presence of unprocessed information in the input buffers by returning an output buffer of type SECBUFFER\_EXTRA. Testing the output buffers for this type of buffer is the only way to detect this situation. The **cbBuffer** field of the extra buffer structure indicates how many bytes of input were not processed.
+When the input buffers contains too much information, Schannel does not treat this as an error. The function processes as much of the input as it can, and returns the status code for that processing activity. In addition, Schannel indicates the presence of unprocessed information in the input buffers by returning an input buffer of type SECBUFFER\_EXTRA. Testing the input buffers for this type of buffer is the only way to detect this situation. The **cbBuffer** field of the extra buffer structure indicates how many bytes of input were not processed.
 
 > [!Note]  
 > The **pvBuffer** field of the extra buffer does not contain a copy of the excess data.
