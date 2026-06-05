@@ -2234,7 +2234,7 @@ The elements in the offsets array must be arranged in ascending order. This fact
 
 ### Second Linker Member
 
-Like the first linker member, the second linker member has the name "/" (IMAGE_ARCHIVE_LINKER_MEMBER). Although both linker members provide a directory of symbols and archive members that contain them, the second linker member is used in preference to the first by all current linkers. The second linker member includes symbol names in lexical order, which enables faster searching by name.
+Like the first linker member, the second linker member has the name "/" (IMAGE_ARCHIVE_LINKER_MEMBER). Although both linker members provide a directory of symbols and archive members that contain them, the second linker member is used in preference to the first by all current linkers. The second linker member includes symbol names in lexical order, which enables faster searching by name. The second linker member stores numbers in little-endian unlike the first linker member.
 
 The second member has the following format. This information appears after the header:
 
