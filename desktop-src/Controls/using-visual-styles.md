@@ -142,8 +142,8 @@ The following example illustrates the two calls.
 
 ```C++
 case WM_THEMECHANGED:
-     CloseThemeData (g_hTheme);
-     g_hTheme = OpenThemeData (hwnd, L"MyClassName");
+     CloseThemeData(g_hTheme);
+     g_hTheme = OpenThemeData(hwnd, L"MyClassName");
 ```
 
 
