@@ -12,6 +12,8 @@
       href: system-power-status.md
     - name: "System Power States"
       href: system-power-states.md
+    - name: "PowerSnap events"
+      href: powersnap.md
     - name: "System Power Management Events"
       href: system-power-management-events.md
     - name: "WM_POWERBROADCAST Messages"
