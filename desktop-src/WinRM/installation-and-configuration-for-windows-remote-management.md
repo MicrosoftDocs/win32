@@ -235,7 +235,7 @@ The service version of WinRM has the following default configuration settings.
 
 ### RootSDDL
 
-Specifies the security descriptor that controls remote access to the listener. The default is `O:NSG:BAD:P(A;;GA;;;BA)(A;;GR;;;ER)S:P(AU;FA;GA;;;WD)(AU;SA;GWGX;;;WD)`.
+Specifies the security descriptor that controls remote access to the listener. The default is `O:NSG:BAD:P(A;;GA;;;BA)(A;;GR;;;IU)S:P(AU;FA;GA;;;WD)(AU;SA;GXGW;;;WD)`.
 
 ### MaxConcurrentOperations
 
