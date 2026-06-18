@@ -343,6 +343,12 @@ int __cdecl wmain()
     //  Securely get the user name and password. The task will
     //  be created to run with the credentials from the supplied 
     //  user name and password.
+    //
+    //  The CREDUI_FLAGS_COMPLETE_USERNAME flag ensures the 
+    //  username is syntax-checked and auto-completed to a fully
+    //  qualified format (like .\user, DOMAIN\user or user@domain).
+    //  Without this flag, bare usernames like "Administrator" pass
+    //  through unvalidated, producing potentially ambiguous task principals.
     CREDUI_INFO cui;
     TCHAR pszName[CREDUI_MAX_USERNAME_LENGTH] = TEXT("");
     TCHAR pszPwd[CREDUI_MAX_PASSWORD_LENGTH] = TEXT("");
@@ -353,8 +359,8 @@ int __cdecl wmain()
     cui.hwndParent = NULL;
     //  Ensure that MessageText and CaptionText identify
     //  what credentials to use and which application requires them.
-    cui.pszMessageText = TEXT("Account information for task registration:");
     cui.pszCaptionText = TEXT("Enter Account Information for Task Registration");
+    cui.pszMessageText = TEXT("Enter credentials for the task. Use a qualified account name such as DOMAIN\\username or .\\username for local accounts:");
     cui.hbmBanner = NULL;
     fSave = FALSE;
 
@@ -369,9 +375,9 @@ int __cdecl wmain()
         pszPwd,                           //  Password
         CREDUI_MAX_PASSWORD_LENGTH,       //  Max number for password
         &fSave,                           //  State of save check box
-        CREDUI_FLAGS_GENERIC_CREDENTIALS |  //  Flags
-        CREDUI_FLAGS_ALWAYS_SHOW_UI |
-        CREDUI_FLAGS_DO_NOT_PERSIST);  
+        CREDUI_FLAGS_COMPLETE_USERNAME |  //  Enforce fully qualified name format
+        CREDUI_FLAGS_ALWAYS_SHOW_UI |     //  Flags
+        CREDUI_FLAGS_DO_NOT_PERSIST);     //  Flags    
 
     if(dwErr)
     {
