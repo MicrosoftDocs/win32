@@ -291,6 +291,9 @@ For more detailed information, see the [**SIO_KEEPALIVE_VALS**](/windows/win32/w
 
 Configures a TCP socket for lower latency and faster operations on the loopback interface. This IOCTL requests that the TCP/IP stack uses a special fast path for loopback operations on this socket. The [**SIO_LOOPBACK_FAST_PATH**](/windows-hardware/drivers/network/sio-loopback-fast-path) IOCTL can be used only with TCP sockets. This IOCTL must be used on both sides of the loopback session. The TCP loopback fast path is supported using either the IPv4 or IPv6 loopback interface. By default, **SIO\_LOOPBACK\_FAST\_PATH** is disabled.
 
+> [!Note] 
+> The **SIO\_LOOPBACK\_FAST\_PATH** is deprecated and is not recommended to be used in your code.
+
 For more detailed information, see the [**SIO_LOOPBACK_FAST_PATH**](/windows-hardware/drivers/network/sio-loopback-fast-path) reference. **SIO\_LOOPBACK\_FAST\_PATH** is supported on Windows 8, Windows Server 2012, and later.
 
 ### SIO\_MULTIPOINT\_LOOPBACK (opcode setting: V, T==1)
