@@ -41,11 +41,11 @@ Identifies the owner/source of the policy entries. One of the following values.
 | Value | Meaning |
 |-------|---------|
 | **TAG_WINHTTP_CONNECTION_POLICY_TAG_DEFAULT** (0) | Default/untagged policy entries. |
-| **TAG_WINHTTP_CONNECTION_POLICY_TAG_CONNECTION_MANAGER** (1) | Entries managed by the system connection manager. |
+| **TAG_WINHTTP_CONNECTION_POLICY_TAG_CONNECTION_MANAGER** (1) | Reserved for entries managed by the system connection manager. Third-party applications should use TAG_WINHTTP_CONNECTION_POLICY_TAG_WWWPT to avoid conflicts with system entries. |
 | **TAG_WINHTTP_CONNECTION_POLICY_TAG_WWWPT** (2) | Entries managed by the WWWPT (Windows Web Platform Transport) component. |
 
 Tags allow multiple components to independently manage their policy sets without overwriting each other.
-
+ 
 ### pPolicyEntryList [in]
 
 Pointer to a **WINHTTP_CONNECTION_POLICY_ENTRY_LIST** structure containing an array of policy entries.
@@ -57,7 +57,7 @@ Each **WINHTTP_CONNECTION_POLICY_ENTRY** in the list contains:
 - **cbAppSid** / **pbAppSid** — Optional app container SID for the application. Set **cbAppSid** to 0 and **pbAppSid** to **NULL** if not applicable.
 - **nConnections** — Number of connection names in **ppwszConnections**.
 - **ppwszConnections** — Array of connection name strings that may carry traffic for this host/app combination.
-- **dwPolicyEntryFlags** — Set to **WINHTTP_CONNECTION_POLICY_ENTRY_ONDEMAND** (0x1) to indicate the connection should be activated on-demand when traffic matches.
+- **dwPolicyEntryFlags** — Currently, no flags are supported.
 
 ## Return value
 
@@ -93,7 +93,7 @@ The following example deletes existing connection manager policy entries and the
 // First delete existing connection manager policies
 WinHttpConnectionDeletePolicyEntries(
     hSession,
-    TAG_WINHTTP_CONNECTION_POLICY_TAG_CONNECTION_MANAGER);
+    TAG_WINHTTP_CONNECTION_POLICY_TAG_WWWPT);
 
 // Then set new policies
 WINHTTP_CONNECTION_POLICY_ENTRY entry = {};
@@ -111,7 +111,7 @@ list.nEntries = 1;
 
 WinHttpConnectionSetPolicyEntries(
     hSession,
-    TAG_WINHTTP_CONNECTION_POLICY_TAG_CONNECTION_MANAGER,
+    TAG_WINHTTP_CONNECTION_POLICY_TAG_WWWPT,
     &list);
 ```
 
