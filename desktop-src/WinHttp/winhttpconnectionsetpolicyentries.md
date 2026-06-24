@@ -99,7 +99,6 @@ WinHttpConnectionDeletePolicyEntries(
 WINHTTP_CONNECTION_POLICY_ENTRY entry = {};
 entry.pwszHost = L"*.contoso.com";
 entry.pwszAppId = L"*";
-entry.dwPolicyEntryFlags = WINHTTP_CONNECTION_POLICY_ENTRY_ONDEMAND;
 
 PCWSTR connectionName = L"Contoso Cellular";
 entry.nConnections = 1;
