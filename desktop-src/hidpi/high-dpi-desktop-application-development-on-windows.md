@@ -242,6 +242,8 @@ When you update your desktop application to DPI scale properly, it can be diffic
 
 Many legacy Windows APIs do not include a DPI or HWND context as part of their interface. As a result, developers often have to do additional work to handle the scaling of any DPI-sensitive information, such as sizes, points, or icons. As an example, developers using [LoadIcon](/windows/desktop/api/winuser/nf-winuser-loadiconw) must either bitmap stretch loaded icons or use alternate APIs to load correctly-sized icons for the appropriate DPI, such as [LoadImage](/windows/desktop/api/winuser/nf-winuser-loadimagew).
 
+Starting with Windows 11 (Build 22000), applications that create cursors from in-memory data can use [SetThreadCursorCreationScaling](windows/win32/api/winuser/nf-winuser-setthreadcursorcreationscaling) to enable automatic per-monitor DPI scaling, similar to cursors loaded from module resources.
+
 **Forced reset of process-wide DPI awareness**
 
 In general, the DPI awareness mode of your process cannot be changed after process initialization. Windows can, however, forcibly change the DPI awareness mode of your process if you attempt to break the requirement that all HWNDs in a window tree have the same DPI awareness mode. On all versions of Windows, as of Windows 10 1703, it is not possible to have different HWNDs in an HWND tree run in different DPI awareness modes. If you attempt to create a child-parent relationship that breaks this rule, the DPI awareness of the entire process can be reset. This can be triggered by:
