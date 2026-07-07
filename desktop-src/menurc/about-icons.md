@@ -4,7 +4,6 @@ description: This topic discusses icons.
 ms.assetid: 67867460-07f6-460f-9263-05bbf3474744
 keywords:
 - resources,icons
-- icons,hot spots
 - icons,standard
 - standard icons
 - icons,custom
@@ -25,31 +24,23 @@ ms.date: 05/31/2018
 
 # About Icons
 
-The system uses icons throughout the user interface to represent objects such as files, folders, shortcuts, applications, and documents. The icon functions enable applications to create, load, display, arrange, animate, and destroy icons. For information on specifying icons for file types, see [**ExtractIcon**](/windows/desktop/api/Shellapi/nf-shellapi-extracticona).
+The system uses icons throughout the user interface to represent objects such as files, folders, shortcuts, applications, and documents. The icon functions enable applications to create, load, display, copy, and destroy icons. For information on specifying icons for file types, see [**ExtractIcon**](/windows/win32/api/shellapi/nf-shellapi-extracticonw).
 
 This overview provides information on the following topics:
 
--   [Icon Hot Spot](#icon-hot-spot)
 -   [Icon Types](#icon-types)
 -   [Icon Sizes](#icon-sizes)
-    -   [To change the size of the system small icon](#to-change-the-size-of-the-system-small-icon)
-    -   [To retrieve the size of the system small icon](#to-retrieve-the-size-of-the-system-small-icon)
-    -   [To retrieve the size of the system large icon](#to-retrieve-the-size-of-the-system-large-icon)
-    -   [To retrieve the size of the shell small icon](#to-retrieve-the-size-of-the-shell-small-icon)
-    -   [To change the size of the large icon](#to-change-the-size-of-the-large-icon)
-    -   [To retrieve the size of the shell large icon](#to-retrieve-the-size-of-the-shell-large-icon)
+    -   [System icon sizes](#system-icon-sizes)
+    -   [Shell icon sizes](#shell-icon-sizes)
 -   [Icon Creation](#icon-creation)
+-   [The Window Class Icon](#the-window-class-icon)
 -   [Icon Display](#icon-display)
 -   [Icon Destruction](#icon-destruction)
 -   [Icon Duplication](#icon-duplication)
 
-## Icon Hot Spot
-
-One of the pixels in an icon is designated as the [hot spot](#icon-hot-spot), which is the point the system tracks and recognizes as the position of the icon. An icon's hot spot is typically the pixel located at the center of the icon. If you use the [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect) function to create an icon, you can specify any pixel to be the hot spot.
-
 ## Icon Types
 
-The operating system provides a set of standard icons that are available for any application to use at any time. The software development kit (SDK) header files contain identifiers for the **system icons** — the identifiers begin with the **IDI\_** prefix.
+The operating system provides a set of standard icons that are available for any application to use at any time. The software development kit (SDK) header files contain identifiers for the **system icons** - the identifiers begin with the **IDI\_** prefix.
 
 | Value | Meaning |
 |---|---|
@@ -71,110 +62,72 @@ Also, starting with Windows Vista, an additional set of **standard system shell 
 
 ## Icon Sizes
 
-The system uses four icon sizes:
-
--   System small
--   System large
--   Shell small
--   Shell large
--   Jumbo (starting Windows Vista)
-
-The *system small icon* is displayed in the window caption.
-
 See [Icon scaling](/windows/apps/design/style/iconography/app-icon-construction#icon-scaling) for recommendations on preferred icon sizes for your application.
 
-### To change the size of the system small icon
+### System icon sizes
 
-1.  From Control Panel, click **Display**, then click the **Appearance** tab.
-2.  Select **Caption Buttons** from the **Item** list, then set the **Size** field.
+System icon sizes are reported by [**GetSystemMetrics**](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) and scale with the display DPI.
 
-### To retrieve the size of the system small icon
+| Size | Metric | 96 DPI | 150% (144 DPI) | 200% (192 DPI) | Description |
+|---|---|---|---|---|---|
+| System small | **SM\_CXSMICON** / **SM\_CYSMICON** | 16x16 | 24x24 | 32x32 | Menus, notification area, Explorer list view |
+| System large | **SM\_CXICON** / **SM\_CYICON** | 32x32 | 48x48 | 64x64 | ICON\_BIG (WM\_SETICON / WM\_GETICON), Alt+Tab (legacy/fallback) |
 
--   Call the [**GetSystemMetrics**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) function with **SM\_CXSMICON** and **SM\_CYSMICON**.
+The [**CreateIconFromResource**](/windows/win32/api/winuser/nf-winuser-createiconfromresource), [**DrawIcon**](/windows/win32/api/winuser/nf-winuser-drawicon), [**ExtractAssociatedIcon**](/windows/win32/api/shellapi/nf-shellapi-extractassociatediconw), [**ExtractIcon**](/windows/win32/api/shellapi/nf-shellapi-extracticonw), [**ExtractIconEx**](/windows/win32/api/shellapi/nf-shellapi-extracticonexw), and [**LoadIcon**](/windows/win32/api/winuser/nf-winuser-loadiconw) functions all use the system large icon size. The [**CreateIcon**](/windows/win32/api/winuser/nf-winuser-createicon), [**CreateIconFromResourceEx**](/windows/win32/api/winuser/nf-winuser-createiconfromresourceex), [**CreateIconIndirect**](/windows/win32/api/winuser/nf-winuser-createiconindirect), and [**LoadImage**](/windows/win32/api/winuser/nf-winuser-loadimagew) functions can work with icons at any size.
 
-The *system large icon* is mainly used by applications, but it is also displayed in the Alt+Tab dialog. The [**CreateIconFromResource**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresource), [**DrawIcon**](/windows/desktop/api/Winuser/nf-winuser-drawicon), [**ExtractAssociatedIcon**](/windows/desktop/api/Shellapi/nf-shellapi-extractassociatedicona), [**ExtractIcon**](/windows/desktop/api/Shellapi/nf-shellapi-extracticona), [**ExtractIconEx**](/windows/desktop/api/Shellapi/nf-shellapi-extracticonexa), and [**LoadIcon**](/windows/desktop/api/Winuser/nf-winuser-loadicona) functions all use system large icons. The size of the system large icon is defined by the video driver, therefore it cannot be changed.
+To retrieve system icon sizes, call [**GetSystemMetrics**](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) with **SM\_CXSMICON** / **SM\_CYSMICON** for the small size, or **SM\_CXICON** / **SM\_CYICON** for the large size. In per-monitor DPI-aware applications, use [**GetSystemMetricsForDpi**](/windows/win32/api/winuser/nf-winuser-getsystemmetricsfordpi) with the DPI of the target monitor instead, so the returned size reflects the correct display. For more information, see [High DPI Desktop Application Development on Windows](/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows).
 
-### To retrieve the size of the system large icon
+### Shell icon sizes
 
--   Call [**GetSystemMetrics**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) with **SM\_CXICON** and **SM\_CYICON**.
+The shell uses a separate set of sizes for Explorer views and the system image lists, accessible via [**SHGetImageList**](/windows/win32/api/shellapi/nf-shellapi-shgetimagelistw). Call **SHGetImageList** with the appropriate **SHIL\_\*** constant, then call [**ImageList\_GetIconSize**](/windows/win32/api/commctrl/nf-commctrl-imagelist_geticonsize) on the returned image list.
 
-The [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon), [**CreateIconFromResourceEx**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresourceex), [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect), and [**SHGetFileInfo**](/windows/win32/api/shellapi/nf-shellapi-shgetfileinfoa) functions can be used to work with icons in sizes other than system large.
-
-The *shell small icon* is used in the Windows Explorer and the common dialogs. Currently, this defaults to the system small size.
-
-### To retrieve the size of the shell small icon
-
-1.  Use the [SHGetFileInfo](/windows/win32/api/shellapi/nf-shellapi-shgetfileinfoa) function with `SHGFI_SHELLICONSIZE | SHGFI_SMALLICON` to retrieve a handle to the system image list.
-2.  Then call the [**ImageList\_GetIconSize**](/windows/win32/api/commctrl/nf-commctrl-imagelist_geticonsize) function to get the icon size.
-
-The shell large icon is used on the desktop.
-
-### To change the size of the large icon
-
-1.  From Control Panel , click **Display**, then click the **Appearance** tab,
-2.  Select **Icon** from the **Item** list, then set the **Size** field (this size is stored in the registry, under **HKEY\_CURRENT\_USER\\Control Panel, Desktop\\WindowMetrics\\Shell Icon Size**).
-3.  Click the **Plus!** tab and then select the **Use Large Icons** check box.
-
-### To retrieve the size of the shell large icon
-
-1.  Use the [**SHGetFileInfo**](/windows/win32/api/shellapi/nf-shellapi-shgetfileinfoa) function with **SHGFI\_SHELLICONSIZE** to retrieve a handle to the system image list.
-2.  Then call the [**ImageList\_GetIconSize**](/windows/win32/api/commctrl/nf-commctrl-imagelist_geticonsize) function to get the icon size.
-
-When filling in the [**WNDCLASSEX**](/windows/win32/api/winuser/ns-winuser-wndclassexa) structure to be used in registering your window class, set the **hIcon** member to the system large icon (usually 32x32) and the **hIconSm** member to the system small icon (usually 16x16). For more information about class icons, see [Class Icons](/windows/desktop/winmsg/about-window-classes).
+| SHIL constant | Source | 96 DPI | 150% (144 DPI) | 200% (192 DPI) | Description |
+|---|---|---|---|---|---|
+| **SHIL\_SMALL** (1) | SM\_CXSMICON | 16x16 | 24x24 | 32x32 | Explorer list/details view, common dialogs, window title bar icon |
+| **SHIL\_SYSSMALL** (3) | SM\_CXSMSIZE | 16x16 | 24x24 | 32x32 | Shell toolbars, status bars; tracks caption button size; equals SHIL\_SMALL at default settings |
+| **SHIL\_LARGE** (0) | SM\_CXICON | 32x32 | 48x48 | 64x64 | Explorer medium icons view, dialogs |
+| **SHIL\_EXTRALARGE** (2) | 48 logical px | 48x48 | 72x72 | 96x96 | Explorer large icons view, desktop |
+| **SHIL\_JUMBO** (4) | fixed 256 px | 256x256 | 256x256 | 256x256 | Explorer extra large icons view (Vista+); always 256 physical pixels |
 
 ## Icon Creation
 
-Standard icons are predefined, so it is not necessary to create them. To use a standard icon, an application can obtain its handle by using the [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) function. An *icon handle* is a unique value of the **HICON** type that identifies a standard or custom icon.
+An icon resource (.ico file or **RT\_ICON** / **RT\_GROUP\_ICON** in a PE file) stores multiple images - typically at standard sizes 16, 32, 48, and 256 pixels, optionally at different color depths including 32bpp ARGB for per-pixel alpha transparency. Each image is optimized for its size; providing all standard sizes avoids the quality loss that results from scaling a single image up or down.
 
-To create a custom icon for an application, you would typically use a graphics application and include the [ICON Resource](./icon-resource.md) in the application's resource-definition file. At run-time, you can call [**LoadIcon**](/windows/desktop/api/Winuser/nf-winuser-loadicona) or [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) to retrieve a handle to the icon. An icon resource can contain a group of images for several different display devices. **LoadIcon** and **LoadImage** automatically select the most appropriate icon from the group for the current display device.
+To load an icon from a resource, call [**LoadIcon**](/windows/win32/api/winuser/nf-winuser-loadiconw) or [**LoadImage**](/windows/win32/api/winuser/nf-winuser-loadimagew). The system automatically selects the best-matching image for the requested size and display color depth using the same algorithm as [**LookupIconIdFromDirectoryEx**](/windows/win32/api/winuser/nf-winuser-lookupiconidfromdirectoryex). To load directly from an .ico file, pass **LR\_LOADFROMFILE** to **LoadImage**. To load at a non-standard size with high-quality scaling, use [**LoadIconWithScaleDown**](/windows/win32/api/commctrl/nf-commctrl-loadiconwithscaledown) - it selects the nearest larger standard image (16, 32, 48, or 256) and scales it down to the requested size.
 
-An application can also create a custom icon at run-time by using the [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect) function, which creates an icon based on the contents of an [**ICONINFO**](/windows/desktop/api/Winuser/ns-winuser-iconinfo) structure. The [**GetIconInfo**](/windows/desktop/api/Winuser/nf-winuser-geticoninfo) function fills the structure with the hot-spot coordinates and information about the bitmask bitmap and color bitmap for the icon.
+An application can also create a custom icon at run-time by using the [**CreateIconIndirect**](/windows/win32/api/winuser/nf-winuser-createiconindirect) function, which creates an icon based on the contents of an [**ICONINFO**](/windows/win32/api/winuser/ns-winuser-iconinfo) structure. Note that for icons the hotspot fields in **ICONINFO** are ignored by the system - the hotspot is always the center of the image. The [**CreateIconFromResourceEx**](/windows/win32/api/winuser/nf-winuser-createiconfromresourceex) function creates an icon from binary resource data from other executable files or DLLs; use [**LookupIconIdFromDirectoryEx**](/windows/win32/api/winuser/nf-winuser-lookupiconidfromdirectoryex) first to identify the most appropriate image for the current display size and color depth. For examples, see [Creating an Icon](using-icons.md#creating-an-icon).
 
-Applications should implement custom icons as resources and should use [**LoadIcon**](/windows/desktop/api/Winuser/nf-winuser-loadicona) or [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea), rather than create the icon at run-time. Using icon resources avoids device dependence, simplifies localization, and enables applications to share icon shapes.
+Applications should implement custom icons as resources and use **LoadIcon** or **LoadImage** rather than create icons at run-time. Using icon resources avoids device dependence, simplifies localization, and enables applications to share icon shapes.
 
-The [**CreateIconFromResourceEx**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresourceex) function enables an application to browse through the system's resources and create icons and cursors based on resource data. **CreateIconFromResourceEx** creates an icon based on binary resource data from other executable files or DLLs. An application must precede this function with calls to the [**LookupIconIdFromDirectoryEx**](/windows/desktop/api/Winuser/nf-winuser-lookupiconidfromdirectoryex) function and several of the resource functions. **LookupIconIdFromDirectoryEx** returns the identifier of the most appropriate icon data for the current display device.
+## The Window Class Icon
+
+When you register a window class using the [**RegisterClassEx**](/windows/win32/api/winuser/nf-winuser-registerclassexw) function, set the **hIcon** field of [**WNDCLASSEX**](/windows/win32/api/winuser/ns-winuser-wndclassexa) to the large icon (**SM\_CXICON** x **SM\_CYICON**) and **hIconSm** to the small icon (**SM\_CXSMICON** x **SM\_CYSMICON**). Every window of that class uses these icons by default. For more information, see [Class Icons](/windows/win32/winmsg/about-window-classes).
+
+To set or update a specific window's icon at run time, send [**WM\_SETICON**](/windows/win32/winmsg/wm-seticon) with **ICON\_BIG** or **ICON\_SMALL**. To retrieve the current icon handle, send [**WM\_GETICON**](/windows/win32/winmsg/wm-geticon) with the same wParam value. To replace the class icon for all windows of a class, use [**SetClassLongPtr**](/windows/win32/api/winuser/nf-winuser-setclasslongptrw) with **GCLP\_HICON** or **GCLP\_HICONSM**.
 
 ## Icon Display
 
-You can retrieve the image for an icon by using the [**GetIconInfo**](/windows/desktop/api/Winuser/nf-winuser-geticoninfo) function, and can draw it by using the [**DrawIconEx**](/windows/desktop/api/Winuser/nf-winuser-drawiconex) function. To draw the default image for a icon, specify the **DI\_COMPAT** flag in the call to **DrawIconEx**. If you do not specify the **DI\_COMPAT** flag, **DrawIconEx** draws the icon using the image that the user specified.
+You can retrieve the image and size of an icon by using the [**GetIconInfo**](/windows/win32/api/winuser/nf-winuser-geticoninfo) function - see [Getting the Icon size](using-icons.md#getting-the-icon-size) for an example. You can draw the icon by using the [**DrawIconEx**](/windows/win32/api/winuser/nf-winuser-drawiconex) function.
 
-When the system displays an icon, it must extract the appropriate icon image from the .exe or .dll file. The system uses the following steps to select the icon image:
+To display an icon in a static control, send [**STM\_SETIMAGE**](/windows/win32/controls/stm-setimage) with **IMAGE\_ICON** and the icon handle:
 
-1.  Select the **RT\_GROUP\_ICON** resource. If more than one such resource exists, the system uses the first resource listed in the resource scrip.
-2.  Select the appropriate **RT\_ICON** image from the **RT\_GROUP\_ICON** resource. If more than one image exists, the system uses the following criteria to choose an image:
-    -   The image closest in size to the requested size is chosen.
-    -   If two or more images of that size are present, the one that matches the color depth of the display is chosen.
-    -   If no images exactly match the color depth of the display, the image with the greatest color depth that does not exceed the color depth of the display is chosen. If all exceed the color depth, the one with the lowest color depth is chosen.
-
-> [!Note]  
-> The system treats all color depths of 8 or more bpp as equal. Therefore, there is no advantage of including a 16x16 256-color image and a 16x16 16-color image in the same resource—the system will simply choose the first one it encounters. When the display is in 8-bpp mode, the system will choose a 16-color icon over a 256-color icon, and will display all icons using the system default palette.
-
- 
-
-To display an animated icon, use a static control as shown in the following code fragment.
-
-
+```c
+HICON hIcon = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_MYICON));
+SendMessage(hStatic, STM_SETIMAGE, IMAGE_ICON, (LPARAM)hIcon);
 ```
-hIcon = LoadImage(NULL, "ico.ani", IMAGE_ICON, 0, 0, LR_LOADFROMFILE);
-SendMessage( hStatic, STM_SETIMAGE, IMAGE_ICON, (LPARAM)(UINT)hIcon);
-```
-
-
 
 ## Icon Destruction
 
-When an application no longer needs an icon it created by using the [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect) function, it should destroy the icon. The [**DestroyIcon**](/windows/desktop/api/Winuser/nf-winuser-destroyicon) function destroys the icon handle and frees any memory used by the icon. Applications should use this function only for icons created with **CreateIconIndirect**; it is not necessary to destroy other icons.
+When an application no longer needs an icon, destroy it by calling [**DestroyIcon**](/windows/win32/api/winuser/nf-winuser-destroyicon). The only exceptions are shared handles, which must **not** be destroyed:
+
+- [**LoadIcon**](/windows/win32/api/winuser/nf-winuser-loadiconw) - always uses **LR\_SHARED** internally regardless of the instance parameter; use **LoadImage** without **LR\_SHARED** if you need an owned handle
+- [**LoadImage**](/windows/win32/api/winuser/nf-winuser-loadimagew) with **LR\_SHARED**
+- [**CopyImage**](/windows/win32/api/winuser/nf-winuser-copyimage) with **LR\_COPYRETURNORG** when the size already matches - returns the original handle, which may be shared
 
 ## Icon Duplication
 
-The [**CopyIcon**](/windows/desktop/api/Winuser/nf-winuser-copyicon) function copies an icon handle. This enables an application or DLL to get its own handle to an icon owned by another module. Then, if the other module is freed, the application that copied the icon will still be able to use the icon.
+The [**CopyIcon**](/windows/win32/api/winuser/nf-winuser-copyicon) function creates a new independent icon object with the same image as the original. This enables an application or DLL to obtain an icon that outlives the module it was loaded from - if the original module is freed, the copy remains valid. The copy is owned by the caller.
 
-The [**CopyImage**](/windows/desktop/api/Winuser/nf-winuser-copyimage) function creates a new icon based on the specified source icon. The new icon can be larger or smaller than the source icon.
+The [**CopyImage**](/windows/win32/api/winuser/nf-winuser-copyimage) function creates a new icon based on an existing icon handle, optionally at a different size - useful when you already hold a handle and need a resized copy without reloading the original resource.
 
 For information about adding, removing, or replacing icon resources in executable (.exe) files, see [Resources](resources.md).
-
-The [**DuplicateIcon**](/windows/desktop/api/Shellapi/nf-shellapi-duplicateicon) function makes an actual copy of the icon.
-
- 
-
- 

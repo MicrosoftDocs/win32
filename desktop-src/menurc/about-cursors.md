@@ -48,28 +48,27 @@ A number of additional cursors are also available that do not have identifiers d
 
 See [Guidelines](/windows/win32/uxguide/inter-mouse) for information on using standard cursors.
 
-Each standard cursor has a corresponding default image associated with it. The user or an application can replace the default image associated with any standard cursor at any time. An application replaces a default image by using the [**SetSystemCursor**](/windows/desktop/api/Winuser/nf-winuser-setsystemcursor) function.
-
-An application can use the [**GetIconInfo**](/windows/desktop/api/Winuser/nf-winuser-geticoninfo) function to retrieve the current image for a cursor and can draw the cursor by using the [**DrawIconEx**](/windows/desktop/api/Winuser/nf-winuser-drawiconex) function.
+Each standard cursor has a corresponding default image. The user can replace the default image of any standard cursor system-wide through mouse settings.
 
 Custom cursors are designed for use in a specific application and can be any design the developer defines. The following illustration shows several custom cursors.
 
 ![custom cursors, including hand, banana, drum, wristwatch on hand, metronome](images/cursorscustom.png)
 
-Cursors can be either monochrome or color, and either static or animated. The type of cursor used on a particular computer system depends on the system's display. Old displays such as VGA do not support color or animated cursors. New displays, whose display drivers use the device-independent bitmap (DIB) engine, do support them.
+Cursors can be either monochrome or color (including 32bpp ARGB for per-pixel alpha transparency), and either static or animated.
 
-Cursors and icons are similar and can be used interchangeably in many situations. The only difference between them is that an image specified as a cursor must be in the format that the display can support. For example, a cursor must be monochrome for a VGA display.
+**HCURSOR** and **HICON** are interchangeable - most API functions accept either type. The distinction between cursor and icon is recorded inside the object and affects behavior in a few cases - for example, [**GetIconInfo**](/windows/win32/api/winuser/nf-winuser-geticoninfo) returns **fIcon=FALSE** for a cursor handle.
 
 This overview provides information on the following topics:
 
 -   [The Hot Spot](#the-hot-spot)
 -   [The Mouse and the Cursor](#the-mouse-and-the-cursor)
 -   [Cursor Creation](#cursor-creation)
+-   [The Window Class Cursor](#the-window-class-cursor)
+-   [Cursor Sizes](#cursor-sizes)
 -   [Cursor Location and Appearance](#cursor-location-and-appearance)
 -   [Cursor Confinement](#cursor-confinement)
 -   [Cursor Destruction](#cursor-destruction)
 -   [Cursor Duplication](#cursor-duplication)
--   [The Window Class Cursor](#the-window-class-cursor)
 
 ## The Hot Spot
 
@@ -77,7 +76,7 @@ In the cursor, a pixel called the *hot spot* marks the exact screen location tha
 
 ![hot spots on two cursors](images/cursorhotspot.png)
 
-When a mouse input event occurs, the mouse driver translates the event into an appropriate mouse message that includes the coordinates of the hot spot. The system sends the mouse message to the window that contains the hot spot or to the window that is capturing mouse input. For more information, see [Mouse Input](/windows/desktop/inputdev/mouse-input).
+When a mouse input event occurs, the mouse driver translates the event into an appropriate mouse message that includes the coordinates of the hot spot. The system sends the mouse message to the window that contains the hot spot or to the window that is capturing mouse input. For more information, see [Mouse Input](/windows/win32/inputdev/mouse-input).
 
 ## The Mouse and the Cursor
 
@@ -89,57 +88,56 @@ If the system does not have a mouse, the system displays and moves the cursor on
 
 ## Cursor Creation
 
-Because standard cursors are predefined, it is not necessary to create them. To use a standard cursor, an application retrieves a cursor handle by using the [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora) or [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) function. A *cursor handle* is a unique value of the **HCURSOR** type that identifies a standard or custom cursor.
+Standard cursors are predefined and do not need to be created. Use [**LoadCursor**](/windows/win32/api/winuser/nf-winuser-loadcursorw) or [**LoadImage**](/windows/win32/api/winuser/nf-winuser-loadimagew) to obtain an **HCURSOR** handle.
 
-To create a custom cursor for an application, you typically use a graphics application and include the cursor as a resource in the application's resource-definition file. At run time, call [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora) to retrieve the cursor handle. Cursor resources contain data for several different display devices. The **LoadCursor** function automatically selects the most appropriate data for the current display device. To load a cursor directly from a .CUR or .ANI file, use the [**LoadCursorFromFile**](/windows/desktop/api/Winuser/nf-winuser-loadcursorfromfilea) function.
+To create a custom cursor for an application, you typically use a graphics application and include the cursor as a resource in the application's resource-definition file. Like icon resources, cursor resources (.cur files or **RT\_CURSOR** / **RT\_GROUP\_CURSOR** in a PE file) store multiple images at different sizes - see [Icon Creation](about-icons.md#icon-creation) for details on the multi-image format. At run time, call [**LoadCursor**](/windows/win32/api/winuser/nf-winuser-loadcursorw) to retrieve the cursor handle; the system automatically selects the best-matching image. To load a cursor directly from a .cur or .ani file, use [**LoadCursorFromFile**](/windows/win32/api/winuser/nf-winuser-loadcursorfromfilew) or [**LoadImage**](/windows/win32/api/winuser/nf-winuser-loadimagew) with **LR\_LOADFROMFILE**.
 
-You can also create a custom cursor at run time by using the [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect) function, which creates a cursor based on the content of an [**ICONINFO**](/windows/desktop/api/Winuser/ns-winuser-iconinfo) structure. The [**GetIconInfo**](/windows/desktop/api/Winuser/nf-winuser-geticoninfo) function fills this structure with hot spot coordinates and information concerning the associated mask and color.
-
-Applications should implement custom cursors as resources and use [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora), [**LoadCursorFromFile**](/windows/desktop/api/Winuser/nf-winuser-loadcursorfromfilea), or [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) rather than create the cursor at run time. Using cursor resources avoids device dependence, simplifies localization, and enables applications to share cursor designs.
-
-The [**CreateIconFromResourceEx**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresourceex) function enables an application to create icons and cursors based on resource data. **CreateIconFromResourceEx** creates a cursor based on binary resource data from other executable (.exe) files or DLLs. It must be preceded by calls to the [**LookupIconIdFromDirectoryEx**](/windows/desktop/api/Winuser/nf-winuser-lookupiconidfromdirectoryex) function, as well as several resource functions. **LookupIconIdFromDirectoryEx** identifies the most appropriate cursor data for the current display device. For more information about resource functions, see [Resources](resources.md).
-
-## Cursor Location and Appearance
-
-The system automatically displays a cursor for the mouse and updates its position on the screen. You can obtain current screen coordinates of the cursor and move the cursor to any location on the screen by using the [**GetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-getcursorpos) and [**SetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-setcursorpos) functions, respectively.
-
-You can also retrieve the handle to the current cursor by using the [**GetCursor**](/windows/desktop/api/Winuser/nf-winuser-getcursor) function, and you can set the cursor by using the [**SetCursor**](/windows/desktop/api/Winuser/nf-winuser-setcursor) function. After you call **SetCursor**, the appearance of the cursor does not change until either the mouse moves, the cursor is explicitly set to a different cursor, or a system command is executed.
-
-When the user moves the mouse, the system redraws the cursor at the new location. The system automatically redraws the cursor design associated with the window to which the cursor is pointing.
-
-You can hide and redisplay the cursor, without changing the cursor design, by using the [**ShowCursor**](/windows/desktop/api/Winuser/nf-winuser-showcursor) function. This function uses an internal counter to determine when to hide or display the cursor. An attempt to show the cursor increments the counter; an attempt to hide the cursor decrements the counter. The cursor is visible only if this counter is greater than or equal to zero.
-
-The [**GetCursorInfo**](/windows/desktop/api/Winuser/nf-winuser-getcursorinfo) function gets the following information for the global cursor: whether the cursor is hidden or shown, the handle to the cursor, and the coordinates of the cursor.
-
-## Cursor Confinement
-
-You can confine the cursor to a rectangular area on the screen by using the [**ClipCursor**](/windows/desktop/api/Winuser/nf-winuser-clipcursor) function. This is useful for when the user must respond to a certain event within the confined area of the rectangle. For example, you might use **ClipCursor** to confine the cursor to a modal dialog box, preventing the user from interacting with other windows until the dialog box is closed.
-
-The [**GetClipCursor**](/windows/desktop/api/Winuser/nf-winuser-getclipcursor) function retrieves the screen coordinates of the rectangular area to which the cursor is temporarily confined. When it is necessary to confine the cursor, you can also use this function to save the coordinates of the original area in which the cursor can move. Then, you can restore the cursor to the original area when the new confinement is no longer necessary.
-
-## Cursor Destruction
-
-You can destroy the cursor handle and free the memory the cursor used by calling the [**DestroyCursor**](/windows/desktop/api/Winuser/nf-winuser-destroycursor) function. However, this function has no effect on a shared cursor. A shared cursor is valid as long as the module from which it was loaded remains in memory. The following functions obtain a shared cursor:
-
--   [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora)
--   [**LoadCursorFromFile**](/windows/desktop/api/Winuser/nf-winuser-loadcursorfromfilea)
--   [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) (if you use the **LR\_SHARED** flag)
--   [**CopyImage**](/windows/desktop/api/Winuser/nf-winuser-copyimage) (if you use the **LR\_COPYRETURNORG** flag and the *hImage* is a shared cursor)
-
-When you no longer need a cursor you created by using the [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect) function, you should destroy the cursor. The [**DestroyIcon**](/windows/desktop/api/Winuser/nf-winuser-destroyicon) function destroys the cursor handle and frees any memory the cursor used. Use this function only on cursors that were created with **CreateIconIndirect**.
-
-## Cursor Duplication
-
-The [**CopyCursor**](/windows/desktop/api/Winuser/nf-winuser-copycursor) function copies a cursor handle. This enables application or DLL code to retrieve the handle to a cursor owned by another module. Then, if the other module is freed, the module that copied the cursor can still use the cursor design.
-
-For information on how to add, remove, or replace cursor resources in executable files, see [Resources](resources.md).
+You can also create a custom cursor at run time - see [Icon Creation](about-icons.md#icon-creation) for details on programmatic creation.
 
 ## The Window Class Cursor
 
-When you register a window class, using the [**RegisterClass**](/windows/desktop/api/winuser/nf-winuser-registerclassa) function, you can assign it a default cursor, known as the *class cursor*. After the application registers the window class, each window of that class has the specified class cursor.
+When you register a window class using the [**RegisterClassEx**](/windows/win32/api/winuser/nf-winuser-registerclassexw) function, set the **hCursor** field of [**WNDCLASSEX**](/windows/win32/api/winuser/ns-winuser-wndclassexa) to the desired cursor handle. Every window of that class uses this cursor by default. For more information, see [Class Cursor](/windows/win32/winmsg/about-window-classes).
 
-To override the class cursor, process the [**WM\_SETCURSOR**](wm-setcursor.md) message. You can also replace a class cursor by using the [**SetClassLong**](/windows/desktop/api/winuser/nf-winuser-setclasslonga) function. This function changes the default window settings for all windows of a specified class. For more information, see [Class Cursor](/windows/desktop/winmsg/about-window-classes).
+To override the class cursor for a specific window or hit-test area, process the [**WM\_SETCURSOR**](wm-setcursor.md) message and call [**SetCursor**](/windows/win32/api/winuser/nf-winuser-setcursor). To replace the class cursor for all windows of a class, use [**SetClassLongPtr**](/windows/win32/api/winuser/nf-winuser-setclasslongptrw) with **GCLP\_HCURSOR**.
 
- 
+## Cursor Sizes
 
- 
+The system reports the nominal cursor size via [**GetSystemMetrics**](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) with **SM\_CXCURSOR** / **SM\_CYCURSOR**. This is the size of the cursor image buffer; the visible cursor shape is typically smaller due to transparent edges. Unlike icon sizes, cursor sizes change in steps - not every DPI value produces a distinct cursor size. The standard sizes at default cursor size setting are:
+
+| Display scale | DPI range | SM\_CXCURSOR / SM\_CYCURSOR |
+|---|---|---|
+| < 150% | < 144 DPI | 32x32 |
+| 150-199% | 144-191 DPI | 48x48 |
+| 200-299% | 192-287 DPI | 64x64 |
+| 300-399% | 288-383 DPI | 96x96 |
+| >= 400% | >= 384 DPI | 128x128 |
+
+The user can also change the cursor size independently of DPI via **Settings > Accessibility > Mouse pointer and touch > Size**. Always call [**GetSystemMetrics**](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) with **SM\_CXCURSOR** to get the actual effective size rather than assuming a fixed value. In per-monitor DPI-aware applications, use [**GetSystemMetricsForDpi**](/windows/win32/api/winuser/nf-winuser-getsystemmetricsfordpi) with the DPI of the target monitor, which you can obtain with [**GetDpiForWindow**](/windows/win32/api/winuser/nf-winuser-getdpiforwindow) or [**GetDpiForMonitor**](/windows/win32/api/shellscalingapi/nf-shellscalingapi-getdpiformonitor). For more information, see [High DPI Desktop Application Development on Windows](/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows).
+
+To retrieve the dimensions of a cursor from its handle, see [Getting a Cursor size](/windows/win32/menurc/using-cursors#getting-a-cursor-size).
+
+## Cursor Location and Appearance
+
+The system automatically displays a cursor for the mouse, updates its position on the screen, and redraws the cursor design associated with the window to which the cursor is pointing. You can obtain current screen coordinates of the cursor and move the cursor to any location on the screen by using the [**GetCursorPos**](/windows/win32/api/winuser/nf-winuser-getcursorpos) and [**SetCursorPos**](/windows/win32/api/winuser/nf-winuser-setcursorpos) functions, respectively. These functions return and accept coordinates in the logical coordinate space of the calling thread's DPI awareness context. To work in physical screen pixels regardless of DPI awareness, use [**GetPhysicalCursorPos**](/windows/win32/api/winuser/nf-winuser-getphysicalcursorpos) and [**SetPhysicalCursorPos**](/windows/win32/api/winuser/nf-winuser-setphysicalcursorpos) instead.
+
+You can retrieve the handle to the current cursor by using the [**GetCursor**](/windows/win32/api/winuser/nf-winuser-getcursor) function, and set the cursor by using the [**SetCursor**](/windows/win32/api/winuser/nf-winuser-setcursor) function. **SetCursor** takes effect only while the calling thread owns mouse input - the reliable place to call it is in a [**WM\_SETCURSOR**](wm-setcursor.md) handler. When handling **WM\_SETCURSOR**, return **TRUE** after calling **SetCursor**; otherwise **DefWindowProc** will override the cursor with the class cursor. See [Displaying a Cursor](/windows/win32/menurc/using-cursors#displaying-a-cursor) for an example.
+
+You can hide and redisplay the cursor by using the [**ShowCursor**](/windows/win32/api/winuser/nf-winuser-showcursor) function. This function maintains a per-thread visibility counter; the cursor is visible only when the counter is greater than or equal to zero. Each call to `ShowCursor(FALSE)` must be paired with a call to `ShowCursor(TRUE)` - an unmatched decrement permanently hides the cursor for that thread.
+
+The [**GetCursorInfo**](/windows/win32/api/winuser/nf-winuser-getcursorinfo) function retrieves whether the cursor is hidden or shown, its handle, and its screen coordinates.
+
+## Cursor Confinement
+
+You can confine the cursor to a rectangular area on the screen by using the [**ClipCursor**](/windows/win32/api/winuser/nf-winuser-clipcursor) function. This is useful for when the user must respond to a certain event within the confined area of the rectangle. For example, you might use **ClipCursor** to confine the cursor to a modal dialog box, preventing the user from interacting with other windows until the dialog box is closed.
+
+The [**GetClipCursor**](/windows/win32/api/winuser/nf-winuser-getclipcursor) function retrieves the screen coordinates of the rectangular area to which the cursor is temporarily confined. When it is necessary to confine the cursor, you can also use this function to save the coordinates of the original area in which the cursor can move. Then, you can restore the cursor to the original area when the new confinement is no longer necessary.
+
+## Cursor Destruction
+
+The same ownership rules that apply to icons also apply to cursors - destroy owned cursor handles by calling [**DestroyCursor**](/windows/win32/api/winuser/nf-winuser-destroycursor). See [Icon Destruction](about-icons.md#icon-destruction) for the shared handle exceptions that apply to both icons and cursors. The cursor-specific shared function is [**LoadCursor**](/windows/win32/api/winuser/nf-winuser-loadcursorw) - it always uses **LR\_SHARED** internally regardless of the instance parameter; use **LoadImage** without **LR\_SHARED** if you need an owned handle.
+
+## Cursor Duplication
+
+The [**CopyCursor**](/windows/win32/api/winuser/nf-winuser-copycursor) function creates a new independent cursor object with the same image and hotspot as the original - analogous to [**CopyIcon**](about-icons.md#icon-duplication) for icons. The copy is owned by the caller.
+
+For information on how to add, remove, or replace cursor resources in executable files, see [Resources](resources.md).
