@@ -53,7 +53,7 @@ The format tags listed in the third column of this table are used in the **WAVEF
 
 Given an audio format tag, you can create an audio subtype GUID as follows:
 
-1.  Start with the value **MFAudioFormat\_Base**, which is defined in mfaph.i.
+1.  Start with the value **MFAudioFormat\_Base**, which is defined in mfapi.h.
 2.  Replace the first **DWORD** of this GUID with the format tag.
 
 You can use the [**DEFINE\_MEDIATYPE\_GUID**](/windows/desktop/api/mfapi/nf-mfapi-define_mediatype_guid) macro to define a new GUID constant that follows this pattern.

@@ -85,8 +85,8 @@ An application can use the following values to get the keystroke flags from high
 | Value                       | Description                                                                       |
 |-----------------------------|-----------------------------------------------------------------------------------|
 | **KF\_EXTENDED**<br/>0x0100 | Manipulates the [extended key flag](#extended-key-flag).                          |
-| **KF\_DLGMODE**<br/>0x0800  | Manipulates the dialog mode flag, which indicates whether a dialog box is active. |
-| **KF\_MENUMODE**<br/>0x1000 | Manipulates the menu mode flag, which indicates whether a menu is active.         |
+| **KF\_DLGMODE**<br/>0x0800  | Manipulates the dialog mode flag, which indicates whether a dialog box is active. Rarely used by modern applications. |
+| **KF\_MENUMODE**<br/>0x1000 | Manipulates the menu mode flag, which indicates whether a menu is active. Rarely used by modern applications.         |
 | **KF\_ALTDOWN**<br/>0x2000  | Manipulates the [context code flag](#context-code).                               |
 | **KF\_REPEAT**<br/>0x4000   | Manipulates the [previous key state flag](#previous-key-state-flag).              |
 | **KF\_UP**<br/>0x8000       | Manipulates the [transition state flag](#previous-key-state-flag).                |
@@ -317,9 +317,9 @@ Notes:
 
 ### Extended-Key Flag
 
-The extended-key flag indicates whether the keystroke message originated from one of the additional keys on the Enhanced 101/102-key keyboard. The extended keys consist of the *Alt* and *Ctrl* keys on the right-hand side of the keyboard; the *Insert**, *Delete**, *Home*, *End*, *Page up*, *Page down*, and *Arrow* keys in the clusters to the left of the numeric keypad; the *Num lock* key; the *Break* (*Ctrl+Pause*) key; the *Print screen* key; and the *Divide* (/) and *Enter* keys on the numeric keypad. The right-hand *Shift* key is not considered an extended-key, it has a separate scan code instead.
+The extended-key flag indicates whether the keystroke message originated from one of the additional keys on the Enhanced 101/102-key keyboard. The extended keys consist of the *Alt* and *Ctrl* keys on the right-hand side of the keyboard; the *Insert*, *Delete*, *Home*, *End*, *Page Up*, *Page Down*, and *Arrow* keys in the clusters to the left of the numeric keypad; the *Break* (*Ctrl+Pause*) key; the *Print Screen* key; the *Divide* (/) and *Enter* keys on the numeric keypad; and the *Windows* and *Application* keys. Note that the *Num Lock* key has a separate scan code from the *Pause* key (which uses the same scan code without the extended-key flag), and is not considered an extended key despite appearing in the extended key name table. The right-hand *Shift* key is not considered an extended key either; it has a separate scan code (`0x36`) instead.
 
-If specified, the scan code consists of a sequence of two bytes, where the first byte has a value of 0xE0.
+If specified, the scan code consists of a sequence of two bytes, where the first byte has a value of `0xE0`.
 
 ### Context Code
 
