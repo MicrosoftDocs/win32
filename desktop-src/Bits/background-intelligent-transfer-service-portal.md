@@ -9,7 +9,7 @@ keywords:
 - downloading files BITS
 - background file transfer BITS
 - uploading files BITS
-ms.topic: article
+ms.topic: concept-article
 ms.date: 11/29/2018
 ---
 
@@ -17,7 +17,7 @@ ms.date: 11/29/2018
 
 ## Purpose
 
-Background Intelligent Transfer Service (BITS) is used by programmers and system administrators to download files from or upload files to HTTP web servers and SMB file shares. BITS will take the cost of the transfer into consideration, as well as the network usage so that the user's foreground work has as little impact as possible. BITS also handles network interuptions, pausing and automatically resuming transfers, even after a reboot. BITS includes PowerShell cmdlets for creating and managing transfers as well as the BitsAdmin command-line utility.
+Background Intelligent Transfer Service (BITS) is used by programmers and system administrators to download files from or upload files to HTTP web servers and SMB file shares. BITS will take the cost of the transfer into consideration, as well as the network usage so that the user's foreground work has as little impact as possible. BITS also handles network interruptions, pausing and automatically resuming transfers, even after a reboot. BITS includes PowerShell cmdlets for creating and managing transfers as well as the BitsAdmin command-line utility.
 
 > [!Note]  
 > BITS can be used by Windows to download updates to your local system. If you are an end-user searching for ways to troubleshoot your BITS installation, see [Fix Windows Update Issues](https://support.microsoft.com/help/10164/fix-windows-update-errors). 

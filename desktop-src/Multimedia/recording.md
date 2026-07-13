@@ -4,7 +4,7 @@ description: Recording
 ms.assetid: '0026eb1d-5be1-4090-801b-f1c65c179f42'
 keywords:
 - MCI_RECORD command
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

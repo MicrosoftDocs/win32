@@ -2,7 +2,7 @@
 title: Closing All MCI Devices Used by an Application
 description: Closing All MCI Devices Used by an Application
 ms.assetid: 1d7d3800-b38f-4187-ba57-9849fef4d707
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

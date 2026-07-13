@@ -5,7 +5,7 @@ ms.assetid: 193961a5-b882-4769-bce7-a53d625fc9dd
 keywords:
 - Video for Windows (VFW),VCM functions
 - VFW (Video for Windows),VCM functions
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

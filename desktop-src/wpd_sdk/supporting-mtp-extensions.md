@@ -2,7 +2,7 @@
 description: Supporting MTP Extensions
 ms.assetid: 9e5f3da6-346a-4eca-bc85-2755c569986d
 title: Supporting MTP Extensions
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

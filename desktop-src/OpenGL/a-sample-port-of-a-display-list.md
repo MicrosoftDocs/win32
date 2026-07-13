@@ -8,7 +8,7 @@ keywords:
 - porting to OpenGL from IRIS GL,display lists
 - OpenGL porting from IRIS GL,display lists
 - display lists,porting from IRIS GL
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

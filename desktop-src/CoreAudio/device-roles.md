@@ -2,7 +2,7 @@
 description: Device Roles
 ms.assetid: aa787004-0d3e-448b-80dd-92055f841aee
 title: Device Roles
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

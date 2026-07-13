@@ -3,7 +3,7 @@ title: Detecting and Avoiding Replication Latency
 description: Replication latency is a fact of life in a loosely coupled distributed system.
 ms.assetid: ea65759b-2bfa-4859-8d2a-5949bbb9adef
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

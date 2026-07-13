@@ -3,7 +3,7 @@ title: A (RPC)
 description: Words starting with A in Remote Procedure Call (RPC) glossary.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 790462f0-e155-47c4-8cb1-33483c042fd1
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

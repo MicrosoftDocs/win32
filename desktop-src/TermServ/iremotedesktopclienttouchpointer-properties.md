@@ -3,7 +3,7 @@ title: IRemoteDesktopClientTouchPointer properties
 description: The IRemoteDesktopClientTouchPointer interface exposes the following properties.
 ms.assetid: 26C4CF42-A0F1-4976-A1F8-363037482075
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

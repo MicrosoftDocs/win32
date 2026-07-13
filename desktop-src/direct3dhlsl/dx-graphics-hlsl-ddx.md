@@ -30,7 +30,7 @@ Returns the partial derivative of the specified value with respect to the screen
 
 This function computes the partial derivative with respect to the screen-space x-coordinate. To compute the partial derivative with respect to the screen-space y-coordinate, use the [**ddy**](dx-graphics-hlsl-ddy.md) function.
 
-This function is only supported in pixel shaders.
+This function is supported only in pixel shaders.
 
 ## Parameters
 

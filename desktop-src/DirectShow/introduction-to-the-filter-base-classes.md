@@ -2,14 +2,14 @@
 description: Introduction to the Filter Base Classes
 ms.assetid: db6324d7-1914-44a8-a202-dff752b61c1a
 title: Introduction to the Filter Base Classes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---
 
 # Introduction to the Filter Base Classes
 
-\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 This article describes the Microsoft DirectShow base class library. This library is intended for filter developers, but application writers might find some of the helper classes and debugging utilities useful. The base class library is not required for DirectShow programming, however.
 
@@ -32,7 +32,7 @@ The following classes support the creation of COM objects:
 
 Most of the DirectShow classes derive from **CBaseObject**. This class provides debugging assistance by keeping a count of all the active objects in the DLL at run time. In debug builds, the DLL asserts if it is unloaded while the object count is greater than zero. This makes it easier to track down leaks caused by reference-counting problems.
 
-All of the base classes that support COM interfaces derive from **CUnknown**, which inherits **CBaseObject**. The **CUnknown** class supports reference counting, **QueryInterface**, and aggregration. For more information, see [How to Implement IUnknown](how-to-implement-iunknown.md).
+All of the base classes that support COM interfaces derive from **CUnknown**, which inherits **CBaseObject**. The **CUnknown** class supports reference counting, **QueryInterface**, and aggregation. For more information, see [How to Implement IUnknown](how-to-implement-iunknown.md).
 
 **Filter and Pin Classes**
 

@@ -2,7 +2,7 @@
 description: System.Media.Year
 ms.assetid: 87080e50-1233-4300-8fbc-cd897d9aecbd
 title: System.Media.Year
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Information on where to find Quality of Service (QoS) implementation details.
 ms.assetid: aaac8a91-2769-408c-8f58-de0519e38d5b
 title: QoS Updates
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

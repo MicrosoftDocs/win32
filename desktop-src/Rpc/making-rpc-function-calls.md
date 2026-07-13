@@ -4,7 +4,7 @@ description: This section discusses best RPC programming practices for making RP
 ms.assetid: 4882d29b-08f3-41ec-84c3-35df6c56fd31
 keywords:
 - Remote Procedure Call RPC , best practices, making function calls
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

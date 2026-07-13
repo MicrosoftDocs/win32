@@ -2,7 +2,7 @@
 description: The following entries in the Format, Type, and ContextData columns of the ModuleConfiguration table specify the semantic type of information being substituted into the configurable item specified in the Name column of this table.
 ms.assetid: f44e234e-b45a-40be-993d-956b8966c321
 title: Semantic Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

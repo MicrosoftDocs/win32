@@ -1,7 +1,7 @@
 ---
 description: Demonstrates how to use the IShellLibrary interface to create a command-line application that provides programmatic access for inspecting and manipulating libraries and library files.
 title: Shell Library Command Line Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ms.assetid: 5EC06E69-8AC8-4d9e-BAFC-C1AFC1294023
 api_name: 

@@ -2,7 +2,7 @@
 description: How to generate, retrieve, and export RSA/Schannel keys.
 ms.assetid: 3069232f-d016-4973-ae39-89b0e2a03cd7
 title: RSA/Schannel Keys
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -39,8 +39,7 @@ SWbemObject.Methods_ As Object
 
 ## Examples
 
-The following [code sample](https://Gallery.TechNet.Microsoft.Com/c15624ee-e335-4d58-a022-aed73ad330a1), taken from the TechNet Gallery, describes how to list all methods of a class.
-
+The following code sample describes how to list all methods of a class.
 
 ```VB
 strComputer = "." 

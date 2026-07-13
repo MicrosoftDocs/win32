@@ -2,7 +2,7 @@
 description: TAPI provides access to a phones display.
 ms.assetid: f6017ecc-b2a0-4a92-8c28-ce7411f8dd84
 title: Display
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

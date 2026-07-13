@@ -2,7 +2,7 @@
 description: Miscellaneous driver primitive capability flags.
 ms.assetid: 7912c682-c179-453b-8a34-e87958217500
 title: D3DPMISCCAPS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

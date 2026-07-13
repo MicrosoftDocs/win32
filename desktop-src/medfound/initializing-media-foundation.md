@@ -2,7 +2,7 @@
 description: Initializing Media Foundation
 ms.assetid: e4db81d3-7a9e-47d7-8611-6dac8026259c
 title: Initializing Media Foundation
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

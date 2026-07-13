@@ -3,7 +3,7 @@ description: You can create an instance in C++ through the IWbemServices interfa
 ms.assetid: ee54c1ef-bc91-4771-8c11-9ee3aacd8112
 ms.tgt_platform: multiple
 title: Creating and Declaring an Instance Using C++
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

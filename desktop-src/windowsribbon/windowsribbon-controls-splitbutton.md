@@ -2,7 +2,7 @@
 title: Split Button
 description: The Split Button is a composite control with which the user can select a default value bound to a primary button, or select from a list of mutually exclusive values displayed in a drop-down list bound to a secondary button.
 ms.assetid: 0939b3be-fa88-4864-8096-a664ab2e97b5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -42,7 +42,7 @@ The following table lists the property keys that are associated with the Split B
 
 | Property Key | Notes | 
 |--------------|-------|
-| <a href="windowsribbon-reference-properties-uipkey-enabled.md">UI_PKEY_Enabled</a> | Supports <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>.<br /> If all child items are disabled, the framework sets <a href="windowsribbon-reference-properties-uipkey-enabled.md">UI_PKEY_Enabled</a> to false (0). Otherwise, if one or more child items are enabled, UI_PKEY_Enabled is set to true (-1).<blockquote>[!Important]<br />The <a href="windowsribbon-reference-properties-uipkey-enabled.md">UI_PKEY_Enabled</a> property for the Split Button control should be invalidated after one or more child items are enabled or disabled. This ensures that the framework queries the updated property value and refreshes the state of the Split Button control in the ribbon UI.</blockquote><br /><br /> | 
+| [UI_PKEY_Enabled](windowsribbon-reference-properties-uipkey-enabled.md) | Supports [**IUIFramework::GetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) and [**IUIFramework::SetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty).<br> If all child items are disabled, the framework sets [UI_PKEY_Enabled](windowsribbon-reference-properties-uipkey-enabled.md) to false (0). Otherwise, if one or more child items are enabled, UI_PKEY_Enabled is set to true (-1). **Important:** <br>The [UI_PKEY_Enabled](windowsribbon-reference-properties-uipkey-enabled.md) property for the Split Button control should be invalidated after one or more child items are enabled or disabled. This ensures that the framework queries the updated property value and refreshes the state of the Split Button control in the ribbon UI.<br> | 
 | <a href="windowsribbon-reference-properties-uipkey-keytip.md">UI_PKEY_Keytip</a> | Can only be updated through invalidation. | 
 | <a href="windowsribbon-reference-properties-uipkey-tooltipdescription.md">UI_PKEY_TooltipDescription</a> | Can only be updated through invalidation. | 
 | <a href="windowsribbon-reference-properties-uipkey-tooltiptitle.md">UI_PKEY_TooltipTitle</a> | Can only be updated through invalidation. | 

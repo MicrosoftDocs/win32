@@ -5,7 +5,7 @@ ms.assetid: 13063ee8-cb41-48a7-b90b-ea08c19c5230
 keywords:
 - MIDL compiler MIDL , MIDL and COM
 - COM MIDL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

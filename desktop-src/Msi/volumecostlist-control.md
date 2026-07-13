@@ -2,7 +2,7 @@
 description: The VolumeCostList control presents information about the cost associated with the selection on the different volumes.
 ms.assetid: b4aa8ea1-591f-4665-98af-9fa73a3f4202
 title: VolumeCostList Control
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Nearly all applications use the screen to display the data they manipulate.
 ms.assetid: 97d606a0-11d3-49c3-b045-8397f4bcfa54
 title: About Painting and Drawing
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

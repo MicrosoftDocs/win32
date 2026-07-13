@@ -2,7 +2,7 @@
 description: Business address fax number of the contact.
 ms.assetid: fbffd3f2-e032-4297-9fe9-4d141af2f9ea
 title: System.Contact.BusinessFaxNumber
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

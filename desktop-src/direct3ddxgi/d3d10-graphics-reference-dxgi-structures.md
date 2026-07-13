@@ -2,7 +2,7 @@
 description: Describes the DGXI structures and provides a list of the structures and links to articles about each structure.
 ms.assetid: 22e98880-bcd1-448a-9223-604fff9173fe
 title: DXGI Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This section describes how to use Microsoft Media Foundation to perform audio and video encoding, and author media files.
 ms.assetid: f5621b10-8724-4707-ad68-b81f3c065803
 title: Encoding and File Authoring
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

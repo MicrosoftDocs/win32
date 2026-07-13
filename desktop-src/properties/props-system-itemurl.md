@@ -2,7 +2,7 @@
 description: Represents a well-formed URL that points to the item.
 ms.assetid: d592f12b-f8c2-406f-a031-eeb8212e64f7
 title: System.ItemUrl
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

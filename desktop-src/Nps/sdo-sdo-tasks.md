@@ -3,7 +3,7 @@ title: SDO Tasks
 description: SDO Tasks
 ms.assetid: a3e3197c-3ff8-4afc-9dae-6dcec7d9ac65
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

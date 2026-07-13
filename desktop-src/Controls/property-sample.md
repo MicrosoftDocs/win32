@@ -2,7 +2,7 @@
 title: Property Sample
 ms.assetid: 44642d32-2cbc-4dd9-bccc-15924f310539
 description: "Learn more about: Property Sample"
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

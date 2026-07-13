@@ -2,7 +2,7 @@
 description: The event registration process take place when the terminal is selected by a stream.
 ms.assetid: 03854b38-4dba-480e-b931-34299d04c551
 title: Registering for Pluggable Terminal Events
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

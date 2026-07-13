@@ -2,7 +2,7 @@
 title: FontName Property (Balloon Object)
 description: Learn about the FontName Balloon object property. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: a84a19a4-9e0e-4736-b401-286e6618bc19
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

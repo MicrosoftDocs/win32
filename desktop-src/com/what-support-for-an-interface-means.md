@@ -2,7 +2,7 @@
 title: What Support for an Interface Means
 description: What Support for an Interface Means
 ms.assetid: fa5eae0f-2252-43bc-b504-de00b213cb2a
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable6 SendLocation3D method
-description: Sends a latitude, longitude and altitude value to the server so the client’s geographic location can be reflected in the remote session.
+description: Sends a latitude, longitude and altitude value to the server so the client's geographic location can be reflected in the remote session.
 ms.tgt_platform: multiple
 keywords:
 - SendLocation3D method Remote Desktop Services
@@ -20,7 +20,7 @@ ms.date: 12/16/2020
 
 # IMsRdpClientNonScriptable6::SendLocation3D method
 
-Sends a latitude, longitude and altitude value to the server so the client’s geographic location can be reflected in the remote session.
+Sends a latitude, longitude and altitude value to the server so the client's geographic location can be reflected in the remote session.
 
 ## Syntax
 

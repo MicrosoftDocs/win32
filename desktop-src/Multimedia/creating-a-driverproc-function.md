@@ -7,7 +7,7 @@ keywords:
 - creating DriverProc function
 - DriverProc function
 - installable drivers,DriverProc function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

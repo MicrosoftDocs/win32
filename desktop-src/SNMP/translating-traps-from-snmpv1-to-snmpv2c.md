@@ -2,7 +2,7 @@
 title: Translating Traps from SNMPv1 to SNMPv2C
 description: When the Microsoft WinSNMP implementation receives traps from an entity operating under the SNMPv1 framework, it translates the traps to the SNMPv2C format.
 ms.assetid: 472f67ba-05d5-46f7-a2f1-1cef6182574e
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

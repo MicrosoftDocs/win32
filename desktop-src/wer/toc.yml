@@ -111,3 +111,22 @@
         href: /windows/win32/api/Werapi/ns-werapi-wer_report_information
       - name: "WER_RUNTIME_EXCEPTION_INFORMATION"
         href: /windows/win32/api/Werapi/ns-werapi-wer_runtime_exception_information
+    - name: "WER Enumerations"
+      href: wer-enumerations.md
+      items: 
+      - name: "REPORT_STORE_TYPES"
+        href: /windows/win32/api/werapi/ne-werapi-report_store_types
+      - name: "WER_CONSENT"
+        href: /windows/win32/api/werapi/ne-werapi-wer_consent
+      - name: "WER_DUMP_TYPE"
+        href: /windows/win32/api/werapi/ne-werapi-wer_dump_type
+      - name: "WER_FILE_TYPE"
+        href: /windows/win32/api/werapi/ne-werapi-wer_file_type
+      - name: "WER_REGISTER_FILE_TYPE"
+        href: /windows/win32/api/werapi/ne-werapi-wer_register_file_type
+      - name: "WER_REPORT_TYPE"
+        href: /windows/win32/api/werapi/ne-werapi-wer_report_type
+      - name: "WER_REPORT_UI"
+        href: /windows/win32/api/werapi/ne-werapi-wer_report_ui
+      - name: "WER_SUBMIT_RESULT"
+        href: /windows/win32/api/werapi/ne-werapi-wer_submit_result

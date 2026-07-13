@@ -2,7 +2,7 @@
 title: Pragma Directives
 description: RC does not support the pragma directives supported by the C/C++ compiler.
 ms.assetid: c7a944c0-a3d4-4568-a9ac-c338f0eaa427
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

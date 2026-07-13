@@ -3,7 +3,7 @@ title: Auxiliary Classes
 description: The following are the auxiliary classes defined by Active Directory.
 ms.assetid: ce981795-a76f-4043-852a-249c79dff7e9
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Join Alert Callbacks
 description: When the multicast group manager is notified that there are new receivers present for a group on an interface, the multicast group manager invokes the PMGM\_JOIN\_ALERT\_CALLBACK callback.
 ms.assetid: b625f8ec-f59b-4151-aa38-48cf8f004966
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

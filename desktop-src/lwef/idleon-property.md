@@ -2,7 +2,7 @@
 title: IdleOn Property
 description: IdleOn Property
 ms.assetid: ba436dec-c7b4-42e8-99d6-c6ff93afd73c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

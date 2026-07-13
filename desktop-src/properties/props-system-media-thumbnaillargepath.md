@@ -2,7 +2,7 @@
 description: The System.Media.ThumbnailLargePath property contains the filesystem path to the large thumbnail representation of the media item.
 ms.assetid: 5a710c2d-ab79-4376-88be-26931346f116
 title: System.Media.ThumbnailLargePath
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

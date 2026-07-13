@@ -44,7 +44,7 @@ A cookie that uniquely identifies the request which initiated offline analysis.
 Indicates whether offline analysis succeeded or failed. If it succeeded, results were written to a file.
 
 *outputFullFileName*   
-A COM string contianing the name of the file where offline analysis results were written.
+A COM string containing the name of the file where offline analysis results were written.
 
 ## Return value
 

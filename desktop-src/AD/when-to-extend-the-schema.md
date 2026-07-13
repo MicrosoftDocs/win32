@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - When to Extend the Schema AD
 - schema AD , when to extend
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

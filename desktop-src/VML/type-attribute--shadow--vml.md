@@ -2,7 +2,7 @@
 title: Type Attribute (Shadow)(VML)
 description: Type Attribute (Shadow)(VML)
 ms.assetid: 569957c6-508a-4323-804d-25f9a3e58c38
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

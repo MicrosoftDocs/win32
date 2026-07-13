@@ -2,7 +2,7 @@
 description: EVRPresenter Sample
 ms.assetid: 791a9816-4c40-4683-8b32-22f73d7fe84d
 title: EVRPresenter Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

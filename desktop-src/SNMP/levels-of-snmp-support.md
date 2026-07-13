@@ -2,7 +2,7 @@
 title: Levels of SNMP Support
 description: The Microsoft WinSNMP implementation provides level 2 SNMP communications support.
 ms.assetid: 9874ad9b-4eb9-4d63-816b-fe444c5b4d8a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

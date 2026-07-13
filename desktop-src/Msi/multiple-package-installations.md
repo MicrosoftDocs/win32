@@ -2,7 +2,7 @@
 description: Windows Installer can install multiple packages using transaction processing.
 ms.assetid: c4a0f4d8-818d-4e60-908b-adaa2a54de95
 title: Multiple-Package Installations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

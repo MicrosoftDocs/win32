@@ -2,7 +2,7 @@
 description: The following code example shows the usage of a mutex object to determine if MSN Explorer is signed in.
 ms.assetid: ec52a61c-9d2c-4327-977b-fb13d042bc37
 title: Determining if MSN Is in the Sign-in State
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

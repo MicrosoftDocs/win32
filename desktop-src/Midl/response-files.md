@@ -4,7 +4,7 @@ description: As an alternative to placing all the options on the command line, t
 ms.assetid: 53ee9ad2-1ab4-421f-99c9-66186da4bd9d
 keywords:
 - MIDL compiler MIDL , response files
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -4,7 +4,7 @@ description: This section covers specific topics about software development with
 ms.assetid: 8375475c-5a0e-42a2-8755-4c79dfe4cfce
 keywords:
 - Windows Touch,programming guide
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

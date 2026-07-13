@@ -2,7 +2,7 @@
 title: IP Address Messages
 description: IP Address Messages
 ms.assetid: 1b9d0330-0870-4686-bacb-962716612d87
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

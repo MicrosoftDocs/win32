@@ -2,7 +2,7 @@
 description: This section of topics provide developers with guidance on how to implement image file format codecs that will function within the Windows Imaging Component (WIC) framework.
 ms.assetid: 58f03dc2-cc31-4d76-b75a-f332da1f900f
 title: How to Write a WIC-Enabled Codec
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

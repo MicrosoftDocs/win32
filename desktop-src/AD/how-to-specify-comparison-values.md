@@ -5,7 +5,7 @@ ms.assetid: 72bd58e4-e1c3-40a5-9917-4910f40c52c5
 ms.tgt_platform: multiple
 keywords:
 - How to Specify Comparison Values AD
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

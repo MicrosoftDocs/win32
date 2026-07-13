@@ -8,7 +8,7 @@ keywords:
 - Active Directory, Reference, Interfaces
 - Interfaces Active Directory
 - Interfaces for Active Directory Domain Services Active Directory
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

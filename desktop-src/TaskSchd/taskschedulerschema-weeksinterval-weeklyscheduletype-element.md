@@ -71,7 +71,7 @@ The following XML defines a weekly calendar trigger that starts a task Monday th
             <Monday/>
             <Tuesday/>
             <Wednesday/>
-            <Thurday/>
+            <Thursday/>
             <Friday/>
         </DaysOfWeek>
     </ScheduleByWeek>

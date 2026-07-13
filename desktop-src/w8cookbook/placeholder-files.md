@@ -2,7 +2,7 @@
 title: Placeholder files
 description: Placeholder files
 ms.assetid: E14655DA-CEA0-4106-B882-C9E9116FC234
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

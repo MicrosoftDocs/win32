@@ -2,7 +2,7 @@
 description: An action is executed in the Windows Installer either by calling the MsiDoAction function or including the action in a sequence table.
 ms.assetid: ee5bdc72-adf4-46f4-ae1f-4c41d22a1ed8
 title: Using Standard Actions
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: Retrieves all instances that are associated with a particular sourc
 ms.assetid: d6bd9643-523d-4d81-8bf1-da52ccc7524d
 ms.tgt_platform: multiple
 title: ASSOCIATORS OF Statement
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: The following sections describe common issues developers may have w
 ms.assetid: 328e420b-a859-4ce9-8a31-67150eb0a78f
 ms.tgt_platform: multiple
 title: Troubleshooting a Remote WMI Connection
-ms.topic: article
+ms.topic: troubleshooting-general
 ms.date: 05/31/2018
 ---
 

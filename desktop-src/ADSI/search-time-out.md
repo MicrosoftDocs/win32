@@ -5,7 +5,7 @@ ms.assetid: a31bc8b2-9adf-4dff-a6df-67d6bf304e04
 ms.tgt_platform: multiple
 keywords:
 - Search Time Out ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

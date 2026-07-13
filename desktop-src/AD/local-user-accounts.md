@@ -3,7 +3,7 @@ title: Using a Local User Account as a Service Logon Account
 description: A local user account (name format \ 0034;.\\UserName \ 0034;) exists only in the SAM database of the host computer; it does not have a user object in Active Directory Domain Services.
 ms.assetid: a36d4d1c-3cfc-4ae1-8f1d-3f2e766f0c4b
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

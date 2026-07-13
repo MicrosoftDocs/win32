@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - About Application Directory Partitions
 - Application Directory Partitions, About
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

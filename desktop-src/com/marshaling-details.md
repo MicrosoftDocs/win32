@@ -2,7 +2,7 @@
 title: Marshaling Details
 description: If you use standard marshaling, COM handles all of the details described here for you.
 ms.assetid: bf3fe212-648e-4d00-ad1d-43d2e5e6a7ae
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

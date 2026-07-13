@@ -21,7 +21,7 @@ keywords:
 - custom checkmark bitmaps
 - menus,check boxes
 - menus,fonts
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

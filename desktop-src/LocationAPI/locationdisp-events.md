@@ -2,7 +2,7 @@
 description: The Location API object model provides the following events.
 ms.assetid: c7ac0d81-ce36-4991-a0fb-6d3c6cc8efe8
 title: LocationDisp Events
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

@@ -10,7 +10,7 @@ keywords:
 - text services,prototypes
 - TSF-enabled applications,prototypes
 - prototypes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

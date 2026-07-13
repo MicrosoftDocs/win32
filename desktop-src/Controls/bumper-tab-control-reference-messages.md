@@ -2,7 +2,7 @@
 title: Tab Control Messages
 description: Tab Control Messages
 ms.assetid: a2993604-ba9c-46ff-9cf5-287c03295b4e
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

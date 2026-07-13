@@ -2,21 +2,21 @@
 description: The Security Descriptor String Format is a text format for storing or transporting information in a security descriptor.
 ms.assetid: 0a226629-084c-40c5-bdd4-ad7355c807cf
 title: Security Descriptor String Format
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/08/2025
+# customer intent: As a Windows app developer, I want to understand the Security Descriptor String Format, so that I can work with security descriptors in my app.
 ---
 
 # Security Descriptor String Format
 
-The **Security Descriptor String Format** is a text format for storing or transporting information in a security descriptor. The [**ConvertSecurityDescriptorToStringSecurityDescriptor**](/windows/desktop/api/Sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora) and [**ConvertStringSecurityDescriptorToSecurityDescriptor**](/windows/desktop/api/Sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora) functions use this format.
+The **Security Descriptor String Format** is a text format for storing or transporting information in a security descriptor. The [ConvertSecurityDescriptorToStringSecurityDescriptor](/windows/win32/api/Sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora) and [ConvertStringSecurityDescriptorToSecurityDescriptor](/windows/win32/api/Sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora) functions use this format.
 
 The format is a **null**-terminated string with tokens to indicate each of the four main components of a security descriptor: owner (O:), primary group (G:), DACL (D:), and SACL (S:).
 
-> [!Note]  
-> [*Access control entries*](/windows/desktop/SecGloss/a-gly) (ACEs) and conditional ACEs have differing formats. For ACEs, see [ACE Strings](ace-strings.md). For conditional ACEs, see [Security Descriptor Definition Language for Conditional ACEs](security-descriptor-definition-language-for-conditional-aces-.md).
+> [!NOTE]
+> [Access control entries](/windows/win32/SecGloss/a-gly) (ACEs) and conditional ACEs have differing formats. For ACEs, see [ACE Strings](ace-strings.md). For conditional ACEs, see [Security Descriptor Definition Language for Conditional ACEs](security-descriptor-definition-language-for-conditional-aces-.md).
 
- 
-
+## Security descriptor string format components
 
 ```C++
 O:owner_sid
@@ -24,8 +24,6 @@ G:group_sid
 D:dacl_flags(string_ace1)(string_ace2)... (string_acen)
 S:sacl_flags(string_ace1)(string_ace2)... (string_acen)
 ```
-
-
 
 <dl> <dt>
 
@@ -48,18 +46,12 @@ A SID string that identifies the object's primary group.
 
 Security descriptor control flags that apply to the DACL. For a description of these control flags, see the [**SetSecurityDescriptorControl**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorcontrol) function. The dacl\_flags string can be a concatenation of zero or more of the following strings.
 
-
-
 | Control               | Constant in Sddl.h       | Meaning                                       |
 |-----------------------|--------------------------|-----------------------------------------------|
 | "P"                   | SDDL\_PROTECTED          | The SE\_DACL\_PROTECTED flag is set.          |
 | "AR"                  | SDDL\_AUTO\_INHERIT\_REQ | The SE\_DACL\_AUTO\_INHERIT\_REQ flag is set. |
 | "AI"                  | SDDL\_AUTO\_INHERITED    | The SE\_DACL\_AUTO\_INHERITED flag is set.    |
 | "NO\_ACCESS\_CONTROL" | SDDL\_NULL\_ACL          | The ACL is null. **Windows Server 2008, Windows Vista and Windows Server 2003:** Not available. |
-
-
-
- 
 
 </dd> <dt>
 
@@ -85,19 +77,17 @@ To denote an empty ACL, the security descriptor string includes the D: or S: tok
 
 The security descriptor string stores the [**SECURITY DESCRIPTOR CONTROL**](security-descriptor-control.md) bits in different ways. The SE\_DACL\_PRESENT or SE\_SACL\_PRESENT bits are indicated by the presence of the D: or S: token in the string. Other bits that apply to the DACL or SACL are stored in dacl\_flags and sacl\_flags. The SE\_OWNER\_DEFAULTED, SE\_GROUP\_DEFAULTED, SE\_DACL\_DEFAULTED, and SE\_SACL\_DEFAULTED bits are not stored in a security descriptor string. The SE\_SELF\_RELATIVE bit is not stored in the string, but [**ConvertStringSecurityDescriptorToSecurityDescriptor**](/windows/desktop/api/Sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora) always sets this bit in the output security descriptor.
 
+## Example security descriptor strings
+
 The following examples show security descriptor strings and the information in the associated security descriptors.
 
 String 1:
-
 
 ```C++
 "O:AOG:DAD:(A;;RPWPCCDCLCSWRCWDWOGA;;;S-1-0-0)"
 ```
 
-
-
 Security Descriptor 1:
-
 
 ```C++
     Revision:  0x00000001
@@ -124,25 +114,19 @@ SACL
     Not present
 ```
 
-
-
 String 2:
-
 
 ```C++
 "O:DAG:DAD:(A;;RPWPCCDCLCRCWOWDSDSW;;;SY)
 (A;;RPWPCCDCLCRCWOWDSDSW;;;DA)
-(OA;;CCDC;bf967aba-0de6-11d0-a285-00aa003049e2;;AO)
-(OA;;CCDC;bf967a9c-0de6-11d0-a285-00aa003049e2;;AO)
-(OA;;CCDC;6da8a4ff-0e52-11d0-a286-00aa003049e2;;AO)
-(OA;;CCDC;bf967aa8-0de6-11d0-a285-00aa003049e2;;PO)
+(OA;;CCDC;aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb;;AO)
+(OA;;CCDC;bbbbbbbb-1111-2222-3333-cccccccccccc;;AO)
+(OA;;CCDC;cccccccc-2222-3333-4444-dddddddddddd;;AO)
+(OA;;CCDC;dddddddd-3333-4444-5555-eeeeeeeeeeee;;PO)
 (A;;RPLCRC;;;AU)S:(AU;SAFA;WDWOSDWPCCDCSW;;;WD)"
 ```
 
-
-
 Security Descriptor 2:
-
 
 ```C++
     Revision:  0x00000001
@@ -243,18 +227,8 @@ DACL
             Ace Sid:       (S-1-1-0)
 ```
 
-
-
-## Related topics
-
-<dl> <dt>
+## Related content
 
 [ACE Strings](ace-strings.md)
-</dt> <dt>
 
 [Security Descriptor Definition Language for Conditional ACEs](security-descriptor-definition-language-for-conditional-aces-.md)
-</dt> </dl>
-
- 
-
- 

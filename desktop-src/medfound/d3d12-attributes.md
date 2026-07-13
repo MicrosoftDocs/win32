@@ -1,7 +1,7 @@
 ---
 description: Direct3D 12 Attributes
 title: Direct3D 12 Attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 08/13/2021
 ---
 

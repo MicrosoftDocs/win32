@@ -10,7 +10,7 @@ keywords:
 - TSF reference,text stores
 - reference for TSF,text stores
 - text stores
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

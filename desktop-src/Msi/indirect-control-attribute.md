@@ -2,7 +2,7 @@
 description: The Indirect control attribute specifies whether the value displayed or changed by this control is referenced indirectly.
 ms.assetid: dc9c0dd6-7e19-44ec-b1a5-3d51a1855adf
 title: Indirect Control Attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

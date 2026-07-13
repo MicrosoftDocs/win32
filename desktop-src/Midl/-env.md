@@ -49,7 +49,7 @@ Directs the MIDL compiler to generate stub files, or a type library file, for a 
 
 </dt> <dd>
 
-Directs the MIDL compiler to generate stub files, or a type library file, for a Intel Architecture 64-bit (IA64) environment.
+Directs the MIDL compiler to generate stub files, or a type library file, for an Intel Architecture 64-bit (IA64) environment.
 
 </dd> <dt>
 

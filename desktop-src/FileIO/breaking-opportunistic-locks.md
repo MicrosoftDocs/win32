@@ -2,7 +2,7 @@
 description: Breaking an opportunistic lock is the process of degrading the lock that one client has on a file so that another client can open the file, with or without an opportunistic lock.
 ms.assetid: 0356c167-2973-4820-85a9-bc14abcbf163
 title: Breaking Opportunistic Locks
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

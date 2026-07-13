@@ -3,7 +3,7 @@ title: Firewall dynamic keywords functions
 description: Firewall dynamic keywords contains the following functions.
 keywords:
 - Firewall dynamic keywords, functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/13/2021
 ---
 

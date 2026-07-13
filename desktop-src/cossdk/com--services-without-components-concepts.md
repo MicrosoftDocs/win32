@@ -2,7 +2,7 @@
 description: COM+ 1.5 introduces the ability to use COM+ services without components.
 ms.assetid: da93d164-234a-4d1e-b82c-f3f904bb8cb6
 title: COM+ Services Without Components Concepts
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

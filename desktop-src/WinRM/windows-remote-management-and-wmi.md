@@ -3,7 +3,7 @@ title: Windows Remote Management and WMI
 description: Windows Remote Management can be used to retrieve data exposed by Windows Management Instrumentation.
 ms.assetid: a625440b-a839-487d-b862-e35934f24e1f
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle
@@ -40,7 +40,7 @@ The following procedure describes how to generate a resource URI either to get a
 
 1.  Start with the prefix that indicates the WS-Management protocol schema should be used.
 
-    https://schemas.microsoft.com/wbem/wsman/1
+    `https://schemas.microsoft.com/wbem/wsman/1`
 
     The resource URI prefix for WMI classes is always the same. For more information, see [URI Prefixes](uri-prefixes.md).
 
@@ -50,11 +50,11 @@ The following procedure describes how to generate a resource URI either to get a
 
 3.  Add the class name.
 
-    `http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_Service`
+    `http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service`
 
 4.  To set the value of a property, or to invoke a specific method, add the required key value or values for the class.
 
-    `http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_Service?Name=Winmgmt`
+    `http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=Winmgmt`
 
     If you leave the key value blank, you will not alter the original property value.
 
@@ -116,7 +116,7 @@ You can obtain a specific instance of a class in several ways:
 
 -   A call to [**SWbemServices.Get**](/windows/desktop/WmiSdk/swbemservices-get). For [**Session.Get**](session-get.md), you must supply one or more specific key values, preceded by a question mark (?).
 
-    The format of the URI for a specific instance is `http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/WMI\_Class?Key1=Value`.
+    The format of the URI for a specific instance is `http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/WMI_Class?Key1=Value`.
 
     ```VB
     strResourceUri = "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Name=winmgmt"
@@ -124,7 +124,7 @@ You can obtain a specific instance of a class in several ways:
 
     
 
-    A WMI class may have more than one key. Key name-value pairs are separated by a "+" sign. In that case, the format is: `http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_Service?Key1=Value1+Key2=Value2`.
+    A WMI class may have more than one key. Key name-value pairs are separated by a "+" sign. In that case, the format is: `http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32_Service?Key1=Value1+Key2=Value2`.
 
     The WinRM syntax to obtain a singleton WMI object is different from WMI. A singleton is a WMI class defined so that only one instance is allowed. [**Win32\_CurrentTime**](/previous-versions/windows/desktop/wmitimepprov/win32-currenttime) or [**Win32\_WMISetting**](/windows/desktop/CIMWin32Prov/win32-wmisetting) are examples of a WMI singleton class.
 

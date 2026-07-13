@@ -2,7 +2,7 @@
 description: Retrieving Supported Service Formats
 ms.assetid: b54dfeda-c2a3-42ec-895f-9abbbd4dd2ec
 title: Retrieving Supported Service Formats
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

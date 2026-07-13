@@ -10,7 +10,7 @@ keywords:
 - DRM (digital rights management),code examples
 - digital rights management (DRM),example code
 - DRM (digital rights management),example code
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

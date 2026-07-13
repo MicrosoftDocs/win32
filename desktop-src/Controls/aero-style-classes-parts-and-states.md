@@ -2,7 +2,7 @@
 title: Aero Style Classes, Parts, and States
 description: This topic describes the classes, parts, and states supported by the Aero theme.
 ms.assetid: 6ec340a8-8ad1-406e-9fe1-9da9710ee27e
-ms.topic: article
+ms.topic: reference
 ms.date: 07/14/2022
 ---
 

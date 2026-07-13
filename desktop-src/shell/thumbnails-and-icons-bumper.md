@@ -1,7 +1,7 @@
 ---
 description: Thumbnails and Icons
 title: Thumbnails and Icons
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: ad7ef351-ba85-41e6-89b5-c4e6acb7e6df
 api_name: 

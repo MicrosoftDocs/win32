@@ -3,10 +3,15 @@ description: The SENSOR\_CATEGORY\_ELECTRICAL category contains sensors that pro
 ms.assetid: c4efa821-fb9f-4606-898a-5be103581f39
 title: SENSOR_CATEGORY_ELECTRICAL (Sensors.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # SENSOR\_CATEGORY\_ELECTRICAL
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 The SENSOR\_CATEGORY\_ELECTRICAL category contains sensors that provide information about electrical systems.
 
@@ -64,9 +69,9 @@ This category includes the following platform-defined data fields.
 
 
 
- 
 
- 
+
+
 
 
 

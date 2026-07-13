@@ -2,7 +2,7 @@
 title: About Windows Connect Now
 description: Windows Connect Now (WCN) provides a simple and secure mechanism for network access points and devices (like printers, camera, and PCs) to connect and exchange settings.
 ms.assetid: 5c654800-e58b-4a94-b7a6-9a603f540603
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

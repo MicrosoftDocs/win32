@@ -2,7 +2,7 @@
 description: A Boolean value stating whether a volume is a root volume.
 ms.assetid: 995b0f92-686b-40fb-aed0-5fd500c226f0
 title: System.Volume.IsRoot
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

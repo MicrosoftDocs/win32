@@ -3,10 +3,15 @@ description: The Sensor and Location platform defines constants that identify pr
 ms.assetid: 2fb739a0-9af5-4784-94b2-f8d10b9e21ca
 title: Sensor Properties (Sensors.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # Sensor Properties
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 The Sensor and Location platform defines constants that identify properties for sensors. Sensor manufacturers can also define their own properties.
 
@@ -88,6 +93,6 @@ The following Windows Portable Devices (WPD) property must be supported by all s
 [**SetProperties**](/windows/win32/api/sensorsapi/nf-sensorsapi-isensor-setproperties)
 </dt> </dl>
 
- 
 
- 
+
+

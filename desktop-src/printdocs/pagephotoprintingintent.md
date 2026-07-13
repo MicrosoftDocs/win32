@@ -2,7 +2,7 @@
 description: Review the PagePhotoPrintingIntent user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: f9a00828-52df-449e-914b-4c6cd7c29f3a
 title: PagePhotoPrintingIntent
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -66,7 +66,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the `https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords` namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Feature name="psk:PagePhotoPrintingIntent">

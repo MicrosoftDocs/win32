@@ -3,7 +3,7 @@ title: Virtualization Instance Lifecycle
 description: Overview of the lifecycle of a ProjFS virtualization instance.
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 09/17/2018
-ms.topic: article
+ms.topic: reference
 ---
 
 # Virtualization Instance Lifecycle

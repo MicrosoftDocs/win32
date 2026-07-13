@@ -2,7 +2,7 @@
 title: Security Blanket Negotiation
 description: Security Blanket Negotiation
 ms.assetid: 5a01912d-611c-4a6e-ab9d-0243cba331f1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Rendering DirectWrite
 description: Rendering DirectWrite
 ms.assetid: e8099fac-b5d7-4fb1-b06d-a6e85da0d1dc
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

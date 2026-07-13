@@ -2,7 +2,7 @@
 description: Read about the PageDestinationColorProfileEmbedded parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: b360f870-bfaa-4d4d-adce-17fcfc48b6a6
 title: PageDestinationColorProfileEmbedded
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: VCR Command Set
 description: VCR Command Set
 ms.assetid: e17ec75d-a98f-46ea-8bef-7e45e1696f43
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

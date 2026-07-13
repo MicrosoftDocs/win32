@@ -6,7 +6,7 @@ ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.JetGetTableInfo
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.api.jetgettableinfo(v=EXCHG.10)
 ms:contentKeyID: 55100737
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Api.JetGetTableInfo
 dev_langs:

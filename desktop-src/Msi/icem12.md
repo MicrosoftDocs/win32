@@ -2,7 +2,7 @@
 description: ICEM12 verifies that in a ModuleSequence table, standard actions have sequence numbers and custom actions have BaseAction and After values.
 ms.assetid: 1a168629-9865-4412-8317-8af8b9a7b8bd
 title: ICEM12
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -41,7 +41,7 @@ Error. Standard actions should not use the BaseAction and After fields in Module
 Sequence tables. The standard action 'Action2' has a values entered in the BaseAction 
 or After fields of the ModuleAdminExecuteSequence table.
 
-Error. Standard actions must have a entry in the Sequence field of Module Sequence 
+Error. Standard actions must have an entry in the Sequence field of Module Sequence 
 tables. The standard action 'Action2' does not have a Sequence value in the 
 ModuleExecuteSequence table.
 ```

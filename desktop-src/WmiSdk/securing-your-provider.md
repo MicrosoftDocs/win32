@@ -3,7 +3,7 @@ description: Writing a secure provider requires considering how the provider is 
 ms.assetid: 9a8b7730-cbb8-48fa-8a8f-8e551f00d20b
 ms.tgt_platform: multiple
 title: Securing Your Provider
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

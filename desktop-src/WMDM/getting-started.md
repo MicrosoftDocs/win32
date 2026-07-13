@@ -11,7 +11,7 @@ keywords:
 - Windows Media Device Manager,service providers
 - Device Manager,service providers
 - service providers,about
-ms.topic: article
+ms.topic: get-started
 ms.date: 05/31/2018
 ---
 

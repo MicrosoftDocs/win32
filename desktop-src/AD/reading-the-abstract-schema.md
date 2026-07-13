@@ -5,7 +5,7 @@ ms.assetid: f31fc0ae-048f-413c-9370-96367dc68df8
 ms.tgt_platform: multiple
 keywords:
 - schema Active Directory , reading the abstract schema
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

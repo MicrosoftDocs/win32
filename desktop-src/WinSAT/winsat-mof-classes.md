@@ -2,7 +2,7 @@
 title: WinSAT MOF Classes
 ms.assetid: be4520ca-a2d4-4b75-b74c-f03096e9e185
 description: "Learn more about: WinSAT MOF Classes"
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

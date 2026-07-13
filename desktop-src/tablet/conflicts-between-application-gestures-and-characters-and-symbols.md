@@ -2,7 +2,7 @@
 description: Description of conflicts between application gestures and characters and symbols.
 ms.assetid: c9b8c284-7c31-4fb0-8cc4-ff09c9c4f228
 title: Conflicts Between Application Gestures and Characters and Symbols
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

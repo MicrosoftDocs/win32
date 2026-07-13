@@ -2,7 +2,7 @@
 title: Requirements for Speech Recognition Engines
 description: Requirements for Speech Recognition Engines
 ms.assetid: 41aca5da-c680-41c1-b070-af291cb0c8e1
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

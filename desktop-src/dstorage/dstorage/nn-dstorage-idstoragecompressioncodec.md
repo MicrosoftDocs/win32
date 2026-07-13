@@ -43,7 +43,7 @@ Represents a DirectStorage object for compressing and decompressing buffers. Use
 
 ## Inheritance
 
-The **IDStorageCompressionCodec** interface inherits from the **IUknown** interface.
+The **IDStorageCompressionCodec** interface inherits from the **IUnknown** interface.
 
 ## Methods
 

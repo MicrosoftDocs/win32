@@ -2,7 +2,7 @@
 description: System.Note.Color
 ms.assetid: 862d64df-cbea-4b0a-9603-a60ca972a792
 title: System.Note.Color
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

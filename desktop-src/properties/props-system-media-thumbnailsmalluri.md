@@ -2,7 +2,7 @@
 description: Understand the System.Media.ThumbnailSmallUri property, which represents the URI of the small thumbnail representation of the media item.
 ms.assetid: 063ab14e-1cb1-4938-99b2-ebc4d53adaae
 title: System.Media.ThumbnailSmallUri
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

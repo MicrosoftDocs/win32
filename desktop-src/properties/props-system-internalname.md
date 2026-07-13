@@ -2,7 +2,7 @@
 description: The name of a .exe or .dll file as stored in a resource section within that file.
 ms.assetid: a521f727-b024-44ef-98ae-98986254857f
 title: System.InternalName
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -29,7 +29,7 @@ propertyDescription
 
 PKEY values are defined in Propkey.h.
 
-Historically, this information was often displayed in the Windows XPÂ **Version** property sheet page. Under Windows Vista, the information was moved to the **Details** tab. However, this particular property was not made public in Windows Vista until Service Pack 1 (SP1).
+Historically, this information was often displayed in the Windows XP **Version** property sheet page. Under Windows Vista, the information was moved to the **Details** tab. However, this particular property was not made public in Windows Vista until Service Pack 1 (SP1).
 
 ## Related topics
 

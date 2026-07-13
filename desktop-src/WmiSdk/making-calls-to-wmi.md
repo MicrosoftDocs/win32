@@ -3,7 +3,7 @@ description: Providers can call methods implemented by WMI from within their met
 ms.assetid: 5bfd9d9b-ffe5-4def-a97d-85c4c01223f0
 ms.tgt_platform: multiple
 title: Making Calls to WMI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -58,7 +58,7 @@ Event providers must not make any class changes while servicing a call. They als
 [Developing a WMI Provider](developing-a-wmi-provider.md)
 </dt> <dt>
 
-[Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md)
+[Setting Namespace Security Descriptors](setting-namespace-security-descriptors.md)
 </dt> <dt>
 
 [Securing Your Provider](securing-your-provider.md)

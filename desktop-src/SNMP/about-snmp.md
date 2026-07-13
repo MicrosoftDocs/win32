@@ -4,7 +4,7 @@ description: SNMP uses a distributed architecture consisting of managers and age
 ms.assetid: 55be55a8-1968-4373-a969-f7e03b75a824
 keywords:
 - SNMP, About
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

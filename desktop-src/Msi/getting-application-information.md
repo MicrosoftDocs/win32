@@ -2,7 +2,7 @@
 description: The product database contains information about a product. For more information on obtaining product information with enumeration functions, see Initializing an Application.
 ms.assetid: 528c915c-296c-4620-8105-0b5d543e56a5
 title: Getting Application Information
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

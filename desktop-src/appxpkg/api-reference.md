@@ -2,7 +2,7 @@
 title: Packaging, deployment, and query APIs
 description: Use these APIs to create, deploy, and query app packages for Windows apps.
 ms.assetid: B3FAE463-3B1D-402C-9698-8366D6A6380D
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

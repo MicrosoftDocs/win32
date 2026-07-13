@@ -7,7 +7,7 @@ keywords:
 - ADSI Interfaces ADSI
 - ADSI ADSI , reference,interfaces
 - interfaces ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

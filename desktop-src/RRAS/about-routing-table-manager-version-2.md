@@ -7,7 +7,7 @@ keywords:
 - Routing and Remote Access Service RRAS , Routing Table Manager Version 2,described
 - Routing Table Manager Version 2 RRAS
 - Routing Table Manager Version 2 RRAS , described
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Learn about the JobName element, which specifies a descriptive name for the job. For the most current information, see the Print Schema Specification.
 ms.assetid: 1e7b0681-a29b-4fd6-8518-dc9d0b716b12
 title: JobName
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

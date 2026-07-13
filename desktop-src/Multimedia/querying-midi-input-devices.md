@@ -11,7 +11,7 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),querying input devices
 - recording MIDI audio,querying input devices
 - querying MIDI input devices
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

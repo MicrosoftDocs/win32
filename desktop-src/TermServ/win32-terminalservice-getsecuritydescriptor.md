@@ -236,7 +236,7 @@ If the **SeSecurityPrivilege** is not granted or enabled when getting a security
 
 ## Examples
 
-When retrieving a security descriptor in VBScript, be sure to "Security" and run as as Admin, as shown in the following code snippet. Otherwise, your code may throw a permissions error.
+When retrieving a security descriptor in VBScript, be sure to "Security" and run as Admin, as shown in the following code snippet. Otherwise, your code may throw a permissions error.
 
 
 ```VB

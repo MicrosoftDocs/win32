@@ -3,7 +3,7 @@ title: Installing a Service on a Host Computer
 description: The following code example shows the basic steps of installing a directory-enabled service on a host computer.
 ms.assetid: 35a3b261-d499-4154-a022-1e33a9ef7ba8
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.date: 05/31/2018
 ---
 

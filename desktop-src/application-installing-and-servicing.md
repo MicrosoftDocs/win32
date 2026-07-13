@@ -3,12 +3,12 @@ description: Make use of available APIs and services provided by Windows to inst
 ms.assetid: 537ff8c3-8feb-4dd6-9af5-f476803a3cdb
 title: Application Installation and Servicing
 ms.topic: reference
-ms.date: 12/01/2020
+ms.date: 08/09/2024
 ---
 
 # Application Installation and Servicing
 
-Make use of available APIs and services provided by Windows to install, manage, and service your desktop apps.
+Use Windows APIs and services to install, manage, and service your desktop apps.
 
 ## In this section
 
@@ -16,7 +16,7 @@ Make use of available APIs and services provided by Windows to install, manage, 
 
 | Topic | Description |
 | --- | --- |
-| [Isolated Applications and Side-by-side Assemblies](/windows/desktop/SbsCs/isolated-applications-and-side-by-side-assemblies-portal) | Isolated Applications and Side-by-side Assemblies is a Microsoft Windows solution that reduces versioning conflicts in Windows-client applications. |
+| [Isolated Applications and Side-by-side Assemblies](/windows/desktop/SbsCs/isolated-applications-and-side-by-side-assemblies-portal) | Isolated Applications and Side-by-Side Assemblies is a Microsoft Windows solution that reduces versioning conflicts in Windows client applications. |
 | [Packaging, deployment, and query of Windows apps](/windows/desktop/appxpkg/appx-portal) | Programmatically create Windows app packages (including UWP and desktop apps), and install, update, query, and uninstall apps. |
 | [Restart Manager](/windows/desktop/RstMgr/restart-manager-portal) | The Restart Manager API can eliminate or reduce the number of system restarts that are required to complete an installation or update. |
 | [Update Orchestrator](./updateorchestrator/index.md) | The Update Orchestrator API schedules your background software updates with user impact in mind. | 

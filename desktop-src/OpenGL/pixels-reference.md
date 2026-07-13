@@ -5,7 +5,7 @@ ms.assetid: 3a705c20-2ae8-429c-82e2-2e91c70508c9
 keywords:
 - OpenGL processing pipeline,pixels reference
 - OpenGL,pixels reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

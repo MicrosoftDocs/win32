@@ -2,7 +2,7 @@
 description: A closed figure such as a rectangle or an ellipse consists of an outline and an interior.
 ms.assetid: 889558d5-9181-43ff-b862-e92966324208
 title: Brushes and Filled Shapes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

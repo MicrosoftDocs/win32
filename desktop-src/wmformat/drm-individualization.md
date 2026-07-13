@@ -7,7 +7,7 @@ keywords:
 - digital rights management (DRM),individualization
 - DRM (digital rights management),individualization
 - individualization of DRM
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

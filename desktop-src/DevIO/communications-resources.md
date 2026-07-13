@@ -2,7 +2,7 @@
 description: Open and close communications resource handles and perform read/write operations with file input and output functions.
 ms.assetid: '7faf7d55-e30f-4be2-917b-e057265b81b2'
 title: Communications Resources
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

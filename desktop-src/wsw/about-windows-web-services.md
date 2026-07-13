@@ -2,7 +2,7 @@
 title: About Windows Web Services
 description: The Windows Web Services API is a layered API and it may be pictured as follows.
 ms.assetid: 6e8c23d1-c86b-432d-8e0c-e16982849239
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

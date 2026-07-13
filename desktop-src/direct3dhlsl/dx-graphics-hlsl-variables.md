@@ -2,7 +2,7 @@
 title: Variables
 description: HLSL variables are similar to variables defined in the C programming language.
 ms.assetid: a66612e1-af01-4ddc-9a69-995f61d81f40
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

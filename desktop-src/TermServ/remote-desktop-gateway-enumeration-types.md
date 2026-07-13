@@ -3,7 +3,7 @@ title: Remote Desktop Gateway Enumeration Types
 description: The Remote Desktop Gateway (RD Gateway) API supports the following enumeration types.
 ms.assetid: fe3e4c82-e047-4a73-ac1b-4cc72d283f96
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

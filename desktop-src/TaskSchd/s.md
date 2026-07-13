@@ -3,7 +3,7 @@ title: S (Task Scheduler)
 description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 7e859940-a090-45fb-80fd-93ad04dc37c9
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

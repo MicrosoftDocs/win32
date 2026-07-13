@@ -7,7 +7,7 @@ keywords:
 - Advanced Systems Format (ASF),user allocated sample support
 - ASF (Advanced Systems Format),user allocated sample support
 - user allocated sample support
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

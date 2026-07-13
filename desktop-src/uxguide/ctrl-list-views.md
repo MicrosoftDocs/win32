@@ -2,7 +2,7 @@
 title: List Views
 description: With a list view, users can view and interact with a collection of data objects, using either single selection or multiple selection.
 ms.assetid: 62a7bfc8-96a9-450d-9db9-ec9dab6687b7
-ms.topic: article
+ms.topic: reference
 ms.date: 10/20/2020
 ---
 

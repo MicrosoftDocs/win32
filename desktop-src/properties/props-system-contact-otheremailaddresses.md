@@ -2,7 +2,7 @@
 description: System.Contact.OtherEmailAddresses
 ms.assetid: a905a42a-7dd5-4292-bf69-e87eb40d8086
 title: System.Contact.OtherEmailAddresses
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

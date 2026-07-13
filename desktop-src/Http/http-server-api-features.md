@@ -4,7 +4,7 @@ description: This topic supported and unsupported features of the HTTP Server AP
 ms.assetid: 448fe5a5-e79f-4c3a-aa76-94cff988f24f
 keywords:
 - HTTP Server API Features
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

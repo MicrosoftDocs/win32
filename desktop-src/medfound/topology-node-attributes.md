@@ -2,7 +2,7 @@
 description: Topology Node Attributes
 ms.assetid: 584c0670-9051-4d03-9635-c8fadc8798c3
 title: Topology Node Attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

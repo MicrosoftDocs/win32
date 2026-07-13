@@ -3,7 +3,7 @@ title: Windows Projected File System API Reference
 description: Reference information for the ProjFS programming interface.
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 01/17/2020
-ms.topic: article
+ms.topic: reference
 ---
 
 # Windows Projected File System (ProjFS) API reference

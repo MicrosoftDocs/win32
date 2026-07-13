@@ -4,7 +4,7 @@ description: After your server application has registered its interfaces, create
 ms.assetid: ca9d24ed-0acc-45de-bbb2-761c56745a58
 keywords:
 - Remote Procedure Call RPC , tasks, listening for client calls
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

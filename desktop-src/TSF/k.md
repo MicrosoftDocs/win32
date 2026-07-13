@@ -3,7 +3,7 @@ title: K (Text Services Framework)
 description: Glossary page
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: '3cd9dd9b-bfc8-4968-9243-16da4ed8938f'
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

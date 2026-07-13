@@ -17,7 +17,7 @@ keywords:
 - codecs,Windows Media Audio 9 Professional codec
 - Windows Media Audio 9 Lossless codec,dynamic range control
 - Windows Media Audio 9 Professional codec,dynamic range control
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

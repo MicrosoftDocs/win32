@@ -3,7 +3,7 @@ description: Information about WMI qualifiers, Managed Object Format (MOF) synta
 ms.assetid: 7f0e3ebb-ba10-4cf0-86a9-5fdec5ffc383
 ms.tgt_platform: multiple
 title: WMI Infrastructure Objects and Values
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

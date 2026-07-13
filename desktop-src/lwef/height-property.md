@@ -2,7 +2,7 @@
 title: Height Property (Characters Object)
 description: Learn about the Height property of the Characters object. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: 2c8dc333-e3c1-4f25-833b-9a4262c75b9f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

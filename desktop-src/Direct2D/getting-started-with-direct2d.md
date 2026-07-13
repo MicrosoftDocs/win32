@@ -4,7 +4,7 @@ description: Summarizes the steps required to draw with Direct2D and provides ex
 ms.assetid: 19d9ad76-b1e3-449f-8582-e00287b05874
 keywords:
 - Direct2D,draw rectangle code example
-ms.topic: article
+ms.topic: quickstart
 ms.date: 05/31/2018
 ---
 

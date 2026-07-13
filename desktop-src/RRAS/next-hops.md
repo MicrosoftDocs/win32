@@ -2,7 +2,7 @@
 title: Next Hops
 description: Routes have one or more next hops associated with them.
 ms.assetid: 90e5a79b-4fee-479c-9888-fcb3b6d38c1f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

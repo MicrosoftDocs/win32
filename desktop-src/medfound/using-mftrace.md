@@ -2,7 +2,7 @@
 description: MFTrace is a tool for generating trace logs for Microsoft Media Foundation applications.
 ms.assetid: f93060dc-cb64-4623-847d-5d78bca59d50
 title: Using MFTrace
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -142,7 +142,7 @@ You can use MFTrace to answer questions about what happens inside your Media Fou
 | Did a media sink receive samples? | "CMFStreamSinkDetours::ProcessSample" | 
 | DirectShow: Which samples were processed? | "sample", "CMemInputPinDetours" | 
 | DirectShow: What filter graph was used? | "CGraphHelpers::Trace" | 
-| Were there multiple processes? | "CreateProcess"<blockquote>[!Note]<br />Also look for the process identifier, which appears at the start of every trace line.</blockquote><br /><br /> | 
+| Were there multiple processes? | "CreateProcess" **Note:** Also look for the process identifier, which appears at the start of every trace line.<br> | 
 
 
 

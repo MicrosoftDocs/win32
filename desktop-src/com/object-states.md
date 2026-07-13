@@ -2,7 +2,7 @@
 title: Object States
 description: Object States
 ms.assetid: 8ebef6d6-7a2f-4b95-91ca-999646cde82d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

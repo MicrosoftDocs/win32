@@ -2,8 +2,8 @@
 description: Performance objects can define one or more counters.
 ms.assetid: a3a598b2-5623-4472-a814-620c6a003a7e
 title: Retrieving Counter Data
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Retrieving Counter Data
@@ -302,7 +302,7 @@ PERF_COUNTER_BLOCK* GetCounterBlock(PERF_OBJECT_TYPE* pObject, LPWSTR pInstanceN
 // example, a process object could have four instances with each having svchost as its name.
 // Since service hosts come and go, there is no way to determine if you are dealing with 
 // the same instance.
-// Starting in Windows 20 20H2, use the "Process V2" counterset to avoid this issue.
+// Starting in Windows 11, use the "Process V2" counterset to avoid this issue.
 //
 // The convention for specifying an instance is parentinstancename/instancename#nnn.
 // If only instancename is specified, the first instance found that matches the name is used.

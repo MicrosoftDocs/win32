@@ -2,7 +2,7 @@
 title: Timer-Driven Animation Sample
 description: Shows how to use Windows Animation with the Animation Timer, while using GDI+ to animate the background color of a window.
 ms.assetid: c50a4bfb-855b-4837-a117-84f412943b14
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

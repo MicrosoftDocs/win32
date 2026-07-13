@@ -2,7 +2,7 @@
 description: The default destination may be changed by simply calling WSPConnect again, even if the socket is already connected. Any datagrams queued for receipt are discarded if the new address is different from the address specified in a previous WSPConnect.
 ms.assetid: b5f5ab97-03bd-4f5c-8808-d14ad5a56a5a
 title: Reconnecting and Disconnecting
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

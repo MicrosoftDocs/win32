@@ -2,7 +2,7 @@
 description: Navigating the COM+ Collection Hierarchy
 ms.assetid: bd72effe-898f-40a6-973c-a26e7fe2478f
 title: Navigating the COM+ Collection Hierarchy
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

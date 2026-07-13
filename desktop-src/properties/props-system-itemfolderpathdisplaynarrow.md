@@ -2,7 +2,7 @@
 description: Read about the System.ItemFolderPathDisplayNarrow property, which represents the user-friendly display path of an item's parent folder.
 ms.assetid: f60b7465-bca4-4c7b-9caf-9cda1bf6eeeb
 title: System.ItemFolderPathDisplayNarrow
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

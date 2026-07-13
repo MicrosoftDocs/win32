@@ -2,7 +2,7 @@
 title: Stream Out Syntax
 description: A geometry shader with stream out is declared with a particular syntax.
 ms.assetid: 58cf6503-0dde-4c88-837d-ae0e0eda17d5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

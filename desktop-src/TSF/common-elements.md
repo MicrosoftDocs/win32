@@ -7,7 +7,7 @@ keywords:
 - TSF (Text Services Framework),common elements
 - text services,common elements
 - TSF-enabled applications,common elements
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

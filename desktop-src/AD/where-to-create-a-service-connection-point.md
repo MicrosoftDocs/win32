@@ -9,7 +9,7 @@ keywords:
 - where to create a service connection point AD
 - creating a service connection point AD
 - service connection point AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

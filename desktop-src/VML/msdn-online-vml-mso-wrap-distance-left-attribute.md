@@ -2,7 +2,7 @@
 title: VML MSO-Wrap-Distance-Left Attribute
 description: VML MSO-Wrap-Distance-Left Attribute
 ms.assetid: 25dcb5d0-a839-4a4b-8969-8e5dcf1baa47
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

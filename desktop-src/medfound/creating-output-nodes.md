@@ -2,7 +2,7 @@
 description: Creating Output Nodes
 ms.assetid: 6e548f2a-77cd-460e-9ffd-c098f6ee75eb
 title: Creating Output Nodes
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

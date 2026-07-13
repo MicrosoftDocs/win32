@@ -5,7 +5,7 @@ ms.assetid: 948f8ec5-7207-4566-bd79-60cdd54231bf
 ms.tgt_platform: multiple
 keywords:
 - Updating the Schema Cache AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

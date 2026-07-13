@@ -2,7 +2,7 @@
 title: VML Master Attribute
 description: VML Master Attribute
 ms.assetid: ec661dc6-8e1c-47a3-ad3a-e1ee7e64c840
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

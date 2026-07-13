@@ -2,7 +2,7 @@
 title: Directory Service Functions (Network Management)
 description: The network management directory service functions allow developers to work with the domain controller and domain membership in the directory service.
 ms.assetid: 9eeb8f40-85c0-49db-a307-193703e4f463
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

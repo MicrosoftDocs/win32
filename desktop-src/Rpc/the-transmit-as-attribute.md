@@ -5,7 +5,7 @@ ms.assetid: 04e670c9-b091-457d-aeca-058cf5b664e8
 keywords:
 - Remote Procedure Call RPC , attributes, transmit_as
 - transmit_as
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

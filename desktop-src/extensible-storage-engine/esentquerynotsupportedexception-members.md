@@ -6,7 +6,7 @@ ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentQueryNotSupportedExce
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentquerynotsupportedexception_members(v=EXCHG.10)
 ms:contentKeyID: 55102499
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # EsentQueryNotSupportedException members

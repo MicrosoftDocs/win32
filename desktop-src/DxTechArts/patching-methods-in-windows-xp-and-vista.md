@@ -2,7 +2,7 @@
 title: Patching Game Software in Windows XP, Windows Vista, and Windows 7
 description: This article examines some methods of patching that will work well in Windows Vista and Windows 7, as well as Windows XP.
 ms.assetid: 27be805a-bffd-a9f8-2207-2a9a4822ba48
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

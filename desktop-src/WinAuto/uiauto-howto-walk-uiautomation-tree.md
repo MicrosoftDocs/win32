@@ -2,8 +2,8 @@
 title: How to Walk the UI Automation Tree
 description: This topic contains example code that shows how to use the IUIAutomationTreeWalker interface to walk through and examine the elements in the Microsoft UI Automation tree.
 ms.assetid: 41ca783d-56d1-4ad5-8f07-c265ff2e07bd
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: how-to
+ms.date: 07/14/2025
 ---
 
 # How to Walk the UI Automation Tree
@@ -71,7 +71,7 @@ cleanup:
 
 ## Walking through Ancestor Elements
 
-The following code example is a function that walks through the ancestors of a element to identify the parent element. This is useful when you need to identify the parent window of a control. The function returns **NULL** for top-level elements; that is, elements whose parent is the desktop.
+The following code example is a function that walks through the ancestors of an element to identify the parent element. This is useful when you need to identify the parent window of a control. The function returns **NULL** for top-level elements; that is, elements whose parent is the desktop.
 
 
 ```C++

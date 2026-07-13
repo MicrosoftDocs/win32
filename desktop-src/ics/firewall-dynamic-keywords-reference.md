@@ -3,7 +3,7 @@ title: Firewall dynamic keywords reference
 description: A reference table of contents for firewall dynamic keywords APIs.
 keywords:
 - Firewall dynamic keywords, reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/13/2021
 ---
 

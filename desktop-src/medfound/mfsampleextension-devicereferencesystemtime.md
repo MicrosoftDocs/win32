@@ -16,7 +16,7 @@ Specifies the original device timestamp on the sample.
 
 ## Remarks
 
-This is the a device reference time stamp of media samples in 100ns resolution. This time stamp may or may not carry the actual value of the query performance counter (QPC), depending on the source producing the samples. This value may be modified by other components in the media pipeline. This value is not available to MFTs inserted into the capture pipeline.
+This is the device reference time stamp of media samples in 100ns resolution. This time stamp may or may not carry the actual value of the query performance counter (QPC), depending on the source producing the samples. This value may be modified by other components in the media pipeline. This value is not available to MFTs inserted into the capture pipeline.
 
 ## Requirements
 

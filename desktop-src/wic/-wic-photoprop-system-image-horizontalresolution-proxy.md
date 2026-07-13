@@ -2,7 +2,7 @@
 description: The property proxy for the System.Image.HorizontalResolution photo metadata policy.
 ms.assetid: ac119ca7-d8dd-4e77-9dc7-ad00827d7f4c
 title: System.Image.HorizontalResolution Proxy
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

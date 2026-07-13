@@ -2,7 +2,7 @@
 description: WPD\_CONTENT\_TYPE\_IMAGE\_ALBUM
 ms.assetid: e2ae9f89-5a71-4443-b0c1-81e4c650e1bb
 title: WPD_CONTENT_TYPE_IMAGE_ALBUM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -9,7 +9,7 @@ keywords:
 - DriverProc function
 - installable drivers,DriverProc function
 - installable drivers,examples
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

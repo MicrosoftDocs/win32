@@ -2,7 +2,7 @@
 description: Windows Installer contains functionality that enables installation package developers to author a graphical user interface (GUI) that is displayed to the end-user during installation.
 ms.assetid: 58ef0043-fb30-4f64-9291-e703d7a28bb5
 title: About the User Interface
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

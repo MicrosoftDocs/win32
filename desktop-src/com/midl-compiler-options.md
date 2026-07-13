@@ -2,7 +2,7 @@
 title: MIDL Compiler Options
 description: MIDL Compiler Options
 ms.assetid: a78505cf-cda6-4b41-abd1-2609aec4dcb3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

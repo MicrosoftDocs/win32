@@ -5,8 +5,8 @@ ms.assetid: 560863a7-1432-4d53-af2e-06ade5caed80
 keywords:
 - user input,about
 - capturing user input,about
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Keyboard and Mouse Input

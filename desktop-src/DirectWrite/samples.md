@@ -5,7 +5,7 @@ ms.assetid: d9bdbc16-a6c9-4d39-a3d7-fec0f801c292
 keywords:
 - DirectWrite,sample programs
 - DirectWrite,code examples
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

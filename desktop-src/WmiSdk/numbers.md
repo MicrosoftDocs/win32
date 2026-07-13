@@ -3,7 +3,7 @@ description: In MOF, numbers are digits that describe numerical values. MOF prov
 ms.assetid: 7a18ed36-9c12-42be-a4ee-0f6c0097b130
 ms.tgt_platform: multiple
 title: Numbers (WMI)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Effect Shader Linking
 description: Direct2D uses an optimization called effect shader linking which combines multiple effect graph rendering passes into a single pass.
 ms.assetid: 431A5B39-6C84-442D-AC66-0F341E10DF2C
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

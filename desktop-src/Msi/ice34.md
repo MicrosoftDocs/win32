@@ -2,7 +2,7 @@
 description: ICE34 validates that each radio button on every RadioButtonGroup Control has a property in the Property column of the RadioButton table that specifies its radio button group.
 ms.assetid: 23a88a5a-89e9-47bc-9c0a-6101ce03123c
 title: ICE34
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

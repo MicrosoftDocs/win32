@@ -3,7 +3,7 @@ description: Describes WMI SNMP provider errors 1071 through 1080.
 ms.assetid: c9161c96-6839-4b32-b1bd-b40af18ab314
 ms.tgt_platform: multiple
 title: Errors 1071 through 1080
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 

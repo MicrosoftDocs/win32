@@ -2,7 +2,7 @@
 description: Logging Topology Node Activities
 ms.assetid: 853b3900-1214-43b9-bf0e-e45c1159c5f1
 title: Logging Topology Node Activities
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

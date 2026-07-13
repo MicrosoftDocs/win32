@@ -7,7 +7,7 @@ keywords:
 - work items Task Scheduler , compared to tasks
 - tasks Task Scheduler
 - tasks Task Scheduler , compared to work items
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

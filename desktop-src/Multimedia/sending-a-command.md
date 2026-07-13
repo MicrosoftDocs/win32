@@ -4,7 +4,7 @@ description: Sending a Command
 ms.assetid: 28c38f36-b6a7-44da-95e2-25b3dccefc84
 keywords:
 - mciSendString function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

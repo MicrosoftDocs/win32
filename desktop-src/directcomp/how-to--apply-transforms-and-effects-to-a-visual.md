@@ -8,7 +8,7 @@ keywords:
 - DirectComposition 3D transformations
 - DirectComposition 3D transforms
 - DirectComposition opacity
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -209,7 +209,6 @@ Also remember to free the device object, the composition target object, and the 
 
 #pragma once
 // Modify the following definitions if you need to target a platform prior to the ones specified below.
-// Refer to MSDN for the latest info on corresponding values for different platforms.
 #ifndef WINVER              // Allow use of features specific to Windows 7 or later.
 #define WINVER 0x0700       // Change this to the appropriate value to target other versions of Windows.
 #endif
@@ -317,7 +316,7 @@ private:
 //
 // ApplyEffects.cpp
 //
-// THIS CODE AND INFORMATION IS PROVIDED &quot;AS IS&quot; WITHOUT WARRANTY OF
+// THIS CODE AND INFORMATION IS PROVIDED "AS IS" WITHOUT WARRANTY OF
 // ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO
 // THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
 // PARTICULAR PURPOSE.
@@ -327,7 +326,7 @@ private:
 // Instructions: Hover over the image to see the opacity change. Click
 //   the image to apply a 3D rotation.
 
-#include &quot;ApplyEffects.h&quot;
+#include "ApplyEffects.h"
 
 #define OFFSET_X 20
 #define OFFSET_Y 20
@@ -417,10 +416,10 @@ HRESULT DemoApp::Initialize()
     wcex.cbClsExtra    = 0;
     wcex.cbWndExtra    = sizeof(LONG_PTR);
     wcex.hInstance     = HINST_THISCOMPONENT;
-    wcex.hbrBackground = (HBRUSH)(COLOR_WINDOW+1);;
+    wcex.hbrBackground = (HBRUSH)(COLOR_WINDOW+1);
     wcex.lpszMenuName  = NULL;
     wcex.hCursor       = LoadCursor(NULL, IDC_ARROW);
-    wcex.lpszClassName = L&quot;DirectCompDemoApp&quot;;
+    wcex.lpszClassName = L"DirectCompDemoApp";
 
     RegisterClassEx(&wcex);
 
@@ -439,8 +438,8 @@ HRESULT DemoApp::Initialize()
     }
 
     m_hwnd = CreateWindow(
-        L&quot;DirectCompDemoApp&quot;,
-        L&quot;DirectComposition Demo Application&quot;,
+        L"DirectCompDemoApp",
+        L"DirectComposition Demo Application",
         WS_OVERLAPPEDWINDOW,
         CW_USEDEFAULT,
         CW_USEDEFAULT,
@@ -541,7 +540,7 @@ HRESULT DemoApp::CreateResources()
 {
     HRESULT hr = S_OK;
 
-    hr = LoadResourceGDIBitmap(L&quot;Penguins&quot;, m_hBitmap);
+    hr = LoadResourceGDIBitmap(L"Penguins", m_hBitmap);
    
     return hr;
 }
@@ -1022,7 +1021,3 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
 
 [Effects](effects.md)
 </dt> </dl>
-
- 
-
- 

@@ -2,7 +2,7 @@
 description: CryptXML allows developers to extend natively supported cryptographic algorithms by registering a system wide cryptographic extension DLL.
 ms.assetid: b0625481-660a-4fd5-ba15-d532998f95a6
 title: XML Digital Signature Cryptographic Extensions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -82,7 +82,7 @@ Each key contains the following settings.
 
 | Name | Type | Data | 
 |------|------|------|
-| DLL<br /> | Expandable string<br /> | Required.<br />The absolute path to the XML Cryptographic Provider DLL.<blockquote><p><b>Note: </b>We recommend that cryptographic extension DLLs be located in directories that can only be written to by applications with administrative privilege.</p><p><a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya"><strong>LoadLibrary</strong></a> is used to load the cryptographic extension DLL.<br /></p></blockquote><br /> | 
+| DLL<br> | Expandable string<br> | Required.<br>The absolute path to the XML Cryptographic Provider DLL.<br>**Note: **We recommend that cryptographic extension DLLs be located in directories that can only be written to by applications with administrative privilege.<br>[**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) is used to load the cryptographic extension DLL.<br> | 
 | Name<br /> | <strong>String</strong> | Optional.<br /> The display name associated with this URI.<br /> | 
 | GroupId<br /> | <strong>DWORD</strong> | Required.<br /> The group identifier associated with this cryptographic algorithm. Possible values include the following:<strong>CRYPT_XML_GROUP_ID_HASH</strong>\<strong></strong> = 1<br /><strong>CRYPT_XML_GROUP_ID_SIGN</strong>\<strong></strong> = 2<br /> | 
 | CNGAlgid<br /> | <strong>String</strong> | Required.<br /> The CNG algorithm name to be passed to BCrypt or NCrypt functions.<br /> | 

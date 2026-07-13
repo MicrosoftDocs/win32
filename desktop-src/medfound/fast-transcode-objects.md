@@ -2,7 +2,7 @@
 description: This topic described how to use the transcode API to encode a media file.
 ms.assetid: 52b27359-b319-41a0-88e8-d23567420e92
 title: Using the Transcode API
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

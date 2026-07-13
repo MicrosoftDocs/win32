@@ -2,7 +2,7 @@
 description: System.Link.Arguments
 ms.assetid: e6786836-5e18-4b8c-9e7d-229abb7473e7
 title: System.Link.Arguments
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

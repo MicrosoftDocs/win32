@@ -3,7 +3,7 @@ description: Several consumers, such as the Active Script Event Consumer or the 
 ms.assetid: d734c226-e160-4834-a5e8-62390905dfde
 ms.tgt_platform: multiple
 title: Using Standard String Templates
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

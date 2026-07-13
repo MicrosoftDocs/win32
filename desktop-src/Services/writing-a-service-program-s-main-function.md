@@ -2,7 +2,7 @@
 description: The following example can be used as the entry point for a service program that supports a single service.
 ms.assetid: 7fdfc20a-9148-4ae1-8101-7a387c0d0edc
 title: Writing a Service Programs main Function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

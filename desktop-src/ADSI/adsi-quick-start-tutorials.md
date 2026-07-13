@@ -5,7 +5,7 @@ ms.assetid: cb3c00a2-3255-4afc-a7b9-b1454d160c62
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Service Interfaces Quick-start Tutorials ADSI
-ms.topic: article
+ms.topic: tutorial
 ms.date: 05/31/2018
 ---
 

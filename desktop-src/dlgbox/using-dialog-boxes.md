@@ -15,7 +15,7 @@ keywords:
 - dialog boxes,initializing
 - dialog box templates
 - dialog boxes,templates
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -38,7 +38,7 @@ The simplest form of modal dialog box is the message box. Most applications use 
 In the following example, the application displays a message box that prompts the user for an action after an error condition has occurred. The message box displays the message that describes the error condition and how to resolve it. The **MB\_YESNO** style directs [**MessageBox**](/windows/desktop/api/Winuser/nf-winuser-messagebox) to provide two buttons with which the user can choose how to proceed:
 
 
-```
+```cpp
 int DisplayConfirmSaveAsMessageBox()
 {
     int msgboxID = MessageBox(
@@ -74,7 +74,7 @@ The first part of the example consists of the statements that create the modal d
 The following statements create the modal dialog box. The dialog box template is a resource in the application's executable file and has the resource identifier DLG\_DELETEITEM.
 
 
-```
+```cpp
 case WM_COMMAND: 
     switch (LOWORD(wParam)) 
     { 
@@ -102,7 +102,7 @@ case WM_COMMAND:
 In this example, the application specifies its main window as the owner window for the dialog box. When the system initially displays the dialog box, its position is relative to the upper left corner of the owner window's client area. The application uses the return value from [**DialogBox**](/windows/desktop/api/Winuser/nf-winuser-dialogboxa) to determine whether to proceed with the operation or cancel it. The following statements define the dialog box procedure.
 
 
-```
+```cpp
 char szItemName[80]; // receives name of item to delete. 
  
 BOOL CALLBACK DeleteItemProc(HWND hwndDlg, 
@@ -143,7 +143,7 @@ In the following example, the application displays a modeless dialog box — if 
 The statements in the first part of the example create the modeless dialog box. These statements, in the window procedure for the application's main window, create the dialog box when the window procedure receives a [**WM\_COMMAND**](/windows/desktop/menurc/wm-command) message having the IDM\_GOTO menu identifier, but only if the global variable does not already contain a valid handle. The second part of the example is the application's main message loop. The loop includes the [**IsDialogMessage**](/windows/desktop/api/Winuser/nf-winuser-isdialogmessagea) function to ensure that the user can use the dialog box keyboard interface in this modeless dialog box. The third part of the example is the dialog box procedure. The procedure retrieves the contents of the edit control and check box when the user clicks the **OK** button. The procedure destroys the dialog box when the user clicks the **Cancel** button.
 
 
-```
+```cpp
 HWND hwndGoto = NULL;  // Window handle of dialog box 
                 
 ...
@@ -172,7 +172,7 @@ In the preceding statements, [**CreateDialog**](/windows/desktop/api/Winuser/nf-
 The message loop for an application consists of the following statements.
 
 
-```
+```cpp
 BOOL bRet;
 
 while ((bRet = GetMessage(&msg, NULL, 0, 0)) != 0) 
@@ -196,7 +196,7 @@ The loop checks the validity of the window handle to the dialog box and only cal
 The following statements define the dialog box procedure.
 
 
-```
+```cpp
 int iLine;             // Receives line number.
 BOOL fRelative;        // Receives check box status. 
  
@@ -252,7 +252,7 @@ You initialize the dialog box and its contents while processing the [**WM\_INITD
 In the following example, the dialog box procedure centers the dialog box and sets the input focus while processing the [**WM\_INITDIALOG**](wm-initdialog.md) message. To center the dialog box, the procedure retrieves the window rectangles for the dialog box and the owner window and calculates a new position for the dialog box. To set the input focus, the procedure checks the *wParam* parameter to determine the identifier of the default input focus.
 
 
-```
+```cpp
 HWND hwndOwner; 
 RECT rc, rcDlg, rcOwner; 
 
@@ -314,7 +314,7 @@ In a dialog template, all character strings, such as the dialog box and button t
 The [**DLGITEMTEMPLATE**](/windows/desktop/api/Winuser/ns-winuser-dlgitemtemplate) structures in a dialog template must be aligned on **DWORD** boundaries. To align these structures, this example uses a helper routine that takes an input pointer and returns the closest pointer that is aligned on a **DWORD** boundary.
 
 
-```
+```cpp
 #define ID_HELP   150
 #define ID_TEXT   200
 
@@ -425,9 +425,3 @@ LRESULT DisplayMyMessage(HINSTANCE hinst, HWND hwndOwner, LPSTR lpszMessage)
     return ret; 
 }
 ```
-
-
-
- 
-
- 

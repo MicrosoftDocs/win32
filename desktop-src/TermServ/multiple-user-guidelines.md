@@ -3,7 +3,7 @@ title: Multiple-user guidelines
 description: Guidelines for developing applications for multiple users in a Remote Desktop Services environment.
 ms.assetid: c7acbedb-3bf2-4519-ab11-a50bf071e757
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

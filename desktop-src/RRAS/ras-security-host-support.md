@@ -5,7 +5,7 @@ ms.assetid: 1cbacd7f-c9b9-4fb4-b505-a4b1d1b6f632
 keywords:
 - Host Support, RAS
 - Security Host Support, RAS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

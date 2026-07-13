@@ -2,7 +2,7 @@
 title: VML MSO-Wrap-Distance-Top Attribute
 description: VML MSO-Wrap-Distance-Top Attribute
 ms.assetid: 20444d16-fa84-4685-911c-288150c2674b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

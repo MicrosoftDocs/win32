@@ -2,7 +2,7 @@
 title: Reading from One Stream and Writing to Another
 description: Reading from One Stream and Writing to Another
 ms.assetid: 035a8862-9a0f-49d2-a060-5131ff2b7887
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

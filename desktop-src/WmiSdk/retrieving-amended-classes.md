@@ -3,7 +3,7 @@ description: You can retrieve and modify an amended class by specifying a locale
 ms.assetid: f0c42052-a761-4a89-ac97-d3e22db836be
 ms.tgt_platform: multiple
 title: Retrieving Amended Classes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

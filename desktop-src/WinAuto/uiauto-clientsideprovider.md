@@ -13,8 +13,8 @@ keywords:
 - providers,implementing
 - implementing client-side providers
 - implementing providers
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Implementing a Client-Side (Proxy) UI Automation Provider

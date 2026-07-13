@@ -5,7 +5,7 @@ ms.assetid: e4c7e9ea-21f5-491a-b005-1ef1a457cb80
 keywords:
 - Next
 - Next Hop Flags
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

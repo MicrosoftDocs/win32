@@ -2,7 +2,7 @@
 description: An application can decompress a compressed file a portion at a time by using the LZSeek and LZRead functions.
 ms.assetid: 9ceec1d4-37cd-4717-a731-dfb9cddb268c
 title: Reading from Compressed Files
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

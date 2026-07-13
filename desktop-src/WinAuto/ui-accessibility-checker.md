@@ -17,8 +17,8 @@ keywords:
 - UI Automation testing tools
 - MSAA testing tools
 - Microsoft Active Accessibility testing tools
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Accessibility tools - AccChecker (UI Accessibility Checker)
@@ -50,5 +50,5 @@ Requires .NET Framework 2.0 or later.
 
 - [Accessible Event Watcher](accessible-event-watcher.md)
 - [Inspect](inspect-objects.md)
-- [Testing Tools](testing-tools.md)
+- [Testing for accessibility](accessibility-testingtools.md)
 - [UI Automation Verify](ui-automation-verify.md)

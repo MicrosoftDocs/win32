@@ -2,7 +2,7 @@
 description: Variable refresh rate displays require tearing to be enabled, this is also known as &\#0034;vsync-off&\#0034; support.
 ms.assetid: C5F140DD-5BAF-404A-9253-611831C4D424
 title: Variable refresh rate displays
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

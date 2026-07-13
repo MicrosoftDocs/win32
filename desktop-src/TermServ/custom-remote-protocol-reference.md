@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , Remote Desktop Protocol provider reference
 - Remote Desktop Protocol (RDP) Remote Desktop Services , provider reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

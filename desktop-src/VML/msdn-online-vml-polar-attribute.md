@@ -2,7 +2,7 @@
 title: VML Polar Attribute
 description: VML Polar Attribute
 ms.assetid: b7ea8764-057d-4c14-81ad-77ae82b1aa31
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

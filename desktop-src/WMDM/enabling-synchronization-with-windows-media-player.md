@@ -9,7 +9,7 @@ keywords:
 - service providers,synchronization with Windows Media Player
 - creating service providers,synchronization with Windows Media Player
 - synchronization with Windows Media Player
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Registering the DLL Server for Surrogate Activation
 description: Registering the DLL Server for Surrogate Activation
 ms.assetid: 7133daa4-43b2-402e-a8ac-b357bea745d9
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -11,9 +11,9 @@ ms.date: 05/31/2018
 A DLL server will be loaded into a surrogate process under the following conditions:
 
 -   There must be an AppID value specified under the CLSID key in the registry, and a corresponding [AppID](appid-key.md) key.
--   In an activation call, the [**CLSCTX\_LOCAL\_SERVER**](/windows/win32/api/wtypesbase/ne-wtypesbase-clsctx) bit is set and the CLSID key does not specify [LocalServer32](localserver32.md), [LocalServer](localserver.md), or [LocalService](localservice.md). If other **CLSCTX** bits are set, the [**processing algorithm**](/windows/win32/api/wtypesbase/ne-wtypesbase-clsctx)for the in-process, local, or remote execution flags is followed.
+-   In an activation call, the [**CLSCTX\_LOCAL\_SERVER**](/windows/win32/api/wtypesbase/ne-wtypesbase-clsctx) bit is set and the CLSID key does not specify [LocalServer32](localserver32.md), [LocalServer](localserver.md), or [LocalService](localservice.md). If other **CLSCTX** bits are set, the [**processing algorithm**](/windows/win32/api/wtypesbase/ne-wtypesbase-clsctx) for the in-process, local, or remote execution flags is followed.
 -   The CLSID key contains the [InprocServer32](inprocserver32.md) subkey.
--   The proxy/stub DLL specified in the **InprocServer32** key exists.
+-   The DLL specified in the **InprocServer32** key exists.
 -   The [DllSurrogate](dllsurrogate.md) value exists under the **AppID** key.
 
 If there is a **LocalServer**, **LocalServer32**, or **LocalService**, indicating the existence of an EXE, the EXE server or service will always be launched in preference to loading a DLL server into a surrogate process.

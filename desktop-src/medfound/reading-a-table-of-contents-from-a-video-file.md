@@ -2,7 +2,7 @@
 description: Reading a Table of Contents from a Video File
 ms.assetid: 10c4f4ca-cb30-453c-b18d-0470bfecc14e
 title: Reading a Table of Contents from a Video File
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

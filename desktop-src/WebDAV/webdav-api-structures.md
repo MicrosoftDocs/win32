@@ -2,7 +2,7 @@
 title: WebDAV API Structures
 description: The following structures are used in the WebDAV API.
 ms.assetid: 1fa7b740-ac93-4756-ac9f-6a8cb4ea8bc5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

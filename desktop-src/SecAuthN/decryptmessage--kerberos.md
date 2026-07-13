@@ -59,7 +59,7 @@ If the function fails to decrypt the message, it returns one of the following er
 
 | Return code                     | Description                                                                                                                                                                      |
 |---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **SEC\_E\_INCOMPLETE\_MESSAGE** | The data in the input buffer is incomplete. The application needs to read more data from the server and call [**DecryptMessage (Kerberos)**](decryptmessage--kerberos.md) again. |
+| **SEC\_E\_INCOMPLETE\_MESSAGE** | The data in the input buffer is incomplete. The application needs to read more data from the server and call **DecryptMessage (Kerberos)** again. |
 | **SEC\_E\_OUT\_OF\_SEQUENCE**   | The message was not received in the correct sequence.                                                                                                                            |
 
 ## Remarks

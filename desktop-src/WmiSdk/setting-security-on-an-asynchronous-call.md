@@ -3,7 +3,7 @@ description: Asynchronous calls present serious security risks because a callbac
 ms.assetid: 2b839ea9-e1e6-4123-a98a-04ebee907b3b
 ms.tgt_platform: multiple
 title: Setting Security on an Asynchronous Call
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

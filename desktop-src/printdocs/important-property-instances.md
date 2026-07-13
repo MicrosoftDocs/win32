@@ -2,7 +2,7 @@
 description: For a client to construct a PrintTicket, the PrintCapabilities document must provide properties of Feature instances and Option instances in the Feature.
 ms.assetid: 8169b74f-13e0-4f6b-81e2-1824d932ee50
 title: Important Property Instances
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

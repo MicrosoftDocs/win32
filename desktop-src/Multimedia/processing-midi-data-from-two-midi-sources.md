@@ -10,7 +10,7 @@ keywords:
 - Musical Instrument Digital Interface (MIDI),processing data from two sources
 - MIDI (Musical Instrument Digital Interface),processing data from two sources
 - processing MIDI data from two sources
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

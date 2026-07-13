@@ -2,7 +2,7 @@
 title: Discovering Devices
 description: You can search for devices in three ways by type, by UDN, and by asynchronous search (which is a search by device type).
 ms.assetid: 511fb119-ad4e-406a-8a1e-fb508eceff2a
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

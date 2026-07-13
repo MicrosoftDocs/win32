@@ -2,7 +2,7 @@
 description: Use these resources to learn about pointers, such as DecodePointer, DecodeRemotePointer, and EncodePointer.
 ms.assetid: C7A3753E-072D-41B6-A445-FA7F270A7D44
 title: Pointers (Developer Notes)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

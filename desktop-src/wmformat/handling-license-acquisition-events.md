@@ -13,7 +13,7 @@ keywords:
 - DRM (digital rights management),handling license acquisition events
 - digital rights management (DRM),license acquisition events
 - DRM (digital rights management),license acquisition events
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

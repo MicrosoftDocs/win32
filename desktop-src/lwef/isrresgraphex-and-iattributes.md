@@ -2,7 +2,7 @@
 title: ISRResGraphEx and IAttributes
 description: ISRResGraphEx and IAttributes
 ms.assetid: 6eb37da1-5252-4c41-891c-c19cca6fb7d1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

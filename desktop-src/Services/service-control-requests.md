@@ -2,7 +2,7 @@
 description: To send control requests to a running service, a service control program uses the ControlService function.
 ms.assetid: d6cdc876-8b74-460e-ad43-6455ddf428dd
 title: Service Control Requests
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

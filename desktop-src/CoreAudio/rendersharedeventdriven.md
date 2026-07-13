@@ -2,7 +2,7 @@
 description: This sample application uses the Core Audio APIs to render audio data to an output device, specified by the user.
 ms.assetid: 92e644be-df8b-415d-ac8e-c0c30c85f844
 title: RenderSharedEventDriven
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

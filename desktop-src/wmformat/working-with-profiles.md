@@ -9,7 +9,7 @@ keywords:
 - profiles,Windows Media Format SDK
 - profiles,IWMCodecInfo3
 - IWMCodecInfo3,about
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,8 +2,8 @@
 description: There are many applications that create threads that spend a great deal of time in the sleeping state waiting for an event to occur.
 ms.assetid: a5e52080-35d4-47f5-9050-90889e3bf2f8
 title: Thread Pooling
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Thread Pooling

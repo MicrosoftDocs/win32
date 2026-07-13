@@ -2,7 +2,7 @@
 description: Rectangle Macros
 ms.assetid: ef123b97-6dec-4f9b-b831-cc8451a94a74
 title: Rectangle Macros
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

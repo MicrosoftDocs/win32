@@ -2,7 +2,7 @@
 description: The most recently used (MRU) source list remains resident on the users system.
 ms.assetid: 010f8f88-999e-4dde-bffb-ac1a07256d55
 title: About the MRU Source List
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -15,8 +15,8 @@ keywords:
 - obtaining UI Automation elements
 - root elements
 - search scope
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ms.custom: project-verbatim
 ---
 
@@ -66,7 +66,7 @@ To find a known element that is identified by name, automation ID, or some other
 
 This way of finding UI Automation elements is most useful in automated testing scenarios.
 
-For a code example that shows how to find a know element, see [Finding an Element by Name](uiauto-howto-find-ui-elements.md).
+For a code example that shows how to find a known element, see [Finding an Element by Name](uiauto-howto-find-ui-elements.md).
 
 ## Finding Elements in a Subtree
 

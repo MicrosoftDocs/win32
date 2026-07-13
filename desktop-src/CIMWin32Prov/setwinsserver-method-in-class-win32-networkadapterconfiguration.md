@@ -423,8 +423,6 @@ If both *WINSPrimaryServer* and *WINSSecondaryServer* are set to "" (an empty st
 
 ## Examples
 
-[The Assign an IP Address Retrieved from a Database](https://Gallery.TechNet.Microsoft.Com/d4526355-e682-4116-a79a-8bba569b084d) VBScript code sample looks up a computer in a database and assigns that computer the specified IP address.
-
 The following VBScript code sample sets the primary and secondary WINS server for a TCP/IP-bound network adapter.
 
 

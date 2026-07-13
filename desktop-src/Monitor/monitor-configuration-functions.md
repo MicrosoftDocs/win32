@@ -14,7 +14,7 @@ keywords:
 - monitor configuration,high-level functions
 - monitor configuration,low-level functions
 - monitor configuration,enumeration functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

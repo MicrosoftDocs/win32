@@ -5,7 +5,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 66e9cfb4-b9ae-4c21-9b1f-532c7d750903
 keywords:
 - Windows Animation Windows Animation ,glossary
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

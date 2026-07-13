@@ -2,7 +2,7 @@
 title: IAgentCharacterEx GetAutoPopupMenu
 description: IAgentCharacterEx GetAutoPopupMenu
 ms.assetid: c29bfd6e-c7eb-426e-be38-2fa0bdb13211
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

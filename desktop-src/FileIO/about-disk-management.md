@@ -2,7 +2,7 @@
 description: The file system provides an abstraction of the physical characteristics of storage devices so that applications can simply write to and read from files. However, storage in an enterprise relies heavily on the concept of disks.
 ms.assetid: 67e4ef00-2b2d-4287-8cb1-144d9610ccec
 title: About Disk Management
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

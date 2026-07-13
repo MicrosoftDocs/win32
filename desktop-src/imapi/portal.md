@@ -2,7 +2,7 @@
 title: Image Mastering API (IMAPI.h)
 description: The Microsoft Windows image mastering API enables applications to stage and burn images to CD, DVD, and Blu-ray optical storage media.
 ms.assetid: 4902d3fb-3195-4909-ab64-28f8a77ba14c
-ms.topic: article
+ms.topic: reference
 ms.date: 04/04/2023
 ---
 
@@ -20,7 +20,7 @@ Knowledge of CD, DVD, and Blu-ray technologies and file systems is recommended. 
 
 ## Run-time requirements
 
-IMAPI 2.0 is supported natively starting with Windows Vista and Windows Server 2008. Enabling IMAPI 2.0 functionality for Windows XP and Windows Server 2003 requires the installation of the [KB932716](https://support.microsoft.com/kb/932716) update package. If this package is not installed, Windows XP still natively supports [IMAPI 1.0](imapiv1.md).
+IMAPI 2.0 is supported natively starting with Windows Vista and Windows Server 2008. Enabling IMAPI 2.0 functionality for Windows XP and Windows Server 2003 requires the installation of an update package. See [Description of the Image Mastering API v2.0 (IMAPIv2.0) update package](https://support.microsoft.com/topic/description-of-the-image-mastering-api-v2-0-imapiv2-0-update-package-that-is-dated-june-26-2007-64617ec9-7b94-3aad-c64f-64bd1a70a1b3) for more information. If this package is not installed, Windows XP still natively supports [IMAPI 1.0](imapiv1.md).
 
 ## In this section
 

@@ -2,7 +2,7 @@
 description: Find information about the DocumentBindingGutter parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 903ad358-a060-4c8f-b72e-5ec2eb898248
 title: DocumentBindingGutter
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

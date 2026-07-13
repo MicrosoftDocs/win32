@@ -2,7 +2,7 @@
 title: Vertical Text
 description: Starting with the Windows 8, DirectWrite has a number of new APIs that allow you to use vertical text in your apps.
 ms.assetid: F40A79AE-F7BF-4CAC-9480-1489CD212DA8
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

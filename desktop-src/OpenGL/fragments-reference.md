@@ -5,7 +5,7 @@ ms.assetid: 576cf98a-dbe3-4cfd-b3cf-1065893b6721
 keywords:
 - OpenGL processing pipeline,fragments reference
 - OpenGL,fragments reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

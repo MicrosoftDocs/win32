@@ -2,7 +2,7 @@
 title: Creating Animations
 description: Creating Animations
 ms.assetid: 6d5c3c61-b3f2-4505-aa43-b6d001c444a5
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

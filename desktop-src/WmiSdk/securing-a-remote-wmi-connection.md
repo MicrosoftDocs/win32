@@ -3,7 +3,7 @@ description: To connect to a remote computer using WMI, ensure that the correct 
 ms.assetid: 96ebaa9b-a062-4300-a637-8eb71cb80d1c
 ms.tgt_platform: multiple
 title: Securing a Remote WMI Connection
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -41,7 +41,7 @@ The following table lists the default DCOM impersonation, authentication, and au
 
  
 
-WMI remote connections are affected by [User Account Control (UAC)](/previous-versions/aa905108(v=msdn.10)) and [Windows Firewall](https://www.microsoft.com/technet/itsolutions/network/wf/default.mspx). For more information, see [Connecting to WMI Remotely Starting with Vista](connecting-to-wmi-remotely-starting-with-vista.md) and [Connecting Through Windows Firewall](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista).
+WMI remote connections are affected by [User Account Control (UAC)](/previous-versions/aa905108(v=msdn.10)) and [Windows Firewall](/windows/security/operating-system-security/network-security/windows-firewall/windows-firewall-with-advanced-security). For more information, see [Connecting to WMI Remotely Starting with Vista](connecting-to-wmi-remotely-starting-with-vista.md) and [Connecting Through Windows Firewall](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista).
 
 Be aware that connecting to WMI on the local computer has a default authentication level of **PktPrivacy**.
 

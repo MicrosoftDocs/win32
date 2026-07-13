@@ -5,7 +5,7 @@ ms.assetid: cbd826c0-4d5c-4661-b1b2-886fe0f8e680
 keywords:
 - Routing, Management Information Base, tasks
 - Management Information Base RRAS , tasks
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

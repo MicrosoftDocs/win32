@@ -4,7 +4,7 @@ description: The type \_UserFree function is a helper function for the \ wire\_m
 ms.assetid: cc83a074-ea6c-432a-92fe-6397a6dc3c3c
 keywords:
 - type_UserFree
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

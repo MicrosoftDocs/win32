@@ -2,7 +2,7 @@
 description: Bluetooth device manufacturer.
 ms.assetid: bf2dbd9c-e372-423e-8fe5-2ebefe3c541d
 title: System.DeviceInterface.Bluetooth.Manufacturer
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

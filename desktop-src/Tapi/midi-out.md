@@ -2,7 +2,7 @@
 description: The midi/out device class consists of MIDI sequencers that are used for output. You access these devices by using the MIDI functions, which are described in the Platform Software Development Kit (SDK).
 ms.assetid: 398119ec-2d08-4c37-a993-a9b5ce52bcc8
 title: midi/out
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

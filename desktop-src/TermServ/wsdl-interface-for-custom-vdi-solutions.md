@@ -5,7 +5,7 @@ ms.assetid: ae2dad51-be37-4311-a7c3-e99b2f41bed1
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , WSDL interface for custom VDI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

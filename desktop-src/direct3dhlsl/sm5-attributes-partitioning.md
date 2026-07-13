@@ -1,6 +1,6 @@
 ---
 title: partitioning
-description: Defines the tesselation scheme to be used in the hull shader.
+description: Defines the tessellation scheme to be used in the hull shader.
 ms.assetid: 29dc4abb-4d29-4538-8680-a4fcbfd8235b
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,7 +13,7 @@ api_location:
 
 # partitioning
 
-Defines the tesselation scheme to be used in the hull shader.
+Defines the tessellation scheme to be used in the hull shader.
 
 
 ```

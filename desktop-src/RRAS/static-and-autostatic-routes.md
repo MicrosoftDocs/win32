@@ -2,7 +2,7 @@
 title: Static and Autostatic Routes
 description: Typically, routes to remote networks are obtained dynamically through routing protocols.
 ms.assetid: af2f2039-8131-4ca9-98bf-6aeb7a511034
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Bluetooth device flags.
 ms.assetid: 12923ba7-51fa-4cfc-be74-91e3a5049aee
 title: System.DeviceInterface.Bluetooth.Flags
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

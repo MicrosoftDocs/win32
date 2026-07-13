@@ -2,7 +2,7 @@
 title: ALE Reauthorization
 description: Network traffic at the Application Layer Enforcement (ALE) layers of the Windows Filtering Platform (WFP) is filtered by ALE flows.
 ms.assetid: 3cc7f78e-3f9d-4a91-8ea0-9b64c299068a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

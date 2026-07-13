@@ -3,10 +3,15 @@ description: The SENSOR\_CATEGORY\_LOCATION category contains sensors that provi
 ms.assetid: f82ce6da-fe2d-4931-99dc-4aeb2f0f3317
 title: SENSOR_CATEGORY_LOCATION (Sensors.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # SENSOR\_CATEGORY\_LOCATION
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 The SENSOR\_CATEGORY\_LOCATION category contains sensors that provide geographic location information.
 
@@ -94,9 +99,9 @@ This category includes the following platform-defined data fields.
 
 
 
- 
 
- 
+
+
 
 
 

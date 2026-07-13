@@ -2,11 +2,16 @@
 description: This topic describes what you must do to start to create programs that use the Sensor API.
 ms.assetid: a8d3228a-5f8b-4850-9e47-5dfb2335e655
 title: General Requirements for Application Development (Sensor API)
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 09/19/2025
 ---
 
-# General Requirements for Application Development (Sensor API)
+# General Requirements for Application Development
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 This topic describes what you must do to start to create programs that use the Sensor API.
 
@@ -46,7 +51,7 @@ The Sensor API uses certain Windows Portable Devices (WPD) objects to encapsulat
 
 
 
- 
 
- 
+
+
 

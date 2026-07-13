@@ -3,7 +3,7 @@ title: Attaching to an SDO-Enabled Computer
 description: Attaching to an SDO-Enabled Computer
 ms.assetid: 434e2e0c-075e-48a9-9617-bbe75716380d
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

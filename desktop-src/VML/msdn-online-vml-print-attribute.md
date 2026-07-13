@@ -2,7 +2,7 @@
 title: VML Print Attribute
 description: VML Print Attribute
 ms.assetid: ef9f9f11-782a-40db-986c-946d9ee03071
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

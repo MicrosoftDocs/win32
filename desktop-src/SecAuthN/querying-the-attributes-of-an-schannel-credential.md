@@ -2,7 +2,7 @@
 description: Provides Schannel-specific information about a credential.
 ms.assetid: 0c357996-b85a-4231-b258-40b35ab83ae2
 title: Querying the Attributes of an Schannel Credential
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

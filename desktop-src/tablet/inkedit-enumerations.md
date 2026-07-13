@@ -2,7 +2,7 @@
 description: This section contains Enumerations belonging to the InkEdit Control.
 ms.assetid: 13d057df-53a9-4252-9501-646072fdf006
 title: InkEdit Enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

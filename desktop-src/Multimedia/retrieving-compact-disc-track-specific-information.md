@@ -4,7 +4,7 @@ description: Retrieving Compact Disc Track-Specific Information
 ms.assetid: 7a26fac2-7cc5-4a65-b045-35baf979c134
 keywords:
 - MCI_TRACK flag
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

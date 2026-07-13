@@ -2,7 +2,7 @@
 description: For Credential Security Support Provider protocol (CredSSP) to delegate credentials, you must specify which servers can be delegated to.
 ms.assetid: 15ed9a62-2eee-4f29-92c5-ccf2754cdf13
 title: CredSSP Group Policy Settings
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Learn about the JobOutputBin element, which describes the installed output bin in a device or the full list of supported bins for a device.
 ms.assetid: 324ec426-b7c8-43af-96b9-74929358e262
 title: JobOutputBin
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -73,7 +73,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the `https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords` namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Feature name="psk:JobOutputBin">

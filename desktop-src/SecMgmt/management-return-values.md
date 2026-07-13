@@ -2,7 +2,7 @@
 description: Lists the values returned by security management functions.
 ms.assetid: ee55364e-8ffe-4a78-a49a-250756561770
 title: Security Management Return Values
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

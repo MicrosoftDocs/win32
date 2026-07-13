@@ -399,10 +399,6 @@ DHCP not enabled on adapter.
 
 </dd> </dl>
 
-## Examples
-
-The [Modify the Allowed Number of TCP Connections](https://Gallery.TechNet.Microsoft.Com/016d09f3-28aa-47eb-b439-100b89999bab) VBScript sample sets the maximum allowed number of simultaneously-opened TCP connections on a computer to 10.
-
 ## Requirements
 
 

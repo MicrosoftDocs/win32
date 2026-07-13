@@ -3,7 +3,7 @@ title: Impact on Directory-Enabled Applications
 description: This topic describes the impact on directory-enabled applications when version skews, partial updates, or collisions occur.
 ms.assetid: 0aec6fe3-7757-4472-bc18-add2327d4e1b
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

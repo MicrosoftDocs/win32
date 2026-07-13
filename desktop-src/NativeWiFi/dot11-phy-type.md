@@ -1,9 +1,9 @@
 ---
-description: Defines an 802.11 PHY and media type.
-ms.assetid: f3804e57-c633-4288-9749-2b267b1353ae
 title: DOT11_PHY_TYPE enumeration (Windot11.h)
+description: Defines an 802.11 PHY and media type.
+ms.date: 01/31/2025
+ms.assetid: f3804e57-c633-4288-9749-2b267b1353ae
 ms.topic: reference
-ms.date: 05/31/2018
 topic_type: 
 - APIRef
 - kbSyntax
@@ -15,12 +15,11 @@ api_location:
 - windot11.h
 ---
 
-# DOT11\_PHY\_TYPE enumeration
+# DOT11_PHY_TYPE enumeration
 
-The **DOT11\_PHY\_TYPE** enumeration defines an 802.11 PHY and media type.
+The **DOT11_PHY_TYPE** enumeration defines an 802.11 PHY and media type.
 
 ## Syntax
-
 
 ```C++
 typedef enum _DOT11_PHY_TYPE { 
@@ -34,12 +33,13 @@ typedef enum _DOT11_PHY_TYPE {
   dot11_phy_type_erp         = 6,
   dot11_phy_type_ht          = 7,
   dot11_phy_type_vht         = 8,
+  dot11_phy_type_dmg         = 9,
+  dot11_phy_type_he          = 10,
+  dot11_phy_type_eht         = 11,
   dot11_phy_type_IHV_start   = 0x80000000,
   dot11_phy_type_IHV_end     = 0xffffffff
 } DOT11_PHY_TYPE, *PDOT11_PHY_TYPE;
 ```
-
-
 
 ## Constants
 
@@ -90,7 +90,7 @@ Specifies an orthogonal frequency division multiplexing (OFDM) PHY type. 802.11a
 <span id="dot11_phy_type_hrdsss"></span><span id="DOT11_PHY_TYPE_HRDSSS"></span>**dot11\_phy\_type\_hrdsss**
 </dt> <dd>
 
-Specifies a high-rate DSSS (HRDSSS) PHY type.
+Specifies a high-rate DSSS (HRDSSS) PHY type. 802.11b devices can use HRDSS.
 
 </dd> <dt>
 
@@ -104,18 +104,44 @@ Specifies an extended rate PHY type (ERP). 802.11g devices can use ERP.
 <span id="dot11_phy_type_ht"></span><span id="DOT11_PHY_TYPE_HT"></span>**dot11\_phy\_type\_ht**
 </dt> <dd>
 
-Specifies the 802.11n PHY type.
+Specifies a High Throughput PHY type (HT). 802.11n devices can use HT.
 
-</dd> <dt>
+</dd>
+
+<dt>
 
 <span id="dot11_phy_type_vht"></span><span id="DOT11_PHY_TYPE_VHT"></span>**dot11\_phy\_type\_vht**
-</dt> <dd>
-
+</dt>
+<dd>
 Specifies the 802.11ac PHY type. This is the very high throughput PHY type specified in IEEE 802.11ac.
-
 This value is supported on Windows 8.1, Windows Server 2012 R2, and later.
+</dd>
 
-</dd> <dt>
+<dt>
+
+<span id="dot11_phy_type_dmg"></span><span id="DOT11_PHY_TYPE_DMG"></span>**dot11\_phy\_type\_dmg**
+</dt>
+<dd>
+Specifies a Directional Multi-Gigabit PHY type (DMG). 802.11ad devices can use HT.
+</dd>
+
+<dt>
+
+<span id="dot11_phy_type_he"></span><span id="DOT11_PHY_TYPE_HE"></span>**dot11\_phy\_type\_he**
+</dt>
+<dd>
+Specifies a High Efficiency PHY type (HE). 802.11ax (Wi-Fi 6) devices can use HT.
+</dd>
+
+<dt>
+
+<span id="dot11_phy_type_eht"></span><span id="DOT11_PHY_TYPE_EHT"></span>**dot11\_phy\_type\_eht**
+</dt>
+<dd>
+Specifies an Extremely High Throughput PHY type (EHT). 802.11be (Wi-Fi 7) devices can use HT.
+</dd>
+
+<dt>
 
 <span id="dot11_phy_type_IHV_start"></span><span id="dot11_phy_type_ihv_start"></span><span id="DOT11_PHY_TYPE_IHV_START"></span>**dot11\_phy\_type\_IHV\_start**
 </dt> <dd>
@@ -137,8 +163,6 @@ An IHV can assign a value for its proprietary PHY types from **dot11\_phy\_type\
 
 ## Requirements
 
-
-
 | Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/>                   |
@@ -146,22 +170,12 @@ An IHV can assign a value for its proprietary PHY types from **dot11\_phy\_type\
 | Redistributable<br/>          | Wireless LAN API for Windows XP with SP2<br/>                                   |
 | Header<br/>                   | <dl> <dt>Windot11.h</dt> </dl> |
 
-
-
 ## See also
 
 <dl> <dt>
 
-[**WLAN\_ASSOCIATION\_ATTRIBUTES**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_association_attributes)
+[**WLAN_ASSOCIATION_ATTRIBUTES**](/windows/win32/api/wlanapi/ns-wlanapi-wlan_association_attributes)
 </dt> <dt>
 
-[**WLAN\_INTERFACE\_CAPABILITY**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_interface_capability)
+[**WLAN_INTERFACE_CAPABILITY**](/windows/win32/api/wlanapi/ns-wlanapi-wlan_interface_capability)
 </dt> </dl>
-
- 
-
- 
-
-
-
-

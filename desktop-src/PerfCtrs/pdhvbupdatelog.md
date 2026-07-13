@@ -3,7 +3,7 @@ description: The PdhVbUpdateLog function function updates the current query and 
 ms.assetid: a7a3ad18-2d61-448e-9764-ba363398e804
 title: PdhVbUpdateLog function
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - APIRef
 - kbSyntax

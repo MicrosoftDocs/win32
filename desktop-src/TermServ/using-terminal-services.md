@@ -5,7 +5,7 @@ ms.assetid: 17a8055c-3fde-4ba0-9ed9-af0ebe0a36b9
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , using
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

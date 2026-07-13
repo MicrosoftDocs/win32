@@ -7,7 +7,7 @@ keywords:
 - Windows Media Format SDK,IWMStatusCallback interface
 - OnStatus callback method,about
 - IWMStatusCallback
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

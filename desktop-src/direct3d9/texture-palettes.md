@@ -2,7 +2,7 @@
 description: Direct3D 9 supports paletted textures through a set of 256 entry palettes associated with the IDirect3DDevice9 object.
 ms.assetid: dea4b4bc-7eba-40fa-9c2c-0851fe7e231b
 title: Texture Palettes (Direct3D 9)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

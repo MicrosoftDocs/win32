@@ -2,7 +2,7 @@
 title: Animations
 description: Animations
 ms.assetid: 8bd9ac94-3f86-4168-bf33-7a2c8d11907d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

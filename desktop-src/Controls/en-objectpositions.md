@@ -81,10 +81,10 @@ To receive an EN\_OBJECTPOSITIONS notification code, specify the [**ENM\_OBJECTP
 **Other Resources**
 </dt> <dt>
 
-[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**](../winmsg/hiword.md)
 </dt> <dt>
 
-[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
+[**LOWORD**](../winmsg/loword.md)
 </dt> </dl>
 
  

@@ -2,7 +2,7 @@
 title: Implementing a Distributed System
 description: One way to implement software in a distributed system is to use raw networking support.
 ms.assetid: 46abbbec-caa1-4fee-a713-4a4a2b462051
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

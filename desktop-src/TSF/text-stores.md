@@ -20,7 +20,7 @@ keywords:
 - TSF (Text Services Framework),document locks
 - TSF-enabled applications,document locks
 - document locks
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

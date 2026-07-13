@@ -7,7 +7,7 @@ keywords:
 - gestures,about
 - Windows Touch,legacy support
 - gestures,legacy support
-ms.topic: article
+ms.topic: concept-article
 ms.date: 02/18/2020
 ---
 

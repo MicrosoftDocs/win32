@@ -14,7 +14,7 @@ keywords:
 - customizing Print dialog box
 - predefined dialog boxes
 - dialog boxes,Print
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

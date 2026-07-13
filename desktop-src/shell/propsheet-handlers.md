@@ -1,7 +1,7 @@
 ---
 description: When a user right-clicks a Shell object, the shortcut menu that is displayed normally includes a Properties item.
 title: Property Sheet Handlers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 72233ab5-212d-498c-8df1-1a96c8eda892
 api_name: 

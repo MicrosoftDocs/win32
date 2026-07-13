@@ -14,7 +14,7 @@ keywords:
 - VML (Vector Markup Language),behavior styles
 - vector graphics,behavior styles
 - VGX.DLL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: You can use the line and curve functions to draw a pie chart.
 ms.assetid: 788d3bc2-1010-436c-a95f-6fe55daac88e
 title: Drawing a Pie Chart
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

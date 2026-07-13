@@ -2,7 +2,7 @@
 title: Reusing Objects
 description: Reusing Objects
 ms.assetid: 07055fea-bdfe-4c7a-be07-2edcbf609dd9
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -21,7 +21,7 @@ To achieve black-box reusability, COM adopts other established reusability mecha
 
  
 
-It is important to remember in both these mechanisms how the outer object appears to its clients. As far as the clients are concerned, both objects implement any interfaces to which the client can get a pointer. The client treats the outer object as an opaque box and therefore does not care, nor does it need to care, about the internal structure of the outer objectâ€”the client cares only about behavior.
+It is important to remember in both these mechanisms how the outer object appears to its clients. As far as the clients are concerned, both objects implement any interfaces to which the client can get a pointer. The client treats the outer object as an opaque box and therefore does not care, nor does it need to care, about the internal structure of the outer object--the client cares only about behavior.
 
 For more information, see the following topics:
 

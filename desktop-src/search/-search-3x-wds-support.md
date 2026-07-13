@@ -1,12 +1,12 @@
 ---
 description: Notifications Process in Windows Search
 ms.assetid: 378e346b-2067-484f-85e9-76673a35550b
-title: Notifications Process in Windows Search
-ms.topic: article
+title: Notifications process in Windows Search
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Notifications Process in Windows Search
+# Notifications process in Windows Search
 
 This topic is organized as follows:
 
@@ -17,7 +17,7 @@ This topic is organized as follows:
 -   [Notifications on Rowsets](#notifications-on-rowsets)
 -   [Related topics](#related-topics)
 
-## Overview of the Notifications Process
+## Overview of the notifications process
 
 There are three approaches by which data from your data store can be indexed:
 
@@ -31,11 +31,11 @@ The merits of each approach are described in the following sections.
 
 Notification-enabled sources do an incremental crawl on start-up and then rely on notifications or an explicit command to crawl again. This happens automatically on Windows Vista and later. On operating systems prior to Windows Vista, you must set up a scheduled event in the [Task Scheduler](../taskschd/task-scheduler-start-page.md) that calls into your code to initiate a crawl over your start page(s). You do not need to implement any form of notifications. As a background process, the indexer traverses its crawl scope, looking for changes and updating the catalog. This option is recommended for almost all situations.
 
-## Indexer-Managed Notifications
+## Indexer-managed notifications
 
 With indexer-managed notifications, you implement a notification strategy that notifies the indexer when data in the data store has changed, and the indexer manages tracking the notifications and indexing the data. In this situation, your component (which we'll call a notifications provider) monitors the data store, collects information about changes to the store, and then periodically notifies the indexer with a list of items that need indexing. The indexer is responsible for recovering and resolving notifications in case of failure. This option, which you can think of as the "send it and forget it" strategy, reduces the frequency of indexer crawls.
 
-## Provider-Managed Notifications
+## Provider-managed notifications
 
 With provider-managed notifications, you implement a notification strategy that is similar to the second approach, except that your notifications provider must track notifications and is responsible for recovering and resolving notifications in case of failure. In this situation, your notifications provider monitors the data store, collects and maintains information about changes to the store, periodically notifies the indexer with a list of items that need indexing, receives status updates from the indexer, and re-sends notifications in case of failure.
 
@@ -44,7 +44,7 @@ With provider-managed notifications, you implement a notification strategy that 
 
  
 
-## Notifications on Rowsets
+## Notifications on rowsets
 
 In Windows 7 and later, indexing eventing enables providers to receive notifications about their rowsets. Providers that use indexing eventing can maintain their rowsets in a manner that resembles the behavior of actual file system locations. Libraries and searches are the primary examples of non-file-system locations in Windows 7. Indexer eventing is to library views as notifications are to file-folder views. The [**IRowsetEvents**](/windows/desktop/api/Searchapi/nn-searchapi-irowsetevents) interface must be implemented in order to receive notifications of events. The data layer is the primary client of indexer eventing, and decides what to do with events in the Items View UI. For more information, see [Indexing Prioritization and Rowset Events in Windows 7](indexing-prioritization-and-rowset-events.md).
 

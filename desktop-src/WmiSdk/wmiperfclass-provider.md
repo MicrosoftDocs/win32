@@ -3,7 +3,7 @@ description: Starting with Windows Vista, this provider creates the WMI Perform
 ms.assetid: 5bb3d5e0-cdeb-4fea-a8ca-cf934e056206
 ms.tgt_platform: multiple
 title: WmiPerfClass Provider
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

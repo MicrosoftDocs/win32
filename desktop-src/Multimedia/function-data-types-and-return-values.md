@@ -2,7 +2,7 @@
 title: Function Data Types and Return Values
 description: Function Data Types and Return Values
 ms.assetid: a17ec8bb-4369-463f-8c67-11457a18595b
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

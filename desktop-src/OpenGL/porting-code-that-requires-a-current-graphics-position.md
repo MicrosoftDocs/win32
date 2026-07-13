@@ -9,7 +9,7 @@ keywords:
 - OpenGL porting from IRIS GL,current graphics position
 - current graphics position
 - raster positions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

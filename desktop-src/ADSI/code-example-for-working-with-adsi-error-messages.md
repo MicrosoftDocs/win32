@@ -5,7 +5,7 @@ ms.assetid: c09fea2e-b6c1-4318-a7a6-b1c4c30ef4cb
 ms.tgt_platform: multiple
 keywords:
 - error messages and example code for ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

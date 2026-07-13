@@ -2,7 +2,7 @@
 title: FontBold Property
 description: FontBold Property
 ms.assetid: abf735f9-fea2-4d02-a821-e28583a8bc39
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

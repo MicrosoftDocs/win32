@@ -2,7 +2,7 @@
 title: IAgent
 description: IAgent
 ms.assetid: 35b12006-a938-450c-969a-7b73a3768a4d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

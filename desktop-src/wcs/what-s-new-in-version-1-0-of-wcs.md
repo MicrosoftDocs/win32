@@ -28,7 +28,7 @@ keywords:
 - Windows Vista color management
 
 
-ms.topic: article
+ms.topic: whats-new
 ms.date: 05/31/2018
 ---
 

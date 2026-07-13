@@ -2,7 +2,7 @@
 description: Media sinks are the pipeline objects that receive media data.
 ms.assetid: 'a0fbce1b-0a16-4449-9eca-906fd9056a1c'
 title: Media Sinks
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

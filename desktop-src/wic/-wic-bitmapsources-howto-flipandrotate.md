@@ -2,7 +2,7 @@
 description: This topic demonstrates how to rotate an IWICBitmapSource by using an IWICBitmapFlipRotator component.
 ms.assetid: 371c7759-0165-4a2a-b2ff-f9c8a31053a4
 title: How to Flip and Rotate a Bitmap Source
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

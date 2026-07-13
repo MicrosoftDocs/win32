@@ -2,7 +2,7 @@
 description: This topic describes how to specify the format of an Advanced Audio Coding (AAC) stream in Media Foundation.
 ms.assetid: 82218bc5-6660-4253-b50c-b6d9f30be3d5
 title: AAC Media Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

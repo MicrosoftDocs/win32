@@ -2,7 +2,7 @@
 title: VML RelativePosition Attribute
 description: VML RelativePosition Attribute
 ms.assetid: d3cdaa6f-e3d4-4948-81d6-64a01ad160c5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

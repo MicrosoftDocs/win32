@@ -2,7 +2,7 @@
 description: Device groups allow the specification of the Icons, Label, or DeviceHandlers properties for any device that declares itself part of that group.
 ms.assetid: 84433068-A869-479D-8ADA-E8221B38CCAE
 title: How to Specify an Icon, Label, or Device Handler for a Device Using a Device Group
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: People Near Me Architecture
 ms.assetid: f8ef613a-74d1-4bc3-8f13-36679856ce4c
 title: People Near Me Architecture
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

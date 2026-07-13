@@ -2,7 +2,7 @@
 title: HTTP Server API Version 1.0 Macros
 description: The HTTP Server API defines specific macros to compare HTTP versions.
 ms.assetid: 9c5fb0a4-fda8-4489-8a1e-c232079bd501
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

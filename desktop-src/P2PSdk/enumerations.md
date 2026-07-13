@@ -2,7 +2,7 @@
 title: Enumerations (Peer Infrastructure)
 description: By using Enumerations, you can obtain a list of all the specific peer entities that match your criteria.
 ms.assetid: '81391e4f-aea1-4f5e-a32b-436a3856993b'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

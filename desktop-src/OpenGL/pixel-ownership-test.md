@@ -5,7 +5,7 @@ ms.assetid: aa9428a6-cc05-4df4-ba31-444f999006a8
 keywords:
 - OpenGL processing pipeline,pixel ownership test
 - pixel ownership test OpenGL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

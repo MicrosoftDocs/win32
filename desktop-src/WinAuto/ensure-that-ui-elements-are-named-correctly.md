@@ -2,8 +2,8 @@
 title: Ensuring that UI Elements are Correctly Named
 description: This topic describes the correct way to specify the names of the UI elements in your Microsoft Win32 applications so that Microsoft Active Accessibility can accurately expose the names to client applications through the IAccessible \ 32;Name property.
 ms.assetid: 5b8f23cb-9906-4cc4-83d4-73fdf96ed681
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: how-to
+ms.date: 07/14/2025
 ---
 
 # Ensuring that UI Elements are Correctly Named
@@ -249,24 +249,8 @@ HRESULT RemoveAnnotatedNameFromControl(HWND hDlg, HWND hwndCtl)
 }
 ```
 
-
-
 ## Related topics
 
-<dl> <dt>
-
-**Conceptual**
-</dt> <dt>
-
-[Dynamic Annotation API](dynamic-annotation-api.md)
-</dt> <dt>
-
-[Providing the Name Property](providing-the-name-property.md)
-</dt> <dt>
-
-[Testing Tools](testing-tools.md)
-</dt> </dl>
-
- 
-
- 
+- [Dynamic Annotation API](dynamic-annotation-api.md)
+- [Providing the Name Property](providing-the-name-property.md)
+- [Testing for accessibility](accessibility-testingtools.md)

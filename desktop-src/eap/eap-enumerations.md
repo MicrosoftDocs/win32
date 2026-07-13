@@ -2,7 +2,7 @@
 title: EAP Enumerations
 description: Use the following enumerated types for authentication protocols and authentication providers.
 ms.assetid: 727398b3-7951-4393-b615-40ad90137fdc
-ms.topic: article
+ms.topic: reference
 ms.date: 06/14/2023
 ms.contributor: samyun
 ---

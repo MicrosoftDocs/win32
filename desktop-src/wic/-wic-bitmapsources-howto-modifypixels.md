@@ -2,7 +2,7 @@
 description: This topic demonstrates how to modify the pixels of a bitmap source using the IWICBitmap and IWICBitmapLock components.
 ms.assetid: a08af015-bc42-4a31-af03-106714b08d08
 title: How to Modify the Pixels of a Bitmap Source
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

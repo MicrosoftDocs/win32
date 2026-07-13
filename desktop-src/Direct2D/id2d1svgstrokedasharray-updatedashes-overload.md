@@ -45,7 +45,3 @@ Updates the array.
 
 [**ID2D1SvgStrokeDashArray**](/windows/win32/api/d2d1svg/nn-d2d1svg-id2d1svgstrokedasharray)
 </dt> </dl>
-
-�
-
-�

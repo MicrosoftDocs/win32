@@ -2,7 +2,7 @@
 title: Rendering an Effect (Direct3D 11)
 description: Learn about rendering an effect for Direct3D 11. An effect can be used to store information, or to render using a group of state.
 ms.assetid: 7af239de-812d-4295-b599-b9deb371b01b
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The Virtual Disk Service (VDS) manages a wide range of storage configurations, from single-disk desktops to external storage arrays. The service exposes an application programming interface (API).
 ms.assetid: 536aafd2-cc04-48cc-8ee7-920efbba2a5f
 title: Virtual Disk Service
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -34,7 +34,7 @@ VDS is supported on Windows Server 2003, Windows Vista, and later. For informati
 
 Running 32-bit VDS applications under WOW64 is supported, but 64-bit VDS providers must run as native applications on 64-bit Windows versions.
 
-VDS is available in the Microsoft Windows Software Development Kit (SDK). You can install the SDK for Windows 7 and Windows Server 2008 R2 from the [Windows Download Center](https://www.microsoft.com/download/details.aspx?id=8279). This version of the Windows SDK can be used to develop VDS applications for Windows Server 2003, Windows Vista, and later. You can also download the [ISO version](https://www.microsoft.com/download/details.aspx?id=8442) of the SDK from the Windows Download Center.
+VDS is available in the Microsoft Windows Software Development Kit (SDK). You can install the SDK for Windows 7 and Windows Server 2008 R2 from the [Windows SDK archive](https://developer.microsoft.com/windows/downloads/sdk-archive/). This version of the Windows SDK can be used to develop VDS applications for Windows Server 2003, Windows Vista, and later. You can also download the [ISO version](https://www.microsoft.com/download/details.aspx?id=8442) of the SDK from the Windows Download Center.
 
 ## In this section
 

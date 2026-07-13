@@ -8,7 +8,7 @@ keywords:
 - X Window System,pixels
 - GLX functions,pixels
 - pixels,GLX sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

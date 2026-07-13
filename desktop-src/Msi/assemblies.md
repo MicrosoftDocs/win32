@@ -2,7 +2,7 @@
 description: Windows Installer can install, remove, and update Win32 assemblies and assemblies used by the common language runtime of the Microsoft .NET Framework.
 ms.assetid: 88bee87c-fed2-45e9-8d8c-a5bbcc77f266
 title: Assemblies
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

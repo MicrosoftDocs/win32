@@ -3,7 +3,7 @@ description: WMI scheduled tasks create and get information about scheduled task
 ms.assetid: 62151fe8-8880-43f2-b456-628bd9c7cc1c
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Scheduled Tasks'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

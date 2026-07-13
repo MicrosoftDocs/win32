@@ -2,7 +2,7 @@
 description: System.Music.Genre
 ms.assetid: c1adbc13-5069-4760-901c-d5ca47913695
 title: System.Music.Genre
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Linking and Embedding
 description: Linking and Embedding
 ms.assetid: 7c35ab0a-f534-42b1-9871-d288c36bd739
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

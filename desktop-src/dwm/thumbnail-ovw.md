@@ -9,7 +9,7 @@ keywords:
 - DWM (Desktop Window Manager),thumbnail relationships
 - thumbnails
 - thumbnail relationships
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

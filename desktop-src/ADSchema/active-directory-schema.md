@@ -5,7 +5,7 @@ ms.assetid: b3da4519-d0c6-47eb-9455-ada653ad5c9e
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

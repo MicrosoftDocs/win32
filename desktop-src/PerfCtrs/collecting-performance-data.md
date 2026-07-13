@@ -2,8 +2,8 @@
 description: After creating a query and adding counters to it, call the PdhCollectQueryData function to retrieve the current raw data for all counters in the query.
 ms.assetid: 2534d387-a280-4716-9a9d-3e42f40e2f92
 title: Collecting Performance Data
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: how-to
+ms.date: 07/14/2025
 ---
 
 # Collecting Performance Data
@@ -50,4 +50,4 @@ The following table shows how this can occur if a process is terminated while da
 | Sample 5 | 80                   | 2,000                          | Not applicable. Now collected in slot 1. |
 
 > [!TIP]
-> Starting in Windows 10 20H2, you can avoid this issue by using the new `Process V2` counterset. The `Process V2` counterset includes the process ID in the instance name. This avoids the inconsistent results that appear with the original `Process` counterset.
+> Starting in Windows 11, you can avoid this issue by using the new `Process V2` counterset. The `Process V2` counterset includes the process ID in the instance name. This avoids the inconsistent results that appear with the original `Process` counterset.

@@ -2,7 +2,7 @@
 title: Porting from Direct3D 11 to Direct3D 12
 description: This section provides some guidance on porting from a custom Direct3D 11 graphics engine to Direct3D 12.
 ms.assetid: 9EB4AC6B-AFDD-4673-8EB3-54272C151784
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -113,7 +113,7 @@ In Direct3D 11 there is no explicit concept of a command queue. In the common se
 | CopyResource                        | CopyResource                   |
 
 > [!NOTE]
-> A command list created with **D3D12_COMMAND_LIST_TYPE_BUNDLE** is simliar to a deferred context. Direct3D 12 also supports the abiilty to access some features of an *immediate context* simultaneous to rendering via **D3D12_COMMAND_LIST_TYPE_COPY** and **D3D12_COMMAND_LIST_TYPE_COMPUTE** command list types.
+> A command list created with **D3D12_COMMAND_LIST_TYPE_BUNDLE** is simliar to a deferred context. Direct3D 12 also supports the ability to access some features of an *immediate context* simultaneous to rendering via **D3D12_COMMAND_LIST_TYPE_COPY** and **D3D12_COMMAND_LIST_TYPE_COMPUTE** command list types.
 
 ## CPU/GPU Synchronization
 

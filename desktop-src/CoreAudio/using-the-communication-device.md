@@ -2,7 +2,7 @@
 description: In Windows 7, the Windows multimedia control panel, Mmsys.cpl, provides a new Communications tab.
 ms.assetid: bec2127d-fb82-436d-beee-d43e8fef5c35
 title: Using a Communication Device
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

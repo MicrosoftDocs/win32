@@ -133,10 +133,6 @@ This method is only applicable to those instances of logical disk that represent
 
 ## Examples
 
-The[Is CHKDSK Dirty Bit Set on a server](https://Gallery.TechNet.Microsoft.Com/57076851-97fb-4af6-8c5c-1e34156ceab4) PowerShell code sample examines the remote system and returns a true or false if the chkdsk /f flag was set.
-
-The [Remotely scan disk](https://Gallery.TechNet.Microsoft.Com/Remotely-scan-disk-dd4fc267) PowerShell code sample remotely starts or schedules Scan Disk.
-
 The following VBScript code sample Runs ChkDsk.exe against drive D on a computer.
 
 

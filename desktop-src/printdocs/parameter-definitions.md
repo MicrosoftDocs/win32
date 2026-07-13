@@ -2,7 +2,7 @@
 description: Read about parameter definitions in a PrintCapabilities document. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 82ba4658-f0e1-47a7-bb0c-1b527fabde4a
 title: Parameter Definitions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

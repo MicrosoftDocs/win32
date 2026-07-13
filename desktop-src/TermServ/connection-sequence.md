@@ -3,7 +3,7 @@ title: Connection Sequence
 description: An illustration that shows the method calls made between the Remote Desktop Services service and your protocol during the client connection sequence.
 ms.assetid: 60e56093-c457-43bc-b152-15c5acbfb016
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

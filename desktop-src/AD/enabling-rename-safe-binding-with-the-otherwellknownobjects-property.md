@@ -7,7 +7,7 @@ keywords:
 - otherWellKnownObjects property
 - otherWellKnownObjects property, using for rename-safe binding
 - Active Directory, using, binding, rename-safe binding
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

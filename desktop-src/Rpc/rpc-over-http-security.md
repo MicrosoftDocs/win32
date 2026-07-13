@@ -2,7 +2,7 @@
 title: RPC over HTTP Security
 description: RPC over HTTP provides three types of security in addition to standard RPC security, which results in RPC over HTTP traffic being protected once by RPC, and then doubly protected by the tunneling mechanism provided by RPC over HTTP.
 ms.assetid: 3a44c72b-b74c-433a-8826-1f76ca019f40
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,7 +20,7 @@ Each of these three security features is described in more detail in following s
 
 RPC over HTTP can leverage the normal authentication mechanism of IIS. The virtual directory for RPC Proxy can be configured using the Rpc node under the Default Web Site in the IIS MMC snap-in:
 
-![Screenshot showing the the Rpc node under the Default Web Site in the IIS MMC snap-in.](images/rpc-http-1.png)
+![Screenshot showing the Rpc node under the Default Web Site in the IIS MMC snap-in.](images/rpc-http-1.png)
 
 IIS can be configured to disable anonymous access and require authentication to the virtual directory for the RPC Proxy. To do this, right click the Rpc node and select **Properties**. Select the **Directory Security** tab and click the **Edit** button in the **Authentication and Access Control** group, as illustrated here:
 

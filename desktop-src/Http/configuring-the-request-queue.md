@@ -2,7 +2,7 @@
 title: Configuring the Request Queue
 description: Configuring the Request Queue
 ms.assetid: ab03089c-2ef1-457d-a5f5-a4d400f3a7f1
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

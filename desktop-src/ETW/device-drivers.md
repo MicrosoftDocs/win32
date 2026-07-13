@@ -2,7 +2,7 @@
 description: This documentation is for user-mode applications that want to use ETW for event tracing.
 ms.assetid: 4d5ae7f7-dd15-4940-bb92-277e80927da6
 title: Device Drivers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

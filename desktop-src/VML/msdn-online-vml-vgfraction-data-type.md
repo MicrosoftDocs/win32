@@ -2,7 +2,7 @@
 title: VML VgFraction Data Type
 description: VML VgFraction Data Type
 ms.assetid: a79d6a3e-a6c1-46d0-aa21-bb3b445ef792
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

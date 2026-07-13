@@ -3,7 +3,7 @@ description: One of the most common ways to receive an event is through a runnin
 ms.assetid: 380ac556-ba0a-4fae-8b76-0645d99e8583
 ms.tgt_platform: multiple
 title: Receiving Events for the Duration of Your Application
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

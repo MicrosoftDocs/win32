@@ -2,8 +2,8 @@
 title: Providing the Name Property
 description: Server developers must take care when creating predefined and common controls to ensure that Microsoft Active Accessibility can expose the Name property for the control.
 ms.assetid: 2b4ec5ae-bda1-41e6-9387-6ee3cb6c3163
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Providing the Name Property

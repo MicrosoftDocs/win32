@@ -2,7 +2,7 @@
 title: IAgentCommandEx GetHelpContextID
 description: IAgentCommandEx GetHelpContextID
 ms.assetid: 97b390f3-ab24-4c09-aa87-d76076eba995
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: WLAN_profile schema simple types
 description: The WLAN\_profile schema defines the following simple type.
 ms.topic: reference
-ms.date: 05/25/2023
+ms.date: 05/14/2025
 ms.assetid: 93aef1f1-d443-4c0f-9097-3fd229305130
 topic_type: 
 - kbArticle
@@ -19,7 +19,7 @@ The WLAN\_profile schema defines the following simple type.
 
 The **nameType** simple type can contain either the name, or a description, of a wireless LAN profile. This string value must be between 1 and 255 characters long.
 
-``` syntax
+```XSD
 <xs:simpleType name="nameType">
     <xs:restriction
         base="string"

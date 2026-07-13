@@ -1,12 +1,12 @@
 ---
 description: This section provides conceptual information necessary for the implementation, extension and testing of protocol handlers.
 ms.assetid: c76d5c82-d62b-4dd4-9743-9572be61e2be
-title: Developing Protocol Handlers for Windows Search
-ms.topic: article
+title: Developing protocol handlers for Windows Search
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Developing Protocol Handlers for Windows Search
+# Developing protocol handlers for Windows Search
 
 This section provides conceptual information necessary for the implementation, extension and testing of protocol handlers.
 
@@ -18,7 +18,7 @@ This section provides conceptual information necessary for the implementation, e
 -   [Creating a Search Connector for a Protocol Handler](-search-3x-wds-ph-search-connector.md)
 -   [Debugging Protocol Handlers](-search-ws-protocolhandlertesting.md)
 
-## Additional Resources
+## Additional resources
 
 For conceptual background on indexing, see the following topics:
 
@@ -40,7 +40,7 @@ For background on related technologies and on implementing a data store, see the
 
 For code samples, see the following portal pages:
 
--   For Search code samples, see [Windows Search SDK Samples](https://www.microsoft.com/downloads/details.aspx?FamilyID=645300AE-5E7A-4CE7-95F0-49793F8F76E8).
+-   For Search code samples, see [Windows Search Code Samples](-search-samples-ovw.md).
 -   For Shell code samples, see [Shell SDK Samples](/previous-versions/windows/desktop/legacy/dd940376(v=vs.85)).
 
  

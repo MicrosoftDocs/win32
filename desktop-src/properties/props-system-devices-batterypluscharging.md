@@ -2,7 +2,7 @@
 description: Remaining battery life of the device and its charging state.
 ms.assetid: 9c6800ed-ca55-4202-8dfb-6e430121d6b7
 title: System.Devices.BatteryPlusCharging
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

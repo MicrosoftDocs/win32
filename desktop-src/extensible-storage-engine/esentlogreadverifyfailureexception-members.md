@@ -6,7 +6,7 @@ ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogReadVerifyFailureE
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentlogreadverifyfailureexception_members(v=EXCHG.10)
 ms:contentKeyID: 55102162
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # EsentLogReadVerifyFailureException members

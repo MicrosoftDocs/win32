@@ -2,7 +2,7 @@
 description: Whenever an application creates a DC and immediately begins calling GDI drawing or output functions, it takes advantage of the default page-space to device-space, and device-space to client-area transformations.
 ms.assetid: 64465eb4-d23a-44e7-ad0d-060b195d37b3
 title: Default Transformations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

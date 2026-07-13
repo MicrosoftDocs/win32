@@ -2,8 +2,8 @@
 title: Verification Log Messages
 description: This section describes the verification log messages for UI Accessibility Checker (AccChecker).
 ms.assetid: 27BA13D8-162B-4604-A048-2C8D49060FA9
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Verification Log Messages

@@ -2,7 +2,7 @@
 title: D3D12_GPU_VIRTUAL_ADDRESS
 description: Represents a virtual address in GPU memory.
 ms.assetid: 
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

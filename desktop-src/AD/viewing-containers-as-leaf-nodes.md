@@ -7,7 +7,7 @@ keywords:
 - Viewing Containers as Leaf Nodes
 - containers AD , viewing as leaf nodes
 - leaf AD , viewing containers as leaf nodes
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

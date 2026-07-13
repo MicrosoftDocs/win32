@@ -3,7 +3,7 @@ description: The following topics describe how applications can use the System R
 ms.assetid: 84604fbc-50b2-410d-84bf-4a408be26ee2
 ms.tgt_platform: multiple
 title: Programming with the System Registry Provider
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

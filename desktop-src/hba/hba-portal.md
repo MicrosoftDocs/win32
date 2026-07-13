@@ -3,7 +3,7 @@ title: Host bus adapter (HBA)
 description: Host bus adapter (HBA).
 keywords:
 - Host bus adapter (HBA)
-ms.topic: article
+ms.topic: reference
 ms.date: 08/01/2022
 ---
 

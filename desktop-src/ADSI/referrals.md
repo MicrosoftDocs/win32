@@ -5,7 +5,7 @@ ms.assetid: 2068ce7a-0b94-4d25-a18f-97f26863bd1d
 ms.tgt_platform: multiple
 keywords:
 - Referrals ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

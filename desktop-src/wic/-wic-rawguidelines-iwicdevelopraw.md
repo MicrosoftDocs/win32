@@ -2,7 +2,7 @@
 description: Support for IWICDevelopRaw
 ms.assetid: 8e8ff65b-0849-42e0-924e-2a7c61d4b1bb
 title: Support for IWICDevelopRaw
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

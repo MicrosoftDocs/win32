@@ -2,9 +2,8 @@
 description: Data Execution Prevention (DEP) is a system-level memory protection feature that is built into the operating system starting with Windows XP and Windows Server 2003.
 ms.assetid: 75cd83a5-4b77-4ca9-b595-e32d0dd609d0
 title: Data Execution Prevention
-ms.topic: article
+ms.topic: concept-article
 ms.date: 01/25/2022
-ms.custom: seo-windows-dev
 ---
 
 # Data Execution Prevention

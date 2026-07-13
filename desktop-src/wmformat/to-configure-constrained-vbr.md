@@ -11,7 +11,7 @@ keywords:
 - variable bit rate (VBR),configuring constrained
 - VBR (variable bit rate),configuring constrained
 - profiles,configuring constrained VBR
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

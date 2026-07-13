@@ -2,7 +2,7 @@
 title: VML ImageSize Attribute
 description: VML ImageSize Attribute
 ms.assetid: 6b021ac1-e447-46ad-9153-91f936fca0d8
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

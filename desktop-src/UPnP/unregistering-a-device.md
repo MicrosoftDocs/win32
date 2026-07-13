@@ -2,7 +2,7 @@
 title: Unregistering a Device
 description: Use the IUPnPRegistrar UnregisterDevice method to unregister a device.
 ms.assetid: 4f7624e3-4d60-406d-8521-1dfc9aee4408
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

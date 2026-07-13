@@ -2,7 +2,7 @@
 description: In the following, a multipoint socket is frequently characterized by describing its role in one of the two planes (control or data).
 ms.assetid: 35e4a8c9-d943-44b8-be61-605b60a6cf5d
 title: SPI Semantics for Joining Multipoint Leaves
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: An application sends the WM\_MDICREATE message to a multiple-docume
 ms.assetid: f2313ffd-867f-4870-a667-3e5f5402776f
 title: WM_MDICREATE message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_MDICREATE message

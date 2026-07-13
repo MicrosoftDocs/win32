@@ -2,7 +2,7 @@
 title: Games for Windows Technical Requirements Best Practices for Games on Windows XP, Windows Vista, Windows 7, and Windows 8
 description: This article provides technical requirements and best practices for games that run on Windows.
 ms.assetid: 8b816e9f-de68-cf84-1501-a9c36c6b75d8
-ms.topic: article
+ms.topic: best-practice
 ms.date: 05/31/2018
 ---
 
@@ -604,7 +604,7 @@ Poorly written or malware drivers can severely affect the stability and security
 
 Both 32-bit and 64-bit native versions of all kernel-mode drivers are needed per requirement 2.2.
 
-More information about Microsoft driver signing programs can be found at the [Windows Hardware Developer portal](https://www.microsoft.com/whdc/winlogo/hwrequirements.mspx).
+More information about Microsoft driver signing programs can be found at the [Windows Hardware Dev Center](https://developer.microsoft.com/windows/hardware/).
 
 </dd> </dl>
 
@@ -996,7 +996,7 @@ System reboots are a major disruption. They lead to a bad user experience, and s
 
 If a game installer uses the Windows Installer technology (MSI) without any custom actions, this functionality is provided automatically. Microsoft redistribution packages also support the Restart Manager.
 
-For more information about the Restart Manager, see the MSDN article [About Restart Manager](/windows/desktop/RstMgr/about-restart-manager).
+For more information about the Restart Manager, see [About Restart Manager](/windows/desktop/RstMgr/about-restart-manager).
 
 </dd> </dl>
 
@@ -1024,7 +1024,7 @@ AppVerifier tests for many known issues that cause crashes and hangs in Windows 
 <span id="Additional_Information"></span><span id="additional_information"></span><span id="ADDITIONAL_INFORMATION"></span>**Additional Information**
 </dt> <dd>
 
-For more information about Application Verifier, see [Application Verifier](/previous-versions/ms220948(v=vs.80)) and [Using Application Verifier Within Your Software Development Lifecycle](/previous-versions/aa480483(v=msdn.10)) on MSDN. You can download Application Verifier from [Download details: Application Verifier](https://www.microsoft.com/downloads/details.aspx?familyid=c4a25ab9-649d-4a1b-b4a7-c9d8b095df18) on Microsoft Download Center.
+For more information about Application Verifier, see [Application Verifier](/windows-hardware/drivers/devtest/application-verifier) and [Using Application Verifier Within Your Software Development Lifecycle](/previous-versions/aa480483(v=msdn.10)).
 
 This requirement does not apply to pure managed applications without native interop.
 

@@ -2,7 +2,7 @@
 title: Primitive and Custom Binding Handles
 description: All handles declared with the handle\_t or RPC\_BINDING\_HANDLE types are primitive binding handles.
 ms.assetid: 7a948aad-02fa-421d-b32c-f5dab071bd04
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 # WS\_POLICY
 
-An opaque type used to reference a[metadata input](metadata-import.md) policy.
+An opaque type used to reference a [metadata input](metadata-import.md) policy.
 
 
 ```C++
@@ -32,14 +32,3 @@ This object is not thread safe. For more information, see [thread safety](thread
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |
 | Header<br/>                   | <dl> <dt>WebServices.h</dt> </dl> |
-
-
-
- 
-
- 
-
-
-
-
-

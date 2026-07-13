@@ -10,7 +10,7 @@ keywords:
 - reference for Windows Media Device Manager,application interfaces
 - plug-ins,interfaces
 - application interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -32,7 +32,7 @@ The following interfaces or classes are used by applications.
 | [**IWMDeviceManager3**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager3)               | Extends the **IWMDeviceManager2** interface by providing a method that sets the device enumeration preference.                                                                                                      |
 | [**IWMDMDevice**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice)                           | Provides methods to examine and explore a single portable device.                                                                                                                                                   |
 | [**IWMDMDevice2**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2)                         | Extends **IWMDMDevice** by making it possible to get the video formats supported by a device, find a storage by name, and use property pages.                                                                       |
-| [**IWMDMDevice3**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice3)                         | Extends **IWMDMDevice2** by providing methods to query a device for properties, send device I/O controle codes, and also providing upgraded methods to search for storages and retrieve device format capabilities. |
+| [**IWMDMDevice3**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice3)                         | Extends **IWMDMDevice2** by providing methods to query a device for properties, send device I/O control codes, and also providing upgraded methods to search for storages and retrieve device format capabilities. |
 | [**IWMDMDeviceControl**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevicecontrol)             | Provides methods for controlling devices.                                                                                                                                                                           |
 | [**IWMDMDeviceSession**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevicesession)             | Improves the efficiency of device operations by bundling multiple operations into one session                                                                                                                       |
 | [**IWMDMEnumDevice**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice)                   | Enumerates portable devices attached to a computer.                                                                                                                                                                 |

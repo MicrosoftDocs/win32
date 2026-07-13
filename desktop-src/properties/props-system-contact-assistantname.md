@@ -2,7 +2,7 @@
 description: Contact's assistant name.
 ms.assetid: 79203485-68a4-4e8c-90f8-43ba08264cff
 title: System.Contact.AssistantName
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,8 +2,8 @@
 description: The CounterData table contains a row for each counter that is collected at a particular time. There will be a large number of these rows.
 ms.assetid: 1253a9c7-b440-4ff2-b68c-c52b9b42a58b
 title: CounterData
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # CounterData

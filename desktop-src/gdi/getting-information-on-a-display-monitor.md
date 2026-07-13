@@ -2,7 +2,7 @@
 description: The following code sample shows how to use EnumDisplayDevices to get information on a display monitor.
 ms.assetid: 8c2420de-292f-481e-b06b-54cc174a8faf
 title: Getting Information on a Display Monitor
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

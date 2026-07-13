@@ -2,7 +2,7 @@
 description: Locating Win32 PE Resources
 ms.assetid: 2bf13137-db9c-4ad0-a511-16859745cbba
 title: Locating Win32 PE Resources
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

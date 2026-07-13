@@ -2,7 +2,7 @@
 description: This property specifies the Provider ID.
 ms.assetid: 837ba603-76dc-442d-ba4a-0f87ac116dfd
 title: System.Identity.ProviderID
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: IAgentNotifySinkEx AgentPropertyChange
 description: IAgentNotifySinkEx AgentPropertyChange
 ms.assetid: 8293cd77-320a-4b57-b3d8-52bc450d6aa0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

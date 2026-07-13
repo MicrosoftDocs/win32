@@ -2,7 +2,7 @@
 description: Device Topologies
 ms.assetid: 5ac421e5-74a4-40e8-af6f-a99a05ebc3e0
 title: Device Topologies
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

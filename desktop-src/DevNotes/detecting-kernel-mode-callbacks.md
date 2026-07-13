@@ -2,7 +2,7 @@
 description: If a thread is waiting for a kernel-mode callback to complete, the user-mode side of the thread will delay at a call to the ZwCallbackReturn function.
 ms.assetid: 6d6d4f94-0e8c-4469-b905-731be6c4083d
 title: Detecting Kernel-Mode Callbacks
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

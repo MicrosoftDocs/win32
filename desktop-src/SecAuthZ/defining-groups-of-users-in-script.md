@@ -2,7 +2,7 @@
 description: An IAzApplicationGroup object represents a group of users. Roles can then be assigned to this group of users collectively. An IAzApplicationGroup object can also include other IAzApplicationGroup objects as members.
 ms.assetid: 8b445419-7316-4034-b742-a05845af1862
 title: Defining Groups of Users in Script
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

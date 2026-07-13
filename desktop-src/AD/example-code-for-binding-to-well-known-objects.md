@@ -5,7 +5,7 @@ ms.assetid: 59345173-5598-4b0a-976c-c5741b785ce1
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , binding to well-known objects
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

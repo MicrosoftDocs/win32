@@ -2,7 +2,7 @@
 title: How to Scroll Text
 description: This section describes the changes you can make to an application's main window procedure to enable a user to scroll text.
 ms.assetid: ACB4FF34-38EF-4F3D-9395-D48D58A72C0B
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

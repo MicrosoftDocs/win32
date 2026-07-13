@@ -2,7 +2,7 @@
 title: NAP Constants
 description: The following constants are defined and used by NAP
 ms.assetid: 37f23774-8ec1-4673-b24e-5a8f6673c029
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

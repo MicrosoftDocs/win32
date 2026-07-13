@@ -2,7 +2,7 @@
 description: Learn about the DocumentSeparatorSheet element, which describes the separator sheet usage for a document.
 ms.assetid: f0b2192d-4bb7-4ba2-8dd0-35a20183ea31
 title: DocumentSeparatorSheet
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -65,7 +65,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the `https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords` namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Feature name="psk:DocumentSeparatorSheet">

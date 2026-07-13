@@ -3,7 +3,7 @@ description: The Kerberos authentication service specifies the server principal 
 ms.assetid: 3d58db28-2e69-4e27-9f27-61529abbf750
 ms.tgt_platform: multiple
 title: Specifying the Server Principal Name
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: Start Sequence
 description: Steps to starting your custom protocol.
 ms.assetid: 34c6eb08-668b-43b7-b49b-9ab7536ab658
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

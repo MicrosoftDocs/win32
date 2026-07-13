@@ -2,7 +2,7 @@
 description: TSPIMessage is an enumeration type that defines the set of additional LINEEVENT and PHONEEVENT functions appearing in TSPI that do not appear in TAPI.
 ms.assetid: b3c4ce68-033f-42f1-8c37-66326d21bf32
 title: TSPIMessage
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

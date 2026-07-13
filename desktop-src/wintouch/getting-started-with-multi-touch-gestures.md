@@ -7,7 +7,7 @@ keywords:
 - Windows Touch,messages
 - gestures,about
 - gestures,messages
-ms.topic: article
+ms.topic: get-started
 ms.date: 05/31/2018
 ---
 

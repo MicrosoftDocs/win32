@@ -42,7 +42,7 @@ The following example uses an [**ID2D1HwndRenderTarget**](/previous-versions/win
 
 ```C++
 // This method discards device-specific
-// resources if the Direct3D device dissapears during execution and
+// resources if the Direct3D device disappears during execution and
 // recreates the resources the next time it's invoked.
 HRESULT DemoApp::OnRender()
 {
@@ -148,6 +148,6 @@ For a related tutorial, see [Create a simple Direct2D application](direct2d-quic
 [How to Draw and Fill a Basic Shape](how-to-draw-an-ellipse.md)
 </dt> </dl>
 
-�
+ 
 
-�
+ 

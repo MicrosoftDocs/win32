@@ -2,7 +2,7 @@
 title: How To Compile a Shader
 description: This topic shows how to use the D3DCompileFromFile function at run time to compile shader code.
 ms.assetid: A2CE368F-E72A-453D-BA4D-3D1D53DDDEE0
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -94,7 +94,7 @@ HRESULT CompileShader( _In_ LPCWSTR srcFile, _In_ LPCSTR entryPoint, _In_ LPCSTR
 
 int main()
 {
-    // Compile vertex shader shader
+    // Compile vertex shader
     ID3DBlob *vsBlob = nullptr;
     HRESULT hr = CompileShader( L"BasicHLSL11_VS.hlsl", "VSMain", "vs_4_0_level_9_1", &vsBlob );
     if ( FAILED(hr) )
@@ -103,7 +103,7 @@ int main()
         return -1;
     }
 
-    // Compile pixel shader shader
+    // Compile pixel shader
     ID3DBlob *psBlob = nullptr;
     hr = CompileShader( L"BasicHLSL11_PS.hlsl", "PSMain", "ps_4_0_level_9_1", &psBlob );
     if ( FAILED(hr) )

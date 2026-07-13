@@ -9,7 +9,7 @@ keywords:
 - ASF (Advanced Systems Format),media samples
 - Advanced Systems Format (ASF),samples
 - ASF (Advanced Systems Format),samples
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -113,7 +113,7 @@ Access type: Read-only
 Qualifiers: WmiDataId(2)
 </dt> </dl>
 
-Code that idenitifies the minor function being called.
+Code that identifies the minor function being called.
 
 </dd> <dt>
 

@@ -3,7 +3,7 @@ description: After you create or locate an instance of a class, you probably wan
 ms.assetid: c0041274-5fcd-4108-961f-aeda6cb5fce8
 ms.tgt_platform: multiple
 title: Modifying an Instance Property
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

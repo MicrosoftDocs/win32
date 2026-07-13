@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Result Caching with IDirectorySearch ADSI
 - ADSI, Searching, IDirectorySearch, Other Search Options, Result Caching
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

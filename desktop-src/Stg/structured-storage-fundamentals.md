@@ -4,7 +4,7 @@ description: Structured Storage provides the equivalent of a complete file syste
 ms.assetid: 7e2d6211-2ea0-4cad-9388-c789b12446ab
 keywords:
 - Structured Storage Strctd Stg , fundamentals
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

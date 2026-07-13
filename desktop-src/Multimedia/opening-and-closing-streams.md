@@ -5,7 +5,7 @@ ms.assetid: 7dcaccbe-63d8-410a-ae00-16ce9e252ad0
 keywords:
 - AVIFileGetStream function
 - AVIStreamRelease function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

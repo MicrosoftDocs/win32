@@ -2,7 +2,7 @@
 title: Direct3D 12 Raytracing HLSL Shaders
 description: View links to articles describing high-level shader language (HLSL) shaders that support the Direct3D 12 raytracing pipeline.
 ms.assetid: 
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

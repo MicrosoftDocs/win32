@@ -7,7 +7,7 @@ keywords:
 - Example Code for Using the IDirectorySearch Interface ADSI
 - IDirectorySearch ADSI , Example Code for Using
 - ADSI ADSI , Example Code C/C++ , Using IDirectorySearch
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

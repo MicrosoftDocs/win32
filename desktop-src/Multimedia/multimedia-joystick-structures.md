@@ -9,7 +9,7 @@ keywords:
 - joysticks,structures
 - reference for joysticks,structures
 - joystick reference,structures
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

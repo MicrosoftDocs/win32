@@ -2,7 +2,7 @@
 title: Common Version Enumerations
 description: This section contains information about the common version enumerations.
 ms.assetid: 002154d5-74a6-48fb-b55f-8687e4505fc7
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Components indicate the sort of data they represent through a type.
 ms.assetid: 19d785d5-09a7-48b9-a0a2-eca3049d67fe
 title: Component Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

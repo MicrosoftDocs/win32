@@ -2,7 +2,7 @@
 description: The light source when the photo was taken, as read from the Exchangeable Image File (EXIF) information.
 ms.assetid: 323bff11-2107-42df-87da-435e440c94bc
 title: System.Photo.LightSource
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

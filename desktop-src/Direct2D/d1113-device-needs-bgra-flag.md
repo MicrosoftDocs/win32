@@ -12,7 +12,6 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.custom: "seodec18"
 ---
 
 # D1113: Device Needs BGRA Flag
@@ -36,7 +35,3 @@ The Direct3D device was not created with D3D10\_CREATE\_DEVICE\_BGRA\_SUPPORT.
  
 
  
-
-
-
-

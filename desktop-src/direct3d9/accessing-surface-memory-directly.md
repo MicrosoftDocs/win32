@@ -2,7 +2,7 @@
 description: You can directly access the surface memory by using the IDirect3DSurface9::LockRect method.
 ms.assetid: ad669c22-6163-4fbb-bad0-160ced5bc558
 title: Accessing Surface Memory Directly (Direct3D 9)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

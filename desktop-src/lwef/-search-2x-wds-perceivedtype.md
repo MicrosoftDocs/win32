@@ -2,7 +2,7 @@
 title: Perceived Types (Legacy Windows Environment Features)
 description: PerceivedType is a property that classifies an item in the index.
 ms.assetid: 47a5cf55-79f6-48e7-a585-72fc3d7d53d4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

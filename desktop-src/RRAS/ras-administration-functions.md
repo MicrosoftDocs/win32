@@ -2,7 +2,7 @@
 title: RAS Administration Functions
 description: This documentation describes RRAS functions that are used to develop software to administer RAS dial-up connections.
 ms.assetid: 27cf63e2-9dd3-4bc1-98af-e93055d89492
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

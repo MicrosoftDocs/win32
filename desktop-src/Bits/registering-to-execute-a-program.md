@@ -5,7 +5,7 @@ ms.assetid: f1996d08-0e35-403b-9cdb-dae9e1c42e05
 keywords:
 - event notification BITS , command line
 - registering for command line notification BITS
-ms.topic: article
+ms.topic: how-to
 ms.date: 10/04/2018
 ---
 

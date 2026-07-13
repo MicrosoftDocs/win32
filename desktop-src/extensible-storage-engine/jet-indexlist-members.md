@@ -6,7 +6,7 @@ ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_INDEXLIST
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_indexlist_members(v=EXCHG.10)
 ms:contentKeyID: 55103660
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # JET_INDEXLIST members
@@ -104,7 +104,7 @@ Top
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn335170(v=exchg.10).md">columnidiColumn</a></td>
-<td>Gets the columnid of the column in the temporary table which stores the index of of this column in the index key. The column is of type <a href="hh577895(v=exchg.10).md">Long</a>.</td>
+<td>Gets the columnid of the column in the temporary table which stores the index of this column in the index key. The column is of type <a href="hh577895(v=exchg.10).md">Long</a>.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>

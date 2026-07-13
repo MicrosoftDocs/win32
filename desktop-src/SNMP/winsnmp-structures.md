@@ -4,7 +4,7 @@ description: The WinSNMP API functions use the following structures.
 ms.assetid: ec74217e-8d02-4bda-b365-7b8f6c14cffb
 keywords:
 - WinSNMP Structures SNMP
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

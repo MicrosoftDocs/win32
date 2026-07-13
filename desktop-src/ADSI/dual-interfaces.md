@@ -3,7 +3,7 @@ title: Dual Interfaces (ADSI)
 description: Use COM interfaces to access the properties and methods on any provider ADSI objects.
 ms.assetid: 6f3fd725-d660-4cc3-8de2-8ed7800b1141
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

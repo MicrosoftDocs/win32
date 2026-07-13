@@ -2,7 +2,7 @@
 description: Caller identification provides information on the calling party when receiving an incoming session. An application typically uses this data as part of a status message to a user.
 ms.assetid: aaaa5eae-e917-44a7-b9c5-97ca2d9a4eec
 title: Caller Identification
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

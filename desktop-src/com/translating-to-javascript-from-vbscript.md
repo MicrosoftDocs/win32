@@ -2,7 +2,7 @@
 title: Translating to JavaScript from VBScript
 description: Translating to JavaScript from VBScript
 ms.assetid: 39a712c5-f8d7-4441-a602-93cda43c24d1
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

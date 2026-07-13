@@ -3,7 +3,7 @@ description: Represent differences between samples over time, and often use a ba
 ms.assetid: 613268ab-386b-421d-a5b5-aab6a065999c
 ms.tgt_platform: multiple
 title: Basic Algorithm Counter Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

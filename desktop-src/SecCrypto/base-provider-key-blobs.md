@@ -2,7 +2,7 @@
 description: The Base Provider and Extended Provider use the same key BLOBs.
 ms.assetid: b4592036-0fa3-4b7e-beed-78cf1d2f39a9
 title: Base Provider Key BLOBs
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

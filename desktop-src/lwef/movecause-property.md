@@ -2,7 +2,7 @@
 title: MoveCause Property
 description: MoveCause Property
 ms.assetid: 8f78a6da-8498-4a39-a4b9-5ab7a43d97f5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

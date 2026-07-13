@@ -2,7 +2,7 @@
 description: Winlogon maintains the workstation state that is used by the GINA to determine what authentication actions are required.
 ms.assetid: e04175c4-bb43-4f76-8ceb-50282a1ebed0
 title: Winlogon States
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

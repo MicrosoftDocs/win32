@@ -2,7 +2,7 @@
 title: Schannel
 description: The Secure Channel (Schannel) security package, whose authentication service identifier is RPC\_C\_AUTHN\_GSS\_SCHANNEL, supports the following public-key based protocols SSL (Secure Sockets Layer) versions 2.0 and 3.0, Transport Layer Security (TLS) 1.0, and Private Communication Technology (PCT) 1.0. TLS 1.0 is a standardized, slightly modified version of SSL 3.0 that was issued by the Internet Engineering Task Force (IETF) in January 1999, in document RFC 2246. Because TLS has been standardized, developers are encouraged to use TLS rather than SSL. PCT is included for backward compatibility only and should not be used for new development. When the Schannel security package is used, DCOM automatically negotiates the best protocol, depending on the client and server capabilities.
 ms.assetid: 03a5f987-f668-4f19-9b58-d62711f58734
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -40,7 +40,7 @@ TLS supports the strongest authentication levels and offers an open architecture
 
 TLS is built upon a public key infrastructure (PKI), which uses public/private key pairs for enabling data encryption and establishing data integrity, and uses X.509 certificates for authentication.
 
-Many security protocols, such as the Kerberos v5 protocol, depend on a single key to both encrypt and decrypt data. Such protocols therefore depend on the secure exchange of encryption keys; in the Kerberos protocol, this is done through tickets obtained from the Key Distribution Center (KDC). This requires that everyone using the Kerberos protocol be registered with the KDC, which would be an impractical limitation for an e-commerce web server that is intended to attract millions of customers from around the world. TLS therefore relies upon a PKI, which uses two keys for data encryptionâ€”when one key of the pair encrypts the data, only the other key of the pair can decrypt it. The principle benefit of this design is that encryption can be performed without requiring the secure exchange of encryption keys.
+Many security protocols, such as the Kerberos v5 protocol, depend on a single key to both encrypt and decrypt data. Such protocols therefore depend on the secure exchange of encryption keys; in the Kerberos protocol, this is done through tickets obtained from the Key Distribution Center (KDC). This requires that everyone using the Kerberos protocol be registered with the KDC, which would be an impractical limitation for an e-commerce web server that is intended to attract millions of customers from around the world. TLS therefore relies upon a PKI, which uses two keys for data encryption--when one key of the pair encrypts the data, only the other key of the pair can decrypt it. The principle benefit of this design is that encryption can be performed without requiring the secure exchange of encryption keys.
 
 A PKI uses a technique where one of the keys is kept private and is available only to the principal to whom it is registered, while the other key is made public for anyone to access. If someone wants to send a private message to the owner of a key pair, the message can be encrypted with the public key and only the private key can be used to decrypt the message.
 

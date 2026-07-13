@@ -4,7 +4,7 @@ description: Structured Storage defines the following interfaces.
 ms.assetid: 068ca25f-8aca-450b-b9c9-cec07d515dac
 keywords:
 - Structured Storage Strctd Stg , reference, interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

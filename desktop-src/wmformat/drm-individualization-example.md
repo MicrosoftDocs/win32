@@ -11,7 +11,7 @@ keywords:
 - DRM (digital rights management),DRM individualization
 - DRM Client Extended APIs,individualization
 - Client Extended APIs,individualization
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---
@@ -50,7 +50,7 @@ HRESULT Individualize(IWMDRMSecurity* pSecurity)
         &pCancelCookie);
 
     // Get the EventGenerator from the Security interface; this 
-    //  is not neccessary, merely illustrative. 
+    //  is not necessary, merely illustrative. 
     if (SUCCEEDED(hr))
     {
         hr = pSecurity->QueryInterface( IID_IWMDRMEventGenerator, (void**)&pEventGenerator);

@@ -3,7 +3,7 @@ description: One of the main tools of Windows Management Instrumentation (WMI) i
 ms.assetid: 0cceda42-fba0-4a08-90dd-43f022d0be41
 ms.tgt_platform: multiple
 title: Querying WMI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

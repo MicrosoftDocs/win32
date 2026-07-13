@@ -7,7 +7,7 @@ keywords:
 - Restoring Deleted Objects AD
 - Active Directory, using, restoring deleted objects
 - objects AD , restoring deleted objects
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

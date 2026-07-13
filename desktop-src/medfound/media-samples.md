@@ -2,7 +2,7 @@
 description: Learn about media samples in Microsoft Media Foundation. A media sample is an object that contains an ordered list of zero or more buffers.
 ms.assetid: 14389eea-8091-4c10-849e-53db3e98a7c8
 title: Media Samples (Microsoft Media Foundation)
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

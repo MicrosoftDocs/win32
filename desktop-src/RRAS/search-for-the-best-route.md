@@ -2,7 +2,7 @@
 title: Search For the Best Route
 description: The following sample code shows how to search the routing table for the best route.
 ms.assetid: 559459e9-8446-4f37-8123-7d01f8ed427b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

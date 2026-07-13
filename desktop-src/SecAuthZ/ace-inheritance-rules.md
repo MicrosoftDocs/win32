@@ -2,13 +2,13 @@
 description: The system propagates inheritable access control entries (ACEs) to child objects according to a set of inheritance rules.
 ms.assetid: 08f76aaa-8379-4ba8-9735-7568001bcd53
 title: ACE Inheritance Rules
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # ACE Inheritance Rules
 
-The system propagates inheritable [*access control entries*](/windows/desktop/SecGloss/a-gly) (ACEs) to child objects according to a set of inheritance rules. The system places inherited ACEs in the [*discretionary access control list*](/windows/desktop/SecGloss/d-gly) (DACL) of the child according to the preferred [order of ACEs in a DACL](order-of-aces-in-a-dacl.md). The system sets the INHERITED\_ACE flag in all inherited ACEs.
+The system automatically propagates inheritable [*access control entries*](/windows/desktop/SecGloss/a-gly) (ACEs) to child objects according to a set of inheritance rules. The system places inherited ACEs in the [*discretionary access control list*](/windows/desktop/SecGloss/d-gly) (DACL) of the child according to the preferred [order of ACEs in a DACL](order-of-aces-in-a-dacl.md). 
 
 The ACEs inherited by container and noncontainer child objects differ, depending on the combinations of inheritance flags. These inheritance rules work the same for both DACLs and [*system access control lists*](/windows/desktop/SecGloss/s-gly) (SACLs).
 

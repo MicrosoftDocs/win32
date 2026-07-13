@@ -3,7 +3,7 @@ title: Object Picker Dialog Box Interfaces
 description: The following interface is used with object picker dialog boxes.
 ms.assetid: 99bd1cfe-34e8-4a76-b8a4-158246ebcea9
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

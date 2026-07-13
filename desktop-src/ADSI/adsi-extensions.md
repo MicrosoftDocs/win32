@@ -7,7 +7,7 @@ keywords:
 - ADSI extensions
 - ADSI ADSI , using extensions
 - extensions ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

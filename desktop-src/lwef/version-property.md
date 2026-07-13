@@ -2,7 +2,7 @@
 title: Version Property
 description: Version Property
 ms.assetid: 11e95abb-a4a2-483c-870e-475705209e90
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

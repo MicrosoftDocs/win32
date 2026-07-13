@@ -2,7 +2,7 @@
 description: Transferring a Properties-Only Object to the Device
 ms.assetid: 6305cff9-c0ce-4ef5-a129-bc329b9c563f
 title: Transferring a Properties-Only Object to the Device
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

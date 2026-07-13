@@ -2,7 +2,7 @@
 description: The Arbitrary Text Type of semantic type is one of the Text Format Types.
 ms.assetid: 503ad2db-0875-4d8b-90f7-3d04318a6b62
 title: Arbitrary Text Type
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

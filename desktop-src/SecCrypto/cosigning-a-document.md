@@ -2,7 +2,7 @@
 description: A document can be signed by more than one signer.
 ms.assetid: f81cbf7b-317d-4fab-9b30-88b6c6576db8
 title: Cosigning a Document
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

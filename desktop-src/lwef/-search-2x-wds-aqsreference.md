@@ -2,7 +2,7 @@
 title: Advanced Query Syntax
 description: Microsoft Windows Desktop Search (WDS) uses Advanced Query Syntax (AQS) to help users and programmers better define and narrow their searches.
 ms.assetid: 8e55bd40-c7cf-44a6-bc18-24bc7a267779
-ms.topic: article
+ms.topic: reference
 ms.date: 02/10/2023
 ---
 

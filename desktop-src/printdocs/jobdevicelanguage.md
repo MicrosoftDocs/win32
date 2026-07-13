@@ -2,7 +2,7 @@
 description: Learn about the JobDeviceLanguage element, which describes the device languages supported for sending data from driver to physical device.
 ms.assetid: 3894d9fa-2bf7-447a-bac3-e72a0fdb7187
 title: JobDeviceLanguage
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -77,7 +77,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the `https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords` namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Feature name="psk:JobDeviceLanguage">

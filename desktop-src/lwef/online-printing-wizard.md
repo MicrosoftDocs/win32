@@ -5,7 +5,7 @@ ms.assetid: 1e73a5d0-2ca8-4eca-846a-bd69eee257cb
 keywords:
 - Online Printing Wizard
 - icons,Online Printing Wizard
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The Windows security model enables you to control access to file-mapping objects. For more information, see Access-Control Model.
 ms.assetid: 8bbf7c98-ff83-4ed9-8b82-f08dcd31295c
 title: File Mapping Security and Access Rights
-ms.topic: article
+ms.topic: concept-article
 ms.date: 10/06/2018
 ---
 

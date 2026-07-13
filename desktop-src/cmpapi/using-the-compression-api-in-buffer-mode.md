@@ -2,7 +2,7 @@
 description: The following samples demonstrate using the Compression API in buffer mode.
 ms.assetid: 0A062E5D-E5FA-4098-B76E-E136FC74D853
 title: Using the Compression API in buffer mode
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

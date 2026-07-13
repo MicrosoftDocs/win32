@@ -9,7 +9,7 @@ keywords:
 - ASF (Advanced Systems Format),synchronous readers
 - synchronous readers,retrieving stream samples
 - streams,retrieving samples
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

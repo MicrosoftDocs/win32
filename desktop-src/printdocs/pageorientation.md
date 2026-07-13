@@ -2,7 +2,7 @@
 description: Read about the PageOrientation user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 52f02fc1-56fb-404d-8939-df3a4b21570d
 title: PageOrientation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -78,7 +78,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the `https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords` namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Feature name="psk:PageOrientation">

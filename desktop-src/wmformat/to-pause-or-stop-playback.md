@@ -14,7 +14,7 @@ keywords:
 - asynchronous readers,pausing playback
 - asynchronous readers,stopping playback
 - asynchronous readers,playback pausing or stopping
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

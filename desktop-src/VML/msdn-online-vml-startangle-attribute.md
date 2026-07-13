@@ -2,7 +2,7 @@
 title: VML StartAngle Attribute
 description: VML StartAngle Attribute
 ms.assetid: 334ae52a-cde4-427e-8080-ec789b4d9d39
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

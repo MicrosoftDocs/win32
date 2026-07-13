@@ -2,7 +2,7 @@
 title: Direct2D does not support rendering to rich metafiles in Internet Explorer 9
 description: Direct2D does not support rendering to rich metafiles in Internet Explorer 9
 ms.assetid: D106FBD6-F05E-41A6-B8F8-569EB9810E2C
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

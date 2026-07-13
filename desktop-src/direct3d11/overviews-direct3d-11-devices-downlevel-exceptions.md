@@ -2,7 +2,7 @@
 title: Exceptions
 description: This topic describes exceptions when using Direct3D 11 on downlevel hardware.
 ms.assetid: b3f85036-8572-40ee-b522-3b677443b840
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

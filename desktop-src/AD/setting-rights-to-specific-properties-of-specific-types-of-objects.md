@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - setting rights to specific properties of specific types of objects AD
 - Active Directory, using, security, setting rights to specific properties
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

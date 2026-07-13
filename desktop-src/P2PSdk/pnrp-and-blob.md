@@ -2,7 +2,7 @@
 description: PNRP and BLOB
 ms.assetid: e92ecb14-3f3a-48bb-963b-0c6e58c54089
 title: PNRP and BLOB
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

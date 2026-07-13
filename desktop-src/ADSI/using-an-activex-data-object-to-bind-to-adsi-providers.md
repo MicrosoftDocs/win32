@@ -7,7 +7,7 @@ keywords:
 - ActiveX data object ADSI
 - ActiveX data object ADSI ,using ADO to bind to ADSI providers
 - service providers ADSI ,using ActiveX data object to bind to
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

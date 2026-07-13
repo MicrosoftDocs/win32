@@ -4,7 +4,7 @@ description: The stubs call the type\_free\_inst function to free memory associa
 ms.assetid: 4ee2e6a6-b506-445f-adaf-3705228defa7
 keywords:
 - type_free_inst
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: LOCALE\_SIETFLANGUAGE
 ms.assetid: b42d782a-a252-421b-b399-73ca47136313
 title: LOCALE_SIETFLANGUAGE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

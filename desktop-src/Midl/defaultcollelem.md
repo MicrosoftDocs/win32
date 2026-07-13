@@ -56,7 +56,7 @@ A list of zero or more parameters associated with the property.
 
 ## Remarks
 
-The **\[defaultcollelem\]** attribute is used for Visual BasicÂ® code optimization. If a member of an interface or dispinterface is flagged as an accessor function, then the call will go directly to that member.
+The **\[defaultcollelem\]** attribute is used for Visual Basic® code optimization. If a member of an interface or dispinterface is flagged as an accessor function, then the call will go directly to that member.
 
 Use of **\[defaultcollelem\]** must be consistent for a property. For example, if you use the attribute on a *Get* property, it must also be present on a *Let* property.
 

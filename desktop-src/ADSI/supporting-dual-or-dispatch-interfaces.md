@@ -7,7 +7,7 @@ keywords:
 - Supporting dual or dispatch interfaces ADSI
 - extensions ADSI , dual or dispatch interfaces
 - ADSI ADSI , example code C/C++ , delegating IDispatch methods to the aggregator
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

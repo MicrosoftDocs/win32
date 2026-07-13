@@ -2,7 +2,7 @@
 title: Straighten effect
 description: Rotates and optionally scales an image.
 ms.assetid: aa37cdf1-bbb6-db4e-45a7-67c7cc16b7b4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

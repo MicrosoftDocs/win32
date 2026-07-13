@@ -2,7 +2,7 @@
 description: Note  This topic only applies to Windows Server 2003 R2 and Windows Server 2003 with Service Pack 1 (SP1).
 ms.assetid: a192d9a7-1c65-4251-acb1-4df03ebfe910
 title: Backing Up and Restoring System State in Windows Server 2003 R2 and Windows Server 2003 SP1
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -14,9 +14,7 @@ ms.date: 05/31/2018
  
 
 > [!Note]  
-> Microsoft does not provide developer or IT professional technical support for implementing online system state restores on Windows (all releases). For information about using Microsoft-provided APIs and procedures to implement online system state restores, see the community resources available at the [MSDN Community Center](https://msdn.microsoft.com/community/default.aspx).
-
- 
+> Microsoft does not provide developer or IT professional technical support for implementing online system state restores on Windows (all releases).
 
 When performing a VSS backup or restore, the Windows system state is defined as being a collection of several key operating system elements and their files. These elements should always be treated by backup and restore operations as a unit.
 

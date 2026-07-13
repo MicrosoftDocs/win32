@@ -2,7 +2,7 @@
 description: Review Feature elements, which contain a list of Option and Property elements describing a device attribute, job formatting setting, or other relevant characteristic.
 ms.assetid: 5a6553c2-f322-47e2-bbc8-44f6541f1288
 title: Feature
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

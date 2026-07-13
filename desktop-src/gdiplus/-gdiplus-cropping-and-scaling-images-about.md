@@ -2,7 +2,7 @@
 title: About cropping and scaling GDI+ images
 description: You can use the DrawImage method of the Graphics class to draw and position images.
 ms.assetid: 81d20adc-0481-4b1b-80aa-ae218fdecd84
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

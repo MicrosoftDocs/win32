@@ -2,7 +2,7 @@
 title: Applying Transforms in Direct2D
 description: Applying Transforms in Direct2D
 ms.assetid: 4b54dcfc-f915-4e4a-aa88-ee23c341c2a4
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -104,7 +104,7 @@ void Scene::RenderScene()
 }
 ```
 
-You can download the complete Visual Studio project from [Direct2D Clock Sample](direct2d-clock-sample.md). (Just for fun, the download version adds a radial gradiant to the clock face.)
+You can download the complete Visual Studio project from [Direct2D Clock Sample](direct2d-clock-sample.md). (Just for fun, the download version adds a radial gradient to the clock face.)
 
 ## Combining Transforms
 

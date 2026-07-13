@@ -19,10 +19,8 @@ api_location:
 - Root\CIMv2
 api_type:
 - Schema
-ms.technology: desktop
-ms.prod: windows
 ms.author: windowssdkdev
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
 ---

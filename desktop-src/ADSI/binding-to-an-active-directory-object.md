@@ -5,7 +5,7 @@ ms.assetid: d278ea26-2fd5-4343-8d87-ff85515325fb
 ms.tgt_platform: multiple
 keywords:
 - Binding to an Active Directory Object ADSI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

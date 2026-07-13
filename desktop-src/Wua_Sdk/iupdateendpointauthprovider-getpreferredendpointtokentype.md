@@ -47,7 +47,7 @@ Identifies the service to be updated.
 *endpointType* \[in\]
 </dt> <dd>
 
-Identifies the type of endpoint tneeded to connect to the service.
+Identifies the type of endpoint needed to connect to the service.
 
 </dd> <dt>
 

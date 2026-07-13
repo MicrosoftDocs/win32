@@ -2,7 +2,7 @@
 title: Filter Arbitration
 description: Filter arbitration is the logic built into the Windows Filtering Platform (WFP) that is used to determine how filters interact with each other when making network traffic filtering decisions.
 ms.assetid: d097f307-113e-4dc3-ad59-ddfb85061583
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

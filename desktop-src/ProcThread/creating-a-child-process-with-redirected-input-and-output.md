@@ -2,8 +2,8 @@
 description: The example in this topic demonstrates how to create a child process using the CreateProcess function from a console process.
 ms.assetid: a4e37069-2b3a-4b6d-9cfd-eb1700ab3bc6
 title: Creating a Child Process with Redirected Input and Output
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Creating a Child Process with Redirected Input and Output
@@ -35,7 +35,7 @@ HANDLE g_hInputFile = NULL;
 void CreateChildProcess(void); 
 void WriteToPipe(void); 
 void ReadFromPipe(void); 
-void ErrorExit(PTSTR); 
+void ErrorExit(PCTSTR); 
  
 int _tmain(int argc, TCHAR *argv[]) 
 { 
@@ -212,7 +212,7 @@ void ReadFromPipe(void)
    } 
 } 
  
-void ErrorExit(PTSTR lpszFunction) 
+void ErrorExit(PCTSTR lpszFunction) 
 
 // Format a readable error message, display a message box, 
 // and exit from the application.

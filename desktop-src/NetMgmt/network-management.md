@@ -4,7 +4,7 @@ description: The network management functions provide the ability to manage user
 ms.assetid: '426c7b2e-027c-4a88-97b7-eba5201d0f0d'
 keywords:
 - Network Management
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

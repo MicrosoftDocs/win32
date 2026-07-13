@@ -2,7 +2,7 @@
 title: Trackbar Control Structures
 description: Trackbar Control Structures
 ms.assetid: 66439296-E973-4265-8739-D5CE6953E658
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

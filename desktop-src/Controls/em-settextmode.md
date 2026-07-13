@@ -51,7 +51,7 @@ Specify one of the following values to set the undo level parameter. If you do n
 
  
 
-Specify one of the following values to set the code page parameter. If you do not specify an code page value, the code page remains at its current setting. 
+Specify one of the following values to set the code page parameter. If you do not specify a code page value, the code page remains at its current setting. 
 
 | Value                                                    | Meaning                                                                                                                                                                                                                                                                                                    |
 |----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

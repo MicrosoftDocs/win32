@@ -7,9 +7,8 @@ keywords:
 - RPC, (See Remote Procedure Call)
 - Remote Procedure Call RPC , start page
 - Remote Procedure Call RPC
-ms.topic: article
+ms.topic: concept-article
 ms.date: 11/09/2021
-ms.custom: seo-windows-dev
 ---
 
 # Remote procedure call (RPC)

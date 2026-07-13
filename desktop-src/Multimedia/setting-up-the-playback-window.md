@@ -4,7 +4,7 @@ description: Setting Up the Playback Window
 ms.assetid: 4cf27099-e5e5-48f8-8d61-0a3d0e0d9499
 keywords:
 - mciSendCommand function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

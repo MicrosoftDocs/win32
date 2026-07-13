@@ -5,7 +5,7 @@ ms.assetid: 6146fcfa-6869-40c2-97bc-22a382cdad8a
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,reference,obsolete functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

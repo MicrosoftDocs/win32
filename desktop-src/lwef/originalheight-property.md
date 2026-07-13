@@ -2,7 +2,7 @@
 title: OriginalHeight Property
 description: OriginalHeight Property
 ms.assetid: 632de2d1-a809-4539-9bd3-e97c9046357e
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

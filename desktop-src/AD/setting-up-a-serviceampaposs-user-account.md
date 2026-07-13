@@ -5,7 +5,7 @@ ms.assetid: 37285c23-8922-4da5-9f0b-922ea5e5794e
 ms.tgt_platform: multiple
 keywords:
 - Setting up a Service's User Account AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

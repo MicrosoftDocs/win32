@@ -2,7 +2,7 @@
 description: System.Music.SynchronizedLyrics
 ms.assetid: f68c20e5-ad75-4b99-b037-a45925dd37a2
 title: System.Music.SynchronizedLyrics
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

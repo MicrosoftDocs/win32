@@ -2,7 +2,7 @@
 title: ActiveX Control and Control Container Guidelines
 description: ActiveX Control and Control Container Guidelines
 ms.assetid: fffb71bd-fcb3-49b0-9e12-a30d4cf96a00
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

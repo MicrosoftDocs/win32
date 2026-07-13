@@ -5,7 +5,7 @@ ms.assetid: ea24088d-6a52-4d4e-8496-5b6a6616f684
 keywords:
 - video compression manager (VCM),sequence compression
 - VCM (video compression manager),sequence compression
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

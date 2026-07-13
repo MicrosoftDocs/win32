@@ -4,7 +4,7 @@ description: Configuration information for the router, the router managers and t
 ms.assetid: c54541c1-6508-448a-a211-5fca634a184a
 keywords:
 - routers RRAS , initialization
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

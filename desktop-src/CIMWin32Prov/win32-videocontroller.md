@@ -2618,8 +2618,6 @@ For more information about using this class, such as retrieving information from
 
 ## Examples
 
-The [List Video Controller Properties](https://Gallery.TechNet.Microsoft.Com/6c1a585c-742f-4f51-bb57-23838e8f011f) VBScript sample lists the video controller properties.
-
 The following PowerShell example lists the video controller properties.
 
 

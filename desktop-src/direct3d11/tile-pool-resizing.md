@@ -2,7 +2,7 @@
 title: Tile pool resizing
 description: Use the ID3D11DeviceContext2 ResizeTilePool API to grow a tile pool if the application needs more working set for the tiled resources mapping into it or to shrink if less space is needed.
 ms.assetid: 529E874E-650B-4BFD-97F6-E66E743564A9
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

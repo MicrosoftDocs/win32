@@ -2,7 +2,7 @@
 title: Key changes since Windows 7 to ensure compatibility
 description: Key changes since Windows 7 to ensure compatibility
 ms.assetid: 6930AA8C-B9AE-44C0-BC7F-12342DBBEB5E
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

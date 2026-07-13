@@ -4,7 +4,7 @@ description: Typically, HTTP server tasks are performed in a specific order; tha
 ms.assetid: 08f8e7e9-23b9-403f-b00c-8912919d65b1
 keywords:
 - HTTP Server Tasks
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

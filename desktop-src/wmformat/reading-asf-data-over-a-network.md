@@ -9,7 +9,7 @@ keywords:
 - ASF (Advanced Systems Format),reading data
 - Advanced Systems Format (ASF),playing files from network sources
 - ASF (Advanced Systems Format),playing files from network sources
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: Indicates if the storage media is removable.
 ms.assetid: 32090053-5666-4562-b9f0-d6394bdb9801
 title: System.Storage.RemovableMedia
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

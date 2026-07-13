@@ -5,7 +5,7 @@ ms.assetid: 7d79eed4-0bb9-4053-9f88-caab74ca2f3b
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , ADSI extension for
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

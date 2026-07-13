@@ -4,7 +4,7 @@ description: Special terms used in ProjFS.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 01/17/2020
-ms.topic: article
+ms.topic: glossary
 ---
 
 # Windows Projected File System glossary

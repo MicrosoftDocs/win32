@@ -2,7 +2,7 @@
 description: Device Association Endpoint Service's Id.
 ms.assetid: fcb537fc-0fe1-43a3-84a8-65f3745e8f27
 title: System.Devices.AepService.ServiceId
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

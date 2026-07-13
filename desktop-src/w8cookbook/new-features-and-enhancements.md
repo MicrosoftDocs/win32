@@ -2,7 +2,7 @@
 title: New features and enhancements (Compatibility cookbook for Windows)
 description: New features and enhancements
 ms.assetid: 79E21170-BC2D-4631-AFAC-12A9F40ECC5D
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

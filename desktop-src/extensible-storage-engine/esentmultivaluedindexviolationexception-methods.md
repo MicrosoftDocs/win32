@@ -6,7 +6,7 @@ ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentMultiValuedIndexViolatio
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentmultivaluedindexviolationexception_methods(v=EXCHG.10)
 ms:contentKeyID: 55102326
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # EsentMultiValuedIndexViolationException methods

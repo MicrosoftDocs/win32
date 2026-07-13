@@ -2,7 +2,7 @@
 description: When you fill a shape, you must pass the address of a Brush object to one of the fill methods of the Graphics class.
 ms.assetid: 42e36c32-ed20-4c5f-bcba-004d795babe3
 title: Drawing with Opaque and Semitransparent Brushes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

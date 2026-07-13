@@ -5,7 +5,7 @@ ms.assetid: 97eccea6-6a2b-4785-afd8-4af3dc7bd657
 ms.tgt_platform: multiple
 keywords:
 - Search Attributes Only ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

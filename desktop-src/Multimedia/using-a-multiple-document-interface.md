@@ -4,7 +4,7 @@ description: Using a Multiple Document Interface
 ms.assetid: bc59f19c-1064-4df8-8864-38e6d188f92f
 keywords:
 - MCIWndRegisterClass function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

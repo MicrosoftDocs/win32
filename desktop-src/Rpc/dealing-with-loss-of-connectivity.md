@@ -2,7 +2,7 @@
 title: Dealing with Loss of Connectivity
 description: Dealing with Loss of Connectivity
 ms.assetid: a90fcb5a-773e-4c21-bf6c-c3519ec13a09
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

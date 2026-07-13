@@ -2,7 +2,7 @@
 title: Controls and Property Pages
 ms.assetid: 145eba76-be21-487c-bfa8-cfe4bbf40410
 description: "Learn more about: Controls and Property Pages"
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

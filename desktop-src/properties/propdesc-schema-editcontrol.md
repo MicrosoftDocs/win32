@@ -2,7 +2,7 @@
 description: Specifies what control to use when editing the property.
 ms.assetid: cef6d76f-664a-4808-a224-e82a5adb2d70
 title: editControl
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -87,7 +87,7 @@ If \<typeInfo isInnate="true"\>, this element is ignored because an innate prope
 <tbody>
 <tr class="odd">
 <td>Default</td>
-<td>Default. Uses the default control, based upon the \<typeInfo type=&quot;&quot;\> attribute. The default types are listed below. Any other type results in using the &quot;Text&quot; control. 
+<td>Default. Uses the default control, based upon the &lt;typeInfo type=&quot;&quot;&gt; attribute. The default types are listed below. Any other type results in using the &quot;Text&quot; control. &lt;&gt;
 <table>
 <thead>
 <tr class="header">

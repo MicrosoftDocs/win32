@@ -3,7 +3,7 @@ title: Abstract Classes
 description: The following are the abstract classes defined by Active Directory.
 ms.assetid: 0c837771-83fc-42a8-aadd-48e2a332c623
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

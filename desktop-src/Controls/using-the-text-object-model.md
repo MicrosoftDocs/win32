@@ -2,7 +2,7 @@
 title: Using The Text Object Model
 description: This section contains topics that demonstrate various aspects of using the Text Object Model (TOM).
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\usingthetextobjectmodel.htm
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

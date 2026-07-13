@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Nesting a Group in Another Group AD
 - groups AD , nesting a group in another group
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

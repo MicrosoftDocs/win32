@@ -2,7 +2,7 @@
 title: VML StrokeWeight Attribute
 description: VML StrokeWeight Attribute
 ms.assetid: 364882b2-e5f4-4a86-b7d7-352f8780ebdc
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

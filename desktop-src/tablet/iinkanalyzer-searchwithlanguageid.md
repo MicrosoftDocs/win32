@@ -91,7 +91,7 @@ This search finds multi-word and single word substrings. Both alternate recognit
 
 All incoming strings will be converted to a single casing for comparison utilizing the LCID of the current thread to do this conversion to respect cultural case conventions.
 
-The string passed is treated as a phrase. Words and characters must appear in the alterantes for the strokes in the order specified. The first and last words of the phrase may be matched as substrings (the first word appearing at the end of an alternate and the last word appearing at the begginging of one), but any other words (those inside of the phrase) must appear as whole words.
+The string passed is treated as a phrase. Words and characters must appear in the alternates for the strokes in the order specified. The first and last words of the phrase may be matched as substrings (the first word appearing at the end of an alternate and the last word appearing at the beginning of one), but any other words (those inside of the phrase) must appear as whole words.
 
 If the string passed in has no whitespace in between characters, the substring may be found anywhere inside of a single word in an alternate.
 

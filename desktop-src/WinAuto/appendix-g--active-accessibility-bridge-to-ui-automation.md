@@ -2,8 +2,8 @@
 title: Appendix G Active Accessibility Bridge to UI Automation
 description: This appendix contains information about the Microsoft Active Accessibility Bridge.
 ms.assetid: f19036c7-5a18-4faa-a98d-564e5e63a94f
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Appendix G: Active Accessibility Bridge to UI Automation

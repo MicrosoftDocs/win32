@@ -2,7 +2,7 @@
 description: Learn about the JobPrimaryCoverBackSource element, which specifies the source for a custom back-cover primary sheet for the job.
 ms.assetid: b5c8e79c-cdae-4c53-b594-915726423b4f
 title: JobPrimaryCoverBackSource
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

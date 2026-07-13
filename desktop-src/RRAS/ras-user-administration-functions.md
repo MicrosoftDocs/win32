@@ -2,7 +2,7 @@
 title: RAS User Administration Functions
 description: Use the following functions to manage dial-up users
 ms.assetid: e58fa4a6-16d3-4953-bf21-887d08e25af7
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

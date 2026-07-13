@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - administration inheritance and delegation Active Directory
 - Active Directory Active Directory ,permissions inheritance
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

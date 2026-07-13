@@ -3,7 +3,7 @@ description: Notifies applications that the system, typically a battery-powered 
 ms.assetid: ceaa5ca4-799e-4801-96cd-aeea3dfd7d52
 title: WM_POWER message (WinUser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_POWER message

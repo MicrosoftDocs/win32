@@ -2,7 +2,7 @@
 description: The following interfaces are available for use with the Windows Security app.
 ms.assetid: 41C2F4BB-9979-478B-8BC9-9DC9FBF020F9
 title: Windows Security app interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

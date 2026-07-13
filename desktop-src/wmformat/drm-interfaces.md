@@ -8,7 +8,7 @@ keywords:
 - DRM (digital rights management),interfaces
 - DRM Client Extended APIs,interfaces
 - Client Extended APIs,interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -7,7 +7,7 @@ keywords:
 - Advanced Systems Format (ASF),language strings
 - ASF (Advanced Systems Format),language strings
 - language strings
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---
@@ -120,7 +120,7 @@ The multiple language support features of the Windows Media Format SDK use langu
 | kz              | Kyrgyz                       |
 | lt              | Lithuanian                   |
 | lv              | Latvian                      |
-| mk              | North Macedonian             |
+| mk              | Macedonian                   |
 | ml              | Malayalam                    |
 | mn              | Mongolian (Cyrillic)         |
 | mr              | Marathi                      |

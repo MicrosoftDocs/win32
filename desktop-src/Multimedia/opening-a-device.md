@@ -4,7 +4,7 @@ description: Opening a Device
 ms.assetid: d4881d32-e8b7-45e6-b00b-b4cd69b738f1
 keywords:
 - MCI_OPEN command
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

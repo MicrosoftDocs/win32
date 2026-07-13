@@ -4,7 +4,7 @@ description: Use the following attributes in an IDL file to reduce the size of t
 ms.assetid: 0f23265e-7f3e-4a15-ac3b-1d852a8110eb
 keywords:
 - IDL MIDL , attributes, performance
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

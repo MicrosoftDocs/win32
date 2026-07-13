@@ -2,7 +2,7 @@
 title: Deleting an Object
 description: Deleting an Object
 ms.assetid: 54ea1e7d-75b5-461f-b0d6-a976c33d66fe
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

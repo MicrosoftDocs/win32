@@ -2,7 +2,7 @@
 description: Hot Sparing
 ms.assetid: 2faf2f3f-f459-4e41-9c8e-042c7b72281b
 title: Hot Sparing
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

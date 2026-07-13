@@ -2,7 +2,7 @@
 title: Scroll Bar Messages
 description: Scroll Bar Messages
 ms.assetid: 5f9b4d30-3c88-4804-82f3-1d0a6c6a2ad4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

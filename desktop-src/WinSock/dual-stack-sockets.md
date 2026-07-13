@@ -2,7 +2,7 @@
 description: In order to support both IPv4 and IPv6 on Windows XP with Service Pack 1 (SP1) and on Windows Server 2003, an application has to create two sockets, one socket for use with IPv4 and one socket for use with IPv6.
 ms.assetid: 7ae49081-ffb5-4eee-b488-2541398e7acc
 title: Dual-Stack Sockets for IPv6 Winsock Applications
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -39,7 +39,7 @@ For a dual-stack socket when sending datagrams with the [**WSASendMsg**](/window
 [IPv6 Guide for Windows Sockets Applications](ipv6-guide-for-windows-sockets-applications-2.md)
 </dt> <dt>
 
-[Changing Data Structures for IPv6 Winsock Appications](changing-data-structures-2.md)
+[Changing Data Structures for IPv6 Winsock Applications](changing-data-structures-2.md)
 </dt> <dt>
 
 [Function Calls for IPv6 Winsock Applications](function-calls-2.md)

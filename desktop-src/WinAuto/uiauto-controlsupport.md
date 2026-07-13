@@ -11,8 +11,8 @@ keywords:
 - UI Automation,Win32 controls
 - support for standard controls
 - standard control support
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # UI Automation Support for Standard Controls

@@ -2,7 +2,7 @@
 title: Using Combo Boxes
 description: The code examples in this section demonstrate how to perform tasks associated with combo boxes.
 ms.assetid: 20c806d8-1630-4527-ac27-325d943605f7
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

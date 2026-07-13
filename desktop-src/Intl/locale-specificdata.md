@@ -2,7 +2,7 @@
 description: LOCALE\_SPECIFICDATA
 ms.assetid: 75a06bf1-fbc8-4921-a00b-ba60174ceafc
 title: LOCALE_SPECIFICDATA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

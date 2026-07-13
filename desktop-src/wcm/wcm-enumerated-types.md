@@ -2,7 +2,7 @@
 title: Windows Connection Manager Enumerated Types
 description: The Windows Connection Manager (WCM) enumerated types are as follows.
 ms.assetid: A05F71A2-151E-4B3D-8220-86CE37417FA1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

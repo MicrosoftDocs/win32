@@ -2,7 +2,7 @@
 description: Table of Contents Parser Structures
 ms.assetid: 7438b09e-e649-462d-9a36-fb19e0817d75
 title: Table of Contents Parser Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

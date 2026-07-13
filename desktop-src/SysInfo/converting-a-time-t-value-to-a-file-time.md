@@ -2,7 +2,7 @@
 description: The time functions included in the C run-time use the **time_t** type to represent the number of seconds elapsed since midnight, January 1, 1970. The following example converts a **time_t** value to a [FILETIME](/windows/win32/api/minwinbase/ns-minwinbase-filetime).
 ms.assetid: f626c0b2-a5a1-475d-9a24-64e7b0407278
 title: Converting a time_t value to a FILETIME
-ms.topic: article
+ms.topic: concept-article
 ms.date: 12/03/2021
 ---
 

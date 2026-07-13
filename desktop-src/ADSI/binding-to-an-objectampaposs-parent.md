@@ -5,7 +5,7 @@ ms.assetid: 3740e862-4cfe-484c-8c8e-3923c64cdd47
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,using,binding to an object's parent
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

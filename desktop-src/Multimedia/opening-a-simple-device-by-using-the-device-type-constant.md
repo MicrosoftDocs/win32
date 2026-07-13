@@ -4,7 +4,7 @@ description: Opening a Simple Device by Using the Device-Type Constant
 ms.assetid: 6ed5fd4b-534a-4e03-8130-07f831403a8e
 keywords:
 - mciSendCommand function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

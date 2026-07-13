@@ -7,7 +7,7 @@ keywords:
 - User Must Change Password at Next Logon (WinNT Provider) ADSI
 - User Must Change Password at Next Logon ADSI , WinNT provider
 - WinNT provider ADSI , user management examples, User Must Change Password at Next Logon
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

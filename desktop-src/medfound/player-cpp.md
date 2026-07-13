@@ -2,7 +2,7 @@
 description: This article contains code for the player.cpp file for the tutorial How to Play Media Files with Media Foundation.
 ms.assetid: 18715721-f1cd-40c7-a6b7-4bd911ff999d
 title: player.cpp
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

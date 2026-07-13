@@ -2,7 +2,7 @@
 description: This section documents the XML types used by the Journal Reader component.
 ms.assetid: 08b45fe0-a505-4cc0-9791-764a87e8f1eb
 title: Journal Reader Namespace Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

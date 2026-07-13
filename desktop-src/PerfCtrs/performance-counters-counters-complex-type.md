@@ -3,7 +3,7 @@ description: Defines the section of the instrumentation manifest that identifies
 ms.assetid: c661f1af-ebe8-4f8a-b77e-a2229f45facd
 title: counters Complex Type
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - kbSyntax
 api_name: 

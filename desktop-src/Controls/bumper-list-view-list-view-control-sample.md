@@ -2,7 +2,7 @@
 title: List-View Control Sample
 description: List-View Control Sample
 ms.assetid: 3c7aac33-b8a4-4306-99f2-ce559015f9e1
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

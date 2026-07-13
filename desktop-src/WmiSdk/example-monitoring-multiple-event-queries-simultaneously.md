@@ -3,7 +3,7 @@ description: The following script example shows asynchronous event notification,
 ms.assetid: 8beb9804-088e-4dd1-adc8-a29ca450a220
 ms.tgt_platform: multiple
 title: 'Example: Monitoring Multiple Event Queries Simultaneously'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

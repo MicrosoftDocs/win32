@@ -1246,7 +1246,7 @@ The **Win32\_SoundDevice** class is derived from [**CIM\_LogicalDevice**](cim-lo
 
 ## Examples
 
-The [List Sound Card Properties](https://Gallery.TechNet.Microsoft.Com/scriptcenter/86550b1a-bb3f-47c3-8056-bbd57e508b7a) PowerShell sample retrieves information about all the sound cards installed in a computer.
+The List Sound Card Properties (`List Sound Card Properties.ps1`) PowerShell sample retrieves information about all the sound cards installed in a computer.
 
 The following VBScript sample retrieves information about all the sound cards installed in a computer.
 

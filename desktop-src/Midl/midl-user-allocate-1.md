@@ -37,7 +37,7 @@ Specifies the count of bytes to allocate.
 
 Both client applications and server applications must implement the **midl\_user\_allocate** function, unless you are compiling in OSF-compatibility ([**/osf**](-osf.md)) mode. Applications and generated stubs call **midl\_user\_allocate** when dealing with objects referenced by pointers:
 
--   The server application should call **midl\_user\_allocate** to allocate memory for the applicationâ€”for example, when creating a new node.
+-   The server application should call **midl\_user\_allocate** to allocate memory for the application; for example, when creating a new node.
 -   The server stub calls **midl\_user\_allocate** when unmarshaling pointed-at data into the server address space.
 -   The client stub calls **midl\_user\_allocate** when unmarshaling data from the server that is referenced by an [**out**](out-idl.md) pointer. Note that for **\[**[**in**](in.md)**\]**, **\[out\]**, and **\[**[**unique**](unique.md)**\]** pointers, the client stub calls **midl\_user\_allocate** only if the **\[unique\]** pointer value was **NULL** on input and changes to a non-**NULL** value during the call. If the **\[unique\]** pointer was non-**NULL** on input, the client stub writes the associated data into existing memory.
 

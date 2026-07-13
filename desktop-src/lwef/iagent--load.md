@@ -2,7 +2,7 @@
 title: IAgent Load
 description: IAgent Load
 ms.assetid: 8f25e6b6-a117-4b37-969a-d8f80c7be224
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

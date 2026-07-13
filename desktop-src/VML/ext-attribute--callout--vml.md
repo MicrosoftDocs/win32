@@ -2,7 +2,7 @@
 title: Ext Attribute (Callout)(VML)
 description: Ext Attribute (Callout)(VML)
 ms.assetid: 4d701205-8c30-4251-86f0-dc25654c42f4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

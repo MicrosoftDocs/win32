@@ -11,7 +11,7 @@ keywords:
 - Dynamic Data Exchange Management Library (DDEML),monitoring applications
 - DDEML (Dynamic Data Exchange Management Library),monitoring applications
 - data exchange,Dynamic Data Exchange Management Library (DDEML)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

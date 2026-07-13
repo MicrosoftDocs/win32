@@ -5,7 +5,7 @@ ms.assetid: 7bf4bf22-38ac-4b0d-946e-5f60c7693707
 ms.tgt_platform: multiple
 keywords:
 - Installing the Example Provider Component ADSI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

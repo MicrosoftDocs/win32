@@ -2,9 +2,8 @@
 description: Customize the appearance and behavior of an individual folder with a Desktop.ini file.
 ms.assetid: 0361b7da-bfb3-4880-b982-85d2fe419805
 title: How to Customize Folders with Desktop.ini
-ms.topic: article
+ms.topic: how-to
 ms.date: 01/04/2022
-ms.custom: seo-windows-dev
 ---
 
 # How to Customize Folders with Desktop.ini

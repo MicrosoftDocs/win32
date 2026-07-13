@@ -7,7 +7,7 @@ keywords:
 - Modifying User Cannot Change Password (LDAP Provider) ADSI
 - User Cannot Change Password (LDAP Provider) ADSI , modifying
 - LDAP provider ADSI , user management examples, User Must Change Password at Next Logon, modifying
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

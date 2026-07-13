@@ -2,7 +2,7 @@
 description: Independent software vendors (ISVs) can extend the set of known folders on a system by registering known folders of their own.
 ms.assetid: bb2c63e6-7525-4d20-ac50-591b3e53dea2
 title: How to Extend Known Folders with Custom Folders
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

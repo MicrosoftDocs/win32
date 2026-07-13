@@ -2,7 +2,7 @@
 description: This topic describes how to create a blank XPS OM.
 ms.assetid: 5b6f12ba-9a41-4252-96c4-391bb8d75cd4
 title: Create a Blank XPS OM
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -168,7 +168,7 @@ After you have used an [**IOpcPartUri**](/previous-versions/windows/desktop/api/
 [XPS Document API Reference](xps-programming-reference.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
+[XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 </dt> </dl>
 
  

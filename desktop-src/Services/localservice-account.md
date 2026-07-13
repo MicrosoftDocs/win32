@@ -2,7 +2,7 @@
 description: The LocalService account is a predefined local account used by the service control manager.
 ms.assetid: 5409e2fe-a349-4739-a481-f8a35fd3c9b4
 title: LocalService Account
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

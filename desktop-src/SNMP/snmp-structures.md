@@ -5,7 +5,7 @@ ms.assetid: b6dacc85-893d-4825-93df-729333b491b3
 keywords:
 - SNMP Structures SNMP
 - Structures SNMP , SNMP
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

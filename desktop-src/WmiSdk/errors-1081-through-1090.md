@@ -3,7 +3,7 @@ description: Describes WMI SNMP provider errors 1081 through 1090.
 ms.assetid: aa953c53-a61f-48e4-9234-acc450b9bdf1
 ms.tgt_platform: multiple
 title: Errors 1081 through 1090
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 

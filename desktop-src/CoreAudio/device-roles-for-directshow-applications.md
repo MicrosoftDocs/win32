@@ -2,7 +2,7 @@
 description: Device Roles for DirectShow Applications
 ms.assetid: 54f42bda-b4a0-465c-9ce6-9102d2908776
 title: Device Roles for DirectShow Applications
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Providing Callbacks for ELS Services
 ms.assetid: 48609c55-9e82-4407-ae28-41b07b1e1161
 title: Providing Callbacks for ELS Services
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

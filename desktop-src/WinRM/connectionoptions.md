@@ -53,15 +53,15 @@ The **WSManFlagCredUserNamePassword** flag should be set on the [**WSman.CreateS
 
 ## Examples
 
-The following VBScript code example shows how to create a **ConnectionOptions** object, set the properties for the account on the remote computer, and use it in creating a [**Session**](session.md) object.
+The following VBScript code example shows how to create a **ConnectionOptions** object, set the properties for the account on the remote computer, and use it in creating a [**Session**](session.md) object. Note: Do not store credentials in plain text in script files.
 
 
 ```VB
 Set objWsman = CreateObject( "Wsman.Automation" )
 'Create ConnectionOptions object.
 Set objConnectionOptions = objWsman.CreateConnectionOptions
-objConnectionOptions.UserName = "johns "
-objConnectionOptions.Password = "Dtf#4542?98"
+objConnectionOptions.UserName = "<username>"
+objConnectionOptions.Password = "<password>"
 iFlags = objWsman.SessionFlagUseBasic Or _
   objWsman.SessionFlagCredUserNamePassword
 Set objSession = objWsman.CreateSession _

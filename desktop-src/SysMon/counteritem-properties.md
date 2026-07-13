@@ -2,7 +2,7 @@
 title: CounterItem Properties
 description: The CounterItem class has the following properties
 ms.assetid: 4c8e1353-338c-4aca-9904-62790409168e
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

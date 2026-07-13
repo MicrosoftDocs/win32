@@ -2,7 +2,7 @@
 description: Differences between regular point-to-point sockets and c\_root multipoint sockets in the Windows Sockets (Winsock) SPI.
 ms.assetid: 5476933b-70f2-4dcf-a6e9-f9f4a537c29f
 title: Semantic Differences Between Multipoint Sockets and Regular Sockets in the SPI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

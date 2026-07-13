@@ -2,7 +2,7 @@
 description: Factors that influence the perception of sound positions.
 ms.assetid: 2c460e4a-c655-dcd1-fbd6-7c33e3b7343d
 title: Perception of Sound Positions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

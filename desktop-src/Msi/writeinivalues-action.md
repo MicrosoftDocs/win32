@@ -2,7 +2,7 @@
 description: The WriteIniValues action writes the .ini file information that the application needs written to its .ini files.
 ms.assetid: ec54db54-293c-4db3-81af-6e8669f27310
 title: WriteIniValues Action
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

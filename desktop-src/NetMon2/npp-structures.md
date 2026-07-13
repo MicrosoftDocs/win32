@@ -2,7 +2,7 @@
 description: This section describes the NPP structures used by NPP methods.
 ms.assetid: f0729dc5-6b5f-4f24-85d6-47c45f1bf9be
 title: NPP Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

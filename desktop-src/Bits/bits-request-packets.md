@@ -2,7 +2,7 @@
 title: BITS Request Packets
 description: BITS Request Packets
 ms.assetid: 4d8fd5f3-7621-438f-926f-38ece7a52f52
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

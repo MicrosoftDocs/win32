@@ -15,8 +15,8 @@ keywords:
 - Active Accessibility
 - exposing IAccessibleEx
 - implementing IAccessibleEx
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Adding UI Automation Functionality to Active Accessibility Servers
@@ -112,7 +112,7 @@ HRESULT CListboxAccessibleObject::GetObjectForChild(long idChild, IAccessibleEx 
 
 
 
-For a complete sample implementation, see [Making Custom Controls Accessible, Part 5: Using IAccessibleEx to Add UI Automation Support to a Custom Control](/previous-versions/msdn10/cc307850(v=msdn.10)) on MSDN.
+For a complete sample implementation, see [Making Custom Controls Accessible, Part 5: Using IAccessibleEx to Add UI Automation Support to a Custom Control](/previous-versions/msdn10/cc307850(v=msdn.10)).
 
 ## Related topics
 

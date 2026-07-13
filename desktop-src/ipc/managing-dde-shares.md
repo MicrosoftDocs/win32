@@ -2,7 +2,7 @@
 description: Network DDE provides functions that allow you to delete a share, get or set share information, or enumerate shares.
 ms.assetid: d7924e93-75e4-4f94-b159-02408535170d
 title: Managing DDE Shares
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

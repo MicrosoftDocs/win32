@@ -2,7 +2,7 @@
 description: System.Sync.HandlerType
 ms.assetid: ba99bf9c-e559-4b0d-bcf4-40d11d0a9cf0
 title: System.Sync.HandlerType
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

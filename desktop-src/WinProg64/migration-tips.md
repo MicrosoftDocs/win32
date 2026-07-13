@@ -6,7 +6,7 @@ keywords:
 - 64-bit Windows programming guide 64-bit Windows Programming , migration tips
 - migration tips 64-bit Windows Programming
 - compatibility 64-bit Windows Programming
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

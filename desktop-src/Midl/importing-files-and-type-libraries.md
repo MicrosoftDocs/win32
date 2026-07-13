@@ -6,7 +6,7 @@ keywords:
 - Microsoft Interface Definition Language MIDL , tasks, importing files and type libraries
 - importing MIDL
 - type libraries MIDL , importing
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

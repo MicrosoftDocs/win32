@@ -2,7 +2,7 @@
 title: VML Text Attribute
 description: VML Text Attribute
 ms.assetid: dc7c161b-b78d-4baf-acb4-962a95418d77
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

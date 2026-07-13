@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - How Security Groups are Used in Access Control
 - access control, security groups used in
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

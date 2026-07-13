@@ -10,7 +10,7 @@ keywords:
 - manipulations,sample code
 - manipulations,code samples
 - Manipulation sample
-ms.topic: article
+ms.topic: sample
 ms.date: 02/18/2020
 ---
 
@@ -252,7 +252,7 @@ void CDrawingObject::ApplyManipulationDelta(
 
     _dScalingFactor *= scaleDelta;
 
-    _dRotationAngle -= rotationDelta; // we are substracting because Y-axis is down
+    _dRotationAngle -= rotationDelta; // we are subtracting because Y-axis is down
 }
 ```
 

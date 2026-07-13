@@ -13,7 +13,7 @@ keywords:
 - input and output (I/O),seeking new position in files
 - I/O (input and output),seeking new position in files
 - seeking new position in I/O files
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -1,6 +1,6 @@
 ---
 title: ID3DX11EffectType GetMemberTypeByName method (D3dx11effect.h)
-description: Get an member type by name.
+description: Get a member type by name.
 ms.assetid: 0c5a732b-7c3a-41da-b7de-dc464eed814a
 keywords:
 - GetMemberTypeByName method Direct3D 11
@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # ID3DX11EffectType::GetMemberTypeByName method
 
-Get an member type by name.
+Get a member type by name.
 
 ## Syntax
 

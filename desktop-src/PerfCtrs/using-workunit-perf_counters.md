@@ -2,8 +2,8 @@
 description: How to use Work Unit performance counters. Work Unit performance counters are a mechanism giving insight into an application's process to the Windows platform. With Work Units, apps can describe which work units are running on a particular process and claim ownership of those units.
 ms.assetid: 
 title: Using Work Unit performance counters
-ms.topic: article
-ms.date: 04/18/2022
+ms.topic: how-to
+ms.date: 07/14/2025
 ---
 
 # Using Work Unit performance counters

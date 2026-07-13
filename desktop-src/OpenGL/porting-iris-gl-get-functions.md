@@ -7,7 +7,7 @@ keywords:
 - porting from IRIS GL,get functions
 - porting to OpenGL from IRIS GL,get functions
 - OpenGL porting from IRIS GL,get functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

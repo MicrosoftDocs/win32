@@ -2,7 +2,7 @@
 description: Using an Object Constructor String to Construct a Component
 ms.assetid: 57d66988-2a65-4309-957a-36a5972233b5
 title: Using an Object Constructor String to Construct a Component
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

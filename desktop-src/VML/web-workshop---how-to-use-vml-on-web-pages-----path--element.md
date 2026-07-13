@@ -16,7 +16,7 @@ keywords:
 - vector graphics,customizing shape outlines
 - VML shapes,customizing outlines
 - customizing shape outlines
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

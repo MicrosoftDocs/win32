@@ -2,7 +2,7 @@
 title: IAgentCharacter
 description: IAgentCharacter
 ms.assetid: 77d0ffc2-76a2-4a21-88e1-1ca85b8c5d2f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

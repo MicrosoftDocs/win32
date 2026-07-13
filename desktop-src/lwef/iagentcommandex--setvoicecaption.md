@@ -2,7 +2,7 @@
 title: IAgentCommandEx SetVoiceCaption
 description: IAgentCommandEx SetVoiceCaption
 ms.assetid: 672fdc13-25d3-4ced-b295-2b687767c17f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -8,7 +8,7 @@ keywords:
 - file I/O,services
 - input and output (I/O),services
 - I/O (input and output),services
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

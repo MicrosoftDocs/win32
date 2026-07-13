@@ -3,7 +3,7 @@ description: A preprocessor command is a line of code placed inside a MOF file t
 ms.assetid: 48edf4d6-c939-4fe9-9a02-761a6b7b3bd6
 ms.tgt_platform: multiple
 title: Preprocessor Commands
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

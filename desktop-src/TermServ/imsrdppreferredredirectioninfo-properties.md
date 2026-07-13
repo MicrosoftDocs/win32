@@ -3,7 +3,7 @@ title: IMsRdpPreferredRedirectionInfo properties
 description: The IMsRdpPreferredRedirectionInfo interface exposes the following properties.
 ms.assetid: B06F7253-DAB6-4731-AB9F-B8388A2EC7B4
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

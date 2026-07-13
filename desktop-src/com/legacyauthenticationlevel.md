@@ -4,7 +4,7 @@ description: Sets the default authentication level for applications that do not 
 ms.assetid: e14d2203-c84e-46af-befd-d82ef1936c9d
 keywords:
 - LegacyAuthenticationLevel registry value COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

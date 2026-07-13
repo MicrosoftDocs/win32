@@ -10,7 +10,7 @@ keywords:
 - Musical Instrument Digital Interface (MIDI),MIDI services
 - MIDI (Musical Instrument Digital Interface),MIDI services
 - MIDI services,about
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

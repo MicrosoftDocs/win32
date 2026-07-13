@@ -2,13 +2,14 @@
 description: Shortcut menu handlers, also known as context menu handlers or verb handlers, are a type of file type handler. Like all such handlers, they are in-process Component Object Model (COM) objects implemented as DLLs.
 ms.assetid: cff79cdc-8a01-4575-9af7-2a485c6a8e46
 title: Creating Shortcut Menu Handlers
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
+no-loc: [Verb, verb, Shell, shell]
 ---
 
 # Creating Shortcut Menu Handlers
 
-Shortcut menu handlers, also known as context menu handlers or verb handlers, are a type of file type handler. These handlers may be impelmented in a way that causes them to load in their own process or in the explorer, or other 3rd party processes. Take care when creating in-process handlers as they can cause harm to the process that loads them.
+Shortcut menu handlers, also known as context menu handlers or verb handlers, are a type of file type handler. These handlers may be implemented in a way that causes them to load in their own process or in the explorer, or other 3rd party processes. Take care when creating in-process handlers as they can cause harm to the process that loads them.
 
 > [!Note]  
 > There are special considerations for 64-bit based versions of Windows when registering handlers that work in the context of 32-bit applications: when invoked in the context of an application of different bitness, the WOW64 subsystem redirects file system access to some paths. If your .exe handler is stored in one of those paths, it is not accessible in this context. Therefore, as a work around, either store your .exe in a path that does not get redirected, or store a stub version of your .exe that launches the real version.
@@ -41,12 +42,12 @@ Applications are generally responsible for providing localized display strings f
 
 | Canonical verb | Description                                                          |
 |----------------|----------------------------------------------------------------------|
-| Open           | Opens the file or folder.                                            |
-| Opennew        | Opens the file or folder in a new window.                            |
-| Print          | Prints the file.                                                     |
-| Printto        | Permits the user to print a file by dragging it to a printer object. |
-| Explore        | Opens Windows Explorer with the folder selected.                     |
-| Properties     | Opens the object's property sheet.                                   |
+| :::no-loc text="Open":::           | Opens the file or folder.                                            |
+| :::no-loc text="Opennew ":::       | Opens the file or folder in a new window.                            |
+| :::no-loc text="Print":::          | Prints the file.                                                     |
+| :::no-loc text="Printto":::        | Permits the user to print a file by dragging it to a printer object. |
+| :::no-loc text="Explore":::        | Opens Windows Explorer with the folder selected.                     |
+| :::no-loc text="Properties":::     | Opens the object's property sheet.                                   |
 
 > [!Note]  
 > The **Printto** verb is also canonical, but it is never displayed. Its inclusion enables the user to print a file by dragging it to a printer object.
@@ -75,12 +76,12 @@ The Shell uses the first available verb in the following order:
 
 1.  The default verb
 2.  The first verb in the registry, if the verb order is specified
-3.  The **Open** verb
-4.  The **Open With** verb
+3.  The **:::no-loc text="Open":::** verb
+4.  The **:::no-loc text="Open With":::** verb
 
 If none of the verbs listed is available, the operation fails.
 
-Create one subkey for each verb you want to add under the Shell subkey. Each of these subkeys must have a **REG\_SZ** value set to the verb's display string (localized string). For each verb subkey, create a command subkey with the default value set to the command line for activating the items. For canonical verbs, such as **Open** and **Print**, you can omit the display string because the system automatically displays a properly localized string. For noncanonical verbs, if you omit the display string, the verb string is displayed.
+Create one subkey for each verb you want to add under the Shell subkey. Each of these subkeys must have a **REG\_SZ** value set to the verb's display string (localized string). For each verb subkey, create a command subkey with the default value set to the command line for activating the items. For canonical verbs, such as **:::no-loc text="Open":::** and **:::no-loc text="Print":::**, you can omit the display string because the system automatically displays a properly localized string. For noncanonical verbs, if you omit the display string, the verb string is displayed.
 
 In the following registry example, note that:
 
@@ -111,7 +112,7 @@ HKEY_CLASSES_ROOT
                (Default) = c:\MyDir\MyProgram.exe /p "%1" "%2"
 ```
 
-The following diagram illustrates the extension of the shortcut menu in accordance with the registry entries above. This shortcut menu has **Open**, **Do It**, and **Print** verbs on its menu, with **Do It** as the default verb.
+The following diagram illustrates the extension of the shortcut menu in accordance with the registry entries above. This shortcut menu has **:::no-loc text="Open":::**, **:::no-loc text="Do It":::**, and **:::no-loc text="Print":::** verbs on its menu, with **:::no-loc text="Do It":::** as the default verb.
 
 ![screen shot of the do it default verb shortcut menu](images/context-menu/context-doitdefaultverb.png)
 
@@ -204,7 +205,7 @@ In Windows 7 and later, you can use the SubCommands entry to create cascading m
                 MUIVerb = Test Cascade Menu
     ```
 
-3.  To your *CascadeTest* subkey, add a SubCommands entry of type **REG\_SZ** that is assigned list, demlimited by semi-colons, of the verbs that should appear on the menu, in the order of appearance. For example, here we assign a number of system-provided verbs:
+3.  To your *CascadeTest* subkey, add a SubCommands entry of type **REG\_SZ** that is assigned list, delimited by semi-colons, of the verbs that should appear on the menu, in the order of appearance. For example, here we assign a number of system-provided verbs:
 
     ```
     HKEY_CLASSES_ROOT

@@ -4,7 +4,7 @@ ms.assetid: BE908D51-25DD-45d0-B6AA-28B4C627715B
 title: Window Class Styles (Winuser.h)
 ms.topic: reference
 ms.custom: snippet-project
-ms.date: 07/29/2020
+ms.date: 07/14/2025
 ---
 
 # Window Class Styles

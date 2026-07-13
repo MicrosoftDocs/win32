@@ -3,7 +3,7 @@ description: You can use the procedure and code examples in this topic to create
 ms.assetid: 35dc97aa-dcef-48c1-af8b-ce43e3cf1d3e
 ms.tgt_platform: multiple
 title: 'Example: Getting WMI Data from the Local Computer'
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

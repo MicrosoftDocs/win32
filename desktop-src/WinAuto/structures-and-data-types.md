@@ -2,8 +2,8 @@
 title: Structures and Data Types
 description: Structures and Data Types
 ms.assetid: 62c00f7f-a005-40d2-8a5f-f7e8f68a25da
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Structures and Data Types

@@ -14,7 +14,7 @@ keywords:
 - hooks,Page Setup dialog box
 - predefined dialog boxes
 - dialog boxes,Page Setup
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

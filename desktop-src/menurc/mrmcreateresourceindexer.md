@@ -1,6 +1,6 @@
 ---
 title: MrmCreateResourceIndexer function (MrmResourceIndexer.h)
-description: Creates a resource indexer, used to generate package resource index (PRI) files for a UWP app. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
+description: Creates a resource indexer, used to generate package resource index (PRI) files.
 ms.assetid: 9AE3EF90-4ADC-4646-9C62-87A702333B9A
 keywords:
 - MrmCreateResourceIndexer function Menus and Other Resources
@@ -18,12 +18,13 @@ ms.date: 05/31/2018
 
 # MrmCreateResourceIndexer function
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+Creates a resource indexer, used to generate package resource index (PRI) files for both packaged and unpackaged
+desktop apps. 
 
-Creates a resource indexer, used to generate package resource index (PRI) files for a UWP app. For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
+COM must be initialized (e.g. by calling **[CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex)**) 
+before using this function.
 
 ## Syntax
-
 
 ```C++
 HRESULT HRESULT MrmCreateResourceIndexer(
@@ -35,8 +36,6 @@ HRESULT HRESULT MrmCreateResourceIndexer(
 );
 ```
 
-
-
 ## Parameters
 
 <dl> <dt>
@@ -46,7 +45,9 @@ HRESULT HRESULT MrmCreateResourceIndexer(
 
 Type: **PCWSTR**
 
-The package family name of the UWP app for which you will be generating PRI files. This value will be used as the resource map name when you later generate a PRI file from this resource indexer.
+The package family name (PFN) of the app for which you will be generating PRI files. If you are building a PRI file
+for a packaged app, this *must* match the PFN of the app (as listed in the AppxManifest). If you are building
+a PRI file for an unpackaged app, this *must* be the string **"Application"**.
 
 </dd> <dt>
 
@@ -55,7 +56,8 @@ The package family name of the UWP app for which you will be generating PRI file
 
 Type: **PCWSTR**
 
-The project root of the UWP app for which you will be generating PRI files. In other words, the path to that app's resource files. You specify this so that you can then specify paths relative to that root in subsequent API calls to the same resource indexer.
+The root directory from which some file paths will be computed. Typically this will be the root directory of your
+source project, but may differ. See [File resources in MRM](mrmfiles.md) for more information.
 
 </dd> <dt>
 
@@ -64,7 +66,8 @@ The project root of the UWP app for which you will be generating PRI files. In o
 
 Type: **[**MrmPlatformVersion**](mrmplatformversion.md)**
 
-The target platform version for the resource indexer.
+The platform version (*targetOsVersion*) to use for the generated configuration file. Most callers should just 
+use **MrmPlatformVersion_Windows10_0_0_5**
 
 </dd> <dt>
 
@@ -73,7 +76,8 @@ The target platform version for the resource indexer.
 
 Type: **PCWSTR**
 
-A list of default resource qualifiers. For example, L"language-en-US\_scale-100\_contrast-standard"
+A list of default resource qualifiers. For example, "language-en-US_scale-100". For more information about qualifiers, 
+see [Qualifiers in MRM](mrmqualifiers.md).
 
 </dd> <dt>
 
@@ -82,7 +86,8 @@ A list of default resource qualifiers. For example, L"language-en-US\_scale-100\
 
 Type: **[**MrmResourceIndexerHandle**](mrmresourceindexerhandle.md)\***
 
-A pointer to a resource indexer handle.
+A pointer to a resource indexer handle. On successful return, this will contain a handle to a resource indexer.
+You must free the indexer via [**MrmDestroyIndexerAndMessages**](mrmdestroyindexerandmessages.md) after using it.
 
 </dd> </dl>
 
@@ -90,11 +95,18 @@ A pointer to a resource indexer handle.
 
 Type: **HRESULT**
 
-S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED() or FAILED() macros (defined in winerror.h) to determine success or failure.
+S\_OK if the function succeeded, otherwise some other value. Use the **SUCCEEDED** or **FAILED** macros (defined in winerror.h) 
+to determine success or failure.
+
+## Remarks
+
+Most of the MRM APIs require an indexer handle to operate. The handle is created by this function or one of the related
+functions listed below under **See Also**. 
+
+Use [**MrmDestroyIndexerAndMessages**](mrmdestroyindexerandmessages.md) to
+release the resources associated with the indexer after using it.
 
 ## Requirements
-
-
 
 | Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
@@ -110,8 +122,25 @@ S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED()
 
 <dl> <dt>
 
+[**MrmCreateResourceIndexerFromPreviousPriData**](mrmcreateresourceindexerfrompreviouspridata-.md)
+</dt></dl>
+
+<dl> <dt>
+
+[**MrmCreateResourceIndexerFromPreviousPriFile**](mrmcreateresourceindexerfrompreviousprifile.md)
+</dt></dl>
+
+<dl> <dt>
+
+[**MrmCreateResourceIndexerFromPreviousSchemaData**](mrmcreateresourceindexerfrompreviousschemadata.md)
+</dt></dl>
+
+<dl> <dt>
+
+[**MrmCreateResourceIndexerFromPreviousSchemaFile**](mrmcreateresourceindexerfrompreviousschemafile.md)
+</dt></dl>
+
+<dl> <dt>
+
 [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems)
-</dt> </dl>
-
- 
-
+</dt></dl>

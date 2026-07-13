@@ -9,7 +9,7 @@ keywords:
 - WM ASF Writer,about
 - Advanced Systems Format (ASF),WM ASF Writer
 - ASF (Advanced Systems Format),WM ASF Writer
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

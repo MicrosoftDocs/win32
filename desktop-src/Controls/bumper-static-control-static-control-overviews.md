@@ -2,7 +2,7 @@
 title: Static Control Overview
 description: Static Control Overview
 ms.assetid: 5910de48-2627-406f-abd8-36ab9159aa33
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

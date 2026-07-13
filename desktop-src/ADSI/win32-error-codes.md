@@ -5,7 +5,7 @@ ms.assetid: b609bd56-770a-4546-8640-26ad6e108d54
 ms.tgt_platform: multiple
 keywords:
 - Win32 Error Codes ADSI
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 

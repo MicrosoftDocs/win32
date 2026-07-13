@@ -37,7 +37,7 @@ STN_CLICKED
 *wParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the identifier of the static control. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.
+The [**LOWORD**](../winmsg/loword.md) contains the identifier of the static control. The [**HIWORD**](../winmsg/hiword.md) specifies the notification code.
 
 </dd> <dt>
 
@@ -79,10 +79,10 @@ Handle to the static control.
 **Other Resources**
 </dt> <dt>
 
-[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**](../winmsg/hiword.md)
 </dt> <dt>
 
-[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
+[**LOWORD**](../winmsg/loword.md)
 </dt> <dt>
 
 [**WM\_COMMAND**](/windows/desktop/menurc/wm-command)

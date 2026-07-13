@@ -3,7 +3,7 @@ description: An application sends the WM\_MDIICONARRANGE message to a multiple-d
 ms.assetid: 935b9e29-224d-449e-b89f-b6062bed7702
 title: WM_MDIICONARRANGE message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_MDIICONARRANGE message

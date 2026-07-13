@@ -2,7 +2,7 @@
 title: Spinner
 description: The Spinner is a composite control that consists of an increment button, a decrement button, and an edit control, all of which are used to provide decimal values to the application.
 ms.assetid: 63689ed3-7326-4f7a-b700-d89e9b501ef1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -42,7 +42,7 @@ The following table lists the property keys that are associated with the Spinner
 | Property Key | Notes | 
 |--------------|-------|
 | <a href="windowsribbon-reference-properties-uipkey-decimalplaces.md">UI_PKEY_DecimalPlaces</a> | Can only be updated through invalidation. | 
-| <a href="windowsribbon-reference-properties-uipkey-decimalvalue.md">UI_PKEY_DecimalValue</a> | Supports <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>.<blockquote>[!Note]<br />If the Command associated with the control is invalidated through a call to <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand"><strong>IUIFramework::InvalidateUICommand</strong></a>, the framework queries this property when <code>UI_INVALIDATIONS_VALUE</code> is passed as the value of <em>flags</em>.</blockquote><br /> | 
+| [UI_PKEY_DecimalValue](windowsribbon-reference-properties-uipkey-decimalvalue.md) | Supports [**IUIFramework::GetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) and [**IUIFramework::SetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty). **Note:** If the Command associated with the control is invalidated through a call to [**IUIFramework::InvalidateUICommand**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand), the framework queries this property when <code>UI_INVALIDATIONS_VALUE</code> is passed as the value of **flags**.<br> | 
 | <a href="windowsribbon-reference-properties-uipkey-enabled.md">UI_PKEY_Enabled</a> | Supports <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty"><strong>IUIFramework::GetUICommandProperty</strong></a> and <a href="/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty"><strong>IUIFramework::SetUICommandProperty</strong></a>. | 
 | <a href="windowsribbon-reference-properties-uipkey-formatstring.md">UI_PKEY_FormatString</a> | Can only be updated through invalidation. | 
 | <a href="windowsribbon-reference-properties-uipkey-increment.md">UI_PKEY_Increment</a> | Can only be updated through invalidation. | 

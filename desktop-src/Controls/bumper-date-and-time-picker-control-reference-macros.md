@@ -2,7 +2,7 @@
 title: Date and Time Picker Macros
 description: Date and Time Picker Macros
 ms.assetid: 732a20a6-305d-46ff-8e2e-d276b7cb061d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

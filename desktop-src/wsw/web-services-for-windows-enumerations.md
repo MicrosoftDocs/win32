@@ -2,7 +2,7 @@
 title: Windows Web Services Enumerations
 ms.assetid: e54df9d6-87ff-4901-a662-5198132ceb18
 description: "Learn more about: Windows Web Services Enumerations"
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

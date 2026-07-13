@@ -62,7 +62,7 @@ The following example shows how place classes or instances in the "Root\\Test" n
 
 <dl> <dt>
 
-[Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md)
+[Setting Namespace Security Descriptors](setting-namespace-security-descriptors.md)
 </dt> <dt>
 
 [**Standard WMI Qualifiers**](standard-wmi-qualifiers.md)

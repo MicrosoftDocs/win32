@@ -2,7 +2,7 @@
 description: Learn about Windows Installer concepts that begin with the letter E, such as elevated and external source file.
 ms.assetid: 8f180e2c-06f4-41d5-b167-52525f4a9985
 title: E (Windows Installer)
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

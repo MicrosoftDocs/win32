@@ -2,7 +2,7 @@
 title: List View Notifications
 description: List View Notifications
 ms.assetid: 6c5239ac-0599-4db8-9f44-c10fa0855b57
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

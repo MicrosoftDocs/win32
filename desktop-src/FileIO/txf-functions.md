@@ -2,7 +2,7 @@
 description: Transactional NTFS (TxF) functions.
 ms.assetid: fb6be33c-9d6c-48b2-a4da-31c60af8d972
 title: TxF Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

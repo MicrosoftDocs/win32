@@ -2,7 +2,7 @@
 title: Date and Time Picker Structures
 description: Date and Time Picker Structures
 ms.assetid: 4768d506-0dc2-4c05-8ff4-d2d09d8c9496
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

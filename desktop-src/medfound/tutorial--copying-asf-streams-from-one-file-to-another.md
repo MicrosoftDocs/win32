@@ -2,7 +2,7 @@
 description: One way to create an ASF file is to copy ASF streams from an existing file.
 ms.assetid: 158fe3a1-42e6-461d-b56b-5419cd961fca
 title: 'Tutorial: Copying ASF Streams by Using WMContainer Objects'
-ms.topic: article
+ms.topic: tutorial
 ms.date: 05/31/2018
 ---
 
@@ -281,7 +281,7 @@ The following example code shows a function that consolidates all of the steps. 
 // Creates the ASF splitter and the ASF Content Info object for the 
 // source file.
 // 
-// This function also calulates the offset and length of the ASF 
+// This function also calculates the offset and length of the ASF 
 // Data Object.
 //-------------------------------------------------------------------
 

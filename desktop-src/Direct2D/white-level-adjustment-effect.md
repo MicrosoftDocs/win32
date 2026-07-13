@@ -1,7 +1,7 @@
 ---
 title: White tone map effect
 description: This effect allows the white level of an image to be linearly scaled. This is especially helpful when you convert between display-referred luminance space and scene-referred luminance space, or vice versa.
-ms.topic: article
+ms.topic: reference
 ms.date: 02/01/2019
 ---
 

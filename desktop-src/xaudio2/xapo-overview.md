@@ -2,7 +2,7 @@
 description: The XAPO API allows the creation of cross-platform audio processing objects (XAPO) for use in XAudio2 on both Windows and Xbox 360.
 ms.assetid: 4fe88a0f-0234-462f-b575-e592f2c8401e
 title: XAPO Overview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

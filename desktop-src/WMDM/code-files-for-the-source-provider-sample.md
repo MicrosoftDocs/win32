@@ -9,7 +9,7 @@ keywords:
 - Device Manager,service provider sample
 - service providers,samples
 - samples,service providers
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

@@ -9,7 +9,7 @@ keywords:
 - managing schemas ADSI
 - schemas, managing ADSI
 - managing a schema ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

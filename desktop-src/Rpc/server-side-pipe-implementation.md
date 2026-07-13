@@ -2,7 +2,7 @@
 title: Server-Side Pipe Implementation
 description: Server programs for distributed applications that use pipes need not implement any push, pull, or alloc functions.
 ms.assetid: de733075-5767-4d46-b294-089c7e3cc695
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

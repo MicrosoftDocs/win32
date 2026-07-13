@@ -5,7 +5,7 @@ ms.assetid: 528be433-58ef-400b-ba9a-d114f3f94ec6
 ms.tgt_platform: multiple
 keywords:
 - Logon Account Maintenance Tasks AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

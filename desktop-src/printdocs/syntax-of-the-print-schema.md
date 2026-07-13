@@ -2,7 +2,7 @@
 description: Learn about the syntax of the Print Schema, which is expressed in XML syntax and is composed of a small number of element types.
 ms.assetid: d67518e3-c379-4a50-aeda-31afaa7f05dd
 title: Syntax of the Print Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

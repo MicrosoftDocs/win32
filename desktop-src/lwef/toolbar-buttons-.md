@@ -2,7 +2,7 @@
 title: Toolbar Buttons (Microsoft Agent Character Editor)
 description: Learn about the Microsoft Agent Character Editor toolbar buttons, such as the New Custom Character button.
 ms.assetid: 8867a038-d2c4-43c1-b994-bd3779a251b9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

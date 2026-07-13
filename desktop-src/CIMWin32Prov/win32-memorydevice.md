@@ -1864,10 +1864,6 @@ This property is inherited from [**CIM\_LogicalDevice**](cim-logicaldevice.md).
 
 The **Win32\_MemoryDevice** class is derived from [**Win32\_SMBIOSMemory**](win32-smbiosmemory.md).
 
-## Examples
-
-The [List Memory Devices](https://Gallery.TechNet.Microsoft.Com/ddc9c2ab-3f88-44fb-935f-98da3bcf5858) Perl sample returns starting and ending addresses for all memory devices installed on a computer.
-
 ## Requirements
 
 

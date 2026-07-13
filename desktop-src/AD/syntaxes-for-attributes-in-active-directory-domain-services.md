@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Syntaxes for Active Directory Domain Services Attributes Active Directory
 - Attributes Active Directory , Syntaxes for
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

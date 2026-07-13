@@ -2,7 +2,7 @@
 title: Operating system version changes in Windows 8.1 and Windows Server 2012 R2
 description: Operating system version changes in Windows 8.1 and Windows Server 2012 R2
 ms.assetid: 3040262A-85EB-4F26-BE34-D2BBD5886E9E
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -24,7 +24,7 @@ The number one reason to do a version check is to warn the user that the applica
 
 ## Manifestation
 
-In Windows 8.1, the GetVersion(Ex) APIs have been deprecated. That means that while you can still call these API functions, if your app does not specifically target Windows 8.1, the functions will return the Windows 8 version (6.2).
+In Windows 8.1 and later, the GetVersion(Ex) APIs have been deprecated. That means that while you can still call these API functions, if your app does not specifically target Windows 8.1, the functions will return the Windows 8 version (6.2).
 
 ## Solution
 
@@ -72,6 +72,7 @@ Windows 8.1 introduces new replacement API functions for GetVersion(Ex), known a
 For example, if your application requires Windows 8 or later, use the following test:
 
 ```cpp
+#include <windows.h>
 #include <VersionHelpers.h>
 // ...
     if (!IsWindows8OrGreater())
@@ -102,6 +103,6 @@ They will return TRUE or FALSE depending on the question you are asking, and you
 
 ## Resources
 
--   [Application Compatibility Toolkit Download](https://www.microsoft.com/downloads/details.aspx?FamilyId=24DA89E9-B581-47B0-B45E-492DD6DA2971)
--   [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](/previous-versions/windows/it-pro/windows-7/cc765984(v=ws.10))
--   [VersionHelpers APIs](../sysinfo/version-helper-apis.md)
+- [Download and install the Windows Assessment and Deployment Kit (ADK)](/windows-hardware/get-started/adk-install)
+- [Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](/previous-versions/windows/it-pro/windows-7/cc765984(v=ws.10))
+- [VersionHelpers APIs](../sysinfo/version-helper-apis.md)

@@ -34,7 +34,7 @@ This method has no parameters.
 
 ## Return value
 
-This method does not return a value.
+This method returns the Validation error and column name for which the error occurred.
 
 ## Requirements
 

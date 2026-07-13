@@ -3,7 +3,7 @@ description: Describes WMI SNMP provider errors 1061 through 1070.
 ms.assetid: 1bbd6153-7241-4673-ae17-1caa92b2e6a6
 ms.tgt_platform: multiple
 title: Errors 1061 through 1070
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The Active Directory database contains a set of objects known as DPAPI backup keys.
 ms.assetid: 08bc55c8-e2cd-4af0-bf26-f4071fe2335c
 title: DPAPI backup keys on Active Directory domain controllers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 06/02/2023
 ---
 

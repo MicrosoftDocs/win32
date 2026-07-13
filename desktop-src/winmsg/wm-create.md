@@ -3,7 +3,7 @@ description: Sent when an application requests that a window be created by calli
 ms.assetid: d484d0fc-bad0-4fcb-bf4b-37cbc50846ee
 title: WM_CREATE message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_CREATE message

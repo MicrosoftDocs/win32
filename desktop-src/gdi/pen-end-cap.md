@@ -2,7 +2,7 @@
 description: 'The end cap attribute specifies the shape of a geometric pen: round, square, or flat. The following illustration shows parallel lines drawn using each type of end cap.'
 ms.assetid: 7a808f62-5778-40db-b7ce-3cd63c9b49db
 title: Pen End Cap
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: A guard page provides a one-shot alarm for memory page access.
 ms.assetid: 763bc763-e178-481e-a81a-c15715e56901
 title: Creating Guard Pages
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

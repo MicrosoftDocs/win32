@@ -2,9 +2,8 @@
 description: Use Run or RunOnce registry keys to make a program run when a user logs on.
 ms.assetid: 5a6c17f1-d4c0-4005-9b26-036d8b27703a
 title: Run and RunOnce Registry Keys
-ms.topic: article
-ms.date: 01/04/2022
-ms.custom: seo-windows-dev
+ms.topic: concept-article
+ms.date: 07/19/2024
 ---
 
 # Run and RunOnce Registry Keys
@@ -20,11 +19,20 @@ The Windows registry includes the following four `Run` and `RunOnce` keys:
 -   **HKEY\_CURRENT\_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run**
 -   **HKEY\_CURRENT\_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce**
 
+> [!IMPORTANT]
+> **HKEY\_LOCAL\_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce** only executes when members of the Administrators group log on after the reboot.
+> Additional details can be found in the articles [RunOnce Registry Key](/windows-hardware/drivers/install/runonce-registry-key), [Developing Applications that Run at Logon](/previous-versions/bb325654(v=msdn.10)#developing-a-multi-part-setup-application), and [Troubleshooting Windows client](/troubleshoot/windows-client/shell-experience/standard-user-cannot-run-commnad-via-runonce).
+
 By default, the value of a `RunOnce` key is deleted before the command line is run. You can prefix a `RunOnce` value name with an exclamation point (!) to defer deletion of the value until after the command runs. Without the exclamation point prefix, if the `RunOnce` operation fails, the associated program will not be asked to run the next time you start the computer.
 
 By default, these keys are ignored when the computer is started in Safe Mode. The value name of `RunOnce` keys can be prefixed with an asterisk (\*) to force the program to run even in Safe Mode.
 
 A program that is run from any of these keys should not write to the key during its execution because this will interfere with the execution of other programs registered under the key. Applications should use the `RunOnce` key only for transient conditions, such as to complete application setup. An application must not continually recreate entries under `RunOnce` because this will interfere with Windows Setup.
+
+The system does not provide guarantees about how promptly the programs in the `Run` key are run.
+To improve the user experience, the system may choose to delay the execution of programs in the `Run` key
+and in the Startup group to a time when they are less likely to interfere with the foreground user experience
+or with each other.
 
 ## Related topics
 

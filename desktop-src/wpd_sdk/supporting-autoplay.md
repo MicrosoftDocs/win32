@@ -2,7 +2,7 @@
 description: Supporting AutoPlay
 ms.assetid: e91334d9-9041-4cb8-a6d0-0e2371800064
 title: Supporting AutoPlay
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -29,7 +29,7 @@ Applications register handler-specific information by writing entries to the **H
 
  
 
-For more information about the AutoPlay registry keys and values found under the **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\AutoplayHandlers\\Handlers** key, see the corresponding documentation on MSDN.
+For more information, see [DesktopAutoplayHandler](/windows-hardware/drivers/mobilebroadband/desktopautoplayhandler).
 
 ### The WPD AutoPlay Scheme
 

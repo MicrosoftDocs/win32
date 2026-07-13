@@ -1,7 +1,7 @@
 ---
 description: Describes how to detect whether a specific API set is available on the current device.
 title: Detect API set availability
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2023
 ---
 

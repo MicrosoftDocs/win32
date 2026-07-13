@@ -2,7 +2,7 @@
 title: VML BorderRightColor Attribute
 description: VML BorderRightColor Attribute
 ms.assetid: d5f91ee7-b8ac-4177-b6e8-07649c57887f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

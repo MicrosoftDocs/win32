@@ -2,7 +2,7 @@
 title: vs_3_0
 description: Learn about vs_3_0, a programmable vertex shader, which is made up of a set of instructions that operate on vertex data.
 ms.assetid: 0f40f946-3525-4203-bfe2-1cd941d8e2ec
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - kbArticle

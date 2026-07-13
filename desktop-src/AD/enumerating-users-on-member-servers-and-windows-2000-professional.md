@@ -7,7 +7,7 @@ keywords:
 - Enumerating Users on Member Servers and Windows 2000 Professional AD
 - users AD , Enumerating Users on Member Servers and Windows 2000 Professional
 - Active Directory, Using, Users, Enumerating Users on Member Servers and Windows 2000 Professional
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

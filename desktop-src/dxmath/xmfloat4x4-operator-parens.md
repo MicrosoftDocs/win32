@@ -26,8 +26,8 @@ Accesses specific matrix elements referenced by row and column from the current 
 
 | Operator | Description | 
 |----------|-------------|
-| <a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x4-operator-function-call(size_t_size_t)"><strong>XMFLOAT4X4::operator () (size_t,size_t)</strong></a> | Returns a <code>reference</code> to a matrix element of an instance <code>XMFLOAT4X4</code> as specified by row and column arguments.<br /><blockquote>[!Note]<br />This operator is only available under C++.</blockquote><br /> | 
-| <a href="/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x4-operator-function-call(size_t_size_t)"><strong>XMFLOAT4X4::operator () (size_t,size_t)</strong></a> | Return the value of a matrix element in an instance <code>XMFLOAT4X4</code> as specified by row and column arguments. <br /> This operator returns the value of a matrix element of an instance <a href="/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x4"><strong>XMFLOAT4X4</strong></a> as specified by row and column arguments. <br /><blockquote>[!Note]<br />This operator is only available when developing with C++.</blockquote><br /> | 
+| [**XMFLOAT4X4::operator () (size_t,size_t)**](/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x4-operator-function-call(size_t_size_t)) | Returns a <code>reference</code> to a matrix element of an instance <code>XMFLOAT4X4</code> as specified by row and column arguments.<br> **Note:** This operator is only available under C++.<br> | 
+| [**XMFLOAT4X4::operator () (size_t,size_t)**](/windows/desktop/api/directxmath/nf-directxmath-xmfloat4x4-operator-function-call(size_t_size_t)) | Return the value of a matrix element in an instance <code>XMFLOAT4X4</code> as specified by row and column arguments. <br> This operator returns the value of a matrix element of an instance [**XMFLOAT4X4**](/windows/desktop/api/directxmath/ns-directxmath-xmfloat4x4) as specified by row and column arguments. <br> **Note:** This operator is only available when developing with C++.<br> | 
 
 
 

@@ -6,7 +6,7 @@ keywords:
 - porting to OpenGL,sample
 - OpenGL porting,sample
 - X Window System,sample
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

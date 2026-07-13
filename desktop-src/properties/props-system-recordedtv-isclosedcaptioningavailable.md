@@ -2,7 +2,7 @@
 description: System.RecordedTV.IsClosedCaptioningAvailable
 ms.assetid: 81597594-eab2-4992-8d09-7409fba247fe
 title: System.RecordedTV.IsClosedCaptioningAvailable
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

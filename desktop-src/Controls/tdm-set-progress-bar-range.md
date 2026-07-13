@@ -34,13 +34,13 @@ Must be zero.
 *lParam* \[in\]
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) specifies the minimum value. By default, the minimum value is zero. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the maximum value. By default, the maximum value is 100.
+The [**LOWORD**](../winmsg/loword.md) specifies the minimum value. By default, the minimum value is zero. The [**HIWORD**](../winmsg/hiword.md) specifies the maximum value. By default, the maximum value is 100.
 
 </dd> </dl>
 
 ## Return value
 
-Returns the previous minimum and maximum values, if successful, or zero otherwise. The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the minimum value, and the [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) contains the maximum value.
+Returns the previous minimum and maximum values, if successful, or zero otherwise. The [**LOWORD**](../winmsg/loword.md) contains the minimum value, and the [**HIWORD**](../winmsg/hiword.md) contains the maximum value.
 
 ## Requirements
 

@@ -7,7 +7,7 @@ keywords:
 - Extensions ADSI , COM Aggregation Rules
 - COM Aggregation ADSI
 - Revisiting COM Aggregation Rules with ADSI Extensions ADSI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Access Point and Authentication Protocol Interaction During Authentication
 description: The RasEapMakeMessage function controls the majority of the interaction between the authentication protocol and the Access Point (AP).
 ms.assetid: edc128e0-3104-4df9-80f4-b2aebcfe1087
-ms.topic: article
+ms.topic: concept-article
 ms.date: 06/14/2023
 ms.contributor: samyun
 ---

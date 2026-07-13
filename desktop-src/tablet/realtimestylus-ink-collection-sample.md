@@ -2,7 +2,7 @@
 description: This application demonstrates ink collection and rendering when using the RealTimeStylus class.
 ms.assetid: f8bce153-cc5d-4087-896f-3f60afc80bc8
 title: RealTimeStylus Ink Collection Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

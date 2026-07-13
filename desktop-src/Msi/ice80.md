@@ -2,7 +2,7 @@
 description: ICE80 validates that the value of the Template Summary Property (PID\_TEMPLATE) correctly specifies &\#0034;Intel64&\#0034;, &\#0034;x64&\#0034;, or &\#0034;Intel&\#0034; depending on the presence of 64-bit components or custom action scripts.
 ms.assetid: fd2a15cf-d117-4a87-a26e-caff4b12a2e9
 title: ICE80
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -22,7 +22,7 @@ ICE80 posts the following errors.
 
 | Error                                                                                                                                                                   | Description                                                                                                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| This package contains 64 bit component '\[1\]' but the [**Template Summary**](template-summary.md) Property does not contain Intel64, x64, or Arm64.                    | The [Component Table](component-table.md)contains a component with the **msidbComponentAttributes64bit** attribute and the [**Template Summary**](template-summary.md) Property does not contain Intel64, x64, or Arm64.        |
+| This package contains 64 bit component '\[1\]' but the [**Template Summary**](template-summary.md) Property does not contain Intel64, x64, or Arm64.                    | The [Component Table](component-table.md) contains a component with the **msidbComponentAttributes64bit** attribute and the [**Template Summary**](template-summary.md) Property does not contain Intel64, x64, or Arm64.        |
 | This package contains 64 bit custom action script '\[1\]' but the [**Template Summary**](template-summary.md) Property does not contain Intel64, x64, or Arm64.         | [CustomAction Table](customaction-table.md) contains a script custom action with the **msidbCustomActionType64BitScript** but the [**Template Summary**](template-summary.md) Property does not contain Intel64, x64, or Arm64. |
 | Bad value in Summary Information Stream for %s.                                                                                                                         | Returned for PID\_TEMPLATE property if that property is an empty string or not a VT\_LPSTR type. Returned for PID\_PAGECOUNT if that property it is not a VT\_I4 type.<br/>                                         |
 | This package is marked with Intel64 but it has a schema less than 150.                                                                                                  | The PID\_TEMPLATE property of the package is Intel64, but its PID\_PAGECOUNT property is less than 150.                                                                                                            |

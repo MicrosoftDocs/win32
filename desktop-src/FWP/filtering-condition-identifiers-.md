@@ -1,5 +1,5 @@
 ---
-title: Filtering Condition Identifiers (Fwpmu.h)
+title: Filtering condition identifiers (Fwpmu.h)
 description: The Windows Filtering Platform (WFP) filtering condition identifiers are each represented by a GUID.
 ms.assetid: 4f0b970a-e511-4107-8023-22a8775905b9
 topic_type:
@@ -137,10 +137,10 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 05/02/2024
 ---
 
-# Filtering Condition Identifiers
+# Filtering condition identifiers
 
 The Windows Filtering Platform (WFP) filtering condition identifiers are each represented by a **GUID**. The data type for the condition value for each filtering condition is specified as an [**FWP\_DATA\_TYPE**](/windows/desktop/api/Fwptypes/ne-fwptypes-fwp_data_type). These identifiers and their data types are defined here.
 
@@ -149,10 +149,24 @@ The standard conditions are listed first, followed by the conditions specific to
 > [!Note]  
 > Each of the following filtering conditions is available only at a subset of the WFP filtering layers. For more information on each condition's availability at any given layer, see [**Filtering Conditions Available at Each Filtering Layer**](filtering-conditions-available-at-each-filtering-layer.md).
 
- 
-
-
-
+| Condition | Description |
+| - | - |
+| **FWPM_CONDITION_ALE_PACKAGE_FAMILY_NAME** | The package family name of the app.<br/>**Data type**: FWP_SECURITY_DESCRIPTOR_TYPE |
+| **FWPM_CONDITION_ALE_SECURITY_ATTRIBUTE_FQBN_VALUE** | The Fully Qualified Binary Name of the app.<br/>**Data type**: FWP_BYTE_BLOB |
+| **FWPM_CONDITION_IPSEC_SECURITY_REALM_ID** | The ID of the IPSec security realm.<br/>**Data type**: FWP_BYTE_BLOB |
+| **FWPM_CONDITION_ALE_EFFECTIVE_NAME** | The name of the server.<br/>**Data type**: FWP_BYTE_BLOB |
+| **FWPM_CONDITION_RPC_OPNUM** | The RPC OpNum for an RPC call made to an RPC listener.<br/>**Data type**: FWP_UINT16 |
+| **FWPM_CONDITION_COMPARTMENT_ID** | The ID of the TCPIP compartment.<br/>**Data type**type: FWP_UINT32 |
+| **FWPM_CONDITION_ALE_EFFECTIVE_NAME** | A buffer containing the server address.<br/>**Data type**: FWP_BYTE_BLOB |
+| **FWPM_CONDITION_NET_EVENT_TYPE** | This 32-bit value is an [FWPM_NET_EVENT_TYPE](/windows/win32/api/fwpmtypes/ne-fwpmtypes-fwpm_net_event_type). You can use this condition in a [FWPM_NET_EVENT_ENUM_TEMPLATE0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_enum_template0) structure, and thus also with [FWPM_NET_EVENT_SUBSCRIPTION0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_subscription0). |
+| **FWPM_CONDITION_IP_PROTOCOL** | You can use this condition in a [FWPM_NET_EVENT_ENUM_TEMPLATE0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_enum_template0) structure, and thus also with [FWPM_NET_EVENT_SUBSCRIPTION0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_subscription0). |
+| **FWPM_CONDITION_IP_LOCAL_ADDRESS** | You can use this condition in a [FWPM_NET_EVENT_ENUM_TEMPLATE0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_enum_template0) structure, and thus also with [FWPM_NET_EVENT_SUBSCRIPTION0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_subscription0). |
+| **FWPM_CONDITION_IP_REMOTE_ADDRESS** | You can use this condition in a [FWPM_NET_EVENT_ENUM_TEMPLATE0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_enum_template0) structure, and thus also with [FWPM_NET_EVENT_SUBSCRIPTION0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_subscription0). |
+| **FWPM_CONDITION_IP_LOCAL_PORT** | You can use this condition in a [FWPM_NET_EVENT_ENUM_TEMPLATE0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_enum_template0) structure, and thus also with [FWPM_NET_EVENT_SUBSCRIPTION0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_subscription0). |
+| **FWPM_CONDITION_IP_REMOTE_PORT** | You can use this condition in a [FWPM_NET_EVENT_ENUM_TEMPLATE0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_enum_template0) structure, and thus also with [FWPM_NET_EVENT_SUBSCRIPTION0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_subscription0). |
+| **FWPM_CONDITION_SCOPE_ID** | You can use this condition in a [FWPM_NET_EVENT_ENUM_TEMPLATE0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_enum_template0) structure, and thus also with [FWPM_NET_EVENT_SUBSCRIPTION0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_subscription0). |
+| **FWPM_CONDITION_ALE_APP_ID** | You can use this condition in a [FWPM_NET_EVENT_ENUM_TEMPLATE0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_enum_template0) structure, and thus also with [FWPM_NET_EVENT_SUBSCRIPTION0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_subscription0). |
+| **FWPM_CONDITION_ALE_USER_ID** | You can use this condition in a [FWPM_NET_EVENT_ENUM_TEMPLATE0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_enum_template0) structure, and thus also with [FWPM_NET_EVENT_SUBSCRIPTION0](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_subscription0). |
 
 | Conditions available for Windows 8 and Windows Server 2012 | Description | 
 |------------------------------------------------------------|-------------|
@@ -186,7 +200,7 @@ The standard conditions are listed first, followed by the conditions specific to
 | <span id="FWPM_CONDITION_VSWITCH_DESTINATION_INTERFACE_TYPE"></span><span id="fwpm_condition_vswitch_destination_interface_type"></span><dl><dt><strong>FWPM_CONDITION_VSWITCH_DESTINATION_INTERFACE_TYPE</strong></dt></dl> | Interface type of the destination of the current packet.<br /><strong>Data type:</strong> FWP_UINT8<br /><strong>Possible values:  </strong><ul><li>SwitchNicSyntheticNic (when interface type is VM-NIC)</li><li>SwitchNicEmulatedNic (when interface type is VM-NIC)</li><li>SwitchNicPhysicalNic (when interface type is P-NIC)</li><li>SwitchNicVNic (when interface type is V-NIC, connected to the host partition)</li></ul><br /> | 
 | <span id="FWPM_CONDITION_INTERFACE"></span><span id="fwpm_condition_interface"></span><dl><dt><strong>FWPM_CONDITION_INTERFACE</strong></dt></dl> | The LUID for the network interface associated with the local IP address. <br /><strong>Data type:</strong> FWP_UINT64<br /> | 
 | <span id="FWPM_CONDITION_ALE_PACKAGE_ID"></span><span id="fwpm_condition_ale_package_id"></span><dl><dt><strong>FWPM_CONDITION_ALE_PACKAGE_ID</strong></dt></dl> | The security identifier (SID) of an app container.<br /><strong>Data type:</strong> FWP_SID<br /> | 
-| <span id="FWPM_CONDITION_ALE_ORIGINAL_APP_ID"></span><span id="fwpm_condition_ale_original_app_id"></span><dl><dt><strong>FWPM_CONDITION_ALE_ORIGINAL_APP_ID</strong></dt></dl> | The fully qualified device path of the application, such as "\device0\hardiskvolume1\Program Files\Application.exe". When a connection has been redirected, this will be the identifier of the originating app; otherwise this will be the same as <strong>FWPM_CONDITION_ALE_APP_ID</strong>.<br /><strong>Data type:</strong> FWP_BYTE_BLOB_TYPE<br /> | 
+| <span id="FWPM_CONDITION_ALE_ORIGINAL_APP_ID"></span><span id="fwpm_condition_ale_original_app_id"></span><dl><dt><strong>FWPM_CONDITION_ALE_ORIGINAL_APP_ID</strong></dt></dl> | The fully qualified lower-case device path of the application, such as "\device\hardiskvolume1\program files\application.exe". When a connection has been redirected, this will be the identifier of the originating app; otherwise this will be the same as <strong>FWPM_CONDITION_ALE_APP_ID</strong>.<br /><strong>Data type:</strong> FWP_BYTE_BLOB_TYPE<br /> | 
 
 
 
@@ -264,7 +278,7 @@ The standard conditions are listed first, followed by the conditions specific to
 | <span id="FWPM_CONDITION_SOURCE_SUB_INTERFACE_INDEX"></span><span id="fwpm_condition_source_sub_interface_index"></span><dl><dt><strong>FWPM_CONDITION_SOURCE_SUB_INTERFACE_INDEX</strong></dt></dl> | The index of the source logical network interface for forwarded packets, as enumerated by the network stack. <br /><strong>Data type:</strong> FWP_UINT32<br /> | 
 | <span id="FWPM_CONDITION_DESTINATION_INTERFACE_INDEX"></span><span id="fwpm_condition_destination_interface_index"></span><dl><dt><strong>FWPM_CONDITION_DESTINATION_INTERFACE_INDEX</strong></dt></dl> | The index of the destination network interface for forwarded packets, as enumerated by the network stack. <br /><strong>Data type:</strong> FWP_UINT32<br /> | 
 | <span id="FWPM_CONDITION_DESTINATION_SUB_INTERFACE_INDEX"></span><span id="fwpm_condition_destination_sub_interface_index"></span><dl><dt><strong>FWPM_CONDITION_DESTINATION_SUB_INTERFACE_INDEX</strong></dt></dl> | The index of the destination logical network interface for forwarded packets, as enumerated by the network stack. <br /><strong>Data type:</strong> FWP_UINT32<br /> | 
-| <span id="FWPM_CONDITION_ALE_APP_ID"></span><span id="fwpm_condition_ale_app_id"></span><dl><dt><strong>FWPM_CONDITION_ALE_APP_ID</strong></dt></dl> | The fully qualified device path of the application, as returned by the <a href="/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmgetappidfromfilename0"><strong>FwpmGetAppIdFromFileName0</strong></a> function. <br /> (For example, "\device0\hardiskvolume1\Program Files\Application.exe".)<br /><strong>Data type:</strong> FWP_BYTE_BLOB_TYPE<br /> | 
+| <span id="FWPM_CONDITION_ALE_APP_ID"></span><span id="fwpm_condition_ale_app_id"></span><dl><dt><strong>FWPM_CONDITION_ALE_APP_ID</strong></dt></dl> | The lower-case fully qualified device path of the application, as returned by the <a href="/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmgetappidfromfilename0"><strong>FwpmGetAppIdFromFileName0</strong></a> function. <br /> (For example, "\device\hardiskvolume1\program files\application.exe".)<br /><strong>Data type:</strong> FWP_BYTE_BLOB_TYPE<br /> | 
 | <span id="FWPM_CONDITION_ALE_USER_ID"></span><span id="fwpm_condition_ale_user_id"></span><dl><dt><strong>FWPM_CONDITION_ALE_USER_ID</strong></dt></dl> | The identification of the local user. <br /><strong>Data type:</strong> FWP_SECURITY_DESCRIPTOR_TYPE<br /> | 
 | <span id="FWPM_CONDITION_ALE_REMOTE_USER_ID"></span><span id="fwpm_condition_ale_remote_user_id"></span><dl><dt><strong>FWPM_CONDITION_ALE_REMOTE_USER_ID</strong></dt></dl> | The identification of the remote user. <br /><strong>Data type:</strong> FWP_SECURITY_DESCRIPTOR_TYPE<br /> | 
 | <span id="FWPM_CONDITION_ALE_REMOTE_MACHINE_ID"></span><span id="fwpm_condition_ale_remote_machine_id"></span><dl><dt><strong>FWPM_CONDITION_ALE_REMOTE_MACHINE_ID</strong></dt></dl> | The identification of the remote machine. <br /><strong>Data type:</strong> FWP_SECURITY_DESCRIPTOR_TYPE<br /> | 
@@ -297,7 +311,7 @@ The following constants are available for user mode only.
 | <span id="FWPM_CONDITION_KM_TYPE"></span><span id="fwpm_condition_km_type"></span><dl><dt><strong>FWPM_CONDITION_KM_TYPE</strong></dt></dl> | The type of keying module.<br /><strong>Data type:</strong> IKEEXT_KEY_MODULE_TYPE<br /> | 
 | <span id="FWPM_CONDITION_KM_MODE"></span><span id="fwpm_condition_km_mode"></span><dl><dt><strong>FWPM_CONDITION_KM_MODE</strong></dt></dl> | The IPsec mode in which a token can be obtained.<br /><strong>Data type:</strong> IPSEC_TOKEN_MODE<br /> | 
 | <span id="FWPM_CONDITION_IPSEC_POLICY_KEY"></span><span id="fwpm_condition_ipsec_policy_key"></span><dl><dt><strong>FWPM_CONDITION_IPSEC_POLICY_KEY</strong></dt></dl> | The main mode (MM) or quick mode (QM) policy provider context key of the SA being authorized. Useful for restricting the scope of the authorization rule to SAs formed using a specified IPsec MM or QM policy key.<br /><strong>Data type:</strong> FWP_BYTE_ARRAY16_TYPE<br /> | 
-| <span id="FWPM_CONDITION_AUTHENTICATION_TYPE"></span><span id="fwpm_condition_authentication_type"></span><dl><dt><strong>FWPM_CONDITION_AUTHENTICATION_TYPE</strong></dt></dl> | The method used to authenticate the security association.<br /><blockquote>[!Note]<br />Available only on Windows Server 2008 R2, Windows 7, and later.</blockquote><br /><strong>Data type:</strong> FWP_UINT32 <br /> | 
+| **FWPM_CONDITION_AUTHENTICATION_TYPE**<br> | The method used to authenticate the security association.<br> **Note:** Available only on Windows Server 2008 R2, Windows 7, and later.<br>**Data type:** FWP_UINT32 <br> | 
 
 
 

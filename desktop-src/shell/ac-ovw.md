@@ -1,7 +1,7 @@
 ---
 description: Autocompletion expands strings that have been partially entered in an edit control into complete strings.
 title: Using Autocomplete
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.assetid: b990395b-fc10-48f9-a718-7cc006e37eb7
 api_name: 

@@ -14,7 +14,7 @@ keywords:
 - file I/O,examples
 - input and output (I/O),examples
 - I/O (input and output),examples
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

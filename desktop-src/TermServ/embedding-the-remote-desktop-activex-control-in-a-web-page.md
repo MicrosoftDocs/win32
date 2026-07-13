@@ -3,7 +3,7 @@ title: Embedding the Remote Desktop ActiveX control in a webpage
 description: Example that demonstrates the use of the scriptable interfaces.
 ms.assetid: fad0f81f-bb04-4900-aeb8-0be503efa591
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

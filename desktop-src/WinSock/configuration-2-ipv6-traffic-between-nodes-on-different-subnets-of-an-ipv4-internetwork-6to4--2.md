@@ -2,7 +2,7 @@
 description: 6to4 is a method for connecting IPv6 hosts or sites over the existing IPv4 Internet infrastructure.
 ms.assetid: 3ca8518d-42f0-428c-b94c-ff244d17b314
 title: 'Configuration 2: IPv6 Traffic Between Nodes on Different Subnets of an IPv4 Internetwork (6to4)'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: This topic provides the definitions of terms that are used by the X
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 354dbf9b-6de6-4d77-94ee-0fdb15f8ff43
 title: XPS Documents Glossary
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

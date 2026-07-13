@@ -9,7 +9,7 @@ keywords:
 - reference for TSF,structures
 - text services,structures
 - TSF-enabled applications,structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

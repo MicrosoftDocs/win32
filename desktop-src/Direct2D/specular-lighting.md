@@ -4,7 +4,7 @@ description: Use the spot-specular lighting effect to create an image that appea
 ms.assetid: B6E24036-1548-4B9E-A8FE-8B87D4DBF97A
 keywords:
 - spot specular lighting
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

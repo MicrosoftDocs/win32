@@ -5,7 +5,7 @@ ms.assetid: 4139eedb-1383-4654-9b40-5e294a71be24
 ms.tgt_platform: multiple
 keywords:
 - Assembling Query Strings ADSI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: ec5c2c4b-d0a2-4982-aedc-24f814a5ab74
 keywords:
 - Video for Windows (VFW),video capture messages
 - VFW (Video for Windows),video capture messages
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

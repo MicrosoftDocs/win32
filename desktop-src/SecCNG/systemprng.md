@@ -3,7 +3,7 @@ description: Retrieves a specified number of random bytes from the system random
 ms.assetid: 04746229-9dc1-4748-80c1-f1960bd1b768
 title: SystemPrng function
 ms.topic: reference
-ms.date: 10/21/2022
+ms.date: 02/14/2025
 topic_type: 
 - APIRef
 - kbSyntax
@@ -60,6 +60,6 @@ Always returns **TRUE**.
 
 | Requirement | Value |
 |--------|--------|
-| Minimum supported client<br/> | Windows Vista with SP1 \[desktop apps only\]<br/> |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
-| DLL<br/>                      | <dl> <dt>Ksecdd.sys on Windows Server 2008 and Windows Vista with SP1; </dt> <dt>Cng.sys on Windows 7 and Windows Server 2008 R2</dt> </dl> |
+| Minimum supported client | Windows Vista with SP1 \[desktop apps only\] |
+| Minimum supported server | Windows Server 2008 \[desktop apps only\] |
+| DLL                      | `Ksecdd.sys` on Windows Server 2008 and Windows Vista with SP1<br/>`Cng.sys` on Windows 7 and Windows Server 2008 R2 |

@@ -2,7 +2,7 @@
 description: When variably sized data structures are used to transmit information between TAPI and the application, the application is responsible for allocating the necessary memory.
 ms.assetid: f1e2e864-fa10-4058-ba56-faa0ba7363a1
 title: Variably Sized Data Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Program Compatibility Assistant scenarios for Windows 8
 description: Program Compatibility Assistant scenarios for Windows 8
 ms.assetid: C61BF746-63EE-4F4E-81D3-52947FD4954D
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

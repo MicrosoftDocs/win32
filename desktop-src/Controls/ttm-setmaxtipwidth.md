@@ -13,12 +13,12 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/31/2025
 ---
 
 # TTM\_SETMAXTIPWIDTH message
 
-Sets the maximum width for a tooltip window.
+Sets the maximum width for a tooltip window, in pixels.
 
 ## Parameters
 
@@ -30,7 +30,7 @@ Sets the maximum width for a tooltip window.
 *lParam* 
 </dt> <dd>
 
-Maximum tooltip window width, or -1 to allow any width.
+Maximum tooltip window width, in pixels; or -1 to allow any width.
 
 </dd> </dl>
 

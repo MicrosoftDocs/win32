@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Sorting the Search Results with IDirectorySearch
 - ADSI, Searching, IDirectorySearch, Other Search Options, Sorting Search Results
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

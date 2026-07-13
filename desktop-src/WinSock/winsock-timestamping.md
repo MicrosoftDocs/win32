@@ -1,7 +1,7 @@
 ---
 title: Winsock timestamping
 description: Packet timestamps are a crucial feature to many clock synchronization applications&mdash;for example, Precision Time Protocol. The closer the timestamp generation is to when a packet is received/sent by the network adapter hardware, the more accurate the synchronization application can be.
-ms.topic: article
+ms.topic: reference
 ms.date: 10/22/2020
 ---
 

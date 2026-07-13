@@ -3,7 +3,7 @@ description: The CTRPP tool is a pre-processor that parses and validates your co
 ms.assetid: 3939f6a1-0a94-429d-a71e-b37f045fea13
 title: CTRPP
 ms.topic: reference
-ms.date: 08/17/2020
+ms.date: 07/14/2025
 topic_type: 
 - APIRef
 - kbSyntax
@@ -65,7 +65,7 @@ The string resources should be handled as follows:
 
 The CTRPP tool will generate a `.h` C/C++ code file. If the provider manifest's `providerType` attribute is set to `userMode`, the generated code file will contain the following definitions that are helpful in coding a user-mode provider:
 
-- An provider initialization function named [***prefix*CounterInitialize**](counterinitialize.md).
+- n provider initialization function named [***prefix*CounterInitialize**](counterinitialize.md).
 - A provider cleanup function named [***prefix*CounterCleanup**](countercleanup.md).
 - A global ***provider*** variable that stores the provider handle opened by the ***prefix*CounterInitialize** function. The variable's name is the value of the `symbol` attribute of the `provider` element in the manifest. This variable should be used in calls to `PerfCreateInstance`, `PerfDeleteInstance`, and other APIs for controlling your provider's data.
 - For each counterset, a global ***counterset*GUID** variable with the counterset GUID. The variable's name is the value of the `counterSet` element's `symbol` attribute plus the suffix "GUID", e.g. `MyCounterSetGUID`. This variable should be used in calls to `PerfCreateInstance`, `PerfDeleteInstance`, and other APIs for controlling your provider's data.

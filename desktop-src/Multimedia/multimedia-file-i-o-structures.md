@@ -13,7 +13,7 @@ keywords:
 - reference for multimedia file I/O,structures
 - multimedia file I/O reference,structures
 - file I/O reference,structures
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

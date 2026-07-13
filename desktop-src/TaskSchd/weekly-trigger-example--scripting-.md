@@ -2,7 +2,7 @@
 title: Weekly Trigger Example (Scripting)
 description: This scripting example shows how to create a task that runs Notepad at 8 00 AM on Monday of every week.
 ms.assetid: 68ef73b0-3780-480e-90fe-940b6e8a5340
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

@@ -2,7 +2,7 @@
 description: For an application dealing with unformatted text, Uniscribe provides the ScriptString\* functions.
 ms.assetid: bfbba5df-ce06-4012-a7b1-55d8ea580942
 title: Using the ScriptString Functions
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

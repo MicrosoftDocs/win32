@@ -2,7 +2,7 @@
 description: Process to decode signed data.
 ms.assetid: 803220d0-7963-4fc4-8451-a979e54a9cc3
 title: Decoding Signed Data
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

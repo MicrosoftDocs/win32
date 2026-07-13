@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - LDIF Scripts Active Directory
 - LDIF Scripts Active Directory , about
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

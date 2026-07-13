@@ -2,7 +2,7 @@
 description: 'Windows GDI+ provides the following classes:'
 ms.assetid: 992388a6-11b7-4e14-b061-e2821aa6c970
 title: Classes (GDI+)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Learn about the DocumentCoverBack element, which describes the back cover sheet. Each document will have a separate sheet.
 ms.assetid: 29d0bf2d-4897-43ed-ba3d-0b38b2f30375
 title: DocumentCoverBack
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -68,7 +68,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the `https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords` namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Feature name="psk:DocumentCoverBack">

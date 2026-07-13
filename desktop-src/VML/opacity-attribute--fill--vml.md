@@ -2,7 +2,7 @@
 title: Opacity Attribute (Fill)(VML)
 description: Opacity Attribute (Fill)(VML)
 ms.assetid: abd2fe4d-6391-4413-80f0-549bcc74f42e
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: Provides semisynchronous access functionality and a code example fo
 ms.assetid: 3eae38e8-6a63-45c0-99b0-94e25ddbc5a8
 ms.tgt_platform: multiple
 title: Making a Semisynchronous Call with VBScript
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

@@ -3,7 +3,7 @@ description: Windows Management Instrumentation (WMI) defines a set of system pr
 ms.assetid: e812c0cb-3e08-4cac-8d05-2cd7abc922d1
 ms.tgt_platform: multiple
 title: WMI System Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

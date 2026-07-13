@@ -5,7 +5,7 @@ ms.assetid: eac9038b-9f59-4ac7-8974-f94a4a62a257
 keywords:
 - registry reflection 64-bit Windows Programming
 - reflection 64-bit Windows Programming
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

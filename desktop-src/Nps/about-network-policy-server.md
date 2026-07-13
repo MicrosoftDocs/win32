@@ -3,7 +3,7 @@ title: About Network Policy Server
 description: Network Policy Server is the Microsoft implementation of a RADIUS server and proxy. The following sections provide general information about NPS and RADIUS.
 ms.assetid: b5c6b365-34be-499d-96f2-014b7bf83f37
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

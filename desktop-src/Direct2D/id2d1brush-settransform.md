@@ -124,7 +124,3 @@ D2D1_RECT_F rcTransformedBrushRect = D2D1::RectF(100, 100, 200, 200);
 
 [**ID2D1Brush**](/windows/win32/api/d2d1/nn-d2d1-id2d1brush)
 </dt> </dl>
-
-�
-
-�

@@ -6,7 +6,7 @@ ms:assetid: 8d99c598-1c79-00ba-5a3e-d18a90d0ba5c
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh558131(v=EXCHG.10)
 ms:contentKeyID: 39513665
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # JET_SIGNATURE operators

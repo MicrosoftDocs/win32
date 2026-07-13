@@ -2,8 +2,8 @@
 title: DirectStorage structures and unions
 description: The following structures and unions are declared in dstorage.h for DirectStorage-based programming.
 ms.assetid: 7FE8796A-98D1-4333-8755-2A47567460B3
-ms.topic: article
-ms.date: 08/25/2022
+ms.topic: reference
+ms.date: 06/20/2025
 ---
 
 # DirectStorage structures and unions
@@ -22,6 +22,7 @@ The following structures and unions are declared in `dstorage.h` for DirectStora
 | [DSTORAGE_DESTINATION_BUFFER structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_destination_buffer) |
 | [DSTORAGE_DESTINATION_MEMORY structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_destination_memory) |
 | [DSTORAGE_DESTINATION_MULTIPLE_SUBRESOURCES structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_destination_multiple_subresources) |
+| [DSTORAGE_DESTINATION_MULTIPLE_SUBRESOURCES_RANGE structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_destination_multiple_subresources_range) |
 | [DSTORAGE_DESTINATION_TEXTURE_REGION structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_destination_texture_region) |
 | [DSTORAGE_DESTINATION_TILES structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_destination_tiles) |
 | [DSTORAGE_ERROR_FIRST_FAILURE structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_error_first_failure) |

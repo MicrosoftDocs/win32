@@ -2,7 +2,7 @@
 description: The following methods are defined by the IOCSPAdmin interface. The property access methods are not shown here. To see the properties for IOCSPAdmin, see Properties of IOCSPAdmin.
 ms.assetid: cbe43e5d-cd1b-467c-a0fd-1ee7cc5adcf7
 title: Methods of IOCSPAdmin
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

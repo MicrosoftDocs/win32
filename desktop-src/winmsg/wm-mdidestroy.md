@@ -3,7 +3,7 @@ description: An application sends the WM\_MDIDESTROY message to a multiple-docum
 ms.assetid: b415393d-a5c2-4b70-af18-0dc7b3939a47
 title: WM_MDIDESTROY message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_MDIDESTROY message

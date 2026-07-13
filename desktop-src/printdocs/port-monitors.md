@@ -2,7 +2,7 @@
 description: Once a device driver has converted an entire journal file into raw device commands, the file of converted commands is passed back to the spooler.
 ms.assetid: 149e44d0-052a-48ba-8f65-59eab193c785
 title: Port Monitors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

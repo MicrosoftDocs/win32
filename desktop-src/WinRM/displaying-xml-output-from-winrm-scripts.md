@@ -3,7 +3,7 @@ title: Displaying XML Output from WinRM Scripts
 description: Windows Remote Management scripts return XML rather than objects. The XML is not in a human-readable format. You can use the methods of the MSXML API and the preinstalled XSL file to transform the data into human-readable format.
 ms.assetid: a2c9401b-bc1e-4f8e-aabf-b6ade1a849ba
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle
@@ -18,7 +18,7 @@ Windows Remote Management scripts return XML rather than objects. The XML is not
 
 For more information about WinRM XML output and examples of raw and formatted XML, see [Scripting in Windows Remote Management](scripting-in-windows-remote-management.md).
 
-The **Winrm** command-line tool comes with a transform file named WsmTxt.xsl that displays output in a tabular form. If your script supplies this file to the MSXML methods that perform tranforms, the output appears the same as the output from the **Winrm** tool.
+The **Winrm** command-line tool comes with a transform file named WsmTxt.xsl that displays output in a tabular form. If your script supplies this file to the MSXML methods that perform transforms, the output appears the same as the output from the **Winrm** tool.
 
 **To format raw XML output**
 

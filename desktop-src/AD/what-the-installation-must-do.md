@@ -5,7 +5,7 @@ ms.assetid: 57da8740-7646-4ca9-ba8d-832e4f520b13
 ms.tgt_platform: multiple
 keywords:
 - What the Installation Must Do AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

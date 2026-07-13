@@ -3,7 +3,7 @@ title: What's New in WinRM 2.0
 description: New features are available in Windows Remote Management version 2.0. (WinRM 2.0).
 ms.assetid: 402c179a-6dd7-4d75-9318-bb8194b5527d
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: whats-new
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

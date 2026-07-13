@@ -2,7 +2,7 @@
 title: Defining Filters
 description: A provider can define filters that a session uses to filter events based on event data.
 ms.assetid: b43912af-0e9c-414b-b3fa-03e7e35e493c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

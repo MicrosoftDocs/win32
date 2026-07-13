@@ -5,7 +5,7 @@ ms.assetid: 5ae3ede3-6eed-4532-9b02-448d2f4ca674
 ms.tgt_platform: multiple
 keywords:
 - Integrity and Privacy AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

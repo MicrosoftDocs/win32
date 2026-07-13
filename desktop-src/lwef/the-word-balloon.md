@@ -2,7 +2,7 @@
 title: The Word Balloon
 description: The Word Balloon
 ms.assetid: 23634ab8-c261-4bf5-b08f-98dad43ab769
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Delivery Optimization Interfaces
 description: Use the following Delivery Optimization interfaces to transfer files and monitor jobs within the transfer queue.
 ms.assetid: 20203CCD-86CC-4551-BA4F-0A5999F8C956
-ms.topic: article
+ms.topic: reference
 ms.date: 05/04/2022
 ---
 

@@ -2,7 +2,7 @@
 description: Troubleshooting
 ms.assetid: e3576161-fc04-47e0-b6b8-75af33fe87ff
 title: Troubleshooting
-ms.topic: article
+ms.topic: troubleshooting-general
 ms.date: 05/31/2018
 ---
 

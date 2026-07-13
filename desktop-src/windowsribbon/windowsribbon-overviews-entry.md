@@ -9,7 +9,7 @@ keywords:
 - Ribbon,about
 - Windows Ribbon,fundamentals
 - Ribbon,fundamentals
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

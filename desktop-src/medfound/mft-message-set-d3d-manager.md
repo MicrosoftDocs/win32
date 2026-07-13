@@ -1,5 +1,5 @@
 ---
-description: Sets or clears the Direct3D Device Manager for DirectX Video Accereration (DXVA).
+description: Sets or clears the Direct3D Device Manager for DirectX Video Acceleration (DXVA).
 ms.assetid: fd346d56-1f80-488a-94c8-4e4e36d72890
 title: MFT_MESSAGE_SET_D3D_MANAGER (Mftransform.h)
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # MFT\_MESSAGE\_SET\_D3D\_MANAGER
 
-Sets or clears the [Direct3D Device Manager](direct3d-device-manager.md) for DirectX Video Accereration (DXVA).
+Sets or clears the [Direct3D Device Manager](direct3d-device-manager.md) for DirectX Video Acceleration (DXVA).
 
 ## Message Parameter
 
@@ -20,7 +20,7 @@ To send this message, call [**IMFTransform::ProcessMessage**](/windows/desktop/a
 
 This message applies only to video transforms. The client should not send this message unless the MFT returns **TRUE** for the [**MF\_SA\_D3D\_AWARE**](mf-sa-d3d-aware-attribute.md) attribute ([MF\_SA\_D3D11\_AWARE](mf-sa-d3d11-aware.md) for Direct3D 11).
 
-Do not send this message to an MFT with multiple ouputs.
+Do not send this message to an MFT with multiple outputs.
 
 ### Implementation
 

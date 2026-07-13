@@ -2,7 +2,7 @@
 title: Using the Tool Help Functions
 description: Lists the topics available that show how to use the Tool Help functions.
 ms.assetid: d3baade5-c56c-4561-a135-4853696b2416
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

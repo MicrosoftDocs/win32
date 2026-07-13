@@ -3,7 +3,7 @@ description: Accessing an Unnamed Registry Value
 ms.assetid: 1095da4c-8b9f-4674-9801-f2d25c4f372b
 ms.tgt_platform: multiple
 title: Accessing an Unnamed Registry Value
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

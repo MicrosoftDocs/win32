@@ -2,7 +2,7 @@
 description: File objects function as the logical interface between kernel and user-mode processes and the file data that resides on the physical disk.
 ms.assetid: 53aabb35-4601-42d1-ac73-385473ff91e2
 title: File Objects
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

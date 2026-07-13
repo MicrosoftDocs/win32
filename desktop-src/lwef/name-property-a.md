@@ -2,7 +2,7 @@
 title: Name Property (Agent Control)
 description: Learn about the Name property of Agent Control. This property is read-only at run time. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: 83d6682c-ac25-4333-8640-7ef468f2de8b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

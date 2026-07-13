@@ -2,7 +2,7 @@
 title: Power Management (TPM Base Services)
 description: The TBS receives power management events.
 ms.assetid: 21f76bea-a313-46b7-99b3-422f17376a5a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

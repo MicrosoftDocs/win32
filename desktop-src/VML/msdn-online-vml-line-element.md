@@ -2,7 +2,7 @@
 title: VML Line Element
 description: VML Line Element
 ms.assetid: e82942fa-21da-46db-b9f8-675339a97ffd
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

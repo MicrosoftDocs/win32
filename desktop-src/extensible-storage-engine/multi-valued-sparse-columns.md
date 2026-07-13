@@ -6,7 +6,7 @@ ms:assetid: 36e82a73-aad4-4e0d-a743-a2182c41fe9c
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg269225(v=EXCHG.10)
 ms:contentKeyID: 32765527
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 ---
 
 # Multi-Valued Sparse Columns

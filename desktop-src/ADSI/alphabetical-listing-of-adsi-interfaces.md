@@ -5,7 +5,7 @@ ms.assetid: 23661784-e303-4e05-a358-8e00fb05b959
 ms.tgt_platform: multiple
 keywords:
 - Alphabetical Listing of ADSI Interfaces ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -50,7 +50,7 @@ The lowest (or oldest) log file number that is restored. The full fidelity of an
 
 **ulGenHigh**
 
-The highest (or most recent) log file number that is restored. The full fidelity of a unsigned long should be preserved, but in current versions of the engine this number is a hexadecimal number in the range from 0x00000 to 0xFFFFF. This might change in future versions.
+The highest (or most recent) log file number that is restored. The full fidelity of an unsigned long should be preserved, but in current versions of the engine this number is a hexadecimal number in the range from 0x00000 to 0xFFFFF. This might change in future versions.
 
 **szBaseName**
 

@@ -3,7 +3,7 @@ description: The PdhVbAddCounter function creates a counter entry in the specifi
 ms.assetid: 20a9e6cd-bf0d-497d-b660-88e786e2f004
 title: PdhVbAddCounter function
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - APIRef
 - kbSyntax

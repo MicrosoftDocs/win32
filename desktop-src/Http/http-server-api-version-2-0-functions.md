@@ -5,7 +5,7 @@ ms.assetid: 12daffca-b403-4f06-8037-206f90e33252
 keywords:
 - HTTP Server API version 2.0 functions
 - Functions HTTP, HTTP Server API version 2.0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

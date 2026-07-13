@@ -2,7 +2,7 @@
 title: Use Wireless Hosted Network, Internet Connection Sharing
 description: Using Wireless Hosted Network and Internet Connection Sharing
 ms.assetid: 56e86ef8-f759-4e56-a591-74e03430125a
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -120,7 +120,7 @@ The following ordered steps are the recommended stop sequence in an application 
 -   Stop full ICS.
 -   Call the [**WlanHostedNetworkForceStop**](/windows/desktop/api/Wlanapi/nf-wlanapi-wlanhostednetworkforcestop) function to stop the wireless Hosted Network.
 
-An application using wireless Hosted Network without full ICS that is finished with its work just needs to call the [**WlanHostedNetworkStopUsing**](/windows/desktop/api/Wlanapi/nf-wlanapi-wlanhostednetworkstopusing) or [**WlanHostedNetworkForceStop**](/windows/desktop/api/Wlanapi/nf-wlanapi-wlanhostednetworkforcestop) function to stop the wireless Hosted Network. If the [**WlanHostedNetworkStartUsing**](/windows/desktop/api/Wlanapi/nf-wlanapi-wlanhostednetworkstartusing) function was called to start the wireless Hosted Network, then the application should call the **WlanHostedNetworkStopUsing** function to stop the wireless Hosted Network. If the wireless Hosted Network was was already started before the application or the application called the [**WlanHostedNetworkForceStart**](/windows/desktop/api/Wlanapi/nf-wlanapi-wlanhostednetworkforcestart) function to force start the wireless Hosted Network, then the application can call the **WlanHostedNetworkForceStop** function to stop the wireless Hosted Network or do nothing (leave wireless Hosted Network started) depending on the scenario.
+An application using wireless Hosted Network without full ICS that is finished with its work just needs to call the [**WlanHostedNetworkStopUsing**](/windows/desktop/api/Wlanapi/nf-wlanapi-wlanhostednetworkstopusing) or [**WlanHostedNetworkForceStop**](/windows/desktop/api/Wlanapi/nf-wlanapi-wlanhostednetworkforcestop) function to stop the wireless Hosted Network. If the [**WlanHostedNetworkStartUsing**](/windows/desktop/api/Wlanapi/nf-wlanapi-wlanhostednetworkstartusing) function was called to start the wireless Hosted Network, then the application should call the **WlanHostedNetworkStopUsing** function to stop the wireless Hosted Network. If the wireless Hosted Network was already started before the application or the application called the [**WlanHostedNetworkForceStart**](/windows/desktop/api/Wlanapi/nf-wlanapi-wlanhostednetworkforcestart) function to force start the wireless Hosted Network, then the application can call the **WlanHostedNetworkForceStop** function to stop the wireless Hosted Network or do nothing (leave wireless Hosted Network started) depending on the scenario.
 
 ## Recovery Sequence for Wireless Hosted Network
 

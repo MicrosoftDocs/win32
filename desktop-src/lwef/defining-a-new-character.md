@@ -2,7 +2,7 @@
 title: Defining a New Character
 description: Defining a New Character
 ms.assetid: 4102cb7d-2fec-45d2-882a-04704c7f5a48
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: DDE shares are a machine resource.
 ms.assetid: 98d24300-52cc-4f0d-b74f-c58b823ac5f3
 title: DDE Shares
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

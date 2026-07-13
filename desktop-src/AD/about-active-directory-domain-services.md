@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Active Directory Active Directory , about
 - Active Directory Domain Services Active Directory , about
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

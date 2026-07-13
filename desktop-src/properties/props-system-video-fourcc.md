@@ -2,7 +2,7 @@
 description: Specifies the FOURCC code for the video stream.
 ms.assetid: c5054fc6-1273-4491-8fb9-30c4b8fc663f
 title: System.Video.FourCC
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

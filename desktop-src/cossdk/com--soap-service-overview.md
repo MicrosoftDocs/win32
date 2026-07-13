@@ -2,7 +2,7 @@
 description: HTTP revolutionized computer use by allowing people to use a Web browser for easy access to information on a remote server over a network.
 ms.assetid: 44f3ff21-4978-4902-aa74-ddeef60881db
 title: COM+ SOAP Service Overview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

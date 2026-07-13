@@ -74,64 +74,62 @@ The size, in bytes, of the buffer passed as *pvResult*.
 
 The information that will be stored in *pvResult*. The following options can be used for this parameter.
 
-
-| <p>Value</p> | <p>Meaning</p> | 
-|--------------|----------------|
-| <p>JET_IdxInfo</p> | <p><em>pvResult</em> is interpreted as a <a href="gg269185(v=exchg.10).md">JET_INDEXLIST</a> structure. On success, the <a href="gg269185(v=exchg.10).md">JET_INDEXLIST</a> structure receives information about the index. On failure, the contents of <em>pvBuffer</em> are undefined.</p> | 
+| Value | Meaning |
+| -------------- | ---------------- |
+| <p>JET_IdxInfo</p> | <p><em>pvResult</em> is interpreted as a [JET_INDEXLIST](./jet-indexlist-structure.md)</a> structure. On success, the <a href="gg269185(v=exchg.10).md">JET_INDEXLIST</a> structure receives information about the index. On failure, the contents of <em>pvBuffer</em> are undefined.</p> |
 | <p>JET_IdxInfoCount</p> | <p><em>pvResult</em> is interpreted as a ULONG. On success, the ULONG holds the count of indexes on the specified table. <em>szIndexName</em> is ignored. On failure, the contents of <em>pvBuffer</em> are undefined.</p> | 
-| <p>JET_IdxInfoIndexId</p> | <p><em>pvResult</em> is interpreted as a <a href="gg269327(v=exchg.10).md">JET_INDEXID</a>. On success, the <a href="gg269327(v=exchg.10).md">JET_INDEXID</a> structure receives information about the index. On failure, the contents of <em>pvBuffer</em> are undefined.</p> | 
-| <p>JET_IdxInfoLangid</p> | <p>JET_IdxInfoLangid is deprecated. Use JET_IdxInfoLCID and the <a href="/windows/win32/api/winnt/nf-winnt-langidfromlcid">LANGIDFROMLCID</a> macro instead.</p> | 
+| <p>JET_IdxInfoIndexId</p> | <p><em>pvResult</em> is interpreted as a [JET_INDEXID](./jet-indexid-structure.md)</a>. On success, the <a href="gg269327(v=exchg.10).md">JET_INDEXID</a> structure receives information about the index. On failure, the contents of <em>pvBuffer</em> are undefined.</p> |
+| <p>JET_IdxInfoLangid</p> | <p>JET_IdxInfoLangid is deprecated. Use JET_IdxInfoLCID and the <a href="/windows/win32/api/winnt/nf-winnt-langidfromlcid">LANGIDFROMLCID</a> macro instead.</p> |
 | <p>JET_IdxInfoLCID</p> | <p><em>pvResult</em> is interpreted as an LCID. On success, the LCID holds the Locale Identifier of the index. On failure, the contents of <em>pvBuffer</em> are undefined.</p><p><strong>Windows XP:  </strong>JET_IdxInfoLCID is introduced in Windows XP.</p> | 
-| <p>JET_IdxInfoList</p> | <p><em>pvResult</em> is interpreted as a <a href="gg269185(v=exchg.10).md">JET_INDEXLIST</a> structure. On success, the <a href="gg269185(v=exchg.10).md">JET_INDEXLIST</a> structure receives information about the index. On failure, the contents of <em>pvBuffer</em> are undefined.</p> | 
-| <p>JET_IdxInfoOLC</p> | <p>JET_IdxInfoOLC is obsolete.</p> | 
-| <p>JET_IdxInfoResetOLC</p> | <p>JET_IdxInfoResetOLC is obsolete.</p> | 
-| <p>JET_IdxInfoSpaceAlloc</p> | <p><em>pvResult</em> is interpreted as a ULONG. On success, the ULONG holds the space usage of the index. On failure, the contents of <em>pvBuffer</em> are undefined.</p> | 
-| <p>JET_IdxInfoSysTabCursor</p> | <p>JET_IdxInfoSysTabCursor is obsolete.</p> | 
-| <p>JET_IdxInfoVarSegMac</p> | <p><em>pvResult</em> is interpreted as a USHORT. On success, the USHORT holds the value of <em>cbVarSegMac</em> used when the index was created. See <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a> for a description of <em>cbVarSegMac</em>. On failure, the contents of <em>pvBuffer</em> are undefined.</p> | 
-| <p>JET_IdxInfoKeyMost</p> | <p><em>pvResult</em> is interpreted as a USHORT. On success, the USHORT holds the value of <em>cbKeyMost</em> used when the index was created. See <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a> for a description of <em>cbKeyMost</em>. On failure, the contents of <em>pvBuffer</em> are undefined.</p><p><strong>Windows Vista:  </strong>JET_IdxInfoKeyMost is introduced in Windows Vista.</p> | 
-| <p>JET_IdxInfoCreateIndex</p> | <p><em>pvResult</em> is interpreted as a <a href="gg269186(v=exchg.10).md">JET_INDEXCREATE</a> structure. On failure, the contents of <em>pvBuffer</em> are undefined.</p><p><strong>Windows 7:  </strong>JET_IdxInfoCreateIndex is introduced in Windows 7.</p> | 
-| <p>JET_IdxInfoCreateIndex2</p> | <p><em>pvResult</em> is interpreted as a <a href="gg294082(v=exchg.10).md">JET_INDEXCREATE2</a> structure. On failure, the contents of <em>pvBuffer</em> are undefined.</p><p><strong>Windows 7:  </strong>JET_IdxInfoCreateIndex2 is introduced in Windows 7.</p> | 
-
-
+| <p>JET_IdxInfoList</p> | <p><em>pvResult</em> is interpreted as a [JET_INDEXLIST](./jet-indexlist-structure.md) structure. On success, the <a href="gg269185(v=exchg.10).md">JET_INDEXLIST</a> structure receives information about the index. On failure, the contents of <em>pvBuffer</em> are undefined.</p> |
+| <p>JET_IdxInfoOLC</p> | <p>JET_IdxInfoOLC is obsolete.</p> |
+| <p>JET_IdxInfoResetOLC</p> | <p>JET_IdxInfoResetOLC is obsolete.</p> |
+| <p>JET_IdxInfoSpaceAlloc</p> | <p><em>pvResult</em> is interpreted as a ULONG. On success, the ULONG holds the target density (*ulDensity*) of the index. See [JET_INDEXCREATE](./jet-indexcreate-structure.md) for a description of *ulDensity*. On failure, the contents of <em>pvBuffer</em> are undefined.</p> |
+| <p>JET_IdxInfoSysTabCursor</p> | <p>JET_IdxInfoSysTabCursor is obsolete.</p> |
+| <p>JET_IdxInfoVarSegMac</p> | <p><em>pvResult</em> is interpreted as a USHORT. On success, the USHORT holds the value of <em>cbVarSegMac</em> used when the index was created. See [JET_INDEXCREATE](./jet-indexcreate-structure.md) for a description of <em>cbVarSegMac</em>. On failure, the contents of <em>pvBuffer</em> are undefined.</p> |
+| <p>JET_IdxInfoKeyMost</p> | <p><em>pvResult</em> is interpreted as a USHORT. On success, the USHORT holds the value of <em>cbKeyMost</em> used when the index was created. See [JET_INDEXCREATE](./jet-indexcreate-structure.md) for a description of <em>cbKeyMost</em>. On failure, the contents of <em>pvBuffer</em> are undefined.</p><p><strong>Windows Vista:  </strong>JET_IdxInfoKeyMost is introduced in Windows Vista.</p> |
+| <p>JET_IdxInfoCreateIndex</p> | <p><em>pvResult</em> is interpreted as a [JET_INDEXCREATE](./jet-indexcreate-structure.md) structure. On failure, the contents of <em>pvBuffer</em> are undefined.</p><p><strong>Windows 7:  </strong>JET_IdxInfoCreateIndex is introduced in Windows 7.</p> |
+| <p>JET_IdxInfoCreateIndex2</p> | <p><em>pvResult</em> is interpreted as a [JET_INDEXCREATE2](./jet-indexcreate2-structure.md) structure. On failure, the contents of <em>pvBuffer</em> are undefined.</p><p><strong>Windows 7:  </strong>JET_IdxInfoCreateIndex2 is introduced in Windows 7.</p> |
+| JET_IdxInfoSpaceOwned | _pvResult_ is interpreted as a `ULONG`. On success, the `ULONG` holds the number of pages owned by the index. See [Remarks](#remarks) for more information. <p> <p> **Windows 11:** _JET_IdxInfoSpaceOwned_ is introduced in Windows 11. |
+| JET_IdxInfoSpaceAvail | _pvResult_ is interpreted as a `ULONG`. On success, the `ULONG` holds the number of pages available in the index. See [Remarks](#remarks) for more information. <p> <p> **Windows 11:** _JET_IdxInfoSpaceAvail_ is introduced in Windows 11. |
 
 ### Return Value
 
 This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
-
-| <p>Return code</p> | <p>Description</p> | 
+| <p>Return code</p> | <p>Description</p> |
 |--------------------|--------------------|
-| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
-| <p>JET_errIndexNotFound</p> | <p>The specified index cannot be found in the specified table.</p> | 
-| <p>JET_wrnBufferTruncated</p> | <p>The buffer passed in as <em>pvResult</em> was too small. The contents of the buffer are undefined.</p> | 
-
-
+| <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> |
+| <p>JET_errIndexNotFound</p> | <p>The specified index cannot be found in the specified table.</p> |
+| <p>JET_wrnBufferTruncated</p> | <p>The buffer passed in as <em>pvResult</em> was too small. The contents of the buffer are undefined.</p> |
 
 #### Remarks
 
 **JetGetIndexInfo** and [JetGetTableIndexInfo](./jetgettableindexinfo-function.md) retrieve identical information about an index. The difference is in how the table is specified. **JetGetIndexInfo** expects a database (*dbid*) and name of a table (*szTableName*), while [JetGetTableIndexInfo](./jetgettableindexinfo-function.md) expects a table identifier (*tableid*).
 
-#### Requirements
+The space consumed by an index is defined by $Used + Avail = Owned$. Therefore to get the number of pages in use,
+use the formula $Owned - Avail = Used$ (retrievable with _JET_IdxInfoSpaceOwned_ and _JET_IdxInfoSpaceAvail_).
 
+#### Requirements
 
 | Requirement | Value |
 |------------|----------|
-| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> | 
-| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> | 
-| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> | 
-| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> | 
-| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> | 
-| <p><strong>Unicode</strong></p> | <p>Implemented as <strong>JetGetIndexInfoW</strong> (Unicode) and <strong>JetGetIndexInfoA</strong> (ANSI).</p> | 
-
-
+| <p><strong>Client</strong></p> | <p>Requires Windows Vista, Windows XP, or Windows 2000 Professional.</p> |
+| <p><strong>Server</strong></p> | <p>Requires Windows Server 2008, Windows Server 2003, or Windows 2000 Server.</p> |
+| <p><strong>Header</strong></p> | <p>Declared in Esent.h.</p> |
+| <p><strong>Library</strong></p> | <p>Use ESENT.lib.</p> |
+| <p><strong>DLL</strong></p> | <p>Requires ESENT.dll.</p> |
+| <p><strong>Unicode</strong></p> | <p>Implemented as <strong>JetGetIndexInfoW</strong> (Unicode) and <strong>JetGetIndexInfoA</strong> (ANSI).</p> |
 
 #### See Also
 
-[JET_COLUMNID](./jet-columnid.md)  
-[JET_ERR](./jet-err.md)  
-[JET_GRBIT](./jet-grbit.md)  
-[JET_INDEXCREATE](./jet-indexcreate-structure.md)  
-[JET_INDEXID](./jet-indexid-structure.md)  
-[JET_SESID](./jet-sesid.md)  
-[JET_TABLEID](./jet-tableid.md)  
+[JET_COLUMNID](./jet-columnid.md)
+[JET_ERR](./jet-err.md)
+[JET_GRBIT](./jet-grbit.md)
+[JET_INDEXCREATE](./jet-indexcreate-structure.md)
+[JET_INDEXCREATE2](./jet-indexcreate2-structure.md)
+[JET_INDEXID](./jet-indexid-structure.md)
+[JET_INDEXLIST](./jet-indexlist-structure.md)
+[JET_SESID](./jet-sesid.md)
+[JET_TABLEID](./jet-tableid.md)
 [JetGetTableIndexInfo](./jetgettableindexinfo-function.md)

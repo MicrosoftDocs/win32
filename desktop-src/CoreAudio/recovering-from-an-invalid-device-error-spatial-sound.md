@@ -1,7 +1,7 @@
 ---
 description: Recovering from an Invalid-Device Error (Spatial Sound)
 title: Recovering from an Invalid-Device Error (Spatial Sound)
-ms.topic: article
+ms.topic: how-to
 ms.date: 10/29/2020
 ---
 

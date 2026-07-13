@@ -4,7 +4,7 @@ description: InprocHandler32 specifies whether an application uses a custom hand
 ms.assetid: da611bb6-1f69-449a-9821-e2fbbe413a97
 keywords:
 - InprocHandler32 registry key COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

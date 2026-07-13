@@ -3,7 +3,7 @@ description: Creating a derived class in WMI is very similar to creating a base 
 ms.assetid: 8dd483b8-8bc2-4a5c-b981-6c2ffaccdb95
 ms.tgt_platform: multiple
 title: Creating a WMI Derived Class
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

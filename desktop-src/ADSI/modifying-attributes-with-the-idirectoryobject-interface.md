@@ -7,7 +7,7 @@ keywords:
 - Modifying Attributes with the IDirectoryObject Interface ADSI
 - IDirectoryObject ADSI , Using to Modify Attributes
 - ADSI ADSI , Example Code C/C++ , Using IDirectoryObject to Modify Attributes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

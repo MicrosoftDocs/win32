@@ -3,7 +3,7 @@ description: One of the first steps in creating a permanent event consumer is to
 ms.assetid: a5b6d0b9-8df1-47e3-bb3b-cc69db6d9c0e
 ms.tgt_platform: multiple
 title: Creating a New Permanent Event Consumer Class
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

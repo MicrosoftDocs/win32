@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Determining a User's or Group's Membership in a Group AD
 - groups AD , determining a user's or group's membership in a group
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

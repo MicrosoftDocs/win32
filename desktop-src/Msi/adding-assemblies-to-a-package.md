@@ -2,7 +2,7 @@
 description: Windows Installer developers can use the guidelines in this topic to author Windows Installer packages that contain assemblies.
 ms.assetid: 60687a4f-aaa4-4264-a3f7-0a16eb1fb336
 title: Adding Assemblies to a Package
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

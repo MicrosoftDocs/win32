@@ -1,7 +1,7 @@
 ---
 description: If a computer is running Windows 2000 Server or later on a network, users can store their profiles on the server. These profiles are called roaming user profiles.
 title: Roaming User Profiles
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.assetid: 8af06fdf-be99-4295-8f11-7d7f68e66956
 api_name: 

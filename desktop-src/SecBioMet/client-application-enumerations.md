@@ -4,7 +4,7 @@ description: Enumerations that are supported by the Windows Biometric Framework 
 ms.assetid: fd33bc63-cc99-40de-a43b-b0bc7d4c9454
 keywords:
 - Windows Biometric Framework API Windows Biometric Framework API , client application enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -4,7 +4,7 @@ description: When a program invokes a procedure in an interface, the procedure m
 ms.assetid: 3e6c6c13-1524-41b2-96dc-3885eadb847c
 keywords:
 - IDL MIDL , attributes MIDL , asynchronous
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Driver Support for MCI Commands
 description: Driver Support for MCI Commands
 ms.assetid: 1adea076-c04e-4613-a793-60de41b2e9db
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

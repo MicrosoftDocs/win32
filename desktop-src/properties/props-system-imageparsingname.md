@@ -2,7 +2,7 @@
 description: Image parsing name.
 ms.assetid: 62143bdd-03f4-4b0f-bd63-94e364ea17f5
 title: System.ImageParsingName
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

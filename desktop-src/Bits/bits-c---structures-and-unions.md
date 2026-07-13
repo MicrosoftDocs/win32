@@ -2,7 +2,7 @@
 title: BITS structures and unions
 description: The Background Intelligent Transfer Service (BITS) interfaces use the following structures.
 ms.assetid: a1b8b4a1-77d6-46ac-96d5-6a0c99cfc643
-ms.topic: article
+ms.topic: reference
 ms.date: 02/21/2019
 ---
 

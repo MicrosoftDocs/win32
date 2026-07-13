@@ -4,7 +4,7 @@ description: Type definition statements in MIDL follow the semantics of the C an
 ms.assetid: b4f86a61-c644-4632-b0b8-34935bb5babc
 keywords:
 - data types MIDL , type definitions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

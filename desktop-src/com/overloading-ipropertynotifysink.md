@@ -2,7 +2,7 @@
 title: Overloading IPropertyNotifySink
 description: Overloading IPropertyNotifySink
 ms.assetid: c6d52da0-7b7e-4ca8-b903-310bf988d2f7
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

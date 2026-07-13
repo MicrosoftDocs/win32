@@ -2,7 +2,7 @@
 description: This section contains information about parser-specific functions, structures, and enumerations that you can use to develop a parser.
 ms.assetid: 398af82d-9e87-47bb-b1b7-f91ae239367d
 title: Parser Functions and Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

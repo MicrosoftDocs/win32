@@ -1,7 +1,7 @@
 ---
 description: Demonstrates how to determine HomeGroup membership status, enumerate top-level items in the HomeGroup Shell folder, and launch the HomeGroup Sharing Wizard.
 title: HomeGroup Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ms.assetid: FDEFF261-BF86-4fbb-8567-892F79F23D92
 api_name: 

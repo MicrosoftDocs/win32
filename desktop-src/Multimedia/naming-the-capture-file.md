@@ -5,7 +5,7 @@ ms.assetid: fae2fd6a-4c2f-432f-a714-9faae6daeafe
 keywords:
 - capFileSetCaptureFile macro
 - capFileAlloc macro
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

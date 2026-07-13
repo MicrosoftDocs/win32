@@ -2,7 +2,7 @@
 title: The Agent Object Model
 description: The Agent Object Model
 ms.assetid: 4ec6ec3f-9772-4e29-9482-b9860092f053
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

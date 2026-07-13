@@ -2,7 +2,7 @@
 description: Windows GDI+ exposes a flat API that consists of about 600 functions. These flat API functions are wrapped by the CachedBitmap C++ class.
 ms.assetid: 06718603-e001-49d4-ac5e-decdd98df42b
 title: CachedBitmap Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

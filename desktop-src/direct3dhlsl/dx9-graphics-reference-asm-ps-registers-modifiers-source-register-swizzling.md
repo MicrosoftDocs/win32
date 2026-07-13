@@ -2,7 +2,7 @@
 title: Source register swizzling (HLSL PS reference)
 description: Swizzling refers to the ability to copy any source register component to any temporary register component. Swizzling does not affect the source register data. Before an instruction runs, the data in a source register is copied to a temporary register.
 ms.assetid: 27aee6a8-5185-4236-b3e4-44addf230c34
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

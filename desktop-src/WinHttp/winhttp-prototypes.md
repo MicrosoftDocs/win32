@@ -2,7 +2,7 @@
 description: This topic identifies the callback that WinHTTP uses.
 ms.assetid: d477afed-4a14-49b2-8728-d3049de18989
 title: WinHTTP Callbacks
-ms.topic: article
+ms.topic: reference
 ms.date: 06/29/2022
 ---
 

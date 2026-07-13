@@ -2,7 +2,7 @@
 description: A mipmap is a sequence of textures, each of which is a progressively lower resolution representation of the same image.
 ms.assetid: b64abca9-0efb-4939-849d-e75a8d0dc10b
 title: Texture Filtering with Mipmaps (Direct3D 9)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

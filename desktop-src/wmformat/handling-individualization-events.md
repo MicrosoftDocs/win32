@@ -15,7 +15,7 @@ keywords:
 - DRM (digital rights management),individualization events
 - individualization events
 - events,individualization events
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

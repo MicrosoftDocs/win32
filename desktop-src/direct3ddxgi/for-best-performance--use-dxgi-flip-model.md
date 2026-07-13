@@ -2,7 +2,7 @@
 description: This topic provides developer guidance on how to maximize performance and efficiency in the presentation stack on modern versions of Windows.
 ms.assetid: B6B92F4F-B1D0-40B9-987D-F0C0F2CC7AD1
 title: For best performance, use DXGI flip model
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.custom: RS5
 ---
@@ -19,7 +19,7 @@ Switching to **DXGI\_SWAP\_EFFECT\_FLIP\_SEQUENTIAL** or **DXGI\_SWAP\_EFFECT\_F
 
 Flip model presents go as far as making windowed mode effectively equivalent or better when compared to the classic "fullscreen exclusive" mode. In fact, you may want to reconsider whether your application actually needs a fullscreen exclusive mode, since the benefits of a flip model borderless window include faster Alt-Tab switching and better integration with modern display features.
 
-Why now? Prior to the April 2018 Update, blt model presents could result in visible tearing when used on hybrid GPU configurations, often found in high-end laptops (see [KB 3158621](https://support.microsoft.com/help/3158621/hybrid-graphics-and-vsync-results-in-graphic-tearing-in-some-games-and)). In the April 2018 Update, this tearing has been fixed, at the cost of some additional work. If you are doing blt presents at high framerates across hybrid GPUs, especially at high resolutions such as 4K, this additional work may affect overall performance. To maintain best performance on these systems, switch from the blt to the flip present model. Additionally, consider reducing the resolution of your swapchain, especially if it isn’t the primary point of user interaction (as is often the case with VR preview windows).
+Why now? Prior to the April 2018 Update, blt model presents could result in visible tearing when used on hybrid GPU configurations, often found in high-end laptops. In the April 2018 Update, this tearing has been fixed, at the cost of some additional work. If you are doing blt presents at high framerates across hybrid GPUs, especially at high resolutions such as 4K, this additional work may affect overall performance. To maintain best performance on these systems, switch from the blt to the flip present model. Additionally, consider reducing the resolution of your swapchain, especially if it isn’t the primary point of user interaction (as is often the case with VR preview windows).
 
 ## A brief history
 

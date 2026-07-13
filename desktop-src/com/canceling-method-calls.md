@@ -2,7 +2,7 @@
 title: Canceling Method Calls
 description: With the introduction of distributed and Web-based applications, some method calls can take an unacceptably long time to return.
 ms.assetid: 18228ff1-8c1c-430a-ae5f-0e9a56b0fe3c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

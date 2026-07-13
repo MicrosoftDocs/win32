@@ -4,7 +4,7 @@ description: Adapter functions, wrapper functions, and structures for creating c
 ms.assetid: 1886c389-b914-4b2d-ab7e-3e163782673d
 keywords:
 - Windows Biometric Framework API Windows Biometric Framework API , plug-in reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: LOCALE\_IFIRSTWEEKOFYEAR
 ms.assetid: 866a28b7-e0b8-4b99-96df-345791a24833
 title: LOCALE_IFIRSTWEEKOFYEAR
-ms.topic: article
+ms.topic: reference
 ms.date: 03/04/2020
 ---
 

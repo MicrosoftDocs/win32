@@ -2,15 +2,20 @@
 description: The Sensor API provides event notifications through callback interfaces.
 ms.assetid: 0c396d54-cb2e-4b07-999f-3f4001db2a02
 title: Using Sensor API Events
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 09/19/2025
 ---
 
 # Using Sensor API Events
 
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
+
 The Sensor API provides event notifications through callback interfaces.
 
-To receive event notfications, your program must implement the required COM callback interfaces. To receive events from sensors, you must implement [**ISensorEvents**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents). To receive events from the sensor manager, you must implement [**ISensorManagerEvents**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanagerevents).
+To receive event notifications, your program must implement the required COM callback interfaces. To receive events from sensors, you must implement [**ISensorEvents**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents). To receive events from the sensor manager, you must implement [**ISensorManagerEvents**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensormanagerevents).
 
 The following example code creates a class that implements [**ISensorEvents**](/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents).
 
@@ -153,7 +158,7 @@ public:
     {
         HRESULT hr = S_OK;
 
-        // Peform any housekeeping tasks for the sensor that is leaving.
+        // Perform any housekeeping tasks for the sensor that is leaving.
         // For example, if you have maintained a reference to the sensor,
         // release it now and set the pointer to NULL.
 
@@ -197,7 +202,7 @@ public:
 
 After implementing the callback interface, you can provide a particular sensor with a pointer to an instance of your callback class to start receiving event notifications from the sensor.
 
-The following example code creates an instance of the callback class, and then requests event notifcations from a sensor.
+The following example code creates an instance of the callback class, and then requests event notifications from a sensor.
 
 
 ```C++
@@ -242,7 +247,7 @@ if(SUCCEEDED(hr))
 
 ## Requesting a Report Interval
 
-You can suggest a value for how frequently your applicaton receives data-updated events. However, sensors are not required to provide events at any particular interval. You should be aware that your suggested value might not match the actual report interval the sensor uses to raise events. To know the actual report interval, retrieve the value for the SENSOR\_PROPERTY\_CURRENT\_REPORT\_INTERVAL property, as described in [Retrieving and Setting Sensor Properties](setting-and-retrieving-sensor-properties.md).
+You can suggest a value for how frequently your application receives data-updated events. However, sensors are not required to provide events at any particular interval. You should be aware that your suggested value might not match the actual report interval the sensor uses to raise events. To know the actual report interval, retrieve the value for the SENSOR\_PROPERTY\_CURRENT\_REPORT\_INTERVAL property, as described in [Retrieving and Setting Sensor Properties](setting-and-retrieving-sensor-properties.md).
 
 The following example code creates a helper function that requests a new value for the SENSOR\_PROPERTY\_CURRENT\_REPORT\_INTERVAL property. The function takes a pointer to the sensor for which to set the property, and a **ULONG** value that indicates the new report interval to be set.
 
@@ -313,9 +318,9 @@ HRESULT SetCurrentReportInterval(ISensor* pSensor, ULONG ulNewInterval)
 [About Sensor API Events](about-sensor-events.md)
 </dt> </dl>
 
- 
 
- 
+
+
 
 
 

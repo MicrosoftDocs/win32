@@ -3,7 +3,7 @@ description: 'To create an application for WMI using C++: you must initialize CO
 ms.assetid: 0b9b7990-6982-4ba9-8dba-7470990405f7
 ms.tgt_platform: multiple
 title: Creating a WMI Application Using C++
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Trackbar Control Reference
 description: Trackbar Control Reference
 ms.assetid: 0940bc3a-c19e-4bfa-9635-32ac92dea24b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Uploading texture data through buffers
 description: Uploading 2D or 3D texture data is similar to uploading 1D data, except that applications need to pay closer attention to data alignment related to row pitch.
 ms.assetid: 22A25A94-A45C-482D-853A-FA6860EE7E4E
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -99,6 +99,9 @@ Note the following two constants:
 const UINT D3D12_TEXTURE_DATA_PITCH_ALIGNMENT = 256;
 const UINT D3D12_TEXTURE_DATA_PLACEMENT_ALIGNMENT = 512;
 ```
+The row pitch of every subresource must be aligned to a multiple of D3D12_TEXTURE_DATA_PITCH_ALIGNMENT (256) and the starting offset of every subresource must be aligned to a multiple of D3D12_TEXTURE_DATA_PLACEMENT_ALIGNMENT (512) unless <a href="/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options13">D3D12_FEATURE_DATA_D3D12_OPTIONS13::UnrestrictedBufferTextureCopyPitchSupported</a> is TRUE.
+
+In cases where the row pitch is less than D3D12_TEXTURE_DATA_PITCH_ALIGNMENT (256), which is typical of the smallest mips of a texture, it is likely that the subresource offset alignment of D3D12_TEXTURE_DATA_PLACEMENT_ALIGNMENT (512) will add **extra** padding between subresources over and above the padding added by aligning the row pitch.
 
 -   [**D3D12\_SUBRESOURCE\_FOOTPRINT**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_subresource_footprint)
 -   [**D3D12\_PLACED\_SUBRESOURCE\_FOOTPRINT**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_placed_subresource_footprint)
@@ -125,7 +128,7 @@ The D3D11 method of using [**Map**](/windows/desktop/api/d3d12/nf-d3d12-id3d12re
 
 Buffer alignment restrictions:
 
--   Linear subresource copying must be aligned to 512 bytes (with the row pitch aligned to D3D12\_TEXTURE\_DATA\_PITCH\_ALIGNMENT bytes).
+-   Linear subresource copying must be aligned to D3D12_TEXTURE_DATA_PLACEMENT_ALIGNMENT (512) bytes (with the row pitch aligned to D3D12\_TEXTURE\_DATA\_PITCH\_ALIGNMENT (256) bytes).
 -   Constant data reads must be a multiple of 256 bytes from the beginning of the heap (i.e. only from addresses that are 256-byte aligned).
 -   Index data reads must be a multiple of the index data type size (i.e. only from addresses that are naturally aligned for the data).
 -   [**ID3D12GraphicsCommandList::ExecuteIndirect**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-executeindirect) data must be from offsets that are multiples of 4 (i.e. only from addresses that are DWORD aligned).

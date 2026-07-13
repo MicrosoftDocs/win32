@@ -2,7 +2,7 @@
 title: VML UserDrawn Attribute
 description: VML UserDrawn Attribute
 ms.assetid: cf04a4e8-48b2-4f0b-9796-4b38b88d6911
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

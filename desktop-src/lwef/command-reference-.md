@@ -2,7 +2,7 @@
 title: Command Reference (Microsoft Agent Character Editor)
 description: This command reference describes the Microsoft Agent Character Editor. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: c8d57500-ad29-4325-aec7-3f857990b28c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Hashes are most useful to verify the integrity of the data when used with an asymmetric signing algorithm.
 ms.assetid: f36b7e36-4377-4940-8951-6caba6e3ce8a
 title: Creating a Hash with CNG
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

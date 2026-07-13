@@ -15,7 +15,7 @@ keywords:
 - ASF (Advanced Systems Format),outputs
 - Advanced Systems Format (ASF),formats
 - ASF (Advanced Systems Format),formats
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -4,7 +4,7 @@ description: A system service that allows transparent sharing of the Trusted Pla
 ms.assetid: 5ab3f514-dea9-48f7-97d9-abc774e2a273
 keywords:
 - TPM Base Services TBS , about
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

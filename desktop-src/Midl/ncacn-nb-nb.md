@@ -38,7 +38,7 @@ Specifies an optional 8-bit value ranging from 1 to 255. Values of less than 0x2
 The syntax of the NetBIOS port string, like all port strings, is defined by the transport implementation and is independent of the IDL specification. The MIDL compiler performs limited syntax checking but does not guarantee that the endpoint specification is correct. Some classes of errors may be reported at run time rather than at compile time.
 
 > [!Note]  
-> This protocol family is not supported in WindowsÂ XP.
+> This protocol family is not supported in Windows XP.
 
  
 

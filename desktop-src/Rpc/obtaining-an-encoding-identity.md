@@ -4,7 +4,7 @@ description: An application that is decoding encoded data can obtain the identit
 ms.assetid: 53cbd6c5-b267-4ff1-a45b-7e22093f41a5
 keywords:
 - Remote Procedure Call RPC , tasks, obtaining encoding identity
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

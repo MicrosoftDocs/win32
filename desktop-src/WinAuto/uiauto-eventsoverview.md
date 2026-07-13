@@ -13,8 +13,8 @@ keywords:
 - Element action events
 - Structure change events
 - Global desktop change events
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # UI Automation Events Overview

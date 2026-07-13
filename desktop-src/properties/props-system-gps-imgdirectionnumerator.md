@@ -2,7 +2,7 @@
 description: The numerator of PKEY\_GPS\_Img Direction.
 ms.assetid: d2a761fe-7534-4a25-b243-4632f484ab75
 title: System.GPS.ImgDirectionNumerator
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

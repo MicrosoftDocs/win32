@@ -2,7 +2,7 @@
 description: This section describes how to write a custom Media Foundation Transform (MFT).
 ms.assetid: a95828d3-afc5-4f6b-aedd-5b6a72621e0e
 title: Writing a Custom MFT
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

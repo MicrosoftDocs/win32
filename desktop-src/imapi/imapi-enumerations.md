@@ -2,7 +2,7 @@
 title: IMAPI Enumerations
 ms.assetid: 4b45d9b0-5e17-4b75-9e04-4786276b3106
 description: "Learn more about: IMAPI Enumerations"
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

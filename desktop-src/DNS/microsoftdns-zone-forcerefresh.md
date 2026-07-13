@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 # ForceRefresh method of the MicrosoftDNS\_Zone class
 
 > [!NOTE]
-> This article contains references to the term master server, a term that Microsoft no longer uses. When the term is removed from the software, we’ll remove it from this article.
+> This article contains references to the term master server&mdash;a term that Microsoft doesn't condone, and has stopped using in new products and documentation. When the term is removed from the software, we’ll remove it from this article.
 
 The **ForceRefresh** method forces an update of the secondary DNS Server from the master server.
 

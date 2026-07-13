@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Performing an Attribute Scope Query ADSI
 - ADSI, Searching, IDirectorySearch, Other Search Options, Attribute Scope Query
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

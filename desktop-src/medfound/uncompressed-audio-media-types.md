@@ -2,7 +2,7 @@
 description: Uncompressed Audio Media Types
 ms.assetid: 130a18a9-1c86-4d16-a8ae-ed57bf50f9bb
 title: Uncompressed Audio Media Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

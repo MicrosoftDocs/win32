@@ -2,7 +2,7 @@
 description: Before you access files and directories on a given volume, you should determine the capabilities of the file system by using the GetVolumeInformation function.
 ms.assetid: 008e0cc4-bc12-47e8-a8b7-d4fa9395fceb
 title: Obtaining Volume Information
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

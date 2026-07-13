@@ -3,7 +3,7 @@ title: S (RPC)
 description: Words starting with S in Remote Procedure Call (RPC) glossary.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: ba3c7959-2acd-4a38-b996-cfe7dac20241
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

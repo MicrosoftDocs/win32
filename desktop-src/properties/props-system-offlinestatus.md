@@ -2,7 +2,7 @@
 description: System.OfflineStatus
 ms.assetid: 0badb5dd-6342-4110-b7a9-0b291dfe8578
 title: System.OfflineStatus
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

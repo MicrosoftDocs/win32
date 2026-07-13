@@ -2,7 +2,7 @@
 description: Defines an effect instance.
 ms.assetid: 'vs|directx_sdk|~\effectinstance.htm'
 title: EffectInstance
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

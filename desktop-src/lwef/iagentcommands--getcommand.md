@@ -2,7 +2,7 @@
 title: IAgentCommands GetCommand
 description: IAgentCommands GetCommand
 ms.assetid: 0f4a9152-d5dc-4045-b469-8a03f0369e34
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

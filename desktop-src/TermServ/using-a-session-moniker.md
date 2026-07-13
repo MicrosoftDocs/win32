@@ -3,7 +3,7 @@ title: Using a Session Moniker
 description: Session-to-session activation allows a client process to activate a local server process on a specified session.
 ms.assetid: de4967b6-6a53-4888-84f9-3fa29cbebe34
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

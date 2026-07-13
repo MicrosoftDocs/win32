@@ -18,7 +18,7 @@ keywords:
 - VML (Vector Markup Language),RGB triplets
 - vector graphics,RGB triplets
 - RGB triplets
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

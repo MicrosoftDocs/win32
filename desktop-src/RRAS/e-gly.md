@@ -3,7 +3,7 @@ title: E (RRAS)
 description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: ad0e5c33-40cb-41d5-9cfd-c86627960c4f
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

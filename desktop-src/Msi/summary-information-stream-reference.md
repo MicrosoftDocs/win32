@@ -2,7 +2,7 @@
 description: A list of the properties in the Windows Installer summary information stream.
 ms.assetid: 'bf094997-5afc-490d-9651-ef1c169f0787'
 title: Summary Information Stream Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

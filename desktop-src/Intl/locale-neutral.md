@@ -2,7 +2,7 @@
 description: LOCALE\_NEUTRAL
 ms.assetid: 599250b1-b98a-4fd8-92a0-08571b38fc08
 title: LOCALE_NEUTRAL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

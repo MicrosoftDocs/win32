@@ -6,7 +6,7 @@ ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentStopwatch
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentstopwatch_properties(v=EXCHG.10)
 ms:contentKeyID: 55102938
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # EsentStopwatch properties

@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # GetLicenseFromStoreMethod method of the MDM\_EnterpriseModernAppManagement\_StoreLicenses02\_01 class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+
 
 Method for getting a license from the store. See also, [GetLicenseFromStore](/windows/client-management/mdm/enterprisemodernappmanagement-csp).
 

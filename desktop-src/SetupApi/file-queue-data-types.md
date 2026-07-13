@@ -2,7 +2,7 @@
 description: The following data type is used with file queues.
 ms.assetid: d56d45f4-aeb8-4b6d-8648-7a21d7c74d80
 title: File Queue Data Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

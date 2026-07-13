@@ -2,7 +2,7 @@
 description: To create merge modules, use the general guidelines that are described in the Authoring Merge Modules topic.
 ms.assetid: 9d5e60dc-9133-4c6e-9a47-dd341f2757fa
 title: Creating a Merge Module that Can Be Configured by the End-User
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

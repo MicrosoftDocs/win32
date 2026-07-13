@@ -2,7 +2,7 @@
 description: The following example demonstrates using the Compression API in block mode.
 ms.assetid: 7483BCE4-3B85-4659-98E3-670D2F7EE52D
 title: Using the Compression API in block mode
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

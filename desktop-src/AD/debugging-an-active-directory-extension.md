@@ -3,7 +3,7 @@ title: Debugging an Active Directory Extension
 description: The Microsoft Active Directory directory service property sheet, context menu, and object creation wizard extensions documented in this topic are implemented as COM in-proc servers.
 ms.assetid: 8c280084-fd2f-4d34-a119-d4e925a68a5c
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

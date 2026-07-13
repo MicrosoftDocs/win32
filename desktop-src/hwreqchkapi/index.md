@@ -2,7 +2,7 @@
 description: Hardware Requirement Evaluator (HWREQCHK) library
 ms.assetid: b4eb3f60-a13a-4b91-b9f0-bd6b160e24d2
 title: HWREQCHK API
-ms.topic: article
+ms.topic: reference
 ms.date: 01/04/2023
 ---
 

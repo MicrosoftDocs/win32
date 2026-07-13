@@ -8,7 +8,7 @@ keywords:
 - transfer queue BITS , enumerating
 - enumerating BITS
 - enumerating BITS , jobs
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: 8e096351-43f8-48ee-acb6-681d9e38e93c
 ms.tgt_platform: multiple
 keywords:
 - Detecting the Schema Master AD
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

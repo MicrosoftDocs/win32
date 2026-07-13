@@ -5,7 +5,7 @@ ms.assetid: 87027c25-e3c9-4bad-8df3-cb6205e40ef6
 ms.tgt_platform: multiple
 keywords:
 - Access Control and Object Deletion AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

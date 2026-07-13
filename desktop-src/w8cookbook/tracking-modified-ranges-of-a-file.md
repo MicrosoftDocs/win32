@@ -2,7 +2,7 @@
 title: Tracking modified ranges of a file
 description: Tracking modified ranges of a file
 ms.assetid: 756881E9-EFD0-42FE-9B1C-4A2EF1998D71
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -18,8 +18,6 @@ ms.date: 05/31/2018
 The NT File System (NTFS) team has added a new feature to Windows. USN Journal will output an update sequence number (USN) record containing modified ranges for a file upon close. A new record type, USN\_RECORD\_V4 has been introduced to record these changed ranges of a file.
 
 The feature is not enabled by default; users must invoke a file system control (FSCTL) command to enable it. However, because other Windows components may turn on range tracking, users and developers may perceive that the feature is always enabled. Windows will allow developers to query USN journal to find out if range tracking is enabled.
-
-MSDN documentation will be provided at a later date to instruct developers in how to access USN\_RECORD\_V4 records.
 
 ## Manifestation
 

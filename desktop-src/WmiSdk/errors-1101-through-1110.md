@@ -3,7 +3,7 @@ description: Describes WMI SNMP provider errors 1101 through 1110.
 ms.assetid: ffb3da80-0ffa-4f05-a35e-c51dba38a7fe
 ms.tgt_platform: multiple
 title: Errors 1101 through 1110
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 

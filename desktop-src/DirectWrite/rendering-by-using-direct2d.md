@@ -2,7 +2,7 @@
 title: Render Using Direct2D
 description: Direct2D provides methods for rendering either text with formatting described by only an IDWriteTextFormat or an IDWriteTextLayout to a Direct2D surface.
 ms.assetid: 4acd1aee-98bf-4ca3-b4dc-b73c96c6ca63
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

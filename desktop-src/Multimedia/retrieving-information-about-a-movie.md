@@ -4,7 +4,7 @@ description: Retrieving Information About a Movie
 ms.assetid: 678272e0-67fe-4ec1-88a8-924a773445a7
 keywords:
 - mciSendCommand function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

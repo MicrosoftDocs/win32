@@ -2,7 +2,7 @@
 description: Whenever a process creates or opens a directory object, it receives a handle to the object.
 ms.assetid: 841c7daa-360c-4d96-8a14-6dcfa159a875
 title: Directory Handles
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

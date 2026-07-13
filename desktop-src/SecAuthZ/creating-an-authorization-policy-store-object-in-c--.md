@@ -2,7 +2,7 @@
 description: An authorization policy store contains information about the security policy of an application or group of applications. The information includes the applications, operations, tasks, users, and groups of users associated with the store.
 ms.assetid: 6fc84944-8050-4000-8856-36558d94e2fd
 title: Creating an Authorization Policy Store Object in C++
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

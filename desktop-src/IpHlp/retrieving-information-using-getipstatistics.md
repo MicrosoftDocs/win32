@@ -2,7 +2,7 @@
 description: The GetIpStatistics function fills a pointer to an MIB\_IPSTATS structure with information about the current IP statistics associated with the system.
 ms.assetid: 2b65a817-3f80-426f-ada0-bf4b34a410ed
 title: Retrieving Information Using GetIpStatistics
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Activation contexts are visible throughout the entire process.
 ms.assetid: 6eda00d5-9dac-4267-bf61-b481814201f8
 title: Threads, Asynchronous Procedures, and Window Messages
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

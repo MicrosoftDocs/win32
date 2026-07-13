@@ -3,7 +3,7 @@ description: WMI tasks for computer software obtain information such as which so
 ms.assetid: 65a61be3-7870-4178-9e96-78b82898271f
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Computer Software'
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle
@@ -217,14 +217,6 @@ foreach ($colItem in $colSoftware)
 </tr>
 </tbody>
 </table>
-
-
-
- 
-
-## Examples
-
-The [Powershell Remote PC Info Script](https://Gallery.TechNet.Microsoft.Com/2a8a008c-ee30-4b50-a81a-1b7545ef3436) PowerShell code sample uses a number of hardware and software classes, including Win32Product, to find various information about a remote PC using WMI and the remote registry.
 
 ## Related topics
 

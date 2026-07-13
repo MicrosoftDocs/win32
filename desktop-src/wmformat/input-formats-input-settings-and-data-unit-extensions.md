@@ -14,7 +14,7 @@ keywords:
 - ASF (Advanced Systems Format),payload extension systems
 - data unit extensions,about
 - payload extension systems
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

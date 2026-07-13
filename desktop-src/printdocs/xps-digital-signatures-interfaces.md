@@ -2,7 +2,7 @@
 description: XPS Digital Signature API Interfaces
 ms.assetid: 44244035-f7d5-47f1-b4d8-b895562be855
 title: XPS Digital Signature API Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -7,7 +7,7 @@ keywords:
 - Password Never Expires (WinNT Provider)
 - Password Never Expires ADSI , WinNT provider
 - WinNT provider ADSI , user management examples, Password Never Expires
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

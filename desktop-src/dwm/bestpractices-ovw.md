@@ -14,7 +14,7 @@ keywords:
 - application practices
 - drawing practices
 - blur behind effect
-ms.topic: article
+ms.topic: best-practice
 ms.date: 05/31/2018
 ---
 

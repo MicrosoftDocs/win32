@@ -3,7 +3,7 @@ title: D (UPnP APIs)
 description: Contains UPnP-related terms that begin with the letter D.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 9acec267-3f8b-4906-bb0e-a1411d218043
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

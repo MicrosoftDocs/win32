@@ -2,8 +2,8 @@
 title: VARIANT Structure
 description: Most of the Microsoft Active Accessibility functions and the IAccessible properties and methods take a VARIANT structure as a parameter. Essentially, the VARIANT structure is a container for a large union that carries many types of data.
 ms.assetid: 774dfac8-e258-4266-b81e-072eb3961fb1
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # VARIANT Structure

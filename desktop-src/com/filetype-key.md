@@ -4,7 +4,7 @@ description: Used by GetClassFile to match patterns against various file bytes i
 ms.assetid: ced23cdb-c184-43fe-ba37-fe1af8664b66
 keywords:
 - FileType registry key COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

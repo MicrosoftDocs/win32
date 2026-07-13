@@ -6,7 +6,7 @@ ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileAlrea
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentslvstreamingfilealreadyexistsexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55102917
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # EsentSLVStreamingFileAlreadyExistsException properties

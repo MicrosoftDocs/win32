@@ -2,7 +2,7 @@
 description: The IUpdate2 interface defines the following properties.
 ms.assetid: f08267cb-cbe3-4f26-a925-c26c9eb51fc1
 title: IUpdate2 Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

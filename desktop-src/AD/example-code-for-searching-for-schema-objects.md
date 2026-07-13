@@ -5,7 +5,7 @@ ms.assetid: 539e0127-1355-4606-97bd-49dfafb25f8d
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Searching for Schema Objects AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

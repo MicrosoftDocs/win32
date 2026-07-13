@@ -5,7 +5,7 @@ ms.assetid: 4a027069-8c3d-4a95-a04b-c9c59200a9ed
 ms.tgt_platform: multiple
 keywords:
 - effects of security on searching Active Directory
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

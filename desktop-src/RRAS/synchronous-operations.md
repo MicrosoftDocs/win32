@@ -2,7 +2,7 @@
 title: Synchronous Operations
 description: When RasDial is invoked as a synchronous operation, the function does not return until the connection has been established or an error occurs.
 ms.assetid: '5333ca88-bcec-48bc-88d2-3c6c0701802e'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

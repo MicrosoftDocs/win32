@@ -137,7 +137,7 @@ A nonzero value if successful; otherwise, zero.
 
 Extractions from Windows 3.*x* 16-bit executable files (.exe or .dll) are also supported.
 
-The *cxIcon* and *cyIcon* parameters specify the size of the icons to extract. Two sizes can be extracted through each parameter by splitting the value between its LOWORD and HIWORD. Put the first desired size in the LOWORD of the parameter and the second size in the HIWORD. For example, [**MAKELONG**](/previous-versions/windows/desktop/legacy/ms632660(v=vs.85))(24, 48) for both *cxIcon* and *cyIcon* extracts both 24 and 48 sized icons.
+The *cxIcon* and *cyIcon* parameters specify the size of the icons to extract. Two sizes can be extracted through each parameter by splitting the value between its LOWORD and HIWORD. Put the first desired size in the LOWORD of the parameter and the second size in the HIWORD. For example, [**MAKELONG**](../winmsg/makelong.md)(24, 48) for both *cxIcon* and *cyIcon* extracts both 24 and 48 sized icons.
 
 The calling process is responsible for destroying all icons extracted through this function by calling the [**DestroyIcon**](/windows/win32/api/winuser/nf-winuser-destroyicon) function.
 

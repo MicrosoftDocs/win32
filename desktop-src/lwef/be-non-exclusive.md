@@ -2,7 +2,7 @@
 title: Be Non-Exclusive
 description: Be Non-Exclusive
 ms.assetid: 7a44840d-6bf9-4c12-ba14-66d7067a984d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

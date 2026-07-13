@@ -2,7 +2,7 @@
 title: Configuration Settings
 description: The behavior of the Control Point API and Device Host API can be modified by changing settings in the registry.
 ms.assetid: 81893cde-d28f-41ec-a6c1-159b3eb84274
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

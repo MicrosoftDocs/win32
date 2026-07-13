@@ -2,7 +2,7 @@
 description: Adding a Drive Letter to a LUN
 ms.assetid: 3f350312-3f1f-4020-90d0-85521ea9c7c8
 title: Adding a Drive Letter to a LUN
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

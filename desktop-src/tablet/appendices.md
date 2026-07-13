@@ -2,7 +2,7 @@
 description: Tablet PC Appendices
 ms.assetid: 640b3dd1-e9b0-4448-bc1e-7bb245ea554d
 title: Tablet PC Appendices
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

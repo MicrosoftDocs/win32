@@ -10,7 +10,7 @@ keywords:
 - Windows Ribbon,custom templates
 - Ribbon,custom templates
 - customizing Windows Ribbon
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Windows Web Services Examples
 description: The following examples show how to use Windows Web Services API.
 ms.assetid: 8a557ef0-a88a-4257-a181-57f2dca9022f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

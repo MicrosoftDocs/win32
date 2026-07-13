@@ -2,7 +2,7 @@
 description: The Multiple Provider Router (MPR) calls the connection notification functions when it connects or disconnects a network resource. To receive such notifications, you can implement these functions in a DLL.
 ms.assetid: 62559eab-dd2f-43fa-9b09-5e4d82efc879
 title: Connection Notification API
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

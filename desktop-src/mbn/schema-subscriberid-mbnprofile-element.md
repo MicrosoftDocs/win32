@@ -19,7 +19,7 @@ The **SubscriberID (MBNProfile)** element identifies the unique identifier of th
 
 For a GSM network this should contain the IMSI (International Mobile Subscriber Identity) of the SIM and for CDMA devices it should contain the MIN (Mobile Identification Number) of the device.
 
-The element is is a numeric string with a maximum length 15 digits.
+The element is a numeric string with a maximum length 15 digits.
 
 The element is required.
 

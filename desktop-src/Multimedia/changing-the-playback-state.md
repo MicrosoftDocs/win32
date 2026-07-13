@@ -2,7 +2,7 @@
 title: Changing the Playback State
 description: Changing the Playback State
 ms.assetid: 69ede616-aea4-4b7c-a12b-014ac0485b1c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

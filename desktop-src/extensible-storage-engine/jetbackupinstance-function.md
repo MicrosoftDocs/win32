@@ -117,7 +117,7 @@ The backup will do checksum verification on all the used database pages and star
 
 During the backup, the current log file will be finished and we will start a new log generation. This will allow copying the needed log files because the last needed one will not be in use anymore.
 
-It is strongly recommended that the backup should not be used for other purposed other then the backup and restored at the engine level. This will minimize the change of getting errors during the backup and restore operations.
+It is strongly recommended that the backup should not be used for other purposed other than the backup and restored at the engine level. This will minimize the change of getting errors during the backup and restore operations.
 
 #### Requirements
 

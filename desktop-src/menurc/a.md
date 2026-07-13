@@ -3,7 +3,7 @@ title: A (Menus and Other Resources)
 description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 06c8f3de-1343-4c9f-a0e9-47b23a7c16a2
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

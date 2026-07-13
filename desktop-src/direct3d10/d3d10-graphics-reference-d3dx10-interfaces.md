@@ -2,7 +2,7 @@
 description: This section contains reference information for the component object model (COM) interfaces provided by the D3DX utility library in Direct3D 10 Graphics.
 ms.assetid: c57d9c39-3f30-4205-9b0a-665fe53f2b14
 title: D3DX Interfaces (Direct3D 10 Graphics)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -4,7 +4,7 @@ description: This article contains reference information for the input and outpu
 ms.assetid: 8002e3eb-b9d4-4ecb-a9e5-ae58a9e20ace
 keywords:
 - Registers - ps_2_0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

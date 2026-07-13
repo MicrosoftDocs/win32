@@ -2,7 +2,7 @@
 title: Choosing Security QOS Options
 description: The security QOS options are passed as part of the SecurityQOS parameter given to the RpcBindingSetAuthInfoEx function. Use the following best practices.
 ms.assetid: 43befe3d-079a-4389-a1ff-6bda90935769
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

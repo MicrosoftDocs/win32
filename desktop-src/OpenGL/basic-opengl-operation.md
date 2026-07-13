@@ -19,7 +19,7 @@ keywords:
 - OpenGL,per-fragment operations
 - per-fragment operations OpenGL
 - framebuffers,basic operations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

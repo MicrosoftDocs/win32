@@ -2,7 +2,7 @@
 description: Parameter flags supply information on a variety of status flags concerning a communications session, such as whether caller identification should be blocked. See LINECALLPARAMFLAGS\_ Constants for a list of flags defined by TAPI.
 ms.assetid: 30511328-a310-42b7-a81e-3ef2abf586ed
 title: Parameter Flags
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

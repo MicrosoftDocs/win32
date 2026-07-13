@@ -2,7 +2,7 @@
 description: A service configuration program uses the CreateService function to install a service in the SCM database.
 ms.assetid: b94bf94e-1b07-4686-be5c-306e7cf13f39
 title: Installing a Service
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -28,13 +28,20 @@ VOID SvcInstall()
 {
     SC_HANDLE schSCManager;
     SC_HANDLE schService;
-    TCHAR szPath[MAX_PATH];
+    TCHAR szUnquotedPath[MAX_PATH];
 
-    if( !GetModuleFileName( NULL, szPath, MAX_PATH ) )
+    if( !GetModuleFileName( NULL, szUnquotedPath, MAX_PATH ) )
     {
         printf("Cannot install service (%d)\n", GetLastError());
         return;
     }
+
+    // In case the path contains a space, it must be quoted so that
+    // it is correctly interpreted. For example,
+    // "d:\my share\myservice.exe" should be specified as
+    // ""d:\my share\myservice.exe"".
+    TCHAR szPath[MAX_PATH];
+    StringCbPrintf(szPath, MAX_PATH, TEXT("\"%s\""), szUnquotedPath);
 
     // Get a handle to the SCM database. 
  

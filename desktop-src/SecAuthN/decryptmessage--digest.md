@@ -53,7 +53,7 @@ This parameter can be one of the following flags.
 
 | Value | Meaning | 
 |-------|---------|
-| <span id="SECQOP_WRAP_NO_ENCRYPT"></span><span id="secqop_wrap_no_encrypt"></span><dl><dt><strong>SECQOP_WRAP_NO_ENCRYPT</strong></dt></dl> | The message was not encrypted, but a header or trailer was produced.<br /><blockquote>[!Note]<br />KERB_WRAP_NO_ENCRYPT has the same value and the same meaning.</blockquote><br /> | 
+| **SECQOP_WRAP_NO_ENCRYPT**<br> | The message was not encrypted, but a header or trailer was produced.<br> **Note:** KERB_WRAP_NO_ENCRYPT has the same value and the same meaning.<br> | 
 | <span id="SIGN_ONLY_"></span><span id="sign_only_"></span><dl><dt><strong>SIGN_ONLY</strong></dt></dl> | When using the Digest SSP, use this flag when the [*security context*](../secgloss/s-gly.md) is set to verify the [*signature*](../secgloss/s-gly.md) only. For more information, see [Quality of Protection](quality-of-protection.md).<br /> | 
 
 
@@ -63,11 +63,11 @@ If the function verifies that the message was received in the correct sequence, 
 
 If the function fails to decrypt the message, it returns one of the following error codes.
 
-| Return code                         | Description                                                                                                                                                                  |
+| Return code | Description |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **SEC\_E\_BUFFER\_TOO\_SMALL**      | The message buffer is too small. Used with the Digest SSP.                                                                                                                   |
 | **SEC\_E\_CRYPTO\_SYSTEM\_INVALID** | The [*cipher*](../secgloss/c-gly.md) chosen for the [*security context*](../secgloss/s-gly.md) is not supported. Used with the Digest SSP.                                                                                       |
-| **SEC\_E\_INCOMPLETE\_MESSAGE**     | The data in the input buffer is incomplete. The application needs to read more data from the server and call [**DecryptMessage (Digest)**](decryptmessage--digest.md) again. |
+| **SEC\_E\_INCOMPLETE\_MESSAGE**     | The data in the input buffer is incomplete. The application needs to read more data from the server and call **DecryptMessage (Digest)** again. |
 | **SEC\_E\_INVALID\_HANDLE**         | A context handle that is not valid was specified in the *phContext* parameter. Used with the Digest SSP.                                                                     |
 | **SEC\_E\_MESSAGE\_ALTERED**        | The message has been altered. Used with the Digest SSP.                                                                                                                      |
 | **SEC\_E\_OUT\_OF\_SEQUENCE**       | The message was not received in the correct sequence.                                                                                                                        |

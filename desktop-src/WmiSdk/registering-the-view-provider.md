@@ -3,7 +3,7 @@ description: WMI automatically registers the View Provider DLL during the WMI in
 ms.assetid: 62db8cdc-0bbf-4784-bfc4-6fd5cb53368a
 ms.tgt_platform: multiple
 title: Registering the View Provider
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

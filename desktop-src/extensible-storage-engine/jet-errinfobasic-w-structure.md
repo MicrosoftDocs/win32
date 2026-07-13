@@ -6,7 +6,7 @@ ms:assetid: fcc55cb7-718d-419a-a473-15e030c23abd
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh475861(v=EXCHG.10)
 ms:contentKeyID: 37033567
 ms.date: 04/11/2016
-ms.topic: article
+ms.topic: reference
 ---
 
 # JET_ERRINFOBASIC_W Structure

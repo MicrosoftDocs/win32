@@ -5,7 +5,7 @@ ms.assetid: 93f566cf-0c16-4487-9d53-dc59746e4d00
 keywords:
 - DirectX app, prerequisites
 - DirectX app, Windows Store app
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -39,7 +39,7 @@ DirectX is the primary set of graphics APIs you'll use to develop Windows games.
 | DirectXMath | A library of common, optimized math operations used in 2D and 3D graphics, such as vector and matrix operations.                                |
 | DirectWrite | A library of 2D text rendering and layout APIs. It supports both hardware acceleration and software rasterization.                              |
 | XAudio2     | A low-level, cross-platform audio API for Microsoft Windows that provides a signal processing and audio mixing foundation for game development. |
-| XInput      | A library that supports various traditional gaming controls, with an emphasis on the Xbox 360 controller model.                                 |
+| XInput      | A library that supports various traditional gaming controls.                                 |
 
 
 

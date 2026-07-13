@@ -57,10 +57,10 @@ ms.date: 05/31/2018
 # MicrosoftDNS\_Zone class
 
 > [!NOTE]
-> This article contains references to the term slave, a term that Microsoft no longer uses. When the term is removed from the software, we’ll remove it from this article.
+> This article contains references to the term slave&mdash;a term that Microsoft doesn't condone, and has stopped using in new products and documentation. When the term is removed from the software, we’ll remove it from this article.
 
 > [!NOTE]
-> This article contains references to the term master server, a term that Microsoft no longer uses. When the term is removed from the software, we’ll remove it from this article.
+> This article contains references to the term master server&mdash;a term that Microsoft doesn't condone, and has stopped using in new products and documentation. When the term is removed from the software, we’ll remove it from this article.
 
 The **MicrosoftDNS\_Zone** class describes a DNS Zone. Every instance of the **MicrosoftDNS\_Zone** class must be assigned to exactly one DNS Server. Zones may be associated with multiple instances of [**MicrosoftDNS\_Domain**](microsoftdns-domain.md) or [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md) classes.
 

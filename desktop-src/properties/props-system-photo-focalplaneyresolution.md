@@ -2,7 +2,7 @@
 description: Indicates the number of pixels in the image height (Y direction) per FocalPlaneResolutionUnit on the camera focal plane. Calculated from PKEY\_Photo\_FocalPlaneYResolutionNumerator and PKEY\_Photo\_FocalPlaneYResolutionDenominator.
 ms.assetid: 926b6843-0d5b-46be-9608-291e609cf270
 title: System.Photo.FocalPlaneYResolution
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

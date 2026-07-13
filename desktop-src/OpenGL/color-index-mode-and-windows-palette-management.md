@@ -7,7 +7,7 @@ keywords:
 - OpenGL on Windows,color-index mode
 - color-index mode OpenGL
 - palette management OpenGL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Characteristics of Attributes AD
 - Attributes AD , Characteristics
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

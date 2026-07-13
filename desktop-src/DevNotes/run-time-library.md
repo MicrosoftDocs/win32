@@ -2,7 +2,7 @@
 description: Run-time Library
 ms.assetid: 051BA448-237F-4E11-B2B1-A8FA7190DEEB
 title: Run-time Library
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

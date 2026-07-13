@@ -2,7 +2,7 @@
 description: Learn about the DocumentDuplex element, which describes the duplex characteristics of the output. The duplex feature allows for printing on both sides of the media.
 ms.assetid: dadc52e8-1733-4267-85aa-33d0ddd3dfa2
 title: DocumentDuplex
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -68,7 +68,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the `https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords` namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Feature name="psk:DocumentDuplex">

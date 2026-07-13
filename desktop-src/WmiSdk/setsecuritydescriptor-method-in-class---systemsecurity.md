@@ -124,7 +124,7 @@ When a new SACL is **NULL** in a call this method, then the security descriptor 
 [**\_\_SystemSecurity**](--systemsecurity.md)
 </dt> <dt>
 
-[Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md)
+[Setting Namespace Security Descriptors](setting-namespace-security-descriptors.md)
 </dt> </dl>
 
  

@@ -3,7 +3,7 @@ description: An embedded object is an object of a class that exists within a cla
 ms.assetid: 11a4556b-f682-4850-aedc-793602c5745b
 ms.tgt_platform: multiple
 title: Embedding Objects in a Class
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

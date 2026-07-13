@@ -2,7 +2,7 @@
 title: Self Registration for Controls
 description: Self Registration for Controls
 ms.assetid: 0fff07e5-10bb-4052-8eb1-021efcb66d6c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

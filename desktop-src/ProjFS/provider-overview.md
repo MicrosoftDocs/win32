@@ -3,7 +3,7 @@ title: Provider Overview
 description: Conceptual overview of a provider application.
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 01/17/2020
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Provider Overview

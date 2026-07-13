@@ -2,7 +2,7 @@
 description: An application can truncate or extend a file by calling SetEndOfFile.
 ms.assetid: 23a0242d-50e9-4324-bb09-505afe383a80
 title: Truncating or Extending Files
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

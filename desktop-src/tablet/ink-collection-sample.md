@@ -2,7 +2,7 @@
 description: This application is based on the InkCollector object and demonstrates the collection of ink.
 ms.assetid: e799fb16-5a1e-4d57-a033-554f72e2e685
 title: Ink Collection Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 
@@ -33,7 +33,7 @@ Public Class InkCollection
 
 ## Setting Things Up
 
-The form's `InkCollection_Load` method handles the form's [Load](/dotnet/api/system.windows.forms.form.load?view=netcore-3.1&preserve-view=true) event. It creates a [InkCollector](/previous-versions/ms836493(v=msdn.10)) object assigned to the form modifies the [DefaultDrawingAttributes](/previous-versions/ms836500(v=msdn.10)) property of the InkCollector object and enables the InkCollector object.
+The form's `InkCollection_Load` method handles the form's [Load](/dotnet/api/system.windows.forms.form.load?view=netcore-3.1&preserve-view=true) event. It creates an [InkCollector](/previous-versions/ms836493(v=msdn.10)) object assigned to the form modifies the [DefaultDrawingAttributes](/previous-versions/ms836500(v=msdn.10)) property of the InkCollector object and enables the InkCollector object.
 
 
 ```C++

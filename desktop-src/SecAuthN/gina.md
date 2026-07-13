@@ -2,7 +2,7 @@
 description: The purpose of a GINA DLL is to provide customizable user identification and authentication procedures. The default GINA does this by delegating SAS event monitoring to Winlogon, which receives and processes CTL+ALT+DEL secure attention sequences (SASs).
 ms.assetid: 035e9c8b-2490-438d-8f02-7e0f039f960f
 title: GINA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

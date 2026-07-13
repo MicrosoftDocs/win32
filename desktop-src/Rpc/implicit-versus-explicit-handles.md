@@ -2,7 +2,7 @@
 title: Implicit vs. Explicit Handles
 description: To declare a serialization handle, use the primitive handle type handle\_t.
 ms.assetid: 70d8665f-d793-46fc-bcbf-ecb24e746786
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,7 +1,7 @@
 ---
 description: Demonstrates how to enumerate libraries as containers.
 title: Shell Library Backup Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ms.assetid: 206356B2-3998-4a19-BC4D-F6A043AFDBD3
 api_name: 

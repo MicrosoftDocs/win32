@@ -2,7 +2,7 @@
 title: ITTSBufNotifySinkW
 description: ITTSBufNotifySinkW
 ms.assetid: 00f4a529-2db1-4cad-9340-ed95999448f7
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: IAgentCharacterEx GetSRStatus
 description: IAgentCharacterEx GetSRStatus
 ms.assetid: ccb34108-8078-421a-a883-731b51fae179
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

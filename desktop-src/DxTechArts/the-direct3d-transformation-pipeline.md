@@ -2,7 +2,7 @@
 title: The Direct3D Transformation Pipeline
 description: This article provides a technical explanation for Direct3D application developers on how to set the parameters of the Direct3D Transformation Pipeline by the direct manipulation of Direct3D matrices.
 ms.assetid: 48ae49f0-1162-c292-4bd4-34da5aadd2df
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

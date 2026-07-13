@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # MDM\_VPNv2\_Proxy02 class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+
 
 The **MDM\_VPNv2\_Proxy02** class defines a configuration object to enable a post-connect proxy support for VPN. The proxy defined for this profile is applied when this profile is active and connected.
 

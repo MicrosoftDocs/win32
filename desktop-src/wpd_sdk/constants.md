@@ -2,7 +2,7 @@
 title: WPD constants
 description: These articles describe the constant types for Windows Portable Devices, such as general constants, error constants, and event constants.
 ms.assetid: 523d88ac-7a8c-4de3-b973-60ec87334a67
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

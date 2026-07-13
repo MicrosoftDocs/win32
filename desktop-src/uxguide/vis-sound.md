@@ -2,7 +2,7 @@
 title: Sound
 description: Sound is the audio element of the user experience.
 ms.assetid: 2a276370-eff9-4844-b008-eba9ae5ac395
-ms.topic: article
+ms.topic: reference
 ms.date: 10/20/2020
 ---
 

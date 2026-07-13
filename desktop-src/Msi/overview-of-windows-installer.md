@@ -2,7 +2,7 @@
 description: The Windows Installer reduces the total cost of ownership (TCO) for your customers by enabling them to efficiently install and configure your products and applications.
 ms.assetid: 28d2c205-795e-4ed0-8c16-925ad8f638d2
 title: Overview of Windows Installer
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

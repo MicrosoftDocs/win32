@@ -9,7 +9,7 @@ keywords:
 - desktop applications,file formats
 - creating Windows Media Device Manager applications,file formats
 - writing files to devices,file formats
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

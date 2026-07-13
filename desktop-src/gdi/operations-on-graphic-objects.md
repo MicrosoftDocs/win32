@@ -2,7 +2,7 @@
 description: After an application creates a display or printer DC, it can begin drawing on the associated device or, in the case of the memory DC, it can begin drawing on the bitmap stored in memory.
 ms.assetid: 73657a66-9415-4db0-a800-463c3d639240
 title: Operations on Graphic Objects
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

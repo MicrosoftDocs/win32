@@ -7,7 +7,7 @@ keywords:
 - IRIS GL porting,OpenGL equivalents
 - porting from IRIS GL,OpenGL equivalents
 - porting to OpenGL from IRIS GL,IRIS GL equivalents
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

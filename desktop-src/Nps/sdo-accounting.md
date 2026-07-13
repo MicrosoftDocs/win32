@@ -3,7 +3,7 @@ title: Accounting
 description: Use the following enumeration types when administering accounting on the SDO computer.
 ms.assetid: c75fef44-6582-4b7d-9b95-cbd518870139
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

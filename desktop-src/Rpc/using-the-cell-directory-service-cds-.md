@@ -4,7 +4,7 @@ description: If you have CDS, you can use it instead of Microsoft Locator.
 ms.assetid: df4b8db1-08f1-4ed8-895d-236199289e87
 keywords:
 - Remote Procedure Call RPC , tasks, using cell directory service
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

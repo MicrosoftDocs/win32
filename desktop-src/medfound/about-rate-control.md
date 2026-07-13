@@ -2,7 +2,7 @@
 description: About Rate Control
 ms.assetid: 509b2cc8-6017-41a9-ae80-9af21dce9367
 title: About Rate Control
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

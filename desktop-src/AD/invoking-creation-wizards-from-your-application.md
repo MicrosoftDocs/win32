@@ -5,7 +5,7 @@ ms.assetid: be4b6101-f795-403b-b93e-960759ac4f14
 ms.tgt_platform: multiple
 keywords:
 - Invoking Creation Wizards from Your Application AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

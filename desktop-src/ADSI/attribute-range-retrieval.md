@@ -5,7 +5,7 @@ ms.assetid: 3a0eb764-fca9-4ca6-9991-b85f293961af
 ms.tgt_platform: multiple
 keywords:
 - Attribute Range Retrieval ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

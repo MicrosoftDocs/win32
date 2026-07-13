@@ -2,7 +2,7 @@
 title: List Box Macros
 description: List Box Macros
 ms.assetid: 33d2864d-3ae8-4cd7-a6d0-700d5cbb0916
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

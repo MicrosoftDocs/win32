@@ -6,7 +6,7 @@ ms:assetid: 78bf06f8-31d9-ea15-d979-02535d91ebda
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh579075(v=EXCHG.10)
 ms:contentKeyID: 39513092
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # JET_LGPOS operators

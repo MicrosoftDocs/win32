@@ -5,7 +5,7 @@ ms.assetid: 38032d89-9549-475c-90aa-dac5cfe11084
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Users and Computers Property Sheets AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

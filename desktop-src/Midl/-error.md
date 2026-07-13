@@ -114,7 +114,7 @@ When you specify **/error allocation**, the stubs include code that raises an ex
 
 The **/error stub\_data** option prevents client data from crashing the server during unmarshaling, effectively providing a more robust method of handling the unmarshaling operation.
 
-Effective with WindowsÂ 2000, the underlying run-time NDR marshaling engine performs most of these checks. This means that if you are using one of the fully-interpreted modes ([**/Oi**](-oi.md), **/Oif**) of stub generation, choosing different error checking options will not have a marked effect on performance.
+Effective with Windows 2000, the underlying run-time NDR marshaling engine performs most of these checks. This means that if you are using one of the fully-interpreted modes ([**/Oi**](-oi.md), **/Oif**) of stub generation, choosing different error checking options will not have a marked effect on performance.
 
 ## Examples
 

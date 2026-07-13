@@ -399,9 +399,6 @@ DHCP not enabled on adapter.
 
 </dd> </dl>
 
-## Examples
-
-The [Modify ARP Queries to Use Source Routing](https://Gallery.TechNet.Microsoft.Com/e0298c96-acc2-4809-9365-fce3000db00e) VBScript sample on TechNet Gallery uses **SetArpAlwaysSourceRoute** to configure TCP/IP to always use source routing on all Token Ring networks.
 
 ## Requirements
 

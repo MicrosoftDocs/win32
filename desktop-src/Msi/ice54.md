@@ -2,7 +2,7 @@
 description: ICE54 checks for components that use a companion file as their key path.
 ms.assetid: 94fcabfe-4500-42f2-acea-13b9a6681ca6
 title: ICE54
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

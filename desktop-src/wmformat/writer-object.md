@@ -8,7 +8,7 @@ keywords:
 - ASF (Advanced Systems Format),writer objects
 - objects,writer objects
 - writer objects
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: A service should not access HKEY\_CURRENT\_USER or HKEY\_CLASSES\_ROOT, especially when impersonating a user. Instead, use the RegOpenCurrentUser or RegOpenUserClassesRoot function.
 ms.assetid: 8ad6c081-7ac0-4557-88dc-d8f1ec139926
 title: Services and the Registry
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

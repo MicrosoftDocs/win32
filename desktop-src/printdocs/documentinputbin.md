@@ -2,7 +2,7 @@
 description: Learn about the DocumentInputBin element, which describes the installed input bin in a device or the full list of supported bins for a device.
 ms.assetid: 334503d7-c044-41f7-b6aa-892b002b7a4e
 title: DocumentInputBin
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -105,7 +105,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the `https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords` namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Feature name="psk:DocumentInputBin">

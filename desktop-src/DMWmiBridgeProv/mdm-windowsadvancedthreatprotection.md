@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # MDM\_WindowsAdvancedThreatProtection class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+
 
 The **MDM\_WindowsAdvancedThreatProtection** class is used to onboard and offboard endpoints for Windows Defender Advanced Threat Protection (WDATP).
 

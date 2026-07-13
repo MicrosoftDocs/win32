@@ -13,7 +13,7 @@ keywords:
 - volume-controller messages
 - MIDI Mapper,program-change messages
 - MIDI Mapper,volume-controller messages
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -39,7 +39,7 @@ An optional parameter that controls how the statement is compiled.
 
 | Attribute | Description | 
 |-----------|-------------|
-| branch | Evaluate only one side of the if statement depending on the given condition.<blockquote>[!Note]<br />When you use <a href="dx-graphics-hlsl-sm2.md">Shader Model 2.x</a> or <a href="dx-graphics-hlsl-sm3.md">Shader Model 3.0</a>, each time you use dynamic branching you consume resources. So, if you use dynamic branching excessively when you target these profiles, you can receive compilation errors.</blockquote><br /> | 
+| branch | Evaluate only one side of the if statement depending on the given condition. **Note:** When you use [Shader Model 2.x](dx-graphics-hlsl-sm2.md) or [Shader Model 3.0](dx-graphics-hlsl-sm3.md), each time you use dynamic branching you consume resources. So, if you use dynamic branching excessively when you target these profiles, you can receive compilation errors.<br> | 
 | flatten | Evaluate both sides of the if statement and choose between the two resulting values. | 
 
 

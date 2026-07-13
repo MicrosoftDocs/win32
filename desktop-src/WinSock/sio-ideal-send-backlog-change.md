@@ -177,7 +177,7 @@ The **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** IOCTL can fail with **WSAEINTR** or **
 
 * The TCP connection is gracefully disconnected in the send direction. This can occur as a result of a call to shutdown function with the how parameter set to **SD\_SEND**, a call to the **DisconnectEx** function, or a call to the **TransmitFile** or **TransmitPackets** function with *dwFlags* parameter set to **TF\_DISCONNECT** or **TF\_REUSE**.
 * The TCP connection has been reset or aborted.
-* The application issues a **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** IOCTL when there is already a pended notification request. Only one one pended **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** request is allowed at a time.
+* The application issues a **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** IOCTL when there is already a pended notification request. Only one pended **SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE** request is allowed at a time.
 * The request is canceled by the I/O Manager.
 * The socket is closed.
 

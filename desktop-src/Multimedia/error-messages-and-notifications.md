@@ -4,7 +4,7 @@ description: Error Messages and Notifications
 ms.assetid: 7f804364-d8be-4e52-ab0e-fba05bcf76ce
 keywords:
 - MCIWndGetError macro
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

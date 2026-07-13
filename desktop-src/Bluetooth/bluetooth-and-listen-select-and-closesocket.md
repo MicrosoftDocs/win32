@@ -11,7 +11,7 @@ keywords:
 - Bluetooth and listen,select
 - Bluetooth and listen,select,and closesocket
 - listen
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

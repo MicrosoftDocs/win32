@@ -2,7 +2,7 @@
 description: Learn about writing manifest-based events to a trace session. Begin with registering your provider, so that it is ready to write events to a trace session.
 ms.assetid: 76e7202e-74ce-40a3-a04b-9af5117fe20e
 title: Writing Manifest-based Events
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -49,11 +49,11 @@ enum TRANSFER_TYPE {
 #define MAX_PAYLOAD_DESCRIPTORS  9 + (2 * MAX_NAMEDVALUES)
 
 typedef struct _namedvalue {
-  LPWSTR name;
-  USHORT value;
+  LPCWSTR name;
+  USHORT  value;
 } NAMEDVALUE, *PNAMEDVALUE;
 
-void wmain(void)
+int wmain(void)
 {
     DWORD status = ERROR_SUCCESS;
     REGHANDLE RegistrationHandle = NULL; 
@@ -63,10 +63,10 @@ void wmain(void)
     // Data to load into event descriptors
 
     USHORT Scores[3] = {45, 63, 21};
-    ULONG pImage = (ULONG)&Scores;
+    void* pImage = &Scores;
     DWORD TransferType = Upload;
     DWORD Day = MONDAY | TUESDAY;
-    LPWSTR Path = L"c:\\path\\folder\\file.ext";
+    LPCWSTR Path = L"c:\\path\\folder\\file.ext";
     BYTE Cert[11] = {0x2, 0x4, 0x8, 0x10, 0x20, 0x30, 0x40, 0x50, 0x60, 0x0, 0x1};
     PBYTE Guid = (PBYTE) &ProviderGuid;
     USHORT ArraySize = MAX_NAMEDVALUES;
@@ -96,7 +96,7 @@ void wmain(void)
     // Add the data to the array in the order of the <data> elements
     // defined in the event's template. 
    
-    EventDataDescCreate(&Descriptors[i++], &pImage, sizeof(ULONG));
+    EventDataDescCreate(&Descriptors[i++], &pImage, sizeof(pImage));
     EventDataDescCreate(&Descriptors[i++], Scores, sizeof(Scores));
     EventDataDescCreate(&Descriptors[i++], Guid, sizeof(GUID));
     EventDataDescCreate(&Descriptors[i++], Cert, sizeof(Cert));
@@ -146,8 +146,8 @@ void wmain(void)
     }
 
 cleanup:
-
     EventUnregister(RegistrationHandle);
+    return 0;
 }
 ```
 

@@ -3,7 +3,7 @@ title: Invoking the Extension DLLs
 description: Calls these function for each valid authentication or accounting packet that it receives from the Network Access Server (NAS).
 ms.assetid: 6d738ad7-cce5-4835-97d6-c57173c79a16
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The following macro is used with bitmaps.
 ms.assetid: 8781bbf4-89fe-4212-b9df-e5b5cb07528c
 title: Bitmap Macros
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

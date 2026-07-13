@@ -2,7 +2,7 @@
 description: Windows Secure Mode Policy
 ms.assetid: C59D07F5-98F9-45E7-B418-244AD9A9AF21
 title: Windows Secure Mode Policy
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

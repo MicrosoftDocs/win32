@@ -5,7 +5,7 @@ ms.assetid: 8bf9dae7-426c-4018-ad6d-b20395beba01
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , using ADS_SEARCHPREF_DIRSYNC
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

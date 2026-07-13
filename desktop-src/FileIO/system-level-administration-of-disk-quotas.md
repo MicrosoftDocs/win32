@@ -2,7 +2,7 @@
 description: The system administrator can set quotas for specific users on a volume. The administrator can also set default quotas for the volume.
 ms.assetid: e8fa6a7b-f4b9-48af-9538-d41c12b7c3b6
 title: System-level Administration of Disk Quotas
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

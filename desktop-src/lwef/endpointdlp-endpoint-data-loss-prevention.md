@@ -1,7 +1,7 @@
 ---
 description: The endpoint data loss prevention (DLP) APIs allow applications to notify the OS before and after certain operations, such as opening or saving a file.
 title: Endpoint data loss prevention
-ms.topic: article
+ms.topic: reference
 ms.date: 03/18/2021
 ---
 
@@ -87,7 +87,7 @@ The following tables list the APIs provided by the endpoint DLP dll.
 | API | Description |
 |-----|-------------|
 | [DlpNotifyPrePrint](endpointdlp-dlpnotifypreprint.md)                         | Provides the system with information about a document before a print operation is initiated.  |
-| [DlpNotifyPostStartPrint](endpointdlp-dlpnotifypoststartprint.md)                       | Provides the system with information about a document after an print operation has started.                                  |
+| [DlpNotifyPostStartPrint](endpointdlp-dlpnotifypoststartprint.md)                       | Provides the system with information about a document after a print operation has started.                                  |
 | [DlpNotifyPostPrint](endpointdlp-dlpnotifypostprint.md)                       | Provides the system with information about a document after a print operation has completed.                                  |
 
 ## Endpoint DLP example header

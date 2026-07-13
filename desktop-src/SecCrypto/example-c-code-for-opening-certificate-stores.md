@@ -2,7 +2,7 @@
 description: The following examples provide code to open a variety of common certificate stores. These examples are a series of code fragments and are not stand-alone programs.
 ms.assetid: 975a56d1-aa45-470e-b385-753baa1911ff
 title: Example C Code for Opening Certificate Stores
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Enumerations that are used with authorization applications.
 ms.assetid: e2f22838-102e-432c-9c82-06a3e0741374
 title: Authorization Enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: System.Priority
 ms.assetid: 43f81cb5-7f2e-4f8f-ad31-8aad71765f60
 title: System.Priority
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

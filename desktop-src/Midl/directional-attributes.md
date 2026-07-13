@@ -4,7 +4,7 @@ description: Apply directional attributes to parameters to indicate the directio
 ms.assetid: b9b2a0bd-22d1-4420-b54d-4cf4c63beedc
 keywords:
 - IDL MIDL , attributes, directional
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

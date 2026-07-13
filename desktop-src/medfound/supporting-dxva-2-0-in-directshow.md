@@ -2,7 +2,7 @@
 description: This topic describes how to support DirectX Video Acceleration (DXVA) 2.0 in a DirectShow decoder filter.
 ms.assetid: 40deaddb-bb17-4a34-8294-5c7dc8a8a457
 title: Supporting DXVA 2.0 in DirectShow
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -85,7 +85,7 @@ If you are migrating from DXVA 1.0, you should be aware of some significant diff
 
 -   DXVA 2.0 does not use the [**IAMVideoAccelerator**](/previous-versions/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator) and [**IAMVideoAcceleratorNotify**](/previous-versions/windows/desktop/api/videoacc/nn-videoacc-iamvideoacceleratornotify) interfaces, because the decoder can access the DXVA 2.0 APIs directly through the [**IDirectXVideoDecoder**](/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoder) interface.
 -   During media type negotiation, the decoder does not use a video acceleration GUID as the subtype. Instead, the subtype is just the uncompressed video format (such as NV12), as with software decoding.
--   The procedure for configuring the accelerator has changed. In DXVA 1.0, the decoder calls **Execute** with a **DXVA\_ConfigPictureDecode** structure to configure the accerlator. In DXVA 2.0, the decoder uses the [**IDirectXVideoDecoderService**](/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoderservice) interface, as described in the next section.
+-   The procedure for configuring the accelerator has changed. In DXVA 1.0, the decoder calls **Execute** with a **DXVA\_ConfigPictureDecode** structure to configure the accelerator. In DXVA 2.0, the decoder uses the [**IDirectXVideoDecoderService**](/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoderservice) interface, as described in the next section.
 -   The decoder allocates the uncompressed buffers. The video renderer no longer allocates them.
 -   Instead of calling [**IAMVideoAccelerator::DisplayFrame**](/previous-versions/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-displayframe) to display the decoded frame, the decoder delivers the frame to the renderer by calling [**IMemInputPin::Receive**](/windows/win32/api/strmif/nf-strmif-imeminputpin-receive), as with software decoding.
 -   The decoder is no longer responsible for checking when data buffers are safe for updates. Therefore DXVA 2.0 does not have any method equivalent to [**IAMVideoAccelerator::QueryRenderStatus**](/previous-versions/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-queryrenderstatus).
@@ -109,7 +109,7 @@ To find a configuration for the decoder device, do the following:
 6.  Loop through the array of decoder GUIDs to find the ones that the decoder filter supports. For example, for an MPEG-2 decoder, you would look for **DXVA2\_ModeMPEG2\_MOCOMP**, **DXVA2\_ModeMPEG2\_IDCT**, or **DXVA2\_ModeMPEG2\_VLD**.
 
 7.  When you find a candidate decoder device GUID, pass the GUID to the [**IDirectXVideoDecoderService::GetDecoderRenderTargets**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoderservice-getdecoderrendertargets) method. This method returns an array of render target formats, specified as **D3DFORMAT** values.
-8.  Loop through the render target formats and look for one that matches your output format. Typically, a decoder device supports a single render target format. The decoder filter should connect to the renderer using this subtype. In the first call to [**CompleteConnect**](../directshow/cbaseoutputpin-completeconnect.md), the decoder can determing the render target format and then return this format as a preferred output type.
+8.  Loop through the render target formats and look for one that matches your output format. Typically, a decoder device supports a single render target format. The decoder filter should connect to the renderer using this subtype. In the first call to [**CompleteConnect**](../directshow/cbaseoutputpin-completeconnect.md), the decoder can determine the render target format and then return this format as a preferred output type.
 
 9.  Call [**IDirectXVideoDecoderService::GetDecoderConfigurations**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoderservice-getdecoderconfigurations). Pass in the same decoder device GUID, along with a [**DXVA2\_VideoDesc**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_videodesc) structure that describes the proposed format. The method returns an array of [**DXVA2\_ConfigPictureDecode**](/windows/desktop/api/dxva2api/ns-dxva2api-dxva2_configpicturedecode) structures. Each structure describes one possible configuration for the decoder device.
 

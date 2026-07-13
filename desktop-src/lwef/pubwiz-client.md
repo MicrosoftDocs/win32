@@ -9,7 +9,7 @@ keywords:
 - publishing wizards,design considerations
 - publishing wizards,Online Print Ordering Wizard
 - Online Print Ordering Wizard,client-side design
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: fca0b723-4582-4fe3-933d-b56c016fd324
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory ,enumerating schema classes, attributes, and syntaxes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

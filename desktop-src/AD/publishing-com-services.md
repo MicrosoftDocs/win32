@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Publishing COM+ Services
 - Active Directory, using, publishing a service, COM+ services
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

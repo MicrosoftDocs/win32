@@ -6,7 +6,7 @@ keywords:
 - OpenGL on Windows,IRIS GL porting
 - porting to OpenGL,IRIS GL
 - OpenGL porting,IRIS GL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

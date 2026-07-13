@@ -20,9 +20,9 @@ virtual bool STDMETHODCALLTYPE IsNotificationTypeSupported(
 
 ### notificationType
 
-Type: **[DXCoreNotificationType](./ne-dxcore_interface-dxcorenotificationtype.md)**
+Type: **[DXCoreNotificationType](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype)**
 
-The type of notification that you're querying about support for. See the table in [DXCoreNotificationType](./ne-dxcore_interface-dxcorenotificationtype.md) for info about the notification types.
+The type of notification that you're querying about support for. See the table in [DXCoreNotificationType](/windows/win32/api/dxcore_interface/ne-dxcore_interface-dxcorenotificationtype) for info about the notification types.
 
 ## Returns
 
@@ -36,4 +36,4 @@ You can call **IsNotificationTypeSupported** to determine whether a given notifi
 
 ## See also
 
-[IDXCoreAdapterFactory](./nn-dxcore_interface-idxcoreadapterfactory.md), [DXCore Reference](../dxcore-reference.md), [DXCore adapter attribute GUIDs](../dxcore-adapter-attribute-guids.md), [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md)
+[IDXCoreAdapterFactory](./nn-dxcore_interface-idxcoreadapterfactory.md), [DXCore reference](../dxcore-reference.md), [DXCore adapter attribute GUIDs](../dxcore-adapter-attribute-guids.md), [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md)

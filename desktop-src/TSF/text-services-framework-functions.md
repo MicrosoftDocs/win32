@@ -9,7 +9,7 @@ keywords:
 - TSF-enabled applications,functions
 - TSF reference,functions
 - reference for TSF,functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

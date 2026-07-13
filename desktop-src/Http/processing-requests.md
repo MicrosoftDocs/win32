@@ -2,7 +2,7 @@
 title: Processing Requests
 description: Processing requests includes four steps.
 ms.assetid: fb170d73-c26d-4bec-abed-b614b7dad322
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

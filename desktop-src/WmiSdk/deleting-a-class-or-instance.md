@@ -3,7 +3,7 @@ description: After you finish with a class or an instance, you may wish to delet
 ms.assetid: 8d4bf548-a332-4058-92d0-d613bbeaa408
 ms.tgt_platform: multiple
 title: Deleting a Class or Instance
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

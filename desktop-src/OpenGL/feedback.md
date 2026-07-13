@@ -4,7 +4,7 @@ description: In feedback mode, each primitive to be rasterized generates a block
 ms.assetid: 92f14fe2-71f7-4b59-94a5-9669e986fb30
 keywords:
 - feedback mode,OpenGL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

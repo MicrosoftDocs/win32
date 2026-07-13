@@ -2,7 +2,7 @@
 title: Taking Advantage of High-Definition Mouse Movement
 description: This article focuses on the best way to optimize the performance of high-definition mouse input in a game like a first-person shooter.
 ms.assetid: 0138a248-e8e0-a392-564e-7a9229b94b56
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -16,8 +16,8 @@ A number of companies are manufacturing high-definition mouse devices, such as M
 
 Here are the three primary methods to retrieve mouse data:
 
--   [WM\_MOUSEMOVE](/windows)
--   [WM\_INPUT](/windows)
+-   [WM\_MOUSEMOVE](#wm_mousemove)
+-   [WM\_INPUT](#wm_input)
 -   [DirectInput](#directinput)
 
 There are advantages and disadvantages to each method, depending on how the data will be used.
@@ -94,7 +94,7 @@ For more info about WM\_INPUT, see [About raw input](/windows/desktop/inputdev/a
 
 ### DirectInput
 
-[DirectInput](/windows-hardware/drivers/hid/directinput) is a set of API calls that abstracts input devices on the system. Internally, DirectInput creates a second thread to read WM\_INPUT data, and using the DirectInput APIs will add more overhead than simply reading WM\_INPUT directly. DirectInput is only useful for reading data from DirectInput joysticks; however, if you only need to support the Xbox 360 controller for Windows, use [XInput](/windows/desktop/xinput/xinput-game-controller-apis-portal) instead. Overall, using DirectInput offers no advantages when reading data from mouse or keyboard devices, and the use of DirectInput in these scenarios is discouraged.
+[DirectInput](/windows-hardware/drivers/hid/directinput) is a set of API calls that abstracts input devices on the system. Internally, DirectInput creates a second thread to read WM\_INPUT data, and using the DirectInput APIs will add more overhead than simply reading WM\_INPUT directly. DirectInput is only useful for reading data from DirectInput joysticks; however, if you only need to support controllers for Windows, use [XInput](/windows/desktop/xinput/xinput-game-controller-apis-portal) instead. Overall, using DirectInput offers no advantages when reading data from mouse or keyboard devices, and the use of DirectInput in these scenarios is discouraged.
 
 Compare the complexity of using [DirectInput](/windows-hardware/drivers/hid/directinput), shown in the following code, to the methods previously described. The following set of calls are needed to create a DirectInput mouse:
 

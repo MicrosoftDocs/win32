@@ -59,10 +59,10 @@ Type of zone. Valid values are the following:
 
 | Value                                                                        | Meaning                                                                                                             |
 |------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>1</dt> </dl> | AD integrated.<br/>                                                                                           |
-| <dl> <dt>2</dt> </dl> | Secondary zone.<br/>                                                                                          |
-| <dl> <dt>3</dt> </dl> | Stub zone.<br/> **Windows Server 2003:** This zone type is introduced in Windows Server 2003.<br/>      |
-| <dl> <dt>4</dt> </dl> | Zone forwarder.<br/> **Windows Server 2003:** This zone type is introduced in Windows Server 2003.<br/> |
+| <dl> <dt>0</dt> </dl> | Primary zone.<br/>                                                                                           |
+| <dl> <dt>1</dt> </dl> | Secondary zone.<br/>                                                                                          |
+| <dl> <dt>2</dt> </dl> | Stub zone.<br/> **Windows Server 2003:** This zone type is introduced in Windows Server 2003.<br/>      |
+| <dl> <dt>3</dt> </dl> | Zone forwarder.<br/> **Windows Server 2003:** This zone type is introduced in Windows Server 2003.<br/> |
 
 
 

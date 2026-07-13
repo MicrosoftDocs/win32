@@ -4,7 +4,7 @@ ms.assetid: d3aac8fc-de7d-4d8e-82d7-0d89417c4404
 description: "Learn more about: WebDAV API Reference"
 keywords:
 - WebDAV WebDAV , reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

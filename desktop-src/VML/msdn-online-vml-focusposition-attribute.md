@@ -2,7 +2,7 @@
 title: VML FocusPosition Attribute
 description: VML FocusPosition Attribute
 ms.assetid: 1aebf79d-c887-4a61-b50c-01a4ebfd68a3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

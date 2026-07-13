@@ -4,7 +4,7 @@ description: Use the color matrix effect to alter the RGBA values of a bitmap.
 ms.assetid: 093EEEF1-8C38-414E-8261-58A6C3DD930D
 keywords:
 - color matrix effect
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

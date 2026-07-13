@@ -2,7 +2,7 @@
 description: Shutting Down an Schannel Connection
 ms.assetid: 7081ba1f-df3c-41b4-96da-24d44e74d714
 title: Shutting Down an Schannel Connection
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

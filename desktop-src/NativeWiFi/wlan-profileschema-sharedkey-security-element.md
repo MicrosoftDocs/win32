@@ -2,7 +2,7 @@
 title: sharedKey (security) element
 description: Contains shared key information.
 ms.topic: reference
-ms.date: 06/25/2023
+ms.date: 05/14/2025
 topic_type: 
 - APIRef
 - kbSyntax
@@ -16,7 +16,7 @@ ms.assetid: 9f401441-256c-4702-9503-f87b2b9cf0ee
 
 # sharedKey (security) element
 
-The sharedKey (security) element contains shared key information. This element is only required if WEP or PSK keys are required for the authentication and encryption pair.
+The sharedKey (security) element contains shared key information. This element is optional, and is only necessary if WEP, PSK, or SAE keys are required to be included in the profile for the authentication and encryption pair.
 
 ```XSD
 <xs:element name="sharedKey"
@@ -65,7 +65,7 @@ The sharedKey (security) element contains shared key information. This element i
 
 Indicates whether the shared key will be a network key or a pass phrase.
 
-When the [**encryption**](wlan-profileschema-authencryption-security-element.md#encryption) element has a value of WEP, **keyType** must be set to **networkKey**.
+When the [**encryption**](wlan-profileschema-authencryption-security-element.md#encryption) element has a value of WEP, **keyType** must be set to **networkKey**. When it has a value of WPA3SAE, **keyType** must be set to **passPhrase**.
 
 ### protected
 
@@ -87,6 +87,7 @@ The following table shows valid **keyMaterial** values for some authentication a
 |-|-|-|-|
 | open or shared | WEP | networkKey | This element contains a WEP key of 5 or 13 ANSI characters, or of 10 or 26 hexadecimal characters. |
 | WPAPSK or WPA2PSK | TKIP or AES | passPhrase | This element contains a passphrase of 8 to 63 ASCII characters, that is, 8 to 63 ANSI characters in the range of 32 to 126. Key values must comply with the requirements specified by 802.11i. |
+| WPA3SAE | AES | passPhrase | This element contains a passphrase of 8 to 63 ASCII characters, that is, 8 to 63 ANSI characters in the range of 32 to 126. Key values must comply with the requirements specified by 802.11i. |
 | WPAPSK or WPA2PSK | TKIP or AES | networkKey | This element contains a key of 64 hexadecimal characters. |
 
 Unicode characters may be entered where ANSI or ASCII characters are specified above. However, if the supplied Unicode characters cannot be mapped to ANSI or ASCII characters, then the supplied key material is rejected.

@@ -2,7 +2,7 @@
 description: The following code fragment illustrates the creation of a simple conference announcement. This fragment assumes that connecting to an ILS server has already been performed.
 ms.assetid: d8ae90f3-37b0-4fc7-abf0-429f2bd97d66
 title: Creating a Conference Announcement
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

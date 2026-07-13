@@ -5,7 +5,7 @@ description: Functions are routines or subroutines that return a specific value 
 ms.assetid: 5fbb05ae-594d-4fa5-97d2-a2371e94c054
 keywords:
 - Structured Storage Strctd Stg , reference, functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

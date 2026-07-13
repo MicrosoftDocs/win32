@@ -2,7 +2,7 @@
 description: Establishing a Connection
 ms.assetid: 16286da5-5979-413b-a4db-ca157b10a571
 title: Establishing a Connection
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

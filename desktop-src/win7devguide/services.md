@@ -2,7 +2,7 @@
 title: Services (Windows 7 Developer Guide)
 description: Windows 7 provides a powerful, highly extensible, and manageable platform for building and integrating the web services and applications of the future.Windows 7 offers both managed-code APIs and native APIs for building and running web services.
 ms.assetid: 6a027e0c-28a0-41cf-b96f-ed988c64c92a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

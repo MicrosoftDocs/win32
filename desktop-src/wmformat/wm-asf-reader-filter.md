@@ -9,7 +9,7 @@ keywords:
 - WM ASF Reader
 - Advanced Systems Format (ASF),WM ASF Reader
 - ASF (Advanced Systems Format),WM ASF Reader
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -5,7 +5,7 @@ ms.assetid: bbe41c3c-35ca-4b11-9d0b-bc2cec466344
 ms.tgt_platform: multiple
 keywords:
 - administration model Active Directory
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

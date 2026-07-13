@@ -7,7 +7,7 @@ keywords:
 - MM_JOY1MOVE message
 - MM_JOY1BUTTONDOWN message
 - MM_JOY1BUTTONUP message
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

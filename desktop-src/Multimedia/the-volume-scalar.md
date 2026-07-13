@@ -9,7 +9,7 @@ keywords:
 - volume scalar
 - MIDI Mapper,adjusting output levels
 - adjusting output levels
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

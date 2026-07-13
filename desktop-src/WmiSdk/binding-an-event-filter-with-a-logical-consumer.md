@@ -3,7 +3,7 @@ description: After you create the logical event consumer and the event filter yo
 ms.assetid: 2fc3d781-2b93-4e9e-90a1-1b975ab40a01
 ms.tgt_platform: multiple
 title: Binding an Event Filter with a Logical Consumer
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: ICE81 validates the MsiDigitalCertificate table, MsiDigitalSignature table, MsiPatchCertificate table, and MsiPackageCertificate Table.
 ms.assetid: 83d8bc62-679e-410f-a95c-ffe13952b710
 title: ICE81
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

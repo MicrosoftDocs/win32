@@ -3,7 +3,7 @@ title: CENUMSCH.CPP
 description: In the example provider component, the enumeration of a schema object uses the methods, from cenumsch.cpp, listed in the following table.
 ms.assetid: edad1ad1-16b9-40f3-b841-a70aa7fff5d9
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

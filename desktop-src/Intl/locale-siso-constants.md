@@ -2,7 +2,7 @@
 description: LOCALE\_SISO\* Constants
 ms.assetid: c830e9e9-b58a-4d31-929a-ed699bc08d9f
 title: LOCALE_SISO* Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

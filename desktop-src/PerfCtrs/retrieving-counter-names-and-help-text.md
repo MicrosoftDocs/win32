@@ -2,8 +2,8 @@
 description: The performance data contains index values that you use to locate the names and help text for each registered object and counter.
 ms.assetid: 9ddd1672-61cf-41c2-bec0-0d2b775bf970
 title: Retrieving Counter Names and Help Text
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Retrieving Counter Names and Help Text

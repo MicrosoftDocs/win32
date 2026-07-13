@@ -2,7 +2,7 @@
 title: Origin Attribute (Fill)(VML)
 description: Origin Attribute (Fill)(VML)
 ms.assetid: 7ebb70eb-e8f2-4749-88fd-935562da0b74
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

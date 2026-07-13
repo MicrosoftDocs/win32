@@ -5,7 +5,7 @@ ms.assetid: 43fe71e7-4e5c-46fb-876b-e26996071662
 keywords:
 - Desktop Window Manager (DWM),samples
 - DWM (Desktop Window Manager),samples
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

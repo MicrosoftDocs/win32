@@ -2,7 +2,7 @@
 title: Confidence Property
 description: Confidence Property
 ms.assetid: 28a57970-4649-4a9a-9fb2-bf3f0b2f54ce
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

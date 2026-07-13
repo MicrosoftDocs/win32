@@ -1,7 +1,7 @@
 ---
 title: LAN_profile schema
 description: Defines a wired (LAN) network profile.
-ms.topic: article
+ms.topic: reference
 ms.date: 06/20/2023
 topic_type: 
 - kbArticle

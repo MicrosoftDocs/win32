@@ -2,7 +2,7 @@
 description: Using the COM+ CRM in a Cluster Environment
 ms.assetid: 753461c5-880c-4df0-b552-b962dc06524f
 title: Using the COM+ CRM in a Cluster Environment
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

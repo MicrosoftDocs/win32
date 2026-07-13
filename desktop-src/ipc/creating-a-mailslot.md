@@ -2,7 +2,7 @@
 description: 'How to create mailslots. Mailslots are supported by three specialized functions: CreateMailslot, GetMailslotInfo, and SetMailslotInfo. These functions are used by the mailslot server.'
 ms.assetid: 7f5a3b36-9583-43fc-a977-321c00a48edb
 title: Creating a Mailslot
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

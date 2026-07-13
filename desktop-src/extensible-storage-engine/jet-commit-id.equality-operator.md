@@ -30,7 +30,7 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_COMMIT_ID.Equality operator
 
-Determine whether one commitid is is equal to another commitid.
+Determine whether one commitid is equal to another commitid.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

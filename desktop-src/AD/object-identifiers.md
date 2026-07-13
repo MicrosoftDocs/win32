@@ -5,7 +5,7 @@ ms.assetid: a8f5a1c7-eda3-4430-b959-daef13c00a1b
 ms.tgt_platform: multiple
 keywords:
 - object identifiers AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

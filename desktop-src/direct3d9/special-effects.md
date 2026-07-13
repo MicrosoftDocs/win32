@@ -2,7 +2,7 @@
 description: This topic contains examples of special effects accomplished with texture coordinate processing.
 ms.assetid: 8a120ff4-1252-4c4f-93fc-ea59bb7a1168
 title: Special Effects (Direct3D 9)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

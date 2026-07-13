@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Comma-separated Value Scripts AD
 - Scripts, Comma-separated Value AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

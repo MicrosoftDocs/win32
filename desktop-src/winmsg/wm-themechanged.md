@@ -3,7 +3,7 @@ description: Broadcast to every window following a theme change event. Examples 
 ms.assetid: 1a4051ac-cc6e-4520-ab66-d0a41a8a4c73
 title: WM_THEMECHANGED message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_THEMECHANGED message

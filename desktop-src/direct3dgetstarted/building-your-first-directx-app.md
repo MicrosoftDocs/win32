@@ -4,7 +4,7 @@ description: This section describes why you would use the C++ model for Windows 
 ms.assetid: b632ba9c-1c30-4d21-ac79-7f2a193956fe
 keywords:
 - DirectX app, getting started
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

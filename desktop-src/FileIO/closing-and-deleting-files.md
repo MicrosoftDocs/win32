@@ -2,7 +2,7 @@
 description: To use operating system resources efficiently, an application should close files when they are no longer needed by using the CloseHandle function. If a file is open when an application terminates, the system closes it automatically.
 ms.assetid: 6cf9694a-00c4-4750-8822-c25a1a102fd4
 title: Closing and Deleting Files
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

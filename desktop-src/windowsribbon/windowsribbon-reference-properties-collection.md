@@ -2,7 +2,7 @@
 title: Collection Properties
 description: Reference documentation on property keys for Ribbon framework collection-based controls.
 ms.assetid: fa317765-25e2-42ef-8558-fb5ef951fc17
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

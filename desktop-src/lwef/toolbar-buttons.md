@@ -2,7 +2,7 @@
 title: Toolbar Buttons (Linguistic Information Sound Editing Tool)
 description: Toolbar Buttons
 ms.assetid: 346a55e6-b506-4fd4-9ef8-bf4fbd866dd3
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

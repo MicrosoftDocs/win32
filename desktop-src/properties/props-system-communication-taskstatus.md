@@ -2,7 +2,7 @@
 description: Indicates the current status of the task.
 ms.assetid: 76bb9bb7-3383-4e5a-ae75-a11c40f318e2
 title: System.Communication.TaskStatus
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

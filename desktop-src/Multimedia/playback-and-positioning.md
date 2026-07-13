@@ -2,7 +2,7 @@
 title: Playback and Positioning
 description: Playback and Positioning
 ms.assetid: fbf9294e-c644-45c7-ab60-dd903409a44f
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

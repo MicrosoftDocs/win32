@@ -62,7 +62,7 @@ This function is supported in the following shader models.
 
 | Shader Model                                                        | Supported |
 |---------------------------------------------------------------------|-----------|
-| [Shader Model 4 (DirectX HLSL) or later.](dx-graphics-hlsl-sm3.md) | yes       |
+| [Shader Model 4 (DirectX HLSL) or later.](dx-graphics-hlsl-sm4.md) | yes       |
 
 
 

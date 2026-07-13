@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Implementing Active Directory Service Interfaces Providers ADSI
 - Implementing ADSI Providers ADSI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

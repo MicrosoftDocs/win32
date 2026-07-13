@@ -2,7 +2,7 @@
 description: An application manifest is an XML file that describes and identifies the shared and private side-by-side assemblies that an application should bind to at run time.
 ms.assetid: c5016251-db7a-4edc-9be9-3acb03d495f8
 title: Application manifests
-ms.topic: article
+ms.topic: reference
 ms.date: 10/08/2020
 ms.custom: 19H1
 ---
@@ -29,14 +29,19 @@ Application manifests have the following elements and attributes.
 |                                                                             | **publicKeyToken**        | No       |
 | [**compatibility**](#compatibility)                                         |                           | No       |
 | [**application**](#application)                                             |                           | No       |
-| [**supportedOS**](#supportedOS)                                             | **Id**                    | No       |
-| [**maxversiontested**](#maxversiontested)                                   | **Id**                    | No       |
+| [**supportedOS**](#supportedOS)                                             |                           | No       |
+|                                                                             | **Id**                    | Yes      |
+| [**maxversiontested**](#maxversiontested)                                   |                           | No       |
+|                                                                             | **Id**                    | Yes      |
 | [**dependency**](#dependency)                                               |                           | No       |
 | [**dependentAssembly**](#dependentAssembly)                                 |                           | No       |
 | [**file**](#file)                                                           |                           | No       |
-|                                                                             | **name**                  | No       |
+|                                                                             | **name**                  | Yes      |
 |                                                                             | **hashalg**               | No       |
 |                                                                             | **hash**                  | No       |
+| [**activatableClass**](#activatableClass)                                   |                           | No       |
+|                                                                             | **name**                  | Yes      |
+|                                                                             | **threadingModel**        | Yes      |
 | [**activeCodePage**](#activeCodePage)                                       |                           | No       |
 | [**autoElevate**](#autoElevate)                                             |                           | No       |
 | [**disableTheming**](#disableTheming)                                       |                           | No       |
@@ -50,7 +55,9 @@ Application manifests have the following elements and attributes.
 | [**ultraHighResolutionScrollingAware**](#ultraHighResolutionScrollingAware) |                           | No       |
 | [**msix**](#msix)                                                           |                           | No       |
 | [**heapType**](#heaptype)                                                   |                           | No       |
-| [**trustInfo**](#trustinfo)                                                   |                           | No       |
+| [**supportedArchitectures**](#supportedarchitectures)                       |                           | No       |
+| [**consoleAllocationPolicy**](#consoleallocationpolicy)                     |                           | No       |
+| [**trustInfo**](#trustinfo)                                                 |                           | No       |
 
 ## File location
 
@@ -108,16 +115,37 @@ The **assemblyIdentity** element has the following attributes. It has no subelem
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **type**                  | Specifies the application or assembly type. The value must be `win32` and all in lower case. Required.                                                                                                                                                                                                                                                                                                                              |
 | **name**                  | Uniquely names the application or assembly. Use the following format for the name: `Organization.Division.Name`. For example `Microsoft.Windows.mysampleApp`. Required.                                                                                                                                                                                                                                                               |
-| **language**              | Identifies the language of the application or assembly. If the application or assembly is language-specific, specify the DHTML language code. In the **assemblyIdentity** of an application intended for worldwide use (language neutral) omit the language attribute.<br/>In an **assemblyIdentity** of an assembly intended for worldwide use (language neutral) set the value of language to `\*`. Optional.                    |
-| **processorArchitecture** | Specifies the processor. Valid values include `x86`, `amd64`, `arm` and `arm64`. You can also specify `\*`, which ensures that all platforms are targeted. Optional.                                                                                                                                                                                                                                                            |
+| **language**              | Identifies the language of the application or assembly. If the application or assembly is language-specific, specify the DHTML language code. In the **assemblyIdentity** of an application intended for worldwide use (language neutral) omit the language attribute.<br/>In an **assemblyIdentity** of an assembly intended for worldwide use (language neutral) set the value of language to `*`. Optional.                    |
+| **processorArchitecture** | Specifies the processor. Valid values include `x86`, `amd64`, `arm` and `arm64`. You can also specify `*`, which ensures that all platforms are targeted. Optional.                                                                                                                                                                                                                                                            |
 | **version**               | Specifies the application or assembly version. Use the four-part version format: `mmmmm.nnnnn.ooooo.ppppp`. Each of the parts separated by periods can be 0-65535 inclusive. For more information, see [Assembly Versions](assembly-versions.md). Required.                                                                                                                                                                        |
 | **publicKeyToken**        | A 16-character hexadecimal string representing the last 8 bytes of the SHA-1 hash of the public key under which the application or assembly is signed. The public key used to sign the catalog must be 2048 bits or greater. Required for all shared side-by-side assemblies.                                                                                                                                                     |
+
+```xml
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+ ...
+<dependency>
+   <dependentAssembly>
+      <assemblyIdentity
+          type="win32"
+          name="Microsoft.Windows.Common-Controls"
+          version="6.0.0.0"
+          processorArchitecture="*"
+          publicKeyToken="6595b64144ccf1df"
+          language="*"
+       />
+   </dependentAssembly>
+</dependency>
+...
+</assembly>
+```
 
 <span id="compatibility"></span><span id="COMPATIBILITY"></span>
 
 ### compatibility
 
 Contains at least one **application**. It has no attributes. Optional. Application manifests without a compatibility element default to Windows Vista compatibility on Windows 7.
+
+The **compatibility** element must be in the namespace `urn:schemas-microsoft-com:compatibility.v1`. Child elements of the **compatibility** must also be in this namespace, by inheritance or by tagging.
 
 <span id="application"></span><span id="APPLICATION"></span>
 
@@ -133,7 +161,7 @@ The **supportedOS** element has the following attribute. It has no subelements.
 
 | Attribute | Description   |
 |-----------|-----------------------|
-| **Id**    | Set the Id attribute to **{e2011457-1546-43c5-a5fe-008deee3d3f0}** to run the application using Vista functionality. This can enable an application designed for Windows Vista to run on a later operating system. <br/> Set the Id attribute to **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** to run the application using Windows 7 functionality.<br/> Applications that support Windows Vista, Windows 7, and Windows 8 functionality do not require separate manifests. In this case, add the GUIDs for all the Windows operating systems.<br/> For info about the **Id** attribute behavior in Windows, see the [Windows 8 and Windows Server 2012 Compatibility Cookbook](https://www.microsoft.com/download/details.aspx?id=27416).<br/> The following GUIDs correspond with the indicated operating systems:<br/> **{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}** -> Windows 10, Windows 11, Windows Server 2016, Windows Server 2019 and Windows Server 2022<br/> **{1f676c76-80e1-4239-95bb-83d0f6d0da78}** -> Windows 8.1 and Windows Server 2012 R2<br/> **{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}** -> Windows 8 and Windows Server 2012<br/> **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** -> Windows 7 and Windows Server 2008 R2<br/> **{e2011457-1546-43c5-a5fe-008deee3d3f0}** -> Windows Vista and Windows Server 2008<br/> You can test this on Windows 7 or Windows 8.x by running Resource Monitor (resmon), going to the CPU tab, right-clicking on the column labels, "Select Column...", and check "Operating System Context". On Windows 8.x, you can also find this column available in the Task Manager (taskmgr). The content of the column shows the highest value found or "Windows Vista" as the default. <br/> |
+| **Id**    | Set the Id attribute to **{e2011457-1546-43c5-a5fe-008deee3d3f0}** to run the application using Vista functionality. This can enable an application designed for Windows Vista to run on a later operating system. <br/> Set the Id attribute to **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** to run the application using Windows 7 functionality.<br/> Applications that support Windows Vista, Windows 7, and Windows 8 functionality do not require separate manifests. In this case, add the GUIDs for all the Windows operating systems.<br/> For info about the **Id** attribute behavior in Windows, see the [Windows 8 and Windows Server 2012 Compatibility Cookbook](/windows/win32/w8cookbook/).<br/> The following GUIDs correspond with the indicated operating systems:<br/> **{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}** -> Windows 10, Windows 11, Windows Server 2016, Windows Server 2019 and Windows Server 2022<br/> **{1f676c76-80e1-4239-95bb-83d0f6d0da78}** -> Windows 8.1 and Windows Server 2012 R2<br/> **{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}** -> Windows 8 and Windows Server 2012<br/> **{35138b9a-5d96-4fbd-8e2d-a2440225f93a}** -> Windows 7 and Windows Server 2008 R2<br/> **{e2011457-1546-43c5-a5fe-008deee3d3f0}** -> Windows Vista and Windows Server 2008<br/> You can test this on Windows 7 or Windows 8.x by running Resource Monitor (resmon), going to the CPU tab, right-clicking on the column labels, "Select Column...", and check "Operating System Context". On Windows 8.x, you can also find this column available in the Task Manager (taskmgr). The content of the column shows the highest value found or "Windows Vista" as the default. <br/> |
 
 <span id="maxVersionTested"></span><span id="maxversiontested"></span><span id="MAXVERSIONTESTED"></span>
 
@@ -145,7 +173,21 @@ The **maxversiontested** element has the following attribute. It has no subeleme
 
 | Attribute | Description    |
 |-----------|----------------|
-| **Id**    | Set the Id attribute to a 4-part version string that specifies the maximum version of Windows that the application was tested against. For example, "10.0.18226.0". |
+| **Id**    | Set the Id attribute to a 4-part version string that specifies the maximum version of Windows that the application was tested against. For example, "10.0.18362.1" for Windows 10, version 1903. Required. |
+
+```xml
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+...
+    <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+        <application>
+            <!-- Windows 10, version 1903 -->
+            <maxversiontested Id="10.0.18362.1"/>
+            <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />
+        </application>
+    </compatibility>
+...
+</assembly>
+```
 
 <span id="dependency"></span><span id="DEPENDENCY"></span>
 
@@ -169,9 +211,38 @@ The **file** element has the attributes shown in the following table.
 
 | Attribute   | Description                                                                                             |
 |-------------|---------------------------------------------------------------------------------------------------------|
-| **name**    | Name of the file. For example, Comctl32.dll.                                                            |
-| **hashalg** | Algorithm used to create a hash of the file. This value should be SHA1.                                 |
-| **hash**    | A hash of the file referred to by name. A hexadecimal string of length depending on the hash algorithm. |
+| **name**    | Name of the file. For example, Comctl32.dll. Required. |
+| **hashalg** | Algorithm used to create a hash of the file. This value should be SHA1. Optional. |
+| **hash**    | A hash of the file referred to by name. A hexadecimal string of length depending on the hash algorithm. Optional. |
+
+<span id="activatableClass"></span><span id="activatableclass"></span><span id="ACTIVABLECLASS"></span>
+
+### activatableClass
+
+Allows non-packaged desktop apps to make use of user-defined Windows Runtime (WinRT) Components. This element is supported in Windows 10, version 1903, and later versions. For more information, see [this article](/windows/apps/develop/platform/csharp-winrt/create-windows-runtime-component-cswinrt#consume-the-component-from-a-cwinrt-app).
+
+The **activatableClass** element must be in the namespace `urn:schemas-microsoft-com:winrt.v1`.
+
+The **activatableClass** element has the following attributes.
+
+| Attribute           | Description                                           |
+|---------------------|-------------------------------------------------------|
+| **name** | Specifies the class identifier for the activatable class. Required. |
+| **threadingModel** | Represents the apartment threading model to use for activating an in-process server. Valid values include `both`, `STA`, or `MTA`. See [this article](/windows/win32/com/in-process-server-threading-issues) for more info. Required. |
+
+```xml
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+...
+<file name="WinRTComponent.dll">
+    <activatableClass
+        name="WinRTComponent.MessageHolder"
+        threadingModel="both"
+        xmlns="urn:schemas-microsoft-com:winrt.v1"
+     />
+</file>
+...
+</assembly>
+```
 
 <span id="activeCodePage"></span><span id="activecodepage"></span><span id="ACTIVECODEPAGE"></span>
 
@@ -311,7 +382,9 @@ Specifies whether GDI scaling is enabled. The minimum version of the operating s
 
 The GDI (graphics device interface) framework can apply DPI scaling to primitives and text on a per-monitor basis without updates to the application itself. This can be useful for GDI applications no longer being actively updated.
 
-Non-vector graphics (such as bitmaps, icons, or toolbars) cannot be scaled by this element. In addition, graphics and text appearing within bitmaps dynamically constructed by applications also cannot be scaled by this element.
+Non-vector graphics (such as bitmaps, icons, or toolbars) cannot be scaled by this element. In addition, graphics and text appearing within bitmaps dynamically constructed by applications also cannot be scaled by this element. For more information, see [Improving the high-DPI experience in GDI based Desktop Apps](https://blogs.windows.com/windowsdeveloper/2017/05/19/improving-high-dpi-experience-gdi-based-desktop-apps).
+
+You can programmatically change this setting by calling the [**SetThreadDpiAwarenessContext**](/windows/win32/api/winuser/nf-winuser-setthreaddpiawarenesscontext) or [**SetProcessDpiAwarenessContext**](/windows/win32/api/winuser/nf-winuser-setprocessdpiawarenesscontext) function with `DPI_AWARENESS_CONTEXT_UNAWARE_GDISCALED` value.
 
 **TRUE** indicates that this element is enabled. It has no attributes.
 
@@ -424,6 +497,50 @@ This element has no attributes.
 </assembly>
 ```
 
+### supportedArchitectures
+
+For IL-only .NET Framework executables, specifies a list of native processor architectures the application is compatible with. Can contain one or more of the following values, separated by spaces:
+
+* **amd64**
+* **arm64**
+
+This element has no attributes.
+
+This element is supported in Windows 11, version 24H2 and later.
+
+```XML
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
+ ...
+  <asmv3:application>
+    <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2024/WindowsSettings">
+      <supportedArchitectures>amd64 arm64</supportedArchitectures>
+    </asmv3:windowsSettings>
+  </asmv3:application>
+ ...
+</assembly>
+```
+
+### consoleAllocationPolicy
+
+Console applications automatically spawn a terminal window (a console host) when launched from Explorer or similar. Setting this element to `detached` will prevent this.
+This can be used to create an application that behaves like a pure GUI application when launched from Explorer, while permitting terminal output when launched from an existing terminal session.
+
+See [Console Allocation Policy](/windows/console/console-allocation-policy).
+
+This element has no attributes.
+
+This element is supported in Windows 11 24H2 and Windows Server 2025, or later.
+
+```xml
+<assembly manifestVersion="1.0">
+  <application>
+    <windowsSettings>
+      <consoleAllocationPolicy xmlns="http://schemas.microsoft.com/SMI/2024/WindowsSettings">detached</consoleAllocationPolicy>
+    </windowsSettings>
+  </application>
+</assembly>
+```
+
 ### trustInfo
 
 All UAC-compliant apps should have a requested execution level added to the application manifest. Requested execution levels specify the privileges required for an app. For more information, see [How User Account Control (UAC) Affects Your Application](/cpp/security/how-user-account-control-uac-affects-your-application). 
@@ -432,15 +549,15 @@ The requested execution level is specified with the **level** attribute of the *
 
 | Value | Description |
 |-------|-------------|
-| asInvoker | The application runs at the same permission level as the process that started it. You can elevate the application to a higher permission level by selecting **Run as Administrator**. |
-| requireAdministrator | The application runs using administrator permissions. The user who starts the application must be a member of the Administrators group. If the opening process isn't running with administrative permissions, the system prompts for credentials. |
-| highestAvailable  |  The application runs at the highest permission level that it can. If the user who starts the application is a member of the Administrators group, this option is the same as `level='requireAdministrator'`. If the highest available permission level is higher than the level of the opening process, the system prompts for credentials. |
+| **asInvoker** | The application runs at the same permission level as the process that started it. You can elevate the application to a higher permission level by selecting **Run as Administrator**. |
+| **requireAdministrator** | The application runs using administrator permissions. The user who starts the application must be a member of the Administrators group. If the opening process isn't running with administrative permissions, the system prompts for credentials. |
+| **highestAvailable**  |  The application runs at the highest permission level that it can. If the user who starts the application is a member of the Administrators group, this option is the same as `level="requireAdministrator"`. If the highest available permission level is higher than the level of the opening process, the system prompts for credentials. |
 
-Setting the level to 'highestAvailable' ensures that the application will run successfully with both users who are members of the Administrators group and those who are not. If the application can only function with administrative access to the system, then marking the app with a requested execution level of 'requireAdministrator' ensures that the system identifies this program as an administrative app and performs the necessary elevation steps.
+Setting the level to `highestAvailable` ensures that the application will run successfully with both users who are members of the Administrators group and those who are not. If the application can only function with administrative access to the system, then marking the app with a requested execution level of `requireAdministrator` ensures that the system identifies this program as an administrative app and performs the necessary elevation steps.
 
-By default, the Visual C++ linker embeds a UAC fragment into the manifest of an application with an execution level of 'asInvoker'.
+By default, the Visual C++ linker embeds a UAC fragment into the manifest of an application with an execution level of `asInvoker`.
 
-The **requestedExecutionLevel** element also has an attribute **uiAccess**. Set this value to true if you want the application to bypass user interface protection levels and drive input to higher-permission windows on the desktop; otherwise, `uiAccess='false'`. Defaults to uiAccess='false'. Set this argument to `uiAccess='true'` only for user interface accessibility applications. For more informatiom, see [Security Considerations for Assistive Technologies](/windows/win32/winauto/uiauto-securityoverview).
+The **requestedExecutionLevel** element also has an optional attribute **uiAccess**. Set this value to `true` if you want the application to bypass user interface protection levels and drive input to higher-permission windows on the desktop. Set this attribute to `true` only for user interface accessibility applications. Defaults to `false`. Additional restrictions from security policy settings may be applied, see [User Account Control: Only elevate UIAccess applications that are installed in secure locations](/windows/security/threat-protection/security-policy-settings/user-account-control-only-elevate-uiaccess-applications-that-are-installed-in-secure-locations). For more information, see [Security Considerations for Assistive Technologies](/windows/win32/winauto/uiauto-securityoverview).
 
 Specifying **requestedExecutionLevel** node will disable file and registry virtualization. If you want to utilize File and Registry Virtualization for backward compatibility then omit the **requestedExecutionLevel** node.
 
@@ -458,41 +575,28 @@ Specifying **requestedExecutionLevel** node will disable file and registry virtu
 
 The following is an example of an application manifest for an application named MySampleApp.exe. The application consumes the SampleAssembly side-by-side assembly.
 
-``` syntax
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
-
-  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1"> 
-      <application> 
-            <!-- Windows 10 and Windows 11 -->
-            <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/>
-            <!-- Windows 8.1 -->
-            <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>
-            <!-- Windows 8 -->
-            <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/>
-            <!-- Windows 7 -->
-            <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>
-            <!-- Windows Vista -->
-            <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/> 
-      </application> 
-  </compatibility>
-
-  <assemblyIdentity type="win32" 
-                    name="myOrganization.myDivision.mySampleApp" 
-                    version="6.0.0.0" 
-                    processorArchitecture="x86" 
-                    publicKeyToken="0000000000000000"
-  />
-  <dependency>
-    <dependentAssembly>
-      <assemblyIdentity type="win32" 
-                        name="Proseware.Research.SampleAssembly" 
-                        version="6.0.0.0" 
-                        processorArchitecture="x86" 
-                        publicKeyToken="0000000000000000" 
-                        language="*"
-      />
-    </dependentAssembly>
-  </dependency>
+   <assemblyIdentity type="win32" name="MyOrganization.MyDivision.MySampleApp" version="6.0.0.0" processorArchitecture="*" />
+   <dependency>
+      <dependentAssembly>
+         <assemblyIdentity type="win32" name="Proseware.Research.SampleAssembly" version="6.0.0.0" processorArchitecture="*" publicKeyToken="0000000000000000" />
+      </dependentAssembly>
+   </dependency>
+   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+      <application>
+         <!-- Windows 10 and Windows 11 -->
+         <supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />
+         <!-- Windows 8.1 -->
+         <supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />
+         <!-- Windows 8 -->
+         <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />
+         <!-- Windows 7 -->
+         <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />
+         <!-- Windows Vista -->
+         <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />
+      </application>
+   </compatibility>
 </assembly>
 ```

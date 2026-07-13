@@ -112,8 +112,6 @@ For more information about enabling this privilege in C++, see [Enabling and Dis
 
 ## Examples
 
-The [Terminate running process on multiple servers](https://Gallery.TechNet.Microsoft.Com/698c2512-2bbd-40ee-b3bf-a9cebdad2faf) PowerShell code sample on TechNet Gallery terminates a process running on a single or multiple computers.
-
 The following VBScript sample terminates the process in which the application Diagnose.exe is currently running.
 
 

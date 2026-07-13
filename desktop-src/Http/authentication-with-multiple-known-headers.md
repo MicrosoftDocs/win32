@@ -2,7 +2,7 @@
 title: Authentication with Multiple Known Headers
 description: The HTTP\_MULTIPLE\_KNOWN\_HEADERS structure enables server applications to send multiple authentication challenges to the client.
 ms.assetid: d517fd61-9547-4e1c-b0fd-1eb3d0098db2
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

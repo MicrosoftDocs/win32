@@ -16,7 +16,7 @@ keywords:
 - RIFF I/O
 - custom I/O
 - memory I/O
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

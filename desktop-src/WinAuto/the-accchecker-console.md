@@ -6,8 +6,8 @@ keywords:
 - AccChecker Console
 - AccChecker command-line tool
 - command-line, AccChecker
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # The AccChecker Console

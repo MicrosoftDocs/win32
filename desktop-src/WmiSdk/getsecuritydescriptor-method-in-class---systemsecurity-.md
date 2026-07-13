@@ -108,7 +108,7 @@ If the **SeSecurityPrivilege** is not granted or enabled when getting a security
 [**\_\_SystemSecurity**](--systemsecurity.md)
 </dt> <dt>
 
-[Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md)
+[Setting Namespace Security Descriptors](setting-namespace-security-descriptors.md)
 </dt> </dl>
 
  

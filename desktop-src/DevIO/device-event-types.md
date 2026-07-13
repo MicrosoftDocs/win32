@@ -2,7 +2,7 @@
 description: To determine the device event type when processing a WM\_DEVICECHANGE message, examine the wParam parameter.
 ms.assetid: 17078548-879d-4a11-a268-27d1f30180ab
 title: Device Event Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

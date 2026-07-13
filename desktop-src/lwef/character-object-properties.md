@@ -2,7 +2,7 @@
 title: Character Object Properties
 description: Character Object Properties
 ms.assetid: 86748de2-f5c8-4057-bfa4-79d46cac1e62
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

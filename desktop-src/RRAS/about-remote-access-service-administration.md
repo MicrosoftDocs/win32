@@ -7,7 +7,7 @@ keywords:
 - Routing and Remote Access Service RRAS , RAS Administration, described
 - RAS Administration RRAS
 - RAS Administration RRAS , described
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

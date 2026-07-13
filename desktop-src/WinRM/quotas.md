@@ -3,7 +3,7 @@ title: Quota Management for Remote Shells
 description: Quota management allows users to manage system resources more efficiently.
 ms.assetid: 6651a500-a95a-45a1-b46a-27b2e9b36a1c
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

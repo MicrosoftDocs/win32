@@ -3,7 +3,7 @@ description: Performs no operation. An application sends the WM\_NULL message if
 ms.assetid: edbcfba6-7b79-4d53-84e3-2e4227e17369
 title: WM_NULL message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_NULL message

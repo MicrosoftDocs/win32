@@ -4,7 +4,7 @@ description: Asynchronous storage enables applications to precisely layout compo
 ms.assetid: 0737c5b2-09f6-4993-bb42-f2a684e5a136
 keywords:
 - Compound File Optimization
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

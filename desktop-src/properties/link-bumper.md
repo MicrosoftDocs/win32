@@ -2,7 +2,7 @@
 description: Link
 ms.assetid: 584095bb-a02a-4b56-9270-1163f36a6fde
 title: Link
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

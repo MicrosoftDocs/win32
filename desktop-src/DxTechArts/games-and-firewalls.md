@@ -2,7 +2,7 @@
 title: Windows Firewall for Game Developers
 description: This article describes the Windows Firewall - why it exists, what it accomplishes, and how it does so. Most importantly, it describes how to configure your game to work well with the firewall.
 ms.assetid: 2ee9f769-03dc-3661-5d5b-6a4ecd151fd5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

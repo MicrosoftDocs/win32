@@ -2,7 +2,7 @@
 description: Stream contexts handle the secure stream-oriented protocols such as SSL or PCT.
 ms.assetid: 05a6b036-1f7f-473f-9813-a1e1534e0f0d
 title: Stream Contexts
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

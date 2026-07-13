@@ -2,7 +2,7 @@
 title: User Modal Functions
 description: The network management user modal functions get and set system-wide parameters related to security system behavior.
 ms.assetid: e655b9f6-2808-4bd4-998c-c8a2e980920b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

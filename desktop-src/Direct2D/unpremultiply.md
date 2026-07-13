@@ -4,7 +4,7 @@ description: Use this effect to convert an image from premultiplied alpha to unp
 ms.assetid: A4FAF899-81DA-4BDA-98B4-DE63EC1664F5
 keywords:
 - unpremultiply effect
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -14,7 +14,7 @@ Use this effect to convert an image from premultiplied alpha to unpremultiplied 
 
 This effect has no properties.
 
-The CLSID for this effect is CLSID\_D2D1Unpremultiply.
+The CLSID for this effect is **CLSID_D2D1UnPremultiply**.
 
 ## Output bitmap
 

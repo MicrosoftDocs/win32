@@ -4,7 +4,7 @@ description: Remote Procedure Call (RPC) navigation page for overview sections.
 ms.assetid: 49dc35c3-efd7-45a2-bec0-cd68ac150754
 keywords:
 - Remote Procedure Call RPC , described
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

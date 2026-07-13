@@ -2,7 +2,7 @@
 description: Communication
 ms.assetid: 591d1ad1-3f3e-4fc2-87fe-8e9bce7e9ec1
 title: Communication
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

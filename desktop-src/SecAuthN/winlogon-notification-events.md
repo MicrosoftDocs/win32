@@ -2,7 +2,7 @@
 description: Lists Winlogon notification events.
 ms.assetid: 48b0f389-5b3c-4b13-ad23-a8bc6bcd1850
 title: Winlogon Notification Events
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

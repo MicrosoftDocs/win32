@@ -108,7 +108,7 @@ Receives the local path to the golden VHD image when the *PoolVhdTpe* parameter 
 *RunFromSMB* \[out\]
 </dt> <dd>
 
-Receives a value that indicates whether to run the collection from an Server Message Block (SMB) share. **TRUE** to run the virtual machines from an SBM share; otherwise; **FALSE**.
+Receives a value that indicates whether to run the collection from a Server Message Block (SMB) share. **TRUE** to run the virtual machines from an SBM share; otherwise; **FALSE**.
 
 </dd> <dt>
 

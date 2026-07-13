@@ -3,7 +3,7 @@ title: Obtaining Data from the Local Computer
 description: Although Windows Remote Management and WS-Management protocol are explicitly designed for remote communication, establishing a session on the local computer is the simplest case.
 ms.assetid: 7f08b557-bbd4-4f67-b5e5-b84e8af58657
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle
@@ -16,7 +16,7 @@ api_location:
 
 Although Windows Remote Management and WS-Management protocol are explicitly designed for remote communication, establishing a session on the local computer is the simplest case. Some scripts may require access data on the local computer as well as remote computers.
 
-**WinRM version 2.0:  **
+**WinRM version 2.0:**
 
 All operations are considered remote and the WinRM service must be started before any operation is performed. If a remote destination is not specified, then the localhost is used by default, and all operations will be sent to the local WinRM service. For more information about starting the WinRM service, see [Installation and Configuration for Windows Remote Management](installation-and-configuration-for-windows-remote-management.md).
 

@@ -3,7 +3,7 @@ title: Remote Desktop Services Configuration classes
 description: The Remote Desktop Services Configuration WMI provider provides the following classes. An illustration follows.
 ms.assetid: 94f61783-b259-4f0f-ac06-84bfbf4f5996
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

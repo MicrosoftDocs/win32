@@ -2,7 +2,7 @@
 title: Matrix Attribute (Skew)(VML)
 description: Matrix Attribute (Skew)(VML)
 ms.assetid: 8d039865-2261-458b-8edf-01374af65cea
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

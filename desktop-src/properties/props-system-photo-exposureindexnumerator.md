@@ -2,7 +2,7 @@
 description: The numerator of PKEY\_Photo\_ExposureIndex.
 ms.assetid: c4ab8067-198b-4aa1-bb71-99eb0947cc74
 title: System.Photo.ExposureIndexNumerator
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

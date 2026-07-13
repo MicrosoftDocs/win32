@@ -2,7 +2,7 @@
 description: The SelectionTree control uses the SelectionSize event to publish the size of the highlighted item.
 ms.assetid: 1ef161b6-f127-45ad-a312-d2adcb5124ef
 title: SelectionSize ControlEvent
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

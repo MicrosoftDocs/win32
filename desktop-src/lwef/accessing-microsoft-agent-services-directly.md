@@ -2,7 +2,7 @@
 title: Accessing Microsoft Agent Services Directly
 description: Accessing Microsoft Agent Services Directly
 ms.assetid: 2aebc4b8-276e-47ae-a410-5dee192a6c5d
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

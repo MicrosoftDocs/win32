@@ -5,7 +5,7 @@ ms.assetid: 3930029d-b2d9-4beb-bad6-4962f952d7ee
 keywords:
 - OpenGL on Windows,multithread drawing
 - multithread OpenGL drawing OpenGL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

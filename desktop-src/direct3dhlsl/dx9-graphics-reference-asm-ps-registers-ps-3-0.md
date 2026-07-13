@@ -6,7 +6,7 @@ keywords:
 - vPos
 - Position Register, Pixel Shader
 - Registers - ps_3_0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

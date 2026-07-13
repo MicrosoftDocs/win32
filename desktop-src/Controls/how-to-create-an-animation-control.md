@@ -2,7 +2,7 @@
 title: How to Create an Animation Control
 description: This topic demonstrates how to create an animation control.
 ms.assetid: 5852B636-F3D0-47A4-82F6-8BE570013E1B
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Constant float register (HLSL PS reference)
 description: Pixel shader input register for a 4D floating-point constant.
 ms.assetid: e4f46a48-c81e-4105-901b-332b92fa6195
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

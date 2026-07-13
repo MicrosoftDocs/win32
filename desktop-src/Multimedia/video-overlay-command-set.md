@@ -2,7 +2,7 @@
 title: Video-Overlay Command Set
 description: Video-Overlay Command Set
 ms.assetid: e1f9da94-00c2-472e-a78d-1b65e656c8ea
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

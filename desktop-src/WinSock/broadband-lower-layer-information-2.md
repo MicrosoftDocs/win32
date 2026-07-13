@@ -2,7 +2,7 @@
 description: This section lists the type definition for the broadband lower-layer information.
 ms.assetid: b987dd6b-a611-4297-abaa-fd080cc94f6f
 title: Broadband Lower Layer Information
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

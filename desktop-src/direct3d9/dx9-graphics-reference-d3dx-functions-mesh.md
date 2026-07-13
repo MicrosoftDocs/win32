@@ -2,7 +2,7 @@
 description: Learn about mesh functions in D3DX. D3DX supplies the several mesh functions, such as D3DXboxBoundProbe and D3DXCleanMesh.
 ms.assetid: d6698040-8fdd-40e6-a61a-402647d48dbc
 title: Mesh Functions (Direct3D 9 Graphics)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

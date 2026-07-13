@@ -3,7 +3,7 @@ description: In addition to classes and instances, WMI allows you to modify a me
 ms.assetid: 239a994f-ecaf-4558-9626-8f5e60dd350c
 ms.tgt_platform: multiple
 title: Modifying a Method
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

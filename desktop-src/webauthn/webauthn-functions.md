@@ -2,7 +2,7 @@
 description: The native WebAuthN API (webauthn.h) includes the following functions.
 ms.assetid: ebb02b7b-4604-4d8a-bea0-6f06920f8069
 title: WebAuthN functions
-ms.topic: article
+ms.topic: reference
 ms.date: 08/22/2022
 ---
 

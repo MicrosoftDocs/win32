@@ -2,7 +2,7 @@
 title: JActiveX Command-Line Tool
 description: The JActiveX command-line application is a component of Visual J++ 6.0.
 ms.assetid: b356eb85-5dd4-475b-8d53-8c13a84aa976
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

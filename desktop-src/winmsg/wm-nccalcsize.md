@@ -3,7 +3,7 @@ description: Sent when the size and position of a window's client area must be c
 ms.assetid: d2d5825e-02a5-44b8-8615-55b7259d24ba
 title: WM_NCCALCSIZE message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_NCCALCSIZE message

@@ -10,7 +10,7 @@ keywords:
 - timeSetEvent function
 - starting timer events
 - single timer events
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

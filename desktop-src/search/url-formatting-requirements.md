@@ -1,12 +1,12 @@
 ---
 description: As of Windows 7, inconsistencies remain in the handling and parsing of URLs. This topic provides a limited guide to navigating inconsistencies in file URL formats.
 ms.assetid: E9792368-517B-4FD7-A244-6C4B7F78B66E
-title: URL Formatting Requirements
-ms.topic: article
+title: URL formatting requirements
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# URL Formatting Requirements
+# URL formatting requirements
 
 As of Windows 7, inconsistencies remain in the handling and parsing of URLs. This topic provides a limited guide to navigating inconsistencies in file URL formats.
 
@@ -17,7 +17,7 @@ This topic is organized as follows:
 -   [URL Formats by API and Query](#url-formats-by-api-and-query)
 -   [Related topics](#related-topics)
 
-## URL Formats in Use
+## URL formats in use
 
 Third-party protocols are responsible for defining their URL format and defining queries in a manner that conforms to their standard. For example, Microsoft Outlook supports folder names with arbitrary characters, including those that are illegal in URLs such as the `"?"` character. The MAPI protocol handler does its own URL-encoding of its URLs. Hence, the index stores `"%3F"` instead of `"?"` , and Outlook must take this into account when creating queries.
 
@@ -38,7 +38,7 @@ The different formats are listed in the following table and are each assigned a 
 
  
 
-## Slash Direction, Trailing Star, and Trailing Slash Sensitivity
+## Slash direction, trailing star, and trailing slash sensitivity
 
 In Windows Search there is largely no sensitivity to slash direction. If the format `c:\test\example` is accepted, then c:/test/example is accepted as well. However, although [SCOPE](-search-sql-folderdepth.md) is generally insensitive to slash direction, it is sensitive to the slash direction in the case of remote URL format F. Hence, `Scope = '//server/share'` does not work.
 
@@ -46,7 +46,7 @@ The only API that is sensitive to trailing stars and distinguishes between `c:\t
 
 There are two places where Windows Search is sensitive to trailing slashes: ItemUrl and Path queries. If there is a directory `c:\test`, Windows Search treats `c:\test\` differently from `c:\test` for predicates like `path = 'c:\test'` and `System.ItemUrl = 'c:\test'`. For example, the predicate `path='file:c:/test'` would match the directory `c:\test`, but `path='file:c:/test/'` would not, due to the trailing slash.
 
-## URL Formats by API and Query
+## URL formats by API and query
 
 Local file URL formats accepted by selected APIs and queries are listed in the following table. The formats are associated with a letter (A through F), the meaning of which was denoted in the "[URL Formats in Use](#url-formats-in-use)" section earlier in this topic.
 

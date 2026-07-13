@@ -1,7 +1,7 @@
 ---
 title: Packet timestamping
 description: The IP Helper packet timestamping APIs provide the ability to determine the timestamping capability of a network adapter, and to query timestamps from the network adapter in the form of cross timestamps.
-ms.topic: article
+ms.topic: concept-article
 ms.date: 01/19/2021
 ---
 

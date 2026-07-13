@@ -58,7 +58,3 @@ For an example, see [How to Create a Solid Color Brush](how-to-create-a-solid-co
 
 [Direct2D QuickStart](getting-started-with-direct2d.md)
 </dt> </dl>
-
-�
-
-�

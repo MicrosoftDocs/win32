@@ -2,7 +2,7 @@
 description: Different type styles within a font family can have different widths.
 ms.assetid: d21613ef-1ba4-40bb-b922-afe287556441
 title: Drawing Text from Different Fonts on the Same Line
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

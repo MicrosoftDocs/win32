@@ -2,7 +2,7 @@
 description: Resource Type GUIDs
 ms.assetid: 20b692df-360f-4b51-9c86-b85bac648a75
 title: Resource Type GUIDs
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

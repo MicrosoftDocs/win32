@@ -15,7 +15,7 @@ keywords:
 - arbitrary stream inputs
 - streams,arbitrary stream inputs
 - streams,precompressed stream inputs
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

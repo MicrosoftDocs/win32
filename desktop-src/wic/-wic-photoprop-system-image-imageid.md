@@ -2,7 +2,7 @@
 description: The photo metadata policy for the System.Image.ImageID property.
 ms.assetid: 2a092d16-e7b9-4ffe-9bdb-01ed328ca26f
 title: System.Image.ImageID Photo Metadata Policy
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

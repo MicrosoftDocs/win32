@@ -2,7 +2,7 @@
 title: Audio Output Support
 description: Audio Output Support
 ms.assetid: 28b7b1dc-0bf2-46db-b114-f93e460d958f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

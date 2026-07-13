@@ -2,7 +2,7 @@
 description: Handling Unicode in an IME-Aware Application
 ms.assetid: fa202c1e-d0af-441f-b878-ed98205a880c
 title: Handling Unicode in an IME-Aware Application
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

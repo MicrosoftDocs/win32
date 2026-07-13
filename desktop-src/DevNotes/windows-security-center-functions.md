@@ -2,7 +2,7 @@
 description: The following functions are used with the Windows Security app.
 ms.assetid: FC28ACD2-A3C6-42A9-AE59-61892A139FB7
 title: Windows Security app functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

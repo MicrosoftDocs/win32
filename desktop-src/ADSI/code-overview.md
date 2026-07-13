@@ -5,7 +5,7 @@ ms.assetid: b353c2d9-ef86-4e4c-ac00-4756fc9ec57d
 ms.tgt_platform: multiple
 keywords:
 - Code Overview AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

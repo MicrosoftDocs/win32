@@ -2,7 +2,7 @@
 description: This section contains details about Flicks messages.
 ms.assetid: ac8b6b59-f553-4b68-943c-d52f04983356
 title: Flicks Messages
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

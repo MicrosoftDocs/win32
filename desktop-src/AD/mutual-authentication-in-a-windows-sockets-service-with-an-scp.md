@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Mutual Authentication in a Windows Sockets Service with an SCP AD
 - Active Directory, using, mutual authentication, Windows sockets service with an SCP
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

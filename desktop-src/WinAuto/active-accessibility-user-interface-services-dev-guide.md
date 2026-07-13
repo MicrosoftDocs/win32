@@ -2,8 +2,8 @@
 title: Active Accessibility User Interface Services Developer's Guide
 description: This section discusses the following topics
 ms.assetid: 91738bc9-0e33-4959-8f8a-ac4645e8511a
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Active Accessibility User Interface Services Developer's Guide

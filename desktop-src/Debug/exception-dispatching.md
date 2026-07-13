@@ -2,8 +2,8 @@
 description: When a hardware or software exception occurs, the processor stops execution at the point at which the exception occurred and transfers control to the system.
 ms.assetid: 35a1b9bd-8da9-47e6-beda-e0b159bd840d
 title: Exception Dispatching
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Exception Dispatching

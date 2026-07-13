@@ -2,7 +2,7 @@
 title: Constants (GDI+)
 description: 'Windows GDI+ defines constants in the following categories: Image File Format ConstantsImage Frame Dimension ConstantsImage Encoder ConstantsImage Pixel Format ConstantsImage Property Tag Type ConstantsImage Property Tag Constants'
 ms.assetid: 70f067f1-3257-444e-88ab-dce5ed6d3e4b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: IAgentCommand GetConfidenceThreshold
 description: IAgentCommand GetConfidenceThreshold
 ms.assetid: dfbaba7c-ed45-464e-82ab-39e33c023e89
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Offline Registry Library
 ms.assetid: 5861e0a9-6a3f-4bc8-ae8b-d51c9de28217
 title: Offline Registry Library
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -36,7 +36,7 @@ Applications should link to Offreg.dll using dynamic linking.
 
 Offreg.dll is provided in the Windows Driver Kit (WDK) for Windows 10 and earlier versions of the Windows operating system.
 
-For information about obtaining the WDK, see [How to Get the WDK and the WLK](/windows-hardware/drivers/download-the-wdk) or visit the [MSDN Subscriptions](https://msdn.microsoft.com/subscriptions/default.aspx) website.
+For information about obtaining the WDK, see [How to Get the WDK and the WLK](/windows-hardware/drivers/download-the-wdk).
 
 ## In this section
 

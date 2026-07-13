@@ -2,7 +2,7 @@
 description: The property proxy for the System.Photo.FocalLength photo metadata policy.
 ms.assetid: ce2076fe-22c4-4f43-9740-cdcbcb2eadc8
 title: System.Photo.FocalLength Proxy
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

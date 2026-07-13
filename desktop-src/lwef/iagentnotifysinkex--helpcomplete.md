@@ -2,7 +2,7 @@
 title: IAgentNotifySinkEx HelpComplete
 description: IAgentNotifySinkEx HelpComplete
 ms.assetid: f8285d05-3b96-4046-a058-0e001e47b54b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

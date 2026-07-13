@@ -12,7 +12,7 @@ api_location:
 - Winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 02/03/2020
 ---
 
@@ -117,10 +117,10 @@ This notification provides the child window's ancestor windows an opportunity to
 [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa)
 </dt> <dt>
 
-[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**](../winmsg/hiword.md)
 </dt> <dt>
 
-[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
+[**LOWORD**](../winmsg/loword.md)
 </dt> <dt>
 
 [**WM_CREATE**](../winmsg/wm-create.md)

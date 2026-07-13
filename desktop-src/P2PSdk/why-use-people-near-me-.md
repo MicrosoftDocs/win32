@@ -2,7 +2,7 @@
 description: Why use People Near Me?
 ms.assetid: 94e37cb0-1832-46ae-81ec-b92a5b4dcd51
 title: Why use People Near Me?
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

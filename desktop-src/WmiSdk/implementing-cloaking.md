@@ -3,7 +3,7 @@ description: Cloaking is an extension to impersonation that allows for better co
 ms.assetid: e094aecc-e940-43aa-87c2-ea8cc86d1051
 ms.tgt_platform: multiple
 title: Implementing Cloaking
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

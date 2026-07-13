@@ -2,7 +2,7 @@
 description: PatchMesh defines a mesh defined by Bézier patches, including a list of vertices and the patches for the mesh by indexing into the vertex array.
 ms.assetid: 'vs|directx_sdk|~\patchmesh.htm'
 title: PatchMesh
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

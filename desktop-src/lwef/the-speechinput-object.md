@@ -2,7 +2,7 @@
 title: The SpeechInput Object
 description: The SpeechInput Object
 ms.assetid: e968edb8-747f-421a-800b-29f13857410c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

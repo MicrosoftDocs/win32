@@ -14,7 +14,7 @@ keywords:
 - I/O (input and output),deleting files
 - deleting I/O files
 - mmioOpen function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

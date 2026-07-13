@@ -3,7 +3,7 @@ description: Sent when a window is being destroyed. It is sent to the window pro
 ms.assetid: 089c0645-199b-4a90-9cbc-740f0cf3267d
 title: WM_DESTROY message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_DESTROY message

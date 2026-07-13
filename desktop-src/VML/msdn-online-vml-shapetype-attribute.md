@@ -2,7 +2,7 @@
 title: VML ShapeType Attribute
 description: VML ShapeType Attribute
 ms.assetid: 9e9f22c2-ed2e-4ada-9203-9753a3ed99a1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

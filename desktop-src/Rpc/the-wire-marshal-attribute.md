@@ -5,7 +5,7 @@ ms.assetid: b764ca2b-7bbc-4266-836c-0d70033e9c62
 keywords:
 - Remote Procedure Call RPC , attributes, wire_marshal
 - wire_marshal
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

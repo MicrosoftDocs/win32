@@ -2,7 +2,7 @@
 description: The SetupSetSourceList function will open or create a source list on the users system.
 ms.assetid: cda632cf-6c92-48fb-aef1-25b320affd3e
 title: Using the MRU Source List
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: WMI tasks for networking manage and obtain information about connec
 ms.assetid: 25da32c3-34bf-4c88-9b09-ff371f2cf8db
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Networking'
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

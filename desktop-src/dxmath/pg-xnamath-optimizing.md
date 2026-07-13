@@ -2,7 +2,7 @@
 description: This topic describes optimization considerations and strategies with the DirectXMath Library.
 ms.assetid: bcbf8ae1-ed49-fdf7-812d-b2089537ab28
 title: Code Optimization with the DirectXMath Library
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -97,7 +97,7 @@ DirectXMath supports vectors of 4 single-precision floating-point or four 32-bit
 
 Because the instruction sets used to implement the DirectXMath Library have the ability to treat the same data as multiple different types-for example, treat the same vector as floating-point and integer data-certain optimizations can be achieved. You can get these optimizations by using the integer vector initialization routines and bit-wise operators to manipulate floating-point values.
 
-The binary format of single-precision floating-point numbers used by the DirectXMath Library completely conforms to the IEEE 764 standard:
+The binary format of single-precision floating-point numbers used by the DirectXMath Library completely conforms to the IEEE 754 standard:
 
 ``` syntax
      SIGN    EXPONENT   MANTISSA
@@ -105,7 +105,7 @@ The binary format of single-precision floating-point numbers used by the DirectX
      1 bit   8 bits     23 bits
 ```
 
-When working with the IEEE 764 single precision floating-point number, it is important to keep in mind, that some representations have special meaning (that is, they do not conform to the preceding description). Examples include:
+When working with the IEEE 754 single precision floating-point number, it is important to keep in mind, that some representations have special meaning (that is, they do not conform to the preceding description). Examples include:
 
 -   Positive zero is 0
 -   Negative zero is 0x80000000
@@ -115,7 +115,7 @@ When working with the IEEE 764 single precision floating-point number, it is imp
 
 ## Prefer Template Forms
 
-Template form exists for [**XMVectorSwizzle**](/windows/win32/api/directxmath/nf-directxmath-xmvectorswizzle), [**XMVectorPermute**](/windows/win32/api/directxmath/nf-directxmath-xmvectorpermute), [**XMVectorInsert**](/windows/win32/api/directxmath/nf-directxmath-xmvectorinsert), [**XMVectorShiftLeft**](/windows/win32/api/directxmath/nf-directxmath-xmvectorshiftleft), [**XMVectorRotateLeft**](/windows/win32/api/directxmath/nf-directxmath-xmvectorrotateleft), and [**XMVectorRotateRight**](/windows/win32/api/directxmath/nf-directxmath-xmvectorrotateright). Using these instead of the general function form allows the compiler to create much more efficent implementations. For [SSE](/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100)), this often collapses down to one or two \_mm\_shuffle\_ps values. For ARM-NEON, the **XMVectorSwizzle** template can utilize a number of special cases rather than the more general VTBL swizzle/permute.
+Template form exists for [**XMVectorSwizzle**](/windows/win32/api/directxmath/nf-directxmath-xmvectorswizzle), [**XMVectorPermute**](/windows/win32/api/directxmath/nf-directxmath-xmvectorpermute), [**XMVectorInsert**](/windows/win32/api/directxmath/nf-directxmath-xmvectorinsert), [**XMVectorShiftLeft**](/windows/win32/api/directxmath/nf-directxmath-xmvectorshiftleft), [**XMVectorRotateLeft**](/windows/win32/api/directxmath/nf-directxmath-xmvectorrotateleft), and [**XMVectorRotateRight**](/windows/win32/api/directxmath/nf-directxmath-xmvectorrotateright). Using these instead of the general function form allows the compiler to create much more efficient implementations. For [SSE](/previous-versions/visualstudio/visual-studio-2010/t467de55(v=vs.100)), this often collapses down to one or two \_mm\_shuffle\_ps values. For ARM-NEON, the **XMVectorSwizzle** template can utilize a number of special cases rather than the more general VTBL swizzle/permute.
 
 ## Using DirectXMath with Direct3D
 

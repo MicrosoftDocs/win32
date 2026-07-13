@@ -6,7 +6,7 @@ keywords:
 - Windows Internet WinINet
 - WinINet WinINet , portal
 - Windows Internet WinINet , start page
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: Virtual Channel Client DLL
 description: The client of a virtual channels application is a DLL that is loaded during the Remote Desktop Services initialization on the client computer. The DLL must be registered on the client computer.
 ms.assetid: fca0505c-c4a9-4230-aeaa-ff3dfa62f581
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

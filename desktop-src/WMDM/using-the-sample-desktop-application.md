@@ -9,7 +9,7 @@ keywords:
 - Windows Media Device Manager,desktop application sample
 - Device Manager,desktop application sample
 - samples,desktop applications
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

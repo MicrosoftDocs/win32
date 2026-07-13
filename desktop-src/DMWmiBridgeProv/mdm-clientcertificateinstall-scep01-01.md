@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # MDM\_ClientCertificateInstall\_SCEP01\_01 class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+
 
 The **MDM\_ClientCertificateInstall\_SCEP01\_01** class enables access to the node for SCEP certificate installation, using unique IDs to differentiate different certificate install requests.
 
@@ -29,7 +29,7 @@ Required for SCEP certificate installation.
 
 Supported operations are Get, Add and Delete.
 
-Calling Delete on the this node should delete the corresponding SCEP certificate.
+Calling Delete on this node should delete the corresponding SCEP certificate.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 

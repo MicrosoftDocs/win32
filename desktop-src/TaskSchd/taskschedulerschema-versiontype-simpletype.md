@@ -37,7 +37,7 @@ The **versionType** simple type is a **string** that is restricted by the follow
 
 -   `\d+(\.\d+){1,3}`
 
-    A double followed by one, two, or three doubles. For example, 1.2, or 1.2.3.
+    A number followed by one, two, or three numbers; the numbers are separated by dots. For example, 1.2, 1.2.3, or 9.87.65.432.
 
 ## Requirements
 

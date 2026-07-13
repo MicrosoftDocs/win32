@@ -2,7 +2,7 @@
 description: Developers of Windows Installer packages may choose to use a custom action type 22 when the standard actions are insufficient to execute the installation.
 ms.assetid: 6838f59b-e1bc-42c6-a7fe-3d32791adfac
 title: Custom Action Type 22
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

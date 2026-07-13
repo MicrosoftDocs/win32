@@ -5,7 +5,7 @@ ms.assetid: d972ae22-177d-4320-8939-47eae8675aa2
 keywords:
 - RFCs, Routing Protocols
 - Request for Comments, Routing Protocols
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

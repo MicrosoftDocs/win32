@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - objectCategory vs. objectClass ADSI
 - attributes ASI , searching on objectCategory and objectClass attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

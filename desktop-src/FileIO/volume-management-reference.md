@@ -2,7 +2,7 @@
 description: Elements used in volume management.
 ms.assetid: 9b805586-5c4a-4562-8571-345e8fe0c62b
 title: Volume Management Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,8 +2,8 @@
 title: Status Bar Control (MSAA UI Element Reference)
 description: Status bars display status information in a horizontal window at the bottom of an application window.
 ms.assetid: e910a5c6-84d5-4ade-abf5-792ff1915021
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Status Bar Control (MSAA UI Element Reference)

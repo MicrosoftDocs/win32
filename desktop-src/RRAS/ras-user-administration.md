@@ -4,7 +4,7 @@ description: A RAS server uses a user account database that contains information
 ms.assetid: b58767b0-9b76-4d43-953a-ea772643745e
 keywords:
 - RAS Administration RRAS , user administration
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

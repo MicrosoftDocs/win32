@@ -3,7 +3,7 @@ description: A value map is an array linked to a property with the Value and Val
 ms.assetid: 7667e87f-b997-4fd9-81ea-b27c9d2a9335
 ms.tgt_platform: multiple
 title: ValueMap and Value Qualifiers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

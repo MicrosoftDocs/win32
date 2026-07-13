@@ -5,7 +5,7 @@ ms.assetid: 213ee563-35cd-43d2-abb2-f66652df5be1
 ms.tgt_platform: multiple
 keywords:
 - security principals AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

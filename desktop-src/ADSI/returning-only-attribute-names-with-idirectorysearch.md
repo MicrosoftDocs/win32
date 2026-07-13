@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Returning Only Attribute Names with IDirectorySearch ADSI
 - ADSI, Searching, IDirectorySearch, Other Search Options, Returning Only Attribute Names
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

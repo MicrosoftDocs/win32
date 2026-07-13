@@ -6,7 +6,7 @@ ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileMissi
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentslvstreamingfilemissingexception_members(v=EXCHG.10)
 ms:contentKeyID: 55102837
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # EsentSLVStreamingFileMissingException members

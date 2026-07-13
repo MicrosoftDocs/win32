@@ -2,7 +2,7 @@
 title: How to Create a List-View Control
 description: This topic demonstrates how to create a list-view control. To create a list-view control, you use the CreateWindow or CreateWindowEx function and specify the WC\_LISTVIEW window class.
 ms.assetid: FEAA0ACA-A086-46DF-9DD2-A3E32F2CCDA3
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -42,7 +42,7 @@ The following C++ code example creates a list-view control in report view.
 // TO DO:  The calling procedure should determine whether the handle is NULL, in case 
 // of an error in creation.
 //
-// HINST hInst: The global handle to the applicadtion instance.
+// HINST hInst: The global handle to the application instance.
 // HWND  hWndParent: The handle to the control's parent window. 
 //
 HWND CreateListView (HWND hwndParent) 
@@ -98,7 +98,7 @@ VOID SetView(HWND hWndListView, DWORD dwView)
                       (dwStyle & ~LVS_TYPEMASK) | dwView);
     }               // Logical OR'ing of dwView with the result of 
 }                   // a bitwise AND between dwStyle and 
-                    // the Unary complenent of LVS_TYPEMASK.
+                    // the Unary complement of LVS_TYPEMASK.
 
 ```
 

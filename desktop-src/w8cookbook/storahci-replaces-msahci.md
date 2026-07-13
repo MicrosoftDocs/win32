@@ -2,7 +2,7 @@
 title: StorAHCI replaces MSAHCI
 description: StorAHCI replaces MSAHCI
 ms.assetid: 9C6FAFA7-A6B3-4D3A-94EE-B53626DBF183
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

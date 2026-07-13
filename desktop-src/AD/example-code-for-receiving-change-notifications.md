@@ -5,7 +5,7 @@ ms.assetid: e1d36d1c-ee50-4c2f-92f6-eee1dae1c5af
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory ,receiving change notifications
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

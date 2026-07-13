@@ -3,7 +3,7 @@ description: The standard consumer that is implemented by the ActiveScriptEventC
 ms.assetid: 0d2ac139-3e2b-4089-ae9c-289d376e27a2
 ms.tgt_platform: multiple
 title: Running a Script Based on an Event
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

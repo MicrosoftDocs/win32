@@ -2,7 +2,7 @@
 title: The Scope Resolution Operator in C++
 description: The Scope Resolution Operator in C++
 ms.assetid: 908cf2b0-41d2-442d-aba8-82f3328c72c1
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

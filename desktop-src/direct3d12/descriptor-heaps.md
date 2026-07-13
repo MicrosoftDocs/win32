@@ -2,7 +2,7 @@
 title: Descriptor Heaps
 description: A descriptor heap is a collection of contiguous allocations of descriptors, one allocation for every descriptor.
 ms.assetid: '04d3facf-21ec-45ca-ad9b-78fdcddc7136'
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -1,18 +1,21 @@
 ---
-description: The following HRESULT values are the most common. More values are contained in the header file Winerror.h.
+description: The HRESULT values in this article are the most common. More values are contained in the header file Winerror.h.
 ms.assetid: ce52efc3-92c7-40e4-ac49-0c54049e169f
 title: Common HRESULT Values
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/09/2025
+# customer intent: As a Windows developer, I want to understand the common HRESULT values so that I can handle errors effectively in my applications.
 ---
 
-# Common HRESULT Values
+# Common HRESULT values
 
-The following HRESULT values are the most common. More values are contained in the header file Winerror.h.
+HRESULT values are used in Windows programming to indicate the success or failure of operations. They are 32-bit values that can be used to represent both success and error conditions.
 
-Here are the values listed alphabetically by name.
+## Listing of common HRESULT values
 
+The following **HRESULT** values are the most common. More values are contained in the header file `Winerror.h`.
 
+Here are the values listed alphabetically by name:
 
 | Name            | Description                         | Value      |
 |-----------------|-------------------------------------|------------|
@@ -28,13 +31,7 @@ Here are the values listed alphabetically by name.
 | E\_POINTER      | Pointer that is not valid           | 0x80004003 |
 | E\_UNEXPECTED   | Unexpected failure                  | 0x8000FFFF |
 
-
-
- 
-
-Here are the values listed in numeric order by value.
-
-
+Here are the values listed in numeric order by value:
 
 | Value      | Name            | Description                         |
 |------------|-----------------|-------------------------------------|
@@ -50,13 +47,6 @@ Here are the values listed in numeric order by value.
 | 0x8007000E | E\_OUTOFMEMORY  | Failed to allocate necessary memory |
 | 0x80070057 | E\_INVALIDARG   | One or more arguments are not valid |
 
+## Related content
 
-
- 
-
- 
-
- 
-
-
-
+[GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror)

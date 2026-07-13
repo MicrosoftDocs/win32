@@ -28,7 +28,7 @@ This switch has no parameters.
 
 ## Remarks
 
-With MIDL version 6.0.359 and later, the MIDL compiler sets [**/robust**](-robust.md) by default. The **/no\_robust** command line switch must be used to disable the **/robust** feature if generated stubs need to run on Microsoft WindowsÂ NT, WindowsÂ 95/98, or WindowsÂ Me.
+With MIDL version 6.0.359 and later, the MIDL compiler sets [**/robust**](-robust.md) by default. The **/no\_robust** command line switch must be used to disable the **/robust** feature if generated stubs need to run on Microsoft Windows NT, Windows 95/98, or Windows Me.
 
 ## Examples
 

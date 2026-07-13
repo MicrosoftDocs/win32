@@ -3,7 +3,7 @@ description: 'You have two choices when compiling a MOF file: using the command-
 ms.assetid: 1760f1bd-7027-4201-97a2-ca902f945b52
 ms.tgt_platform: multiple
 title: Running the MOF Compiler on a File
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

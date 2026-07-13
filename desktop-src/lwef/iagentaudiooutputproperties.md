@@ -2,7 +2,7 @@
 title: IAgentAudioOutputProperties
 description: IAgentAudioOutputProperties
 ms.assetid: 568786ca-9b9b-425c-95f5-4377516dbe79
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

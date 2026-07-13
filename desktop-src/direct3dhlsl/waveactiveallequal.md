@@ -23,7 +23,7 @@ Returns true if the expression is the same for every active lane in the current 
 
 
 ``` syntax
-bool WaveActiveAllEqual(
+<bool-type> WaveActiveAllEqual(
    <type> expr
 );
 ```
@@ -38,12 +38,16 @@ bool WaveActiveAllEqual(
 </dt> <dd>
 
 The expression to evaluate.
+`<type>` can be a basic scalar, vector, or matrix type.
 
 </dd> </dl>
 
 ## Return value
 
-True if the expression is the same for every active lane in the current wave.
+Returns `true` for each component of `expr` that is the same for every active lane in the current wave.
+
+`<bool-type>` will be a scalar, vector, or matrix of `bool`, matching the dimensionality of the input `<type>`.
+For instance, an input `<type>` of `matrix<float, 4, 3>` will result in a return `<bool-type>` of `matrix<bool, 4, 3>`.
 
 ## Remarks
 

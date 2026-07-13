@@ -2,7 +2,7 @@
 description: Records are a way to communicate between nodes in a graph or members in a group.
 ms.assetid: 'f4c0869f-f147-4c2b-9418-3b407e22cb16'
 title: Records
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

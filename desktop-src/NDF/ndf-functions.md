@@ -2,7 +2,7 @@
 title: NDF Functions
 description: The following functions enable software developers to use the functionality provided by the Network Diagnostic Framework (NDF).
 ms.assetid: c2774e05-82f4-4d40-a80c-ad773bb03ca7
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

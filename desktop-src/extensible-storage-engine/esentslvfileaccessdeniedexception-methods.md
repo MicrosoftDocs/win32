@@ -6,7 +6,7 @@ ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVFileAccessDeniedExcep
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentslvfileaccessdeniedexception_methods(v=EXCHG.10)
 ms:contentKeyID: 55102973
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # EsentSLVFileAccessDeniedException methods

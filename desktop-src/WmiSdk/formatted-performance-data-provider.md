@@ -3,7 +3,7 @@ description: Supplies calculated (&\#0034;cooked&\#0034;) performance counter da
 ms.assetid: 59823f7c-3046-4608-99df-1f43e2934e7e
 ms.tgt_platform: multiple
 title: Formatted Performance Data Provider
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

@@ -2,7 +2,7 @@
 description: Functions to use to get and set file information.
 ms.assetid: 3b5fb709-c699-4651-8072-97210c8cf763
 title: Obtaining and Setting File Information
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

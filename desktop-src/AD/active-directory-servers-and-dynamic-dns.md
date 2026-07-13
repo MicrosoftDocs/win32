@@ -5,7 +5,7 @@ ms.assetid: b4928d53-2629-4ddb-bb43-ce7a187b41e2
 ms.tgt_platform: multiple
 keywords:
 - dynamic DNS Active Directory
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

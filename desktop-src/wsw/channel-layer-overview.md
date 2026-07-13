@@ -6,7 +6,7 @@ keywords:
 - Channel Layer Overview Web Services for Windows
 - WWSAPI
 - WWS
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -142,7 +142,7 @@ WsSetOutputToBuffer                 // specify output of writer should go to buf
 WsMoveWriter*                       // move to inside envelope header element
 WsWriteStartElement                 // write application header start element
 // use the writer functions to write the header 
-WsWriteEndElement                   // write appilcation header end element
+WsWriteEndElement                   // write application header end element
 ```
 
 ## Receiving Messages (client or server)

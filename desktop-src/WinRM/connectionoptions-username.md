@@ -54,13 +54,13 @@ ConnectionOptions.UserName = "<UserName>"
 
 
 
-You can supply **UserName** and [**Password**](connectionoptions-password.md) for a domain account when using [*negotiate*](windows-remote-management-glossary.md) or *Kerberos* authentication, or for a local account with [*Basic*](windows-remote-management-glossary.md) authentication. To connect to a local account, the [**WSMan.CreateSession**](wsman-createsession.md) flags must contain the combination of the **WSManFlagUseBasic** flag and the **WsmanFlagCredUserNamePassword** flag. To connect to a domain account, the **WSMan.CreateSession** flags must contain the combination of the **WSManFlagUseNegotiate** flag and the **WsmanFlagCredUserNamePassword** flag, or the combination of the **WSManFlagUseKerberos** flag and the **WsmanFlagCredUserNamePassword** flag. For a domain account, **UserName** must be specified in the form "computer\\username", where the "computer" part of the string can be either the name or the IP address. For more information, see [Authentication for Remote Connections](authentication-for-remote-connections.md).
+You can supply **UserName** and [**Password**](connectionoptions-password.md) for a domain account when using [*negotiate*](windows-remote-management-glossary.md) or *Kerberos* authentication, or for a local account with [*Basic*](windows-remote-management-glossary.md) authentication. To connect to a local account, the [**WSMan.CreateSession**](wsman-createsession.md) flags must contain the combination of the **WSManFlagUseBasic** flag and the **WsmanFlagCredUserNamePassword** flag. To connect to a domain account, the **WSMan.CreateSession** flags must contain the combination of the **WSManFlagUseNegotiate** flag and the **WsmanFlagCredUserNamePassword** flag, or the combination of the **WSManFlagUseKerberos** flag and the **WsmanFlagCredUserNamePassword** flag. For a domain account, **UserName** must be specified in the form "computer\\username", where the "computer" part of the string can be either the name or the IP address. For more information, see [Authentication for Remote Connections](authentication-for-remote-connections.md). Note: Do not store credentials in plain text in a script file.
 
 
 ```VB
 Set ConnectionOptions = Wsman.CreateConnectionOptions
-ConnectionOptions.Username = "MyUserName"
-ConnectionOptions.Password = "MyPassword"
+ConnectionOptions.Username = "<username>"
+ConnectionOptions.Password = "<password>"
 Set NewSession = Wsman.CreateSession("127.0.51.1", _
   (WSMan.SessionFlagUseBasic Or _
   WSMan.SessionFlagCredUsernamePassword), ConnectionOptions)
@@ -73,8 +73,8 @@ For connecting to a domain account, the [**WSMan.CreateSession**](wsman-createse
 
 ```VB
 Set ConnectionOptions = Wsman.CreateConnectionOptions
-ConnectionOptions.Username = "MyUserName"
-ConnectionOptions.Password = "MyPassword"
+ConnectionOptions.Username = "<username>"
+ConnectionOptions.Password = "<password>"
 Set NewSession = Wsman.CreateSession("127.0.51.1", _
   (WSMan.SessionFlagUseNegotiate Or _
   WSMan.SessionFlagCredUsernamePassword), ConnectionOptions)

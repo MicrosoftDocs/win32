@@ -2,7 +2,7 @@
 description: Control codes used in file management.
 ms.assetid: e27ded4b-d104-4244-b38e-5fed10d32e1e
 title: File Management Control Codes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: System.Volume.IsMappedDrive
 ms.assetid: 13c94e17-760a-4656-886c-cb5fd4acf474
 title: System.Volume.IsMappedDrive
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

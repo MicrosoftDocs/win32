@@ -8,7 +8,7 @@ keywords:
 - Advanced Systems Format (ASF),asynchronous readers
 - ASF (Advanced Systems Format),asynchronous readers
 - asynchronous readers,seeking by time
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

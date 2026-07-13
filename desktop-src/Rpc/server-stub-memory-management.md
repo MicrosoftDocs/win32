@@ -4,7 +4,7 @@ description: Server Stub Memory Management
 ms.assetid: 99e3ee56-5adb-4b25-bcf2-316d1bbdbdba
 keywords:
 - Server Stub Memory Management
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

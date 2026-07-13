@@ -1,7 +1,7 @@
 ---
 description: This section describes the Windows Shell registry handling functions. The programming elements explained in this documentation are exported by Shlwapi.dll and defined in Shlwapi.h and Shlwapi.lib.
 title: Shell Registry Handling Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 12182f56-5bb3-4f70-ae6a-2ef7366287b9
 api_name: 

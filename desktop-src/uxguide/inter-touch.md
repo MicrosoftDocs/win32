@@ -2,7 +2,7 @@
 title: Touch
 description: All Microsoft Windows applications should have a great touch experience. And creating such an experience is easier than you think.
 ms.assetid: a87d0726-1c57-4cf8-9e35-4e73a09ff1a3
-ms.topic: article
+ms.topic: reference
 ms.date: 10/20/2020
 ---
 
@@ -274,7 +274,7 @@ The goal isn't to have giant controls, just ones that are easily used with touch
 
 In this example, Microsoft Word uses buttons larger than 10x10 mm for the most important commands.
 
-![Screenshot that shows the the Windows calculator.](images/inter-touch-image16.png)
+![Screenshot that shows the Windows calculator.](images/inter-touch-image16.png)
 
 This version of Calculator uses buttons larger than 10x10 mm for its most frequently used commands.
 

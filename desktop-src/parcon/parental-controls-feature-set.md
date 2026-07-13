@@ -2,7 +2,7 @@
 description: Parental Controls Feature Set
 ms.assetid: 25b9d906-6e26-488c-9d5b-a0c27d6cfe76
 title: Parental Controls Feature Set
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The MsiServiceConfigFailureActions table lists operations to be run after a service fails. The operations specified in this table run the next time the system is started.
 ms.assetid: 7c450b74-1f91-4a1c-beee-646a407eb8a8
 title: MsiServiceConfigFailureActions Table
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

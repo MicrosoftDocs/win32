@@ -1,7 +1,7 @@
 ---
 description: You can use a namespace extension to allow users to browse the contents of a file rather than have it presented as a folder. Extensions of this sort are typically used to display the contents of the members of a file type.
 title: How to Display a Rooted View of a File
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

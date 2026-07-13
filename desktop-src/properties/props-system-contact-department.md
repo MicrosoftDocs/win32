@@ -2,7 +2,7 @@
 description: Department name of the contact.
 ms.assetid: 84b22284-553e-4144-80af-d5cdfdc77e9e
 title: System.Contact.Department
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

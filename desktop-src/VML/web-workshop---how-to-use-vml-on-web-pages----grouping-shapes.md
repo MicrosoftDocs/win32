@@ -19,7 +19,7 @@ keywords:
 - VML (Vector Markup Language),local coordinate space
 - vector graphics,local coordinate space
 - local coordinate space
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

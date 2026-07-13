@@ -3,7 +3,7 @@ description: Learn how to start and stop Windows Management Instrumentation, alo
 ms.assetid: 8dff43bf-71d0-4d5a-91bc-6f474186d4ba
 ms.tgt_platform: multiple
 title: Starting and stopping the WMI service
-ms.topic: article
+ms.topic: how-to
 ms.date: 02/09/2023
 topic_type: 
 - kbArticle

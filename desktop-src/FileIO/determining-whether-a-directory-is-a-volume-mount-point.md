@@ -2,7 +2,7 @@
 description: How to determine whether a specified directory is a mounted folder.
 ms.assetid: b4a2c3d7-8805-41de-b316-592e77076570
 title: Determining Whether a Directory Is a Mounted Folder
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

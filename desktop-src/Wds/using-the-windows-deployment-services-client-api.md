@@ -4,7 +4,7 @@ description: In environments where a standard Windows Deployment Services (WDS) 
 ms.assetid: abe2a7c7-989a-456e-80df-90d5b816db38
 keywords:
 - Windows Deployment Services Windows Deployment Services , using the client API
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

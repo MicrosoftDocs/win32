@@ -2,7 +2,7 @@
 title: HelpContextID Property (Command Object)
 description: Learn about the HelpContextID property of the Command object. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: 9e30e3f7-1d12-4aa1-af0d-5a3b30f57e83
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

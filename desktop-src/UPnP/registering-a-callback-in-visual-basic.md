@@ -2,7 +2,7 @@
 title: Registering a Callback in Visual Basic
 description: Adding a callback in Visual Basic is different from the method used in VBScript.
 ms.assetid: 6aebb855-cf5b-4134-b7f6-3a8b404b7ae8
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

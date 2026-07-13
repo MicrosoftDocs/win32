@@ -4,7 +4,7 @@ description: Alignment Faults
 ms.assetid: 16e69aec-3aec-4684-bf37-b3e5db6e4f87
 keywords:
 - alignment faults 64-bit Windows Programming
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

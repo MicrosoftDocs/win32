@@ -4,7 +4,7 @@ description: Shows how the StgCreatePropSetStg function can be used to create an
 ms.assetid: f0d0664a-2cfd-4eb0-b1d5-47d1545394fd
 keywords:
 - Structured Storage Strctd Stg , samples, StgCreatePropSetStg
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

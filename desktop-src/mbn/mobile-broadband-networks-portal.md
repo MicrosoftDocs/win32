@@ -16,7 +16,7 @@ The Mobile Broadband API is used to implement connectivity to cellular networks.
 
 The Mobile Broadband API is designed for C++ developers.
 
-There is also an interface for .NET developers using C\#. For details, read this [whitepaper](https://www.microsoft.com/whdc/connect/wireless/MB_ManagedCode.mspx).
+There's also an interface for .NET developers using C#.
 
 The Mobile Broadband API can be used by third-party applications that need to control and manage mobile broadband interfaces.
 

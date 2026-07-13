@@ -4,7 +4,7 @@ description: Selection of a Bluetooth device or service is implemented through t
 ms.assetid: 59d43ce7-d592-4d7c-a6df-d42401281d1d
 keywords:
 - Bluetooth, tasks, selecting devices
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

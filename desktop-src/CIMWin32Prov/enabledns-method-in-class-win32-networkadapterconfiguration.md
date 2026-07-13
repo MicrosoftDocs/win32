@@ -429,7 +429,7 @@ DHCP not enabled on adapter.
 
 ## Examples
 
-The following code sample, taken from the [Enable DNS on All Network Adapters](https://Gallery.TechNet.Microsoft.Com/c5736a48-71cc-4483-9605-d71d222740ac) VBScript code sample on TechNet Gallery, enables DNS for all network adapters on a computer.
+The following code sample enables DNS for all network adapters on a computer.
 
 
 ```VB

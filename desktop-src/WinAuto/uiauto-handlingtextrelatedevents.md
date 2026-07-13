@@ -5,8 +5,8 @@ ms.assetid: D822DD51-5AEF-431A-943A-AA51993E6AC2
 keywords:
 - clients,handling text-related events
 - clients,text-based controls
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Handling Text-related Events

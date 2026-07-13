@@ -2,7 +2,7 @@
 title: Authentication Level
 description: The authentication level controls how much security a client or server wants from its SSP.
 ms.assetid: 0bad2bfd-6930-42fc-beb0-bce32440b0b5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

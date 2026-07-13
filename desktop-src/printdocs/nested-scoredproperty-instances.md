@@ -2,7 +2,7 @@
 description: ScoredProperty instances may also be nested within other ScoredProperty instances or as child elements of an Option instance.
 ms.assetid: 071dc91f-3574-4e0e-b2ba-0e4a56ce4a28
 title: Nested ScoredProperty Instances
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

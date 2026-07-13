@@ -7,7 +7,7 @@ keywords:
 - Advanced Systems Format (ASF),adding script data to headers
 - ASF (Advanced Systems Format),adding script data to headers
 - scripts,adding data to headers
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

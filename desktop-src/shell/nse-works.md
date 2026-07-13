@@ -2,7 +2,7 @@
 description: Windows Explorer provides a graphical representation of the Shell namespace combined with tools that allow users to interact with Shell objects.
 ms.assetid: cc387338-15fa-4350-b039-61a0f1c5030a
 title: Understanding Shell Namespace Extensions
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

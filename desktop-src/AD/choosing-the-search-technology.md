@@ -5,7 +5,7 @@ ms.assetid: c9e887e3-7de4-4461-bc32-03db71c3e272
 ms.tgt_platform: multiple
 keywords:
 - search technologies in Active Directory Active Directory
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

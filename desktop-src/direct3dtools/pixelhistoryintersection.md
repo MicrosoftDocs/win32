@@ -34,7 +34,7 @@ Represents information about a particular
 ## Members
 
 **frameNumber**  
-The frame of the graphics event assocaited with this operation.
+The frame of the graphics event associated with this operation.
 
 **eid**  
 The ID of the graphics event associated with this operation.

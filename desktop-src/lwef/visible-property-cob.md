@@ -2,7 +2,7 @@
 title: Visible Property (Characters Object)
 description: Learn about the Visible Property of the Characters object, which returns a Boolean indicating whether the character is visible.
 ms.assetid: c06d623d-8997-413a-b4ab-24275eccfa10
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

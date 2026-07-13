@@ -13,7 +13,7 @@ keywords:
 - porting to OpenGL from IRIS GL,texgen
 - OpenGL porting from IRIS GL,texgen
 - texgen
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

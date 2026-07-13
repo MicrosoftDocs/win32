@@ -3,7 +3,7 @@ description: The simplest way of creating a namespace is to use Managed Object F
 ms.assetid: 2b83cd96-079f-4178-9e5a-68ede3a92066
 ms.tgt_platform: multiple
 title: Creating a Child Namespace with MOF Code
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

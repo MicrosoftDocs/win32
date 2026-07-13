@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - User Object User Interface Mapping AD
 - User Interface Mapping AD , User Object
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

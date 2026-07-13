@@ -2,7 +2,7 @@
 title: Traversing the Heap List
 description: Examples showing how to obtain a list of heaps for the current process.
 ms.assetid: cfa1d2a4-fec0-4089-9351-e0a26f9ecfe3
-ms.topic: article
+ms.topic: concept-article
 ms.date: 03/23/2021
 ---
 

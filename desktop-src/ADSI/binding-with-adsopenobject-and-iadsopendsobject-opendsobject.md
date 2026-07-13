@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Binding With ADsOpenObject and IADsOpenDSObject OpenDSObject ADSI
 - ADSI ADSI , using, binding with ADsOpenObject and IADsOpenDSObject OpenDSObject
-ms.topic: article
+ms.topic: concept-article
 ms.date: 03/17/2023
 ---
 

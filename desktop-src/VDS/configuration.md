@@ -2,7 +2,7 @@
 description: Configuration Overview
 ms.assetid: 5cdc21a1-ff55-4c36-8106-b045256778ce
 title: Configuration Overview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

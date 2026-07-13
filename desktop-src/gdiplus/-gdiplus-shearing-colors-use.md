@@ -2,7 +2,7 @@
 description: Shearing increases or decreases a color component by an amount proportional to another color component.
 ms.assetid: 12f83f35-33f1-4ac9-b45d-f8700e54053a
 title: Shearing Colors
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

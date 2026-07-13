@@ -2,7 +2,7 @@
 description: The Call Center Controls reference material contains information on interfaces, methods, and enumerators used in TAPI 3.x call center controls.
 ms.assetid: 6206a61f-b0be-4a47-a4a4-bfbae05ac13e
 title: Call Center Controls Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

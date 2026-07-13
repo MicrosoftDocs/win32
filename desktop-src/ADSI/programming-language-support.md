@@ -3,7 +3,7 @@ title: Programming Language Support
 description: You can write ADSI client applications in many languages.
 ms.assetid: 47460d57-936d-4c5f-8ff6-a4d9d60d0b68
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

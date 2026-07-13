@@ -3,7 +3,7 @@ title: Performance guidelines
 description: Guidelines for developing applications that perform well in a Remote Desktop Services environment.
 ms.assetid: 50f0c1f6-8046-4ceb-b2c4-6fc1ae86fd73
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

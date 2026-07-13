@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Example Code for Using Ranging to Retrieve Members of a Group ADSI
 - example code C/C++ ADSI , using ranging to retrieve members of a group
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -91,7 +91,7 @@ The following code snippet requires a reference to Microsoft ActiveX Data Object
 
             If nRetrieved = 0 Then
                 ' No objects were retrieved by the last query; perform one last query
-                ' with the â€œrange=<lowRange>-*â€ range.
+                ' with the "range=<lowRange>-*" range.
                 lastLoop = True
             Else
                 ' Increment the high and low ranges to query for the next block of objects.

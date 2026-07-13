@@ -2,7 +2,7 @@
 description: Total free space on the storage device.
 ms.assetid: ff612a76-b49c-462a-8559-d3d789617182
 title: System.Devices.StorageFreeSpace
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

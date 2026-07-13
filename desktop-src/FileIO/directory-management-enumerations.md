@@ -2,7 +2,7 @@
 description: Enumerations used in directory management.
 ms.assetid: D65461E2-C18C-4EB9-83B8-D91D31880550
 title: Directory Management Enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -13,7 +13,7 @@ keywords:
 - profiles,creating ASF files
 - profiles,writing ASF files
 - profiles,ASF file creation
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

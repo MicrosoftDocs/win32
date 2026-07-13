@@ -3,7 +3,7 @@ title: Network Policy Server
 description: Network Policy Server (NPS) is the Microsoft implementation of a Remote Authentication Dial-in User Service (RADIUS) server and proxy.
 ms.assetid: d0eb41cb-e9c0-4a60-aeac-77d1dd90a75b
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 06/14/2023
 ms.contributor: samyun
 ---

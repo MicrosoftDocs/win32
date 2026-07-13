@@ -2,7 +2,7 @@
 title: How To Instance a Geometry Shader
 description: Geometry shader instancing allows multiple executions of the same geometry shader to be executed per primitive.
 ms.assetid: e3d8616b-7129-40e9-99fc-2852914a80b0
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

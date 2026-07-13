@@ -2,7 +2,7 @@
 description: WPD\_CONTENT\_TYPE\_PLAYLIST
 ms.assetid: 4223970d-8c37-4326-a2df-bec558f8ac5e
 title: WPD_CONTENT_TYPE_PLAYLIST
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

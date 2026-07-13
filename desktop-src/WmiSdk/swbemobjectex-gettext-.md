@@ -130,10 +130,10 @@ When constructing your [**SWbemNamedValueSet**](swbemnamedvalueset.md), only the
 <td>PathLevel</td>
 <td><strong>VT-I4</strong><br/> Default is 0 (zero). Possible values are:<br/>
 <ul>
-<li>0: A &lt;CLASS&gt; or \<INSTANCE> element is created depending on whether the object is a class or instance.</li>
-<li>1: A <VALUE.NAMEDOBJECT> element is generated.</li>
-<li>2: A <VALUE.OBJECTWITHLOCALPATH> element is generated.</li>
-<li>3: A <VALUE.OBJECTWITHPATH> element is generated.</li>
+<li>0: A &lt;CLASS&gt; or &lt;INSTANCE&gt; element is created depending on whether the object is a class or instance.</li>
+<li>1: A &lt;VALUE.NAMEDOBJECT&gt; element is generated.</li>
+<li>2: A &gt;VALUE.OBJECTWITHLOCALPATH&gt; element is generated.</li>
+<li>3: A &gt;VALUE.OBJECTWITHPATH&gt; element is generated.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -142,7 +142,7 @@ When constructing your [**SWbemNamedValueSet**](swbemnamedvalueset.md), only the
 </tr>
 <tr class="odd">
 <td>IncludeClassOrigin</td>
-<td><strong>VT_BOOL</strong><br/> If <strong>TRUE</strong>, the class origin attribute is set on the <PROPERTY> and <METHOD> elements. The default is <strong>FALSE</strong>.<br/></td>
+<td><strong>VT_BOOL</strong><br/> If <strong>TRUE</strong>, the class origin attribute is set on the &gt;PROPERTY&gt; and &gt;METHOD&gt; elements. The default is <strong>FALSE</strong>.<br/></td>
 </tr>
 </tbody>
 </table>

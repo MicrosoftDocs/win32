@@ -4,7 +4,7 @@ description: Obtaining MCI System Information
 ms.assetid: 06175d6e-6d09-4c95-93e9-03af870a2d3f
 keywords:
 - MCI_SYSINFO command
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

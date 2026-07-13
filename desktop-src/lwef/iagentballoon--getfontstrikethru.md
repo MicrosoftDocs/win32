@@ -2,7 +2,7 @@
 title: IAgentBalloon GetFontStrikethru
 description: IAgentBalloon GetFontStrikethru
 ms.assetid: b5c253e8-dca7-44a6-b63b-a33e6e793a40
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

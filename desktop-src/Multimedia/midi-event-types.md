@@ -8,7 +8,7 @@ keywords:
 - MIDIEVENT structure
 - stream buffers,MIDI event types
 - MIDI event types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

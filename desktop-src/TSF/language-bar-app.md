@@ -7,7 +7,7 @@ keywords:
 - TSF (Text Services Framework),language bar
 - TSF-enabled applications,language bar
 - language bar
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The Activity Coordinator API coordinates execution of deferrable tasks, called activities, on a Windows system.
 ms.assetid: 05aa4f50-4365-4707-bed7-8eba2a723d93
 title: Overview of the Activity Coordinator API
-ms.topic: article
+ms.topic: concept-article
 ms.date: 04/27/2022
 ---
 

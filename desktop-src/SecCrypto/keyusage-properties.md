@@ -2,7 +2,7 @@
 description: The KeyUsage object exposes the following properties.
 ms.assetid: 'b7edba4f-8f76-4ed1-bd54-9f9dd5e7c3d0'
 title: KeyUsage Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -13,7 +13,7 @@ keywords:
 - MCI MIDI sequencer,playing files
 - MIDI services,playing files
 - stream buffers,playing MIDI files
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

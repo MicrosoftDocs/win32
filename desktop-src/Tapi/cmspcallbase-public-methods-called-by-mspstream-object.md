@@ -2,7 +2,7 @@
 description: The following list contains the CMSPCallBase MSPI public methods called by the MSPStream object.
 ms.assetid: d43a44ab-9909-477c-8d23-f5b8817111e6
 title: CMSPCallBase Public Methods, Called by MSPStream Object
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

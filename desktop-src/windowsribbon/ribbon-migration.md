@@ -6,7 +6,7 @@ keywords:
 - Windows Ribbon,migrating to
 - Ribbon,migrating to
 - migrating to Windows Ribbon
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 ms.date: 05/31/2018
 ---
 

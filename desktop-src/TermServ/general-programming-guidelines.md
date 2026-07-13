@@ -3,7 +3,7 @@ title: General programming guidelines
 description: Guidelines for developing applications in a Remote Desktop Services environment.
 ms.assetid: 95b49db5-ba3c-4638-9087-6ee3972d8972
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

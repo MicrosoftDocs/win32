@@ -31,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_INDEXLIST.columnidiColumn property
 
-Gets the columnid of the column in the temporary table which stores the index of of this column in the index key. The column is of type [Long](./jet-coltyp-enumeration.md).
+Gets the columnid of the column in the temporary table which stores the index of this column in the index key. The column is of type [Long](./jet-coltyp-enumeration.md).
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

@@ -2,7 +2,7 @@
 description: Monitors can examine frames in local-only mode or promiscuous mode.
 ms.assetid: 4646f5bb-e3e3-4929-91b7-f68c5b70ccb3
 title: Local-Only and Promiscuous Modes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

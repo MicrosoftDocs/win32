@@ -2,7 +2,7 @@
 description: Learn about the JobCopiesAllDocuments element, which specifies the number of copies of a job.
 ms.assetid: 584a71cd-fc32-485e-a627-27be95c377a9
 title: JobCopiesAllDocuments
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

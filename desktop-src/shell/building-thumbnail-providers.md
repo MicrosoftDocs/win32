@@ -1,7 +1,7 @@
 ---
-description: As of Windows Vista, greater use is made of file-specific thumbnail images than in earlier versions of Windows.
 title: Building Thumbnail Handlers
-ms.topic: article
+description: As of Windows Vista, greater use is made of file-specific thumbnail images than in earlier versions of Windows.
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.assetid: 218264a9-ed26-4049-a721-232943f6ec53
 api_name: 
@@ -9,7 +9,6 @@ api_type:
 api_location: 
 topic_type: 
  - kbArticle
-
 ---
 
 # Building Thumbnail Handlers
@@ -212,7 +211,7 @@ IFACEMETHODIMP CRecipeThumbProvider::GetThumbnail(UINT cx,
             hr = WICCreate32BitsPerPixelHBITMAP(pImageStream, 
                                                 cx, 
                                                 phbmp, 
-                                                pdwAlpha);;
+                                                pdwAlpha);
 
             pImageStream->Release();
         }
@@ -236,7 +235,3 @@ IFACEMETHODIMP CRecipeThumbProvider::GetThumbnail(UINT cx,
 
 [**IID\_PPV\_ARGS**](/windows/win32/api/combaseapi/nf-combaseapi-iid_ppv_args)
 </dt> </dl>
-
- 
-
- 

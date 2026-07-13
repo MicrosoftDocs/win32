@@ -2,7 +2,7 @@
 description: Navigation page for how to use the time functions.
 ms.assetid: dbbbd72b-1dfa-47f2-b5b9-4d43610f3824
 title: Using Time
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: These service providers provide the basic smart card capabilities.
 ms.assetid: 1d887c4c-095c-4e1e-8b9a-7761acda2cbf
 title: Base Service Providers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

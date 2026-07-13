@@ -2,7 +2,7 @@
 description: When transferring values between the host application and an effect parameter, data is written as expected when the source data type (in the host application) matches the destination data type (in the effect parameter).
 ms.assetid: 4f3ef14a-7d67-45fe-9282-541221815d1f
 title: Casting and Conversion
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

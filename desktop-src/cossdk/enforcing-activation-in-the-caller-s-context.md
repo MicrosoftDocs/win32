@@ -2,7 +2,7 @@
 description: Enforcing Activation in the Callers Context
 ms.assetid: bb228f39-0e04-497a-8404-18f7bc027bea
 title: Enforcing Activation in the Callers Context
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

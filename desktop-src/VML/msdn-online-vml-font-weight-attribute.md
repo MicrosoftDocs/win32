@@ -2,7 +2,7 @@
 title: VML Font-Weight Attribute
 description: VML Font-Weight Attribute
 ms.assetid: d7b2b0c5-b5cf-4e7d-bbca-c554d12bf97e
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

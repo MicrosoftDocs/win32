@@ -2,7 +2,7 @@
 title: VML MinusY Attribute
 description: VML MinusY Attribute
 ms.assetid: 6209407a-8ea5-4bdd-ab4f-2307d42fb2e1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

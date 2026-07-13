@@ -2,7 +2,7 @@
 title: How to Draw a Bitmap
 description: Shows how to render bitmaps with Direct2D.
 ms.assetid: 9c6fc8b1-47ba-46fa-b812-2636cd8ff2b4
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -76,7 +76,7 @@ HRESULT DrawBitmapExample::OnRender()
         upperLeftCorner.y = upperLeftCorner.y + size.height + 10.f;
 
         // Scale the bitmap to half its size using the linear
-        // interoplation mode and draw it.
+        // interpolation mode and draw it.
         float scaledWidth = size.width / 2.f;
         float scaledHeight = size.height / 2.f;
         m_pRenderTarget->DrawBitmap(

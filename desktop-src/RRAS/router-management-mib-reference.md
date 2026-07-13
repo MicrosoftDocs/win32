@@ -5,7 +5,7 @@ ms.assetid: a7a28ac0-c6f9-450c-9925-67990a62ba08
 keywords:
 - Routing, Management Information Base, reference
 - Management Information Base RRAS ,reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

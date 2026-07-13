@@ -4,7 +4,7 @@ description: MIDL provides a rich set of features for passing arrays of data and
 ms.assetid: 482be83f-eb09-40a0-8dd6-a0cbf5dc4485
 keywords:
 - IDL MIDL , attributes, array and sized-pointer
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

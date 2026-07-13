@@ -102,7 +102,7 @@ A custom HRESULT which indicates that there is a possible mismatch with the curr
 A custom HRESULT which indicates that there is an undetectable pixel.
 
 <span id="PIX_E_CANT_DEBUG_SHADER_USING_SYSTEM_VALUE_SEMANTICS"></span><span id="pix_e_cant_debug_shader_using_system_value_semantics"></span>**PIX\_E\_CANT\_DEBUG\_SHADER\_USING\_SYSTEM\_VALUE\_SEMANTICS**  
-A custom HRESULT which indicates that the sahder can't be debugged using system value semantics.
+A custom HRESULT which indicates that the shader can't be debugged using system value semantics.
 
 <span id="PIX_S_UPDATEAVAILABLE"></span><span id="pix_s_updateavailable"></span>**PIX\_S\_UPDATEAVAILABLE**  
 A custom HRESULT which indicates that there is an update available.

@@ -2,7 +2,7 @@
 description: Indicates who the item is shared with.
 ms.assetid: ecbd1310-72c1-470f-a5bd-9c8b311d38e9
 title: System.SharedWith
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Merge modules must be merged into an installation package using a merge tool.
 ms.assetid: 2c14dfcc-6447-4c08-8e59-f3eaeb621de1
 title: Applying Merge Modules
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

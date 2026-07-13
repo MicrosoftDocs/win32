@@ -2,8 +2,8 @@
 title: Navigation Through Hit Testing and Screen Location
 description: To locate an object's children or to determine an object's size, clients can hit test points on the screen.
 ms.assetid: ba08814f-87bc-4b47-8b61-179a48d5092f
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Navigation Through Hit Testing and Screen Location

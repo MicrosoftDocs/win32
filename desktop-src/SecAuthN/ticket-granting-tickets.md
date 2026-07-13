@@ -2,7 +2,7 @@
 description: As the Kerberos protocol was originally designed, a master key for a user was derived from a password provided by the user.
 ms.assetid: b8fcb68d-751e-4495-ab92-8b70c96aaa7a
 title: Ticket-Granting Tickets
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

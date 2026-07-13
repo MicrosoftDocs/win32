@@ -19,9 +19,6 @@ ms.date: 09/17/2021
 
 # doWipeProtectedMethod method of the MDM_RemoteWipe class
 
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
 Triggers the device to start the remote wipe on the device, and fully clean the internal drive. In some device configurations, this command might leave the device unable to boot. Also see [doWipePersistProvisionedDataMethod](/windows/client-management/mdm/remotewipe-csp).
 
 ## Syntax

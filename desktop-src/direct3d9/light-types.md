@@ -2,7 +2,7 @@
 description: The light type property defines which type of light source you're using.
 ms.assetid: 7718383a-6e49-4ad2-acc1-fc8fec0d4844
 title: Light Types (Direct3D 9)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -11,7 +11,7 @@ keywords:
 - capPaletteAuto macro
 - WM_CAP_PAL_MANUALCREATE message
 - capPaletteManual macro
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,11 +2,14 @@
 description: Receiving Event Notification
 ms.assetid: 3200d666-d927-4198-b1f6-1636971f5f07
 title: Receiving Event Notification
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
 # Receiving Event Notification
+
+> [!Note]  
+> The Event Logging API was designed for applications that run on the Windows Server 2003, Windows XP, or Windows 2000 operating system. In Windows Vista, the event logging infrastructure was redesigned. Applications that are designed to run on the Windows Vista or later operating systems should now use [Windows Event Log](/windows/desktop/WES/windows-event-log).
 
 The following example shows how to use the [**NotifyChangeEventLog**](/windows/desktop/api/Winbase/nf-winbase-notifychangeeventlog) function to receive notification when an event is logged. This example filters for the events written by the example in [Reporting an Event](reporting-an-event.md).
 
@@ -35,10 +38,8 @@ LPWSTR GetMessageString(DWORD Id, DWORD argc, LPWSTR args);
 DWORD ApplyParameterStringsToMessage(CONST LPCWSTR pMessage, LPWSTR & pFinalMessage);
 BOOL IsKeyEvent(HANDLE hStdIn);
 
-
 CONST LPWSTR pEventTypeNames[] = {L"Error", L"Warning", L"Informational", L"Audit Success", L"Audit Failure"};
 HANDLE g_hResources = NULL;
-
 
 void wmain(void)
 {
@@ -145,7 +146,6 @@ cleanup:
         CloseHandle(aWaitHandles[1]);
 }
 
-
 // Get the last record number in the log file and read it.
 // This positions the cursor, so that we can begin reading 
 // new records when the service notifies us that new records were 
@@ -178,7 +178,6 @@ cleanup:
     return status;
 }
 
-
 // Get the record number to the last record in the log file.
 DWORD GetLastRecordNumber(HANDLE hEventLog, DWORD* pdwRecordNumber)
 {
@@ -205,7 +204,6 @@ cleanup:
     return status;
 }
 
-
 // Get the provider DLL that contains the string resources for the
 // category strings, event message strings, and parameter insert strings.
 // For this example, the path to the DLL is hardcoded but typically,
@@ -226,8 +224,6 @@ HANDLE GetMessageResources()
 
     return hResources;
 }
-
-
 
 // Read a single record from the event log.
 DWORD ReadRecord(HANDLE hEventLog, PBYTE & pBuffer, DWORD dwRecordNumber, DWORD dwFlags)
@@ -282,7 +278,6 @@ cleanup:
 
     return status;
 }
-
 
 // Write the contents of each event record that was written to the log since
 // the last notification. The service signals the event object every five seconds
@@ -374,7 +369,6 @@ cleanup:
     return status;
 }
 
-
 // Get an index value to the pEventTypeNames array based on 
 // the event type value.
 DWORD GetEventTypeName(DWORD EventType)
@@ -402,7 +396,6 @@ DWORD GetEventTypeName(DWORD EventType)
 
     return index;
 }
-
 
 // Formats the specified message. If the message uses inserts, build
 // the argument list to pass to FormatMessage.
@@ -638,7 +631,6 @@ cleanup:
     return status;
 }
 
-
 // Determines whether the console input was a key event.
 BOOL IsKeyEvent(HANDLE hStdIn)
 {
@@ -661,12 +653,3 @@ BOOL IsKeyEvent(HANDLE hStdIn)
     return fKeyPress;
 }
 ```
-
-
-
- 
-
- 
-
-
-

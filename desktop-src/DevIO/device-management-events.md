@@ -2,7 +2,7 @@
 description: 'The following are the device events:'
 ms.assetid: 7b45cd8f-1eda-4f89-8662-828f40d34b87
 title: Device Management Events
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # ARPSYSTEMCOMPONENT property
 
-Setting the **ARPSYSTEMCOMPONENT** property to 1 using the command line or a transform prevents the application from being displayed in the **Add or Remove Programs** list of **Control Panel**.
+Setting the **ARPSYSTEMCOMPONENT** property to 1 using the command line or a transform prevents the application from being displayed in the **Add or Remove Programs** list of **Control Panel**. Leaving the property unset, or setting it to empty string results in the default behavior.
 
 ## Requirements
 

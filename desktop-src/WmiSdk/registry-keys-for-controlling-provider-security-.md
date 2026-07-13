@@ -3,7 +3,7 @@ description: To enhance the security of the Windows Management Instrumentation (
 ms.assetid: f93ac155-512c-4efa-8168-ca2d56fe6f01
 ms.tgt_platform: multiple
 title: Registry Keys and Values for Controlling Provider Security
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -37,7 +37,7 @@ The WMI shared provider host process is not secured with a [*service SID*](gloss
 
 </dd> </dl>
 
-**Windows Vista and Windows Server 2008:** To access the registry keys and values for controlling secure and compatible modes for the provider host process, you must install the security update in [KB 959454](https://support.microsoft.com/kb/959454). For more information, see the [Microsoft Security Bulletin MS09-012](https://www.microsoft.com/technet/security/bulletin/ms09-012.mspx).
+**Windows Vista and Windows Server 2008:** To access the registry keys and values for controlling secure and compatible modes for the provider host process, you must install the security update in [KB 959454](https://support.microsoft.com/kb/959454). For more information, see the [Microsoft Security Bulletin MS09-012](/security-updates/securitybulletins/2009/ms09-012).
 
 ## Registry Keys and Values
 

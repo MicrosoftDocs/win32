@@ -2,8 +2,8 @@
 description: Administrator Overrides
 ms.assetid: 25b6ce86-52c8-4f7f-97af-86b2eaf3e9af
 title: Administrator Overrides
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Administrator Overrides

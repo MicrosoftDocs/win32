@@ -5,7 +5,7 @@ ms.assetid: 75f68c6e-9cd9-44e4-b6aa-13b02bb47c77
 keywords:
 - Using the HTTP Server version 2.0 API
 - HTTP Server version 2.0 API, Using
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -6,7 +6,7 @@ keywords:
 - Windows Media Format SDK,DRM features
 - digital rights management (DRM),features
 - DRM (digital rights management),features
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

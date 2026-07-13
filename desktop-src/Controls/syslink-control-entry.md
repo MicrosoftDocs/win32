@@ -2,7 +2,7 @@
 title: SysLink
 description: This section contains information about the programming elements used with SysLink controls.
 ms.assetid: 13a7b6d0-4bf1-480f-b447-838a550a5866
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

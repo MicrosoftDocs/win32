@@ -2,7 +2,7 @@
 description: A custom icon must be assigned to a file type to provide a visual indication to the user of that file type or the application that file type is associated with.
 ms.assetid: 84F293C2-BAB1-4BF8-9F89-122B6DAB29C3
 title: How to Assign a Custom Icon to a File Type
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

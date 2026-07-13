@@ -3,7 +3,7 @@ description: The Windows Driver Model (WDM) provider grants access to the classe
 ms.assetid: 8686a613-0e53-4e6e-b193-7839abfb70de
 ms.tgt_platform: multiple
 title: Accessing Data from Device Drivers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

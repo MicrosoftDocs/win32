@@ -2,7 +2,7 @@
 description: Network packet providers (NPPs) expose the IDelaydC, IESP, IRTC, and IStats interfaces.
 ms.assetid: 269b26f5-b794-4920-98da-505eda83c990
 title: Selecting an NPP Interface
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

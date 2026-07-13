@@ -1,7 +1,7 @@
 ---
 title: Composition swapchain code examples
 description: A collection of code examples showing various composition swapchain scenarios.
-ms.topic: article
+ms.topic: reference
 ms.date: 09/10/2021
 ---
 
@@ -283,7 +283,7 @@ If a scale transform can't be extracted unambiguously from the transform that yo
 
     // The letterboxing parameters describe how to letterbox the content. Letterboxing
     // is commonly used to fill area not covered by video/surface content when scaling to
-    // an aspect ration that doesn't match the aspect ratio of the surface itself. For
+    // an aspect ratio that doesn't match the aspect ratio of the surface itself. For
     // example, when viewing content formatted for the theater on a 1080p home screen, one
     // can typically see black "bars" on the top and bottom of the video, covering the space
     // on screen that wasn't covered by the video due to the differing aspect ratios of the

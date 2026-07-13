@@ -2,7 +2,7 @@
 title: Source Register Negate
 description: Performs a negate (y -x), on all register components.
 ms.assetid: fe11f7a7-81be-4237-8194-15704f6fe43c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

@@ -2,8 +2,8 @@
 description: Learn how to use the CreateProcess function, which creates a new process that runs independently of the creating process.
 ms.assetid: 4c3f76a3-e9f5-4d73-b5ef-eabfa9d6e4d4
 title: Create processes
-ms.topic: article
-ms.date: 02/08/2023
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Create processes

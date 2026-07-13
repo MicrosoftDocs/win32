@@ -2,7 +2,7 @@
 title: Printing and command lists
 description: The Direct2D \ 32;print control is a new component in the Direct2D module in Windows 8.
 ms.assetid: C51ACCDE-B205-4F79-A2FD-D112BAAD1616
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

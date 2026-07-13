@@ -2,7 +2,7 @@
 description: The following list contains the CMSPCallMultiGraph public methods called by the thread pool.
 ms.assetid: f0a5f621-99c4-40f0-8a0e-0e43792e00a1
 title: CMSPCallMultiGraph Public Methods, Called by Thread Pool
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

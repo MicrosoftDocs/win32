@@ -2,8 +2,8 @@
 description: The system uses counters to collect performance data.
 ms.assetid: d1f1a90c-425a-4606-b86d-2948305ea84a
 title: Specifying a Counter Path
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Specifying a Counter Path

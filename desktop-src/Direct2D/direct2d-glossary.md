@@ -3,7 +3,7 @@ title: Direct2D Glossary
 description: Describes terms commonly used by the Direct2D documentation.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 2e884390-56e4-45ae-b1c9-c58503d6f2dd
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 
@@ -179,7 +179,7 @@ A specific color that is defined for a location within the gradient region. Grad
 
 </dd> <dt>
 
-<span id="direct2d.direct2d_glossary_grahics_primitive"></span><span id="DIRECT2D.DIRECT2D_GLOSSARY_GRAHICS_PRIMITIVE"></span>**grahics primitive**
+<span id="direct2d.direct2d_glossary_grahics_primitive"></span><span id="DIRECT2D.DIRECT2D_GLOSSARY_GRAHICS_PRIMITIVE"></span>**graphics primitive**
 </dt> <dd>
 
 In computer graphics, a shape such as a line, circle, curve, or polygon that a graphics adapter can draw, store, and manipulate as a discrete entity.

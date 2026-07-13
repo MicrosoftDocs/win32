@@ -2,7 +2,7 @@
 description: This topic describes the internal design of the DirectXMath library.
 ms.assetid: 31512657-c413-9e6e-e343-1ea677a02b8c
 title: Library Internals
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -57,7 +57,7 @@ Because of limitations with \_\_vectorcall, we recommend that you not use **GXMV
 
 The **FXMMATRIX** and **CXMMATRIX** aliases help support taking advantage of the HVA argument passing with \_\_vectorcall.
 
--   Use the **FXMMATRIX** alias to pass the first [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) as an argument to the function. This assumes you don't have more than two **FXMVECTOR** arguments or more than two float, double, or **FXMVECTOR** arguments to the ‘right’ of the matrix. For info about additional considerations, see the \_\_vectorcall documentation.
+-   Use the **FXMMATRIX** alias to pass the first [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) as an argument to the function. This assumes you don't have more than two **FXMVECTOR** arguments or more than two float, double, or **FXMVECTOR** arguments to the 'right' of the matrix. For info about additional considerations, see the \_\_vectorcall documentation.
 -   Use the **CXMMATRIX** alias otherwise.
 
 Because of limitations with \_\_vectorcall, we recommend that you never use **FXMMATRIX** for C++ constructors. Just use **CXMMATRIX**.
@@ -275,7 +275,7 @@ bool g_bSSE41 = false;
 void DetectCPUFeatures()
 {
 #ifndef _M_ARM
-   // See __cpuid documentation on MSDN for more information
+   // See __cpuid documentation for more information
 
    int CPUInfo[4] = {-1};
 #if defined(__clang__) || defined(__GNUC__)

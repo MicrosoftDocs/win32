@@ -2,7 +2,7 @@
 title: IAgentAudioOutputPropertiesEx GetStatus
 description: IAgentAudioOutputPropertiesEx GetStatus
 ms.assetid: 29bf1379-eebe-4b8b-b8d0-b86d2da78b64
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

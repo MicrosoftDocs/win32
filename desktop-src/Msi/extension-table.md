@@ -2,7 +2,7 @@
 description: The Extension table contains information about file name extension servers that must be generated as a part of product advertisement. Each row generates a set of registry keys and values.
 ms.assetid: 924858b7-8956-4636-b7c7-c902aa822ee1
 title: Extension Table
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The following example creates and installs a nondefault certificate chain engine. The engine is used to build certificate chains for each of the certificates in a certificate store.
 ms.assetid: 960f2bb9-130f-494f-9af0-0ab8ae3eb6e2
 title: 'Example C Program: Creating a Certificate Chain'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -208,10 +208,10 @@ if((errorStatus & CERT_TRUST_CTL_IS_NOT_SIGNATURE_VALID) != 0)
 }
 if((errorStatus & CERT_TRUST_CTL_IS_NOT_VALID_FOR_USAGE) != 0)
 {
-    printf("A CTL used to create this chain did not have a valid "
-         "signature.\n");
+    printf("A CTL used to create this chain is not valid for the "
+         "requested usage.\n");
 }
-else // CERT_TRUST_NO_ERROR 
+if(errorStatus == CERT_TRUST_NO_ERROR)
 {
     printf("No error found for this certificate or chain.\n");
 }

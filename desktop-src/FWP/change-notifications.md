@@ -2,7 +2,7 @@
 title: Change Notifications
 description: The Base Filtering Engine (BFE) change notifications follow the publish/subscribe pattern.
 ms.assetid: 443f1767-5694-4584-ba0f-229275900774
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

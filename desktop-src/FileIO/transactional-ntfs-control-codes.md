@@ -2,7 +2,7 @@
 description: Transactional NTFS (TxF) control codes.
 ms.assetid: b66d322a-a971-4219-bb5b-dc69b10b2581
 title: TxF Control Codes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: A writer can fail for numerous programmatic reasons.
 ms.assetid: 50eced73-3917-4d7e-96cc-2d793b448738
 title: Writer Errors and Vetoes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

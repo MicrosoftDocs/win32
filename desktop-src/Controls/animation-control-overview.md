@@ -2,7 +2,7 @@
 title: About Animation Controls
 description: An animation control is a window that displays an Audio-Video Interleaved (AVI) clip. An AVI clip is a series of bitmap frames like a movie. Animation controls can only display AVI clips that do not contain audio.
 ms.assetid: 6be69d1a-5b2c-41d5-b6d7-e86ddac2cb0d
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

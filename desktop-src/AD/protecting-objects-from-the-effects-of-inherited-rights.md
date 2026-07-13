@@ -5,7 +5,7 @@ ms.assetid: 3da000dd-3a32-4294-a636-ad077e618db2
 ms.tgt_platform: multiple
 keywords:
 - Protecting Objects from the Effects of Inherited Rights AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

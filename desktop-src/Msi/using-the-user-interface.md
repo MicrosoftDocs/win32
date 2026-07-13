@@ -2,7 +2,7 @@
 description: This section is concerned primarily with how developers of installation packages author an installation user interface (UI) using the installer's database and internal UI.
 ms.assetid: c04e32ba-08a9-49fe-9a4a-db258767f0b3
 title: Using the User Interface
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

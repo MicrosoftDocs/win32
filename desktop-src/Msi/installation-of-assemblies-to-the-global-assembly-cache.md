@@ -2,7 +2,7 @@
 description: The Windows Installer installs common language runtime assemblies into the global assembly cache using the Microsoft .NET Framework.
 ms.assetid: 21d535d5-f05b-411a-8719-2662e6046fbd
 title: Installation of Assemblies to the Global Assembly Cache
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

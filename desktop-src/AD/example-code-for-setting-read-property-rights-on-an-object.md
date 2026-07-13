@@ -5,7 +5,7 @@ ms.assetid: 343538d7-fef4-492d-a385-37433ce1250b
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , setting read property rights on an object
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

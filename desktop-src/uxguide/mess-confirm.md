@@ -2,8 +2,9 @@
 title: Confirmations
 description: A confirmation is a modal dialog box that asks if the user wants to proceed with an action.
 ms.assetid: 086302cd-c8a1-479c-87be-580945e5d3e6
-ms.topic: article
+ms.topic: reference
 ms.date: 10/20/2020
+ms.custom: sfi-image-nochange
 ---
 
 # Confirmations

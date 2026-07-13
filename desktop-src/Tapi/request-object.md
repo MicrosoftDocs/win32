@@ -2,7 +2,7 @@
 description: The Request Object is created using COM CoCreateInstance and exposes one interface, ITRequest.
 ms.assetid: 1e4c71ce-6846-4e64-9346-455ed82aa458
 title: Request Object
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

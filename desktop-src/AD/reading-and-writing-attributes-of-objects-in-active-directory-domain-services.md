@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Active Directory Domain Services Active Directory , using reading and writing attributes of Active Directory objects
 - objects Active Directory , reading and writing attributes of Active Directory objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

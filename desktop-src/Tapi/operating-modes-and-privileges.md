@@ -2,7 +2,7 @@
 description: The application can request one of two operating modes when opening a phone device.
 ms.assetid: 2bb16fbe-883e-4734-a071-f14f5e5737e3
 title: Operating Modes and Privileges
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

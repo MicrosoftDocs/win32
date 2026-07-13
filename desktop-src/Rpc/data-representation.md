@@ -4,7 +4,7 @@ description: Computing environments can differ significantly, as can network arc
 ms.assetid: 34ba76ae-644d-4168-886f-0909a65f1abd
 keywords:
 - Remote Procedure Call RPC , described, data representation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

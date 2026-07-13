@@ -2,7 +2,7 @@
 description: This property represents the types of content stored in this folder specified by the storage provider.Each folder type must be one of the known value specified by System.Kind definitionSystem.FolderKind is a readonly property, it should only be updated by the storage provider.
 ms.assetid: 8a53c8bf-b564-4b01-880c-6e3ae0aaff58
 title: System.FolderKind
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

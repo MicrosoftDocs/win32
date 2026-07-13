@@ -2,7 +2,7 @@
 title: mspeapuserpropertiesv1 Schema Complex Types
 description: Learn about the mspeapuserpropertiesv1 schema. This schema defines the PeapExtensionsType complex type.
 ms.assetid: c516da4c-2730-4bce-bea3-d9b624196edc
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

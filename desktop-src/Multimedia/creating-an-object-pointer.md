@@ -2,7 +2,7 @@
 title: Creating an Object Pointer
 description: Creating an Object Pointer
 ms.assetid: b66a2725-6ba1-4aea-b165-fe3f4da00375
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

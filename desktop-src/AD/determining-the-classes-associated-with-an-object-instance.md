@@ -3,7 +3,7 @@ title: Determining the Classes Associated With an Object Instance
 description: Every object in Active Directory Domain Services has two attributes whose values identify the hierarchy of object classes of which the object is an instance.
 ms.assetid: bb46f165-8c6e-4af1-b387-e0e30a4c6226
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

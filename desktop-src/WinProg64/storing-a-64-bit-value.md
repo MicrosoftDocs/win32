@@ -4,7 +4,7 @@ description: To store a 64-bit pointer value, use ULONG\_PTR. A ULONG\_PTR value
 ms.assetid: 0712e084-cf5e-470a-8f5d-0db2ef638f42
 keywords:
 - storing 64-bit values 64-bit Windows Programming
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

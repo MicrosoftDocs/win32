@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_MOUSEACTIVATE message
@@ -92,10 +92,10 @@ The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) 
 [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 </dt> <dt>
 
-[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**](../winmsg/hiword.md)
 </dt> <dt>
 
-[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
+[**LOWORD**](../winmsg/loword.md)
 </dt> <dt>
 
 [**WM\_NCHITTEST**](wm-nchittest.md)

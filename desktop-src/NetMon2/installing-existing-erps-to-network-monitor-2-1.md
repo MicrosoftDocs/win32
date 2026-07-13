@@ -2,7 +2,7 @@
 description: After you write and name an event reference page (ERP), you must install it.
 ms.assetid: 438bce7b-5a88-4e80-bdf9-6affdcbd169b
 title: Installing Existing ERPs to Network Monitor 2.1
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.date: 05/31/2018
 ---
 

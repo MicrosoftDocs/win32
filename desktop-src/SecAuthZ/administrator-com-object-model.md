@@ -2,7 +2,7 @@
 description: An application running as a standard user performs operations that require administrator privilege by creating an elevated Component Object Model object.
 ms.assetid: 246fdf74-cc5b-47b1-b3a8-20441544e7be
 title: Administrator COM Object Model
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

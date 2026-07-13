@@ -9,7 +9,7 @@ keywords:
 - DRM (digital rights management),sample applications
 - digital rights management (DRM),application samples
 - DRM (digital rights management),application samples
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

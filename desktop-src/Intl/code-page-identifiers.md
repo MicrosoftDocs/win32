@@ -2,7 +2,7 @@
 description: The following table defines the available code page identifiers.
 ms.assetid: 5d6fc86a-f205-4d14-bb7c-ecd71682e0fe
 title: Code Page Identifiers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

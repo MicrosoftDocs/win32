@@ -2,7 +2,7 @@
 description: A triangle fan is similar to a triangle strip, except that all the triangles share one vertex, as shown in the following illustration.
 ms.assetid: a1fbfd78-121f-4f79-9ba8-44f23356a432
 title: Triangle Fans (Direct3D 9)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

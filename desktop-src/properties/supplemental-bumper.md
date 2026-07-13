@@ -2,7 +2,7 @@
 description: Supplemental
 ms.assetid: FDCF2D92-5D37-43E4-B94A-66CA7E75AA88
 title: Supplemental
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

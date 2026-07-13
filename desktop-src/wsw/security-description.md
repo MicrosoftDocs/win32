@@ -1,12 +1,12 @@
 ---
 title: Security Description
-description: A security desciption is represented by a WS\_SECURITY\_DESCRIPTION structure, and an instance of a security description is supplied when you call the WsCreateChannel function to create a secure channel or the WsCreateListener function to create a listener.
+description: A security description is represented by a WS\_SECURITY\_DESCRIPTION structure, and an instance of a security description is supplied when you call the WsCreateChannel function to create a secure channel or the WsCreateListener function to create a listener.
 ms.assetid: 252418fc-dad4-43f4-a5e2-38055da3779c
 keywords:
 - Security Description Web Services for Windows
 - WWSAPI
 - WWS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

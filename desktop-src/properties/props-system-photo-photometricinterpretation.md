@@ -2,7 +2,7 @@
 description: The pixel composition.
 ms.assetid: e2bb7f82-10dc-4fa0-875d-fc58c133024d
 title: System.Photo.PhotometricInterpretation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

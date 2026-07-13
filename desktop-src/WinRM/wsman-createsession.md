@@ -119,8 +119,8 @@ To run this script, be aware that you must configure the default configuration s
 ```VB
 iFlags = WSMan.SessionFlagUseBasic Or WSMan.SessionFlagCredUsernamePassword
 Set Options = Wsman.CreateConnectionOptions
-Options.Username = "MyUserName"
-Options.Password = "MyPassword"
+Options.Username = "<username>"
+Options.Password = "<password>"
 Set NewSession = WSMan.CreateSession("127.0.51.1", iFlags, _
     Options) 
 ```
@@ -133,8 +133,8 @@ In the following VBScript code example, the account is a domain account and Nego
 ```VB
 iFlags = WSMan.SessionFlagUseNegotiate Or WSMan.SessionFlagCredUsernamePassword
 Set Options = Wsman.CreateConnectionOptions
-Options.Username = "MyComputer\MyUserName"
-Options.Password = "MyPassword"
+Options.Username = "MyComputer\<username>"
+Options.Password = "<password>"
 Set NewSession = WSMan.CreateSession("127.0.51.1", iFlags, _
     Options) 
 ```

@@ -2,7 +2,7 @@
 title: EAPHost Peer Method Enumerations
 description: Learn about EAPHost Peer Method enumerations. The enumerations are EapCredentialType, EapPeerMethodResponseAction, and EapPeerMethodResultReason.
 ms.assetid: e57e8c74-b224-4c01-913b-e41af651acc3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

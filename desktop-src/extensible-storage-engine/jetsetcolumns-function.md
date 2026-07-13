@@ -68,7 +68,7 @@ This function returns the [JET_ERR](./jet-err.md) datatype with one of the follo
 | <p>JET_errClientRequestToStopJetService</p> | <p>It is not possible to complete the operation because all activity on the instance associated with the session has ceased as a result of a call to <a href="gg269240(v=exchg.10).md">JetStopService</a>.</p> | 
 | <p>JET_errColumnIllegalNull</p> | <p>Same as JET_errNullInvalid.</p> | 
 | <p>JET_errColumnNotFound</p> | <p>The column described by the given <em>columnid</em> does not exist in the table.</p> | 
-| <p>JET_errColumnNotUpdatable</p> | <p>An illegal attempt was made to update a long value during a insert copy delete original update operation.</p> | 
+| <p>JET_errColumnNotUpdatable</p> | <p>An illegal attempt was made to update a long value during an insert copy delete original update operation.</p> | 
 | <p>JET_errColumnTooBig</p> | <p>The given column value data given in the input buffer exceeds the size limitation either natural for a fixed length column or configured for fixed length text or binary columns. This error is also returned when passing more than 1024 bytes of data for a long column and setting the JET_bitSetIntrinsicLV flag.</p> | 
 | <p>JET_errInstanceUnavailable</p> | <p>It is not possible to complete the operation because the instance associated with the session has encountered a fatal error that requires that access to all data be revoked to protect the integrity of that data. This error will only be returned by Windows XP and later releases.</p> | 
 | <p>JET_errInvalidBufferSize</p> | <p>The given column value data size does not match what is natural for the fixed length data type.</p> | 

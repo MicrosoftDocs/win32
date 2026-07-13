@@ -2,7 +2,7 @@
 description: Describes how to read an existing XPS document from a file into an XPS OM.
 ms.assetid: 92a8d19f-1c9e-4e02-a3d4-f2869ec871df
 title: Read an XPS Document into an XPS OM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -97,7 +97,7 @@ Some of the changes that can occur in such case are listed in the table that fol
 [XPS Document API Reference](xps-programming-reference.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
+[XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 </dt> </dl>
 
  

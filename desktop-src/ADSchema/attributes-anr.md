@@ -3,7 +3,7 @@ title: ANR Attributes
 description: The following are the attributes that support ambiguous name resolution (ANR).
 ms.assetid: fc76c2e8-461f-48bf-82ed-329b8f74408e
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

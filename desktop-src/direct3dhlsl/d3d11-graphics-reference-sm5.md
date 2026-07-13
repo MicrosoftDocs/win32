@@ -15,7 +15,7 @@ api_location:
 
 This section contains the reference pages for HLSL Shader Model 5.
 
-Shader Model 5 is a superset of the capabilites in [Shader Model 4](dx-graphics-hlsl-sm4.md). It has been designed using a common-shader core which provides a common set of features to all programmable shaders, which are only programmable using HLSL.
+Shader Model 5 is a superset of the capabilities in [Shader Model 4](dx-graphics-hlsl-sm4.md). It has been designed using a common-shader core which provides a common set of features to all programmable shaders, which are only programmable using HLSL.
 
 
 

@@ -2,7 +2,7 @@
 description: The style of music or video, supplied by metadata provider.
 ms.assetid: e5334993-c621-4e26-a317-e2639b7e490e
 title: System.Media.ProviderStyle
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

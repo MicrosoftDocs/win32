@@ -2,7 +2,7 @@
 description: Virtual Disk Service Common Return Codes
 ms.assetid: c9ddd3b7-f017-4880-976a-c879a40dc17b
 title: Virtual Disk Service Common Return Codes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

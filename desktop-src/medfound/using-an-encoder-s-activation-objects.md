@@ -2,7 +2,7 @@
 description: For converting media files into ASF format, you can use Windows Media encoders. Learn about using an encoder's activation objects.
 ms.assetid: 18c26619-6047-4f7f-bb65-ca418f02e5b1
 title: Using an Encoders Activation Objects
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

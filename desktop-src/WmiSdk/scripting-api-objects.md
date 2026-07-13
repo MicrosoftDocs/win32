@@ -3,7 +3,7 @@ description: The Scripting API for WMI reference describes each scripting object
 ms.assetid: 91bc0fad-1a4b-4b48-b5a0-1a6502d2ab26
 ms.tgt_platform: multiple
 title: Scripting API Objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

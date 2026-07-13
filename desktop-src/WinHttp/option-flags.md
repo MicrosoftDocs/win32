@@ -78,6 +78,24 @@ Sets an unsigned long integer value that specifies whether [Passport Authenticat
 
 Sets or retrieves an unsigned long integer value that contains the number of timesWinHTTP attempts to connect to a host. Microsoft Windows HTTP Services (WinHTTP) only attempts once per Internet Protocol (IP) address. For example, if you attempt to connect to a multihomed host that has 10 IP addresses and **WINHTTP\_OPTION\_CONNECT\_RETRIES** is set to 7, then WinHTTP only attempts to connect to the first seven IP address. Given the same set of 10 IP addresses, if **WINHTTP\_OPTION\_CONNECT\_RETRIES** is set to 20, WinHTTP attempts each of the 10 only once. If a connection attempt still fails after the specified number of attempts, or if the connect timeout expired before then, the request is canceled. The default value for **WINHTTP\_OPTION\_CONNECT\_RETRIES** is five attempts.
 
+## WINHTTP_OPTION_FAILED_CONNECTION_RETRIES
+
+Sets the retry behavior for failed connections on a session handle using a [**WINHTTP\_FAILED\_CONNECTION\_RETRIES**](/windows/win32/api/winhttp/ns-winhttp-winhttp_failed_connection_retries) structure. This option allows the caller to specify the maximum number of retries and the conditions under which WinHTTP should automatically retry sending a request on a failed connection. The option must be set on the session handle before any connection or request handles are created from that session. For more information on available behaviors, please see [**WINHTTP\_FAILED\_CONNECTION\_RETRIES**](/windows/win32/api/winhttp/ns-winhttp-winhttp_failed_connection_retries).
+
+The following code example shows how to set this option to retry up to 5 times on stale connection failures.
+
+``` syntax
+WINHTTP_FAILED_CONNECTION_RETRIES FailedConnectRetries;
+FailedConnectRetries.dwMaxRetries = 5;
+FailedConnectRetries.dwAllowedRetryConditions =
+    WINHTTP_CONNECTION_RETRY_CONDITION_STALE_CONNECTION;
+
+WinHttpSetOption(hSession,
+                 WINHTTP_OPTION_FAILED_CONNECTION_RETRIES,
+                 &FailedConnectRetries,
+                 sizeof(FailedConnectRetries));
+```
+
 ## WINHTTP_OPTION_CONNECT_TIMEOUT
 
 Sets or retrieves an unsigned long integer value that contains the time-out value, in milliseconds. Setting this option to infinite (0xFFFFFFFF) will disable this timer.
@@ -240,7 +258,10 @@ Gets a DWORD indicating which advanced HTTP version was used on a given request.
 
 ## WINHTTP_OPTION_HTTP_VERSION
 
-Sets or retrieves an [**HTTP\_VERSION\_INFO**](/windows/win32/api/winhttp/ns-winhttp-http_version_info) structure that contains the HTTP version being supported. This is a process-wide option; use **NULL** for the handle.
+Sets or retrieves an [**HTTP_VERSION_INFO**](/windows/win32/api/winhttp/ns-winhttp-http_version_info) structure declaring the supported legacy HTTP version. This is a process-wide option; use **NULL** for the handle.
+
+> [!NOTE]
+> This structure is valid for HTTP/1.0 and HTTP/1.1. For modern HTTP versions, see **WINHTTP_OPTION_ENABLE_HTTP_PROTOCOL** and **WINHTTP_OPTION_HTTP_PROTOCOL_USED**.
 
 ## WINHTTP_OPTION_HTTP2_KEEPALIVE
 
@@ -257,18 +278,18 @@ Set the initial HTTP/2 stream receive window size and the threshold for sending 
 ## WINHTTP_OPTION_HTTP3_HANDSHAKE_TIMEOUT
 
 Uses the buffer to set the HTTP/3 handshake timeout in milliseconds as a PDWORD.
- 
+
 ## WINHTTP_OPTION_HTTP3_INITIAL_RTT
 
 Configures the initial RTT in milliseconds used by [msquic](https://github.com/microsoft/msquic).
- 
+
 ## WINHTTP_OPTION_HTTP3_KEEPALIVE
 
 Enables keep-alive semantics for the connection. Uses the buffer to set the keep-alive timeout in milliseconds as a PDWORD.
- 
+
 ## WINHTTP_OPTION_HTTP3_STREAM_ERROR_CODE
 
-Retrieves the server-provided error on the HTTP/3 stream used to send the request. 
+Retrieves the server-provided error on the HTTP/3 stream used to send the request.
 
 ## WINHTTP_OPTION_IGNORE_CERT_REVOCATION_OFFLINE
 
@@ -436,9 +457,11 @@ Reverts any thread impersonation when building the server cert chain, forcing th
 
 ## WINHTTP_OPTION_SECURE_PROTOCOLS
 
-Sets an unsigned long integer value that specifies which secure protocols are acceptable.
+Sets an unsigned long integer value that specifies which Secure (HTTPS) protocols are acceptable. The
+default value for this setting varies by operating system version and may be impacted by installed updates.
 
-* Windows 11, Windows 10, and Windows 8.1. By default, only SSL3, TLS1.0, TLS1.1, and TLS1.2 are enabled.
+* Windows 11. By default, only TLS1.2 and TLS1.3 are enabled.
+* Windows 10, and Windows 8.1. By default, only SSL3, TLS1.0, TLS1.1, and TLS1.2 are enabled.
 * Windows 8 and Windows 7. By default, only SSL3 and TLS1 are enabled.
 
 The value can be a combination of one or more of the following values.
@@ -453,12 +476,12 @@ The value can be a combination of one or more of the following values.
 | WINHTTP\_FLAG\_SECURE\_PROTOCOL\_TLS1\_2 | The TLS 1.2 protocol can be used. |
 | WINHTTP\_FLAG\_SECURE\_PROTOCOL\_TLS1\_3 | The TLS 1.3 protocol can be used. |
 
-If you need to add support for TLS 1.1 or TLS 1.2 protocols, but you're unable to recompile your application to use the appropriate values of **WINHTTP_OPTION_SECURE_PROTOCOLS**, then you can instead add the `DefaultSecureProtocols` registry entry. That registry entry allows you to specify which SSL protocols should be used when the **WINHTTP_OPTION_SECURE_PROTOCOLS** flag is used.
+If you need to enable support for newer protocols but are unable to recompile your application to use the appropriate values of **WINHTTP_OPTION_SECURE_PROTOCOLS**, then you can instead add the `DefaultSecureProtocols` registry entry. That registry entry allows you to specify which secure protocols should be used when the **WINHTTP_OPTION_SECURE_PROTOCOLS** option is not set.
 
 > [!IMPORTANT]
 > The instructions below involve modifying the registry. However, serious problems might occur if you modify the registry incorrectly. Therefore, make sure that you follow these instructions carefully. For added protection, back up the registry before you modify it. Then, you can restore the registry if a problem occurs. For more information about how to back up and restore the registry, see [How to back up and restore the registry in Windows](https://support.microsoft.com/topic/how-to-back-up-and-restore-the-registry-in-windows-855140ad-e318-2a13-2829-d428a2ab0692).
 
-When an application specifies **WINHTTP_OPTION_SECURE_PROTOCOLS**, the system checks for the `DefaultSecureProtocols` registry entry and, if it's present, overrides the default protocols specified by **WINHTTP_OPTION_SECURE_PROTOCOLS** with the protocols specified in the `DefaultSecureProtocols` registry entry. If the registry entry is not present, then WinHTTP uses the existing operating system defaults for **WINHTTP_OPTION_SECURE_PROTOCOLS**. These WinHTTP defaults follow the existing precedence rules, and are overruled by Secure Channel (Schannel) disabled protocols and protocols set per application by [**WinHttpSetOption**](/windows/win32/api/winhttp/nf-winhttp-winhttpsetoption).
+If an application does not call [**WinHttpSetOption**](/windows/win32/api/winhttp/nf-winhttp-winhttpsetoption)(**WINHTTP_OPTION_SECURE_PROTOCOLS**), the system checks for the `DefaultSecureProtocols` registry entry and, if it's present, overrides the existing operating system defaults with the protocols specified in the `DefaultSecureProtocols` registry entry. The WinHTTP-specified protocols can be overruled by Secure Channel (Schannel) configuration settings that may disable protocols.
 
 You can add the `DefaultSecureProtocols` registry entry in the following path:
 
@@ -477,6 +500,7 @@ The registry value is a DWORD bitmap. The value to use is determined by adding t
 | 0x00000080 | Enable TLS 1.0 by default |
 | 0x00000200 | Enable TLS 1.1 by default |
 | 0x00000800 | Enable TLS 1.2 by default |
+| 0x00002000 | Enable TLS 1.3 by default |
 
 For example, if you want to override the default values for **WINHTTP_OPTION_SECURE_PROTOCOLS** to specify TLS 1.1 and TLS 1.2. In that case, take the value for TLS 1.1 (0x00000200) and the value for TLS 1.2 (0x00000800), add them together in calculator (in programmer mode), and the resulting registry value would be 0x00000A00.
 
@@ -644,6 +668,7 @@ Attempting to set or query an option flag on a Windows version where it is not s
 | WINHTTP\_OPTION\_CODEPAGE<br/>**DWORD** | X | \- | \- | X | \- |
 | WINHTTP\_OPTION\_CONFIGURE\_PASSPORT\_AUTH<br/>**DWORD** | X | \- | \- | X | \- |
 | WINHTTP\_OPTION\_CONNECT\_RETRIES<br/>**DWORD** | X | X | X | X | \- |
+| WINHTTP\_OPTION\_FAILED\_CONNECTION\_RETRIES<br/>[**WINHTTP\_FAILED\_CONNECTION\_RETRIES**](/windows/win32/api/winhttp/ns-winhttp-winhttp_failed_connection_retries) | X | \- | \- | X | \- |
 | WINHTTP\_OPTION\_CONNECT\_TIMEOUT<br/>**DWORD** | X | X | X | X | \- |
 | WINHTTP\_OPTION\_CONNECTION\_INFO<br/>[**WINHTTP\_CONNECTION\_INFO**](/windows/win32/api/Winhttp/ns-winhttp-winhttp_connection_info) | \- | X | X | \- | \- |
 | WINHTTP\_OPTION\_CONNECTION\_STATS\_V0<br/>[**TCP\_INFO\_v0**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v0) | \- | X | X | \- | Windows 10 Version 1903 |

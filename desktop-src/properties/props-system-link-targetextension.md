@@ -2,7 +2,7 @@
 description: The file extension of the link target. See System.FileExtension.
 ms.assetid: b3271c47-31a5-46c9-83ac-b18c0f392def
 title: System.Link.TargetExtension
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

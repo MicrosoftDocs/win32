@@ -5,7 +5,7 @@ ms.assetid: d9ac9ec1-bb34-402d-a590-73d5070b97ba
 keywords:
 - Windows Biometric Framework API Windows Biometric Framework API
 - Windows Biometric Framework API Windows Biometric Framework API , home page
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

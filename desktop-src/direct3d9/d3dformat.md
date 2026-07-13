@@ -144,12 +144,12 @@ These formats are the only valid formats for a back buffer or a display.
 
 | Format      | Back buffer | Display                   |
 |-------------|-------------|---------------------------|
-| A2R10G10B10 | x           | x (full-screen mode only) |
-| A8R8G8B8    | x           |                           |
-| X8R8G8B8    | x           | x                         |
-| A1R5G5B5    | x           |                           |
-| X1R5G5B5    | x           | x                         |
-| R5G6B5      | x           | x                         |
+| A2R10G10B10 | yes           | yes (full-screen mode only) |
+| A8R8G8B8    | yes           |                           |
+| X8R8G8B8    | yes           | yes                         |
+| A1R5G5B5    | yes           |                           |
+| X1R5G5B5    | yes           | yes                         |
+| R5G6B5      | yes           | yes                         |
 
 
 

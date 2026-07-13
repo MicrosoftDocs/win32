@@ -2,7 +2,7 @@
 description: Each service has a control handler, the Handler function, that is invoked by the control dispatcher when the service process receives a control request from a service control program.
 ms.assetid: 437334ed-05fa-4ab6-aab3-dc2739113e19
 title: Service Control Handler Function
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

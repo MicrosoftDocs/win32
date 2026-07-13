@@ -2,7 +2,7 @@
 title: Large Integer Structures
 description: The following structures represent large integers
 ms.assetid: 543592d3-7d18-4c8f-b39d-318820ed8426
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

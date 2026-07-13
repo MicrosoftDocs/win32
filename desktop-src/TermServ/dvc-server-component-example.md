@@ -3,7 +3,7 @@ title: DVC Server Module Example
 description: C++ code sample that shows how to create the server-side dynamic virtual channel (DVC) module.
 ms.assetid: 497d4ed3-8160-43d2-8f03-b2f2b7988dc3
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

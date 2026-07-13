@@ -6,7 +6,7 @@ keywords:
 - data exchange,Dynamic Data Exchange Management Library (DDEML)
 - Dynamic Data Exchange Management Library (DDEML),about
 - DDEML (Dynamic Data Exchange Management Library),about
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

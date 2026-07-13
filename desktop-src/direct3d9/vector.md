@@ -2,7 +2,7 @@
 description: Defines a vector.
 ms.assetid: 'vs|directx_sdk|~\vector.htm'
 title: Vector (Frquery.h)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

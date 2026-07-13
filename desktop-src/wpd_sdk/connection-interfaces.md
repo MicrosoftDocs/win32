@@ -2,7 +2,7 @@
 description: MTP/Bluetooth Connection Interfaces
 ms.assetid: 7bbd5fe3-85f1-4f0a-9d3e-22746bd23aae
 title: MTP/Bluetooth Connection Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

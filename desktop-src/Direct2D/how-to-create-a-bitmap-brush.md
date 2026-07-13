@@ -2,7 +2,7 @@
 title: How to Create a Bitmap Brush
 description: Shows how to create a bitmap brush using Direct2D.
 ms.assetid: 8f78b30a-7507-4dd8-b6f4-12d88e3c9a1d
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

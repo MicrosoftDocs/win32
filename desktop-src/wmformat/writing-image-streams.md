@@ -9,7 +9,7 @@ keywords:
 - ASF (Advanced Systems Format),image streams
 - image streams,writing
 - streams,writing image streams
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

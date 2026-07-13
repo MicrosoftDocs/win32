@@ -2,7 +2,7 @@
 description: Parental Controls Samples
 ms.assetid: 19dac95c-2279-4bf9-a58c-dd30177c0c9d
 title: Parental Controls Samples
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

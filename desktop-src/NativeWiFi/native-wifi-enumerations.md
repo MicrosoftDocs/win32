@@ -2,7 +2,7 @@
 description: Native Wifi methods use the following enumerations to set and report on events and states.
 ms.assetid: a73ce24b-24e9-40ad-9ce2-f3071fca9ffe
 title: Native Wifi Enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -34,16 +34,9 @@ Native Wifi methods use the following enumerations to set and report on events a
 -   [**WLAN\_IHV\_CONTROL\_TYPE**](/windows/win32/api/wlanapi/ne-wlanapi-wlan_ihv_control_type-r1)
 -   [**WLAN\_INTERFACE\_STATE**](/windows/win32/api/wlanapi/ne-wlanapi-wlan_ihv_control_type-r1)
 -   [**WLAN\_INTERFACE\_TYPE**](/windows/desktop/api/wlanapi/ne-wlanapi-wlan_interface_type)
--   [**WLAN\_INTF\_OPCODE**](/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode-r1)
+-   [**WLAN\_INTF\_OPCODE**](/windows/win32/api/wlanapi/ne-wlanapi-wlan_intf_opcode)
 -   [**WLAN\_NOTIFICATION\_ACM**](/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_acm-r1)
 -   [**WLAN\_NOTIFICATION\_MSM**](/windows/win32/api/wlanapi/ne-wlanapi-wlan_notification_msm-r1)
 -   [**WLAN\_OPCODE\_VALUE\_TYPE**](/windows/win32/api/wlanapi/ne-wlanapi-wlan_opcode_value_type-r1)
 -   [**WLAN\_POWER\_SETTING**](/windows/win32/api/wlanapi/ne-wlanapi-wlan_power_setting-r1)
 -   [**WLAN\_SECURABLE\_OBJECT**](/windows/desktop/api/wlanapi/ne-wlanapi-wlan_securable_object)
-
- 
-
- 
-
-
-

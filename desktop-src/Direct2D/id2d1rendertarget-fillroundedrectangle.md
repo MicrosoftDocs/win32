@@ -135,7 +135,3 @@ HRESULT DrawAndFillRoundedRectangleExample::OnRender()
 
 [**D2D1::RoundedRect**](/windows/win32/api/d2d1/nf-d2d1-id2d1roundedrectanglegeometry-getroundedrect)
 </dt> </dl>
-
-�
-
-�

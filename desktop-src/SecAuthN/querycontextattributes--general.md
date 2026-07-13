@@ -12,8 +12,6 @@ Enables a transport application to query a [*security package*](../secgloss/s-gl
 
 For information about using this function with a specific [*security support provider*](../secgloss/s-gly.md) (SSP), see the following topics.
 
-
-
 | Topic                                                                            | Description                                                                                                                                          |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**QueryContextAttributes (CredSSP)**](querycontextattributes--credssp.md)     | Enables a transport application to query the Credential Security Support Provider (CredSSP) for certain attributes of a [*security context*](../secgloss/s-gly.md).<br/> |
@@ -23,12 +21,7 @@ For information about using this function with a specific [*security support pro
 | [**QueryContextAttributes (NTLM)**](querycontextattributes--ntlm.md)           | Enables a transport application to query the NTLM security package for certain attributes of a [*security context*](../secgloss/s-gly.md).<br/>                          |
 | [**QueryContextAttributes (Schannel)**](querycontextattributes--schannel.md)   | Enables a transport application to query the Schannel security package for certain attributes of a [*security context*](../secgloss/s-gly.md).<br/>                      |
 
-
-
- 
-
 ## Syntax
-
 
 ```C++
 SECURITY_STATUS SEC_ENTRY QueryContextAttributes(
@@ -37,8 +30,6 @@ SECURITY_STATUS SEC_ENTRY QueryContextAttributes(
   _Out_ PVOID       pBuffer
 );
 ```
-
-
 
 ## Parameters
 
@@ -55,8 +46,6 @@ A handle to the [*security context*](../secgloss/s-gly.md) to be queried.
 </dt> <dd>
 
 Specifies the attribute of the context to be returned. This parameter can be one of the following values.
-
-
 
 | Value                                                                                                                                                                                                                                                                                                   | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -130,48 +119,30 @@ After the SECPKG\_ATTR\_REMOTE\_CERT\_CONTEXT or SECPKG\_ATTR\_LOCAL\_CERT\_CONT
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |
 | Unicode and ANSI names<br/>   | **QueryContextAttributesW** (Unicode) and **QueryContextAttributesA** (ANSI)<br/>                |
 
-
-
 ## See also
 
-<dl> <dt>
-
 [SSPI Functions](authentication-functions.md#sspi-functions)
-</dt> <dt>
 
-[**CERT\_CONTEXT**](/windows/win32/api/wincrypt/ns-wincrypt-cert_context)
-</dt> <dt>
+[Supporting Extended Protection for Authentication (EPA) in a service](epa-support-in-service.md)
 
-[**FreeContextBuffer**](/windows/win32/api/sspi/nf-sspi-freecontextbuffer)
-</dt> <dt>
+[CERT\_CONTEXT](/windows/win32/api/wincrypt/ns-wincrypt-cert_context)
 
-[**SecPkgContext\_Authority**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_authoritya)
-</dt> <dt>
+[FreeContextBuffer](/windows/win32/api/sspi/nf-sspi-freecontextbuffer)
 
-[**SecPkgContext\_ConnectionInfo**](/windows/win32/api/schannel/ns-schannel-secpkgcontext_connectioninfo)
-</dt> <dt>
+[SecPkgContext\_Authority](/windows/win32/api/sspi/ns-sspi-secpkgcontext_authoritya)
 
-[**SecPkgContext\_DceInfo**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_dceinfo)
-</dt> <dt>
+[SecPkgContext\_ConnectionInfo](/windows/win32/api/schannel/ns-schannel-secpkgcontext_connectioninfo)
 
-[**SecPkgContext\_IssuerListInfoEx**](/windows/win32/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex)
-</dt> <dt>
+[SecPkgContext\_DceInfo](/windows/win32/api/sspi/ns-sspi-secpkgcontext_dceinfo)
 
-[**SecPkgContext\_KeyInfo**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_keyinfoa)
-</dt> <dt>
+[SecPkgContext\_IssuerListInfoEx](/windows/win32/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex)
 
-[**SecPkgContext\_Lifespan**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_lifespan)
-</dt> <dt>
+[SecPkgContext\_KeyInfo](/windows/win32/api/sspi/ns-sspi-secpkgcontext_keyinfoa)
 
-[**SecPkgContext\_Names**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_namesa)
-</dt> <dt>
+[SecPkgContext\_Lifespan](/windows/win32/api/sspi/ns-sspi-secpkgcontext_lifespan)
 
-[**SecPkgContext\_Sizes**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_sizes)
-</dt> <dt>
+[SecPkgContext\_Names](/windows/win32/api/sspi/ns-sspi-secpkgcontext_namesa)
 
-[**SecPkgContext\_StreamSizes**](/windows/win32/api/sspi/ns-sspi-secpkgcontext_streamsizes)
-</dt> </dl>
+[SecPkgContext\_Sizes](/windows/win32/api/sspi/ns-sspi-secpkgcontext_sizes)
 
- 
-
- 
+[SecPkgContext\_StreamSizes](/windows/win32/api/sspi/ns-sspi-secpkgcontext_streamsizes)

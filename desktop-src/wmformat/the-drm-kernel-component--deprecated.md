@@ -15,7 +15,7 @@ keywords:
 - Microsoft Secure Audio Path (SAP),DRM kernel component
 - Secure Audio Path (SAP),DRM kernel component
 - SAP (Secure Audio Path),DRM kernel component
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

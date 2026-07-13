@@ -2,7 +2,7 @@
 description: Learn about Windows Installer concepts that begin with the letter U, such as upgrad and User Account Control.
 ms.assetid: 8dacad71-2cc3-4c9a-b5d4-d9781f4f9d51
 title: U (Windows Installer)
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Lists and explains the steps necessary to initialize a security package.
 ms.assetid: 60c11519-f7ca-4002-b3f6-d74f50310730
 title: Initializing the Security Package
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

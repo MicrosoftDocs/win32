@@ -1,7 +1,7 @@
 ---
 description: Configuration information that can be retained for each user is saved in user profiles.
 title: User Profiles
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 754c6aa9-b431-4d2b-a78b-c4da59ea8354
 api_name: 

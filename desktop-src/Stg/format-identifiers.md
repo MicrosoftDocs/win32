@@ -4,7 +4,7 @@ description: Property set values are stored in a section tagged with a unique FM
 ms.assetid: '3ffb6c5e-72ce-4769-847a-72db6f145d61'
 keywords:
 - Format Identifiers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

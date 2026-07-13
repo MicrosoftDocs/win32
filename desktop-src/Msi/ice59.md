@@ -2,7 +2,7 @@
 description: ICE59 checks that advertised shortcuts belong to components that are installed by the target feature of the shortcut.
 ms.assetid: 9cd19137-792d-4fde-92d2-7d96942448d6
 title: ICE59
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

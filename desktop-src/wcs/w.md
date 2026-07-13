@@ -21,7 +21,7 @@ keywords:
 - white point
 
 
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

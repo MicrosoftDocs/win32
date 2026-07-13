@@ -2,7 +2,7 @@
 description: System.Document.HiddenSlideCount
 ms.assetid: b3951c03-e869-42ae-82d3-2616861ce361
 title: System.Document.HiddenSlideCount
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

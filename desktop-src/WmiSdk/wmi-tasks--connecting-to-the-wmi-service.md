@@ -3,7 +3,7 @@ description: To get data from WMI, either on the local computer or from a remote
 ms.assetid: 71ff6b06-af7d-43ee-ae6e-1964ec249472
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Connecting to the WMI Service'
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

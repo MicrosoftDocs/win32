@@ -2,7 +2,7 @@
 title: RPC over HTTP system requirements, interoperability
 description: Microsoft RPC supports RPC over HTTP as shown in the following table.
 ms.assetid: 1815315c-1286-4e60-b3a2-a02cb3016fca
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

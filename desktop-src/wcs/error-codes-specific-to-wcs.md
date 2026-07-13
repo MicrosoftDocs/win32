@@ -4,7 +4,7 @@ description: The following is a list of error codes that are specifically relate
 ms.assetid: c6a0cacc-f83e-4f5c-9002-7718bb2ffb6c
 
 
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 

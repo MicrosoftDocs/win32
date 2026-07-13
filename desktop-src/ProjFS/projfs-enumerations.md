@@ -3,7 +3,7 @@ title: ProjFS enumerations
 description: The following enumerations are declared in projectedfslib.h.
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 01/17/2020
-ms.topic: article
+ms.topic: reference
 ---
 
 # ProjFS enumerations

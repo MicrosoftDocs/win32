@@ -5,7 +5,7 @@ ms.assetid: 753b204e-ecda-4967-b3e4-83ecff2225d1
 ms.tgt_platform: multiple
 keywords:
 - objects Active Directory ,handling with dialog boxes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Several types of applications can utilize the connectivity functions and notification services that the System Event Notification Service offers.
 ms.assetid: c8ad921f-92ee-4bb2-a97a-915e5b1748da
 title: Application Scenarios for SENS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

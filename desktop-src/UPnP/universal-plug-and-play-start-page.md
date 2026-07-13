@@ -4,7 +4,7 @@ description: The UPnP  framework enables dynamic networking of intelligent appli
 ms.assetid: 1dc05d6e-19ae-45e2-82c2-d3b63b16bf9d
 keywords:
 - UPnP
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

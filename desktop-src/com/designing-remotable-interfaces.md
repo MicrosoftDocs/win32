@@ -2,7 +2,7 @@
 title: Designing Remotable Interfaces
 description: With the advent of the distributed component object model, it is important that your custom interface be remotable, even if you intend to use it in-process only.
 ms.assetid: 2ee4d950-dfd5-4965-bd77-a600e878be59
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

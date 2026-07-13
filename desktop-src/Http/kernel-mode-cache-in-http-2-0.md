@@ -2,8 +2,9 @@
 title: Kernel Mode Cache
 description: Kernel Mode Cache
 ms.assetid: f9a46ff4-779b-4b3a-b8f5-1ae10a3c0a61
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
+no-loc: [Verb, verb]
 ---
 
 # Kernel Mode Cache
@@ -14,13 +15,13 @@ The HTTP Server API applies the appropriate property configurations to all reque
 
 The HTTP Server API limits the kernel mode cache to requests that meet the following conditions:
 
--   The request verb is GET and the entire request is received.
+-   The request verb is `GET` and the entire request is received.
 -   The request must not have an entity body.
 -   The HTTP protocol is version 1.0 or later.
--   The "Translate: f " header is not present.
--   Expect headers other than "Expect: 100-Continue" are not present.
+-   The "`Translate: f`" header is not present.
+-   Expect headers other than "`Expect: 100-Continue`" are not present.
 -   The authorization header is not present.
--   The Range and If-Range headers are not present.
+-   The `Range` and `If-Range` headers are not present.
 
 In addition to the restrictions on the request, the response must also meet the following conditions:
 

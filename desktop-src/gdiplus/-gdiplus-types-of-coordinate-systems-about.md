@@ -2,7 +2,7 @@
 description: 'Windows GDI+ uses three coordinate spaces: world, page, and device.'
 ms.assetid: eb20f5e9-25f5-4f27-8ea5-83f6819425ed
 title: Types of Coordinate Systems
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

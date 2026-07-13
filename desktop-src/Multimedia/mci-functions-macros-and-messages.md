@@ -4,7 +4,7 @@ description: MCI Functions Macros and Messages
 ms.assetid: 7cedc46f-f67b-4b1a-b1e0-7ac32c250132
 keywords:
 - MCI messages
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

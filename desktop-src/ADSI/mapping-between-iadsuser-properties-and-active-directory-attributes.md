@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Mapping between IADsUser Properties and Active Directory Attributes ADSI
 - LDAP provider ADSI , user object, Mapping between IADsUser properties and Active Directory attributes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

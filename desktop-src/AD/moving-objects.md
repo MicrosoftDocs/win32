@@ -5,7 +5,7 @@ ms.assetid: 3afdf480-a7ee-4b7b-99f6-4a8e8cb2096c
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , moving objects
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

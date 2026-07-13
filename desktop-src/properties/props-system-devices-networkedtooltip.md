@@ -2,7 +2,7 @@
 description: Tool tip for connection state.
 ms.assetid: 84D7657E-026E-4eb7-8A61-172563A09EAB
 title: System.Devices.NetworkedTooltip
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

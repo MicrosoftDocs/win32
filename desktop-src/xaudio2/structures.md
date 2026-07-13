@@ -2,7 +2,7 @@
 title: XAudio2 structures
 description: This section contains information about structures provided by the Microsoft XAudio2 API.
 ms.assetid: 3656aaf9-7a3a-2a5b-50f5-d279ce8a9e6c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Security Attributes, Using AD
 - User Security Attributes AD
-ms.topic: article
+ms.topic: reference
 ms.date: 08/29/2022
 ---
 

@@ -46,10 +46,10 @@ The number of stage errors returned.
 The pipeline stage errors.
 
 *width*   
-The width of the swap chain assocaited with the draw call. This is used when requesting pipeline preview images.
+The width of the swap chain associated with the draw call. This is used when requesting pipeline preview images.
 
 *height*   
-The height of the swap chain assocaited with the draw call. This is used when requesting pipeline preview images.
+The height of the swap chain associated with the draw call. This is used when requesting pipeline preview images.
 
 *eid*   
 The event represented in the results.

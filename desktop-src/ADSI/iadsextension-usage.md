@@ -5,7 +5,7 @@ ms.assetid: 56bc87b4-f3cf-4177-90cb-e745889f8fef
 ms.tgt_platform: multiple
 keywords:
 - extensions ADSI , IADsExtension
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

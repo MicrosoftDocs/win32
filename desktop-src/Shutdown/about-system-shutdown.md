@@ -2,7 +2,7 @@
 description: System shutdown brings the system to a condition in which it is safe to turn off the computer.
 ms.assetid: eeede4b3-8f68-4fe0-b16a-b5449aa27d59
 title: About System Shutdown
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

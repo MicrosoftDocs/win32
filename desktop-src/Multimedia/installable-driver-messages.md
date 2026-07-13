@@ -8,7 +8,7 @@ keywords:
 - installable drivers,messages
 - installable driver reference,messages
 - reference for installable drivers,messages
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

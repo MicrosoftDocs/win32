@@ -5,7 +5,7 @@ ms.assetid: c36ae0c8-40ad-4afd-8552-4de77f4463e2
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , setting rights to specific types of objects
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

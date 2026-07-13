@@ -5,7 +5,7 @@ ms.assetid: 3abc2351-a3cf-4a6c-9a13-15dd51723883
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Checking for Rights to Create Schema Objects AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Controls and text placed on dialog boxes and billboards enable the user to interact with the installation process.
 ms.assetid: 2c6204c7-535d-4dda-8394-723ddbf46b96
 title: Adding Controls and Text
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

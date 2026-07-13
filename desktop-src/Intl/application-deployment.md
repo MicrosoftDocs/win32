@@ -2,7 +2,7 @@
 description: This section describes considerations for deploying your MUI application for optimal use by the application loading logic and the resource loader.
 ms.assetid: 6c10b355-9bdd-4dba-8446-91034d4fe9b8
 title: Application Deployment
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This topic describes how to use the Source Reader in asynchronous mode.
 ms.assetid: 9D3C2780-D7DB-4151-8474-9A19EC94F6BE
 title: Using the Source Reader in Asynchronous Mode
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

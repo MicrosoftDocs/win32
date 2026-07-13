@@ -3,7 +3,7 @@ description: Client applications and scripts that access standard WMI 32-bit pro
 ms.assetid: 68819bea-a48d-4de1-a50d-f03ae04775f5
 ms.tgt_platform: multiple
 title: Getting and Providing Data on a 64-bit Computer
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

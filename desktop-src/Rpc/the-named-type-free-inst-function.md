@@ -4,7 +4,7 @@ description: The stubs call the named\_type\_free\_inst function to free memory 
 ms.assetid: 4b9e10cb-25bb-4f00-86a0-5436e5ac71d9
 keywords:
 - named_type_free_inst
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

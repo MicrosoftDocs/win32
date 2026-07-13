@@ -2,7 +2,7 @@
 title: Defining Pipes in IDL Files
 description: When a pipe is defined in an IDL file, the MIDL compiler generates a pipe control structure whose members are pointers to push, pull, and alloc procedures as well as a state variable that coordinates these procedures.
 ms.assetid: f6c282e4-3056-48c4-bd12-dfcae6d238d7
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

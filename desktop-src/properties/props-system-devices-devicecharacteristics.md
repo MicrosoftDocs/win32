@@ -2,7 +2,7 @@
 description: Device Characteristics.
 ms.assetid: c059a14d-e698-433f-a483-d29d30ab703f
 title: System.Devices.DeviceCharacteristics
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

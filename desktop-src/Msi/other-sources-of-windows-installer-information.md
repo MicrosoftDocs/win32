@@ -2,7 +2,7 @@
 description: The Windows Installer SDK contains the most complete and current descriptions of the application programming interface (API) and the elements of the Installer database. It is the primary source of developer reference material for the Windows Installer.
 ms.assetid: 30b1600c-60b0-4442-a9a4-1d597fcf9264
 title: Other Sources of Windows Installer Information
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -16,47 +16,33 @@ The following supplemental information sources may also be helpful to software d
 
 You can check the Windows Developer Center for information about using Windows Installer when building applications for Windows.
 
--   [Windows Developer Center](https://msdn.microsoft.com/windows/default.aspx)
+-   [Windows Developer Center](https://developer.microsoft.com/windows/)
 
-## Windows Installer Technical Chats
+## Microsoft Support Community
 
-You can participate in live MSDN technical chat sessions about the Windows Installer:
+You can ask community members about the Windows Installer:
 
--   [Technical Chats](https://msdn.microsoft.com/chats/default.aspx)
-
-    Experts from the Windows Installer team at Microsoft answer questions you ask about Windows Installer.
+-   [Microsoft Support Community](https://answers.microsoft.com/)
 
 <!-- -->
 
--   [Archive of MSDN Windows Installer Chats](/previous-versions/msdn10/aa497439(v=msdn.10))
+-   [Archive of Windows Installer Chats](/previous-versions/msdn10/bb264384(v=msdn.10))
 
     Transcripts of previous chats about the Windows Installer are archived for you to read at any time.
 
 ## TechNet Articles and Newsgroups
 
-You can search Technet for articles and newsgroups about the Windows Installer:
+You can search the Microsoft Q&A site for articles and newsgroups about the Windows Installer:
 
--   [Search TechNet Site](https://www.microsoft.com/technet/sitemap.mspx)
-
-## Knowledge Base Articles
-
-You can search the Knowledge Base (KB) for articles about the Windows Installer:
-
--   [Search the Knowledge Base](https://support.microsoft.com)
-
-    Search for both Windows Installer and MSI.
+-  [Microsoft Q&A](/answers/questions/)
 
 ## White Papers
 
 You can read white papers that describe the Windows Installer:
 
--   [Windows Installer: Benefits and Implementation for System Administrators](https://www.microsoft.com/technet/prodtechnol/windows2000serv/maintain/featusability/winmsi.mspx)
 -   [New Features and Design Changes in Windows Installer 2.0](/previous-versions/windows/it-pro/windows-xp/bb457094(v=technet.10))
 -   [Using Software Restriction Policies to Protect Against Unauthorized Software](/previous-versions/windows/it-pro/windows-xp/bb457006(v=technet.10))
--   [Patch Sequencing in Windows Installer version 3.0](https://www.microsoft.com/downloads/details.aspx?FamilyID=ad7ac91e-2493-4549-ae6f-bf5e007c12a3)
--   [Software Installation and Maintenance](https://www.microsoft.com/technet/prodtechnol/windows2000serv/maintain/featusability/inmnwp.mspx)
--   [Step-by-Step Guide to Creating Windows Installer Packages and Repackaging Software for the Windows Installer](https://www.microsoft.com/technet/prodtechnol/windows2000serv/howto/winstall.mspx)
--   [Standardizing the Patch Experience](https://www.microsoft.com/technet/security/topics/patchmanagement/stdpatex.mspx)
+-   [Patch Sequencing in Windows Installer version 3.0](https://archive.org/download/windows-installer-3.0/WindowsInstaller-KB884016-v2-x86.exe)
 -   [Delta Compression Application Programming Interface](https://msdn.microsoft.com/library/ms811406.aspx)
 
 ## Online Windows Installer SDK

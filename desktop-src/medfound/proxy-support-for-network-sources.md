@@ -2,7 +2,7 @@
 description: Proxy Support for Network Sources
 ms.assetid: e739746d-2a09-4237-a7c1-0aed4e4516d7
 title: Proxy Support for Network Sources
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

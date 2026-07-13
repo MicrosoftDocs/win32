@@ -6,7 +6,7 @@ keywords:
 - WM_CAP_GET_STATUS message
 - capGetStatus macro
 - CAPSTATUS structure
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -7,7 +7,7 @@ keywords:
 - Device Manager,structures
 - programming reference,structures
 - reference for Windows Media Device Manager,structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

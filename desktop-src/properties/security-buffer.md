@@ -2,7 +2,7 @@
 description: This article lists security topics for Windows Property System, including AllowedEnterpriseDataProtectionIdentities and EncryptionOwners.
 ms.assetid: 3754BBDB-3CBE-4C79-897D-15359B90AC82
 title: Security (Windows Property System)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

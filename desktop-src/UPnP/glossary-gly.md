@@ -2,7 +2,7 @@
 title: Glossary (UPnP APIs)
 description: Contains definitions of UPnP-related terms.
 ms.assetid: d19c5dd5-0e6c-420f-9bfe-7eb1f3be11b2
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

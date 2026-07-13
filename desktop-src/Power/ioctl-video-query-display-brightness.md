@@ -3,7 +3,7 @@ description: Retrieves the current AC and DC backlight levels and the current po
 ms.assetid: c7b7c302-6e92-46a7-b9a6-e3f2a3e44d1b
 title: IOCTL_VIDEO_QUERY_DISPLAY_BRIGHTNESS control code (Ntddvdeo.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type:
 - APIRef
 - kbSyntax

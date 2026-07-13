@@ -2,7 +2,7 @@
 title: App packager (MakeAppx.exe)
 description: App packager (MakeAppx.exe) creates an app package from files on disk or extracts the files from an app package to disk.
 ms.assetid: 9B7BF420-8E19-4BFD-B378-D09E61F68A39
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -19,7 +19,7 @@ The MakeAppx.exe tool is typically found in operating system version specific lo
 
 - C:\Program Files (x86)\Windows Kits\10\bin\<build number>\<architecture>\makeappx.exe
 
-Where <architecture> = x86, x64, arm, ar64 or chpe. Alternatively, it may be located in:
+Where \<architecture> = x86, x64, arm, ar64 or chpe. Alternatively, it may be located in:
 
 C:\Program Files (x86)\Windows Kits\10\App Certification Kit\makeappx.exe
 

@@ -2,7 +2,7 @@
 description: LOCALE\_SNAME
 ms.assetid: 9823f675-8dc8-42c1-938f-22910434694e
 title: LOCALE_SNAME
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

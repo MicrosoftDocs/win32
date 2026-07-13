@@ -2,7 +2,7 @@
 description: Overview of naming a window appropriately and setting the window caption for the Tablet PC.
 ms.assetid: 9d064188-53a1-4cb5-b516-99610d7b8134
 title: Naming a Window Appropriately
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

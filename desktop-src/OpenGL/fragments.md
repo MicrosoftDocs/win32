@@ -7,7 +7,7 @@ keywords:
 - OpenGL processing pipeline,fragments
 - fragments OpenGL
 - framebuffers,fragments modifying pixels
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

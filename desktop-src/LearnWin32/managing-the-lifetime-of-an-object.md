@@ -2,7 +2,7 @@
 title: Managing the Lifetime of an Object
 description: Learn how to manage the AddRef and Release methods to control the lifetime of an object.
 ms.assetid: 0e522ded-8976-4cdd-9a61-eae7834c896b
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -75,7 +75,7 @@ if (SUCCEEDED(hr))
                 hr = pItem->GetDisplayName(SIGDN_FILESYSPATH, &pszFilePath);
                 if (SUCCEEDED(hr))
                 {
-                    MessageBox(NULL, pszFilePath, L&quot;File Path&quot;, MB_OK);
+                    MessageBox(NULL, pszFilePath, L"File Path", MB_OK);
                     CoTaskMemFree(pszFilePath);
                 }
                 pItem->Release();

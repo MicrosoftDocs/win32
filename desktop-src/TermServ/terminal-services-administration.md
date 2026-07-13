@@ -3,7 +3,7 @@ title: Remote Desktop Services Administration
 description: The Remote Desktop Services API enables you to enumerate and manage Remote Desktop Session Host (RD Session Host) servers, client sessions, and processes.
 ms.assetid: 85a9ed9d-79d6-4011-93a4-00847c689747
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

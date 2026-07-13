@@ -5,7 +5,7 @@ ms.assetid: 60c252c7-76d2-4683-bf90-0f3483e6e8e0
 ms.tgt_platform: multiple
 keywords:
 - Registering the SPNs for a Service AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

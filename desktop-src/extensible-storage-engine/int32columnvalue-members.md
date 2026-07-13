@@ -6,7 +6,7 @@ ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Int32ColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.int32columnvalue_members(v=EXCHG.10)
 ms:contentKeyID: 55103361
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # Int32ColumnValue members

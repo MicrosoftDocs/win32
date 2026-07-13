@@ -2,7 +2,7 @@
 title: Magnification API
 description: The Magnification API enables applications to magnify the entire screen or portions of the screen, and to apply color effects.
 ms.assetid: 644af100-82ec-4450-b809-cede9b388cb4
-ms.topic: article
+ms.topic: reference
 ms.date: 02/07/2020
 ---
 

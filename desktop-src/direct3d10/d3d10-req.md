@@ -2,7 +2,7 @@
 description: Resource limitation constants.
 ms.assetid: a6bfba45-7a0c-4894-a0a6-ee468002175d
 title: D3D10_REQ
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The size of a Digest Access challenge must be less than 2048 bytes.
 ms.assetid: 16c6728a-966b-436f-902d-3e12368986b6
 title: Contents of a Digest Challenge
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

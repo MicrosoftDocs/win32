@@ -3,7 +3,7 @@ title: Mappings for the Active Directory Users and Computers Snap-in
 description: The Active Directory Users and Computers snap-in includes property sheets and other user interfaces for the following object classes.The Object property sheet is common to all object classes.
 ms.assetid: 4216aede-b513-4db9-a6de-1a79b3a6f74a
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

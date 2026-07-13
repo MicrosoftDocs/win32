@@ -2,7 +2,7 @@
 description: Learn about the JobOptimalDestinationColorProfile element which specifies the optimal color profile given the current device configuration.
 ms.assetid: 70790dc2-180a-4e04-91a9-a10ee76c836b
 title: JobOptimalDestinationColorProfile
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -66,7 +66,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the `https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords` namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
  <psf:Property name="psk:JobOptimalDestinationColorProfile">

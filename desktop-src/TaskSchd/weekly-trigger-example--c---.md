@@ -2,7 +2,7 @@
 title: Weekly Trigger Example (C++)
 description: This C++ example shows how to create a task that is scheduled to execute Notepad on a weekly basis.
 ms.assetid: 7c70b743-aff2-4ef5-b65b-ef0b5fdacade
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

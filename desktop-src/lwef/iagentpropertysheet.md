@@ -2,7 +2,7 @@
 title: IAgentPropertySheet
 description: IAgentPropertySheet
 ms.assetid: f81091e7-c165-43ac-90ac-c60ffd1bbe79
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

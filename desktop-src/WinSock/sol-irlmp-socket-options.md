@@ -36,17 +36,17 @@ To enumerate protocols and discover supported properties for each installed prot
 
 | Option                            | Windows 7 | Windows Server 2008 | Windows Vista | Windows Server 2003 | Windows XP | Windows 2000 | Windows Me, Windows 98 | Windows NT 4.0 |
 |-----------------------------------|-----------|---------------------|---------------|---------------------|------------|--------------|------------------------|----------------|
-| IRLMP\_DISCOVERY\_MODE<br/> |           |                     |               |                     |            |              | x                      |                |
-| IRLMP\_ENUMDEVICES<br/>     | x         | x                   | x             | x                   | x          | x            | x                      |                |
+| IRLMP\_DISCOVERY\_MODE<br/> |           |                     |               |                     |            |               yes                       |                |
+| IRLMP\_ENUMDEVICES<br/>      yes           yes                     yes               yes                     yes            yes              yes                       |                |
 | IRLMP\_EXCLUSIVE\_MODE<br/> |           |                     |               |                     |            |              |                        |                |
-| IRLMP\_IAS\_QUERY<br/>      | x         | x                   | x             | x                   | x          | x            | x                      |                |
-| IRLMP\_IAS\_SET<br/>        | x         | x                   | x             | x                   | x          | x            | x                      |                |
-| IRLMP\_IRLPT\_MODE<br/>     | x         | x                   | x             | x                   | x          | x            |                        |                |
-| IRLMP\_PARAMETERS<br/>      |           |                     |               |                     |            |              | x                      |                |
-| IRLMP\_SEND\_PDU\_LEN<br/>  | x         | x                   | x             | x                   | x          | x            |                        |                |
+| IRLMP\_IAS\_QUERY<br/>       yes           yes                     yes               yes                     yes            yes              yes                       |                |
+| IRLMP\_IAS\_SET<br/>         yes           yes                     yes               yes                     yes            yes              yes                       |                |
+| IRLMP\_IRLPT\_MODE<br/>      yes           yes                     yes               yes                     yes            yes             |                        |                |
+| IRLMP\_PARAMETERS<br/>      |           |                     |               |                     |            |               yes                       |                |
+| IRLMP\_SEND\_PDU\_LEN<br/>   yes           yes                     yes               yes                     yes            yes             |                        |                |
 | IRLMP\_SHARP\_MODE<br/>     |           |                     |               |                     |            |              |                        |                |
-| IRLMP\_TINYTP\_MODE<br/>    |           |                     |               |                     |            |              | x                      |                |
-| IRLMP\_9WIRE\_MODE<br/>     | x         | x                   | x             | x                   | x          | x            |                        |                |
+| IRLMP\_TINYTP\_MODE<br/>    |           |                     |               |                     |            |               yes                       |                |
+| IRLMP\_9WIRE\_MODE<br/>      yes           yes                     yes               yes                     yes            yes             |                        |                |
 
 
 

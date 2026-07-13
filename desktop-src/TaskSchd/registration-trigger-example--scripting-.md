@@ -2,7 +2,7 @@
 title: Registration Trigger Example (Scripting)
 description: This scripting example shows how to create a task that is scheduled to execute Notepad when a task is registered.
 ms.assetid: 956b3a21-7d36-4d06-be84-690884ba653a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

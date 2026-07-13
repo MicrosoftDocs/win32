@@ -5,7 +5,7 @@ ms.assetid: 806a559d-d424-40a6-a28c-56a505605d00
 ms.tgt_platform: multiple
 keywords:
 - GUID.CPP ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

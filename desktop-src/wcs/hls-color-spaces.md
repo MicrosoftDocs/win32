@@ -18,7 +18,7 @@ keywords:
 - HLS (hue lightness saturation)
 
 
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

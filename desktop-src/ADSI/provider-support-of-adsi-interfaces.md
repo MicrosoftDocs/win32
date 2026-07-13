@@ -26,7 +26,7 @@ keywords:
 - Provider Support for IADsPathname
 - Provider Support for IADsPrintQueue
 - Provider Support for IADsPrintQueueOperations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

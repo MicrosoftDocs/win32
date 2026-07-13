@@ -2,7 +2,7 @@
 title: Resources
 description: This section describes aspects of Direct3D 11 resources.
 ms.assetid: 5b8b1198-73ed-4058-9fc6-a1c43902d732
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

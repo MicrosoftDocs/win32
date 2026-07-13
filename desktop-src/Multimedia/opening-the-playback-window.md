@@ -4,7 +4,7 @@ description: Opening the Playback Window
 ms.assetid: 180f3fb9-cdcb-49ec-a708-84a597295b2f
 keywords:
 - MCI_OPEN command
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

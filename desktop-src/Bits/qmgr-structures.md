@@ -2,7 +2,7 @@
 title: QMGR Structures
 description: The Queue Manager (QMGR) interfaces use the following structures.
 ms.assetid: 25512a9e-a085-4fa5-8cc1-dd0b804fbbf4
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

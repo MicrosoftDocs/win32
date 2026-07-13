@@ -2,7 +2,7 @@
 description: Windows time is the number of milliseconds elapsed since the system was last started.
 ms.assetid: 95c00204-bfdf-4376-9aae-8d8139ba6750
 title: Windows Time
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

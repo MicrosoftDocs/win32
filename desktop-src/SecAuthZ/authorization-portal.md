@@ -2,7 +2,7 @@
 description: Programmers use authorization technologies to create access control software, Internet access control, security access control, and file security.
 ms.assetid: 1b8306da-7577-40b8-b77c-5762c1962f00
 title: Authorization
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

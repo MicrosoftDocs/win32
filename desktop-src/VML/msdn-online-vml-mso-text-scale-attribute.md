@@ -2,7 +2,7 @@
 title: VML MSO-Text-Scale Attribute
 description: VML MSO-Text-Scale Attribute
 ms.assetid: efec6eb3-8550-4597-9ae9-dc804ae28640
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

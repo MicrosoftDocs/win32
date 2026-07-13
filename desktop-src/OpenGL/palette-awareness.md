@@ -5,7 +5,7 @@ ms.assetid: 0670e929-dfdb-44d2-bda2-c532d1739d8e
 keywords:
 - OpenGL on Windows,palette awareness
 - palette awareness OpenGL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

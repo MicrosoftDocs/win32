@@ -2,7 +2,7 @@
 description: Overview of error handling when using the StylusInput application programming interfaces (APIs).
 ms.assetid: 7d7ff5b2-3eda-4570-96fe-b3b8f41ff69b
 title: Error Handling Considerations for the StylusInput API
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

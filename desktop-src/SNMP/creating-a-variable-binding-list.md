@@ -2,7 +2,7 @@
 title: Creating a Variable Binding List
 description: The SnmpCreateVbl function creates a new variable binding list.
 ms.assetid: 18e8a04d-612f-4d85-9cff-8c541a4cdf71
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

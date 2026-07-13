@@ -8,7 +8,7 @@ keywords:
 - Serverless Binding AD
 - RootDSE AD
 - Active Directory, Using, Binding, Serverless Binding
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

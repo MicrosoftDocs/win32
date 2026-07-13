@@ -2,7 +2,7 @@
 title: Text Object Model Overview
 description: Text Object Model Overview
 ms.assetid: 2eca6bea-db5d-40e7-a15d-5205f873add9
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

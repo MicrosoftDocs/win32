@@ -123,10 +123,10 @@ There are no child elements.
 </tr>
 <tr class="even">
 <td><a href="windowsribbon-element-quickaccesstoolbar-applicationdefaults.md"><strong>QuickAccessToolbar.ApplicationDefaults</strong></a><br/></td>
-<td><blockquote>
-[!Note]<br />
+<td>
+<strong>Note:</strong><br />
 Windows 8 and newer.
-</blockquote>
+
 <br/> <br/></td>
 </tr>
 <tr class="odd">

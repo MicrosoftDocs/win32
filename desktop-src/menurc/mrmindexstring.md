@@ -1,6 +1,6 @@
 ---
 title: MrmIndexString function (MrmResourceIndexer.h)
-description: Indexes a single string resource belonging to a UWP app.
+description: Adds a string resource to a Resource Indexer.
 ms.assetid: 098F47E7-4BEC-452F-A33C-111F3F524E67
 keywords:
 - MrmIndexString function Menus and Other Resources
@@ -18,9 +18,8 @@ ms.date: 05/31/2018
 
 # MrmIndexString function
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
-
-Indexes a single string resource belonging to a UWP app. Takes an explicit (but optional) list of resource qualifiers. For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
+Adds a string resource to a Resource Indexer. Note that it is the resource name that is indexed, not the string.
+In other words, this function does not search the string looking for things to index.
 
 ## Syntax
 
@@ -35,7 +34,6 @@ HRESULT HRESULT MrmIndexString(
 ```
 
 
-
 ## Parameters
 
 <dl> <dt>
@@ -45,7 +43,8 @@ HRESULT HRESULT MrmIndexString(
 
 Type: **[**MrmResourceIndexerHandle**](mrmresourceindexerhandle.md)**
 
-A handle identifying the resource indexer that will index the string resources.
+A handle identifying the resource indexer to add the resource to. This handle is returned via a call to 
+[**MrmCreateResourceIndexer**](mrmcreateresourceindexer.md) or one of the related **MrmCreateResourceIndexer...*** functions.
 
 </dd> <dt>
 
@@ -54,7 +53,8 @@ A handle identifying the resource indexer that will index the string resources.
 
 Type: **PCWSTR**
 
-The resource URI to assign to the resource. The path will be used as the resource map subtree name for this resource when you later generate a PRI file from this resource indexer.
+The URI (name) to assign to the resource. By convention, string resources are added to the `strings/` path (for example, 
+`ms-resource:///strings/appName`). See [Resource names in MRM](mrmresourcenames.md) for more info.
 
 </dd> <dt>
 
@@ -63,7 +63,7 @@ The resource URI to assign to the resource. The path will be used as the resourc
 
 Type: **PCWSTR**
 
-The value of the string resource.
+The string to add to the index.
 
 </dd> <dt>
 
@@ -72,7 +72,9 @@ The value of the string resource.
 
 Type: **PCWSTR**
 
-An optional list of resource qualifiers, for example L"language-en-US\_scale-100\_contrast-standard". An empty string or **nullptr** indicates a neutral resource. Resource qualifiers are *not* inferred from *resourceUri*.
+An optional list of resource qualifiers for the resource, for example "language-en-US". Passing an empty 
+string or **NULL** indicates a neutral resource that is applicable in any resource context. See 
+[Qualifiers in MRM](mrmqualifiers.md) for more info.
 
 </dd> </dl>
 
@@ -80,13 +82,8 @@ An optional list of resource qualifiers, for example L"language-en-US\_scale-100
 
 Type: **HRESULT**
 
-S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED() or FAILED() macros (defined in winerror.h) to determine success or failure.
-
-## Remarks
-
-If you want to specify any resource qualifiers, then pass them in the *qualifiers* parameter. Resource qualifiers are *not* inferred from *resourceUri*.
-
-The file name segment of *resourceUri* is used as the resource name.
+S\_OK if the function succeeded, otherwise some other value. Use the **SUCCEEDED** or **FAILED** macros (defined in winerror.h) 
+to determine success or failure.
 
 ## Requirements
 
@@ -104,10 +101,32 @@ The file name segment of *resourceUri* is used as the resource name.
 
 ## See also
 
-<dl> <dt>
+<dt><dt>
+
+[**MrmIndexEmbeddedData**](mrmindexembeddeddata.md)
+</dt></dl>
+
+<dt><dt>
+
+[**MrmIndexFile**](mrmindexfile.md)
+</dt></dl>
+
+<dt><dt>
+
+[**MrmIndexFileAutoQualifiers**](mrmindexfileautoqualifiers.md)
+</dt></dl>
+
+<dt><dt>
+
+[**MrmIndexResourceContainerAutoQualifiers**](mrmindexresourcecontainerautoqualifiers.md)
+</dt></dl>
+
+<dt><dt>
+
+[File resources in MRM](mrmfiles.md)
+</dt></dl>
+
+<dt><dt>
 
 [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems)
-</dt> </dl>
-
- 
-
+</dt></dl>

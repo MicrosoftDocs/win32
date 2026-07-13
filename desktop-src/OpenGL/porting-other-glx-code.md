@@ -7,7 +7,7 @@ keywords:
 - OpenGL porting,GLX code
 - X Window System,porting GLX code
 - GLX functions,porting
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

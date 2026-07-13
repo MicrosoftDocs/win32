@@ -3,7 +3,7 @@ description: WMI automatically maps SNMP traps to WMI events. The system places 
 ms.assetid: 549f58a9-9d3b-41b9-a374-ab83877f63a7
 ms.tgt_platform: multiple
 title: Receiving SNMP Traps as WMI Events
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

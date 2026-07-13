@@ -2,7 +2,7 @@
 title: Asynchronous RPC over the Named-Pipe Protocol
 description: If you use named pipes (ncacn\_np) as your transport protocol, you should avoid allowing a large number of idle pending calls on the server.
 ms.assetid: a1d0f758-91bc-4821-9a82-64ba6ce575ad
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

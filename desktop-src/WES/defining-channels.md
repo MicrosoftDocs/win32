@@ -2,7 +2,7 @@
 title: Defining Channels
 description: Events can be written to event log channels, event tracing log files, or both. A channel is basically a sink that collects events.
 ms.assetid: 3c2f39ee-fbc0-40ae-8279-566905250f47
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

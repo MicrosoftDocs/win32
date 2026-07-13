@@ -2,7 +2,7 @@
 description: Lists the objects provided by CryptoAPI.
 ms.assetid: 4ab16355-1341-4c7a-b570-bd33f11dde00
 title: Cryptography Objects
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

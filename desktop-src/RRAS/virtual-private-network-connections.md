@@ -2,7 +2,7 @@
 title: Virtual Private Network Connections
 description: The Remote Access Service (RAS) supports Virtual Private Network (VPN) connections in addition to conventional remote access connections that use Point-to-Point Protocol (PPP).
 ms.assetid: c1195ebb-3107-4429-bc67-b64577d66268
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

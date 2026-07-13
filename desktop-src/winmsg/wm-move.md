@@ -3,7 +3,7 @@ description: Sent after a window has been moved.
 ms.assetid: 552ddc26-fe63-449b-8c82-bb927a2c1c41
 title: WM_MOVE message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_MOVE message
@@ -84,10 +84,10 @@ the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**.
 **Reference**
 </dt> <dt>
 
-[**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85))
+[**HIWORD**](hiword.md)
 </dt> <dt>
 
-[**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))
+[**LOWORD**](loword.md)
 </dt> <dt>
 
 [**WM\_WINDOWPOSCHANGED**](wm-windowposchanged.md)

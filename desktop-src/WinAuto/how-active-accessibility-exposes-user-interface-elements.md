@@ -2,8 +2,8 @@
 title: How Active Accessibility Exposes User Interface Elements
 description: Microsoft Active Accessibility creates a proxy object for each user interface element that it exposes.
 ms.assetid: 64aa8fac-cea7-4466-ae34-2760956c296b
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # How Active Accessibility Exposes User Interface Elements

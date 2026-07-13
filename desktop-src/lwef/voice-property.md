@@ -2,7 +2,7 @@
 title: Voice Property (Commands Object)
 description: Learn about the Voice Property of the Commands object, which returns or sets the text that is passed to the speech engine grammar (for recognition).
 ms.assetid: 1feb5597-7971-4778-8221-2eb3a6e5e1ee
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

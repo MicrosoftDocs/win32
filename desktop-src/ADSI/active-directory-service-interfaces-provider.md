@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - service providers ADSI , illustration of how service providers access a namespace
 - namespace ADSI , illustration of how service providers access namespace
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

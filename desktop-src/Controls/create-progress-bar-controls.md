@@ -2,7 +2,7 @@
 title: How to Use Progress Bar Controls
 description: This topic explains how to use a progress bar to indicate the progress of a lengthy file-parsing operation.
 ms.assetid: 4CC25F3A-9CAF-4ADC-B29C-3FACDD73D5A0
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

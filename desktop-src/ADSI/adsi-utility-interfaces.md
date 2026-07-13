@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,using,utility interfaces
 - utility interfaces ADSI ,using ADSI utility interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

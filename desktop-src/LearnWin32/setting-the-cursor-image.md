@@ -2,7 +2,7 @@
 title: Setting the Cursor Image
 description: Setting the Cursor Image
 ms.assetid: FB223131-19AE-41DD-87DE-73992AE2A0CA
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

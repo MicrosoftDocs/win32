@@ -2,7 +2,7 @@
 title: Registering Interfaces
 description: Registering a Remote Procedure Call (RPC) interface.
 ms.assetid: c22e3fa8-98be-461a-b06d-292d3f655ffc
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

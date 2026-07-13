@@ -2,7 +2,7 @@
 description: comm/datamodem/dialin
 ms.assetid: 7330db08-5064-47c9-9d28-c5b2b15c3ac6
 title: comm/datamodem/dialin
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

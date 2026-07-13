@@ -2,7 +2,7 @@
 description: Windows caches file data that is read from disks and written to disks.
 ms.assetid: 0865c741-63e3-4246-ba69-801b02153e4a
 title: File Caching
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

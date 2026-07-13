@@ -2,7 +2,7 @@
 description: A device ID is an application-independent identifier for a specific communications device.
 ms.assetid: c7ca72a6-97fa-441f-92ce-a4c77a53765c
 title: Device Identifier
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

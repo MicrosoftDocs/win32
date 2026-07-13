@@ -2,7 +2,7 @@
 title: About List-View Controls
 description: A list-view control is a window that displays a collection of items.
 ms.assetid: 163f7778-690c-4166-b0c5-c7be1a03ae98
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
 ---

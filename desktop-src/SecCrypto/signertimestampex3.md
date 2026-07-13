@@ -58,7 +58,7 @@ Flag that specifies the type of time stamp to generate. This parameter can be on
 
 | Value | Meaning | 
 |-------|---------|
-| <span id="SIGNER_TIMESTAMP_AUTHENTICODE"></span><span id="signer_timestamp_authenticode"></span><dl><dt><strong>SIGNER_TIMESTAMP_AUTHENTICODE</strong></dt></dl> | Specifies an Authenticode time stamp.<br /><blockquote>[!Note]<br />Authenticode is no longer the preferred type of time stamp. Support for Authenticode time stamps may be removed in the future. We recommend that you use RFC 3161 instead.</blockquote><br /> | 
+| **SIGNER_TIMESTAMP_AUTHENTICODE**<br> | Specifies an Authenticode time stamp.<br> **Note:** Authenticode is no longer the preferred type of time stamp. Support for Authenticode time stamps may be removed in the future. We recommend that you use RFC 3161 instead.<br> | 
 | <span id="SIGNER_TIMESTAMP_RFC3161"></span><span id="signer_timestamp_rfc3161"></span><dl><dt><strong>SIGNER_TIMESTAMP_RFC3161</strong></dt></dl> | Specifies an RFC 3161–compliant time stamp.<br /> | 
 
 

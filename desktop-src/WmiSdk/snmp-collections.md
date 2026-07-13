@@ -3,7 +3,7 @@ description: An SNMP collection maps to a CIM class and the elements of a collec
 ms.assetid: e6f82fd6-e3d8-48c5-8c7b-a30a2d502f41
 ms.tgt_platform: multiple
 title: SNMP Collections
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

@@ -5,7 +5,7 @@ ms.assetid: 0b0691f5-321d-4f22-b39c-bc528db9e707
 ms.tgt_platform: multiple
 keywords:
 - display specifiers AD ,context menus for
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

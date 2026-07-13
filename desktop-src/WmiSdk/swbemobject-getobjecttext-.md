@@ -79,7 +79,7 @@ Not enough memory to complete the operation.
 
 ## Examples
 
-The following code, taken from the [List the Definition of a WMI Class in MOF Format](https://Gallery.TechNet.Microsoft.Com/6bb54091-dd6f-4d0b-87af-2431fb8c3be6) VBScript code sample in the TechNet Gallery, retrieves and displays the textual representation of a WMI class definition in MOF (Managed Object Format) syntax.
+The following code retrieves and displays the textual representation of a WMI class definition in MOF (Managed Object Format) syntax.
 
 
 ```VB

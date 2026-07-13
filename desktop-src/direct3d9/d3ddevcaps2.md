@@ -2,7 +2,7 @@
 description: D3DDEVCAPS2 driver capability flags.
 ms.assetid: 3f3b9f86-dee3-4506-bd2e-1dcc8ba617ed
 title: D3DDEVCAPS2
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

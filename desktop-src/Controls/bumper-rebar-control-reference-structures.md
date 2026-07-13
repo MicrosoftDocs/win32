@@ -2,7 +2,7 @@
 title: Rebar Control Structures
 description: Rebar Control Structures
 ms.assetid: bc95d164-ce7b-48d8-ac81-55c8a1b497da
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

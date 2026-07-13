@@ -8,7 +8,7 @@ keywords:
 - text services,client identifiers
 - TSF-enabled applications,client identifiers
 - client identifiers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,8 +2,8 @@
 description: Applications can better adapt their behavior to the current power state of the computer by registering for power events.
 ms.assetid: 840390ca-d32a-4cf3-9e75-66322c7cdee0
 title: Registering for Power Events
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Registering for Power Events

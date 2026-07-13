@@ -2,7 +2,7 @@
 description: ATM point-to-point and point-to-multipoint connection setup and teardown are natively supported by the Windows Sockets 2 specification.
 ms.assetid: 07e4fcb8-f7b5-450d-a2f4-ba81267ef8ca
 title: Winsock ATM Controls
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

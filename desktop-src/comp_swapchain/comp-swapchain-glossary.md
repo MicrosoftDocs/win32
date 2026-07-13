@@ -1,7 +1,7 @@
 ---
 title: Composition swapchain glossary
 description: A glossary of composition swapchain terms. 
-ms.topic: article
+ms.topic: glossary
 ms.date: 09/10/2021
 ---
 

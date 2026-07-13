@@ -2,7 +2,7 @@
 title: Root Signature Version 1.1
 description: The purpose of Root Signature version 1.1 is to enable applications to indicate to drivers when descriptors in a descriptor heap won’t change or the data descriptors point to won’t change.
 ms.assetid: 8FE42C1C-7F1D-4E70-A7EE-D5EC67237327
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -163,7 +163,7 @@ The following API calls enable version 1.1.
 These enumerations contain the key flags to specify descriptor and data volatility.
 
 -   [**D3D\_ROOT\_SIGNATURE\_VERSION**](/windows/desktop/api/d3d12/ne-d3d12-d3d_root_signature_version) : version ids.
--   [**D3D12\_DESCRIPTOR\_RANGE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_flags) : a range of flags determining if descriptors or data are volatile or static.
+-   [**D3D12\_DESCRIPTOR\_RANGE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_flags) : a range of flags determining whether descriptors or data are volatile or static.
 -   [**D3D12\_ROOT\_DESCRIPTOR\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_root_descriptor_flags) : a similar range of flags to [**D3D12\_DESCRIPTOR\_RANGE\_FLAGS**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_descriptor_range_flags), except that only data flags apply to root descriptors.
 
 ### Structures

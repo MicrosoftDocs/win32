@@ -2,7 +2,7 @@
 description: Use the qualifiers defined in this section when creating your provider MOF class, event MOF class, event type MOF class, and the properties of the event type MOF class.
 ms.assetid: 3bc82074-05a7-411f-884f-5da1fd08112b
 title: Event Tracing MOF Qualifiers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - kbArticle

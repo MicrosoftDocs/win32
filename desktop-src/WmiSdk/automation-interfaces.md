@@ -3,7 +3,7 @@ description: Makes the interfaces of the Scripting API for WMI available to C/C+
 ms.assetid: 18f6cc70-9df1-4d43-a2e0-af03e2f9e2c5
 ms.tgt_platform: multiple
 title: Automation Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

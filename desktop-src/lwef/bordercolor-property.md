@@ -2,7 +2,7 @@
 title: BorderColor Property
 description: BorderColor Property
 ms.assetid: 7592db02-c157-45f4-bbcf-e6d5bd99e8e8
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

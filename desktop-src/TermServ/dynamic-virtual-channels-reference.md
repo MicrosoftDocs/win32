@@ -5,7 +5,7 @@ ms.assetid: 00cb7813-1d86-4faa-8b46-081959e4acfa
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , dynamic virtual channels reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

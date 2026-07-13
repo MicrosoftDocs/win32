@@ -2,7 +2,7 @@
 title: Implementing Input Pipes on the Client
 description: When using an input pipe to transfer data from the client to the server, you must implement a pull procedure.
 ms.assetid: e941a6be-ca91-42b1-9323-ffc63d521f6c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

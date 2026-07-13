@@ -2,7 +2,7 @@
 description: The vertical size of the image, in pixels.
 ms.assetid: 0befbe4e-ac30-4823-b687-dd236b6dd7ab
 title: System.Image.VerticalSize
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

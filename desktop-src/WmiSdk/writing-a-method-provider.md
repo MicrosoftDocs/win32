@@ -3,7 +3,7 @@ description: A method provider allows WMI access to the methods of a class. For 
 ms.assetid: bce87e65-5cba-4eef-91da-a3e13c80b8a6
 ms.tgt_platform: multiple
 title: Writing a Method Provider
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

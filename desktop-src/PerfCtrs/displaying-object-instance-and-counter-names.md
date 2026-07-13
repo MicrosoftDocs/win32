@@ -2,8 +2,8 @@
 description: If you want to display a list of objects and their counters in a user interface, you must retrieve the performance data.
 ms.assetid: 0d122fa8-2ed8-4bd8-a52e-6cb20fe81741
 title: Displaying Object, Instance, and Counter Names
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Displaying Object, Instance, and Counter Names
@@ -745,7 +745,7 @@ void PrintObjectNames(DWORD dwNumberOfObjects, BOOL fIncludeCounters, BOOL fIncl
         // the instances, append a serial number to the name of duplicate instances
         // If the object contained three svchost names, the function prints them
         // as svchost, svchost#1, and svchost#2.
-        // If running on Windows 10 20H2 or later, you can avoid this issue by
+        // If running on Windows 11 or later, you can avoid this issue by
         // using the "Process V2" counterset.
         if (fIncludeInstances && g_pObjects[i].dwNumberofInstances > 0)
         {

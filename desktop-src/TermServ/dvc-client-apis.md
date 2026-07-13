@@ -3,7 +3,7 @@ title: DVC Client APIs
 description: The dynamic virtual channel (DVC) client APIs are implemented specifically for the Remote Desktop Connection (RDC) client of the connection.
 ms.assetid: 976a6cc2-7bbe-4ecc-91b4-b7c659eca5ba
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

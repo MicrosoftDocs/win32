@@ -2,7 +2,7 @@
 title: The OLE Handler
 description: An OLE handler is a DLL containing several interacting components used for linking and embedding.
 ms.assetid: 5a01b4be-38cf-4019-ba20-ee67b836a3e0
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

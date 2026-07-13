@@ -7,7 +7,7 @@ keywords:
 - security examples, setup
 - WWSAPI
 - WWS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -45,7 +45,7 @@ Perform the following five-step setup from the command prompt (elevated if you a
     -   **CertUtil.exe -store My localhost**
     -   **CertMgr.exe -s -r LocalMachine My**
 4.  Register the server certificate?s thumbprint with no spaces with HTTP.SYS:
-    -   On Windows Vista and above (the "appid" option is an arbitrary GUID): **Netsh.exe http add sslcert ipport=0.0.0.0:8443 appid={00112233-4455-6677-8899-AABBCCDDEEFF}** certhash=<40CharacterThumbprint>
+    -   On Windows Vista and above (the "appid" option is an arbitrary GUID): **Netsh.exe http add sslcert ipport=0.0.0.0:8443 appid={00001111-aaaa-2222-bbbb-3333cccc4444}** certhash=<40CharacterThumbprint>
     -   On Windows XP or 2003: **HttpCfg.exe set ssl -i 0.0.0.0:8443 -h <40CharacterThumbprint>**
 5.  Create a local user: **Net user "TestUserForBasicAuth" "TstPWD@\*4Bsic" /add**
 
@@ -61,7 +61,3 @@ Make sure there is only one root certificate named Fake-Test-CA. If you are unsu
  
 
  
-
-
-
-

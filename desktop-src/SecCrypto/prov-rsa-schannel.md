@@ -2,7 +2,7 @@
 description: Supports both RSA and Schannel protocols.
 ms.assetid: f0c11a04-7931-424a-b085-0cc584ea7bb7
 title: PROV_RSA_SCHANNEL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

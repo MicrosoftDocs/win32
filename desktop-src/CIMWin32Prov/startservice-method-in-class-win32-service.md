@@ -229,10 +229,6 @@ If you start a stopped service that depends on another service, then both servic
 
 ## Examples
 
-The [Remotely Enable RDP](https://Gallery.TechNet.Microsoft.Com/Remotely-Enable-RDP-855c3842) PowerShell sample remotely enables the Remote Desktop service.
-
-The [Stop, Start, Enable or Disable Service](https://Gallery.TechNet.Microsoft.Com/212e68f0-5279-4499-8e9e-6aa1807719c0) PowerShell sample starts, stops, enables, or disables a service.
-
 The following VBSScript code sample demonstrates how to start a specific service from instances of [**Win32\_Service**](win32-service.md).
 
 

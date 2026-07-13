@@ -3,7 +3,7 @@ description: You have several options as to the form a query takes when querying
 ms.assetid: b959a695-be15-4aa7-9368-b840962ae0da
 ms.tgt_platform: multiple
 title: Querying Embedded Objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

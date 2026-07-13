@@ -7,7 +7,7 @@ keywords:
 - Advanced Systems Format (ASF),configuring indexers
 - ASF (Advanced Systems Format),configuring indexers
 - indexes,configuring indexers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

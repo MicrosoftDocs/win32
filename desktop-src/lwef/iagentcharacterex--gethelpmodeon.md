@@ -2,7 +2,7 @@
 title: IAgentCharacterEx GetHelpModeOn
 description: IAgentCharacterEx GetHelpModeOn
 ms.assetid: 848c9e75-6e4c-487c-b01c-36ec6314d0c1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

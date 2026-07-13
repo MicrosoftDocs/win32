@@ -2,7 +2,7 @@
 description: Creating DLLs presents a number of challenges for developers.
 ms.assetid: 44EFC4B5-7A2F-43A6-914E-D4EB7446AC35
 title: Dynamic-Link Library Best Practices
-ms.topic: article
+ms.topic: best-practice
 ms.date: 05/31/2018
 ---
 
@@ -43,7 +43,7 @@ You should never perform the following tasks from within [**DllMain**](dllmain.m
 -   Call [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa). Creating a process can load another DLL.
 -   Call [**ExitThread**](/windows/win32/api/libloaderapi/nf-libloaderapi-freelibraryandexitthread). Exiting a thread during DLL detach can cause the loader lock to be acquired again, causing a deadlock or a crash.
 -   Call [**CreateThread**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createthread). Creating a thread can work if you do not synchronize with other threads, but it is risky.
--   Call [**ShGetFolterPathW**](/windows/win32/api/shlobj_core/nf-shlobj_core-shgetfolderpathw). Calling shell/known folder APIs can result in thread synchronization, and can therefore cause deadlocks.
+-   Call [**ShGetFolderPathW**](/windows/win32/api/shlobj_core/nf-shlobj_core-shgetfolderpathw). Calling shell/known folder APIs can result in thread synchronization, and can therefore cause deadlocks.
 -   Create a named pipe or other named object (Windows 2000 only). In Windows 2000, named objects are provided by the Terminal Services DLL. If this DLL is not initialized, calls to the DLL can cause the process to crash.
 -   Use the memory management function from the dynamic C Run-Time (CRT). If the CRT DLL is not initialized, calls to these functions can cause the process to crash.
 -   Call functions in User32.dll or Gdi32.dll. Some functions load another DLL, which may not be initialized.

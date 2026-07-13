@@ -2,7 +2,7 @@
 description: Specify a custom icon and label for a drive.
 ms.assetid: B6EF7F84-7747-4689-B740-A91CA8E394D7
 title: Assign a Custom Icon and Label to a Drive Letter
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -146,7 +146,7 @@ Access type: Read-only
 Qualifiers: [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed")
 </dt> </dl>
 
-An array of booleans corresponding to each shared virtual hard disk indicating if the corresponding disk resource in the guest cluster is currenly owned by this VM.
+An array of booleans corresponding to each shared virtual hard disk indicating if the corresponding disk resource in the guest cluster is currently owned by this VM.
 
 </dd> <dt>
 

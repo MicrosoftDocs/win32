@@ -7,7 +7,7 @@ keywords:
 - Extensible Authentication Protocol, start page
 - EAP
 - EAP, See Extensible Authentication Protocol
-ms.topic: article
+ms.topic: reference
 ms.date: 06/14/2023
 ms.contributor: samyun
 ---

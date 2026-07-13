@@ -9,7 +9,7 @@ keywords:
 - audio,Musical Instrument Digital Interface (MIDI)
 - Musical Instrument Digital Interface (MIDI),about
 - MIDI (Musical Instrument Digital Interface),about
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

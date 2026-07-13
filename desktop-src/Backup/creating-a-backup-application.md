@@ -6,7 +6,7 @@ keywords:
 - backup applications Backup
 - creating backup applications Backup
 - backup Backup , creating applications
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

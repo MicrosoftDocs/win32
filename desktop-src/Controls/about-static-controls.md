@@ -2,7 +2,7 @@
 title: About Static Controls
 description: This topic discusses how static controls are used.
 ms.assetid: 155904e1-a963-496d-9b22-6e95ed0ebd47
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

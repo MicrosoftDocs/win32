@@ -2,7 +2,7 @@
 title: Tree View Messages
 description: Tree View Messages
 ms.assetid: d4da7b94-98c3-443f-94c9-480448768e6e
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

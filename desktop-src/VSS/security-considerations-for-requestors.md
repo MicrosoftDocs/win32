@@ -2,7 +2,7 @@
 description: The VSS infrastructure requires VSS requesters, such as backup applications, to be able to function both as COM clients and as a server.
 ms.assetid: b01145c6-76ba-4a81-bca6-59c4ca488dac
 title: Security Considerations for Requesters
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -42,7 +42,7 @@ Requesters can explicitly do the following:
 
     Note that internal COM callbacks implemented by VSS are secured by default.
 
-    To allow all processes COM access to a requester, you can pass a **NULL** security descriptor as the first parameter of [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity). (Note that **CoInitializeSecurity** must be called at most once for the entire process. Please see the COM documentation or MSDN for more information on **CoInitializeSecurity** calls.)
+    To allow all processes COM access to a requester, you can pass a **NULL** security descriptor as the first parameter of [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity). (Note that **CoInitializeSecurity** must be called at most once for the entire process.)
 
     The following code example shows how a requester should call [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) in Windows 8 and Windows Server 2012 and later, in order to be compatible with VSS for remote file shares (RVSS):
 
@@ -56,7 +56,7 @@ Requesters can explicitly do the following:
             RPC_C_AUTHN_LEVEL_PKT_PRIVACY, //  DWORD                        dwAuthnLevel,
             RPC_C_IMP_LEVEL_IMPERSONATE,   //  DWORD                        dwImpLevel,
             NULL,                          //  void                        *pAuthList,
-            EOAC_STATIC,                   //  DWORD                        dwCapabilities,
+            EOAC_STATIC_CLOAKING,          //  DWORD                        dwCapabilities,
             NULL                           //  void                        *pReserved3
             );
     ```
@@ -65,7 +65,7 @@ Requesters can explicitly do the following:
 
     -   Set the authentication level to at least **RPC\_C\_AUTHN\_LEVEL\_PKT\_INTEGRITY**. For better security, consider using **RPC\_C\_AUTHN\_LEVEL\_PKT\_PRIVACY**.
     -   Set the impersonation level to **RPC\_C\_IMP\_LEVEL\_IMPERSONATE**.
-    -   Set the cloaking security capabilities to **EOAC\_STATIC**. For more information about cloaking security, see [Cloaking](../com/cloaking.md).
+    -   Set the cloaking security capabilities to **EOAC\_STATIC\_CLOAKING**. For more information about cloaking security, see [Cloaking](../com/cloaking.md).
 
     The following code example shows how a requester should call [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity) in Windows 7 and Windows Server 2008 R2 and earlier (or in Windows 8 and Windows Server 2012 and later, if RVSS compatibility is not needed):
 

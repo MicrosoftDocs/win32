@@ -2,7 +2,7 @@
 description: The following topics demonstrate the use of the volume management functions.
 ms.assetid: 2fefe12f-6dd3-4ca3-8c3a-1521d8fb2fef
 title: Using Volume Management
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

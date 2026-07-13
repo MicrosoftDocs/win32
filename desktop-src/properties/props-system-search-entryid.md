@@ -2,7 +2,7 @@
 description: The entry ID for an item within a given catalog in the Windows Search Index.
 ms.assetid: 9162e92b-b738-4462-b346-68410f088e95
 title: System.Search.EntryID
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

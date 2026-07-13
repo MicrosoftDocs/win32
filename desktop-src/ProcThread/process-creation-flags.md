@@ -4,7 +4,7 @@ ms.assetid: fd3384ad-8635-4ea1-9054-0572ef86b86d
 title: Process Creation Flags (WinBase.h)
 ms.topic: reference
 ms.custom: snippet-project
-ms.date: 07/27/2020
+ms.date: 07/14/2025
 ---
 
 # Process Creation Flags

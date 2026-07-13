@@ -2,7 +2,7 @@
 description: In short, texture wrapping changes the basic way that Direct3D rasterizes textured polygons using the texture coordinates specified for each vertex.
 ms.assetid: 00683d3f-3e3c-4ee4-9aec-a0d7fd9c8941
 title: Texture Wrapping (Direct3D 9)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

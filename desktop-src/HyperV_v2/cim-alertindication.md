@@ -345,7 +345,7 @@ Access type: Read-only
 Qualifiers: [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("**CIM\_AlertIndication**.**Message**", "**CIM\_AlertIndication**.**MessageArguments**")
 </dt> </dl>
 
-The unique ID of the message format, withing the scope of the organization specified in **OwningEntity**.
+The unique ID of the message format, within the scope of the organization specified in **OwningEntity**.
 
 </dd> <dt>
 

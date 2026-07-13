@@ -2,7 +2,7 @@
 title: Semantic differences between multipoint sockets and regular sockets
 description: Differences between c\_root multipoint sockets and regular point-to-point sockets.
 ms.assetid: fbadfde8-44dc-41ac-bd93-1a22c76ca321
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

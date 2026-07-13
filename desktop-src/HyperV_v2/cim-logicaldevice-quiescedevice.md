@@ -15,8 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# QuiesceDevice method of the CIM\_LogicalDevice class
-
+# QuiesceDevice method of the CIM\_LogicalDevice class (Hyper-V)
 The **QuiesceDevice** method has been deprecated in lieu of the more general **RequestStateChange** method that directly overlaps with the functionality provided by this method.
 
 ## Syntax

@@ -1,7 +1,7 @@
 ---
 description: Demonstrates how to write a handler used to display a file preview inside the Windows Explorer preview pane or other preview handler hosts.
 title: Recipe Preview Handler Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ms.assetid: 2C926922-48C0-46f5-8928-67007C6FF957
 api_name: 

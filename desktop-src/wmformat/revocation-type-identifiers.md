@@ -8,7 +8,7 @@ keywords:
 - DRM (digital rights management),revocation type identifiers
 - DRM Client Extended APIs,revocation type identifiers
 - Client Extended APIs,revocation type identifiers
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

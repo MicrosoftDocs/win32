@@ -2,7 +2,7 @@
 description: The horizontal size of the image, in pixels.
 ms.assetid: ce14b6eb-d50e-460b-93b6-b4e21824e5cf
 title: System.Image.HorizontalSize
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

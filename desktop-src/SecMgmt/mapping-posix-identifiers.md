@@ -2,7 +2,7 @@
 description: The Posix subsystem must be able to translate any security identifier (SID) it encounters into a 32-bit value, called a Posix ID.
 ms.assetid: cd6c89ef-c3f1-47fe-8183-320b5d24b0dd
 title: Mapping Posix Identifiers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

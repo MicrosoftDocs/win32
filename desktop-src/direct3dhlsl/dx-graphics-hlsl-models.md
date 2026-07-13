@@ -2,7 +2,7 @@
 title: Shader Models vs Shader Profiles
 description: Shader Models vs Shader Profiles
 ms.assetid: 6224f05e-20b1-42ea-96fb-63dd0edb720e
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

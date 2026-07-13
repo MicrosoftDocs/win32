@@ -47,7 +47,3 @@ Creates an [**ID2D1RectangleGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1fac
 
 [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory)
 </dt> </dl>
-
-�
-
-�

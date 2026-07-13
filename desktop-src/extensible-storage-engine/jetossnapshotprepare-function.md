@@ -69,7 +69,7 @@ This function returns the [JET_ERR](./jet-err.md) datatype with one of the follo
 |--------------------|--------------------|
 | <p>JET_errSuccess</p> | <p>The operation completed successfully.</p> | 
 | <p>JET_errInvalidParameter</p> | <p>The snapshot ID pointer is NULL or the <em>grbit</em> parameter is invalid.</p> | 
-| <p>JET_errOSSnapshotInvalidSequence</p> | <p>A snapshot session is already in progress and the operation is not allowed to have more then one snapshot session at any given time.</p> | 
+| <p>JET_errOSSnapshotInvalidSequence</p> | <p>A snapshot session is already in progress and the operation is not allowed to have more than one snapshot session at any given time.</p> | 
 
 
 

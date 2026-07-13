@@ -3,7 +3,7 @@ description: The processor performance control policy constants indicate the pro
 ms.assetid: 928ba485-f767-47df-8b57-7630c68068a7
 title: Processor Performance Control Policy Constants (WinNT.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Processor Performance Control Policy Constants

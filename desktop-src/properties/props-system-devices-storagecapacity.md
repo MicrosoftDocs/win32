@@ -2,7 +2,7 @@
 description: Total storage capacity of the device.
 ms.assetid: 204cf253-be35-4213-ab84-45a952beffd1
 title: System.Devices.StorageCapacity
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

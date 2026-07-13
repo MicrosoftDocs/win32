@@ -5,7 +5,7 @@ ms.assetid: 7c6cdf86-196d-41b3-ae45-9728b8092c30
 keywords:
 - transfer job BITS , status
 - transfer job BITS , state
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

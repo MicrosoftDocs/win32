@@ -3,7 +3,7 @@ description: Describes the Common Information Model (CIM) date and time format u
 ms.assetid: be239bf8-88a3-47bc-ae4f-49a5195e7a7d
 ms.tgt_platform: multiple
 title: Date and Time Format
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

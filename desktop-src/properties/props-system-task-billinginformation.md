@@ -2,7 +2,7 @@
 description: System.Task.BillingInformation
 ms.assetid: 6ede2f67-d4ae-44d8-b299-9eca63f6cbf3
 title: System.Task.BillingInformation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

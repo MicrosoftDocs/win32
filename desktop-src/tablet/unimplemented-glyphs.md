@@ -2,7 +2,7 @@
 description: The following is a list of gesture glyphs that Microsoft plans to support in the future as part of the Microsoft gesture recognizer.
 ms.assetid: 4d504140-ff48-4a07-9bf7-a36913e44426
 title: Unimplemented Glyphs
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

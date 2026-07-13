@@ -103,10 +103,7 @@ For a sample program that uses this function, see [How To: Print Using the GDI P
 </dt> <dt>
 
 [**StartDocPrinter**](startdocprinter.md)
-</dt> <dt>
-
-[**StartPagePrinter**](startpageprinter.md)
-</dt> <dt>
+</dt>  <dt>
 
 [**WritePrinter**](writeprinter.md)
 </dt> </dl>

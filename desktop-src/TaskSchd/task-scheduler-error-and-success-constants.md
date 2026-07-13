@@ -1,5 +1,5 @@
 ---
-title: Task Scheduler Error and Success Constants (WinError.h)
+title: Task Scheduler error and success constants (WinError.h)
 description: If an error occurs, the Task Scheduler APIs can return one of the following error codes as an HRESULT value.
 ms.assetid: 54278bbd-7dca-438e-a771-5fcb08c4aa68
 keywords:
@@ -54,10 +54,10 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.custom: snippet-project
-ms.date: 05/31/2018
+ms.date: 10/29/2024
 ---
 
-# Task Scheduler Error and Success Constants
+# Task Scheduler error and success constants
 
 If an error occurs, the Task Scheduler APIs can return one of the following error codes as an **HRESULT** value.
 
@@ -83,567 +83,323 @@ The constants that begin with SCHED\_S\_ are success constants, and the constant
   }
 ```
 
-Example from [C/C++ Code Example: Retrieving Task Status](c-c-code-example-retrieving-task-status.md).
+Example from [C/C++ code example: retrieving task status](c-c-code-example-retrieving-task-status.md).
 
-> [!Note]  
+> [!NOTE] 
 > Some Task Scheduler APIs can return system and network error codes (64 for example). You can check the definition of these types of error codes by using the **net helpmsg** command in the command prompt window. For example, the command **net helpmsg 64** returns the message: The specified network name is no longer available.
 
- 
+For more info about events and error messages, see [Events and Errors Message Center](https://www.microsoft.com/technet/support/ee/ee_advanced.aspx).
 
-For more information about events and error messages, see [Events and Errors Message Center](https://www.microsoft.com/technet/support/ee/ee_advanced.aspx).
+**SCHED_E_SERVICE_NOT_LOCALSYSTEM**
 
-<dl> <dt>
+ The Task Scheduler service must be configured to run in the System account to function properly. Individual tasks may be configured to run in other accounts.
 
-<span id="SCHED_S_TASK_READY"></span><span id="sched_s_task_ready"></span>**SCHED\_S\_TASK\_READY**
-</dt> <dd> <dl> <dt>
+`#define SCHED_E_SERVICE_NOT_LOCALSYSTEM  6200L`
 
-0x00041300
-</dt> <dt>
+**SCHED_S_TASK_READY**
 
+ The task is ready to run at its next scheduled time.
 
+`#define SCHED_S_TASK_READY               _HRESULT_TYPEDEF_(0x00041300L)`
 
-The task is ready to run at its next scheduled time.
 
+**SCHED_S_TASK_RUNNING**
 
-</dt> </dl> </dd> <dt>
+ The task is currently running.
 
-<span id="SCHED_S_TASK_RUNNING"></span><span id="sched_s_task_running"></span>**SCHED\_S\_TASK\_RUNNING**
-</dt> <dd> <dl> <dt>
+`#define SCHED_S_TASK_RUNNING             _HRESULT_TYPEDEF_(0x00041301L)`
 
-0x00041301
-</dt> <dt>
 
+**SCHED_S_TASK_DISABLED**
 
+ The task will not run at the scheduled times because it has been disabled.
 
-The task is currently running.
+`#define SCHED_S_TASK_DISABLED            _HRESULT_TYPEDEF_(0x00041302L)`
 
 
-</dt> </dl> </dd> <dt>
+**SCHED_S_TASK_HAS_NOT_RUN**
 
-<span id="SCHED_S_TASK_DISABLED"></span><span id="sched_s_task_disabled"></span>**SCHED\_S\_TASK\_DISABLED**
-</dt> <dd> <dl> <dt>
+ The task has not yet run.
 
-0x00041302
-</dt> <dt>
+`#define SCHED_S_TASK_HAS_NOT_RUN         _HRESULT_TYPEDEF_(0x00041303L)`
 
 
+**SCHED_S_TASK_NO_MORE_RUNS**
 
-The task will not run at the scheduled times because it has been disabled.
+ There are no more runs scheduled for this task.
 
+`#define SCHED_S_TASK_NO_MORE_RUNS        _HRESULT_TYPEDEF_(0x00041304L)`
 
-</dt> </dl> </dd> <dt>
 
-<span id="SCHED_S_TASK_HAS_NOT_RUN"></span><span id="sched_s_task_has_not_run"></span>**SCHED\_S\_TASK\_HAS\_NOT\_RUN**
-</dt> <dd> <dl> <dt>
+**SCHED_S_TASK_NOT_SCHEDULED**
 
-0x00041303
-</dt> <dt>
+ One or more of the properties that are needed to run this task on a schedule have not been set.
 
+`#define SCHED_S_TASK_NOT_SCHEDULED       _HRESULT_TYPEDEF_(0x00041305L)`
 
 
-The task has not yet run.
+**SCHED_S_TASK_TERMINATED**
 
+ The last run of the task was terminated by the user.
 
-</dt> </dl> </dd> <dt>
+`#define SCHED_S_TASK_TERMINATED          _HRESULT_TYPEDEF_(0x00041306L)`
 
-<span id="SCHED_S_TASK_NO_MORE_RUNS"></span><span id="sched_s_task_no_more_runs"></span>**SCHED\_S\_TASK\_NO\_MORE\_RUNS**
-</dt> <dd> <dl> <dt>
 
-0x00041304
-</dt> <dt>
+**SCHED_S_TASK_NO_VALID_TRIGGERS**
 
+ Either the task has no triggers or the existing triggers are disabled or not set.
 
+`#define SCHED_S_TASK_NO_VALID_TRIGGERS   _HRESULT_TYPEDEF_(0x00041307L)`
 
-There are no more runs scheduled for this task.
 
+**SCHED_S_EVENT_TRIGGER**
 
-</dt> </dl> </dd> <dt>
+ Event triggers don't have set run times.
 
-<span id="SCHED_S_TASK_NOT_SCHEDULED"></span><span id="sched_s_task_not_scheduled"></span>**SCHED\_S\_TASK\_NOT\_SCHEDULED**
-</dt> <dd> <dl> <dt>
+`#define SCHED_S_EVENT_TRIGGER            _HRESULT_TYPEDEF_(0x00041308L)`
 
-0x00041305
-</dt> <dt>
 
+**SCHED_E_TRIGGER_NOT_FOUND**
 
+ Trigger not found.
 
-One or more of the properties that are needed to run this task on a schedule have not been set.
+`#define SCHED_E_TRIGGER_NOT_FOUND        _HRESULT_TYPEDEF_(0x80041309L)`
 
 
-</dt> </dl> </dd> <dt>
+**SCHED_E_TASK_NOT_READY**
 
-<span id="SCHED_S_TASK_TERMINATED"></span><span id="sched_s_task_terminated"></span>**SCHED\_S\_TASK\_TERMINATED**
-</dt> <dd> <dl> <dt>
+ One or more of the properties that are needed to run this task have not been set.
 
-0x00041306
-</dt> <dt>
+`#define SCHED_E_TASK_NOT_READY           _HRESULT_TYPEDEF_(0x8004130AL)`
 
 
+**SCHED_E_TASK_NOT_RUNNING**
 
-The last run of the task was terminated by the user.
+ There is no running instance of the task.
 
+`#define SCHED_E_TASK_NOT_RUNNING         _HRESULT_TYPEDEF_(0x8004130BL)`
 
-</dt> </dl> </dd> <dt>
 
-<span id="SCHED_S_TASK_NO_VALID_TRIGGERS"></span><span id="sched_s_task_no_valid_triggers"></span>**SCHED\_S\_TASK\_NO\_VALID\_TRIGGERS**
-</dt> <dd> <dl> <dt>
+**SCHED_E_SERVICE_NOT_INSTALLED**
 
-0x00041307
-</dt> <dt>
+ The Task Scheduler Service is not installed on this computer.
 
+`#define SCHED_E_SERVICE_NOT_INSTALLED    _HRESULT_TYPEDEF_(0x8004130CL)`
 
 
-Either the task has no triggers or the existing triggers are disabled or not set.
+**SCHED_E_CANNOT_OPEN_TASK**
 
+ The task object could not be opened.
 
-</dt> </dl> </dd> <dt>
+`#define SCHED_E_CANNOT_OPEN_TASK         _HRESULT_TYPEDEF_(0x8004130DL)`
 
-<span id="SCHED_S_EVENT_TRIGGER"></span><span id="sched_s_event_trigger"></span>**SCHED\_S\_EVENT\_TRIGGER**
-</dt> <dd> <dl> <dt>
 
-0x00041308
-</dt> <dt>
+**SCHED_E_INVALID_TASK**
 
+ The object is either an invalid task object or is not a task object.
 
+`#define SCHED_E_INVALID_TASK             _HRESULT_TYPEDEF_(0x8004130EL)`
 
-Event triggers do not have set run times.
 
+**SCHED_E_ACCOUNT_INFORMATION_NOT_SET**
 
-</dt> </dl> </dd> <dt>
+ No account information could be found in the Task Scheduler security database for the task indicated.
 
-<span id="SCHED_E_TRIGGER_NOT_FOUND"></span><span id="sched_e_trigger_not_found"></span>**SCHED\_E\_TRIGGER\_NOT\_FOUND**
-</dt> <dd> <dl> <dt>
+`#define SCHED_E_ACCOUNT_INFORMATION_NOT_SET _HRESULT_TYPEDEF_(0x8004130FL)`
 
-0x80041309
-</dt> <dt>
 
+**SCHED_E_ACCOUNT_NAME_NOT_FOUND**
 
+ Unable to establish existence of the account specified.
 
-A task's trigger is not found.
+`#define SCHED_E_ACCOUNT_NAME_NOT_FOUND   _HRESULT_TYPEDEF_(0x80041310L)`
 
 
-</dt> </dl> </dd> <dt>
+**SCHED_E_ACCOUNT_DBASE_CORRUPT**
 
-<span id="SCHED_E_TASK_NOT_READY"></span><span id="sched_e_task_not_ready"></span>**SCHED\_E\_TASK\_NOT\_READY**
-</dt> <dd> <dl> <dt>
+ Corruption was detected in the Task Scheduler security database; the database has been reset.
 
-0x8004130A
-</dt> <dt>
+`#define SCHED_E_ACCOUNT_DBASE_CORRUPT    _HRESULT_TYPEDEF_(0x80041311L)`
 
 
+**SCHED_E_NO_SECURITY_SERVICES**
 
-One or more of the properties required to run this task have not been set.
+ Task Scheduler security services are available only on Windows NT.
 
+`#define SCHED_E_NO_SECURITY_SERVICES     _HRESULT_TYPEDEF_(0x80041312L)`
 
-</dt> </dl> </dd> <dt>
 
-<span id="SCHED_E_TASK_NOT_RUNNING"></span><span id="sched_e_task_not_running"></span>**SCHED\_E\_TASK\_NOT\_RUNNING**
-</dt> <dd> <dl> <dt>
+**SCHED_E_UNKNOWN_OBJECT_VERSION**
 
-0x8004130B
-</dt> <dt>
+ The task object version is either unsupported or invalid.
 
+`#define SCHED_E_UNKNOWN_OBJECT_VERSION   _HRESULT_TYPEDEF_(0x80041313L)`
 
 
-There is no running instance of the task.
+**SCHED_E_UNSUPPORTED_ACCOUNT_OPTION**
 
+ The task has been configured with an unsupported combination of account settings and run time options.
 
-</dt> </dl> </dd> <dt>
+`#define SCHED_E_UNSUPPORTED_ACCOUNT_OPTION _HRESULT_TYPEDEF_(0x80041314L)`
 
-<span id="SCHED_E_SERVICE_NOT_INSTALLED"></span><span id="sched_e_service_not_installed"></span>**SCHED\_E\_SERVICE\_NOT\_INSTALLED**
-</dt> <dd> <dl> <dt>
 
-0x8004130C
-</dt> <dt>
+**SCHED_E_SERVICE_NOT_RUNNING**
 
+ The Task Scheduler Service is not running.
 
+`#define SCHED_E_SERVICE_NOT_RUNNING      _HRESULT_TYPEDEF_(0x80041315L)`
 
-The Task Scheduler service is not installed on this computer.
 
+**SCHED_E_UNEXPECTEDNODE**
 
-</dt> </dl> </dd> <dt>
+ The task XML contains an unexpected node.
 
-<span id="SCHED_E_CANNOT_OPEN_TASK"></span><span id="sched_e_cannot_open_task"></span>**SCHED\_E\_CANNOT\_OPEN\_TASK**
-</dt> <dd> <dl> <dt>
+`#define SCHED_E_UNEXPECTEDNODE           _HRESULT_TYPEDEF_(0x80041316L)`
 
-0x8004130D
-</dt> <dt>
 
+**SCHED_E_NAMESPACE**
 
+ The task XML contains an element or attribute from an unexpected namespace.
 
-The task object could not be opened.
+`#define SCHED_E_NAMESPACE                _HRESULT_TYPEDEF_(0x80041317L)`
 
 
-</dt> </dl> </dd> <dt>
+**SCHED_E_INVALIDVALUE**
 
-<span id="SCHED_E_INVALID_TASK"></span><span id="sched_e_invalid_task"></span>**SCHED\_E\_INVALID\_TASK**
-</dt> <dd> <dl> <dt>
+ The task XML contains a value which is incorrectly formatted or out of range.
 
-0x8004130E
-</dt> <dt>
+`#define SCHED_E_INVALIDVALUE             _HRESULT_TYPEDEF_(0x80041318L)`
 
 
+**SCHED_E_MISSINGNODE**
 
-The object is either an invalid task object or is not a task object.
+ The task XML is missing a required element or attribute.
 
+`#define SCHED_E_MISSINGNODE              _HRESULT_TYPEDEF_(0x80041319L)`
 
-</dt> </dl> </dd> <dt>
 
-<span id="SCHED_E_ACCOUNT_INFORMATION_NOT_SET"></span><span id="sched_e_account_information_not_set"></span>**SCHED\_E\_ACCOUNT\_INFORMATION\_NOT\_SET**
-</dt> <dd> <dl> <dt>
+**SCHED_E_MALFORMEDXML**
 
-0x8004130F
-</dt> <dt>
+ The task XML is malformed.
 
+`#define SCHED_E_MALFORMEDXML             _HRESULT_TYPEDEF_(0x8004131AL)`
 
 
-No account information could be found in the Task Scheduler security database for the task indicated.
+**SCHED_S_SOME_TRIGGERS_FAILED**
 
+ The task is registered, but not all specified triggers will start the task, check task scheduler event log for detailed information.
 
-</dt> </dl> </dd> <dt>
+`#define SCHED_S_SOME_TRIGGERS_FAILED     _HRESULT_TYPEDEF_(0x0004131BL)`
 
-<span id="SCHED_E_ACCOUNT_NAME_NOT_FOUND"></span><span id="sched_e_account_name_not_found"></span>**SCHED\_E\_ACCOUNT\_NAME\_NOT\_FOUND**
-</dt> <dd> <dl> <dt>
 
-0x80041310
-</dt> <dt>
+**SCHED_S_BATCH_LOGON_PROBLEM**
 
+ The task is registered, but may fail to start. Batch logon privilege needs to be enabled for the task principal.
 
+`#define SCHED_S_BATCH_LOGON_PROBLEM      _HRESULT_TYPEDEF_(0x0004131CL)`
 
-Unable to establish existence of the account specified.
 
+**SCHED_E_TOO_MANY_NODES**
 
-</dt> </dl> </dd> <dt>
+ The task XML contains too many nodes of the same type.
 
-<span id="SCHED_E_ACCOUNT_DBASE_CORRUPT"></span><span id="sched_e_account_dbase_corrupt"></span>**SCHED\_E\_ACCOUNT\_DBASE\_CORRUPT**
-</dt> <dd> <dl> <dt>
+`#define SCHED_E_TOO_MANY_NODES           _HRESULT_TYPEDEF_(0x8004131DL)`
 
-0x80041311
-</dt> <dt>
 
+**SCHED_E_PAST_END_BOUNDARY**
 
+ The task cannot be started after the trigger's end boundary.
 
-Corruption was detected in the Task Scheduler security database; the database has been reset.
+`#define SCHED_E_PAST_END_BOUNDARY        _HRESULT_TYPEDEF_(0x8004131EL)`
 
 
-</dt> </dl> </dd> <dt>
+**SCHED_E_ALREADY_RUNNING**
 
-<span id="SCHED_E_NO_SECURITY_SERVICES"></span><span id="sched_e_no_security_services"></span>**SCHED\_E\_NO\_SECURITY\_SERVICES**
-</dt> <dd> <dl> <dt>
+ An instance of this task is already running.
 
-0x80041312
-</dt> <dt>
+`#define SCHED_E_ALREADY_RUNNING          _HRESULT_TYPEDEF_(0x8004131FL)`
 
 
+**SCHED_E_USER_NOT_LOGGED_ON**
 
-Task Scheduler security services are available only on Windows NT.
+ The task will not run because the user is not logged on.
 
+`#define SCHED_E_USER_NOT_LOGGED_ON       _HRESULT_TYPEDEF_(0x80041320L)`
 
-</dt> </dl> </dd> <dt>
 
-<span id="SCHED_E_UNKNOWN_OBJECT_VERSION"></span><span id="sched_e_unknown_object_version"></span>**SCHED\_E\_UNKNOWN\_OBJECT\_VERSION**
-</dt> <dd> <dl> <dt>
+**SCHED_E_INVALID_TASK_HASH**
 
-0x80041313
-</dt> <dt>
+ The task image is corrupt or has been tampered with.
 
+`#define SCHED_E_INVALID_TASK_HASH        _HRESULT_TYPEDEF_(0x80041321L)`
 
 
-The task object version is either unsupported or invalid.
+**SCHED_E_SERVICE_NOT_AVAILABLE**
 
+ The Task Scheduler service is not available.
 
-</dt> </dl> </dd> <dt>
+`#define SCHED_E_SERVICE_NOT_AVAILABLE    _HRESULT_TYPEDEF_(0x80041322L)`
 
-<span id="SCHED_E_UNSUPPORTED_ACCOUNT_OPTION"></span><span id="sched_e_unsupported_account_option"></span>**SCHED\_E\_UNSUPPORTED\_ACCOUNT\_OPTION**
-</dt> <dd> <dl> <dt>
 
-0x80041314
-</dt> <dt>
+**SCHED_E_SERVICE_TOO_BUSY**
 
+ The Task Scheduler service is too busy to handle your request. Please try again later.
 
+`#define SCHED_E_SERVICE_TOO_BUSY         _HRESULT_TYPEDEF_(0x80041323L)`
 
-The task has been configured with an unsupported combination of account settings and run time options.
 
+**SCHED_E_TASK_ATTEMPTED**
 
-</dt> </dl> </dd> <dt>
+ The Task Scheduler service attempted to run the task, but the task did not run due to one of the constraints in the task definition.
 
-<span id="SCHED_E_SERVICE_NOT_RUNNING"></span><span id="sched_e_service_not_running"></span>**SCHED\_E\_SERVICE\_NOT\_RUNNING**
-</dt> <dd> <dl> <dt>
+`#define SCHED_E_TASK_ATTEMPTED           _HRESULT_TYPEDEF_(0x80041324L)`
 
-0x80041315
-</dt> <dt>
 
+**SCHED_S_TASK_QUEUED**
 
+ The Task Scheduler service has asked the task to run.
 
-The Task Scheduler Service is not running.
+`#define SCHED_S_TASK_QUEUED              _HRESULT_TYPEDEF_(0x00041325L)`
 
 
-</dt> </dl> </dd> <dt>
+**SCHED_E_TASK_DISABLED**
 
-<span id="SCHED_E_UNEXPECTEDNODE"></span><span id="sched_e_unexpectednode"></span>**SCHED\_E\_UNEXPECTEDNODE**
-</dt> <dd> <dl> <dt>
+ The task is disabled.
 
-0x80041316
-</dt> <dt>
+`#define SCHED_E_TASK_DISABLED            _HRESULT_TYPEDEF_(0x80041326L)`
 
 
+**SCHED_E_TASK_NOT_V1_COMPAT**
 
-The task XML contains an unexpected node.
+ The task has properties that are not compatible with previous versions of Windows.
 
+`#define SCHED_E_TASK_NOT_V1_COMPAT       _HRESULT_TYPEDEF_(0x80041327L)`
 
-</dt> </dl> </dd> <dt>
 
-<span id="SCHED_E_NAMESPACE"></span><span id="sched_e_namespace"></span>**SCHED\_E\_NAMESPACE**
-</dt> <dd> <dl> <dt>
+**SCHED_E_START_ON_DEMAND**
 
-0x80041317
-</dt> <dt>
+ The task settings do not allow the task to start on demand.
 
+`#define SCHED_E_START_ON_DEMAND          _HRESULT_TYPEDEF_(0x80041328L)`
 
 
-The task XML contains an element or attribute from an unexpected namespace.
+**SCHED_E_TASK_NOT_UBPM_COMPAT**
 
+ The combination of properties that task is using is not compatible with the scheduling engine.
 
-</dt> </dl> </dd> <dt>
+`#define SCHED_E_TASK_NOT_UBPM_COMPAT     _HRESULT_TYPEDEF_(0x80041329L)`
 
-<span id="SCHED_E_INVALIDVALUE"></span><span id="sched_e_invalidvalue"></span>**SCHED\_E\_INVALIDVALUE**
-</dt> <dd> <dl> <dt>
 
-0x80041318
-</dt> <dt>
+**SCHED_E_DEPRECATED_FEATURE_USED**
 
+ The task definition uses a deprecated feature.
 
-
-The task XML contains a value which is incorrectly formatted or out of range.
-
-
-</dt> </dl> </dd> <dt>
-
-<span id="SCHED_E_MISSINGNODE"></span><span id="sched_e_missingnode"></span>**SCHED\_E\_MISSINGNODE**
-</dt> <dd> <dl> <dt>
-
-0x80041319
-</dt> <dt>
-
-
-
-The task XML is missing a required element or attribute.
-
-
-</dt> </dl> </dd> <dt>
-
-<span id="SCHED_E_MALFORMEDXML"></span><span id="sched_e_malformedxml"></span>**SCHED\_E\_MALFORMEDXML**
-</dt> <dd> <dl> <dt>
-
-0x8004131A
-</dt> <dt>
-
-
-
-The task XML is malformed.
-
-
-</dt> </dl> </dd> <dt>
-
-<span id="SCHED_S_SOME_TRIGGERS_FAILED"></span><span id="sched_s_some_triggers_failed"></span>**SCHED\_S\_SOME\_TRIGGERS\_FAILED**
-</dt> <dd> <dl> <dt>
-
-0x0004131B
-</dt> <dt>
-
-
-
-The task is registered, but not all specified triggers will start the task.
-
-
-</dt> </dl> </dd> <dt>
-
-<span id="SCHED_S_BATCH_LOGON_PROBLEM"></span><span id="sched_s_batch_logon_problem"></span>**SCHED\_S\_BATCH\_LOGON\_PROBLEM**
-</dt> <dd> <dl> <dt>
-
-0x0004131C
-</dt> <dt>
-
-
-
-The task is registered, but may fail to start. Batch logon privilege needs to be enabled for the task principal.
-
-
-</dt> </dl> </dd> <dt>
-
-<span id="SCHED_E_TOO_MANY_NODES"></span><span id="sched_e_too_many_nodes"></span>**SCHED\_E\_TOO\_MANY\_NODES**
-</dt> <dd> <dl> <dt>
-
-0x8004131D
-</dt> <dt>
-
-
-
-The task XML contains too many nodes of the same type.
-
-
-</dt> </dl> </dd> <dt>
-
-<span id="SCHED_E_PAST_END_BOUNDARY"></span><span id="sched_e_past_end_boundary"></span>**SCHED\_E\_PAST\_END\_BOUNDARY**
-</dt> <dd> <dl> <dt>
-
-0x8004131E
-</dt> <dt>
-
-
-
-The task cannot be started after the trigger end boundary.
-
-
-</dt> </dl> </dd> <dt>
-
-<span id="SCHED_E_ALREADY_RUNNING"></span><span id="sched_e_already_running"></span>**SCHED\_E\_ALREADY\_RUNNING**
-</dt> <dd> <dl> <dt>
-
-0x8004131F
-</dt> <dt>
-
-
-
-An instance of this task is already running.
-
-
-</dt> </dl> </dd> <dt>
-
-<span id="SCHED_E_USER_NOT_LOGGED_ON"></span><span id="sched_e_user_not_logged_on"></span>**SCHED\_E\_USER\_NOT\_LOGGED\_ON**
-</dt> <dd> <dl> <dt>
-
-0x80041320
-</dt> <dt>
-
-
-
-The task will not run because the user is not logged on.
-
-
-</dt> </dl> </dd> <dt>
-
-<span id="SCHED_E_INVALID_TASK_HASH"></span><span id="sched_e_invalid_task_hash"></span>**SCHED\_E\_INVALID\_TASK\_HASH**
-</dt> <dd> <dl> <dt>
-
-0x80041321
-</dt> <dt>
-
-
-
-The task image is corrupt or has been tampered with.
-
-
-</dt> </dl> </dd> <dt>
-
-<span id="SCHED_E_SERVICE_NOT_AVAILABLE"></span><span id="sched_e_service_not_available"></span>**SCHED\_E\_SERVICE\_NOT\_AVAILABLE**
-</dt> <dd> <dl> <dt>
-
-0x80041322
-</dt> <dt>
-
-
-
-The Task Scheduler service is not available.
-
-
-</dt> </dl> </dd> <dt>
-
-<span id="SCHED_E_SERVICE_TOO_BUSY"></span><span id="sched_e_service_too_busy"></span>**SCHED\_E\_SERVICE\_TOO\_BUSY**
-</dt> <dd> <dl> <dt>
-
-0x80041323
-</dt> <dt>
-
-
-
-The Task Scheduler service is too busy to handle your request. Please try again later.
-
-
-</dt> </dl> </dd> <dt>
-
-<span id="SCHED_E_TASK_ATTEMPTED"></span><span id="sched_e_task_attempted"></span>**SCHED\_E\_TASK\_ATTEMPTED**
-</dt> <dd> <dl> <dt>
-
-0x80041324
-</dt> <dt>
-
-
-
-The Task Scheduler service attempted to run the task, but the task did not run due to one of the constraints in the task definition.
-
-
-</dt> </dl> </dd> <dt>
-
-<span id="SCHED_S_TASK_QUEUED"></span><span id="sched_s_task_queued"></span>**SCHED\_S\_TASK\_QUEUED**
-</dt> <dd> <dl> <dt>
-
-0x00041325
-</dt> <dt>
-
-
-
-The Task Scheduler service has asked the task to run.
-
-
-</dt> </dl> </dd> <dt>
-
-<span id="SCHED_E_TASK_DISABLED"></span><span id="sched_e_task_disabled"></span>**SCHED\_E\_TASK\_DISABLED**
-</dt> <dd> <dl> <dt>
-
-0x80041326
-</dt> <dt>
-
-
-
-The task is disabled.
-
-
-</dt> </dl> </dd> <dt>
-
-<span id="SCHED_E_TASK_NOT_V1_COMPAT"></span><span id="sched_e_task_not_v1_compat"></span>**SCHED\_E\_TASK\_NOT\_V1\_COMPAT**
-</dt> <dd> <dl> <dt>
-
-0x80041327
-</dt> <dt>
-
-
-
-The task has properties that are not compatible with earlier versions of Windows.
-
-
-</dt> </dl> </dd> <dt>
-
-<span id="SCHED_E_START_ON_DEMAND"></span><span id="sched_e_start_on_demand"></span>**SCHED\_E\_START\_ON\_DEMAND**
-</dt> <dd> <dl> <dt>
-
-0x80041328
-</dt> <dt>
-
-
-
-The task settings do not allow the task to start on demand.
-
-
-</dt> </dl> </dd> </dl>
+`#define SCHED_E_DEPRECATED_FEATURE_USED  _HRESULT_TYPEDEF_(0x80041330L)`
 
 ## Requirements
 
-
-
 | Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
-| Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
-| Header<br/>                   | <dl> <dt>WinError.h</dt> </dl> |
-
-
-
- 
-
- 
-
-
-
-
-
+| Minimum supported client | Windows Vista \[desktop apps only\] |
+| Minimum supported server | Windows Server 2008 \[desktop apps only\] |
+| Header | WinError.h |

@@ -3,7 +3,7 @@ description: WMI uses object paths in the reference properties of association cl
 ms.assetid: 07fee6f8-810e-4dec-8f0f-787756ee3beb
 ms.tgt_platform: multiple
 title: WMI Object Path Requirements
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

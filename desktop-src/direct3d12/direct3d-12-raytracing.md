@@ -2,7 +2,7 @@
 title: Direct3D 12 Raytracing
 description: This article provides a listing of the documentation that is available for Direct3D raytracing.
 ms.assetid: 
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

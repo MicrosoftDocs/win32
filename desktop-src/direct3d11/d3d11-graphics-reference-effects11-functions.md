@@ -2,7 +2,7 @@
 title: Effects 11 Functions
 description: This section contains information about the Effects 11 functions.
 ms.assetid: 957ba54c-133a-4350-8532-79b66eba95bb
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

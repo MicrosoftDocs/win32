@@ -3,7 +3,7 @@ title: Enumerations in Active Directory Domain Services
 description: The following enumerations are used for Microsoft Active Directory Domain Services.
 ms.assetid: eafa3285-4474-4077-a6ad-b37f8211e7e6
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

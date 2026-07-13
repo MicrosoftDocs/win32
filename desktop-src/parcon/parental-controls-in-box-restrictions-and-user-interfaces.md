@@ -2,7 +2,7 @@
 description: Several restrictions implementations are provided.
 ms.assetid: a00d9a3a-d052-492c-b9e7-3ecb1455a392
 title: Parental Controls In-Box Restrictions & User Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: 180010d2-240e-433d-b306-341b9b1e0b57
 keywords:
 - Video for Windows (VFW),video capture structures
 - VFW (Video for Windows),video capture structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

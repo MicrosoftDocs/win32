@@ -137,12 +137,8 @@ Turns on or turns off negotiation of certificate. Default is disabled.
 
 **certhash=0102030405060708090A0B0C0D0E0F1011121314**
 
-**appid={00112233-4455-6677-8899-AABBCCDDEEFF}**
+**appid={00001111-aaaa-2222-bbbb-3333cccc4444}**
 
  
 
  
-
-
-
-

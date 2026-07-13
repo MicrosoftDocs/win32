@@ -2,7 +2,7 @@
 title: Property item descriptions
 description: The following list gives descriptions of the property items supported by Windows GDI+.
 ms.assetid: fc95aa3f-8381-430d-8cbf-6d23816a738d
-ms.topic: article
+ms.topic: reference
 ms.date: 02/22/2022
 ---
 
@@ -1987,7 +1987,7 @@ Type of light source.
 
 Default: 0
 
-0 - unknown <br/>1 - Daylight <br/>2 - Flourescent <br/>3 - Tungsten <br/>17 - Standard Light A <br/>18 - Standard Light B <br/>19 - Standard Light C <br/>20 - D55 <br/>21 - D65 <br/>22 - D75 <br/>23 to 254 - reserved <br/>255 - other
+0 - unknown <br/>1 - Daylight <br/>2 - Fluorescent <br/>3 - Tungsten <br/>17 - Standard Light A <br/>18 - Standard Light B <br/>19 - Standard Light C <br/>20 - D55 <br/>21 - D65 <br/>22 - D75 <br/>23 to 254 - reserved <br/>255 - other
 
 ## PropertyTagExifFlash
 

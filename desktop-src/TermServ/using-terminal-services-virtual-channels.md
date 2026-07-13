@@ -3,7 +3,7 @@ title: Using Remote Desktop Services virtual channels
 description: To implement a virtual channel, you provide the server and client modules of a virtual channel's application.
 ms.assetid: 3b378071-ebd6-47b0-8a9c-3e671505011a
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

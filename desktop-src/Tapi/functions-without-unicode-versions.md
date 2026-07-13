@@ -2,7 +2,7 @@
 description: The following functions are provided only in a generic version without an &\#0034;A&\#0034; or &\#0034;W&\#0034; suffix.
 ms.assetid: 0e51b7a6-53a0-4e92-9bed-f8e4f8ffd5a1
 title: Functions without Unicode Versions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -49,7 +49,7 @@ The following functions are provided only in a generic version without an "A" or
 | <a href="/windows/desktop/api/Tapi/nf-tapi-linesecurecall"><strong>lineSecureCall</strong></a> |  | 
 | <a href="/windows/desktop/api/Tapi/nf-tapi-linesenduseruserinfo"><strong>lineSendUserUserInfo</strong></a> | The memory pointed to by <em>lpsUserUserInfo</em> is presumed to contain binary data for end-to-end transfer. The application must provide data in a form ready for transmission. | 
 | <a href="/windows/desktop/api/Tapi/nf-tapi-linesetagentactivity"><strong>lineSetAgentActivity</strong></a> |  | 
-| <a href="/windows/desktop/api/Tapi/nf-tapi-linesetagentgroup"><strong>lineSetAgentGroup</strong></a> | <blockquote>[!Note]<br />Group names are ignored.</blockquote><br /> | 
+| [**lineSetAgentGroup**](/windows/desktop/api/Tapi/nf-tapi-linesetagentgroup) |  **Note:** Group names are ignored.<br> | 
 | <a href="/windows/desktop/api/Tapi/nf-tapi-linesetagentstate"><strong>lineSetAgentState</strong></a> |  | 
 | <a href="/windows/desktop/api/Tapi/nf-tapi-linesetappspecific"><strong>lineSetAppSpecific</strong></a> |  | 
 | <a href="/windows/desktop/api/Tapi/nf-tapi-linesetcalldata"><strong>lineSetCallData</strong></a> | The memory pointed to by <em>lpCallData</em> is in a format specified by the application or a group of cooperating applications. The format of the data is beyond the scope of TAPI and is not converted by TAPI. | 

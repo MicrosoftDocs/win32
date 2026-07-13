@@ -2,7 +2,7 @@
 title: VML VGLength
 description: VML VGLength
 ms.assetid: 00be8167-bafa-406c-9058-f0a395ce7ae8
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

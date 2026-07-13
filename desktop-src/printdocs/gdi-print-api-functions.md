@@ -2,7 +2,7 @@
 description: GDI Print API Functions
 ms.assetid: cf3f4a61-8858-4c91-a778-d2a65998ef70
 title: GDI Print API Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

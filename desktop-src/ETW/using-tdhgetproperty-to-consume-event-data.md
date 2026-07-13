@@ -2,7 +2,7 @@
 description: The following example shows how to consume event data using the TdhGetProperty function.
 ms.assetid: 16b36718-087f-4be9-9ca2-fc083358017b
 title: Using TdhGetProperty to Consume Event Data
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -200,7 +200,7 @@ private:
         // Put the property name onto the stack.
         PushPdd(szPropertyName);
 
-        // Call TdhGetProperty using a the current PROPERTY_DATA_DESCRIPTOR
+        // Call TdhGetProperty using the current PROPERTY_DATA_DESCRIPTOR
         // stack (should have just one item on the stack right now). If
         // successful, put the property data into m_propertyBuffer.
         ULONG status = GetProperty();

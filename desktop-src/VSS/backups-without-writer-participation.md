@@ -2,7 +2,7 @@
 description: When a VSS backup operation is conducted without the involvement of a writer, the shadow copy creation can still occur.
 ms.assetid: 2058e894-bde5-4690-a7aa-849d2e9cdc71
 title: Backups without Writer Participation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

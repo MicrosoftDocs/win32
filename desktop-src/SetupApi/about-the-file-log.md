@@ -2,7 +2,7 @@
 description: A file log records information about the files copied to a system during an installation. It can be used for emergency repair or as a diagnostic tool.
 ms.assetid: 7fee40cb-54db-41e0-ba42-6bc62d0ab3bd
 title: About the File Log
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

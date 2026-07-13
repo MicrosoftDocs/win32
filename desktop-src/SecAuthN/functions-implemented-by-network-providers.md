@@ -2,7 +2,7 @@
 description: The following functions are implemented by a network provider DLL to communicate with the Multiple Provider Router (MPR).
 ms.assetid: ebdaec3d-6335-4bdf-b150-91e538068f2b
 title: Functions Implemented by Network Providers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

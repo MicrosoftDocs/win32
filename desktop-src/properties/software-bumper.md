@@ -2,7 +2,7 @@
 description: Software
 ms.assetid: 53f71cab-9d5a-431b-92f8-a0172856a94f
 title: Software
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

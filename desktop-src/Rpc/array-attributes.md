@@ -2,7 +2,7 @@
 title: Array Attributes
 description: There is a close relationship between arrays and pointers in the C language.
 ms.assetid: 0d65c993-63e4-42ae-ae24-6c19a71386a1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

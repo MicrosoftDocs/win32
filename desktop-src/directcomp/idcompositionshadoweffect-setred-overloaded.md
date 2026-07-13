@@ -46,6 +46,3 @@ Sets the red value for the color of the shadow.
 [**IDCompositionShadowEffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositionshadoweffect)
 </dt> </dl>
 
-�
-
-�

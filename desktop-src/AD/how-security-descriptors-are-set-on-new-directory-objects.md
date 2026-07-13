@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - objects AD ,how security descriptors are set on new directory objects
 - security descriptors AD ,how to set on new directory objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - router ADSI
 - ADSI ADSI ,service providers,router
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

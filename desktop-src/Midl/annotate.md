@@ -19,9 +19,9 @@ ms.date: 05/31/2018
 The **\[annotate\]** attribute allows you to specify a SAL annotation string for the specified method, parameter, or structure field.
 
 ``` syntax
-[ annotation(â€œstringâ€0,  [, function-attribute-list] ] function-declarator ;
+[ annotation("string",  [, function-attribute-list] ] function-declarator ;
 [ [function-attribute-list] ] type-specifier [pointer-declarator] function-name(
-    [ annotation(â€œstringâ€) [ , parameter-attribute-list ] ] type-specifier [declarator]
+    [ annotation("string") [ , parameter-attribute-list ] ] type-specifier [declarator]
     , ...);
 ```
 

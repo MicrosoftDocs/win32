@@ -34,7 +34,7 @@ Represents information about a source code file.
 ## Members
 
 **fileName**  
-A COM string comtaining the filepath of the associated source file.
+A COM string containing the filepath of the associated source file.
 
 **checksumByteCount**  
 The number of bytes in the checksum. When checkSumAlgorithm is equal to CHECKSUMALGORITHM::md5, checkSumByteCount is 16. When checkSumAlgorithm is equal to CHECKSUMALGORITHM::sha1, checkSumByteCount is 20.

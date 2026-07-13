@@ -44,7 +44,7 @@ topic_type:
 
 # SSF Constants
 
-Used by the [**SHGetSetSettings**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetsettings) function to specify which members of its [**SHELLSTATE**](/windows/win32/api/shlobj_core/ns-shlobj_core-shellstatea) structure should be set or retrived.
+Used by the [**SHGetSetSettings**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetsetsettings) function to specify which members of its [**SHELLSTATE**](/windows/win32/api/shlobj_core/ns-shlobj_core-shellstatea) structure should be set or retrieved.
 
 <dl> <dt>
 

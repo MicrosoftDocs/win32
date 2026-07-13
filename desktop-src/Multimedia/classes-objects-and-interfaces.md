@@ -2,7 +2,7 @@
 title: Classes, Objects, and Interfaces
 description: Classes, Objects, and Interfaces
 ms.assetid: 52e48402-32d5-46b0-8eb9-46432e59e36a
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,19 +2,20 @@
 description: Used to connect to networks which do not broadcast their network name or SSID.
 ms.assetid: 564324ad-6723-4676-ab5c-0b5d2957d201
 title: Non-Broadcast profile sample
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: sample
+ms.date: 05/14/2025
 ---
 
 # Non-Broadcast profile sample
 
-The non-broadcast profile sample can be used to connect to networks which do not broadcast their network name or SSID.
+The non-broadcast profile sample can be used to connect to networks which do not broadcast their network name (SSID).
 
-This sample profile is configured to use Wi-Fi Protected Access security running in Personal mode (WPA-Personal). Temporal Key Integrity Protocol (TKIP) is used for encryption. Profiles that use other security and cipher types can also be configured as non-broadcast profiles.
+This sample profile is configured to use Wi-Fi Protected Access 2 security running in Personal mode (WPA2-Personal). Advanced Encryption Standard (AES) is used for encryption. Profiles that use other security and cipher types can also be configured as non-broadcast profiles.
 
-**Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** The [**name**](wlan-profileschema-wlanprofile-element.md#name) child of the [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) element is ignored. The name of the profile, as stored in the profile store, is derived from the [**name**](wlan-profileschema-ssid-ssidconfig-element.md#name) child of the [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) element.
+> [!NOTE]
+> We don't recommended configuring Wi-Fi networks to not broadcast its SSID, as there are minimal security benefits (it's trivial to find the network name) and clients may have issues connecting and roaming. 
 
-``` syntax
+```xml
 <?xml version="1.0" encoding="US-ASCII"?>
 <WLANProfile xmlns="https://www.microsoft.com/networking/WLAN/profile/v1">
     <name>SampleNonBroadcast</name>
@@ -29,8 +30,8 @@ This sample profile is configured to use Wi-Fi Protected Access security running
     <MSM>
         <security>
             <authEncryption>
-                <authentication>WPAPSK</authentication>
-                <encryption>TKIP</encryption>
+                <authentication>WPA2PSK</authentication>
+                <encryption>AES</encryption>
                 <useOneX>false</useOneX>
             </authEncryption>
         </security>
@@ -42,7 +43,7 @@ The shared key has been omitted from this sample profile. If you try to use this
 
 The following snippet shows a [**sharedKey**](wlan-profileschema-sharedkey-security-element.md) element that contains an unencrypted key. You must replace the comment `<!-- insert key here -->` with the actual unencrypted key before using this snippet in a profile.
 
-``` syntax
+```xml
 <sharedKey>
     <keyType>passPhrase</keyType>
     <protected>false</protected>
@@ -52,14 +53,5 @@ The following snippet shows a [**sharedKey**](wlan-profileschema-sharedkey-secur
 
 ## Related topics
 
-<dl> <dt>
-
-[Wireless profile samples](wireless-profile-samples.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
+* [Wireless profile samples](wireless-profile-samples.md)
+* [WLAN_profile schema](wlan-profileschema-schema.md)

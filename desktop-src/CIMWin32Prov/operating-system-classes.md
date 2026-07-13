@@ -3,7 +3,7 @@ description: The Operating System category groups classes that represent operati
 ms.assetid: D0756D8C-A3D3-4C75-96A3-8C7F05300B39
 ms.tgt_platform: multiple
 title: Operating System Classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The following structures are used by the setup functions.
 ms.assetid: 837F1864-CE2F-4A9A-A7D9-18EB8622541E
 title: Structures (Setup API)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

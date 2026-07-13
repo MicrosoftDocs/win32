@@ -3,7 +3,7 @@ description: Defines terms that are used in WIC.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: b066757a-8841-4976-b20b-989ebba5eb3b
 title: Windows Imaging Component Glossary
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 
@@ -59,7 +59,7 @@ Mapping colors from the source color context to the destination color context in
 
 </dd> <dt>
 
-**CYMK color model**
+**CMYK color model**
 </dt> <dd>
 
 Multidimensional color space consisting of the cyan, magenta, yellow, and black intensities that make up a given color.

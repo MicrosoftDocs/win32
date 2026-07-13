@@ -2,7 +2,7 @@
 description: Tessellation (Direct3D 9)
 ms.assetid: ae39b0e1-d2ae-449e-89db-0a2b24171531
 title: Tessellation (Direct3D 9)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

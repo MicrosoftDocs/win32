@@ -2,7 +2,7 @@
 description: Learn about implementation considerations for stream routing. APIs implement stream routing by handling stream switching to a new default audio endpoint.
 ms.assetid: ecda0b5b-6583-43b4-a9b4-f12a95f09452
 title: Stream Routing Implementation Considerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

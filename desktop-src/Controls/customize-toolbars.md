@@ -2,7 +2,7 @@
 title: How to Customize Toolbars
 description: Most Windows-based applications use toolbar controls to provide users with convenient access to the program functionality.
 ms.assetid: 0CE2988E-D887-433B-BFB2-5F3442E8E1B7
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -141,7 +141,7 @@ If the user attempts to drag a button without also pressing the SHIFT key, the t
 
 ### Saving and Restoring Toolbars
 
-In the process of customizing a toolbar, your application might need to save information so that you can restore the toolbar to its original state. To initiate saving or restoring a toolbar state, send the toolbar control a [**TB\_SAVERESTORE**](tb-saverestore.md) message with the *lParam* set to **TRUE**. The *lParam* value of this message specifies whether you are requesting a save or a restore operation. After the message is sent, there are two ways to handle the save/restore operation:
+In the process of customizing a toolbar, your application might need to save information so that you can restore the toolbar to its original state. To initiate saving or restoring a toolbar state, send the toolbar control a [**TB\_SAVERESTORE**](tb-saverestore.md) message with the *wParam* set to **TRUE**. The *wParam* value of this message specifies whether you are requesting a save or a restore operation. After the message is sent, there are two ways to handle the save/restore operation:
 
 -   With common controls [version 4.72](common-control-versions.md) and earlier, you must implement a [TBN\_GETBUTTONINFO](tbn-getbuttoninfo.md) handler. The toolbar control sends this notification code to request information about each button as it is restored.
 -   Version 5.80 includes a save/restore option. At the beginning of the process, and as each button is saved or restored, your application will receive a [TBN\_SAVE](tbn-save.md) or [TBN\_RESTORE](tbn-restore.md) notification code. To use this option, you must implement notification handlers to provide the bitmap and state information that is needed to successfully save or restore the toolbar state.

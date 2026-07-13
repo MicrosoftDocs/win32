@@ -2,7 +2,7 @@
 description: Learn about Windows Installer concepts that begin with the letter F, such as feature and full UI.
 ms.assetid: b6623bd8-bc83-4d84-bc82-eb4051e10260
 title: F (Windows Installer)
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Implementation Issues for ADSI Providers ADSI
 - providers ADSI , implementing
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

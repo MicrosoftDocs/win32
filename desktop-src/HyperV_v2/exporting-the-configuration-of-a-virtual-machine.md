@@ -2,7 +2,7 @@
 description: The following C# and Visual Basic Scripting Edition (VBScript) samples demonstrate exporting the configuration of a virtual machine.
 ms.assetid: 0B503B85-7EC0-409A-B610-E1C7FFBF3192
 title: Exporting the configuration of a virtual machine
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

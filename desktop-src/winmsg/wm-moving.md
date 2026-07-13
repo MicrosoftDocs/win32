@@ -3,7 +3,7 @@ description: Sent to a window that the user is moving. By processing this messag
 ms.assetid: f56a36c1-dbaa-438a-9e52-d12697a9dac9
 title: WM_MOVING message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_MOVING message

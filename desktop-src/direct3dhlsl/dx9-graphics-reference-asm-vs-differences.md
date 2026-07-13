@@ -2,7 +2,7 @@
 title: Vertex Shader Differences
 description: Vertex Shader Differences
 ms.assetid: 94fe4033-94c0-4561-b0fd-1fb85d8f796b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - kbArticle

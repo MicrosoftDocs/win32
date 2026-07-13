@@ -2,7 +2,7 @@
 title: Using IMAPI
 description: The following topics demonstrate the use of the image mastering API.
 ms.assetid: c42043db-612f-488f-a6ae-a8caea8ac42b
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

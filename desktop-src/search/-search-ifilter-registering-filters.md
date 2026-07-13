@@ -1,12 +1,12 @@
 ---
 description: Your filter handler must be registered. You can also locate an existing filter handler for a given file name extension either through the registry or by using the ILoadFilter interface.
 ms.assetid: 3478b948-73c7-4533-974a-d9b5186a651b
-title: Registering Filter Handlers
-ms.topic: article
+title: Registering filter handlers
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
-# Registering Filter Handlers
+# Registering filter handlers
 
 Your filter handler must be registered. You can also locate an existing filter handler for a given file name extension either through the registry or by using the [**ILoadFilter**](/windows/desktop/api/filtereg/nn-filtereg-iloadfilter) interface.
 
@@ -22,7 +22,7 @@ This topic is organized as follows:
 > [!NOTE]  
 > A filter handler is an implementation of the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface.
 
-## Registering Filters Handlers for Windows Search
+## Registering filters handlers for Windows Search
 
 The GUIDs you need for registering a new protocol handler or to find an existing protocol handler are listed in the following table.
 
@@ -75,7 +75,7 @@ When you register a new filter handler, we recommend that you use a descriptive 
                       ThreadingModel = Both
 ```
 
-### Obsolete Approach for Registering Filters Handlers
+### Obsolete approach for registering filters handlers
 
 This approach is not recommended for use. Filters can be registered for a CLSID that represents a Component Object Model (COM) class, and/or for a file name extension. You could register both filters if you need to register a filter handler for a class, and a different filter handler for a file name extension within the class. Note that a filter handler registered for a file name extension takes precedence over a filter handler for a CLSID.
 
@@ -114,13 +114,13 @@ HKEY_LOCAL_MACHINE
                   ThreadingModel = Both
 ```
 
-## Replacing Existing Filter Handlers
+## Replacing existing filter handlers
 
 We recommend that you do not replace the built-in filter handlers for common file types such as .txt, .doc, .html, .url, and so forth, because doing so can have undesired effects on other system components. Indexing email message bodies depends on the .txt, .html, and .rtf filter handlers, for example.
 
 If a new filter handler for a file type is being installed as a replacement for an existing filter registration, the installer should save the current registration and restore it if the new filter handler is uninstalled. There is no mechanism to chain filters. Hence, the new filter handler is responsible for replicating any necessary functionality of the old filter.
 
-## Finding a Filter Handler for a Given File Extension
+## Finding a filter handler for a given file extension
 
 You can use the [**ILoadFilter**](/windows/desktop/api/filtereg/nn-filtereg-iloadfilter) interface to find a filter handler for a given file name extension. The following example registry entries illustrate how to do so for HTML files. In this example, the filter handler for HTML documents is nlhtml.dll. The values are of type REG\_SZ.
 
@@ -179,7 +179,7 @@ You can use the [**ILoadFilter**](/windows/desktop/api/filtereg/nn-filtereg-iloa
                     nlhtml.dll
 ```
 
-## Additional Resources
+## Additional resources
 
 - The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), demonstrates how to create an [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) base class for implementing the **IFilter** interface.
 - For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).

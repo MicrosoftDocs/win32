@@ -2,7 +2,7 @@
 description: Application writers can make minor source code changes to add transacted file and registry operations using the Kernel Transaction Manager (KTM).
 ms.assetid: 356c66dc-5ddd-472f-835c-2e2cb019bcfd
 title: Working With Transactions
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

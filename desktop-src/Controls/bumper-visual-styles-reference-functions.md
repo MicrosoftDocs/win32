@@ -2,7 +2,7 @@
 title: Functions (Visual Styles Reference)
 description: Functions (Visual Styles Reference)
 ms.assetid: deaeb9a2-0bee-400d-9090-9529a1f3bdc2
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: COM+ provides a simple programming model for using its automatic services.
 ms.assetid: 2d616b56-4b6a-4c3b-bbd8-d5ca03c4911f
 title: COM+ Services Primer
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

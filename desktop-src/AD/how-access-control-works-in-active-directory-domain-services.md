@@ -5,7 +5,7 @@ ms.assetid: 70eed84b-ada0-48e7-b448-704586e9afaa
 ms.tgt_platform: multiple
 keywords:
 - Active Directory Domain Services, security, description
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

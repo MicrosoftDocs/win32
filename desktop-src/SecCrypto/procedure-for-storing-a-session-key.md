@@ -2,7 +2,7 @@
 description: Explains the procedure used for storing a session key.
 ms.assetid: 9ab7f747-9c69-40b5-af78-163f3ba315bf
 title: Storing a Session Key
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

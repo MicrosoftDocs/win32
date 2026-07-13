@@ -3,7 +3,7 @@ description: A provider method is a method that is implemented by a Windows Mana
 ms.assetid: 9c692bc7-246b-4619-a371-cc9e0e2d5a6e
 ms.tgt_platform: multiple
 title: Calling a Provider Method
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -71,16 +71,16 @@ End If
 
 try
 { 
-    $myProcess = ([wmiclass]&quot;win32_process&quot;).create(&quot;notepad.exe&quot;, $null, $null) 
+    $myProcess = ([wmiclass]"win32_process").create("notepad.exe", $null, $null) 
 }
 catch 
 {
-    &quot;Notepad could not be started due to the following error:&quot; 
+    "Notepad could not be started due to the following error:"
     $error[0]
     return 
 }
 #else
-&quot;Notepad was started with a process ID of &quot; + $myProcess.ProcessID
+"Notepad was started with a process ID of " + $myProcess.ProcessID
 ```
 
 

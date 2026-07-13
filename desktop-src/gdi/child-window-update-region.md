@@ -2,7 +2,7 @@
 description: A child window is a window with the WS\_CHILD or WS\_CHILDWINDOW style.
 ms.assetid: d8110492-c1b9-4b49-9b34-587adb7c65c9
 title: Child Window Update Region
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

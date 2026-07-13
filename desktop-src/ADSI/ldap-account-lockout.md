@@ -7,7 +7,7 @@ keywords:
 - Account Lockout (LDAP Provider) ADSI
 - Account Lockout ADSI , LDAP provider
 - LDAP provider ADSI , user management examples, Account Lockout
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

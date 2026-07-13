@@ -23,7 +23,7 @@ keywords:
 - text services,backups
 - TSF-enabled applications,backups
 - backups
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

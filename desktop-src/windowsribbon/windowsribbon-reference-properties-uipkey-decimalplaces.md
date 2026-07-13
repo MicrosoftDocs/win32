@@ -2,7 +2,7 @@
 title: UI_PKEY_DecimalPlaces
 description: Identifies the UI\_PKEY\_DecimalPlaces property.
 ms.assetid: 06bb7c23-0da7-4145-86e5-c1490f2e5439
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

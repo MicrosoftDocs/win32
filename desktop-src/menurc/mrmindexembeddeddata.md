@@ -1,6 +1,6 @@
 ---
 title: MrmIndexEmbeddedData function (MrmResourceIndexer.h)
-description: Indexes a single embeddeddata resource belonging to a UWP app.
+description: Adds an embeded data resource to a Resource Indexer.
 ms.assetid: 4DA37CF9-43B6-44EE-8A10-DBD4510D7885
 keywords:
 - MrmIndexEmbeddedData function Menus and Other Resources
@@ -18,9 +18,11 @@ ms.date: 05/31/2018
 
 # MrmIndexEmbeddedData function
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+Adds an embeded data resource (BLOB) to a Resource Indexer. Note that it is the resource name that is
+indexed, not the data. In other words, this function does not search the data looking for things to index.
 
-Indexes a single **embeddeddata** resource belonging to a UWP app. Takes an explicit (but optional) list of resource qualifiers. For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
+Embedded data resources are more efficient than file resources, but are less useful during app development. 
+See [Files resources in MRM](mrmfiles.md) for more info. 
 
 ## Syntax
 
@@ -46,7 +48,8 @@ HRESULT HRESULT MrmIndexEmbeddedData(
 
 Type: **[**MrmResourceIndexerHandle**](mrmresourceindexerhandle.md)**
 
-A handle identifying the resource indexer that will index the resource file.
+A handle identifying the resource indexer to add the resource to. This handle is returned via a call to 
+[**MrmCreateResourceIndexer**](mrmcreateresourceindexer.md) or one of the related **MrmCreateResourceIndexer...*** functions.
 
 </dd> <dt>
 
@@ -55,7 +58,7 @@ A handle identifying the resource indexer that will index the resource file.
 
 Type: **PCWSTR**
 
-The resource URI to assign to the resource. The path will be used as the resource map subtree name for this resource when you later generate a PRI file from this resource indexer.
+The URI (name) to assign to the resource. See [Resource names in MRM](mrmresourcenames.md) for more info.
 
 </dd> <dt>
 
@@ -64,7 +67,7 @@ The resource URI to assign to the resource. The path will be used as the resourc
 
 Type: **const BYTE\***
 
-A pointer to the data of the resource that you want to index.
+A pointer to the data you want to add to the indexer.
 
 </dd> <dt>
 
@@ -82,7 +85,9 @@ The size of the data pointed to by *embeddedData*.
 
 Type: **PCWSTR**
 
-An optional list of resource qualifiers, for example L"language-en-US\_scale-100\_contrast-standard". An empty string or **nullptr** indicates a neutral resource. Resource qualifiers are *not* inferred from *resourceUri*.
+An optional list of resource qualifiers for the resource, for example "language-en-US". Passing an empty 
+string or **NULL** indicates a neutral resource that is applicable in any resource context. See 
+[Qualifiers in MRM](mrmqualifiers.md) for more info.
 
 </dd> </dl>
 
@@ -90,13 +95,16 @@ An optional list of resource qualifiers, for example L"language-en-US\_scale-100
 
 Type: **HRESULT**
 
-S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED() or FAILED() macros (defined in winerror.h) to determine success or failure.
+S\_OK if the function succeeded, otherwise some other value. Use the **SUCCEEDED** or **FAILED** macros 
+(defined in winerror.h) to determine success or failure.
 
 ## Remarks
 
-If you want to specify any resource qualifiers, then pass them in the *qualifiers* parameter. Resource qualifiers are *not* inferred from *resourceUri*.
+This function adds binary data (such as an image or audio file) directly to the indexer, so that it will
+be embedded in the output PRI file. This is in contrast to file-based resources, which only adds the 
+filename to the PRI file and requires the file to be installed alongside the app.
 
-The file name segment of *resourceUri* is used as the resource name.
+See [Files in MRM](mrmfiles.md) for more info on the pros and cons of using embedded data vs. file resources. 
 
 ## Requirements
 
@@ -114,10 +122,32 @@ The file name segment of *resourceUri* is used as the resource name.
 
 ## See also
 
-<dl> <dt>
+<dt><dt>
+
+[**MrmIndexFile**](mrmindexfile.md)
+</dt></dl>
+
+<dt><dt>
+
+[**MrmIndexFileAutoQualifiers**](mrmindexfileautoqualifiers.md)
+</dt></dl>
+
+<dt><dt>
+
+[**MrmIndexResourceContainerAutoQualifiers**](mrmindexresourcecontainerautoqualifiers.md)
+</dt></dl>
+
+<dt><dt>
+
+[**MrmIndexString**](mrmindexstring.md)
+</dt></dl>
+
+<dt><dt>
+
+[File resources in MRM](mrmfiles.md)
+</dt></dl>
+
+<dt><dt>
 
 [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems)
-</dt> </dl>
-
- 
-
+</dt></dl>

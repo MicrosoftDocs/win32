@@ -10,7 +10,7 @@ keywords:
 - creating Windows Media Device Manager applications,metadata
 - writing files to devices,metadata
 - metadata
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

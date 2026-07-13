@@ -2,14 +2,14 @@
 title: DNS WMI Provider Samples—Managing a DNS Server
 description: DNS WMI Provider Samples—Managing a DNS Server
 ms.assetid: 7846fbaf-cc15-4cd0-aa3f-796617380bb6
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
 # DNS WMI Provider Samples—Managing a DNS Server
 
 > [!NOTE]
-> This article contains references to the term slave, a term that Microsoft no longer uses. When the term is removed from the software, we’ll remove it from this article.
+> This article contains references to the term slave&mdash;a term that Microsoft doesn't condone, and has stopped using in new products and documentation. When the term is removed from the software, we’ll remove it from this article.
 
 This section demonstrates scripting tasks associated with managing a DNS Server. The links below jump to subroutines in the script file:
 

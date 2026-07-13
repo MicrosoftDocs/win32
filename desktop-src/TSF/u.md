@@ -3,7 +3,7 @@ title: U (Text Services Framework)
 description: Glossary page
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 'e2782eb3-85fb-45bf-baa1-8415e35d751c'
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

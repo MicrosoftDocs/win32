@@ -1,7 +1,7 @@
 ---
 description: 'This section on application guidelines for file associations and default programs is organized as follows:'
 title: Guidelines for File Associations and Default Programs
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 551FA018-49F2-47bd-B750-F6C42BCB46D1
 api_name: 

@@ -7,7 +7,7 @@ keywords:
 - setting rights to types of objects AD
 - objects AD , setting rights to
 - Active Directory, using, security, setting rights to types of objects
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

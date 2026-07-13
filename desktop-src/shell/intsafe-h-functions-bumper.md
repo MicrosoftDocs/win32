@@ -1,7 +1,7 @@
 ---
 description: Intsafe.h Functions
 title: Intsafe.h Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 97f7c2f8-0d1e-4043-9ddf-8187a144429d
 api_name: 

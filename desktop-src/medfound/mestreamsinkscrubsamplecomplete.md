@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Raised by a stream sink when it completes a scrubbing request.
 
-Scrubbing occurs when the playback rate is zero and the presentation clock is started with a specified srubbing time. If a media sink supports scrubbing, every stream on the sink raises this event whenever the [**IMFClockStateSink::OnClockStart**](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart) method is called while the playback rate is zero.
+Scrubbing occurs when the playback rate is zero and the presentation clock is started with a specified scrubbing time. If a media sink supports scrubbing, every stream on the sink raises this event whenever the [**IMFClockStateSink::OnClockStart**](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart) method is called while the playback rate is zero.
 
 If the stream renders data while scrubbing, it sends the event as soon as the data is rendered. If the stream does not render data, it sends the event immediately after [**OnClockStart**](/windows/desktop/api/mfidl/nf-mfidl-imfclockstatesink-onclockstart) is called.
 

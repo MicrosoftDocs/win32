@@ -2,7 +2,7 @@
 description: LOCALE\_ICURRDIGITS
 ms.assetid: 8c2b0bb7-296e-40cb-90a5-da131b365c1b
 title: LOCALE_ICURRDIGITS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

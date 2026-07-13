@@ -2,7 +2,7 @@
 description: Applications may encounter problems when run on multiprocessor systems due to assumptions they make which are valid only on single-processor systems.
 ms.assetid: b20a1d2c-b795-4ed8-ac33-539a347020c8
 title: Synchronization and Multiprocessor Issues
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -68,7 +68,7 @@ BOOL FetchComputedValue(int *piResult)
 
 This race condition above can be repaired by using the **volatile** keyword or the [**InterlockedExchange**](/windows/win32/api/winnt/nf-winnt-interlockedexchange) function to ensure that the value of `iValue` is updated for all processors before the value of `fValueHasBeenComputed` is set to **TRUE**.
 
-Starting Visual Studio 2005, if compiled in **/volatile:ms** mode, the compiler uses acquire semantics for read operations on **volatile** variables and release semantics for write operations on **volatile** variables (when supported by the CPU). Therefore, you can correct the example as follows:
+Starting with Visual Studio 2005, if compiled in **/volatile:ms** mode, the compiler uses acquire semantics for read operations on **volatile** variables and release semantics for write operations on **volatile** variables (when supported by the CPU). Therefore, you can correct the example as follows:
 
 ``` syntax
 volatile int iValue;

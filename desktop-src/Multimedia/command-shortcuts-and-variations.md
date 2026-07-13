@@ -2,7 +2,7 @@
 title: Command Shortcuts and Variations
 description: Command Shortcuts and Variations
 ms.assetid: 4f854c78-435c-4a10-8938-645ad605fff3
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

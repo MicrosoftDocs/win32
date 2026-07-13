@@ -2,7 +2,7 @@
 description: The following code fragment illustrates modification of a conferences time span. The default time span is thirty minutes. In this fragment, the time span is set to one year.
 ms.assetid: 7f05d62e-2bcc-4d98-8a71-97ed20a12af2
 title: Modifying a Known Conference
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

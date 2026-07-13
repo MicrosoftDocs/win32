@@ -4,7 +4,7 @@ description: Use the tile effect to repeat the specified region of the image.
 ms.assetid: C7505DBF-5F79-4407-84C4-634EA7EC06B7
 keywords:
 - tile effect
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

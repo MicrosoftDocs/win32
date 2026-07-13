@@ -4,7 +4,7 @@ description: Playing a Compact Disc Track
 ms.assetid: 05f68361-7fec-4c45-b434-a8b654f2d0c3
 keywords:
 - mciSendCommand function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

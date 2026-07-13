@@ -2,7 +2,7 @@
 description: This topic describes how to verify that the system supports a digest method.
 ms.assetid: dd1b53cd-66b9-46b3-89ad-ee84b4690e1e
 title: Verify the System Supports a Digest Method
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -166,7 +166,7 @@ SupportsDigestAlgorithm (
 [XPS Document Errors](xps-document-errors.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
+[XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 </dt> </dl>
 
  

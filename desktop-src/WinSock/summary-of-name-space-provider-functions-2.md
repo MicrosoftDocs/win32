@@ -2,7 +2,7 @@
 description: Navigation page for Windows Sockets (Winsock) SPI namespace service provider functions.
 ms.assetid: fb48cc4e-5225-4ad9-9fcd-7a7992f01e6d
 title: Summary of Namespace Provider Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

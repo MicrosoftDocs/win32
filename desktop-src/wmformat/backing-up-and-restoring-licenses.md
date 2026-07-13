@@ -18,7 +18,7 @@ keywords:
 - DRM (digital rights management),restoring licenses
 - digital rights management (DRM),license backup and restore
 - DRM (digital rights management),license backup and restore
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

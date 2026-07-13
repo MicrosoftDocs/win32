@@ -2,7 +2,7 @@
 description: Schannel credentials are represented internally as CERT\_CONTEXT structures.
 ms.assetid: 3d2deb61-8e86-4461-8f2a-4880ca5b9d34
 title: CryptoAPI 2.0 Private Keys
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

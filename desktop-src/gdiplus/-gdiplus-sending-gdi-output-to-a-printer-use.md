@@ -2,7 +2,7 @@
 description: Using Windows GDI+ to draw on a printer is similar to using GDI+ to draw on a computer screen. To draw on a printer, obtain a device context handle for the printer and then pass that handle to a Graphics constructor.
 ms.assetid: a76cca57-6ed8-44cd-a9f6-f2692d14b68a
 title: Sending GDI+ Output to a Printer
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

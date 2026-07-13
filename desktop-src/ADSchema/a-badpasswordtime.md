@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # Bad-Password-Time attribute
 
-The last time and date that an attempt to log on to this account was made with a password that is not valid. This value is stored as a large integer that represents the number of 100-nanosecond intervals since January 1, 1601 (UTC). A value of zero means that the last time a incorrect password was used is unknown.
+The last time and date that an attempt to log on to this account was made with a password that is not valid. This value is stored as a large integer that represents the number of 100-nanosecond intervals since January 1, 1601 (UTC). A value of zero means that the last time an incorrect password was used is unknown.
 
 
 

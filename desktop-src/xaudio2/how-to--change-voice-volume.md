@@ -2,7 +2,7 @@
 description: This topic shows you how you can change the volume of a voice at an overall level, at each output channel, or between each channel of a voice and another voice in its sendlist.
 ms.assetid: 40004128-4abb-4bcd-fe76-91276be8abec
 title: 'How to: Change Voice Volume'
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

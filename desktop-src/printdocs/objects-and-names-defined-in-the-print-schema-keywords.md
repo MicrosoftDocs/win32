@@ -2,7 +2,7 @@
 description: The Print Schema Framework defines a namespace that includes the elements and XML attributes defined in the Print Schema Keywords.
 ms.assetid: 5a07ec21-dc7c-46d5-b1c2-de06f53fe6bf
 title: Objects and Names Defined in the Print Schema Keywords
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

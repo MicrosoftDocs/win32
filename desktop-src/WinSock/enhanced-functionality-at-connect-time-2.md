@@ -2,7 +2,7 @@
 description: Windows Sockets 2 offers an expanded set of operations that can occur coincident to establishing a socket connection. The service provider requirements for implementing these features are described below.
 ms.assetid: fbc7055e-ea25-4d17-8039-f0fef300353c
 title: Enhanced Functionality at Connect Time
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

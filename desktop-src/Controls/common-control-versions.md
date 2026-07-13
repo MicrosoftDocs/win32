@@ -2,7 +2,7 @@
 title: Common Control Versions
 description: This topic lists the available versions of the Common Control library (ComCtl32.dll), describes how to identify the version that your application is using, and explains how to target your application for a specific version.
 ms.assetid: 1B524A91-B433-4968-9546-8A6AFB67E89C
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -28,33 +28,12 @@ In the common controls reference documentation, many programming elements specif
 
 The following table outlines the different DLL versions and how they were distributed on supported OSes.
 
-
-
-ComCtl32.dll
-
-Version
-
-Distribution Platform
-
-5.81
-
-Microsoft Internet Explorer 5.01, Microsoft Internet Explorer 5.5, and Microsoft Internet Explorer 6
-
-5.82
-
-Windows Server 2003, Windows Vista, Windows Server 2008, and Windows 7
-
-6.0
-
-Windows Server 2003
-
-6.10
-
-Windows Vista, Windows Server 2008, and Windows 7
-
-
-
- 
+| ComCtl32.dll Version | Distribution Platform                                                                                |
+|----------------------|------------------------------------------------------------------------------------------------------|
+| 5.81                 | Microsoft Internet Explorer 5.01, Microsoft Internet Explorer 5.5, and Microsoft Internet Explorer 6 |
+| 5.82                 | Windows Server 2003, Windows Vista, Windows Server 2008, and Windows 7                               |
+| 6.0                  | Windows Server 2003                                                                                  |
+| 6.10                 | Windows Vista, Windows Server 2008, and Windows 7                                                    |
 
 ## Structure Sizes for Different Common Control Versions
 

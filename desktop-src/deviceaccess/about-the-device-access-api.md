@@ -2,8 +2,8 @@
 title: About the Device Access API
 description: The Device Access API is for C++ developers who are creating a Windows Store app to interact with specialized devices in Windows 8.
 ms.assetid: DDF115A2-A811-450A-80F7-AAFB0EEA4037
-ms.topic: article
-ms.date: 02/11/2020
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # About the Device Access API

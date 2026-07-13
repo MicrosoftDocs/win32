@@ -2,11 +2,11 @@
 title: Accessibility Best Practices
 description: Implementing the best practices described in this section helps ensure that your application is accessible to people who use assistive technology products.
 ms.assetid: ef694361-49b7-424c-a583-1eadc2519db7
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: best-practice
+ms.date: 07/14/2025
 ---
 
-# Accessibility Best Practices
+# Accessibility best practices
 
 Implementing the best practices described in this section helps ensure that your application is accessible to people who use assistive technology products. Many of these best practices focus on good UI design. Each best practice includes implementation information for controls or applications. In many cases, much of the work to meet these best practices is already included in the controls.
 

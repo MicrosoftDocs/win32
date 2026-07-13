@@ -2,7 +2,7 @@
 title: VML AspectRatio Attribute
 description: VML AspectRatio Attribute
 ms.assetid: bc209218-9259-454e-bad2-58f67e211709
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

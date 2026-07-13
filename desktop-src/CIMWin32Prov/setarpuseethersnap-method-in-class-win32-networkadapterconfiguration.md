@@ -403,10 +403,6 @@ DHCP not enabled on adapter.
 
 By default, the stack transmits packets in Digital, Intel, Xerox (DIX) Ethernet format. It always receives both formats.
 
-## Examples
-
-The [Modify ARP Queries to Use EtherSNAP](https://Gallery.TechNet.Microsoft.Com/2fe24075-fdb1-486d-8c0b-d25075fd8f21) VBScript code sample on TechNet Gallery uses **SetArpUseEtherSNAP** to configure the network adapters on a computer to use 802.3 SNAP encoding for Ethernet packets.
-
 ## Requirements
 
 

@@ -20,7 +20,7 @@ api_location:
 
 # Win32\_PnPDevice class
 
-The **Win32\_PnPDevice** association [WMI class](../wmisdk/retrieving-a-class.md) relates a device (known to Configuration Manager as a PNPEntity) and the function it performs. Its function is represented by a subclass of the logical device that describes its use. For example, a [**Win32\_Keyboard**](win32-keyboard.md) or [**Win32\_DiskDrive**](win32-diskdrive.md) instance. Both referenced objects represent the same underlying system device; changes to resource allocation on the PNPEntity side will effect the associated device.
+The **Win32\_PnPDevice** association [WMI class](../wmisdk/retrieving-a-class.md) relates a device (known to Configuration Manager as a PNPEntity) and the function it performs. Its function is represented by a subclass of the logical device that describes its use. For example, a [**Win32\_Keyboard**](win32-keyboard.md) or [**Win32\_DiskDrive**](win32-diskdrive.md) instance. Both referenced objects represent the same underlying system device; changes to resource allocation on the PNPEntity side will affect the associated device.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 

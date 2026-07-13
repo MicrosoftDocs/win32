@@ -2,7 +2,7 @@
 description: 'GDI+ supports several types of curves: ellipses, arcs, cardinal splines, and B&\#233;zier splines.'
 ms.assetid: 97a1342c-4edb-4671-b36d-b6992efad498
 title: Constructing and Drawing Curves
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

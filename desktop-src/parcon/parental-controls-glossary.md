@@ -2,7 +2,7 @@
 description: Parental Controls Glossary
 ms.assetid: a5454357-bc55-4669-ae38-599bcf9f3686
 title: Parental Controls Glossary
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

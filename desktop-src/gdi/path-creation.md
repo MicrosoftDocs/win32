@@ -2,7 +2,7 @@
 description: To create a path and select it into a DC, it is first necessary to define the points that describe it.
 ms.assetid: 3691c3ab-f634-476d-a56b-1c187cb12120
 title: Path Creation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

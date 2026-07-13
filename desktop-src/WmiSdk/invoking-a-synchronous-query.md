@@ -3,7 +3,7 @@ description: A synchronous query is a query that maintains control over the proc
 ms.assetid: 628e9a31-7b0d-4099-bfa5-56330bb4eb6b
 ms.tgt_platform: multiple
 title: Invoking a Synchronous Query
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

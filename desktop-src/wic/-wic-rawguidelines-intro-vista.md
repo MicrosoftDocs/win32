@@ -2,7 +2,7 @@
 description: RAW Image Formats in Windows Vista
 ms.assetid: e28b642c-03c8-4ecc-b5f5-e3911b8003a7
 title: RAW Image Formats in Windows Vista
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

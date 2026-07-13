@@ -2,7 +2,7 @@
 title: SSPI Architectural Overview
 description: SSPI is a software interface.
 ms.assetid: 2497afea-33dd-45ae-891b-bacf390ef338
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

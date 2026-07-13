@@ -7,7 +7,7 @@ keywords:
 - codecs,calculating bit rates for arbitrary streams
 - bit rates,calculating for arbitrary streams
 - streams,calculating bit rates for arbitrary streams
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

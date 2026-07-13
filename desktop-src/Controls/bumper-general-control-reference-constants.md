@@ -2,7 +2,7 @@
 title: Control Constants
 description: Control Constants
 ms.assetid: ecb7d65a-de24-459e-82d2-02d0b9a2a6e2
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

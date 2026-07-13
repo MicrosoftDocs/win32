@@ -9,7 +9,7 @@ keywords:
 - service providers,device parameters
 - creating service providers,device parameters
 - device parameters
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

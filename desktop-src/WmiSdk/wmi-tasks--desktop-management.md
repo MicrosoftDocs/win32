@@ -3,7 +3,7 @@ description: WMI tasks for desktop management can exert control and obtain data 
 ms.assetid: bb8356bf-de38-4925-a501-6ad47d23ea8f
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Desktop Management'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

@@ -6,7 +6,7 @@ keywords:
 - About Domain Name System DNS
 - Domain Name System DNS , about
 - Domain Name System DNS , described
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

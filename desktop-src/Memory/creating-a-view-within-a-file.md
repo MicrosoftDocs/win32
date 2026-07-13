@@ -2,7 +2,7 @@
 description: If you want to view a portion of the file that does not start at the beginning of the file, you must create a file mapping object.
 ms.assetid: e47a0e79-3000-479b-afba-dcd36210ea3d
 title: Creating a View Within a File
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

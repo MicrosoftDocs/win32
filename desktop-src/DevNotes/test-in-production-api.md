@@ -1,7 +1,7 @@
 ---
 description: These APIs provide infrastructure for component health.
 title: Test In Production (TIP) APIs
-ms.topic: article
+ms.topic: reference
 ms.date: 04/27/2023
 ---
 

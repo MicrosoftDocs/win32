@@ -2,7 +2,7 @@
 title: VML String Attribute
 description: VML String Attribute
 ms.assetid: 99609814-29c9-4349-9509-8c91f2aaeff5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

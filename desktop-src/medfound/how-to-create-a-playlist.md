@@ -2,7 +2,7 @@
 description: This topic describes how to use the Sequence Source to play a sequence of files.
 ms.assetid: 5a760492-bd52-40b8-a652-8a62646db6ae
 title: How to Create a Playlist
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -43,7 +43,7 @@ Before starting this walk-through, familiarize yourself with the following Media
 -   [Media Event Generators](media-event-generators.md)
 -   [Presentation Descriptors](presentation-descriptors.md)
 
-Also read [How to Play Media Files with Media Foundation](how-to-play-unprotected-media-files.md), because the example code shwon here expands on the code in that topic.
+Also read [How to Play Media Files with Media Foundation](how-to-play-unprotected-media-files.md), because the example code shown here expands on the code in that topic.
 
 ## Initializing Media Foundation
 

@@ -2,7 +2,7 @@
 description: ICE51 checks that a title has been provided for font resource files.
 ms.assetid: 5a57ba6e-d1fe-44ab-b72d-52b1f212c322
 title: ICE51
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This section contains the photo metadata policies for System.GPS properties.
 ms.assetid: A93FA623-79CF-4f2a-875E-96E9DBE80A34
 title: System.GPS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Constant Boolean register (HLSL PS reference)
 description: This register is a collection of bits used in static flow control instructions (for example, if bool - ps - else - ps - endif - ps).
 ms.assetid: fb4abe19-d0cf-48ac-866e-4be60cc86bd6
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

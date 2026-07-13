@@ -3,7 +3,7 @@ description: Sent to a window to retrieve a handle to the large or small icon as
 ms.assetid: d3101a9b-9658-4a21-b1f6-2920b723926c
 title: WM_GETICON message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_GETICON message

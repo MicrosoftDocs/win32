@@ -2,7 +2,7 @@
 description: Some effect constants only need to be initialized. See the basic code for setting effect variables in Direct3D 10.
 ms.assetid: 743261a8-fdd8-492e-be8a-4faeb9b6f986
 title: Set Effect State (Direct3D 10)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

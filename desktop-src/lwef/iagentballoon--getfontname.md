@@ -2,7 +2,7 @@
 title: IAgentBalloon GetFontName
 description: IAgentBalloon GetFontName
 ms.assetid: 7d057571-bb6e-4b79-bc4a-5691779ace51
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

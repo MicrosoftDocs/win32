@@ -6,7 +6,7 @@ keywords:
 - transfer job BITS , properties
 - setting job properties BITS
 - retrieving job properties BITS
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -4,7 +4,7 @@ description: The Notify Flag
 ms.assetid: ed5dbb0b-ce4d-4bda-8daa-c62cfda717d1
 keywords:
 - MCI_NOTIFY flag
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

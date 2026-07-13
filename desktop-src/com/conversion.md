@@ -4,7 +4,7 @@ description: Used by the Convert dialog box to determine the formats an applicat
 ms.assetid: ff12c4b3-9548-4135-aaf4-d8b49f9aed41
 keywords:
 - Conversion registry key COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

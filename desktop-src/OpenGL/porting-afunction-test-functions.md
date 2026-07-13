@@ -9,7 +9,7 @@ keywords:
 - OpenGL porting from IRIS GL,afunction test functions
 - afunction test functions
 - alpha test functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

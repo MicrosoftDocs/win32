@@ -9,7 +9,7 @@ keywords:
 - manipulations,rotation
 - manipulations,advanced rotation
 - rotation,advanced
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

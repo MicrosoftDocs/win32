@@ -14,7 +14,7 @@ keywords:
 - DRM (digital rights management),reading protected content
 - protecting content
 - packaging content
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

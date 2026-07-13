@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # LINE\_GENERATE message
 
-The TAPI **LINE\_GENERATE** message is sent to notify the application that the current digit or tone generation has terminated. Only one such generation request can be in progress an a given call at any time. This message is also sent when digit or tone generation is canceled.
+The TAPI **LINE\_GENERATE** message is sent to notify the application that the current digit or tone generation has terminated. Only one such generation request can be in progress in a given call at any time. This message is also sent when digit or tone generation is canceled.
 
 
 ```C++

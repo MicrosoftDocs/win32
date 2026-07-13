@@ -3,7 +3,7 @@ description: The MOF compiler accepts a floating-point value specified for a non
 ms.assetid: 5cf7d8e1-c29d-4b9f-8557-e656c5e83370
 ms.tgt_platform: multiple
 title: Compiling MOF Code with Floating-Point Values
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

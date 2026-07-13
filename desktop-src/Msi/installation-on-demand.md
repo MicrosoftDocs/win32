@@ -2,7 +2,7 @@
 description: With traditional installation technology, it is necessary to exit an application and rerun setup to perform an installation task.
 ms.assetid: 94c3d5a8-a560-4a1d-b40e-7ebc92d659f3
 title: Installation-On-Demand
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

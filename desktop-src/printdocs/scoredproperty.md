@@ -2,7 +2,7 @@
 description: Find information about the ScoredProperty element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 0552d301-5105-490f-962b-135c8c2e936b
 title: ScoredProperty
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

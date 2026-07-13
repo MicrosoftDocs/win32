@@ -34,7 +34,7 @@ Must be zero.
 *lParam* 
 </dt> <dd>
 
-**DWORD** value that contains the new mouse coordinates. The horizontal coordinate is contained in the [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) and the vertical coordinate is contained in the [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)). If you pass (DWORD)-1, the rebar control will use the position of the mouse the last time the control's thread called [**GetMessage**](/windows/desktop/api/winuser/nf-winuser-getmessage) or [**PeekMessage**](/windows/desktop/DevNotes/-peekmessage).
+**DWORD** value that contains the new mouse coordinates. The horizontal coordinate is contained in the [**LOWORD**](../winmsg/loword.md) and the vertical coordinate is contained in the [**HIWORD**](../winmsg/hiword.md). If you pass (DWORD)-1, the rebar control will use the position of the mouse the last time the control's thread called [**GetMessage**](/windows/desktop/api/winuser/nf-winuser-getmessage) or [**PeekMessage**](/windows/desktop/DevNotes/-peekmessage).
 
 </dd> </dl>
 

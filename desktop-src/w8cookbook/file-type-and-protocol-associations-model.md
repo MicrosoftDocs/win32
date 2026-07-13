@@ -2,7 +2,7 @@
 title: File type and URI associations model
 description: File type and URI associations model
 ms.assetid: 4DE7DD08-088A-4E09-B1C7-AE9033EA533D
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

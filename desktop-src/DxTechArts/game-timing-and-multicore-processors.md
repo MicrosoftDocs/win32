@@ -2,7 +2,7 @@
 title: Game Timing and Multicore Processors
 description: This article suggests a more accurate, reliable solution to obtain high-resolution CPU timings by using the Windows APIs QueryPerformanceCounter and QueryPerformanceFrequency.
 ms.assetid: 1512324d-dffa-3681-be3f-f63a3b8f11db
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

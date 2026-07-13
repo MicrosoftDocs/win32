@@ -2,7 +2,7 @@
 title: How to Create a Hot Key Control
 description: This topic demonstrates how to create a hot key control. You create a hot key control by using the CreateWindowEx function, specifying the HOTKEY\_CLASS window class.
 ms.assetid: A6723D4E-B8F6-4365-8FCD-99B73D2C0470
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -1,7 +1,7 @@
 ---
 description: This section describes how to determine which version of the Shell DLLs your application is running on and how to target your application for a specific version.
 title: Shell and Shlwapi DLL Versions
-ms.topic: article
+ms.topic: reference
 ms.date: 09/24/2020
 ms.assetid: ecfb6484-a1d6-4ace-8457-3940b111a4d2
 api_name: 

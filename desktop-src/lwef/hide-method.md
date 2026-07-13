@@ -2,7 +2,7 @@
 title: Hide Method
 description: Hide Method
 ms.assetid: c30eda78-0951-43b4-8ae1-daccbd41170d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

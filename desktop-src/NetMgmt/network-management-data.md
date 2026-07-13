@@ -2,7 +2,7 @@
 title: Network Management Data
 description: The following topics discuss the data buffers, alignment, structures, and handles used by the network management functions.
 ms.assetid: 88306477-aa7d-4128-aed3-fca07688b483
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

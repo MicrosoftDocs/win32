@@ -2,7 +2,7 @@
 description: This section contains the reference pages for the Direct3D API.
 ms.assetid: 7d4d6301-1d86-45f3-a951-99e1afe19bd7
 title: Reference for Direct3D 9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

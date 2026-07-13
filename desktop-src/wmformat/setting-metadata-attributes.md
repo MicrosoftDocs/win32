@@ -7,7 +7,7 @@ keywords:
 - Advanced Systems Format (ASF),setting metadata attributes
 - ASF (Advanced Systems Format),setting metadata attributes
 - metadata,setting attributes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

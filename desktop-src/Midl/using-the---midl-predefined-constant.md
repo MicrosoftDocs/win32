@@ -5,7 +5,7 @@ ms.assetid: ba9557f8-d398-4c87-993d-f4e545894cdd
 keywords:
 - MIDL compiler MIDL , using the _midl predefined constant
 - _midl predefined constant MIDL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -405,10 +405,6 @@ The MTU is the maximum packet size (in bytes) that a transport will transmit ove
 
 Note that an IP datagram can span multiple packets. Values larger than the default for the underlying network result in the transport using the network default MTU. Values smaller than 68 result in the transport using an MTU of 68.
 
-## Examples
-
-The [Modify the MTU for all Network Adapters](https://Gallery.TechNet.Microsoft.Com/49c26363-d46c-4288-9c8d-feb0a1982998) VBScript sample configures the maximum transmission unit for all network adapters installed in a computer.
-
 ## Requirements
 
 

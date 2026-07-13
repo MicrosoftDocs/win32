@@ -2,7 +2,7 @@
 description: Descriptions of functions to use when working with mailslots, clients and servers.
 ms.assetid: 40758d5e-8538-47d9-b8ca-8de5b053ee8b
 title: Mailslot Operations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: Sent to a child window when the user clicks the window's title bar 
 ms.assetid: 6e60725d-aa01-48bb-86a5-f17f56b97d35
 title: WM_CHILDACTIVATE message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_CHILDACTIVATE message

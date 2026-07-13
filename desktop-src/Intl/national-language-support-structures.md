@@ -2,7 +2,7 @@
 description: 'The following structures are used with NLS: CALDATETIMECPINFOCPINFOEXCURRENCYFMTNLSVERSIONINFONLSVERSIONINFOEXNUMBERFMT'
 ms.assetid: 75382149-7d4e-4b3e-929e-ee39bf666110
 title: National Language Support Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This section describes how to print text and graphics using the GDI printing functions.
 ms.assetid: ea341829-4e2a-4f24-a394-a429d36b5a0a
 title: Using the GDI Print API
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

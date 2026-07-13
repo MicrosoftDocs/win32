@@ -2,7 +2,7 @@
 description: Direct3D enables an application to increase the realism of its scenes by rendering segmented polygonal objects - especially characters - that have smoothly blended joints.
 ms.assetid: 190d5865-c45b-42ea-8a16-10a4f0bda743
 title: Geometry Blending (Direct3D 9)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

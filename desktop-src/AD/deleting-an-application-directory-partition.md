@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Deleting an Application Directory Partition AD
 - Application Directory Partitions AD , Deleting
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

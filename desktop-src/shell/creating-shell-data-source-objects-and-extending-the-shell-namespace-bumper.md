@@ -1,7 +1,7 @@
 ---
 description: Creating Shell Data Source Objects and Extending the Shell Namespace
 title: Creating Shell Data Source Objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.assetid: a8f35da7-15cf-4fa6-ac41-27101642f8e8
 api_name: 

@@ -2,7 +2,7 @@
 description: System.Sync.ItemID
 ms.assetid: bf5ea477-2d5e-4c40-917e-3ef8057efc25
 title: System.Sync.ItemID
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

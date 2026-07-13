@@ -8,7 +8,7 @@ keywords:
 - mapping ADSI syntax to LDAP syntax ADSI
 - syntax and mapping from ADSI to LDAP ADSI
 - LDAP service provider ADSI ,mapping ADSI syntax to LDAP syntax
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

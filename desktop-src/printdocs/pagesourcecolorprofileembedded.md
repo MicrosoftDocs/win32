@@ -2,7 +2,7 @@
 description: Learn about the PageSourceColorProfileEmbedded parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 38411802-2b2e-441c-b3a6-334d87b11b5d
 title: PageSourceColorProfileEmbedded
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: To display a raster image (bitmap) on the screen, you need an Image object and a Graphics object.
 ms.assetid: 8c1a26d9-b640-4f38-8276-10c4464525f2
 title: Loading and displaying bitmaps
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
 ---

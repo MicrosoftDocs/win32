@@ -5,7 +5,7 @@ ms.assetid: ecb5da81-22c8-49fe-bdf9-c9841af9d1a5
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , RemoteApp and Desktop Connection Management Service API reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

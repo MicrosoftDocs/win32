@@ -43,20 +43,20 @@ Some socket options require more explanation than these tables can convey; such 
 
 | Option                              | Windows 7 | Windows Server 2008 | Windows Vista | Windows Server 2003 | Windows XP | Windows 2000 | Windows NT4 | Windows 9x/Me |
 |-------------------------------------|-----------|---------------------|---------------|---------------------|------------|--------------|-------------|---------------|
-| RM\_ADD\_RECEIVE\_IF                | x         | x                   | x             | x                   | x          |              |             |               |
-| RM\_DEL\_RECEIVE\_IF                | x         | x                   | x             | x                   | x          |              |             |               |
-| RM\_FLUSHCACHE                      | x         | x                   | x             | x                   | x          |              |             |               |
-| RM\_HIGH\_SPEED\_INTRANET\_OPT      | x         | x                   | x             | x                   | x          |              |             |               |
-| RM\_LATEJOIN                        | x         | x                   | x             | x                   | x          |              |             |               |
-| RM\_RATE\_WINDOW\_SIZE              | x         | x                   | x             | x                   | x          |              |             |               |
-| RM\_RECEIVER\_STATISTICS            | x         | x                   | x             | x                   | x          |              |             |               |
-| RM\_SEND\_WINDOW\_ADV\_RATE         | x         | x                   | x             | x                   | x          |              |             |               |
-| RM\_SENDER\_STATISTICS              | x         | x                   | x             | x                   | x          |              |             |               |
-| RM\_SENDER\_WINDOW\_ADVANCE\_METHOD | x         | x                   | x             | x                   | x          |              |             |               |
-| RM\_SET\_MCAST\_TTL                 | x         | x                   | x             | x                   | x          |              |             |               |
-| RM\_SET\_MESSAGE\_BOUNDARY          | x         | x                   | x             | x                   | x          |              |             |               |
-| RM\_SET\_SEND\_IF                   | x         | x                   | x             | x                   | x          |              |             |               |
-| RM\_USE\_FEC                        | x         | x                   | x             | x                   | x          |              |             |               |
+| RM\_ADD\_RECEIVE\_IF                | yes         | yes                   | yes             | yes                   | yes          |              |             |               |
+| RM\_DEL\_RECEIVE\_IF                | yes         | yes                   | yes             | yes                   | yes          |              |             |               |
+| RM\_FLUSHCACHE                      | yes         | yes                   | yes             | yes                   | yes          |              |             |               |
+| RM\_HIGH\_SPEED\_INTRANET\_OPT      | yes         | yes                   | yes             | yes                   | yes          |              |             |               |
+| RM\_LATEJOIN                        | yes         | yes                   | yes             | yes                   | yes          |              |             |               |
+| RM\_RATE\_WINDOW\_SIZE              | yes         | yes                   | yes             | yes                   | yes          |              |             |               |
+| RM\_RECEIVER\_STATISTICS            | yes         | yes                   | yes             | yes                   | yes          |              |             |               |
+| RM\_SEND\_WINDOW\_ADV\_RATE         | yes         | yes                   | yes             | yes                   | yes          |              |             |               |
+| RM\_SENDER\_STATISTICS              | yes         | yes                   | yes             | yes                   | yes          |              |             |               |
+| RM\_SENDER\_WINDOW\_ADVANCE\_METHOD | yes         | yes                   | yes             | yes                   | yes          |              |             |               |
+| RM\_SET\_MCAST\_TTL                 | yes         | yes                   | yes             | yes                   | yes          |              |             |               |
+| RM\_SET\_MESSAGE\_BOUNDARY          | yes         | yes                   | yes             | yes                   | yes          |              |             |               |
+| RM\_SET\_SEND\_IF                   | yes         | yes                   | yes             | yes                   | yes          |              |             |               |
+| RM\_USE\_FEC                        | yes         | yes                   | yes             | yes                   | yes          |              |             |               |
 
 
 

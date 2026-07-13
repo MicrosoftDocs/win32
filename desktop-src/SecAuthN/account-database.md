@@ -2,7 +2,7 @@
 description: Active Directory provides the account database that the Key Distribution Center (KDC) uses to obtain information about security principals in the domain.
 ms.assetid: 560ef22c-dd4f-49f8-9e15-a45dbf17df01
 title: Account Database
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

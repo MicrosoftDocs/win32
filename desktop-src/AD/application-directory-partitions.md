@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Application Directory Partitions AD
 - Application Directory Partitions AD , Using
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

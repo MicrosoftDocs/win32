@@ -5,7 +5,7 @@ ms.assetid: 03310CC9-E84D-4BC2-8B06-D3445807E357
 keywords:
 - Helper interfaces
 - d3dx12.h
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: For an application to use any of TAPIs 30 supplementary phone functions, it needs a connection to TAPI, through which it can receive messages.
 ms.assetid: c0211f64-4f73-4348-ae49-9a898d3aa093
 title: Initialization and Shutdown
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

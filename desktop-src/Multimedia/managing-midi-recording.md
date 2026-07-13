@@ -7,7 +7,7 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),recording
 - recording MIDI audio,managing
 - MIDI recording
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

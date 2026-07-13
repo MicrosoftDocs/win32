@@ -110,7 +110,7 @@ public enum SetColumnGrbit
 <tr class="even">
 <td></td>
 <td>SizeLV</td>
-<td>This option is used to interpret the input buffer as a integer number of bytes to set as the length of the long value described by the given columnid and if provided, the sequence number in psetinfo-&gt;itagSequence. If the size given is larger than the existing column value, the column will be extended with 0s. If the size is smaller than the existing column value then the value will be truncated.</td>
+<td>This option is used to interpret the input buffer as an integer number of bytes to set as the length of the long value described by the given columnid and if provided, the sequence number in psetinfo-&gt;itagSequence. If the size given is larger than the existing column value, the column will be extended with 0s. If the size is smaller than the existing column value then the value will be truncated.</td>
 </tr>
 <tr class="odd">
 <td></td>

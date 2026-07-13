@@ -2,7 +2,7 @@
 description: Lists and explains the access rights of the private data object.
 ms.assetid: 82be57d0-487c-4eb7-83d5-0dd2d53a452b
 title: Private Data Object Access Rights
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

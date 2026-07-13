@@ -3,7 +3,7 @@ description: Events may be reported by WMI or providers. WMI uses Event Tracing 
 ms.assetid: e04ca8fb-2bad-4ff3-8597-c7db6a4b1578
 ms.tgt_platform: multiple
 title: WMI Events
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This appendix contains the API elements used by Windows Presentation Foundation (WPF).
 ms.assetid: 9ca44cac-f398-431a-bfb1-4c79c51ab827
 title: COM API Used by Windows Presentation Foundation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

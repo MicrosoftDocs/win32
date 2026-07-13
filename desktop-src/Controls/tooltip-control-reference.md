@@ -2,7 +2,7 @@
 title: Tooltip
 description: This section contains information about the programming elements used with tooltip controls.
 ms.assetid: 'vs|controls|~\controls\tooltip\reflist.htm'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

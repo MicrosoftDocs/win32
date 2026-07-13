@@ -7,7 +7,7 @@ keywords:
 - Advanced Systems Format (ASF),enumeration types
 - ASF (Advanced Systems Format),enumeration types
 - enumeration types
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

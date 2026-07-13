@@ -2,7 +2,7 @@
 title: Specifying Protocol Sequences
 description: Server applications must select one or more protocol sequences to use when communicating with the client over the network. The choice of protocol sequences is network-dependent. See Interpreting Binding Information and Selecting a Protocol Sequence.
 ms.assetid: bde26a86-dc4f-4d18-ba51-c6536c62bb75
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

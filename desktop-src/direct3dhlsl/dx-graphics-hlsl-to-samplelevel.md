@@ -82,7 +82,7 @@ This function is similar to [Sample](dx-graphics-hlsl-to-sample.md) except that 
 </tr>
 <tr class="even">
 <td><p><span id="LOD"></span><span id="lod"></span><em>LOD</em></p></td>
-<td><p>[in] A number that specifies the mipmap level. If the value is = 0, the zero'th (biggest map) is used. The fractional value (if supplied) is used to interpolate between two mipmap levels.</p></td>
+<td><p>[in] A number that specifies the mipmap level (internally clamped to the smallest map level). If the value is = 0, the zero'th (biggest map) is used. The fractional value (if supplied) is used to interpolate between two mipmap levels.</p></td>
 </tr>
 <tr class="odd">
 <td><p><span id="Offset"></span><span id="offset"></span><span id="OFFSET"></span><em>Offset</em></p></td>

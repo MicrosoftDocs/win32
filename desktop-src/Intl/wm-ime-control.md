@@ -46,7 +46,7 @@ The command. This parameter can have one of the following values:
 <dd><a href="imc-getstatuswindowpos.md">IMC_GETSTATUSWINDOWPOS</a></dd> 
 <dd><a href="imc-openstatuswindow.md">IMC_OPENSTATUSWINDOW</a></dd> 
 <dd><a href="imc-setcandidatepos.md">IMC_SETCANDIDATEPOS</a></dd> 
-<dd><a href="imc-setcompositionfont.md">IMC_SETCOMPOSITIONFONT</a>></dd> 
+<dd><a href="imc-setcompositionfont.md">IMC_SETCOMPOSITIONFONT</a></dd> 
 <dd><a href="imc-setcompositionwindow.md">IMC_SETCOMPOSITIONWINDOW</a></dd> 
 <dd><a href="imc-setstatuswindowpos.md">IMC_SETSTATUSWINDOWPOS</a></dd> 
 </dl>

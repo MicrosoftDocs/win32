@@ -32,7 +32,7 @@ keywords:
 - clearing menu items
 - owner drawn menus
 - menus,owner drawn
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -148,7 +148,7 @@ To create an access key for a menu item, precede any character in the item's tex
 
 ### Menu Shortcut Keys
 
-In addition to having an access key, a menu item can have a shortcut key associated with it. A shortcut key is different from an access key, because the menu does not have to be active for the shortcut key to work. Also, an access key is *always* associated with a menu item, while an shortcut key is *usually* (but does not have to be) associated with a menu item.
+In addition to having an access key, a menu item can have a shortcut key associated with it. A shortcut key is different from an access key, because the menu does not have to be active for the shortcut key to work. Also, an access key is *always* associated with a menu item, while a shortcut key is *usually* (but does not have to be) associated with a menu item.
 
 Text that identifies the shortcut key is added to the menu-item text string. The shortcut text appears to the right of the menu item name, after a backslash and tab character (\\t). For example, "&Close\\tAlt+F4" represents a Close command with the ALT+F4 key combination as its shortcut key and with the letter "C" as its access key. For more information, see [Keyboard Accelerators](keyboard-accelerators.md).
 

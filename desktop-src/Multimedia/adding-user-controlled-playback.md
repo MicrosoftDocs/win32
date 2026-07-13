@@ -4,7 +4,7 @@ description: Adding User-Controlled Playback
 ms.assetid: c865bbc1-f78a-4d88-ab60-fba76818d175
 keywords:
 - MCIWndCreate function
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -4,8 +4,8 @@ description: ARIA Grid Structure Error
 ms.assetid: 8B2AEC98-1056-4560-AD6E-C6ECA0B94692
 keywords:
 - AriaGridStructureErrorId
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # ARIA Grid Structure Error

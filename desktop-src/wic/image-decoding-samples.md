@@ -2,7 +2,7 @@
 description: This section contains the image decoding samples.
 ms.assetid: 16AE71A7-E105-4c9a-8522-84B1C7C4A50D
 title: Image decoding samples
-ms.topic: article
+ms.topic: sample
 ms.date: 03/19/2021
 ---
 

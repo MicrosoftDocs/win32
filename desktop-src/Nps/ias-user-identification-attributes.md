@@ -5,7 +5,7 @@ ms.assetid: 2f741a81-e432-47fe-a14a-8b77ecd41e28
 ms.tgt_platform: multiple
 keywords:
 - Attributes, User Identification
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

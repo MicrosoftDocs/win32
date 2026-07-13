@@ -1,6 +1,6 @@
 ---
 title: CD3DX12_LOCAL_ROOT_SIGNATURE_SUBOBJECT class (D3dx12.h)
-description: A helper class for creating a local root signature state suboject.
+description: A helper class for creating a local root signature state subobject.
 keywords:
 - CD3DX12_LOCAL_ROOT_SIGNATURE_SUBOBJECT class
 topic_type:

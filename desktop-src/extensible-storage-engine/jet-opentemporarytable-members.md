@@ -6,7 +6,7 @@ ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTAB
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.jet_opentemporarytable_members(v=EXCHG.10)
 ms:contentKeyID: 55104223
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # JET_OPENTEMPORARYTABLE members

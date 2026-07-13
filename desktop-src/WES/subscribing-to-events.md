@@ -2,7 +2,7 @@
 title: Subscribing to Events
 description: To subscribe to events, call the EvtSubscribe function.
 ms.assetid: 1e86deeb-fc59-4658-9353-e4ced7ace89a
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

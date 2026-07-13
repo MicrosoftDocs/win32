@@ -6,7 +6,7 @@ ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_TABLECREATE
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_tablecreate_members(v=EXCHG.10)
 ms:contentKeyID: 55103926
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # JET_TABLECREATE members
@@ -54,7 +54,7 @@ Top
 <tr class="odd">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>
 <td><a href="dn351077(v=exchg.10).md">cbSeparateLV</a></td>
-<td>Gets or sets the heuristic size to separate a intrinsic LV from the primary record.</td>
+<td>Gets or sets the heuristic size to separate an intrinsic LV from the primary record.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.pubproperty(exchg.10).gif" title="Public property" alt="Public property" /></td>

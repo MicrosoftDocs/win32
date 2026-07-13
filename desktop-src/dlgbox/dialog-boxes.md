@@ -5,7 +5,7 @@ ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\dialogboxes.htm'
 keywords:
 - user interface,dialog boxes
 - dialog boxes,about
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

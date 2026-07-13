@@ -2,7 +2,7 @@
 description: Learn about inspecting network traces using direct discovery. A network packet analyzer that displays raw packets can inspect HTTP metadata exchange requests.
 ms.assetid: 9b124117-06e7-4637-9863-0f9650861526
 title: Inspecting Network Traces for Applications Using Directed Discovery
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

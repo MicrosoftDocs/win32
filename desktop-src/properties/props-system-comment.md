@@ -2,7 +2,7 @@
 description: The comment attached to a file, typically added by a user.
 ms.assetid: 3ca38760-e979-48ba-b87f-5dc742e046af
 title: System.Comment
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

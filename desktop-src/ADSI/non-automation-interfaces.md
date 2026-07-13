@@ -5,7 +5,7 @@ ms.assetid: a87154b0-415a-43de-af93-952cb829fd0c
 ms.tgt_platform: multiple
 keywords:
 - non-Automation interfaces ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

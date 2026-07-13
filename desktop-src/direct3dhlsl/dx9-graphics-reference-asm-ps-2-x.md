@@ -2,7 +2,7 @@
 title: ps_2_x
 description: Learn about ps_2_x, a programmable pixel shader, which is made up of a set of instructions that operate on pixel data.
 ms.assetid: 06f657a9-6521-404e-b012-7c8e972e9d5c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
 - kbArticle

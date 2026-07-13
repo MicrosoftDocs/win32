@@ -7,7 +7,7 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),time-stamped messages
 - recording MIDI audio,time-stamped messages
 - time-stamped MIDI messages
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

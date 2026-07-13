@@ -2,7 +2,7 @@
 description: The following error codes are specific to the Setup API.
 ms.assetid: C4EB130F-2A83-4A14-BBA8-DB10225D0C0A
 title: Error Codes (Setup API)
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 

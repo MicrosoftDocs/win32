@@ -2,7 +2,7 @@
 description: System.SoftwareUsed
 ms.assetid: 778cc069-fc2d-4ace-b3bd-6d3f97486079
 title: System.SoftwareUsed
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

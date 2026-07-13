@@ -8,7 +8,7 @@ keywords:
 - codecs,supported
 - IWMCodecInfo3,about
 - codecs,IWMCodecInfo3 interface
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: To improve rendering performance, you can cull out (or remove) a primitive that faces away from the camera.
 ms.assetid: b4b8ff3f-aa20-4422-8f6f-34cae25de0e6
 title: Culling State (Direct3D 9)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

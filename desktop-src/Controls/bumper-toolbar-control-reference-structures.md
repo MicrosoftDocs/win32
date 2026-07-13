@@ -2,7 +2,7 @@
 title: Toolbar Control Structures
 description: Toolbar Control Structures
 ms.assetid: 0db291f3-b558-434f-8dde-eddff5b82ba6
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

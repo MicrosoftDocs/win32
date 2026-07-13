@@ -5,7 +5,7 @@ ms.assetid: 95c16d0b-abbc-4407-ac31-d7de0b25bd74
 ms.tgt_platform: multiple
 keywords:
 - Windows Sockets Registration and Resolution AD ,Publishing
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

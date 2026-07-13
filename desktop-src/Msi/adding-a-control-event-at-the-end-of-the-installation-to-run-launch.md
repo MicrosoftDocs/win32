@@ -2,7 +2,7 @@
 description: The installer runs the sample's installation wizard sequence only if the full UI level is used to install the application.
 ms.assetid: 323d62ae-333b-49fd-96a1-55b228c8ab2c
 title: Adding a Control Event at the End of the Installation to Run Launch
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The denominator of PKEY\_Photo\_FocalPlaneYResolution.
 ms.assetid: cc871d84-fad0-4b18-b9ad-6f3b24b0b751
 title: System.Photo.FocalPlaneYResolutionDenominator
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

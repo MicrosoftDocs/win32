@@ -2,7 +2,7 @@
 description: This section describes shaders that can be used for the programmable stream model.
 ms.assetid: 800aaa27-e1e6-4d35-8de4-7ac94d646870
 title: Programming One or More Streams (Direct3D 9)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -8,7 +8,7 @@ keywords:
 - ASF (Advanced Systems Format),input media properties objects
 - objects,input media properties objects
 - input media properties objects
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

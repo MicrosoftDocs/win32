@@ -89,7 +89,7 @@ The structure defines the last menu item in the menu bar, drop-down menu, submen
 0x01
 </dt> <dd>
 
-The structure defines a item that opens a drop-down menu or submenu. Subsequent structures define menu items in the corresponding drop-down menu or submenu.
+The structure defines an item that opens a drop-down menu or submenu. Subsequent structures define menu items in the corresponding drop-down menu or submenu.
 
 </dd> </dl> </dd> <dt>
 

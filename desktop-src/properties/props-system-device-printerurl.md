@@ -2,7 +2,7 @@
 description: The URL for the printer.
 ms.assetid: F8C27A2B-A138-4efd-A843-78668643D1DB
 title: System.Device.PrinterURL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

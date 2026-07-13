@@ -2,7 +2,7 @@
 title: Coding for multicore on Xbox 360 and Windows
 description: This topic gives some advice on how to get started with multithreaded programming.
 ms.assetid: 661f13a6-c73d-8513-2bad-0ef9d1a361a0
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

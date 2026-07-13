@@ -9,8 +9,8 @@ keywords:
 - text attributes,data types
 - UI Automation,list of attributes
 - UI Automation,list of text attributes
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # UI Automation Text Attributes

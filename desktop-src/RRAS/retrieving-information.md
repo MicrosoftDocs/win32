@@ -2,7 +2,7 @@
 title: Retrieving Information
 description: RTMv2 allows a client to retrieve the information referred to by a given handle using the RtmGetEntityInfo, RtmGetDestInfo, RtmGetRouteInfo, and RtmGetNextHopInfo functions.
 ms.assetid: a3fc2020-eac4-40a1-9a6e-6eaa2bcc582c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

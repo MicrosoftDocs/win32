@@ -2,7 +2,7 @@
 description: ACPI \_PLD data for the device.
 ms.assetid: 418b47b7-91fd-4da3-9162-8677f5fe2a49
 title: System.Devices.PhysicalDeviceLocation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: The OBJECT data type is a WMI class object use to declare weakly ty
 ms.assetid: 1ad99b92-dfd4-4147-abf5-045edceaa97d
 ms.tgt_platform: multiple
 title: OBJECT
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This topic discusses the Set Program Access and Computer Defaults (SPAD) feature found in Control Panel.
 ms.assetid: 0d706857-5a84-4d68-99dc-bb9aab4197b9
 title: Set Program Access and Computer Defaults (SPAD)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -39,7 +39,7 @@ This tool is used for the following five client types.
 
 -   Browser
 -   Email
--   Instant messenging program
+-   Instant messaging program
 -   Media player
 -   Virtual machine for Java
 

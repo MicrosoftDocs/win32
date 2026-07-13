@@ -3,7 +3,7 @@ title: Firewall dynamic keywords callbacks
 description: Firewall dynamic keywords contains the following callbacks.
 keywords:
 - Firewall dynamic keywords, callbacks
-ms.topic: article
+ms.topic: reference
 ms.date: 05/17/2021
 ---
 

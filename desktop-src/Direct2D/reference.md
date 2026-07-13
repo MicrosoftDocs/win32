@@ -4,7 +4,7 @@ description: The following topics provide information about the Direct2D API.
 ms.assetid: 2988ffd5-b4e0-4479-a531-06a09f015f2d
 keywords:
 - Direct2D,reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

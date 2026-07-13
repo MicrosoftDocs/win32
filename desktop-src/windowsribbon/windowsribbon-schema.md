@@ -11,7 +11,7 @@ keywords:
 - Ribbon,components
 - command system for Windows Ribbon
 - controls for Windows Ribbon
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

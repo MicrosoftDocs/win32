@@ -2,7 +2,7 @@
 title: Input-Active Client
 description: Input-Active Client
 ms.assetid: b46e91d3-eca7-4a4a-b1ce-27b5e6ad92a5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

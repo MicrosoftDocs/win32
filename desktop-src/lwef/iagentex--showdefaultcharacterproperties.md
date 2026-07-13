@@ -2,7 +2,7 @@
 title: IAgentEx ShowDefaultCharacterProperties
 description: IAgentEx ShowDefaultCharacterProperties
 ms.assetid: 4817b52a-7168-4008-9cda-0b8d598daea0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

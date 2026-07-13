@@ -1469,9 +1469,9 @@
             href: xmfloat3-ctor.md
             items:
             - name: "XMFLOAT3 ()"
+              href: /windows/win32/api/directxmath/nf-directxmath-xmfloat3-xmfloat3
+            - name: "XMFLOAT3 (constant float*)"
               href: /windows/win32/api/directxmath/nf-directxmath-xmfloat3-xmfloat3(constfloat)
-            - name: "XMFLOAT3 (float)"
-              href: /windows/win32/api/directxmath/nf-directxmath-xmfloat3a-xmfloat3a(constfloat)
             - name: "XMFLOAT3 (float,float,float)"
               href: /windows/win32/api/directxmath/nf-directxmath-xmfloat3-xmfloat3(float_float_float)
           - name: "XMFLOAT3 operators"
@@ -1591,19 +1591,19 @@
         href: /windows/win32/api/directxmath/ns-directxmath-xmfloat3x4a
         items:
         - name: "operator=(const XMFLOAT3X4A &)"
-          href: /windows/win32/api/directxmath/nf-directxmath-xmfloat3x4a-operator-assign
+          href: /windows/win32/api/directxmath/nf-directxmath-xmfloat3x4-operator-assign
         - name: "operator=(XMFLOAT3X4A &&)"
-          href: /windows/win32/api/directxmath/nf-directxmath-xmfloat3x4a-operator-assign(xmfloat3x4a__)
+          href: /windows/win32/api/directxmath/nf-directxmath-xmfloat3x4-operator-assign(xmfloat3x4__)
         - name: "XMFLOAT3X4A()"
-          href: /windows/win32/api/directxmath/nf-directxmath-xmfloat3x4a-xmfloat3x4a
+          href: /windows/win32/api/directxmath/nf-directxmath-xmfloat3x4-xmfloat3x4
         - name: "XMFLOAT3X4A(const float)"
-          href: /windows/win32/api/directxmath/nf-directxmath-xmfloat3x4a-xmfloat3x4a(constfloat)
+          href: /windows/win32/api/directxmath/nf-directxmath-xmfloat3x4-xmfloat3x4(constfloat)
         - name: "XMFLOAT3X4A(const XMFLOAT3X4A &)"
-          href: /windows/win32/api/directxmath/nf-directxmath-xmfloat3x4a-xmfloat3x4a(constxmfloat3x4a_)
+          href: /windows/win32/api/directxmath/nf-directxmath-xmfloat3x4-xmfloat3x4(constxmfloat3x4_)
         - name: "XMFLOAT3X4A(float,...,float)"
-          href: /windows/win32/api/directxmath/nf-directxmath-xmfloat3x4a-xmfloat3x4a(float_float_float_float_float_float_float_float_float_float_float_float)
+          href: /windows/win32/api/directxmath/nf-directxmath-xmfloat3x4-xmfloat3x4(float_float_float_float_float_float_float_float_float_float_float_float)
         - name: "XMFLOAT3X4A(XMFLOAT3X4A &&)"
-          href: /windows/win32/api/directxmath/nf-directxmath-xmfloat3x4a-xmfloat3x4a(xmfloat3x4a__)
+          href: /windows/win32/api/directxmath/nf-directxmath-xmfloat3x4-xmfloat3x4(xmfloat3x4__)
       - name: "XMFLOAT4"
         href: /windows/win32/api/directxmath/ns-directxmath-xmfloat4
         items:
@@ -1614,9 +1614,9 @@
             href: xmfloat4-ctor.md
             items:
             - name: "XMFLOAT4 ()"
-              href: /windows/win32/api/directxmath/nf-directxmath-xmfloat4-xmfloat4(constfloat)
+              href: /windows/win32/api/directxmath/nf-directxmath-xmfloat4-xmfloat4
             - name: "XMFLOAT4 (float)"
-              href: /windows/win32/api/directxmath/nf-directxmath-xmfloat4a-xmfloat4a(constfloat)
+              href: /windows/win32/api/directxmath/nf-directxmath-xmfloat4-xmfloat4(constfloat)
             - name: "XMFLOAT4 (float,float,float,float)"
               href: /windows/win32/api/directxmath/nf-directxmath-xmfloat4-xmfloat4(float_float_float_float)
           - name: "XMFLOAT4 operators"

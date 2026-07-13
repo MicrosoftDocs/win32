@@ -2,7 +2,7 @@
 description: When creating a security support provider (SSP) security package, you should not allow the domain joined client to authenticate to a domain controller by using a two part service provider name (SPN) of the following form.
 ms.assetid: 6CD3BC5E-F9B2-4E8E-9DEE-064AE8837DFB
 title: Using Three Part Principal Names
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

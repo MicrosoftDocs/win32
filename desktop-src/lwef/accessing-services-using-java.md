@@ -2,7 +2,7 @@
 title: Accessing Services Using Java
 description: Accessing Services Using Java
 ms.assetid: 3eced858-487a-4f36-a7a1-34ac827aad13
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: An application can decompress multiple files by using the LZOpenFile, LZCopy, and LZClose functions.
 ms.assetid: 582d57c7-70a4-4711-bae5-4abfb7a196b1
 title: Decompressing Multiple Files
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

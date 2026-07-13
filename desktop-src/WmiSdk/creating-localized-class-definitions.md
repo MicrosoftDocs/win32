@@ -3,7 +3,7 @@ description: Creating localized class definitions is a three-step process.
 ms.assetid: e303b894-07c4-44e3-9c57-58b1db16ae9a
 ms.tgt_platform: multiple
 title: Creating Localized Class Definitions
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -4,7 +4,7 @@ description: Summarizes the steps required to draw with Direct2D for Windows 8 a
 ms.assetid: FF4623FA-CA60-4637-9EE6-34C4EC84E51A
 keywords:
 - Direct2D,draw rectangle code example
-ms.topic: article
+ms.topic: quickstart
 ms.date: 05/31/2018
 ---
 

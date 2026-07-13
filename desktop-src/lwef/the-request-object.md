@@ -2,7 +2,7 @@
 title: The Request Object
 description: The Request Object
 ms.assetid: d8b37164-6855-48c0-bcf8-a86c0f8b3a59
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

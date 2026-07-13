@@ -63,7 +63,7 @@ The result of the linear interpolation.
 
 ## Remarks
 
-Linear interpolation is based on the following formula: x\*(1-s) + y\*s which can equivalently be written as x + s(y-x).
+Linear interpolation is based on the following formula: x\*(1-s) + y\*s which can equivalently be written as x + s\*(y-x).
 
 ## Minimum Shader Model
 

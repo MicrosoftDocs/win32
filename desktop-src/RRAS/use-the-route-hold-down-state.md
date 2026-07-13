@@ -2,7 +2,7 @@
 title: Use the Route Hold-Down State
 description: The following sample code shows how to mark a destination for the hold-down state, and how to create a destination enumeration that includes routes that are in the hold-down state.
 ms.assetid: bdc97fad-4805-4432-96ca-9225a51c92eb
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

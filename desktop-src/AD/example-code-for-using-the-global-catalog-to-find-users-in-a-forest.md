@@ -5,7 +5,7 @@ ms.assetid: bdcbfb7e-e1ea-4275-96b0-1c895e28e176
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , using the global catalog to find users in a forest
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

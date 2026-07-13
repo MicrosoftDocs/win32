@@ -1,6 +1,6 @@
 ---
 title: IMsRdpCameraRedirConfig FriendlyName property
-description: Gets the camera’s friendly name. 
+description: Gets the camera's friendly name. 
 ms.tgt_platform: multiple
 keywords:
 - FriendlyName property Remote Desktop Services
@@ -21,7 +21,7 @@ ms.date: 12/16/2020
 
 # IMsRdpCameraRedirConfig::FriendlyName property
 
-Gets the camera’s friendly name.
+Gets the camera's friendly name.
 
 This property is read-only.
 
@@ -35,7 +35,7 @@ HRESULT get_FriendlyName(
 
 ## Property value
 
-The camera’s friendly name.
+The camera's friendly name.
 
 ## Requirements
 

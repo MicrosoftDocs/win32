@@ -2,7 +2,7 @@
 description: The Default Ducking Experience provided by the system ducks all non-communication streams available in the system when a communication stream opens.
 ms.assetid: 1b92574e-7cde-49c0-a68e-223492412361
 title: Implementation Considerations for Ducking Notifications
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

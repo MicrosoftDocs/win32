@@ -13,7 +13,7 @@ keywords:
 - OpenGL porting from IRIS GL,surface patches
 - curves
 - surface patches
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

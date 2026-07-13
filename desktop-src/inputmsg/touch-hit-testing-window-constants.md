@@ -12,7 +12,7 @@ api_location:
 - winuser.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: concept-article
 ms.date: 02/03/2020
 ---
 

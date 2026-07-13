@@ -3,7 +3,7 @@ title: Remote Desktop Gateway classes
 description: The Remote Desktop Gateway (RD Gateway) WMI provider provides the following classes.
 ms.assetid: 482ba056-0de7-4c91-816c-dd3c926662ef
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

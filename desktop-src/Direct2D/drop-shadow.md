@@ -4,7 +4,7 @@ description: Use the shadow effect to generate a shadow from the alpha channel o
 ms.assetid: 53525584-10CF-46C2-9400-C4FB225D4693
 keywords:
 - shadow effect
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

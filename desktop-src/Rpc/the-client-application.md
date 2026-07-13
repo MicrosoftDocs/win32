@@ -2,7 +2,7 @@
 title: The Client Application
 description: View the client application part of a remote procedure call (RPC) example. The example below is from the 'Hello World' application in the Platform SDK.
 ms.assetid: 8c33801a-341a-4674-bd41-5bdca7e244fb
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -26,20 +26,21 @@ After the remote procedure calls are completed, the client first calls [**RpcStr
 #include <ctype.h>
 #include "hello.h" 
 #include <windows.h>
+#pragma comment(lib, "Rpcrt4.lib")
 
-void main()
+int main()
 {
     RPC_STATUS status;
-    unsigned char * pszUuid             = NULL;
-    unsigned char * pszProtocolSequence = "ncacn_np";
-    unsigned char * pszNetworkAddress   = NULL;
-    unsigned char * pszEndpoint         = "\\pipe\\hello";
-    unsigned char * pszOptions          = NULL;
-    unsigned char * pszStringBinding    = NULL;
-    unsigned char * pszString           = "hello, world";
+    unsigned short* pszUuid             = NULL;
+    unsigned short* pszProtocolSequence = (unsigned short*)L"ncacn_np";
+    unsigned short* pszNetworkAddress   = NULL;
+    unsigned short* pszEndpoint         = (unsigned short*)L"\\pipe\\hello";
+    unsigned short* pszOptions          = NULL;
+    unsigned short* pszStringBinding    = NULL;
+    unsigned char * pszString           = (unsigned char*)"hello, world";
     unsigned long ulCode;
  
-    status = RpcStringBindingCompose(pszUuid,
+    status = RpcStringBindingComposeW(pszUuid,
                                      pszProtocolSequence,
                                      pszNetworkAddress,
                                      pszEndpoint,
@@ -47,7 +48,7 @@ void main()
                                      &pszStringBinding);
     if (status) exit(status);
 
-    status = RpcBindingFromStringBinding(pszStringBinding, &hello_ClientIfHandle);
+    status = RpcBindingFromStringBindingW(pszStringBinding, &hello_IfHandle);
  
     if (status) exit(status);
  
@@ -63,7 +64,7 @@ void main()
     }
     RpcEndExcept
  
-    status = RpcStringFree(&pszStringBinding); 
+    status = RpcStringFreeW(&pszStringBinding); 
  
     if (status) exit(status);
  

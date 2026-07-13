@@ -2,7 +2,7 @@
 description: This topic provides an overview of how you can use the Windows Imaging Component (WIC) APIs to read and write metadata that is embedded in image files.
 ms.assetid: b1e0b936-a13a-42dd-8470-957ba1d90423
 title: Overview of Reading and Writing Image Metadata
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -118,7 +118,7 @@ if (SUCCEEDED(hr))
 
 
 
-Similarly, a query reader can also be obtained at the decoder level. A simple call to the decoder's **GetMetadataQueryReader** method gets the decoder's query reader. An decoder's query reader, unlike a frame's query reader, reads metadata for an image that is outside of the individual frames. However, this scenario is not common, and the native image formats do not support this capability. The native image CODECS provided by WIC read and write metadata at the frame level even for single-frame formats such as JPEG.
+Similarly, a query reader can also be obtained at the decoder level. A simple call to the decoder's **GetMetadataQueryReader** method gets the decoder's query reader. A decoder's query reader, unlike a frame's query reader, reads metadata for an image that is outside of the individual frames. However, this scenario is not common, and the native image formats do not support this capability. The native image CODECS provided by WIC read and write metadata at the frame level even for single-frame formats such as JPEG.
 
 ### Reading Metadata
 

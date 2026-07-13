@@ -8,7 +8,7 @@ keywords:
 - DRM (digital rights management),output protection levels (OPL)
 - output protection levels (OPL)
 - OPL (output protection levels)
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

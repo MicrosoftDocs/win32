@@ -56,7 +56,7 @@ Specifies the name of the function to which the **\[defaultvalue\]** attribute w
 *mandatory-param-list* 
 </dt> <dd>
 
-Specifies on or more required parameters.
+Specifies one or more required parameters.
 
 </dd> <dt>
 

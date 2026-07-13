@@ -13,7 +13,7 @@ keywords:
 - Client Extended APIs,querying for simple rights
 - DRM Client Extended APIs,simple rights queries
 - Client Extended APIs,simple rights queries
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

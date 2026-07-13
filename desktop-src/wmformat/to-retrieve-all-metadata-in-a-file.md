@@ -7,7 +7,7 @@ keywords:
 - Advanced Systems Format (ASF),retrieving metadata
 - ASF (Advanced Systems Format),retrieving metadata
 - metadata,retrieving all
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

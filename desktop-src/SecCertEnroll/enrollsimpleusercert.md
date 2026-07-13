@@ -2,7 +2,7 @@
 description: Enrolls an end user with a certification authority (CA) by using a template, the subject name, and the length, in bits, of the key.
 ms.assetid: ee290c78-dbfa-4414-8489-aa886360652b
 title: enrollSimpleUserCert
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

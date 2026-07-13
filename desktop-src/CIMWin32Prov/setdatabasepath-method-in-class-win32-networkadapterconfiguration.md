@@ -403,10 +403,6 @@ DHCP not enabled on adapter.
 
 This method is used by the Windows Sockets interface. The default path is %SystemRoot%\\system32\\drivers\\ .
 
-## Examples
-
-The [Modify the Database Path for all Network Adapters](https://Gallery.TechNet.Microsoft.Com/94bfa42f-f6a3-482f-8d5a-5445a2475bee) VBScript sample on TechNet Gallery uses **SetDatabasePath** to set the path to the standard Internet database files (HOSTS, LMHOSTS, NETWORKS, PROTOCOLS) used by the Windows Sockets interface.
-
 ## Requirements
 
 

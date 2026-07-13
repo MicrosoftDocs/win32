@@ -9,7 +9,7 @@ keywords:
 - revocation lists
 - digital rights management (DRM),revocation lists
 - DRM (digital rights management),revocation lists
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

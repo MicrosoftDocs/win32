@@ -2,7 +2,7 @@
 description: A label is a user-friendly name that is assigned to a volume, usually by an end user, to make it easier to recognize. A volume can have a label, a drive letter, both, or neither. To set the label for a volume, use the SetVolumeLabel function.
 ms.assetid: f640f42d-a703-4e2e-a6d3-09cbe989cd11
 title: Naming a Volume
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

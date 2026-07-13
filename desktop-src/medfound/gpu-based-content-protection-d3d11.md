@@ -2,7 +2,7 @@
 description: This topic describes video content&\#8211;protection capabilities that a graphics driver can provide.
 ms.assetid: 3FDB4908-C75D-4AE0-B32E-93F840E4F30A
 title: GPU-Based Content Protection with D3D11 Video
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -90,7 +90,7 @@ Here is a high-level overview of the encryption and decoding process:
 1.  The software decoder receives a stream of encrypted data from the video source. The decoder decrypts this stream.
 2.  The software decoder negotiates a session key with the cryptographic session.
 3.  The software decoder uses the authenticated channel to associate the cryptographic session with the decoder device.
-4.  The software decoder puts compressed data in buffers that it gets from the decoder device (accelerator). For protected content, the software encoder encrypts the data that is puts into the buffers, using the session key for the encryption.
+4.  The software decoder puts compressed data in buffers that it gets from the decoder device (accelerator). For protected content, the software encoder encrypts the data that is put into the buffers, using the session key for the encryption.
     > [!Note]  
     > Some drivers use a content key, instead of the session key, for encryption. The content key could change from one frame to the next.
 
@@ -187,7 +187,7 @@ To send a command to the authenticated channel, perform the following steps.
 | <strong>omac</strong> | Skip this field for now. | 
 | <strong>ConfigureType</strong> | GUID that identifies the command. For a list of commands, see <a href="content-protection-commands.md">Content Protection Commands</a>. | 
 | <strong>hChannel</strong> | The handle to the authenticated channel. | 
-| <strong>SequenceNumber</strong> | The sequence number. The first sequence number is specified by sending a <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input"><strong>D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE</strong></a> command. Each time you send another command, increment this number by 1. The sequence number guards against replay attacks.    <blockquote>    [!Note]<br />    Two separate sequence numbers are used, one for commands and one for queries.    </blockquote><br /><br /> | 
+| **SequenceNumber** | The sequence number. The first sequence number is specified by sending a [**D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input) command. Each time you send another command, increment this number by 1. The sequence number guards against replay attacks.         **Note:**     Two separate sequence numbers are used, one for commands and one for queries.    <br> | 
 
 
 
@@ -214,7 +214,7 @@ To send a command to the authenticated channel, perform the following steps.
 |--------|-------------|
 | <strong>QueryType</strong> | GUID that identifies the query. For a list of queries, see <a href="content-protection-queries.md">Content Protection Queries</a>. | 
 | <strong>hChannel</strong> | The handle to the authenticated channel. | 
-| <strong>SequenceNumber</strong> | The sequence number. The first sequence number is specified by sending a <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input"><strong>D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE</strong></a> command. Each time you send another query, increment this number by 1. The sequence number guards against replay attacks.    <blockquote>    [!Note]<br />    Two separate sequence numbers are used, one for commands and one for queries.    </blockquote><br /><br /> | 
+| **SequenceNumber** | The sequence number. The first sequence number is specified by sending a [**D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE**](/windows/desktop/api/d3d11/ns-d3d11-d3d11_authenticated_configure_initialize_input) command. Each time you send another query, increment this number by 1. The sequence number guards against replay attacks.         **Note:**     Two separate sequence numbers are used, one for commands and one for queries.    <br> | 
 
 
 

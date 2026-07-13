@@ -2,7 +2,7 @@
 description: All memory a process allocates by using the memory allocation functions ( HeapAlloc, VirtualAlloc, GlobalAlloc, or LocalAlloc) is accessible only to the process.
 ms.assetid: b47200dc-6824-4fd8-8d9f-2aaa439a74ff
 title: Scope of Allocated Memory
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

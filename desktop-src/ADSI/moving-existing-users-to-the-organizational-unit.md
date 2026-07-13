@@ -5,7 +5,7 @@ ms.assetid: 230a594f-70c2-4ab6-a7e8-d5a77f2d6dd1
 ms.tgt_platform: multiple
 keywords:
 - Moving Existing Users to the Organizational Unit AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

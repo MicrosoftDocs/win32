@@ -4,7 +4,7 @@ description: Use the spot-diffuse lighting effect to create an image that appear
 ms.assetid: 9048D664-28DB-4DB6-9B95-3A61A1EDF5EC
 keywords:
 - spot diffuse lighting effect
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

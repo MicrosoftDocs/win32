@@ -2,7 +2,7 @@
 description: Opaque BLOBs, also known as OPAQUEKEYBLOBs, are used to store session keys in a vendor-specific format, such as Schannel.
 ms.assetid: a0756c03-0c27-41ff-9b74-8af462e09675
 title: Opaque BLOB Type
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: How you can use the Certificate Services backup functions to back up a Certificate Services database and its associated files.
 ms.assetid: f5c9c9f9-5211-4151-b8e0-3351d462c71b
 title: Backing Up Certificate Services
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

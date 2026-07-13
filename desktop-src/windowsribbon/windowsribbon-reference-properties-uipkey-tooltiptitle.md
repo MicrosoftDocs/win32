@@ -2,7 +2,7 @@
 title: UI_PKEY_TooltipTitle
 description: Identifies the UI\_PKEY\_TooltipTitle property.
 ms.assetid: ed9f422d-a782-4950-a579-060185550891
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -120,7 +120,7 @@ A [JET_ERR](./jet-err.md) value that is less than zero should be interpreted as 
 | <p>JET_errLogWriteFail<br />-510</p> | <p>There was a failure writing to the log file.</p> | 
 | <p>JET_errLogDisabledDueToRecoveryFailure<br />-511</p> | <p>The attempt to write to the log after recovery failed.</p> | 
 | <p>JET_errCannotLogDuringRecoveryRedo<br />-512</p> | <p>The attempt to write to the log during the recovery redo failed.</p> | 
-| <p>JET_errLogGenerationMismatch<br />-513</p> | <p>The name of of the log file does not match the internal generation number.</p> | 
+| <p>JET_errLogGenerationMismatch<br />-513</p> | <p>The name of the log file does not match the internal generation number.</p> | 
 | <p>JET_errBadLogVersion<br />-514</p> | <p>The version of the log file is not compatible with the ESE version.</p> | 
 | <p>JET_errInvalidLogSequence<br />-515</p> | <p>The timestamp in the next log does not match the expected timestamp.</p> | 
 | <p>JET_errLoggingDisabled<br />-516</p> | <p>The log is not active.</p> | 

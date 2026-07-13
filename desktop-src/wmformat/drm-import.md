@@ -27,7 +27,7 @@ keywords:
 - Client Extended APIs,content protection system (CPS)
 - content protection system (CPS)
 - CPS (content protection system)
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

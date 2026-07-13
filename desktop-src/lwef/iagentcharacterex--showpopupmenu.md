@@ -2,7 +2,7 @@
 title: IAgentCharacterEx ShowPopupMenu
 description: IAgentCharacterEx ShowPopupMenu
 ms.assetid: f93c4c9e-5ef8-42d1-8f22-d6625af7978f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

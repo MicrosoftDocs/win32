@@ -5,7 +5,7 @@ ms.assetid: 20f78dcd-3259-43c2-8da3-8cfc299252e6
 keywords:
 - MCIWndGetStart macro
 - MCIWndGetEnd macro
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

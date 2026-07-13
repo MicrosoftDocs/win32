@@ -2,7 +2,7 @@
 description: This topic includes instructions for using the NLS functions in your applications to retrieve time and date information, as well as duration data. If your application must persist data, see Using Persistent Locale Data.
 ms.assetid: 1880ff8f-110c-4661-8b1f-afe1d8d2a38d
 title: Retrieving Time and Date Information
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

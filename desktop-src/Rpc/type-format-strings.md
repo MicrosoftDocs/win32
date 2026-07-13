@@ -2,7 +2,7 @@
 title: Type Format Strings
 description: Format characters denote objects of interest to the NDR engine.
 ms.assetid: 71117082-07b0-4ba4-a920-09be8d8427ab
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

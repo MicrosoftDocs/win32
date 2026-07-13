@@ -2,7 +2,7 @@
 description: This page lists some of the programming tasks that are commonly performed with the XPS Document API.
 ms.assetid: ced2098f-5462-40d7-a728-4e53f7f41003
 title: Common XPS Document Programming Tasks
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -51,7 +51,7 @@ For clarity, these code examples use a very simple XPS OM, one that might not be
 [Error Handling in COM](../com/error-handling-in-com.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
+[XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 </dt> </dl>
 
  

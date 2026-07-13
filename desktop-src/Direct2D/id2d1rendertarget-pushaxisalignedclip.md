@@ -57,7 +57,3 @@ For an example, see the [How to Clip with an Axis-Aligned Clip Rectangle](how-to
 
 [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget)
 </dt> </dl>
-
-�
-
-�

@@ -34,11 +34,13 @@ BOOL EnableEUDC(
 
 <dl> <dt>
 
-*fEnableEUDC* \[in\]
+*fEnableEUDC* [in]
 </dt> <dd>
 
-Boolean that is set to **TRUE** to enable EUDC, and to **FALSE** to disable EUDC.
 
+
+
+Boolean that is set to **TRUE** to enable EUDC, and to **FALSE** to disable EUDC.
 </dd> </dl>
 
 ## Return value
@@ -55,14 +57,17 @@ During multi-session, this function affects the current session only.
 
 It is recommended that you use this function with Windows XP SP2 or later.
 
+> [!NOTE]
+> EnableEUDC is recommended to be called only once, as repeated calls may cause performance degradation.
+
 ## Requirements
 
 
 
 | Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
-| Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 2000 Professional [desktop apps only]<br/>                           |
+| Minimum supported server<br/> | Windows 2000 Server [desktop apps only]<br/>                                 |
 | Library<br/>                  | <dl> <dt>Gdi32.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Gdi32.dll</dt> </dl> |
 

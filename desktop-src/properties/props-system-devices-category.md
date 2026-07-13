@@ -2,7 +2,7 @@
 description: Singular form of device category.
 ms.assetid: 211e2a68-69b5-40d6-82e7-8cfe3ff92b25
 title: System.Devices.Category
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

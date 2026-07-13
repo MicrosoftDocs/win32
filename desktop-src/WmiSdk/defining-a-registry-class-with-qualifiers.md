@@ -3,7 +3,7 @@ description: The classes used to hold registry data are defined with several sta
 ms.assetid: d4786880-6c50-4e36-9a16-47de430e77a9
 ms.tgt_platform: multiple
 title: Defining a Registry Class With Qualifiers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

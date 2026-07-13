@@ -2,7 +2,7 @@
 title: Windows Media Streaming API
 description: Windows Media Streaming API
 ms.assetid: 24b2824b-59ea-4479-80c3-f4515285edfa
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

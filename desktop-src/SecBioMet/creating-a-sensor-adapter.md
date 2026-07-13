@@ -2,7 +2,7 @@
 title: Creating a Sensor Adapter
 description: Basic structure of a sensor adapter plug-in implemented as a C++ dynamic link library (DLL).
 ms.assetid: 4e78f0c2-177c-4e69-8bb6-c548a6f1ac46
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: Retrieving a Service SDO
 description: Retrieving a Service SDO
 ms.assetid: bac95c42-8f7e-4011-960c-8f18b4b7c088
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

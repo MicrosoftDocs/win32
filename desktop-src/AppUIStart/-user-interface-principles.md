@@ -2,7 +2,7 @@
 title: User Interface Principles
 description: This topic discusses how to implement intuitive user interface and user experience design principles into a Windows applications.
 ms.assetid: 603bc184-3eec-4281-8caa-993834da3131
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -168,7 +168,7 @@ In the same **System Properties** applet, each tab has multiple GroupBoxes with 
 
 Choosing the right icon is also important. Microsoft provides many standard graphics as part of Visual Studio 2005. These would be the best choice. If you create your own icons, it is highly recommended that you follow the operating system-level or application-level standards for these graphics as mentioned in the [Use Standards](#use-standards) section above.
 
-The [Windows User Experience Interaction Guidelines](/windows/apps/desktop/) contains a very helpful guide for creating Windows style [icons](https://msdn.microsoft.com/library/aa511280.aspx).
+The [Windows User Experience Interaction Guidelines](../uxguide/interaction.md) contains a very helpful guide for creating Windows style [icons](../uxguide/vis-icons.md).
 
 ### Simplify Recognition with Headers
 
@@ -199,7 +199,7 @@ The options available in the standard Windows message box are very limited. When
 
 Windows applications are now becoming simpler to use because of the high volume of non-technical users. Sometimes, it can be much simpler to provide buttons with friendlier texts and even some additional controls—LinkLabels, for instance—to make it easier to accomplish the task at hand.
 
-The Microsoft .NET Framework makes it easy to implement custom dialogs. By just assigning a couple of properties on your custom dialog form, or with a single line of code, your form can work just like a standard message box. In a button-click event, set the dialog's **DialogResult** property to **DialogResult.Ok** or **DialogResult.Cancel**. Use the **ShowDialog(\[OwnerForm\])** method from the parent form. This method method returns the **DialogResult** value.
+The Microsoft .NET Framework makes it easy to implement custom dialogs. By just assigning a couple of properties on your custom dialog form, or with a single line of code, your form can work just like a standard message box. In a button-click event, set the dialog's **DialogResult** property to **DialogResult.Ok** or **DialogResult.Cancel**. Use the **ShowDialog(\[OwnerForm\])** method from the parent form. This method returns the **DialogResult** value.
 
 You can use all **DialogResult** members. These same options are used by the standard **MessageBox.Show** method.
 
@@ -256,7 +256,7 @@ Taskbar flashes can be useful, of course, but should be called upon only when yo
 
 ![screen shot of a toast window.](images/humanux-10.png)
 
-"Toast" windows (see Figure 10), made famous by instant messaging clients like MSN Messenger, are a great solution for informing the user of something without annoying or disrupting his or her work flow. There is a great article by Bill Wagner on [creating Toast windows](/archive/msdn-magazine/2005/september/sprinkle-some-pizzazz-on-your-plain-vanilla-windows-forms-apps). It's good policy (and manners) to not disturb any other application's toasts. Obstruction of such windows can be annoying and unproductive. One solution is to use the [ToastSemaphore Mutex](/library/WinMessenger/winmessenger/overview/toast.asp) provided by the operating system to avoid toast collision.
+"Toast" windows (see Figure 10), made famous by instant messaging clients like MSN Messenger, are a great solution for informing the user of something without annoying or disrupting his or her work flow. There is a great article by Bill Wagner on [creating Toast windows](/archive/msdn-magazine/2005/september/sprinkle-some-pizzazz-on-your-plain-vanilla-windows-forms-apps). It's good policy (and manners) to not disturb any other application's toasts. Obstruction of such windows can be annoying and unproductive. One solution is to use the [ToastSemaphore Mutex](/previous-versions/windows/desktop/winmessenger/im-toast-ovw) provided by the operating system to avoid toast collision.
 
 Sometimes you may need to show multiple items by the toast. Popping up 3 or more toasts would not really be advisable. Instead, cycling through each by popping/fading one toast after the other would be better. Microsoft Outlook implements a similar solution when notifying the user of incoming e-mails.
 
@@ -276,13 +276,13 @@ Another method that is becoming popular is a fixed 'toast' window that displays 
 
 It is safe to assume that if faced with a plethora of controls on a single form, a typical user will be confused to no end. Sometimes, no amount of grouping, sizing, or spacing can help you when you have many important controls.
 
-A Wizard is the best thing for such scenarios. You can divide controls by task or categories as applicable, and place them in separate steps. This can help the user stay focused and not be daunted by the task. You can provide step- or task-specific help with a Help button. You can find Wizard creation guidelines in the MSDN Library.
+A Wizard is the best thing for such scenarios. You can divide controls by task or categories as applicable, and place them in separate steps. This can help the user stay focused and not be daunted by the task. You can provide step- or task-specific help with a Help button. For more detail, see [Wizards](../uxguide/win-wizards.md).
 
 Wizards are also a good way to help set up the initial configuration of your application. Many applications use such a wizard to set up personalized configuration just after setup is completed, or on first use. Such an initial wizard should also be made optional, if possible—if the user cancels at any point, the unspecified settings go to default values. If you can make the wizard a bit graphical (see the [Use Pretty Graphics](#use-pretty-graphics) section), it makes the configuration task that much easier.
 
 ### Get the Tone of Your Text Right
 
-In the [Windows User Experience Interaction Guidelines](/windows/apps/desktop/), a very important point has been made about "Text Tone". This is the impression and feeling given by the text in your application. This can be anything from a simple tooltip, to an instruction label control.
+In the [Windows User Experience Interaction Guidelines](../uxguide/interaction.md), a very important point has been made about "Text Tone". This is the impression and feeling given by the text in your application. This can be anything from a simple tooltip, to an instruction label control.
 
 Earlier we discussed the change of text in the Webcam option in MSN Messenger. That is called proper text tone. When dealing with non-technical or novice users, getting the message across takes on a different aspect.
 
@@ -290,7 +290,7 @@ If you write "Destination Path" above a text box in a self-extracting applicatio
 
 Providing a clear description of what you want the user to do also lessens the need for Help files, or at least lessens the details you need to include in Help files.
 
-A very good suggestion from the [Windows User Experience Interaction Guidelines](/windows/apps/desktop/) applies to any software. It states that the writer should keep the text conversational. The Guidelines defines this as, "Avoid words you wouldn't say to someone else in person."
+A very good suggestion from the [Windows User Experience Interaction Guidelines](../uxguide/interaction.md) applies to any software. It states that the writer should keep the text conversational. The Guidelines defines this as, "Avoid words you wouldn't say to someone else in person."
 
 A few tips for writing text:
 

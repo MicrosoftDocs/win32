@@ -2,8 +2,8 @@
 description: Learn to use the CreateThread function to create a new thread for a process. Debuggers typically need to examine or change the contents of a thread's registers.
 ms.assetid: df59eedd-45ec-4564-96a5-8cecb345cfcc
 title: Thread Functions for Debugging
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Thread Functions for Debugging

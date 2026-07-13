@@ -22,7 +22,7 @@ keywords:
 - DRM (digital rights management),DRM individualization
 - DRM Client Extended APIs,individualization
 - Client Extended APIs,individualization
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Getting Started with MFPlay
 
-\[MFPlay is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. \]
+\[The feature associated with this page, MFPlay, is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and  [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 MFPlay is an API for creating media playback applications in C++.
 
@@ -65,7 +65,7 @@ HRESULT PlayVideo(HWND hwnd, const WCHAR* sURL)
 The [**MFPCreateMediaPlayer**](/windows/desktop/api/mfplay/nf-mfplay-mfpcreatemediaplayer) function creates a new instance of the MFPlay player object. The function takes the following parameters:
 
 -   The first parameter is the URL of the file to open. This can be a local file or a file on a media server.
--   The second parameter specifies whether playback starts automatically. By setting this paremeter to **TRUE**, the file will play as soon as MFPlay loads it.
+-   The second parameter specifies whether playback starts automatically. By setting this parameter to **TRUE**, the file will play as soon as MFPlay loads it.
 -   The third parameter sets various options. For the default options, pass zero (0).
 -   The fourth parameter is a pointer to an optional callback interface. This parameter can be **NULL**, as shown. The callback is described in the section [Receiving Events From the Player](#receiving-events-from-the-player).
 -   The fifth parameter is a handle to the application window. If the media file contains a video stream, the video will appear inside the client area of this window. For audio-only playback, this parameter can be **NULL**.

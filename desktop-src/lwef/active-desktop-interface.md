@@ -6,7 +6,7 @@ keywords:
 - ActiveDesktop object
 - Active Desktop
 - enumeration,desktop items
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

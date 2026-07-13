@@ -2,7 +2,7 @@
 description: The Hyperlink control displays a HTML link to an address, which opens in the default browser for the computer.
 ms.assetid: 06678b10-0915-4649-b917-ec90c40d5160
 title: Hyperlink Control
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

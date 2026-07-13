@@ -6,7 +6,7 @@ keywords:
 - folder view object
 - IShellView
 - IShellBrowser,folder view objects
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

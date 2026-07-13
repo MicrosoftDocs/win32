@@ -48,7 +48,9 @@ The location of the first set bit.
 
 ## Remarks
 
-For a signed integer, the first significant bit is zero for a negative number.
+For a negative signed integer, firstbithigh returns the position of the first bit set to 0.
+
+If no matching bit is found, 0xFFFFFFFF (-1) is returned.
 
 The following overloaded versions are also available:
 

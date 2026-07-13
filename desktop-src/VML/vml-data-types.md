@@ -2,7 +2,7 @@
 title: VML Data Types
 description: VML Data Types
 ms.assetid: A71C9691-BDE9-4455-A2DC-2C67CF5FEF77
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

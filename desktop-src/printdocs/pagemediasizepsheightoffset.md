@@ -2,7 +2,7 @@
 description: Get information about the PageMediaSizePSHeightOffset parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: e86d6a5d-484d-4c80-8c86-7d12d287ee21
 title: PageMediaSizePSHeightOffset
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

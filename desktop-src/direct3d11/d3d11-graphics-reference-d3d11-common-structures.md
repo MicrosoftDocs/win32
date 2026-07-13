@@ -2,7 +2,7 @@
 title: Common Version Structures
 description: This section contains information about the common version structures.
 ms.assetid: d18f5baa-ef4e-41bc-90f2-28788faeb39d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: ShowPopupMenu Method
 description: ShowPopupMenu Method
 ms.assetid: 7f964d53-2594-41b1-9450-1ba7e9f85882
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

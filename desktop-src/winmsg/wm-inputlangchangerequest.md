@@ -3,7 +3,7 @@ description: Posted to the window with the focus when the user chooses a new inp
 ms.assetid: db38c31c-6ae4-4401-82b8-7fd220c1678c
 title: WM_INPUTLANGCHANGEREQUEST message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_INPUTLANGCHANGEREQUEST message

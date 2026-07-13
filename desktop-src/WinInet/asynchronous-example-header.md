@@ -2,7 +2,7 @@
 title: Asynchronous Example Header
 description: The following is the header file for the asynchronous example application.
 ms.assetid: e35b395a-4092-478f-b3e0-b40303b8f591
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

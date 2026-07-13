@@ -2,7 +2,7 @@
 title: Using RPC with Winsock Proxy
 description: Using RPC with Winsock Proxy
 ms.assetid: d36e2737-f6a0-40ce-92e0-058976c08eb6
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

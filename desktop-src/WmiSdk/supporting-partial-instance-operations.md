@@ -3,7 +3,7 @@ description: A provider is not required to support any partial-instance operatio
 ms.assetid: bc498655-ad6d-44f5-912d-9b7ee95825ec
 ms.tgt_platform: multiple
 title: Supporting Partial-Instance Operations
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

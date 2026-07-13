@@ -2,7 +2,7 @@
 description: Example code that shows how to use the GetFileAttributesEx function to retrieve file attributes.
 ms.assetid: f6eaea8a-0cc2-4fb6-bec5-7fb12b20c075
 title: Retrieving and Changing File Attributes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

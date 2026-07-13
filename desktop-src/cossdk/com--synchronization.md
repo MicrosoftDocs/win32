@@ -2,7 +2,7 @@
 description: COM+ Synchronization
 ms.assetid: a348959a-fa23-495c-ba1c-85bc3ae92396
 title: COM+ Synchronization
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

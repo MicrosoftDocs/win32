@@ -2,7 +2,7 @@
 title: Bookmark Event
 description: Bookmark Event
 ms.assetid: 6733cd4e-2ba0-4cff-b68d-abfea284f748
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

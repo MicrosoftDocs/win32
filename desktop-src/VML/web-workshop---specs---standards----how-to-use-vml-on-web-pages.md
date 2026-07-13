@@ -16,7 +16,7 @@ keywords:
 - Vector Markup Language (VML),World Wide Web Consortium (W3C)
 - VML (Vector Markup Language),World Wide Web Consortium (W3C)
 - vector graphics,World Wide Web Consortium (W3C)
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

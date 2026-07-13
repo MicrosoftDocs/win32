@@ -3,7 +3,7 @@ title: Enabling Windows Projected File System
 description: Describes how to enable ProjFS on Windows
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 09/17/2018
-ms.topic: article
+ms.topic: concept-article
 ---
 
 # Enabling Windows Projected File System

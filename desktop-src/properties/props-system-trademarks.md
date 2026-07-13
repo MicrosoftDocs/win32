@@ -2,7 +2,7 @@
 description: The trademark associated with the item, in a string format.
 ms.assetid: bcdec0f4-82af-4a82-8912-a7e658e77244
 title: System.Trademarks
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

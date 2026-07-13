@@ -45,7 +45,7 @@ A fully-qualified path that specifies the location of a disk image file or a dir
 *Job* \[out\]
 </dt> <dd>
 
-A reference to the job (can be null if the task is completed succesfully).
+A reference to the job (can be null if the task is completed successfully).
 
 </dd> </dl>
 

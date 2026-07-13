@@ -2,7 +2,7 @@
 description: Use these guidelines to cover an entire Windows Installer installation by a digital signature.
 ms.assetid: e70eab94-4615-4a73-bccc-e16bd24551f6
 title: Authoring a Fully Verified Signed Installation
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

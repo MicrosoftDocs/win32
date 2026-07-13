@@ -13,7 +13,7 @@ keywords:
 - OpenGL porting from IRIS GL,fog
 - depth cueing
 - fog
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

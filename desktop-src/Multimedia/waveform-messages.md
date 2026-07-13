@@ -8,7 +8,7 @@ keywords:
 - waveform audio,messages
 - waveform audio reference,messages
 - reference for wavefore audio,messages
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

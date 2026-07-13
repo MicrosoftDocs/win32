@@ -2,7 +2,7 @@
 title: Left Property (CommandsWindow Object)
 description: Learn about the Left CommandsWindow object property. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: 03786379-42c2-4f54-99cc-1dc120c45858
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

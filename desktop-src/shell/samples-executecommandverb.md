@@ -1,7 +1,7 @@
 ---
 description: Demonstrates how to implement a Shell verb using the ExecuteCommand method.
 title: Execute Command Verb Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ms.assetid: 0418318A-3E62-4690-AFB3-9B4A391C537E
 api_name: 

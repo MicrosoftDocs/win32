@@ -2,7 +2,7 @@
 title: How to Interact with the Current Selection
 description: The user can select text in a rich edit control by using the mouse or the keyboard.
 ms.assetid: A529792C-DFA7-4BE1-8607-5A1556B64626
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

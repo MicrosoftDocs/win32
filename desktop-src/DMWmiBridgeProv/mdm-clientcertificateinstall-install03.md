@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # MDM\_ClientCertificateInstall\_Install03 class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+
 
 The **MDM\_ClientCertificateInstall\_Install03** class enables the enterprise to set the installation of client certificates.Required for SCEP certificate enrollment. Parent node to group SCEP cert install related request.
 

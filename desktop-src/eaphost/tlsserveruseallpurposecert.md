@@ -2,7 +2,7 @@
 title: TlsServerUseAllPurposeCert
 description: The TlsServerUseAllPurposeCert registry key determines if all-purpose certificates are used for EAP-TLS authentication.
 ms.assetid: a672cecb-6bba-4ba6-b362-f6d5a220184b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

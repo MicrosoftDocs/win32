@@ -2,7 +2,7 @@
 title: Structured Storage Client Sample (StoClien)
 description: The StoClien sample introduces a simple drawing application.
 ms.assetid: fc7a77ab-0568-4917-9905-9dfe6a8595dc
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

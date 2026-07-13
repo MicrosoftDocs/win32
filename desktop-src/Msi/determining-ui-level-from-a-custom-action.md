@@ -2,7 +2,7 @@
 description: A custom action in a UI sequence table or an external executable file may need the current user interface level of the installation.
 ms.assetid: d1ddadd5-b4ec-4c7c-aee4-b2d688a57eb4
 title: Determining UI Level from a Custom Action
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The ASN.1 BMPString data type, called a UNICODE\_STRING in the Certificate Enrollment API, is encoded into a TLV triplet that begins with a Tag byte of 0x1E.
 ms.assetid: 66e4a6d8-2401-4346-9361-e145735cbe19
 title: BMPString
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

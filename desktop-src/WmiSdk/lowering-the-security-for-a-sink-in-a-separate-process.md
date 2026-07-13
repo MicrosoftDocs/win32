@@ -3,7 +3,7 @@ description: Windows Management Instrumentation (WMI) can create the sink to rec
 ms.assetid: 3d3111ac-7d83-48d6-94e4-36cb46a506fa
 ms.tgt_platform: multiple
 title: Lowering the Security for a Sink in a Separate Process
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

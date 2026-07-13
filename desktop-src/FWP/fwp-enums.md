@@ -4,7 +4,7 @@ description: The Windows Filtering Platform (WFP) API Enumerated Types are as fo
 ms.assetid: 39029412-18ce-426a-a79d-cf25ff0dfe0d
 keywords:
 - Windows Filtering Platform API Enumerated Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

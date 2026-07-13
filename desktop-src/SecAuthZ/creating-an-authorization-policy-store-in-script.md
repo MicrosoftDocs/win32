@@ -2,7 +2,7 @@
 description: Instructions for using the Authorization Manager API to create an authorization policy store in Script.
 ms.assetid: bd9a995a-4195-4da4-a194-472448a0cb08
 title: Creating an Authorization Policy Store in Script
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

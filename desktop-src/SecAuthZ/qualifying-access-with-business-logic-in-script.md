@@ -2,7 +2,7 @@
 description: Using business rule scripts in Script to provide run-time logic for checking access.
 ms.assetid: 10c28ecb-3f36-45a8-b037-7038e8927b6b
 title: Qualifying Access with Business Logic in Script
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

@@ -2,7 +2,7 @@
 description: To successfully call the Certificate Services backup and restore API, the caller's token must include the backup and restore privileges.
 ms.assetid: 409a9fad-7141-4ba8-ab3d-fb590366001e
 title: Setting the Backup and Restore Privileges
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

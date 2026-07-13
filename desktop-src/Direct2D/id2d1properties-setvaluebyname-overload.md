@@ -46,7 +46,3 @@ Sets the named property to the given value.
 
 [**ID2D1Properties**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1properties)
 </dt> </dl>
-
-�
-
-�

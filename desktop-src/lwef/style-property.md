@@ -2,7 +2,7 @@
 title: Style Property
 description: Style Property
 ms.assetid: f01d7d51-8a16-4265-b9b7-93b64f4984e3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

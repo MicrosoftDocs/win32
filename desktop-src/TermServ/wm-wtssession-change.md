@@ -179,6 +179,18 @@ Reserved for future use.
 
 Reserved for future use.
 
+</dd> <dt>
+
+<span id="WTS_SESSION_DESKTOP_READY"></span><span id="wts_session_desktop_ready"></span>
+
+<span id="WTS_SESSION_DESKTOP_READY"></span><span id="wts_session_desktop_ready"></span>**WTS\_SESSION\_DESKTOP\_READY** (0xF)
+
+
+</dt> <dd>
+
+The session identified by *lParam* has switched to the user's desktop.
+
+
 </dd> </dl> </dd> <dt>
 
 *lParam* \[in\]

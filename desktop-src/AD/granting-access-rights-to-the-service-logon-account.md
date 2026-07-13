@@ -5,7 +5,7 @@ ms.assetid: 5b756318-f621-4fce-af2b-71ccccbb4e3c
 ms.tgt_platform: multiple
 keywords:
 - Granting Access Rights to the Service Logon Account AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

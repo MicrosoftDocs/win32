@@ -1,5 +1,5 @@
 ---
-title: Filtering Condition Flags (Fwptypes.h)
+title: Filtering condition flags (Fwptypes.h)
 description: The Windows Filtering Platform (WFP) filtering condition flags are each represented by a bitfield.
 ms.assetid: fe879479-331d-42ef-ac2f-634f0c13c21d
 topic_type:
@@ -53,7 +53,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Filtering Condition Flags
+# Filtering condition flags
 
 The Windows Filtering Platform (WFP) filtering condition flags are each represented by a bitfield.
 
@@ -64,9 +64,7 @@ These flags and the filtering layers where they can be used are defined as follo
 <span id="FWP_CONDITION_FLAG_IS_LOOPBACK"></span><span id="fwp_condition_flag_is_loopback"></span>**FWP\_CONDITION\_FLAG\_IS\_LOOPBACK**
 </dt> <dd> <dl> <dt>
 
-
-
-Tests if the network traffic is loopback traffic.
+Tests whether the network traffic is loopback traffic.
 
 Filtering layers:
 
@@ -752,6 +750,18 @@ Filtering layer:
 
 
 </dt> </dl> </dd> </dl>
+
+**FWP_CONDITION_FLAG_IS_CONNECTION_REDIRECTED**
+
+**FWP_CONDITION_FLAG_IS_OUTBOUND_PASS_THRU**
+
+**FWP_CONDITION_FLAG_IS_INBOUND_PASS_THRU**
+
+**FWP_CONDITION_REAUTHORIZE_REASON_EDP_POLICY_CHANGED**
+
+**FWP_CONDITION_REAUTHORIZE_REASON_PROXY_HANDLE_CHANGED**
+
+**FWP_CONDITION_REAUTHORIZE_REASON_CHECK_OFFLOAD**
 
 ## Requirements
 

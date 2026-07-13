@@ -15,7 +15,7 @@ keywords:
 - mixer control
 - multiplexer (MUX)
 - MUX (multiplexer)
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

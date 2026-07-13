@@ -2,7 +2,7 @@
 description: It may be necessary for a service to be stopped prior to and restarted following a restore operation.
 ms.assetid: 111d1281-ad83-49bc-868c-1106a0e25a2a
 title: Stopping Services for Restore by Requesters
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

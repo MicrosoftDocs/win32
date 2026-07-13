@@ -2,7 +2,7 @@
 description: Windows GDI+ exposes a flat API that consists of about 600 functions. These flat API functions are wrapped by the Matrix C++ class.
 ms.assetid: 89be396f-7421-4a58-890b-6c7c34fe090c
 title: Matrix Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

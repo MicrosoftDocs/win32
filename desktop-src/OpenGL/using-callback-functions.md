@@ -7,7 +7,7 @@ keywords:
 - GLU (OpenGL Utility),callback functions
 - OpenGL Utility (GLU),tessellation
 - GLU (OpenGL Utility),tessellation
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

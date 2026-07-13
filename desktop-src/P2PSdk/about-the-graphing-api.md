@@ -2,7 +2,7 @@
 description: The Peer Graphing API allows applications to pass data between peers efficiently and reliably. The core concepts of peer graph technology are the nodes of a peer graph, and event notices.
 ms.assetid: c3530134-bde3-4a9a-b433-4f198430a607
 title: About the Graphing API
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

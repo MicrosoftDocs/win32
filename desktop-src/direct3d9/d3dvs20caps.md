@@ -2,7 +2,7 @@
 description: Vertex shader caps constants. These constants are used by the VS20Caps member of D3DCAPS9.
 ms.assetid: c1321957-4ba5-45d0-984a-4f4267221c59
 title: D3DVS20CAPS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

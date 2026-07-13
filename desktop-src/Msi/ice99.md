@@ -2,7 +2,7 @@
 description: ICE99 verifies that no property name entered in the Directory table duplicates a name reserved for the public or private use of the Windows Installer.
 ms.assetid: a7657c14-6542-4a7b-a8f7-727b109cfc39
 title: ICE99
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -45,6 +45,8 @@ CustomActionData is the same as one of the MSI Public Properties and can cause u
  
 
 To correct this warning you should change the name of CustomActionData.
+
+For a list of properties implemented by Windows Installer, see [Property Reference](property-reference.md).
 
 ## Related topics
 

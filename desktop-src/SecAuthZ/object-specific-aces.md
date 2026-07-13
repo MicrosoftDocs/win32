@@ -2,7 +2,7 @@
 description: Object-specific ACEs are supported for directory service (DS) objects. An object-specific ACE contains a pair of GUIDs that expand the ways in which the ACE can protect an object.
 ms.assetid: 37d353c0-ac22-430f-b5f3-15deb69be24b
 title: Object-specific ACEs
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

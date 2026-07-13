@@ -13,9 +13,9 @@ The **ALLUSERS** property configures the installation context of the package. Th
 
 The value of the **ALLUSERS** property, at installation time, determines the [installation context](installation-context.md).
 
+-   If the **ALLUSERS** property value is not set, the system uses the per-user installation context.
 -   An **ALLUSERS** property value of 1 specifies the per-machine installation context.
--   An **ALLUSERS** property value of an empty string ("") specifies the per-user installation context.
--   If the value of the **ALLUSERS** property is set to 2, the Windows Installer always resets the value of the **ALLUSERS** property to 1 and performs a per-machine installation or it resets the value of the **ALLUSERS** property to an empty string ("") and performs a per-user installation. The value ALLUSERS=2 enables the system to reset the value of **ALLUSERS**, and the installation context, dependent upon the user's privileges and the version of Windows.
+-   The value ALLUSERS=2 enables the system to reset the value of **ALLUSERS**, and the installation context, dependent upon the user's privileges and the version of Windows. If the value of the **ALLUSERS** property is set to 2, the Windows Installer always resets the value of the **ALLUSERS** property to 1 and performs a per-machine installation or it resets the value of the **ALLUSERS** property to an empty string ("") and performs a per-user installation. 
 
     **Windows 7:** Set the **ALLUSERS** property to 2 to use the [**MSIINSTALLPERUSER**](msiinstallperuser.md) property to specify the installation context. Set the **MSIINSTALLPERUSER** property to an empty string ("") for a per-machine installation. Set the **MSIINSTALLPERUSER** property to 1 for a per-user installation. If the package has been written following the development guidelines described in [Single Package Authoring](single-package-authoring.md), users having user access can install into the per-user context without having to provide UAC credentials. If the user has user access privileges, the installer performs a per-machine installation only if Admin credentials are provided to the UAC dialog box.
 

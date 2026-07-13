@@ -2,7 +2,7 @@
 description: The people tags on an image.
 ms.assetid: 7778abb3-7a1c-4963-8793-ff9d326226d9
 title: System.Photo.PeopleNames
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

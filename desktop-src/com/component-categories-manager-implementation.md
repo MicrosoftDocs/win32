@@ -2,7 +2,7 @@
 title: Component Categories Manager Implementation
 description: As the number of available components grows, it becomes increasingly difficult to manage these components. In terms of the interfaces they expose as well as the tasks they perform, many components offer similar functionality.
 ms.assetid: c2c67129-bf19-465b-8354-193922aeafaa
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

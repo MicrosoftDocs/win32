@@ -1,8 +1,8 @@
 ---
 title: DXCore programming guide
 description: Guidance for programming with DXCore.
-ms.topic: article
-ms.date: 06/20/2019
+ms.topic: reference
+ms.date: 08/17/2023
 ---
 
 # DXCore programming guide
@@ -18,5 +18,5 @@ DXCore is an adapter enumeration API for DirectX devices, so some of its facilit
 
 ## Related topics
 
-* [DXCore Reference](./dxcore-reference.md)
+* [DXCore reference](./dxcore-reference.md)
 * [Direct3D 12 graphics](../direct3d12/direct3d-12-graphics.md)

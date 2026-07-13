@@ -2,7 +2,7 @@
 description: Transform Attributes
 ms.assetid: 9beb1306-1378-499c-b9e1-c768a7b4c8bc
 title: Transform Attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

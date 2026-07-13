@@ -2,7 +2,7 @@
 description: IP multicast falls into the category of nonrooted data plane and nonrooted control plane.
 ms.assetid: 474a1c7f-0ece-4192-a2d9-6e2f3df2ac02
 title: IP Multicast
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

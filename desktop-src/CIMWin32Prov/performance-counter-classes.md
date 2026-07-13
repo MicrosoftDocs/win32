@@ -3,7 +3,7 @@ description: Performance Counter classes allow script and program access to syst
 ms.assetid: 71746363-6fec-4344-8c5e-5cc057ebdf76
 ms.tgt_platform: multiple
 title: Performance Counter Classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

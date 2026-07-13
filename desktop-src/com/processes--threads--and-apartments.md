@@ -2,7 +2,7 @@
 title: Processes, Threads, and Apartments
 description: A process is a collection of virtual memory space, code, data, and system resources.
 ms.assetid: cb62412a-d079-40f9-89dc-cce0bf3889af
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -32,7 +32,7 @@ In general, the simplest way to view the COM threading architecture is to think 
 There are two types of apartments: [single-threaded apartments](single-threaded-apartments.md), and [multithreaded apartments](multithreaded-apartments.md).
 
 -   Single-threaded apartments consist of exactly one thread, so all COM objects that live in a single-threaded apartment can receive method calls only from the one thread that belongs to that apartment. All method calls to a COM object in a single-threaded apartment are synchronized with the windows message queue for the single-threaded apartment's thread. A process with a single thread of execution is simply a special case of this model.
--   Multithreaded apartments consist of one or more threads, so all COM objects that live in an multithreaded apartment can receive method calls directly from any of the threads that belong to the multithreaded apartment. Threads in a multithreaded apartment use a model called *free-threading*. Calls to COM objects in a multithreaded apartment are synchronized by the objects themselves.
+-   Multithreaded apartments consist of one or more threads, so all COM objects that live in a multithreaded apartment can receive method calls directly from any of the threads that belong to the multithreaded apartment. Threads in a multithreaded apartment use a model called *free-threading*. Calls to COM objects in a multithreaded apartment are synchronized by the objects themselves.
 
 > [!Note]  
 > For a description of communication between single-threaded apartments and multithreaded apartments within the same process, see [Single-Threaded and Multithreaded Communication](single-threaded-and-multithreaded-communication.md).

@@ -2,7 +2,7 @@
 description: COM+ Events
 ms.assetid: 1e0570ae-9099-465a-9133-72aa7d574932
 title: COM+ Events
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

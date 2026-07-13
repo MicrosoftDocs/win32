@@ -2,7 +2,7 @@
 description: 'The ReindexMatchingUrls code sample demonstrates how to provide three ways to specify the files to re-index: URLs that match a file type, mime type, or a specified WHERE clause.'
 ms.assetid: f7b3a8a6-b464-46d4-a99c-fc56eea9b1ec
 title: ReindexMatchingUrls
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,7 @@ This topic contains the following sections.
 | Windows     | Windows 7, 8.1, or 10    |
 | Windows SDK | 7.0 or greater           |
 
-## Downloading the Sample
+## Downloading the sample
 
 This sample is available in the following location.
 
@@ -36,7 +36,7 @@ This sample is available in the following location.
 > [!NOTE]  
 > For all versions of Windows, including Windows 7, it is recommended to download the samples directly from GitHub for the most up to date version.
 
-## Building the Sample
+## Building the sample
 
 1. Open Windows Explorer and navigate to the **ReindexMatchingUrls** project directory. For example, the full default installation path is `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\WinUI\WindowsSearch\ReindexMatchingUrls`.
 2. Double-click the icon for the Reindex.sln file to open the project in Visual Studio.
@@ -46,7 +46,7 @@ This sample is available in the following location.
 
 3. From the **Build** menu, select **Build Solution**.
 
-## Running the Sample
+## Running the sample
 
 1. Navigate to the directory that contains the new executable, using the Command Prompt window or Windows Explorer.
 2. At the command prompt, enter `Reindex.exe`, or from Windows Explorer, double-click the icon for Reindex.exe.
@@ -67,6 +67,6 @@ This sample is available in the following location.
 
 [**PRIORITIZE\_FLAGS**](/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags)
 
-### Other Samples
+### Other samples
 
 [Search Code Samples](-search-samples-ovw.md)

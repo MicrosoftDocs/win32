@@ -5,7 +5,7 @@ ms.assetid: 454dc372-47b0-457d-8660-644fcfa59be8
 ms.tgt_platform: multiple
 keywords:
 - Setting a Control Access Right ACE in an Object's ACL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

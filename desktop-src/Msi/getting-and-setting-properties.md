@@ -2,7 +2,7 @@
 description: To use properties in your installation, you can get and set property values from programs using MsiGetProperty and MsiSetProperty and include as part of conditional statements in the installation database.
 ms.assetid: 65fe46d7-16b6-46ef-a440-73f954b03105
 title: Getting and Setting Properties (Windows Installer)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

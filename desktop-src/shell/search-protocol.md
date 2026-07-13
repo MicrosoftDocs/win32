@@ -1,7 +1,7 @@
 ---
 description: 'The search: application protocol is an extensible convention for calling the desktop search application on Windows Vista with Service Pack 1 (SP1) and later versions.'
 title: Using the search Protocol
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ms.assetid: 91a1ec25-f6ab-4377-8478-20bc51a1d5df
 api_name: 

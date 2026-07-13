@@ -2,7 +2,7 @@
 description: The digital zoom ratio when the image was shot.
 ms.assetid: 1164e2c9-0864-4520-a3be-0c29a5b70ba4
 title: System.Photo.DigitalZoom
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

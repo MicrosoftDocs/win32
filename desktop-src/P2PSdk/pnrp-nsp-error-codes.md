@@ -2,7 +2,7 @@
 description: PNRP NSP Error Codes
 ms.assetid: adf40b1a-c5d6-418d-a012-cf6ba7d4fa24
 title: PNRP NSP Error Codes
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 

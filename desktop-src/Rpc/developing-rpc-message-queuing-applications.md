@@ -4,7 +4,7 @@ description: Very little effort is necessary to take advantage of the MSMQ trans
 ms.assetid: 1ea97df8-cdf5-43b8-88aa-9e8fa6ae845a
 keywords:
 - Remote Procedure Call RPC , tasks, developing message queuing applications
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

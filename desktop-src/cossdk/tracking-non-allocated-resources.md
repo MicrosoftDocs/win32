@@ -2,7 +2,7 @@
 description: Tracking Non-Allocated Resources
 ms.assetid: ebaca876-5249-4b6b-b0d5-08f098e3f5f5
 title: Tracking Non-Allocated Resources
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

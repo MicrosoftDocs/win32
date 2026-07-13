@@ -3,7 +3,7 @@ title: Display Interfaces in Active Directory Domain Services
 description: Get links to display interfaces in Active Directory Domain Services, such as ICommonQuery and IDsBrowseDomainTree.
 ms.assetid: f53d4425-5496-45f8-a09b-f163b63a29c8
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

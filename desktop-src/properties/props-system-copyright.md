@@ -2,7 +2,7 @@
 description: The copyright information stored as a string.
 ms.assetid: 95efb9c4-af3d-4a24-9670-60bacf61dfce
 title: System.Copyright
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

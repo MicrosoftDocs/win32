@@ -511,5 +511,7 @@
           href: /windows/win32/api/http/ne-http-http_service_config_cache_key
         - name: "HTTP_SERVICE_CONFIG_TIMEOUT_KEY"
           href: /windows/win32/api/http/ne-http-http_service_config_timeout_key
-  - name: "HTTP Server Sample Application"
+  - name: "HTTP Server code example"
     href: http-server-sample-application.md
+  - name: "High-performance HTTP Server code example"
+    href: http-server-hp-code-example.md

@@ -3,7 +3,7 @@ description: In WMI, you can define statistical performance data based on data i
 ms.assetid: 5552d5fc-df8c-4353-8593-c106ee19dc84
 ms.tgt_platform: multiple
 title: Obtaining Statistical Performance Data
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

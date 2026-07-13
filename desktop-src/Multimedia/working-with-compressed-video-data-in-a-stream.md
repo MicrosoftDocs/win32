@@ -2,7 +2,7 @@
 title: Working with Compressed Video Data in a Stream
 description: Working with Compressed Video Data in a Stream
 ms.assetid: b701e072-f162-438f-b607-aea7491a02f9
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

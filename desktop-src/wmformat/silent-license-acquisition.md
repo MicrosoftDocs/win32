@@ -13,7 +13,7 @@ keywords:
 - Client Extended APIs,silent license acquisition
 - silent license acquisition
 - licenses,silent license acquisition
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

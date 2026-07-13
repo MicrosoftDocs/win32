@@ -3,7 +3,7 @@ title: Child Sessions
 description: Beginning with Windows Server 2012 and Windows 8, Remote Desktop supports the concept of a child session, which is a special loopback Remote Desktop session that is tied to a user's existing session.
 ms.assetid: 65B9DB67-4EE8-40B5-B465-CA425792C62B
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

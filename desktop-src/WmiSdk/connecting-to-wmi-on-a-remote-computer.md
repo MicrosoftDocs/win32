@@ -3,7 +3,7 @@ description: Describes how scripts, applications, and providers can establish co
 ms.assetid: 16b00ee3-f721-4912-9e8e-2fdbc897a813
 ms.tgt_platform: multiple
 title: Connecting to WMI on a Remote Computer
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

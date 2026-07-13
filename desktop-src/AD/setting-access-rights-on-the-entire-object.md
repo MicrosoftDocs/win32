@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Setting Access Rights on the Entire Object AD
 - objects AD , setting access rights on
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

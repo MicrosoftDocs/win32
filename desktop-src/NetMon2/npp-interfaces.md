@@ -2,7 +2,7 @@
 description: Network packet providers (NPPs) provide COM interfaces that are called by NPP applications, and Network Monitor.
 ms.assetid: 101ce722-3101-4f50-b492-dad8b68a7aaf
 title: NPP Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Edge-detection effect
 description: Filters out the content of an image, leaving lines at the edges of contrasting sections of the image.
 ms.assetid: d22868cf-95fe-690e-66ac-268d7e116aee
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

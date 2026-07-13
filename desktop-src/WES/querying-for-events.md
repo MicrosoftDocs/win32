@@ -2,7 +2,7 @@
 title: Querying for Events
 description: You can query for events from a channel or a log file.
 ms.assetid: 929bedbf-6dce-428e-b2c0-de9dcfe4531b
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

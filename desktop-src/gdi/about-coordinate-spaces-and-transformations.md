@@ -2,7 +2,7 @@
 description: 'Coordinate spaces and transformations are used by the following types of applications:'
 ms.assetid: 29a9f133-6c21-40dc-84b5-095dd5d4526b
 title: About Coordinate Spaces and Transformations
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

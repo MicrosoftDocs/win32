@@ -5,7 +5,7 @@ ms.assetid: fb1ad9f5-af2f-4ad1-a58b-6439cca6fd23
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , setting an ACE on a directory object
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

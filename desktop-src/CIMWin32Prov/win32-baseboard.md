@@ -709,10 +709,6 @@ The **Win32\_BaseBoard** class is derived from [**CIM\_Card**](cim-card.md) whic
 
 ## Examples
 
-The [List Computer Baseboard Properties](https://Gallery.TechNet.Microsoft.Com/932346d8-4a23-4dac-bdbd-01fc14d526f8) Perl sample returns information about the computer baseboard.
-
-The [List Computer Baseboard Properties](https://Gallery.TechNet.Microsoft.Com/359772a2-c70e-45e9-bdad-f79efe2420a9) PowerShell sample returns information about the computer baseboard.
-
 The following VBScript sample also returns information about the computer baseboard.
 
 

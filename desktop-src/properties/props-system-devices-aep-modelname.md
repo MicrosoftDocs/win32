@@ -2,7 +2,7 @@
 description: Device Association Endpoint's Model Name.
 ms.assetid: b6bf8166-5ff0-422c-882f-aae717d66010
 title: System.Devices.Aep.ModelName
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

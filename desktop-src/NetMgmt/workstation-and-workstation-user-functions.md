@@ -2,7 +2,7 @@
 title: Workstation and Workstation User Functions
 description: The network management workstation functions perform administrative tasks on a local or remote workstation.
 ms.assetid: cc400f43-297b-4ff4-8353-b268839c48b8
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

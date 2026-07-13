@@ -2,7 +2,7 @@
 title: UI_PKEY_ContextAvailable
 description: Identifies the UI\_PKEY\_ContextAvailable property.
 ms.assetid: d3cd551d-e71e-4b49-a8b6-f3cd25cf2535
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

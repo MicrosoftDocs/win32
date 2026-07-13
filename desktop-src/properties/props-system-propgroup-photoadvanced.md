@@ -2,7 +2,7 @@
 description: Read about the System.PropGroup.PhotoAdvanced property. Do not use this property for getting or setting values. It is intended only as a marker.
 ms.assetid: ae4024d2-ffb8-46a3-a35b-08f9c9dfab8c
 title: System.PropGroup.PhotoAdvanced
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

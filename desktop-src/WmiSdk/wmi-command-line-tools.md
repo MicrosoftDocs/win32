@@ -3,7 +3,7 @@ description: WMI has several command line tools used by administrators and WMI p
 ms.assetid: 4766ca5b-81da-4167-b4f1-a215178a828a
 ms.tgt_platform: multiple
 title: WMI Command-line Tools
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

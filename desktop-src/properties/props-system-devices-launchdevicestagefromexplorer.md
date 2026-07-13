@@ -2,7 +2,7 @@
 description: Indicates whether to launch Device Stage.
 ms.assetid: D75A6D42-D4BB-4168-AD91-E2B8BE847128
 title: System.Devices.LaunchDeviceStageFromExplorer
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

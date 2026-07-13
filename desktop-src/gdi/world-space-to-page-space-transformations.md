@@ -2,7 +2,7 @@
 description: World-Space to Page-Space Transformations
 ms.assetid: 5563bc5f-8150-4ec7-a60c-d46ee6bf35cd
 title: World-Space to Page-Space Transformations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

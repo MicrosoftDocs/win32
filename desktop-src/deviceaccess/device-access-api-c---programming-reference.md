@@ -2,8 +2,8 @@
 title: Device Access API C++ Programming Reference
 description: Provides reference pages for the functions and interfaces in the Device Access API.
 ms.assetid: 8B2DD325-53D6-4221-A175-88754242D7A3
-ms.topic: article
-ms.date: 02/11/2020
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Device Access API C++ Programming Reference

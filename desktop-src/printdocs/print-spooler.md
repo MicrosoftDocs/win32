@@ -2,7 +2,7 @@
 description: The primary component of the printing interface is the print spooler.
 ms.assetid: 36ffb001-78e2-4fa0-8241-3891493ac02d
 title: Print Spooler
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

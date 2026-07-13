@@ -2,7 +2,7 @@
 title: Network Tracing in Windows 7 Architecture
 description: The illustration below shows the basic network tracing architecture in Windows 7.
 ms.assetid: b3023469-0f98-451c-b39f-c3eae771eacc
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

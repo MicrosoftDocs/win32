@@ -2,7 +2,7 @@
 description: 'Example C Program: Working with Key Identifiers'
 ms.assetid: 5ca160fd-8a63-46fa-99ce-e01a6acb81f4
 title: 'Example C Program: Working with Key Identifiers'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

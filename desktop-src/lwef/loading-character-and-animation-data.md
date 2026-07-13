@@ -2,7 +2,7 @@
 title: Loading Character and Animation Data
 description: Loading Character and Animation Data
 ms.assetid: cd674513-fd68-49bb-a43f-12b07adddf3d
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

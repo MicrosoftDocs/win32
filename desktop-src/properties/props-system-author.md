@@ -2,7 +2,7 @@
 description: Represents the author or authors of the document.
 ms.assetid: 07a411c2-9e88-4d14-b9f7-e3a5d8d1630e
 title: System.Author
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

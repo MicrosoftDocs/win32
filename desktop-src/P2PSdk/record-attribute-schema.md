@@ -2,7 +2,7 @@
 description: Records can have application-specific attributes that are a sequence of name or value pairs represented as an XML string in the pszAttributes member of the PEER\_RECORD structure.
 ms.assetid: 2991af9b-da32-4915-b4d6-575e3faac04e
 title: Record Attribute Schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

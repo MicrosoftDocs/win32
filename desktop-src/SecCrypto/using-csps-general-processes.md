@@ -2,7 +2,7 @@
 description: When using cryptographic service providers CSPs, keep the following conventions in mind.
 ms.assetid: 70053b89-4d39-4a86-985a-0e8f05fbc9c0
 title: 'Using CSPs: General Processes'
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

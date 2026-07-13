@@ -2,7 +2,7 @@
 description: Every side-by-side assembly must have a version.
 ms.assetid: 0b78ecf6-fbff-4172-9b0d-09f993666db1
 title: Assembly Versions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

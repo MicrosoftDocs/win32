@@ -3,7 +3,7 @@ title: Host bus adapter (HBA) API reference
 description: The following sections describe the Host bus adapter (HBA) API in detail.
 keywords:
 - Host bus adapter (HBA) API reference
-ms.topic: article
+ms.topic: reference
 ms.date: 08/01/2022
 ---
 

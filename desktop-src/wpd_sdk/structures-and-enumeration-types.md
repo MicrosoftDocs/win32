@@ -2,7 +2,7 @@
 description: Structures and Enumeration Types
 ms.assetid: 1418624b-29fd-4c84-8ea2-7dcd5a63b75c
 title: Structures and Enumeration Types (WPD API)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

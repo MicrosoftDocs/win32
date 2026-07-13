@@ -1438,7 +1438,7 @@ There was a configuration error in the graph.
 
 
 
-There was a internal configuration error in the graph.
+There was an internal configuration error in the graph.
 
 
 </dt> </dl> </dd> <dt>

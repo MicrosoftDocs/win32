@@ -2,7 +2,7 @@
 description: You can use the Authorization Manager API in Script to control access to application resources.
 ms.assetid: 96852608-2362-419a-beb8-c4b9d0363d6e
 title: Using Authorization in Script
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

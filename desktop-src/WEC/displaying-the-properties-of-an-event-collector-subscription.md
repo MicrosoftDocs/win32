@@ -3,8 +3,8 @@ title: Display event collector subscription properties
 description: You can view useful information about an Event Collector subscription and its event sources by retrieving and displaying the properties of the subscription.
 ms.assetid: 984e21cf-3671-4aca-9e8e-bcad1fa2f02c
 ms.tgt_platform: multiple
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Display event collector subscription properties
@@ -757,7 +757,7 @@ std::wstring ConvertEcSubscriptionType(DWORD code)
     if (EcSubscriptionTypeCollectorInitiated == code)
         return L"Collector Initiated";
     else if (EcSubscriptionTypeSourceInitiated == code)
-        return L"Souce Initiated";
+        return L"Source Initiated";
     else
         return L"Unknown";
 }

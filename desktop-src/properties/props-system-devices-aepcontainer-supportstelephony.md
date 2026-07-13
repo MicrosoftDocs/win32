@@ -2,7 +2,7 @@
 description: Indicates if the Device Association Endpoint Container Supports Telephony.
 ms.assetid: 01bf097a-0e02-4af9-94e3-e2b614875f72
 title: System.Devices.AepContainer.SupportsTelephony
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

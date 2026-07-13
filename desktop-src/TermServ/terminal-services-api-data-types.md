@@ -3,7 +3,7 @@ title: Remote Desktop Services API Data Types
 description: Remote Desktop Services defines the following data types.
 ms.assetid: 5cfbcce9-5f9c-4b90-ba88-c0a1dcd11dac
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: RootDSE (ADSI)
 description: Each directory server has a unique entry called RootDSE. It provides data about the server, such as its capabilities, the LDAP version it supports, and the naming contexts it uses.
 ms.assetid: bb6b7676-7042-453f-83f9-b0dd2e377a13
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -13,6 +13,7 @@ Each directory server has a unique entry called **RootDSE**. It provides data ab
 
 For example, to create a script, or application, that can run on any Windows domain environment. You can specify either the distinguished name, server name, or domain name when connecting to Active Directory. If you do not have this information, you can then use the **RootDSE** object to establish a connection. The following code example changes the domain description in any domain.
 
+The code must include a reference to the Type Library (Active DS Type Library).
 
 ```VB
 Set rootDSE = GetObject("LDAP://RootDSE")

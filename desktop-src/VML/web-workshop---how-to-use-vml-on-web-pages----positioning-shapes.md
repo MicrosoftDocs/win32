@@ -34,7 +34,7 @@ keywords:
 - VML (Vector Markup Language),flip position style
 - vector graphics,flip position style
 - flip position style
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Example code that shows how to use basic NTFS file system streams.
 ms.assetid: 9cd5f418-404c-40f5-aa51-ef4d2a5f238e
 title: Using Streams
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

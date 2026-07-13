@@ -118,8 +118,12 @@
         href: /windows/desktop/api/memoryapi/nf-memoryapi-allocateuserphysicalpagesnuma
       - name: "BadMemoryCallbackRoutine"
         href: /previous-versions/windows/desktop/legacy/hh691011(v=vs.85)
+      - name: "CopyDeviceMemory"
+        href: winbase-copydevicememory.md
       - name: "CopyMemory"
         href: /previous-versions/windows/desktop/legacy/aa366535(v=vs.85)
+      - name: "CopyVolatileMemory"
+        href: winbase-copyvolatilememory.md
       - name: "CreateEnclave"
         href: /windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave
       - name: "CreateFileMappingA"
@@ -134,10 +138,18 @@
         href: /windows/desktop/api/WinBase/nf-winbase-createfilemappingnumaa
       - name: "CreateMemoryResourceNotification"
         href: /windows/desktop/api/memoryapi/nf-memoryapi-creatememoryresourcenotification
+      - name: "_crt_atexit"
+        href: crtatexit.md
+      - name: "__CxxFrameHandler3"
+        href: cxxframehandler3.md
       - name: "DiscardVirtualMemory"
         href: /windows/desktop/api/memoryapi/nf-memoryapi-discardvirtualmemory
+      - name: "FillDeviceMemory"
+        href: winbase-filldevicememory.md
       - name: "FillMemory"
         href: /previous-versions/windows/desktop/legacy/aa366561(v=vs.85)
+      - name: "FillVolatileMemory"
+        href: winbase-fillvolatilememory.md
       - name: "FlushViewOfFile"
         href: /windows/desktop/api/memoryapi/nf-memoryapi-flushviewoffile
       - name: "FreeUserPhysicalPages"
@@ -264,6 +276,8 @@
         href: /windows/desktop/api/WinBase/nf-winbase-mapuserphysicalpagesscatter
       - name: "MoveMemory"
         href: /previous-versions/windows/desktop/legacy/aa366788(v=vs.85)
+      - name: "MoveVolatileMemory"
+        href: winbase-movevolatilememory.md
       - name: "OpenFileMapping"
         href: /windows/desktop/api/WinBase/nf-winbase-openfilemappinga
       - name: "OpenFileMappingFromApp"
@@ -290,12 +304,26 @@
         href: /windows/desktop/api/WinNT/nc-winnt-psecure_memory_cache_callback
       - name: "SecureZeroMemory"
         href: /previous-versions/windows/desktop/legacy/aa366877(v=vs.85)
+      - name: "SecureZeroMemory2"
+        href: winbase-securezeromemory2.md
       - name: "SetProcessDEPPolicy"
         href: /windows/desktop/api/WinBase/nf-winbase-setprocessdeppolicy
       - name: "SetProcessValidCallTargets"
         href: /windows/desktop/api/memoryapi/nf-memoryapi-setprocessvalidcalltargets
       - name: "SetSystemFileCacheSize"
         href: /windows/desktop/api/memoryapi/nf-memoryapi-setsystemfilecachesize
+      - name: "__std_exception_copy"
+        href: stdexceptioncopy.md
+      - name: "__std_exception_destroy"
+        href: stdexceptiondestroy.md
+      - name: "__stdio_common_vsnprintf_s"
+        href: stdiocommonvsnprintfs.md
+      - name: "__stdio_common_vswprintf"
+        href: stdiocommonvswprintf.md
+      - name: "__std_terminate"
+        href: stdterminate.md
+      - name: "__std_type_info_destroy_list"
+        href: stdtypeinfodestroylist.md
       - name: "UnmapViewOfFile"
         href: /windows/desktop/api/memoryapi/nf-memoryapi-unmapviewoffile
       - name: "UnmapViewOfFile2"
@@ -336,8 +364,12 @@
         href: /windows/desktop/api/memoryapi/nf-memoryapi-virtualunlock
       - name: "WriteProcessMemory"
         href: /windows/desktop/api/MemoryApi/nf-memoryapi-writeprocessmemory
+      - name: "ZeroDeviceMemory"
+        href: winbase-zerodevicememory.md
       - name: "ZeroMemory"
         href: /previous-versions/windows/desktop/legacy/aa366920(v=vs.85)
+      - name: "ZeroVolatileMemory"
+        href: winbase-zerovolatilememory.md
       - name: "AtlThunk_AllocateData"
         href: /windows/desktop/api/atlthunk/nf-atlthunk-atlthunk_allocatedata
       - name: "AtlThunk_InitData"
@@ -384,72 +416,3 @@
         href: etw-heap-event-free.md
       - name: "ETW_HEAP_EVENT_REALLOC"
         href: etw-heap-event-realloc.md
-- name: "Trusted Execution"
-  href: trusted-execution.md
-  items: 
-  - name: "Trusted Execution Reference"
-    href: trusted-execution-reference.md
-    items: 
-    - name: "Trusted Execution Enumerations"
-      href: trusted-execution-enumerations.md
-      items: 
-      - name: "ENCLAVE_SEALING_IDENTITY_POLICY"
-        href: /windows/desktop/api/ntenclv/ne-ntenclv-enclave_sealing_identity_policy
-    - name: "Trusted Execution Functions"
-      href: trusted-execution-functions.md
-      items: 
-      - name: "CallEnclave"
-        href: /windows/desktop/api/Enclaveapi/nf-enclaveapi-callenclave
-      - name: "CreateEnclave"
-        href: /windows/desktop/api/enclaveapi/nf-enclaveapi-createenclave
-      - name: "DeleteEnclave"
-        href: /windows/desktop/api/Enclaveapi/nf-enclaveapi-deleteenclave
-      - name: "EnclaveGetAttestationReport"
-        href: /windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavegetattestationreport
-      - name: "EnclaveGetEnclaveInformation"
-        href: /windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavegetenclaveinformation
-      - name: "EnclaveSealData"
-        href: /windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclavesealdata
-      - name: "EnclaveUnsealData"
-        href: /windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclaveunsealdata
-      - name: "EnclaveVerifyAttestationReport"
-        href: /windows/desktop/api/winenclaveapi/nf-winenclaveapi-enclaveverifyattestationreport
-      - name: "InitializeEnclave"
-        href: /windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave
-      - name: "IsEnclaveTypeSupported"
-        href: /windows/desktop/api/enclaveapi/nf-enclaveapi-isenclavetypesupported
-      - name: "LoadEnclaveData"
-        href: /windows/desktop/api/enclaveapi/nf-enclaveapi-loadenclavedata
-      - name: "LoadEnclaveImage"
-        href: /windows/desktop/api/Enclaveapi/nf-enclaveapi-loadenclaveimagew
-      - name: "TerminateEnclave"
-        href: /windows/desktop/api/Enclaveapi/nf-enclaveapi-terminateenclave
-    - name: "Trusted Execution Structures"
-      href: trusted-execution-structures.md
-      items: 
-      - name: "ENCLAVE_CREATE_INFO_SGX"
-        href: /windows/win32/api/winnt/ns-winnt-enclave_create_info_sgx
-      - name: "ENCLAVE_CREATE_INFO_VBS"
-        href: /windows/win32/api/winnt/ns-winnt-enclave_create_info_vbs
-      - name: "ENCLAVE_IDENTITY"
-        href: /windows/desktop/api/ntenclv/ns-ntenclv-enclave_identity
-      - name: "ENCLAVE_INFORMATION"
-        href: /windows/desktop/api/ntenclv/ns-ntenclv-enclave_information
-      - name: "ENCLAVE_INIT_INFO_SGX"
-        href: /windows/win32/api/winnt/ns-winnt-enclave_init_info_sgx
-      - name: "ENCLAVE_INIT_INFO_VBS"
-        href: /windows/win32/api/winnt/ns-winnt-enclave_init_info_vbs
-      - name: "IMAGE_ENCLAVE_CONFIG32"
-        href: /windows/win32/api/winnt/ns-winnt-image_enclave_config32
-      - name: "IMAGE_ENCLAVE_CONFIG64"
-        href: /previous-versions/windows/desktop/legacy/mt844244(v=vs.85)
-      - name: "IMAGE_ENCLAVE_IMPORT"
-        href: /windows/win32/api/winnt/ns-winnt-image_enclave_import
-      - name: "VBS_ENCLAVE_REPORT"
-        href: /windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report
-      - name: "VBS_ENCLAVE_REPORT_MODULE"
-        href: /windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_module
-      - name: "VBS_ENCLAVE_REPORT_PKG_HEADER"
-        href: /windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_pkg_header
-      - name: "VBS_ENCLAVE_REPORT_VARDATA_HEADER"
-        href: /windows/desktop/api/ntenclv/ns-ntenclv-vbs_enclave_report_vardata_header

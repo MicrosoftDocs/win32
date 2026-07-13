@@ -2,7 +2,7 @@
 description: The denominator of PKEY\_GPS\_Altitude.
 ms.assetid: 75eaec65-d042-4873-8be4-9778e2d0a432
 title: System.GPS.AltitudeDenominator
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

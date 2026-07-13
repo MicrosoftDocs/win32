@@ -2,7 +2,7 @@
 description: What's New for Windows Sockets
 ms.assetid: a6f774a7-09fd-4fe9-884e-b7868bcac086
 title: What's New for Windows Sockets
-ms.topic: article
+ms.topic: whats-new
 ms.date: 05/31/2018
 ---
 

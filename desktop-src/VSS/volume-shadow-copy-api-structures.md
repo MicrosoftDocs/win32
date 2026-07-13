@@ -2,7 +2,7 @@
 description: The following structures are defined in the Volume Shadow Copy API.
 ms.assetid: 20cf12e4-4611-4e39-9f6f-e29f15e58b36
 title: Volume Shadow Copy API Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

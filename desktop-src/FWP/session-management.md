@@ -2,7 +2,7 @@
 title: Session Management
 description: Session Management
 ms.assetid: F4987435-2D6D-460B-801D-EC71E9A9BB91
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

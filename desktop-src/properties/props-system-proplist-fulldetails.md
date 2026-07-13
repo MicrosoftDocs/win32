@@ -2,7 +2,7 @@
 description: The list of all the properties to show in the details page.
 ms.assetid: 7e784599-4020-4c81-84df-2a6d0fec4aa1
 title: System.PropList.FullDetails
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

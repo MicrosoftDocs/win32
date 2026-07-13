@@ -2,7 +2,7 @@
 description: The VBScript file WiLangID.vbs is provided in the Windows SDK Components for Windows Installer Developers.
 ms.assetid: 319e9ffd-ff9f-4b4c-913e-2c571f2ec9ee
 title: Manage Language and Codepage
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

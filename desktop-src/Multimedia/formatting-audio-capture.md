@@ -4,7 +4,7 @@ description: Formatting Audio Capture
 ms.assetid: 3bbe34a6-8fd6-4780-b5af-fcf3d34ef701
 keywords:
 - capSetAudioFormat macro
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

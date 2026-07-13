@@ -2,7 +2,7 @@
 description: This section discusses compressed and uncompressed sources and adding cabinet files to a Windows Installer installation.
 ms.assetid: 3b7523e5-7000-4211-8040-8f4980885ca7
 title: Using Cabinets and Compressed Sources
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: IPropertyBag and IPersistPropertyBag
 description: IPropertyBag and IPersistPropertyBag
 ms.assetid: 128e847b-99f9-44a3-9176-56eb34f3dddc
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

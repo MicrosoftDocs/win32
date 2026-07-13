@@ -2,7 +2,7 @@
 description: Programmers and system administrators use service configuration programs to modify or query the database of installed services.
 ms.assetid: 8ab97a4b-a4c2-4123-b5f5-27029bc3eb15
 title: Service Configuration Programs
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

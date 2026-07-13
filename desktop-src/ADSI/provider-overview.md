@@ -5,7 +5,7 @@ ms.assetid: 6371080e-ca69-4ce7-8c41-fedc563a17b0
 ms.tgt_platform: multiple
 keywords:
 - Provider Overview ADSI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

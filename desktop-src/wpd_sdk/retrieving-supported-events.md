@@ -2,7 +2,7 @@
 description: Retrieving Supported Service Events
 ms.assetid: 1bf3aa08-7ffc-417f-a67e-9eee042337b9
 title: Retrieving Supported Service Events
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

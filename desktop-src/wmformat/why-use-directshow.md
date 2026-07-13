@@ -17,7 +17,7 @@ keywords:
 - DirectShow,Windows Driver Model (WDM)
 - Windows Driver Model (WDM)
 - WDM (Windows Driver Model)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

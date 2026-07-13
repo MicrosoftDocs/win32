@@ -3,7 +3,7 @@ description: UInt32Type Simple Type (Performance Counters) - Defines an unsigned
 ms.assetid: 48df484d-d663-42fa-aaec-51c463bb5350
 title: UInt32Type Simple Type (Performance Counters)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - kbSyntax
 api_name: 

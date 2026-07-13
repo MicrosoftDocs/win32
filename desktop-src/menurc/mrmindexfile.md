@@ -1,6 +1,6 @@
 ---
 title: MrmIndexFile function (MrmResourceIndexer.h)
-description: Indexes a resource file belonging to a UWP app. Takes an explicit (but optional) list of resource qualifiers. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
+description: Adds a file resource to a Resource Indexer.
 ms.assetid: C9F245B4-D2D3-4863-BB64-72619FC73D3C
 keywords:
 - MrmIndexFile function Menus and Other Resources
@@ -18,9 +18,10 @@ ms.date: 05/31/2018
 
 # MrmIndexFile function
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+Adds a file resource to a Resource Indexer. Note that it is the resource name that is indexed, not the file.
+In other words, this function does not search the filename (or file contents) looking for things to index.
 
-Indexes a resource file belonging to a UWP app. Takes an explicit (but optional) list of resource qualifiers. For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
+See [File resources in MRM](mrmfiles.md) for more info. 
 
 ## Syntax
 
@@ -45,7 +46,9 @@ HRESULT HRESULT MrmIndexFile(
 
 Type: **[**MrmResourceIndexerHandle**](mrmresourceindexerhandle.md)**
 
-A handle identifying the resource indexer that will index the resource file.
+A handle identifying the resource indexer to add the resource to. This handle is returned via a call to 
+[**MrmCreateResourceIndexer**](mrmcreateresourceindexer.md) or one of the related **MrmCreateResourceIndexer...*** functions.
+
 
 </dd> <dt>
 
@@ -54,7 +57,8 @@ A handle identifying the resource indexer that will index the resource file.
 
 Type: **PCWSTR**
 
-The resource URI to assign to the resource. The path will be used as the resource map subtree name for this resource when you later generate a PRI file from this resource indexer.
+The URI (name) to assign to the resource. By convention, file resources are added to the `files/` path (for example, 
+`ms-resource:///files/logo.png`). See [Resource names in MRM](mrmresourcenames.md) for more info.
 
 </dd> <dt>
 
@@ -63,7 +67,8 @@ The resource URI to assign to the resource. The path will be used as the resourc
 
 Type: **PCWSTR**
 
-A relative path to a file containing a resource that you want to index. This path is relative to the project root of the UWP app for which you are generating PRI files. That project root is the value of *projectRoot* that you passed to [**MrmCreateResourceIndexer**](mrmcreateresourceindexer.md).
+The file path to be added to the index. Typically, this should be a relative path to a file as it will exist
+after your app is intalled.
 
 </dd> <dt>
 
@@ -72,7 +77,9 @@ A relative path to a file containing a resource that you want to index. This pat
 
 Type: **PCWSTR**
 
-An optional list of resource qualifiers, for example L"language-en-US\_scale-100\_contrast-standard". An empty string or **nullptr** indicates a neutral resource. Resource qualifiers are *not* inferred from *resourceUri* nor from *containerPath*.
+An optional list of resource qualifiers for the resource, for example "language-en-US". Passing an empty 
+string or **NULL** indicates a neutral resource that is applicable in any resource context. See 
+[Qualifiers in MRM](mrmqualifiers.md) for more info.
 
 </dd> </dl>
 
@@ -80,13 +87,21 @@ An optional list of resource qualifiers, for example L"language-en-US\_scale-100
 
 Type: **HRESULT**
 
-S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED() or FAILED() macros (defined in winerror.h) to determine success or failure.
+S\_OK if the function succeeded, otherwise some other value. Use the **SUCCEEDED** or **FAILED** macros 
+(defined in winerror.h) to determine success or failure.
 
 ## Remarks
 
-If you want to specify any resource qualifiers, then pass them in the *qualifiers* parameter. Resource qualifiers are *not* inferred from *resourceUri* nor from *filePath*.
+The provided *filePath* is added directly to the indexer without any parsing. The file does not need to exist, 
+and no checks are performed to see if it contains illegal path characters. The *resourceUri* is entirely unrelated
+to the file path, for example a file may have a *resourceUri* of `/files/logo.png` but a *filePath* of 
+"Assets\\Logos\\2x\\logo.png". Since the *filePath* is just a string, it can also contain absolute paths or 
+parent-paths (those including "..\") although such files may not exist at runtime.
 
-The file name segment of *resourceUri* (not *filePath*) is used as the resource name.
+Note that files added with **MrmIndexFile** do not get qualifiers automatically added based on the filename - any
+qualifiers must be explicitly added with the *qualifers* parameter. To automatically deduce qualifiers based 
+on the filename (as is performed by Visual Studio and the **MakePri** tool), use 
+[**MrmIndexFileAutoQualifiers**](mrmindexfileautoqualifiers.md).
 
 ## Requirements
 
@@ -103,11 +118,32 @@ The file name segment of *resourceUri* (not *filePath*) is used as the resource 
 
 
 ## See also
+<dt><dt>
 
-<dl> <dt>
+[**MrmIndexEmbeddedData**](mrmindexembeddeddata.md)
+</dt></dl>
+
+<dt><dt>
+
+[**MrmIndexFileAutoQualifiers**](mrmindexfileautoqualifiers.md)
+</dt></dl>
+
+<dt><dt>
+
+[**MrmIndexResourceContainerAutoQualifiers**](mrmindexresourcecontainerautoqualifiers.md)
+</dt></dl>
+
+<dt><dt>
+
+[**MrmIndexString**](mrmindexstring.md)
+</dt></dl>
+
+<dt><dt>
+
+[File resources in MRM](mrmfiles.md)
+</dt></dl>
+
+<dt><dt>
 
 [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems)
-</dt> </dl>
-
- 
-
+</dt></dl>

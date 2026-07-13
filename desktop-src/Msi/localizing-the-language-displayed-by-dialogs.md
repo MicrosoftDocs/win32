@@ -2,7 +2,7 @@
 description: The Windows Installer service uses the current user's language in all dialogs until a Windows Installer package is opened.
 ms.assetid: c9902990-7a26-48fd-96ac-4d5a749e34be
 title: Localizing the Language Displayed by Dialogs
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: b9ff626f-17f1-4fc1-9d6e-4f47e29a5aeb
 ms.tgt_platform: multiple
 keywords:
 - Creating a Security Descriptor for a New Directory Object AD
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

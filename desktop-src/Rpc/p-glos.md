@@ -3,7 +3,7 @@ title: P (RPC)
 description: Words starting with P in Remote Procedure Call (RPC) glossary.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 3cee5b7a-535d-4a35-8ed1-7cadb479e76c
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Formatting Event Messages
 description: An event can contain localized message strings that you can format for display.
 ms.assetid: 31dd8276-1925-4a0e-9e2a-6966e8086238
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

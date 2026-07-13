@@ -3,10 +3,15 @@ description: The SENSOR\_CATEGORY\_OTHER category contains sensors that support 
 ms.assetid: 866F7BF4-15CC-4F69-9510-B5858D47C4D0
 title: SENSOR_CATEGORY_OTHER (Sensors.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # SENSOR\_CATEGORY\_OTHER
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 The SENSOR\_CATEGORY\_OTHER category contains sensors that support the Custom class in the HID Class driver.
 
@@ -64,9 +69,9 @@ A sensor that supports the Generic class in the HID class driver will map to one
 
 
 
- 
 
- 
+
+
 
 
 

@@ -2,7 +2,7 @@
 description: Implementing Context Menu Extensions
 ms.assetid: b8bea667-b9ea-476d-942f-281cb2e9636c
 title: Implementing Context Menu Extensions
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

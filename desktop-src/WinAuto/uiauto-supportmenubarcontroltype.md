@@ -19,8 +19,8 @@ keywords:
 - control types,control patterns for MenuBar control type
 - control types,support for MenuBar
 - control types,MenuBar
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # MenuBar Control Type

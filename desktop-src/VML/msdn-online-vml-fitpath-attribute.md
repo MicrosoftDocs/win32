@@ -2,7 +2,7 @@
 title: VML FitPath Attribute
 description: VML FitPath Attribute
 ms.assetid: f15775ed-f7b7-45d9-83ed-e307daf7451b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

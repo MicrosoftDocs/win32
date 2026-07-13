@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # MDM\_Reporting\_SecurityAuditing01\_RetrieveByTimeRange02 class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+
 
 The **MDM\_Reporting\_SecurityAuditing01\_RetrieveByTimeRange02** class is used to retrieve the logs that exist within the StartTime and StopTime.The StartTime and StopTime are expressed in ISO 8601 format. If the StartTime and StopTime are not specified, then the values are interpreted as either first existing or last existing time.
 

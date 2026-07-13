@@ -47,7 +47,7 @@ However, if you call [**SWbemObject.Clone\_**](swbemobject-clone-.md) to create 
 
 ## Examples
 
-The following code sample, taken from [List All the WMI cimV2 Classes](https://Gallery.TechNet.Microsoft.Com/5649568b-074e-4f5d-be52-e8b7d8fe4517) in the TechNet Gallery, uses the Path\_ property to list all the WMI cimV2 classes.
+The following code sample uses the Path\_ property to list all the WMI cimV2 classes.
 
 
 ```VB

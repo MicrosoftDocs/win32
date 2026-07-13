@@ -1,8 +1,8 @@
 ---
 description: Uses Extensible Authentication Protocol Authentication and Key Agreement (EAP-AKA).
 title: EAP-AKA Profile Sample
-ms.topic: article
-ms.date: 11/03/2021
+ms.topic: sample
+ms.date: 05/14/2025
 ---
 
 # EAP-AKA profile sample
@@ -11,7 +11,7 @@ This sample profile uses EAP-AKA, which will rely on a SIM card to authenticate 
 
 The EAP host configuration used in this wireless profile sample was derived from the [EapAkaConnectionPropertiesV1 Schema](/openspecs/windows_protocols/ms-gpwl/6ce02b66-0cbd-47cf-bc34-0903b163aab0).
 
-``` syntax
+```xml
 <?xml version="1.0"?>
 <WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
   <name>SampleEapAka</name>
@@ -58,7 +58,9 @@ The EAP host configuration used in this wireless profile sample was derived from
 ## Related topics
 
 * [Wireless profile samples](wireless-profile-samples.md)
-* [EAP-SIM configuration settings](/windows-server/networking/technologies/extensible-authentication-protocol/network-access#eap-sim-configuration-settings)
+* [WLAN_profile schema](wlan-profileschema-schema.md)
+* [Extensible Authentication Protocol (EAP) for network access](/windows-server/networking/technologies/extensible-authentication-protocol/network-access)
+* [Configure EAP profiles and settings in Windows](/windows-server/networking/technologies/extensible-authentication-protocol/configure-eap-profiles)
 * [EAP-SIM](/openspecs/windows_protocols/ms-gpwl/73eddc23-79a2-4b02-966a-a8a909cd76e9)
 * [EAP-AKA](/openspecs/windows_protocols/ms-gpwl/6ce02b66-0cbd-47cf-bc34-0903b163aab0)
 * [EAP-AKA'](/openspecs/windows_protocols/ms-gpwl/cb085b34-e160-4eba-b292-bc748ae461b6)

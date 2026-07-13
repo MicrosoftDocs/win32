@@ -2,7 +2,7 @@
 description: Get information about the PageScalingScale parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 49a60a94-fb65-4439-bebf-3f77ea0861fe
 title: PageScalingScale
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

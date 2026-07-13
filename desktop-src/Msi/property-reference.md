@@ -2,7 +2,7 @@
 description: 'This section lists the properties defined by Windows Installer:'
 ms.assetid: c91119b9-59d5-4a33-91cd-d3ba63659d12
 title: Property Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -162,7 +162,7 @@ The following list identifies the hardware properties that the Windows Installer
 
 | Property | Description | 
 |----------|-------------|
-| <a href="alpha.md"><strong>Alpha</strong></a><br /> | The numeric processor level when running on an Alpha processor.<br /><blockquote>[!Note]<br />This property is obsolete, the Alpha platform is not supported by Windows Installer.</blockquote><br /> | 
+| [**Alpha**](alpha.md)<br> | The numeric processor level when running on an Alpha processor.<br> **Note:** This property is obsolete, the Alpha platform is not supported by Windows Installer.<br> | 
 | <a href="borderside.md"><strong>BorderSide</strong></a><br /> | The width of the window borders, in pixels.<br /> | 
 | <a href="bordertop.md"><strong>BorderTop</strong></a><br /> | The height of the window borders, in pixels.<br /> | 
 | <a href="captionheight.md"><strong>CaptionHeight</strong></a><br /> | The height of normal caption area, in pixels.<br /> | 

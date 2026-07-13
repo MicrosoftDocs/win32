@@ -2,7 +2,7 @@
 description: The photo metadata policy for the System.GPS.Longitude property.
 ms.assetid: 36539e20-d00c-4bbb-b9ee-1cf5e4b8df4b
 title: System.GPS.Longitude Photo Metadata Policy
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

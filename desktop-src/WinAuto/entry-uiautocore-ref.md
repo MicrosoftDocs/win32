@@ -2,8 +2,8 @@
 title: Reference (UI Automation)
 description: This section provides reference information about the Microsoft UI Automation \ 32;API.
 ms.assetid: d17e6a95-a923-4e27-aad1-4d95d0b0808d
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Reference (UI Automation)

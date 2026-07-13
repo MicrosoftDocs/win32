@@ -2,7 +2,7 @@
 title: How to Embed Nonbutton Controls in Toolbars
 description: Toolbars support only buttons; therefore, if your application requires a different kind of control, you must create a child window. The following illustration shows a toolbar with an embedded edit control.
 ms.assetid: 7B4DACEF-96BB-447E-AE8F-F55401C665E9
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

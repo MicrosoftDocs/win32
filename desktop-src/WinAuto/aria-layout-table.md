@@ -4,8 +4,8 @@ description: ARIA Presentation Table Error
 ms.assetid: 3D5AE911-78E5-4C40-B77B-604E65839F63
 keywords:
 - AriaLayoutTableErrorId
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # ARIA Presentation Table Error

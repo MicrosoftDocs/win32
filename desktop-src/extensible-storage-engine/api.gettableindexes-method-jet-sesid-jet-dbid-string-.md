@@ -25,7 +25,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.GetTableIndexes method (JET_SESID, JET_DBID, String)
 
-Iterates over all the indexs in the table, returning information about each one.
+Iterates over all the indexes in the table, returning information about each one.
 
 **Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)

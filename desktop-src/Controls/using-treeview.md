@@ -2,7 +2,7 @@
 title: Using Tree-View Controls
 description: This section contains implementation details and example code for working with tree-view controls.
 ms.assetid: 37736770-5030-4f8a-a020-6897ed5f4e96
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

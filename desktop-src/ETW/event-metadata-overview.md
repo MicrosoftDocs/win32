@@ -2,7 +2,7 @@
 description: 'This is an overview of what to expect for the end-to-end journey of an event for each of the four tracing technologies furnished by Microsoft: TraceLogging, Manifest-based, WPP, and MOF.'
 ms.assetid: 6102593C-C6D5-4BDB-A0EF-067AF91DE00B
 title: Event Metadata Overview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -26,7 +26,7 @@ For non-classic events, a number of [**EVENT\_DATA\_DESCRIPTORS**](/windows/desk
 
 Both Manifest-based and TraceLogging technologies are generally modern providers. With manifest-based, if you let mc.exe generate logging code for you (um or km switch), payload generation is taken care of for you. Payload generation is always taken care of by TraceLogging.
 
-The end result is that a payload for an event is generated at runtime. All payloads are fundamentally similar in that they are binary blobs of data containing only the field data for that particular event, regardless of the tracing technology used and which field types are supported by that tracing technology. Without the event metadata, the event payload is meaningless and unintelligable.
+The end result is that a payload for an event is generated at runtime. All payloads are fundamentally similar in that they are binary blobs of data containing only the field data for that particular event, regardless of the tracing technology used and which field types are supported by that tracing technology. Without the event metadata, the event payload is meaningless and unintelligible.
 
 The ETW runtime's duty is then to carry this event blob from the provider to the consumer, where it is re-associated with its metadata and becomes decodable. The ETW runtime will add a bit of extra metadata indicating the circumstances of the payload -- for instance things like the timestamp, thread ID, and keywords of the event. This information is relevant to how the event was routed through the runtime, and it is also useful for understanding the identity and context of the event at decoding time. It is eventually surfaced as part of the [**EVENT\_TRACE**](/windows/win32/api/evntrace/ns-evntrace-event_trace) or [**EVENT\_RECORD**](/windows/win32/api/evntcons/ns-evntcons-event_record) for the consumer
 

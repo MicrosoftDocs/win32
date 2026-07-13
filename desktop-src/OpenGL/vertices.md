@@ -8,7 +8,7 @@ keywords:
 - OpenGL,per-vertex operations
 - OpenGL,vertices
 - framebuffers,per-vertex operations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

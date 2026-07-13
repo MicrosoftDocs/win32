@@ -3,7 +3,7 @@ description: Identifies a structure that contains the values of the counters in 
 ms.assetid: f232e9bb-0c65-4197-929a-b1b67340ef85
 title: struct (structs) Element
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - kbSyntax
 api_name: 

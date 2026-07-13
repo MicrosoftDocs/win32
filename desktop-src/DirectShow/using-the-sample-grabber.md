@@ -2,14 +2,14 @@
 description: The Sample Grabber filter is a transform filter that can be used to grab media samples from a stream as they pass through the filter graph.
 ms.assetid: ec0e367e-9ef9-4de6-9132-b462c233bc98
 title: Using the Sample Grabber
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---
 
 # Using the Sample Grabber
 
-\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 \[This API is not supported and may be altered or unavailable in the future.\]
 
@@ -63,7 +63,7 @@ To start, create the [Filter Graph Manager](filter-graph-manager.md) and query f
 
 ## Add the Sample Grabber to the Filter Graph
 
-Create an instance of the Sample Grabber filter and addit to the filter graph. Query the Sample Grabber filter for the [**ISampleGrabber**](isamplegrabber.md) interface.
+Create an instance of the Sample Grabber filter and add it to the filter graph. Query the Sample Grabber filter for the [**ISampleGrabber**](isamplegrabber.md) interface.
 
 
 ```C++
@@ -79,7 +79,7 @@ Create an instance of the Sample Grabber filter and addit to the filter graph. Q
         goto done;
     }
 
-    hr = pGraph->AddFilter(pGrabberF, L&quot;Sample Grabber&quot;);
+    hr = pGraph->AddFilter(pGrabberF, L"Sample Grabber");
     if (FAILED(hr))
     {
         goto done;
@@ -131,7 +131,7 @@ For example, if you specified uncompressed video, you can connect a source filte
     IPin *pPin = NULL;
 
 
-    hr = pGraph->AddSourceFilter(pszVideoFile, L&quot;Source&quot;, &pSourceF);
+    hr = pGraph->AddSourceFilter(pszVideoFile, L"Source", &pSourceF);
     if (FAILED(hr))
     {
         goto done;
@@ -179,7 +179,7 @@ The following example connects the Sample Grabber to the Null Renderer filter:
         goto done;
     }
 
-    hr = pGraph->AddFilter(pNullF, L&quot;Null Filter&quot;);
+    hr = pGraph->AddFilter(pNullF, L"Null Filter");
     if (FAILED(hr))
     {
         goto done;
@@ -368,7 +368,7 @@ HRESULT GrabVideoBitmap(PCWSTR pszVideoFile, PCWSTR pszBitmapFile)
         goto done;
     }
 
-    hr = pGraph->AddFilter(pGrabberF, L&quot;Sample Grabber&quot;);
+    hr = pGraph->AddFilter(pGrabberF, L"Sample Grabber");
     if (FAILED(hr))
     {
         goto done;
@@ -391,7 +391,7 @@ HRESULT GrabVideoBitmap(PCWSTR pszVideoFile, PCWSTR pszBitmapFile)
         goto done;
     }
 
-    hr = pGraph->AddSourceFilter(pszVideoFile, L&quot;Source&quot;, &pSourceF);
+    hr = pGraph->AddSourceFilter(pszVideoFile, L"Source", &pSourceF);
     if (FAILED(hr))
     {
         goto done;
@@ -425,7 +425,7 @@ HRESULT GrabVideoBitmap(PCWSTR pszVideoFile, PCWSTR pszBitmapFile)
         goto done;
     }
 
-    hr = pGraph->AddFilter(pNullF, L&quot;Null Filter&quot;);
+    hr = pGraph->AddFilter(pNullF, L"Null Filter");
     if (FAILED(hr))
     {
         goto done;

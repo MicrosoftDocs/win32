@@ -2,7 +2,7 @@
 title: IAgentCharacterEx SetSRModeID
 description: IAgentCharacterEx SetSRModeID
 ms.assetid: 8f9072ec-1f64-4f5c-972d-cd6799ce028c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

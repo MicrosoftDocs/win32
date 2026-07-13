@@ -2,7 +2,7 @@
 description: As of Windows Vista, the Control Panel category view provides task links beneath each Control Panel item's icon as shown here.
 ms.assetid: 54a03536-6fe6-4304-a555-58e5bca128b9
 title: Creating Searchable Task Links for a Control Panel Item
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -47,7 +47,7 @@ Task links are defined in an XML file. This section provides the details of an e
               xmlns:sh="http://schemas.microsoft.com/windows/tasks/v1">
     
     <!-- Notepad -->
-    <application id="{0052D9FC-6764-4D29-A66F-2F3BD9E2BB40}"> 
+    <application id="{00001111-aaaa-2222-bbbb-3333cccc4444}"> 
     <!-- This GUID must match the GUID you created for your Control Panel item,
          and registered in namespace -->
     
@@ -182,6 +182,3 @@ As a convention, Microsoft has omitted small words like "how do I" or "I want to
  
 
  
-
-
-

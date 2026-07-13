@@ -2,7 +2,7 @@
 description: The following functions are used with character sets.
 ms.assetid: 1799f5da-1391-4b6e-ac13-718017a77557
 title: Unicode and Character Set Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

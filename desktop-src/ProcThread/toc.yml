@@ -281,8 +281,6 @@
         href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-callbackmayrunlong
       - name: "CancelThreadpoolIo"
         href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-cancelthreadpoolio
-      - name: "PTP_CLEANUP_GROUP_CANCEL_CALLBACK"
-        href: /windows/desktop/api/winnt/nc-winnt-ptp_cleanup_group_cancel_callback
       - name: "CloseThreadpool"
         href: /windows/desktop/api/threadpoolapiset/nf-threadpoolapiset-closethreadpool
       - name: "CloseThreadpoolCleanupGroup"

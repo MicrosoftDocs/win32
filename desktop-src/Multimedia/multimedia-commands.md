@@ -8,7 +8,7 @@ keywords:
 - multimedia reference,commands
 - reference for multimedia,commands
 - multimedia commands
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

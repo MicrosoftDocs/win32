@@ -2,7 +2,7 @@
 title: Using HLSL minimum precision
 description: Starting with Windows 8, graphics drivers can implement minimum precision HLSL scalar data types by using any precision greater than or equal to their specified bit precision.
 ms.assetid: 422B0C45-5CEB-4235-AD05-62D36C36CFC6
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

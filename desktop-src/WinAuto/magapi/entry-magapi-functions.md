@@ -5,7 +5,7 @@ title: Functions (Magnification API)
 
 description: This section contains reference information about the Magnification API functions.
 ms.assetid: 82b7d82b-b8cd-4f80-ad30-f7db20c57742
-ms.topic: article
+ms.topic: reference
 ms.date: 02/07/2020
 ---
 

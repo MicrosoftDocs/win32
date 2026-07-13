@@ -2,7 +2,7 @@
 description: Learn about the PageImageableSize user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 6b81814f-2d9e-4862-8633-6ba016c11dac
 title: PageImageableSize
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -79,7 +79,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the `https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords` namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Property name="psk:PageImageableSize">

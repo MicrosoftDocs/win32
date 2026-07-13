@@ -2,7 +2,7 @@
 description: System.Contact.BusinessAddress1Locality
 ms.assetid: 2c36f68a-e7a0-49f7-91b0-c80ac74b104b
 title: System.Contact.BusinessAddress1Locality
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

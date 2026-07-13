@@ -2,7 +2,7 @@
 title: Update a Route In Place Using RtmUpdateAndUnlockRoute
 description: The following procedure outlines the steps used to update a route in place. The sample code that follows shows how to implement the procedure.
 ms.assetid: 3598a28f-8ade-4b3f-9d31-4f2c84df2dd6
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

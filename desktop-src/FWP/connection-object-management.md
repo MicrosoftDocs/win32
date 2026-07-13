@@ -2,7 +2,7 @@
 title: Connection Object Management
 description: Connection Object Management
 ms.assetid: 2AA17E66-85B1-4F79-9C55-5240FBC588D2
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

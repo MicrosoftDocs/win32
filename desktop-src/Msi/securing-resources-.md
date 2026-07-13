@@ -2,7 +2,7 @@
 description: The capability of the Windows Installer to set access permissions on services, files, created folders, and registry entries can help make installation applications more secure.
 ms.assetid: a25fcecf-f15f-4772-8f41-d03864484cc9
 title: Securing Resources
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

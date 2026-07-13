@@ -2,7 +2,7 @@
 title: Windows Ribbon Framework Samples
 description: The topics contained in this section provide details about the code samples that support the Windows Ribbon framework documentation.
 ms.assetid: 79d092c9-347b-4b8f-8ba4-a8f696ce6a85
-ms.topic: article
+ms.topic: sample
 ms.date: 07/13/2021
 ---
 

@@ -3,7 +3,7 @@ description: An InParameters object contains the parameter list for calling prov
 ms.assetid: 8cc65129-1698-4ada-b493-672772c94045
 ms.tgt_platform: multiple
 title: Constructing InParameters Objects
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

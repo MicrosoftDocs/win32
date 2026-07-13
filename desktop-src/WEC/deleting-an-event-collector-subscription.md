@@ -3,8 +3,8 @@ title: Deleting an Event Collector Subscription
 description: You can delete an Event Collector subscription from a local computer.
 ms.assetid: d3102149-906d-4286-85c8-e5b1eb6dd382
 ms.tgt_platform: multiple
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Deleting an Event Collector Subscription

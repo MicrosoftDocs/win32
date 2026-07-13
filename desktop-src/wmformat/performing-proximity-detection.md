@@ -14,7 +14,7 @@ keywords:
 - digital rights management (DRM),proximity detection
 - DRM (digital rights management),proximity detection
 - proximity detection
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

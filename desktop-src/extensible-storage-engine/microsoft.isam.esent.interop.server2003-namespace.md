@@ -6,7 +6,7 @@ ms:assetid: N:Microsoft.Isam.Esent.Interop.Server2003
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.server2003(v=EXCHG.10)
 ms:contentKeyID: 39510157
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Server2003
 dev_langs:

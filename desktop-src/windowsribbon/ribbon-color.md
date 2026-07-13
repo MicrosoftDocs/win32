@@ -6,7 +6,7 @@ keywords:
 - Windows Ribbon,customizing colors
 - Ribbon,customizing colors
 - customizing Windows Ribbon colors
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

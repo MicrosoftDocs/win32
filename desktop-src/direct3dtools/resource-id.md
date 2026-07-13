@@ -496,7 +496,7 @@ Text shown in the Configure Firewall dialog - Check Firewall Private Networks
 Text shown in the Configure Firewall dialog - Check Firewall public Networks
 
 <span id="IDS_BUTTON_CONFIGURE"></span><span id="ids_button_configure"></span>**IDS\_BUTTON\_CONFIGURE**  
-Text shown in the Configure Firewall dialog - Buttom Confiture
+Text shown in the Configure Firewall dialog - Button Configure
 
 <span id="IDS_CONFIGURATION_CANCEL"></span><span id="ids_configuration_cancel"></span>**IDS\_CONFIGURATION\_CANCEL**  
 Text shown in the Configure Firewall dialog - Configuration Cancel

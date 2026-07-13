@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,example code Visual Basic ,resolving function name conflicts
 - resolving function name conflicts ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

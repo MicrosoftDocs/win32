@@ -2,7 +2,7 @@
 title: IAgentNotifySink DragStart
 description: IAgentNotifySink DragStart
 ms.assetid: b3905b99-69e4-4046-aab9-2322618935aa
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

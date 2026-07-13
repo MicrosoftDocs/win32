@@ -3,7 +3,7 @@ title: Firewall dynamic keywords enumerations
 description: Firewall dynamic keywords contains the following enumerations.
 keywords:
 - Firewall dynamic keywords, enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/13/2021
 ---
 

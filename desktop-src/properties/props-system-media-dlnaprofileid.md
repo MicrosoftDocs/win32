@@ -2,7 +2,7 @@
 description: The DLNA profile ID for media content, defined by DLNA standards.
 ms.assetid: ADE2E3CB-AAAC-4208-BB75-72AFF1D24C26
 title: System.Media.DlnaProfileID
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

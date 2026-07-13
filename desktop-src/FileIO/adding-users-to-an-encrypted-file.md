@@ -2,7 +2,7 @@
 description: Example code that shows how to add a new user to an existing encrypted file by using the AddUsersToEncryptedFile function.
 ms.assetid: 39260882-dc02-4f08-9d9b-f170c1e391df
 title: Adding Users to an Encrypted File
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

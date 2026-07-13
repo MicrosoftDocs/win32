@@ -2,7 +2,7 @@
 title: Output Services
 description: Output Services
 ms.assetid: fb33d480-7ae2-439b-ac3a-f5ad5b5cb800
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

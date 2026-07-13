@@ -1,12 +1,12 @@
 ---
 description: The literal value comparison uses standard comparison operators for matching a single-valued column to a literal value.
 ms.assetid: 941298b4-d703-4b3f-8bde-0e6e158560df
-title: Literal Value Comparison
-ms.topic: article
+title: Literal value comparison
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Literal Value Comparison
+# Literal value comparison
 
 The literal value comparison uses standard comparison operators for matching a single-valued column to a [literal](-search-sql-literals.md) value. For information about comparing multivalued columns, see [Multi-Valued (ARRAY) Comparisons](-search-sql-multivaluedcomparisons.md).
 
@@ -28,7 +28,7 @@ The column part is any valid property column and can be cast to another type if 
 
 The literal can be any string, numeric, hexadecimal, Boolean, or date literal, enclosed in single quotation marks. Only exact matches are recognized, and wildcard characters are ignored. The literal can also be cast to another type.
 
-## Comparison Operators
+## Comparison operators
 
 The following table describes the supported comparison operators.
 

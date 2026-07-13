@@ -2,11 +2,16 @@
 description: Examples of Light-Aware User Interfaces
 ms.assetid: 13bcc087-bbe7-4352-b242-5a849cfe423d
 title: Examples of Light-Aware User Interfaces
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 09/19/2025
 ---
 
 # Examples of Light-Aware User Interfaces
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 Now that you understand some basic principles for optimizing your UI for different lighting conditions, you can look at some examples of how this optimization makes a difference when viewing content outdoors. The following images are side-by-side comparisons of laptops in direct sunlight.
 
@@ -18,9 +23,9 @@ The following photographs show a navigation program as seen outdoors with light-
 
 ![normal navigation user interface](images/nav-photo-normal.png)![light-aware navigation user interface](images/nav-photo-contrast.png)
 
- 
 
- 
+
+
 
 
 

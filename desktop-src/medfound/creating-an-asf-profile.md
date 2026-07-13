@@ -2,7 +2,7 @@
 description: This topic describes how to create as ASF profile in Microsoft Media Foundation.
 ms.assetid: 9633bc88-12bd-404a-b779-878eb1ee5699
 title: Creating an ASF Profile
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -74,7 +74,7 @@ HRESULT GetASFProfile(PCWSTR pszFileName, IMFASFProfile** ppProfile)
         hr = pSourceUnk->QueryInterface(IID_PPV_ARGS(&pSource));
     }
 
-    // Get the presentation desccriptor.
+    // Get the presentation descriptor.
     if (SUCCEEDED(hr))
     {
         hr = pSource->CreatePresentationDescriptor(&pPD);

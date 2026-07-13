@@ -3,7 +3,7 @@ title: DirectComposition glossary
 description: This topic defines Microsoft DirectComposition terms.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 3B9932EA-3182-41D0-B64A-7699EC98A714
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: 26793c61-469e-4e99-9056-b9fc04336b69
 ms.tgt_platform: multiple
 keywords:
 - domain browser AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: The PdhVbCreateCounterPathList function displays the performance co
 ms.assetid: 8dda528f-2e06-4726-89a0-095781a2f80d
 title: PdhVbCreateCounterPathList function
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - APIRef
 - kbSyntax

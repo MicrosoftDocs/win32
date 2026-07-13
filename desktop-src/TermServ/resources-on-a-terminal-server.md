@@ -3,7 +3,7 @@ title: Resources on a Remote Desktop Session Host Server
 description: Multiple users can log on simultaneously to a single Remote Desktop Session Host (RD Session Host) server, sharing the hardware and software resources of the server.
 ms.assetid: ab193a9f-7424-42bf-8cea-28628096edc6
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

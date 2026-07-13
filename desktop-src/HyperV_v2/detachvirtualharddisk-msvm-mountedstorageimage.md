@@ -81,7 +81,7 @@ public static void DetachVirtualHardDisk(string path)
                     }
                     else
                     {
-                        Console.WriteLine("Unable to dettach {0}", path);
+                        Console.WriteLine("Unable to detach {0}", path);
                     }
 
                     outParams.Dispose();

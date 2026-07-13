@@ -2,7 +2,7 @@
 title: Web Application Proxy
 description: Web Application Proxy
 ms.assetid: DE47843C-D58B-4C71-99C2-D54073CBA531
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

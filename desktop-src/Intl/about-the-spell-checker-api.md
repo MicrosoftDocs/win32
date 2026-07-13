@@ -2,7 +2,7 @@
 description: For users worldwide, textual input is part of a modern computing experience, for blogging, commenting, tweeting, instant messaging, or any other kind of text typing. In Windows 8, spell checking is built-in to edit controls.
 ms.assetid: ED569D4F-568B-4381-91C3-8EAEDA4DD47C
 title: About the Spell Checking API
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

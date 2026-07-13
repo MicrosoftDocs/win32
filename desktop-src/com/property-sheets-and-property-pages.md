@@ -2,7 +2,7 @@
 title: Property Sheets and Property Pages
 description: Property Sheets and Property Pages
 ms.assetid: 6bcd1c1c-9b66-4422-bb07-67a856b3295d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

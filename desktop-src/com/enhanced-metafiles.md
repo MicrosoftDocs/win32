@@ -2,7 +2,7 @@
 title: Enhanced Metafiles
 description: Enhanced Metafiles
 ms.assetid: f47226fe-c529-4f63-a6c7-2c84192ab105
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

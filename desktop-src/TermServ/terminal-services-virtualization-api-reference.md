@@ -5,7 +5,7 @@ ms.assetid: 4f4e8883-9f89-47c2-919f-44f4c6e44591
 ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , virtualization API reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

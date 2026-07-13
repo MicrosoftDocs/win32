@@ -136,7 +136,7 @@ If the compiler settings require Unicode, the data type LPCTSTR resolves to LPCW
 
 The compiler setting also determines the function version. If Unicode is defined, the function call resolves to D3DXCreateEffectFromResourceW. Otherwise, the function call resolves to D3DXCreateEffectFromResourceA because ANSI strings are being used.
 
-D3DXCreateEffectFromResource loads data from a resource of type RT\_RCDATA. See MSDN for more information about Windows resources.
+D3DXCreateEffectFromResource loads data from a resource of type RT\_RCDATA.
 
 ## Requirements
 

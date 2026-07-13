@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - WinNT Custom User Properties ADSI
 - WinNT provider ADSI , user object, custom properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

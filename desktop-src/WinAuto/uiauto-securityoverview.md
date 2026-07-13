@@ -17,8 +17,8 @@ keywords:
 - security,user account control
 - security,manifest files
 - security,requestedExecutionLevel tag
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 02/18/2026
 ---
 
 # Security Considerations for Assistive Technologies
@@ -56,7 +56,7 @@ An assistive technology application gets access to other processes by setting th
 
 To use UIAccess, an assistive technology application needs to:
 
--   Be signed with a certificate to interact with applications running at a higher privilege level.
+-   Be signed using an Authenticode code signing certificate.
 -   Be trusted by the system. The application must be installed in a secure location that requires a user account control (UAC) prompt for access. For example, the Program Files folder.
 -   Be built with a manifest file that includes the uiAccess flag.
 
@@ -66,7 +66,7 @@ UIAccess should not be used:
 -   By assistive technology applications that display information or UI that is not relevant to the accessibility scenario they target.
 -   By applications that just want to appear above other applications in the new Windows UI.
     > [!Note]  
-    > Applications developed for the new Windows UI do not have UIAccess as an available option.
+    > UWP Applications do not have UIAccess as an available option.
 
      
 
@@ -93,7 +93,7 @@ The value of the **level** attribute in this code is an example only.
 
 **UIAccess** is "false" by default. If the attribute is omitted, or if there is no manifest, the application cannot gain access to the protected UI.
 
-For more information on Windows security, on signing applications, and on creating manifests, see [The Windows Vista and Windows Server 2008 Developer Story: Windows Vista Application Development Requirements for User Account Control (UAC)](/previous-versions/aa905330(v=msdn.10)) on MSDN.
+For more information on Windows security, on signing applications, and on creating manifests, see [The Windows Vista and Windows Server 2008 Developer Story: Windows Vista Application Development Requirements for User Account Control (UAC)](/previous-versions/aa905330(v=msdn.10)).
 
 ## Related topics
 

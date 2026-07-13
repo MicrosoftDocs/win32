@@ -2,7 +2,7 @@
 title: Using Visual Styles with Custom and Owner-Drawn Controls
 description: This topic describes how to use the visual styles API to apply visual styles to custom controls or owner-drawn controls.
 ms.assetid: 8b06f9ce-702c-48f8-8cf3-2718a09b8d77
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

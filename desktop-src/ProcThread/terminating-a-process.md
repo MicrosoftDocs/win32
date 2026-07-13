@@ -2,8 +2,8 @@
 description: Terminating a process has the following results:Any remaining threads in the process are marked for termination.Any resources allocated by the process are freed.All kernel objects are closed.The process code is removed from memory.The process exit code is set.The process object is signaled.
 ms.assetid: af24d157-2719-4052-8029-1eb8010047cc
 title: Terminating a Process
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Terminating a Process

@@ -2,7 +2,7 @@
 description: The Key Format Types of configurable data may be used in text fields to provide a key into a database table.
 ms.assetid: 9f3ce218-1243-4eba-9866-113200fefa30
 title: Key Format Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

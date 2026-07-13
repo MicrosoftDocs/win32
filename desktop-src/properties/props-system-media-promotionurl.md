@@ -2,7 +2,7 @@
 description: System.Media.PromotionUrl
 ms.assetid: a0e464a0-ff43-43a8-87f7-2fef17ca15eb
 title: System.Media.PromotionUrl
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

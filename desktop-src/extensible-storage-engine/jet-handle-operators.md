@@ -6,7 +6,7 @@ ms:assetid: 5d3fcd9b-50a0-dfff-a38e-a6bfe82cf496
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh557794(v=EXCHG.10)
 ms:contentKeyID: 39512315
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # JET_HANDLE operators

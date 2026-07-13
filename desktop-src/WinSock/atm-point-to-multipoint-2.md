@@ -2,7 +2,7 @@
 description: ATM falls into the category of rooted data and rooted control planes.
 ms.assetid: 8e355efe-2903-49c1-a9b3-792b07bd2995
 title: ATM Point to Multipoint
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

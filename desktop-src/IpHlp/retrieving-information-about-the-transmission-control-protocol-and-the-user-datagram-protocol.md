@@ -2,7 +2,7 @@
 description: IP Helper makes it possible to access information about network protocols that are used on the local computer.
 ms.assetid: 3ae07fbd-0b69-42d6-81ab-cc239c354bbb
 title: Retrieving Information About the Transmission Control Protocol and the User Datagram Protocol
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

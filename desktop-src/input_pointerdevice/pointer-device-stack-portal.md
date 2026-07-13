@@ -2,7 +2,7 @@
 description: The topics in this section provide an overview of the Pointer Device Input Stack in Windows 8. The Pointer Device Input Stack provides information about the input devices connected to the system.
 ms.assetid: A2CBA73A-A647-4CF6-9886-06AD0AC6394B
 title: Pointer Device Input Stack
-ms.topic: article
+ms.topic: reference
 ms.date: 02/05/2020
 ---
 

@@ -14,7 +14,7 @@ keywords:
 - enumerating physical monitors
 - high-level configuration functions
 - continuous monitor settings
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

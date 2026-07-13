@@ -2,7 +2,7 @@
 description: About Uniscribe
 ms.assetid: ad0faead-63db-4682-8db0-fa97b54217c6
 title: About Uniscribe
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

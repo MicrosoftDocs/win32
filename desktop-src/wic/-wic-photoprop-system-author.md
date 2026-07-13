@@ -2,7 +2,7 @@
 description: The photo metadata policy for the System.Author property.
 ms.assetid: 2de9c452-93be-40a4-a72b-5da590534dfd
 title: System.Author Photo Metadata Policy
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

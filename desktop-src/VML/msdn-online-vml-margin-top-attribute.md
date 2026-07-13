@@ -2,7 +2,7 @@
 title: VML Margin-Top Attribute
 description: VML Margin-Top Attribute
 ms.assetid: bce0c575-918a-45ea-a068-cfb6f4a16b1a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

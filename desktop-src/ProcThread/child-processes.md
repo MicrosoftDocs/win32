@@ -2,8 +2,8 @@
 description: Each process provides the resources needed to execute a program. A child process is a process that is created by another process, called the parent process.
 ms.assetid: 4bdec0f5-7276-422e-9935-0e231b0fc17d
 title: Child Processes
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Child Processes

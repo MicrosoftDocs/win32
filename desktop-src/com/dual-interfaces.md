@@ -2,7 +2,7 @@
 title: Dual Interfaces (COM)
 description: Dual Interfaces
 ms.assetid: 6e4dc529-8a25-4ae5-b868-28cb17e0db52
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

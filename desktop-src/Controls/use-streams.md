@@ -2,7 +2,7 @@
 title: How to Use Streams
 description: You can use streams to transfer data into or out of a rich edit control. A stream is defined by an EDITSTREAM structure, which specifies a buffer and an application-defined callback function.
 ms.assetid: A7ED47F1-968C-4E41-B1E2-4449072D2FC4
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

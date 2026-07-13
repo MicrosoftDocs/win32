@@ -16,7 +16,7 @@ keywords:
 - TSF (Text Services Framework),anchors
 - TSF-enabled applications,anchors
 - anchors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

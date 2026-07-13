@@ -2,7 +2,7 @@
 description: This article contains code for the player.h file for the tutorial How to Play Media Files with Media Foundation.
 ms.assetid: c3f05482-138c-4d95-9b76-a9715227961f
 title: player.h
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,12 +1,12 @@
 ---
 description: The ORDER IN GROUP clause is used in conjunction with the GROUP ON statement, which returns result sets in groups.
 ms.assetid: edfa2037-3360-411d-8a12-cdb9680222f2
-title: ORDER IN GROUP Clause
-ms.topic: article
+title: ORDER IN GROUP clause
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# ORDER IN GROUP Clause
+# ORDER IN GROUP clause
 
 The ORDER IN GROUP clause is used in conjunction with the [GROUP ON](-search-sql-group-on-over.md) statement, which returns result sets in groups. The ORDER IN GROUP clause enables you to sort each returned group in a different way. If you group on System.Kind, for example, you can then sort all documents by System.Document.LastAuthor, all music files by System.Music.AlbumArtist, and all emails by System.Message.FromName.
 

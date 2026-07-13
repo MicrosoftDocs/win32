@@ -2,7 +2,7 @@
 description: The future of cryptography and secure communications cannot easily be predicted.
 ms.assetid: 41c1758d-1213-47a6-81d5-7755b41c3007
 title: Extending CryptoAPI Functionality
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

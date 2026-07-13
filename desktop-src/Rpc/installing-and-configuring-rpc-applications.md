@@ -4,7 +4,7 @@ description: When the Microsoft Windows operating system is installed on a serve
 ms.assetid: cfcada3d-cf7c-42a9-9ed4-0b1bba7a98cf
 keywords:
 - Remote Procedure Call RPC , tasks, installing and configuring applications
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

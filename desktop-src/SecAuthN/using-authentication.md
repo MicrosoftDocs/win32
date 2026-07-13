@@ -2,7 +2,7 @@
 description: The following topics provide information about using authentication.
 ms.assetid: eace4146-e1d4-491c-8dfc-a15d99de45cc
 title: Using Authentication
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

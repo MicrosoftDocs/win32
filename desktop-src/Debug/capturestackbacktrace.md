@@ -4,7 +4,7 @@ title: CaptureStackBackTrace function
 description: Captures a stack back trace by walking up the stack.
 old-location: 
 ms.assetid: na
-ms.date: 04/10/2019
+ms.date: 07/14/2025
 ms.keywords: RtlCaptureStackBackTrace
 ms.topic: reference
 req.header: WinBase.h

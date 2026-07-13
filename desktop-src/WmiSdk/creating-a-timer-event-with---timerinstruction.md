@@ -3,7 +3,7 @@ description: You create a timer event by creating an instance of classes derived
 ms.assetid: 3df2a75a-5231-40d7-ae9d-a7a735fbf316
 ms.tgt_platform: multiple
 title: Creating a Timer Event with __TimerInstruction
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

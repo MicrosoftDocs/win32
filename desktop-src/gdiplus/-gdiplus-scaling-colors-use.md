@@ -2,7 +2,7 @@
 description: A scaling transformation multiplies one or more of the four color components by a number. The color matrix entries that represent scaling are given in the following table.
 ms.assetid: 08347831-7100-4220-a83b-693bb7b98ccb
 title: Scaling Colors
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -9,7 +9,7 @@ keywords:
 - joysticks,functions
 - reference for joysticks,functions
 - joystick reference,functions
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

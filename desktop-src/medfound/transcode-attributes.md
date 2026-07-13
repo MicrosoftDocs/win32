@@ -2,7 +2,7 @@
 description: The following attributes are used with the transcode API.
 ms.assetid: 6cddb5b9-75da-4640-9810-35a8203fc4bc
 title: Transcode Attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

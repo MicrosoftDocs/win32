@@ -2,7 +2,7 @@
 title: Quality of Service (RPC)
 description: Client programs can use the RpcBindingSetAuthInfoEx function rather than the RpcBindingSetAuthInfo function to create an authenticated binding.
 ms.assetid: bc3d47ba-3c1b-4aba-8fe3-b4501a621931
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

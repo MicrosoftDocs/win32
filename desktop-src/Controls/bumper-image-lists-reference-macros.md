@@ -2,7 +2,7 @@
 title: Image List Macros
 description: Image List Macros
 ms.assetid: 7d68074d-9b3c-4a61-99a1-6fdf71c75dab
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

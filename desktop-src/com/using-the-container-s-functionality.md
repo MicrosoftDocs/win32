@@ -2,7 +2,7 @@
 title: Using the Container's Functionality
 description: Using the Container's Functionality
 ms.assetid: c660e529-ba1e-4f8e-a86b-7580fa1f592b
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

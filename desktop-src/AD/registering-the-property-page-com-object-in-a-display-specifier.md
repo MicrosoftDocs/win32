@@ -7,7 +7,7 @@ keywords:
 - Registering the Property Page COM Object in a Display Specifier Active Directory
 - property page COM object Active Directory , registering in a display specifier
 - display specifiers Active Directory , registering the property page COM object in
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

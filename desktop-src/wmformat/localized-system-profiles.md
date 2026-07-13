@@ -11,7 +11,7 @@ keywords:
 - ASF (Advanced Systems Format),localized system profiles
 - system profiles,localized
 - localized system profiles,list of
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

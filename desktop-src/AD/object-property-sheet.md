@@ -3,7 +3,7 @@ title: Object Property Sheet
 description: This topic discusses the Object property sheet, which is common to all object classes in the Active Directory Users and Computers snap-in.
 ms.assetid: da3440cc-22ef-4201-8f17-4e5afea9ef3b
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

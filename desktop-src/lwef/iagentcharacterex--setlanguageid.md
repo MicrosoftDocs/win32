@@ -2,7 +2,7 @@
 title: IAgentCharacterEx SetLanguageID
 description: IAgentCharacterEx SetLanguageID
 ms.assetid: 064f4c3c-1871-4372-9796-5b53f05c6d9a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

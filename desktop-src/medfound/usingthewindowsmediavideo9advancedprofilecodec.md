@@ -2,7 +2,7 @@
 description: Using the Windows Media Video 9 Advanced Profile
 ms.assetid: 2abc0efc-dd11-4921-897c-209a26f8ba1d
 title: Using the Windows Media Video 9 Advanced Profile
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: To help maintain a secure environment during software installation, adhere to these guidelines when authoring the Windows Installer package.
 ms.assetid: 04d91a9b-0528-4acb-8e11-fc817009db1f
 title: Guidelines for Authoring Secure Installations
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

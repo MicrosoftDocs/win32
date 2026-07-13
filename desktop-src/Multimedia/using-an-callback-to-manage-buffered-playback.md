@@ -12,7 +12,7 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),event callback
 - playing MIDI files,event callback
 - event callback
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

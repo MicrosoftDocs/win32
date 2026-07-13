@@ -2,7 +2,7 @@
 description: Winsock Catalog Change Tracing Details
 ms.assetid: 4C86618D-4E79-486E-997F-9E2509FBF6B6
 title: Winsock Catalog Change Tracing Details
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -71,10 +71,6 @@ Returns zero (0) to indicate success. Any other number indicates an error. For a
 **Other** (22 4294967295)
 </dt> </dl>
 
-## Examples
-
-The [Find the logged on users on a remote system/s version 2](https://Gallery.TechNet.Microsoft.Com/Find-the-logged-on-users-1161bd92) PowerShell code example queries remote machines to see who is logged on.
-
 ## Requirements
 
 

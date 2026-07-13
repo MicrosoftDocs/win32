@@ -5,7 +5,7 @@ ms.assetid: b5021e38-92a2-43d2-b3cb-15ff5c74c1d8
 ms.tgt_platform: multiple
 keywords:
 - Accessing Active Directory Using Visual Basic ADSI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

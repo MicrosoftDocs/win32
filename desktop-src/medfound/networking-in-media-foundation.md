@@ -2,7 +2,7 @@
 description: Networking in Media Foundation
 ms.assetid: 59eec612-3b6d-400c-8190-1ae8675a2e1b
 title: Networking in Media Foundation
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

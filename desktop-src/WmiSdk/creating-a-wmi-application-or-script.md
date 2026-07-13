@@ -3,7 +3,7 @@ description: Any scripting language, such as VBScript, that works with ActiveX o
 ms.assetid: c0d18827-6b36-4817-8cd9-06cd0f267b28
 ms.tgt_platform: multiple
 title: Creating a WMI Application or Script
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

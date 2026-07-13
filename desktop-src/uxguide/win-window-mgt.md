@@ -2,7 +2,7 @@
 title: Window Management
 description: This article covers default placement of windows when initially displayed on the screen, their stacking order relative to other windows (Z order), their initial size, and how their display affects input focus.
 ms.assetid: d81bd71c-6d8f-45a9-82cb-bdb9b8bcbb11
-ms.topic: article
+ms.topic: reference
 ms.date: 10/20/2020
 ---
 

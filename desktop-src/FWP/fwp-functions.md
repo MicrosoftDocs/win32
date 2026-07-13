@@ -4,7 +4,7 @@ description: WFP Functions
 ms.assetid: 26a69710-9981-40a4-8b1e-dca709624ead
 keywords:
 - Windows Filtering Platform API Management Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: VML CropLeft Attribute
 description: VML CropLeft Attribute
 ms.assetid: 923482f2-e3eb-4508-81d4-f19db8fcf4eb
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

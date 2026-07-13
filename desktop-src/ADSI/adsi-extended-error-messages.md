@@ -5,7 +5,7 @@ ms.assetid: cfec86cb-fe90-4e2b-8c9d-06e175253fa4
 ms.tgt_platform: multiple
 keywords:
 - ADSI Extended Error Messages
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

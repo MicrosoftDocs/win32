@@ -2,7 +2,7 @@
 description: Using Per-Application Configuration Files
 ms.assetid: a600e5a4-b2bb-45a6-8b86-5ea3caf7aa78
 title: Using Per-Application Configuration Files
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

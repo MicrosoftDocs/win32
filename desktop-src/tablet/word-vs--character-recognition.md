@@ -2,7 +2,7 @@
 description: By setting the Factoid property to None, the character recognizer recognizes handwriting on a character-by-character basis.
 ms.assetid: 4dacceab-032e-4b9b-858f-67961fd587b5
 title: Word vs. Character Recognition
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

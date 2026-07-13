@@ -2,7 +2,7 @@
 description: The following sections describe in detail the data types, structures, functions, and notifications of the Setup API.
 ms.assetid: '25b162ef-c9d0-4031-b42c-4512daefa54a'
 title: Reference (Setup API)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

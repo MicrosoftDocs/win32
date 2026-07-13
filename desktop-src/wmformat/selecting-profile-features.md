@@ -5,7 +5,7 @@ ms.assetid: 5e09000d-1417-43aa-9e9c-0aff536d52b7
 keywords:
 - profiles,feature selection
 - profiles,selecting features
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: Shows how to use Wi-Fi Direct functions in desktop apps.
 ms.assetid: 50B95B7D-B860-44DF-8E78-1E7D2DC5A9B6
 title: Using the Wi-Fi Direct functions
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

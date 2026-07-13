@@ -7,7 +7,7 @@ keywords:
 - porting from IRIS GL,color
 - porting to OpenGL from IRIS GL,color
 - OpenGL porting from IRIS GL,color
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

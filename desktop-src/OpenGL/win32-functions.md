@@ -5,7 +5,7 @@ ms.assetid: 866841db-b137-4f65-856d-b9df5bde12fb
 keywords:
 - OpenGL,Windows functions
 - WGL reference OpenGL ,Windows functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

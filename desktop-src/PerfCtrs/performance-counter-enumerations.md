@@ -2,8 +2,8 @@
 description: You use the following enumerations when working with performance data.
 ms.assetid: EF4B540A-E9F7-44F8-B5DC-027705C939FA
 title: Performance Counter Enumerations
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Performance Counter Enumerations

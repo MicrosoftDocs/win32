@@ -5,7 +5,7 @@ ms.assetid: 7cfd91c3-0ebd-47eb-a33d-c81a66f820e5
 keywords:
 - MCIWndGetDest macro
 - MCIWndPutDest macro
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

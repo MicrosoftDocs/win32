@@ -13,7 +13,7 @@ keywords:
 - software redistribution,code examples
 - redistribution,example code
 - redistribution,code examples
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

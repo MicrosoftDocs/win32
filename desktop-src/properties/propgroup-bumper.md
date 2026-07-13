@@ -2,7 +2,7 @@
 description: PropGroup
 ms.assetid: 2caad1ee-5944-46ec-904a-32631b8afd0f
 title: PropGroup
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

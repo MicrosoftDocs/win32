@@ -5,7 +5,7 @@ ms.assetid: 32f62fb9-41c6-4932-9b91-753174919707
 ms.tgt_platform: multiple
 keywords:
 - How a Windows Sockets Service Authenticates a Client AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -10,7 +10,7 @@ keywords:
 - MIDI Mapper,channel messages
 - MIDI channel messages
 - channel messages
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

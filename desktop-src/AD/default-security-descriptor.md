@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Default Security Descriptor AD
 - security descriptors AD , default
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

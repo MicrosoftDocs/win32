@@ -2,7 +2,7 @@
 description: COM+ provides several security features that you can use to help protect your COM+ applications, ranging from services you configure administratively to APIs you can call within code.
 ms.assetid: 686fb391-d337-41b4-bb51-b70f27a0c300
 title: COM+ Security Concepts
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

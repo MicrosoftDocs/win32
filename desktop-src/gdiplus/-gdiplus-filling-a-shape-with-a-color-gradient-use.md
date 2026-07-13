@@ -2,7 +2,7 @@
 description: You can fill a shape with a gradually changing color by using a gradient brush.
 ms.assetid: 7aa94b39-bd4c-4e66-b0dc-77f8953797b1
 title: Filling a Shape with a Color Gradient
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

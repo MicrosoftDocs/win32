@@ -5,7 +5,7 @@ ms.assetid: d3d9e697-a541-4c81-a04f-c26c08ecfaba
 ms.tgt_platform: multiple
 keywords:
 - Server Data Objects SDO , tasks
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

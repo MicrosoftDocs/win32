@@ -2,7 +2,7 @@
 title: AVIFile Operations
 description: AVIFile Operations
 ms.assetid: 0d9611d1-4d6a-480e-881a-171adac87a0c
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

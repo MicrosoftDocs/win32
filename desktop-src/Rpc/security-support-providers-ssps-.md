@@ -2,7 +2,7 @@
 title: Security Support Providers (SSPs)
 description: Beginning with Windows 2000, RPC supports a variety of security providers and packages.
 ms.assetid: f82eba3d-412e-4cb6-9353-2e66bd0f377a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: Before implementing your provider, you should first register your p
 ms.assetid: b0a1a11c-a8e8-4bc1-b286-fb9243667976
 ms.tgt_platform: multiple
 title: Registering a Provider
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -214,7 +214,7 @@ The following procedure describes how to register a provider.
 [Developing a WMI Provider](developing-a-wmi-provider.md)
 </dt> <dt>
 
-[Setting Namepace Security Descriptors](setting-namespace-security-descriptors.md)
+[Setting Namespace Security Descriptors](setting-namespace-security-descriptors.md)
 </dt> <dt>
 
 [Securing Your Provider](securing-your-provider.md)

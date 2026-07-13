@@ -2,7 +2,7 @@
 title: baseeapconnectionpropertiesv1 Schema
 description: Learn about the baseeapconnectionpropertiesv1 schema. This schema defines common configuration schema elements.
 ms.assetid: a3a2fe00-56e6-4df5-bb26-1bd5acda12d0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

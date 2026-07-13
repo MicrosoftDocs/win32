@@ -2,7 +2,7 @@
 title: How To Create a Device and Immediate Context
 description: This topics shows how to initialize a device.
 ms.assetid: 02a20ada-b3aa-435e-8d66-117a19222f9f
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

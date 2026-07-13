@@ -3,7 +3,7 @@ title: Computer Object User Interface Mapping
 description: The following tables list elements of the Computer object property sheets in the Active Directory Users and Computers snap-in.
 ms.assetid: e2a7a42d-e854-43fc-a36b-f3031c1685a7
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

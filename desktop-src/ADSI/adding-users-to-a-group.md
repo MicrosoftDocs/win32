@@ -5,7 +5,7 @@ ms.assetid: 57a9f5b2-2e48-401d-8d3b-eceb711a1df9
 ms.tgt_platform: multiple
 keywords:
 - Adding Users to a Group ADSI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

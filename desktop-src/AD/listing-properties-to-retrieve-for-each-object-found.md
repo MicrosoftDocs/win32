@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - attribute queries Active Directory
 - deciding which attributes to retrieve for each object found Active Directory
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

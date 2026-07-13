@@ -2,7 +2,7 @@
 description: See a list of D3DCAPS3 driver capability flags. Includes the definitions, values, and descriptions with links to APIs.
 ms.assetid: d9cd7388-3413-472d-aacb-0b8c9c60031a
 title: D3DCAPS3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

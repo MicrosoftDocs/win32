@@ -3,7 +3,7 @@ title: Auth-Provider-Name
 description: The name of the RADIUS server or server group that provides authentication.
 ms.assetid: 306b5070-f637-4ab3-a007-c08ed6adb7d8
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

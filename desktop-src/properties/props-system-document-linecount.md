@@ -2,7 +2,7 @@
 description: System.Document.LineCount
 ms.assetid: a520b9e5-1f58-499f-b93a-c072cf79623b
 title: System.Document.LineCount
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

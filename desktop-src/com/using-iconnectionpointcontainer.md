@@ -2,7 +2,7 @@
 title: Using IConnectionPointContainer
 description: Using IConnectionPointContainer
 ms.assetid: a87afb25-4d45-4ce2-9b27-840da5107bce
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

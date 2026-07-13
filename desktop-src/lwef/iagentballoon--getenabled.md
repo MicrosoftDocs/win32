@@ -2,7 +2,7 @@
 title: IAgentBalloon GetEnabled
 description: IAgentBalloon GetEnabled
 ms.assetid: 1a5ea6c0-6150-459f-95eb-a9c7598c1d94
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

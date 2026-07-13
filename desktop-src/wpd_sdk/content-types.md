@@ -2,7 +2,7 @@
 description: Content Types
 ms.assetid: f1bbd10f-bfe8-4860-aa10-17d198dc50a3
 title: Content Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

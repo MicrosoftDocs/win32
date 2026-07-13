@@ -2,7 +2,7 @@
 description: A patch that should no longer be used can be eliminated from the patching sequence.
 ms.assetid: b1d499d9-4fd3-4996-84a1-c32acefbb98f
 title: Eliminating Patches
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

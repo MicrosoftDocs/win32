@@ -4,7 +4,7 @@ description: IPsec Functions
 ms.assetid: db656c58-7776-44c4-a7ce-c38e59b37c74
 keywords:
 - Windows Filtering Platform API IPsec Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

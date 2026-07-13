@@ -3,7 +3,7 @@ description: Use the WITHIN clause in event queries to specify a polling interva
 ms.assetid: e2fc7627-fb3d-4966-b38b-441333868ae3
 ms.tgt_platform: multiple
 title: WITHIN Clause
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

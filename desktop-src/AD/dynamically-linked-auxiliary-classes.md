@@ -5,7 +5,7 @@ ms.assetid: 10530a3c-89fc-4ff0-a0b7-1c9a27659003
 ms.tgt_platform: multiple
 keywords:
 - Dynamically Linked Auxiliary Classes AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Best practices for Windows 8.1
 description: Tools, best practices, and guidance for Windows 8.1 and Windows Server 2012 R2
 ms.assetid: 5317C292-1C1F-45DB-B4A4-BCE59991B4B3
-ms.topic: article
+ms.topic: best-practice
 ms.date: 05/31/2018
 ---
 

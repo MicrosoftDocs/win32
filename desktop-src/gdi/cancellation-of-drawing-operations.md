@@ -2,7 +2,7 @@
 description: When complex drawing applications perform lengthy graphics operations, they consume valuable system resources.
 ms.assetid: 3beef852-27fe-4ee2-b38b-3dc50e5d2fcf
 title: Cancellation of Drawing Operations
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

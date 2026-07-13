@@ -2,7 +2,7 @@
 description: The Windows SDK contains a command-line utility, Sc.exe, that can be used to query or modify the database of installed services. Its commands correspond to the functions provided by the SCM. The syntax is as follows.
 ms.assetid: d304922c-86fb-4c62-9bfa-c827df4aecd8
 title: Configuring a Service Using SC
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

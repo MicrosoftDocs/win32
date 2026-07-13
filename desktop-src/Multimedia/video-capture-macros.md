@@ -5,7 +5,7 @@ ms.assetid: 21061f06-d58b-4800-a9f5-9821494fabd6
 keywords:
 - Video for Windows (VFW),video capture macros
 - VFW (Video for Windows),video capture macros
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

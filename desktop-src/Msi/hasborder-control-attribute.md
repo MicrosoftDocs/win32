@@ -2,7 +2,7 @@
 description: If this bit is set, the RadioButtonGroup has text and a border displayed around it.
 ms.assetid: 25f88e07-a17d-4a5a-bf4f-5615e371cf6b
 title: HasBorder Control Attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

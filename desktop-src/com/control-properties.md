@@ -2,7 +2,7 @@
 title: Control Properties
 description: Control Properties
 ms.assetid: 29c2cca3-9460-45d1-9591-026e8c18f26f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

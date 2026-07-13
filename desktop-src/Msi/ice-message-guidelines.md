@@ -2,7 +2,7 @@
 description: ICE custom actions communicate by calling MsiProcessMessage and posting an INSTALLMESSAGE\_USER type message.
 ms.assetid: 36307589-de0e-4eaf-b439-e7ba3cd96fb3
 title: ICE Message Guidelines
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

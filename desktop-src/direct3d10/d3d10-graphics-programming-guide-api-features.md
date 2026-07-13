@@ -2,7 +2,7 @@
 description: The Direct3D 10 graphics pipeline represents a fundamental architecture change, rebuilt from the ground-up in hardware and software to power the next-generation of games and 3D multimedia applications.
 ms.assetid: 2e24de6c-4f73-4844-b87f-3487ef069db6
 title: API Features (Direct3D 10)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

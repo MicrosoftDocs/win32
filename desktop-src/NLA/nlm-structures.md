@@ -2,7 +2,7 @@
 title: NLM structures
 description: The following structures support the Network List Manager API.
 ms.assetid: E4CEAD71-AE86-4B4D-B750-D2B90BA93A80
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

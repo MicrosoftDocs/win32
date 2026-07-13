@@ -3,7 +3,7 @@ description: You can update the values of nonkey properties of union view class 
 ms.assetid: 375c9bc8-9f7b-42b4-a841-cf6af88887de
 ms.tgt_platform: multiple
 title: Updating a Union View
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

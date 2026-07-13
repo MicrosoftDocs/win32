@@ -2,7 +2,7 @@
 description: This topic introduces the new Extensible Metadata Platform (XMP) schema and the Windows 7 photo property System.Photo.PeopleNames that enables the tagging of individuals in a digital photo.
 ms.assetid: 557c3e9a-1756-4abb-8465-b12195ecbc91
 title: People Tagging Overview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

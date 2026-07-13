@@ -2,7 +2,7 @@
 title: VML Gamma Attribute
 description: VML Gamma Attribute
 ms.assetid: 47a4d10e-f5ef-457b-92dd-bce5dae59b1c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

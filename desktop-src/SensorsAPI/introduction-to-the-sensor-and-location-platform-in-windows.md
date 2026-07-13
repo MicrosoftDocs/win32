@@ -2,11 +2,16 @@
 description: The Windows 7 operating system provides built-in support for sensor devices.
 ms.assetid: 751ba2fc-fbff-4418-82ac-eebc8a145b14
 title: Overview of the Windows sensor and location platform
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 09/19/2025
 ---
 
 # Overview of the Windows sensor and location platform
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 The Windows 7 operating system provides built-in support for sensor devices. This includes support for location sensors, such as GPS devices. As part of this support, the Windows Sensor and Location platform provides a standard way for device manufacturers to expose sensor devices to software developers and consumers. At the same time, the platform gives developers a standardized API and device driver interface (DDI) to work with sensors and sensor data.
 
@@ -22,10 +27,10 @@ Location devices make up one especially interesting category. By now, most peopl
 
 The Windows Sensor and Location platform consists of the following developer and user components:
 
--   The DDI enables Windows to provide a standard way for sensor devices to connect to the computer and to provide data to other subsystems.
--   The Windows Sensor API provides a set of methods, properties, and events to work with connected sensors and sensor data.
--   The Windows Location API, which is built on the Windows Sensor API, provides a set of programming objects, including scripting objects, for working with location information.
--   The Location and Other Sensors Control Panel enables computer administrators to set sensors, including location sensors, for each user.
+- The DDI enables Windows to provide a standard way for sensor devices to connect to the computer and to provide data to other subsystems.
+- The Windows Sensor API provides a set of methods, properties, and events to work with connected sensors and sensor data.
+- The Windows Location API, which is built on the Windows Sensor API, provides a set of programming objects, including scripting objects, for working with location information.
+- The Location and Other Sensors Control Panel enables computer administrators to set sensors, including location sensors, for each user.
 
 The following sections describe each of these components.
 
@@ -57,6 +62,6 @@ The Control Panel also provides a Default Location page to enable users to provi
 
 [About the Sensor API](about-the-sensor-api.md)
 
-[Windows Hardware Developer Central Web site](https://www.microsoft.com/whdc/device/sensors/default.mspx)
+[Windows Hardware Developer Central Web site](https://developer.microsoft.com/windows/hardware/)
 
 [Windows Developer Center](https://msdn.microsoft.com/windows/default.aspx?wt.svl=client)

@@ -3,7 +3,7 @@ description: In addition to supplying services, providers, classes, and instance
 ms.assetid: 452a396b-c7da-4ccd-873e-f381ee7c289a
 ms.tgt_platform: multiple
 title: Using the WMI Command-Line Tools
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

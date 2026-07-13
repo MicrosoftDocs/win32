@@ -3,7 +3,7 @@ title: About the User Interfaces of Active Directory Domain Services
 description: Administrators and users must be able to view and modify directory service objects in Microsoft Active Directory Domain Services from a user interface.
 ms.assetid: b6eec599-ebb3-40af-a4a2-059755285854
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

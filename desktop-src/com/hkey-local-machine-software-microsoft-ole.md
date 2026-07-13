@@ -2,7 +2,7 @@
 title: HKEY_LOCAL_MACHINESOFTWAREMicrosoftOle
 description: The registry values associated with the HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Ole key control the default launch and access permission settings and call-level security capabilities for COM-based applications that do not call CoInitializeSecurity.
 ms.assetid: 871ae88f-ed2c-4078-8160-b0a490390426
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

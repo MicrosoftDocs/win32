@@ -2,7 +2,7 @@
 description: The file name, including its extension.
 ms.assetid: 40940026-6c67-4196-aff6-5f846dc94f27
 title: System.FileName
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

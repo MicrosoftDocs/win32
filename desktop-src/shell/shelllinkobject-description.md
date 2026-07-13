@@ -127,7 +127,7 @@ Visual Basic:
 
 
 ```VB
-rivate Sub fnShellLinkObjectDescriptionVB()
+Private Sub fnShellLinkObjectDescriptionVB()
     Dim objShell  As Shell
     Dim objFolder As Folder
     

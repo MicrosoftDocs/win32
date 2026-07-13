@@ -2,7 +2,7 @@
 description: The following topics describe how to use the ETW API for event tracing.
 ms.assetid: 7362874a-8206-4973-bb79-a9eaff55feb4
 title: Using Event Tracing
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Vignette effect
 description: Fades the input image at the edges to a user-set color.
 ms.assetid: 34da221f-44a2-1d01-d88d-d7846b9770b9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

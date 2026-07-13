@@ -7,7 +7,7 @@ keywords:
 - porting from IRIS GL,bbox2 function
 - porting to OpenGL from IRIS GL,bbox2 function
 - OpenGL porting from IRIS GL,bbox2 function
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

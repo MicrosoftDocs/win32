@@ -2,7 +2,7 @@
 title: VML Path Element
 description: VML Path Element
 ms.assetid: c5b9f9e3-edee-45fa-9387-8f15e09983ee
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

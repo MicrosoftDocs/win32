@@ -2,7 +2,7 @@
 description: 'Windows 2000: This topic defines the NLS paper size types associated with the LOCALE\_IPAPERSIZE constant, indicating the default paper size for a locale.'
 ms.assetid: a685b9c1-1c94-4d67-93db-40a259e4923a
 title: Paper Sizes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

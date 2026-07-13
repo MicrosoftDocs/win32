@@ -2,7 +2,7 @@
 title: Gallery Sample
 description: This code sample demonstrates the markup and code required to use the different types of Gallery controls included in the Windows Ribbon framework.
 ms.assetid: 1a462f4e-e75a-40cf-9c52-0bad0a645d57
-ms.topic: article
+ms.topic: sample
 ms.date: 07/13/2021
 ---
 

@@ -2,7 +2,7 @@
 description: Encodes and decodes simple, general data, and illustrates the following tasks and CryptoAPI functions.
 ms.assetid: 7634bd05-fca0-4538-94da-7af6e3d8e6b8
 title: 'Example C Program: Encoding and Decoding Data'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

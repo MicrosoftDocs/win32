@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Searching with OLE DB ADSI
 - queries ADSI , searching with OLE DB
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

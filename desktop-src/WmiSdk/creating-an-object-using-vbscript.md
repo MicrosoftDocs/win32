@@ -3,7 +3,7 @@ description: You can create an object for WMI in Visual Basic Scripting Edition 
 ms.assetid: 3acbce31-6d56-4a7a-af03-fa37b2b868be
 ms.tgt_platform: multiple
 title: Creating an Object Using VBScript
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

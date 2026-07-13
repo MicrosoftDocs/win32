@@ -2,7 +2,7 @@
 description: Device new message notification.
 ms.assetid: 2d6dce7b-d31f-4b4b-8ee0-b043568932fd
 title: System.Devices.Notifications.NewMessage
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Access control information, from SummaryInfo propset.
 ms.assetid: 0cc40312-2298-4611-b60f-e0222ef793c3
 title: System.Document.Security
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

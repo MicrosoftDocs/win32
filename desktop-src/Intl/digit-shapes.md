@@ -2,7 +2,7 @@
 description: Arabic and many other languages have classical shapes for numbers that are different from the conventional western digits most often used on computers.
 ms.assetid: 6b5267d8-b102-410c-bdc9-831555ca2f84
 title: Digit Shapes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

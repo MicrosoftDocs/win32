@@ -5,7 +5,7 @@ ms.assetid: 37dc7818-7719-4975-b7bd-f8c2d5cc008b
 keywords:
 - Task Scheduler Task Scheduler , reference, structures and unions
 - triggers Task Scheduler , structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

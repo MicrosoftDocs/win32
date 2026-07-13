@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # UpgradeEditionWithProductKeyMethod method of the MDM\_WindowsLicensing class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+
 
 Enters a product key for an edition upgrade of Windows 10 desktop devices. See also, [UpgradeEditionWithProductKey](/windows/client-management/mdm/windowslicensing-csp).
 

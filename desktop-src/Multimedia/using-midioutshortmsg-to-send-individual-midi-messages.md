@@ -9,7 +9,7 @@ keywords:
 - Musical Instrument Digital Interface (MIDI),midiOutShortMsg function
 - MIDI (Musical Instrument Digital Interface),midiOutShortMsg function
 - midiOutShortMsg function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: 'The following list indicates additions and changes to the Volume Shadow Copy Service interface in Windows Server 2003:'
 ms.assetid: 354e9f2f-5a5e-4502-9007-4f1b41acdea3
 title: What's New in VSS in Windows Server 2003
-ms.topic: article
+ms.topic: whats-new
 ms.date: 05/31/2018
 ---
 

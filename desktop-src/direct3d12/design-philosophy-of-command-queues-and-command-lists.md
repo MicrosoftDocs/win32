@@ -5,7 +5,7 @@ ms.assetid: C85C8C41-2306-4568-8FAE-F57EDA624298
 keywords:
 - command list
 - bundle
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

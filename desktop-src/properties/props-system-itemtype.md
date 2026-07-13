@@ -2,7 +2,7 @@
 description: The canonical type of the item.
 ms.assetid: 530ba98a-09fd-438b-8872-9eee47f0cf54
 title: System.ItemType
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

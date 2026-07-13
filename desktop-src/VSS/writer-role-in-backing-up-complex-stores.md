@@ -2,7 +2,7 @@
 description: Learn about the writer role in incremental and differential backups, which require close cooperation between requesters and writers.
 ms.assetid: 3cf5dd1f-dc58-42bc-925f-fee7d34053c5
 title: Writer Role in Backing Up Complex Stores
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

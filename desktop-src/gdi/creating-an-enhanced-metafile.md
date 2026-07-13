@@ -2,7 +2,7 @@
 description: This section contains an example that demonstrates the creation of an enhanced metafile that is stored on a disk, using a file name specified by the user.
 ms.assetid: 084b2737-eb55-4587-b8e8-3eb3fa3688c4
 title: Creating an Enhanced Metafile
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

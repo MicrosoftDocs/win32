@@ -12,8 +12,8 @@ api_name:
 - IDeviceBroker.OpenDeviceFromInterfacePath
 api_type:
 - COM
-ms.topic: article
-ms.date: 02/11/2020
+ms.topic: reference
+ms.date: 07/14/2025
 api_location: 
 ROBOTS: INDEX,FOLLOW
 ---

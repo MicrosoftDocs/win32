@@ -21,7 +21,8 @@ api_location:
 
 A notification callback function specified with the [**LdrRegisterDllNotification**](ldrregisterdllnotification.md) function. The loader calls this function when a DLL is first loaded.
 
-**Warning:** It is unsafe for the notification callback function to call functions in any DLL.
+> [!WARNING]
+> It is unsafe for the notification callback to call functions in ANY other module other than itself.
 
 ## Syntax
 

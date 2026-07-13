@@ -2,7 +2,7 @@
 title: Painting the Window
 description: You've created your window. Now you want to show something inside it. In Windows terminology, this is called painting the window. To mix metaphors, a window is a blank canvas, waiting for you to fill it.
 ms.assetid: db97a4c9-7592-42d1-a5de-9c468169eefc
-ms.topic: article
+ms.topic: concept-article
 ms.date: 08/16/2019
 ---
 

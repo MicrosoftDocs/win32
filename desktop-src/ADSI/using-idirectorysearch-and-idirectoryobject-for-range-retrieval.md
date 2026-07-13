@@ -7,7 +7,7 @@ keywords:
 - IDirectorySearch ADSI , Using for ranging to retrieve members of a group
 - IDirectoryObject ADSI , Using for ranging to retrieve members of a group
 - Range Retrieval ADSI , Using IDirectorySearch and IDirectoryObject
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

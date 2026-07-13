@@ -2,8 +2,8 @@
 description: This section describes the new features that were added to Performance Counters for each release.
 ms.assetid: 14bdae6c-9dcd-401e-8c43-5391e00cf7e3
 title: Whats New (Performance Counters)
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: whats-new
+ms.date: 07/14/2025
 ---
 
 # What's New with Performance Counters

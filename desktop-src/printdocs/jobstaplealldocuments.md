@@ -2,7 +2,7 @@
 description: Learn about the JobStapleAllDocuments element, which describes the stapling characteristics of the job output.
 ms.assetid: a6721c13-a3dc-4273-b40f-2a28184b04a9
 title: JobStapleAllDocuments
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -73,7 +73,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the `https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords` namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Feature name="psk:JobStapleAllDocuments">

@@ -2,7 +2,7 @@
 description: This section contains an alphabetic listing of the TAPI phone device constants.
 ms.assetid: 0e7425e3-f2e4-4703-bb43-3cb293d49922
 title: Phone Device Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: The precision timer algorithm counter types obtain more accurate re
 ms.assetid: f7159645-6287-47a3-895e-20dae6e0892a
 ms.tgt_platform: multiple
 title: Precision Timer Algorithm Counter Types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

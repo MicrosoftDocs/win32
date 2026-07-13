@@ -19,7 +19,7 @@ keywords:
 - temporal indexes
 - frame-based indexes
 - SMPTE time codes,indexes
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

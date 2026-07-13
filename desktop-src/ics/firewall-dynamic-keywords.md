@@ -3,7 +3,7 @@ title: Firewall dynamic keywords
 description: You use the firewall dynamic keywords APIs to manage dynamic keyword addresses in Microsoft Defender Firewall.
 keywords:
 - Firewall dynamic keywords
-ms.topic: article
+ms.topic: reference
 ms.date: 05/17/2021
 ---
 

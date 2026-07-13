@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , WMI provider reference
 - WMI provider reference Remote Desktop Services
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

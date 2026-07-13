@@ -6,7 +6,7 @@ keywords:
 - video compression manager (VCM),image-data compression
 - VCM (video compression manager),image-data compression
 - ICCompress function
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

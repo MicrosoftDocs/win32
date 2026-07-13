@@ -112,7 +112,7 @@ public enum JET_ERRCAT
 <tr class="even">
 <td></td>
 <td>Fatal</td>
-<td>This sort error happens only when ESE encounters an error condition so grave, that we can not continue on in a safe (often transactional) way, and rather than corrupt data we throw errors of this category. Recovery: Restart the instance or process. If the problem persists inform the operator.</td>
+<td>This sort error happens only when ESE encounters an error condition so grave, that we cannot continue on in a safe (often transactional) way, and rather than corrupt data we throw errors of this category. Recovery: Restart the instance or process. If the problem persists inform the operator.</td>
 </tr>
 <tr class="odd">
 <td></td>

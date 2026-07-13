@@ -3,7 +3,7 @@ description: WMI C++ classes that are part of the WMI Provider Framework are now
 ms.assetid: 72b1241b-163b-474f-be8d-3fd8923aaa27
 ms.tgt_platform: multiple
 title: WMI Provider Framework C++ Classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

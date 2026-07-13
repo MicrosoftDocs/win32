@@ -2,8 +2,8 @@
 description: "Learn more about: Using Basic Debugging"
 ms.assetid: 43923954-a220-496c-8149-94468dd5c038
 title: Using Basic Debugging
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Using Basic Debugging

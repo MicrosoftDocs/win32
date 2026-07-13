@@ -7,7 +7,7 @@ keywords:
 - About Active Directory Service Interfaces ADSI
 - ADSI ADSI , About
 - Active Directory Service Interfaces ADSI , About
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

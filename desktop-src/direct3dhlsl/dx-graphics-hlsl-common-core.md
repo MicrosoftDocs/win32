@@ -2,7 +2,7 @@
 title: Common-Shader Core
 description: Common-Shader Core
 ms.assetid: f3cf2969-83a4-461f-8177-d336536194ba
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

@@ -2,7 +2,7 @@
 title: Configuring Depth-Stencil Functionality
 description: This section covers the steps for setting up the depth-stencil buffer, and depth-stencil state for the output-merger stage.
 ms.assetid: e8f52d5f-266f-4e2c-b38d-d7fd9e27fe1f
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -173,7 +173,7 @@ An example of two-sided stencil implementation can be found in the [ShadowVolume
 
 ### Reading the Depth-Stencil Buffer as a Texture
 
-An inactive depth-stencil buffer can be read by a shader as a texture. An application that reads a depth-stencil buffer as a texture renders in two passes, the first pass writes to the depth-stencil buffer and the second pass reads from the buffer. This allows a shader to compare depth or stencil values previously written to the buffer against the value for the pixel currrently being rendered. The result of the comparison can be used to create effects such as shadow mapping or soft particles in a particle system.
+An inactive depth-stencil buffer can be read by a shader as a texture. An application that reads a depth-stencil buffer as a texture renders in two passes, the first pass writes to the depth-stencil buffer and the second pass reads from the buffer. This allows a shader to compare depth or stencil values previously written to the buffer against the value for the pixel currently being rendered. The result of the comparison can be used to create effects such as shadow mapping or soft particles in a particle system.
 
 To create a depth-stencil buffer that can be used as both a depth-stencil resource and a shader resource a few changes need to be made to sample code in the [Create a Depth-Stencil Resource](#create-a-depth-stencil-resource) section.
 

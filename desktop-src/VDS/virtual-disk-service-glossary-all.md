@@ -3,7 +3,7 @@ description: This section provides a glossary of technical terms used in the Vir
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 1cf28cfb-ce96-4659-955d-0088bddcb9ce
 title: Virtual Disk Service Glossary
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

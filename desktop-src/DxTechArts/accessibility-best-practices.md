@@ -2,7 +2,7 @@
 title: Making Video Games Accessible Business Justifications and Design Considerations
 description: This article is for game content developers and producers who want to reach the accessibility community market by adding basic accessibility features to help people with disabilities or impairments.
 ms.assetid: 95580b75-fb8e-b8a9-2137-40d6c60ae35d
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -200,7 +200,7 @@ There are a number of web resources available that discuss video game accessibil
 
 General Disability sites:
 
--   [Game Accessibility](https://www.game-accessibility.com/)
+-   [Game accessibility guidelines](https://gameaccessibilityguidelines.com/full-list/)
 -   [Microsoft's Accessibility Site](https://www.microsoft.com/enable/)
 -   [Accessibility](/previous-versions/windows/internet-explorer/ie-developer/accessibility/gg701968(v=vs.85))
 

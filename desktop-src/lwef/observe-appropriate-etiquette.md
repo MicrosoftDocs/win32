@@ -2,7 +2,7 @@
 title: Observe Appropriate Etiquette
 description: Observe Appropriate Etiquette
 ms.assetid: 7dcc4907-f38c-4706-982e-7792eef27c7a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

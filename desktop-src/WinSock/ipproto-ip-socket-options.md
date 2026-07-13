@@ -1,9 +1,9 @@
 ---
-description: The following tables describe IPPROTO\_IP socket options that apply to sockets created for the IPv4 address family (AF\_INET). See the getsockopt and setsockopt function reference pages for more information on getting and setting socket options.
-ms.assetid: 6b06a29e-59cd-4446-bd2f-131dc25bf571
 title: IPPROTO_IP socket options
-ms.topic: article
-ms.date: 10/02/2019
+description: The following tables describe IPPROTO\_IP socket options that apply to sockets created for the IPv4 address family (AF\_INET). See the getsockopt and setsockopt function reference pages for more information on getting and setting socket options.
+ms.date: 10/25/2024
+ms.assetid: 6b06a29e-59cd-4446-bd2f-131dc25bf571
+ms.topic: reference
 ---
 
 # IPPROTO\_IP socket options
@@ -40,12 +40,13 @@ Some socket options require more explanation than these tables can convey; such 
 | IP\_RECEIVE\_BROADCAST | yes | yes | DWORD (boolean) | Allows or blocks broadcast reception. |
 | IP\_RECVIF | yes | yes | DWORD (boolean) | Indicates whether the IP stack should populate the control buffer with details about which interface received a packet with a datagram socket. When this value is true, the [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg) function will return optional control data containing the interface where the packet was received for datagram sockets. This option allows the IPv4 interface where the packet was received to be returned in the [**WSAMSG**](/windows/desktop/api/Ws2def/ns-ws2def-wsamsg) structure.  This option is only valid on datagram and raw sockets (the socket type must be SOCK\_DGRAM or SOCK\_RAW). |
 | IP\_RECVTOS | yes | yes | DWORD (boolean) | Indicates whether the IP stack should populate the control buffer with a message containing the Type of Service (TOS) IPv4 header field on a received datagram. When this value is true, the [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg) function will return optional control data containing the TOS IPv4 header field value of the received datagram.  This option allows the TOS IPv4 header field of the received datagram to be returned in the [**WSAMSG**](/windows/desktop/api/Ws2def/ns-ws2def-wsamsg) structure. The returned message type will be IP\_TOS. All DSCP and ECN bits of the TOS field will be returned.  This option is only valid on datagram sockets (the socket type must be SOCK\_DGRAM).  |
+| IP\_RECVECN | yes | yes | DWORD (boolean) | Indicates whether the IP stack should populate the control buffer with a message containing the ECN bits of the Type of Service (TOS) IPv4 header field on a received datagram. When this value is true, the [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg) function will return optional control data containing the ECN bits of the TOS IPv4 header field value of the received datagram.  This option allows the ECN bits of the TOS IPv4 header field of the received datagram to be returned in the [**WSAMSG**](/windows/desktop/api/Ws2def/ns-ws2def-wsamsg) structure. The returned message type will be IP\_ECN. All 2 ECN bits of the TOS field will be returned. This option is only valid on datagram and raw sockets (the socket type must be SOCK\_DGRAM or SOCK\_RAW). The [**WSAGetRecvIPEcn**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetrecvipecn) and [**WSASetRecvIPEcn**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetrecvipecn) functions are deprecated because they do not properly support dual-stack sockets. Use this socket option directly instead. On a dual-stack socket that is unbound or bound to a wildcard address, set both **IP_RECVECN** (level **IPPROTO_IP**) and **IPV6_RECVECN** (level **IPPROTO_IPV6**). If the socket is bound to a specific IPv6 address, only **IPV6_RECVECN** applies. If the socket is bound to an IPv4-mapped IPv6 address, only **IP_RECVECN** applies. |
 | IP\_RECVTTL | yes | yes | DWORD (boolean) | Indicates that hop (TTL) information should be returned in the [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg) function. If *optval* is set to **1** on the call to [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt), the option is enabled. If set to **0**, the option is disabled.  This option is only valid for datagram and raw sockets (the socket type must be SOCK\_DGRAM or SOCK\_RAW). |
 | IP\_TOS | yes | yes | DWORD (boolean) | Do not use. Type of Service (TOS) settings should only be set using the Quality of Service API. See [Differentiated Services](/previous-versions/windows/desktop/qos/differentiated-services) in the Quality of Service section of the Platform SDK for more information. |
 | IP\_TTL | yes | yes | DWORD (boolean) | Changes the default value set by the TCP/IP service provider in the TTL field of the IP header in outgoing datagrams. IP\_TTL support is not required; to check whether IP\_TTL is supported, use [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) to get current options. If **getsockopt** fails, IP\_TTL is not supported. |
 | IP\_UNBLOCK\_SOURCE | | yes | [**ip\_mreq\_source**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-ip_mreq_source) | Adds the given source as a sender to the supplied multicast group and interface. |
 | IP\_UNICAST\_IF | yes | yes | DWORD (IF\_INDEX) | Gets or sets the outgoing interface for sending IPv4 traffic. This option does not change the default interface for receiving IPv4 traffic. This option is important for multihomed computers.  The input value for setting this option is a 4-byte IPv4 address in network byte order. This DWORD parameter must be an interface index in network byte order. Any IP address in the 0.x.x.x block (first octet of 0) except IPv4 address 0.0.0.0 is treated as an interface index. An interface index is a 24-bit number, and the 0.0.0.0/8 IPv4 address block is not used (this range is reserved). The interface index can be used to specify the default interface for sending traffic for IPv4. The [**GetAdaptersAddresses**](/windows/win32/api/iphlpapi/nf-iphlpapi-getadaptersaddresses) function can be used to obtain the interface index information. If *optval* is zero , the default interface for sending traffic is set to unspecified.  When getting this option, the *optval* returns the current default interface index for sending IPv4 traffic in host byte order. |
-| IP_USER_MTU | yes | yes | DWORD | Gets or sets an upper bound on the IP layer MTU (in bytes) for the given socket. If the value is higher than the system's estimate of the path MTU (which you can retrieve on a connected socket by querying the **IP_MTU** socket option), then the option has no effect. If the value is lower, then outbound packets larger than this will be fragmented, or will fail to send, depending on the value of **IP_DONTFRAGMENT**. Default value is **IP_UNSPECIFIED_USER_MTU** (MAXULONG). For type-safety, you should use the [**WSAGetIPUserMtu**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetipusermtu) and [**WSASetIPUserMtu**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetipusermtu) functions instead of using the socket option directly. |
+| IP_USER_MTU | yes | yes | DWORD | Gets or sets an upper bound on the IP layer MTU (in bytes) for the given socket. If the value is higher than the system's estimate of the path MTU (which you can retrieve on a connected socket by querying the **IP_MTU** socket option), then the option has no effect. If the value is lower, then outbound packets larger than this will be fragmented, or will fail to send, depending on the value of **IP_DONTFRAGMENT**. Default value is **IP_UNSPECIFIED_USER_MTU** (MAXULONG). The [**WSAGetIPUserMtu**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsagetipusermtu) and [**WSASetIPUserMtu**](/windows/win32/api/ws2tcpip/nf-ws2tcpip-wsasetipusermtu) functions are deprecated because they do not properly support dual-stack sockets. Use this socket option directly instead. On a dual-stack socket that is unbound or bound to a wildcard address, set both **IP_USER_MTU** (level **IPPROTO_IP**) and **IPV6_USER_MTU** (level **IPPROTO_IPV6**). If the socket is bound to a specific IPv6 address, only **IPV6_USER_MTU** applies. If the socket is bound to an IPv4-mapped IPv6 address, only **IP_USER_MTU** applies. |
 | IP\_WFP\_REDIRECT\_CONTEXT | yes | yes | WSACMSGHDR with control data | A datagram socket ancillary data type (cmsg\_type) to indicate the redirect context for a UDP socket used by a user mode Windows Filtering Platform (WFP) redirect service. |
 | IP\_WFP\_REDIRECT\_RECORDS | yes | yes | WSACMSGHDR with control data | A datagram socket ancillary data type (cmsg\_type) to indicate the redirect record for a UDP socket used by a user mode Windows Filtering Platform (WFP) redirect service. |
 
@@ -54,59 +55,59 @@ Some socket options require more explanation than these tables can convey; such 
 | Option | Windows 10 | Windows 8 | Windows Server 2012 | Windows 7 | Windows Server 2008 | Windows Vista |
 |-|-|-|-|-|-|-|
 | IP_ADD_IFLIST | Starting with Windows 10, version 1803 | | | | | |
-| IP\_ADD\_MEMBERSHIP | x | x | x | x | x | x |
-| IP\_ADD\_SOURCE\_MEMBERSHIP | x | x | x | x | x | x |
-| IP\_BLOCK\_SOURCE | x | x | x | x | x | x |
+| IP\_ADD\_MEMBERSHIP | yes | yes | yes | yes | yes | yes |
+| IP\_ADD\_SOURCE\_MEMBERSHIP | yes | yes | yes | yes | yes | yes |
+| IP\_BLOCK\_SOURCE | yes | yes | yes | yes | yes | yes |
 | IP_DEL_IFLIST | Starting with Windows 10, version 1803 | | | | | |
-| IP\_DONTFRAGMENT | x | x | x | x | x | x |
-| IP\_DROP\_MEMBERSHIP | x | x | x | x | x | x |
-| IP\_DROP\_SOURCE\_MEMBERSHIP | x | x | x | x | x | x |
+| IP\_DONTFRAGMENT | yes | yes | yes | yes | yes | yes |
+| IP\_DROP\_MEMBERSHIP | yes | yes | yes | yes | yes | yes |
+| IP\_DROP\_SOURCE\_MEMBERSHIP | yes | yes | yes | yes | yes | yes |
 | IP_GET_IFLIST | Starting with Windows 10, version 1803 | | | | | |
-| IP\_HDRINCL | x | x | x | x | x | x |
+| IP\_HDRINCL | yes | yes | yes | yes | yes | yes |
 | IP_IFLIST | Starting with Windows 10, version 1803 | | | | | |
-| IP\_MULTICAST\_IF | x | x | x | x | x | x |
-| IP\_MULTICAST\_LOOP | x | x | x | x | x | x |
-| IP\_MULTICAST\_TTL | x | x | x | x | x | x |
-| IP\_OPTIONS | x | x | x | x | x | x |
-| IP\_ORIGINAL\_ARRIVAL\_IF | x | x | x | x | | |
-| IP\_PKTINFO | x | x | x | x | x | x |
-| IP\_RECEIVE\_BROADCAST | x | x | x | x | x | x |
-| IP\_RECVIF | Starting with Windows 10, version 1703 | x | x | x | x | x |
-| IP\_RECVTTL | x | | | | | |
-| IP\_TOS | x | x | x | | | |
-| IP\_TTL | x | x | x | x | x | x |
-| IP\_UNBLOCK\_SOURCE | x | x | x | x | x | x |
-| IP\_UNICAST\_IF | x | x | x | x | x | x |
-| IP\_WFP\_REDIRECT\_CONTEXT | x | x | x | | | |
-| IP\_WFP\_REDIRECT\_RECORDS | x | x | x | | | |
+| IP\_MULTICAST\_IF | yes | yes | yes | yes | yes | yes |
+| IP\_MULTICAST\_LOOP | yes | yes | yes | yes | yes | yes |
+| IP\_MULTICAST\_TTL | yes | yes | yes | yes | yes | yes |
+| IP\_OPTIONS | yes | yes | yes | yes | yes | yes |
+| IP\_ORIGINAL\_ARRIVAL\_IF | yes | yes | yes | yes | | |
+| IP\_PKTINFO | yes | yes | yes | yes | yes | yes |
+| IP\_RECEIVE\_BROADCAST | yes | yes | yes | yes | yes | yes |
+| IP\_RECVIF | Starting with Windows 10, version 1703 | yes | yes | yes | yes | yes |
+| IP\_RECVTTL | yes | | | | | |
+| IP\_TOS | yes | yes | yes | | | |
+| IP\_TTL | yes | yes | yes | yes | yes | yes |
+| IP\_UNBLOCK\_SOURCE | yes | yes | yes | yes | yes | yes |
+| IP\_UNICAST\_IF | yes | yes | yes | yes | yes | yes |
+| IP\_WFP\_REDIRECT\_CONTEXT | yes | yes | yes | | | |
+| IP\_WFP\_REDIRECT\_RECORDS | yes | yes | yes | | | |
 
 <br/>
 
 | Option | Windows Server 2003 | Windows XP |
 |-|-|-|
 | IP_ADD_IFLIST | | |
-| IP\_ADD\_MEMBERSHIP | x | x |
-| IP\_ADD\_SOURCE\_MEMBERSHIP | x | x |
-| IP\_BLOCK\_SOURCE | x | x |
+| IP\_ADD\_MEMBERSHIP | yes | yes |
+| IP\_ADD\_SOURCE\_MEMBERSHIP | yes | yes |
+| IP\_BLOCK\_SOURCE | yes | yes |
 | IP_DEL_IFLIST | | |
-| IP\_DONTFRAGMENT | x | x |
-| IP\_DROP\_MEMBERSHIP | x | x |
-| IP\_DROP\_SOURCE\_MEMBERSHIP | x | x |
+| IP\_DONTFRAGMENT | yes | yes |
+| IP\_DROP\_MEMBERSHIP | yes | yes |
+| IP\_DROP\_SOURCE\_MEMBERSHIP | yes | yes |
 | IP_GET_IFLIST | | |
-| IP\_HDRINCL | x | x |
+| IP\_HDRINCL | yes | yes |
 | IP_IFLIST | | |
-| IP\_MULTICAST\_IF | x | x |
-| IP\_MULTICAST\_LOOP | x | x |
-| IP\_MULTICAST\_TTL | x | x |
-| IP\_OPTIONS | x | x |
+| IP\_MULTICAST\_IF | yes | yes |
+| IP\_MULTICAST\_LOOP | yes | yes |
+| IP\_MULTICAST\_TTL | yes | yes |
+| IP\_OPTIONS | yes | yes |
 | IP\_ORIGINAL\_ARRIVAL\_IF | | |
-| IP\_PKTINFO | x | x |
-| IP\_RECEIVE\_BROADCAST | x | x |
+| IP\_PKTINFO | yes | yes |
+| IP\_RECEIVE\_BROADCAST | yes | yes |
 | IP\_RECVIF | | |
 | IP\_RECVTTL | | |
 | IP\_TOS | | |
-| IP\_TTL | x | x |
-| IP\_UNBLOCK\_SOURCE | x | x |
+| IP\_TTL | yes | yes |
+| IP\_UNBLOCK\_SOURCE | yes | yes |
 | IP\_UNICAST\_IF | | |
 | IP\_WFP\_REDIRECT\_CONTEXT | | |
 | IP\_WFP\_REDIRECT\_RECORDS | | |

@@ -2,7 +2,7 @@
 description: Used to CoCreate an INotificationActivationCallback interface to notify about toast activations.
 ms.assetid: 134dc14e-6034-4ec2-8a25-8493b7f3d84a
 title: System.AppUserModel.ToastActivatorCLSID
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

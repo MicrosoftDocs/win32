@@ -1,12 +1,12 @@
 ---
 description: There are several ways to use Windows Search to query the index. This topic outlines Advanced Query Syntax (AQS) and Structured Query Language (SQL) based approaches.
 ms.assetid: 544f03b3-cdf8-4550-a6da-e4a3bfc44744
-title: Using SQL and AQS Approaches to Query the Index
-ms.topic: article
+title: Using SQL and AQS approaches to query the index
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Using SQL and AQS Approaches to Query the Index
+# Using SQL and AQS approaches to query the index
 
 There are several ways to use Windows Search to query the index. This topic outlines Advanced Query Syntax (AQS) and Structured Query Language (SQL) based approaches.
 
@@ -21,7 +21,7 @@ This topic is organized as follows:
   - [Using the search-ms Protocol](#using-the-search-ms-protocol)
 - [Related topics](#related-topics)
 
-## SQL Based Queries
+## SQL based queries
 
 SQL is a text language that defines queries. SQL is common across many different database technologies. Windows Search uses SQL, implements a subset of it, and extends it by adding elements to the language. The Windows Search SQL used by Windows Search extends portions of the standard SQL-92 and SQL-99 database query syntax to enhance its usefulness with text-based searches. All features of Windows Search SQL are compatible with Windows Search on Windows XP and Windows Server 2003, and later.
 
@@ -77,14 +77,14 @@ if (SUCCEEDED(hr))
 
 For more information on OLE DB, see [OLE DB Programming Overview](https://msdn.microsoft.com/library/5d8sd9we(VS.71).aspx). For information on the .NET Framework Data Provider for OLE DB, see the [System.Data.OleDb Namespace](/dotnet/api/system.data.oledb) documentation.
 
-### Using ADO and ADO.NET
+### Using ADO and ADO.net
 
 Microsoft ActiveX Data Objects (ADO) and ADO.NET enable you to write client applications to access and manipulate data in a database server through a provider. Windows Search is a read-only technology: you can retrieve data using Desktop Search but you can't change data using Windows Search. You can, however, pass the results of a search over to a technology that can change data.
 
 The following code examples demonstrate how to open a connection to the data source, create and open a RecordSet with a [Windows Search SQL](-search-sql-ovwofsearchquery.md) SELECT statement, and get the URLs of the five largest files from the index.
 
 > [!Note]  
-> For information on how to obtain the connection string, see [Querying the Index with ISearchQueryHelper](-search-3x-wds-qryidx-searchqueryhelper.md), and [ISearchQueryHelper::get\_Connection String](/windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-get_connectionstring).
+> For information on how to obtain the connection string, see [Querying the Index with ISearchQueryHelper](-search-3x-wds-qryidx-searchqueryhelper.md), and [ISearchQueryHelper::get\_ConnectionString](/windows/desktop/api/Searchapi/nf-searchapi-isearchqueryhelper-get_connectionstring).
 
 #### ADO and VBScript
 
@@ -181,7 +181,7 @@ con.Close
 con = Nothing
 ```
 
-#### ADO.NET and C\#
+#### Ado.net and C\#
 
 ```csharp
 string query = @"SELECT Top 5 System.ItemPathDisplay FROM SYSTEMINDEX
@@ -215,7 +215,7 @@ using (OleDbConnection objConnection =
 }
 ```
 
-### Using SQL in Local and Remote Queries
+### Using SQL in local and remote queries
 
 You can execute your queries either locally or remotely. A local query using the [FROM clause](-search-sql-from.md) is shown in the following example. A local query queries the local SystemIndex catalog only.
 
@@ -243,7 +243,7 @@ Windows Explorer has features for sharing items including a "Public" share (\\\\
 SELECT System.ItemName FROM MachineName.SystemIndex WHERE SCOPE='file://MachineName/<path>'
 ```
 
-## AQS Based Queries
+## AQS based queries
 
 AQS is the default query syntax used by Windows Search to query the index and to refine and narrow search parameters. While AQS is primarily user facing, it can be used by developers to build queries programmatically. In Windows 7 canonical AQS was introduced, and must be used in Windows 7 and later, to programmatically generate AQS queries. For detailed information on AQS, see [Using Advanced Query Syntax Programmatically](-search-3x-advancedquerysyntax.md).
 
@@ -290,7 +290,7 @@ To implement the [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-sear
 > [!Note]  
 > Legacy Microsoft Windows Desktop Search (WDS) 2x compatibility: On computers running Windows XP and Windows Server 2003 and later, [**ISearchDesktop**](/previous-versions//aa965729(v=vs.85)) is deprecated. Instead, developers should use [**ISearchQueryHelper**](/windows/desktop/api/Searchapi/nn-searchapi-isearchqueryhelper) to get a connection string, parse the user's query into SQL, and then query through OLE DB.
 
-### Using the search-ms Protocol
+### Using the search-ms protocol
 
 The **search-ms** [application protocol](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa767916(v=vs.85)) is a convention for starting an application, like Windows Explorer, to query the Windows Search index. It enables queries to be built with parameter-value arguments, including property arguments, previously saved searches, Advanced Query Syntax (AQS), Natural Query Syntax (NQS), and language code identifiers (LCIDs) for both the indexer and the query itself.
 

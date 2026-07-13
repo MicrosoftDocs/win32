@@ -94,9 +94,6 @@ When a page in a spooled file exceeds approximately 350 MB, it may fail to print
 [Print Spooler API Functions](printing-and-print-spooler-functions.md)
 </dt> <dt>
 
-[**EndDocPrinter**](enddocprinter.md)
-</dt> <dt>
-
 [**EndPagePrinter**](endpageprinter.md)
 </dt> <dt>
 

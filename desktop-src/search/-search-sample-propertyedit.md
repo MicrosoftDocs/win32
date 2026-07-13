@@ -2,7 +2,7 @@
 description: The PropertyEdit code sample demonstrates how to convert the canonical property name to a PROPERTYKEY, set the value of the property store to that of the item, and write the data back to the file stream.
 ms.assetid: 5918b4f6-6b6f-4229-8f29-1c41f80b3b02
 title: PropertyEdit
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 
@@ -31,7 +31,7 @@ This topic contains the following sections.
 
  
 
-## Downloading the Sample
+## Downloading the sample
 
 This sample is available in the following locations.
 
@@ -52,7 +52,7 @@ This sample is available in the following locations.
 
  
 
-## Building the Sample
+## Building the sample
 
 To build the sample from the Command Prompt:
 
@@ -70,7 +70,7 @@ To build the sample using Microsoft Visual Studio (preferred):
 
 3.  From the **Build** menu, select **Build Solution**.
 
-## Running the Sample
+## Running the sample
 
 1.  Navigate to the directory that contains the new executable, using the Command Prompt window or Windows Explorer.
 2.  At the command prompt, enter `PropertyEdit.exe`, or from Windows Explorer, double-click the icon for PropertyEdit.exe.

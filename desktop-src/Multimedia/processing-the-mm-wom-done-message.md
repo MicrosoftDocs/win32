@@ -8,7 +8,7 @@ keywords:
 - waveform audio,MM_WOM_DONE message
 - auxiliary audio,MM_WOM_DONE message
 - MM_WOM_DONE message
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

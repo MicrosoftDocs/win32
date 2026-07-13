@@ -2,7 +2,7 @@
 description: NLS includes a number of API functions that your applications can use to map locale data between locale identifiers and locale names, and list neutral locales.
 ms.assetid: 01bc261d-dfee-430e-86c9-cfafe82856c8
 title: Mapping Locale Data
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

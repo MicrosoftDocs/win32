@@ -4,7 +4,7 @@ description: This section discusses how to deal with network unreliability when 
 ms.assetid: af7c67ea-32af-40b0-b74b-0a339e5088c4
 keywords:
 - Remote Procedure Call RPC , best practices, RPC and the network
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

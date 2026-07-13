@@ -2,7 +2,7 @@
 title: Message Functions (Network Management)
 description: The network management message functions send messages and maintain message aliases. The message functions are listed following.
 ms.assetid: 9face737-3472-4a53-97b6-e861a60ee96a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

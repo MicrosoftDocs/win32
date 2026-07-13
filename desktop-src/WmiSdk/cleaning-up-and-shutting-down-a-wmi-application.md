@@ -3,7 +3,7 @@ description: After you set the security levels for your IWbemServices pointer, y
 ms.assetid: 32bc7dd8-cb05-4354-bf46-f4359ac1f0d8
 ms.tgt_platform: multiple
 title: Cleaning up and Shutting Down a WMI Application
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Learn about the DocumentNUp element, which describes the output and format of multiple logical pages to a single physical sheet.
 ms.assetid: 941515a8-ba3f-47b9-9f3f-08a48122661a
 title: DocumentNUp
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -77,7 +77,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the `https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords` namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Feature name="psk:DocumentNUp">

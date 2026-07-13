@@ -2,7 +2,7 @@
 title: Example Adding a Helper Token to a BITS Transfer Job
 description: Describes how to configure a Background Intelligent Transfer Service (BITS) transfer job with an additional security token.
 ms.assetid: 08670c6d-e589-41be-842d-597f460d9c97
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

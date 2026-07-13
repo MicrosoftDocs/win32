@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , creating a query filter
 - query filters
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

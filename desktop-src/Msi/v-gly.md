@@ -2,7 +2,7 @@
 description: Learn about Windows Installer concepts that begin with the letter V, such as volume.
 ms.assetid: d53147c3-5618-496f-b8b9-de20e1d33c01
 title: V (Windows Installer)
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

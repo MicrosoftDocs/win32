@@ -2,7 +2,7 @@
 description: To save an image to a disk file, call the Save method of the Image class.
 ms.assetid: a95fa3ea-2013-45d5-bdec-61eddcefc2fa
 title: Converting a BMP Image to a PNG Image
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

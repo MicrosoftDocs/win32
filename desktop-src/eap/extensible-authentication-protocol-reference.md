@@ -4,7 +4,7 @@ description: This section describes the reference elements that are used to impl
 ms.assetid: d3cb25ce-6fb9-4fca-8662-3efef14238a5
 keywords:
 - Extensible Authentication Protocol,reference
-ms.topic: article
+ms.topic: reference
 ms.date: 06/14/2023
 ms.contributor: samyun
 ---

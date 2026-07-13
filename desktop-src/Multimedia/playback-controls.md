@@ -2,7 +2,7 @@
 title: Playback Controls
 description: Playback Controls
 ms.assetid: eba750e1-ee3d-490c-8ebf-c53d8dbae0f0
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

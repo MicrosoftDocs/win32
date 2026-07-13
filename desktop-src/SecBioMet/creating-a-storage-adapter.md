@@ -2,7 +2,7 @@
 title: Creating a Storage Adapter
 description: Basic structure of a storage adapter plug-in implemented as a C++ dynamic link library (DLL).
 ms.assetid: c37e4c46-d11c-4458-b87b-78f693188e3c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

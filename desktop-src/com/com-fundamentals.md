@@ -2,7 +2,7 @@
 title: COM Fundamentals
 ms.assetid: faa0dc85-2a66-4c69-acf6-d8d281063512
 description: "Learn more about: COM Fundamentals"
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

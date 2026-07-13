@@ -2,7 +2,7 @@
 description: This topic provides information about the native ICO codec available through Windows Imaging Component (WIC).
 ms.assetid: EF28956E-7156-4BAE-8805-C64B8C8ADE50
 title: ICO Format Overview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Using Teredo
 description: When developing an application that uses Teredo, the goal is to achieve IPv6 connectivity and not focus on using Teredo.
 ms.assetid: 043bc826-1387-4994-96b1-115df2f6ea2e
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

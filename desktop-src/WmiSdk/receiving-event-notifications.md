@@ -3,7 +3,7 @@ description: Event queries are used by temporary event consumers, permanent even
 ms.assetid: 851ad9bd-2604-4988-8de0-8d29b5300b21
 ms.tgt_platform: multiple
 title: Receiving Event Notifications
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

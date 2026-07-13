@@ -7,7 +7,7 @@ keywords:
 - Advanced Systems Format (ASF),color space conversion
 - ASF (Advanced Systems Format),color space conversion
 - color space conversion
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

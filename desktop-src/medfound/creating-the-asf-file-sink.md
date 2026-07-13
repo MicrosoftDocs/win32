@@ -2,7 +2,7 @@
 description: Learn about creating the ASF file sink, which an application can use to archive ASF media data to a file.
 ms.assetid: 991f3345-a6b4-45c2-a89d-3c13c70b6bbc
 title: Creating the ASF File Sink
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -21,11 +21,11 @@ Consider [**MFCreateASFMediaSinkActivate**](/windows/desktop/api/wmcontainer/nf-
 -   The encoding topology is for the protected media path (PMP) and the file sink is used out-of-process.
 -   The output node of the topology is created by using the returned pointer to the activate object of the file sink and your application is keeping track of the streams in the file sink by stream numbers.
     > [!Note]  
-    > You can activate the file sink by calling [**IMFActivate::ActivateObject**](/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject). However you do not need to activate the object explictly. The Media Session keeps track of the activation object and activates the file sink automatically during the encoding session.
+    > You can activate the file sink by calling [**IMFActivate::ActivateObject**](/windows/desktop/api/mfobjects/nf-mfobjects-imfactivate-activateobject). However you do not need to activate the object explicitly. The Media Session keeps track of the activation object and activates the file sink automatically during the encoding session.
 
      
 
--   The stream information is configured in the ContentInfo object. Disucssed in the next sub-section.
+-   The stream information is configured in the ContentInfo object. Discussed in the next sub-section.
 
 After creating the ASF file sink it must be configured before building the topology. The file sink needs to know the following information in order to generate the output file.
 

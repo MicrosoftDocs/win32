@@ -5,7 +5,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: daaf8c01-7bfe-45c1-9507-f3a819e2173b
 keywords:
 - quadrilaterals
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

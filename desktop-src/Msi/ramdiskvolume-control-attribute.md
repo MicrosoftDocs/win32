@@ -2,7 +2,7 @@
 description: If this bit is set, the control shows all the volumes involved in the current installation plus all the RAM disk volumes. If this bit is not set the control lists volumes in the current installation.
 ms.assetid: 52526f39-26fb-4a67-a95f-77f7eb761372
 title: RAMDiskVolume Control Attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

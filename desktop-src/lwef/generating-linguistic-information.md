@@ -2,7 +2,7 @@
 title: Generating Linguistic Information
 description: Generating Linguistic Information
 ms.assetid: 903561f0-89dc-4297-8ea0-3fa150f2e6dd
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

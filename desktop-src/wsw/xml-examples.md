@@ -2,7 +2,7 @@
 title: XML Examples
 ms.assetid: c07f3577-954e-400f-9e93-8e40c0a0945e
 description: "Learn more about: XML Examples"
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

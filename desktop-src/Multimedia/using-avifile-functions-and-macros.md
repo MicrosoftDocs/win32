@@ -2,7 +2,7 @@
 title: Using AVIFile Functions and Macros
 description: Using AVIFile Functions and Macros
 ms.assetid: 1866cd31-6f84-4791-96e3-505917715f8c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

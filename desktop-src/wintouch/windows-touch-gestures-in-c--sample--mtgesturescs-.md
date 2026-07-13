@@ -10,7 +10,7 @@ keywords:
 - Gesture samples
 - gestures,sample code
 - gestures,code samples
-ms.topic: article
+ms.topic: sample
 ms.date: 02/18/2020
 ---
 

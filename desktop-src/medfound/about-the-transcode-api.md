@@ -2,7 +2,7 @@
 description: About the Transcode API
 ms.assetid: 54733364-f10c-4c1d-9800-75e283ba4be4
 title: About the Transcode API
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

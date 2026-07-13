@@ -45,7 +45,8 @@ The option codes for this property correspond to the [command-line option](comma
 > [!Note]  
 > Only those files containing checksum information are ever verified and repaired. The REINSTALLMODE\_FILEVERIFY flag (the ccode above) only repairs files that have msidbFileAttributesChecksum in the Attributes column of the [File Table](file-table.md).
 
- 
+Starting with Windows 11 version 24H2, on ARM64 devices, for files that are recognized by the OS as known redistributable files, if the install destination is anything under C:\Windows, then the behavior specified in the flags will be altered to only overwrite older files, the same behavior as if option “o” was specified. All other files in the package remain as they were and honor the flags. The current list of known redistributable files to which this new behavior applies includes MS Visual C/C++ runtimes, MFC, C++ AMP, and C++ OpenMP. The behavior for devices other than ARM64 remains unchanged.
+ 
 
 ## Requirements
 

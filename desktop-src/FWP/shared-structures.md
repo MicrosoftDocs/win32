@@ -2,7 +2,7 @@
 title: Shared Structures
 description: Shared Structures
 ms.assetid: 17D6C193-EF87-4FC5-8CAA-A1098D129577
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

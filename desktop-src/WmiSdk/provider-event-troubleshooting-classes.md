@@ -3,7 +3,7 @@ description: The following table lists the classes for WMI provider event troubl
 ms.assetid: 5acfc8f4-9b3b-4ff4-a8ed-7378334a8ddb
 ms.tgt_platform: multiple
 title: Provider Event Troubleshooting Classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

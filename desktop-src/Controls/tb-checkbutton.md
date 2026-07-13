@@ -34,7 +34,7 @@ Command identifier of the button to check.
 *lParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) is a **BOOL** that indicates whether to check or uncheck the specified button. If **TRUE**, the check is added. If **FALSE**, the check is removed.
+The [**LOWORD**](../winmsg/loword.md) is a **BOOL** that indicates whether to check or uncheck the specified button. If **TRUE**, the check is added. If **FALSE**, the check is removed.
 
 </dd> </dl>
 

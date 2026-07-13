@@ -6,7 +6,7 @@ ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Int16ColumnValue
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.int16columnvalue_properties(v=EXCHG.10)
 ms:contentKeyID: 55103328
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # Int16ColumnValue properties

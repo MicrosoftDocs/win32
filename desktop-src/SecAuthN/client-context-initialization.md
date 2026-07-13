@@ -2,7 +2,7 @@
 description: Client Context Initialization
 ms.assetid: 0c8aad3e-e726-49ce-8fc9-94dbd60cc5cb
 title: Client Context Initialization
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

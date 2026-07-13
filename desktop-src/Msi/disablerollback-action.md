@@ -2,7 +2,7 @@
 description: The DisableRollback Action disables rollback for the remainder of the installation.
 ms.assetid: 5510b393-1f2e-44ba-97f5-663674d55b20
 title: DisableRollback Action
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

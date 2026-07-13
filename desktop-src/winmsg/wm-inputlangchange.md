@@ -3,7 +3,7 @@ description: Sent to the topmost affected window after an application's input la
 ms.assetid: 4d403b1d-f6f7-40d5-9bf5-6a9c4da0803c
 title: WM_INPUTLANGCHANGE message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_INPUTLANGCHANGE message
@@ -28,7 +28,7 @@ Type: **WPARAM**
 
 The **BYTE** font character set for the input language.
   
-See **iCharSet** parameter of the [CreateFont function](/windows/win32/api/wingdi/nf-wingdi-createfontw) for a list of possible values.
+If you register the window class using the [Unicode version of RegisterClassEx](/windows/win32/winmsg/about-window-classes#registering-a-window-class) ([RegisterClassExW](/windows/win32/api/winuser/nf-winuser-registerclassexw)), you typically do not need to use this value. If you register the window class using the [ANSI version of RegisterClassEx](/windows/win32/winmsg/about-window-classes#registering-a-window-class) ([RegisterClassExA](/windows/win32/api/winuser/nf-winuser-registerclassexa)), this value can be used to create fonts that can correctly display the character set. See **iCharSet** parameter of the [CreateFont function](/windows/win32/api/wingdi/nf-wingdi-createfontw) for a list of possible values.
 
 </dd> <dt>
 
@@ -74,7 +74,7 @@ case WM_INPUTLANGCHANGE:
 }
 ```
 
-To get the the name of the currently active keyboard layout, call the [GetKeyboardLayoutName](/windows/win32/api/winuser/nf-winuser-getkeyboardlayoutnamew). For more information, see [Languages, Locales, and Keyboard Layouts](/windows/win32/inputdev/about-keyboard-input#languages-locales-and-keyboard-layouts).
+To get the name of the currently active keyboard layout, call the [GetKeyboardLayoutName](/windows/win32/api/winuser/nf-winuser-getkeyboardlayoutnamew). For more information, see [Languages, Locales, and Keyboard Layouts](/windows/win32/inputdev/about-keyboard-input#languages-locales-and-keyboard-layouts).
 
 For a list of the input layouts that are supplied with Windows, see [Keyboard Identifiers and Input Method Editors for Windows](/windows-hardware/manufacture/desktop/windows-language-pack-default-values).
 

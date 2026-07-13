@@ -2,7 +2,7 @@
 title: Bitmap objects
 description: This topic describes the types of bitmap content that DirectComposition supports.
 ms.assetid: BC32CF76-D5E4-4B25-AFD5-42E8DABFA0D0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

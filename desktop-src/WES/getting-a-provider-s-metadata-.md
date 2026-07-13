@@ -2,7 +2,7 @@
 title: Getting a Provider's Metadata
 description: A provider uses an instrumentation manifest to identify itself, define the events that it writes, and other components such as channels, tasks, and keywords.
 ms.assetid: c9442dc1-3599-4e81-a144-943c2843a2f7
-ms.topic: article
+ms.topic: concept-article
 ms.date: 11/24/2021
 ---
 

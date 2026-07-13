@@ -2,7 +2,7 @@
 title: Example Using SSPI Authentication Encoding with BITS
 description: Describes how to use SSPI authentication and BITS methods to get user credentials, encode the credentials, and set them on a BITS transfer job.
 ms.assetid: 5c8a6df7-0056-463e-8d73-1695dc75e023
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

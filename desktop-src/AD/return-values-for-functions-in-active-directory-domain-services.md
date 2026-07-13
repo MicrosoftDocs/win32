@@ -7,7 +7,7 @@ keywords:
 - Active Directory Return Values AD
 - Active Directory, Reference, Return Values
 - Return Values AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

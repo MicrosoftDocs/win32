@@ -2,7 +2,7 @@
 title: VML F Element
 description: VML F Element
 ms.assetid: 00eba2e9-1acf-45ad-9995-5e3938dc5c67
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

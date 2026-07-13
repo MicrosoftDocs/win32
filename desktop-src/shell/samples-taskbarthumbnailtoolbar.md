@@ -1,7 +1,7 @@
 ---
 description: Demonstrates a thumbnail toolbar, an active toolbar control embedded in a window's thumbnail preview, used to provide access to a window's key commands without making the user restore or activate the application's window.
 title: Taskbar Thumbnail Toolbar Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ms.assetid: 4936FF67-19EE-4963-BE4C-3D40350C64A9
 api_name: 

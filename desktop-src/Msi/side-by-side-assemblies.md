@@ -2,7 +2,7 @@
 description: 'Side-by-Side assembly sharing is an infrastructure that is used to do the following: Safely share assemblies among multiple applicationsOffset some negative effects of sharing, for example, DLL conflicts.'
 ms.assetid: ba73e7c3-a9d7-4cc3-b5ce-2483a594fcc0
 title: Side-by-Side Assemblies
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

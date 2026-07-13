@@ -2,7 +2,7 @@
 title: SSL Certificates
 description: Secure Sockets Layer (SSL) has become a standard for securing Internet connections and is used to prevent eavesdropping on the network. The SSL protocol allows a client and server to authenticate each other and negotiate encryption algorithms.
 ms.assetid: 2b78f609-473f-467b-8bf4-709b790bca53
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

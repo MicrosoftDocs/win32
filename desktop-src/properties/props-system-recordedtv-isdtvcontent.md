@@ -2,7 +2,7 @@
 description: System.RecordedTV.IsDTVContent
 ms.assetid: 88acc4b8-4532-4d49-9dd1-8d6c248f2b3d
 title: System.RecordedTV.IsDTVContent
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

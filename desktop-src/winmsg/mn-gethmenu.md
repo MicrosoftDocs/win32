@@ -3,7 +3,7 @@ description: Retrieves the menu handle for the current window.
 ms.assetid: a2f6e917-39ff-42a3-8ff4-ce01db3ef9ea
 title: MN_GETHMENU message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # MN\_GETHMENU message

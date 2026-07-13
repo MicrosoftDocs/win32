@@ -7,7 +7,7 @@ keywords:
 - late binding vs. vtable access in the ADSI Extension Model ADSI
 - extensions ADSI , late binding vs. vtable access in the ADSI extension model
 - ADSI ADSI , example code Visual Basic , using IADsDualInf
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

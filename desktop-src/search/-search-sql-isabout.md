@@ -1,12 +1,12 @@
 ---
 description: The ISABOUT term matches columns against a group of one or more search terms.
 ms.assetid: e2629c4c-4b44-4427-ac1d-17f55fd969e3
-title: ISABOUT Term
-ms.topic: article
+title: ISABOUT term
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# ISABOUT Term
+# ISABOUT term
 
 **Deprecated**
 
@@ -119,7 +119,7 @@ and &quot;compulsory&quot;</code></pre></td>
 
  
 
-## ISABOUT Column Weighting
+## ISABOUT column weighting
 
 The ISABOUT term ranks matching documents based on how closely each document matches the set of match terms in the query. You can use column weighting to place more importance on matching some match terms than others. Each match term in the ISABOUT term can have a weight value applied. The weight is applied to a single match term and is indicated by the keyword "WEIGHT". The WEIGHT term has two alternative syntaxes:
 

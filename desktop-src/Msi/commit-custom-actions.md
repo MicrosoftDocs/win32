@@ -2,7 +2,7 @@
 description: Commit Custom actions are executed upon successful completion of the installation script.
 ms.assetid: ad766585-e8ac-44b6-9717-7979f803886c
 title: Commit Custom Actions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

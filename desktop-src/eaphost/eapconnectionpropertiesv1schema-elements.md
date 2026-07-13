@@ -2,7 +2,7 @@
 title: eapconnectionpropertiesv1 Schema Elements
 description: Learn about the eapconnectionpropertiesv1 schema elements. The elements are Connection (Connections), Connections, and Name (Connection).
 ms.assetid: d9f4a20c-2120-47ee-a1f7-28961d5cf677
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

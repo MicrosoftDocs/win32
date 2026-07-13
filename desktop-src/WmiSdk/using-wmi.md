@@ -3,7 +3,7 @@ description: Roadmap to using WMI to obtain data for client scripts and applicat
 ms.assetid: d9a3741c-313f-4b63-8588-696a10d370f5
 ms.tgt_platform: multiple
 title: Using WMI
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -42,7 +42,7 @@ The following procedure describes how to obtain data from WMI by writing a scrip
 | Visual Basic applications<br /> | <a href="scripting-api-for-wmi.md">Scripting API for WMI</a>.<br /> | 
 | Active Server Pages<br /> | <a href="scripting-api-for-wmi.md">Scripting API for WMI</a>.<br /> Start with <a href="creating-active-server-pages-for-wmi.md">Creating Active Server Pages for WMI</a>.<br /> | 
 | C++ applications<br /> | <a href="com-api-for-wmi.md">COM API for WMI</a>.<br /> Start with <a href="creating-a-wmi-application-using-c-.md">Creating a WMI Application Using C++</a> and <a href="wmi-c---application-examples.md">WMI C++ Application Examples</a> (contains examples).<br /> | 
-| .NET Framework applications written in C#, Visual Basic .NET, or J#<br /> | Classes in the <a href="/previous-versions//hh872326(v=vs.85)"><strong>Microsoft.Management.Infrastructure</strong></a> namespace.<br /><blockquote>    [!Note]<br /><strong>System.Management</strong> was the original namespace that covered managed code for WMI. However, the underlying technology for <strong>System.Management</strong> is generally slower than, and does not scale as well as, <a href="/previous-versions//hh872326(v=vs.85)"><strong>Microsoft.Management.Infrastructure</strong></a>. As such, it is not recommended that you use <strong>System.Management</strong> for new projects. (For more information on <strong>System.Management</strong>, see <a href="/previous-versions/bb404655(v=vs.90)">WMI .NET Overview</a>.)    </blockquote><br /> | 
+| .NET Framework applications written in C#, Visual Basic .NET, or J#<br> | Classes in the [**Microsoft.Management.Infrastructure**](/previous-versions//hh872326(v=vs.85)) namespace.<br>     **Note:** **System.Management** was the original namespace that covered managed code for WMI. However, the underlying technology for **System.Management** is generally slower than, and does not scale as well as, [**Microsoft.Management.Infrastructure**](/previous-versions//hh872326(v=vs.85)). As such, it is not recommended that you use **System.Management** for new projects. (For more information on **System.Management**, see [WMI .NET Overview](/previous-versions/bb404655(v=vs.90)).)    <br> | 
 
 
     

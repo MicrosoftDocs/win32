@@ -2,7 +2,7 @@
 description: Persistence and interoperability are two vitally important features, especially for applications that use ink.
 ms.assetid: 71e963d8-2917-40e1-8214-27521cffe340
 title: Ink Interoperability
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

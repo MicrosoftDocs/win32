@@ -5,7 +5,7 @@ ms.assetid: e32629d9-aa62-4953-aa49-43af726b7deb
 ms.tgt_platform: multiple
 keywords:
 - Searching for Groups by Scope or Type in a Domain AD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

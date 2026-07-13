@@ -1,5 +1,5 @@
 ---
-description: Ends the experiement and completes the graphics log.
+description: Ends the experiment and completes the graphics log.
 MS-HAID: vspixengine.IPixEngine2\_EndExperiment\_BSTR\_IFileIOCallback\_ptr
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -22,7 +22,7 @@ topic_type:
 
 # <span id="vspixengine.ipixengine2_endexperiment_bstr_ifileiocallback_ptr"></span>IPixEngine2::EndExperiment method
 
-Ends the experiement and completes the graphics log.
+Ends the experiment and completes the graphics log.
 
 ## Syntax
 
@@ -40,7 +40,7 @@ HRESULT EndExperiment(
 A COM string containing the name of the graphics log.
 
 *pCallback*   
-The address of a callback used to indicate that the experiement is ended.
+The address of a callback used to indicate that the experiment is ended.
 
 ## Return value
 

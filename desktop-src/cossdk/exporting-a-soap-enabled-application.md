@@ -2,7 +2,7 @@
 description: When you use COM+ to create an XML web service, that service can be used by any authorized client, including those not using COM+ or even Microsoft Windows.
 ms.assetid: c40031a6-f3de-4ef4-b9aa-3f49e57da5b4
 title: Exporting a SOAP-Enabled Application
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

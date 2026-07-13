@@ -5,7 +5,7 @@ ms.assetid: 6d060204-8f97-434e-9449-93b26cd35993
 keywords:
 - WinSNMP Communications Management Concepts SNMP
 - Communications Management Concepts SNMP , WinSNMP
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

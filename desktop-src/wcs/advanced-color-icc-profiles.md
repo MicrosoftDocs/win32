@@ -3,13 +3,13 @@ title: ICC profile behavior with Advanced Color
 description: This topic discusses how legacy color management and ICC profile behavior changes when Advanced Color scenarios are active.
 keywords:
 - ICC profile behavior with Advanced Color
-ms.topic: article
+ms.topic: concept-article
 ms.date: 08/16/2022
 ---
 
 # ICC profile behavior with Advanced Color
 
-Advanced Color is an umbrella term of OS technologies for displays with significantly higher color fidelity than standard displays. For more information, refer to [Use DirectX with Advanced Color on high/standard dynamic range displays](/windows/win32/direct3darticles/high-dynamic-range). Advanced Color and auto color management ensure consistent and colorimetrically accurate display color for all apps: both legacy and modern. However, your app might already perform its own explicit color management using International Color Consortium (ICC) color profiles.
+Advanced Color is an umbrella term of OS technologies for displays with significantly higher color fidelity than standard displays. For more information, refer to [Use DirectX with Advanced Color on high/standard dynamic range displays](/windows/win32/direct3darticles/high-dynamic-range). Advanced Color and auto color management ensure consistent and chromatically accurate display color for all apps: both legacy and modern. However, your app might already perform its own explicit color management using International Color Consortium (ICC) color profiles.
 
 When Advanced Color is active on either SDR or HDR displays, the behavior of display ICC profiles changes in non-backwards compatible ways. If your app works with display ICC profiles, then Windows offers compatibility helpers to ensure that your app continues to get correct behavior. Advanced Color-aware apps should transition away from directly interacting with display ICC profiles since Windows provides replacement app-facing APIs that abstract away the profile; full guidance is available at [Use DirectX with Advanced Color on high/standard dynamic range displays](/windows/win32/direct3darticles/high-dynamic-range).
 
@@ -23,7 +23,7 @@ When Advanced Color is inactive, Windows doesn't perform any color management on
 2. Perform color space conversion to the display's color space.
 3. Perform gamut mapping in order to constrain to the display's gamut.
 
-Here are more details on ech of the three steps.
+Here are more details on each of the three steps.
 
 ### Get the display's color characteristics
 
@@ -86,7 +86,7 @@ CPST_EXTENDED_DISPLAY_COLOR_MODE
 > [!NOTE]
 > `STANDARD` and `EXTENDED` subtypes are not a property stored within the profile itself; rather, they apply to the profile's association to a display (that is, when the profile is added to the display's profile association list). A single profile could be associated with both `STANDARD` and `EXTENDED` subtypes for a display, meaning that it would be available both for standard and Advanced Color scenarios.
 
-Display profile associations that are intended for use in SDR&mdash;whether regular SDR or Advanced Color SDR&mdash;have subtype `STANDARD` (thiat's the default if no value is specified). Display profile associations for use in HDR mode are subtype `EXTENDED`. If your app doesn't specify a subtype, then that's interpreted as `STANDARD`.
+Display profile associations that are intended for use in SDR&mdash;whether regular SDR or Advanced Color SDR&mdash;have subtype `STANDARD` (that's the default if no value is specified). Display profile associations for use in HDR mode are subtype `EXTENDED`. If your app doesn't specify a subtype, then that's interpreted as `STANDARD`.
 
 Any *getter* API using COLORPROFILESUBTYPE will return only profiles with the matching `STANDARD` or `EXTENDED` subtype. For example, if HDR is active, the only display profiles with the `EXTENDED` subtype are valid for use, and `STANDARD` subtype profiles aren't used. *Setter* APIs can specify the subtype (`STANDARD` is the default).
 

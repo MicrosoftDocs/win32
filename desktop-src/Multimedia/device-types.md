@@ -2,7 +2,7 @@
 title: Device Types
 description: Device Types
 ms.assetid: 6556fa6a-5906-4afb-ab7d-ef41a0e22d13
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

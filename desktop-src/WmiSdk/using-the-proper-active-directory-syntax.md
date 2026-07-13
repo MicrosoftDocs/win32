@@ -3,7 +3,7 @@ description: You supply the Lightweight Directory Access Protocol (LDAP) namespa
 ms.assetid: 55733fba-2170-4400-a516-896f6bf9525a
 ms.tgt_platform: multiple
 title: Using the Proper Active Directory Syntax
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

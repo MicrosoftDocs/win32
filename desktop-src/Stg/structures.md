@@ -4,7 +4,7 @@ description: Structures are primarily collections of data elements or members th
 ms.assetid: 5931fbf9-2219-47e3-abd0-c6d6d0389e73
 keywords:
 - Structured Storage Strctd Stg , reference, structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

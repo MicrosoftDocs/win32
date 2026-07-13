@@ -4,7 +4,7 @@ description: The following functions are implemented for authentication protocol
 ms.assetid: 090a3620-3732-4466-95ac-ce9cbdd36484
 keywords:
 - EAP Functions, listed
-ms.topic: article
+ms.topic: reference
 ms.date: 06/14/2023
 ms.contributor: samyun
 ---

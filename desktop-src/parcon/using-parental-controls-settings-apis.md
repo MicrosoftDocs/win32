@@ -2,7 +2,7 @@
 description: Using Parental Controls Settings APIs
 ms.assetid: 77a239e9-1cec-4710-b673-7d0cebd502e9
 title: Using Parental Controls Settings APIs
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

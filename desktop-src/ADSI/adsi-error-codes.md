@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,reference,error codes
 - error codes ADSI
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 

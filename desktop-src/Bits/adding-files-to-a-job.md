@@ -5,7 +5,7 @@ ms.assetid: fb6e7219-b6ca-4f72-b7a3-60d65e8f3892
 keywords:
 - transfer job BITS , adding files
 - file transfer BITS , adding
-ms.topic: article
+ms.topic: how-to
 ms.date: 10/04/2018
 ---
 

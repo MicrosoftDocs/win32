@@ -2,7 +2,7 @@
 description: Discusses methods of opening a Control Panel item for Windows Vista and later systems as well as covering legacy Control Panel commands.
 ms.assetid: c17167ab-e9a0-4290-955c-484d038b82af
 title: Executing Control Panel Items
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -137,7 +137,7 @@ When you use the [**WinExec**](/windows/win32/api/winbase/nf-winbase-winexec) fu
 
 |Argument|Description|
 |--------|--------|
-| control.exe desktop | Launches the <strong>Display Properties</strong> window.<blockquote>[!Note]<br />Starter and Basic Editions do not support this command.</blockquote><br /> | 
+| control.exe desktop | Launches the **Display Properties** window. **Note:** Starter and Basic Editions do not support this command.<br> | 
 | control.exe color | Launches the <strong>Display Properties</strong> window with the <strong>Appearance</strong> tab preselected. | 
 | control.exe date/time | Launches the <strong>Date and Time Properties</strong> window. | 
 | control.exe international | Launches the <strong>Regional and Language Options</strong> window. | 

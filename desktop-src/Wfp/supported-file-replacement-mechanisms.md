@@ -2,7 +2,7 @@
 description: Replacement of protected resources is supported through the following mechanisms.
 ms.assetid: a757e6cf-59df-4894-a0dc-40174b0aa147
 title: Supported Resource Replacement Mechanisms
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

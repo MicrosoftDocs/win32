@@ -2,7 +2,7 @@
 description: Security Limitations in Workgroup Mode
 ms.assetid: 05c0aba7-b94b-49d4-a0fc-1ff0a23550b3
 title: Security Limitations in Workgroup Mode
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

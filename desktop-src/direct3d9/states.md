@@ -2,7 +2,7 @@
 description: A Direct3D device uses states to set-up all of the pipeline processing.
 ms.assetid: 'vs|directx_sdk|~\states.htm'
 title: States (Direct3D 9)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

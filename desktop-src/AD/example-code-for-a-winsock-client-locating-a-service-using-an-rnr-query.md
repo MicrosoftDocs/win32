@@ -7,7 +7,7 @@ keywords:
 - Example Code for Locating a Service Using an RnR Query AD
 - Windows Sockets Registration and Resolution AD , Example Code, Locating a Service Using an RnR Query
 - Locating a Service Using an RnR Query AD , Example Code
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

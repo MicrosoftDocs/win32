@@ -2,7 +2,7 @@
 title: Create and Run StoServe Sample
 description: The client sample and other related samples must be compiled before you can run the client.
 ms.assetid: 7d8fe758-0008-495d-89ae-a814cb07ea19
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

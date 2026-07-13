@@ -5,7 +5,7 @@ ms.assetid: a613c020-9e27-4a0f-a84d-1d0246505407
 keywords:
 - OpenGL,security
 - security OpenGL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -15,13 +15,4 @@ This document provides a list of topics that contain security information. These
 
 ## Related Topics
 
--   [MSDN Security Home Page](https://technet.microsoft.com/security/)
--   [TechNet Security Resources](https://technet.microsoft.com/security/default.aspx)
-
- 
-
- 
-
-
-
-
+- [Microsoft Security Response Center](https://www.microsoft.com/msrc)

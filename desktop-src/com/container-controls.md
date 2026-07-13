@@ -2,7 +2,7 @@
 title: Container Controls
 description: Container Controls
 ms.assetid: 4fa59272-54b6-4da9-a7f5-e1b4eab7fa80
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

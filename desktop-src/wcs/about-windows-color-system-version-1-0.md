@@ -12,7 +12,7 @@ keywords:
 - ICM (Image Color Management)
 
 
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -26,7 +26,7 @@ Version 1.0 of Image Color Management (ICM) was delivered in Microsoft Windows 9
 
 ICM version 2.0 is included in Windows 98, Windows Millennium Edition, Windows 2000, and Windows XP and included functions that implemented color management outside of device contexts. These functions were suitable for more demanding color management requirements, and give applications greater control over the color-management process.
 
-WCS version 1.0 is included in Windows Vista and includes a variety of new functions that provides significant improvements in flexiblity, transparency, predictability and extensiblity for vendors.
+WCS version 1.0 is included in Windows Vista and includes a variety of new functions that provides significant improvements in flexibility, transparency, predictability and extensibility for vendors.
 
 What kinds of applications will benefit from using WCS 1.0? Almost any application running in a Windows Vista environment today. Basic color management capability is becoming a requirement for applications of all kinds.
 

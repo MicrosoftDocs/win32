@@ -9,7 +9,7 @@ keywords:
 - codecs,constant bit rate (CBR)
 - constant bit rate (CBR)
 - CBR (constant bit rate)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

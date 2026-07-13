@@ -13,7 +13,7 @@ keywords:
 - porting to OpenGL from IRIS GL,texdef
 - OpenGL porting from IRIS GL,texdef
 - texdef
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

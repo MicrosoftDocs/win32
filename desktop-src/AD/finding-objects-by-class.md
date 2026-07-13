@@ -7,7 +7,7 @@ keywords:
 - Finding Objects by Class AD
 - Active Directory, using, searching, by class
 - object AD , searching by class
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

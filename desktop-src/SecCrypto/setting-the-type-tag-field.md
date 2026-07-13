@@ -2,7 +2,7 @@
 description: VARIANT type variables have a type tag field vt that indicates the data type of the data.
 ms.assetid: 3436faf6-2e66-46a1-b1e8-84f513282c16
 title: Setting the Type Tag Field
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

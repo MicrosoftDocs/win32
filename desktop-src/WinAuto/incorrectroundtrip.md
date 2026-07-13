@@ -2,8 +2,8 @@
 title: IncorrectRoundTrip
 description: IncorrectRoundTrip
 ms.assetid: 244537EB-E7DC-49E4-BEAF-CFE3ED25E0B2
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # IncorrectRoundTrip

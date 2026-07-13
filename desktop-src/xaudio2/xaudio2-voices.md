@@ -2,7 +2,7 @@
 description: 'There are three types of XAudio2 voice objects: source, submix, and mastering voices.'
 ms.assetid: 3a4acc03-e47a-ff33-dee8-a374051f85f6
 title: XAudio2 Voices
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

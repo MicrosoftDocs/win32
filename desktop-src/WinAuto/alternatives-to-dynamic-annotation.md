@@ -2,8 +2,8 @@
 title: Alternatives to Dynamic Annotation
 description: Alternatives to Dynamic Annotation
 ms.assetid: d8019c65-620b-4aa2-a631-cc32f34e5510
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Alternatives to Dynamic Annotation
@@ -20,7 +20,7 @@ Another option is to use subclassing and wrapping techniques to modify the infor
 
 1.  Subclass the HWND of the [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) object.
 2.  Intercept the [**WM\_GETOBJECT**](wm-getobject.md) message for the correct IParam/OBJID value.
-3.  Forward the [**WM\_GETOBJECT**](wm-getobject.md) message to the base class using the [*CallWndProc*](/previous-versions/windows/desktop/legacy/ms644975(v=vs.85)) function. If zero is returned, call [**CreateStdAccessibleObject**](/windows/desktop/api/Oleacc/nf-oleacc-createstdaccessibleobject); otherwise, call [**LresultFromObject**](/windows/desktop/api/Oleacc/nf-oleacc-lresultfromobject) on the returned value to obtain the control's native [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface pointer.
+3.  Forward the [**WM\_GETOBJECT**](wm-getobject.md) message to the base class using the [*CallWndProc*](../winmsg/callwndproc.md) callback function. If zero is returned, call [**CreateStdAccessibleObject**](/windows/desktop/api/Oleacc/nf-oleacc-createstdaccessibleobject); otherwise, call [**LresultFromObject**](/windows/desktop/api/Oleacc/nf-oleacc-lresultfromobject) on the returned value to obtain the control's native [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) interface pointer.
 4.  Create a wrapper class, which implements [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) and wraps the **IAccessible** interface pointer returned from the previous step. This wrapper class sends all methods and properties to the original **IAccessible** interface pointer, except those that are to be overridden. This involves writing forwarding code for all of the **IAccessible** interface's 21 properties and methods, regardless of how many are actually overridden.
 
 Also, developers must verify the following conditions:

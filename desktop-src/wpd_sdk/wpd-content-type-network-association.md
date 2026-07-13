@@ -2,7 +2,7 @@
 description: WPD\_CONTENT\_TYPE\_NETWORK\_ASSOCIATION
 ms.assetid: 5c17aba1-98f7-4d6c-a5d2-2b4623a65255
 title: WPD_CONTENT_TYPE_NETWORK_ASSOCIATION
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Implementing IWICBitmapSource
 ms.assetid: d092e9e5-c041-42f5-84c8-0af52bb5c810
 title: Implementing IWICBitmapSource
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

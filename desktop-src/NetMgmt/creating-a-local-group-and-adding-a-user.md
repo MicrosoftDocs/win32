@@ -2,7 +2,7 @@
 title: Creating a Local Group and Adding a User
 description: To create a new local group, call the NetLocalGroupAdd function. To add a user to that group, call the NetLocalGroupAddMembers function.
 ms.assetid: 28bba4bd-5e6b-4139-8fd0-a00fb6e82902
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

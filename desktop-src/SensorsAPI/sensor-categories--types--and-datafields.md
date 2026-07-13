@@ -2,11 +2,16 @@
 description: This section describes platform-defined categories. Each category page includes information about sensor types and data fields that belong to the category.
 ms.assetid: 38d87fb4-8f9f-412f-98e5-84651be2c759
 title: Sensor Categories, Types, and Data Fields
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 09/19/2025
 ---
 
 # Sensor Categories, Types, and Data Fields
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 This section describes platform-defined categories. Each category page includes information about sensor types and data fields that belong to the category.
 
@@ -29,11 +34,11 @@ This section describes platform-defined categories. Each category page includes 
 
 
 
- 
 
- 
 
- 
+
+
+
 
 
 

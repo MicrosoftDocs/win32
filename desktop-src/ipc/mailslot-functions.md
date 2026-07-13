@@ -2,7 +2,7 @@
 description: The following functions can be used with mailslots.
 ms.assetid: 85f89fcc-2ab1-411b-ab3e-f1e9d425433f
 title: Mailslot Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

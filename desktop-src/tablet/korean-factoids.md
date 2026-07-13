@@ -2,7 +2,7 @@
 description: The following tables list formats that are available for each factoid used in Korean.
 ms.assetid: b3ff3082-b692-412e-b3ad-331ac5d9080e
 title: Korean Factoids
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

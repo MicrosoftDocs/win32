@@ -2,7 +2,7 @@
 description: A cabinet is a single file, usually suffixed with .CAB, that stores compressed files in a file library.
 ms.assetid: 477e3332-2cba-429c-b460-63c36058d550
 title: About Cabinet Files
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

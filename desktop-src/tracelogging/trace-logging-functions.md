@@ -4,7 +4,7 @@ description:
   TraceLogging provides the following functions that allow you to work with
   Event Tracing for Windows (ETW) providers
 ms.assetid: 93CCBCDE-F010-476B-BC6F-887E7DCC0AB0
-ms.topic: article
+ms.topic: reference
 ms.date: 06/06/2022
 ---
 

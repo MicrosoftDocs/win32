@@ -43,7 +43,7 @@ The **IResultVerb** interface has these properties.
 | [**Enabled**](-search-2x-iresultverb-enabled.md)<br/>         | Read-only<br/>  | This property returns TRUE if the verb is enabled. <br/>                                                    |
 | [**HelpText**](-search-2x-iresultverb-helptext.md)<br/>       | Read-only<br/>  | This property returns a pointer to the localized help string for the verb. <br/>                            |
 | [**Icon**](-search-2x-iresultverb-icon.md)<br/>               | Read-only<br/>  | This property returns a pointer to handle of the optional icon associated with the verb. <br/>              |
-| [**Name**](-search-2x-iresultverb-name.md)<br/>               | Read-only<br/>  | This property returns a pointer to the cononical name for the verb such as print, open, and so forth. <br/> |
+| [**Name**](-search-2x-iresultverb-name.md)<br/>               | Read-only<br/>  | This property returns a pointer to the canonical name for the verb such as print, open, and so forth. <br/> |
 
 
 

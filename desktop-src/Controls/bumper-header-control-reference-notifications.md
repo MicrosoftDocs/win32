@@ -2,7 +2,7 @@
 title: Header Control Notifications
 description: Header Control Notifications
 ms.assetid: 29b91766-fed5-43c3-8341-be3ae14f6777
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

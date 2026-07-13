@@ -51,7 +51,3 @@ After this method is called, the contents of the render target's back-buffer are
 
 [**ID2D1HwndRenderTarget**](/previous-versions/windows/desktop/legacy/dd371275(v=vs.85))
 </dt> </dl>
-
-�
-
-�

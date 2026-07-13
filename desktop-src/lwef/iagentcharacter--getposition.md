@@ -2,7 +2,7 @@
 title: IAgentCharacter GetPosition
 description: IAgentCharacter GetPosition
 ms.assetid: 79343337-2700-48cb-a09d-1a356ea560e0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

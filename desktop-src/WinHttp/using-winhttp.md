@@ -2,7 +2,7 @@
 description: This section describes how to use both the C/C++ API for Microsoft Windows HTTP Services (WinHTTP) and the COM interface exposed by the WinHttpRequest Object.
 ms.assetid: 16178bb8-5e95-46a5-825a-880edc402445
 title: Using WinHTTP
-ms.topic: article
+ms.topic: concept-article
 ms.date: 07/22/2020
 ---
 

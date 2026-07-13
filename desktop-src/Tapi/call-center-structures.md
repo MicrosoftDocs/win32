@@ -2,7 +2,7 @@
 description: This section is an alphabetic listing for TAPI call center structures.
 ms.assetid: 657008b1-2352-40c8-a38b-6bfffeb47cc0
 title: Call Center Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

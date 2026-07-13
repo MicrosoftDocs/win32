@@ -8,7 +8,7 @@ keywords:
 - joysticks,event-based notifications
 - joysticks,movement threshold
 - event-based joystick notifications
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

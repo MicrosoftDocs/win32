@@ -2,7 +2,7 @@
 title: Font Control
 description: To simplify the integration and configuration of font support in applications that require word processing and text editing capabilities, the Windows Ribbon framework provides a specialized Font Control that exposes a wide range of font properties such as typeface name, style, point size, and effects.
 ms.assetid: 6052f2e3-2c9e-432e-9ed6-c1e3a50843d9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -428,7 +428,7 @@ The following table lists the keytips defined by the framework.
 | Italic | I | 
 | Underline | U | 
 | Strikethrough | X | 
-| Superscript | Y or Z<blockquote>[!Note]<br />If the <em>Keytip</em> attribute is not declared in markup, the default keytip is Y; otherwise, the default keytip is <em>Keytip</em> + Z.</blockquote><br /> | 
+| Superscript | Y or Z **Note:** If the **Keytip** attribute is not declared in markup, the default keytip is Y; otherwise, the default keytip is **Keytip** + Z.<br> | 
 | Subscript | A | 
 | Font color | C | 
 | Font highlight | H | 

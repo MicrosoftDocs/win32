@@ -2,7 +2,7 @@
 description: The state transition model in a shadow copy provider is simplified by the serialization of shadow copy creation from the time that IVssBackupComponents::StartSnapshotSet is called until the call to IVssBackupComponents::DoSnapshotSet returns.
 ms.assetid: 5dbf0fb3-53cb-4532-9a8f-bd955afe16c4
 title: State Transitions in Shadow Copy Providers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

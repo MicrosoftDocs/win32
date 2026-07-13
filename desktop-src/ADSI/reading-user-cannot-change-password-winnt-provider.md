@@ -7,7 +7,7 @@ keywords:
 - Reading User Cannot Change Password (WinNT Provider) ADSI
 - User Cannot Change Password (WinNT Provider) ADSI ,reading
 - WinNT provider ADSI ,user management examples,User Cannot Change Password,reading
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

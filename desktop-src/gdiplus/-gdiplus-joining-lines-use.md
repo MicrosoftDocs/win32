@@ -2,7 +2,7 @@
 description: A line join is the common area that is formed by two lines whose ends meet or overlap.
 ms.assetid: 4ec3e76a-2531-4869-a5b0-c595198e8345
 title: Joining Lines
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

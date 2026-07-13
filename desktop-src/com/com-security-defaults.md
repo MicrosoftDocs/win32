@@ -2,7 +2,7 @@
 title: COM Security Defaults
 description: You can use the COM security defaults for your application rather than specifying your own security settings.
 ms.assetid: 6f1f6925-a6ab-4cfa-b0b4-b4b4012979f2
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

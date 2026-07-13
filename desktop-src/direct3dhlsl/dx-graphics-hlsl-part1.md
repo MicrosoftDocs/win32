@@ -2,7 +2,7 @@
 title: Compiling Shaders
 description: Let's now look at various ways to compile your shader code and conventions for file extensions for shader code.
 ms.assetid: a4e6b7cd-c5cc-4165-ba73-205155e449c9
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

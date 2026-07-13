@@ -2,7 +2,7 @@
 description: Takes as a parameter a set of supplied configuration information.
 ms.assetid: 3c0a71f6-f643-4a5e-8b5c-15c976a3736e
 title: Implementing SceSvcAttachmentUpdate
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

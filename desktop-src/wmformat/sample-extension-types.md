@@ -15,7 +15,7 @@ keywords:
 - sample extensions,types
 - data unit extensions,types
 - buffer properties
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

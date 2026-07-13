@@ -2,7 +2,7 @@
 title: Shader Model 6
 description: Shader model 6.0 adds a range of wave operation intrinsics for the pixel and compute shaders.
 ms.assetid: 2F28F86D-F599-47EA-90D7-6833ABA976FC
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: 46d53b41-02eb-4830-b625-2d9ffa21a312
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , setting permissions on a group of properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

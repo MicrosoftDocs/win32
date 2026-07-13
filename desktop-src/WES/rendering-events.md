@@ -2,7 +2,7 @@
 title: Rendering Events
 description: To display an event, you must call the EvtRender function to render it in a displayable form.
 ms.assetid: fc763669-1fbc-4183-a4ff-577a7954d1ca
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

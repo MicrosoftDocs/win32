@@ -35,9 +35,18 @@ Specifies a valid MIDL identifier. Valid MIDL identifiers consist of up to 31 al
 
 ## Remarks
 
-The **wchar\_t** type is defined by MIDL as an [**unsigned**](unsigned.md) [**short**](short.md) (16-bit) data object.
+The **wchar\_t** type is a 16-bit integer which represents a UTF-16 code unit.
 
-The MIDL compiler allows redefinition of **wchar\_t**, but only if it is consistent with the preceding definition.
+The underlying type of **wchar\_t** is determined by the C or C++ compiler.
+For C++, you can choose the underlying type with the
+[/Zc:wchar_t](/cpp/build/reference/zc-wchar-t-wchar-t-is-native-type)
+compiler option.
+
+The MIDL compiler allows redefinition of **wchar\_t**, but only if it is defined as an unsigned short.
+If you do redefine **wchar\_t** in this way, then you must use the
+[/Zc:wchar_t-](/cpp/build/reference/zc-wchar-t-wchar-t-is-native-type)
+compiler option when compiling as C++ to avoid a C++ type redefinition conflict for **wchar\_t**.
+Redefining **wchar\_t** is supported only for compatibility reasons and is not recommended.
 
 The wide-character type is one of the predefined types of MIDL. The wide-character type can appear as a type specifier in [**const**](const.md) declarations, [**typedef**](typedef.md) declarations, general declarations, and function declarators (as a function return type specifier and as a parameter-type specifier). For the context in which type specifiers appear, see [Interface Definition (IDL) File](interface-definition-idl-file.md).
 

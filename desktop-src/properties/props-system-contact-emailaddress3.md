@@ -2,7 +2,7 @@
 description: Email address 3 of the contact.
 ms.assetid: 8d286887-cbd8-46d9-955d-8c58fd3641db
 title: System.Contact.EmailAddress3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

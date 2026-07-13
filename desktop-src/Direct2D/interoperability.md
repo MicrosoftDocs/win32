@@ -2,7 +2,7 @@
 title: Interoperability
 description: Describes how Direct2D interoperates with other systems.
 ms.assetid: 538e0ff7-50a8-40e2-ab34-d3eb6b7d0c6a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

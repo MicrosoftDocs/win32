@@ -6,7 +6,7 @@ keywords:
 - Windows Media Format SDK,system profiles
 - profiles,system
 - system profiles,about
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

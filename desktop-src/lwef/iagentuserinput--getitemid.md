@@ -2,7 +2,7 @@
 title: IAgentUserInput GetItemID
 description: IAgentUserInput GetItemID
 ms.assetid: 3afd4d9d-51bb-4086-bf7b-7c9a2ddcd807
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

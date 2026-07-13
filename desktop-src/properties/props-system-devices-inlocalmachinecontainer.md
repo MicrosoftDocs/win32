@@ -2,7 +2,7 @@
 description: Device is in the local machine container.
 ms.assetid: 95b92f2a-614b-4fb1-b98e-6984de0a8377
 title: System.Devices.InLocalMachineContainer
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

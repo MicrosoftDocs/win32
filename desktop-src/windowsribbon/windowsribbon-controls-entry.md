@@ -2,7 +2,7 @@
 title: Windows Ribbon Framework Control Library
 description: The topics contained in this section describe the set of controls that are included with the Windows Ribbon framework. The controls listed here are the UI objects in a ribbon that expose Command functionality.
 ms.assetid: bda13e51-7e5f-4600-a6bd-9388bffd6ce2
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

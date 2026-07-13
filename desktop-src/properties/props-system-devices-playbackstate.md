@@ -2,7 +2,7 @@
 description: The playback state of the device.
 ms.assetid: 7F77459B-5900-4967-A2A3-AAEE78DF84E1
 title: System.Devices.PlaybackState
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

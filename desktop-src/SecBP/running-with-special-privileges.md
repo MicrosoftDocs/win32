@@ -2,7 +2,7 @@
 description: Some functions require special privileges to run correctly.
 ms.assetid: b25db548-d5ab-4276-9b50-36d030909384
 title: Running with Special Privileges
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The generic list of people associated with and contributing to an item.
 ms.assetid: 4d85678b-91cc-4c0d-b676-b4e6995fe062
 title: System.ItemParticipants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

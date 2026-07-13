@@ -2,7 +2,7 @@
 title: HRef Attribute (Fill)(VML)
 description: HRef Attribute (Fill)(VML)
 ms.assetid: 'vs|vml|~\shape\fill\fill_href.htm'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

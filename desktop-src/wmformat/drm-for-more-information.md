@@ -12,7 +12,7 @@ keywords:
 - DRM (digital rights management),resources
 - digital rights management (DRM),for more information
 - DRM (digital rights management),for more information
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

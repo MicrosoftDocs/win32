@@ -2,7 +2,7 @@
 title: Drag Source Responsibilities
 description: Drag Source Responsibilities
 ms.assetid: bafef0c1-f78e-424a-9ed0-07764a60b22d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

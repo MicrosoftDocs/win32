@@ -4,7 +4,7 @@ description: MCI Reference
 ms.assetid: e7cedfc2-ce01-481c-a431-c93c97d45baf
 keywords:
 - MCI reference,about
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

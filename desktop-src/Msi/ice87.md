@@ -2,7 +2,7 @@
 description: ICE87 validates that the following properties have not been authored in the Property Table. These properties should instead be set on a command line.
 ms.assetid: b769a01a-a610-474d-ada6-19b91441907c
 title: ICE87
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

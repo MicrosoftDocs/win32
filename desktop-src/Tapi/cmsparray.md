@@ -2,7 +2,7 @@
 description: The CMSPArray template implements a smart array that will grow on demand.
 ms.assetid: 9b30885c-01a4-4aea-a1c3-5d7966e4697f
 title: CMSPArray
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

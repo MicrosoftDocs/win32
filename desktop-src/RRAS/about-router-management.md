@@ -7,7 +7,7 @@ keywords:
 - Routing and Remote Access Service RRAS , Router Management, described
 - Router Management RRAS
 - Router Management RRAS , described
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

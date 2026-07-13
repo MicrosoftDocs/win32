@@ -3,13 +3,14 @@ title: Authentication for Remote Connections
 description: Windows Remote Management maintains security for communication between computers by supporting several standard methods of authentication and message encryption.
 ms.assetid: 97a13b07-ae7a-4d2f-8841-77a22c91b204
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle
 api_name: 
 api_type: 
 api_location: 
+ms.custom: sfi-ropc-nochange
 ---
 
 # Authentication for Remote Connections
@@ -52,7 +53,7 @@ To explicitly establish [*Digest*](windows-remote-management-glossary.md) authen
 
 To explicitly establish [*Negotiate*](windows-remote-management-glossary.md) authentication, also known as Windows Integrated Authentication, in the call to [**WSMan.CreateSession**](wsman-createsession.md), set the **WSManFlagUseNegotiate** flag in the *flags* parameter.
 
-[User Account Control (UAC)](https://support.microsoft.com/help/922708/how-to-use-user-account-control-uac-in-windows-vista) affects access to the WinRM service. When Negotiate authentication is used in a workgroup, only the built-in Administrator account can access the service. To allow all accounts in the Administrators group to access the service, set the following registry value:
+[User Account Control (UAC)](/windows/security/application-security/application-control/user-account-control/) affects access to the WinRM service. When Negotiate authentication is used in a workgroup, only the built-in Administrator account can access the service. To allow all accounts in the Administrators group to access the service, set the following registry value:
 
 **HKEY\_LOCAL\_MACHINE**\\**SOFTWARE**\\**Microsoft**\\**Windows**\\**CurrentVersion**\\**Policies**\\**System**\\**LocalAccountTokenFilterPolicy** = 1
 

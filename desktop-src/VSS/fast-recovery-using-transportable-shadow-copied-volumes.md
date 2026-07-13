@@ -2,7 +2,7 @@
 description: Transportable shadow copies can be used to facilitate a fast recovery.
 ms.assetid: 2eaffcf7-01b2-44ce-8bc4-fd9fa42c8a8c
 title: Fast Recovery Using Transportable Shadow Copied Volumes
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

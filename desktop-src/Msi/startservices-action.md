@@ -2,7 +2,7 @@
 description: The StartServices action starts system services. This action queries the ServiceControl table.
 ms.assetid: 53791b1c-5fd5-45d8-817b-098566ab4f9c
 title: StartServices Action
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

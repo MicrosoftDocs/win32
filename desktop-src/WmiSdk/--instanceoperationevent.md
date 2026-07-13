@@ -123,10 +123,6 @@ You register interest in instances of one of these classes by issuing a notifica
 
 For a longer discussion of using the WMI instance events to monitor computer activity, see [How Can I Monitor for Different Types of Events With Just One Script?](https://devblogs.microsoft.com/scripting/how-can-i-monitor-for-different-types-of-events-with-just-one-script/)
 
-## Examples
-
-The [Monitor process event](https://Gallery.TechNet.Microsoft.Com/94c7dc4c-813a-411d-aa3f-f98982cd2a2f) VBScript code sample on TechNet Gallery uses **\_\_InstanceOperationEvent** to monitors the first WMI instance event for [**Win32\_Process**](/windows/desktop/CIMWin32Prov/win32-process).
-
 ## Requirements
 
 

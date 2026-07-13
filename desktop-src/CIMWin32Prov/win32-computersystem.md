@@ -2263,8 +2263,6 @@ The **Win32\_ComputerSystem** class is derived from [**CIM\_UnitaryComputerSyste
 
 ## Examples
 
-The following Scripting Center [code example](https://Gallery.TechNet.Microsoft.Com/scriptcenter/Display-computers-status-c8ff289d) uses the **Win32\_ComputerSystem** to retrieve information from a number of computer systems, and display them in a GUI.
-
 You can find an example script that obtains operating system and processor data from **Win32\_ComputerSystem**, [**Win32\_Processor**](win32-processor.md), and [**Win32\_OperatingSystem**](win32-operatingsystem.md) in the [**Win32\_Processor**](win32-processor.md) topic examples.
 
 The following VBScript sample describes how to retrieve the domain name of the local machine from instances of **Win32\_ComputerSystem**.

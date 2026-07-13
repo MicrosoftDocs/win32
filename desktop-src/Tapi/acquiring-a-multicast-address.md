@@ -2,7 +2,7 @@
 description: The following code fragment illustrates how to request and set a multicast address for a conference.
 ms.assetid: faff57a9-88b3-45ce-bf9e-3f7087dfd1fd
 title: Acquiring a Multicast Address
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

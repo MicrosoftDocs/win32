@@ -2,7 +2,7 @@
 title: CGuiPaper Class Declaration
 description: CGuiPaper Class Declaration
 ms.assetid: b772d056-bf89-46a8-9462-21772cf96dfa
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

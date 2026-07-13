@@ -2,7 +2,7 @@
 title: Shader Model 1
 description: Shader Model 1 was the first shader model created in DirectX. It introduced vertex and pixel shaders to the first implementation of the programmable pipeline.
 ms.assetid: 565ee7b5-1266-4e2f-8c22-c0e60b8c4619
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

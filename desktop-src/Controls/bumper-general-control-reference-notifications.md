@@ -2,7 +2,7 @@
 title: Control Notifications
 description: Control Notifications
 ms.assetid: 8005eed8-9196-41ed-89dc-7f7ee7e60c5d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

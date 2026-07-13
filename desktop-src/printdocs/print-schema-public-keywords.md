@@ -2,7 +2,7 @@
 description: This article specifies the public keywords which are defined for the Print Schema, and their usage for PrintCapabilities and PrintTicket.
 ms.assetid: ff966475-626d-4a48-9349-e60454d47c57
 title: Print Schema Public Keywords
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

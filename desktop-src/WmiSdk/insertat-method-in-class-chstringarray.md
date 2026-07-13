@@ -29,12 +29,12 @@ The **InsertAt** method inserts an element (or multiple copies of an element) or
 
 
 
-| Requirement | Value |
-|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows�Vista<br/>                                                                                                                                      |
-| Minimum supported server<br/> | Windows Server�2008<br/>                                                                                                                                |
-| Header<br/>                   | <dl> <dt>ChStrArr.h (include FwCommon.h)</dt> </dl>                                                    |
-| Library<br/>                  | <dl> <dt>FrameDyn.lib</dt> </dl>                                                                       |
+| Requirement                   | Value                                                      |
+|-------------------------------|------------------------------------------------------------|
+| Minimum supported client<br/> | Windows Vista<br/>                                         |
+| Minimum supported server<br/> | Windows Server 2008<br/>                                   |
+| Header<br/>                   | <dl> <dt>ChStrArr.h (include FwCommon.h)</dt> </dl>        |
+| Library<br/>                  | <dl> <dt>FrameDyn.lib</dt> </dl>                           |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll; </dt> <dt>FrameDyn.dll</dt> </dl> |
 
 
@@ -45,7 +45,3 @@ The **InsertAt** method inserts an element (or multiple copies of an element) or
 
 [**CHStringArray**](/windows/win32/api/chstrarr/nl-chstrarr-chstringarray)
 </dt> </dl>
-
-�
-
-�

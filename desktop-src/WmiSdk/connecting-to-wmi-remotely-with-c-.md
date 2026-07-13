@@ -3,7 +3,7 @@ description: As with other languages such as PowerShell, VBScript, or C++, you c
 ms.assetid: 9E03A8D0-01AB-4B7E-99B6-FEEF9C1CAE17
 ms.tgt_platform: multiple
 title: Connecting to WMI Remotely with C#
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

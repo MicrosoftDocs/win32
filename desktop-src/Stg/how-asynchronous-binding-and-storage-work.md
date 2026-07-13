@@ -4,7 +4,7 @@ description: Asynchronous storage enhances the COM structured storage specificat
 ms.assetid: 891152c3-5abd-45e4-a7bb-0aac23262b03
 keywords:
 - How Asynchronous Binding and Storage Work
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

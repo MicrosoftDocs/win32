@@ -37,6 +37,10 @@
         href: signing-data-with-cng.md
       - name: "Encrypting Data with CNG"
         href: encrypting-data-with-cng.md
+      - name: "Using ML-DSA with CNG"
+        href: cng-mldsa-examples.md
+      - name: "Using ML-KEM with CNG"
+        href: cng-mlkem-examples.md
   - name: "CNG Reference"
     href: cng-reference.md
     items: 
@@ -115,6 +119,8 @@
         href: /windows/desktop/api/Bcrypt/nf-bcrypt-bcryptcreatehash
       - name: "BCryptCreateMultiHash"
         href: /windows/desktop/api/Bcrypt/nf-bcrypt-bcryptcreatemultihash
+      - name: "BCryptDecapsulate"
+        href: ./bcrypt/nf-bcrypt-bcryptdecapsulate.md
       - name: "BCryptDecrypt"
         href: /windows/desktop/api/Bcrypt/nf-bcrypt-bcryptdecrypt
       - name: "BCryptDeriveKey"
@@ -129,6 +135,8 @@
         href: /windows/desktop/api/Bcrypt/nf-bcrypt-bcryptduplicatehash
       - name: "BCryptDuplicateKey"
         href: /windows/desktop/api/Bcrypt/nf-bcrypt-bcryptduplicatekey
+      - name: "BCryptEncapsulate"
+        href: ./bcrypt/nf-bcrypt-bcryptencapsulate.md
       - name: "BCryptEncrypt"
         href: /windows/desktop/api/Bcrypt/nf-bcrypt-bcryptencrypt
       - name: "BCryptExportKey"
@@ -220,12 +228,16 @@
         href: /windows/desktop/api/ncrypt/nf-ncrypt-ncryptcreateclaim
       - name: "NCryptCreatePersistedKey"
         href: /windows/desktop/api/Ncrypt/nf-ncrypt-ncryptcreatepersistedkey
+      - name: "NCryptDecapsulate"
+        href: ./ncrypt/nf-ncrypt-ncryptdecapsulate.md
       - name: "NCryptDecrypt"
         href: /windows/desktop/api/Ncrypt/nf-ncrypt-ncryptdecrypt
       - name: "NCryptDeleteKey"
         href: /windows/desktop/api/Ncrypt/nf-ncrypt-ncryptdeletekey
       - name: "NCryptDeriveKey"
         href: /windows/desktop/api/Ncrypt/nf-ncrypt-ncryptderivekey
+      - name: "NCryptEncapsulate"
+        href: ./ncrypt/nf-ncrypt-ncryptencapsulate.md
       - name: "NCryptEncrypt"
         href: /windows/desktop/api/Ncrypt/nf-ncrypt-ncryptencrypt
       - name: "NCryptEnumAlgorithms"
@@ -387,6 +399,8 @@
         href: /windows/win32/api/Bcrypt/ns-bcrypt-bcrypt_key_data_blob_header
       - name: "BCRYPT_KEY_LENGTHS_STRUCT"
         href: /windows/win32/api/bcrypt/ns-bcrypt-bcrypt_key_lengths_struct
+      - name: "BCRYPT_MLKEM_KEY_BLOB"
+        href: ./bcrypt/ns-bcrypt-bcrypt_mlkem_key_blob.md
       - name: "BCRYPT_MULTI_HASH_OPERATION"
         href: /windows/win32/api/Bcrypt/ns-bcrypt-bcrypt_multi_hash_operation
       - name: "BCRYPT_MULTI_OBJECT_LENGTH_STRUCT"
@@ -399,6 +413,10 @@
         href: /windows/win32/api/Bcrypt/ns-bcrypt-bcrypt_oid_list
       - name: "BCRYPT_PKCS1_PADDING_INFO"
         href: /windows/win32/api/Bcrypt/ns-bcrypt-bcrypt_pkcs1_padding_info
+      - name: "BCRYPT_PQDSA_KEY_BLOB"
+        href: ./bcrypt/ns-bcrypt-bcrypt_pqdsa_key_blob.md
+      - name: "BCRYPT_PQDSA_PADDING_INFO"
+        href: ./bcrypt/ns-bcrypt-bcrypt_pqdsa_padding_info.md
       - name: "BCRYPT_PROVIDER_NAME"
         href: /windows/win32/api/Bcrypt/ns-bcrypt-bcrypt_provider_name
       - name: "BCRYPT_PSS_PADDING_INFO"

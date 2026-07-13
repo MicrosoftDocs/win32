@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - About Windows Remote Management
 - Windows Remote Management, about
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

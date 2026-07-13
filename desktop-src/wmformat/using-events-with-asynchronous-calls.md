@@ -7,7 +7,7 @@ keywords:
 - Windows Media Format SDK,asynchronous call events
 - events,asynchronous calls
 - asynchronous call events
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

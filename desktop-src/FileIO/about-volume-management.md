@@ -2,7 +2,7 @@
 description: Volumes are implemented by a device driver called a volume manager.
 ms.assetid: 424ddbd9-5692-45ef-95fb-7b00b09e3205
 title: About Volume Management
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

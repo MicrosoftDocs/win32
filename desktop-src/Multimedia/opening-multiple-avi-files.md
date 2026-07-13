@@ -5,7 +5,7 @@ ms.assetid: 982bcea1-77b0-4a38-893d-1f506ffb18f5
 keywords:
 - initAVI function
 - termAVI function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

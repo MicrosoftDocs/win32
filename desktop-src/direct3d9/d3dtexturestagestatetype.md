@@ -85,14 +85,14 @@ Texture-stage state is a texture alpha blending operation identified by one memb
 <span id="D3DTSS_ALPHAARG1"></span><span id="d3dtss_alphaarg1"></span>**D3DTSS\_ALPHAARG1**
 </dt> <dd>
 
-Texture-stage state is the first alpha argument for the stage, identified by by [D3DTA](d3dta.md). The default argument is D3DTA\_TEXTURE. If no texture is set for this stage, the default argument is D3DTA\_DIFFUSE. Specify D3DTA\_TEMP to select a temporary register color for read or write. D3DTA\_TEMP is supported if the D3DPMISCCAPS\_TSSARGTEMP device capability is present. The default value for the register is (0.0, 0.0, 0.0, 0.0).
+Texture-stage state is the first alpha argument for the stage, identified by [D3DTA](d3dta.md). The default argument is D3DTA\_TEXTURE. If no texture is set for this stage, the default argument is D3DTA\_DIFFUSE. Specify D3DTA\_TEMP to select a temporary register color for read or write. D3DTA\_TEMP is supported if the D3DPMISCCAPS\_TSSARGTEMP device capability is present. The default value for the register is (0.0, 0.0, 0.0, 0.0).
 
 </dd> <dt>
 
 <span id="D3DTSS_ALPHAARG2"></span><span id="d3dtss_alphaarg2"></span>**D3DTSS\_ALPHAARG2**
 </dt> <dd>
 
-Texture-stage state is the second alpha argument for the stage, identified by by [D3DTA](d3dta.md). The default argument is D3DTA\_CURRENT. Specify D3DTA\_TEMP to select a temporary register color for read or write. D3DTA\_TEMP is supported if the D3DPMISCCAPS\_TSSARGTEMP device capability is present. The default value for the register is (0.0, 0.0, 0.0, 0.0).
+Texture-stage state is the second alpha argument for the stage, identified by [D3DTA](d3dta.md). The default argument is D3DTA\_CURRENT. Specify D3DTA\_TEMP to select a temporary register color for read or write. D3DTA\_TEMP is supported if the D3DPMISCCAPS\_TSSARGTEMP device capability is present. The default value for the register is (0.0, 0.0, 0.0, 0.0).
 
 </dd> <dt>
 

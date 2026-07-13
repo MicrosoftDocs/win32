@@ -2,7 +2,7 @@
 description: Anniversary of the contact.
 ms.assetid: ec3c1c27-58c9-4ead-a362-7e3ddef203ea
 title: System.Contact.Anniversary
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

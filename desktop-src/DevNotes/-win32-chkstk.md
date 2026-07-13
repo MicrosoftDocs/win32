@@ -2,7 +2,7 @@
 description: Called by the compiler when you have more than one page of local variables in your function.
 ms.assetid: 154dd992-88b5-44a4-9594-5d13afb71c28
 title: '_chkstk Routine'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

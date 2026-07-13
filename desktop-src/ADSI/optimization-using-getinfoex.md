@@ -7,7 +7,7 @@ keywords:
 - Optimization Using GetInfoEx ADSI
 - GetInfoEx ADSI , Optimization Using IADs GetInfoEx
 - ADSI ADSI , Using, Optimization Using the IADs GetInfoEx Method
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

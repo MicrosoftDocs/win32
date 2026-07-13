@@ -2,8 +2,8 @@
 title: COM Interfaces - Device Access
 description: Component Object Model (COM)interfaces in the Device Access API.
 ms.assetid: 96F532B7-5CF9-4341-932B-7F8BEDA9551F
-ms.topic: article
-ms.date: 02/11/2020
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # COM Interfaces - Device Access

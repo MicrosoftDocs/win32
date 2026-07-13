@@ -2,7 +2,7 @@
 description: Administrators can control the amount of data that each user can store on an NTFS file system volume.
 ms.assetid: 42efbd5b-6455-4319-a76e-cdb666fc36b8
 title: Managing Disk Quotas
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

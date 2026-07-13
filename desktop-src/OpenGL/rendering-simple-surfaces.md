@@ -15,7 +15,7 @@ keywords:
 - OpenGL Utility (GLU),disks
 - GLU (OpenGL Utility),disks
 - disks OpenGL
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

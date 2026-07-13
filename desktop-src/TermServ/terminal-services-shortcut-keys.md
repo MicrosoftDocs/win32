@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Remote Desktop Services Remote Desktop Services , shortcut keys
 - Remote Desktop Services Remote Desktop Services , keyboard shortcuts
-ms.topic: article
+ms.topic: reference
 ms.date: 09/10/2021
 ---
 

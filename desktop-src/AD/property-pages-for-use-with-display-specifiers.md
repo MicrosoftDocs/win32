@@ -5,7 +5,7 @@ ms.assetid: c1dd84e2-50f9-4903-a4b5-4473515e4d0e
 ms.tgt_platform: multiple
 keywords:
 - display specifiers AD ,property pages for use with
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

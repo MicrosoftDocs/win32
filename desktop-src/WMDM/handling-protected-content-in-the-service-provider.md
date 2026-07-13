@@ -15,7 +15,7 @@ keywords:
 - service providers,DRM-protected content
 - creating service providers,DRM-protected content
 - DRM-protected content
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: WIC functions
 description: This section contains information about the Windows Imaging Component (WIC) functions.
 ms.assetid: 6f948df6-5b70-4f1e-b01d-3841d7819acb
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

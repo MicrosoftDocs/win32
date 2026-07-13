@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - GetInfo ADSI , using IADs GetInfo
 - ADSI ADSI ,using,using the IADs GetInfo method
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

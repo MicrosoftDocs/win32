@@ -2,11 +2,16 @@
 description: Logical sensors provide data without depending on hardware devices.
 ms.assetid: fb0f0324-d72e-4759-9f4d-deedf8848e21
 title: About Logical Sensors
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 09/19/2025
 ---
 
 # About Logical Sensors
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 *Logical sensors* provide data without depending on hardware devices. For example, a logical sensor could provide data about the user's current location by using a service that looks up an IP address in a table. Logical sensors are implemented as sensor drivers. For information about how to implement a sensor driver, see the Windows Driver Kit.
 
@@ -42,6 +47,6 @@ The Sensor API identifies a particular logical sensor by its *logical ID*, which
 [Using Logical Sensors](using-logical-sensors.md)
 </dt> </dl>
 
- 
 
- 
+
+

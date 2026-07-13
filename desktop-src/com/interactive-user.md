@@ -2,7 +2,7 @@
 title: Interactive User
 description: The interactive user is the user that is currently logged on to the computer where the COM server is running.
 ms.assetid: 6d43842c-0ad1-4563-b50c-5024bda480f1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

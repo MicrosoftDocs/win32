@@ -192,10 +192,6 @@ The **\_\_FilterToConsumerBinding** class is derived from [**\_\_IndicationRelat
 
 Permanent event consumers use the **\_\_FilterToConsumerBinding** system class to bind event filters to final consumers. After the filter and consumer are bound together, WMI can forward events that match the filter to the corresponding consumer.
 
-## Examples
-
-The [Create Permanent WMI Event registration to monitor files](https://Gallery.TechNet.Microsoft.Com/Create-Permenant-WMI-Event-f67ce5c2) PowerShell example on TechNet Gallery uses **\_\_FilterToConsumerBinding** as part of a complex script to set up a permanent WMI event registration.
-
 ## Requirements
 
 

@@ -2,7 +2,7 @@
 description: Learn about the JobBindAllDocuments element, which describes Describes the method of binding. All documents in the job are bound together.
 ms.assetid: f21199e2-2220-40c4-9429-72aa2a34a5f2
 title: JobBindAllDocuments
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -68,7 +68,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the `https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords` namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Feature name="psk:JobBindAllDocuments">

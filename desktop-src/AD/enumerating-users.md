@@ -7,7 +7,7 @@ keywords:
 - Enumerating Users AD
 - users AD , enumerating a user
 - Active Directory, using,users, enumerating a user
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

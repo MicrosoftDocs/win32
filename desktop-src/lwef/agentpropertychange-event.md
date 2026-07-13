@@ -2,7 +2,7 @@
 title: AgentPropertyChange Event
 description: AgentPropertyChange Event
 ms.assetid: 56607e9c-99eb-42c1-987a-0f2bc3f82d75
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

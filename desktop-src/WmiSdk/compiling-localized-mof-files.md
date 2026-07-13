@@ -3,7 +3,7 @@ description: You must compile your master MOF file to create the language-neutra
 ms.assetid: ae2fa320-8294-4991-be30-403088c34b7a
 ms.tgt_platform: multiple
 title: Compiling Localized MOF Files
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

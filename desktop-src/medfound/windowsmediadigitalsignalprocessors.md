@@ -2,7 +2,7 @@
 description: Digital Signal Processors
 ms.assetid: cd3952ca-3958-4944-8fde-f0163a47bff9
 title: Digital Signal Processors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Remaining battery life, as a percentage.
 ms.assetid: b6f4f5d6-7f12-4104-95ad-b163445d198b
 title: System.Devices.BatteryLife
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: Checksums and Object Counts
 description: Checksums and object counts are detection strategies that allow an application to detect a partial update state.
 ms.assetid: 14829a74-c186-4250-beac-036c5ecc5913
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

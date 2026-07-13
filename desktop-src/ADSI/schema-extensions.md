@@ -3,7 +3,7 @@ title: Schema Extensions
 description: The architecture of the ADSI schema provides that new schema classes can be added to the schema class container and new properties to an existing schema class object at run time.
 ms.assetid: 935d39ca-cfb9-4aa3-aa0e-b614f7b359f2
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,8 +2,9 @@
 description: This topic is a reference for the entries that can be used in an Autorun.inf file. An entry consists of a key and a value.
 ms.assetid: 5b8fd559-b1be-4552-a7be-19ad107855af
 title: Autorun.inf Entries
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
+no-loc: [Verb, verb, Shell, shell]
 ---
 
 # Autorun.inf Entries

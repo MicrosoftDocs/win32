@@ -2,7 +2,7 @@
 description: System.Contact.BusinessAddress1Street
 ms.assetid: 2f40e9b0-5f56-4bf7-8328-f529a07fbe46
 title: System.Contact.BusinessAddress1Street
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: R (UPnP APIs)
 description: Contains UPnP-related terms that begin with the letter R.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 238f5e6b-503f-445e-baf2-0467e95a9d22
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

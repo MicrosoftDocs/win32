@@ -3,7 +3,7 @@ description: Specify information about the performance object to which the WMI p
 ms.assetid: 7b8b7f00-95d8-4c1e-8638-157d0f4c7c32
 ms.tgt_platform: multiple
 title: Class Qualifiers for Performance Counter Classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

@@ -5,6 +5,7 @@ ms.assetid: 609F5D75-879A-4681-B746-8C7A8757F062
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
+ms.custom: sfi-ropc-nochange
 ---
 
 # IWSManEx Methods

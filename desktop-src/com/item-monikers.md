@@ -2,7 +2,7 @@
 title: Item Monikers
 description: Another OLE-implemented moniker class is the item moniker, which can be used to identify an object contained in another object.
 ms.assetid: ddcf3669-4ad0-4a4e-80a6-eb78058cff09
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

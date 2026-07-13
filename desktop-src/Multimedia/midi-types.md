@@ -10,7 +10,7 @@ keywords:
 - reference for MIDI,types
 - MIDI reference,types
 - MIDI types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

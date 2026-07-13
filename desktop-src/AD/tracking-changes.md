@@ -5,7 +5,7 @@ ms.assetid: f4539482-1170-4c0c-b817-b39e58049d39
 ms.tgt_platform: multiple
 keywords:
 - Active Directory,using,tracking changes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

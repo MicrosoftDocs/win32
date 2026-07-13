@@ -12,7 +12,7 @@ keywords:
 - capDriverGetVersion macro
 - WM_CAP_DRIVER_DISCONNECT message
 - capDriverDisconnect macro
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

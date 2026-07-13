@@ -3,7 +3,7 @@ description: Writing a WMI high-performance provider to create performance count
 ms.assetid: 6a22d6f7-d9e2-45fa-876d-921a4bc4f574
 ms.tgt_platform: multiple
 title: Making an Instance Provider into a High-Performance Provider
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

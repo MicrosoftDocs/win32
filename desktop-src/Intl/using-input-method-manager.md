@@ -2,7 +2,7 @@
 description: Using Input Method Manager
 ms.assetid: d98d5273-7827-4d77-8a4a-cc93dcf9a497
 title: Using Input Method Manager
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -4,7 +4,7 @@ description: The MIDL compiler implicitly invokes the preprocessor and does not 
 ms.assetid: 2f402af4-18d7-480c-a8d2-d16f402ef87a
 keywords:
 - MIDL compiler MIDL , verifying preprocessor options
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

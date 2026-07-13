@@ -3,7 +3,7 @@ description: Semisynchronous calls are the recommended means to call WMI methods
 ms.assetid: 3d5ddd77-19f7-42d0-b8ca-a0a11f6b3f0f
 ms.tgt_platform: multiple
 title: Making a Semisynchronous Call with C++
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

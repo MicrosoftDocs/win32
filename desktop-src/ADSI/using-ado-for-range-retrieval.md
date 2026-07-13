@@ -5,7 +5,7 @@ ms.assetid: ca06169d-7de7-4552-aa7d-e9427353e49e
 ms.tgt_platform: multiple
 keywords:
 - Using ADO for Range Retrieval ADSI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

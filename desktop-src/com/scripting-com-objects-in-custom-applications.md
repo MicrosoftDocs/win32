@@ -2,7 +2,7 @@
 title: Scripting COM Objects in Custom Applications
 description: Scripting COM Objects in Custom Applications
 ms.assetid: 14e8cd53-e2b2-4393-8961-32efdf269f76
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

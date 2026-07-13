@@ -2,7 +2,7 @@
 title: Font Control Properties
 description: Reference documentation on property keys for the Ribbon framework Font Control.
 ms.assetid: fe0f4255-c429-4821-a180-38a3bdbf0623
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Coined by transaction processing pioneers, the acronym ACID stands for atomic, consistent, isolated, and durable.
 ms.assetid: 857d145c-710d-4097-8ed6-df11e8d52228
 title: ACID Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

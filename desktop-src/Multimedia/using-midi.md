@@ -11,7 +11,7 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),about
 - Musical Instrument Digital Interface (MIDI),examples
 - MIDI (Musical Instrument Digital Interface),examples
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

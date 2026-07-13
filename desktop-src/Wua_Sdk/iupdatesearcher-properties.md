@@ -2,7 +2,7 @@
 description: The IUpdateSearcher interface defines the following properties.
 ms.assetid: 65a39383-f326-4735-b2af-6df7a77ffba6
 title: IUpdateSearcher Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -19,9 +19,8 @@ keywords:
 - WIC (Windows Imaging Component)
 - interoperability,Windows Imaging Component (WIC)
 - Direct2D,WIC interoperation
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
-ms.custom: "seodec18"
 ---
 
 # Interoperability Overview

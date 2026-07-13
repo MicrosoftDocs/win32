@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Container Browser AD
 - containers AD , browser
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

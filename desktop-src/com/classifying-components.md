@@ -2,7 +2,7 @@
 title: Classifying Components
 description: Classifying Components
 ms.assetid: 4d805532-96c9-400d-b78a-f8d0d9bdbf83
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

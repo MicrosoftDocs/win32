@@ -2,7 +2,7 @@
 description: Web Service on Devices API (WSDAPI) is an implementation of the Devices Profile for Web Services (DPWS) for Windows Vista and Windows Server 2008.
 ms.assetid: 8eaeacb3-43db-4a57-8548-e5b81213269c
 title: About Web Services on Devices
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

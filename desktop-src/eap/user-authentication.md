@@ -2,7 +2,7 @@
 title: User Authentication
 description: The authentication protocol itself can authenticate the user via Protected EAP (PEAP).
 ms.assetid: 7e0ff5e3-3274-4b52-8c53-101ad01e3034
-ms.topic: article
+ms.topic: reference
 ms.date: 06/14/2023
 ms.contributor: samyun
 ---

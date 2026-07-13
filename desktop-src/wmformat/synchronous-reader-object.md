@@ -8,7 +8,7 @@ keywords:
 - ASF (Advanced Systems Format),synchronous reader objects
 - objects,synchronous reader objects
 - synchronous readers,objects
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

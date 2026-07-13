@@ -4,8 +4,8 @@ description: ARIA Data Table Error
 ms.assetid: 3D0448BB-50DC-4C85-93BD-D8E626475AB0
 keywords:
 - AriaDataTableErrorId
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # ARIA Data Table Error

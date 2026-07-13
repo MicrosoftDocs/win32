@@ -19,7 +19,7 @@ keywords:
 - DRM (digital rights management),Programming Guide
 - DRM Client Extended APIs,about
 - Client Extended APIs,about
-ms.topic: article
+ms.topic: get-started
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

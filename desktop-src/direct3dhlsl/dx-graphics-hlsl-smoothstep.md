@@ -50,6 +50,15 @@ Returns 0 if *x* is less than *min*; 1 if *x* is greater than *max*; otherwise, 
 
 Use the **smoothstep** HLSL intrinsic function to create a smooth transition between two values. For example, you can use this function to blend two colors smoothly.
 
+For float input, this intrinsic is equivalent to the following HLSL function:
+```
+float smoothstep(float min, float max, float x)
+{
+    float t = saturate((x - min) / (max - min));
+    return t * t * (3.0f - 2.0f * t);
+}
+```
+
 ## Type Description
 
 

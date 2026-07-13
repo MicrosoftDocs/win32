@@ -2,7 +2,7 @@
 title: IdleComplete Event
 description: IdleComplete Event
 ms.assetid: 1d684f75-f23e-4ed8-a60a-5e6792332103
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

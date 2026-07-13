@@ -16,7 +16,7 @@ keywords:
 - vector graphics,attaching text
 - VML shapes,attaching text
 - attaching text
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # RebootNowMethod method of the MDM\_Reboot class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+
 
 This method executes a reboot of the device. See also, [RebootNow](/windows/client-management/mdm/reboot-csp).
 

@@ -2,7 +2,7 @@
 description: A component with at least one queuable interface is a queuable component.
 ms.assetid: 8183f640-4bf3-4555-8837-90a26130c618
 title: Creating Queuable Components
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -33,8 +33,8 @@ To specify a COM+ interface as queuable, use the following steps:
 
     A queuable component can be identified as such by adding the QUEUEABLE attribute macro to the Interface section of the Interface Definition Language (IDL) source file for all interfaces that are queuable.
 
-    ``` syntax
-#include "mtxattr.h"
+    ```syntax
+    #include "mtxattr.h"
     [ object, dual, uuid(), helpstring(IShiphip"), QUEUEABLE ]
     interface IShip:IDispatch{
        [propput, id(1)] HRESULT CustomerId ([in] long CustId);

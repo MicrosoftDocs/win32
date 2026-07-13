@@ -2,7 +2,7 @@
 description: Learn about adding stream information to the ASF file sink, which an application can use to archive ASF media data to a file.
 ms.assetid: 21cbde27-a2ca-4298-9197-43bcaf05588d
 title: Adding Stream Information to the ASF File Sink
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

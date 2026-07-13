@@ -5,7 +5,7 @@ ms.assetid: b9cfd99e-f2df-4db0-ae94-889f7aacd92d
 ms.tgt_platform: multiple
 keywords:
 - data type interfaces ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

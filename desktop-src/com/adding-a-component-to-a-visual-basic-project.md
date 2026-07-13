@@ -2,7 +2,7 @@
 title: Adding a Component to a Visual Basic Project
 description: Adding a Component to a Visual Basic Project
 ms.assetid: 7e78853a-b134-46d7-a230-3ee8d80d05c0
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

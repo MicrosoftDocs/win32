@@ -2,7 +2,7 @@
 title: Functions (HLSL reference)
 description: Functions encapsulate HLSL statements.
 ms.assetid: b6f934e5-eac7-4859-b1d0-698632011e1d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

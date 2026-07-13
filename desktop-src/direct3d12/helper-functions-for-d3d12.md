@@ -5,7 +5,7 @@ ms.assetid: E40B20D9-C700-4142-BBF3-7A5086E34712
 keywords:
 - Helper functions
 - d3dx12.h
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

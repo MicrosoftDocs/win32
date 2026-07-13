@@ -2,7 +2,7 @@
 title: Single-Threaded and Multithreaded Communication
 description: Single-Threaded and Multithreaded Communication
 ms.assetid: 8d3a855c-b52d-48bb-9fdf-efbf8005c374
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: ae479d6b-75cf-4659-8a91-c2cbdcf56091
 ms.tgt_platform: multiple
 keywords:
 - Getting Started with Scripting for ADSI ADSI
-ms.topic: article
+ms.topic: get-started
 ms.date: 05/31/2018
 ---
 

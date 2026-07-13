@@ -45,7 +45,7 @@ For C++ development, the working directory is specified by the [**IExecAction::W
 
 ## Examples
 
-The following XML defines a execution action.
+The following XML defines an execution action.
 
 
 ```XML

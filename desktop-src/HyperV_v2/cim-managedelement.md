@@ -19,8 +19,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_ManagedElement class
-
+# CIM\_ManagedElement class (Hyper-V)
 The **CIM\_ManagedElement** class is an abstract class that provides a common superclass (or top of the inheritance tree) for the non-association classes in the CIM Schema.
 
 ## Syntax

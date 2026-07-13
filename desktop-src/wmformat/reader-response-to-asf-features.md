@@ -7,7 +7,7 @@ keywords:
 - Advanced Systems Format (ASF),reader responses to features
 - ASF (Advanced Systems Format),reader responses to features
 - reader responses to ASF features
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

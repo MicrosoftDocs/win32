@@ -2,7 +2,7 @@
 title: VML InsetMode Attribute
 description: VML InsetMode Attribute
 ms.assetid: 3cdce299-a490-43b9-93f5-09aca443e98b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # HostedInstallMethod method of the MDM\_EnterpriseModernAppManagement\_AppInstallation01\_01 class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+
 
 Method to perform an install of an app package from a hosted location, such as a local drive, a UNC, or HTTPS data source. See also, [HostedInstall](/windows/client-management/mdm/enterprisemodernappmanagement-csp).
 

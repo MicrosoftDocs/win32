@@ -2,7 +2,7 @@
 title: Work with shaders and shader resources
 description: It's time to learn how to work with shaders and shader resources in developing your Microsoft DirectX game for Windows 8.
 ms.assetid: 25a11983-e3f6-4bd3-86f1-d660edc4cd4b
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -181,7 +181,7 @@ hr = device->CreateInputLayout(
 
 Each of the input-layout element definitions is prefixed with a string, like "POSITION" or "NORMAL"—that is the semantic we discussed earlier in this topic. It's like a handle that helps the GPU identify that element when processing the vertex. Choose common, meaningful names for your vertex elements.
 
-Just as with the constant buffer, the vertex shader has a corresponding buffer definition for incoming vertex elements. (That's why we provided a reference to the vertex shader resource when creating the input layout - Direct3D validates the per-vertex data layout with the shader's input struct.) Note how the semantics match between the input layout definition and this HLSL buffer declaration. However, `COLOR` has a "0" appended to it. It isn't necessary to add the 0 if you have only one `COLOR` element declared in the layout, but it's a good practice to append it in case you you choose to add more color elements in the future.
+Just as with the constant buffer, the vertex shader has a corresponding buffer definition for incoming vertex elements. (That's why we provided a reference to the vertex shader resource when creating the input layout - Direct3D validates the per-vertex data layout with the shader's input struct.) Note how the semantics match between the input layout definition and this HLSL buffer declaration. However, `COLOR` has a "0" appended to it. It isn't necessary to add the 0 if you have only one `COLOR` element declared in the layout, but it's a good practice to append it in case you choose to add more color elements in the future.
 
 
 ```C++
@@ -316,7 +316,7 @@ PS_OUTPUT main(PS_INPUT In)
 
 The important part is the `SV_TARGET` system-value semantic on the return value. It indicates that the output is to be written to the primary render target, which is the texture buffer supplied to the swap chain for display. This is required for pixel shaders - without the color data from the pixel shader, Direct3D wouldn't have anything to display!
 
-An example of a more complex pixel shader to perform Phong shading might look like this. Since the vectors and normals were interpolated, we don't have to compute them on a per-pixel basis. However, we do have to re-normalize them because of how interpolation works; conceptually, we need to gradually "spin" the vector from direction at vertex A to direction at vertex B, maintaining its length—wheras interpolation instead cuts across a straight line between the two vector endpoints.
+An example of a more complex pixel shader to perform Phong shading might look like this. Since the vectors and normals were interpolated, we don't have to compute them on a per-pixel basis. However, we do have to re-normalize them because of how interpolation works; conceptually, we need to gradually "spin" the vector from direction at vertex A to direction at vertex B, maintaining its length—whereas interpolation instead cuts across a straight line between the two vector endpoints.
 
 ``` syntax
 cbuffer MaterialConstantBuffer : register(b2)

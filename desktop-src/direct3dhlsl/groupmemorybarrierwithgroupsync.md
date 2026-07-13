@@ -35,6 +35,8 @@ This function does not return a value.
 
 ## Remarks
 
+The behavior of calls to this function that are within diverging branches of a thread group are undefined.
+
 ### Minimum Shader Model
 
 This function is supported in the following shader models.

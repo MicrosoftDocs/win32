@@ -16,7 +16,7 @@ keywords:
 - MCI reference,errors
 - sequencer errors
 - MCI sequencer errors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

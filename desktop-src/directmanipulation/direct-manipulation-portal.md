@@ -2,7 +2,7 @@
 description: The Direct Manipulation APIs let you create great pan, zoom, and drag user experiences. To do this, it processes touch input on a region or object, generates output transforms, and applies the transforms to UI elements.
 ms.assetid: 26358bc5-71e9-40f0-9243-9bddd961a0e5
 title: Direct Manipulation
-ms.topic: article
+ms.topic: reference
 ms.date: 02/03/2020
 ---
 
@@ -44,7 +44,7 @@ This figure shows a basic Direct Manipulation implementation before and after pa
 
 During initialization of Direct Manipulation a **DCompDirectManipulationCompositor** object is instantiated and is associated with Direct Manipulation. This object is a wrapper around [DirectComposition](../directcomp/directcomposition-portal.md), which is the system compositor. The object is responsible for applying the output transforms and driving visual updates.
 
-A contact represents a touch point identified by the **pointerId** provided in the [WM/_POINTERDOWN](../inputmsg/wm-pointerdown.md) message. When a **WM\_POINTERDOWN** message is received, the application calls [**SetContact**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact). The application notifies Direct Manipulationabout the contacts that should be handled and the viewport(s) that should react to those contacts. Keyboard and mouse input have special **pointerId** values so they can be handled appropriately by Direct Manipulation.
+A contact represents a touch point identified by the **pointerId** provided in the [WM/_POINTERDOWN](../inputmsg/wm-pointerdown.md) message. When a **WM\_POINTERDOWN** message is received, the application calls [**SetContact**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact). The application notifies Direct Manipulation about the contacts that should be handled and the viewport(s) that should react to those contacts. Keyboard and mouse input have special **pointerId** values so they can be handled appropriately by Direct Manipulation.
 
 In our basic case above, when [**SetContact**](/windows/win32/api/DirectManipulation/nf-directmanipulation-idirectmanipulationviewport-setcontact) is called a few things happen:
 

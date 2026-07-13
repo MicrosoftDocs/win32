@@ -2,7 +2,7 @@
 title: Windows Deployment Services Transport Functions
 description: The following sections describe the Windows Deployment Services Transport API.
 ms.assetid: a8fa1926-937d-4018-b36a-1c65e3228894
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

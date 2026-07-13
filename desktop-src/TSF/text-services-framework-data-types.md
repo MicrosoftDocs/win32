@@ -9,7 +9,7 @@ keywords:
 - reference for TSF,data types
 - text services,data types
 - TSF-enabled applications,data types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

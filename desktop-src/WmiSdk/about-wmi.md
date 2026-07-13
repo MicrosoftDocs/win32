@@ -3,13 +3,13 @@ description: Windows Management Instrumentation (WMI) is the Microsoft implement
 ms.assetid: d745cf25-a139-439d-9ac5-e7720b640516
 ms.tgt_platform: multiple
 title: About WMI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
 # About WMI
 
-Windows Management Instrumentation (WMI) is the Microsoft implementation of Web-Based Enterprise Management (WBEM), which is an industry initiative to develop a standard technology for accessing management information in an enterprise environment. WMI uses the Common Information Model (CIM) industry standard to represent systems, applications, networks, devices, and other managed components. CIM is developed and maintained by the Distributed Management Task Force ([DMTF](https://www.dmtf.org/standards/wsman)).
+Windows Management Instrumentation (WMI) is the Microsoft implementation of Web-Based Enterprise Management (WBEM), which is an industry initiative to develop a standard technology for accessing management information in an enterprise environment. WMI uses the Common Information Model (CIM) industry standard to represent systems, applications, networks, devices, and other managed components. CIM is developed and maintained by the Distributed Management Task Force ([DMTF](https://www.dmtf.org/standards/ws-man)).
 
 > [!Note]  
 > The next-generation of WMI, known as the Windows Management Infrastructure (MI), is currently available. MI is fully compatible with previous versions of WMI, and provides a host of features and benefits that make designing and developing providers and clients easier than ever. For example, many newer providers are written using the MI framework, but can be accessed using WMI scripts and applications. For more information about the differences between the two technologies, see [Why Use MI?](/previous-versions/windows/desktop/wmi_v2/why-use-mi-)
@@ -41,7 +41,7 @@ The following table lists topics included in this section.
 | [WMI Architecture](wmi-architecture.md)                                                               | A management application communicates with WMI by using a variety of interfaces, such as Visual Basic, C++, ODBC, and ActiveX. All the WMI interfaces are based on the Component Object Model (COM).                                              |
 | [Common Information Model](common-information-model.md)                                               | A language independent programming model that uses object oriented techniques to describe an enterprise.                                                                                                                                          |
 | [Managed Object Format](managed-object-format--mof-.md)                                               | A format that enables you to create human-readable code, which the operating system can translate into a set of CIM classes. You can use the new classes to model and control new technologies for an enterprise.                                 |
-| [User Account Control and WMI](user-account-control-and-wmi.md)                                       | User Account Control (UAC) affects what WMI data is returned, remote access, and how scripts must be run. For more information, see [Getting Started with User Account Control on Windows Vista](https://support.microsoft.com/help/922708/how-to-use-user-account-control-uac-in-windows-vista). |
+| [User Account Control and WMI](user-account-control-and-wmi.md)                                       | User Account Control (UAC) affects what WMI data is returned, remote access, and how scripts must be run. For more information, see [Getting Started with User Account Control on Windows Vista](/windows/security/application-security/application-control/user-account-control/). |
 | [Access to WMI Securable Objects](access-to-wmi-securable-objects.md)                                 | WMI uses standard Windows security objects and procedures to control and protect access to securable objects like WMI namespaces, printers, services, and DCOM applications.                                                                      |
 | [Performance Libraries and WMI](performance-libraries-and-wmi.md)                                     | Data from the system performance counters is available in WMI classes.                                                                                                                                                                            |
 | [IPv6 and IPv4 Support in WMI](ipv6-and-ipv4-support-in-wmi.md)                                       | WMI [IP Route Provider](/previous-versions/windows/desktop/wmiiprouteprov/ip-route-provider) and network classes supply data for IPv4 addresses. Starting with Windows Vista, WMI also provides limited support for IPv6 network capabilities.                                       |

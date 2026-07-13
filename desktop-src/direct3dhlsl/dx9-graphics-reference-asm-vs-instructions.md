@@ -2,7 +2,7 @@
 title: Vertex Shader Instructions
 description: Vertex Shader Instructions
 ms.assetid: 3840cbd7-53b5-4375-af74-170edf52ba6a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

@@ -2,7 +2,7 @@
 description: "Learn more about: Winsock Tracing Levels"
 ms.assetid: a92bc4d2-257a-478a-b10d-4fada4323c9b
 title: Winsock Tracing Levels
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

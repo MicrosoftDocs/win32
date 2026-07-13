@@ -5,7 +5,7 @@ ms.assetid: 'af1633c6-f0f5-462f-b0d3-4f071ab0c15a'
 keywords:
 - MCI commands,reference
 - MCI reference,commands
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

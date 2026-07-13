@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # MDM\_Policy\_Result01\_System02 class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+
 
 The **MDM\_Policy\_Result01\_System02** class represents the System policies available. These policies determine System configurations that are allowed.
 

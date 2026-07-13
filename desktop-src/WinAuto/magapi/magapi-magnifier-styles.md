@@ -12,7 +12,7 @@ api_location:
 - Magnification.h
 api_type:
 - HeaderDef
-ms.topic: article
+ms.topic: reference
 ms.date: 02/07/2020
 ---
 

@@ -17,7 +17,7 @@ api_location:
 
 # Parameter Attributes
 
-For Windows 7, Windows Portable Devices supports the following parameter attributes for methods and events of a device service. These attributes are returned by the these methods:
+For Windows 7, Windows Portable Devices supports the following parameter attributes for methods and events of a device service. These attributes are returned by these methods:
 
 -   [**IPortableDeviceServiceCapabilities::GetMethodParameterAttributes**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getmethodparameterattributes)
 -   [**IPortableDeviceServiceCapabilities::GetEventParameterAttributes**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-geteventparameterattributes)

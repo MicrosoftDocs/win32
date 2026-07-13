@@ -2,7 +2,7 @@
 title: Lossless transform of a JPEG image
 description: When you compress a JPEG image, some of the information in the image is lost.
 ms.assetid: d7342195-9634-4968-87c1-a94bc6a7e112
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

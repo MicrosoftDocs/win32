@@ -2,8 +2,8 @@
 title: Functions (Programming Reference)
 description: Available XInput functions.
 ms.assetid: c1533555-9094-0030-f025-6f47e9002e1a
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Functions (Programming Reference)

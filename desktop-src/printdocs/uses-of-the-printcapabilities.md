@@ -2,7 +2,7 @@
 description: Learn about the uses of PrintCapabilities. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: ea75a7ac-d4d7-42b6-91e9-e28607fd684c
 title: Uses of the PrintCapabilities
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

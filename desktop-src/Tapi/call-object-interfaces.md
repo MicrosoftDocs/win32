@@ -2,7 +2,7 @@
 description: The Call object is created when a call comes into existence. Associated interfaces get and set information concerning the call.
 ms.assetid: cff131c0-9f4a-418d-b486-155bd71e9316
 title: Call Object Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

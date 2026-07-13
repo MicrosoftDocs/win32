@@ -1,5 +1,5 @@
 ---
-description: An enum used to indicate which version of the remoting protocul is being used.
+description: An enum used to indicate which version of the remoting protocol is being used.
 MS-HAID: vspixengine.REMOTINGVERSION
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -22,7 +22,7 @@ topic_type:
 
 # <span id="vspixengine.remotingversion"></span>REMOTINGVERSION enumeration
 
-An enum used to indicate which version of the remoting protocul is being used.
+An enum used to indicate which version of the remoting protocol is being used.
 
 ## Syntax
 

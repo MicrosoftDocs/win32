@@ -88,7 +88,7 @@ HRESULT Proc6(
                                       m-sized block of pointers, each 
                                       of which points to an n-sized 
                                       block of shorts. m associates with
-                                      the pointer closeest to the identifer
+                                      the pointer closest to the identifier
                                       it decorates. n associates with rest.*/
  HRESULT Proc7(
      [out] long  * pSize,

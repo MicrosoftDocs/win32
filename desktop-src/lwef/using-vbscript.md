@@ -2,7 +2,7 @@
 title: Using VBScript
 description: Using VBScript
 ms.assetid: a078eb60-aa12-42ea-850c-7b845fc8037c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

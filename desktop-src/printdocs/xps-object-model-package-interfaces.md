@@ -2,7 +2,7 @@
 description: The package interfaces represent the top level of the XPS OM, which corresponds to an XPS document file.
 ms.assetid: 9e269b18-e5b1-4801-b8e7-473750443c6d
 title: XPS OM Package Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

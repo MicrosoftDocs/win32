@@ -10,7 +10,7 @@ keywords:
 - smooth shading
 - Gouraud shading
 - flat shading
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

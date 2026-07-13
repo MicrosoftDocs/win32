@@ -2,7 +2,7 @@
 title: VML AutoRotationCenter Attribute
 description: VML AutoRotationCenter Attribute
 ms.assetid: beb6771f-42f4-458a-b525-4eb67bc1eff0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

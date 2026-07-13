@@ -6,7 +6,7 @@ ms:assetid: 625e46fa-cb44-5d96-be16-b8d6543d2421
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn350940(v=EXCHG.10)
 ms:contentKeyID: 55103283
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # Instance type conversions

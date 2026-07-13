@@ -2,7 +2,7 @@
 description: 'The following structures are used with memory management:'
 ms.assetid: 02a2a874-9ced-4b7d-8aad-4a7768639a32
 title: Memory Management Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 11/06/2018
 ---
 

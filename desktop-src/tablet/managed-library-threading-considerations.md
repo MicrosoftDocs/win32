@@ -2,7 +2,7 @@
 description: The following Tablet PC threading considerations are specific to the Managed Library.
 ms.assetid: bcc398d3-22ea-466c-9206-92b0ac208def
 title: Managed Library Threading Considerations
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

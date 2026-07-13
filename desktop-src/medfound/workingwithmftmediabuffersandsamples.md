@@ -2,7 +2,7 @@
 description: Working with MFT Media Buffers and Samples
 ms.assetid: dda4048e-bc4c-40ac-a6bd-34984f3717e0
 title: Working with MFT Media Buffers and Samples
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

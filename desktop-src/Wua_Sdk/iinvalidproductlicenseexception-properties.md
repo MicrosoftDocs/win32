@@ -2,7 +2,7 @@
 description: The IInvalidProductLicenseException interface defines the following property.
 ms.assetid: 731c46e3-2529-4a84-854e-04c5330e4acf
 title: IInvalidProductLicenseException Properties
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

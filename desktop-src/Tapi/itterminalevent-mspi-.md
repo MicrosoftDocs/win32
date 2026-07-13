@@ -2,7 +2,7 @@
 description: When the ITTAPIEventNotification::Event method returns TAPI\_EVENT equal to TE\_TERMINAL, the methods exposed by the ITTerminalEvent interface can be used to retrieve information concerning the terminal event that has occurred, if an MSP exists.
 ms.assetid: 5277776e-0471-41b6-b662-4346a9d237ec
 title: ITTerminalEvent (MSPI)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

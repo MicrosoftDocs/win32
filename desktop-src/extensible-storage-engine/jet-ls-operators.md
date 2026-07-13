@@ -6,7 +6,7 @@ ms:assetid: 35b69244-b6a8-50df-f442-6096bc5a5aa5
 ms:mtpsurl: https://msdn.microsoft.com/library/Hh577889(v=EXCHG.10)
 ms:contentKeyID: 39511163
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # JET_LS operators

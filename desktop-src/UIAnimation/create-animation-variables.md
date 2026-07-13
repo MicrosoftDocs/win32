@@ -4,7 +4,7 @@ description: An application must create an animation variable for each visual ch
 ms.assetid: 360aa157-cb50-400a-b373-45885410469d
 keywords:
 - animation variables Windows Animation ,creating
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

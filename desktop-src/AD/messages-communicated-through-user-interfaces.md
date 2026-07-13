@@ -5,7 +5,7 @@ ms.assetid: c81a3c44-c01d-4029-8a7d-6e0911d4f5ab
 ms.tgt_platform: multiple
 keywords:
 - Messages Communicated through User Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

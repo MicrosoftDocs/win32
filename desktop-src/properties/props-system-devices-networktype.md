@@ -2,7 +2,7 @@
 description: Represents the type of the device's network.
 ms.assetid: 24d7cfbe-832f-4fe9-9645-5445cd7c7745
 title: System.Devices.NetworkType
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

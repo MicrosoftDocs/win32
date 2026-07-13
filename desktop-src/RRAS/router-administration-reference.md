@@ -2,7 +2,7 @@
 title: Router Administration Reference
 ms.assetid: a4a2ac06-2451-4ec1-8c9a-01b3b976ee01
 description: "Learn more about: Router Administration Reference"
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

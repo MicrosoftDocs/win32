@@ -4,7 +4,7 @@ description: Defines the Access Control List (ACL) of the principals that can la
 ms.assetid: 23ca87fc-7829-46a9-9fc3-2cd7f677bbff
 keywords:
 - DefaultLaunchPermission registry value COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

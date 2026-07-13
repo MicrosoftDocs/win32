@@ -2,7 +2,7 @@
 description: This section contains reference material for the TAPI Call Center Constants.
 ms.assetid: e0d0ef59-ea56-4d9d-8582-cd1523dc3b17
 title: Call Center Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

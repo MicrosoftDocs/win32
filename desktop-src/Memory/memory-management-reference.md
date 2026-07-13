@@ -2,7 +2,7 @@
 description: 'The following elements are used with memory management:'
 ms.assetid: f86df425-beff-4fea-a437-df9ea07cf415
 title: Memory Management Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 11/06/2018
 ---
 

@@ -2,7 +2,7 @@
 description: ICE79 validates the references to components and features entered in the database fields using the Condition data type.
 ms.assetid: f0a8ceac-084a-4693-b27d-f610eec4702a
 title: ICE79
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

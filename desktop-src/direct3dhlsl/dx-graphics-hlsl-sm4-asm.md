@@ -2,7 +2,7 @@
 title: Shader Model 4 Assembly
 description: Shader Model 4 Assembly
 ms.assetid: 2896e195-b48b-4ce9-9421-f5fa40674b5e
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

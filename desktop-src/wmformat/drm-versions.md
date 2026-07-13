@@ -6,7 +6,7 @@ keywords:
 - Windows Media Format SDK,DRM versions
 - digital rights management (DRM),versions
 - DRM (digital rights management),versions
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

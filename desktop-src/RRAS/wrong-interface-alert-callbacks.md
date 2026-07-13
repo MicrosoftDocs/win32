@@ -2,7 +2,7 @@
 title: Wrong Interface Alert Callbacks
 description: After the kernel forwarder receives multicast data from a specific source on the wrong interface, it notifies the multicast group manager.
 ms.assetid: 7b20625e-286b-4c4f-8452-4d21563fd030
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

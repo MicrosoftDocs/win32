@@ -2,7 +2,7 @@
 title: Module 4. User Input
 description: Previous modules have explored creating a window, handling window messages, and basic drawing with 2D graphics.
 ms.assetid: C35FBC18-201B-4175-8977-9DAF3914E515
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

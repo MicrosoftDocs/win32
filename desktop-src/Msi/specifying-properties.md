@@ -2,7 +2,7 @@
 description: Windows Installer properties are global variables the installer uses during an installation.
 ms.assetid: 1c59939b-de0f-4bf4-ab1f-4f1aa2488bfa
 title: Specifying Properties
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

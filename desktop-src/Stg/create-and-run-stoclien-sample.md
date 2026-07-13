@@ -4,7 +4,7 @@ description: StoClien works in cooperation with a COPaper object in a COM server
 ms.assetid: bf622104-10dd-4649-88f0-e2bfb15289b1
 keywords:
 - Create and Run StoClien Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

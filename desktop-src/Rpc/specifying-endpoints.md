@@ -2,7 +2,7 @@
 title: Specifying Endpoints
 description: Specifying well-known and dynamic endpoints in Remote Procedure Call (RPC).
 ms.assetid: fc39b527-11e6-45a7-b3b5-8bcf469633d8
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

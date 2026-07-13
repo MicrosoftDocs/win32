@@ -2,7 +2,7 @@
 title: Unreachability Reasons
 description: The following table lists constant values that indicate why an interface is unreachable.
 ms.assetid: 55c0519e-02c8-4a04-bed9-9fe94327a4b6
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

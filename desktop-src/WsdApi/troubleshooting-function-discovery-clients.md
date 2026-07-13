@@ -2,7 +2,7 @@
 description: Lists the diagnostic procedures to use when troubleshooting Function Discovery clients.
 ms.assetid: e488882a-fadd-4150-89ef-b958c3df34c6
 title: Troubleshooting Function Discovery Clients
-ms.topic: article
+ms.topic: troubleshooting-general
 ms.date: 05/31/2018
 ---
 

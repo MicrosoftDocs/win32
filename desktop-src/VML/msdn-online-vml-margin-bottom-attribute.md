@@ -2,7 +2,7 @@
 title: VML Margin-Bottom Attribute
 description: VML Margin-Bottom Attribute
 ms.assetid: c1101430-f4fc-4fa5-8e02-7cee126c2c1c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

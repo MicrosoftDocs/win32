@@ -3,7 +3,7 @@ title: Shared Folder Object User Interface Mapping
 description: This topic discusses the Shared Folder object property sheets in the Active Directory Users and Computers snap-in.
 ms.assetid: d1dee2cc-edd2-443a-949d-c12696fcdf41
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

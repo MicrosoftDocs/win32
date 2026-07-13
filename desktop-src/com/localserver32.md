@@ -4,7 +4,7 @@ description: Specifies the full path to a 32-bit local server application.
 ms.assetid: 5d922230-f53d-4bf9-be50-c8c00f45b7a8
 keywords:
 - LocalServer32 registry key COM
-ms.topic: article
+ms.topic: reference
 ms.date: 01/31/2022
 ---
 

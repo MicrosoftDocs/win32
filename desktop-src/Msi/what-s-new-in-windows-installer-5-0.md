@@ -2,18 +2,15 @@
 description: The information in this topic identifies the additions and changes that are available in Windows Installer&\#160;5.0.
 ms.assetid: c088c15b-0eef-4a92-bb65-e7fe871afbfe
 title: What's New in Windows Installer 5.0
-ms.topic: article
-ms.date: 11/08/2019
+ms.topic: whats-new
+ms.date: 07/24/2025
 ---
 
 # What's New in Windows Installer 5.0
 
 The information in this topic identifies the additions and changes that are available in Windows Installer 5.0.
 
-Windows Installer 5.0 is included with the following versions of Windows:
-
-* Client: Windows 7 and all later versions.
-* Server: Windows Server 2008 R2 and all later versions.
+Windows Installer 5.0 is included with all supported versions of Windows.
 
 > [!NOTE]
 > There is no redistributable for Windows Installer 5.0. For a list of redistributables available for previous versions of Windows Installer, see [Windows Installer Redistributables](windows-installer-redistributables.md). For a complete list of Windows Installer versions, see [Released Versions of Windows Installer](released-versions-of-windows-installer.md).

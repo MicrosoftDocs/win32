@@ -12,7 +12,7 @@ keywords:
 - porting from IRIS GL,greset function
 - porting to OpenGL from IRIS GL,greset function
 - OpenGL porting from IRIS GL,greset function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

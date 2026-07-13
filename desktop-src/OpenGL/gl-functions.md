@@ -6,7 +6,7 @@ keywords:
 - OpenGL,GL functions
 - OpenGL reference,GL functions
 - GL functions OpenGL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

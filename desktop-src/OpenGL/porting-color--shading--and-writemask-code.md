@@ -15,7 +15,7 @@ keywords:
 - porting from IRIS GL,writemask
 - porting to OpenGL from IRIS GL,writemask
 - OpenGL porting from IRIS GL,writemask
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

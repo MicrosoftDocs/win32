@@ -5,7 +5,7 @@ ms.assetid: ffb40eff-e137-4d6a-81e7-24d2cbbdbfbf
 ms.tgt_platform: multiple
 keywords:
 - attributes ADSI ,mapping Active Directory syntax to ADSI syntax
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

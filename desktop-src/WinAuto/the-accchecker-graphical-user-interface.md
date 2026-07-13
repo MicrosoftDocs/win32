@@ -2,8 +2,8 @@
 title: The AccChecker Graphical User Interface
 description: This topic describes the elements that make up the AccChecker GUI.
 ms.assetid: C8C156F6-AB29-4011-9DCD-74261AC17404
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # The AccChecker Graphical User Interface
@@ -55,7 +55,7 @@ The **Verifications** tab contains the following components.
     
 
 -   **Show prioritized results** Offers the following options for filtering the verification results by priority.
-    -   **All** Include all all results regardless of priority.
+    -   **All** Include all results regardless of priority.
     -   **P1 only** Include only priority 0 and priority 1 results.
     -   **P1   P2 only** Include priority 0 through priority 2 results.
 -   **Run selected verifications** Provides the **Run Verifications** button for starting the verification process. While verifications are running, the button changes to **Cancel Verifications** and can be used to stop the verifications after the current one completes.
@@ -76,7 +76,7 @@ Right-clicking on a message exposes a context menu with the following items.
 
 ## MSAA and UIA Screen Reader Tabs
 
-The MSAA Screen reader and the UIA Screen reader tabs are similar. Both display a transcript of elements encountered in a simulated traversal of the verification target by a screen reader, except that one shows the MSAA implementation, and the other shows the UIA implemention.
+The MSAA Screen reader and the UIA Screen reader tabs are similar. Both display a transcript of elements encountered in a simulated traversal of the verification target by a screen reader, except that one shows the MSAA implementation, and the other shows the UIA implementation.
 
 Elements are navigated and logged just as a screen reader would read them. The information presented on this tab is essential to confirm that only useful and relevant information is being announced. For example, a normal-sounding control name such as "MenuItem Edit" or "PushButton Close" is acceptable; however, a control name that doesn't make sense, such as "CPNavPanel22" or "DefaultValue1", is not acceptable. The **Visualize** button, causes AccChecker to switch to the **MSAA Tree** or **UIA Tree** tab. If an element is highlighted on the **Screen Reader** tab, the corresponding element is highlighted on the **MSAA Tree** or **UIA Tree** tab.
 

@@ -2,7 +2,7 @@
 description: Learn about the PageSourceColorProfile element. This element defines the characteristics of the source color profile.
 ms.assetid: aa4f5425-6ca1-4820-b15d-bbead1f6d735
 title: PageSourceColorProfile
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -64,7 +64,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the `https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords` namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Feature name="psk:PageSourceColorProfile">

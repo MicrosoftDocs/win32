@@ -6,7 +6,7 @@ keywords:
 - streams,configuring screen capture streams
 - codecs,configuring screen capture streams
 - screen capture streams
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

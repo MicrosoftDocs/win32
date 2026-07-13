@@ -10,7 +10,7 @@ keywords:
 - ASF (Advanced Systems Format),writing files
 - Advanced Systems Format (ASF),creating files
 - ASF (Advanced Systems Format),creating files
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

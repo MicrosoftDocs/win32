@@ -2,7 +2,7 @@
 title: VML HR Attribute
 description: VML HR Attribute
 ms.assetid: acef4867-3fbd-49a5-b5cc-a0eaf737579a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

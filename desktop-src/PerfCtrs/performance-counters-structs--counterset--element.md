@@ -3,7 +3,7 @@ description: A list of structures that contain the values of the counters in the
 ms.assetid: e6fb5cc1-08c9-4f8f-9072-ad21908ab3cb
 title: structs (counterSet) Element
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type: 
 - kbSyntax
 api_name: 

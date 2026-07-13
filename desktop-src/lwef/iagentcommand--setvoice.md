@@ -2,7 +2,7 @@
 title: IAgentCommand SetVoice
 description: IAgentCommand SetVoice
 ms.assetid: bee06616-26bf-4e1e-89da-6765dd77fb02
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

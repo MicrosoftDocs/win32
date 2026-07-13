@@ -2,7 +2,7 @@
 description: Fog effects can give a 3D scene greater realism.
 ms.assetid: 26fe4f7c-7bb3-4a52-b539-5de2b11256e9
 title: Fog State (Direct3D 9)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,8 +2,8 @@
 description: Vectored exception handlers are an extension to structured exception handling.
 ms.assetid: e4cf8a88-1bdf-4666-8653-fe2e86c4d8ef
 title: Vectored Exception Handling
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Vectored Exception Handling

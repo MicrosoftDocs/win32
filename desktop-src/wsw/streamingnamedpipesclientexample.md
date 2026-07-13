@@ -2,7 +2,7 @@
 title: StreamingNamedPipesClientExample
 description: This example shows a named pipes client that sends one-way messages in a steaming fashion.
 ms.assetid: 104816C1-532A-4163-81EE-D9F64F9C40AB
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

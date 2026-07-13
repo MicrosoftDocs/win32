@@ -2,7 +2,7 @@
 title: Consider Gender Effects
 description: Consider Gender Effects
 ms.assetid: 634c4b1a-b5c7-40fa-b607-58b27bb671ea
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

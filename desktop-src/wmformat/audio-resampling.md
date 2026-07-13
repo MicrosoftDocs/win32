@@ -11,7 +11,7 @@ keywords:
 - ASF (Advanced Systems Format),resampling audio
 - audio resampling
 - resampling audio,about
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

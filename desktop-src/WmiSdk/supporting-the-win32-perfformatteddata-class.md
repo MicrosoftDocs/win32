@@ -3,7 +3,7 @@ description: When writing a high-performance provider that derives classes from 
 ms.assetid: 57912f6f-45ca-491c-8a6c-77e2a6937ccc
 ms.tgt_platform: multiple
 title: Supporting the Win32_PerfFormattedData Class
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

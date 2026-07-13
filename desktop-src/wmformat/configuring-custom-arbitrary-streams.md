@@ -5,7 +5,7 @@ ms.assetid: 09b28fd3-a0a3-44d9-b664-7421290abf02
 keywords:
 - streams,configuring custom arbitrary streams
 - codecs,configuring custom arbitrary streams
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

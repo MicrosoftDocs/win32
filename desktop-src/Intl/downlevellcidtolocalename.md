@@ -93,7 +93,7 @@ The function returns 0 if it does not succeed. To get extended error information
 
  
 
-The required header file and DLL are part of the "Microsoft NLS Downlevel Data Mapping APIs" download, available at the [Microsoft Download Center](https://www.microsoft.com/downloads/details.aspx?FamilyID=eb72cda0-834e-4c35-9419-ff14bc349c9d&DisplayLang=en).
+The required header file and DLL are part of the "Microsoft NLS Downlevel Data Mapping APIs" download, which is no longer available from the [Microsoft Download Center](https://www.microsoft.com/downloads). Use [ICU globalization APIs](/dotnet/core/compatibility/globalization/5.0/icu-globalization-api) on Windows 10 May 2019 Update and later versions.
 
 ## Requirements
 

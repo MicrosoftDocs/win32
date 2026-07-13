@@ -3,7 +3,7 @@ title: How to Trap ADSI Errors
 description: VBScript only offers one way to trap errors inline error handling.
 ms.assetid: 65379edf-54b0-475b-89ee-97d544d0d809
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -7,7 +7,7 @@ keywords:
 - Account Disabled (WinNT Provider)
 - Account Disabled ADSI , WinNT provider
 - WinNT provider ADSI , user management examples, Account Disabled
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

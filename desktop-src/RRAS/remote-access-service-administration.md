@@ -2,7 +2,7 @@
 title: Remote Access Service Administration
 description: Remote Access Service Administration
 ms.assetid: '6ef82175-0d26-47c2-8669-ce19b2fa6684'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

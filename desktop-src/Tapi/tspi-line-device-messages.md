@@ -2,7 +2,7 @@
 description: This section contains the reference for the TSPI line device messages.
 ms.assetid: 21957d84-f6ca-4f45-9e1b-24dfd21d9616
 title: TSPI Line Device Messages
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Business address city of the contact.
 ms.assetid: 13e95222-e94f-44d1-939d-26646d932a32
 title: System.Contact.BusinessAddressCity
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

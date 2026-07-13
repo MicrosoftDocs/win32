@@ -2,7 +2,7 @@
 description: These examples for the HWREQCHK API demonstrates how it can be leveraged to determine Windows upgrade eligibility.
 ms.assetid: c869d763-3771-4cbd-911c-f670a0bee4ab
 title: HWREQCHK API examples
-ms.topic: article
+ms.topic: reference
 ms.date: 01/04/2023
 ---
 

@@ -2,7 +2,7 @@
 description: If the generic host and client can see each other on the network but the actual host and client cannot, it is likely that the problem is in the messages sent between the endpoints over the network.
 ms.assetid: 1b0943fb-076e-4feb-9a4f-36a06bdd19ae
 title: Using WSD Debug Client to Verify Multicast Traffic
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -1,12 +1,12 @@
 ---
 description: The CONTAINS predicate is part of the WHERE clause and supports searching for words and phrases in text columns.
 ms.assetid: 53083966-54cc-4a16-a161-caa663bea7ea
-title: CONTAINS Predicate
-ms.topic: article
+title: CONTAINS predicate
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# CONTAINS Predicate
+# CONTAINS predicate
 
 The CONTAINS predicate is part of the WHERE clause and supports searching for words and phrases in text columns. The CONTAINS predicate has features for matching words, matching inflectional forms of words, searching using wildcard characters, and searching using proximity. You can also apply weights in a CONTAINS predicate to set the importance of the columns where the search term is found. The CONTAINS predicate is better suited for exact matches, in contrast to the [FREETEXT](-search-sql-freetext.md) predicate, which is better suited to finding documents containing combinations of the search words spread throughout the column. Searches are not case-sensitive.
 

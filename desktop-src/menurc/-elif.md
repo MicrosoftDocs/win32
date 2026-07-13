@@ -2,7 +2,7 @@
 title: ' elif'
 description: The \ elif directive marks an optional clause of a conditional-compilation block defined by a \ ifdef, \ ifndef, or \ if directive.
 ms.assetid: 432b8543-7e1a-411a-8191-cc0f0e4a2e86
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

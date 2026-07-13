@@ -2,7 +2,7 @@
 description: The following is a step-by-step guide to getting started programming using the IP Helper application programming interface (API). It is designed to provide an understanding of basic IP Helper functions and data structures, and how they work together.
 ms.assetid: 3280d6cf-2741-40fe-8aa5-9f5be96d9fb8
 title: Getting Started with IP Helper
-ms.topic: article
+ms.topic: get-started
 ms.date: 05/31/2018
 ---
 

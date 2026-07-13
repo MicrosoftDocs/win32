@@ -8,7 +8,7 @@ keywords:
 - Binary Data ADSI
 - Binary Data ADSI , Searching Binary Data
 - ADSI ADSI , Example Code C/C++ , Searching for Binary Data
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

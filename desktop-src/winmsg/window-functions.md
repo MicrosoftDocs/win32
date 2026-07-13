@@ -2,8 +2,8 @@
 title: Window functions
 description: Window functions
 ms.assetid: 6303b0c8-5172-41d7-bd0e-40d3a7d024ba
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Window functions

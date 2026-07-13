@@ -15,7 +15,7 @@ keywords:
 - DirectShow,DRM support
 - digital rights management (DRM),DirectShow
 - DRM (digital rights management),DirectShow
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

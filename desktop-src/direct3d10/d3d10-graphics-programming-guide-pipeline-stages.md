@@ -2,7 +2,7 @@
 description: The Direct3D 10 programmable pipeline is designed for generating graphics for realtime gaming applications. The following diagram shows the data flow from input to output through each of the programmable stages.
 ms.assetid: 3ead6c7c-c7cc-48f1-81d5-b4b67326d610
 title: Pipeline Stages (Direct3D 10)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: e09dbeaa-c167-41e5-bc23-dcabb1bb0e4d
 keywords:
 - Video for Windows (VFW),about
 - VFW (Video for Windows),about
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

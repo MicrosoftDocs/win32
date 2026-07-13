@@ -3,7 +3,7 @@ description: Sent when the window background must be erased (for example, when a
 ms.assetid: 3bdc37da-227c-4be1-bf0b-99704b8acbe1
 title: WM_ERASEBKGND message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_ERASEBKGND message

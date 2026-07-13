@@ -10,7 +10,7 @@ keywords:
 - reference for MIDI,functions
 - MIDI reference,functions
 - MIDI functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

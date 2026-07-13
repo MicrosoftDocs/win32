@@ -2,7 +2,7 @@
 description: The simplest form of I/O in Windows Sockets 2 is blocking I/O.
 ms.assetid: 8ed7e5a8-c577-4b61-9c49-8fd065d84af4
 title: Blocking Input/Output
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

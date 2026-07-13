@@ -403,10 +403,6 @@ DHCP not enabled on adapter.
 
 The initial retransmission timeout is three seconds, and doubles for each successive attempt.
 
-## Examples
-
-The [Modify the Maximum Allowed TCP Connection Retransmissions](https://Gallery.TechNet.Microsoft.Com/e599c6bc-fa37-457d-b7e3-3c003517ed46) VBScript sample configures the number of times TCP will retransmit a connection attempt before abandoning the effort.
-
 ## Requirements
 
 

@@ -3,7 +3,7 @@ description: A join view class contains properties from source class instances t
 ms.assetid: 4d35474d-0b80-4b00-9724-47a193bfd0fc
 ms.tgt_platform: multiple
 title: Creating a New Instance from Old Properties
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

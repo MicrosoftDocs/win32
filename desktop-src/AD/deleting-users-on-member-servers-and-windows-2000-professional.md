@@ -9,7 +9,7 @@ keywords:
 - deleting a user
 - server, deleting a user
 - deleting users on member servers and windows 2000 professional AD
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,8 +2,8 @@
 description: The Device Power API makes it easy to determine which devices are able to wake the system from a sleep state, and which sleep states those devices support waking from. For more information about sleep states, see System Power States.
 ms.assetid: aaa776e5-3fc2-41bd-a805-6c09ef73807b
 title: Device Power Management
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Device Power Management

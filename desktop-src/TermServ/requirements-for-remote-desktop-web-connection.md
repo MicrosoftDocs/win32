@@ -3,7 +3,7 @@ title: Requirements for Remote Desktop Web Connection
 description: Lists the requirements for a Remote Desktop Web Connection.
 ms.assetid: 12da0a4c-f6c2-4af1-b516-a448314ba7ea
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

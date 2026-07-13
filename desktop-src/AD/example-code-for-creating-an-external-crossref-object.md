@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , creating an external crossRef object
 - Active Directory examples Active Directory creating an external referral AD , example code
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

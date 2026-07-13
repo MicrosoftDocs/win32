@@ -2,7 +2,7 @@
 title: IAgentPropertySheet SetVisible
 description: IAgentPropertySheet SetVisible
 ms.assetid: 53520a64-e99f-4d03-aa36-bcbb4547990c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

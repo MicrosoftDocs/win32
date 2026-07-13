@@ -5,7 +5,7 @@ ms.assetid: 944e8ecd-f8ea-4506-992c-bbbfc82d11f3
 ms.tgt_platform: multiple
 keywords:
 - Service Connection Points for Replicated, Host-based, and Database Services AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

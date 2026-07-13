@@ -2,7 +2,7 @@
 description: A socket handle can optionally be a file handle in Windows Sockets 2. A socket handle from a Winsock provider can be used with other non-Winsock functions such as ReadFile, WriteFile, ReadFileEx, and WriteFileEx.
 ms.assetid: 986dd9d8-52be-47aa-92b2-6cd40b83f5de
 title: Socket Handles
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

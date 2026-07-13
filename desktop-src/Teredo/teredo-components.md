@@ -2,7 +2,7 @@
 title: Teredo Components
 ms.assetid: 95d83030-b1de-4f09-b9d0-f443d9672ca1
 description: "Learn more about: Teredo Components"
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

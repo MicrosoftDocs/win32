@@ -3,7 +3,7 @@ description: The COOKER\_MIN counter type formula identifies the smallest value 
 ms.assetid: e02a4152-105c-44a1-857d-08a8aea767de
 ms.tgt_platform: multiple
 title: COOKER_MIN
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

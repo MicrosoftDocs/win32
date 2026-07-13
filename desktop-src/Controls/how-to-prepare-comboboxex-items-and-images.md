@@ -2,7 +2,7 @@
 title: How to Prepare ComboBoxEx Items and Images
 description: This topic demonstrates how to add items to a ComboBoxEx control.
 ms.assetid: 2603DFBE-9E7A-4B2F-BE33-418997D323B2
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

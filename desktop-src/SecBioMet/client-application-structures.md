@@ -4,7 +4,7 @@ description: Structures supported for client application development by the Wind
 ms.assetid: ac13910c-0c33-4fb8-a9c6-a2d5b1b28c73
 keywords:
 - Windows Biometric Framework API Windows Biometric Framework API , client application structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

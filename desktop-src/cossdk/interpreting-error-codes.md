@@ -2,7 +2,7 @@
 description: Interpreting Error Codes
 ms.assetid: df2fe03b-2f5f-4958-926f-17e3a025a9b5
 title: Interpreting Error Codes
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 

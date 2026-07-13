@@ -5,7 +5,7 @@ MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
 title: About VHD
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

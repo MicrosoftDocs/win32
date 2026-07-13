@@ -40,7 +40,7 @@ In order to use the **ncadg\_mq** transport protocol, the MSMQ components must b
 The **ncadg\_mq** protocol does not support dynamic endpoints or [**broadcast**](broadcast.md) calls. As with other datagram protocols, **ncadg\_mq** does not support callbacks; any functions using the [**callback**](callback.md) attribute will fail.
 
 > [!Note]  
-> This protocol family is not supported in WindowsÂ XP.
+> This protocol family is not supported in Windows XP.
 
  
 

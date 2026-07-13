@@ -2,7 +2,7 @@
 description: This section describes how to set up your environment to use the Tablet PC platform COM libraries in C++.
 ms.assetid: c0d7f703-d4aa-4c26-ae81-a4c888383c1e
 title: COM Library and ActiveX Controls
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

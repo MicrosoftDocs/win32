@@ -2,7 +2,7 @@
 description: ICE36 validates that every icon in the Icon table is listed at least once in the ARPPRODUCTICON property or the Class, ProgId, or Shortcut tables.
 ms.assetid: d502c0a9-17e5-467a-8b02-8b254e77b96b
 title: ICE36
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -16,7 +16,7 @@ If an icon is not referenced in the property or table and there is no UI provide
 
 ## Result
 
-ICE36 posts a message if there is a icon in the Icon table that is not referenced in the [Class](class-table.md), [ProgId](progid-table.md), or [Shortcut](shortcut-table.md) tables and if there is no UI provided to create such a reference at run time.
+ICE36 posts a message if there is an icon in the Icon table that is not referenced in the [Class](class-table.md), [ProgId](progid-table.md), or [Shortcut](shortcut-table.md) tables and if there is no UI provided to create such a reference at run time.
 
 ## Example
 

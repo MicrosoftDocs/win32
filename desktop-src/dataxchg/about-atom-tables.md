@@ -12,7 +12,7 @@ keywords:
 - local atom tables
 - integer atoms
 - string atoms
-ms.topic: article
+ms.topic: concept-article
 ms.date: 08/25/2020
 ---
 

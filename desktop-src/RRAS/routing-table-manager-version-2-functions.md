@@ -5,7 +5,7 @@ ms.assetid: ac5c6ada-c38e-476a-9896-cdd8c51cc0be
 keywords:
 - Routing and Remote Access Service RRAS ,Routing Table Manager Version 2, functions
 - Routing Table Manager Version 2 RRAS ,functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

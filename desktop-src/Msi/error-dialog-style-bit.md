@@ -2,7 +2,7 @@
 description: If this bit is set, the dialog box is an error dialog.
 ms.assetid: a8a95f6a-6465-433b-98a4-95281cddedd3
 title: Error Dialog Style Bit
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: IAgentCharacter GetDescription
 description: IAgentCharacter GetDescription
 ms.assetid: 729f54ac-1c60-4a7b-b993-5682a6ea2b3c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

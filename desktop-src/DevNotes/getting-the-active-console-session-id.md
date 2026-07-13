@@ -2,7 +2,7 @@
 description: The following Winternl.h definition is the static memory address of the active Terminal Services console session ID. This active console session ID is not defined in versions of the Microsoft Windows operating system earlier than Windows XP.
 ms.assetid: f3022ab8-60ea-490b-a87d-cc1afc99d26f
 title: Getting the Active Console Session ID
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

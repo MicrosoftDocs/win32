@@ -49,7 +49,7 @@ A COM string containing the name of the histogram data file associated with the 
 The address of an object that provides the IPixEngine5 callbacks interface.
 
 *requestCookie*   
-A cookie that uniquely idenfies the request, and can be used to signal for it to be canceled.
+A cookie that uniquely identifies the request, and can be used to signal for it to be canceled.
 
 *progressIntervalMsecs*   
 Not used.

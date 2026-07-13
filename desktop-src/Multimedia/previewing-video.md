@@ -5,7 +5,7 @@ ms.assetid: 33ae7d07-5fea-47d7-b60d-4ee412e91dec
 keywords:
 - capPreview macro
 - capPreviewRate macro
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

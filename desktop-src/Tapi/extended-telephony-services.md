@@ -2,7 +2,7 @@
 description: The API contains a mechanism that allows service-provider vendors to extend the Telephony API using device-specific extensions.
 ms.assetid: 02749ce5-40db-487e-b51e-e3692266342c
 title: Extended Telephony Services
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

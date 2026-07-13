@@ -2,7 +2,7 @@
 description: Enabling Authentication for a Library Application
 ms.assetid: 80c80c14-ceef-4a74-810d-6aa3cc320cef
 title: Enabling Authentication for a Library Application
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

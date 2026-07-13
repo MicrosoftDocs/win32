@@ -2,7 +2,7 @@
 description: The ALL BITWISE and SOME BITWISE keywords are used for testing the bits in an integral type.
 ms.assetid: 649f763f-45aa-4086-9e7f-b8934b5bd22c
 title: ALL BITWISE and SOME BITWISE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -21,7 +21,7 @@ ALL array SOME BITWISE [values?]
 
 
 
-## Comparison Operators
+## Comparison operators
 
 The supported comparison operators for BITWISE tests are listed in the following table.
 
@@ -51,7 +51,7 @@ The logic of BITWISE tests is listed in the following table.
 
  
 
-The following truth table uses example binary and hex values to demonstate the logic of BITWISE tests.
+The following truth table uses example binary and hex values to demonstrate the logic of BITWISE tests.
 
 
 

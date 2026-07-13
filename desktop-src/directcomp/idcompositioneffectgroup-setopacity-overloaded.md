@@ -35,8 +35,8 @@ Animates or changes the value of the Opacity property.
 
 | Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows�8 \[desktop apps only\]<br/>                                           |
-| Minimum supported server<br/> | Windows Server�2012 \[desktop apps only\]<br/>                                 |
+| Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
+| Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                 |
 | Header<br/>                   | <dl> <dt>Dcomp.h</dt> </dl>   |
 | Library<br/>                  | <dl> <dt>Dcomp.lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Dcomp.dll</dt> </dl> |
@@ -50,6 +50,3 @@ Animates or changes the value of the Opacity property.
 [**IDCompositionEffectGroup**](/windows/win32/api/dcomp/nn-dcomp-idcompositioneffectgroup)
 </dt> </dl>
 
-�
-
-�

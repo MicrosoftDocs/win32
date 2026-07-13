@@ -2,7 +2,7 @@
 description: Default Ducking Experience
 ms.assetid: 2ad9482f-1888-4f19-bc41-9d47a8e0ed15
 title: Default Ducking Experience
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

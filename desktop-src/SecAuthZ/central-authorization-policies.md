@@ -2,7 +2,7 @@
 description: A Central Authorization Policy (CAP) collects the specific authorization rules (CAPRs) into a single policy.
 ms.assetid: E3E43D9F-6826-468A-86E9-AC8F9A381FD4
 title: Central Authorization Policies
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

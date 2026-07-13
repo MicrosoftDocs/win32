@@ -4,7 +4,7 @@ description: This section contains messages for multitouch input.
 ms.assetid: 'ba52b5de-3123-4094-9a3c-42765fccb85a'
 keywords:
 - Windows Touch,messages
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: Deleting an instance is the most common delete command you are like
 ms.assetid: 95ba3e9c-1397-41fe-a080-c03a98aafd42
 ms.tgt_platform: multiple
 title: Deleting an Instance
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

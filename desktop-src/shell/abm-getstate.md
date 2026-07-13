@@ -47,7 +47,7 @@ Returns zero if the taskbar is neither in the autohide nor always-on-top state. 
 
 | Return code | Description | 
 |-------------|-------------|
-| <dl><dt><strong>ABS_ALWAYSONTOP</strong></dt></dl> | The taskbar is in the always-on-top state. <br /><blockquote>[!Note]<br />As of Windows 7, ABS_ALWAYSONTOP is no longer returned because the taskbar is always in that state. Older code should be updated to ignore the absence of this value in not assume that return value to mean that the taskbar is not in the always-on-top state.</blockquote><br /> | 
+| **ABS_ALWAYSONTOP**<br> | The taskbar is in the always-on-top state. <br> **Note:** As of Windows 7, ABS_ALWAYSONTOP is no longer returned because the taskbar is always in that state. Older code should be updated to ignore the absence of this value in not assume that return value to mean that the taskbar is not in the always-on-top state.<br> | 
 | <dl><dt><strong>ABS_AUTOHIDE</strong></dt></dl> | The taskbar is in the autohide state.<br /> | 
 
 

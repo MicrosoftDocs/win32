@@ -2,7 +2,7 @@
 description: Read about the System.PropGroup.Media property. Do not use this property for getting or setting values. It is intended only as a marker.
 ms.assetid: ac3a5951-d3eb-4862-be1b-de9f12bc887b
 title: System.PropGroup.Media
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

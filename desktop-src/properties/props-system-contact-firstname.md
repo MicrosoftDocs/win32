@@ -2,7 +2,7 @@
 description: Indicates the first name of the contact.
 ms.assetid: f8bb0667-5f42-47ef-bd8a-90974f388225
 title: System.Contact.FirstName
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

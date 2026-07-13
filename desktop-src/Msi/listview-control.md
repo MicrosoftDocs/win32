@@ -2,7 +2,7 @@
 description: The ListView control that displays a single column of values with an icon next to each item.
 ms.assetid: 9bad389a-3f97-454b-afdb-c1653cc79d8f
 title: ListView Control
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

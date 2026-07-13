@@ -2,7 +2,7 @@
 description: Before working with a database you must first obtain a handle to it.
 ms.assetid: 53cf73bc-4d52-471c-8384-46d106a36e38
 title: Obtaining a Database Handle
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

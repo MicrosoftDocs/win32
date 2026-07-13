@@ -2,7 +2,7 @@
 title: VML Shininess Attribute
 description: VML Shininess Attribute
 ms.assetid: 99c301ff-ed61-48ef-95bb-ceaed1a2553c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -4,7 +4,7 @@ description: MCI Functions
 ms.assetid: cb320d90-e25c-4ac2-bc07-feff3691cdd6
 keywords:
 - MCI reference,functions
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

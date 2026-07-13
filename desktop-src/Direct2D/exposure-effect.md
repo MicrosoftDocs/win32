@@ -2,7 +2,7 @@
 title: Exposure effect
 description: Increase or decreases the exposure of the image.
 ms.assetid: d384f539-5c19-53c7-e52b-bf833e221449
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

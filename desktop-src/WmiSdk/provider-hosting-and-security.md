@@ -3,7 +3,7 @@ description: Specifies the provider hosting model. Setting this property causes 
 ms.assetid: 1e5c778d-cd29-449b-88e2-fe0c90d0edcd
 ms.tgt_platform: multiple
 title: Provider Hosting and Security
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

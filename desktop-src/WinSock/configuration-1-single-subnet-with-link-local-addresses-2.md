@@ -2,7 +2,7 @@
 description: The first configuration requires no additional configuration beyond installing the Microsoft IPv6 Technology Preview protocol.
 ms.assetid: ceed4983-e088-44e8-9cfc-26afb3c35ba0
 title: 'Configuration 1: Single Subnet with Link-local Addresses'
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

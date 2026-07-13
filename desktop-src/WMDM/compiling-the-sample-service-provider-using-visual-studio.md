@@ -10,7 +10,7 @@ keywords:
 - service providers,samples
 - samples,service providers
 - samples,compiling using Visual Studio
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

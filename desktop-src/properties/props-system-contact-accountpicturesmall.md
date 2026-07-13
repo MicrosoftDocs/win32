@@ -2,7 +2,7 @@
 description: This is a stream containing the data necessary to render a contact's small account picture.
 ms.assetid: f1e2a362-8626-4cfa-9649-fcb2d42a77d6
 title: System.Contact.AccountPictureSmall
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

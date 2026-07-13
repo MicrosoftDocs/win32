@@ -2,7 +2,7 @@
 description: The Divider object provides access to the Tablet PC layout analysis features.
 ms.assetid: 9fa299fe-3713-4fa8-95c6-be15f144103a
 title: Working with the Divider Object
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

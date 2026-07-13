@@ -3,7 +3,7 @@ description: The CIM schema localization model provides a mechanism for localizi
 ms.assetid: a88bd873-7132-45b6-831e-64f9bb254c6e
 ms.tgt_platform: multiple
 title: Localizing Property Values
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

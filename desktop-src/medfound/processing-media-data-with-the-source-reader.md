@@ -2,7 +2,7 @@
 description: This topic describes how to use the Source Reader to process media data.
 ms.assetid: 583f5736-f767-47c5-8fdc-b3645aed59f6
 title: Using the Source Reader to Process Media Data
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

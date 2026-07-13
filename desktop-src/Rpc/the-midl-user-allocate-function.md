@@ -2,7 +2,7 @@
 title: The midl_user_allocate Function
 description: The midl\_user\_allocate function is a procedure that must be supplied by developers of RPC applications.
 ms.assetid: 3def405c-da05-4cce-9dc4-499864a0de6e
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

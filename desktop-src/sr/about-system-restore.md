@@ -4,7 +4,7 @@ description: System Restore monitors system changes and saves the system state a
 ms.assetid: 84fea0f8-22aa-41a9-bb07-e98e9d9b0eee
 keywords:
 - System Restore, described
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

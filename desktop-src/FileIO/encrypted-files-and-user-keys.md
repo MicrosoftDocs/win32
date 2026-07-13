@@ -2,7 +2,7 @@
 description: Lists the functions to use to create a new key, add a key to an encrypted file, query the keys for an encrypted file, and remove keys from an encrypted file.
 ms.assetid: 370b0118-b893-45c2-b9df-333afb12ee81
 title: Encrypted Files and User Keys
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

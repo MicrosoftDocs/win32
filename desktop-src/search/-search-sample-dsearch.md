@@ -2,7 +2,7 @@
 description: The DSearch code sample demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for ISearchQueryHelper.
 ms.assetid: 9c09b1fe-c63e-4c6e-9c8b-f5e29cf0fe9e
 title: DSearch
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 
@@ -25,7 +25,7 @@ This topic contains the following sections.
 | Windows     | Windows 7, 8.1, or 10    |
 | Windows SDK | 7.0 or greater           |
 
-## Downloading the Sample
+## Downloading the sample
 
 This sample is available in the following location.
 
@@ -36,7 +36,7 @@ This sample is available in the following location.
 > [!NOTE]  
 > For all versions of Windows, including Windows 7, it is recommended to download the samples directly from GitHub for the most up to date version.
 
-## Building the Sample
+## Building the sample
 
 1. Open Windows Explorer and navigate to the **DSearch** project directory.
 2. Double-click the icon for the DSearch.sln file to open the project in Visual Studio.
@@ -46,7 +46,7 @@ This sample is available in the following location.
 
 3. From the **Build** menu, select **Build Solution**.
 
-## Running the Sample
+## Running the sample
 
 1. Navigate to the directory that contains the new executable, using the Command Prompt window or Windows Explorer.
 2. At the command prompt, enter `DSearch.exe`, or from Windows Explorer, double-click the icon for DSearch.exe.
@@ -61,6 +61,6 @@ This sample is available in the following location.
 
 [**ISearchCatalogManager2**](/windows/desktop/api/Searchapi/nn-searchapi-isearchcatalogmanager2)
 
-### Other Samples
+### Other samples
 
 [Search Code Samples](-search-samples-ovw.md)

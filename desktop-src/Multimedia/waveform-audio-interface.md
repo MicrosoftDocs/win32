@@ -7,7 +7,7 @@ keywords:
 - audio,waveform-audio interface
 - waveform audio,waveform-audio interface
 - waveform-audio interface,about
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

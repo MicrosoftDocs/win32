@@ -2,7 +2,7 @@
 description: System.Image.ImageID
 ms.assetid: d664906d-534c-4fbe-9c73-f9153fd60efd
 title: System.Image.ImageID
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

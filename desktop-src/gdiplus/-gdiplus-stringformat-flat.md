@@ -2,7 +2,7 @@
 description: Windows GDI+ exposes a flat API that consists of about 600 functions. These flat API functions are wrapped by the StringFormat C++ class.
 ms.assetid: 8e24efb1-8f7d-498a-bd21-79e182b86846
 title: String Format Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: You can rotate TrueType fonts at any angle.
 ms.assetid: 371ddb04-410a-425b-857f-ed3d4749b0f9
 title: Rotating Lines of Text
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

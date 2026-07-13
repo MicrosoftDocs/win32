@@ -2,7 +2,7 @@
 description: ICEM13 verifies that the merge module does not contain publisher policy and configuration assemblies.
 ms.assetid: 1281ee21-a154-4275-a9e6-6e92fff548ed
 title: ICEM13
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The data structures TSPI uses are identical to those defined in TAPI Structures, with the exception of TUISPICREATEDIALOGINSTANCEPARAMS.
 ms.assetid: 99d966ea-49b5-4a84-83a1-99dc8465c751
 title: TSPI Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

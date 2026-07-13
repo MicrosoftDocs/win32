@@ -2,7 +2,7 @@
 description: Learn about the DocumentPageRanges element, which describes the output range of the document in pages.
 ms.assetid: 4cd1b0f8-7f7e-40cc-8d19-d44187822cd1
 title: DocumentPageRanges
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -53,7 +53,7 @@ keywords:
 - two-pass encoding,about
 - 2-pass encoding,about
 - WMStub.lib
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

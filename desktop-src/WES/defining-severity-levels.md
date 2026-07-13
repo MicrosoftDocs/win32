@@ -2,7 +2,7 @@
 title: Defining Severity Levels
 description: Levels are used to group events and typically indicate the severity or verbosity of an event.
 ms.assetid: dfa4e0a9-4d89-4f50-aef9-1dae0dc11726
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

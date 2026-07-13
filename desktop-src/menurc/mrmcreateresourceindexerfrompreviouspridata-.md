@@ -1,6 +1,6 @@
 ---
 title: MrmCreateResourceIndexerFromPreviousPriData function (MrmResourceIndexer.h)
-description: Creates a resource indexer from PRI data created by a previous call to MrmCreateResourceFileInMemory. For more info, and scenario-based walkthroughs of how to use these APIs, see Package resource indexing (PRI) APIs and custom build systems.
+description: Creates a resource indexer used to create PRI files for use in resource packages.
 ms.assetid: 945ED98C-8D73-404F-ACE3-7DD314FB405A
 keywords:
 - MrmCreateResourceIndexerFromPreviousPriData function Menus and Other Resources
@@ -18,12 +18,15 @@ ms.date: 05/31/2018
 
 # MrmCreateResourceIndexerFromPreviousPriData function
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+Creates a resource indexer used to create PRI files for use in resource packages. 
 
-Creates a resource indexer from PRI data created by a previous call to [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md). For more info, and scenario-based walkthroughs of how to use these APIs, see [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems).
+This function is not needed if you created the original PRI file(s) with the **MrmPackagingModeStandaloneFile** or 
+**MrmPackagingModeAutoSplit** packaging mode. If you are building resources for an unpackaged desktop app, you *cannot*
+use this function since only stand-alone PRI files are supported for unpackaged apps.
+
+COM must be initialized (e.g. by calling **[CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex)**) before using this function.
 
 ## Syntax
-
 
 ```C++
 HRESULT HRESULT MrmCreateResourceIndexerFromPreviousPriData (
@@ -37,7 +40,6 @@ HRESULT HRESULT MrmCreateResourceIndexerFromPreviousPriData (
 ```
 
 
-
 ## Parameters
 
 <dl> <dt>
@@ -47,7 +49,8 @@ HRESULT HRESULT MrmCreateResourceIndexerFromPreviousPriData (
 
 Type: **PCWSTR**
 
-The project root of the UWP app for which you will be generating PRI files. In other words, the path to that app's resource files. You specify this so that you can then specify paths relative to that root in subsequent API calls to the same resource indexer.
+The root directory from which some file paths will be computed. Typically this will be the root directory of your
+source project, but may differ. See [File resources in MRM](mrmfiles.md) for more information.
 
 </dd> <dt>
 
@@ -56,7 +59,7 @@ The project root of the UWP app for which you will be generating PRI files. In o
 
 Type: **[**MrmPlatformVersion**](mrmplatformversion.md)**
 
-The target platform version for the resource indexer.
+The platform version (*targetOsVersion*) to use for the generated configuration file. Most callers should just use **MrmPlatformVersion_Windows10_0_0_5**
 
 </dd> <dt>
 
@@ -65,7 +68,7 @@ The target platform version for the resource indexer.
 
 Type: **PCWSTR**
 
-A list of default resource qualifiers. For example, L"language-en-US\_scale-100\_contrast-standard"
+A list of default resource qualifiers. For example, "language-en-US_scale-100". For more information about qualifiers, see [Qualifiers in MRM](mrmqualifiers.md).
 
 </dd> <dt>
 
@@ -74,7 +77,8 @@ A list of default resource qualifiers. For example, L"language-en-US\_scale-100\
 
 Type: **BYTE\***
 
-A pointer to PRI data created by a previous call to [**MrmCreateResourceFileInMemory**](mrmcreateresourcefileinmemory.md). Don't free *priData* until after you've finished using the resource indexer created by this function.
+A pointer to an in-memory PRI file. You can obtain an in-memory PRI file either by manually loading an existing PRI
+file from disk, or by creating it in-memory with [**MrmCreateResourceFileInMemory**](mrmcreateconfig.md).
 
 </dd> <dt>
 
@@ -92,7 +96,8 @@ The size of the data pointed to by *priData*.
 
 Type: **[**MrmResourceIndexerHandle**](mrmresourceindexerhandle.md)\***
 
-A pointer to a resource indexer handle.
+A pointer to a resource indexer handle. On successful return, this will contain a handle to a resource indexer.
+You must free the indexer via [**MrmDestroyIndexerAndMessages**](mrmdestroyindexerandmessages.md) after using it.
 
 </dd> </dl>
 
@@ -100,11 +105,13 @@ A pointer to a resource indexer handle.
 
 Type: **HRESULT**
 
-S\_OK if the function succeeded, otherwise some other value. Use the SUCCEEDED() or FAILED() macros (defined in winerror.h) to determine success or failure.
+S\_OK if the function succeeded, otherwise some other value. Use the **SUCCEEDED** or **FAILED** macros (defined in winerror.h) to determine success or failure.
 
 ## Remarks
 
-Don't free *priData* until after you've finished using the resource indexer created by this function.
+See the **Remarks** section
+of [**MrmCreateResourceIndexerFromPreviousPriFile**](mrmcreateresourceindexerfrompreviousprifile.md) for more info,
+as this function is essentially the same (except it uses in-memory PRI rather than an on-disk file).
 
 ## Requirements
 
@@ -124,8 +131,25 @@ Don't free *priData* until after you've finished using the resource indexer crea
 
 <dl> <dt>
 
+[**MrmCreateResourceIndexer**](mrmcreateresourceindexer.md)
+</dt></dl>
+
+<dl> <dt>
+
+[**MrmCreateResourceIndexerFromPreviousPriFile**](mrmcreateresourceindexerfrompreviousprifile.md)
+</dt></dl>
+
+<dl> <dt>
+
+[**MrmCreateResourceIndexerFromPreviousSchemaData**](mrmcreateresourceindexerfrompreviousschemadata.md)
+</dt></dl>
+
+<dl> <dt>
+
+[**MrmCreateResourceIndexerFromPreviousSchemaFile**](mrmcreateresourceindexerfrompreviousschemafile.md)
+</dt></dl>
+
+<dl> <dt>
+
 [Package resource indexing (PRI) APIs and custom build systems](/windows/uwp/app-resources/pri-apis-custom-build-systems)
-</dt> </dl>
-
- 
-
+</dt></dl>

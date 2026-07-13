@@ -2,7 +2,7 @@
 description: This topic describes how to initialize the signature manager for use with an XPS document.
 ms.assetid: 4c4c6e8f-4ee0-4089-a283-1082baee5054
 title: Initialize the Signature Manager
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -92,7 +92,7 @@ After the [**IXpsSignatureManager**](/windows/desktop/api/xpsdigitalsignature/nn
 [XPS Document Errors](xps-document-errors.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
+[XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 </dt> </dl>
 
  

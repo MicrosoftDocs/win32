@@ -5,7 +5,7 @@ ms.assetid: ad8bc74d-45a8-4df3-bfb8-35dd376b9c0b
 ms.tgt_platform: multiple
 keywords:
 - object names and identities Active Directory
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

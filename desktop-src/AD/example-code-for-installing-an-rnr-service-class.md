@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Windows Sockets Registration and Resolution AD ,Example Code,Installing an RnR Service Class
 - Installing an RnR Service Class AD ,Example code
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

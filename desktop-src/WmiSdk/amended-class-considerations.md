@@ -3,7 +3,7 @@ description: You cannot create instances of the amended classes in the localized
 ms.assetid: a0583153-f5d2-4f4c-ab2e-6ec468e665c7
 ms.tgt_platform: multiple
 title: Amended Class Considerations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

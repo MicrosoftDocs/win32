@@ -6,7 +6,7 @@ keywords:
 - Why use DirectComposition
 - reasons to use DirectComposition
 - DirectComposition capabilities and benefits
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

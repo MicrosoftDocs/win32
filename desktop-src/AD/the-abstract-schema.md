@@ -5,7 +5,7 @@ ms.assetid: 688fccf7-37ce-4eea-b4ff-b0b3223a964e
 ms.tgt_platform: multiple
 keywords:
 - The Abstract Schema AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

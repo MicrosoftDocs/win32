@@ -6,7 +6,7 @@ keywords:
 - MCI devices,command sets
 - MCI commands,device-specific command sets
 - MCI command sets,about
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

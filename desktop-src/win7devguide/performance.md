@@ -2,7 +2,7 @@
 title: Performance (Windows 7 Developer Guide)
 description: Windows 7 maximizes hardware energy efficiency and scalability while maintaining high performance.
 ms.assetid: db48aa8f-749e-4a56-8a91-ac9b81d6e8c9
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

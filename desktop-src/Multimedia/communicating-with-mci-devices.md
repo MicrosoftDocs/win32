@@ -5,7 +5,7 @@ ms.assetid: 2408f8e4-d040-40f5-a880-1ecb8025656c
 keywords:
 - MCIWndSendString macro
 - mciSendString function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

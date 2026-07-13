@@ -5,7 +5,7 @@ ms.assetid: f2563226-7af1-4cb3-b468-c59738feeda2
 keywords:
 - MCIWndPlayFrom macro
 - MCIWndPlayTo macro
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

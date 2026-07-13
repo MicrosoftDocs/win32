@@ -4,7 +4,7 @@ description: The Task Scheduler schema defines valid XML used to register tasks 
 ms.assetid: 9b1b8e34-c635-413a-a230-79a58017cf21
 keywords:
 - Task Scheduler Task Scheduler , reference, XML schema
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle
@@ -31,7 +31,7 @@ The entire Task Scheduler schema is defined by the following XSD file.
 <?xml version="1.0" encoding="utf-8" ?>
 <xs:schema
     targetNamespace="http://schemas.microsoft.com/windows/2004/02/mit/task"
-    xmlns:xs="https://www.w3.org/2001/XMLSchema"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task"
     xmlns:td="http://schemas.microsoft.com/windows/2004/02/mit/task"
     elementFormDefault="qualified">

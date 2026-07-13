@@ -2,7 +2,7 @@
 description: One of the most obvious changes from IPv4 to IPv6 is the size of the IP address. Many user interfaces provide dialog boxes that enable a user to enter an IP address, as exemplified in the following figure.
 ms.assetid: e2d7fd41-297a-400b-ae59-5d67db2be6f6
 title: User Interface Issues for IPv6 Winsock Applications
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -75,7 +75,7 @@ Coding Tasks
 [IPv6 Guide for Windows Sockets Applications](ipv6-guide-for-windows-sockets-applications-2.md)
 </dt> <dt>
 
-[Changing Data Structures for IPv6 Winsock Appications](changing-data-structures-2.md)
+[Changing Data Structures for IPv6 Winsock Applications](changing-data-structures-2.md)
 </dt> <dt>
 
 [Dual-Stack Sockets for IPv6 Winsock Applications](dual-stack-sockets.md)

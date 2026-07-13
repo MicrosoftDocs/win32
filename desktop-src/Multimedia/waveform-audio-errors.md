@@ -16,7 +16,7 @@ keywords:
 - MCI reference,errors
 - waveform-audio errors
 - MCI waveform-audio errors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

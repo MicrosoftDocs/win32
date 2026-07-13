@@ -4,7 +4,7 @@ description: Registration information provides a way to identify a task in sever
 ms.assetid: 45c9fa99-2718-4202-8987-4b506bd677e9
 keywords:
 - registration information Task Scheduler
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

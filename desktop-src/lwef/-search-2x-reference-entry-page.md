@@ -2,7 +2,7 @@
 title: WDS 2.x Reference
 description: WDS 2.x Reference
 ms.assetid: a6043e5c-1838-49dd-88a8-17f27456e186
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

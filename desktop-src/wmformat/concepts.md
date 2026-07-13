@@ -5,7 +5,7 @@ ms.assetid: 02beae02-ee8e-40e0-b7c9-b17894c9627e
 keywords:
 - Windows Media Format SDK,concepts
 - Windows Media Format SDK,key concepts
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

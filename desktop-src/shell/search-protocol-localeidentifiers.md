@@ -1,7 +1,7 @@
 ---
 description: Understand the inputlocale and keywordlocale arguments in the Windows Shell UI, which helps the search engine use the correct word breakers.
 title: Locale Identifier Arguments (The Windows Shell)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 881ce3a6-6cf6-45be-9a1e-148b9053d7c4
 api_name: 

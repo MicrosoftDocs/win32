@@ -68,7 +68,7 @@ if (src0 comparison src1)
 
 
 
-Be careful using the equals and not equals comparison modes on floating point numbers. Because rounding occurs during during floating point calculations, the comparison can be done against an epsilon value (small nonzero number) to avoid errors.
+Be careful using the equals and not equals comparison modes on floating point numbers. Because rounding occurs during floating point calculations, the comparison can be done against an epsilon value (small nonzero number) to avoid errors.
 
 Restrictions include:
 

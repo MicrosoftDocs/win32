@@ -2,7 +2,7 @@
 description: How COM+ Modifies Return Values
 ms.assetid: a6997f02-8456-45b5-9f40-4b9094ee4626
 title: How COM+ Modifies Return Values
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: System.Contact.DisplayOtherPhoneNumbers
 ms.assetid: 987ab3ff-6b8b-4774-92d7-c3486746d3ca
 title: System.Contact.DisplayOtherPhoneNumbers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

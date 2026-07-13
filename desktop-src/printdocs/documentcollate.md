@@ -2,7 +2,7 @@
 description: Learn about the DocumentCollate element, which describes the collating characteristics of the output.
 ms.assetid: 752cccf7-1f95-4597-b0e2-a96fd22ffeef
 title: DocumentCollate
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -84,7 +84,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the `https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords` namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Feature name="psk:DocumentCollate">

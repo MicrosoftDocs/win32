@@ -11,7 +11,7 @@ keywords:
 - message authentication
 - message authentication code (MAC)
 - MAC (message authentication code)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

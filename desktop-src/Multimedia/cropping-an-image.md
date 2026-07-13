@@ -5,7 +5,7 @@ ms.assetid: 6600751c-d4b6-481d-bf69-be2d34244c05
 keywords:
 - MCIWndGetSource macro
 - MCIWndPutSource macro
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

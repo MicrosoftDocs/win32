@@ -2,7 +2,7 @@
 description: Code example of a single-threaded pipe server that uses overlapped operations to service simultaneous connections to multiple pipe clients.
 ms.assetid: c0ac70cc-4ab9-47e5-b0e6-c0b373d16b25
 title: Named Pipe Server Using Overlapped I/O
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -60,7 +60,7 @@ int _tmain(VOID)
 { 
    DWORD i, dwWait, cbRet, dwErr; 
    BOOL fSuccess; 
-   LPTSTR lpszPipename = TEXT("\\\\.\\pipe\\mynamedpipe"); 
+   LPCTSTR lpszPipename = TEXT("\\\\.\\pipe\\mynamedpipe"); 
  
 // The initial loop creates several instances of a named pipe 
 // along with an event object for each instance.  An 

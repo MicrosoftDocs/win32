@@ -5,7 +5,7 @@ ms.assetid: 15d8116a-8ec1-48b5-bf62-411fdff7c8b8
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,using,binding with GetObject and ADsGetObject
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

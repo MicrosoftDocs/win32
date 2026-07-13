@@ -2,7 +2,7 @@
 description: ICE01 validates that the ICE mechanism is working. This ICE uses the Time property to get the time and returns either the system time or None.
 ms.assetid: 070e330d-be88-4f39-92db-64cf3819e567
 title: ICE01
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

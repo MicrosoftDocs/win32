@@ -2,7 +2,7 @@
 title: Voice Commands Window
 description: Voice Commands Window
 ms.assetid: 'vs|msagent|~\guidlin_12gn.htm'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

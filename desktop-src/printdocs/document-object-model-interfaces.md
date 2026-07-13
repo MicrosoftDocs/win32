@@ -2,7 +2,7 @@
 description: XPS Document Interfaces
 ms.assetid: 8d72ff28-6dfb-4fa8-a1b6-14b054aa7eb5
 title: XPS Document Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

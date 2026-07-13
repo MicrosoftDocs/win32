@@ -2,7 +2,7 @@
 description: The following enumerations are used in asynchronous communication between applications and components that are hosted by the print spooler, such as printer drivers and port monitors.
 ms.assetid: 732a552b-caf9-45da-9a9e-a325c4f6341b
 title: Asynchronous Printing Notification Enumerations
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

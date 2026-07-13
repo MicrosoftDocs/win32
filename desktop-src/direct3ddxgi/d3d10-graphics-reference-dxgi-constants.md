@@ -2,7 +2,7 @@
 description: This section contains info about the constants provided by DXGI.
 ms.assetid: f2eb846e-b887-413f-84f3-5bfb8bcfeb78
 title: DXGI Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

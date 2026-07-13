@@ -3,7 +3,7 @@ description: You can model a class provider as a push or pull provider, which sp
 ms.assetid: d1852784-8440-4b8a-9cdd-896e51cdee98
 ms.tgt_platform: multiple
 title: Determining Push or Pull Status
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

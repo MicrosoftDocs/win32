@@ -3,7 +3,7 @@ description: Providers, unless they are decoupled providers running within an ap
 ms.assetid: 8958669e-07e6-458c-a7f3-2df21cacc007
 ms.tgt_platform: multiple
 title: Debugging Providers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

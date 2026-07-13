@@ -8,7 +8,7 @@ keywords:
 - ASF (Advanced Systems Format),backup restorer objects
 - objects,backup restorer objects
 - backup restorer
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -40,7 +40,7 @@ The **IMsTscAdvancedSettings** interface has these properties.
 | Property | Access type | Description | 
 |----------|-------------|-------------|
 | <a href="imstscadvancedsettings-allowbackgroundinput.md"><strong>allowBackgroundInput</strong></a><br /> | Read/write<br /> | Specifies whether background input mode is enabled.<br /> | 
-| <a href="imstscadvancedsettings-bitmapperistence.md"><strong>BitmapPeristence</strong></a><br /> | Read/write<br /> | Specifies whether bitmap caching is enabled.<br /><blockquote>[!Note]<br />The spelling error in the name of the property is in the released version of the control.</blockquote><br /> | 
+| [**BitmapPeristence**](imstscadvancedsettings-bitmapperistence.md)<br> | Read/write<br> | Specifies whether bitmap caching is enabled.<br> **Note:** The spelling error in the name of the property is in the released version of the control.<br> | 
 | <a href="imstscadvancedsettings-compress.md"><strong>Compress</strong></a><br /> | Read/write<br /> | Specifies whether compression is enabled.<br /> | 
 | <a href="imstscadvancedsettings-containerhandledfullscreen.md"><strong>ContainerHandledFullScreen</strong></a><br /> | Read/write<br /> | Specifies whether the container-handled full-screen mode is enabled.<br /> | 
 | <a href="imstscadvancedsettings-disablerdpdr.md"><strong>DisableRdpdr</strong></a><br /> | Read/write<br /> | Specifies whether printer and clipboard redirection is enabled.<br /> | 

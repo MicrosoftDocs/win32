@@ -2,7 +2,7 @@
 title: DDS Cube Map Example
 description: For cubic environment maps, one or more faces of a cube are written to the file, using either uncompressed or compressed formats, and all faces must be the same size.
 ms.assetid: a77234f6-ba10-40dd-902f-33e600384aa5
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -46,7 +46,7 @@ For example, here is a 256-by-256 cubemap with mipmap levels stored in a BC6H fo
 | DDS Components                                                                                                                                                                                                  | \# Bytes |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
 | header (FourCC of "DX10")                                                                                                                                                                                       | 128      |
-| extended header (DXGI format set to 95 \[DXGI\_FORMAT\_BC6H\_UF16\], dimension value of 3 \[D3Dxx\_RESOURCE\_DIMENSION\_TEXTURE2D\], array size of 6, misc flags of 0x4 \[D3Dxx\_RESOURCE\_MISC\_TEXTURECUBE\]) | 20       |
+| extended header (DXGI format set to 95 \[DXGI\_FORMAT\_BC6H\_UF16\], dimension value of 3 \[D3Dxx\_RESOURCE\_DIMENSION\_TEXTURE2D\], array size of 1, misc flags of 0x4 \[D3Dxx\_RESOURCE\_MISC\_TEXTURECUBE\]) | 20       |
 | 256-by-256 array entry 0 (positive x) main image                                                                                                                                                                | 65536    |
 | 128-by-128 array entry 0 (positive x) mipmap image                                                                                                                                                              | 16384    |
 | 64-by-64 array entry 0 (positive x) mipmap image                                                                                                                                                                | 4096     |

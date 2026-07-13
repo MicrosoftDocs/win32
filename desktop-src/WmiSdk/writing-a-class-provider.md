@@ -3,7 +3,7 @@ description: A class provider manages a class or series of classes for WMI.
 ms.assetid: 755f1fde-a0bf-43f6-a01d-2da7d4e6c10d
 ms.tgt_platform: multiple
 title: Writing a Class Provider
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The following example demonstrates using the CertOIDToAlgId and CertCompareIntegerBlob functions.
 ms.assetid: 89186d98-80a9-460a-be2b-3e328675c485
 title: 'Example C Program: Using CertOIDToAlgId and CertCompareIntegerBlob'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Direct3D 12 programming environment setup
 description: Describes the installation, tools and supported libraries that make up a productive Direct3D 12 development environment.
 ms.assetid: B2288866-E95F-46B8-A7A1-19888F029C03
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -86,8 +86,8 @@ For walk-throughs on how to add code to enable particular features, refer to [D3
 
 The debug layer provides extensive additional parameter and consistency validation (such as validating shader linkage and resource binding, validating parameter consistency, and reporting error descriptions).
 
-> [!Note]  
-> For Windows 10, to create a device that supports the debug layer, enable the "Graphics Tools" optional feature. Go to the Settings panel, under System, Apps & features, Manage optional Features, Add a feature, and then look for "Graphics Tools".
+> [!Note]
+> For Windows 10, to create a device that supports the debug layer, enable the "Graphics Tools" optional feature. On Windows 10 22H2, go to the Settings panel, under System. On older versions of Windows 10, go to the Settings panel, under Apps > Apps & features. Go to Optional Features > Add a feature, and then look for "Graphics Tools".
 
 The header required to support the debugging layer, D3D12SDKLayers.h, is included by default from d3d12.h.
 

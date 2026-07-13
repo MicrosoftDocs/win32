@@ -2,8 +2,8 @@
 title: ControlTypeNoExpectedPatternsSupported
 description: ControlTypeNoExpectedPatternsSupported
 ms.assetid: 2C9CEFEA-8207-47A7-B100-A56CFBFB792D
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # ControlTypeNoExpectedPatternsSupported

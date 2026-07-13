@@ -2,7 +2,7 @@
 description: By default, the recognizer uses a system dictionary that contains all of the commonly written words in a language.
 ms.assetid: 2ddf04dd-613b-4570-9474-0e33208c4012
 title: Using Application Dictionaries
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

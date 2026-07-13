@@ -3,7 +3,7 @@ description: WMI service management classes are used to manage the WMI service i
 ms.assetid: EF58AC04-FE04-4D0C-A5F7-3491C885A0E4
 ms.tgt_platform: multiple
 title: WMI Service Management Classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

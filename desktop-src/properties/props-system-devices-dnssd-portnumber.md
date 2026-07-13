@@ -2,7 +2,7 @@
 description: Port number on which the service is listening.
 ms.assetid: e33814ce-f503-4037-a457-502d0adbe03a
 title: System.Devices.Dnssd.PortNumber
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Hardware Provider Objects
 ms.assetid: d1724219-1487-485b-9c52-5003069fe9e2
 title: Hardware Provider Objects
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

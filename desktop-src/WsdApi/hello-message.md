@@ -2,7 +2,7 @@
 description: A WS-Discovery message used to announce the presence of a device or service on the network.
 ms.assetid: a7402e02-9bdc-49ec-ba93-8a32f55b9dd8
 title: Hello Message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -81,9 +81,9 @@ A Hello message has the following focus points.
 </tr>
 <tr class="even">
 <td>AppSequence</td>
-<td><pre class="syntax" data-space="preserve"><code>\<wsd:AppSequence InstanceId=&quot;2&quot;
+<td><pre class="syntax" data-space="preserve"><code>&lt;wsd:AppSequence InstanceId=&quot;2&quot;
     SequenceId=&quot;urn:uuid:369a7d7b-5f87-48a4-aa9a-189edf2a8772&quot;
-    MessageNumber=&quot;14&quot;>
+    MessageNumber=&quot;14&quot;&gt;
 &lt;/wsd:AppSequence&gt;</code></pre></td>
 <td>Contains application sequencing information, which helps to maintain the sequence of messages even if they are received out of order. The AppSequence is validated as described in <a href="appsequence-validation-rules.md">AppSequence Validation Rules</a>.</td>
 </tr>

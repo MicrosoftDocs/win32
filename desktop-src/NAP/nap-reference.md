@@ -2,7 +2,7 @@
 title: NAP Reference
 description: The NAP reference material is divided into the following sections.ConstantsDatatypesEnumerated TypesInterfacesStructuresUtility Functions
 ms.assetid: e391be3c-95ab-4c80-a5d8-8a8fef28e56b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

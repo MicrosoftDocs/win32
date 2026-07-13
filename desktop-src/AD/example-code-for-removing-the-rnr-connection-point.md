@@ -7,7 +7,7 @@ keywords:
 - Example Code for Removing the RnR Connection Point AD
 - Windows Sockets Registration and Resolution AD , Example Code, Removing the RnR Connection Point
 - Removing the RnR Connection Point AD , Example Code
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

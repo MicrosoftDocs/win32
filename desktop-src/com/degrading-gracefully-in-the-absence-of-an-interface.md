@@ -2,7 +2,7 @@
 title: Degrading Gracefully in the Absence of an Interface
 description: Because a control may not support any interface other than IUnknown, a container has to degrade gracefully when it encounters the absence of any particular interface.
 ms.assetid: 1b833900-2357-4b39-b88d-5ee6321f488e
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

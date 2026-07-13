@@ -2,7 +2,7 @@
 description: The property proxy for the System.Image.CompressedBitsPerPixel photo metadata policy.
 ms.assetid: 422e92d5-2661-43c9-85d5-26f55c8d88d8
 title: System.Image.CompressedBitsPerPixel Proxy
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

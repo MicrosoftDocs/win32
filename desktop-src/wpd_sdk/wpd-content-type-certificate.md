@@ -2,7 +2,7 @@
 description: WPD\_CONTENT\_TYPE\_CERTIFICATE
 ms.assetid: 5fcaf17b-f583-4ba7-aec3-cdb02dbf3bbc
 title: WPD_CONTENT_TYPE_CERTIFICATE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

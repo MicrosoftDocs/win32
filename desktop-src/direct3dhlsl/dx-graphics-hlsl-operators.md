@@ -2,7 +2,7 @@
 title: Operators
 description: Expressions are sequences of variables and literals punctuated by operators.
 ms.assetid: c31aa0b8-1284-48aa-b000-d72433f0f5cc
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle
@@ -299,7 +299,7 @@ For expressions that use Boolean operators, the size and component type of each 
 
 ## Cast Operator
 
-An expression preceded by a type name in parenthesis is an explicit type cast. A type cast converts the original expression to the data type of the cast. In general, the simple data types can be cast to the more complex data types (with a promotion cast), but only some complex data types can be cast into simple data types (with a demotion cast).
+An expression preceded by a type name in parentheses is an explicit type cast. A type cast converts the original expression to the data type of the cast. In general, the simple data types can be cast to the more complex data types (with a promotion cast), but only some complex data types can be cast into simple data types (with a demotion cast).
 
 Only right hand side type casting is legal. For example, expressions such as `(int)myFloat = myInt;` are illegal. Use `myFloat = (float)myInt;` instead.
 

@@ -1,5 +1,5 @@
 ---
-description: Requests a list of pixel history results in the specified pixel, render tartget /UAV, and frame.
+description: Requests a list of pixel history results in the specified pixel, render target /UAV, and frame.
 MS-HAID: vspixengine.IPixelHistoryRequest\_RequestAsync\_DWORD\_Point2D\_DWORD\_IPixelHistoryCallback\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -22,7 +22,7 @@ topic_type:
 
 # <span id="vspixengine.ipixelhistoryrequest_requestasync_dword_point2d_dword_ipixelhistorycallback_ptr_dword_dword"></span>IPixelHistoryRequest::RequestAsync method
 
-Requests a list of pixel history results in the specified pixel, render tartget /UAV, and frame.
+Requests a list of pixel history results in the specified pixel, render target /UAV, and frame.
 
 ## Syntax
 
@@ -50,7 +50,7 @@ The specified pixel.
 The specified render target.
 
 *requestCallback*   
-The address of a callback used to notifify the host of results.
+The address of a callback used to notify the host of results.
 
 *requestCookie*   
 A cookie that uniquely identifies the request, and can be used to signal for it to be cancelled.

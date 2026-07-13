@@ -5,7 +5,7 @@ ms.assetid: 9af15db6-895e-4076-8e4c-ef4fcb7e0a7e
 keywords:
 - OpenGL processing pipeline,assembling vertices
 - assembling vertices OpenGL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

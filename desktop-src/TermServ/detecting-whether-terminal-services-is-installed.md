@@ -3,7 +3,7 @@ title: Detecting Whether the Remote Desktop Services Role Is Installed
 description: C\ code example that shows a method that returns True if the Remote Desktop Services server role is installed and running or false otherwise, beginning with Windows Server 2008.
 ms.assetid: 53ef8d43-2141-4df7-b9e6-baf0677924ba
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The Dispatch Mapper is created using COM CoCreateInstance and exposes one interface, ITDispatchMapper.
 ms.assetid: 435034e1-d90c-4bad-8758-8a627d88875f
 title: Dispatch Mapper
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

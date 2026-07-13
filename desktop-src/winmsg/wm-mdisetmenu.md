@@ -3,7 +3,7 @@ description: An application sends the WM\_MDISETMENU message to a multiple-docum
 ms.assetid: 5cc85032-5378-44a0-abd4-d583deaa3294
 title: WM_MDISETMENU message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_MDISETMENU message

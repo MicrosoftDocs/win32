@@ -2,7 +2,7 @@
 description: CryptXML natively supports the URIs listed below.
 ms.assetid: 012bad01-228a-4bb0-b883-0c2c7abd9271
 title: XML Digital Signature Cryptographic Algorithms
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: Virtual Channel Client Registration
 description: You must store the name of the client DLL in the registry.
 ms.assetid: bf84b2f4-55c2-45fd-bba7-8ff3efe4b1fd
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

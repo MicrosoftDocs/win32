@@ -3,7 +3,7 @@ description: The Computer System Hardware category groups classes together that 
 ms.assetid: 0b6cb410-166e-45cd-8dca-77a111b3cf62
 ms.tgt_platform: multiple
 title: Computer System Hardware Classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

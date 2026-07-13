@@ -2,7 +2,7 @@
 title: Which Security Provider to Use
 description: All other things being equal, use RPC\_C\_AUTHN\_GSS\_KERBEROS or RPC\_C\_AUTHN\_GSS\_NEGOTIATE.
 ms.assetid: 921975ae-17e7-433a-bbc5-e6b95989d31a
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

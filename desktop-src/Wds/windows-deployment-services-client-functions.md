@@ -2,7 +2,7 @@
 title: Windows Deployment Services Client Functions
 description: The following functions are used with the Windows Deployment Services Client API.
 ms.assetid: 4cedd8a8-7f46-4229-9d96-58965b751e43
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

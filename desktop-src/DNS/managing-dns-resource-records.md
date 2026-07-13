@@ -2,11 +2,11 @@
 title: Managing DNS Resource Records
 description:  Learn about managing resource records. A resource record is the unit of information entry in DNS zone files, which used to resolve all DNS queries.
 ms.assetid: 'ddad5f14-5a2d-4966-87b7-b354666f9e24'
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Managing DNS Resource Records
+# Managing DNS Resource Records using WMI
 
 A resource record, commonly referred to as an RR, is the unit of information entry in DNS zone files; RRs are the basic building blocks of host-name and IP information and are used to resolve all DNS queries. Resource records come in a fairly wide variety of types in order to provide extended name-resolution services.
 

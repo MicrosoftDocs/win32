@@ -3,7 +3,7 @@ title: Querying for Specific Instances of a Resource
 description: The call to Session.Enumerate has optional parameters that narrow the enumeration into a query.
 ms.assetid: 69d2fe79-9aad-4c8c-a65e-c6bb0e51c063
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

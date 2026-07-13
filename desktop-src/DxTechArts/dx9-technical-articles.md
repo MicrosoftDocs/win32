@@ -2,7 +2,7 @@
 title: DirectX Technical Articles
 description: This section contains a series of technical articles about developing games for Microsoft Windows.
 ms.assetid: a60ef9a3-2f70-9f8d-95bb-3ab07d01a212
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Clarify and Limit Choices
 description: Clarify and Limit Choices
 ms.assetid: 4ec3ca01-231b-4a45-aae1-fba5b2ba0033
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

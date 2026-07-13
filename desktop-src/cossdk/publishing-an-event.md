@@ -2,7 +2,7 @@
 description: Publishing an Event
 ms.assetid: b40d10aa-43bc-4c53-9e89-94c585d34238
 title: Publishing an Event
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

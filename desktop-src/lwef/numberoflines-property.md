@@ -2,7 +2,7 @@
 title: NumberOfLines Property
 description: NumberOfLines Property
 ms.assetid: fd274518-9064-419a-846f-39436c3b0bab
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

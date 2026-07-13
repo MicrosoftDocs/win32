@@ -2,7 +2,7 @@
 title: Month Calendar Messages
 description: Month Calendar Messages
 ms.assetid: e320dc4f-0fe2-44d9-b672-d88e4da16e4a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -4,7 +4,7 @@ description: Reading Streams from an AVI File
 ms.assetid: fa17cac4-bc6f-48ef-8960-286386b43c82
 keywords:
 - AVIStreamInfo function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

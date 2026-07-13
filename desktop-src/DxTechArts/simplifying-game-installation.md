@@ -2,7 +2,7 @@
 title: Simplifying Game Installation
 description: This article outlines some concepts that developers of games for Windows can and should implement to improve the overall experience.
 ms.assetid: 356780b7-801d-c6dd-a266-6272bcb8bd36
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

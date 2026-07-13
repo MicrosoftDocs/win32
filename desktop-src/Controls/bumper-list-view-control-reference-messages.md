@@ -2,7 +2,7 @@
 title: List View Messages
 description: List View Messages
 ms.assetid: c324175b-fb41-43e3-a4a3-d97339538299
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

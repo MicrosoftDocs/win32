@@ -2,7 +2,7 @@
 title: Instructions - vs_2_0
 description: This section contains reference information for the vertex shader version 2\_0 instructions.
 ms.assetid: f5ca3e44-3c71-4221-9381-cea521d984e0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

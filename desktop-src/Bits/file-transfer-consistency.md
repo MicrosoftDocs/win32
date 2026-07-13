@@ -2,7 +2,7 @@
 title: File Transfer Consistency
 description: BITS guarantees that the version of the file it transfers is consistent based on the file size and time stamp, not content (BITS does not protect against man-in-the-middle attacks).
 ms.assetid: ba82f172-a3ac-49d6-bccd-7d0b68ba66de
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ title: Application Defined
 description: Application Defined
 ms.assetid: 0BA67E4A-DCBB-4DCE-BA32-786B9F9F7D46
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

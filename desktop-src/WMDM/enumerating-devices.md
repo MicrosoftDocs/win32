@@ -9,7 +9,7 @@ keywords:
 - desktop applications,enumerating devices
 - creating Windows Media Device Manager applications,enumerating devices
 - enumerating devices
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -9,8 +9,8 @@ keywords:
 - testing UI Automation
 - UIA testing tools
 - UI Automation testing tools
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Accessibility tools - UI Automation Verify (UIA Verify)
@@ -34,24 +34,7 @@ To run **UIA Verify** as a visual tool, find VisualUIAVerifyNative.exe in the \\
 
 ## Related topics
 
-<dl> <dt>
-
 [Accessible Event Watcher](accessible-event-watcher.md)
-</dt> <dt>
-
 [Inspect](inspect-objects.md)
-</dt> <dt>
-
-[Testing Tools](testing-tools.md)
-</dt> <dt>
-
+[Testing for accessibility](accessibility-testingtools.md)
 [UI Accessibility Checker](ui-accessibility-checker.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-

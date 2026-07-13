@@ -3,7 +3,7 @@ description: Retrieves the supported backlight levels.
 ms.assetid: b4c1ee3f-af75-477e-b7ed-53be905374d7
 title: IOCTL_VIDEO_QUERY_SUPPORTED_BRIGHTNESS control code (Ntddvdeo.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 topic_type:
 - APIRef
 - kbSyntax

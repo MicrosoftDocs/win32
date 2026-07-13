@@ -2,7 +2,7 @@
 description: This topic lists the color management interfaces of the XPS Document API in an XPS OM.
 ms.assetid: a4fb5714-2806-4925-a6d1-63ecfe50e10a
 title: XPS OM Color Management
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -31,7 +31,7 @@ When using an [**XPS\_COLOR**](xps-color.md) structure, a color profile resource
 [**IXpsOMColorProfileResourceCollection Interface**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresourcecollection)
 </dt> <dt>
 
-[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
+[XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 </dt> </dl>
 
  

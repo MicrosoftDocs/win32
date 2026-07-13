@@ -2,7 +2,7 @@
 description: Troubleshooting the COM+ CRM
 ms.assetid: 4d2d9372-b540-4e08-9b57-8687802610b6
 title: Troubleshooting the COM+ CRM
-ms.topic: article
+ms.topic: troubleshooting-general
 ms.date: 05/31/2018
 ---
 

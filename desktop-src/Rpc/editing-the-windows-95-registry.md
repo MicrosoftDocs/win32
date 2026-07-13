@@ -2,7 +2,7 @@
 title: Editing the Windows 95 Registry
 description: You can use REGEDIT to edit the Windows 95 registry to designate an NSP.
 ms.assetid: 109daf4a-722f-4a25-a778-72360ee07ad9
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

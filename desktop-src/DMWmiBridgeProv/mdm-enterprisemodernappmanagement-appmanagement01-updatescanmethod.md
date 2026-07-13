@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # UpdateScanMethod method of the MDM\_EnterpriseModernAppManagement\_AppManagement01 class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+
 
 Method for starting the Windows Update scan. See also, [UpdateScan](/windows/client-management/mdm/enterprisemodernappmanagement-csp).
 

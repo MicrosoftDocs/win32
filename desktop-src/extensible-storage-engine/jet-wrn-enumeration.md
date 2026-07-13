@@ -296,7 +296,7 @@ public enum JET_wrn
 <tr class="even">
 <td></td>
 <td>PrimaryIndexOutOfDate</td>
-<td>The Primary index is created with an incompatible OS sort version. The table can not be safely modified.</td>
+<td>The Primary index is created with an incompatible OS sort version. The table cannot be safely modified.</td>
 </tr>
 <tr class="odd">
 <td></td>

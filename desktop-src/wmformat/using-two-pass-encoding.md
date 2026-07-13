@@ -11,7 +11,7 @@ keywords:
 - two-pass encoding,IWMWriterPreprocess interface
 - 2-pass encoding,IWMWriterPreprocess interface
 - IWMWriterPreprocess
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

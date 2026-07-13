@@ -2,7 +2,7 @@
 description: Named objects provide an easy way for processes to share object handles.
 ms.assetid: 00a00227-45fc-49a1-8ff5-aeccb172d16a
 title: Object Names
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

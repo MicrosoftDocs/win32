@@ -2,7 +2,7 @@
 description: Supported Protocols
 ms.assetid: 3c026426-c2b7-4909-9524-9cc0bd45347e
 title: Supported Protocols
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

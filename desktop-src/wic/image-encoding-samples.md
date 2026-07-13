@@ -2,7 +2,7 @@
 description: This section contains the image encoding samples.
 ms.assetid: CB562E67-63CA-447c-9616-140B687B80D6
 title: Image encoding samples
-ms.topic: article
+ms.topic: sample
 ms.date: 03/19/2021
 ---
 

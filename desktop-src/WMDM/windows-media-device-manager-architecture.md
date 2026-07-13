@@ -15,7 +15,7 @@ keywords:
 - desktop applications,Windows Media Device Manager architecture
 - service providers,Windows Media Device Manager architecture
 - plug-ins,Windows Media Device Manager architecture
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

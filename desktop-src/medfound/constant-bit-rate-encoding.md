@@ -2,7 +2,7 @@
 description: Constant Bit Rate Encoding
 ms.assetid: 0f084f3f-7432-4514-ae6a-c8179a99dec7
 title: Constant Bit Rate Encoding
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Length, Size, and Directional Attributes
 description: In passing arrays between the client and the server, the size-related attributes \ max\_is\ and \ size\_is\ determine how many array elements the server stub allocates.
 ms.assetid: 2c95cf47-6fc0-4ccd-bb4f-acf356596e56
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

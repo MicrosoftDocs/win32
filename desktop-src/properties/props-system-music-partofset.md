@@ -2,7 +2,7 @@
 description: System.Music.PartOfSet
 ms.assetid: 29696a6f-cd2c-40c4-a7a6-ca32ac80beae
 title: System.Music.PartOfSet
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

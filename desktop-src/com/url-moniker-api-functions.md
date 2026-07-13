@@ -2,7 +2,7 @@
 title: URL Moniker Functions
 description: URL Moniker Functions
 ms.assetid: 773743d3-9434-4ec9-b85c-9b971e37682f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The following sections list the data types, functions, and notifications used with file queues.
 ms.assetid: 44396660-f399-43af-89db-4c2dd9871636
 title: File Queue Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

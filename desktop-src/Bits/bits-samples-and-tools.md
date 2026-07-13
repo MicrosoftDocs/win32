@@ -2,7 +2,7 @@
 title: BITS Samples and Tools
 description: BITS Samples and Tools
 ms.assetid: e449da0d-46da-44f9-85f3-4f0e17887bf3
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

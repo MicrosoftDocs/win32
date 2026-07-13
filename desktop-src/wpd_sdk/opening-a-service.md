@@ -2,7 +2,7 @@
 description: Opening a Service
 ms.assetid: 722d657d-332a-40df-ac30-bc2050deda74
 title: Opening a Service
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

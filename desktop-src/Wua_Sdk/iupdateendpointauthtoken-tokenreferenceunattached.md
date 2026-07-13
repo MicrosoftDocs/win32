@@ -47,7 +47,7 @@ Returns **S\_OK** if successful. Otherwise, returns a COM or Windows error code.
 
 ## Remarks
 
-An unattached reference refers a referece (such as the signiture that is using the token) that is not in the message where the token resides.
+An unattached reference refers a reference (such as the signature that is using the token) that is not in the message where the token resides.
 
 ## Requirements
 

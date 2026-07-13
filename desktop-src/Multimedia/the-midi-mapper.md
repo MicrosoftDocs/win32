@@ -12,7 +12,7 @@ keywords:
 - MIDI Mapper,about
 - MIDI Mapper,source
 - MIDI Mapper,destination
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

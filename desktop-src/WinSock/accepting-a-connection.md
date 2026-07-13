@@ -2,7 +2,7 @@
 description: Once the socket is listening for a connection, the program must handle connection requests on that socket.
 ms.assetid: d01f3d90-4d83-442e-aada-e7b082ef7699
 title: Accepting a Connection (Windows Sockets 2)
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -53,7 +53,12 @@ Once the socket is listening for a connection, the program must handle connectio
     > [!Note]  
     > On Unix systems, a common programming technique for servers was for an application to listen for connections. When a connection was accepted, the parent process would call the **fork** function to create a new child process to handle the client connection, inheriting the socket from the parent. This programming technique is not supported on Windows, since the **fork** function is not supported. This technique is also not usually suitable for high-performance servers, since the resources needed to create a new process are much greater than those needed for a thread.
 
-     
+Once the [**accept**](/windows/win32/api/Winsock2/nf-winsock2-accept) function is called, the `ListenSocket` is no longer needed for this example. The [**closesocket**](/windows/win32/api/winsock/nf-winsock-closesocket) function is called to close the socket.
+
+```cpp
+    // No longer need server socket
+    closesocket(ListenSocket);
+```
 
 Next Step: [Receiving and Sending Data on the Server](receiving-and-sending-data-on-the-server.md)
 
@@ -69,7 +74,3 @@ Next Step: [Receiving and Sending Data on the Server](receiving-and-sending-data
 
 [Listening on a Socket](listening-on-a-socket.md)
 </dt> </dl>
-
- 
-
- 

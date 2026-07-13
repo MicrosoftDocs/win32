@@ -3,7 +3,7 @@ description: WMI providers are usually designed to provide information about a s
 ms.assetid: 9f23d599-ac37-4bfb-a3dc-0cef67e68b05
 ms.tgt_platform: multiple
 title: Linking Classes Together
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

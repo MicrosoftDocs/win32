@@ -2,7 +2,7 @@
 description: A transport protocol must be properly installed on the system and registered with Windows Sockets to be accessible to an application.
 ms.assetid: 45b20f66-4e12-44df-b64b-c96cd5b24cd4
 title: Simultaneous Access to Multiple Transport Protocols
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

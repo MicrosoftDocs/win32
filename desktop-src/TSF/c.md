@@ -3,7 +3,7 @@ title: C (Text Services Framework)
 description: Glossary page
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 9f3c58f5-7c04-43e6-b7bc-dc6875a7fefb
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

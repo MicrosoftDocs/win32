@@ -3,7 +3,7 @@ title: S (DNS)
 description: Domain Name System (DNS) glossary entries that start with S.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 62a7b5c4-a30a-4939-b9c1-a5445e83453a
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

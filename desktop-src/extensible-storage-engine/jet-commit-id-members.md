@@ -6,7 +6,7 @@ ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows8.jet_commit_id_members(v=EXCHG.10)
 ms:contentKeyID: 55104399
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # JET_COMMIT_ID members
@@ -89,7 +89,7 @@ Top
 <tr class="odd">
 <td><img src="../images/dn350944.puboperator(exchg.10).gif" title="Public operator" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>
 <td><a href="dn335331(v=exchg.10).md">Equality</a></td>
-<td>Determine whether one commitid is is equal to another commitid.</td>
+<td>Determine whether one commitid is equal to another commitid.</td>
 </tr>
 <tr class="even">
 <td><img src="../images/dn350944.puboperator(exchg.10).gif" title="Public operator" alt="Public operator" /><img src="../images/dn292146.static(exchg.10).gif" title="Static member" alt="Static member" /></td>

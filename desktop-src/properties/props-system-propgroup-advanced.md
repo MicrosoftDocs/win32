@@ -2,7 +2,7 @@
 description: Read about the System.PropGroup.Advanced property. Do not use this property for getting or setting values. It is intended only as a marker.
 ms.assetid: af962d0d-5f20-4cc4-b28d-986f16689f23
 title: System.PropGroup.Advanced
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

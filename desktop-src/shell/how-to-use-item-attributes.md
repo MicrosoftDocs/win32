@@ -2,7 +2,7 @@
 description: The SFGAO flag values of the Shell attributes for an item can be tested to determine whether the verb should be enabled or disabled.
 ms.assetid: 3A539A9D-DB6B-4E3D-AD26-D5309BECEBB1
 title: How to Use Item Attributes
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

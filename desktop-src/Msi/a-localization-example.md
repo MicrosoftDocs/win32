@@ -2,7 +2,7 @@
 description: This example illustrates how to localize the Windows Installer package described in An Installation Example. The original installation package is changed from an English into French language version.
 ms.assetid: b14787fe-3179-47d7-8a15-da45987d613f
 title: A Localization Example
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

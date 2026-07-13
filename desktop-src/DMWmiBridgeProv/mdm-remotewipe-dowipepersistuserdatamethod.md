@@ -19,9 +19,6 @@ ms.date: 09/17/2021
 
 # doWipePersistUserDataMethod method of the MDM_RemoteWipe class
 
-> [!NOTE]
-> **Some information relates to pre-released product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.**
-
 Triggers the device to start the remote wipe while persisting user accounts and data. Also see [doWipePersistUserDataMethod](/windows/client-management/mdm/remotewipe-csp).
 
 ## Syntax

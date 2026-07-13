@@ -34,7 +34,7 @@ A pointer to a Unicode string buffer that receives the cue banner text. The call
 *lParam* \[in\]
 </dt> <dd>
 
-The size of the buffer pointed to by *lpcwText* in **WCHARs**.
+The size of the buffer pointed to by *wParam* in **WCHARs**.
 
 </dd> </dl>
 

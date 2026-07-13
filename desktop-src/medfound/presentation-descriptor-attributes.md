@@ -2,7 +2,7 @@
 description: Presentation Descriptor Attributes
 ms.assetid: 2a092a6a-956b-4c1f-955f-529ec08665fe
 title: Presentation Descriptor Attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

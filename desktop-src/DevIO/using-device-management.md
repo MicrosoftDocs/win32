@@ -2,7 +2,7 @@
 description: 'The following examples demonstrate device management:'
 ms.assetid: 0f960d7c-3606-4ed4-99fd-00b2ea2a2aae
 title: Using Device Management
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

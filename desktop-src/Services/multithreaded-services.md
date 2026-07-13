@@ -2,7 +2,7 @@
 description: The service control manager (SCM) controls a service by sending service control events to the services control handler routine.
 ms.assetid: 86e04b43-5f6f-409e-ac18-d7efada4d3d3
 title: Multithreaded Services
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -919,7 +919,7 @@ sections:
         answer: |
           Yes, but they act as the same axis. So you can not read the triggers independently with DirectInput. Using XInput, the triggers return separate values.
           
-          For more information on why DirectInput interprets the triggers as one axis, see [Using the Xbox 360 Controller with DirectInput](/windows/desktop/xinput/xinput-and-directinput).
+          For more information on why DirectInput interprets the triggers as one axis, see [Using the a controller with DirectInput](/windows/desktop/xinput/xinput-and-directinput).
           
           
           

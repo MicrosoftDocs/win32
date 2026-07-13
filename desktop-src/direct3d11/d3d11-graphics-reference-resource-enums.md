@@ -4,7 +4,7 @@ description: Enumerations are used to specify information about how resources ar
 ms.assetid: b547819b-7006-40b5-84a4-adf198048051
 keywords:
 - enumerations, Direct3D 11 Resource
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

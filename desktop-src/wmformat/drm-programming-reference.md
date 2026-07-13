@@ -19,7 +19,7 @@ keywords:
 - DRM (digital rights management),programming reference
 - DRM Client Extended APIs,programming reference
 - Client Extended APIs,programming reference
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

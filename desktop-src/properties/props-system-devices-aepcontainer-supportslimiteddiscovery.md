@@ -2,7 +2,7 @@
 description: Indicates if the Device Association Endpoint Container Supports Limited Discovery.
 ms.assetid: e65c1b11-2222-4d15-aac1-5e034d3cfa3c
 title: System.Devices.AepContainer.SupportsLimitedDiscovery
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

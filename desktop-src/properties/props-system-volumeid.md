@@ -2,7 +2,7 @@
 description: The GUID of the NTFS Volume.
 ms.assetid: 0dbfd772-b9c7-48f9-bc41-d4af94c738b2
 title: System.VolumeId
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

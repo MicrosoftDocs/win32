@@ -2,7 +2,7 @@
 description: Application Overview
 ms.assetid: 14131e33-2b50-4af7-910c-b4cd5267ed34
 title: Application Overview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

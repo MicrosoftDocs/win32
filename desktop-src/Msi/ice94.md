@@ -2,7 +2,7 @@
 description: ICE94 checks the Shortcut table, Feature table, and MsiAssembly table and posts a warning if there are any unadvertised shortcuts pointing to an assembly file in the global assembly cache.
 ms.assetid: 9b1b25b5-b190-47c2-8d43-fa3964e87a6f
 title: ICE94
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

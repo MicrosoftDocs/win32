@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Active Directory Active Directory , reference
 - Active Directory Domain Services Active Directory , reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

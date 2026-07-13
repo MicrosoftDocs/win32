@@ -2,7 +2,7 @@
 description: Indicates reference for the direction of the GPS receiver movement (for example, true direction, magnetic direction).
 ms.assetid: 5335d713-015a-4960-aacc-fd0b4525672c
 title: System.GPS.TrackRef
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

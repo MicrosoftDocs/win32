@@ -6,7 +6,7 @@ ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVBufferTooSmallExce
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentslvbuffertoosmallexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55102728
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # EsentSLVBufferTooSmallException properties

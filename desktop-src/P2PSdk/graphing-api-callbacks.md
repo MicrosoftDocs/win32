@@ -2,7 +2,7 @@
 description: 'The Graphing API uses the following callbacks:'
 ms.assetid: a8e083ab-b5e3-4186-99fb-cbb536e9d529
 title: Graphing API Callbacks
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

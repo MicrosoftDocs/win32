@@ -2,7 +2,7 @@
 description: Home address street name of the contact.
 ms.assetid: 5cc2c55e-1c1b-4f1d-8d40-eb7cbae930db
 title: System.Contact.HomeAddressStreet
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: A Symmetric key is a single key that is used with the operations of a symmetric encryption scheme. For example, such a key may be used in a symmetric encryption algorithm for both encryption and decryption.
 ms.assetid: 09d00a74-5873-4720-b9b9-d58395aa1094
 title: Symmetric Keys
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: A WS-Transfer message used to respond to a request for metadata.
 ms.assetid: aff05317-35db-4ea6-9692-1e09e4682fe7
 title: GetResponse (Metadata Exchange) Message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

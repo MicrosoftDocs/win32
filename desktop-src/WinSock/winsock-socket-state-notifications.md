@@ -1,7 +1,7 @@
 ---
 title: Winsock socket state notifications
 description: The socket state notifications APIs provide you with a scalable and efficient way to obtain notifications about socket state changes. This includes notifications about things such as non-blocking read, non-blocking write, error conditions, and other info.
-ms.topic: article
+ms.topic: reference
 ms.date: 11/18/2020
 ---
 

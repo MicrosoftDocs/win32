@@ -24,8 +24,8 @@ Addition operators.
 
 | Operator | Description | 
 |----------|-------------|
-| <a href="/previous-versions/windows/desktop/legacy/ee421395(v=vs.85)"><strong>XMVECTOR::operator + (XMVECTOR)</strong></a> | Performance an identity operation on an <code>XMVECTOR</code> instance.<br /> The <code>operator +</code> takes an instance of <a href="xmvector-data-type.md"><strong>XMVECTOR Data Type</strong></a> and returns a new instance of <code>XMVECTOR</code>, with an identity operator applied to each component.<br /><blockquote>[!Note]<br />This operator is only available under C++.</blockquote><br /> | 
-| <a href="/previous-versions/windows/desktop/legacy/ee421396(v=vs.85)"><strong>XMVECTOR::operator + (XMVECTOR,XMVECTOR)</strong></a> | Adds two instances of <code>XMVECTOR</code>, returning the result in a new instance.<br /> The <code>operator +</code> adds each component of two instances of <a href="xmvector-data-type.md"><strong>XMVECTOR Data Type</strong></a>, and then returns the result in a new <code>XMVECTOR</code> instance. <br /><blockquote>[!Note]<br />This operator is only available under C++.</blockquote><br /> | 
+| [**XMVECTOR::operator + (XMVECTOR)**](/previous-versions/windows/desktop/legacy/ee421395(v=vs.85)) | Performance an identity operation on an <code>XMVECTOR</code> instance.<br> The <code>operator +</code> takes an instance of [**XMVECTOR Data Type**](xmvector-data-type.md) and returns a new instance of <code>XMVECTOR</code>, with an identity operator applied to each component.<br> **Note:** This operator is only available under C++.<br> | 
+| [**XMVECTOR::operator + (XMVECTOR,XMVECTOR)**](/previous-versions/windows/desktop/legacy/ee421396(v=vs.85)) | Adds two instances of <code>XMVECTOR</code>, returning the result in a new instance.<br> The <code>operator +</code> adds each component of two instances of [**XMVECTOR Data Type**](xmvector-data-type.md), and then returns the result in a new <code>XMVECTOR</code> instance. <br> **Note:** This operator is only available under C++.<br> | 
 
 
 

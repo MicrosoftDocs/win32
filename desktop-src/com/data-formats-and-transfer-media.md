@@ -2,7 +2,7 @@
 title: Data Formats and Transfer Media
 description: Data Formats and Transfer Media
 ms.assetid: c6023c42-ce20-40e4-9d88-55fa1d2a4d38
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

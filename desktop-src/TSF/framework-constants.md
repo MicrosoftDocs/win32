@@ -9,7 +9,7 @@ keywords:
 - TSF-enabled applications,constants
 - TSF reference,constants
 - reference for TSF,constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

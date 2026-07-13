@@ -2,7 +2,7 @@
 description: The Global Logger event tracing session records events that occur early in the operating system boot process.
 ms.assetid: 1462bbef-ef32-4053-9930-5b4a0ab46b47
 title: Configuring and Starting the Global Logger Session
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This tutorial shows how to use the Transcode API to encode a Windows Media Audio (WMA) file.
 ms.assetid: 2397ca78-edb5-4756-bd07-00529db28f76
 title: 'Tutorial: Encoding a WMA File'
-ms.topic: article
+ms.topic: tutorial
 ms.date: 05/31/2018
 ---
 

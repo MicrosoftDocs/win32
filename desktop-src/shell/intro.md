@@ -1,7 +1,7 @@
 ---
 description: The Windows UI provides users with access to a wide variety of objects necessary to run applications and manage the operating system.
 title: Shell Developer's Guide
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.assetid: 8f88ef25-3645-4f54-9453-41f919c0fc0a
 api_name: 

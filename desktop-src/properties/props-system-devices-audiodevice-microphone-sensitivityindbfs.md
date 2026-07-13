@@ -2,7 +2,7 @@
 description: Sensitivity information in Dbfs for a microphone device.
 ms.assetid: 232e39e8-551c-4fc3-b26f-5912f57722b6
 title: System.Devices.AudioDevice.Microphone.SensitivityInDbfs
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: What Is a Window
 description: What Is a Window?
 ms.assetid: eef5e139-91f9-4d8b-9153-e178d7416d7e
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

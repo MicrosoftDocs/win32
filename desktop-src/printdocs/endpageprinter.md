@@ -90,10 +90,7 @@ When a page in a spooled file exceeds approximately 350 MB, it can fail to print
 </dt> <dt>
 
 [**EndDocPrinter**](enddocprinter.md)
-</dt> <dt>
-
-[**EndPagePrinter**](endpageprinter.md)
-</dt> <dt>
+</dt>  <dt>
 
 [**OpenPrinter**](openprinter.md)
 </dt> <dt>

@@ -1134,11 +1134,7 @@ The **Win32_Processor** class is derived from [**CIM_Processor**](cim-processor.
 
 ## Examples
 
-The [WMI Information Retriever](https://Gallery.TechNet.Microsoft.Com/e493376c-1286-456b-bd4b-4ac3b0e9bb45) VBScript code example on the TechNet Gallery uses the [**Win32_ComputerSystemProcessor**](win32-computersystemprocessor.md) class to retrieve processor information from a number of remote computers.
-
-The [Get-ComputerInfo - Query Computer Info From Local/Remote Computers - (WMI)](https://Gallery.TechNet.Microsoft.Com/Get-ComputerInfo-Query-23dd6042) PowerShell sample on TechNet Gallery uses a number of calls to hardware and software, including [**Win32_ComputerSystemProcessor**](win32-computersystemprocessor.md), to display information about a local or remote system.
-
-The [Multithreaded System Asset Gathering with Powershell](https://Gallery.TechNet.Microsoft.Com/Multithreaded-System-Asset-856a8f7c) PowerShell example on TechNet gallery uses a number of classes, including [**Win32_ComputerSystemProcessor**](win32-computersystemprocessor.md), to retrieve data from a system.
+The "Multithreaded System Asset Gathering with PowerShell" PowerShell sample uses a number of classes, including [**Win32_ComputerSystemProcessor**](win32-computersystemprocessor.md), to retrieve data from a system.
 
 The following VBScript code example retrieves data about the operating system version and the processor it is running on from **Win32_Processor**, [**Win32_ComputerSystem**](win32-computersystem.md), and [**Win32_OperatingSystem**](win32-operatingsystem.md). This example requires Windows Vista or later.
 

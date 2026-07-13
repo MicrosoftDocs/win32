@@ -3,7 +3,7 @@ description: Provides a list of steps on how to retrieve part of a WMI instance 
 ms.assetid: 6cc26b26-adc9-4a8a-b51e-9db94eb4295f
 ms.tgt_platform: multiple
 title: Retrieving Part of a WMI Instance
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

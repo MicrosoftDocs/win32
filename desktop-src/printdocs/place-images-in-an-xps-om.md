@@ -2,7 +2,7 @@
 description: Describes how to place images in an XPS OM.
 ms.assetid: 4c7e3630-7331-47d7-91cc-da3cc2b7f8c9
 title: Place Images in an XPS OM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -252,7 +252,7 @@ CreateRectanglePath(
 [XPS Document API Reference](xps-programming-reference.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
+[XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 </dt> </dl>
 
  

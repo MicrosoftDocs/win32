@@ -45,7 +45,3 @@ Renders part or all of the given sprite batch to the device context using the sp
 
 [**ID2D1DeviceContext3**](/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1devicecontext3)
 </dt> </dl>
-
-�
-
-�

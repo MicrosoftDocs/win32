@@ -9,7 +9,7 @@ keywords:
 - modelview matrix
 - monitors
 - motion blurring
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

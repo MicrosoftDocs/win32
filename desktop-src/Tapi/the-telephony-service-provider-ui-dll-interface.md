@@ -2,7 +2,7 @@
 description: In Microsoft Telephony, telephony service providers execute in a separate process from telephony applications.
 ms.assetid: ccc40d3c-6764-469a-baac-fa625d664ea7
 title: The Telephony Service Provider UI DLL Interface
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

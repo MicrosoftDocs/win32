@@ -2,7 +2,7 @@
 description: Event notification is the primary means by which an application gets information from TAPI and the service providers.
 ms.assetid: 02160f10-dc3f-484c-9cd3-bcfb07ded822
 title: Event Notification
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

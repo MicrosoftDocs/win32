@@ -368,7 +368,7 @@ For more detailed information, see the [**SIO_QUERY_WFP_CONNECTION_REDIRECT_RECO
 
 ### SIO\_RCVALL (opcode setting: I, T==3)
 
-Enables a socket to receive all IPv4 or IPv6 packets passing throuigh a network interface. The socket handle passed to the [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) function must be one of the following:
+Enables a socket to receive all IPv4 or IPv6 packets passing through a network interface. The socket handle passed to the [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) function must be one of the following:
 
 -   An IPv4 socket that was created with the address family set to AF\_INET, the socket type set to SOCK\_RAW, and the protocol set to IPPROTO\_IP.
 -   An IPv6 socket that was created with the address family set to AF\_INET6, the socket type set to SOCK\_RAW, and the protocol set to IPPROTO\_IPV6.
@@ -516,6 +516,10 @@ It is recommend that the Component Object Model (COM) be used instead of this IO
 ### SIO\_UDP\_CONNRESET (opcode setting: I, T==3)
 
 **Windows XP:** Controls whether UDP PORT\_UNREACHABLE messages are reported. Set to **TRUE** to enable reporting. Set to **FALSE** to disable reporting.
+
+### SIO_UDP_NETRESET
+
+Controls whether **NET_UNREACHABLE** (TTL expired) messages are reported on UDP sockets via recv/WSARecv/etc. Pass **TRUE** in input buffer to enable (default if supported). Pass **FALSE** to disable reporting.
 
 ### SIO\_SET\_WFP\_CONNECTION\_REDIRECT\_RECORDS (opcode setting: I, T==3)
 

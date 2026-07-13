@@ -3,7 +3,7 @@ description: A property provider uses the IWbemPropertyProvider methods as the p
 ms.assetid: d08c2ca4-9f8a-4a27-80fc-688d7c56f5eb
 ms.tgt_platform: multiple
 title: Implementing the Primary Interface for a Property Provider
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

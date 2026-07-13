@@ -22,7 +22,7 @@ To set this attribute, call [**IMFAttributes::SetUINT64**](/windows/desktop/api/
 
 ## Remarks
 
-This attribute is used with the [**IMFMediaEngineClassFactory::CreateInstance**](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance) method to initialize the Media Engine.
+This attribute is used with the [**IMFMediaEngineClassFactory::CreateInstance**](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineclassfactory-createinstance) method to initialize the Media Engine.  Using this attribute will put MediaEngine into a legacy HWND mode and prevent it from transitioning to the [DirectComposition](/windows/win32/directcomp/directcomposition-portal) mode with the [**IMFMediaEngineEx::EnableWindowlessSwapchainMode**](/windows/desktop/api/mfmediaengine/nf-mfmediaengine-imfmediaengineex-enablewindowlessswapchainmode) method.  Consider using the [MF\_MEDIA\_ENGINE\_OPM\_HWND](mf-media-engine-opm-hwnd.md) attribute instead.
 
 ## Requirements
 

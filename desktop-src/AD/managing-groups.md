@@ -5,7 +5,7 @@ ms.assetid: 92e3800c-1e63-46cb-8b1b-bad8557ee311
 ms.tgt_platform: multiple
 keywords:
 - Active Directory, using, groups
-ms.topic: article
+ms.topic: concept-article
 ms.date: 04/18/2023
 ---
 

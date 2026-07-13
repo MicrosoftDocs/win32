@@ -5,7 +5,7 @@ ms.assetid: b08faccf-c92d-4537-a5f9-60cbd8922c08
 keywords:
 - video compression manager (VCM),about
 - VCM (video compression manager),about
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

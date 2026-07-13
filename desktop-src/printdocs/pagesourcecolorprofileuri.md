@@ -2,7 +2,7 @@
 description: Get information about the PageSourceColorProfileURI parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 25c3c70f-20e3-4e44-9c59-bb66b4bd14d9
 title: PageSourceColorProfileURI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

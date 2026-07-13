@@ -4,7 +4,7 @@ description: List of new functionality introduced by different versions of Task 
 ms.assetid: 43fbbbd2-6e97-4ba5-9474-23c5e2b33612
 keywords:
 - Task Scheduler Task Scheduler , what's new
-ms.topic: article
+ms.topic: whats-new
 ms.date: 05/31/2018
 ---
 

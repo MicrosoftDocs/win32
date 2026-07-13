@@ -2,7 +2,7 @@
 title: VML AccentBar Attribute
 description: VML AccentBar Attribute
 ms.assetid: 83eefbce-b6e0-4800-a005-c61ce0994490
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Not supported in Windows 7 and later. Specifies what control to use in the query builder.
 ms.assetid: 7d79c2fe-c63d-4ac5-8dd6-1a6103e53245
 title: queryControl
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -85,7 +85,7 @@ If there are multiple elements, the last one is used. If no [queryControl]() ele
 <tbody>
 <tr class="odd">
 <td>Default</td>
-<td>Default. Uses the default control, based upon the \<typeInfo type=&quot;&quot;\> attribute. The default types are listed below. Any other type results in using the &quot;Text&quot; control. 
+<td>Default. Uses the default control, based upon the &lt;typeInfo type=&quot;&quot;&gt; attribute. The default types are listed below. Any other type results in using the &quot;Text&quot; control. 
 <table>
 <thead>
 <tr class="header">

@@ -12,7 +12,7 @@ keywords:
 - DRM Client Extended APIs,creating licenses locally
 - Client Extended APIs,creating licenses locally
 - licenses,creating licenses locally
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

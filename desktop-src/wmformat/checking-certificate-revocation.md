@@ -20,7 +20,7 @@ keywords:
 - DRM Client Extended APIs,revocation of certificates
 - Client Extended APIs,revocation of certificates
 - certificates,revocation
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

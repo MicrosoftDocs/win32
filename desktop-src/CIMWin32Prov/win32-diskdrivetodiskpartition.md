@@ -85,10 +85,6 @@ The **Win32\_DiskDriveToDiskPartition** class is derived from [**CIM\_MediaPrese
 
 For a discussion on how to use this class, see the [Use PowerShell to Map Disk Drives and Partitions](https://devblogs.microsoft.com/scripting/use-powershell-to-map-disk-drives-and-partitions/) and the [How Can I Correlate Logical Drives and Physical Disks?](https://devblogs.microsoft.com/scripting/how-can-i-correlate-logical-drives-and-physical-disks/) blog articles.
 
-## Examples
-
-The [Use Powershell to Gather Disk/Partition/Mount Point Information](https://Gallery.TechNet.Microsoft.Com/Use-Powershell-to-Gather-b5c746d0) PowerShell sample uses **Win32\_DiskDriveToDiskPartition** to return information about local disks/partitions and mount points.
-
 ## Requirements
 
 

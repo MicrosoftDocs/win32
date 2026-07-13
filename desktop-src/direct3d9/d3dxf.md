@@ -2,7 +2,7 @@
 description: X file format, load, and save options.
 ms.assetid: 813a2b4b-6577-4cdf-a2e6-e06870638354
 title: D3DXF
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

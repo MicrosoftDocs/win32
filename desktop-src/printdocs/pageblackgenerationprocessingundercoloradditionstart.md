@@ -2,7 +2,7 @@
 title: PageBlackGenerationProcessingUnderColorAdditionStart
 description: Review the PageBlackGenerationProcessingUnderColorAdditionStart parameter. This topic isn't current. For current information, see the Print Schema Specification.
 ms.assetid: 6c2a7bb5-436d-40ed-a855-242a6a04bc16
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

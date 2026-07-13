@@ -3,7 +3,7 @@ title: Session-to-Session Activation with a Session Moniker
 description: Session-to-session activation (also called cross-session activation) allows a client process to start (activate) a local server process on a specified session.
 ms.assetid: d405c276-040b-4cde-aeb2-482a25e2867f
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

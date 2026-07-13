@@ -2,7 +2,7 @@
 title: BITS Compact Server
 description: The Background Intelligent Transfer Service (BITS) Compact Server is a stand-alone HTTP/HTTPS file server that provides the ability to transfer a limited number of large files asynchronously between computers.
 ms.assetid: ab4cf901-6d93-433c-b1b2-ffa54d10725c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Name Property (Characters Object)
 description: Learn about the Name property of the Characters object. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: 'vs|msagent|~\pacontrol_2bxm.htm'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

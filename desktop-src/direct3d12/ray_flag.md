@@ -1,15 +1,15 @@
 ---
 description: Flags passed to the TraceRay function to override transparency, culling, and early-out behavior.
-ms.assetid: 
+ms.assetid:
 title: RAY_FLAG enumeration
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
+api_name:
 - RAY_FLAG
-api_type: 
+api_type:
 - NA
 ---
 
@@ -34,7 +34,7 @@ enum RAY_FLAG : uint
     RAY_FLAG_CULL_NON_OPAQUE                 = 0x80,
     RAY_FLAG_SKIP_TRIANGLES                  = 0x100,
     RAY_FLAG_SKIP_PROCEDURAL_PRIMITIVES      = 0x200,
-}; 
+};
 ```
 
 
@@ -72,8 +72,8 @@ This flag is mutually exclusive with RAY\_FLAG\_FORCE_\OPAQUE, RAY\_FLAG\_CULL\_
 <span id="RAY_FLAG_ACCEPT_FIRST_HIT_AND_END_SEARCH"></span><span id="ray_flag_accept_first_hit_and_end_search"></span>**RAY\_FLAG\_ACCEPT\_FIRST\_HIT\_AND\_END\_SEARCH**
 </dt> <dd>
 
-The first ray-primitive intersection encountered in a raytrace automatically causes **AcceptHitAndEndSearch** to be called immediately after the any hit shader, including if there is no any hit shader. 
- 
+The first ray-primitive intersection encountered in a raytrace automatically causes **AcceptHitAndEndSearch** to be called immediately after the any hit shader, including if there is no any hit shader.
+
 The only exception is when the preceding any hit shader calls **IgnoreHit**, in which case the ray continues unaffected such that the next hit becomes another candidate to be the first hit.  For this exception to apply, the any hit shader has to actually be executed.  So if the any hit shader is skipped because the hit is treated as opaque (e.g. due to RAY\_FLAG\_FORCE\_OPAQUE or D3D12\_RAYTRACING\_GEOMETRY\_FLAG\_OPAQUE or D3D12\_RAYTRACING\_INSTANCE\_FLAG\_OPAQUE being set), then **AcceptHitAndEndSearch** is called.
 
 If a closest hit shader is present at the first hit, it gets invoked unless RAY\_FLAG\_SKIP\_CLOSEST\_HIT\_SHADER is also present.  The one hit that was found is considered “closest”, even though other potential hits that might be closer on the ray may not have been visited.
@@ -86,7 +86,7 @@ A typical use for this flag is for shadows, where only a single hit needs to be 
 <span id="RAY_FLAG_SKIP_CLOSEST_HIT_SHADER"></span><span id="ray_flag_skip_closest_hit_shader"></span>**RAY\_FLAG\_SKIP\_CLOSEST\_HIT\_SHADER**
 </dt> <dd>
 
-Even if at least one hit has been committed, and the hit group for the closest hit contains a closest hit shader, skip execution of that shader. 
+Even if at least one hit has been committed, and the hit group for the closest hit contains a closest hit shader, skip execution of that shader.
 
 </dd> <dt>
 
@@ -99,7 +99,7 @@ On instances that specify D3D12\_RAYTRACING\_INSTANCE\_FLAG\_TRIANGLE\_CULL\_DIS
 
 On geometry types other than D3D12\_RAYTRACING\_GEOMETRY\_TYPE\_TRIANGLES, this flag has no effect.
 
-This flag is mutually exclusive with RAY\_FLAG\_CULL\_FRONT\_FACING\_TRIANGLES.
+This flag is mutually exclusive with RAY\_FLAG\_CULL\_FRONT\_FACING\_TRIANGLES and RAY\_FLAG\_SKIP\_TRIANGLES.
 
 
 </dd> <dt>
@@ -113,7 +113,7 @@ On instances that specify D3D12\_RAYTRACING\_INSTANCE\_FLAG\_TRIANGLE\_CULL\_DIS
 
 On geometry types other than D3D12\_RAYTRACING\_GEOMETRY\_TYPE\_TRIANGLES, this flag has no effect.
 
-This flag is mutually exclusive with RAY\_FLAG\_CULL\_BACK\_FACING\_TRIANGLES.
+This flag is mutually exclusive with RAY\_FLAG\_CULL\_BACK\_FACING\_TRIANGLES and RAY\_FLAG\_SKIP\_TRIANGLES.
 
 
 </dd> <dt>
@@ -134,6 +134,32 @@ This flag is mutually exclusive with RAY\_FLAG\_FORCE\_OPAQUE, RAY\_FLAG\_FORCE\
 Culls all primitives that are considered non-opaque based on their geometry and instance flags.
 
 This flag is mutually exclusive with RAY\_FLAG\_FORCE\_OPAQUE, RAY\_FLAG\_FORCE\_NON\_OPAQUE, and RAY\_FLAG\_CULL\_OPAQUE.
+
+
+</dd> <dt>
+
+<span id="RAY_FLAG_SKIP_TRIANGLES"></span><span id="ray_flag_skip_triangles"></span>**RAY\_FLAG\_SKIP\_TRIANGLES**
+</dt> <dd>
+
+Culls all triangles.
+
+This flag is mutually exclusive to RAY\_FLAG\_CULL\_FRONT\_FACING\_TRIANGLES, RAY\_FLAG\_CULL\_BACK\_FACING\_TRIANGLES and RAY\_FLAG\_SKIP\_PROCEDURAL\_PRIMITIVES.
+
+If instances specify D3D12\_RAYTRACING\_INSTANCE\_FLAG\_TRIANGLE\_CULL\_DISABLE it has no effect, as that flag is meant for disabling front or back culling only. In other words RAY\_FLAG\_SKIP\_TRIANGLES cannot be overruled.
+
+This flag is only supported as of Tier 1.1 implementations.
+
+
+</dd> <dt>
+
+<span id="RAY_FLAG_SKIP_PROCEDURAL_PRIMITIVES"></span><span id="ray_flag_skip_procedural_primitives"></span>**RAY\_FLAG\_SKIP\_PROCEDURAL\_PRIMITIVES**
+</dt> <dd>
+
+Culls all procedural primitives.
+
+This flag is mutually exclusive to RAY\_FLAG\_SKIP\_TRIANGLES.
+
+This flag is only supported as of Tier 1.1 implementations.
 
 
 </dd>

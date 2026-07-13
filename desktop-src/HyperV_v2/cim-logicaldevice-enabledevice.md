@@ -15,8 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# EnableDevice method of the CIM\_LogicalDevice class
-
+# EnableDevice method of the CIM\_LogicalDevice class (Hyper-V)
 The EnableDevice method has been deprecated in lieu of the more general RequestStateChange method that directly overlaps with the functionality provided by this method.
 
 Requests that the LogicalDevice be enabled ("Enabled" input parameter = TRUE) or disabled (= FALSE). If successful, the Device's StatusInfo/EnabledState properties should reflect the desired state (enabled/disabled). Note that this method's function overlaps with the RequestedState property. RequestedState was added to the model to maintain a record (i.e., a persisted value) of the last state request. Invoking the EnableDevice method should set the RequestedState property appropriately.

@@ -3,7 +3,7 @@ title: Events (Windows Remote Management)
 description: The Event Collector service uses the WS-Management protocol to collect events from remote computers.
 ms.assetid: 5c8e0559-c576-4ac6-b636-c4a6fc399c9f
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

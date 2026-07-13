@@ -2,7 +2,7 @@
 title: Query Schema Complex Types
 description: The following are the complex types that the Query schema defines.
 ms.assetid: c18f5293-5945-4ebf-a1b2-ea99f0503f6d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

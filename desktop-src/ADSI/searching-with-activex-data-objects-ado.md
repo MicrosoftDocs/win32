@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - ActiveX Data Objects ADSI , Searching with ADO
 - Searching with ActiveX Data Objects ADSI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

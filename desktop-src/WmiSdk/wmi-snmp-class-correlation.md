@@ -3,7 +3,7 @@ description: Correlation affects the set of classes returned from the SMIR.
 ms.assetid: 799a0866-e7a0-492f-956e-b13bf591babe
 ms.tgt_platform: multiple
 title: WMI SNMP Class Correlation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

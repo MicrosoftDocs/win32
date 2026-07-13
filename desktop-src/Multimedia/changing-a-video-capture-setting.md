@@ -5,7 +5,7 @@ ms.assetid: a5fe7e1e-084d-4102-91d4-ffe5d1d0e5c8
 keywords:
 - capCaptureGetSetup macro
 - capCaptureSetSetup macro
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

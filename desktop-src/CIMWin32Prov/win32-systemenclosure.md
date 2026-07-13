@@ -1200,7 +1200,7 @@ The **Win32\_SystemEnclosure** class is derived from [**CIM\_Chassis**](cim-chas
 
 ## Examples
 
-The [Multithreaded System Asset Gathering with Powershell](https://Gallery.TechNet.Microsoft.Com/Multithreaded-System-Asset-856a8f7c) PowerShell example on TechNet gallery uses a number of classes, including **Win32\_SystemEnclosure**, to retrieve data from a system.
+The "Multithreaded System Asset Gathering with PowerShell" PowerShell sample uses a number of classes, including **Win32\_SystemEnclosure**, to retrieve data from a system.
 
 ## Requirements
 

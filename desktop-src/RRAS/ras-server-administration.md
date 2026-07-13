@@ -5,7 +5,7 @@ ms.assetid: 0b517c4d-dcae-477b-b274-c3773bd172ef
 keywords:
 - Server Administration, RAS
 - Administration, RAS Server
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

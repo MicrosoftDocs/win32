@@ -18,7 +18,7 @@ api_location:
 
 # SetIPXVirtualNetworkNumber method of the Win32\_NetworkAdapterConfiguration class
 
-Sets the Internetworking Packet Exchange (IPX) virtual network number on the target computer system. Windows 2000 and Windows NT 3.51 or greater uses an internal network number for internal routing. The internal network number is also known as a virtual network number. It uniquely identifies the computer system on the network. The method returns an integer value that can be interpretted as follows:
+Sets the Internetworking Packet Exchange (IPX) virtual network number on the target computer system. Windows 2000 and Windows NT 3.51 or greater uses an internal network number for internal routing. The internal network number is also known as a virtual network number. It uniquely identifies the computer system on the network. The method returns an integer value that can be interpreted as follows:
 
 ## Syntax
 

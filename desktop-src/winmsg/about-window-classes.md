@@ -2,8 +2,8 @@
 description: Each window class has an associated window procedure shared by all windows of the same class. The window procedure processes messages for all windows of that class and therefore controls their behavior and appearance.
 ms.assetid: db79fd4b-6a15-4bf9-a0d9-5f6415f6c75f
 title: About Window Classes
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # About Window Classes
@@ -154,7 +154,7 @@ Although a complete window class consists of many elements, the system requires 
 
 ### Class Name
 
-Every window class needs a [Class Name](#class-name) to distinguish one class from another. Assign a class name by setting the **lpszClassName** member of the [**WNDCLASSEX**](/windows/win32/api/winuser/ns-winuser-wndclassexa) structure to the address of a null-terminated string that specifies the name. Because window classes are process specific, window class names need to be unique only within the same process. Also, because class names occupy space in the system's private atom table, you should keep class name strings as short a possible.
+Every window class needs a [Class Name](#class-name) to distinguish one class from another. Assign a class name by setting the **lpszClassName** member of the [**WNDCLASSEX**](/windows/win32/api/winuser/ns-winuser-wndclassexa) structure to the address of a null-terminated string that specifies the name. Because window classes are process specific, window class names need to be unique only within the same process. Also, because class names occupy space in the system's private atom table, you should keep class name strings as short as possible.
 
 The [**GetClassName**](/windows/win32/api/winuser/nf-winuser-getclassname) function retrieves the name of the class to which a given window belongs.
 

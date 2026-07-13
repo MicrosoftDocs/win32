@@ -2,7 +2,7 @@
 title: Animation Timer Interfaces
 description: This section contains the reference specifications for the Windows Animation Manager interfaces that support animation timers.
 ms.assetid: 2D9D33C6-33EF-4C15-B156-F7486EC546AC
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

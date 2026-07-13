@@ -2,7 +2,7 @@
 title: Data Notification
 description: Objects that consume data from an external source sometimes need to be informed when data in that source changes.
 ms.assetid: 286a1ecf-5255-4443-a17d-5ffa55ed0be1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -30,7 +30,7 @@ The [**IAdviseSink**](/windows/desktop/api/ObjIdl/nn-objidl-iadvisesink) interfa
 
 As the table indicates, the [**IAdviseSink**](/windows/desktop/api/ObjIdl/nn-objidl-iadvisesink) interface exposes methods for notifying the advise sink of events other than changes in the calling object's data. The calling object can also notify the sink when the way in which it draws itself changes, or it is renamed, saved, or closed. These other notifications are used mainly or entirely in the context of compound documents, although the notification mechanism is identical. For more information on compound-document notifications, see "Compound Documents."
 
-In order to take advantage of the advise sink, a data source must implement [**IDataObject::DAdvise**](/windows/desktop/api/ObjIdl/nf-objidl-idataobject-dadvise), [**IDataObject::DUnadvise**](/windows/desktop/api/ObjIdl/nf-objidl-idataobject-dunadvise), and [**IDataObject::EnumDAdvise**](/windows/desktop/api/ObjIdl/nf-objidl-idataobject-enumdadvise). A data consumer calls the **DAdvise** mothod to notify a data object that it wishes to be notified when the object's data changes. The consuming object calls the **DUnadvise** method to tear down this connection. Any interested party can call the **EnumDAdvise** method to learn the number of objects having an advisory connection with a data object.
+In order to take advantage of the advise sink, a data source must implement [**IDataObject::DAdvise**](/windows/desktop/api/ObjIdl/nf-objidl-idataobject-dadvise), [**IDataObject::DUnadvise**](/windows/desktop/api/ObjIdl/nf-objidl-idataobject-dunadvise), and [**IDataObject::EnumDAdvise**](/windows/desktop/api/ObjIdl/nf-objidl-idataobject-enumdadvise). A data consumer calls the **DAdvise** method to notify a data object that it wishes to be notified when the object's data changes. The consuming object calls the **DUnadvise** method to tear down this connection. Any interested party can call the **EnumDAdvise** method to learn the number of objects having an advisory connection with a data object.
 
 When data changes at the source, the data object calls [**IAdviseSink::OnDataChange**](/windows/desktop/api/ObjIdl/nf-objidl-iadvisesink-ondatachange) on all data consumers that have registered to receive notifications. To keep track of advisory connections and manage the dispatch of notifications, data sources rely on an object called a *data advise holder*. You can create your own data advise holder by implementing the [**IDataAdviseHolder**](/windows/desktop/api/ObjIdl/nn-objidl-idataadviseholder) interface. Or, you can let COM do it for you by calling the helper function [**CreateDataAdviseHolder**](/windows/win32/api/ole2/nf-ole2-createdataadviseholder).
 

@@ -2,7 +2,7 @@
 description: Direct3D 10 supports several different floating-point representations. All floating-point computations operate under a defined subset of the IEEE 754 32-bit single precision floating-point behavior.
 ms.assetid: 57221d13-8993-4db3-b1a0-88bdcf6f0167
 title: FFloating-point rules (Direct3D 10)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

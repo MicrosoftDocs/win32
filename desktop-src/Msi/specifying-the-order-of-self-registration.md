@@ -2,7 +2,7 @@
 description: Note that you cannot specify the order in which the installer registers or unregisters self-registering DLLs by using the SelfRegModules and SelfUnRegModules actions.
 ms.assetid: 46ee5ea2-35fd-4352-8a45-572d6fb5e080
 title: Specifying the Order of Self Registration
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

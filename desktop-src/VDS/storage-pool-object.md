@@ -2,7 +2,7 @@
 description: A storage pool object models a storage pool in a storage subsystem.
 ms.assetid: a6104742-3ef9-4570-9728-3e6580953117
 title: Storage Pool Object
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

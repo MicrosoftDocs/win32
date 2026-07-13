@@ -2,7 +2,7 @@
 description: The numerator of PKEY\_Photo\_FocalLength.
 ms.assetid: 32c40f4e-a19f-4a61-bc6e-01c891187c68
 title: System.Photo.FocalLengthNumerator
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

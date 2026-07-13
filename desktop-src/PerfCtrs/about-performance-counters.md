@@ -2,8 +2,8 @@
 description: Counters are used to provide information as to how well the operating system or an application, service, or driver is performing.
 ms.assetid: d172a131-61d3-4fc1-8e0c-b07b2bd34f80
 title: About Performance Counters
-ms.topic: article
-ms.date: 08/17/2020
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # About Performance Counters
@@ -55,7 +55,7 @@ Instance names should normally be unique within a sample, i.e. a provider should
 
 > [!NOTE]
 > For backwards-compatibility reasons, the "Process" counterset returns non-unique instance names based on the EXE filename. This can cause confusing results, especially when a process with a non-unique name starts up or shuts down, as this will typically result in data glitches due to incorrect matching of instance names between samples. Consumers of the "Process" counterset must be able to tolerate these non-unique instance names and the resulting data glitches.
-> In Windows 10 20H2 and later, you can use the `Process V2` counterset to avoid this problem.
+> In Windows 11 and later, you can use the `Process V2` counterset to avoid this problem.
 
 Instance names must be stable across samples, i.e. a provider should use the same instance name for the same entity each time the counterset is collected.
 

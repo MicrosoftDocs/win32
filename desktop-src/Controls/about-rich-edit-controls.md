@@ -2,7 +2,7 @@
 title: About Rich Edit Controls
 description: This section introduces rich edit controls.
 ms.assetid: ab9dcdf4-a311-4159-8f37-e67e144f31f6
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -320,17 +320,13 @@ Rich edit controls support the following shortcut keys.
 | Alt+Esc                   | Change the active application.                                                                                                           |                                                                                                                                                                                                                                |
 | Alt+X                     | Converts the Unicode hexadecimal value preceding the insertion point to the corresponding Unicode character.                             |                                                                                                                                                                                                                                |
 | Alt+Shift+X               | Converts the Unicode character preceding the insertion point to the corresponding Unicode hexadecimal value.                             |                                                                                                                                                                                                                                |
-| Alt+0xxx (Number Pad)     | Inserts Unicode values if xxx is greater than 255. When xxx is less than 256, ASCI range text is inserted based on the current keyboard. | Must enter decimal values.                                                                                                                                                                                                     |
+| Alt+0xxx (Number Pad)     | Values below 256 insert a character from the ANSI code page (based on input locale). Values above 255 insert a Unicode character.        | Must enter decimal values.                                                                                                                                                                                                     |
 | Alt+Shift+Ctrl+F12        | Hex to Unicode.                                                                                                                          | In case Alt+X is already taken for another use.                                                                                                                                                                                |
 | Alt+Shift+Ctrl+F11        | Selected text will be output to the debugger window and saved to %temp%\\DumpFontInfo.txt.                                               | For Debug only (need to set Flag=8 in Win.ini)                                                                                                                                                                                 |
 | Ctrl+Shift+A              | Set all caps.                                                                                                                            |                                                                                                                                                                                                                                |
 | Ctrl+Shift+L              | Fiddle bullet style.                                                                                                                     |                                                                                                                                                                                                                                |
 | Ctrl+Shift+Right Arrow    | Increase font size.                                                                                                                      | Font size changes by 1 point in the range 4pt-11pt; by 2points for 12pt-28pt; it changes from 28pt -> 36pt -> 48pt -> 72pt -> 80pt; it changes by 10 points in the range 80pt - 1630pt; the maximum value is 1638. |
 | Ctrl+Shift+Left Arrow     | Decrease font size.                                                                                                                      | See Ctrl+Shift+Right Arrow comments.                                                                                                                                                                                           |
-
-
-
- 
 
 ## Related topics
 

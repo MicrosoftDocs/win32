@@ -2,7 +2,7 @@
 description: The global and local functions are supported for porting from 16-bit code, or for maintaining source code compatibility with 16-bit Windows.
 ms.assetid: 97707ce7-4c65-4d0e-ba69-47fdaee73a9b
 title: Global and Local Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

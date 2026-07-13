@@ -3,7 +3,7 @@ title: Working With a State Server
 description: NPS performs authentication using a database that is configured at the NPS server site.
 ms.assetid: 8313ba91-5ed1-44d0-80db-cfb82c641100
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

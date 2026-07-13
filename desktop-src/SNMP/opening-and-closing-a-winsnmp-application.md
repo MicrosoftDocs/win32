@@ -2,7 +2,7 @@
 title: Opening and Closing a WinSNMP Application
 description: The WinSNMP application must call the SnmpStartup function successfully before it calls any other WinSNMP function.
 ms.assetid: ff2b99c9-c2fd-4bb7-8fd5-799e72c4560d
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

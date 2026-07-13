@@ -2,7 +2,7 @@
 description: Structures used in disk management.
 ms.assetid: dd55c570-68b5-4dc5-9fd0-a6e3277c318b
 title: Disk Management Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

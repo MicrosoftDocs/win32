@@ -5,8 +5,8 @@ ms.assetid: A0F82968-F434-4F5E-8052-CF7CE65DB120
 keywords:
 - UI Automation, Windowless ActiveX control
 - Windowless ActiveX control, UI Automation
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: how-to
+ms.date: 07/14/2025
 ---
 
 # Host a UI Automation Windowless ActiveX Control

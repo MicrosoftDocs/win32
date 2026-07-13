@@ -2,7 +2,7 @@
 description: Read about the System.PropGroup.GPS property. Do not use this property for getting or setting values. It is intended only as a marker.
 ms.assetid: bdc3d22c-d055-47f7-86ad-6e050608ad12
 title: System.PropGroup.GPS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

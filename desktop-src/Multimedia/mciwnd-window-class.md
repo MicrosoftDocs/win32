@@ -5,7 +5,7 @@ ms.assetid: '473ec6dc-f3a3-430e-83bc-642f476e45af'
 keywords:
 - MCIWnd window class,about
 - MCIWnd window,window class
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 title: Highlights and shadows effect
 description: Adjusts the highlights and shadows of the image.
 ms.assetid: ebbb7d99-9144-ffff-af73-d89e7d269924
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

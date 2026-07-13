@@ -2,7 +2,7 @@
 description: This topic discusses how an application connects to a peer group using the Peer Grouping APIs.
 ms.assetid: 56fa28d8-3b3a-4cd5-8448-c8c4ce8d0b2c
 title: How to Connect to a Peer Group
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

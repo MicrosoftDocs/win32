@@ -2,7 +2,7 @@
 description: Windows GDI+ provides several classes that form the foundation for drawing text.
 ms.assetid: 12bc38c3-5fbc-4d7b-902c-92a5f5057473
 title: Using Text and Fonts
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

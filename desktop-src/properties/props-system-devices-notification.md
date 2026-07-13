@@ -2,7 +2,7 @@
 description: Device notification.
 ms.assetid: 3030789d-92cc-4ca3-b760-a312729e3e54
 title: System.Devices.Notification
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

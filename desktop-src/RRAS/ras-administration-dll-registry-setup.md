@@ -4,7 +4,7 @@ description: Understand the requirements for registering a third-party remote ac
 ms.assetid: e83a5e37-a39d-4465-abc9-653cdd56893b
 keywords:
 - RAS Administration RRAS , DLL registry setup
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

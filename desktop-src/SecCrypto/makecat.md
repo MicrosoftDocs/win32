@@ -2,7 +2,7 @@
 description: A CryptoAPI tool that creates a catalog file.
 ms.assetid: 233b3644-f2a5-4166-bac0-30bf2f54e957
 title: MakeCat
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

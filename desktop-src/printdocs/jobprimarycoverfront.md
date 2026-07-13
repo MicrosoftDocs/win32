@@ -2,7 +2,7 @@
 description: Learn about the JobPrimaryCoverFront element, which describes the front cover sheet. The entire job will have a single primary sheet. 
 ms.assetid: 270b16f6-677c-430a-aa69-1b5c6dfd3ba4
 title: JobPrimaryCoverFront
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -69,7 +69,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the `https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords` namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Feature name="psk:JobPrimaryCoverFront">

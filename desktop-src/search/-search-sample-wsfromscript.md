@@ -2,7 +2,7 @@
 description: The WSFromScript code sample demonstrates how to query Windows Search from a Microsoft Visual Basic script using Microsoft ActiveX Data Objects (ADO).
 ms.assetid: 93ee63f2-ab05-478a-99d0-4f4d09c11506
 title: WSFromScript
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle
@@ -29,7 +29,7 @@ This topic contains the following sections.
 | Windows     | Windows 7, 8.1, or 10    |
 | Windows SDK | 7.0 or greater           |
 
-## Downloading the Sample
+## Downloading the sample
 
 This sample is available in the following location.
 
@@ -40,7 +40,7 @@ This sample is available in the following location.
 > [!NOTE]  
 > For all versions of Windows, including Windows 7, it is recommended to download the samples directly from GitHub for the most up to date version.
 
-## Building the Sample
+## Building the sample
 
 To build the sample from the Command Prompt window:
 
@@ -53,6 +53,6 @@ To build the sample from the Command Prompt window:
 
 [**VBScript Language Reference**](/previous-versions/d1wf56tt(v=vs.71))
 
-### Other Samples
+### Other samples
 
 [Search Code Samples](-search-samples-ovw.md)

@@ -5,7 +5,7 @@ ms.assetid: 967be1e5-a9a2-45cc-aae7-c33cc257ade1
 keywords:
 - OpenGL processing pipeline,stencil test
 - stencil test OpenGL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

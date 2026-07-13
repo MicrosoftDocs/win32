@@ -2,7 +2,7 @@
 title: Packaging and deployment tools and PowerShell cmdlets
 description: Describes how to use app packaging tools and cmdlets to create, deploy, and inventory app packages for Windows apps.
 ms.assetid: 8D1750C3-0816-4C59-8145-98AA1DCFE050
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

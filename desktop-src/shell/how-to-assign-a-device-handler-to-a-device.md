@@ -1,7 +1,7 @@
 ---
 description: Illustrates the process for adding a device handler to a device.
 title: How to Assign a Device Handler to a Device
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

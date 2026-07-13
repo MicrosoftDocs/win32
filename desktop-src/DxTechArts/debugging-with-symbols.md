@@ -2,7 +2,7 @@
 title: Debugging with Symbols
 description: This article provides a high level overview of how to best use symbols in your debugging process.
 ms.assetid: 7ce0c9c7-485c-8d72-0353-27fd2e369a7c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -51,7 +51,7 @@ This is the minimum information that is required to allow reliable debugging. Mi
 
 ## Using Symbols for Debugging
 
-When you are debugging an application that has crashed, the debugger attempts to show you the functions on the stack that led up to the crash. Without a PDB file, the debugger can not resolve the function names, their parameters, or any local variables that are stored on the stack. If you debug 32-bit executables, there are situations where you cannot even get reliable stack traces without symbols. Sometimes it's possible to look at the raw values on the stack, and work out which values might be return addresses, but these can be easily confused with function references or data.
+When you are debugging an application that has crashed, the debugger attempts to show you the functions on the stack that led up to the crash. Without a PDB file, the debugger cannot resolve the function names, their parameters, or any local variables that are stored on the stack. If you debug 32-bit executables, there are situations where you cannot even get reliable stack traces without symbols. Sometimes it's possible to look at the raw values on the stack, and work out which values might be return addresses, but these can be easily confused with function references or data.
 
 If functions on the current stack were compiled by using the Omit Frame Pointers (**/Oy**) optimization, and if symbols are not present, the debugger cannot reliably determine which function called the current function. This is because without the Frame Pointer Optimization (FPO) information that PDBs contain, the debugger cannot rely on the frame pointer register (EBP) to point at the saved previous frame pointer and at the return address of the parent function. Instead, it guesses. Sometimes it gets it right. However, it often gets it wrong, which can be misleading. If you see a warning about missing symbols, or no symbols loaded, as in the following example, do not trust the stack from that point down.
 

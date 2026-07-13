@@ -2,7 +2,7 @@
 description: Creates a custom PKCS \#10 request, submits it to a stand-alone certification authority (CA), and installs the issued certificate in the certificate store.
 ms.assetid: dcb69d7e-457e-457b-9eea-15676ed710aa
 title: enrollCustomPKCS10
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Just as tiles can be placed next to each other to cover a floor, rectangular images can be placed next to each other to fill (tile) a shape.
 ms.assetid: c92aa519-647a-4cd9-b88e-b79be0116d05
 title: Tiling a Shape with an Image
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

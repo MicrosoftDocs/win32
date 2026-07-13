@@ -3,7 +3,7 @@ description: Connecting to a WMI namespace on a remote computer may require that
 ms.assetid: 028b3101-0945-4288-bf32-ef4ad12a55f9
 ms.tgt_platform: multiple
 title: Setting up a Remote WMI Connection
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

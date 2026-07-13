@@ -2,7 +2,7 @@
 description: Saving and Loading Topologies
 ms.assetid: 1616d790-9086-4b11-b876-563fb940c2cc
 title: Saving and Loading Topologies
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

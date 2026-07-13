@@ -21,7 +21,7 @@ keywords:
 - vector graphics,instantiating copies of shapes
 - instantiating copies of shapes
 - VML shapes,instantiating
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

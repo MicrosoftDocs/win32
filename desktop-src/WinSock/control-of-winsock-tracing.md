@@ -1,12 +1,12 @@
 ---
-description: Control of Winsock Tracing
+title: Control of Winsock tracing
+description: Control of Winsock tracing
 ms.assetid: b079bdfc-b192-451c-967d-dcefa94b7ec7
-title: Control of Winsock Tracing
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 01/30/2025
 ---
 
-# Control of Winsock Tracing
+# Control of Winsock tracing
 
 Winsock tracing can be controlled by using either of the following methods:
 
@@ -22,7 +22,7 @@ Winsock tracing can be controlled by using either of the following methods:
 
     The Event Viewer on Windows Vista and later can also be used to enable Winsock tracing. The Event Viewer is accessible under the Administrative Tools from the Start menu.
 
-## Using logman and tracert
+## Using logman and tracerpt
 
 Winsock network event tracing is disabled by default on Windows Vista and later.
 
@@ -46,10 +46,8 @@ If an output file containing xml rather than plain text is preferred, the follow
 
 Winsock catalog change tracing is enabled by default on Windows Vista and later.
 
-> [!Note]  
+> [!NOTE]
 > Layered Service Providers are deprecated. Starting with Windows 8 and Windows Server 2012, use [Windows Filtering Platform](../fwp/windows-filtering-platform-start-page.md).
-
- 
 
 The following command starts Winsock Catalog Change tracing for layered service providers (LSPs) on a computer, sets the name of event trace session to mywinsockcatalogsession, and sends output to a binary log file called winsockcataloglogfile.etl:
 
@@ -125,7 +123,3 @@ An Error parameter in the eventdata is returned in some Winsock tracing events. 
 
 [Winsock Tracing Levels](winsock-tracing-levels.md)
 </dt> </dl>
-
- 
-
- 

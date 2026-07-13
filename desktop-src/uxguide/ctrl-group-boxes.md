@@ -2,7 +2,7 @@
 title: Group Boxes
 description: A group box is a labeled rectangular frame that surrounds a set of related controls. A group box is a way to show relationships visually; aside from possibly providing an access key for a group of controls, it provides no functionality.
 ms.assetid: 5b5ffb36-3ed1-44cd-af87-5cddf46c56a6
-ms.topic: article
+ms.topic: reference
 ms.date: 10/20/2020
 ---
 

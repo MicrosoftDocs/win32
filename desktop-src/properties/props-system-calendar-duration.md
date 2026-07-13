@@ -2,7 +2,7 @@
 description: The calendar duration.
 ms.assetid: af76f6fc-3245-461a-9835-1f50cef4fa40
 title: System.Calendar.Duration
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

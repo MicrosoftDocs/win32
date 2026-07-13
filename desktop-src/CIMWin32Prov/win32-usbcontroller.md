@@ -1584,10 +1584,7 @@ You can use the [**Win32\_USBControllerDevice**](win32-usbcontrollerdevice.md) a
 
 ## Examples
 
-The [List USB Controller Information](https://Gallery.TechNet.Microsoft.Com/fc2d92ce-a241-47bf-a5ea-3395d301559e) PowerShell sample returns information about all the USB controllers found on a computer.
-
 The following VBScript sample returns information about all the USB controllers found on a computer.
-
 
 ```VB
 On Error Resume Next 

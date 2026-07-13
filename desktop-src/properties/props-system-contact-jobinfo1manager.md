@@ -2,7 +2,7 @@
 description: System.Contact.JobInfo1Manager
 ms.assetid: 4eccb7d1-d94b-4f26-853a-4d0151a7ec98
 title: System.Contact.JobInfo1Manager
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Monitor system event notifications from programs run on mobile computers to determine the network connection bandwidth and latency. Write optimized applications for mobile computing and high latency LANs.
 ms.assetid: a27386c5-1ab3-448a-88d9-8c9a18599e59
 title: System Event Notification Service
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

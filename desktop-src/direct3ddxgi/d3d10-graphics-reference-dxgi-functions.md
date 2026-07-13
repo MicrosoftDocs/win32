@@ -2,7 +2,7 @@
 description: This section contains info about the functions provided by DXGI.
 ms.assetid: 209d2e65-b118-47a7-aece-fb140fdede3f
 title: DXGI functions
-ms.topic: article
+ms.topic: reference
 ms.date: 04/26/2022
 ---
 

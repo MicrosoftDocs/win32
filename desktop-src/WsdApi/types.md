@@ -1,7 +1,7 @@
 ---
 description: A list of XSD qualified names.
 title: Types element
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

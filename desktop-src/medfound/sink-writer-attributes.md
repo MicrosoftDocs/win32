@@ -2,7 +2,7 @@
 description: Sink Writer Attributes
 ms.assetid: f27b9beb-f35f-400e-a337-50d9de21e91e
 title: Sink Writer Attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -17,6 +17,7 @@ The following attributes can be used to initialize the sink writer.
 | [MF\_LOW\_LATENCY](mf-low-latency.md)                                                     | Enables low-latency processing.                                                                                                                                                                                                    |
 | [MF\_READWRITE\_DISABLE\_CONVERTERS](mf-readwrite-disable-converters.md)                  | Enables or disables format conversions by the sink writer.                                                                                                                                                                         |
 | [MF\_READWRITE\_ENABLE\_HARDWARE\_TRANSFORMS](mf-readwrite-enable-hardware-transforms.md) | Enables the sink writer to use hardware-based Media Foundation transforms (MFTs).                                                                                                                                                  |
+| [MF\_READWRITE\_USE\_ONLY\_HARDWARE\_TRANSFORMS](mf-readwrite-use-only-hardware-transforms.md) | Specifies that the Source Reader or Sink Writer should load only hardware-based Media Foundation transforms (MFTs) that match the passed-in D3D device manager.                                                         |
 | [MF\_SINK\_WRITER\_ASYNC\_CALLBACK](mf-sink-writer-async-callback.md)                     | Contains a pointer to the application's callback interface for the sink writer.                                                                                                                                                    |
 | [MF\_SINK\_WRITER\_DISABLE\_THROTTLING](mf-sink-writer-disable-throttling.md)             | Specifies whether the sink writer limits the rate of incoming data.                                                                                                                                                                |
 | [MF\_TRANSCODE\_CONTAINERTYPE](mf-transcode-containertype.md)                             | Specifies the container type of the output file.                                                                                                                                                                                   |

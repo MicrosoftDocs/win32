@@ -3,7 +3,7 @@ description: Describes how to retrieve a WMI qualifier using Powershell, C#, VBS
 ms.assetid: 53a307da-2e81-4361-876a-16b51484512e
 ms.tgt_platform: multiple
 title: Accessing a WMI qualifier
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -184,11 +184,3 @@ The following procedure describes how to retrieve a qualifier using C++.
 2.  Retrieve the qualifier set for a given property with a call to [**IWbemClassObject::GetPropertyQualifierSet**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-getpropertyqualifierset) or [**IWbemClassObject::GetMethodQualifierSet**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemclassobject-getmethodqualifierset) methods.
 
 3.  Access the qualifiers of the object through the returned [**IWbemQualifierSet**](/windows/desktop/api/Wbemcli/nn-wbemcli-iwbemqualifierset) interface.
-
-## Examples
-
-For more information on retrieving qualifiers, see the [Get-WmiClassMethodsAndWritableWmiProperties](https://Gallery.TechNet.Microsoft.Com/10670e14-4cf1-4ce5-99d0-fc4ca80dac2c) PowerShell code sample on the TechNet Gallery.
-
- 
-
- 

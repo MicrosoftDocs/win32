@@ -5,7 +5,7 @@ ms.assetid: f3963019-9b3a-42d5-a978-484f294110e5
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,using,binding
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

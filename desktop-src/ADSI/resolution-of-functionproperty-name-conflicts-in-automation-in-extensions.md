@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Resolution of Function and Property Name Conflicts in Automation in Extensions
 - extensions ADSI , resolving function and property name conflicts in Automation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

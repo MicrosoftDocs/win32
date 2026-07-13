@@ -14,7 +14,7 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),standard key assignments
 - creating MIDI files,standard patch assignments
 - creating MIDI files,standard key assignments
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

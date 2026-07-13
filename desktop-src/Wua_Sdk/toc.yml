@@ -60,6 +60,8 @@
         href: /windows/win32/api/Wuapi/ne-wuapi-downloadphase
       - name: "DownloadPriority"
         href: /windows/win32/api/Wuapi/ne-wuapi-downloadpriority
+      - name: "DownloadType"
+        href: /windows/win32/api/Wuapi/ne-wuapi-downloadtype
       - name: "InstallationImpact"
         href: /windows/win32/api/Wuapi/ne-wuapi-installationimpact
       - name: "InstallationRebootBehavior"
@@ -719,6 +721,16 @@
             href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloader-get_priority
           - name: "Updates Property"
             href: /windows/desktop/api/Wuapi/nf-wuapi-iupdatedownloader-get_updates
+      - name: "IUpdateDownloaderEx"
+        href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatedownloaderex
+        items: 
+        - name: "IUpdateDownloaderEx methods"
+          href: iupdatedownloaderex-methods.md
+          items: 
+          - name: "BeginDownload2 Method"
+            href: /windows/win32/api/Wuapi/nf-wuapi-iupdatedownloaderex-begindownload2
+          - name: "Download2 Method"
+            href: /windows/win32/api/Wuapi/nf-wuapi-iupdatedownloaderex-download2
       - name: "IUpdateDownloadResult"
         href: /windows/desktop/api/Wuapi/nn-wuapi-iupdatedownloadresult
         items: 
@@ -765,6 +777,19 @@
           items: 
           - name: "GetServiceEndpoint Method"
             href: iupdateendpointauthprovider-getserviceendpoint.md
+      - name: "IUpdateEx"
+        href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateex
+        items: 
+        - name: "IUpdateEx methods"
+          href: iupdateex-methods.md
+          items: 
+          - name: "EvaluateExtendedDynamicProperty Method"
+            href: /windows/win32/api/Wuapi/nf-wuapi-iupdateex-evaluateextendeddynamicproperty
+        - name: "IUpdateEx Properties"
+          href: iupdateex-properties.md
+          items: 
+          - name: "ExtendedStaticProperty Property"
+            href: /windows/win32/api/Wuapi/nf-wuapi-iupdateex-get_extendedstaticproperty
       - name: "IUpdateException"
         href: /windows/desktop/api/Wuapi/nn-wuapi-iupdateexception
         items: 

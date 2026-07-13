@@ -7,7 +7,7 @@ keywords:
 - Example Code for Publishing the RnR Connection Point AD
 - Windows Sockets Registration and Resolution AD , Example Code, Publishing the RnR Connection Point
 - Publishing the RnR Connection Point AD , Example Code
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

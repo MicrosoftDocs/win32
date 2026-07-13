@@ -2,7 +2,7 @@
 description: Media Foundation Transforms
 ms.assetid: cb23fe0a-c42c-4912-a0bf-1f0b18a6f4e0
 title: Media Foundation Transforms
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

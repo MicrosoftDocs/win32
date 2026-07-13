@@ -2,7 +2,7 @@
 description: Structures used in directory management.
 ms.assetid: 7bb3d6c2-afb4-4c8b-9627-562ae3e5521b
 title: Directory Management Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: 306fcadb-a492-41e5-bfb3-8beaaec24fb5
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , adding a member to a group
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: WPD\_CONTENT\_TYPE\_WIRELESS\_PROFILE
 ms.assetid: 229f6b65-4904-41b1-bb35-8873477a272b
 title: WPD_CONTENT_TYPE_WIRELESS_PROFILE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

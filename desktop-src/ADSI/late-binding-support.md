@@ -7,7 +7,7 @@ keywords:
 - extensions ADSI ,late binding support
 - ADSI ADSI ,example code Visual Basic ,late binding support
 - binding AD ,late binding support
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

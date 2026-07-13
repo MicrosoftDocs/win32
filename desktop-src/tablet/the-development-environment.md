@@ -2,7 +2,7 @@
 description: You do not need a Tablet PC to develop Tablet PC applications, but you do need a personal computer capable of running the software listed later in this topic.
 ms.assetid: 82034950-78a7-4bab-b449-1b8ea7d90676
 title: The Development Environment
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -39,7 +39,7 @@ You also need:
 
 ### Details on Developing on Non-Tablet PC SKUs of Windows
 
-The Tablet PC platform components can be installed on Windows XP Professional with Service Pack 2 or Windows Server 2003. On these operating systems, your application can collect ink with the [**InkCollector**](inkcollector-class.md) class and can be tested and debugged. However, no recognition is available unless you also install the Microsoft Windows XP Tablet PC Edition 2005 Recognizer Pack. You can download that pack from the Download Center on MSDN.
+The Tablet PC platform components can be installed on Windows XP Professional with Service Pack 2 or Windows Server 2003. On these operating systems, your application can collect ink with the [**InkCollector**](inkcollector-class.md) class and can be tested and debugged. However, no recognition is available unless you also install the Microsoft Windows XP Tablet PC Edition 2005 Recognizer Pack.
 
 After installing the Windows SDK on to a Windows XP Professional or Windows Server 2003 system, you will have all the development files necessary to build ink applications (such as msinkaut.h for a COM developer). However, you will be unable to run or debug your application on that system until you install the runtime files. For instance, in the case of a COM developer, inkobj.dll must be installed and registered. Because you are not on a system where these platform files exist, you must install the Tablet PC platform components from the redistributable merge module, mstpcrt.msm, to get the runtime files on your system.
 

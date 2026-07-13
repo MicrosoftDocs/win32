@@ -2,7 +2,7 @@
 description: LOCALE\_SNATIVE\* Constants
 ms.assetid: 560978d7-a33c-4e62-9abd-cbd3ec38f3b5
 title: LOCALE_SNATIVE* Constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

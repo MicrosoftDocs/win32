@@ -2,7 +2,7 @@
 title: VML Filled Attribute
 description: VML Filled Attribute
 ms.assetid: c5a71a8d-5310-4e58-9153-c5cc64b0a5e0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

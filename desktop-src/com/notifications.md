@@ -2,7 +2,7 @@
 title: Notifications (COM)
 description: Notifications
 ms.assetid: 060c012c-5f74-4a4c-bec3-e9072f920442
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

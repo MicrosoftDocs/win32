@@ -6,7 +6,7 @@ keywords:
 - Musical Instrument Digital Interface (MIDI),running status
 - MIDI (Musical Instrument Digital Interface),running status
 - recording MIDI audio,running status
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

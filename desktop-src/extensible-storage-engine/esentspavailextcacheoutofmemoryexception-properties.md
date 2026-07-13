@@ -6,7 +6,7 @@ ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSPAvailExtCacheOutOfM
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentspavailextcacheoutofmemoryexception_properties(v=EXCHG.10)
 ms:contentKeyID: 55102970
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # EsentSPAvailExtCacheOutOfMemoryException properties

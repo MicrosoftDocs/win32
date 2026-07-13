@@ -2,7 +2,7 @@
 title: Security Guideline
 description: It is important to keep the user informed about possible security issues.
 ms.assetid: f0c041fd-3cc5-491e-b088-6c93fcd61def
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

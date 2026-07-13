@@ -3,7 +3,7 @@ title: Peripheral hardware guidelines
 description: If their hardware device is not designed to work over a remote session, vendors must ensure that the device driver software forces disabling the redirection of the device by using a system policy or group policy.
 ms.assetid: f033d469-a860-4968-b289-bc4eab23bd46
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

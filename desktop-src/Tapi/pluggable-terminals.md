@@ -2,7 +2,7 @@
 description: Pluggable terminals allow an application to create terminals during run time.
 ms.assetid: '34ba4f3c-0a14-4705-9490-817c70700746'
 title: Pluggable Terminals
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: You can set transaction attributes manually by using the Component Services administrative tool, or you can add programmatic support for transactions when you write your component.
 ms.assetid: b0d701c7-47ef-4034-873f-dd4428efb4c7
 title: Setting the Transaction Attribute
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

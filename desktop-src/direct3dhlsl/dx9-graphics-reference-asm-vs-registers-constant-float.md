@@ -2,7 +2,7 @@
 title: Constant float register (HLSL VS reference)
 description: Vertex shader input register for a four component floating-point constant. Set a constant register with either def - vs or SetVertexShaderConstantF.
 ms.assetid: 45a14258-52d5-4c22-885f-5af20ae36251
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

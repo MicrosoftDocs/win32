@@ -7,7 +7,7 @@ keywords:
 - Windows Touch,sample code
 - Windows Touch,Scratchpad samples
 - Scratchpad samples
-ms.topic: article
+ms.topic: sample
 ms.date: 02/18/2020
 ---
 

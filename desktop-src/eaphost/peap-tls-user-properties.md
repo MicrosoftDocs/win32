@@ -2,7 +2,7 @@
 title: PEAP-TLS User Properties
 description: Learn about the PEAP-TLS user properties. See a sample that is an instance of the eaptlsuserpropertiesv1 legacy schema.
 ms.assetid: f0fb00fa-4cf8-4490-ac59-a8252ddcb5ee
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -12,7 +12,7 @@ keywords:
 - Microsoft Secure Audio Path (SAP),about
 - Secure Audio Path (SAP),about
 - SAP (Secure Audio Path),about
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

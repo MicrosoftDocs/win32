@@ -2,7 +2,7 @@
 description: Parental Controls Key Design Decisions
 ms.assetid: 0b41cf81-0770-4408-97a8-a178fae78d23
 title: Parental Controls Key Design Decisions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

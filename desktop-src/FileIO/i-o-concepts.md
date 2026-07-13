@@ -2,7 +2,7 @@
 description: Describes basic I/O concepts.
 ms.assetid: 61b286a0-2f0d-48d1-a0b9-bb13f1ea1b0e
 title: I/O Concepts
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

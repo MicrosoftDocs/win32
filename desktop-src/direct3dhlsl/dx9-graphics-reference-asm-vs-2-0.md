@@ -2,7 +2,7 @@
 title: vs_2_0
 description: Learn about vs_2_0, a programmable vertex shader, which is made up of a set of instructions that operate on vertex data.
 ms.assetid: 6e38c138-5f9c-40a6-9fe2-a93471c3c573
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

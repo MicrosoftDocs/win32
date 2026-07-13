@@ -2,7 +2,7 @@
 description: Authors should run validation on every new, or newly modified, merge module before attempting to merge the module into an installation database for the first time.
 ms.assetid: 8d6794af-403a-416e-8ace-1af3f193414b
 title: Validating Merge Modules
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

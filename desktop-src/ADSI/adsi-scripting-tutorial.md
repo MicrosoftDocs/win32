@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Active Directory Service Interfaces Scripting ADSI
 - ADSI ADSI , Scripting
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

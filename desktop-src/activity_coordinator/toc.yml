@@ -10,6 +10,8 @@
       href: choosing-the-right-activity-coordinator-policy.md
     - name: "Activity Coordinator example project"
       href: activity-coordinator-example-project.md
+    - name: "Checking for Activity Coordinator resource support"
+      href: checking-for-resource-support-example.md
   - name: "Activity Coordinator API functions"
     href: activity-coordinator-api-functions.md
     items: 
@@ -19,6 +21,8 @@
       href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-destroyactivitycoordinatorpolicy
     - name: "GetActivityCoordinatorPolicyResourceCondition"
       href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-getactivitycoordinatorpolicyresourcecondition
+    - name: "IsActivityCoordinatorResourceSupported"
+      href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-isactivitycoordinatorresourcesupported
     - name: "SetActivityCoordinatorPolicyResourceCondition"
       href: /windows/win32/api/activitycoordinator/nf-activitycoordinator-setactivitycoordinatorpolicyresourcecondition
     - name: "SubscribeActivityCoordinatorPolicy"

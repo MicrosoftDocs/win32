@@ -2,7 +2,7 @@
 title: Determining shim status
 description: Determining shim status
 ms.assetid: 8D0B633F-9117-4F90-BF8C-AC5F57FCD30B
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

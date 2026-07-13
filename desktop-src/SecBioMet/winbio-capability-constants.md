@@ -37,7 +37,7 @@ The following fingerprint sensor sub types are **WINBIO\_CAPABILITIES** values t
 | <span id="WINBIO_CAPABILITY_ENCRYPTION"></span><span id="winbio_capability_encryption"></span><dl><dt><strong>WINBIO_CAPABILITY_ENCRYPTION</strong></dt><dt>0x00000010</dt></dl> | The sensor can encrypt biometric data.<br /> | 
 | <span id="WINBIO_CAPABILITY_NAVIGATION"></span><span id="winbio_capability_navigation"></span><dl><dt><strong>WINBIO_CAPABILITY_NAVIGATION</strong></dt><dt>0x00000020</dt></dl> | The sensor can act as a mouse pad. This is currently not supported.<br /> | 
 | <span id="WINBIO_CAPABILITY_INDICATOR"></span><span id="winbio_capability_indicator"></span><dl><dt><strong>WINBIO_CAPABILITY_INDICATOR</strong></dt><dt>0x00000040</dt></dl> | The sensor contains an indicator light.<br /> | 
-| <span id="WINBIO_CAPABILITY_VIRTUAL_SENSOR"></span><span id="winbio_capability_virtual_sensor"></span><dl><dt><strong>WINBIO_CAPABILITY_VIRTUAL_SENSOR</strong></dt><dt>0x00000080</dt></dl> | The sensor adapter manages its own connection to the biometric hardware.<br /><blockquote>[!Note]<br />This constant applies only for Windows 10 and later.</blockquote><br /> | 
+| **WINBIO_CAPABILITY_VIRTUAL_SENSOR**<br>0x00000080<br> | The sensor adapter manages its own connection to the biometric hardware.<br> **Note:** This constant applies only for Windows 10 and later.<br> | 
 
 
 

@@ -2,7 +2,7 @@
 description: System.StorageProviderError
 ms.assetid: a764a13a-cd7e-488c-b353-ff0f3c4b64b1
 title: System.StorageProviderError
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

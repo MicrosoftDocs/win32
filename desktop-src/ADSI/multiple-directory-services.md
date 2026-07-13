@@ -5,7 +5,7 @@ ms.assetid: 66929290-b830-4768-a2ae-604d1a9de5c4
 ms.tgt_platform: multiple
 keywords:
 - Multiple Directory Services ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

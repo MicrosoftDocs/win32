@@ -21,7 +21,7 @@ keywords:
 - text services,security
 - TSF-enabled applications,security
 - security for TSF
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

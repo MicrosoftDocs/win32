@@ -3,7 +3,7 @@ description: Sent to an icon when the user requests that the window be restored 
 ms.assetid: 6e14d5fd-6598-4d2e-a463-2b153c9c2aa3
 title: WM_QUERYOPEN message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_QUERYOPEN message

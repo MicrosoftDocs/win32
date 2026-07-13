@@ -2,7 +2,7 @@
 description: The following are standard MSPI methods that all MSPs must implement. Primary documentation for these methods exists in the Media Service Provider Interface (MSPI) Reference section.
 ms.assetid: 22d4828e-f439-44ca-aa6c-f7f18c5fd64f
 title: CMSPAddress MSPI Methods Implemented
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

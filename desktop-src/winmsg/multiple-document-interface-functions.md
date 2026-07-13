@@ -2,8 +2,8 @@
 description: MDI Functions
 ms.assetid: c9612ebd-e06b-4596-9234-a058a8193762
 title: MDI Functions
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # MDI Functions

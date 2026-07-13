@@ -2,7 +2,7 @@
 title: Version Information Reference
 description: Version Information Reference
 ms.assetid: 8a56573d-5b05-40e7-a95f-bfa249eab4bd
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

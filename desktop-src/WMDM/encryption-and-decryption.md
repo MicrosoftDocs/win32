@@ -15,7 +15,7 @@ keywords:
 - service providers,decryption
 - programming guide,decryption
 - decryption
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

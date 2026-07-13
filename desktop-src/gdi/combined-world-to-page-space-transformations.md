@@ -2,7 +2,7 @@
 description: The five world-to-page transformations can be combined into a single 3-by-3 matrix.
 ms.assetid: d17ba826-8e8d-4121-8afd-0f256121b54c
 title: Combined World-to-Page Space Transformations
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

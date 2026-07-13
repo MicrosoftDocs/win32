@@ -42,9 +42,9 @@ An optional parameter that controls how the statement is compiled. When no attri
 | Attribute | Description | 
 |-----------|-------------|
 | flatten | Compile the statement as a series of <strong>if</strong> statements, each with the <strong>flatten</strong> attribute. | 
-| branch | Compile the statement as a series of <strong>if</strong> statements each with the <strong>branch</strong> attribute.<blockquote>[!Note]<br />When you use <a href="dx-graphics-hlsl-sm2.md">Shader Model 2.x</a> or <a href="dx-graphics-hlsl-sm3.md">Shader Model 3.0</a>, each time you use dynamic branching you consume resources. So, if you use dynamic branching excessively when you target these profiles, you can receive compilation errors.</blockquote><br /> | 
-| forcecase | Force a switch statement in the hardware.<blockquote>[!Note]<br />Requires <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> 10_0 or later hardware.</blockquote><br /> | 
-| call | The bodies of the individual cases in the switch will be moved into hardware subroutines and the switch will be a series of subroutine calls.<blockquote>[!Note]<br />Requires <a href="/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro">feature level</a> 10_0 or later hardware.</blockquote><br /> | 
+| branch | Compile the statement as a series of **if** statements each with the **branch** attribute. **Note:** When you use [Shader Model 2.x](dx-graphics-hlsl-sm2.md) or [Shader Model 3.0](dx-graphics-hlsl-sm3.md), each time you use dynamic branching you consume resources. So, if you use dynamic branching excessively when you target these profiles, you can receive compilation errors.<br> | 
+| forcecase | Force a switch statement in the hardware. **Note:** Requires [feature level](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 10_0 or later hardware.<br> | 
+| call | The bodies of the individual cases in the switch will be moved into hardware subroutines and the switch will be a series of subroutine calls. **Note:** Requires [feature level](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 10_0 or later hardware.<br> | 
 
 
 

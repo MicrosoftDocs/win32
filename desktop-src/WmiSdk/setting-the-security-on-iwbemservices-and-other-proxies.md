@@ -3,7 +3,7 @@ description: While in C++ you can set the security on the entire process by call
 ms.assetid: 83c04a96-3829-4c07-91a7-06e5b75b2c12
 ms.tgt_platform: multiple
 title: Setting the Security on IWbemServices and Other Proxies
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Using the Sink Writer
 ms.assetid: BE89E2E0-711F-4BD5-BB86-AA4CCA2D3E7F
 title: Using the Sink Writer
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

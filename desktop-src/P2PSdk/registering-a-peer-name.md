@@ -2,7 +2,7 @@
 description: To register a peer name, an application must provide the following information:IP address listPeer identityPeer nameIf a peer name is unsecured, an identity is optional.
 ms.assetid: 4de87146-3ea1-4019-9d3f-59de296083ae
 title: Registering a Peer Name
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

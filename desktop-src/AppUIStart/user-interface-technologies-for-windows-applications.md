@@ -2,7 +2,7 @@
 title: User Interface Technologies
 description: This topic provides a brief survey of the Microsoft technologies for developing UIs for Windows-based applications.
 ms.assetid: 5ecbaaf0-704e-4c27-b3ce-b5436e577d62
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

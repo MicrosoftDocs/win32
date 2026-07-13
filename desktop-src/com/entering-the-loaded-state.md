@@ -2,7 +2,7 @@
 title: Entering the Loaded State
 description: Entering the Loaded State
 ms.assetid: 841b6f1a-cf9d-4a7e-9732-0701777a9617
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This temporary table enables the Custom Action Patch Uninstall Option for custom actions added or updated by a patch.
 ms.assetid: 2d4a934f-e245-4d0a-b8bf-52457107ac08
 title: MsiTransformView
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

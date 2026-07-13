@@ -2,7 +2,7 @@
 title: Asynchronous Monikers
 description: Asynchronous Monikers
 ms.assetid: 24c50f7b-f085-4086-aa44-81e5cab011cb
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

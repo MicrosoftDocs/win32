@@ -10,7 +10,7 @@ keywords:
 - _WIN32_WINNT
 - _WIN32_IE
 - WIN32_LEAN_AND_MEAN
-ms.topic: article
+ms.topic: concept-article
 ms.date: 01/22/2020
 ---
 

@@ -2,7 +2,7 @@
 title: How to Create Rebar Controls
 description: An application creates a rebar control by calling the CreateWindowEx function, specifying REBARCLASSNAME as the window class.
 ms.assetid: F17CC2A4-BDC6-48A6-9AF5-19FCF65CC39A
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -27,8 +27,7 @@ An application creates a rebar control by calling the [**CreateWindowEx**](/wind
 
 The following example creates a rebar control with two bands—one that contains a combo box, and another one that contains a toolbar. (See the illustration in [About Rebar Controls](rebar-controls.md).) These controls are created separately, and are passed to the example function as parameters.
 
-
-```C++
+```cpp
 #define NUMBUTTONS 3
 
 HWND CreateRebar(HWND hwndOwner, HWND hwndToolbar, HWND hwndCombo)
@@ -77,7 +76,7 @@ HWND CreateRebar(HWND hwndOwner, HWND hwndToolbar, HWND hwndCombo)
     DWORD dwBtnSize = (DWORD)SendMessage(hwndToolbar, TB_GETBUTTONSIZE, 0,0);
 
     // Set values unique to the band with the toolbar.
-    rbBand.lpText = TEXT("");
+    rbBand.lpText = const_cast<LPWSTR>(L"");
     rbBand.hwndChild = hwndToolbar;
     rbBand.cyChild = LOWORD(dwBtnSize);
     rbBand.cxMinChild = NUMBUTTONS * HIWORD(dwBtnSize);
@@ -91,7 +90,7 @@ HWND CreateRebar(HWND hwndOwner, HWND hwndToolbar, HWND hwndCombo)
     // Set values unique to the band with the combo box.
     RECT rc;
     GetWindowRect(hwndCombo, &rc);
-    rbBand.lpText = TEXT("Font");
+    rbBand.lpText = const_cast<LPWSTR>(L"Font");
     rbBand.hwndChild = hwndCombo;
     rbBand.cxMinChild = 0;
     rbBand.cyMinChild = rc.bottom - rc.top;
@@ -105,8 +104,6 @@ HWND CreateRebar(HWND hwndOwner, HWND hwndToolbar, HWND hwndCombo)
     return (hwndRebar);
 }
 ```
-
-
 
 ## Related topics
 

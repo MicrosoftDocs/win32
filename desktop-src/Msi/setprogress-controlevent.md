@@ -2,7 +2,7 @@
 description: The installer uses the SetProgress event to publish information on the installation's progress.
 ms.assetid: be597c90-7222-4542-b0f7-e9f4cdfc08b9
 title: SetProgress ControlEvent
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

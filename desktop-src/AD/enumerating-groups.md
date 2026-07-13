@@ -5,7 +5,7 @@ ms.assetid: 92e8a6e9-616a-4d95-a8c8-ed972530a560
 ms.tgt_platform: multiple
 keywords:
 - groups AD ,enumerating
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

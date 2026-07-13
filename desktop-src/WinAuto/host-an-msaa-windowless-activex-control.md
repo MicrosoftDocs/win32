@@ -5,8 +5,8 @@ ms.assetid: 9497561C-37ED-4094-A6B0-C219F63C04B6
 keywords:
 - MSAA, Windowless ActiveX control
 - Windowless ActiveX control, MSAA
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: how-to
+ms.date: 07/14/2025
 ---
 
 # How to Host an MSAA Windowless ActiveX Control

@@ -2,7 +2,7 @@
 description: The GetFileSize function retrieves the size of a file.
 ms.assetid: 4d3a3925-72e8-4350-b46d-e2c25791e862
 title: Determining the Size of a File
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

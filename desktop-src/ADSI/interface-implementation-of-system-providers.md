@@ -3,7 +3,7 @@ title: Interface Implementation of System Providers
 description: ADSI incorporates several directory service providers, namely, LDAP and WinNT.
 ms.assetid: bc7c37c5-2262-4b1b-a623-d6ce13fdec50
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

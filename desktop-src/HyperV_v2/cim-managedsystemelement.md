@@ -696,7 +696,7 @@ The ManagedSystem Element is known to exist and has been contacted successfully 
 
 </dt> <dd>
 
-An abrupt stop, where where the state and configuration of the element might need to be updated, has occurred.
+An abrupt stop, where the state and configuration of the element might need to be updated, has occurred.
 
 </dd> <dt>
 

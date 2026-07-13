@@ -2,7 +2,7 @@
 description: Read about the System.PropGroup.General property. Do not use this property for getting or setting values. It is intended only as a marker.
 ms.assetid: b48319a6-3d8d-4b35-9d50-b892fef1c1a1
 title: System.PropGroup.General
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

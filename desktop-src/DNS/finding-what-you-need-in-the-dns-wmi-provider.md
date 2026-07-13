@@ -4,7 +4,7 @@ description: The Domain Name System (DNS) Windows Management Instrumentation (WM
 ms.assetid: d46fae17-d084-4ccb-b2d5-21be802af2d3
 keywords:
 - Domain Name System, WMI provider, roadmap
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

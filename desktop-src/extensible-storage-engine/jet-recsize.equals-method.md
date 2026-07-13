@@ -6,7 +6,7 @@ ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.Equals
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.vista.jet_recsize.equals(v=EXCHG.10)
 ms:contentKeyID: 39513469
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 f1_keywords:
 - Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.Equals
 dev_langs:

@@ -6,7 +6,7 @@ ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Windows8.DurableCommitCall
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.windows8.durablecommitcallback_properties(v=EXCHG.10)
 ms:contentKeyID: 55104295
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # DurableCommitCallback properties

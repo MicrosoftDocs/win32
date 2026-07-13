@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - User Must Change Password at Next Logon ADSI , LDAP provider
 - LDAP provider ADSI , user management examples, User Must Change Password at Next Logon
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

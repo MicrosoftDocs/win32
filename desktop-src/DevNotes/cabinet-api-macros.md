@@ -2,7 +2,7 @@
 description: "Learn more about: Cabinet API Macros"
 ms.assetid: 85fade43-9fcb-4100-a734-8b36d132b2c0
 title: Cabinet API Macros
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

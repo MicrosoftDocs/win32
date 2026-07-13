@@ -2,7 +2,7 @@
 title: Uninstalling a Provider
 description: Following sample code demonstrates the process required to remove a provider installation.
 ms.assetid: fe86972f-f1fb-41b8-989e-f146dba0bd06
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -3,16 +3,14 @@ title: SQL Programmability
 description: NPS supports SQL Server logging.
 ms.assetid: 55152f56-9ca4-4d0b-a0e9-223168dba83f
 ms.tgt_platform: multiple
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 12/17/2024
 ---
 
 # SQL Programmability
 
-> [!Note]  
+> [!NOTE]
 > Internet Authentication Service (IAS) was renamed Network Policy Server (NPS) starting with Windows Server 2008. The content of this topic applies to both IAS and NPS. Throughout the text, NPS is used to refer to all versions of the service, including the versions originally referred to as IAS.
-
- 
 
 NPS supports SQL Server logging.
 
@@ -20,16 +18,14 @@ By default, logging is disabled for NPS. To enable it, run the Network Policy Se
 
 ## Sample Stored Procedure
 
-> [!Note]  
+> [!NOTE]
 > A stored procedure in the SQL Server database that is called by NPS must be named **report\_event**, or the NPS SQL Server logging will fail.
-
- 
 
 The following sample creates an NPS database within the SQL Server 2000 database environment and processes XML documents sent by the NPS servers configured to log to this SQL Server.
 
 In this sample, the NAP-specific information, which is available only from NPS servers running on Windows Server 2008 or later, is stored in the MS\_Quarantine\_State column. The stored procedure report\_event retrieves the values for this column from the XML element **'./MS-Quarantine-State'**. The allowed values for the MS\_Quarantine\_State column are 0 (Full Access), 1 (Quarantined), and 2 (Probation).
 
-``` syntax
+``` sql
 IF EXISTS (SELECT name FROM master.dbo.sysdatabases WHERE name = N'NPSODBC')
     DROP DATABASE [NPSODBC]
 GO
@@ -43,63 +39,65 @@ CREATE DATABASE [NPSODBC]  ON (NAME = N'NPSODBC_Data',
  COLLATE SQL_Latin1_General_CP1_CI_AS
 GO
 
-exec sp_dboption N'NPSODBC', N'autoclose', N'false'
+ALTER DATABASE [NPSODBC]
+SET AUTO_CLOSE OFF
 GO
 
-exec sp_dboption N'NPSODBC', N'bulkcopy', N'false'
+ALTER DATABASE [NPSODBC]
+SET TORN_PAGE_DETECTION ON
 GO
 
-exec sp_dboption N'NPSODBC', N'trunc. log', N'false'
+ALTER DATABASE [NPSODBC]
+SET READ_WRITE
 GO
 
-exec sp_dboption N'NPSODBC', N'torn page detection', N'true'
+ALTER DATABASE [NPSODBC]
+SET AUTO_SHRINK OFF
 GO
 
-exec sp_dboption N'NPSODBC', N'read only', N'false'
+ALTER DATABASE [NPSODBC]
+SET ANSI_NULL_DEFAULT OFF
 GO
 
-exec sp_dboption N'NPSODBC', N'dbo use', N'false'
+ALTER DATABASE [NPSODBC]
+SET RECURSIVE_TRIGGERS OFF
 GO
 
-exec sp_dboption N'NPSODBC', N'single', N'false'
+ALTER DATABASE [NPSODBC]
+SET ANSI_NULLS OFF
 GO
 
-exec sp_dboption N'NPSODBC', N'autoshrink', N'false'
+ALTER DATABASE [NPSODBC]
+SET CONCAT_NULL_YIELDS_NULL OFF
 GO
 
-exec sp_dboption N'NPSODBC', N'ANSI null default', N'false'
+ALTER DATABASE [NPSODBC]
+SET CURSOR_CLOSE_ON_COMMIT OFF
 GO
 
-exec sp_dboption N'NPSODBC', N'recursive triggers', N'false'
+ALTER DATABASE [NPSODBC]
+SET CURSOR_DEFAULT LOCAL
 GO
 
-exec sp_dboption N'NPSODBC', N'ANSI nulls', N'false'
+ALTER DATABASE [NPSODBC]
+SET QUOTED_IDENTIFIER OFF
 GO
 
-exec sp_dboption N'NPSODBC', N'concat null yields null', N'false'
+ALTER DATABASE [NPSODBC]
+SET ANSI_WARNINGS OFF
 GO
 
-exec sp_dboption N'NPSODBC', N'cursor close on commit', N'false'
+ALTER DATABASE [NPSODBC]
+SET AUTO_CREATE_STATISTICS ON
 GO
 
-exec sp_dboption N'NPSODBC', N'default to local cursor', N'false'
-GO
-
-exec sp_dboption N'NPSODBC', N'quoted identifier', N'false'
-GO
-
-exec sp_dboption N'NPSODBC', N'ANSI warnings', N'false'
-GO
-
-exec sp_dboption N'NPSODBC', N'auto create statistics', N'true'
-GO
-
-exec sp_dboption N'NPSODBC', N'auto update statistics', N'true'
+ALTER DATABASE [NPSODBC]
+SET AUTO_UPDATE_STATISTICS ON
 GO
 
 if( ( (@@microsoftversion / power(2, 24) = 8) and (@@microsoftversion & 0xffff >= 724) ) or 
     ( (@@microsoftversion / power(2, 24) = 7) and (@@microsoftversion & 0xffff >= 1082) ) )
-    exec sp_dboption N'NPSODBC', N'db chaining', N'false'
+    ALTER DATABASE [NPSODBC] SET DB_CHAINING OFF
 GO
 
 use [NPSODBC]
@@ -298,12 +296,12 @@ SELECT
     NAP-specific information, available from NPS starting with Windows Server 2008. 
 */
     MS_Quarantine_State,
-	Event_Source,
-	Framed_MTU,
-	MS_RAS_Correlation_ID,
-	MS_Network_Access_Server_Type,
-	SAM_Account_Name,
-	Fully_Qualifed_User_Name
+    Event_Source,
+    Framed_MTU,
+    MS_RAS_Correlation_ID,
+    MS_Network_Access_Server_Type,
+    SAM_Account_Name,
+    Fully_Qualifed_User_Name
 FROM OPENXML(@idoc, '/Event')
 WITH (
     Computer_Name nvarchar(255) './Computer-Name',
@@ -374,11 +372,11 @@ WITH (
 */
     MS_Quarantine_State int './MS-Quarantine-State',
     Event_Source nvarchar(255) './Event-Source',
-	Framed_MTU int './Framed-MTU',
-	MS_RAS_Correlation_ID nvarchar(255) './MS-RAS-Correlation-ID',
-	MS_Network_Access_Server_Type nvarchar(255) './MS-Network-Access-Server-Type',
-	SAM_Account_Name nvarchar(255) './SAM-Account-Name',
-	Fully_Qualifed_User_Name nvarchar(255) './Fully-Qualifed-User-Name'
+    Framed_MTU int './Framed-MTU',
+    MS_RAS_Correlation_ID nvarchar(255) './MS-RAS-Correlation-ID',
+    MS_Network_Access_Server_Type nvarchar(255) './MS-Network-Access-Server-Type',
+    SAM_Account_Name nvarchar(255) './SAM-Account-Name',
+    Fully_Qualifed_User_Name nvarchar(255) './Fully-Qualifed-User-Name'
    )
 
 EXEC sp_xml_removedocument @idoc
@@ -391,13 +389,6 @@ SET ANSI_NULLS ON
 GO
 ```
 
-## Related topics
-
-<dl> <dt>
+## Related content
 
 [TechNet: Key concepts for IAS SQL Server logging](/previous-versions/windows/it-pro/windows-server-2003/cc778830(v=ws.10))
-</dt> </dl>
-
- 
-
- 

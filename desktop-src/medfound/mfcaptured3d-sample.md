@@ -2,7 +2,7 @@
 description: Shows how to preview video from a video camera, using Direct3D to render the video.
 ms.assetid: fe241201-f2b5-467c-9d6a-5fc147fa5e2a
 title: MFCaptureD3D Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

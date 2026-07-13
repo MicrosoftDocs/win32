@@ -4,7 +4,7 @@ description: This section contains the following topics.
 ms.assetid: 31be788a-de59-43df-b5cb-e97dfbfd5c05
 keywords:
 - BITS Server Settings for Upload Jobs BITS
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

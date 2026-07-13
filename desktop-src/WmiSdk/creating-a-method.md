@@ -3,7 +3,7 @@ description: To create a WMI method, define the input and output parameters for 
 ms.assetid: 71cbecde-33c4-4bf1-9793-bef6d823dcac
 ms.tgt_platform: multiple
 title: Creating a WMI Method
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

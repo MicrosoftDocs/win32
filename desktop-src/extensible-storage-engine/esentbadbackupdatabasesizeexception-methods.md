@@ -6,7 +6,7 @@ ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBadBackupDatabaseSizeExc
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentbadbackupdatabasesizeexception_methods(v=EXCHG.10)
 ms:contentKeyID: 55101099
 ms.date: 07/30/2014
-ms.topic: article
+ms.topic: reference
 ---
 
 # EsentBadBackupDatabaseSizeException methods

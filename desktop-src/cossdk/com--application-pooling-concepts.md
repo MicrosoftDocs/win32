@@ -2,7 +2,7 @@
 description: COM+ application pooling allows single-threaded processes to scale, similar to the way that thread pooling allows single-threaded objects to scale.
 ms.assetid: 28bd13d9-ff5c-456e-ab98-d2ff3a499f1c
 title: COM+ Application Pooling Concepts
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

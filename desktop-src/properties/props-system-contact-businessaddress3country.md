@@ -2,7 +2,7 @@
 description: System.Contact.BusinessAddress3Country
 ms.assetid: d0c75091-0052-4ec0-a6cb-3bc0721a7b14
 title: System.Contact.BusinessAddress3Country
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

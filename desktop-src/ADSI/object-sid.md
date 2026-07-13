@@ -5,7 +5,7 @@ ms.assetid: 15845e6d-ea30-4d6c-9f35-b2abc1a564ba
 ms.tgt_platform: multiple
 keywords:
 - WinNT provider ADSI ,user management examples,Object SID
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -14,7 +14,7 @@ keywords:
 - ASF (Advanced Systems Format),DirectShow
 - DirectShow,event notifications
 - DirectShow,WMT_STATUS event notifications
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

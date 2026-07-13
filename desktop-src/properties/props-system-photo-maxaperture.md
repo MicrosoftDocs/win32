@@ -2,7 +2,7 @@
 description: The maximum aperture of the lens as recorded by the camera, taken from the Exchangeable Image File (EXIF) information.
 ms.assetid: 363ec646-be17-4616-8b22-091d7807c727
 title: System.Photo.MaxAperture
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

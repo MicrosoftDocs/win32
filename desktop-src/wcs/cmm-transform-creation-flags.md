@@ -4,7 +4,7 @@ description: CMMs use transform creation flags as hints for how to create a colo
 ms.assetid: f3942929-272c-4f08-98ac-a4d14d2f6ac4
 
 
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

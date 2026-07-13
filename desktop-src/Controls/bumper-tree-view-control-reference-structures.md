@@ -2,7 +2,7 @@
 title: Tree View Structures
 description: Tree View Structures
 ms.assetid: 2860458f-0217-4434-aab7-69f6f4274055
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

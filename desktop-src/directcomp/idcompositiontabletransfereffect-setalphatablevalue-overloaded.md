@@ -43,9 +43,6 @@ Sets a value in the alpha table.
 
 <dl> <dt>
 
-[**idcompositiontabletransfereffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositiontabletransfereffect)
+[**IDCompositionTableTransferEffect**](/windows/win32/api/dcomp/nn-dcomp-idcompositiontabletransfereffect)
 </dt> </dl>
 
-�
-
-�

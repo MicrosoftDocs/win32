@@ -2,7 +2,7 @@
 description: Summary properties for installation packages, transforms, and patches are described in the following tables.
 ms.assetid: b44b24b7-7fc4-4c3c-9d10-7e2f3c43cf36
 title: Summary Property Descriptions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -73,10 +73,10 @@ Summary properties for installation packages, transforms, and patches are descri
 <tr class="even">
 <td><a href="page-count-summary.md"><strong>Page Count</strong></a> (REQUIRED)</td>
 <td>Contains a value used to identify the minimum installer version required by this installation package. For example, if the package requires at minimum the 2.0 version of the installer, this property should be set to an integer of 200.
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 The value of this property must be 200 or greater with <a href="64-bit-windows-installer-packages.md">64-bit Windows Installer Packages</a>.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
@@ -181,10 +181,10 @@ The value of this property must be 200 or greater with <a href="64-bit-windows-i
 <tr class="even">
 <td><a href="revision-number-summary.md"><strong>Revision Number</strong></a> (REQUIRED)</td>
 <td>Contains the GUID patch code for the patch. This may be followed by a list of patch code GUIDs for patches that are removed when this patch is applied. The patch codes are concatenated with no delimiters separating GUIDs in the list.
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 If the patch package contains a <a href="msipatchsequence-table.md"><strong>MsiPatchSequence</strong></a> table, the patch does not remove patches listed after the current patch's GUID.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">

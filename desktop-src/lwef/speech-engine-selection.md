@@ -2,7 +2,7 @@
 title: Speech Engine Selection
 description: Speech Engine Selection
 ms.assetid: f5afedc6-093f-4247-a5c8-277d6b2d646c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -4,7 +4,7 @@ description: Recording with a Waveform-Audio Device
 ms.assetid: b29a07d1-1b92-4d66-9f2d-ccfbf4074876
 keywords:
 - mciSendCommand function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

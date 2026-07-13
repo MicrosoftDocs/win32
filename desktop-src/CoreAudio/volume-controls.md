@@ -2,7 +2,7 @@
 description: Volume Controls
 ms.assetid: 'b1799372-8d2c-4774-995d-e7926a159d0a'
 title: Volume Controls
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

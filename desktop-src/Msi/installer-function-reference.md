@@ -2,7 +2,7 @@
 description: To enable Windows Installer in your application, you must use the installer functions. The tables in this topic identify the functions by category.
 ms.assetid: 05a16915-6b47-4d51-b62a-5a4d92b87e50
 title: Installer Function Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

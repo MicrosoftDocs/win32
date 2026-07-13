@@ -2,7 +2,7 @@
 description: ICE70 verifies that integer values for registry entries are specified correctly.
 ms.assetid: f8493622-867b-42e1-9fda-a7c3229bbb4e
 title: ICE70
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,8 +2,8 @@
 title: Active Accessibility and Windows Vista Screen Scaling
 description: Windows Vista enables users to change the dots-per-inch (dpi) setting so that most UI elements on the screen appear larger.
 ms.assetid: c781fefd-09f0-4340-b3d3-f4e57308f392
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Active Accessibility and Windows Vista Screen Scaling
@@ -34,7 +34,7 @@ Microsoft Active Accessibility does not use logical coordinates. The following m
 -   [**IAccessible::accLocation**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acclocation)
 -   [**AccessibleObjectFromPoint**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfrompoint)
 
-By default, an Microsoft Active Accessibility client application running in a non-96-dpi environment will not be able to obtain correct results from these calls. For example, because the cursor position is in logical coordinates, the client cannot simply pass these coordinates to [**AccessibleObjectFromPoint**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfrompoint) to obtain the element that is under the cursor.
+By default, a Microsoft Active Accessibility client application running in a non-96-dpi environment will not be able to obtain correct results from these calls. For example, because the cursor position is in logical coordinates, the client cannot simply pass these coordinates to [**AccessibleObjectFromPoint**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfrompoint) to obtain the element that is under the cursor.
 
 In addition, an application that creates a window outside its client area, such as an accessibility application that highlights focused UI elements, will not create the window at the correct screen location, because the window will be placed at the logical coordinates, not the physical coordinates returned by [**IAccessible::accLocation**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acclocation).
 

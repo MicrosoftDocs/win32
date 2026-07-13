@@ -2,7 +2,7 @@
 title: Overview of UPnP Architecture
 description: The UPnP architecture defines peer-to-peer network connectivity of intelligent appliances, devices, and control points.
 ms.assetid: 09aba033-6229-4a55-9421-a7b967508bf4
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

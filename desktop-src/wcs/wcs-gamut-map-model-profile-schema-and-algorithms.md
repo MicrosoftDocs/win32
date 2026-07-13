@@ -20,7 +20,7 @@ keywords:
 - algorithms,gamut map model profile (GMMP)
 
 
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -983,7 +983,7 @@ One practical way to obtain a hue smoothed set of triangles is to take the conve
 
 ### Setting Primaries and Secondaries in the Gamut Boundary Description
 
-Certain gamut mapping methods, such as HueMap, depend on the location of the device primaries and secondaries. For additive devices, the primaries are red, green, and blue (R, G, and B); and the secondaries are cyan, magenta, and yellow (C, M, and Y). For subtractive devices, the primaries are C, M, and Y; and the secondaries are R, G, and B. The GBD keeps track of all six of those values, plus white and black (W and K), in a array of Jab color values. These values are set into the gamut boundary description when it is created. For output devices, the primaries can be determined by running combinations of device control values through the device model. For capture devices, this approach is not well-suited for creating the reference GBD, because it is almost impossible to capture an image that yields a fully saturated pure device value, such as (0.0, 0.0, 1.0). WCS device profiles contain the indices of the primaries in the capture target. Because these values are not contained in an ICC profile, use values measured from a typical scanner target after converting to Jab, relative to the ICC viewing conditions.
+Certain gamut mapping methods, such as HueMap, depend on the location of the device primaries and secondaries. For additive devices, the primaries are red, green, and blue (R, G, and B); and the secondaries are cyan, magenta, and yellow (C, M, and Y). For subtractive devices, the primaries are C, M, and Y; and the secondaries are R, G, and B. The GBD keeps track of all six of those values, plus white and black (W and K), in an array of Jab color values. These values are set into the gamut boundary description when it is created. For output devices, the primaries can be determined by running combinations of device control values through the device model. For capture devices, this approach is not well-suited for creating the reference GBD, because it is almost impossible to capture an image that yields a fully saturated pure device value, such as (0.0, 0.0, 1.0). WCS device profiles contain the indices of the primaries in the capture target. Because these values are not contained in an ICC profile, use values measured from a typical scanner target after converting to Jab, relative to the ICC viewing conditions.
 
 ### Setting the Neutral Axis in the Gamut Boundary Description
 

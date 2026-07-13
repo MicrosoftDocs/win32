@@ -2,7 +2,7 @@
 description: The following functions are used with filled shapes.
 ms.assetid: 8909e85d-fa5b-4058-9e58-e027160ec381
 title: Filled Shape Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: 04469061-f95c-4810-99d0-03d98b70d3d3
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , deleting users on a member server or Windows 2000 Professional
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

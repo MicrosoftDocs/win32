@@ -2,7 +2,7 @@
 description: Describes how to write the contents of an XPS OM in a program to an XPS document file.
 ms.assetid: 8bee8059-b901-4a99-a7e4-60dad831c239
 title: Write an XPS OM to an XPS Document
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -78,7 +78,7 @@ The [**IXpsOMPackageWriter**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmo
 [XPS Document API Reference](xps-programming-reference.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
+[XML Paper Specification](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification)
 </dt> </dl>
 
  

@@ -9,7 +9,7 @@ keywords:
 - desktop applications,playlists
 - creating Windows Media Device Manager applications,playlists
 - abstract playlists
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

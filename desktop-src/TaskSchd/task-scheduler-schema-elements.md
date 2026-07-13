@@ -2,7 +2,7 @@
 title: Task Scheduler Schema Elements
 description: The elements listed here are defined by the Task Scheduler schema. These elements are used when reading or writing XML for a task.
 ms.assetid: a4c983fd-ded8-47ad-830e-b7c9907b778f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

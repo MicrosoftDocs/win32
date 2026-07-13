@@ -41,7 +41,7 @@ HRESULT get_PreceivedType(
 
 ## Property value
 
-returns the address of the string identifyint the type in the index.
+returns the address of the string identifying the type in the index.
 
 ## Requirements
 

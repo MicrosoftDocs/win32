@@ -2,7 +2,7 @@
 description: Recommended configurations to test network applications for IPv6.
 ms.assetid: c8f2a4ad-9a5c-46cb-8250-f61a16488ae6
 title: Recommended Configurations for IPv6
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

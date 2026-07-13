@@ -2,7 +2,7 @@
 title: Appendix Matrix Transforms
 description: This topic provides a mathematical overview of matrix transforms for 2-D graphics.
 ms.assetid: 8cc01f45-dd84-4f3e-a5f2-26edc5cbdfa1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

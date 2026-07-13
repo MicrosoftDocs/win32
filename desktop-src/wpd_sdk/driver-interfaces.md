@@ -2,7 +2,7 @@
 description: Driver Interfaces
 ms.assetid: e21ee6fd-6ecf-4cea-808d-3798b13f566c
 title: Driver Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

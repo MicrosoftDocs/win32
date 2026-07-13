@@ -2,7 +2,7 @@
 title: Sensor requirements for secure biometrics
 description: Sensor requirements for secure biometrics
 ms.assetid: 6D5709E9-7B6B-4D6C-BF85-C6FB5DF5A7EE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

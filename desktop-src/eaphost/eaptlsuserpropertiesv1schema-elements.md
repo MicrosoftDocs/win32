@@ -2,7 +2,7 @@
 title: eaptlsuserpropertiesv1 Schema Elements
 description: Learn about eaptlsuserpropertiesv1 schema elements. These elements are EapType, UserCert (EapType), and Username.
 ms.assetid: b83eaa2e-76fd-43ed-94df-68d72664d98b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

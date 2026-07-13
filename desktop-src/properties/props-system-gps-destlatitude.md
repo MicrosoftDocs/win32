@@ -2,7 +2,7 @@
 description: Learn how the System.GPS.DestLatitude property indicates the latitude of the destination point.
 ms.assetid: 63d8a3a3-76ec-4121-b48b-eb5034117d04
 title: System.GPS.DestLatitude
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

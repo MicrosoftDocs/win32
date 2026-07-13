@@ -2,7 +2,7 @@
 title: Module 3. Windows Graphics
 description: Module 1 of this series showed how to create a blank window.
 ms.assetid: 02416d36-519e-49bd-8a52-bd3afde2be34
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

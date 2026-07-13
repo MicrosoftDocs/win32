@@ -2,7 +2,7 @@
 description: Alpha data can be supplied in the vertex data. To enable vertex alpha, set the D3DRS\_DIFFUSEMATERIALSOURCE to D3DMCS\_COLOR1 so that the Direct3D runtime takes the diffuse value from the diffuse color rather than the material.
 ms.assetid: 2b0d842d-ee7d-4633-846d-96697153adc7
 title: Vertex Alpha (Direct3D 9)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: TAPI 2.2 provides specialized call center management functionality.
 ms.assetid: 8d7b976a-ff7a-4cb2-a539-e4b9903f091c
 title: TAPI 2.2
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,14 +1,16 @@
 ---
-description: The ASN.1 OCTET STRING data type is encoded into a TLV triplet that begins with a Tag byte of 0x04.
+description: The ASN.1 OCTET STRING data type encodes into a TLV triplet starting with a Tag byte of 0x04. Learn how it differs from BIT STRING and see encoding examples.
 ms.assetid: 9d07a6c8-a15f-4030-838c-3063e315684f
 title: OCTET STRING
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 11/11/2025
 ---
 
 # OCTET STRING
 
-The ASN.1 **OCTET STRING** data type is encoded into a TLV triplet that begins with a **Tag** byte of 0x04. The **OCTET STRING** and [BIT STRING](about-bit-string.md) data types are very similar. Thus, the two types are encoded in a similar manner except that, because the trailing byte of an **OCTET STRING** cannot have unused bits, no leading bytes must be added to the content. The following example, adapted from the [CMC Encoded ASN.1](cmc-encoded-asn-1.md) topic, shows how the name of a certificate template is encoded as a byte array.
+The ASN.1 **OCTET STRING** data type encodes into a TLV triplet starting with a **Tag** byte of 0x04. Similar to [BIT STRING](about-bit-string.md), it uses a comparable encoding method. However, an **OCTET STRING** ensures no unused bits in the trailing byte, making its encoding more compact.
+
+The following example, adapted from the [CMC Encoded ASN.1](cmc-encoded-asn-1.md) topic, shows how the name of a certificate template is encoded as a byte array.
 
 ``` syntax
 30 17                                 ; SEQUENCE (17 Bytes)
@@ -18,10 +20,10 @@ The ASN.1 **OCTET STRING** data type is encoded into a TLV triplet that begins w
 |     1e 08 00 55 00 73 00 65  00 72  ;   ...U.s.e.r
 ```
 
-If the byte array contains fewer than 128 bytes, the **Length** field of the TLV triplet requires only one byte to specify the content length. If it is more than 127 bytes, bit 7 of the **Length** field is set to 1 and bits 6 through 0 specify the number of additional bytes used to identify the content length. This is shown in the following example where the high order bit of the second byte on the first line is set to 1 and the byte indicates that there is a trailing **Length** byte. The third byte therefore specifies that the content is 0x80 bytes long.
+If the byte array contains fewer than 128 bytes, the **Length** field of the TLV triplet needs only one byte to specify the content length. If the byte array contains more than 127 bytes, bit 7 of the **Length** field is set to 1 and bits 6 through 0 specify the number of extra bytes used to identify the content length. This situation is shown in the following example where the high order bit of the second byte on the first line is set to 1 and the byte indicates that there is a trailing **Length** byte. The third byte therefore specifies that the content is 0x80 bytes (or 128 bytes) long.
 
 ``` syntax
-04 81 80                       ; OCTET_STRING (80 Bytes)
+04 81 80                       ; OCTET_STRING (128 Bytes)
    38 10 60 e2 70 69 91 4a     ;   8.`.pi.J
    8b b5 22 57 2a 62 ef de     ;   .."W*b..
    15 7d 59 d6 4e 20 9a 45     ;   .}Y.N .E
@@ -40,19 +42,8 @@ If the byte array contains fewer than 128 bytes, the **Length** field of the TLV
    95 96 cf 0d 56 ac ab 35     ;   ....V..5
 ```
 
-## Related topics
-
-<dl> <dt>
+## Related content
 
 [ASN.1 Type System](about-asn-1-type-system.md)
-</dt> <dt>
 
 [DER Encoding of ASN.1 Types](about-der-encoding-of-asn-1-types.md)
-</dt> </dl>
-
- 
-
- 
-
-
-

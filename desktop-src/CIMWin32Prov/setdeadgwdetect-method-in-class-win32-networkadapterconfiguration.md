@@ -403,10 +403,6 @@ DHCP not enabled on adapter.
 
 With this feature enabled, TCP asks IP to change to a backup gateway if it retransmits a segment several times without receiving a response.
 
-## Examples
-
-The [Enable Dead Gateway Detection for All Network Adapters](https://Gallery.TechNet.Microsoft.Com/4a24b080-1a8b-4085-9419-58d096ef8437) VBScript sample on TechNet Gallery uses **SetDeadGWDetect** to configure all network adapters on a computer to automatically detect dead gateways.
-
 ## Requirements
 
 

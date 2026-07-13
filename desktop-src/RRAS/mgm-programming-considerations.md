@@ -4,7 +4,7 @@ description: When you are developing multicast group manager clients, observe th
 ms.assetid: 48451a76-81e0-4d60-acb3-c9ec55de32b4
 keywords:
 - Multicast, Programming considerations
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

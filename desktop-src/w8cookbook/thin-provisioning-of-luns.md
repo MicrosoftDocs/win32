@@ -5,7 +5,7 @@ ms.assetid: D64ECA7B-62AC-4C14-BE4B-84DA2E20C16B
 keywords:
 - LUN
 - LBA
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: A WMI provider consists of a Managed Object Format (MOF) file and D
 ms.assetid: 20ef6b88-2aaa-4e86-bc4a-bebc34069672
 ms.tgt_platform: multiple
 title: Designing Managed Object Format (MOF) Classes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

@@ -2,7 +2,7 @@
 title: Updating from Previous Version
 description: Updating from Previous Version
 ms.assetid: a3f0c0bb-8c12-4907-8e49-49b098449c38
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

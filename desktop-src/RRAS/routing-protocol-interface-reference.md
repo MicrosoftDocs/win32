@@ -5,7 +5,7 @@ ms.assetid: 0429f5ca-6574-48f5-85ab-70b4677ca539
 keywords:
 - Routing and Remote Access Service RRAS , Routing Protocol Interface, reference
 - Routing Protocol Interface RRAS , reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

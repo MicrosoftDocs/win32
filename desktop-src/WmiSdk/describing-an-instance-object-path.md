@@ -3,7 +3,7 @@ description: An instance object path describes the location of an instance of a 
 ms.assetid: 78a194f0-cd21-4622-9242-be7e430b96c0
 ms.tgt_platform: multiple
 title: Describing an Instance Object Path
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

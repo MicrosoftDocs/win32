@@ -2,7 +2,7 @@
 description: The quality of protection, identified by the qop directive, is first specified by the server in the Digest challenge, and then confirmed by the client in the challenge response.
 ms.assetid: bee4236c-69e5-4281-a6b3-be316bac0a11
 title: Quality of Protection
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

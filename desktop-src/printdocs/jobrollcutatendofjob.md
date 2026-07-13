@@ -2,7 +2,7 @@
 description: Learn about the JobRollCutAtEndOfJob element, which describes the cutting method for roll paper. The roll should be cut at the end of the job.
 ms.assetid: 1e2cd767-685b-47d8-9020-a0a5dda63506
 title: JobRollCutAtEndOfJob
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -65,7 +65,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the `https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords` namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Feature name="psk:JobRollCutAtEndOfJob">

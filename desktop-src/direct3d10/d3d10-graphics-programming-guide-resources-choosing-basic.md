@@ -2,7 +2,7 @@
 description: A resource is a collection of data that is used by the 3D pipeline.
 ms.assetid: 802400fa-a606-4d3d-a61d-1cdb5a9f0437
 title: Choosing a Resource (Direct3D 10)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

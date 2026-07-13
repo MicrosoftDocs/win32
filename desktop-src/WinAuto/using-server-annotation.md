@@ -2,8 +2,8 @@
 title: Using Server Annotation
 description: This topic provides information about using server annotation to specify a callback object.
 ms.assetid: eeeebddc-2752-4d8f-b4fa-38ce156acc08
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: how-to
+ms.date: 07/14/2025
 ---
 
 # Using Server Annotation

@@ -4,7 +4,7 @@ description:
   The following section describes the basic steps required to add TraceLogging
   to native user-mode code.
 ms.assetid: 444DA34B-7949-457D-A3EC-2F0CFBEDD1E2
-ms.topic: article
+ms.topic: quickstart
 ms.date: 06/06/2022
 ---
 

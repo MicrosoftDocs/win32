@@ -2,9 +2,8 @@
 title: Windows 7 Toolbars
 description: Windows 7 Toolbars are a way to group commands for efficient access.
 ms.assetid: 8f36307c-54fc-493d-a2ff-57db29e3508d
-ms.topic: article
+ms.topic: concept-article
 ms.date: 01/25/2022
-ms.custom: seo-windows-dev
 ---
 
 # Windows 7 Toolbars
@@ -589,4 +588,3 @@ Examples:
 -   On the **Formatting** toolbar, point to **Show**, and then click **Comments**.
 
  
-

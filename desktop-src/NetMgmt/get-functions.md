@@ -2,7 +2,7 @@
 title: Get Functions
 description: The network management get functions retrieve information about a domain. You can also call these functions to retrieve information about local, global, workstation, and server user accounts.
 ms.assetid: 9c97420d-bc8a-42c9-b7ea-3d2ebc0034b3
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

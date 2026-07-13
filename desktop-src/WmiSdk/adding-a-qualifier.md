@@ -3,7 +3,7 @@ description: A qualifier is a data string that provides more information about a
 ms.assetid: 6984b575-b365-49dd-aeab-a763430f434c
 ms.tgt_platform: multiple
 title: Adding a Qualifier
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -31,7 +31,7 @@ Qualifiers can be divided into standard qualifiers, CIM qualifiers, and unique q
 
 -   CIM qualifier
 
-    A CIM qualifier is a qualifier included in the CIM specification. While use CIM qualifiers in MOF code, the standard qualifiers are designed specifically with WMI in mind. For more information, see the DMTF [CIM Specification](https://www.dmtf.org/spec/cims.html/).
+    A CIM qualifier is a qualifier included in the CIM specification. While use CIM qualifiers in MOF code, the standard qualifiers are designed specifically with WMI in mind. For more information, see the DMTF [CIM Specification](https://www.dmtf.org/standards/cim).
 
 -   Unique qualifier
 

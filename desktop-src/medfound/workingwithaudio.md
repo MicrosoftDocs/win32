@@ -2,7 +2,7 @@
 description: Working with Audio
 ms.assetid: c246efa3-25dc-4471-9b0f-619e5d125c93
 title: Working with Audio (Microsoft Media Foundation)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

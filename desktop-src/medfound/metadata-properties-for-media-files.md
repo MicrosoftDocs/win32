@@ -2,7 +2,7 @@
 description: This topic lists the most common metadata properties for media files.
 ms.assetid: 35187720-413a-45a0-8558-918f7c3161e1
 title: Metadata Properties for Media Files
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

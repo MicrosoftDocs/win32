@@ -5,7 +5,7 @@ ms.assetid: 57ac6542-5bfb-4e3e-9ee0-aa35218e41a9
 keywords:
 - OpenGL processing pipeline,alpha test
 - alpha test OpenGL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

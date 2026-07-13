@@ -2,7 +2,7 @@
 title: Translating to Visual Basic from C++
 description: Translating to Visual Basic from C++
 ms.assetid: fce7ea25-cb24-4cc4-8f36-0e8aed2f3ada
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

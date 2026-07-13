@@ -2,7 +2,7 @@
 title: Dialog box functions
 description: Dialog box functions
 ms.assetid: '7ea6445a-1772-4986-b4b7-27512afa680d'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

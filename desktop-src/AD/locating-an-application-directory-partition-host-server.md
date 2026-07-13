@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Locating an Application Directory Partition Host Server AD
 - Application Directory Partitions AD , Locating a Host Server
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

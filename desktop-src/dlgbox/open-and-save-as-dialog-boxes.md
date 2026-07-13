@@ -2,9 +2,9 @@
 title: Open and Save As dialog boxes
 description: Learn to display custom Open and Save As dialog boxes in your legacy Windows app
 ms.assetid: 5676ca9d-daca-40bf-8881-def2ff841c58
-ms.topic: article
+ms.topic: concept-article
 ms.date: 01/10/2022
-ms.custom: project-verbatim, seo-windows-dev
+ms.custom: project-verbatim
 ---
 
 # Open and Save As dialog boxes

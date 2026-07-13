@@ -2,7 +2,7 @@
 description: Pktextract.exe is a tool that extracts the publicKeyToken attribute from a certificate file.
 ms.assetid: 195ff5bd-bb60-4053-9308-ceacd29853c0
 title: Pktextract.exe
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

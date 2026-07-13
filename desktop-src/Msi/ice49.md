@@ -2,7 +2,7 @@
 description: ICE49 checks for default registry entries that are not a REG\_SZ type.
 ms.assetid: 53d976fe-07d2-4b68-ae21-1dbd00d76942
 title: ICE49
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -12,7 +12,7 @@ ICE49 checks for default registry entries that are not a **REG\_SZ** type.
 
 ## Result
 
-ICE49 posts an warning if there is a default registry entry that is not a **REG\_SZ** type.
+ICE49 posts a warning if there is a default registry entry that is not a **REG\_SZ** type.
 
 ## Example
 

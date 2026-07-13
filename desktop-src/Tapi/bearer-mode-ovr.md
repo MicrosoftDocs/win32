@@ -2,7 +2,7 @@
 description: The bearer mode corresponds to the quality of transmission requested from the network for establishing a call.
 ms.assetid: 5276e1e7-7a91-4b74-b8c2-c0c7cebb203f
 title: Bearer Mode
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

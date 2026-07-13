@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - extensions ADSI , early binding support
 - binding AD , early binding support
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

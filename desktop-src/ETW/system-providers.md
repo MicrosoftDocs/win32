@@ -1,7 +1,7 @@
 ---
 title: System Providers
 description: Enable System Trace Provider's events with EnableTraceEx2.
-ms.topic: article
+ms.topic: reference
 ms.date: 06/02/2021
 ---
 

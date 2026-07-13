@@ -2,7 +2,7 @@
 description: If this bit is set, text is replaced by an icon image and the Text column in the Control table is a foreign key into the Binary table.
 ms.assetid: 5eefdfcb-89a5-4885-bab0-6409ef3ce349
 title: Icon Control Attribute
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

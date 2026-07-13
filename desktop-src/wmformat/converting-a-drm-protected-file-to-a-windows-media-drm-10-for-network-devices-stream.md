@@ -25,7 +25,7 @@ keywords:
 - DRM (digital rights management),DRM 10 for Network Devices
 - Windows Media DRM 10 for Network Devices,converting DRM-protected files
 - DRM 10 for Network Devices,converting DRM-protected files
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

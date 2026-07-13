@@ -2,7 +2,7 @@
 description: Symbols topic in the TAPI glossary.
 ms.assetid: 28b5ff76-bae0-4221-bef9-4271a2075a5e
 title: Symbols
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Device Names
 description: Device Names
 ms.assetid: 0ba06439-cc33-43e1-a094-09bcc5e2f6b5
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

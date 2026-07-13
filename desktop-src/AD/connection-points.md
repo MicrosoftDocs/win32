@@ -5,7 +5,7 @@ ms.assetid: eb810e6d-c220-4a24-ae12-b12ace237413
 ms.tgt_platform: multiple
 keywords:
 - connection points AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

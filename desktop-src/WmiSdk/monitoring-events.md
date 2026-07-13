@@ -3,7 +3,7 @@ description: System administrators can use WMI to monitor events on a network.
 ms.assetid: 871d4add-a7b1-4ec9-a202-3821fdf09e9f
 ms.tgt_platform: multiple
 title: Monitoring Events
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

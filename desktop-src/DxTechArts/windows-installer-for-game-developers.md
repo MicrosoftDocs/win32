@@ -2,7 +2,7 @@
 title: Windows Installer for Game Developers
 description: This article gives an overview of Windows Installer, specifically targeted to game developers. For detailed documentation on the features and APIs mentioned in this article, please refer to the Windows Platform SDK.
 ms.assetid: 07401792-b34b-71c9-18f8-a11c916c7d81
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -13,15 +13,15 @@ keywords:
 - events,properties
 - properties,dynamic
 - dynamic properties
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # UI Automation Properties Overview
 
 Microsoft UI Automation providers expose properties on UI Automation elements. Properties enable client applications to retrieve information about controls.
 
-UI Automation exposes two different kinds of properties: *automation element properties*, and *control pattern propertes*. The automation element properties consist of a common set of properties, such as Name, AcceleratorKey, and ClassName, that are exposed by all UI Automation elements, regardless of the control type. Most automation element properties are static values.
+UI Automation exposes two different kinds of properties: *automation element properties*, and *control pattern properties*. The automation element properties consist of a common set of properties, such as Name, AcceleratorKey, and ClassName, that are exposed by all UI Automation elements, regardless of the control type. Most automation element properties are static values.
 
 Control pattern properties are those that are exposed by a control that supports a particular control pattern. Each control pattern has a corresponding set of control pattern properties that the control must expose. For example, a control that supports the [Grid](uiauto-implementinggrid.md) control pattern exposes the ColumnCount and RowCount properties. Most control pattern properties are dynamic values.
 

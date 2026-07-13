@@ -2,7 +2,7 @@
 title: Keyboard Accelerator Messages
 description: Keyboard Accelerator Messages
 ms.assetid: 987151e7-fd68-4ff5-a131-116a6b17ac28
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

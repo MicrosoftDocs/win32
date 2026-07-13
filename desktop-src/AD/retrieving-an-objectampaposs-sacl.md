@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - SACL AD
 - SACL AD ,retrieving an object's SACL
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

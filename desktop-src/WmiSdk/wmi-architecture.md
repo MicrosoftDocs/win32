@@ -3,7 +3,7 @@ description: WMI provides a uniform interface for any local or remote applicatio
 ms.assetid: 41ba2a64-3322-48b8-a6ea-e468bfac06e2
 ms.tgt_platform: multiple
 title: WMI Architecture
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type:
 - kbArticle

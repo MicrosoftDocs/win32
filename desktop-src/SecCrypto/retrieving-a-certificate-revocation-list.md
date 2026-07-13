@@ -2,16 +2,15 @@
 description: Demonstrates how to retrieve a certificate revocation list.
 ms.assetid: b8fbffae-d968-453d-81f0-af9d60be5fa9
 title: Retrieving a Certificate Revocation List
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 11/21/2024
 ---
 
 # Retrieving a Certificate Revocation List
 
-A [*certification authority*](../secgloss/c-gly.md) (CA) is responsible for publishing its [*certificate revocation list*](../secgloss/c-gly.md) (CRL). The current CRL can be retrieved by using the [**ICertAdmin2::GetCRL**](/windows/desktop/api/Certadm/nf-certadm-icertadmin-getcrl) method. In cases where a CA's certificate has been renewed, you might need to retrieve CRLs for the previous CA certificates. For information about CA renewal, see [Certification Authority Renewal](certification-authority-renewal.md). Additionally, a CA might publish delta CRLs. To retrieve CRLs for renewed CA certificates or delta CRLs, use either the [**ICertAdmin2::GetCAProperty**](/windows/desktop/api/Certadm/nf-certadm-icertadmin2-getcaproperty) or [**ICertRequest2::GetCAProperty**](/windows/desktop/api/Certcli/nf-certcli-icertrequest2-getcaproperty) methods.
+A [*certification authority*](../secgloss/c-gly.md) (CA) is responsible for publishing its [*certificate revocation list*](../secgloss/c-gly.md) (CRL). The current CRL can be retrieved by using the [ICertAdmin2::GetCRL](/windows/win32/api/Certadm/nf-certadm-icertadmin-getcrl) method. In cases where a CA's certificate has been renewed, you might need to retrieve CRLs for the previous CA certificates. For information about CA renewal, see [Certification Authority Renewal](certification-authority-renewal.md). Additionally, a CA might publish delta CRLs. To retrieve CRLs for renewed CA certificates or delta CRLs, use either the [**ICertAdmin2::GetCAProperty**](/windows/win32/api/Certadm/nf-certadm-icertadmin2-getcaproperty) or [**ICertRequest2::GetCAProperty**](/windows/win32/api/Certcli/nf-certcli-icertrequest2-getcaproperty) methods.
 
 The following example shows retrieving the current CRL.
-
 
 ```C++
     ICertAdmin2 * pCertAdmin2 = NULL;  // pointer to interface object
@@ -33,7 +32,7 @@ The following example shows retrieving the current CRL.
                            NULL,
                            CLSCTX_INPROC_SERVER,
                            IID_ICertAdmin2,
-                           (void **)&pCertAdmin2;);
+                           (void **)&pCertAdmin2);
     if (FAILED(hr))
     {
         printf("Failed CoCreateInstance pCertAdmin2 [%x]\n", hr);
@@ -42,7 +41,7 @@ The following example shows retrieving the current CRL.
 
     // Note the use of two '\' in C++ to produce one '\'.
     bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
-    if (FAILED(hr))
+    if (bstrCA == NULL)
     {
         printf("Failed to allocate memory for bstrCA\n");
         goto error;
@@ -78,10 +77,7 @@ error:
     CoUninitialize();
 ```
 
-
-
-The following example shows retrieving base and delta CRLs, including those for CA certificates that have been renewed. The example uses [**ICertAdmin2::GetCAProperty**](/windows/desktop/api/Certadm/nf-certadm-icertadmin2-getcaproperty), although [**ICertRequest2::GetCAProperty**](/windows/desktop/api/Certcli/nf-certcli-icertrequest2-getcaproperty) provides similar functionality.
-
+The following example shows retrieving base and delta CRLs, including those for CA certificates that have been renewed. The example uses [**ICertAdmin2::GetCAProperty**](/windows/win32/api/Certadm/nf-certadm-icertadmin2-getcaproperty), although [**ICertRequest2::GetCAProperty**](/windows/win32/api/Certcli/nf-certcli-icertrequest2-getcaproperty) provides similar functionality.
 
 ```C++
     LONG nCACertCount, nIndex, nCRLState;
@@ -102,11 +98,12 @@ The following example shows retrieving base and delta CRLs, including those for 
         goto error;
     }
     nCACertCount = variant.lVal;
+    VariantClear(&variant);
 
     for (nIndex = 0; nIndex < nCACertCount; nIndex++)
     {
            // Determine the CRL state for each certificate index.
-           pCertAdmin2->GetCAProperty(bstrCA, 
+           hr = pCertAdmin2->GetCAProperty(bstrCA, 
                                CR_PROP_CRLSTATE, 
                                nIndex, 
                                PROPTYPE_LONG, 
@@ -119,6 +116,7 @@ The following example shows retrieving base and delta CRLs, including those for 
             goto error;
         }
         nCRLState = variant.lVal;
+        VariantClear(&variant);
 
         // Process certificate indices only when 
         // the CRL state is valid.
@@ -141,6 +139,8 @@ The following example shows retrieving base and delta CRLs, including those for 
            // Use the base CRL as needed (not shown).
            // ...
 
+           VariantClear(&variant);
+ 
            // Retrieve the delta CRL.
            hr = pCertAdmin2->GetCAProperty(bstrCA, 
                                    CR_PROP_DELTACRL, 
@@ -157,8 +157,8 @@ The following example shows retrieving base and delta CRLs, including those for 
 
            // Use the delta CRL as needed (not shown).
            // ...
-
-       }        
+           VariantClear(&variant);
+        }        
     }
     
     // Processing is finished.
@@ -177,8 +177,8 @@ error:
     VariantClear(&variant);
 ```
 
+## Related content
 
+[Certificate Revocation List](../secgloss/c-gly.md)
 
- 
-
- 
+[Certification Authority](../secgloss/c-gly.md)

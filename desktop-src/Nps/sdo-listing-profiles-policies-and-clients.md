@@ -3,7 +3,7 @@ title: Listing Profiles, Policies, and Clients
 description: Listing Profiles, Policies, and Clients
 ms.assetid: 8bfbe4f6-b098-43c8-acb7-2c489ebe0ad3
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

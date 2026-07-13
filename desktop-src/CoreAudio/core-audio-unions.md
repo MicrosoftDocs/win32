@@ -2,7 +2,7 @@
 description: This section describes the unions that are used by the Core Audio APIs, such as SpatialAudioHrtfDirectivityUnion.
 ms.assetid: 305D63E7-800C-4792-B04C-127E5844EF3E
 title: Core Audio Unions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -19,7 +19,7 @@ keywords:
 - DDE (Dynamic Data Exchange),service name filter
 - Dynamic Data Exchange Management Library (DDEML),service name filter
 - DDEML (Dynamic Data Exchange Management Library),service name filter
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

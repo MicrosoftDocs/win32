@@ -2,7 +2,7 @@
 title: IAgentBalloon GetFontUnderline
 description: IAgentBalloon GetFontUnderline
 ms.assetid: 19886e94-8095-4650-bd88-34ea9d96ddaa
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

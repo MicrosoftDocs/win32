@@ -15,7 +15,7 @@ keywords:
 - asynchronous readers,reading metadata
 - synchronous readers,reading metadata
 - metadata,reading at playback
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

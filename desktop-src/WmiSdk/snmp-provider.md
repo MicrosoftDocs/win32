@@ -3,7 +3,7 @@ description: The Simple Network Management Protocol (SNMP) provider allows clien
 ms.assetid: 71e758d9-2ea6-42f5-93b4-d370a96b10cf
 ms.tgt_platform: multiple
 title: WMI and SNMP
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

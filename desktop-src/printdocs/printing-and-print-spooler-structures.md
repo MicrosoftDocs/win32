@@ -2,7 +2,7 @@
 description: This section contains an alphabetical listing of the structures that are used by the Print Spooler API.
 ms.assetid: 3cf3a16b-194a-404e-aba7-d094364c6f05
 title: Print Spooler API Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

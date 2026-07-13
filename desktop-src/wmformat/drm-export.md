@@ -20,7 +20,7 @@ keywords:
 - DRM (digital rights management),export
 - DRM Client Extended APIs,export
 - Client Extended APIs,export
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

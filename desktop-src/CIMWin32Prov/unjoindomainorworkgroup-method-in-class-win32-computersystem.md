@@ -108,12 +108,6 @@ The **UnjoinDomainOrWorkgroup** method returns 0 (zero) on success or when no op
 
 After calling this method, restart the affected computer to apply the changes.
 
-## Examples
-
-[The Unjoin a Computer from a Domain](https://Gallery.TechNet.Microsoft.Com/c2025ace-cb51-4136-9de9-db8871f79f62) VBScript sample unjoins the local computer from its current domain and disables the computer account.
-
-The [Unjoin a Computer from a Domain using VBS script](https://Gallery.TechNet.Microsoft.Com/Unjoin-a-Computer-from-a-825249e1) sample unjoins a specified computer from a domain. .
-
 ## Requirements
 
 

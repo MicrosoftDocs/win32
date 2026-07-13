@@ -362,8 +362,6 @@ The **Win32\_QuickFixEngineering** class enables you to enumerate all the hot fi
 
 ## Examples
 
-The [Get Installed Programs](https://Gallery.TechNet.Microsoft.Com/Get-Installed-Programs-fae091ed) PowerShell example returns a full list of installed programs.
-
 The following VBScript sample enumerates the installed hot fixes on a computer
 
 

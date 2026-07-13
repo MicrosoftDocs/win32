@@ -2,7 +2,7 @@
 description: These articles provide more detailed information on the meaning and usage of the Print Schema element types.
 ms.assetid: 05c7fd07-1c32-409d-8ca5-820038af3440
 title: Print Schema Framework
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

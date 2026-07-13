@@ -2,7 +2,7 @@
 description: Learn about development scenarios for custom properties and property handlers within the Windows Property System.
 ms.assetid: 3281736b-f9ea-4699-a128-3bce6810126e
 title: Property System Developer's Guide
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The Shortcut table holds the information the application needs to create shortcuts on the user's computer.
 ms.assetid: 86b5b51e-e5f4-4f42-84f9-1faa29ea7a84
 title: Shortcut Table
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

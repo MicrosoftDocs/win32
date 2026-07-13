@@ -2,7 +2,7 @@
 description: Example code that shows how to test for the end of file during a synchronous read operation and during an asynchronous read operation.
 ms.assetid: 93fa9e29-1ff1-496d-9551-99ae88ba7253
 title: Testing for the End of a File
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

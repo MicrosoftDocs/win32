@@ -1,7 +1,7 @@
 ---
 description: Control Panel items must be registered in order to appear in the Control Panel window.
 title: Registering Control Panel Items
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.assetid: 6f21f223-a293-47b5-95e9-06b7a4ff1652
 api_name: 

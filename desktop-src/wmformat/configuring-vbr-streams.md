@@ -9,7 +9,7 @@ keywords:
 - VBR (variable bit rate),streams
 - streams,IWMPropertyVault interface
 - IWMPropertyVault
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

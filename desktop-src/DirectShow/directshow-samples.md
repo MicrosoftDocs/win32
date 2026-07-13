@@ -2,14 +2,14 @@
 title: DirectShow sample apps
 description: DirectShow sample apps
 ms.assetid: 4166d5ca-5e02-49f6-bcb1-d448f8175a0c
-ms.topic: article
+ms.topic: sample
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---
 
 # DirectShow sample apps
 
-\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer) and [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine). **MediaPlayer** and **IMFMediaEngine** have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer** and **IMFMediaEngine** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
+\[The feature associated with this page, [DirectShow](/windows/win32/directshow/directshow), is a legacy feature. It has been superseded by [MediaPlayer](/uwp/api/Windows.Media.Playback.MediaPlayer), [IMFMediaEngine](/windows/win32/api/mfmediaengine/nn-mfmediaengine-imfmediaengine), and [Audio/Video Capture in Media Foundation](/windows/win32/medfound/audio-video-capture-in-media-foundation). Those features have been optimized for Windows 10 and Windows 11. Microsoft strongly recommends that new code use **MediaPlayer**, **IMFMediaEngine** and **Audio/Video Capture in Media Foundation** instead of **DirectShow**, when possible. Microsoft suggests that existing code that uses the legacy APIs be rewritten to use the new APIs if possible.\]
 
 You can find the DirectShow sample apps in the [Windows-classic-samples](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/Win7Samples/multimedia/directshow) repository on GitHub.
 
@@ -42,7 +42,7 @@ The table below lists all of the DirectShow samples provided in that repo. For i
 | <a href="cutscene-sample.md">CutScene Sample</a> | Playback | Plays a video file in full-screen mode. | 
 | DDrawXCL Sample | Playback | Plays video in DirectDraw exclusive full-screen mode, using the <a href="/windows/desktop/api/Strmif/nn-strmif-iddrawexclmodevideo"><strong>IDDrawExclModeVideo</strong></a> interface on the <a href="overlay-mixer-filter.md">Overlay Mixer</a> filter. | 
 | DShowPlayer Sample | Playback | Video playback application. | 
-| EVRPlayer Sample | Playback | Demonstrates how to use the DirectShow EVR filter.<blockquote>[!Note]<br />Requires Windows Vista or later.</blockquote><br /><br /> This sample is available in the Windows SDK for Windows Server 2008 or later.<br /> | strmbase.lib | 
+| EVRPlayer Sample | Playback | Demonstrates how to use the DirectShow EVR filter. **Note:** Requires Windows Vista or later.<br> This sample is available in the Windows SDK for Windows Server 2008 or later.<br> | strmbase.lib | 
 | Texture3D9 Sample | Playback | Draws video on a Microsoft DirectX 9.0 texture surface. | strmbase.lib, DirectX SDK | 
 | <a href="ticker-sample.md">Ticker Sample</a> | VMR-9 | Uses the VMR-9 to blend video and text. | 
 | VMR9Allocator Sample | VMR-9 | Implements a custom allocator-presenter for the VMR-9. | strmbase.lib | 

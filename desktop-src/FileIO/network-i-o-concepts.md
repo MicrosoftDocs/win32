@@ -2,7 +2,7 @@
 description: When the underlying network protocol and redirector support I/O operations, you can use the file API to perform network I/O.
 ms.assetid: 329491e8-a271-484e-80e2-71958b0e33f5
 title: Network I/O Concepts
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

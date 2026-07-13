@@ -3,7 +3,7 @@ title: Remote Desktop Services API Messages
 description: Lists messages that are used with the Remote Desktop Services API.
 ms.assetid: 9af2a3dc-9508-411b-877c-e88c31125e23
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

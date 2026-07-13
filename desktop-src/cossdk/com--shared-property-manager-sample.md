@@ -2,7 +2,7 @@
 description: COM+ Shared Property Manager Sample
 ms.assetid: 54e48f64-25fe-44a5-b712-55233e85c7d9
 title: COM+ Shared Property Manager Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

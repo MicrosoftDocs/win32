@@ -2,7 +2,7 @@
 title: Server-Side Logging
 description: Server-side logging is available on a URL group or server session.
 ms.assetid: e1fcd87f-382a-42bf-b53f-1e1cb1dbbfc5
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

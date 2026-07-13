@@ -3,7 +3,7 @@ description: An array is an indexed list of data values that are of the same dat
 ms.assetid: f63c222f-499d-4776-8901-65cb8b142d2b
 ms.tgt_platform: multiple
 title: MOF Arrays
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

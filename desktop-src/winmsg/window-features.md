@@ -2,8 +2,8 @@
 description: This overview discusses features of windows such as window types, states, size, and position.
 ms.assetid: 8318c22f-85a2-490e-8233-ee1e234890d9
 title: Window Features
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Window Features
@@ -140,7 +140,7 @@ Hit testing of a layered window is based on the shape and transparency of the wi
 
 A *message-only window* enables you to send and receive messages. It is not visible, has no z-order, cannot be enumerated, and does not receive broadcast messages. The window simply dispatches messages.
 
-To create a message-only window, specify the [HWND\_MESSAGE](#message-only-windows) constant or a handle to an existing message-only window in the *hWndParent* parameter of the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function. You can also change an existing window to a message-only window by specifying HWND\_MESSAGE in the *hWndNewParent* parameter of the [**SetParent**](/windows/win32/api/winuser/nf-winuser-setparent) function.
+To create a message-only window, specify the [HWND\_MESSAGE](#message-only-windows) constant in the *hWndParent* parameter of the [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) function. You can also change an existing window to a message-only window by specifying HWND\_MESSAGE in the *hWndNewParent* parameter of the [**SetParent**](/windows/win32/api/winuser/nf-winuser-setparent) function.
 
 To find message-only windows, specify [HWND\_MESSAGE](#message-only-windows) in the *hwndParent* parameter of the [**FindWindowEx**](/windows/win32/api/winuser/nf-winuser-findwindowexa) function. In addition, **FindWindowEx** searches message-only windows as well as top-level windows if both the *hwndParent* and *hwndChildAfter* parameters are **NULL**.
 

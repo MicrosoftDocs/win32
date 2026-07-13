@@ -5,7 +5,7 @@ ms.assetid: 7afb1b70-635e-4527-bb53-dc9692ae4ebc
 ms.tgt_platform: multiple
 keywords:
 - ADSI ADSI ,benefits of using ADSI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

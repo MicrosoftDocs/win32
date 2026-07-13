@@ -2,7 +2,7 @@
 description: The final step of creating an event reference page (ERP) is to test it.
 ms.assetid: 12690317-1cd2-496c-8a0d-ba6caca58b86
 title: Testing an Event Reference Page
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Default Partitions
 ms.assetid: ce6ad7c1-d4a1-4573-860e-f7859c588773
 title: Default Partitions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Direct3D 12 On Windows 7 enumerations
 description: The following enumerations are declared in d3d12downlevel.h.
-ms.topic: article
+ms.topic: reference
 ms.date: 08/29/2019
 ---
 

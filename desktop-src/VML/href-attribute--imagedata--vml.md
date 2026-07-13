@@ -2,7 +2,7 @@
 title: HRef Attribute (ImageData)(VML)
 description: HRef Attribute (ImageData)(VML)
 ms.assetid: 'vs|vml|~\shape\image\image_href.htm'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

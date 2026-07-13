@@ -39,7 +39,7 @@ BN_DOUBLECLICKED
 *wParam* 
 </dt> <dd>
 
-The [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contains the button's control identifier. The [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) specifies the notification code.
+The [**LOWORD**](../winmsg/loword.md) contains the button's control identifier. The [**HIWORD**](../winmsg/hiword.md) specifies the notification code.
 
 </dd> <dt>
 

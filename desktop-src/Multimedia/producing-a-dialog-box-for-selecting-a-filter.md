@@ -12,7 +12,7 @@ keywords:
 - ACM (audio compression manager),selecting filters
 - ACM examples,selecting filters
 - selecting filters
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

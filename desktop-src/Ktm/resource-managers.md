@@ -2,7 +2,7 @@
 description: Resource Managers
 ms.assetid: c717b731-cf0b-45cb-bbff-695410fcf6ce
 title: Resource Managers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -32,7 +32,7 @@ The following functions are used with resource managers.
 | [**GetNotificationResourceManagerAsync**](/windows/desktop/api/KtmW32/nf-ktmw32-getnotificationresourcemanagerasync) | Requests and receives asynchronous notification for a resource manager (RM). This function is used by the RM register to receive notifications when a transaction changes state. |
 | [**OpenResourceManager**](/windows/desktop/api/Ktmw32/nf-ktmw32-openresourcemanager)                                 | Opens an existing resource manager (RM).                                                                                                                                         |
 | [**PrepareComplete**](/windows/desktop/api/Ktmw32/nf-ktmw32-preparecomplete)                                         | Indicates that the resource manager (RM) has completed all processing necessary to guarantee that a commit or abort operation will succeed for the specified transaction.        |
-| [**PrePrepareComplete**](/windows/desktop/api/Ktmw32/nf-ktmw32-prepreparecomplete)                                   | Signals that this resource manager has completed its preprepare work, so that other resource managers can now begin their prepare operations.                                    |
+| [**PrePrepareComplete**](/windows/desktop/api/Ktmw32/nf-ktmw32-prepreparecomplete)                                   | Signals that this resource manager has completed its pre-prepare work, so that other resource managers can now begin their prepare operations.                                    |
 | [**SetResourceManagerCompletionPort**](/windows/desktop/api/Ktmw32/nf-ktmw32-setresourcemanagercompletionport)       | Associates the specified I/O completion port with the specified resource manager (RM). This port receives all notifications for the RM.                                          |
 
 

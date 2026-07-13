@@ -7,7 +7,7 @@ keywords:
 - OpenGL reference,attribute groups
 - reference for OpenGL,attribute groups
 - attribute groups
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

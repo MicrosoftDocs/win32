@@ -2,7 +2,7 @@
 description: Performance Considerations (Direct3D 10)
 ms.assetid: 9f029be5-4ce0-46ca-909b-adaa980398e7
 title: Performance Considerations (Direct3D 10)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

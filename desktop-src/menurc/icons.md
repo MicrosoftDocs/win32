@@ -7,7 +7,7 @@ keywords:
 - icons,about
 - RT_ICON resource
 - RT_GROUP_ICON resource
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

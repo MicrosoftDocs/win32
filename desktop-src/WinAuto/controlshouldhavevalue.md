@@ -2,8 +2,8 @@
 title: ControlShouldHaveValue
 description: ControlShouldHaveValue
 ms.assetid: 90C37CC5-21D2-4D26-B6D9-2C95C52127BF
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # ControlShouldHaveValue

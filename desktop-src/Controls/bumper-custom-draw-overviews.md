@@ -2,7 +2,7 @@
 title: Custom Draw Overviews
 description: Custom Draw Overviews
 ms.assetid: 30fa5e37-cd72-4130-8bff-783b60f491a0
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The sample specifications include sending ActionData messages when a custom action creates or removes a user account, and reporting an error if an account cannot be created.
 ms.assetid: ee90fe3d-51f4-433b-a5ce-950a03e1d8fb
 title: Authoring the ActionText and Error Tables
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

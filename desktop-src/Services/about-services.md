@@ -2,7 +2,7 @@
 description: The service control manager (SCM) maintains a database of installed services and driver services, and provides a unified and secure means of controlling them.
 ms.assetid: a3af8340-d367-417b-9759-7282edf1d694
 title: About Services
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

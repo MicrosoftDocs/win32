@@ -8,8 +8,9 @@ keywords:
 - SPN see service principal names
 - service principal name AD
 - service principal name AD , about
-ms.topic: article
-ms.date: 02/06/2023
+ms.topic: concept-article
+ms.date: 02/19/2025
+# Customer-intent: As a Windows administrator, I want to understand how service principal names work so that I can manage them effectively.
 ---
 
 # Service principal names
@@ -33,5 +34,4 @@ This section includes the following articles:
 
 ## See also
 
-- [What is an SPN and why should you care?](/archive/blogs/autz_auth_stuff/what-is-a-spn-and-why-should-you-care)
 - [Mutual authentication using Kerberos](mutual-authentication-using-kerberos.md)

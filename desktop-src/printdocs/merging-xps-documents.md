@@ -2,7 +2,7 @@
 description: Describes how to use the XPS Document API to merge multiple XPS documents into a single XPS document.
 ms.assetid: 3182c88b-b4d6-40e6-856f-6e2272d7da6d
 title: Merge XPS Documents
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

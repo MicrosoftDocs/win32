@@ -2,7 +2,7 @@
 title: Tools and Utilities
 description: Tools and utilities provided for Direct2D.
 ms.assetid: 1133ed23-22f3-453b-9b1a-df2b20a8bedc
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

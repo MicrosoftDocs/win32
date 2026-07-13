@@ -2,7 +2,7 @@
 description: All IPv6 configuration is done with the Ipv6.exe tool.
 ms.assetid: cb701070-cb7f-472a-97c7-1de9c0ddec0f
 title: Ipv6.exe
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

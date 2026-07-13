@@ -4,7 +4,7 @@ description: Task Scheduler Glossary
 ms.assetid: 97eddc90-3f31-4140-a97c-50f81f715dd3
 keywords:
 - Task Scheduler Task Scheduler , Glossary
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

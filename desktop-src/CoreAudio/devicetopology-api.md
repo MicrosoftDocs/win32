@@ -2,7 +2,7 @@
 description: DeviceTopology API
 ms.assetid: 051311ef-dd29-4014-bb9c-4cdccf7ce7de
 title: DeviceTopology API
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.custom: project-verbatim
 ---

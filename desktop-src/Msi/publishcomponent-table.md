@@ -2,7 +2,7 @@
 description: The PublishComponent table associates components listed in the Component table with a qualifier text-string and a category ID GUID.
 ms.assetid: 4a6be647-3e73-47a1-acfa-7d6d0a2fb2f4
 title: PublishComponent Table
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

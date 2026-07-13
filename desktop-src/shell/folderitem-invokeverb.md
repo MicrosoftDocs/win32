@@ -13,6 +13,7 @@ api_type:
 - COM
 api_location: 
 - Shell32.dll
+no-loc: [Verb, verb, Shell, shell]
 ---
 
 # FolderItem.InvokeVerb method
@@ -49,13 +50,13 @@ This method does not return a value.
 
 ## Remarks
 
-A verb is a string used to specify a particular action that an item supports. Invoking a verb is equivalent to selecting a command from an item's shortcut menu. Typically, invoking a verb launches a related application. For example, invoking the "open" verb on a .txt file opens the file with a text editor, usually Microsoft Notepad. See [Launching Applications](launch.md) for further discussion of verbs.
+A verb is a string used to specify a particular action that an item supports. Invoking a verb is equivalent to selecting a command from an item's shortcut menu. Typically, invoking a verb launches a related application. For example, invoking the ":::no-loc text="open":::" verb on a .txt file opens the file with a text editor, usually Microsoft Notepad. See [Launching Applications](launch.md) for further discussion of verbs.
 
-The [**FolderItemVerbs**](folderitemverbs.md) object represents the collection of verbs associated with the item. The default verb may vary for different items, but it is typically "open".
+The [**FolderItemVerbs**](folderitemverbs.md) object represents the collection of verbs associated with the item. The default verb may vary for different items, but it is typically ":::no-loc text="open":::".
 
 ## Examples
 
-The following example uses **InvokeVerb** to invoke the default verb ("open" in this case) on the Windows folder. Proper usage is shown for JScript, VBScript, and Visual Basic.
+The following example uses **InvokeVerb** to invoke the default verb (":::no-loc text="open":::" in this case) on the Windows folder. Proper usage is shown for JScript, VBScript, and Visual Basic.
 
 JScript:
 

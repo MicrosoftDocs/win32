@@ -1,7 +1,7 @@
 ---
 description: Implementing a Custom File Format
 title: Implementing a Custom File Format
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.assetid: f84a0517-8b71-4c5f-b77a-abb634d4f935
 api_name: 

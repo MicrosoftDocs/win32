@@ -2,7 +2,7 @@
 title: Understanding MprInfo Functions and Information Headers
 description: The following functions require that the caller pass an information structure or header as one of the parameters.
 ms.assetid: 389002c9-2d24-4b35-ab5b-801fe2091db9
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

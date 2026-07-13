@@ -2,7 +2,7 @@
 description: Primary Email address of the contact.
 ms.assetid: f4247d92-d343-4946-8b5a-99f98f239616
 title: System.Contact.PrimaryEmailAddress
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

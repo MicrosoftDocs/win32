@@ -3,7 +3,7 @@ title: GETOBJ.CPP
 description: In the example provider component, appears a code example used to find and bind objects is in Getobj.cpp. Supported routines are listed in the following table.
 ms.assetid: d202e5ec-27b5-4809-a7fa-4a2e39c65295
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

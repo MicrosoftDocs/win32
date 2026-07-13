@@ -2,7 +2,7 @@
 title: Creating the Global Interface Table
 description: Creating the Global Interface Table
 ms.assetid: e8e46642-ef41-4322-97d0-8dd5b7c72992
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

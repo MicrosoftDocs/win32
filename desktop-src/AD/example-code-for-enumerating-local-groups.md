@@ -5,7 +5,7 @@ ms.assetid: d113d132-24cf-4319-826b-0d3d10e432f6
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , enumerating local groups
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -10,7 +10,7 @@ keywords:
 - Device Manager,desktop application sample
 - wmdmapp sample application
 - samples,desktop applications
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ---
 

@@ -4,7 +4,7 @@ description: The compound file implementation of IDirectWriterLock provides a wa
 ms.assetid: 4b247dae-d937-430a-bdb7-c47fa3c026b6
 keywords:
 - IDirectWriterLock Strctd Stg , compound file implementation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

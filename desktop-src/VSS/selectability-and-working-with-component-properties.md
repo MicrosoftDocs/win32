@@ -2,7 +2,7 @@
 description: Working with implicitly selected components requires access to both the Backup Components Document and Writer Metadata Documents.
 ms.assetid: ede51931-be50-4286-818b-0e6122247bdd
 title: Selectability and Working with Component Properties
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

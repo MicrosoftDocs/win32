@@ -11,7 +11,7 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),individual messages
 - playing MIDI files,individual messages
 - individual MIDI messages
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

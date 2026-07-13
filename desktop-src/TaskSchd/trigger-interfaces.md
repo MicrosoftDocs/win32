@@ -5,7 +5,7 @@ ms.assetid: 94c11f11-72e2-404f-b396-ab7b1be71942
 keywords:
 - triggers Task Scheduler , interfaces
 - triggers Task Scheduler , interfaces, described
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

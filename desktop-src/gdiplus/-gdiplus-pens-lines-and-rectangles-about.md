@@ -2,7 +2,7 @@
 description: To draw lines with Windows GDI+ you need to create a Graphics object and a Pen object.
 ms.assetid: d91562ab-41e6-4bca-a320-74f490a4f88f
 title: Pens, Lines, and Rectangles
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

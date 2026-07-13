@@ -3,7 +3,7 @@ description: To create a WMI method provider you must register the \_\_Win32Prov
 ms.assetid: 1cfb16ae-8dcf-437d-b779-db2f30bb0d34
 ms.tgt_platform: multiple
 title: Registering a Method Provider
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

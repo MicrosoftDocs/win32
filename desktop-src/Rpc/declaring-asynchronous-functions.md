@@ -4,7 +4,7 @@ description: To declare an RPC function as asynchronous, first declare the funct
 ms.assetid: 8fc627ce-ccf1-40d9-a540-14461c7fc5e1
 keywords:
 - Remote Procedure Call RPC , tasks, declaring asynchronous functions
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

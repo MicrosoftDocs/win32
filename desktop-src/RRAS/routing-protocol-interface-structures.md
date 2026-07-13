@@ -2,7 +2,7 @@
 title: Routing Protocol Interface Structures
 description: The Routing Protocol Interface Functions use the following structures.
 ms.assetid: 679c74fa-0049-4556-a942-e51160ceb796
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The Microsoft Windows operating system provides support for a variety of hardware devices and network time protocols using the time provider architecture.
 ms.assetid: 'a7575373-eeda-4f2a-85e5-d1b50994e7ae'
 title: Time Provider
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -18,14 +18,4 @@ Time providers are managed by the *time provider manager*. It is responsible for
 
 ## Related topics
 
-<dl> <dt>
-
-[Windows Time Service](https://www.microsoft.com/technet/prodtechnol/windowsserver2003/technologies/security/ws03mngd/26_s3wts.mspx)
-</dt> </dl>
-
- 
-
- 
-
-
-
+* [Windows Time Service](/windows-server/networking/windows-time-service/windows-time-service-top)

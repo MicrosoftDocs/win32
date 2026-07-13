@@ -2,7 +2,7 @@
 description: New for Windows 7. Identifies a property that is related to the property defined in the property description file.
 ms.assetid: 30167942-141A-4f37-B019-0811BA654124
 title: relatedProperty
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

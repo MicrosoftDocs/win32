@@ -5,7 +5,7 @@ ms.assetid: 6fb5682d-45f6-4eb2-85cb-741e8ab52304
 keywords:
 - OpenGL,modes reference
 - OpenGL,execution reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

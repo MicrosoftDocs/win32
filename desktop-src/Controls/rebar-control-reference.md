@@ -2,7 +2,7 @@
 title: Rebar
 description: This section contains information about programming elements used with rebar controls.
 ms.assetid: 'vs|controls|~\controls\rebar\reflist.htm'
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

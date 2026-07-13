@@ -2,7 +2,7 @@
 description: The Windows Registry Service supports a VSS writer, called the registry writer, which allows requesters to back up a system registry using data stored on a shadow copied volume.
 ms.assetid: 94a45b04-0bdc-4211-bed0-caeabba774af
 title: Registry Backup and Restore Operations Under VSS
-ms.topic: article
+ms.topic: reference
 ms.date: 03/03/2023
 ---
 
@@ -19,9 +19,7 @@ The writer ID for the registry writer is AFBAB4A2-367D-4D15-A586-71DBB18F8485.
 **Windows XP:** There is no registry writer. The registry data is reported by the Bootable State writer, whose writer ID is F2436E37-09F5-41AF-9B2A-4CA2435DBFD5.
 
 > [!Note]  
-> Microsoft does not provide developer or IT professional technical support for implementing online system state restores on Windows (all releases). For information about using Microsoft-provided APIs and procedures to implement online system state restores, see the community resources available at the [MSDN Community Center](https://msdn.microsoft.com/community/default.aspx).
-
- 
+> Microsoft does not provide developer or IT professional technical support for implementing online system state restores on Windows (all releases). 
 
 > [!Note]  
 > The following information only applies to Windows Server 2003 and Windows XP.

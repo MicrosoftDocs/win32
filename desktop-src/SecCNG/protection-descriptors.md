@@ -2,7 +2,7 @@
 description: A protection descriptor rule string contains a sequential list of one or more protectors.
 ms.assetid: FBFE2143-DC40-40F3-83CE-E6D8841F9C11
 title: Protection Descriptors
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Customize Winlogon behavior by implementing a Credential Provider.
 ms.assetid: 70b47e29-c755-4c59-a493-d7fcbbc94b83
 title: Customizing Winlogon
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

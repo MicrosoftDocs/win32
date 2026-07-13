@@ -2,7 +2,7 @@
 description: 'This section contains an example that demonstrates the following tasks:'
 ms.assetid: 61db38d7-9371-4ff1-b96b-1bed4c2a2749
 title: Using Coordinate Spaces and Transformations
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

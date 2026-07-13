@@ -4,7 +4,7 @@ description: You can edit the properties of a work item by using the graphic use
 ms.assetid: 2d7992ce-fa70-41cc-a8e7-74687171537f
 keywords:
 - editing work items Task Scheduler
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: IAgentCommand SetConfidenceThreshold
 description: IAgentCommand SetConfidenceThreshold
 ms.assetid: f62d646a-895d-468c-9397-0495680109a0
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

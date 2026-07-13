@@ -2,7 +2,7 @@
 description: Windows supports five graphic modes that allow an application to specify how colors are mixed, where output appears, how the output is scaled, and so on. These modes, which are stored in a DC, are described in the following table.
 ms.assetid: 061af47e-fd49-4eb4-9b1b-03eb9c841622
 title: Graphic Modes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

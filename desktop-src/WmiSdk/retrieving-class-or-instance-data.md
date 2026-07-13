@@ -3,7 +3,7 @@ description: The main data objects in WMI are classes and instances. The followi
 ms.assetid: efd64464-1db9-44f7-9614-88598a2e8f07
 ms.tgt_platform: multiple
 title: Retrieving WMI Class or Instance Data
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

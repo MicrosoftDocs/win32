@@ -2,7 +2,7 @@
 title: Links
 description: With a link, users can navigate to another page, window, or Help topic; display a definition; initiate a command; or choose an option.
 ms.assetid: a23748e4-b2dd-4b9f-9a7c-ff6533922c8c
-ms.topic: article
+ms.topic: reference
 ms.date: 10/20/2020
 ---
 

@@ -7,7 +7,7 @@ keywords:
 - MIDI (Musical Instrument Digital Interface),input data types
 - recording MIDI audio,input data types
 - MIDI input data types
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

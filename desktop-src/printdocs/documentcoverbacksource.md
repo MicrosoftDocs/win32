@@ -2,7 +2,7 @@
 description: Learn about the DocumentCoverBackSource element, which specifies the source for a custom back-cover sheet.
 ms.assetid: 43a0c881-75cc-4fbc-a0c3-b3eab9dfe4df
 title: DocumentCoverBackSource
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

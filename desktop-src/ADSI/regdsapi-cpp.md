@@ -3,7 +3,7 @@ title: REGDSAPI.CPP
 description: In the example provider component, functions that represent an API that directly accesses the native operating system are in Regdsapi.cpp.
 ms.assetid: dc5ab286-5c70-43a3-90a1-f3f8a1c61c43
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: To copy a bitmap into a parallelogram; use the PlgBlt function, which performs a bit-block transfer from a rectangle in a source device context into a parallelogram in a destination device context.
 ms.assetid: fd5b3d9f-fdce-485e-bff8-464d96b8db34
 title: Bitmap Rotation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

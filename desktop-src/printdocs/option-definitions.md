@@ -2,7 +2,7 @@
 description: Learn about option definitions in the PrintCapabilities schema. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 'e81068db-ab8e-420c-a0be-93bc92f3df6f'
 title: Option Definitions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

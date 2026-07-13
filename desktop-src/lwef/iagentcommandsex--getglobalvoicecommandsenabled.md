@@ -2,7 +2,7 @@
 title: IAgentCommandsEx GetGlobalVoiceCommandsEnabled
 description: IAgentCommandsEx GetGlobalVoiceCommandsEnabled
 ms.assetid: 9c8fa978-a02b-4dfc-8cf7-e066c5b75122
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

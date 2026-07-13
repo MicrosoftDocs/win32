@@ -15,7 +15,7 @@ keywords:
 - OpenGL porting from IRIS GL,polygons
 - drawing functions,polygons
 - polygons,porting from IRIS GL
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -4,7 +4,7 @@ description: The interface registration file collects information that helps in 
 ms.assetid: 203303dc-121e-4bf4-b648-a35b956a56ee
 keywords:
 - interface registration file MIDL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

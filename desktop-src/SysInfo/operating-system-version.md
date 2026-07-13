@@ -2,7 +2,7 @@
 description: The Version API Helper functions are used to determine the version of the operating system that is currently running. For more information, see Getting the System Version.
 ms.assetid: 1a70b1d9-ed66-4201-9921-4e26e4001020
 title: Operating System Version
-ms.topic: article
+ms.topic: concept-article
 ms.date: 09/15/2020
 ---
 

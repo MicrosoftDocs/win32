@@ -2,7 +2,7 @@
 description: Charging information is specific to the ISDN Q.931 standard. Please refer to your service providers documentation on the meaning and use of this data.
 ms.assetid: 5032e2cb-486a-4667-9873-bf88365f12cf
 title: Charging Information
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

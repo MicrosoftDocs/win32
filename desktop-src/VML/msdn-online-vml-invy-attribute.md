@@ -2,7 +2,7 @@
 title: VML InvY Attribute
 description: VML InvY Attribute
 ms.assetid: 6c8c51ab-88ce-40b2-add7-1152e125ad8b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

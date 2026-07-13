@@ -42,7 +42,7 @@ HRESULT UtilLoadStringWithAlloc(
 
 Type: **UINT**
 
-Identifier of of the string to be loaded.
+Identifier of the string to be loaded.
 
 </dd> <dt>
 

@@ -3,7 +3,7 @@ description: WMI has extensions or providers that enable you to access other ope
 ms.assetid: 63ca64e0-1731-47bb-8ed0-51fcdb114863
 ms.tgt_platform: multiple
 title: Accessing Other Operating System Features with WMI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

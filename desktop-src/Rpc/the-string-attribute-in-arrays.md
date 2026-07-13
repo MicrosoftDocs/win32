@@ -4,7 +4,7 @@ description: You can use the \ string\ attribute for one-dimensional character a
 ms.assetid: 96cebb84-6123-4bf8-b70b-a4f6d48cce52
 keywords:
 - string
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: e204ea67-52c0-430a-bb22-a53f4c084e4f
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , creating a local group
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

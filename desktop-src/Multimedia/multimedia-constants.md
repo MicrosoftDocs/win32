@@ -8,7 +8,7 @@ keywords:
 - multimedia reference,constants
 - reference for multimedia,constants
 - multimedia constants
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Get information about the JobErrorSheetSource parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 6de13ed8-bf15-4e2c-b42a-ea8178a6b5f9
 title: JobErrorSheetSource
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

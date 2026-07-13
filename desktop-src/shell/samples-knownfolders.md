@@ -1,7 +1,7 @@
 ---
 description: Demonstrates how to define, register, enumerate and find the path for all known folders on the current system.
 title: Known Folders Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ms.assetid: 49799A9E-BA86-4977-B5F3-590BE1E5FBF6
 api_name: 

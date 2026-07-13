@@ -2,7 +2,7 @@
 title: IAgentCharacter SetName
 description: IAgentCharacter SetName
 ms.assetid: 4944f910-60e9-446b-82e9-2794f445789a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

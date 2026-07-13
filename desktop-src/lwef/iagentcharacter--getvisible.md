@@ -2,7 +2,7 @@
 title: IAgentCharacter GetVisible
 description: IAgentCharacter GetVisible
 ms.assetid: 6e8e3a68-a7bb-4afb-a753-836fe82a0b24
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Modeling specular reflection requires that the system not only know in what direction light is traveling, but also the direction to the viewer's eye.
 ms.assetid: 35da0ac3-4e68-4d37-a987-405fc15d0cbf
 title: Specular Lighting (Direct3D 9)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

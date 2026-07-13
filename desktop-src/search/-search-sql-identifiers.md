@@ -2,7 +2,7 @@
 description: Identifiers specify the names of columns (sometimes referred to as properties), catalogs, and aliases.
 ms.assetid: 799afe2c-9217-4006-a4a3-644e5393993c
 title: Identifiers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -1,7 +1,7 @@
 ---
 description: Some of the system items found in the Control Panel are extensible. To install a Control Panel extension, register your Shell extension as follows, where name is the predefined name of the system item (see table below).
 title: Extending System Control Panel Items
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.assetid: b8b18b71-c95f-4c71-8df4-fe9342ce0165
 api_name: 
@@ -35,14 +35,14 @@ This is similar to the way you would register an extension for a predefined Shel
 
 | Control Panel item | <em>name</em> | Remarks | 
 |--------------------|---------------|---------|
-| Display | Desk | Also supports replacement of the <strong>Desktop</strong> page.<blockquote>[!Note]<br />This is no longer supported under Windows Vista.</blockquote><br /> | 
-| Display Settings Advanced | Device | Nonhardware-specific advanced properties.<blockquote>[!Note]<br />This is no longer supported under Windows Vista.</blockquote><br /> | 
-| Display Settings Advanced | Display | Hardware-specific advanced properties.<blockquote>[!Note]<br />This is no longer supported under Windows Vista.</blockquote><br /> | 
+| Display | Desk | Also supports replacement of the **Desktop** page. **Note:** This is no longer supported under Windows Vista.<br> | 
+| Display Settings Advanced | Device | Nonhardware-specific advanced properties. **Note:** This is no longer supported under Windows Vista.<br> | 
+| Display Settings Advanced | Display | Hardware-specific advanced properties. **Note:** This is no longer supported under Windows Vista.<br> | 
 | Internet Options | Internet | The maximum number of extension pages is 18. | 
 | Keyboard | Keyboard | The maximum number of extension pages is 30. | 
 | Mouse | Mouse | Also supports replacement of standard pages. The maximum number of extension pages is 8. | 
 | Power Options | Power | The maximum number of pages, including standard pages, is 18. | 
-| System | System | The maximum number of extension pages is 8.<blockquote>[!Note]<br />This is no longer supported under Windows Vista.</blockquote><br /> | 
+| System | System | The maximum number of extension pages is 8. **Note:** This is no longer supported under Windows Vista.<br> | 
 
 
 

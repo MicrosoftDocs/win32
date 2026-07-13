@@ -2,7 +2,7 @@
 title: Cfg.h
 description: This section contains reference topics for the Cfg.h header.
 ms.assetid: 33120a4c-07ec-4d04-92a2-f2f7a4fe9960
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

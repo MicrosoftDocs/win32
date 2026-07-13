@@ -2,7 +2,7 @@
 title: Property Identifiers/Offset Pairs
 description: Following the Count of Properties property set value is an array of Property Identifiers/Offset Pairs property set values.
 ms.assetid: 341608a1-3ab1-4fa9-ab9a-4124c63c78a7
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

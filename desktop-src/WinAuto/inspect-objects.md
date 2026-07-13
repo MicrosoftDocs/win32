@@ -5,8 +5,8 @@ ms.assetid: 38edacbc-cf24-4818-b029-561b21e3704c
 keywords:
 - Inspect Tool
 - Accessibility
-ms.topic: article
-ms.date: 02/09/2023
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Accessibility tools - Inspect
@@ -165,4 +165,4 @@ The following keyboard shortcut keys activate the various options on the menu:
 - [Accessibility tools - AccChecker (UI Accessibility Checker)](ui-accessibility-checker.md)
 - [Accessibility tools - UI Automation Verify (UIA Verify)](ui-automation-verify.md)
 - [Accessibility tools - AccScope](accscope.md)
-- [Testing Tools](testing-tools.md)
+- [Testing for accessibility](accessibility-testingtools.md)

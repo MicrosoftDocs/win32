@@ -2,7 +2,7 @@
 description: Populating COM+ Collections
 ms.assetid: df86cbab-dcb8-46ac-aebf-8516276b6e81
 title: Populating COM+ Collections
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

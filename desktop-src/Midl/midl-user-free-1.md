@@ -39,7 +39,7 @@ Both client application and server application must implement the **midl\_user\_
 
 Applications and stubs call **midl\_user\_free** when dealing with objects referenced by pointers:
 
--   The server application should call **midl\_user\_free** to free memory allocated by the applicationâ€”for example, when deleting a specified node.
+-   The server application should call **midl\_user\_free** to free memory allocated by the application--for example, when deleting a specified node.
 -   The server stub calls **midl\_user\_free** to release memory on the server after marshaling all **\[**[**out**](out-idl.md)**\]** arguments, **\[**[**in**](in.md), **out\]** arguments, and the return value.
 
 ## Examples

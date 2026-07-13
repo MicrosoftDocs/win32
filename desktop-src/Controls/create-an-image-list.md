@@ -2,7 +2,7 @@
 title: How to Create an Image List
 description: This topic demonstrates how to use the ImageList\_Create function to create an image list.
 ms.assetid: 6092C555-B5B6-49DB-B07B-684EDB890761
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The InstallServices action registers a service for the system. This action queries the ServiceInstall table.
 ms.assetid: bb394cdb-1310-44fb-b7e1-2ffbb976d438
 title: InstallServices Action
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

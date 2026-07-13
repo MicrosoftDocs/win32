@@ -2,7 +2,7 @@
 title: Gaming with Least-Privileged User Accounts
 description: This article describes how games developers can author Microsoft Windows games that work well with least-privileged user accounts (also known as limited-user accounts).
 ms.assetid: 1b7cc3c9-b180-14b1-53c8-57f9e545d009
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

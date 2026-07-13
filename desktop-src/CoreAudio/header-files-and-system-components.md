@@ -2,7 +2,7 @@
 description: Header Files and System Components
 ms.assetid: de2776be-72e6-4391-8e6c-56694d683d57
 title: Header Files and System Components
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

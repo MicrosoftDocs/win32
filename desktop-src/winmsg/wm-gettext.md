@@ -3,7 +3,7 @@ description: Copies the text that corresponds to a window into a buffer provided
 ms.assetid: 117c3d6d-24cd-462f-bdb0-b65d8914273a
 title: WM_GETTEXT message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_GETTEXT message

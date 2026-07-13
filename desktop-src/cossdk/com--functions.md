@@ -2,7 +2,7 @@
 description: The following are the COM+ functions.
 ms.assetid: fdeb70ff-17ae-4ee4-a8b1-7fffb65ba2b2
 title: COM+ Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

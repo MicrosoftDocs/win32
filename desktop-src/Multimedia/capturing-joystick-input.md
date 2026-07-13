@@ -5,7 +5,7 @@ ms.assetid: 1214fe5a-5a6a-4c6c-9b77-94eeb73f60da
 keywords:
 - joysticks,capturing input
 - capturing joystick input
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

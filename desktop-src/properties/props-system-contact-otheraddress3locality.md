@@ -2,7 +2,7 @@
 description: System.Contact.OtherAddress3Locality
 ms.assetid: 0e7bd69f-41ac-45d2-8190-ebe52d6bcf03
 title: System.Contact.OtherAddress3Locality
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

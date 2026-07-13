@@ -2,7 +2,7 @@
 title: IAgentCharacter GetVisibilityCause
 description: IAgentCharacter GetVisibilityCause
 ms.assetid: 46f681de-1c99-4f90-a3fe-aae04bb75339
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

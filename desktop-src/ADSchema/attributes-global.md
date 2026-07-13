@@ -3,7 +3,7 @@ title: Global Attributes (AD Schema)
 description: The following are the attributes that are contained in the global catalog.
 ms.assetid: fc2589b2-4a55-43b7-8793-34f497a3da3e
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

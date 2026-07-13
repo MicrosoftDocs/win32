@@ -8,7 +8,7 @@ keywords:
 - Advanced Systems Format (ASF),key-frame insertions
 - ASF (Advanced Systems Format),key-frame insertions
 - key frames
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

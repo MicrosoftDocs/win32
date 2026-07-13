@@ -1,12 +1,12 @@
 ---
 description: The Windows Search Structured Query Language (SQL) is similar to a standard SQL query.
 ms.assetid: 7d992fa2-4606-46ca-904c-b45056a9bbc2
-title: Overview of Windows Search SQL Syntax
-ms.topic: article
+title: Overview of Windows Search SQL syntax
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Overview of Windows Search SQL Syntax
+# Overview of Windows Search SQL syntax
 
 The Windows Search Structured Query Language (SQL) is similar to a standard SQL query. It is shown in the following two syntaxes:
 

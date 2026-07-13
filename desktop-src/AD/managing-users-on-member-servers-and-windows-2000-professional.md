@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - users AD ,managing a user on member servers and Windows 2000 Professional
 - Active Directory,using,users,managing a user on member servers and Windows 2000 Professional
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Security terms, computer security terms, and definitions for computer terms.
 ms.assetid: d0124dd3-5074-4742-9565-d86576214761
 title: Security Glossary
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The following list contains the TAPI 3 terminal manager interfaces.
 ms.assetid: 3cc864f9-37a8-472a-925d-555d7dcb0b7d
 title: TAPI 3 Terminal Manager Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

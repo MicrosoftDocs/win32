@@ -2,7 +2,7 @@
 description: Windows Runtime C++ reference
 ms.assetid: '0f8e8dc8-aafa-4f4f-a81a-42af5867fc5a'
 title: Windows Runtime C++ reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

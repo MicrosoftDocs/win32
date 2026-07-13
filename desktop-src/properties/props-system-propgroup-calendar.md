@@ -2,7 +2,7 @@
 description: Read about the System.PropGroup.Calendar property. Do not use this property for getting or setting values. It is intended only as a marker.
 ms.assetid: 88873d45-2f9b-477b-87d4-ea269afb42ae
 title: System.PropGroup.Calendar
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

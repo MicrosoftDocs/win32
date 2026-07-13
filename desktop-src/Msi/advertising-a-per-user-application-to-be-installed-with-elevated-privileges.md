@@ -2,7 +2,7 @@
 description: 'To advertise an application on a per-user installation basis when the application requires elevated (that is, system) privileges for installation, use the guidelines in the following list:'
 ms.assetid: 0d2bd2d9-0eac-4519-862c-15f0ee5cbc40
 title: Advertising a Per-User Application To Be Installed with Elevated Privileges
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

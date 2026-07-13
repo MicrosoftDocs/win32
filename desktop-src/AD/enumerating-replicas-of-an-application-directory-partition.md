@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Enumerating Replicas of an Application Directory Partition AD
 - Application Directory Partitions AD , Enumerating Replicas of
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

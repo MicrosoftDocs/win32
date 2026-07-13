@@ -2,7 +2,7 @@
 description: You can assign a drive letter (for example, X:\) to a local volume by using the SetVolumeMountPoint function, provided there is no volume already assigned to that drive letter.
 ms.assetid: 8c78b2e8-199a-4934-a9c4-6f3913f44efe
 title: Assigning a Drive Letter to a Volume
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

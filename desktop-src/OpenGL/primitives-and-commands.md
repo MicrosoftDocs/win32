@@ -7,7 +7,7 @@ keywords:
 - OpenGL,commands
 - primitives OpenGL
 - commands OpenGL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

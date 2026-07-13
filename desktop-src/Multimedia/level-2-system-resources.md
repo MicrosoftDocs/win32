@@ -8,7 +8,7 @@ keywords:
 - Multimedia PC Marketing Council,Level 2
 - MPC Level 2,system resources
 - MPC Level 2,minimum configuration
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

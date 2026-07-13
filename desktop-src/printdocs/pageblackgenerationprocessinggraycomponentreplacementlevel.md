@@ -2,7 +2,7 @@
 description: Learn about the PageBlackGenerationProcessingGrayComponentReplacementLevel element, which specifies the percentage of gray component replacement.
 ms.assetid: e33634bb-5db5-4197-889d-82caf2e74191
 title: PageBlackGenerationProcessingGrayComponentReplacementLevel
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

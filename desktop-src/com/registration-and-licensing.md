@@ -2,7 +2,7 @@
 title: Registration and Licensing
 description: Registration and Licensing
 ms.assetid: 8f61edda-41f9-41a2-8392-cb8cb5b758fa
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

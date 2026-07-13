@@ -2,7 +2,7 @@
 description: This topic is step 2 of the tutorial How to Play Media Files with Media Foundation.
 ms.assetid: b489312f-ab8c-4ec6-8070-f5848034087e
 title: 'Step 2: Create the CPlayer Object'
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

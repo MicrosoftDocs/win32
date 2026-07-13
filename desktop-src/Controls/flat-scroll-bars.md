@@ -2,7 +2,7 @@
 title: Flat Scroll Bars
 description: Microsoft Internet Explorer 4.0 introduced a new visual technology called flat scroll bars.
 ms.assetid: f7e00e71-bf12-4db9-bb84-6d413b967049
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -5,7 +5,7 @@ ms.assetid: 7b974fb5-e34d-4781-858c-572c4e7754bc
 keywords:
 - OpenGL on Windows,pixels
 - best-match pixel format OpenGL
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

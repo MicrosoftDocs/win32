@@ -2,7 +2,7 @@
 title: NTLMSSP
 description: NTLMSSP
 ms.assetid: ae434165-4429-4ef0-b083-60abdfc50de0
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

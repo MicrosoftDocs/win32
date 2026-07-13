@@ -5,7 +5,7 @@ ms.assetid: e3bf2936-40b1-46b5-8ee9-ab208bb388f6
 ms.tgt_platform: multiple
 keywords:
 - Obtaining a Link ID
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

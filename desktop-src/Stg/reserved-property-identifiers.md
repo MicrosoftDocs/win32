@@ -2,7 +2,7 @@
 title: Reserved Property Identifiers
 description: Reserved property identifiers cannot be used as property identifiers (ID). Any property identifier (ID) can be used except 0, 1, and any value greater than, or equal to, 0x80000000. These property identifier values are reserved for use by applications.
 ms.assetid: d313a7b1-4cac-41f8-ba38-bf9cfaeb9d5c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Default Texture Mapping
 description: The use of default texture mapping reduces copying and memory usage while sharing image data between the GPU and the CPU.
 ms.assetid: 77AF4BFA-09B5-4181-9408-002764F2A923
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

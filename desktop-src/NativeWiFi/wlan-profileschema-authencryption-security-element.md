@@ -2,7 +2,7 @@
 title: authEncryption (security) element
 description: Specifies the authentication and encryption pair to be used for this profile.
 ms.topic: reference
-ms.date: 06/25/2023
+ms.date: 05/14/2025
 topic_type: 
 - APIRef
 - kbSyntax
@@ -142,7 +142,9 @@ This parameter can be set at the command line using the **netsh wlan set profile
 
 ### transitionMode
 
-Transition mode configuration.
+Specifies whether or not this is a transition mode profile. In general, transition mode profiles allow for connections between next- and previous-generation Wi-Fi networks. Specific transition mode behavior is defined on a per-feature basis. For example, when `authentication` is `WPA3SAE`, `transitionMode` refers to WPA2/WPA3 transition mode, as defined in the Wi-Fi Alliance WPA3 specification.
+
+** Windows Server 2022, Windows 11 version 21H2 [10.0.22000]:** Minimum versions of Windows that support this element. In earlier versions of Windows, if **transitionMode** is present in a profile, then the element is ignored.
 
 ## Examples
 

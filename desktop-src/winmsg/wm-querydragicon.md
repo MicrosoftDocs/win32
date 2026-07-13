@@ -3,7 +3,7 @@ description: Sent to a minimized (iconic) window.
 ms.assetid: e4f0e638-f606-4745-888b-14a846c7fd37
 title: WM_QUERYDRAGICON message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_QUERYDRAGICON message

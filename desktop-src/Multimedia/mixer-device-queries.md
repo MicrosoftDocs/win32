@@ -7,7 +7,7 @@ keywords:
 - audio,mixer device queries
 - audio mixers,device queries
 - mixers,device queries
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

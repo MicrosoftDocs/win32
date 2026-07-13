@@ -2,7 +2,7 @@
 title: Events in COM and Connectable Objects
 description: When a program detects something that has happened, it can notify its clients.
 ms.assetid: f6ffbd1d-4bc1-4dc2-b3ed-ee12359e3d75
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

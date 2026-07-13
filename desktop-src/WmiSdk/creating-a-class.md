@@ -3,7 +3,7 @@ description: In WMI, a class is an object that describes some aspect of an enter
 ms.assetid: 06b75910-f126-48b6-8e43-4a9ed4661732
 ms.tgt_platform: multiple
 title: Creating a WMI Class
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

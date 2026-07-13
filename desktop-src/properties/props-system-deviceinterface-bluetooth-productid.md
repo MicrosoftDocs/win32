@@ -2,7 +2,7 @@
 description: Bluetooth device product identifier.
 ms.assetid: 5ed59d0a-31ee-41f0-9243-1ff7ce02cedb
 title: System.DeviceInterface.Bluetooth.ProductId
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

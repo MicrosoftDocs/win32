@@ -3,7 +3,7 @@ title: Consistency GUIDs
 description: Consistency GUIDs are a detection strategy that allows an application to detect partial updates.
 ms.assetid: 3418667f-4d5a-4a4b-b0f5-7744a21608f7
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

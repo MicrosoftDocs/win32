@@ -2,8 +2,8 @@
 description: The debugger uses the WaitForDebugEvent function at the beginning of its main loop.
 ms.assetid: 5a45854e-2711-49d5-982b-6b85248ec632
 title: Writing the Debugger's Main Loop
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Writing the Debugger's Main Loop

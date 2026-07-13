@@ -2,7 +2,7 @@
 description: Code example of a multithreaded pipe server.
 ms.assetid: 4657e814-0e7f-45b5-8ddb-17ec0c3612ba
 title: Multithreaded Pipe Server
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

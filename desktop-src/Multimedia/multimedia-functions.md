@@ -8,7 +8,7 @@ keywords:
 - multimedia reference,functions
 - reference for multimedia,functions
 - multimedia functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

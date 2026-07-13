@@ -2,7 +2,7 @@
 title: Licensing
 description: Licensing
 ms.assetid: a77c0141-62b4-4032-a734-5a55da6a50e0
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

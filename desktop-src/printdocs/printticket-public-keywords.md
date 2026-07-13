@@ -2,7 +2,7 @@
 description: These articles specify both PrintTicket specific property descriptions and parameter initializers which may be applicable to a PrintTicket.
 ms.assetid: 116f59e9-da65-430d-b5de-e7cd9686bd19
 title: PrintTicket Public Keywords
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

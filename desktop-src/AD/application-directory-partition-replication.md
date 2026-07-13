@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Application Directory Partition Replication AD
 - Application directory partitions AD , Replication
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

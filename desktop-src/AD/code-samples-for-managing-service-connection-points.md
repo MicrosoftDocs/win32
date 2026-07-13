@@ -3,7 +3,7 @@ title: Code Samples for Managing Service Connection Points
 description: Service Connection Points are managed using Active Directory Service Interfaces. The samples below demonstrate this interface.
 ms.assetid: 279a736f-cf64-48d7-8757-5a3066bfcd70
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

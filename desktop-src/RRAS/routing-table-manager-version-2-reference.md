@@ -4,7 +4,7 @@ description: The following documentation describes the functions, callbacks, str
 ms.assetid: 75ff0950-1acc-45f7-b4c2-9fda52dbc82f
 keywords:
 - Routing and Remote Access Service RRAS ,Routing Table Manager Version 2,reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

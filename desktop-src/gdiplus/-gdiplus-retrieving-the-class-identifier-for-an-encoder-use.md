@@ -2,7 +2,7 @@
 description: The function GetEncoderClsid in the following example receives the MIME type of an encoder and returns the class identifier (CLSID) of that encoder.
 ms.assetid: f78dac7c-4bc1-4614-8a26-d99d5619399a
 title: Retrieving the Class Identifier for an Encoder
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

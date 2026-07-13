@@ -4,7 +4,7 @@ description: Multimedia Playback
 ms.assetid: a06a11a0-5d4d-4b87-9c91-0fe687b08f8d
 keywords:
 - MCIWndCreate function
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,8 +2,8 @@
 title: Choosing When to Create Accessible Objects
 description: Server developers can create all the accessible objects within a container when the container is created, or they can create the accessible objects dynamically.
 ms.assetid: 26c8bb4b-19ec-4fd5-b758-30cb6a513818
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Choosing When to Create Accessible Objects

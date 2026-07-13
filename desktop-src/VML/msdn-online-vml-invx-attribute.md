@@ -2,7 +2,7 @@
 title: VML InvX Attribute
 description: VML InvX Attribute
 ms.assetid: 59fbd4c0-ae31-4198-a9e7-be12cd50288f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

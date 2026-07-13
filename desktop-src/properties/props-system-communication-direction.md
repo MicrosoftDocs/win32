@@ -2,7 +2,7 @@
 description: Indicates whether a communication was incoming or outgoing.
 ms.assetid: b41f185b-f8b3-433b-9aed-8e71d59e4602
 title: System.Communication.Direction
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The capabilities of the Shell can be extended with registry entries and .ini files.
 ms.assetid: '74a81e4f-7357-4901-a118-ba44e8892f25'
 title: Creating Shell Extension Handlers
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -388,7 +388,7 @@ HKEY_CLASSES_ROOT
    MyProgram.1
       (Default) = MyProgram Application
       Shellex
-         ContextMenuHandler
+         ContextMenuHandlers
             MyCommand
                (Default) = {00000000-1111-2222-3333-444444444444}
          PropertySheetHandlers

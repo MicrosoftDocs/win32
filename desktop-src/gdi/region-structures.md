@@ -2,7 +2,7 @@
 description: 'The following structures are used with regions:'
 ms.assetid: e66d46fd-af6f-43ce-a9f7-21389d14cb89
 title: Region Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

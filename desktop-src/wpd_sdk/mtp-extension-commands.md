@@ -2,7 +2,7 @@
 description: MTP Extension Commands
 ms.assetid: DEE0E2D4-7727-4C26-A6B6-12F96CFCCA49
 title: MTP Extension Commands
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

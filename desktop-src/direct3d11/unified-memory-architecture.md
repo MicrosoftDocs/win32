@@ -2,7 +2,7 @@
 title: Unified Memory Architecture
 description: Querying for whether Unified Memory Architecture (UMA) is supported can help determine how to handle some resources.
 ms.assetid: E43892F9-E7CD-4D18-BDDE-3C4F03F8F4EA
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

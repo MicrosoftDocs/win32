@@ -2,7 +2,7 @@
 title: Primitive Topologies
 description: Direct3D 10 and higher supports several primitive types (or topologies) that are represented by the D3D\_PRIMITIVE\_TOPOLOGY enumerated type. These types define how vertices are interpreted and rendered by the pipeline.
 ms.assetid: 357ad085-fd91-4420-abc3-1c57e8cbb517
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -24,7 +24,7 @@ The following basic primitive types are supported:
 -   [Line List](/windows/desktop/direct3d9/line-lists)
 -   [Line Strip](/windows/desktop/direct3d9/line-strips)
 -   [Triangle List](/windows/desktop/direct3d9/triangle-lists)
--   [Triange Strip](/windows/desktop/direct3d9/triangle-strips)
+-   [Triangle Strip](/windows/desktop/direct3d9/triangle-strips)
 
 For a visualization of each primitive type, see the diagram later in this topic in [Winding Direction and Leading Vertex Positions](#winding-direction-and-leading-vertex-positions).
 

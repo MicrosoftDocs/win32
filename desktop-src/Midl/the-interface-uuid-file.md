@@ -5,7 +5,7 @@ ms.assetid: 8e7198e9-8166-426d-a6cc-e9a0a798811b
 keywords:
 - MIDL and COM MIDL , interfaces, proxy UUID files
 - interface UUID file MIDL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: Pronounciation of the first name.
 ms.assetid: 8fde367a-91a7-460d-b621-1d58e0bb14a6
 title: System.Contact.JA.FirstNamePhonetic
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

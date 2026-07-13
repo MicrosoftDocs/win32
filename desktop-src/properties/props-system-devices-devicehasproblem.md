@@ -2,7 +2,7 @@
 description: Device has a problem.
 ms.assetid: 0eeb586b-4d54-409f-8f73-55b5977f6277
 title: System.Devices.DeviceHasProblem
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

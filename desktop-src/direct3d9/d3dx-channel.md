@@ -2,7 +2,7 @@
 description: Learn about the D3DX_CHANNEL flags that are used to specify which channels in a texture to operate on, such as D3DX_CHANNEL_RED.
 ms.assetid: b592b42a-0af1-49df-b159-4b84e4e12c95
 title: D3DX_CHANNEL
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

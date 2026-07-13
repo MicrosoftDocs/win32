@@ -2,7 +2,7 @@
 description: Lists tasks using SSPI with Microsoft Digest SSP.
 ms.assetid: 8867bd8f-271b-4f29-87e4-a487fcac2a9c
 title: SSPI with Microsoft Digest SSP Tasks
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

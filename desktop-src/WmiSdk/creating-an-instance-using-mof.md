@@ -3,7 +3,7 @@ description: You can declare a basic instance of a class in the Windows Manageme
 ms.assetid: 12eda062-9614-455d-ae99-7706c685137b
 ms.tgt_platform: multiple
 title: Creating an Instance Using MOF
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

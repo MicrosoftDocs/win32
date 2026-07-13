@@ -2,7 +2,7 @@
 description: Windows Installer performs the following actions during the removal of an application when the package contains isolated components. Typically, Component\_Shared is a DLL that is shared by Component\_Application and other client executables.
 ms.assetid: 26343a01-9a06-43d5-bbe3-959faf51739d
 title: Removal of Isolated Components
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

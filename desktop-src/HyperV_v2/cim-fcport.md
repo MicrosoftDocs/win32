@@ -23,7 +23,7 @@ api_location:
 # CIM\_FCPort class
 
 > [!NOTE]
-> This article contains references to the term slave, a term that Microsoft no longer uses. When the term is removed from the software, we’ll remove it from this article.
+> This article contains references to the term slave&mdash;a term that Microsoft doesn't condone, and has stopped using in new products and documentation. When the term is removed from the software, we’ll remove it from this article.
 
 Represents the capabilities and management of a fibre channel (FC) port device.
 
@@ -44,7 +44,7 @@ class CIM_FCPort : CIM_NetworkPort
 ## Members
 
 > [!NOTE]
-> This article contains references to the term slave, a term that Microsoft no longer uses. When the term is removed from the software, we’ll remove it from this article.
+> This article contains references to the term slave&mdash;a term that Microsoft doesn't condone, and has stopped using in new products and documentation. When the term is removed from the software, we’ll remove it from this article.
 
 The **CIM\_FCPort** class has these types of members:
 

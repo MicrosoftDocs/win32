@@ -9,7 +9,7 @@ keywords:
 - accelerators
 - WM_COMMAND message
 - WM_SYS COMMAND message
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

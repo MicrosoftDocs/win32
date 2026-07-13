@@ -2,7 +2,7 @@
 description: Windows stores the data in file read and write operations in system-maintained data buffers to optimize disk performance.
 ms.assetid: e8c12a1d-f6a4-4850-814d-6f0a712f8f9a
 title: Flushing System-Buffered I/O Data to Disk
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

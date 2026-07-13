@@ -2,7 +2,7 @@
 description: System.Message.ConversationID
 ms.assetid: 99fe6242-f8bd-46de-bbf3-af788377fada
 title: System.Message.ConversationID
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

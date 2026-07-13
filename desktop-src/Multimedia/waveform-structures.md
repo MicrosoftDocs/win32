@@ -8,7 +8,7 @@ keywords:
 - waveform audio,structures
 - waveform audio reference,structures
 - reference for wavefore audio,structures
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

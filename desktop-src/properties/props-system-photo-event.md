@@ -2,7 +2,7 @@
 description: The event where the photo was taken. The end-user provides this value.
 ms.assetid: 6fc350fa-9597-484a-bd6d-7a343ba58eca
 title: System.Photo.Event
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

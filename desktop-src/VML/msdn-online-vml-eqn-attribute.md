@@ -2,7 +2,7 @@
 title: VML Eqn Attribute
 description: VML Eqn Attribute
 ms.assetid: b2c41bad-2f83-4280-9441-33206d8dc1b7
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -40,7 +40,7 @@ Equations are defined by the evaluation of a text expression that has the genera
 -   fixed numbers (for example, 2)
 -   predefined values
 
-The table below defines the formulas that can be used withthe optional arguments given the names *v*, *p1*, and *p2*.The formula pattern is:
+The table below defines the formulas that can be used with the optional arguments given the names *v*, *p1*, and *p2*.The formula pattern is:
 
 \<f eqn=" *operation* \[*v* \] \[*p1* \] \[*p2* \]"/>
 

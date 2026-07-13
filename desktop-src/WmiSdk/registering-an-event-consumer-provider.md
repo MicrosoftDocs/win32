@@ -3,7 +3,7 @@ description: To create a WMI event consumer provider you must register the \_\_W
 ms.assetid: d1aa035c-f9ee-46b5-9fa5-8af77156f904
 ms.tgt_platform: multiple
 title: Registering an Event Consumer Provider
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

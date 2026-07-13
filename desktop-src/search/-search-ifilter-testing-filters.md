@@ -1,12 +1,12 @@
 ---
 description: The IFilter test suite validates your filter handlers.
 ms.assetid: 5ee02af1-1dc9-4d21-868f-4c439970b1ba
-title: Testing Filter Handlers
-ms.topic: article
+title: Testing filter handlers
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
-# Testing Filter Handlers
+# Testing filter handlers
 
 The [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) test suite validates your filter handlers. The test suite does so by: calling [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) methods and checking the returned values for compliance with the **IFilter** interface specification; and checking that chunk identifiers are unique and increasing, that the **IFilter** interface behaves consistently after re-initialization, and that any **IFilter** method calls with invalid parameters return expected error codes. The test suite programs also dump the output of a file filtered by a filter handler, and check the **IFilter** registration information in the registry.
 
@@ -31,14 +31,14 @@ This topic is organized as follows:
 > [!NOTE]  
 > If a new filter handler for a file type is being installed as a replacement for an existing filter registration, the installer should save the current registration and restore it if the new filter handler is uninstalled. There is no mechanism to chain filters. Hence, the new filter handler is responsible for replicating any necessary functionality of the old filter.
 
-## Command-Line Invocation
+## Command-line invocation
 
 The [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) test suite consists of three command-line applications - [ifilttst.exe](#ifilttstexe), [filtdump.exe](#filtdumpexe), and [filtreg.exe](#filtregexe) and an initialization file, [ifilttst.ini](#ifilttstini).
 
 > [!IMPORTANT]
 > In Windows 7 and later, filters written in managed code are explicitly blocked. Filters MUST be written in native code due to potential common language runtime (CLR) versioning issues with the process that multiple add-ins run in.
 
-### ifilttst.exe
+### Ifilttst.exe
 
 The ifilttst.exe program runs several tests to validate a filter handler. The following example illustrates how to invoke the ifilttst.exe program from the command line:
 
@@ -116,7 +116,7 @@ For the preceding command to work, three files must be located in the current wo
 > [!NOTE]  
 > You must include a space between the command line switch and the value.
 
-### filtdump.exe
+### Filtdump.exe
 
 The filtdump.exe program loads a filter handler for a specified document and prints the output produced by the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) DLL. The following example illustrates how to invoke the filtdump.exe program.
 
@@ -129,7 +129,7 @@ Filtdump.exe uses the [ILoadFilter::LoadIFilter](/windows/desktop/api/filtereg/n
 filtdump myfile.smp
 ```
 
-### filtreg.exe
+### Filtreg.exe
 
 The filtreg.exe program inspects [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) installation information in the registry. You invoke the filtreg.exe program from the command line by typing its name, as in the following example.
 
@@ -139,7 +139,7 @@ filtreg
 
 Filtreg.exe enumerates all file name extensions that have filter handlers associated with them by printing the file name extension and the name of the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) DLL for the extension. This is a simple way to verify the correct installation of an **IFilter**.
 
-### ifilttst.ini
+### Ifilttst.ini
 
 An [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface is initialized by calling the [**IFilter::Init**](/windows/win32/api/filter/nf-filter-ifilter-init) method. The **IFilter::Init** method takes the following four parameters:
 
@@ -170,7 +170,7 @@ If ifilttst.exe cannot find a file named ifilttst.ini in the working directory, 
 
 ```
 
-### Sample ifilttst.ini File
+### Sample ifilttst.ini file
 
 The ifilttst.ini file is organized in sections, with the section name enclosed in square brackets. In the example, the sections are named `[Test1]`, `[Test2]`, and so forth. All section names must be unique. The test reads the values from the first section and initializes the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) with those values. Then all the tests are run using this **IFilter** configuration. Then the **IFilter** is released and reinitialized, using parameters that are listed above. The process is repeated until all configurations are tested.
 
@@ -211,11 +211,11 @@ The ifilttst.ini file is organized in sections, with the section name enclosed i
             aAttributes1 = D1B5D3F0-C0B3-11CF-9A92-00A0C908DBF1 "GENERATOR"
 ```
 
-## IFilter Test Procedure
+## IFilter test procedure
 
 After the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) has been initialized, the ifilttst.exe program conducts a series of tests on the **IFilter**. In addition to following the **IFilter** test procedures, ensure that your **IFilter** implementation employs secure code practices. See "Secure Code Practices for Windows Search" in [Implementing Filter Handlers in Windows Search](-search-ifilter-constructing-filters.md).
 
-### Validation Test
+### Validation test
 
 The validation test steps through the object one chunk at a time, verifying each individual chunk and all return codes. The validation test saves all returned [**STAT\_CHUNK**](/windows/win32/api/filter/ns-filter-stat_chunk) structures in a list.
 
@@ -231,7 +231,7 @@ The validation test verifies the following conditions:
 - If [**IFilter::GetText**](/windows/win32/api/filter/nf-filter-ifilter-gettext) returns FILTER\_S\_LAST\_TEXT, the next call to **IFilter::GetText** returns FILTER\_E\_NO\_MORE\_TEXT.
 - If the chunk contains a value, [**IFilter::GetValue**](/windows/win32/api/filter/nf-filter-ifilter-getvalue) returns S\_OK or FILTER\_E\_NO\_MORE\_VALUES.
 
-### Consistency Test
+### Consistency test
 
 The ifilttxt.exe program re-initializes the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface with the same parameters as in the validation test and performs a consistency test. If the **IFilter** implementation has been initialized with the [**IFILTER\_INIT**](/previous-versions/windows/desktop/legacy/bb266511(v=vs.85)) IFILTER\_INIT\_INDEXING\_ONLY flag, the test releases the **IFilter** interface and re-binds it before making another call to the [**IFilter::Init**](/windows/win32/api/filter/nf-filter-ifilter-init) method.
 
@@ -240,7 +240,7 @@ The consistency test verifies the following conditions:
 - Each [**STAT\_CHUNK**](/windows/win32/api/filter/ns-filter-stat_chunk) structure returned by the [**IFilter::GetChunk**](/windows/win32/api/filter/nf-filter-ifilter-getchunk) method is identical to the corresponding **STAT\_CHUNK** returned in the validation test.
 - [**IFilter::GetChunk**](/windows/win32/api/filter/nf-filter-ifilter-getchunk) returns S\_OK or other acceptable return value, such as FILTER\_E\_END\_OF\_CHUNKS, FILTER\_E\_LINK\_UNAVAILABLE, and so forth.
 
-### Invalid Input Test
+### Invalid input test
 
 The ifilttst.exe program re-initializes the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface with the same parameters,and performs an invalid input test. This test steps through the document one chunk at a time making function calls incorrectly, such as calling the [**IFilter::GetValue**](/windows/win32/api/filter/nf-filter-ifilter-getvalue) method when the current chuck contains text. The test checks all return codes for compliance with the **IFilter** specification.
 
@@ -255,17 +255,17 @@ The invalid input test verifies the following conditions:
 > [!NOTE]  
 > The invalid input test compares the current chunk structures to those returned in the validation test to make sure they are identical.
 
-### Testing Different IFilter Configurations
+### Testing different IFilter configurations
 
 The ifilttst.exe program releases the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface and rebinds, this time initializing it with the next set of parameters. The test repeats the cycle: validation test, consistency test, and invalid input test, until all the desired **IFilter** configurations specified in [ifilttst.ini](#ifilttstini) file have been tested.
 
-## Ensuring Registered Items Get Indexed
+## Ensuring registered items get indexed
 
 The final test of your [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) ensures that your **IFilter** is properly registered and that it is invoked to index the items that you registered to use it. You can use the Catalog Manager to initiate re-indexing, or use the Crawl Scope Manager (CSM) to set up default rules indicating the URLs that you want the indexer to crawl. After indexing is complete, use the Windows Search UI to search for a string in the content or properties of items. If the items were indexed, they will appear in the search results.
 
 For more information about re-indexing, see [Using the Catalog Manager](-search-3x-wds-mngidx-catalog-manager.md) and [Using the Crawl Scope Manager](-search-3x-wds-extidx-csm.md). The ReindexMatchingUrls code sample demonstrates ways to specify which files to re-index and how. The CrawlScopeCommandLine code sample demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations. Both code samples are available on [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch).
 
-### Sample Log File
+### Sample log file
 
 Upon request, the Ifilttst.exe program can produce a log containing a description of the steps it takes during execution. The following examples are excerpts from a log file, with the verbosity set to the highest possible value 3.
 
@@ -312,7 +312,7 @@ The following example error message indicates that the [**IFilter**](/windows/wi
 
 In the case of this example error message, the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) emitted a chunk with a PID of `0x5`. Inspection of section `[Test1]` in ifilttst.ini would show that the **IFilter** was configured to not emit chunks with this PID. For example, if neither IFILTER\_INIT\_APPLY\_INDEX\_ATTRIBUTES nor IFILTER\_INIT\_APPLY\_OTHER\_ATTRIBUTES were specified in the Flags entry and if *cAttributes* were 0, then **IFilter** would emit only chunks with a PID of `0x13` and corresponding to PID\_STG\_CONTENTS.
 
-### Sample Dump File
+### Sample dump file
 
 Upon request, the Ifilttst.exe program can produce a dump containing the chunks it finds and their content. The following example is an excerpt from such a dump file.
 
@@ -364,7 +364,7 @@ The next chunk, starting at line 11, has a different GUID, corresponding to the 
 
 The next chunk, starting at line 21, has the same GUID and PID, but its chunk state is `VALUE` instead of `TEXT`. Note that the text in these last two chunks is the same as for the first chunk. But because the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) is designed for three attributes (plain text, HTML HREF as text, and HTML HREF as a value) to be applied to this phrase, the results are emitted in three separate chunks.
 
-## Additional Resources
+## Additional resources
 
 - The [IFilterSample](-search-sample-ifiltersample.md) code sample, available on [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample), demonstrates how to create an IFilter base class for implementing the [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) interface.
 - For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).

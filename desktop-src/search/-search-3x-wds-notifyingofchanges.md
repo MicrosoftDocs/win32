@@ -1,12 +1,12 @@
 ---
 description: By using the notification APIs components can notify the indexer that an item has been changed, moved or deleted, and can add search scopes to the Windows Search indexer's queue of URLs that require indexing.
 ms.assetid: 817550e2-a256-48d5-9fa6-1ea04f8b8589
-title: Notifying the Index of Changes (Windows Search)
-ms.topic: article
+title: Notifying the index of changes (Windows Search)
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
-# Notifying the Index of Changes (Windows Search)
+# Notifying the index of changes (Windows Search)
 
 By using the notification APIs components can notify the indexer that an item has been changed, moved or deleted, and can add search scopes to the Windows Search indexer's queue of URLs that require indexing.
 
@@ -22,7 +22,7 @@ Components can notify the Windows Search indexer that data in their store has ch
 -   [Additional Resources](#additional-resources)
 -   [Related topics](#related-topics)
 
-## Implementing Indexer-managed Notifications
+## Implementing indexer-managed notifications
 
 Indexer-managed notifications enable you to control access to your data store while freeing you of maintaining the notifications queue throughout the entire indexing process. Your notifications provider must monitor changes to the data store and create a notifications queue. Periodically, your provider sends a batch of change notifications to the indexer. When the indexer receives your notifications, it returns an acknowledgement and you can remove the item(s) from your queue. If after a period of time you do not receive an acknowledgement, you can re-send the notifications. In case of failure, the indexer rebuilds its internal queue of items to crawl or performs an incremental crawl of the store.
 
@@ -32,7 +32,7 @@ To implement indexer-managed notifications, you need to implement the following:
 -   A data structure to queue up information (multiple [**SEARCH\_ITEM\_PERSISTENT\_CHANGE**](/windows/desktop/api/Searchapi/ns-searchapi-search_item_persistent_change) structures) about those changes.
 -   [**ISearchPersistentItemsChangedSink**](/windows/desktop/api/Searchapi/nn-searchapi-isearchpersistentitemschangedsink) interface to send your notifications to the indexer and to get notification acknowledgements from the indexer.
 
-### Notifications Queue
+### Notifications queue
 
 You need to monitor and queue up every change in your data store to send to the indexer as a notification. How many notifications you queue up and how frequently you send them to the indexer depends on your circumstance. Perhaps you send a batch of notifications for every *n* number of changes or after some *t* time interval, or a combination of the two.
 
@@ -44,7 +44,7 @@ To access this interface, you first instantiate an [**ISearchManager**](/windows
 
 In the call to this method, you include the number of changes being reported and an array of [**SEARCH\_ITEM\_PERSISTENT\_CHANGE**](/windows/desktop/api/Searchapi/ns-searchapi-search_item_persistent_change) structures. You get back an array of HR completion codes indicating whether each URL was accepted for indexing. This is your acknowledgement from the indexer.
 
-## Implementing Provider-managed Notifications
+## Implementing provider-managed notifications
 
 Provider-managed notifications enable you to control access to your data store and to monitor the progress of the indexer as it updates the Windows Search catalog. Your provider must monitor changes to the data store and create a notifications queue. Periodically, your provider sends a batch of change notifications to the indexer. When the indexer receives your notifications, it returns an acknowledgement. If after a period of time you do not receive an acknowledgement, you can re-send the notifications. As the indexer crawls the data store and updates the Windows Search catalog, it notifies your provider of each catalog update and you can remove the item(s) from your queue. Your provider maintains its notification queue throughout this process so that in case of failure, you can resend notifications to the indexer.
 
@@ -55,7 +55,7 @@ To implement provider-managed notifications, you need to implement the following
 -   [**ISearchItemsChangedSink**](/windows/desktop/api/Searchapi/nn-searchapi-isearchitemschangedsink) interface to send your notifications to the indexer and to get notification acknowledgements from the indexer.
 -   [**ISearchNotifyInlineSite**](/windows/desktop/api/Searchapi/nn-searchapi-isearchnotifyinlinesite) interface to receive updates about the status of indexing.
 
-### Notifications Queue
+### Notifications queue
 
 You need to monitor and queue up every change in your data store to send to the indexer as a notification. How many notifications you queue up and how frequently you send them to the indexer depends on your circumstance. Perhaps you send a batch of notifications for every *n* number of changes or after some *t* time interval, or a combination of the two.
 
@@ -97,7 +97,7 @@ If a catalog restore occurs, the search service rolls back the catalog to the la
 
 If a catalog reset should occur, the search service resets the entire catalog and updates the *guidCatalogResetSignature*. Notifications provider must repush its entire crawl scope again.
 
-## Additional Resources
+## Additional resources
 
 -   For an overview of the indexing process, see [The Indexing Process](-search-indexing-process-overview.md).
 -   For overviews of the Catalog Manager and Catalog Search Manager (CSM), see [Using the Catalog Manager](-search-3x-wds-mngidx-catalog-manager.md) and [Using the Crawl Scope Manager](-search-3x-wds-extidx-csm.md).

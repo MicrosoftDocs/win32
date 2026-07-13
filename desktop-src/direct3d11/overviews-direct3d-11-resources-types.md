@@ -2,7 +2,7 @@
 title: Types of Resources
 description: This topic describes the types of resources from Direct3D 10, as well as new types in Direct3D 11 including structured buffers and writable textures and buffers.
 ms.assetid: 9329f260-e806-4d6d-b6d1-3d001fad411a
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

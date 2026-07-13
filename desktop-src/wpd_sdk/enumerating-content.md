@@ -2,7 +2,7 @@
 description: Enumerating Content
 ms.assetid: 86782a09-4fca-4ae0-beaf-296069e061dc
 title: Enumerating Content
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

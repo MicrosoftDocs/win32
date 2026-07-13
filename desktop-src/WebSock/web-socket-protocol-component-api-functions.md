@@ -2,7 +2,7 @@
 title: WebSocket Protocol Component API Functions
 description: The WebSocket Protocol Component API defines these functions.
 ms.assetid: B833D18D-286C-4D32-A9C7-D5D5806EC306
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

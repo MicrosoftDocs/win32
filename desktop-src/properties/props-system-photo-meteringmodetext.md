@@ -2,7 +2,7 @@
 description: The user-friendly form of System.Photo.MeteringMode. Not intended to be parsed programmatically.
 ms.assetid: f0209d5c-a7ca-4cee-ad0d-7a09c31cad3a
 title: System.Photo.MeteringModeText
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

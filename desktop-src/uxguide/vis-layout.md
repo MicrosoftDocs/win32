@@ -2,7 +2,7 @@
 title: Layout
 description: Layout is the sizing, spacing, and placement of content within a window or page.
 ms.assetid: 39cd896f-d3cc-4768-a20c-a7f598da7136
-ms.topic: article
+ms.topic: reference
 ms.date: 10/20/2020
 ---
 

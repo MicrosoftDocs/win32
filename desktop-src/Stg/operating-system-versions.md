@@ -4,7 +4,7 @@ description: This DWORD data type should hold the operating system type in the h
 ms.assetid: 318e277b-a797-45a5-87c5-25b91fdf278d
 keywords:
 - Operating System Versions Structured Storage
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

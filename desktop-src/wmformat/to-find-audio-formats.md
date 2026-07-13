@@ -7,7 +7,7 @@ keywords:
 - audio streams,finding audio formats
 - streams,audio formats
 - audio streams,audio formats
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

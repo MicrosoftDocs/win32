@@ -9,7 +9,7 @@ keywords:
 - ASF (Advanced Systems Format),networking interfaces
 - Advanced Systems Format (ASF),interface list for networking features
 - ASF (Advanced Systems Format),interface list for networking features
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

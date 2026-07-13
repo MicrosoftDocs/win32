@@ -3,7 +3,7 @@ description: By default, an application or script receives data from the corresp
 ms.assetid: 379d934e-e010-4a03-8dc1-121be43e4c6f
 ms.tgt_platform: multiple
 title: Requesting WMI Data on a 64-bit Platform
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

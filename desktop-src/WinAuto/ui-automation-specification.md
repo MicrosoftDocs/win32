@@ -2,8 +2,8 @@
 title: UI Automation Specification
 description: This topic provides an overview of the Microsoft UI Automation Specification, which forms the basis of the Windows implementation of UI Automation.
 ms.assetid: 45160767-09b0-4fd1-bd73-bc5ac0e6f75e
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # UI Automation Specification
@@ -12,7 +12,7 @@ This topic provides an overview of the Microsoft UI Automation Specification, wh
 
 This topic contains the following sections:
 
--   [Introducton](#introducton)
+-   [Introduction](#introduction)
 -   [UI Automation Elements](#ui-automation-elements)
 -   [UI Automation Tree](#ui-automation-tree)
 -   [UI Automation Properties](#ui-automation-properties)
@@ -21,7 +21,7 @@ This topic contains the following sections:
 -   [UI Automation Events](#ui-automation-events)
 -   [Related topics](#related-topics)
 
-## Introducton
+## Introduction
 
 The UI Automation Specification provides flexible programmatic access to UI elements on the Windows desktop, enabling assistive technology products such as screen readers to provide information about the UI to end users and to manipulate the UI by means other than standard input.
 

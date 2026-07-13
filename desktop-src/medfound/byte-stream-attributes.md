@@ -2,7 +2,7 @@
 description: Byte Stream Attributes
 ms.assetid: d57a57e9-87e4-4f7f-943a-63fd2ad1d1a6
 title: Byte Stream Attributes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

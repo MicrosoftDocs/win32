@@ -11,7 +11,7 @@ keywords:
 - IWMCodecInfo,codec formats
 - codecs,IWMCodecInfo3 interface
 - IWMCodecInfo3,codec formats
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: The RealTimeStylus class is part of the StylusInput application programming interfaces (APIs). The following sections describe key elements of the RealTimeStylus class and the StylusInput APIs.
 ms.assetid: 6385c387-5b11-4719-a6ec-e0bebe875348
 title: Working with the RealTimeStylus Class
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

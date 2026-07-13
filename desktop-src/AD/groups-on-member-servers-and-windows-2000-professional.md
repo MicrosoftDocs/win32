@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Groups on Member Servers and Windows 2000 Professional AD
 - groups AD , groups on member servers and Windows 2000 Professional
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

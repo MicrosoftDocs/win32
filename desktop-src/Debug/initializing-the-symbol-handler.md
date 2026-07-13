@@ -2,8 +2,8 @@
 description: The following code demonstrates how to initialize the symbol handler.
 ms.assetid: e8c8f648-c3b0-4595-ac07-f508dd576d9f
 title: Initializing the Symbol Handler
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Initializing the Symbol Handler
@@ -17,11 +17,20 @@ Specifying **NULL** as the second parameter of [**SymInitialize**](/windows/desk
 
 ```C++
 DWORD  error;
+HANDLE hCurrentProcess;
 HANDLE hProcess;
 
 SymSetOptions(SYMOPT_UNDNAME | SYMOPT_DEFERRED_LOADS);
 
-hProcess = GetCurrentProcess();
+hCurrentProcess = GetCurrentProcess();
+
+if (!DuplicateHandle(hCurrentProcess, hCurrentProcess, hCurrentProcess, &hProcess, 0, FALSE, DUPLICATE_SAME_ACCESS))
+{
+    // DuplicateHandle failed
+    error = GetLastError();
+    printf("DuplicateHandle returned error : %d\n", error);
+    return FALSE;
+}
 
 if (!SymInitialize(hProcess, NULL, TRUE))
 {

@@ -5,7 +5,7 @@ ms.assetid: 8fb5eb47-27ca-4e60-ad39-ca4392da4e7d
 ms.tgt_platform: multiple
 keywords:
 - Example Code for Setting a Control Access Right ACE AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

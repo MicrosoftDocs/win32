@@ -4,7 +4,7 @@ description: The system provides an IFillLockBytes implementation as part of the
 ms.assetid: a8aed8c5-3c4c-4cce-b568-68031da0edf5
 keywords:
 - IFillLockBytes Strctd Stg , implementation
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

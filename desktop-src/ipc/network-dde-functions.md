@@ -2,7 +2,7 @@
 description: The following functions are used with network DDE.
 ms.assetid: 5fd61759-1792-4db0-9ad4-adf112294b9c
 title: Network DDE Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

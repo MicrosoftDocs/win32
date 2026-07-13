@@ -86,7 +86,7 @@ WPD defines the following error constants.
 
 
 
-Occasionally, you might encounter an error defined in the Windows Media Rights Manager SDK. A list of errors defined by that SDK is given in the MSDN library. However, the following Windows Media Rights Manager SDK errors were not included in this documentation.
+Occasionally, you might encounter an error defined in the Windows Media Rights Manager SDK. A list of errors defined by that SDK is provided at [Error Codes and Messages](/previous-versions//bb614577(v=vs.85)). However, the following Windows Media Rights Manager SDK errors were not included in this documentation.
 
 
 

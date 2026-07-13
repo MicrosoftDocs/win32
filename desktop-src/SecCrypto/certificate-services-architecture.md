@@ -2,7 +2,7 @@
 description: A development platform for building Certification Authorities for enterprises or secure Internet applications.
 ms.assetid: 6f217682-94bc-4d18-88ea-2f8a06eb83de
 title: Certificate Services Architecture
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

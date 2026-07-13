@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Account Lockout ADSI ,WinNT provider
 - WinNT provider ADSI ,user management examples,Account Lockout
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

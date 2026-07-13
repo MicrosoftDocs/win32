@@ -2,7 +2,7 @@
 description: You can use a brush to paint the interior of virtually any shape by using a graphics device interface (GDI) function.
 ms.assetid: 64cd6e82-7a0d-4b5e-b491-450f37eea43a
 title: Using Brushes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

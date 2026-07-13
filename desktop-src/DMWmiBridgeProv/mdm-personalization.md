@@ -21,7 +21,7 @@ ms.date: 05/31/2018
 
 # MDM\_Personalization class
 
-\[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.\]
+
 
 The MDM\_Personalization class is used to set the lock screen and desktop background images. Setting these policies also prevents the user from changing the image.
 

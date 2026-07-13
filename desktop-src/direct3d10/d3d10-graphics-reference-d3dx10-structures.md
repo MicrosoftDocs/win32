@@ -2,7 +2,7 @@
 description: This section contains information about the structures included in the D3DX utility library in Direct3D 10 Graphics.
 ms.assetid: e9cfbc00-ff19-4e4b-bf73-b0fe50d7612b
 title: D3DX Structures (Direct3D 10 Graphics)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

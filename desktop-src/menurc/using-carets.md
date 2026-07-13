@@ -20,7 +20,7 @@ keywords:
 - user input,keyboard input
 - capturing user input,keyboard input
 - keyboard input
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

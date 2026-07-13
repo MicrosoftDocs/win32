@@ -2,7 +2,7 @@
 title: Width Property (Characters Object)
 description: Learn about the Width Property of the Characters object, which returns or sets the width of the frame for the specified character.
 ms.assetid: ebada4cc-dbe6-4540-be1f-1f61e176765b
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: RAS Administration Structures
 description: The RAS Administration Functions use the following structures
 ms.assetid: 858fcdd8-6587-41c4-a2d7-c871722562e7
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

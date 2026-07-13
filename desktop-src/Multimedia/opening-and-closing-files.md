@@ -5,7 +5,7 @@ ms.assetid: 72655d33-f685-4205-a982-f7cd20c59f22
 keywords:
 - AVIFileOpen function
 - AVIFileRelease function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

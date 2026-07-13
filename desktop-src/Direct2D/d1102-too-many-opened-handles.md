@@ -12,7 +12,6 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.custom: "seodec18"
 ---
 
 # D1102: Too Many Opened Handles
@@ -45,7 +44,3 @@ A large number of resources were created. Although Direct2D has no upper bound o
  
 
  
-
-
-
-

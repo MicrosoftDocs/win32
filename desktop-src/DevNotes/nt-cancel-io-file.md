@@ -12,7 +12,7 @@ Cancels all pending input and output (I/O) operations that are issued by the cal
 To cancel I/O operations from another thread, use the [**NtCancelIoFileEx**](nt-cancel-io-file-ex.md) function.
 
 > [!NOTE]
-> This function is the user-mode equivalent to the [**CancelIo**](/windows/win32/fileio/cancelio-func) Win32 function.
+> This function is the user-mode equivalent to the [**CancelIo**](/windows/win32/fileio/cancelio) Win32 function.
 
 ## Syntax
 

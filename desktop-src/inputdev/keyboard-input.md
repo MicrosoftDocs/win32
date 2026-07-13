@@ -6,8 +6,8 @@ keywords:
 - user input,keyboard input
 - capturing user input,keyboard input
 - keyboard input
-ms.topic: article
-ms.date: 08/01/2022
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Keyboard Input
@@ -76,7 +76,7 @@ The following functions are obsolete.
 | Function                               | Description                                                                                                                                                                                                                                                                   |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**GetKBCodePage**](/windows/win32/api/winuser/nf-winuser-getkbcodepage) | Retrieves the current code page.<br/>                                                                                                                                                                                                                                   |
-| [**keybd\_event**](/windows/win32/api/winuser/nf-winuser-keybd_event)    | Synthesizes a keystroke. The system can use such a synthesized keystroke to generate a [**WM\_KEYUP**](wm-keyup.md) or [**WM\_KEYDOWN**](wm-keydown.md) message. The keyboard driver's interrupt handler calls the [**keybd\_event**](/windows/win32/api/winuser/nf-winuser-keybd_event) function.<br/> |
+| [**keybd_event**](/windows/win32/api/winuser/nf-winuser-keybd_event)    | Synthesizes a keystroke. The system can use such a synthesized keystroke to generate a [**WM\_KEYUP**](wm-keyup.md) or [**WM\_KEYDOWN**](wm-keydown.md) message. The keyboard driver's interrupt handler calls the [**keybd_event**](/windows/win32/api/winuser/nf-winuser-keybd_event) function.<br/> |
 | [**VkKeyScan**](/windows/win32/api/winuser/nf-winuser-vkkeyscana)         | Translates a character to the corresponding virtual-key code and shift state for the current keyboard.<br/>                                                                                                                                                             |
 
 
@@ -147,7 +147,7 @@ The following functions are obsolete.
 
 
 ## See also
-- [Keyboard Input](keyboard-input.md)
+
 - [About Keyboard Input](about-keyboard-input.md)
 
  

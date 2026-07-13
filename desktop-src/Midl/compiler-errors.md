@@ -663,7 +663,7 @@ The following error messages are generated during MIDL compilation:
 </tr>
 <tr class="even">
 <td><span id="MIDL2155"></span><span id="midl2155"></span><dl> <dt><strong>MIDL2155</strong></dt> </dl></td>
-<td><dl> <dt><span id="declaration_must_be_of_the_form__const__type__declarator_____initializing_expression_"></span><span id="DECLARATION_MUST_BE_OF_THE_FORM__CONST__TYPE__DECLARATOR_____INITIALIZING_EXPRESSION_"></span>declaration must be of the form: const &lt;type&gt;\<declarator\> = <initializing expression></dt> <dd> The declaration is not compatible with DCE RPC syntax. Use the <a href="-ms-ext.md"><strong>/ms_ext</strong></a> or <a href="-c-ext.md"><strong>/c_ext</strong></a> MIDL compiler mode switch.<br/> </dd> </dl></td>
+<td><dl> <dt><span id="declaration_must_be_of_the_form__const__type__declarator_____initializing_expression_"></span><span id="DECLARATION_MUST_BE_OF_THE_FORM__CONST__TYPE__DECLARATOR_____INITIALIZING_EXPRESSION_"></span>declaration must be of the form: const &lt;type&gt; \&lt;declarator&gt; = &lt;initializing expression&gt;</dt> <dd> The declaration is not compatible with DCE RPC syntax. Use the <a href="-ms-ext.md"><strong>/ms_ext</strong></a> or <a href="-c-ext.md"><strong>/c_ext</strong></a> MIDL compiler mode switch.<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2156"></span><span id="midl2156"></span><dl> <dt><strong>MIDL2156</strong></dt> </dl></td>
@@ -1292,28 +1292,28 @@ The following error messages are generated during MIDL compilation:
 <tr class="even">
 <td><span id="MIDL2311"></span><span id="midl2311"></span><dl> <dt><strong>MIDL2311</strong></dt> </dl></td>
 <td><dl> <dt><span id="statements_outside_library_block_are_illegal_in_mktyplib_compatibility_mode"></span><span id="STATEMENTS_OUTSIDE_LIBRARY_BLOCK_ARE_ILLEGAL_IN_MKTYPLIB_COMPATIBILITY_MODE"></span>statements outside library block are illegal in mktyplib compatibility mode</dt> <dd> You may need to specify the <a href="-mktyplib203.md"><strong>/mktyplib203</strong></a> command-line switch when you compile your IDL file.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 The Mktyplib.exe tool is obsolete. Use the MIDL compiler instead.
-</blockquote>
+
 <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="MIDL2312"></span><span id="midl2312"></span><dl> <dt><strong>MIDL2312</strong></dt> </dl></td>
 <td><dl> <dt><span id="illegal_syntax_unless_using_mktyplib_compatibility_mode"></span><span id="ILLEGAL_SYNTAX_UNLESS_USING_MKTYPLIB_COMPATIBILITY_MODE"></span>illegal syntax unless using mktyplib compatibility mode</dt> <dd> You may need to specify the <a href="-mktyplib203.md"><strong>/mktyplib203</strong></a> command-line switch when you compile your IDL file.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 The Mktyplib.exe tool is obsolete. Use the MIDL compiler instead.
-</blockquote>
+
 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="MIDL2313"></span><span id="midl2313"></span><dl> <dt><strong>MIDL2313</strong></dt> </dl></td>
 <td><dl> <dt><span id="illegal_definition__must_use_typedef_in_mktyplib_compatibility_mode"></span><span id="ILLEGAL_DEFINITION__MUST_USE_TYPEDEF_IN_MKTYPLIB_COMPATIBILITY_MODE"></span>illegal definition, must use typedef in mktyplib compatibility mode</dt> <dd> You may need to specify the <a href="-mktyplib203.md"><strong>/mktyplib203</strong></a> command-line switch when you compile your IDL file.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 The Mktyplib.exe tool is obsolete. Use the MIDL compiler instead.
-</blockquote>
+
 <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
@@ -1644,10 +1644,10 @@ void bar(long s1, long s2, [size_is(s1,s2) long **a);//MIDL2393</code></pre>
 <tr class="odd">
 <td><span id="MIDL2395"></span><span id="midl2395"></span><dl> <dt><strong>MIDL2395</strong></dt> </dl></td>
 <td><dl> <dt><span id="type_or_construct_not_supported_in_a_library_block_because_Oleaut32.dll_support_for_64-KB_polymorphic_types_is_missing"></span><span id="type_or_construct_not_supported_in_a_library_block_because_oleaut32.dll_support_for_64-kb_polymorphic_types_is_missing"></span><span id="TYPE_OR_CONSTRUCT_NOT_SUPPORTED_IN_A_LIBRARY_BLOCK_BECAUSE_OLEAUT32.DLL_SUPPORT_FOR_64-KB_POLYMORPHIC_TYPES_IS_MISSING"></span>type or construct not supported in a library block because Oleaut32.dll support for 64-KB polymorphic types is missing</dt> <dd> OLE automation does not support polymorphic types (such as _int3264, INT_PTR, etc). These types have incompatible data representations between 32-bit and 64-bit platforms. The remote call will fail at run time on 64-bit platforms.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Note that as of Windows 2000 release, 64-bit TLB files are supported by OLE Automation by converting 32-bit TLB information at run time. Therefore, only 32-bit TLB generation is supported by MIDL.
-</blockquote>
+
 <br/> If MIDL is being used just to generate a header file, the <a href="-notlb.md"><strong>/notlb</strong></a> switch will suppress generation of the TLB file.<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
@@ -1807,7 +1807,7 @@ typedef [encode,decode] st1; //MIDL2465</code></pre>
 </tr>
 <tr class="odd">
 <td><span id="MIDL9008"></span><span id="midl9008"></span><dl> <dt><strong>MIDL9008</strong></dt> </dl></td>
-<td><dl> <dt><span id="_internal_compiler_problem__system_error_code__-_the_compiler_cannot_continue_for_an_unknown_reason._See_documentation_for_a_workaround."></span><span id="_internal_compiler_problem__system_error_code__-_the_compiler_cannot_continue_for_an_unknown_reason._see_documentation_for_a_workaround."></span><span id="_INTERNAL_COMPILER_PROBLEM__SYSTEM_ERROR_CODE__-_THE_COMPILER_CANNOT_CONTINUE_FOR_AN_UNKNOWN_REASON._SEE_DOCUMENTATION_FOR_A_WORKAROUND."></span> internal compiler problem <system error code> - the compiler cannot continue for an unknown reason. See documentation for a workaround.</dt> <dd> The compiler could not continue and the cause of the error is unknown. The hexadecimal error number is a system-error identifier. The compile may have failed because of an external problem, such as an out-of-memory condition. In that case, you can find more information in Winerror.h or Ntstatus.h. <br/> There are two situations that usually generate this error:<br/>
+<td><dl> <dt><span id="_internal_compiler_problem__system_error_code__-_the_compiler_cannot_continue_for_an_unknown_reason._See_documentation_for_a_workaround."></span><span id="_internal_compiler_problem__system_error_code__-_the_compiler_cannot_continue_for_an_unknown_reason._see_documentation_for_a_workaround."></span><span id="_INTERNAL_COMPILER_PROBLEM__SYSTEM_ERROR_CODE__-_THE_COMPILER_CANNOT_CONTINUE_FOR_AN_UNKNOWN_REASON._SEE_DOCUMENTATION_FOR_A_WORKAROUND."></span> internal compiler problem &lt;system error code&gt; - the compiler cannot continue for an unknown reason. See documentation for a workaround.</dt> <dd> The compiler could not continue and the cause of the error is unknown. The hexadecimal error number is a system-error identifier. The compile may have failed because of an external problem, such as an out-of-memory condition. In that case, you can find more information in Winerror.h or Ntstatus.h. <br/> There are two situations that usually generate this error:<br/>
 <ul>
 <li>The MIDL compiler failed to recover after detecting an error in the IDL file. If MIDL returned any error messages about your IDL file, try fixing them and recompiling. If there are no error messages, the compiler may have failed before it could report an error. Look for a syntax error on the line for which the internal compiler error is reported.</li>
 <li>The MIDL compiler could not generate correct code under a specified optimization option. Try changing compiler modes, compiling in mixed-mode optimization (/<a href="-os.md"><strong>Os</strong></a>), or removing all optimizations. Or, recompile using the /NO_FORMAT_OPT flag to suppress MIDL's default optimization of procedure and type descriptors.</li>

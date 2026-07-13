@@ -3,7 +3,7 @@ description: The following terms are useful in understanding the TAPI technology
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 36b1d6c3-2d57-4b38-a35f-6bf632411c6e
 title: T (Telephony API)
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 
@@ -41,7 +41,7 @@ See *Telecommunications Devices for the Deaf (TDD)*.
 
 </dd> <dt>
 
-<span id="tapi2.telecommucations_devices_for_the_deaf_tdd__tapgloss"></span><span id="TAPI2.TELECOMMUCATIONS_DEVICES_FOR_THE_DEAF_TDD__TAPGLOSS"></span>**Telecommucations Devices for the Deaf (TDD)**
+<span id="tapi2.telecommucations_devices_for_the_deaf_tdd__tapgloss"></span><span id="TAPI2.TELECOMMUCATIONS_DEVICES_FOR_THE_DEAF_TDD__TAPGLOSS"></span>**Telecommunications Devices for the Deaf (TDD)**
 </dt> <dd>
 
 A data device for the transmission of coded signals. Typically, the device is a simple computer terminal consisting of a keyboard, acoustic coupler, and display, and runs at 300 baud.

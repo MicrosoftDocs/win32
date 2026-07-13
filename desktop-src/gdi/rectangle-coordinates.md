@@ -2,7 +2,7 @@
 description: An application must use a RECT structure to define a rectangle.
 ms.assetid: 93c63dcb-6c8e-4c8b-aa19-6f8952d75e2e
 title: Rectangle Coordinates
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

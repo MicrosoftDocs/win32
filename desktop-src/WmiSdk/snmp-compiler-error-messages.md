@@ -3,7 +3,7 @@ description: This section describes the various error conditions that can result
 ms.assetid: 587a13ee-8547-435f-84bb-07f2491f85cc
 ms.tgt_platform: multiple
 title: SNMP Compiler Error Messages
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

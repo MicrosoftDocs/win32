@@ -3,7 +3,7 @@ description: An application sends the WM\_MDITILE message to a multiple-document
 ms.assetid: a480ba61-807e-4d0e-bda2-f1876e0bb13c
 title: WM_MDITILE message (Winuser.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # WM\_MDITILE message

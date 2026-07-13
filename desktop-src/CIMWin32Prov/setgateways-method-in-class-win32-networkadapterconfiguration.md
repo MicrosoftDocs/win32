@@ -339,17 +339,7 @@ This method only works when the Network Interface Card (NIC) is in the static IP
 
 To clear the gateway, set your gateway to the same IP you use on [**EnableStatic**](enablestatic-method-in-class-win32-networkadapterconfiguration.md).
 
-## Examples
-
-The [Modify the Gateways for a Network Adapter](https://Gallery.TechNet.Microsoft.Com/9ea7670b-f68f-4efb-9cd2-7c299a8f657f) VBScript sample configures two gateways for a network adapter.
-
-The [Assign a Static IP Address](https://Gallery.TechNet.Microsoft.Com/8979c752-8288-4a18-b5ed-f3b79f013f4a) VBScript sample sets the IP address and gateway of a computer.
-
-The [Static IP and then join to a domain](https://Gallery.TechNet.Microsoft.Com/Static-IP-and-then-join-to-130d4b8a) PowerShell sample assists in rebuilding machines.
-
 ## Requirements
-
-
 
 | Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
@@ -358,8 +348,6 @@ The [Static IP and then join to a domain](https://Gallery.TechNet.Microsoft.Com/
 | Namespace<br/>                | Root\\CIMV2<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
-
-
 
 ## See also
 

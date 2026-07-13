@@ -19,7 +19,7 @@ keywords:
 - programming reference,SCP interfaces
 - reference for Windows Media Device Manager,SCP interfaces
 - SCP interfaces,about
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

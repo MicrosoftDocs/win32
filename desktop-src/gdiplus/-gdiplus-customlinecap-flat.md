@@ -2,7 +2,7 @@
 description: Windows GDI+ exposes a flat API that consists of about 600 functions. These flat API functions are wrapped by the CustomLineCap C++ class.
 ms.assetid: 3462f225-4372-4382-9831-2e960da43a30
 title: CustomLineCap Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

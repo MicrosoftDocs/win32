@@ -3,7 +3,7 @@ description: To create a WMI instance provider you must register the \_\_Win32Pr
 ms.assetid: 5ac8e964-606f-4010-84a8-7c0ae6ca2133
 ms.tgt_platform: multiple
 title: Registering an Instance Provider
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

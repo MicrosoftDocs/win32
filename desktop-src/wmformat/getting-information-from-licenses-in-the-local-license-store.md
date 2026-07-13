@@ -22,7 +22,7 @@ keywords:
 - DRM (digital rights management),licenses
 - DRM Client Extended APIs,local license store
 - Client Extended APIs,local license store
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

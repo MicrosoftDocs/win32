@@ -6,7 +6,7 @@ keywords:
 - Windows Media Format SDK,codec features
 - Windows Media Format SDK,features
 - codecs,features
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

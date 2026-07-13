@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - search criteria Active Directory
 - deciding what to find Active Directory
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

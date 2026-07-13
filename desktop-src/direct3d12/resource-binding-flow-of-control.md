@@ -2,7 +2,7 @@
 title: Resource binding overview
 description: The keys to understanding resource binding in DirectX 12 are the concepts of descriptors, descriptor tables, descriptor heaps, and root signatures.
 ms.assetid: 92E100CA-822D-46B1-BD37-FF57C3FB703D
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

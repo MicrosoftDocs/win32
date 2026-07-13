@@ -840,8 +840,6 @@ The **Win32\_SystemDriver** class is derived from [**Win32\_BaseService**](win32
 
 ## Examples
 
-The [List System Drivers](https://Gallery.TechNet.Microsoft.Com/5629cc13-cefc-4e51-a24f-aac6db23d141) VBScript sample Displays installed system drivers in an HTML file.
-
 The following PowerShell example retrieves a number of properties from the running system drivers on a computer.
 
 

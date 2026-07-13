@@ -2,7 +2,7 @@
 title: Security Considerations Microsoft Windows Controls
 description: This topic provides information about security considerations related to the Windows controls.
 ms.assetid: d5396fa1-452e-40e1-beaf-ae04690048f1
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -78,13 +78,13 @@ The following table lists features that, if used incorrectly, can compromise the
 **Other Resources**
 </dt> <dt>
 
-[Microsoft Security](https://www.microsoft.com/security/default.aspx)
+[Microsoft Security](https://www.microsoft.com/security/)
 </dt> <dt>
 
 [Security](/windows/desktop/security)
 </dt> <dt>
 
-[TechNet Security Resources](https://www.microsoft.com/technet/security/Bulletin/MS10-059.mspx)
+[Microsoft Security Response Center](https://www.microsoft.com/msrc)
 </dt> <dt>
 
 [Best Practices for the Security APIs](/windows/desktop/SecBP/best-practices-for-the-security-apis)

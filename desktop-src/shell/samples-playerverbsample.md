@@ -1,7 +1,7 @@
 ---
 description: Demonstrates how to create a verb that operates on Shell items and containers which plays items or adds items to a queue.
 title: Player Verb Sample
-ms.topic: article
+ms.topic: sample
 ms.date: 05/31/2018
 ms.assetid: ABD905DD-F216-495e-A052-E43D93DD3D6B
 api_name: 

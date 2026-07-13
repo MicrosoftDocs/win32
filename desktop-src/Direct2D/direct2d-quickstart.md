@@ -8,7 +8,7 @@ keywords:
 - Direct2D,creating applications
 - Direct2D,applications
 - applications for Direct2D
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/25/2022
 ---
 
@@ -174,7 +174,7 @@ In this part, you implement the **DemoApp** constructor and destructor, its init
     {
         HRESULT hr;
 
-        // Initialize device-indpendent resources, such
+        // Initialize device-independent resources, such
         // as the Direct2D factory.
         hr = CreateDeviceIndependentResources();
 

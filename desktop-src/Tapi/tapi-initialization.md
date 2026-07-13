@@ -2,7 +2,7 @@
 description: Proper functioning of TAPI components requires setting up the communications environment on a computer.
 ms.assetid: 3df3d974-629e-4d78-b97d-b8121b185309
 title: TAPI Initialization
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

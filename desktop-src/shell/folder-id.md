@@ -2,7 +2,7 @@
 description: Before you can make use of a namespace object, you need a way to identify it.
 ms.assetid: 54225481-a147-4d29-a642-24c9b59fc3ac
 title: Getting a Folder's ID
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -45,7 +45,3 @@ Creates an [**ID2D1PrintControl**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1prin
 
 [**ID2D1Device**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1device)
 </dt> </dl>
-
-�
-
-�

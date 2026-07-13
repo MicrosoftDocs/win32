@@ -2,7 +2,7 @@
 description: This topic describes how to use the interfaces that provide access to XPS document parts in an XPS OM.
 ms.assetid: c52f7044-890d-47d1-83f8-bae1f8d83139
 title: XPS OM Part Interfaces
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

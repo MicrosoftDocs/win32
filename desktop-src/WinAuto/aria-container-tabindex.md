@@ -4,8 +4,8 @@ description: ARIA Container Tabindex Error
 ms.assetid: CCEA9490-903D-423D-B9FD-641E8B7D3E0B
 keywords:
 - AriaContainerTabIndexErrorId
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # ARIA Container Tabindex Error

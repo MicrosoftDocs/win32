@@ -3,7 +3,7 @@ description: Whats New in WMI
 ms.assetid: 430f6af6-3406-4cbd-aad7-70172bbe48aa
 ms.tgt_platform: multiple
 title: Whats New in WMI
-ms.topic: article
+ms.topic: whats-new
 ms.date: 05/31/2018
 ---
 

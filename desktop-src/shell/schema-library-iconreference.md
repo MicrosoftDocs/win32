@@ -1,7 +1,7 @@
 ---
 description: The &lt;iconReference&gt; element specifies a custom icon for this library. This element is optional and has no attributes or child elements.
 title: iconReference Element (Library Schema)
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 7A35B014-1E01-4da2-AA64-4CFC3436C6D9
 api_name: 

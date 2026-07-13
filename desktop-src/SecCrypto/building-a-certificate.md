@@ -2,7 +2,7 @@
 description: Explains the calls required to build a certificate.
 ms.assetid: 74154b3b-75fc-412f-835c-1a6f54e688c6
 title: Building a Certificate
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

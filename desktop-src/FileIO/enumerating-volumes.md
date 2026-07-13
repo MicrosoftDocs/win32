@@ -2,7 +2,7 @@
 description: To make a complete list of the volumes on a computer, or to manipulate each volume in turn, you can enumerate volumes.
 ms.assetid: 5adcd59a-48b7-4373-a10b-c352962f715a
 title: Enumerating Volumes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

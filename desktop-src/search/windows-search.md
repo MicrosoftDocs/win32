@@ -2,7 +2,7 @@
 description: Windows Search is a desktop search platform that has instant search capabilities for most common file and data types such as email, contacts, calendar appointments, documents, photos, multimedia, and other formats that can be extended by third party developers. These capabilities enable users to find, manage, and organize the increasing amount of data common in home and enterprise environments.
 ms.assetid: 'e0328fab-4fe1-4d1e-83cc-0d1e8c05f622'
 title: Windows Search
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -20,9 +20,9 @@ Windows Search is a desktop search platform that has instant search capabilities
 - [Federated Search in Windows](-search-federated-search-overview.md)
 - [Windows Search Glossary](search-glossary.md)
 
-## Additional Resources
+## Additional resources
 
-- For community-supported question and discussion message boards on Search technologies, see [MSDN Forum: Windows Desktop Search Development](https://social.msdn.microsoft.com/Forums/windowsdesktopsearchdevelopment/threads).
+- For community-supported question and discussion message boards on Search technologies, see [Microsoft Q&A](/answers/).
 - To download the Search Code Samples:
   - [Windows Search Samples](-search-samples-ovw.md)
 - To download the Windows SDK:

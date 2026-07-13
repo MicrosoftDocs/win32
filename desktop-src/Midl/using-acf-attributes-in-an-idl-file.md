@@ -5,7 +5,7 @@ ms.assetid: 3558e818-b39f-42a4-842f-05970296da0e
 keywords:
 - ACF MIDL , attributes, using ACF in IDL
 - IDL MIDL , using ACF
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

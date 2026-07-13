@@ -2,7 +2,7 @@
 title: Delivery Optimization Enumerations
 description: The Delivery Optimization interfaces use the following enumerations.
 ms.assetid: 0B0C627D-F6B7-4A10-83C0-03BFE329E974
-ms.topic: article
+ms.topic: reference
 ms.date: 05/04/2022
 ---
 

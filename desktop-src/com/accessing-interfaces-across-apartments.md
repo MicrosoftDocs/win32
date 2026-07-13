@@ -2,7 +2,7 @@
 title: Accessing Interfaces Across Apartments
 description: Accessing Interfaces Across Apartments
 ms.assetid: 4e0467b9-bbf1-410c-8aab-40450a7f963a
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

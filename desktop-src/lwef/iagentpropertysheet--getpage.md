@@ -2,7 +2,7 @@
 title: IAgentPropertySheet GetPage
 description: IAgentPropertySheet GetPage
 ms.assetid: 40d00e9b-dd81-4e23-907a-6ca24a28fa95
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -3,7 +3,7 @@ description: The following table lists troubleshooting event classes that are ge
 ms.assetid: dd685a41-8eae-4977-ab94-902dd8dddcc9
 ms.tgt_platform: multiple
 title: ConsumerProvider Troubleshooting Classes
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

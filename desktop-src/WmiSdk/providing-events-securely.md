@@ -3,7 +3,7 @@ description: You can prevent unauthorized users from receiving events to which t
 ms.assetid: 59788643-f57d-458f-91ab-26552218523b
 ms.tgt_platform: multiple
 title: Providing Events Securely
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

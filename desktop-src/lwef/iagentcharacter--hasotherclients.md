@@ -2,7 +2,7 @@
 title: IAgentCharacter HasOtherClients
 description: IAgentCharacter HasOtherClients
 ms.assetid: ee74fa9b-2842-43ac-8493-bc69b480581e
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

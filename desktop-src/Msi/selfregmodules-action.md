@@ -2,7 +2,7 @@
 description: The SelfRegModules action processes all modules listed in the SelfReg table and registers all installed modules with the system. The installer does not self-register EXE files.
 ms.assetid: b139ae28-e479-4915-909d-2449244e9fd6
 title: SelfRegModules Action
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

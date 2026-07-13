@@ -2,8 +2,9 @@
 description: Codec Merit
 ms.assetid: 4ed594a0-2cc2-40d2-9b5c-dee59916fa1b
 title: Codec Merit
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
+ms.custom: sfi-image-nochange
 ---
 
 # Codec Merit
@@ -15,7 +16,7 @@ Merit values are assigned by Microsoft. Currently, only hardware codecs are elig
 Codec merit works as follows:
 
 1.  The codec vendor implements one of the following:
-    -   An AVStream mini-driver. Media Foundation provides an standard proxy MFT for AVStream drivers. This is the recommended option.
+    -   An AVStream mini-driver. Media Foundation provides a standard proxy MFT for AVStream drivers. This is the recommended option.
     -   A Media Foundation transform (MFT) that acts as a proxy to the hardware. For more information, see [Hardware MFTs](hardware-mfts.md).
 2.  The codec's merit value is stored in the registry for quick lookup.
 3.  The [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex) function sorts codecs in order of merit. Codecs with merit values appear in the list behind locally registered codecs (see [**MFTRegisterLocal**](/windows/desktop/api/mfapi/nf-mfapi-mftregisterlocal)), but ahead of other codecs.

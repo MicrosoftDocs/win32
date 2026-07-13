@@ -14,7 +14,7 @@ keywords:
 - TSF (Text Services Framework),language bar
 - text services,language bar
 - language bar
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

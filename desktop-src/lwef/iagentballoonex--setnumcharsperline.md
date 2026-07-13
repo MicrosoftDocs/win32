@@ -2,7 +2,7 @@
 title: IAgentBalloonEx SetNumCharsPerLine
 description: IAgentBalloonEx SetNumCharsPerLine
 ms.assetid: 44025b6b-ed42-4476-b841-c244accf0f83
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

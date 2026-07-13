@@ -7,7 +7,7 @@ keywords:
 - display specifiers AD ,class and attribute display names
 - class display names AD
 - attribute display names AD
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Thread Connection to a Desktop
 description: After a process connects to a window station, the system assigns a desktop to the thread making the connection.
 ms.assetid: 45016619-ed11-4b0c-84e3-f8662553c64d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

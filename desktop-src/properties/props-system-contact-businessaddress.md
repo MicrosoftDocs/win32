@@ -2,7 +2,7 @@
 description: Business address of the contact.
 ms.assetid: 11d4a6b2-e61a-494a-84c3-33ad04cbee30
 title: System.Contact.BusinessAddress
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

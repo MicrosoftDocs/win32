@@ -2,7 +2,7 @@
 description: This topic contains the following sections.
 ms.assetid: 0522ccbf-e754-470a-8199-004fcbaa927d
 title: DXGI overview
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -322,6 +322,14 @@ We added the following functionality in DXGI 1.2.
 -   Debugging APIs
 
 For more info about DXGI 1.2, see [DXGI 1.2 Improvements](dxgi-1-2-improvements.md).
+
+## Application compatibility
+
+DXGI may apply application behavior modifications to enhance application compatibility.
+
+- Compatibility settings may be stored in the user registry under `HKCU\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\AppCompatFlags\Layers`.
+- Compatibility settings may or may not be applied depending on system configuration or other factors.
+- An example application compatibility setting value is `DXAllowModeChangeOnLaunch720`.
 
 ## Related topics
 

@@ -7,7 +7,7 @@ keywords:
 - PutEx ADSI ,about
 - ADSI ADSI ,example code Visual Basic ,using the PutEx method
 - properties ADSI ,saving a single or multi-valued property to property cache
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

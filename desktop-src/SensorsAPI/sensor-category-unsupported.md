@@ -3,10 +3,15 @@ description: The SENSOR\_CATEGORY\_UNSUPPORTED category contains sensors that fa
 ms.assetid: EB80867D-4FFF-485C-837E-2FBE8ECF6CC6
 title: SENSOR_CATEGORY_UNSUPPORTED (Sensors.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/19/2025
 ---
 
 # SENSOR\_CATEGORY\_UNSUPPORTED
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 The SENSOR\_CATEGORY\_UNSUPPORTED category contains sensors that fall outside of any other defined category (including SENSOR\_CATEGORY\_OTHER).
 
@@ -37,9 +42,9 @@ The sensor device-driver could not determine the category of type of the given s
 
 
 
- 
 
- 
+
+
 
 
 

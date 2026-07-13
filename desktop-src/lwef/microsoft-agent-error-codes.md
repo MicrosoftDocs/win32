@@ -2,7 +2,7 @@
 title: Microsoft Agent Error Codes
 description: Microsoft Agent Error Codes
 ms.assetid: 39bc203a-c260-46f5-a30a-7324bae2e2cf
-ms.topic: article
+ms.topic: error-reference
 ms.date: 05/31/2018
 ---
 

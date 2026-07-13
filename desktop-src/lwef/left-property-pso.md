@@ -2,7 +2,7 @@
 title: Left Property (PropertySheet Object)
 description: Learn about the Left PropertySheet object property. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: 81b90391-300f-4100-98fe-7657223e3bfd
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

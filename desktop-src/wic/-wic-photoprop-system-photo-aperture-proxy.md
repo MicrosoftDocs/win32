@@ -2,7 +2,7 @@
 description: The property proxy for the System.Photo.Aperture photo metadata policy.
 ms.assetid: 1917cf0e-28e3-466a-84d0-a849f39b8354
 title: System.Photo.Aperture Proxy
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

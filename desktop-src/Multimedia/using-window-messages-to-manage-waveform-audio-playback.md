@@ -12,7 +12,7 @@ keywords:
 - MM_WOM_CLOSE message
 - MM_WOM_DONE message
 - MM_WOM_OPEN message
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

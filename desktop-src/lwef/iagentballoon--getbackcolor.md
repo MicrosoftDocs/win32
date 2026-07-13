@@ -2,7 +2,7 @@
 title: IAgentBalloon GetBackColor
 description: IAgentBalloon GetBackColor
 ms.assetid: 278ed645-0e6c-4a5d-bd85-3e3b7a1e3333
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

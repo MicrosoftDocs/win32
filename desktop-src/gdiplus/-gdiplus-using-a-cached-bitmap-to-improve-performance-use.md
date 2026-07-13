@@ -2,7 +2,7 @@
 description: Image and Bitmap objects store images in a device-independent format.
 ms.assetid: 42e2b664-197c-4c54-9220-b6231d6439d0
 title: Using a Cached Bitmap to Improve Performance
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

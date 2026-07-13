@@ -47,7 +47,7 @@ Indicates which button to retrieve the state for. This can be one of the followi
 
 ## Return value
 
-Returns the state of the button specified in *lParam*. This will be one or more of the following values (if more then one value is returned they will be combined using a bitwise OR):
+Returns the state of the button specified in *lParam*. This will be one or more of the following values (if more than one value is returned they will be combined using a bitwise OR):
 
 
 

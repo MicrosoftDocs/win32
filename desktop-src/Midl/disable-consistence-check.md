@@ -2,7 +2,7 @@
 title: disable_consistency_check Attribute
 description: Directs RPC to not enforce correlation consistency checking.
 ms.assetid: 33ba331d-56e5-4965-a844-7780ea81623d
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -33,7 +33,7 @@ If *MyString* is **NULL**, RPC will reject the call unless Length is set to 0. N
 
 To disable this checking, the IDL can contain the \[disable\_consistency\_check\] attribute on a parameter, typedef, or pointer type. This will direct RPC to not enforce the consistency between the buffer pointer and the correlation variable for the buffer pointed to by the parameter or pointer.
 
-To disable consistency checking for an entire MIDL compilation (and disable enforcement of the checking in all cases), the MIDL command line switch [/backward\_compat maybenull\_sizeis](-backward-compat.md) can be used. This requires that the target of the MIDL compilation be at least â€“target NT60.
+To disable consistency checking for an entire MIDL compilation (and disable enforcement of the checking in all cases), the MIDL command line switch [/backward\_compat maybenull\_sizeis](-backward-compat.md) can be used. This requires that the target of the MIDL compilation be at least `--target NT60`.
 
  
 

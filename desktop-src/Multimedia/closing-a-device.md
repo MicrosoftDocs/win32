@@ -4,7 +4,7 @@ description: Closing a Device
 ms.assetid: eef40f23-2c58-4deb-a6f0-3563d9c30d10
 keywords:
 - MCI_CLOSE command
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

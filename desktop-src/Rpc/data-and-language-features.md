@@ -4,7 +4,7 @@ description: The Microsoft Interface Definition Language (MIDL) provides the set
 ms.assetid: 36bc98dd-0c7c-46fe-9db5-3c70af26cd61
 keywords:
 - Remote Procedure Call RPC , described, data and language features
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

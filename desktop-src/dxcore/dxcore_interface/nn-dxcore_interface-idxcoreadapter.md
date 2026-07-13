@@ -15,4 +15,4 @@ An adapter's properties are established at the time the adapter starts, and they
 
 ## See also
 
-[DXCore Reference](../dxcore-reference.md), [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md)
+[DXCore reference](../dxcore-reference.md), [Using DXCore to enumerate adapters](../dxcore-enum-adapters.md)

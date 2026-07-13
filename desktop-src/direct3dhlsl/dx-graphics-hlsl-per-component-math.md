@@ -2,7 +2,7 @@
 title: Per-Component Math Operations
 description: With HLSL, you can program shaders at an algorithm level.
 ms.assetid: a919df50-2d13-489d-9011-1137c997e121
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

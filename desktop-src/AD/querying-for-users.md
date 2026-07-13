@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - users AD , querying for users
 - Active Directory, using, users, querying for users
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

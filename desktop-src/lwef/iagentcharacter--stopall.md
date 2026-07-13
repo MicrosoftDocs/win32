@@ -2,7 +2,7 @@
 title: IAgentCharacter StopAll
 description: IAgentCharacter StopAll
 ms.assetid: cb0ce220-7b35-45c0-b587-30939d26740f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

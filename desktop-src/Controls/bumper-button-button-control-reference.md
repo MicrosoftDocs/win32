@@ -2,7 +2,7 @@
 title: Button Control Reference
 description: Button Control Reference
 ms.assetid: fab77471-ca1b-480a-b956-a872bf8b129a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

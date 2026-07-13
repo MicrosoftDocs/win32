@@ -2,7 +2,7 @@
 title: Implementing Teredo
 ms.assetid: f32e908e-a96d-48a2-8b79-e2e53c64cb68
 description: "Learn more about: Implementing Teredo"
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

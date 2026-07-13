@@ -2,7 +2,7 @@
 description: Design Suggestions for Developing a COM+ CRM
 ms.assetid: dde1b978-6d35-4a75-91fd-69dfcc6c43d2
 title: Design Suggestions for Developing a COM+ CRM
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

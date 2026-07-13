@@ -3,7 +3,7 @@ description: The CommandLineEventConsumer class runs a specified executable prog
 ms.assetid: b912a4a1-7b1c-43a9-b098-fcfd62a2c2db
 ms.tgt_platform: multiple
 title: Running a Program from the Command Line Based on an Event
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

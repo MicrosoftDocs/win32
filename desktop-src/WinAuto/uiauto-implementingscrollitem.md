@@ -13,8 +13,8 @@ keywords:
 - control patterns,implementing UI Automation ScrollItem
 - control patterns,ScrollItem
 - interfaces,IScrollItemProvider
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # ScrollItem Control Pattern

@@ -3,7 +3,7 @@ title: Dynamic Virtual Channels
 description: Dynamic virtual channel (DVC) APIs extend the existing virtual channel APIs for Remote Desktop Services, known as static virtual channel (SVC) APIs.
 ms.assetid: bddf0048-482d-40f3-a973-9d7bc15be8fa
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

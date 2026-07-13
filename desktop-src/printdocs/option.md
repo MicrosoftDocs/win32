@@ -2,7 +2,7 @@
 description: Get information about the Option element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: feda78d9-58e7-4668-8a25-40e5fd8ad456
 title: Option
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

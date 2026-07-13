@@ -2,7 +2,7 @@
 description: File hashing is available with Windows Installer. For more information, see MsiGetFileHash and the MsiFileHash table. The MsiFileHash table can only be used with unversioned files.
 ms.assetid: 608859ac-6640-4c28-b4f0-34ab36d804d7
 title: Neither File Has a Version with File Hash Check
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

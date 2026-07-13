@@ -2,7 +2,7 @@
 description: Tablet PC Technology includes layout analysis of ink input that combines handwriting and drawing.
 ms.assetid: '979b5a8d-9311-478e-976b-9b3c27a199bc'
 title: The Divider Object
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

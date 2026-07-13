@@ -5,7 +5,7 @@ ms.assetid: 27ad74bd-ad87-422e-a4a2-02c0d51c4dd4
 ms.tgt_platform: multiple
 keywords:
 - Control Access Rights
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

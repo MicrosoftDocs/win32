@@ -3,7 +3,7 @@ description: Defines a string type for service set identifiers (SSIDs).
 ms.assetid: c9e79a3d-7d5c-4320-ade2-40124de00920
 title: networkNameType Simple Type
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 05/14/2025
 topic_type: 
 - APIRef
 - kbSyntax
@@ -18,7 +18,7 @@ api_location:
 
 The networkNameType simple type defines a string type for service set identifiers (SSIDs). A SSID is a string that is at least one character long and at most 32 characters long.
 
-``` syntax
+```XSD
 <xs:simpleType name="networkNameType">
     <xs:restriction
         base="string"
@@ -41,13 +41,3 @@ The networkNameType simple type defines a string type for service set identifier
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |
-
-
-
- 
-
- 
-
-
-
-

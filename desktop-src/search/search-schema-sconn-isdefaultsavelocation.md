@@ -1,12 +1,12 @@
 ---
 description: The optional Boolean &lt;isDefaultSaveLocation&gt; element specifies whether the location described in the search connector should be used as the default save location. This element has no child elements and no attributes.
 ms.assetid: 4a33f411-d71e-41d3-b5fd-018a92dceeac
-title: isDefaultSaveLocation Element (Search Connector Schema)
-ms.topic: article
+title: isDefaultSaveLocation element (search connector schema)
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# isDefaultSaveLocation Element (Search Connector Schema)
+# isDefaultSaveLocation element (search connector schema)
 
 The optional Boolean &lt;isDefaultSaveLocation&gt; element specifies whether the location described in the search connector should be used as the default save location. This element has no child elements and no attributes.
 
@@ -28,7 +28,7 @@ The optional Boolean &lt;isDefaultSaveLocation&gt; element specifies whether the
 
 
 
-## Element Information
+## Element information
 
 
 

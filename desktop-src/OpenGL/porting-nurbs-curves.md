@@ -15,7 +15,7 @@ keywords:
 - OpenGL porting from IRIS GL,curves
 - NURBS (Non-Uniform Rational B-Spline)
 - Non-Uniform Rational B-Spline (NURBS)
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

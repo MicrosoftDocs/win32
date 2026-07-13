@@ -2,7 +2,7 @@
 title: Animating a Character
 description: Animating a Character
 ms.assetid: ed42de30-acac-41e8-bacb-4caaff254724
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

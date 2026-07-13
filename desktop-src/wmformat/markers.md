@@ -7,7 +7,7 @@ keywords:
 - Advanced Systems Format (ASF),markers
 - ASF (Advanced Systems Format),markers
 - markers,about
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

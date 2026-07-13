@@ -12,7 +12,7 @@ keywords:
 - RIFF I/O
 - buffered I/O
 - RIFF chunk
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

@@ -2,7 +2,7 @@
 description: This topic describes the structure of an Advanced Systems Format (ASF) file.
 ms.assetid: 4a817efa-5452-46bf-8921-2ba199c21949
 title: ASF File Structure
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 This topic describes the structure of an Advanced Systems Format (ASF) file.
 
-For detailed information about ASF files, download the [ASF Specification](https://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=56de5ee4-51ca-46c6-903b-97390ad14fea).
+For detailed information about ASF files, download the [ASF Specification](https://en.wikipedia.org/wiki/Advanced_Systems_Format).
 
 The base unit of organization for ASF files is called an *object*. An ASF file object contains the following data.
 
@@ -55,7 +55,7 @@ This diagram is not drawn to scale; typically the Data Object comprises most of 
 
 The Header Object is mandatory and appears at the beginning of every ASF file. It contains global file attributes and information about the streams in the ASF file. This information is used to interpret and play the data in the file.
 
-The Header Object contains several madatory sub-objects:
+The Header Object contains several mandatory sub-objects:
 
 -   The File Properties Object describes global attributes of the file, such as the file size, play duration, number of data packets, minimum and maximum packet size, and maximum bit rate.
 -   The Header Extension Object enables additional functionality to be added to an ASF file while maintaining backward compatibility.

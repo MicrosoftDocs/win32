@@ -7,7 +7,7 @@ keywords:
 - Windows Media Format SDK,DirectShow
 - DirectShow,QASF reference
 - QASF filters,reference
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

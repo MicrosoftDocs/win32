@@ -2,7 +2,7 @@
 description: In addition to recognizing text, recognizers can recognize a class of related objects.
 ms.assetid: 53b6137d-2998-4a3b-b469-3d1204ea194b
 title: Object Recognizers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

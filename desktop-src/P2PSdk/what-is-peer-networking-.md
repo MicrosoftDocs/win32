@@ -2,7 +2,7 @@
 description: Peer-to-peer networking is a serverless networking technology that allows several network devices to share resources and communicate directly with each other.
 ms.assetid: d2a43d3b-2782-4777-8c65-05e2c52930d0
 title: What is Peer Networking?
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

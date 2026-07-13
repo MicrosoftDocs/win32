@@ -2,7 +2,7 @@
 description: Windows Installer developers can prepare their installation package to work with Restart Manager by following the guidelines described in Using Windows Installer with Restart Manager.
 ms.assetid: 777f8864-b3d2-43c7-9296-1118f3595d7b
 title: Using Restart Manager with an External UI
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

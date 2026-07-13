@@ -60,7 +60,7 @@ The **IResultsViewer** interface has these properties.
 | [**Contents**](-search-2x-iresultsviewer-contents.md)<br/>                   | Write-only<br/> | This property tracks the type of the content being displayed in the results view. <br/>    |
 | [**DisplayName**](-search-2x-iresultsviewer-displayname.md)<br/>             | Read-only<br/>  | Localized display name of the type.<br/>                                                   |
 | [**EnumSelectedItems**](-search-2x-iresultsviewer-enumselecteditems.md)<br/> | Write-only<br/> | Not implemented.<br/>                                                                      |
-| [**FilterType**](-search-2x-iresultsviewer-filtertype.md)<br/>               | Read/write<br/> | This property will set or return the name of the preceived type to filter results by.<br/> |
+| [**FilterType**](-search-2x-iresultsviewer-filtertype.md)<br/>               | Read/write<br/> | This property will set or return the name of the perceived type to filter results by.<br/> |
 | [**HeaderStyle**](-search-2x-iresultsviewer-headerstyle.md)<br/>             | Read/write<br/> | The style of header displayed in the view.<br/>                                            |
 | [**IsUpdateNeeded**](-search-2x-iresultsviewer-isupdateneeded.md)<br/>       | Write-only<br/> | This returns TRUE if the views query has been modified and needs updating. <br/>           |
 | [**ItemStore**](-search-2x-iresultsviewer-itemstore.md)<br/>                 | Read/write<br/> | This property will set or return the name of the store to filter results by.<br/>          |

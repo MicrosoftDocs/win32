@@ -2,7 +2,7 @@
 description: System.Sync.Comments
 ms.assetid: 060c4983-1de1-477b-8c18-a416d5a4c918
 title: System.Sync.Comments
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

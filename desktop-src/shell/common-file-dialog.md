@@ -1,7 +1,7 @@
 ---
 description: Starting with Windows Vista, the Common Item Dialog supersedes the older Common File Dialog when used to open or save a file.
 title: Common Item Dialog
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ms.assetid: f8846148-89a5-4b9b-ad68-56137a5c2f65
 api_name: 
@@ -300,7 +300,7 @@ HRESULT AddItemsToCommonPlaces()
 
 ### State Persistence
 
-Prior to Windows Vista, a state, such as the last visited folder, was saved on a per-process basis. However, that information was used regardless of the particular action. For example, a video editing application would present the same folder in the **Render As** dialog as is would in the **Import Media** dialog. In Windows Vista you can be more specific through the use of GUIDs. To assign a **GUID** to the dialog, call [**iFileDialog::SetClientGuid**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setclientguid).
+Prior to Windows Vista, a state, such as the last visited folder, was saved on a per-process basis. However, that information was used regardless of the particular action. For example, a video editing application would present the same folder in the **Render As** dialog as it would in the **Import Media** dialog. In Windows Vista you can be more specific through the use of GUIDs. To assign a **GUID** to the dialog, call [**iFileDialog::SetClientGuid**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setclientguid).
 
 ### Multiselect Capabilities
 
@@ -506,7 +506,7 @@ HRESULT AddCustomControls()
                 if (SUCCEEDED(hr))
                 {
                     // Create a Visual Group.
-                    hr = pfdc->StartVisualGroup(CONTROL_GROUP, L&quot;Sample Group&quot;);
+                    hr = pfdc->StartVisualGroup(CONTROL_GROUP, L"Sample Group");
                     if (SUCCEEDED(hr))
                     {
                         // Add a radio-button list.
@@ -521,12 +521,12 @@ HRESULT AddCustomControls()
                                 // Add individual buttons to the radio-button list.
                                 hr = pfdc->AddControlItem(CONTROL_RADIOBUTTONLIST,
                                                           CONTROL_RADIOBUTTON1,
-                                                          L&quot;Change Title to ABC&quot;);
+                                                          L"Change Title to ABC");
                                 if (SUCCEEDED(hr))
                                 {
                                     hr = pfdc->AddControlItem(CONTROL_RADIOBUTTONLIST,
                                                               CONTROL_RADIOBUTTON2,
-                                                              L&quot;Change Title to XYZ&quot;);
+                                                              L"Change Title to XYZ");
                                     if (SUCCEEDED(hr))
                                     {
                                         // Set the default selection to option 1.
@@ -615,13 +615,13 @@ HRESULT AddOpenChoices()
                     hr = pfdc->EnableOpenDropDown(OPENCHOICES);
                     if (SUCCEEDED(hr))
                     {
-                        hr = pfdc->AddControlItem(OPENCHOICES, OPEN, L&quot;&Open&quot;);
+                        hr = pfdc->AddControlItem(OPENCHOICES, OPEN, L"&Open");
                     }                    
                     if (SUCCEEDED(hr))
                     {
                         hr = pfdc->AddControlItem(OPENCHOICES, 
                                                 OPEN_AS_READONLY, 
-                                                L&quot;Open as &read-only&quot;);
+                                                L"Open as &read-only");
                     }
                     if (SUCCEEDED(hr))
                     {

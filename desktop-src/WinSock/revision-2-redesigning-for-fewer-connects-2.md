@@ -2,7 +2,7 @@
 description: In this revision, the sample application is redesigned to eliminate unnecessary connects.
 ms.assetid: 0db6ded4-0a59-454e-824e-8cd7f0dc9fec
 title: 'Revision Two: Redesigning for Fewer Connects'
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Using DirectStorage
 description: A quick introduction to using DirectStorage.
-ms.topic: article
+ms.topic: concept-article
 ms.date: 08/25/2022
 ---
 

@@ -2,7 +2,7 @@
 description: About the Windows Media Codecs
 ms.assetid: C0B0265C-AD20-433B-A554-112AEB0208B9
 title: About the Windows Media Codecs
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

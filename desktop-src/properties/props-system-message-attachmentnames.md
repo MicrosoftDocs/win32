@@ -2,7 +2,7 @@
 description: The names of the attachments in a message.
 ms.assetid: c299ffa4-9bf9-4e05-8395-399d68cc6715
 title: System.Message.AttachmentNames
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The text (with formatted property values) to show in the infotip.
 ms.assetid: a7017908-f116-4f0e-b705-d180d0517cdd
 title: System.InfoTipText
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

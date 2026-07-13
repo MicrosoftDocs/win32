@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Adding Members to Groups in a Domain AD
 - Groups AD , Adding Members to Groups in a Domain
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

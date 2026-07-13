@@ -2,7 +2,7 @@
 title: Saving a Sound File
 description: Saving a Sound File
 ms.assetid: b8b91883-e4d2-441a-b749-379c5ba661f8
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Sharpen effect
 description: Sharpens the image.
 ms.assetid: 1eb12d1e-83c1-ba13-33be-df2078f3ccb8
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

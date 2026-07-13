@@ -2,7 +2,7 @@
 title: VML Movie Attribute
 description: VML Movie Attribute
 ms.assetid: 027ec13a-071f-46f1-892f-294cc7885023
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

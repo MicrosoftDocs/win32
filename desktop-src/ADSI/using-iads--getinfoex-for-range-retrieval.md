@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Using IADs GetInfoEx for Range Retrieval ADSI
 - IADs GetInfoEx ADSI , using for range retrieval
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

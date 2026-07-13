@@ -55,7 +55,7 @@ The **IMsRdpClientNonScriptable7** interface has these properties.
 | Minimum supported client| Windows 10, version 1803 (build 17134)      |
 | Type library            | MsTscAx.dll                        |
 | DLL                  | MsTscAx.dll     |
-| CLSID                    | CLSID\_MsRdpClient12 is defined as 0BDA33B8-9AF1-4065-989E-5A7F1ACF09D8<br/> CLSID\_MsRdpClient12NotSafeForScripting is defined as 3BB805C2-D9E2-4174-8A1E-C87D69563662<br/> CLSID\_MsRdpClient11 is defined as 22A7E88C-5BF5-4DE6-B687-60F7331DF190<br/> CLSID\_MsRdpClient11NotSafeForScripting is defined as 1DF7C823-B2D4-4B54-975A-F2AC5D7CF8B8<br/>  |
+| CLSID                    | CLSID\_MsRdpClient12 is defined as 945EE98E-B376-4EC2-B2E5-64C9410F93B7<br/> CLSID\_MsRdpClient12NotSafeForScripting is defined as 3F859AA3-C2D4-4FAA-B0E4-FD0C9C4E5E3A<br/> CLSID\_MsRdpClient11 is defined as 22A7E88C-5BF5-4DE6-B687-60F7331DF190<br/> CLSID\_MsRdpClient11NotSafeForScripting is defined as 1DF7C823-B2D4-4B54-975A-F2AC5D7CF8B8<br/>  |
 | IID                      | IID\_IMsRdpClientNonScriptable7 is defined as 71B4A60A-FE21-46D8-A39B-8E32BA0C5ECC            |
 
 ## See also

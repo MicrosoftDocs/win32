@@ -2,7 +2,7 @@
 description: Copying and Accessing Resource Data (Direct3D 10)
 ms.assetid: 34fd4d15-ee64-4acf-967d-a4afb6f26329
 title: Copying and Accessing Resource Data (Direct3D 10)
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

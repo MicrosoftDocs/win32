@@ -3,7 +3,7 @@ description: The NTEventLogEventConsumer class writes a message to the Windows E
 ms.assetid: ca998a91-d9f7-44ff-bb83-5ba92d68f31e
 ms.tgt_platform: multiple
 title: Logging to NT Event Log Based on an Event
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

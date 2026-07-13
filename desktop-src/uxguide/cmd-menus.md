@@ -2,9 +2,8 @@
 title: Windows 7 Menus (Design basics)
 description: Windows 7 Menus are hierarchical lists of commands or options available to users in the current context.
 ms.assetid: 3772ff8e-8057-476d-b62b-efbd5e07907f
-ms.topic: article
+ms.topic: concept-article
 ms.date: 01/25/2022
-ms.custom: seo-windows-dev
 ---
 
 # Windows 7 Menus (Design basics)
@@ -551,4 +550,3 @@ Examples:
 -   On the **View** menu, point to **Toolbars**, and then click **Formatting**.
 
  
-

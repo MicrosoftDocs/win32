@@ -2,7 +2,7 @@
 title: In-Process Servers
 description: In-Process Servers
 ms.assetid: cc0c4350-fa75-4321-834f-711158776cb2
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

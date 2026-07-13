@@ -2,8 +2,8 @@
 description: This section discusses the Multiple Document Interface which is a specification that defines a user interface for applications that enable the user to work with more than one document at the same time.
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\multipledocumentinterface.htm'
 title: Multiple Document Interface
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Multiple Document Interface

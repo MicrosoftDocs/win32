@@ -2,7 +2,7 @@
 description: Learn about the JobID element, which specifies a unique ID for the job. For the most current information, see the Print Schema Specification.
 ms.assetid: 138a0ae5-160d-46f2-91ae-596d8892351a
 title: JobID
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

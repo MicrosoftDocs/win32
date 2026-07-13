@@ -2,7 +2,7 @@
 description: The date and time the item was created on the file system where it is currently located.
 ms.assetid: a40d4a8f-d0b0-49fc-9e07-48669a1bf469
 title: System.DateCreated
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

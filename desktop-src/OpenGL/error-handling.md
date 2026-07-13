@@ -5,7 +5,7 @@ ms.assetid: 8e40e382-14fd-44df-8e1c-ebceb34af19c
 keywords:
 - error handling OpenGL
 - OpenGL error handling
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

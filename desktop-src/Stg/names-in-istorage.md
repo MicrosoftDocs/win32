@@ -2,7 +2,7 @@
 title: Names in IStorage
 description: A property set is identified with a format identifier (FMTID) in the IPropertySetStorage interface.
 ms.assetid: 5f8eba37-c589-413e-9971-7ecb01dc6734
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

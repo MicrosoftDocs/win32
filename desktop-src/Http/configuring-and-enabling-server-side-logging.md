@@ -2,7 +2,7 @@
 title: Configuring and Enabling Server Side Logging
 description: Configuring and Enabling Server Side Logging
 ms.assetid: d67d8f9a-6d8a-43f2-a1ef-75f69c04b1ac
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

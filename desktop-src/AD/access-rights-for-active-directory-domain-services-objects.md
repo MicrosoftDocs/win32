@@ -5,7 +5,7 @@ ms.assetid: e01010bc-d54a-43c4-b0b7-1705a052f8e1
 ms.tgt_platform: multiple
 keywords:
 - object AD ,access rights
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

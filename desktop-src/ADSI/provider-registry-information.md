@@ -3,7 +3,7 @@ title: Provider Registry Information
 description: This topic shows which keys and values need to be set when adding an ADSI provider.
 ms.assetid: 87293b63-03ad-4be9-b327-313fdebac611
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

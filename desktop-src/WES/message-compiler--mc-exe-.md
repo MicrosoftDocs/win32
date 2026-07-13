@@ -16,7 +16,7 @@ ms.date: 06/03/2020
 
 # Message Compiler (MC.exe)
 
-Used to compile instrumentation manifests and message text files. The compiler generates the message resource files to which your application links.
+The Message Compiler (mc.exe) is used to compile instrumentation manifests and message text files. The compiler generates the message resource files to which your application links.
 
 ``` syntax
 MC [-?aAbcdnouUv] [-m <length>] [-h <path>] [-e <extension>] [-r <path>]
@@ -26,10 +26,8 @@ MC [-?aAbcdnouUv] [-m <length>] [-h <path>] [-e <extension>] [-r <path>]
    [<filename.man>] [<filename.mc>]
 ```
 
--   [Arguments common to both message text files and manifest files](#arguments-common-to-both-message-text-files-and-manifest-files)
--   [Arguments specific to manifest files](#arguments-specific-to-manifest-files)
--   [Arguments specific to generating code that your provider would use to log events](#arguments-specific-to-generating-code-that-your-provider-would-use-to-log-events)
--   [Arguments specific to message text files](#arguments-specific-to-message-text-files)
+> [!NOTE]
+> The Message Compiler ships with the Windows SDK and can be found in the \\Bin folder.
 
 ## Arguments common to both message text files and manifest files
 
@@ -346,8 +344,6 @@ The compiler accepts as input a manifest (.man) file or a message text (.mc) fil
 For arguments that take a path, the path can be an absolute, relative, or UNC path and it can contain environment variables.
 
 **Prior to MC version 1.12.7051:** The compiler does not allow relative paths or environment variables.
-
-The Windows SDK includes the compiler (mc.exe) in the \\Bin folder.
 
 ## Examples
 

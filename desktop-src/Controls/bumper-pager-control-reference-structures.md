@@ -2,7 +2,7 @@
 title: Pager Control Structures
 description: Pager Control Structures
 ms.assetid: 1dea25e9-2ec7-4e2a-a64f-029888898448
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The INITIALIZE\_NEGOTIATION datatype is a special value of type DWORD.
 ms.assetid: ce978913-47a1-4387-bd1b-1795aaf82dd7
 title: INITIALIZE_NEGOTIATION
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

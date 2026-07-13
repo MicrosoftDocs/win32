@@ -3,7 +3,7 @@ description: When writing a high-performance provider that derives classes from 
 ms.assetid: 04abb2f9-800f-497a-ac8f-8ef210746273
 ms.tgt_platform: multiple
 title: Supporting the Win32_PerfRawData Class
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

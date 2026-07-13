@@ -3,8 +3,8 @@ title: Windows Event Collector Enumerations
 description: The following table lists the enumerations of the Windows Event Collector SDK.
 ms.assetid: 3775aa7c-ef35-4534-b709-15624fd7a90d
 ms.tgt_platform: multiple
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Windows Event Collector Enumerations

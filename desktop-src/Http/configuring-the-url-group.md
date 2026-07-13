@@ -2,7 +2,7 @@
 title: Configuring the URL Group
 description: Configuring the URL Group
 ms.assetid: be222076-51ff-4907-924f-cc7b0d4fe767
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

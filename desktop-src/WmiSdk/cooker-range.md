@@ -3,7 +3,7 @@ description: The COOKER\_RANGE counter type formula shows the difference between
 ms.assetid: 4173ca74-e982-4c94-9d78-613797eaec36
 ms.tgt_platform: multiple
 title: COOKER_RANGE
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

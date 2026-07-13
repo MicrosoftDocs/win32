@@ -71,21 +71,6 @@ Removes the entire antispoofing policy for the biometric factor from the account
 
 
 
-## See also
+## Related content
 
-<dl> <dt>
-
-[**WINBIO\_ANTI\_SPOOF\_POLICY\_ACTION**](winbio-anti-spoof-policy-action.md)
-</dt> <dt>
-
-[**WINBIO\_POLICY\_SOURCE**](winbio-policy-source.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
+[WINBIO\_POLICY\_SOURCE](winbio-policy-source.md)

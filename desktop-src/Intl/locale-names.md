@@ -2,7 +2,7 @@
 description: A locale name is based on the language tagging conventions of IETF BCP 47 (Windows Vista and later), and is represented by LOCALE\_SNAME.
 ms.assetid: 221aae7b-3a7c-4995-ae78-50d97de436d8
 title: Locale Names
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

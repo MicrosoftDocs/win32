@@ -4,7 +4,7 @@ description: The interface header file (Name.h) contains type definitions and fu
 ms.assetid: 81fac1fa-6bd7-4a3e-8aa6-5104d4b25b55
 keywords:
 - header files MIDL
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

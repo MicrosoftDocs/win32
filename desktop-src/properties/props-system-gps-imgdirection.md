@@ -2,7 +2,7 @@
 description: Indicates the direction of the image when it was captured. Calculated from PKEY\_GPS\_ImgDirectionNumerator and PKEY\_GPS\_ImgDirectionDenominator.
 ms.assetid: 6280a3d2-05df-44ff-928f-537d74aca0bb
 title: System.GPS.ImgDirection
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

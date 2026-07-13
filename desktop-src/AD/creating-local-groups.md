@@ -5,7 +5,7 @@ ms.assetid: 76cbac51-d8ba-4114-9951-060273be52f3
 ms.tgt_platform: multiple
 keywords:
 - Creating Local Groups AD
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

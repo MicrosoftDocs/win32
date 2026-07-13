@@ -2,7 +2,7 @@
 title: UAV Counters
 description: You can use unordered-access-view (UAV) counters to associate a 32-bit atomic counter with an unordered-access-view (UAV).
 ms.assetid: 0B77E238-E8CF-466B-9188-3DE96AF97F42
-ms.topic: article
+ms.topic: reference
 ms.date: 02/10/2020
 ---
 

@@ -3,7 +3,7 @@ description: After you retrieve a pointer to an IWbemServices proxy, you must se
 ms.assetid: dd453e0e-aa1f-4ef1-ab21-613630b2758c
 ms.tgt_platform: multiple
 title: Setting the Security Levels on a WMI Connection
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Object Creation with Multithreading
 description: Use the ID3D11Device interface to create resources and objects, use the ID3D11DeviceContext for rendering.
 ms.assetid: e1765192-865c-4a62-9be7-6e95280ee8ad
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

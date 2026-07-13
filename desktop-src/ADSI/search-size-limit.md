@@ -5,7 +5,7 @@ ms.assetid: 675a4931-dfa4-4948-936b-dee27add530c
 ms.tgt_platform: multiple
 keywords:
 - Search Size Limit ADSI
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 title: Creating a PDU
 description: To create and initialize a PDU a WinSNMP application calls the SnmpCreatePdu function.
 ms.assetid: 7f02a2c6-19bc-456f-bf04-3297d19000f6
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

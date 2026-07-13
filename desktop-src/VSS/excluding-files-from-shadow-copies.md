@@ -2,7 +2,7 @@
 description: In Windows Vista and Windows Server 2008 and later, the developer of a VSS writer or application may choose to exclude certain files from shadow copies.
 ms.assetid: 4fe1ae94-7b2f-421a-9009-3a7e88822458
 title: Excluding Files from Shadow Copies
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

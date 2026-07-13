@@ -3,7 +3,7 @@ description: Provides rules for mapping WMI classes to Active Directory.
 ms.assetid: 295d3233-5729-4eb0-9fa3-1cf64fef2909
 ms.tgt_platform: multiple
 title: Mapping Active Directory Classes
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

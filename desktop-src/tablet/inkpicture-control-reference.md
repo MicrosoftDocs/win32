@@ -2,7 +2,7 @@
 description: The InkPicture control provides the ability to place an image in an application and enable users to add ink on top of it.
 ms.assetid: e9fa6807-6e2a-44ec-9b8f-a560185e4367
 title: InkPicture Control Reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -116,7 +116,7 @@ Creating the InkPicture control behind a transparent control (such as a GroupBox
 | <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_desiredpacketdescription"><strong>DesiredPacketDescription Property</strong></a> | Gets or sets the packet description of the InkPicture control (run time only).<br /> | 
 | <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_dynamicrendering"><strong>DynamicRendering Property</strong></a> | Gets or sets the value that specifies whether the InkPicture control dynamically renders the ink as it is collected.<br /> | 
 | <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_editingmode"><strong>EditingMode</strong></a> | Gets or sets a value that specifies whether the InkPicture control is in ink mode, deletion mode, or selecting/editing mode.<br /> | 
-| <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_enabled"><strong>Enabled</strong></a> | Gets or sets a value that determines whether the InkPicture control can respond to user-generated events.<br /><blockquote>[!Note]<br />This property is equivalent to the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled"><strong>InkEnabled</strong></a> property.</blockquote><br /> | 
+| [**Enabled**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_enabled) | Gets or sets a value that determines whether the InkPicture control can respond to user-generated events.<br> **Note:** This property is equivalent to the [**InkEnabled**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_inkenabled) property.<br> | 
 | <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_erasermode"><strong>EraserMode</strong></a> | Gets or sets the value that specifies whether ink is erased by stroke or by point.<br /> | 
 | <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_eraserwidth"><strong>EraserWidth</strong></a> | Gets or sets the value that specifies the width of the eraser pen tip.<br /> | 
 | <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-get_hwnd"><strong>hWnd</strong></a> | Gets the window handle to which the InkPicture control is bound. (run time only)<br /> | 

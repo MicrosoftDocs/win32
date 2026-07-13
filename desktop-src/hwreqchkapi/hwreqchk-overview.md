@@ -2,7 +2,7 @@
 description: The HWREQCHK API coordinates execution of deferrable tasks, called activities, on a Windows system.
 ms.assetid: f2bb0996-a864-41db-ba40-820aaf4e09d6
 title: Overview of the HWREQCHK API
-ms.topic: article
+ms.topic: concept-article
 ms.date: 01/04/2023
 ---
 

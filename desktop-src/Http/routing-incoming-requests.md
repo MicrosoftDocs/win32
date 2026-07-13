@@ -2,7 +2,7 @@
 title: Routing Incoming Requests
 description: The HTTP Server API maintains a routing database to determine which application receives an incoming request.
 ms.assetid: 7c613137-66bd-4375-93cb-b5562823bc12
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

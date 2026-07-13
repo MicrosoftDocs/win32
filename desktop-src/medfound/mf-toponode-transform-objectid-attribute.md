@@ -18,7 +18,7 @@ The class identifier (CLSID) of the Media Foundation transform (MFT) associated 
 
 This attribute applies to transform nodes (**MF\_TOPOLOGY\_TRANSFORM\_NODE**).
 
-Applications can use this attribute to initialize a transfrom node. If you set this attribute, you do not have to call [**IMFTopologyNode::SetObject**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-setobject) with a pointer to an MFT or activation object. Conversely, if you call **SetObject**, you do not need to set this attribute. For more information, see [Creating Topologies](creating-topologies.md).
+Applications can use this attribute to initialize a transform node. If you set this attribute, you do not have to call [**IMFTopologyNode::SetObject**](/windows/desktop/api/mfidl/nf-mfidl-imftopologynode-setobject) with a pointer to an MFT or activation object. Conversely, if you call **SetObject**, you do not need to set this attribute. For more information, see [Creating Topologies](creating-topologies.md).
 
 The GUID constant for this attribute is exported from mfuuid.lib.
 

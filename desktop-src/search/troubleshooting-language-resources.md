@@ -1,12 +1,12 @@
 ---
 description: This topic provides best practices and suggestions for validating and troubleshooting your IWordBreaker and IStemmer implementations.
 ms.assetid: b0e199b9-8d81-4445-92f7-de9b8a00a9cb
-title: Troubleshooting Language Resources and Best Practices
-ms.topic: article
+title: Troubleshooting language resources and best practices
+ms.topic: best-practice
 ms.date: 05/31/2018
 ---
 
-# Troubleshooting Language Resources and Best Practices
+# Troubleshooting language resources and best practices
 
 This topic provides best practices and suggestions for validating and troubleshooting your [**IWordBreaker**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordbreaker) and [**IStemmer**](/windows/desktop/api/Indexsrv/nn-indexsrv-istemmer) implementations.
 
@@ -18,7 +18,7 @@ This topic is organized as follows:
 -   [Testing Word Breaker Consistency](#testing-word-breaker-consistency)
 -   [Testing for Invalid Input in the Word Breaker](#testing-for-invalid-input-in-the-word-breaker)
 
-### Best Practices
+### Best practices
 
 -   Ensure that the threading model for language resources is set to "both" in the registry.
 -   Where possible, put language data in a resource in your DLL rather than in a separate file. This makes the DLL easier to install and more secure. Additionally, putting language data in a resource will result in improved performance for that language resource component.
@@ -26,14 +26,14 @@ This topic is organized as follows:
 -   Consider using the neutral word breaker to handle text that is not in the language or locale for your word breaker implementation. This will help ensure that text is processed consistently across all languages.
 -   Check all return codes and return them from functions like [**IStemmer::GenerateWordForms**](/windows/desktop/api/Indexsrv/nf-indexsrv-istemmer-generatewordforms) and [**IWordBreaker::BreakText**](/windows/desktop/api/Indexsrv/nf-indexsrv-iwordbreaker-breaktext). If indexing fails, it is important to pass the error so that the user is notified which documents were indexed.
 
-### Testing Stemmer Consistency
+### Testing stemmer consistency
 
 We recommend that you monitor the performance of an [**IStemmer**](/windows/desktop/api/Indexsrv/nn-indexsrv-istemmer) implementation for consistency under the following conditions:
 
 -   The stemmer performs consistently across multiple calls to [**IStemmer::Init**](/windows/desktop/api/Indexsrv/nf-indexsrv-istemmer-init). The stemmer reinitializes with the same parameters as in the previous initialization, without releasing the parameters.
 -   Given the same test corpus, and repetitions of the same query, [**IStemmer::GenerateWordForms**](/windows/desktop/api/Indexsrv/nf-indexsrv-istemmer-generatewordforms) produces the identical output and makes identical calls to the methods of the [**IWordFormSink**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordformsink) object.
 
-### Testing for Invalid Input in the Stemmer
+### Testing for invalid input in the stemmer
 
 We recommend that you monitor how the [**IStemmer**](/windows/desktop/api/Indexsrv/nn-indexsrv-istemmer) methods handle all errors related to invalid parameters. In addition, we recommend that you ensure that the stemmer methods do not raise unhandled exceptions. The stemmer should handle the following errors:
 
@@ -43,14 +43,14 @@ We recommend that you monitor how the [**IStemmer**](/windows/desktop/api/Indexs
 -   Call to [**IStemmer::GenerateWordForms**](/windows/desktop/api/Indexsrv/nf-indexsrv-istemmer-generatewordforms) with the *cwc* parameter equal to 0. **IStemmer::GenerateWordForms** returns successfully (returns S\_OK) and does not result in an access violation.
 -   Call to [**IStemmer::GenerateWordForms**](/windows/desktop/api/Indexsrv/nf-indexsrv-istemmer-generatewordforms) with the *pwcInBuf* parameter set to **NULL** and the *cwc* parameter equal to 0. **IStemmer::GenerateWordForms** fails (returns E\_FAIL) and does not result in an access violation.
 
-### Testing Word Breaker Consistency
+### Testing Word breaker consistency
 
 We recommend that you ensure that the [**IWordBreaker**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordbreaker) implementation performs consistently under the following conditions:
 
 -   Word breaker performs consistently across multiple calls to its [**IWordBreaker::Init**](/windows/desktop/api/Indexsrv/nf-indexsrv-iwordbreaker-init) method. The word breaker reinitializes with the same parameters as in the previous initialization, without releasing the parameters.
 -   Given the same test corpus, and repetitions of the same query, the [**IWordBreaker::BreakText**](/windows/desktop/api/Indexsrv/nf-indexsrv-iwordbreaker-breaktext) method produces the identical output and makes identical calls to the methods of the [**IWordSink**](iwordsink.md) and [**IPhraseSink**](/windows/win32/api/indexsrv/nn-indexsrv-iphrasesink) objects.
 
-### Testing for Invalid Input in the Word Breaker
+### Testing for invalid input in the Word breaker
 
 We recommend that you ensure that the [**IWordBreaker**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordbreaker) methods handle all errors related to invalid parameters. In addition, we recommend that you ensure that the word breaker methods do not raise unhandled exceptions. The word breaker should perform the following functions and handle the following errors:
 

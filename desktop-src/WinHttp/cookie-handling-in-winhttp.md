@@ -2,7 +2,7 @@
 title: Cookie handling in WinHTTP
 description: Cookie handling in WinHTTP
 ms.date: 06/30/2022
-ms.topic: article
+ms.topic: concept-article
 ms.assetid: ef0f0847-05f6-4477-8e48-e0bea66314ab
 ---
 

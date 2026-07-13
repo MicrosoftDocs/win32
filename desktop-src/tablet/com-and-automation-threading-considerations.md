@@ -2,7 +2,7 @@
 description: The following Tablet PC threading considerations are specific to when Component Object Model (COM) and Automation are used.
 ms.assetid: cf8feba5-a391-4396-a5d8-1ef58df304a7
 title: COM and Automation Threading Considerations
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 
@@ -21,7 +21,7 @@ The following Tablet PC threading considerations are specific to when Component 
 
 Except for the [InkPicture](inkpicture-control.md) and [InkEdit](inkedit-control.md) controls, Tablet PC objects are thread-safe and are marked as both. By being marked as both, they can run in either a single threaded apartment (STA) or a multithreaded apartment (MTA).
 
-Windows forms use the STA model because windows forms are based on native Win32 windows that are inherently apartment threaded.
+Windows forms use the STA model because windows forms are based on native Win32 windows, and threads that use both Win32 windows and COM are expected to use single-threaded apartments.
 
 ## STA and MTA Applications
 

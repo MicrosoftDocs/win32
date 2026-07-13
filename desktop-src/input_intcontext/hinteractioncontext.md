@@ -4,7 +4,7 @@ description: Handle to an Interaction Context object.
 ms.assetid: 3E3DE99D-B457-4202-8CC2-A6F5C019EFF8
 keywords:
 - HINTERACTIONCONTEXT
-ms.topic: article
+ms.topic: reference
 ms.date: 02/06/2020
 ---
 

@@ -3,7 +3,7 @@ title: B (RRAS)
 description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 69af0591-016f-4c50-b9ba-839629e87f75
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

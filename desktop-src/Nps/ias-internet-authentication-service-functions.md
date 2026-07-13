@@ -3,7 +3,7 @@ title: NPS Extensions Functions
 description: NPS Extensions Functions
 ms.assetid: ca217314-00f9-4f9d-a9fe-ed928b3c3b3d
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

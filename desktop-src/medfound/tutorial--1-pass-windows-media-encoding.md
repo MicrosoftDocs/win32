@@ -2,7 +2,7 @@
 description: Encoding refers to the process of converting digital media from one format into another. For example, converting MP3 audio into Windows Media Audio format as defined by the Advanced Systems Format (ASF) specification.
 ms.assetid: 4fe202d8-c8f5-4e9a-ad40-1aea8f767362
 title: 'Tutorial: 1-Pass Windows Media Encoding'
-ms.topic: article
+ms.topic: tutorial
 ms.date: 05/31/2018
 ---
 
@@ -2523,7 +2523,7 @@ The following list describes a check list for testing the encoded file. These va
 -   For the video stream, check the frame width and height, frame rate. These values should match the values that you specified in the ASF profile that you created in the step described in the section "Create the ASF Profile Object".
 -   For the audio stream, the bit rate must be close to the value you specified on the target media type.
 -   Open the file in Windows Media Player and check the quality of the encoding.
--   Open the ASF file in ASFViewer to see the structure of an ASF file. This tool can be downloaded from this [Microsoft website](https://www.microsoft.com/downloads/details.aspx?displaylang=en&FamilyID=56de5ee4-51ca-46c6-903b-97390ad14fea).
+-   Open the ASF file in ASFViewer to see the structure of an ASF file. This tool can be downloaded from this [Microsoft website](https://en.wikipedia.org/wiki/Advanced_Systems_Format).
 
 ## Common Error Codes and Debugging Tips
 

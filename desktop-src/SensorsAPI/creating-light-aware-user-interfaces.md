@@ -2,11 +2,16 @@
 description: This section covers the use of ambient light sensor data, and how user interface features and program content can be optimized for many lighting conditions.
 ms.assetid: c84075b2-ae41-4915-a0f6-3a9c017ae0b8
 title: Creating Light-Aware User Interfaces
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 09/19/2025
 ---
 
 # Creating Light-Aware User Interfaces
+
+> [!IMPORTANT]
+> Use the [UWP Sensor API](/windows/uwp/devices-sensors/sensors) instead.
+>
+> The COM-based Sensor API is deprecated and should not be used in new applications. No additional features or enhancements are planned, and support will be limited.
 
 This section covers the use of ambient light sensor data, and how user interface features and program content can be optimized for many lighting conditions.
 
@@ -42,9 +47,9 @@ In the remainder of this section, you will explore some things that you can do t
 -   [Understanding and Interpreting Lux Values](understanding-and-interpreting-lux-values.md)
 -   [Using Light Sensor Data](handling-data-from-multiple-light-sensors.md)
 
- 
 
- 
+
+
 
 
 

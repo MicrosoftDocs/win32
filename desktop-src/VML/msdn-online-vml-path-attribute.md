@@ -2,7 +2,7 @@
 title: VML Path Attribute
 description: VML Path Attribute
 ms.assetid: ecb64a2f-65f7-4eb9-8d67-d7909bf52d9c
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

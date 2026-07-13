@@ -3,7 +3,7 @@ title: Remote Desktop Protocol Provider Structures
 description: The custom remote protocol API supports the following structures.
 ms.assetid: 45d17758-4554-42aa-aeb9-c8d4e7fc6bb7
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

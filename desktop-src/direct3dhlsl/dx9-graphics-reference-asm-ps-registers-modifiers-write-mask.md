@@ -2,7 +2,7 @@
 title: Destination Register Write Mask
 description: A write mask controls which components of a destination register are written after an instruction is completed.
 ms.assetid: 376a28c8-8a88-4807-a8ab-f59448d965e8
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

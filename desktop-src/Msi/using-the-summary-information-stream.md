@@ -2,7 +2,7 @@
 description: This section describes which functions in the Windows Installer API can call the summary information stream properties. For more information on the summary information stream and how it works with databases, see About the Summary Information Stream.
 ms.assetid: 2c22fe52-52a9-4e3f-9482-b5e41b91b3ae
 title: Using the Summary Information Stream
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

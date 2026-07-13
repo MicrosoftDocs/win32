@@ -2,7 +2,7 @@
 description: 'Unlike Cryptography API (CryptoAPI), Cryptography API: Next Generation (CNG) separates cryptographic providers from key storage providers.'
 ms.assetid: ce29bc97-049e-4c82-979f-4c805a318ba0
 title: CNG Cryptographic Algorithm Providers
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
@@ -41,7 +41,7 @@ Unlike Cryptography API (CryptoAPI), Cryptography API: Next Generation (CNG) sep
 |-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Digital Signature Algorithm (DSA) | Implementation conforms to FIPS 186-3 for key sizes between 1024 and 3072 bits. <br/> Implementation conforms to FIPS 186-2 for key sizes from 512 to 1024 bits.<br/> | 512 to 3072, in 64-bit increments<br/> **Windows 8:** Support for the a 3072 bit key begins.<br/> |
 | RSA                               | Includes RSA algorithms that use PKCS1, Optimal Asymmetric Encryption Padding (OAEP) encoding or padding, or Probabilistic Signature Scheme (PSS) plaintext padding               | 512 to 16384, in 64-bit increments                                                                            |
-| Elliptic Curve Digital Signature Algorithm (ECDSA) | Includes curves that use 256, 384 and 521 bit public keys as specified in FIPS 186-3.<blockquote>[!Note]<br />To display all named elliptic curves, use <strong>certutil  displayEccCurve</strong>.</blockquote><br /> | 256/384/521 | 
+| Elliptic Curve Digital Signature Algorithm (ECDSA) | Includes curves that use 256, 384 and 521 bit public keys as specified in FIPS 186-3. **Note:** To display all named elliptic curves, use **certutil  displayEccCurve**.<br> | 256/384/521 | 
 
 
  

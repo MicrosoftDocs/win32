@@ -4,7 +4,7 @@ description: This section provides reference information for the programming ele
 ms.assetid: fd09c38b-0654-4681-8fff-e27c4d5f2743
 keywords:
 - Bluetooth, reference
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

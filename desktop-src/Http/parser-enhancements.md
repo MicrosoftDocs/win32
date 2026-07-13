@@ -4,7 +4,7 @@ description: Parser Enhancements
 ms.assetid: b520aebe-9182-4e60-9111-49af09cdbd79
 keywords:
 - Parser Enhancements
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

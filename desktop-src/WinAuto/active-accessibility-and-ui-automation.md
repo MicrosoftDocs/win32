@@ -2,8 +2,8 @@
 title: Active Accessibility and UI Automation
 description: Microsoft Active Accessibility is designed for use with Windows XP and earlier operating systems.
 ms.assetid: 8eb36d2c-0c2f-4311-8690-52ce070c9f33
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: reference
+ms.date: 07/14/2025
 ---
 
 # Active Accessibility and UI Automation

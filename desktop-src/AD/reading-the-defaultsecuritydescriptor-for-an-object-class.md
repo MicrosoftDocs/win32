@@ -5,7 +5,7 @@ ms.assetid: 12d1e77a-bd70-4c64-9b4f-ac5caaf5fe40
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , reading the defaultSecurityDescriptor for an Object Class
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

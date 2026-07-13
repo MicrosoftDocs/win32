@@ -2,7 +2,7 @@
 description: Using the Checkv4.exe utility to modify your IPv4 application to support IPv6.
 ms.assetid: 36b72e4f-133d-4d96-a3c9-86a852d3a479
 title: Using the Checkv4.exe utility
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -27,7 +27,7 @@ The following sections describe how to use the *Checkv4.exe* utility, then expla
 
     **Checkv4 simplec.c**
 
-    Note that some of the recommendations made by the *Checkv4.exe* utility require structures available only in recent versions of the *Ws2tcpip.h* header file, such as the **SOCKADDR\_IN6** structure. These header files are included in the Windows SDK released for Windows Vista and later. These header files are also included in the earlier Platform Software Development Kit (SDK) released for Windows Server 2003. These header files are also included as part of an MSDN subscription or by download.
+    Note that some of the recommendations made by the *Checkv4.exe* utility require structures available only in recent versions of the *Ws2tcpip.h* header file, such as the **SOCKADDR\_IN6** structure. These header files are included in the Windows SDK released for Windows Vista and later. These header files are also included in the earlier Platform Software Development Kit (SDK) released for Windows Server 2003.
 
     The following screen shot displays the results of using the *Checkv4.exe* utility on the Simplec.c file included in Appendix A:
 

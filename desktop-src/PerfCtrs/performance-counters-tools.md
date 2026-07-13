@@ -2,8 +2,8 @@
 description: The following table lists the
 ms.assetid: 3f47a52c-2d36-4a74-9d7f-df37645b8e72
 title: Performance Counters Tools
-ms.topic: article
-ms.date: 08/17/2020
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # Performance Counters Tools

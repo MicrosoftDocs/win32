@@ -2,7 +2,7 @@
 title: Multilink and Callback Connections
 description: For the first link in a multilink connection, the authentication service sets the RAS\_EAP\_FLAG\_FIRST\_LINK flag in the fFlags member of the PPP\_EAP\_INPUT structure.
 ms.assetid: a6aee73b-43b2-43b4-a6f1-ac7b293c44ad
-ms.topic: article
+ms.topic: reference
 ms.date: 06/14/2023
 ms.contributor: samyun
 ---

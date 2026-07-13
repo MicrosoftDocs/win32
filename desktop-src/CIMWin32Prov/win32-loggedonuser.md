@@ -85,7 +85,7 @@ The **Win32\_LoggedOnUser** class is derived from [**CIM\_Dependency**](cim-depe
 
 ## Examples
 
-The [get-loggedonuser function](https://Gallery.TechNet.Microsoft.Com/scriptcenter/0e43993a-895a-4afe-a2b2-045a5146048a) PowerShell sample gets the logged on users on a local or remote computer, with session information.
+The `Get-LoggedOnUser function` PowerShell sample gets the logged on users on a local or remote computer, with session information.
 
 ## Requirements
 

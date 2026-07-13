@@ -2,7 +2,7 @@
 title: Other Elements
 description: Other Elements
 ms.assetid: 9CB93E2C-98F7-432C-B2DE-38A6ED8CA8B8
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

@@ -3,7 +3,7 @@ description: If you attempt to remove more than one item in a collection, you ma
 ms.assetid: 7c82321e-059f-497c-8561-33c3e9306d41
 ms.tgt_platform: multiple
 title: Removing Multiple Items from a WMI Collection
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

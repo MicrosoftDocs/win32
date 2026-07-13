@@ -2,7 +2,7 @@
 title: Color Attribute (Extrusion)(VML)
 description: Color Attribute (Extrusion)(VML)
 ms.assetid: 52ee2210-5e32-4e01-9af7-b511e43f987a
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

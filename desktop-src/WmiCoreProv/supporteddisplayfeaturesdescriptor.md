@@ -113,7 +113,7 @@ Data type: **boolean**
 Access type: Read-only
 </dt> </dl>
 
-Indicates whether the display has has a preferred timing mode. If **True**, the first detailed timing block contains the preferred timing mode of the monitor. Use of preferred timing mode is required by EDID v.1.3 and higher.
+Indicates whether the display has a preferred timing mode. If **True**, the first detailed timing block contains the preferred timing mode of the monitor. Use of preferred timing mode is required by EDID v.1.3 and higher.
 
 </dd> <dt>
 

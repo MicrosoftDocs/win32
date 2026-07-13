@@ -3,7 +3,7 @@ title: H (Text Services Framework)
 description: Glossary page
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 0aa2f4ed-ca9a-477f-8ae4-e54bb405528c
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

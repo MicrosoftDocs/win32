@@ -2,7 +2,7 @@
 title: MIDL Compiler
 description: MIDL Compiler
 ms.assetid: ce3d40b7-49fd-4689-9100-fdbad4f0c557
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

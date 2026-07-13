@@ -6,7 +6,7 @@ keywords:
 - Background Intelligent Transfer Service, described
 - transfer queue BITS
 - transfer queue BITS , throttle
-ms.topic: article
+ms.topic: concept-article
 ms.date: 7/12/2019
 ---
 

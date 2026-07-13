@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Creating and Deleting Objects ADSI
 - ADSI, Creating and Deleting Objects
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

@@ -7,7 +7,7 @@ keywords:
 - data copy,examples
 - data copy,WM_COPYDATA message
 - WM_COPYDATA message
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

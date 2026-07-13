@@ -2,7 +2,7 @@
 title: Using Toolbar Controls
 description: This topic contains implementation details and example code for using toolbar controls in your applications.
 ms.assetid: 5e52049c-58b4-478c-92ee-ea2f16534f6c
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: This topic shows how to write an index for an Advanced Systems Format (ASF) file.
 ms.assetid: a14e3bef-0232-4259-930a-d860ed9230fd
 title: Using the Indexer to Write a New Index
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 
@@ -137,7 +137,7 @@ After the last packet has had an index entry created for it, the index must be c
 To get the completed index from the indexer, perform the following steps:
 
 1.  Call [**IMFASFIndexer::GetIndexWriteSpace**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getindexwritespace) to get the size of the index.
-2.  Call [**MFCreateMemoryBuffer**](/windows/desktop/api/mfapi/nf-mfapi-mfcreatememorybuffer) to create a media buffer. You can either allocate an buffer that is large enough to hold the entire index, of allocate a smaller buffer and get the index in chunks.
+2.  Call [**MFCreateMemoryBuffer**](/windows/desktop/api/mfapi/nf-mfapi-mfcreatememorybuffer) to create a media buffer. You can either allocate a buffer that is large enough to hold the entire index, of allocate a smaller buffer and get the index in chunks.
 3.  Call [**IMFASFIndexer::GetCompletedIndex**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfindexer-getcompletedindex) to get the index data. On the first call, set the *cbOffsetWithinIndex* parameter to zero. If you get the index in chunks, increment *cbOffsetWithinIndex* each time by the size of the data from the previous call.
 4.  Call [**IMFMediaBuffer::Lock**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediabuffer-lock) to get a pointer to the index data and the size of the data.
 5.  Write the index data to the ASF file.

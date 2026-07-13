@@ -2,7 +2,7 @@
 description: 'The Grouping API uses the following functions:'
 ms.assetid: 56ea2880-b468-4816-b6c9-5780c807b3f1
 title: Grouping API Functions
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

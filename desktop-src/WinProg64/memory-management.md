@@ -5,7 +5,7 @@ ms.assetid: a3fa6e51-2895-4941-9304-5939208e8102
 keywords:
 - WOW64 64-bit Windows Programming , memory management
 - memory management 64-bit Windows Programming
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

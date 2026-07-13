@@ -2,7 +2,7 @@
 description: IME Share
 ms.assetid: 2824DA0C-7155-47BF-BAE1-4847EDD62107
 title: IME Share
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

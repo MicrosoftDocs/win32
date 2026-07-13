@@ -12,7 +12,7 @@ api_name:
 api_type: 
 - HeaderDef
 api_location: 
-- winioctl.h.h
+- winioctl.h
 ---
 
 # STORAGE\_HW\_FIRMWARE\_SLOT\_INFO structure
@@ -97,7 +97,7 @@ The revision of the firmware on this slot.
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                        |
-| Header<br/>                   | <dl> <dt>Winioctl.h.h (include Windows.h)</dt> </dl> |
+| Header<br/>                   | <dl> <dt>Winioctl.h (include Windows.h)</dt> </dl> |
 
 
 

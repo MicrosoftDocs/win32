@@ -31,7 +31,7 @@ Declare the tessellator domain in a hull shader declaration section, and the dom
 
 ## Remarks
 
-Behavior is undefined if the hull shader and domain shader provide mismatching domains or any other conflicting decalarations.
+Behavior is undefined if the hull shader and domain shader provide mismatching domains or any other conflicting declarations.
 
 This instruction applies to the following shader stages:
 

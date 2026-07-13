@@ -2,7 +2,7 @@
 title: ps_3_0 Instructions
 description: This section contains reference information for the pixel shader version 3\_0 instructions.
 ms.assetid: 36972b9b-a4e7-45b4-83f5-959e75d270de
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
 - kbArticle

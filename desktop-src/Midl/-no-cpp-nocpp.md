@@ -4,7 +4,7 @@ description: The /no\_cpp switch specifies that the MIDL compiler does not call 
 ms.assetid: 25c8316d-136f-44c5-b524-84f45551b512
 keywords:
 - /no_cpp, /nocpp
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

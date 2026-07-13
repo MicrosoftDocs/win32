@@ -2,7 +2,7 @@
 title: Setting Process-Wide Security Through the Registry
 description: If you want to set security for an entire process, one solution is to set the security levels you want in the registry.
 ms.assetid: 87f0a64f-f3ec-4ee2-8d65-4f82e8971f0b
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

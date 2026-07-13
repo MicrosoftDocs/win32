@@ -2,7 +2,7 @@
 description: Indicates altitude based on the reference in PKEY\_GPS\_AltitudeRef.
 ms.assetid: 396f9c9e-4d13-4e0d-9ec5-14a1c49f059e
 title: System.GPS.Altitude
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -12,7 +12,7 @@ keywords:
 - third-party codecs
 - codecs,third-party
 - codecs,creating ASF files
-ms.topic: article
+ms.topic: how-to
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

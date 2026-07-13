@@ -3,7 +3,7 @@ description: The OBJECT-TYPE macro contains mandatory and optional clauses that 
 ms.assetid: ad76a4fc-354e-4270-862c-062aa523bf7e
 ms.tgt_platform: multiple
 title: OBJECT-TYPE Macro
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

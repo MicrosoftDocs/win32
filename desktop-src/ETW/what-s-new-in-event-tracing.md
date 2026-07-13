@@ -2,7 +2,7 @@
 description: This section describes the new features that were added to Event Tracing for Windows in each release.
 ms.assetid: 5d94a6d2-2280-4a97-aa5a-c9ca2c016c84
 title: What's New in Event Tracing
-ms.topic: article
+ms.topic: whats-new
 ms.date: 05/31/2018
 ---
 

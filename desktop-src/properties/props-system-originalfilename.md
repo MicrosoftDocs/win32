@@ -2,7 +2,7 @@
 description: System.OriginalFileName
 ms.assetid: 54c0ebd1-d270-4e8b-88e6-d58698ddd208
 title: System.OriginalFileName
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

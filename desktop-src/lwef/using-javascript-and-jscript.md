@@ -2,7 +2,7 @@
 title: Using JavaScript and JScript
 description: Using JavaScript and JScript
 ms.assetid: c6927663-9432-4fa9-8de6-abb7237909b9
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

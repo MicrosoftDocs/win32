@@ -2,7 +2,7 @@
 description: Learn about Windows Installer concepts that begin with the letter D, such as database function and delta patch.
 ms.assetid: d6dd73e7-657f-4f71-8e9b-70369cb21972
 title: D (Windows Installer)
-ms.topic: article
+ms.topic: glossary
 ms.date: 05/31/2018
 ---
 

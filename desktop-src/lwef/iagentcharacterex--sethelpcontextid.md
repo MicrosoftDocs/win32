@@ -2,7 +2,7 @@
 title: IAgentCharacterEx SetHelpContextID
 description: IAgentCharacterEx SetHelpContextID
 ms.assetid: 218e970e-825e-441d-8947-30ec6a2845bd
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -14,7 +14,7 @@ keywords:
 - resizing a virtual surface
 - virtual surace, resizing
 - resize virtual surface
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

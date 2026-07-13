@@ -2,7 +2,7 @@
 title: String Functions
 description: String Functions
 ms.assetid: 0249ea7a-84f1-4e25-9e80-0be5eb6c04ed
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

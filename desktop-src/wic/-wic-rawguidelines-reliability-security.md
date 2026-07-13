@@ -2,7 +2,7 @@
 description: Reliability and Security
 ms.assetid: 1cbfabce-3d56-4e23-b9a7-02369c67e392
 title: Reliability and Security
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

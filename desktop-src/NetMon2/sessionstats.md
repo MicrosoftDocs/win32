@@ -48,7 +48,7 @@ Index of the station owner's next session.
 **StationOwner**
 </dt> <dd>
 
-Index of a owner station within the associated [STATIONSTATS](stationstats.md) structure array. The owner station is the station that initiated the session, the station that sent the packets of the session.
+Index of an owner station within the associated [STATIONSTATS](stationstats.md) structure array. The owner station is the station that initiated the session, the station that sent the packets of the session.
 
 </dd> <dt>
 

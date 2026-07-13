@@ -6,7 +6,7 @@ keywords:
 - reparse points Backup
 - single-instance store (SIS) Backup , SIS links
 - single-instance store (SIS) Backup , reparse points
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

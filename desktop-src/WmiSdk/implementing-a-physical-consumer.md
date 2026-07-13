@@ -3,7 +3,7 @@ description: A physical consumer is a COM object that implements the IWbemUnboun
 ms.assetid: 497457dc-61ca-4527-89fd-2af0383de5e9
 ms.tgt_platform: multiple
 title: Implementing a Physical Consumer
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

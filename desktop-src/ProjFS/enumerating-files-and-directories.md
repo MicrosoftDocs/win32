@@ -3,7 +3,7 @@ title: Enumerating Files and Directories
 description: Describes how a ProjFS provider participates in directory enumeration.
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 09/25/2018
-ms.topic: article
+ms.topic: how-to
 ---
 
 # Enumerating Files and Directories

@@ -2,7 +2,7 @@
 title: UI guidelines for NDF helper class extensions
 description: When building your helper class, you will need to create text to help the user understand the cause of an incident and the possible repair steps which can be taken.
 ms.assetid: f13f3621-ab82-4e22-9442-0a4d57c368fc
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

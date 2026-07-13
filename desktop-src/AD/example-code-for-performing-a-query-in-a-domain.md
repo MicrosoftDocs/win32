@@ -5,7 +5,7 @@ ms.assetid: 07b27324-4f59-42c2-a42f-8c2cef138928
 ms.tgt_platform: multiple
 keywords:
 - Active Directory examples Active Directory , searching for groups in a domain
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

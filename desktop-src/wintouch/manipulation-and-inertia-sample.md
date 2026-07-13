@@ -24,7 +24,7 @@ keywords:
 - IManipulationProcessor interface,sample code
 - IInertiaProcessor interface,code samples
 - IInertiaProcessor interface,sample code
-ms.topic: article
+ms.topic: sample
 ms.date: 02/18/2020
 ---
 
@@ -204,7 +204,7 @@ switch (msg)
 ```
 
 > [!Note]  
-> In order to use the [**ScreenToClient**](/windows/desktop/api/winuser/nf-winuser-screentoclient) function, you must have high DPI support in your application. For more information about supporting high DPI, visit the [High DPI]( ../hidpi/high-dpi-desktop-application-development-on-windows.md) section of MSDN.
+> In order to use the [**ScreenToClient**](/windows/desktop/api/winuser/nf-winuser-screentoclient) function, you must have high DPI support in your application. For more information about supporting high DPI, see [High DPI]( ../hidpi/high-dpi-desktop-application-development-on-windows.md).
 
 ## Pass TOUCHINPUT Structures to the Appropriate Processor
 
@@ -269,7 +269,7 @@ After the [**ManipulationCompleted**](/windows/win32/api/manipulations/nf-manipu
 
     // Set properties for inertia events.
 
-    // Deceleration for tranlations in pixel / msec^2.
+    // Deceleration for translations in pixel / msec^2.
     m_inert->put_DesiredDeceleration(0.001f);
 
     // Deceleration for rotations in radians / msec^2.

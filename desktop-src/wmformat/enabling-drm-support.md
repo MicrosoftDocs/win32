@@ -8,7 +8,7 @@ keywords:
 - ASF (Advanced Systems Format),enabling DRM support
 - digital rights management (DRM),enabling support
 - DRM (digital rights management),enabling support
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

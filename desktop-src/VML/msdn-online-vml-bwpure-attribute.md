@@ -2,7 +2,7 @@
 title: VML BWPure Attribute
 description: VML BWPure Attribute
 ms.assetid: a68e8197-bfd6-4b8e-8d4c-598590addff8
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

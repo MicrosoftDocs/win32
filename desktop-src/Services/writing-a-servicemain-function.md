@@ -2,7 +2,7 @@
 description: The SvcMain function in the following example is the ServiceMain function for the example service.
 ms.assetid: 7aa9371d-676c-4633-9831-edf0e74d15f0
 title: Writing a ServiceMain Function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

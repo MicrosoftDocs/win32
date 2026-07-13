@@ -52,7 +52,7 @@ The following rules apply:
 -   Separate multiple file names with commas.
 -   You must enclose the file name within quotation marks and end the import statement with a semicolon (;).
 -   You can import an interface that has no attributes into another IDL file. However, the interface must contain only datatypes; it cannot contain any procedures. If even one procedure is contained in the imported interface, you must specify a [**local**](local.md) or [**UUID**](uuid.md) attribute.
--   The **import** function is idempotentÂ â€”Â that is, importing an interface more than once has no additional effect.
+-   The **import** function is idempotent -- that is, importing an interface more than once has no additional effect.
 
 > [!Note]  
 > The behavior of the **import** directive is independent of the MIDL compiler mode switches [**/ms\_ext**](-ms-ext.md) (the default), [**/osf**](-osf.md), and [**/app\_config**](-app-config.md). However, the compiler mode (**/osf** or **/ms\_ext**) can affect pointer attribute decoration on imported types. For details see [Pointer-Attribute Type Inheritance](/windows/desktop/Rpc/pointer-attribute-type-inheritance).

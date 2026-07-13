@@ -2,7 +2,7 @@
 description: Isolated applications are self-describing applications installed with manifests. Isolated applications can use both private assemblies and shared assemblies.
 ms.assetid: 66c65b92-7c49-4932-b8c5-91b20fb0a038
 title: Isolated Applications
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

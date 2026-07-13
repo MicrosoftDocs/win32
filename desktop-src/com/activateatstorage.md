@@ -4,7 +4,7 @@ description: Configures the client to instantiate objects on the same computer a
 ms.assetid: bc0f0c1c-dbfc-4b7a-b897-3646afe3f6bb
 keywords:
 - registry value COM
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

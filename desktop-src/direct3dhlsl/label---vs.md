@@ -28,9 +28,9 @@ Mark the next instruction as having a label index.
 
 where \# identifies the label number.
 
-For vs\_2\_0, and vs\_2\_x, the label number must be between between 0 and 15.
+For vs\_2\_0, and vs\_2\_x, the label number must be between 0 and 15.
 
-For vs\_2\_sw, vs\_3\_0 and vs\_3\_sw, the label number must be between between 0 and 2047.
+For vs\_2\_sw, vs\_3\_0 and vs\_3\_sw, the label number must be between 0 and 2047.
 
 ## Remarks
 

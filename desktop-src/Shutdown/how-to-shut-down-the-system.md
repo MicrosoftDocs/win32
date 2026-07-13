@@ -2,7 +2,7 @@
 description: The following example uses the ExitWindowsEx function to shut down the system.
 ms.assetid: bf8723aa-1c7f-4761-9034-d5a9447a4bc4
 title: How to Shut Down the System
-ms.topic: article
+ms.topic: how-to
 ms.date: 05/31/2018
 ---
 

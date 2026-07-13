@@ -54,10 +54,10 @@ The following Routing and Remote Access (RRAS) API error codes are defined in ra
 <tr class="even">
 <td><span id="ERROR_CANNOT_SET_PORT_INFO"></span><span id="error_cannot_set_port_info"></span><dl> <dt><strong>ERROR_CANNOT_SET_PORT_INFO</strong></dt> <dt>605</dt> </dl></td>
 <td>The port information specified cannot be set.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
@@ -67,10 +67,10 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="even">
 <td><span id="ERROR_EVENT_INVALID"></span><span id="error_event_invalid"></span><dl> <dt><strong>ERROR_EVENT_INVALID</strong></dt> <dt>607</dt> </dl></td>
 <td>An event that is not valid was detected.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
@@ -88,10 +88,10 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="even">
 <td><span id="ERROR_ROUTE_NOT_AVAILABLE"></span><span id="error_route_not_available"></span><dl> <dt><strong>ERROR_ROUTE_NOT_AVAILABLE</strong></dt> <dt>611</dt> </dl></td>
 <td>A route was specified that is not available.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
@@ -101,10 +101,10 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="even">
 <td><span id="ERRERROR_INVALID_COMPRESSION_SPECIFIED"></span><span id="errerror_invalid_compression_specified"></span><dl> <dt><strong>ERRERROR_INVALID_COMPRESSION_SPECIFIED</strong></dt> <dt>613</dt> </dl></td>
 <td>The specified compression is not valid.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
@@ -134,10 +134,10 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="odd">
 <td><span id="ERROR_NO_ENDPOINTS"></span><span id="error_no_endpoints"></span><dl> <dt><strong>ERROR_NO_ENDPOINTS</strong></dt> <dt>620</dt> </dl></td>
 <td>No endpoints could be determined.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
@@ -163,10 +163,10 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="odd">
 <td><span id="ERROR_CANNOT_LOAD_STRING"></span><span id="error_cannot_load_string"></span><dl> <dt><strong>ERROR_CANNOT_LOAD_STRING</strong></dt> <dt>626</dt> </dl></td>
 <td>A string could not be loaded.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
@@ -200,10 +200,10 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="odd">
 <td><span id="ERROR_CANNOT_PROJECT_CLIENT"></span><span id="error_cannot_project_client"></span><dl> <dt><strong>ERROR_CANNOT_PROJECT_CLIENT</strong></dt> <dt>634</dt> </dl></td>
 <td>Your computer could not be registered on the remote network.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
@@ -217,10 +217,10 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="even">
 <td><span id="ERROR_BAD_STRING"></span><span id="error_bad_string"></span><dl> <dt><strong>ERROR_BAD_STRING</strong></dt> <dt>637</dt> </dl></td>
 <td>A string was detected that could not be converted.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
@@ -230,55 +230,55 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="even">
 <td><span id="ERROR_CANNOT_GET_LANA"></span><span id="error_cannot_get_lana"></span><dl> <dt><strong>ERROR_CANNOT_GET_LANA</strong></dt> <dt>639</dt> </dl></td>
 <td>No asynchronous net is available.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_NETBIOS_ERROR"></span><span id="error_netbios_error"></span><dl> <dt><strong>ERROR_NETBIOS_ERROR</strong></dt> <dt>640</dt> </dl></td>
 <td>An error has occurred involving NetBIOS.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_SERVER_OUT_OF_RESOURCES"></span><span id="error_server_out_of_resources"></span><dl> <dt><strong>ERROR_SERVER_OUT_OF_RESOURCES</strong></dt> <dt>641</dt> </dl></td>
 <td>he server cannot allocate NetBIOS resources needed to support the client.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_NAME_EXISTS_ON_NET"></span><span id="error_name_exists_on_net"></span><dl> <dt><strong>ERROR_NAME_EXISTS_ON_NET</strong></dt> <dt>642</dt> </dl></td>
 <td>One of your computer's NetBIOS names is already registered on the remote network.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_SERVER_GENERAL_NET_FAILURE"></span><span id="error_server_general_net_failure"></span><dl> <dt><strong>ERROR_SERVER_GENERAL_NET_FAILURE</strong></dt> <dt>643</dt> </dl></td>
 <td>A network adapter at the server failed.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="WARNING_MSG_ALIAS_NOT_ADDED"></span><span id="warning_msg_alias_not_added"></span><dl> <dt><strong>WARNING_MSG_ALIAS_NOT_ADDED</strong></dt> <dt>644</dt> </dl></td>
 <td>You will not receive network message popups.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
@@ -304,10 +304,10 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="odd">
 <td><span id="ERROR_SERVER_NOT_RESPONDING"></span><span id="error_server_not_responding"></span><dl> <dt><strong>ERROR_SERVER_NOT_RESPONDING</strong></dt> <dt>650</dt> </dl></td>
 <td>The remote access server is not responding.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
@@ -332,7 +332,7 @@ Deprecated in Windows Vista and later versions of Windows.
 </tr>
 <tr class="odd">
 <td><span id="ERROR_DEFAULTOFF_MACRO_NOT_FOUND"></span><span id="error_defaultoff_macro_not_found"></span><dl> <dt><strong>ERROR_DEFAULTOFF_MACRO_NOT_FOUND</strong></dt> <dt>656</dt> </dl></td>
-<td>The \<defaultoff\> macro in the device .INF file section contains an undefined macro.<br/></td>
+<td>The \&lt;defaultoff&gt; macro in the device .INF file section contains an undefined macro.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_FILE_COULD_NOT_BE_OPENED"></span><span id="error_file_could_not_be_opened"></span><dl> <dt><strong>ERROR_FILE_COULD_NOT_BE_OPENED</strong></dt> <dt>657</dt> </dl></td>
@@ -405,10 +405,10 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="odd">
 <td><span id="ERROR_READING_MAXCONNECTBPS"></span><span id="error_reading_maxconnectbps"></span><dl> <dt><strong>ERROR_READING_MAXCONNECTBPS</strong></dt> <dt>674</dt> </dl></td>
 <td>The system was unable to read the maximum carrier connection speed from the media .INI file.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
@@ -438,10 +438,10 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="even">
 <td><span id="ERROR_IN_COMMAND"></span><span id="error_in_command"></span><dl> <dt><strong>ERROR_IN_COMMAND</strong></dt> <dt>681</dt> </dl></td>
 <td>The modem (or other connecting device) reported a general error.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
@@ -543,10 +543,10 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="odd">
 <td><span id="ERROR_WRITING_INITBPS"></span><span id="error_writing_initbps"></span><dl> <dt><strong>ERROR_WRITING_INITBPS</strong></dt> <dt>706</dt> </dl></td>
 <td>An error occurred when writing the initial connection speed.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
@@ -572,10 +572,10 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="odd">
 <td><span id="ERROR_BIPLEX_PORT_NOT_AVAILABLE"></span><span id="error_biplex_port_not_available"></span><dl> <dt><strong>ERROR_BIPLEX_PORT_NOT_AVAILABLE</strong></dt> <dt>712</dt> </dl></td>
 <td>The two-way port is initializing. Wait a few seconds and redial.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
@@ -585,19 +585,19 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="odd">
 <td><span id="ERROR_NO_ISDN_CHANNELS_AVAILABLE"></span><span id="error_no_isdn_channels_available"></span><dl> <dt><strong>ERROR_NO_ISDN_CHANNELS_AVAILABLE</strong></dt> <dt>714</dt> </dl></td>
 <td>No ISDN channels are available to make the call.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_TOO_MANY_LINE_ERRORS"></span><span id="error_too_many_line_errors"></span><dl> <dt><strong>ERROR_TOO_MANY_LINE_ERRORS</strong></dt> <dt>715</dt> </dl></td>
 <td>Too many errors occurred because of poor phone line quality.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
@@ -615,10 +615,10 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="even">
 <td><span id="ERROR_PPP_REMOTE_TERMINATED"></span><span id="error_ppp_remote_terminated"></span><dl> <dt><strong>ERROR_PPP_REMOTE_TERMINATED</strong></dt> <dt>719</dt> </dl></td>
 <td>The connection was terminated by the remote computer.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
@@ -640,19 +640,19 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="odd">
 <td><span id="ERROR_IPXCP_NO_DIALOUT_CONFIGURED"></span><span id="error_ipxcp_no_dialout_configured"></span><dl> <dt><strong>ERROR_IPXCP_NO_DIALOUT_CONFIGURED</strong></dt> <dt>724</dt> </dl></td>
 <td>The IPX protocol cannot dial out on the modem (or other connecting device) because this computer is not configured for dialing out (it is an IPX router).<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_IPXCP_NO_DIALIN_CONFIGURED"></span><span id="error_ipxcp_no_dialin_configured"></span><dl> <dt><strong>ERROR_IPXCP_NO_DIALIN_CONFIGURED</strong></dt> <dt>725</dt> </dl></td>
 <td>The IPX protocol cannot dial in on the modem (or other connecting device) because this computer is not configured for dialing in (the IPX router is not installed).<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
@@ -662,10 +662,10 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="even">
 <td><span id="ERROR_ACCESSING_TCPCFGDLL"></span><span id="error_accessing_tcpcfgdll"></span><dl> <dt><strong>ERROR_ACCESSING_TCPCFGDLL</strong></dt> <dt>727</dt> </dl></td>
 <td>Cannot access TCPCFG.DLL.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
@@ -679,10 +679,10 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="odd">
 <td><span id="ERROR_PROJECTION_NOT_COMPLETE"></span><span id="error_projection_not_complete"></span><dl> <dt><strong>ERROR_PROJECTION_NOT_COMPLETE</strong></dt> <dt>730</dt> </dl></td>
 <td>Computer registration is not complete.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
@@ -736,55 +736,55 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="even">
 <td><span id="ERROR_REMOTE_REQUIRES_ENCRYPTION"></span><span id="error_remote_requires_encryption"></span><dl> <dt><strong>ERROR_REMOTE_REQUIRES_ENCRYPTION</strong></dt> <dt>743</dt> </dl></td>
 <td>The remote computer requires data encryption.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_IPXCP_NET_NUMBER_CONFLICT"></span><span id="error_ipxcp_net_number_conflict"></span><dl> <dt><strong>ERROR_IPXCP_NET_NUMBER_CONFLICT</strong></dt> <dt>744</dt> </dl></td>
 <td>The system cannot use the IPX network number assigned by the remote computer. Additional information is provided in the event log.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_INVALID_SMM"></span><span id="error_invalid_smm"></span><dl> <dt><strong>ERROR_INVALID_SMM</strong></dt> <dt>745</dt> </dl></td>
 <td>The Session Management Module (SMM) is not valid.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_SMM_UNINITIALIZED"></span><span id="error_smm_uninitialized"></span><dl> <dt><strong>ERROR_SMM_UNINITIALIZED</strong></dt> <dt>746</dt> </dl></td>
 <td>The SMM is uninitialized.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_NO_MAC_FOR_PORT"></span><span id="error_no_mac_for_port"></span><dl> <dt><strong>ERROR_NO_MAC_FOR_PORT</strong></dt> <dt>747</dt> </dl></td>
 <td>No MAC for port.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_SMM_TIMEOUT"></span><span id="error_smm_timeout"></span><dl> <dt><strong>ERROR_SMM_TIMEOUT</strong></dt> <dt>748</dt> </dl></td>
 <td>The SMM timed out.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
@@ -794,19 +794,19 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="odd">
 <td><span id="ERROR_WRONG_MODULE"></span><span id="error_wrong_module"></span><dl> <dt><strong>ERROR_WRONG_MODULE</strong></dt> <dt>750</dt> </dl></td>
 <td>The wrong SMM was specified.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_INVALID_CALLBACK_NUMBER"></span><span id="error_invalid_callback_number"></span><dl> <dt><strong>ERROR_INVALID_CALLBACK_NUMBER</strong></dt> <dt>751</dt> </dl></td>
 <td>The callback number contains a character that is not valid. Only the following 18 characters are allowed: 0 to 9, T, P, W, (, ), -, @, and space.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
@@ -836,55 +836,55 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="odd">
 <td><span id="ERROR_CONNECTION_ALREADY_SHARED"></span><span id="error_connection_already_shared"></span><dl> <dt><strong>ERROR_CONNECTION_ALREADY_SHARED</strong></dt> <dt>758</dt> </dl></td>
 <td>Internet Connection Sharing (ICS) is already enabled on the connection.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_SHARING_CHANGE_FAILED"></span><span id="error_sharing_change_failed"></span><dl> <dt><strong>ERROR_SHARING_CHANGE_FAILED</strong></dt> <dt>759</dt> </dl></td>
 <td>An error occurred while the existing Internet Connection Sharing settings were being changed.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_SHARING_ROUTER_INSTALL"></span><span id="error_sharing_router_install"></span><dl> <dt><strong>ERROR_SHARING_ROUTER_INSTALL</strong></dt> <dt>760</dt> </dl></td>
 <td>An error occurred while routing capabilities were being enabled.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_SHARE_CONNECTION_FAILED"></span><span id="error_share_connection_failed"></span><dl> <dt><strong>ERROR_SHARE_CONNECTION_FAILED</strong></dt> <dt>761</dt> </dl></td>
 <td>An error occurred while Internet Connection Sharing was being enabled for the connection.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="7ERROR_SHARING_PRIVATE_INSTALL64"></span><span id="7error_sharing_private_install64"></span><dl> <dt><strong>7ERROR_SHARING_PRIVATE_INSTALL64</strong></dt> <dt>762</dt> </dl></td>
 <td>An error occurred while the local network was being configured for sharing.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_CANNOT_SHARE_CONNECTION"></span><span id="error_cannot_share_connection"></span><dl> <dt><strong>ERROR_CANNOT_SHARE_CONNECTION</strong></dt> <dt>763</dt> </dl></td>
 <td>Internet Connection Sharing cannot be enabled. There is more than one LAN connection other than the connection to be shared.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
@@ -950,10 +950,10 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="even">
 <td><span id="ERROR_SMART_CARD_REQUIRED"></span><span id="error_smart_card_required"></span><dl> <dt><strong>ERROR_SMART_CARD_REQUIRED</strong></dt> <dt>779</dt> </dl></td>
 <td>To dial out using this connection you must use a smart card.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
@@ -963,10 +963,10 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="even">
 <td><span id="ERROR_CERT_FOR_ENCRYPTION_NOT_FOUND"></span><span id="error_cert_for_encryption_not_found"></span><dl> <dt><strong>ERROR_CERT_FOR_ENCRYPTION_NOT_FOUND</strong></dt> <dt>781</dt> </dl></td>
 <td>The encryption attempt failed because no valid certificate was found.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Deprecated in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
@@ -1040,447 +1040,447 @@ Deprecated in Windows Vista and later versions of Windows.
 <tr class="even">
 <td><span id="ERROR_SHARING_HOST_ADDRESS_CONFLICT"></span><span id="error_sharing_host_address_conflict"></span><dl> <dt><strong>ERROR_SHARING_HOST_ADDRESS_CONFLICT</strong></dt> <dt>799</dt> </dl></td>
 <td>Internet Connection Sharing (ICS) cannot be enabled due to an IP address conflict on the network. ICS requires the host be configured to use <strong>192.168.0.1</strong>. Ensure that no other client on the network is configured to use <strong>192.168.0.1</strong>.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows XP and later versions of Windows.
-</blockquote>
+
 <br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Windows 7 and later: The host must be configured to use <strong>192.168.137.1</strong>
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_AUTOMATIC_VPN_FAILED"></span><span id="error_automatic_vpn_failed"></span><dl> <dt><strong>ERROR_AUTOMATIC_VPN_FAILED</strong></dt> <dt>800</dt> </dl></td>
 <td>Unable to establish the VPN connection. The VPN server may be unreachable, or security parameters may not be configured properly for this connection. <br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows XP and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_VALIDATING_SERVER_CERT"></span><span id="error_validating_server_cert"></span><dl> <dt><strong>ERROR_VALIDATING_SERVER_CERT</strong></dt> <dt>801</dt> </dl></td>
 <td>This connection is configured to validate the identity of the access server, but Windows cannot verify the digital certificate sent by the server.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows XP and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_READING_SCARD"></span><span id="error_reading_scard"></span><dl> <dt><strong>ERROR_READING_SCARD</strong></dt> <dt>802</dt> </dl></td>
 <td>The card supplied was not recognized. Please check that the card is inserted correctly, and fits securely.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows XP with SP1 and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_INVALID_PEAP_COOKIE_CONFIG"></span><span id="error_invalid_peap_cookie_config"></span><dl> <dt><strong>ERROR_INVALID_PEAP_COOKIE_CONFIG</strong></dt> <dt>803</dt> </dl></td>
 <td>The PEAP configuration stored in the session cookie does not match the current session configuration.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows XP with SP1 and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_INVALID_PEAP_COOKIE_USER"></span><span id="error_invalid_peap_cookie_user"></span><dl> <dt><strong>ERROR_INVALID_PEAP_COOKIE_USER</strong></dt> <dt>804</dt> </dl></td>
 <td>The PEAP identity stored in the session cookie does not match the current identity.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows XP with SP1 and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_INVALID_MSCHAPV2_CONFIG"></span><span id="error_invalid_mschapv2_config"></span><dl> <dt><strong>ERROR_INVALID_MSCHAPV2_CONFIG</strong></dt> <dt>805</dt> </dl></td>
 <td>You cannot dial using this connection at login time because it is configured to use the currently-logged-in user's credentials.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows XP with SP1 and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_VPN_GRE_BLOCKED"></span><span id="error_vpn_gre_blocked"></span><dl> <dt><strong>ERROR_VPN_GRE_BLOCKED</strong></dt> <dt>806</dt> </dl></td>
 <td>A connection between your computer and the VPN server has been started, but the VPN connection cannot be completed. The most common cause for this is that at least one Internet device (for example, a firewall or a router) between your computer and the VPN server is not configured to allow Generic Routing Encapsulation (GRE) protocol packets.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_VPN_DISCONNECT"></span><span id="error_vpn_disconnect"></span><dl> <dt><strong>ERROR_VPN_DISCONNECT</strong></dt> <dt>807</dt> </dl></td>
 <td>The network connection between your computer and the VPN server was interrupted. This can be caused by a problem in the VPN transmission and is commonly the result of internet latency or simply that your VPN server has reached capacity. Try to reconnect to the VPN server.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_VPN_REFUSED"></span><span id="error_vpn_refused"></span><dl> <dt><strong>ERROR_VPN_REFUSED</strong></dt> <dt>808</dt> </dl></td>
 <td>The network connection between your computer and the VPN server could not be established because the remote server refused the connection. This is typically caused by a mismatch between the server's configuration and your connection settings.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_VPN_TIMEOUT"></span><span id="error_vpn_timeout"></span><dl> <dt><strong>ERROR_VPN_TIMEOUT</strong></dt> <dt>809</dt> </dl></td>
 <td>The network connection between your computer and the VPN server could not be established because the remote server is not responding. This could be because one of the network devices (for example, firewalls, NAT, routers) between your computer and the remote server is not configured to allow VPN connections.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_VPN_BAD_CERT"></span><span id="error_vpn_bad_cert"></span><dl> <dt><strong>ERROR_VPN_BAD_CERT</strong></dt> <dt>810</dt> </dl></td>
 <td>A network connection between your computer and the VPN server was started, but the VPN connection was not completed. This is typically caused by the use of an incorrect or expired certificate for authentication between the client and the server.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_VPN_BAD_PSK"></span><span id="error_vpn_bad_psk"></span><dl> <dt><strong>ERROR_VPN_BAD_PSK</strong></dt> <dt>811</dt> </dl></td>
 <td>The network connection between your computer and the VPN server could not be established because the remote server is not responding. This is typically caused by a pre-shared key problem between the client and server. A pre-shared key is used to guarantee you are who you say you are in an IP Security (IPSec) communication cycle.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_SERVER_POLICY"></span><span id="error_server_policy"></span><dl> <dt><strong>ERROR_SERVER_POLICY</strong></dt> <dt>812</dt> </dl></td>
 <td>The connection was prevented because of a policy configured on your RAS/VPN server. Specifically, the authentication method used by the server to verify your username and password may not match the authentication method configured in your connection profile.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_BROADBAND_ACTIVE"></span><span id="error_broadband_active"></span><dl> <dt><strong>ERROR_BROADBAND_ACTIVE</strong></dt> <dt>813</dt> </dl></td>
 <td>You have attempted to establish a second broadband connection while a previous broadband connection is already established using the same device or port.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_BROADBAND_NO_NIC"></span><span id="error_broadband_no_nic"></span><dl> <dt><strong>ERROR_BROADBAND_NO_NIC</strong></dt> <dt>814</dt> </dl></td>
 <td>The underlying Ethernet connectivity required for the broadband connection was not found.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_BROADBAND_TIMEOUT"></span><span id="error_broadband_timeout"></span><dl> <dt><strong>ERROR_BROADBAND_TIMEOUT</strong></dt> <dt>815</dt> </dl></td>
 <td>The broadband network connection could not be established on your computer because the remote server is not responding. This could be caused by a value that is not valid for the 'Service Name' field for this connection.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_FEATURE_DEPRECATED"></span><span id="error_feature_deprecated"></span><dl> <dt><strong>ERROR_FEATURE_DEPRECATED</strong></dt> <dt>816</dt> </dl></td>
 <td>A feature or setting you have tried to enable is no longer supported by the remote access service.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_CANNOT_DELETE"></span><span id="error_cannot_delete"></span><dl> <dt><strong>ERROR_CANNOT_DELETE</strong></dt> <dt>817</dt> </dl></td>
 <td>Cannot delete a connection while it is connected.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_RASQEC_RESOURCE_CREATION_FAILED"></span><span id="error_rasqec_resource_creation_failed"></span><dl> <dt><strong>ERROR_RASQEC_RESOURCE_CREATION_FAILED</strong></dt> <dt>818</dt> </dl></td>
 <td>The Network Access Protection (NAP) enforcement client could not create system resources for remote access connections. Some network services or resources might not be available.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_RASQEC_NAPAGENT_NOT_ENABLED"></span><span id="error_rasqec_napagent_not_enabled"></span><dl> <dt><strong>ERROR_RASQEC_NAPAGENT_NOT_ENABLED</strong></dt> <dt>819</dt> </dl></td>
 <td>The Network Access Protection Agent (NAP Agent) service has been disabled or is not installed on this computer. Some network services or resources might not be available.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_RASQEC_NAPAGENT_NOT_CONNECTED"></span><span id="error_rasqec_napagent_not_connected"></span><dl> <dt><strong>ERROR_RASQEC_NAPAGENT_NOT_CONNECTED</strong></dt> <dt>820</dt> </dl></td>
 <td>The Network Access Protection (NAP) enforcement client failed to register with the Network Access Protection Agent (NAP Agent) service. Some network services or resources might not be available.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_RASQEC_CONN_DOESNOTEXIST"></span><span id="error_rasqec_conn_doesnotexist"></span><dl> <dt><strong>ERROR_RASQEC_CONN_DOESNOTEXIST</strong></dt> <dt>821</dt> </dl></td>
 <td>The Network Access Protection (NAP) enforcement client was unable to process the request because the remote access connection does not exist.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_RASQEC_TIMEOUT"></span><span id="error_rasqec_timeout"></span><dl> <dt><strong>ERROR_RASQEC_TIMEOUT</strong></dt> <dt>822</dt> </dl></td>
 <td>The Network Access Protection (NAP) enforcement client did not respond. Some network services or resources might not be available.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_PEAP_CRYPTOBINDING_INVALID"></span><span id="error_peap_cryptobinding_invalid"></span><dl> <dt><strong>ERROR_PEAP_CRYPTOBINDING_INVALID</strong></dt> <dt>823</dt> </dl></td>
 <td>The Crypto-Binding type-length-value (TLV) received is not valid.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_PEAP_CRYPTOBINDING_NOTRECEIVED"></span><span id="error_peap_cryptobinding_notreceived"></span><dl> <dt><strong>ERROR_PEAP_CRYPTOBINDING_NOTRECEIVED</strong></dt> <dt>824</dt> </dl></td>
 <td>Crypto-Binding TLV was not received.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_INVALID_VPNSTRATEGY"></span><span id="error_invalid_vpnstrategy"></span><dl> <dt><strong>ERROR_INVALID_VPNSTRATEGY</strong></dt> <dt>825</dt> </dl></td>
 <td>Point-to-Point Tunneling Protocol (PPTP) is incompatible with IPv6. Change the type of virtual private network to Layer Two Tunneling Protocol (L2TP).<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_EAPTLS_CACHE_CREDENTIALS_INVALID"></span><span id="error_eaptls_cache_credentials_invalid"></span><dl> <dt><strong>ERROR_EAPTLS_CACHE_CREDENTIALS_INVALID</strong></dt> <dt>826</dt> </dl></td>
 <td>EAPTLS validation of the cached credentials failed. Discard cached credentials.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_IPSEC_SERVICE_STOPPED"></span><span id="error_ipsec_service_stopped"></span><dl> <dt><strong>ERROR_IPSEC_SERVICE_STOPPED</strong></dt> <dt>827</dt> </dl></td>
 <td>The L2TP/IPsec connection cannot be completed because the IKE and AuthIP IPSec Keying Modules service and/or the Base Filtering Engine service is not running. These services are required to establish an L2TP/IPSec connection.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_IDLE_TIMEOUT"></span><span id="error_idle_timeout"></span><dl> <dt><strong>ERROR_IDLE_TIMEOUT</strong></dt> <dt>828</dt> </dl></td>
 <td>The connection was terminated because of idle timeout.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_LINK_FAILURE"></span><span id="error_link_failure"></span><dl> <dt><strong>ERROR_LINK_FAILURE</strong></dt> <dt>829</dt> </dl></td>
 <td>The modem (or other connecting device) was disconnected due to link failure.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_USER_LOGOFF"></span><span id="error_user_logoff"></span><dl> <dt><strong>ERROR_USER_LOGOFF</strong></dt> <dt>830</dt> </dl></td>
 <td>The connection was terminated because user logged off.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_FAST_USER_SWITCH"></span><span id="error_fast_user_switch"></span><dl> <dt><strong>ERROR_FAST_USER_SWITCH</strong></dt> <dt>831</dt> </dl></td>
 <td>The connection was terminated because user switch happened.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_HIBERNATION"></span><span id="error_hibernation"></span><dl> <dt><strong>ERROR_HIBERNATION</strong></dt> <dt>832</dt> </dl></td>
 <td>The connection was terminated because of hibernation.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_SYSTEM_SUSPENDED"></span><span id="error_system_suspended"></span><dl> <dt><strong>ERROR_SYSTEM_SUSPENDED</strong></dt> <dt>833</dt> </dl></td>
 <td>The connection was terminated because the system got suspended.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_RASMAN_SERVICE_STOPPED"></span><span id="error_rasman_service_stopped"></span><dl> <dt><strong>ERROR_RASMAN_SERVICE_STOPPED</strong></dt> <dt>834</dt> </dl></td>
 <td>The connection was terminated because Remote Access Connection manager stopped.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_INVALID_SERVER_CERT"></span><span id="error_invalid_server_cert"></span><dl> <dt><strong>ERROR_INVALID_SERVER_CERT</strong></dt> <dt>835</dt> </dl></td>
 <td>The L2TP connection attempt failed because the security layer could not authenticate the remote computer. This could be because one or more fields of the certificate presented by the remote server could not be validated as belonging to the target destination.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_NOT_NAP_CAPABLE"></span><span id="error_not_nap_capable"></span><dl> <dt><strong>ERROR_NOT_NAP_CAPABLE</strong></dt> <dt>836</dt> </dl></td>
 <td>The machine is not NAP capable.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows Vista and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_INVALID_TUNNELID"></span><span id="error_invalid_tunnelid"></span><dl> <dt><strong>ERROR_INVALID_TUNNELID</strong></dt> <dt>837</dt> </dl></td>
 <td>Invalid Tunnel ID.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows 7 and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_UPDATECONNECTION_REQUEST_IN_PROCESS"></span><span id="error_updateconnection_request_in_process"></span><dl> <dt><strong>ERROR_UPDATECONNECTION_REQUEST_IN_PROCESS</strong></dt> <dt>838</dt> </dl></td>
 <td>Another update connection request is in progress. RAS allows only one update connection request at a time.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows 7 and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_PROTOCOL_ENGINE_DISABLED"></span><span id="error_protocol_engine_disabled"></span><dl> <dt><strong>ERROR_PROTOCOL_ENGINE_DISABLED</strong></dt> <dt>839</dt> </dl></td>
 <td>Negotiating using configured protocol is disable. Edit connection properties and select different protocol for negotiation and try again.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows 7 and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_INTERNAL_ADDRESS_FAILURE"></span><span id="error_internal_address_failure"></span><dl> <dt><strong>ERROR_INTERNAL_ADDRESS_FAILURE</strong></dt> <dt>840</dt> </dl></td>
 <td>Internal address negotiation failed.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows 7 and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_FAILED_CP_REQUIRED"></span><span id="error_failed_cp_required"></span><dl> <dt><strong>ERROR_FAILED_CP_REQUIRED</strong></dt> <dt>841</dt> </dl></td>
 <td>Client has to request an Internal IPv4 or IPv6 address.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows 7 and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_TS_UNACCEPTABLE"></span><span id="error_ts_unacceptable"></span><dl> <dt><strong>ERROR_TS_UNACCEPTABLE</strong></dt> <dt>842</dt> </dl></td>
 <td>Traffic Selectors negotiation failed.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows 7 and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_MOBIKE_DISABLED"></span><span id="error_mobike_disabled"></span><dl> <dt><strong>ERROR_MOBIKE_DISABLED</strong></dt> <dt>843</dt> </dl></td>
 <td>Mobility is disabled for this connection.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows 7 and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_CANNOT_INITIATE_MOBIKE_UPDATE"></span><span id="error_cannot_initiate_mobike_update"></span><dl> <dt><strong>ERROR_CANNOT_INITIATE_MOBIKE_UPDATE</strong></dt> <dt>844</dt> </dl></td>
 <td>The VPN Connection is still connecting or re-authenticating because of Quarantine state change. Initiate mobile update only when connection state is 'Connected'.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows 7 and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_PEAP_SERVER_REJECTED_CLIENT_TLV"></span><span id="error_peap_server_rejected_client_tlv"></span><dl> <dt><strong>ERROR_PEAP_SERVER_REJECTED_CLIENT_TLV</strong></dt> <dt>845</dt> </dl></td>
 <td>Server rejected client authentication, due to unexpected TLV or value mismatch for a TLV.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows 7 and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_INVALID_PREFERENCES"></span><span id="error_invalid_preferences"></span><dl> <dt><strong>ERROR_INVALID_PREFERENCES</strong></dt> <dt>846</dt> </dl></td>
 <td>Either VPN destination preference is not selected by the user or it is no longer valid.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows 7 and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_EAPTLS_SCARD_CACHE_CREDENTIALS_INVALID"></span><span id="error_eaptls_scard_cache_credentials_invalid"></span><dl> <dt><strong>ERROR_EAPTLS_SCARD_CACHE_CREDENTIALS_INVALID</strong></dt> <dt>847</dt> </dl></td>
 <td>Cached smart card credential is invalid.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows 7 and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
@@ -1793,73 +1793,73 @@ The following Routing and Remote Access (RRAS) API error codes are defined in mp
 <tr class="odd">
 <td><span id="ERROR_INVALID_SIGNATURE_LENGTH"></span><span id="error_invalid_signature_length"></span><dl> <dt><strong>ERROR_INVALID_SIGNATURE_LENGTH</strong></dt> <dt>949</dt> </dl></td>
 <td>The signature length received in a packet from RADIUS server is not valid.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows XP and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_INVALID_SIGNATURE"></span><span id="error_invalid_signature"></span><dl> <dt><strong>ERROR_INVALID_SIGNATURE</strong></dt> <dt>950</dt> </dl></td>
 <td>The signature received in a packet from RADIUS server is not valid.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows XP and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_NO_SIGNATURE"></span><span id="error_no_signature"></span><dl> <dt><strong>ERROR_NO_SIGNATURE</strong></dt> <dt>951</dt> </dl></td>
 <td>Did not receive signature along with EAPMessage from RADIUS server.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows XP and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_INVALID_PACKET_LENGTH_OR_ID"></span><span id="error_invalid_packet_length_or_id"></span><dl> <dt><strong>ERROR_INVALID_PACKET_LENGTH_OR_ID</strong></dt> <dt>952</dt> </dl></td>
 <td>The length or Id received in a packet from RADIUS server is not valid.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows XP and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_INVALID_ATTRIBUTE_LENGTH"></span><span id="error_invalid_attribute_length"></span><dl> <dt><strong>ERROR_INVALID_ATTRIBUTE_LENGTH</strong></dt> <dt>953</dt> </dl></td>
 <td>The length received in a packet with attribute from RADIUS server is not valid.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows XP and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_INVALID_PACKET"></span><span id="error_invalid_packet"></span><dl> <dt><strong>ERROR_INVALID_PACKET</strong></dt> <dt>954</dt> </dl></td>
 <td>The packet received from RADIUS server in not valid.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows XP and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="ERROR_AUTHENTICATOR_MISMATCH"></span><span id="error_authenticator_mismatch"></span><dl> <dt><strong>ERROR_AUTHENTICATOR_MISMATCH</strong></dt> <dt>955</dt> </dl></td>
 <td>Authenticator does not match in packet from RADIUS server.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows XP and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 <tr class="even">
 <td><span id="ERROR_REMOTEACCESS_NOT_CONFIGURED"></span><span id="error_remoteaccess_not_configured"></span><dl> <dt><strong>ERROR_REMOTEACCESS_NOT_CONFIGURED</strong></dt> <dt>956</dt> </dl></td>
 <td>Routing and Remote access server is either not configured or not running.<br/>
-<blockquote>
-[!Note]<br />
+
+<strong>Note:</strong><br />
 Supported in Windows 7 and later versions of Windows.
-</blockquote>
+
 <br/></td>
 </tr>
 </tbody>

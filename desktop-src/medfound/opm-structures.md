@@ -2,7 +2,7 @@
 description: The following structures are used with Output Protection Manager (OPM).
 ms.assetid: 676a60ca-393e-4b5d-89d3-50cf4b771492
 title: OPM Structures
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

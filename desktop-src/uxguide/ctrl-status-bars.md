@@ -2,7 +2,7 @@
 title: Status Bars (Design basics)
 description: A status bar is an area at the bottom of a primary window that displays information about the current window's state (such as what is being viewed and how), background tasks (such as printing, scanning, and formatting), or other contextual information (such as selection and keyboard state).
 ms.assetid: 09dc03d9-d730-4f03-86a8-7b39d9a55369
-ms.topic: article
+ms.topic: reference
 ms.date: 10/20/2020
 ---
 
@@ -64,7 +64,7 @@ Status bars have several usage patterns:
 |   Usage                                                                                                                                 |    Example                                                                                                                                                                                                                             |
 |------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Current window status**<br/> Show the source of what is being displayed along with any view modes <br/>              | ![screen shot of a 'location' status bar ](images/ctrl-status-bars-image3.png)<br/> In this example, the status bar displays the path to the document.<br/>                                                         |
-| **Progress**<br/> Show the progress of background tasks, either with a determinate progress bar or an animation. <br/> | ![screen shot of status bar with progress bar ](images/ctrl-status-bars-image4.png)<br/> In this example, the status bar includes a progress bar to show the Web page loading into a Internet Explorer window.<br/> |
+| **Progress**<br/> Show the progress of background tasks, either with a determinate progress bar or an animation. <br/> | ![screen shot of status bar with progress bar ](images/ctrl-status-bars-image4.png)<br/> In this example, the status bar includes a progress bar to show the Web page loading into an Internet Explorer window.<br/> |
 | **Contextual information**<br/> Show contextual information about what the user is currently doing. <br/>              | ![screen shot of status bar showing number of pixels ](images/ctrl-status-bars-image5.png)<br/> In this example, Microsoft Paint shows the selection size in pixels.<br/>                                           |
 
 

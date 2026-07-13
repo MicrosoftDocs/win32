@@ -3,7 +3,7 @@ title: Retrieving an Object from a Collection
 description: Retrieving an Object from a Collection
 ms.assetid: df7cbff5-2d09-4031-8f41-3f4eea51598f
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

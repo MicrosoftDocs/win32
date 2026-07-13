@@ -4,7 +4,7 @@ description: Another consideration in implementing IPropertySetStorage is how Un
 ms.assetid: 830c90c9-d2a5-4ecf-8cb6-9950ed5320bf
 keywords:
 - Code Pages and Unicode Strings
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

@@ -2,7 +2,7 @@
 description: The PageBlackGenerationProcessingGrayComponentReplacementExtent parameter describes the extent beyond neutrals into chromatic colors that GCR applies.
 ms.assetid: ba62f902-9bc9-4492-ab53-4a4ddbc23530
 title: PageBlackGenerationProcessingGrayComponentReplacementExtent
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

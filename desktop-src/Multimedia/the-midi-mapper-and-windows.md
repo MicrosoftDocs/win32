@@ -6,7 +6,7 @@ keywords:
 - Musical Instrument Digital Interface (MIDI),MIDI Mapper
 - MIDI (Musical Instrument Digital Interface),MIDI Mapper
 - MIDI Mapper,architecture
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

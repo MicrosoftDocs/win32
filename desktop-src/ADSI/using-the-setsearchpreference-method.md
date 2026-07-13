@@ -7,7 +7,7 @@ keywords:
 - SetSearchPreference ADSI ,using the SetSearchPreference method
 - ADSI ADSI ,example code C/C++ ,using the SetSearchPreference method
 - queries ADSI ,using SetSearchPreference
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

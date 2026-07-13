@@ -2,8 +2,8 @@
 description: User-mode scheduling (UMS) is a lightweight mechanism that applications can use to schedule their own threads.
 ms.assetid: f9dd92fe-6d7a-452c-893e-e6df1757e377
 title: User-Mode Scheduling
-ms.topic: article
-ms.date: 05/31/2018
+ms.topic: concept-article
+ms.date: 07/14/2025
 ---
 
 # User-Mode Scheduling

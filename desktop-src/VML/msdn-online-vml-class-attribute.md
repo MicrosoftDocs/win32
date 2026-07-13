@@ -2,7 +2,7 @@
 title: VML Class Attribute
 description: VML Class Attribute
 ms.assetid: 4030b8b7-fcc9-4153-8004-81935a347a09
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

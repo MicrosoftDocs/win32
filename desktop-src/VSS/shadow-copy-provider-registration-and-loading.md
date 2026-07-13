@@ -2,7 +2,7 @@
 description: Shadow Copy Provider Registration and Loading
 ms.assetid: f9bb72ce-9a2b-43cd-9697-1f6598a46e3e
 title: Shadow Copy Provider Registration and Loading
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

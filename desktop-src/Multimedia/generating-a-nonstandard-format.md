@@ -7,7 +7,7 @@ keywords:
 - ACM (audio compression manager),nonstandard formats
 - ACM examples,nonstandard formats
 - acmFormatSuggest function
-ms.topic: article
+ms.topic: concept-article
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

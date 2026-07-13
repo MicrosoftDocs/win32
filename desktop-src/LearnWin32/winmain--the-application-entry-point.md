@@ -2,7 +2,7 @@
 title: The WinMain application entry point
 description: Learn about the function named WinMain or wWinMain that every Windows program includes, and its parameters.
 ms.assetid: 389da5d4-d0f9-4339-be6c-0f4fecc59316
-ms.topic: article
+ms.topic: concept-article
 ms.date: 02/08/2023
 ---
 

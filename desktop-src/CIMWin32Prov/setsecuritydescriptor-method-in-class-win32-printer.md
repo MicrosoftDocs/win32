@@ -109,8 +109,6 @@ When a new SACL is **NULL** in a call to this method, then the security descript
 
 ## Examples
 
-The [Copy-ACLToPrinter](https://Gallery.TechNet.Microsoft.Com/Copy-ACLToPrinter-2d66ce19) PowerShell sample Replace the permissions (ACL) from one printer to another.
-
 The following PowerShell code sample describes how to set the security descriptor for a printer.
 
 

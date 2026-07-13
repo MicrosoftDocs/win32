@@ -50,7 +50,7 @@ Fetching from an input slot that has nothing bound to it returns 0 for all compo
 
 ### Restrictions
 
--   **sample\_d** inherits the same restrictions as the **sample** instruction, plus additional an restriction below for its additional parameters.
+-   **sample\_d** inherits the same restrictions as the **sample** instruction, plus additional a restriction below for its additional parameters.
 -   *srcXDerivatives* and *srcYDerivatives* must be temp (r\#/x\#), constantBuffer (cb\#), input (v\#) registers or immediate value(s).
 
 This instruction applies to the following shader stages:

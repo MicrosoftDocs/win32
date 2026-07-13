@@ -10,7 +10,7 @@ keywords:
 - Advanced Systems Format (ASF),enumerating input formats
 - ASF (Advanced Systems Format),enumerating input formats
 - input format enumerations
-ms.topic: article
+ms.topic: reference
 ms.date: 4/26/2023
 ms.custom: UpdateFrequency5
 ---

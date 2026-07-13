@@ -5,7 +5,7 @@ ms.assetid: 8fb6a9a4-d1c4-48e9-8ffb-240990777a1c
 ms.tgt_platform: multiple
 keywords:
 - Security Active Directory
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

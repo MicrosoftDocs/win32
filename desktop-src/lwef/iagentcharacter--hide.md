@@ -2,7 +2,7 @@
 title: IAgentCharacter Hide
 description: IAgentCharacter Hide
 ms.assetid: a8128fe8-9a3b-41a3-bfe3-82ace1baff6f
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

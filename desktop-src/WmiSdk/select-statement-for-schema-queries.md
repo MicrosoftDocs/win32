@@ -3,7 +3,7 @@ description: Schema data queries use the SELECT statement with a syntax similar 
 ms.assetid: e7150aaa-5829-4d64-a13b-39f83adc5b98
 ms.tgt_platform: multiple
 title: SELECT Statement for Schema Queries
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 

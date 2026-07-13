@@ -3,7 +3,7 @@ description: Unlike deleting a dynamic instance, deleting a class is a simple pr
 ms.assetid: bc0ee1e8-7515-4f35-ace3-6344c2ef0ab8
 ms.tgt_platform: multiple
 title: Deleting a Class
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

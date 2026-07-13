@@ -4,7 +4,7 @@ description: What the client does while it waits to be notified of a reply from 
 ms.assetid: b1d4ea54-26bc-49f9-8cc1-a74fd4ffced3
 keywords:
 - Remote Procedure Call RPC , tasks, waiting for asynchronous replies
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

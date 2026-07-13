@@ -3,7 +3,7 @@ title: Retrieving a Collection
 description: Retrieving a Collection
 ms.assetid: b9090ad5-564c-4f48-b7bd-24617d582d2e
 ms.tgt_platform: multiple
-ms.topic: article
+ms.topic: concept-article
 ms.date: 05/31/2018
 ---
 

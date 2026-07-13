@@ -6,7 +6,7 @@ ms.tgt_platform: multiple
 keywords:
 - Domain Object User Interface Mapping Active Directory
 - Interface Mapping Active Directory , Domain Object User
-ms.topic: article
+ms.topic: reference
 ms.date: 05/31/2018
 ---
 
