@@ -1272,7 +1272,11 @@ The tables that are referenced in this data structure are organized and sorted j
 
 #### Attributes
 
-As yet, no attribute flags are defined. The linker sets this field to zero in the image. This field can be used to extend the record by indicating the presence of new fields, or it can be used to indicate behaviors to the delay or unload helper functions.
+The Windows SDK headers define bit 0 of this field. In `winnt.h`, the field is the **Attributes** member of `IMAGE_DELAYLOAD_DESCRIPTOR`, whose low bit is `RvaBased` (commented "Delay load version 2"). In `delayimp.h`, the field is `grAttrs` of `ImgDelayDescr`, and the bit is the `dlattrRva` flag (value `0x1`), commented "RVAs are used instead of pointers ... Having this set indicates a VC7.0 and above delay load descriptor."
+ 
+When `RvaBased` (`dlattrRva`) is set, the address fields of the delay-load directory table (Name, Module Handle, Delay Import Address Table, Delay Import Name Table, and the optional Bound Delay Import and Unload Delay Import tables) are relative virtual addresses (RVAs), as documented in the preceding table. This is the form emitted by Visual C++ 7.0 and later, and is the form produced by current toolchains.
+ 
+When the bit is clear, the descriptor is the earlier form in which those fields are virtual addresses (pointers) rather than RVAs. The remaining 31 bits of the field are reserved. Consumers should examine this bit to determine how to interpret the descriptor's address fields.
 
 #### Name
 
