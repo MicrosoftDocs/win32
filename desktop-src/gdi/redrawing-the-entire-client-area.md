@@ -14,7 +14,7 @@ In the following example, the window procedure draws a five-pointed star that fi
 
 
 ```C++
-LRESULT APIENTRY WndProc(HWMD hwnd, UINT message, WPARAM wParam, LPARAM lParam) 
+LRESULT APIENTRY WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam) 
 { 
     PAINTSTRUCT ps; 
     HDC hdc; 
