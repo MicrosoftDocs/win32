@@ -51,7 +51,7 @@ The following table describes the standard Windows shortcut keys and their equiv
 |----------------------------------------------------------|------------------------------------|-----------------------------------------------------------------------------------------|
 | ALT+TAB<br/>                                       | ALT+PAGE UP<br/>             | Switches between programs from left to right.<br/>                                |
 | ALT+SHIFT+TAB<br/>                                 | ALT+PAGE DOWN<br/>           | Switches between programs from right to left.<br/>                                |
-|                                                          | ALT+INSERT<br/>              | Cycles through the programs in the order they were started.<br/>                  |
+| ALT+ESC<br/>                                             | ALT+INSERT<br/>              | Cycles through the programs in the order they were started.<br/>                  |
 | Windows key<br/> or<br/> CTRL+ESC<br/> | ALT+HOME<br/>                | Displays the **Start** menu.<br/>                                                 |
 | ALT+SPACE BAR<br/>                                 | ALT+DELETE<br/>              | Displays the **system** menu.<br/>                                                |
 | ALT+PRINT SCREEN<br/>                              | CTRL+ALT+MINUS SIGN (-)<br/> | Places a snapshot of the active window, within the client, on the clipboard.<br/> |
