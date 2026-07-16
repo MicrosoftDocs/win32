@@ -12,10 +12,7 @@ ms.date: 05/31/2018
 
 The DirectXMath API provides SIMD-friendly C++ types and functions for common linear algebra and graphics math operations common to DirectX applications. The library provides optimized versions for Windows 32-bit (x86), Windows 64-bit (x64), and Windows on ARM/ARM64 through SSE, AVX, and ARM-NEON intrinsics support in the Visual C++ compiler.
 
-> [!NOTE]
-> **DirectXMath is header-only — no DLL or static library to link.** Simply `#include <DirectXMath.h>` and you're ready to go. It works with MSVC, Clang, and GCC (for cross-platform builds using the open-source release). It is also available as a NuGet package (`directxmath`).
-
-For developers new to DirectXMath, you may want to consider using the **SimpleMath** wrapper in the *DirectX Tool Kit* for [DirectX 11](https://go.microsoft.com/fwlink/?LinkId=248929) / [DirectX12](https://go.microsoft.com/fwlink/?LinkID=615561) as a starting point. SimpleMath provides operator overloads and implicit conversions that make the math types easier to use at the cost of some SIMD optimization.
+For developers new to DirectXMath, you may want to consider using the SimpleMath wrapper in the *DirectX Tool Kit* for [DirectX 11](https://go.microsoft.com/fwlink/?LinkId=248929) / [DirectX12](https://go.microsoft.com/fwlink/?LinkID=615561) as a starting point.
 
 ## In this section
 

@@ -12,9 +12,6 @@ ms.date: 05/31/2018
 
 Today's applications must support high-quality text rendering, resolution-independent outline fonts, and full Unicode text and layout support. DirectWrite, a [DirectX](../directx.md) API, provides these features and more.
 
-> [!NOTE]
-> **DirectWrite works best with Direct2D** for hardware-accelerated text rendering. When rendering text in a Direct3D application (for HUDs, menus, or UI), use DirectWrite to create text layouts and render them through a Direct2D device context sharing the same DXGI surface. For Windows App SDK applications, **DWriteCore** (see note below) provides the same DirectWrite API surface with cross-platform support. Note that DWriteCore is designed for use with custom text renderers and does not provide Direct2D interop — for hardware-accelerated text rendering with Direct2D, use the in-box DirectWrite.
-
 - A device-independent text layout system that improves text readability in documents and in UI.
 - High-quality, sub-pixel, [Microsoft ClearType](/typography/cleartype/) text rendering that can use [GDI](interoperating-with-gdi.md), [Direct2D](rendering-by-using-direct2d.md), or application-specific rendering technology.
 - Hardware-accelerated text, when used with [Direct2D](rendering-by-using-direct2d.md).

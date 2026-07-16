@@ -7,9 +7,6 @@ ms.date: 07/14/2025
 
 # Getting Started With XInput in Windows applications
 
-> [!IMPORTANT]
-> **XInput is a legacy API.** For new projects, use [GameInput](/gaming/gdk/_content/gc/input/overviews/input-overview) which supports all controller types, provides lower latency, and is actively maintained. XInput is limited to Xbox-compatible controllers (maximum 4 connected) and does not support newer devices such as PlayStation controllers or racing wheels.
-
 XInput enables Windows applications to process controller interactions (including controller rumble effects and voice input and output).
 
 This topic provides a brief overview of the capabilities of XInput and how to set it up in an application. It includes the following:
