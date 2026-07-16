@@ -8,6 +8,9 @@ ms.date: 05/31/2018
 
 # Direct2D
 
+> [!NOTE]
+> **Direct2D is the recommended API for hardware-accelerated 2D rendering on Windows.** It interoperates with Direct3D (for 3D+2D mixed rendering), DirectWrite (for text), and the Windows Imaging Component (WIC) for image loading. For game HUDs, UI overlays, and 2D games, Direct2D provides high-quality antialiased rendering with GPU acceleration. Direct2D is built on top of Direct3D — if you are already using D3D11 or D3D12, you can render 2D content onto your swap chain.
+
 ## Purpose
 
 Direct2D is a hardware-accelerated, immediate-mode, 2-D graphics API that provides high performance and high-quality rendering for 2-D geometry, bitmaps, and text. The Direct2D API is designed to interoperate well with GDI, GDI+, and Direct3D.
@@ -22,6 +25,8 @@ Direct2D is designed primarily for use by the following classes of developers:
 -   Developers who use Direct3D graphics and need simple, high-performance 2-D and text rendering for menus, user-interface (UI) elements, and Heads-up Displays (HUDs).
 
 ## Run-time requirements
+
+Windows 10 and later is the recommended minimum target for new applications using Direct2D.
 
 -   Windows 7 or Windows Vista with Service Pack 2 (SP2) and Platform Update for Windows Vista and later.
 -   Windows Server 2008 R2 or Windows Server 2008 with Service Pack 2 (SP2) and Platform Update for Windows Server 2008 and later.

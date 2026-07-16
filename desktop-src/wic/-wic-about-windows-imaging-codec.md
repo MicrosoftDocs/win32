@@ -10,6 +10,12 @@ ms.date: 05/31/2018
 
 The Windows Imaging Component (WIC) is available in Windows Vista and later operating systems (OSes). WIC provides an extensible framework for working with images and image metadata. WIC makes it possible for independent software vendors (ISVs) and independent hardware vendors (IHVs) to develop their own image codecs and get the same platform support as standard image formats (for example, TIFF, JPEG, PNG, GIF, BMP, and HDPhoto). A single, consistent set of interfaces is used for all image processing, regardless of image format, so any application using the WIC gets automatic support for new image formats as soon as the codec is installed. The extensible metadata framework makes it possible for applications to read and write their own proprietary metadata directly to image files, so the metadata never gets lost or separated from the image.
 
+> [!NOTE]
+> **WIC and Direct2D:** WIC is the standard way to load and decode images for use with Direct2D. Use `IWICBitmapDecoder` to load an image file, then create a Direct2D bitmap from the WIC bitmap source via `ID2D1RenderTarget::CreateBitmapFromWicBitmap`. The [DirectX Tool Kit](https://github.com/microsoft/DirectXTK) (for D3D11) and [DirectXTex](https://github.com/microsoft/DirectXTex) libraries use WIC internally for texture loading (PNG, JPEG, BMP, TIFF, etc.).
+
+> [!NOTE]
+> **Modern codec support (Windows 10+):** In addition to the built-in codecs listed below, Windows 10 supports **HEIF** (`.heic`) and **WebP** (`.webp`) through codec extensions available from the Microsoft Store. **AVIF** (`.avif`) support is available via the AV1 Video Extension. These codecs integrate automatically with WIC — no code changes required beyond installing the extension.
+
 This topic includes the following sections.
 
 -   [Windows Imaging Component Features](#windows-imaging-component-features)

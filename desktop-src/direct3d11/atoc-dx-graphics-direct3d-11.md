@@ -8,6 +8,16 @@ ms.date: 05/31/2018
 
 # Direct3D 11 Graphics
 
+> [!NOTE]
+> **Direct3D 11 is the recommended graphics API for most games and applications.** It provides automatic resource management, simpler synchronization, and broad hardware support from feature level 9.1 through 12.1. Unless you specifically need the low-level control of Direct3D 12 (explicit memory management, multi-threaded command recording), Direct3D 11 is the faster path to a working application with fewer bugs.
+
+> [!NOTE]
+> **Getting started with Direct3D 11:**
+> - The [DirectX Tool Kit for DirectX 11](https://github.com/microsoft/DirectXTK) (`directxtk_desktop_2019` on NuGet) provides production-ready helpers for sprites, 3D models, textures, audio, and input.
+> - Use [HLSL Shader Model 5.x](../direct3dhlsl/d3d11-graphics-reference-sm5.md) for feature level 11.0+ hardware.
+> - Use [PIX on Windows](https://devblogs.microsoft.com/pix/) or the Visual Studio Graphics Diagnostics for GPU debugging.
+> - Direct3D 11 is available on Windows 7 SP1 and later. For the widest compatibility, it remains the best choice.
+
 You can use Microsoft Direct3D 11 graphics to create 3-D graphics for games and scientific and desktop applications.
 
 This section contains information about programming with Direct3D 11 graphics.
