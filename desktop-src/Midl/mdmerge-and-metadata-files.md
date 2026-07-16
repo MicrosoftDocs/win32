@@ -7,7 +7,7 @@ keywords:
 - winmd file
 - Windows metadata
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/08/2026
 ---
 
 # MDMERGE and metadata files
@@ -47,6 +47,9 @@ Metadata composition enables multiple IDL files to contain definitions for Windo
 You're likely to have numerous Windows Runtime components that your apps use. When you perform the final step to produce deployable Windows Runtime metadata assemblies, you can configure MDMERGE to merge components from multiple metadata directories, like those that are installed with the system (%WINDOWS%\\system32\\WinMetadata), your foundation types, and your current project’s build directory. All necessary types are merged into the correct, deployable, metadata assemblies that you can package for the Windows Store.
 
 You can use the [**/n**](-mdmerge-n.md) option to specify the supported namespace depth for composing metadata assemblies. This enables configuring a hot split for your Windows Runtime components, so that only a single .winmd file is packaged instead of many. This reduces the load times and file I/O required by your Windows Store apps.
+
+> [!NOTE]
+> When packaging merged `.winmd` files for distribution (for example, in a NuGet package), include the corresponding XML documentation files (`.xml`) alongside the metadata files. XML doc files provide IntelliSense descriptions in Visual Studio and other development tools. For more info, see [MIDLRT and Windows Runtime components](midlrt-and-windows-runtime-components.md#include-xml-documentation-files-for-intellisense).
 
 ## Related topics
 
