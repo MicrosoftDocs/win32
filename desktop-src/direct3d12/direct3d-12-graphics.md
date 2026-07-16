@@ -19,7 +19,7 @@ The Direct3D 12 headers and libraries are part of the Windows 10 SDK. There is n
 > **Getting started with Direct3D 12:**
 > - Use the [DirectX 12 Agility SDK](https://devblogs.microsoft.com/directx/directx12agility/) NuGet package (`Microsoft.Direct3D.D3D12`) to access the latest D3D12 features on older Windows 10 versions without requiring an OS update.
 > - The [DirectX Tool Kit for DirectX 12](https://github.com/microsoft/DirectXTK12) (`directxtk12_desktop_2019` on NuGet) provides helper classes for textures, sprites, models, and effects.
-> - Target **Shader Model 6.0 or later** (HLSL compiled with DXC) for modern GPU features including wave intrinsics and raytracing.
+> - Target **Shader Model 6.0 or later** (HLSL compiled with DXC) for modern GPU features including wave intrinsics. DirectX Raytracing (DXR) requires **Shader Model 6.3 or later**, which introduced the ray tracing shader types (raygeneration, closesthit, miss, etc.).
 > - Use [PIX on Windows](https://devblogs.microsoft.com/pix/) for GPU debugging and performance analysis.
 
 ## In this section
