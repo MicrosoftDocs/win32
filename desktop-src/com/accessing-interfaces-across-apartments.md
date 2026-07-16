@@ -3,10 +3,33 @@ title: Accessing Interfaces Across Apartments
 description: Accessing Interfaces Across Apartments
 ms.assetid: 4e0467b9-bbf1-410c-8aab-40450a7f963a
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/16/2026
 ---
 
 # Accessing Interfaces Across Apartments
+
+> [!IMPORTANT]
+> **Preferred modern approach — agile references (Windows 8.1+):** For new code, use [**RoGetAgileReference**](/windows/win32/api/combaseapi/nf-combaseapi-rogetagilereference) and the `IAgileReference` interface instead of the Global Interface Table (GIT). Agile references are simpler, safer, and integrate better with WinRT and C++/WinRT:
+>
+> ```cpp
+> #include <wrl.h>
+> using namespace Microsoft::WRL;
+>
+> // Store an agile reference that can be resolved from any apartment
+> ComPtr<IAgileReference> agileRef;
+> HRESULT hr = RoGetAgileReference(
+>     AGILEREFERENCE_DEFAULT,
+>     __uuidof(IMyInterface),
+>     pMyObject,
+>     &agileRef);
+>
+> // Later, from any apartment:
+> ComPtr<IMyInterface> pResolved;
+> hr = agileRef->Resolve(__uuidof(IMyInterface), &pResolved);
+> // pResolved is a direct pointer (same apartment) or a proxy (different apartment)
+> ```
+>
+> The GIT remains useful for legacy code or when you need to register/revoke interfaces dynamically across many apartments.
 
 COM provides a way for any apartment in a process to get access to an interface implemented on an object in any other apartment in the process. This is done through the [**IGlobalInterfaceTable**](/windows/desktop/api/ObjIdl/nn-objidl-iglobalinterfacetable) interface. This interface has three methods, which allow you to do the following:
 
