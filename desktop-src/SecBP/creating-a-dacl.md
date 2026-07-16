@@ -1,14 +1,17 @@
 ---
-description: Shows how to properly create a DACL.
+description: Shows how to properly create a DACL using SDDL. Includes security warnings about NULL DACLs and best practices for access control.
 ms.assetid: f8ec202f-4f34-4123-8f3c-cfc5960b4dc2
 title: Creating a DACL
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 07/16/2026
 ---
 
 # Creating a DACL
 
 Creating a proper [*discretionary access control list*](/windows/desktop/SecGloss/d-gly) (DACL) is a necessary and important part of application development. Because a **NULL** DACL permits all types of access to all users, do not use **NULL** DACLs.
+
+> [!WARNING]
+> A **NULL** DACL grants full access to *everyone*, including untrusted users and remote attackers. Never use a NULL DACL on any securable object. If you need to allow broad access, create an explicit DACL that grants the minimum permissions required. An empty DACL (a DACL with zero ACEs) denies all access — this is the secure default if you are unsure which permissions to grant.
 
 The following example shows how to properly create a DACL. The example contains a function, CreateMyDACL, that uses the [security descriptor definition language](/windows/desktop/SecAuthZ/security-descriptor-definition-language) (SDDL) to define the granted and denied access control in a DACL. To provide different access for your application's objects, modify the CreateMyDACL function as needed.
 
@@ -26,14 +29,11 @@ In the example:
 5.  When the main function is finished using the [**SECURITY\_ATTRIBUTES**](/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)) structure, the main function frees the memory allocated for the **lpSecurityDescriptor** member by calling the [**LocalFree**](/windows/desktop/api/winbase/nf-winbase-localfree) function.
 
 > [!Note]  
-> To successfully compile SDDL functions such as [**ConvertStringSecurityDescriptorToSecurityDescriptor**](/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora), you must define the \_WIN32\_WINNT constant as 0x0500 or greater.
+> To successfully compile SDDL functions such as [**ConvertStringSecurityDescriptorToSecurityDescriptor**](/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora), you must define the \_WIN32\_WINNT constant as 0x0500 or greater. For modern applications, target at least Windows 10 (0x0A00).
 
- 
 
 
 ```C++
-#define _WIN32_WINNT 0x0500
-
 #include <windows.h>
 #include <sddl.h>
 #include <stdio.h>
