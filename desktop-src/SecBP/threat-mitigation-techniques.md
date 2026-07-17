@@ -1,42 +1,26 @@
 ---
-description: There are a number of threat-mitigation techniques available that you can use to better secure passwords.
+description: Threat-mitigation techniques for securing passwords and credentials, using cryptography, access control, DPAPI, and the Windows Credential Manager.
 ms.assetid: b2442579-e559-4053-869f-9d96e4db202e
 title: Threat Mitigation Techniques
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/16/2026
 ---
 
 # Threat Mitigation Techniques
 
-There are a number of threat-mitigation techniques available that you can use to better secure passwords. These techniques are implemented by using one or more of the following four, primary technologies.
+There are a number of threat-mitigation techniques available that you can use to better secure passwords. These techniques are implemented by using one or more of the following primary technologies.
 
+| Technology | Description |
+|------------|-------------|
+| Cryptography: Next Generation (CNG) | CNG is the preferred cryptographic API for Windows development. It supports modern algorithms, key isolation, and crypto agility. For more information, see [CNG Features](/windows/win32/seccng/cng-features). |
+| Access control lists | An [*access control list*](/windows/desktop/SecGloss/a-gly) (ACL) is a list of security protections that applies to an object. An object can be a file, process, event, or anything else that has a security descriptor. For more information on ACLs, see [Access Control Lists](/windows/desktop/SecAuthZ/access-control-lists). |
+| Data Protection API (DPAPI) | DPAPI provides functions to encrypt and decrypt sensitive data bound to the user account or machine: [**CryptProtectData**](/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata), [**CryptUnprotectData**](/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata), [**CryptProtectMemory**](/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory), and [**CryptUnprotectMemory**](/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory). |
+| Windows Credential Manager | Provides secure storage for user credentials (passwords, certificates, and other secrets). Use [**CredWrite**](/windows/win32/api/wincred/nf-wincred-credwritea) and [**CredRead**](/windows/win32/api/wincred/nf-wincred-credreada) for programmatic access. Also accessible through [**CredUIPromptForWindowsCredentials**](/windows/desktop/api/wincred/nf-wincred-creduipromptforwindowscredentialsa). |
 
+> [!NOTE]
+> CryptoAPI (the legacy `Crypt*` functions) is still supported for backward compatibility, but new code should use **CNG** (Cryptography: Next Generation) APIs for modern algorithm support and improved security architecture.
 
-| Technology                      | Description                                                                                                                                                                                                                                                                                                                                                                |
-|---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| CryptoAPI                       | CryptoAPI provides a set of functions that help you apply cryptographic routines to target entities. CryptoAPI can provide hashes, digests, encryption, and decryption, to mention its primary functionality. CryptoAPI also has other features. To learn about cryptography and the CryptoAPI, see [Cryptography Essentials](/windows/desktop/SecCrypto/cryptography-essentials).           |
-| Access control lists            | An [*access control list*](/windows/desktop/SecGloss/a-gly) (ACL) is a list of security protections that applies to an object. An object can be a file, process, event, or anything else that has a security descriptor. For more information on ACLs see [Access Control Lists](/windows/desktop/SecAuthZ/access-control-lists) (ACLs). |
-| Data protection API             | The data protection API (DPAPI) provides the following four functions that you use to encrypt and decrypt sensitive data: [**CryptProtectData**](/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata), [**CryptUnprotectData**](/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata), [**CryptProtectMemory**](/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory), and [**CryptUnprotectMemory**](/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory).                  |
-| Stored user names and passwords | Storage functionality that makes handling users' passwords and other credentials, such as private keys, easier, more consistent, and safer. For more information on this functionality, see [**CredUIPromptForCredentials**](/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa).                                                                                                         |
-
-
-
- 
-
-These technologies are not available on all operating systems. Therefore, the extent to which security can be improved depends on which operating systems are involved. Here are the technologies that are available in each operating system.
-
-
-| Operating system | Technology | 
-|------------------|------------|
-| Windows Server 2003 and Windows XP | <ul><li>CryptoAPI</li><li>Access control lists</li><li>Data protection API</li><li>Stored user names and passwords</li></ul> | 
-| Windows 2000 | <ul><li>CryptoAPI</li><li>Access control lists</li><li><a href="/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata"><strong>CryptProtectData</strong></a></li><li><a href="/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectdata"><strong>CryptUnprotectData</strong></a></li></ul> | 
-
-
-
-
- 
-
-The following threat-mitigation techniques use one or more of the four technologies. Techniques that require the use of technologies that are not included in the operating system cannot be used.
+The following threat-mitigation techniques use one or more of the technologies above.
 
 ## Getting Passwords from the User
 
@@ -50,10 +34,9 @@ Limit password entry tries. After a certain number of tries without success, loc
 
 ## Storing Passwords
 
-Never store passwords in plaintext (unencrypted). Encrypting passwords significantly increases their security. For information about storing encrypted passwords, see [**CryptProtectData**](/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata). For information about encrypting passwords in memory, see [**CryptProtectMemory**](/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory). Store passwords in as few places as possible. The more places a password is stored, the greater the chance that an intruder might find it. Never store passwords in a webpage or in a web-based file. Storing passwords in a webpage or in a web-based file allows them to be easily compromised.
+> [!WARNING]
+> Never store passwords in plaintext (unencrypted) — not in files, the registry, configuration, or source code. Encrypting passwords significantly increases their security.
+
+For information about storing encrypted passwords, see [**CryptProtectData**](/windows/desktop/api/dpapi/nf-dpapi-cryptprotectdata). For information about encrypting passwords in memory, see [**CryptProtectMemory**](/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory). Store passwords in as few places as possible. The more places a password is stored, the greater the chance that an intruder might find it. Never store passwords in a webpage or in a web-based file. Storing passwords in a webpage or in a web-based file allows them to be easily compromised.
 
 After you have encrypted a password and stored it, use secure ACLs to limit access to the file. Alternatively, you can store passwords and encryption keys on removable devices. Storing passwords and encryption keys on a removable media, such as a smart card, helps create a more secure system. After a password is retrieved for a given session, the card can be removed, thereby removing the possibility that an intruder can gain access to it.
-
- 
-
- 

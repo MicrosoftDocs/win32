@@ -3,10 +3,32 @@ title: Single-Threaded Apartments
 description: Single-Threaded Apartments
 ms.assetid: 2f345ae2-8314-4067-a6d6-5a0275941ed4
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/16/2026
 ---
 
 # Single-Threaded Apartments
+
+> [!WARNING]
+> **Deadlock risk with async/await and blocking calls on STA threads:** In managed code (.NET), the STA message loop is critical for COM call dispatching. Blocking an STA thread with `Task.Wait()`, `Task.Result`, `Thread.Sleep()`, or `ManualResetEvent.WaitOne()` prevents COM callbacks and cross-apartment calls from completing — causing a deadlock.
+>
+> ```csharp
+> // ❌ DEADLOCK — blocks the STA message loop
+> [STAThread]
+> static void Main()
+> {
+>     var result = GetDataAsync().Result; // Deadlock: awaited continuation
+>                                         // can't post back to this STA thread
+> }
+>
+> // ✅ Correct — use async entry point or pump messages
+> [STAThread]
+> static async Task Main()
+> {
+>     var result = await GetDataAsync(); // continuation resumes on STA via SynchronizationContext
+> }
+> ```
+>
+> **If you cannot use `await`**, use `CoWaitForMultipleHandles` (native) or a dispatcher frame/message pump (managed) instead of raw wait primitives on STA threads.
 
 Using single-threaded apartments (the apartment model process) offers a message-based paradigm for dealing with multiple objects running concurrently. It enables you to write more efficient code by allowing a thread, while it waits for some time-consuming operation to complete, to allow another thread to be executed.
 

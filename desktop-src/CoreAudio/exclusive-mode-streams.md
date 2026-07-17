@@ -10,6 +10,12 @@ ms.date: 05/31/2018
 
 As explained previously, if an application opens a stream in exclusive mode, the application has exclusive use of the audio endpoint device that plays or records the stream. In contrast, several applications can share an audio endpoint device by opening shared-mode streams on the device.
 
+> [!TIP]
+> Starting with Windows 10, [**IAudioClient3**](/windows/win32/api/audioclient/nn-audioclient-iaudioclient3) enables **shared-mode** streams with very low period sizes (as low as the value returned by [**GetSharedModeEnginePeriod**](/windows/win32/api/audioclient/nf-audioclient-iaudioclient3-getsharedmodeengineperiod)). This provides latency comparable to exclusive mode while preserving system sound mixing and interoperability. Evaluate shared-mode low-period streams before committing to exclusive mode unless you have a hard requirement for bit-exact output or custom sample rates.
+
+> [!WARNING]
+> Exclusive-mode streams seize the audio endpoint—all system sounds, notifications, and audio from other applications are silenced. Although exclusive-mode access is enabled by default in Sound settings, users can disable it per-device. Always provide a user-visible option to fall back to shared mode, and release the device promptly when your application loses focus.
+
 Exclusive-mode access to an audio device can block crucial system sounds, prevent interoperability with other applications, and otherwise degrade the user experience. To mitigate these problems, an application with an exclusive-mode stream typically relinquishes control of the audio device when the application is not the foreground process or is not actively streaming.
 
 Stream latency is the delay that is inherent in the data path that connects an application's endpoint buffer with an audio endpoint device. For a rendering stream, the latency is the maximum delay from the time that an application writes a sample to an endpoint buffer to the time that the sample is heard through the speakers. For a capture stream, the latency is the maximum delay from the time that a sound enters the microphone to the time that an application can read the sample for that sound from the endpoint buffer.

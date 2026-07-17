@@ -16,6 +16,14 @@ topic_type:
 
 Starting with Windows Vista, the Common Item Dialog supersedes the older Common File Dialog when used to open or save a file. The Common Item Dialog is used in two variations: the **Open** dialog and the **Save** dialog. These two dialogs share most of their functionality, but each has its own unique methods.
 
+> [!IMPORTANT]
+> **[IFileDialog](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifiledialog) is the modern file dialog API (Windows Vista and later).** The older [GetOpenFileName](/windows/win32/api/commdlg/nf-commdlg-getopenfilenamea) and [GetSaveFileName](/windows/win32/api/commdlg/nf-commdlg-getsavefilenamea) functions are legacy and should not be used in new applications. The legacy APIs do not support the Shell namespace, modern dialog customization, or file metadata features.
+>
+> When using `IFileDialog`:
+> - You **must** call [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) before calling [CoCreateInstance](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) to create the dialog. Use `COINIT_APARTMENTTHREADED` for UI threads.
+> - Use `CLSID_FileOpenDialog` or `CLSID_FileSaveDialog` with `CLSCTX_INPROC_SERVER`.
+> - **Modern alternatives**: For UWP/WinUI apps, use [Windows.Storage.Pickers](/uwp/api/windows.storage.pickers). For .NET desktop apps, WPF and WinForms provide `OpenFileDialog`/`SaveFileDialog` wrappers that use `IFileDialog` internally.
+
 While this newer version is named the Common Item Dialog, it continues to be called the Common File Dialog in most documentation. Unless you are dealing specifically with an older version of Windows, you should assume that any mention of the Common File Dialog refers to this Common Item Dialog.
 
 The following topics are discussed here:
