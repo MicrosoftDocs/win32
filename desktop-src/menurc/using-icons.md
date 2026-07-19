@@ -19,7 +19,8 @@ ms.date: 05/31/2018
 The following topics describe how to perform certain tasks related to icons:
 
 -   [Creating an Icon](#creating-an-icon)
--   [Getting the Icon size](#getting-the-icon-size)
+-   [Getting System Icon Sizes](#getting-system-icon-sizes)
+-   [Getting Icon Size from Handle](#getting-icon-size-from-handle)
 -   [Displaying an Icon](#displaying-an-icon)
 -   [Sharing Icon Resources](#sharing-icon-resources)
 
@@ -40,9 +41,54 @@ To create an alpha blended icon at run time, see [Creating an Alpha Blended Curs
 
 Before closing, your application must use [**DestroyIcon**](/windows/win32/api/winuser/nf-winuser-destroyicon) to destroy any icon obtained from [**CreateIcon**](/windows/win32/api/winuser/nf-winuser-createicon), [**CreateIconIndirect**](/windows/win32/api/winuser/nf-winuser-createiconindirect), or [**LoadImage**](/windows/win32/api/winuser/nf-winuser-loadimagew) without the `LR_SHARED` flag. Icons loaded with [**LoadIcon**](/windows/win32/api/winuser/nf-winuser-loadiconw) or `LoadImage` with `LR_SHARED` are shared system resources and must not be destroyed.
 
-## Getting the Icon size
+## Getting System Icon Sizes
 
-See [Getting a Cursor size](/windows/win32/menurc/using-cursors#getting-a-cursor-size). The example works identically for icons — pass an `HICON` in place of `HCURSOR`.
+To retrieve the system icon sizes at the system DPI, call [**GetSystemMetrics**](/windows/win32/api/winuser/nf-winuser-getsystemmetrics):
+
+```c
+int cxSmall = GetSystemMetrics(SM_CXSMICON);
+int cySmall = GetSystemMetrics(SM_CYSMICON);
+
+int cxLarge = GetSystemMetrics(SM_CXICON);
+int cyLarge = GetSystemMetrics(SM_CYICON);
+```
+
+In per-monitor DPI-aware applications these values reflect the system DPI. Use [**GetSystemMetricsForDpi**](/windows/win32/api/winuser/nf-winuser-getsystemmetricsfordpi) with the target monitor's DPI instead. Obtain the DPI from a window handle with [**GetDpiForWindow**](/windows/win32/api/winuser/nf-winuser-getdpiforwindow), or from a monitor handle with [**GetDpiForMonitor**](/windows/win32/api/shellscalingapi/nf-shellscalingapi-getdpiformonitor):
+
+```c
+// Option A: From a window handle:
+UINT dpi = GetDpiForWindow(hwnd);
+
+// Option B: From a monitor handle:
+UINT dpiX, dpiY;
+GetDpiForMonitor(hMonitor, MDT_EFFECTIVE_DPI, &dpiX, &dpiY);
+UINT dpi = dpiX;
+
+// Compute icon sizes for that DPI:
+int cx   = GetSystemMetricsForDpi(SM_CXICON,   dpi);
+int cy   = GetSystemMetricsForDpi(SM_CYICON,   dpi);
+int cxSm = GetSystemMetricsForDpi(SM_CXSMICON, dpi);
+int cySm = GetSystemMetricsForDpi(SM_CYSMICON, dpi);
+```
+
+To retrieve the size of a shell image list, call [**SHGetImageList**](/windows/win32/api/shellapi/nf-shellapi-shgetimagelistw) and then [**ImageList\_GetIconSize**](/windows/win32/api/commctrl/nf-commctrl-imagelist_geticonsize):
+
+```c
+IImageList *pImgList;
+HRESULT hr = SHGetImageList(SHIL_LARGE, IID_PPV_ARGS(&pImgList));
+if (SUCCEEDED(hr))
+{
+    int cx, cy;
+    ImageList_GetIconSize((HIMAGELIST)pImgList, &cx, &cy);
+    pImgList->Release();
+}
+```
+
+Shell image lists are process-wide singletons sized to the system DPI at shell initialization time; their size does not change when windows move between monitors. For per-monitor icon sizes, use [**GetSystemMetricsForDpi**](/windows/win32/api/winuser/nf-winuser-getsystemmetricsfordpi) directly.
+
+## Getting Icon Size from Handle
+
+See [Getting Cursor Size from Handle](/windows/win32/menurc/using-cursors#getting-cursor-size-from-handle). The example works identically for icons — pass an `HICON` in place of `HCURSOR`.
 
 ## Displaying an Icon
 

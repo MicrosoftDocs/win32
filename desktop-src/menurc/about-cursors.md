@@ -102,19 +102,19 @@ To override the class cursor for a specific window or hit-test area, process the
 
 ## Cursor Sizes
 
-The system reports the nominal cursor size via [**GetSystemMetrics**](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) with **SM\_CXCURSOR** / **SM\_CYCURSOR**. This is the size of the cursor image buffer; the visible cursor shape is typically smaller due to transparent edges. Unlike icon sizes, cursor sizes change in steps - not every DPI value produces a distinct cursor size. The standard sizes at default cursor size setting are:
+The system reports the nominal cursor size via [**GetSystemMetrics**](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) with **SM\_CXCURSOR** / **SM\_CYCURSOR**. This is the size of the cursor image buffer; the visible cursor shape is typically smaller due to transparent edges. Unlike icon sizes which scale linearly with DPI, cursor sizes change in discrete steps - a wide range of DPI values maps to the same cursor size. The standard sizes at the default cursor size setting are:
 
-| Display scale | DPI range | SM\_CXCURSOR / SM\_CYCURSOR |
+| DPI range | Display scale | SM\_CXCURSOR / SM\_CYCURSOR |
 |---|---|---|
-| < 150% | < 144 DPI | 32x32 |
-| 150-199% | 144-191 DPI | 48x48 |
-| 200-299% | 192-287 DPI | 64x64 |
-| 300-399% | 288-383 DPI | 96x96 |
-| >= 400% | >= 384 DPI | 128x128 |
+| 96-143 DPI | 100%-149% | 32x32 |
+| 144-191 DPI | 150%-199% | 48x48 |
+| 192-287 DPI | 200%-299% | 64x64 |
+| 288-383 DPI | 300%-399% | 96x96 |
+| >= 384 DPI | >= 400% | 128x128 |
 
 The user can also change the cursor size independently of DPI via **Settings > Accessibility > Mouse pointer and touch > Size**. Always call [**GetSystemMetrics**](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) with **SM\_CXCURSOR** to get the actual effective size rather than assuming a fixed value. In per-monitor DPI-aware applications, use [**GetSystemMetricsForDpi**](/windows/win32/api/winuser/nf-winuser-getsystemmetricsfordpi) with the DPI of the target monitor, which you can obtain with [**GetDpiForWindow**](/windows/win32/api/winuser/nf-winuser-getdpiforwindow) or [**GetDpiForMonitor**](/windows/win32/api/shellscalingapi/nf-shellscalingapi-getdpiformonitor). For more information, see [High DPI Desktop Application Development on Windows](/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows).
 
-To retrieve the dimensions of a cursor from its handle, see [Getting a Cursor size](/windows/win32/menurc/using-cursors#getting-a-cursor-size).
+To retrieve the dimensions of a cursor from its handle, see [Getting Cursor Size from Handle](/windows/win32/menurc/using-cursors#getting-cursor-size-from-handle).
 
 ## Cursor Location and Appearance
 
