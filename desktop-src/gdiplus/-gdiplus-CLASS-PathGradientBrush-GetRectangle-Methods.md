@@ -17,7 +17,7 @@ This topic lists the GetRectangle methods of the [**PathGradientBrush**](/window
 | Method                                                                                     | Description                                                                                                                                                                                                         |
 |:-------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**GetRectangle(Rect\*)**](/windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getrectangle(outrect))   | The [**PathGradientBrush::GetRectangle**](/windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getrectangle(outrect)) method gets the smallest rectangle that encloses the boundary path of this path gradient brush.<br/>  |
-| [**GetRectangle(RectF\*)**](/previous-versions//ms535096(v=vs.85)) | The [**PathGradientBrush::GetRectangle**](/previous-versions//ms535096(v=vs.85)) method gets the smallest rectangle that encloses the boundary path of this path gradient brush.<br/> |
+| [**GetRectangle(RectF\*)**](/windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getrectangle(outrectf)) | The [**PathGradientBrush::GetRectangle**](/windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getrectangle(outrectf)) method gets the smallest rectangle that encloses the boundary path of this path gradient brush.<br/> |
 
 
 

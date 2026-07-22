@@ -1,5 +1,5 @@
 ---
-description: This topic lists the constructors of the PathGradientBrush class. For a complete class listing, see PathGradientBrushXX Class.
+description: This topic lists the constructors of the PathGradientBrush class. For a complete class listing, see PathGradientBrush Class.
 ms.assetid: c2215393-afc5-4c70-b6d0-67c3676d55aa
 title: PathGradientBrush.PathGradientBrush constructors
 ms.date: 07/02/2019
@@ -8,7 +8,7 @@ ms.topic: reference
 
 # PathGradientBrush.PathGradientBrush constructors
 
-This topic lists the constructors of the [**PathGradientBrush**](/windows/win32/api/gdipluspath/nl-gdipluspath-pathgradientbrush) class. For a complete class listing, see **PathGradientBrushXX Class**.
+This topic lists the constructors of the [**PathGradientBrush**](/windows/win32/api/gdipluspath/nl-gdipluspath-pathgradientbrush) class. For a complete class listing, see [**PathGradientBrush**](/windows/win32/api/gdipluspath/nl-gdipluspath-pathgradientbrush).
 
 ### Overload list
 
