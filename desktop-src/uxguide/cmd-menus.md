@@ -229,16 +229,16 @@ In this example, a menu drop-down button is used to make a context menu visible.
 Run  
 Play  
 Print  
-&lt;separator&gt;  
-</dl> </dd> <dd>Secondary commands supported by the object<dl> &lt;separator&gt;  
+<code>&lt;separator&gt;</code>  
+</dl> </dd> <dd>Secondary commands supported by the object<dl> <code>&lt;separator&gt;</code>  
 </dl> </dd> Transfer commands<dl> Cut  
 Copy  
 Paste  
-&lt;separator&gt;  
-</dl> </dd> <dd>Object settings<dl> &lt;separator&gt;  
+<code>&lt;separator&gt;</code>  
+</dl> </dd> <dd>Object settings<dl> <code>&lt;separator&gt;</code>  
 </dl> </dd> Object commands<dl> Delete  
 Rename  
-&lt;separator&gt;  
+<code>&lt;separator&gt;</code>  
 Properties  
 </dl> </dd> </dl>
 
@@ -351,15 +351,15 @@ Exit Alt+F4 (shortcut usually not given)
 
 Undo Ctrl+Z  
 Redo Ctrl+Y  
-&lt;separator&gt;  
+<code>&lt;separator&gt;</code>  
 Cut Ctrl+X  
 Copy Ctrl+C  
 Paste Ctrl+V  
-&lt;separator&gt;  
+<code>&lt;separator&gt;</code>  
 Select all Ctrl+A  
-&lt;separator&gt;  
+<code>&lt;separator&gt;</code>  
 Delete Del (shortcut usually not given)  
-&lt;separator&gt;  
+<code>&lt;separator&gt;</code>  
 Find... Ctrl+F  
 Find next F3 (command usually not given)  
 Replace... Ctrl+H  
@@ -369,51 +369,51 @@ Go to... Ctrl+G
 
 Toolbars  
 Status bar  
-&lt;separator&gt;  
+<code>&lt;separator&gt;</code>  
 Zoom
 Zoom in Ctrl++  
 Zoom out Ctrl+-  
-&lt;separator&gt;  
+<code>&lt;separator&gt;</code>  
 Full screen F11  
 Refresh F5  
 
 **Tools**
 
-&lt;separator&gt;  
+<code>&lt;separator&gt;</code>  
 Options
 Help `<program name>`
 help F1  
-&lt;separator&gt;  
+<code>&lt;separator&gt;</code>  
 About `<program name>`  
 
 **Standard toolbar menu buttons**
 
 The standard toolbar menu buttons are as follows. This list shows the menu category and item labels, their order with separators, their shortcut keys, and their ellipses.
 
-<dl> Tools<dl> Full screenF11(Reassign access key if Find is also used.)  
+<dl> Tools<dl> Full screen (<kbd>F11</kbd>) (Reassign access key if Find is also used.)  
 Toolbars(Note that the Menu bar command goes here.)  
-&lt;separator&gt;  
+<code>&lt;separator&gt;</code>  
 Print...  
 Find...  
-&lt;separator&gt;  
+<code>&lt;separator&gt;</code>  
 Zoom  
 Text size  
-&lt;separator&gt;  
+<code>&lt;separator&gt;</code>  
 Options  
-</dl> </dd> Organize<dl> New folderCtrl+N  
-&lt;separator&gt;  
-CutCtrl+X  
-CopyCtrl+C  
-PasteCtrl+V  
-&lt;separator&gt;  
-Select allCtrl+A  
-&lt;separator&gt;  
-DeleteDel(shortcut usually not given)  
+</dl> </dd> Organize<dl> New folder (<kbd>Ctrl</kbd> + <kbd>N</kbd>)  
+<code>&lt;separator&gt;</code>  
+Cut (<kbd>Ctrl</kbd> + <kbd>X</kbd>)  
+Copy (<kbd>Ctrl</kbd> + <kbd>C</kbd>)  
+Paste (<kbd>Ctrl</kbd> + <kbd>V</kbd>)  
+<code>&lt;separator&gt;</code>  
+Select all (<kbd>Ctrl</kbd> + <kbd>A</kbd>)  
+<code>&lt;separator&gt;</code>  
+Delete (<kbd>Del</kbd>) (shortcut usually not given)  
 Rename  
-&lt;separator&gt;  
+<code>&lt;separator&gt;</code>  
 Options  
-</dl> </dd> Page<dl> New windowCtrl+N  
-&lt;separator&gt;  
+</dl> </dd> Page<dl> New window (<kbd>Ctrl</kbd> + <kbd>N</kbd>)  
+<code>&lt;separator&gt;</code>  
 Zoom  
 Text size  
 </dl> </dd> </dl>
@@ -427,14 +427,14 @@ Run
 Play  
 Edit  
 Print...  
-&lt;separator&gt;  
+<code>&lt;separator&gt;</code>  
 Cut  
 Copy  
 Paste  
-&lt;separator&gt;  
+<code>&lt;separator&gt;</code>  
 Delete  
 Rename  
-&lt;separator&gt;
+<code>&lt;separator&gt;</code>
 
 Lock the `<object name>(checkmark)`
 
