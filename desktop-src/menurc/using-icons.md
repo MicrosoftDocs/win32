@@ -53,7 +53,7 @@ int cxLarge = GetSystemMetrics(SM_CXICON);
 int cyLarge = GetSystemMetrics(SM_CYICON);
 ```
 
-In per-monitor DPI-aware applications these values reflect the system DPI. Use [**GetSystemMetricsForDpi**](/windows/win32/api/winuser/nf-winuser-getsystemmetricsfordpi) with the target monitor's DPI instead. Obtain the DPI from a window handle with [**GetDpiForWindow**](/windows/win32/api/winuser/nf-winuser-getdpiforwindow), or from a monitor handle with [**GetDpiForMonitor**](/windows/win32/api/shellscalingapi/nf-shellscalingapi-getdpiformonitor):
+In per-monitor DPI-aware applications, these values reflect the system DPI. Use [**GetSystemMetricsForDpi**](/windows/win32/api/winuser/nf-winuser-getsystemmetricsfordpi) with the target monitor's DPI instead. Obtain the DPI from a window handle with [**GetDpiForWindow**](/windows/win32/api/winuser/nf-winuser-getdpiforwindow), or from a monitor handle with [**GetDpiForMonitor**](/windows/win32/api/shellscalingapi/nf-shellscalingapi-getdpiformonitor):
 
 ```c
 // Option A: From a window handle:
@@ -71,15 +71,15 @@ int cxSm = GetSystemMetricsForDpi(SM_CXSMICON, dpi);
 int cySm = GetSystemMetricsForDpi(SM_CYSMICON, dpi);
 ```
 
-To retrieve the size of a shell image list, call [**SHGetImageList**](/windows/win32/api/shellapi/nf-shellapi-shgetimagelistw) and then [**ImageList\_GetIconSize**](/windows/win32/api/commctrl/nf-commctrl-imagelist_geticonsize):
+To retrieve the size of a shell image list, call [**SHGetImageList**](/windows/win32/api/shellapi/nf-shellapi-shgetimagelistw) and then [**IImageList::GetIconSize**](/windows/win32/api/commoncontrols/nf-commoncontrols-iimagelist-geticonsize):
 
-```c
+```cpp
 IImageList *pImgList;
 HRESULT hr = SHGetImageList(SHIL_LARGE, IID_PPV_ARGS(&pImgList));
 if (SUCCEEDED(hr))
 {
     int cx, cy;
-    ImageList_GetIconSize((HIMAGELIST)pImgList, &cx, &cy);
+    pImgList->GetIconSize(&cx, &cy);
     pImgList->Release();
 }
 ```
