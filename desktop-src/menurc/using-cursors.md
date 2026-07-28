@@ -27,7 +27,7 @@ This section discusses the following topics.
 -   [Creating a Cursor](#creating-a-cursor)
 -   [Using Cursor Functions to Create a Mousetrap](#using-cursor-functions-to-create-a-mousetrap)
 -   [Creating an Alpha Blended Cursor](#creating-an-alpha-blended-cursor)
--   [Getting a Cursor size](#getting-a-cursor-size)
+-   [Getting Cursor Size from Handle](#getting-cursor-size-from-handle)
 -   [Displaying a Cursor](#displaying-a-cursor)
 -   [Confining a Cursor](#confining-a-cursor)
 -   [Using the Keyboard to Move the Cursor](#using-the-keyboard-to-move-the-cursor)
@@ -378,7 +378,7 @@ HCURSOR CreateAlphaCursor(void)
 
 Before closing, you must use the [**DestroyCursor**](/windows/win32/api/winuser/nf-winuser-destroycursor) function to destroy any cursors you created with [**CreateCursor**](/windows/win32/api/winuser/nf-winuser-createcursor) or [**CreateIconIndirect**](/windows/win32/api/winuser/nf-winuser-createiconindirect). It is not necessary to destroy cursors created by other functions.
 
-## Getting a Cursor size
+## Getting Cursor Size from Handle
 
 The following example retrieves the dimensions of a cursor or icon from its handle:
 
