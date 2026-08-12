@@ -128,14 +128,14 @@ v
 Y 
 
 
-In shader model 6.0, these routines are available only in pixel shaders. They should be used on waves captured by WaveQuadLanes; otherwise, results are undefined. Starting with shader model 6.6, these routines are also available in compute, amplification, and mesh shaders, where they operate in quads defined by the shader's thread-group dimensions.
+In shader model 6.0, these routines are available in pixel and compute shaders. In pixel shaders, they should be used on waves captured by WaveQuadLanes; otherwise, results are undefined. In compute shaders targeting shader model 6.0 through 6.5, the mapping of threads to quads is implementation-dependent. Shader model 6.6 defines the quad layout in terms of the shader's thread-group dimensions and adds support for these routines in amplification and mesh shaders.
 
 | **Intrinsic** | **Description** | **Pixel shader** | **Compute shader** | **Amplification shader** | **Mesh shader** |
 |-|-|-|-|-|-|
-| [**QuadReadLaneAt**](quadreadlaneat.md) | Returns the specified source value read from the lane of the current quad identified by quadLaneID \[0..3\] which must be uniform across the quad. | \* | Requires SM 6.6 | Requires SM 6.6 | Requires SM 6.6 |
-| [**QuadReadAcrossDiagonal**](quadreadacrossdiagonal.md) | Returns the specified local value which is read from the diagonally opposite lane in this quad. | \* | Requires SM 6.6 | Requires SM 6.6 | Requires SM 6.6 |
-| [**QuadReadAcrossX**](quadswapx.md) | Returns the specified source value read from the other lane in this quad in the X direction. | \* | Requires SM 6.6 | Requires SM 6.6 | Requires SM 6.6 |
-| [**QuadReadAcrossY**](quadswapy.md) | Returns the specified source value read from the other lane in this quad in the Y direction. | \* | Requires SM 6.6 | Requires SM 6.6 | Requires SM 6.6 |
+| [**QuadReadLaneAt**](quadreadlaneat.md) | Returns the specified source value read from the lane of the current quad identified by quadLaneID \[0..3\] which must be uniform across the quad. | \* | \* | Requires SM 6.6 | Requires SM 6.6 |
+| [**QuadReadAcrossDiagonal**](quadreadacrossdiagonal.md) | Returns the specified local value which is read from the diagonally opposite lane in this quad. | \* | \* | Requires SM 6.6 | Requires SM 6.6 |
+| [**QuadReadAcrossX**](quadswapx.md) | Returns the specified source value read from the other lane in this quad in the X direction. | \* | \* | Requires SM 6.6 | Requires SM 6.6 |
+| [**QuadReadAcrossY**](quadswapy.md) | Returns the specified source value read from the other lane in this quad in the Y direction. | \* | \* | Requires SM 6.6 | Requires SM 6.6 |
 
 ## Hardware capability
 

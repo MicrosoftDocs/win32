@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Shader Model 6
 
-All non-quad-related wave intrinsics are available in all shader stages. In shader model 6.0, quad wave intrinsics are available only in pixel shaders. Quad wave intrinsics are also available in compute, amplification, and mesh shaders starting with shader model 6.6.
+All non-quad-related wave intrinsics are available in all shader stages. In shader model 6.0, quad wave intrinsics are available in pixel and compute shaders, but the quad layout in compute shaders isn't defined. Shader model 6.6 defines the quad layout for compute shaders and adds support for quad wave intrinsics in amplification and mesh shaders.
 
 ## In this section
 

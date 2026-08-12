@@ -46,7 +46,7 @@ The specified source value. If the source lane is inactive, the results are unde
 
 For more information on quads, refer to [Overview of Shader Model 6](hlsl-shader-model-6-0-features-for-direct3d-12.md).
 
-This function is supported in pixel shaders starting with shader model 6.0. It is supported in compute, amplification, and mesh shaders starting with shader model 6.6.
+This function is supported in pixel and compute shaders starting with shader model 6.0. In compute shaders targeting shader model 6.0 through 6.5, the mapping of threads to quads is implementation-dependent. Shader model 6.6 defines the quad layout for compute shaders and adds support for this function in amplification and mesh shaders.
 
 
 
