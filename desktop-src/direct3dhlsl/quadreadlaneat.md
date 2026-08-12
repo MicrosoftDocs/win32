@@ -45,19 +45,19 @@ The requested type.
 *quadLaneID* 
 </dt> <dd>
 
-The lane ID; this will be a value from 0 to 3.
+The lane ID, in the range 0 through 3. The value must be uniform across the quad.
 
 </dd> </dl>
 
 ## Return value
 
-The specified source value. The result of this function is uniform across the quad. If the source lane is inactive, the results are undefined.
+The value of *sourceValue* from the selected lane. The result is uniform across the quad. If *quadLaneID* is not uniform across the quad, or if the selected source lane is inactive, the result is undefined.
 
 ## Remarks
 
 For more information on quads, refer to [Overview of Shader Model 6](hlsl-shader-model-6-0-features-for-direct3d-12.md).
 
-This function is supported from shader model 6.0 only in pixel and compute shaders.
+This function is supported in pixel shaders starting with shader model 6.0. It is supported in compute, amplification, and mesh shaders starting with shader model 6.6.
 
 
 

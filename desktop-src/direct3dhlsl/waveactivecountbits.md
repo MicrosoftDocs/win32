@@ -55,10 +55,10 @@ This function is supported from shader model 6.0 in all shader stages.
 
 ## Examples
 
-This can be implemented more efficiently than a full WaveActiveSum, as described in the following example:
+The following example counts the active lanes for which `bBit` is true:
 
-``` syntax
-result = WaveActiveCountBits( WaveActiveBallot( bBit ) );
+```hlsl
+uint result = WaveActiveCountBits(bBit);
 ```
 
 ## See also

@@ -46,7 +46,7 @@ The specified source value. If the source lane is inactive, the results are unde
 
 For more information on quads, refer to [Overview of Shader Model 6](hlsl-shader-model-6-0-features-for-direct3d-12.md).
 
-This function is supported from shader model 6.0 only in pixel and compute shaders.
+This function is supported in pixel shaders starting with shader model 6.0. It is supported in compute, amplification, and mesh shaders starting with shader model 6.6.
 
 
 
