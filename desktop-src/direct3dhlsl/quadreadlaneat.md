@@ -45,13 +45,13 @@ The requested type.
 *quadLaneID* 
 </dt> <dd>
 
-The lane ID, in the range 0 through 3. The value must be uniform across the quad.
+The lane ID, in the range 0 through 3.
 
 </dd> </dl>
 
 ## Return value
 
-The value of *sourceValue* from the selected lane. The result is uniform across the quad. If *quadLaneID* is not uniform across the quad, or if the selected source lane is inactive, the result is undefined.
+The value of *sourceValue* from the selected lane. If the selected source lane is inactive, the result is undefined.
 
 ## Remarks
 
