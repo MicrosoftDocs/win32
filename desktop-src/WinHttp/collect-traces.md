@@ -1,7 +1,7 @@
 ---
 title: Collect WinHTTP ETW traces
 description: On Windows 7 and later, you can collect WinHTTP ETW traces.
-ms.date: 16/08/2026
+ms.date: 08/16/2026
 ms.topic: reference
 ---
 
