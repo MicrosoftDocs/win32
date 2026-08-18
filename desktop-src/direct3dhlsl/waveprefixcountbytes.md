@@ -70,9 +70,11 @@ if ( WaveIsFirstLane () )
     // and keeps the output data for each lane in this wave together in the output buffer
     InterlockedAdd(bufferSize, appendCount, appendOffset);
 }
-appendOffset = WaveReadLaneFirst( appendOffset ); // broadcast value
-appendOffset += laneAppendOffset; // and add in the offset for this lane
-buffer[appendOffset] = myData; // write to the offset location for this lane
+appendOffset = WaveReadLaneFirst(appendOffset); // broadcast value
+if (bDoesThisLaneHaveAnAppendItem)
+{
+  buffer[appendOffset + laneAppendOffset] = myData;
+}
 ```
 
 ## See also
