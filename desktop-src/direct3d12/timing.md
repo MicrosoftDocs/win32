@@ -29,6 +29,9 @@ A timestamp is sampled by the GPU at the moment that the GPU is finished with al
 
 Note that GPU and CPU timestamp counters are not necessarily directly related to the clock speed of these processors, but instead work from timestamp ticks.
 
+> [!WARNING]
+> GPU timestamp clocks can stop ticking on some hardware when the GPU is idle, so the correlation can drift. To prevent this, call [**ID3D12Device::SetStablePowerState**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-setstablepowerstate) during development (requires Developer Mode enabled).
+
 ## Timestamp queries
 
 You can obtain timestamps as part of a command list (rather than a CPU-side call on a command queue) via timestamp queries. (See [Queries](queries.md) for more information about queries in general). 
@@ -46,9 +49,6 @@ Timestamp queries, once resolved via [**ID3D12GraphicsCommandList::ResolveQueryD
 
 > [!IMPORTANT]
 > For accuracy, use floating-point arithmetic when calculating second or millisecond intervals of timestamps. For example, use `queriedTicks / (double)Frequency` instead of `queriedTicks / Frequency`.
-
-> [!WARNING]
-> GPU timestamp frequency can vary on some hardware under dynamic clock scaling. Always re-query the frequency close to when you resolve timestamps, and avoid caching the frequency value across long time spans. For stable profiling results, call [**ID3D12Device::SetStablePowerState**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-setstablepowerstate) during development (requires Developer Mode enabled).
 
 ## Related topics
 
