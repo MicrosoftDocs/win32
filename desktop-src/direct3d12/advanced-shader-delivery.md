@@ -16,17 +16,15 @@ As graphics continue to improve, the number of shaders a game compiles grows wit
 
 ASD replaces on-device shader compilation with a pipeline that prepares shaders ahead of time and ships the compiled results to players. The pipeline has three stages:
 
-- **Capture.** ASD records a game's shader states in a standardized format called a State Object Database (SODB). The SODB describes the pipeline state objects the game uses, independent of any single graphics driver or GPU.
-- **Precompile.** ASD compiles the shaders described in the SODB ahead of time, off the player's device, so the work no longer happens during launch or gameplay.
-- **Deliver.** ASD delivers the precompiled shaders to players at download time, so the compiled results are already present on the device before the player starts the game.
-
-Because the SODB is a standardized, hardware-independent format, ASD can precompile the same captured shader states for the range of drivers and GPUs that players use.
+- **Create a State Object Database (SODB)** for your game, by programmatic generation or manual capture.
+- **Test the SODB** by compiling it into a Precompiled Shader Database (PSDB), registering it locally, and confirming its quality.
+- **Deploy the SODB** to a storefront.
 
 ## Benefits of Advanced Shader Delivery
 
 Moving shader compilation off the device and delivering precompiled shaders provides several benefits:
 
-- **Faster load times.** ASD compiles the shaders ahead of time, so the game spends less time preparing shaders at first launch.
+- **Faster load times.** Shaders are compiled ahead of time, so the game spends less time preparing shaders at first launch.
 - **Less in-game stutter.** Precompiling shaders removes the just-in-time compilation that causes shader compilation stutter during gameplay.
 - **Lower power consumption.** The player's device no longer spends power compiling shaders locally.
 
