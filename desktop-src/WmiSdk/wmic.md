@@ -12,6 +12,9 @@ ms.date: 07/15/2024
 > [!IMPORTANT]
 > WMIC is deprecated as of Windows 10, version 21H1; and as of the 21H1 [semi-annual channel release of Windows Server](/windows-server/get-started/servicing-channels-comparison). This utility is superseded by Windows PowerShell for WMI; see [Chapter 7 - Working with WMI](/powershell/scripting/learn/ps101/07-working-with-wmi). This deprecation applies only to the WMIC utility. Windows Management Instrumentation (WMI) itself is not affected. Also see [Windows 10 features we're no longer developing](/windows/deployment/planning/windows-10-deprecated-features).
 
+> [!IMPORTANT]
+> Starting in August 2026, Windows 11, versions 24H2 and 25H2 no longer include the Windows Management Instrumentation Command-line (WMIC) utility and it can’t be added back as a Feature on Demand (FoD). WMIC is already removed by default in new installations of these versions. This change affects only the WMIC utility. Windows Management Instrumentation (WMI) remains supported. To learn more, see [Windows Management Instrumentation Command-line (WMIC) removal from Windows](/windows/whats-new/deprecated-features-resources).
+
 The WMI command-line (WMIC) utility provides a command-line interface for Windows Management Instrumentation (WMI). WMIC is compatible with existing shells and utility commands. The following information is a general reference guide for WMIC. For more information and guidelines on how to use WMIC, including additional information on aliases, verbs, switches, and commands, see [Using Windows Management Instrumentation command-line](/previous-versions/windows/it-pro/windows-server-2003/cc779482(v=ws.10)) and [WMIC - Take command-line control over WMI](/previous-versions/windows/it-pro/windows-2000-server/bb742610(v=technet.10)).
 
 ## Alias
