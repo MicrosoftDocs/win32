@@ -55,11 +55,20 @@ This function is supported from shader model 6.0 in all shader stages.
 
 ## Examples
 
-This can be implemented more efficiently than a full WaveActiveSum, as described in the following example:
+Although these are all equivalent, WaveActiveCountBits is the most efficient way to achieve this: 
 
 ``` syntax
-result = WaveActiveCountBits( WaveActiveBallot( bBit ) );
+// Use WaveActiveSum to count number of active lanes
+uint result = WaveActiveSum(1);
+
+// Use countbits and WaveActiveBallot to count number of active lanes
+uint4 bits = countbits( WaveActiveBallot( bBit ) );
+uint result = bits.x + bits.y + bits.z + bits.w;
+
+// Use WaveActiveCountBits to count number of active lanes
+uint result = WaveActiveCountBits(true);
 ```
+
 
 ## See also
 

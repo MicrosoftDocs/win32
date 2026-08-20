@@ -53,7 +53,8 @@ uint result = WaveActiveCountBits( bBit );
 Instead of:
 
 ``` syntax
-uint result = countbits( WaveActiveBallot( bBit ) );
+uint4 bits = countbits( WaveActiveBallot( bBit ) );
+uint result = bits.x + bits.y + bits.z + bits.w;
 ```
 
 This function is supported from shader model 6.0 in all shader stages. 
