@@ -4,7 +4,7 @@ description: Learn how to use the WMI command-line (WMIC) utility as a command-l
 ms.assetid: a0f5c1e2-9a4d-4c2b-b324-58ec01e67b6e
 ms.tgt_platform: multiple
 ms.topic: reference
-ms.date: 07/15/2024
+ms.date: 08/20/2026
 ---
 
 # WMIC: WMI command-line utility
