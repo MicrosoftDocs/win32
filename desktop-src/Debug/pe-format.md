@@ -780,6 +780,11 @@ The following relocation type indicators are defined for the Mitsubishi M32R pro
 | IMAGE\_REL\_M32R\_TOKEN <br/>    | 0x000E <br/> | The CLR token. <br/>                                                                                                                                                                                                                                                                                                                                                                                    |
 
 
+ 
+
+##### RISC-V Processors
+
+The following relocation type indicators are defined for RISC-V processors.
 
  
 
