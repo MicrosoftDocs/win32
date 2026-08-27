@@ -30,6 +30,7 @@ The following properties are specific to audio endpoint devices.
 | [**PKEY\_AudioEndpoint\_FullRangeSpeakers**](pkey-audioendpoint-fullrangespeakers.md) | Specifies the channel-configuration mask for the full-range speakers that are connected to the audio endpoint device. |
 | [**PKEY\_AudioEndpoint\_GUID**](pkey-audioendpoint-guid.md) | Supplies the DirectSound device identifier that corresponds to the audio endpoint device. |
 | [**PKEY\_AudioEndpoint\_PhysicalSpeakers**](pkey-audioendpoint-physicalspeakers.md) | Defines the physical speaker configuration for the audio endpoint device. |
+| [**PKEY\_AudioEndpoint\_StableId**](pkey-audioendpoint-stableid.md) | Supplies an opaque, case-sensitive identifier for an audio endpoint that Windows attempts to preserve across operating system and audio driver updates. Apps can use this identifier to pick the same audio endpoint across updates. |
 | [**PKEY\_AudioEngine\_DeviceFormat**](pkey-audioengine-deviceformat.md) | Specifies the device format, which is the format that the audio engine uses for the shared-mode stream that flows to or from the audio endpoint device. |
 | [**PKEY\_AudioEngine\_OEMFormat**](pkey-audioengine-oemformat.md) | Specifies the default format of the device that is used for rendering or capturing a stream. The values are populated by the OEM in an .inf file. |
 | [**PKEY\_AudioEndpoint\_Supports\_EventDriven\_Mode**](pkey-audioendpoint-supports-eventdriven-mode.md) | Indicates whether the endpoint supports the event-driven mode. The values are populated by the OEM in an .inf file. |
