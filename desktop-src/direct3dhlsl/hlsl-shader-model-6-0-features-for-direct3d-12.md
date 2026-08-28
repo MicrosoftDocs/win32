@@ -76,7 +76,7 @@ This set of intrinsics compare values across threads currently active from the c
 |-|-|-|-|
 | [**WaveActiveAnyTrue**](waveanytrue.md) | Returns true if the expression is true in any active lane in the current wave. | \* | \* |
 | [**WaveActiveAllTrue**](wavealltrue.md) | Returns true if the expression is true in all active lanes in the current wave. | \* | \* |
-| [**WaveActiveBallot**](waveballot.md) | Returns a 64-bit unsigned integer bitmask of the evaluation of the Boolean expression for all active lanes in the specified wave. | \* | \* |
+| [**WaveActiveBallot**](waveballot.md) | Returns a `uint4` containing a bitmask of the evaluation of the Boolean expression for all active lanes in the current wave. | \* | \* |
 
 ### Wave Broadcast
 
@@ -101,7 +101,7 @@ These intrinsics compute the specified operation across all active lanes in the 
 | [**WaveActiveMax**](waveallmax.md) | Computes the maximum value of the expression across all active lanes in the current wave, and replicates the result to all lanes in the wave. | \* | \* |
 | [**WaveActiveMin**](waveallmin.md) | Computes the minimum value of the expression across all active lanes in the current wave, and replicates the result to all lanes in the wave. | \* | \* |
 | [**WaveActiveProduct**](waveallproduct.md) | Multiplies the values of the expression together across all active lanes in the current wave, and replicates the result to all lanes in the wave. | \* | \* |
-| [**WaveActiveSum**](waveallsum.md) | Sums up the value of the expression across all active lanes in the current wave and replicates it to all lanes in the current wave, and replicates the result to all lanes in the wave. | \* | \* |
+| [**WaveActiveSum**](waveallsum.md) | Sums the values of the expression across all active lanes in the current wave and replicates the result to all active lanes. | \* | \* |
 
 ### Wave Scan and Prefix
 
@@ -128,14 +128,14 @@ v
 Y 
 
 
-These routines work in either compute shaders or pixel shaders. In compute shaders they operate in quads defined as evenly divided groups of 4 within an SIMD wave. In pixel shaders they should be used on waves captured by WaveQuadLanes, otherwise results are undefined.
+In shader model 6.0, these routines are available in pixel and compute shaders. In pixel shaders, they should be used on waves captured by WaveQuadLanes; otherwise, results are undefined. In compute shaders targeting shader model 6.0 through 6.5, the mapping of threads to quads is implementation-dependent. Shader model 6.6 defines the quad layout in terms of the shader's thread-group dimensions and adds support for these routines in amplification and mesh shaders.
 
-| **Intrinsic** | **Description** | **Pixel shader** | **Compute shader** |
-|-|-|-|-|
-| [**QuadReadLaneAt**](quadreadlaneat.md) | Returns the specified source value read from the lane of the current quad identified by quadLaneID \[0..3\] which must be uniform across the quad. | \* | |
-| [**QuadReadAcrossDiagonal**](quadreadacrossdiagonal.md) | Returns the specified local value which is read from the diagonally opposite lane in this quad. | \* | |
-| [**QuadReadAcrossX**](quadswapx.md) | Returns the specified source value read from the other lane in this quad in the X direction. | \* | |
-| [**QuadReadAcrossY**](quadswapy.md) | Returns the specified source value read from the other lane in this quad in the Y direction. | \* | |
+| **Intrinsic** | **Description** | **Pixel shader** | **Compute shader** | **Amplification shader** | **Mesh shader** |
+|-|-|-|-|-|-|
+| [**QuadReadLaneAt**](quadreadlaneat.md) | Returns the specified source value read from the lane of the current quad identified by quadLaneID \[0..3\] which must be uniform across the quad. | \* | \* | Requires SM 6.6 | Requires SM 6.6 |
+| [**QuadReadAcrossDiagonal**](quadreadacrossdiagonal.md) | Returns the specified local value which is read from the diagonally opposite lane in this quad. | \* | \* | Requires SM 6.6 | Requires SM 6.6 |
+| [**QuadReadAcrossX**](quadswapx.md) | Returns the specified source value read from the other lane in this quad in the X direction. | \* | \* | Requires SM 6.6 | Requires SM 6.6 |
+| [**QuadReadAcrossY**](quadswapy.md) | Returns the specified source value read from the other lane in this quad in the Y direction. | \* | \* | Requires SM 6.6 | Requires SM 6.6 |
 
 ## Hardware capability
 

@@ -31,7 +31,7 @@ This function has no parameters.
 
 ## Return value
 
-The result will be between 4 and 128, and includes all waves: active, inactive, and/or helper lanes. The result returned from this function may vary significantly depending on the driver implementation.
+The number of lanes in the current wave. The result is between 4 and 128 and includes active, inactive, and helper lanes. The returned value can vary depending on the driver implementation.
 
 ## Remarks
 
