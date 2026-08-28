@@ -24,7 +24,7 @@ To post this message, call the [**PostMessage**](/windows/desktop/api/winuser/nf
 
 
 ```C++
-#define WM_DDE_DATA        0x03E05
+#define WM_DDE_DATA        0x03E5
 ```
 
 
