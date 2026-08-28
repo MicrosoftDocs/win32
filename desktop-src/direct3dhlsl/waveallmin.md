@@ -1,6 +1,6 @@
 ---
 title: WaveActiveMin function
-description: Returns the minimum value of the expression across all active lanes in the current wave replicates it back to all active lanes.
+description: Returns the minimum value of the expression across all active lanes in the current wave and replicates it back to all active lanes.
 ms.assetid: BA762C02-894C-4AF9-A226-C1E3AAC286FF
 keywords:
 - WaveActiveMin function HLSL
@@ -17,7 +17,7 @@ api_location:
 
 # WaveActiveMin function
 
-Returns the minimum value of the expression across all active lanes in the current wave replicates it back to all active lanes.
+Returns the minimum value of the expression across all active lanes in the current wave and replicates it back to all active lanes.
 
 ## Syntax
 
