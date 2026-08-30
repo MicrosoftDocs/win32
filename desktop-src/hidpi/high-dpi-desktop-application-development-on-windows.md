@@ -238,7 +238,7 @@ When an HWND or process is running as either DPI unaware or system DPI aware, it
 
 When you update your desktop application to DPI scale properly, it can be difficult to know which API calls can return virtualized values based on the thread context; this information is not currently sufficiently documented by Microsoft. Be aware that if you call any system API from a DPI-unaware or system-DPI-aware thread context, the return value might be virtualized. As such, make sure your thread is running in the DPI context you expect when interacting with the screen or individual windows. When temporarily changing a thread's DPI context using [SetThreadDpiAwarenessContext](/windows/desktop/api/Winuser/nf-winuser-setthreaddpiawarenesscontext), be sure to restore the old context when you're done to avoid causing incorrect behavior elsewhere in your application.
 
-**Many Windows APIs do not have an DPI context**
+**Many Windows APIs do not have a DPI context**
 
 Many legacy Windows APIs do not include a DPI or HWND context as part of their interface. As a result, developers often have to do additional work to handle the scaling of any DPI-sensitive information, such as sizes, points, or icons. As an example, developers using [LoadIcon](/windows/desktop/api/winuser/nf-winuser-loadiconw) must either bitmap stretch loaded icons or use alternate APIs to load correctly-sized icons for the appropriate DPI, such as [LoadImage](/windows/desktop/api/winuser/nf-winuser-loadimagew).
 
