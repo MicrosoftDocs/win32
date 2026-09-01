@@ -66,6 +66,8 @@
       href: /windows/desktop/api/winuser/nf-winuser-getthreaddpihostingbehavior
     - name: "GetWindowDpiHostingBehavior"
       href: /windows/desktop/api/winuser/nf-winuser-getwindowdpihostingbehavior
+    - name: "SetThreadCursorCreationScaling"
+      href: /windows/win32/api/winuser/nf-winuser-setthreadcursorcreationscaling
     - name: "DPI_AWARENESS"
       href: /windows/desktop/api/windef/ne-windef-dpi_awareness
     - name: "DPI_AWARENESS_CONTEXT"
