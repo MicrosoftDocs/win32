@@ -3,7 +3,7 @@ description: Allowing users to cancel I/O requests that are slow or blocked can 
 ms.assetid: adfe6d05-f30b-40a1-b3b0-58e2593e7b25
 title: Canceling Pending I/O Operations
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 08/02/2026
 ---
 
 # Canceling Pending I/O Operations
@@ -14,6 +14,26 @@ Windows Vista extends the cancellation capabilities and includes support for ca
 
 >[!NOTE]
 >Calling the [CancelIoEx](cancelioex-func.md) function does not guarantee that an I/O operation will be canceled; the driver which is handling the operation must support cancellation and the operation must be in a state that can be canceled.
+
+## Canceling Write Operations
+
+Cancellation of write operations has additional complications. If a write is canceled before the write operation begins (for example, while it is waiting in a [kernel-side queue](/windows-hardware/drivers/kernel/points-to-consider-when-canceling-irps#current-state-of-the-input-irp)), cancellation of the write behaves the same as cancellation of any other operation. However, if a write has already started when cancellation is issued, the write may be partially observed before it is canceled. How this partial success is reported to user mode is driver-dependent and may differ between Windows versions.
+
+The following table provides an overview of how partial write success is observed depending on the I/O object in question:
+
+| I/O object | Reported as | Successful bytes reported | Notes |
+| --- | --- | --- | --- |
+| [Local byte-type named pipe](/windows/win32/ipc/named-pipes) (write fits in the pipe's outbound buffer) | Normal completion | Not applicable | The data is copied to the pipe's internal buffer and the write completes immediately, for both [synchronous and overlapped](/windows/win32/ipc/synchronous-and-overlapped-input-and-output) submission; there is no in-flight window in which cancellation could take effect. |
+| [Local byte-type named pipe](/windows/win32/ipc/named-pipes) (write larger than the pipe's outbound buffer) | Cancellation | No | The write remains in flight - pending if overlapped, blocking if synchronous - and the reader is served directly from the writer's buffer. Cancellation ([CancelIoEx](cancelioex-func.md) for a pended write, [CancelSynchronousIo](/windows/win32/api/ioapiset/nf-ioapiset-cancelsynchronousio) for a blocking one) has the same outcome on both paths: the write fails with `ERROR_OPERATION_ABORTED` and reports 0 bytes written even when the reader has already consumed part of the data, and the unconsumed remainder is withdrawn from the pipe. The pipe itself remains open and usable; the writer cannot determine how much of the write the reader received. |
+| [NTFS](/windows/win32/fileio/file-systems) | Cancellation or normal completion | No if canceled | Once the write has started, cancellation generally loses the race and the write completes normally rather than as a short write. |
+| TCP stream ([`WSASend`](/windows/win32/api/winsock2/nf-winsock2-wsasend)) | Cancellation | No | The reported transfer count is 0 even when the peer has already received part of the data. Depending on the state of the send request, the kernel may reset (RST) the connection; subsequent operations can then fail with `WSAECONNABORTED` on the canceling side and `WSAECONNRESET` on the peer. Continued use of a socket after canceling an outstanding overlapped operation is [undefined](/windows/win32/winsock/overlapped-i-o-and-event-objects-2). |
+| [`Serial.sys`](/windows-hardware/drivers/serports/) | Cancellation | No | |
+| [SerCx](/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx_transmit_cancel) | Cancellation | Yes | |
+| [SerCx2](/windows-hardware/drivers/serports/sercx2-handling-of-read-and-write-requests) | Short write | Yes | The count can be approximate for some system DMA hardware. |
+| [USB bulk or interrupt URB](/windows-hardware/drivers/ddi/usb/ns-usb-_urb_bulk_or_interrupt_transfer) | Cancellation | Yes | The transfer count is reported in the URB; whether it reaches user mode depends on the USB client driver and completion API. |
+| [Windows SMB client (SMB 2 and 3)](/openspecs/windows_protocols/ms-smb2/4287490c-602c-41c0-a23e-140a1f137832) | Cancellation | Yes, for completed chunks | An individually [canceled SMB2 WRITE](/openspecs/windows_protocols/ms-smb2/57bae3d3-5dd7-4a5f-92cb-fc52e2087dad) returns an error response rather than a [WRITE response with a byte count](/openspecs/windows_protocols/ms-smb2/7b80a339-f4d3-4575-8ce2-70a06f24f133); the Windows client can preserve counts from earlier completed chunks of the same application write. |
+
+If the number of successful bytes is not reported, the completion API might instead report `0` (for example, in `dwNumberOfBytesTransfered` of [FileIOCompletionRoutine](/windows/win32/api/minwinbase/nc-minwinbase-lpoverlapped_completion_routine)) or leave its byte-count output unchanged (as [WSAGetOverlappedResult](/windows/win32/api/winsock2/nf-winsock2-wsagetoverlappedresult) does on failure). [GetQueuedCompletionStatus](/windows/win32/api/ioapiset/nf-ioapiset-getqueuedcompletionstatus) can return a byte count supplied with a failed I/O completion packet.
 
 ## Cancellation Considerations
 
@@ -59,11 +79,11 @@ BOOL DoCancelableRead(HANDLE hFile,
 //
 //      lpBuffer - A pointer to the buffer to store the data being read.
 //
-//      nNumberOfBytesToRead - The number of bytes to read from the file or 
+//      nNumberOfBytesToRead - The number of bytes to read from the file or
 //          device. Must be less than or equal to the actual size of
 //          the buffer referenced by lpBuffer.
 //
-//      lpNumberOfBytesRead - A pointer to a DWORD to receive the number 
+//      lpNumberOfBytesRead - A pointer to a DWORD to receive the number
 //          of bytes read after all I/O is complete or canceled.
 //
 //      lpOverlapped - A pointer to a preconfigured OVERLAPPED structure that
@@ -73,7 +93,7 @@ BOOL DoCancelableRead(HANDLE hFile,
 //
 //      dwTimeout - The desired time-out, in milliseconds, for the I/O read.
 //          After this time expires, the I/O is canceled.
-// 
+//
 //      pbCancelCalled - A pointer to a Boolean to notify the caller if this
 //          routine attempted to perform an I/O cancel.
 //
@@ -98,20 +118,20 @@ BOOL DoCancelableRead(HANDLE hFile,
                   lpNumberOfBytesRead,
                   lpOverlapped );
 
-    if (result == FALSE) 
+    if (result == FALSE)
     {
-        if (GetLastError() != ERROR_IO_PENDING) 
+        if (GetLastError() != ERROR_IO_PENDING)
         {
             // The function call failed. ToDo: Error logging and recovery.
-            return FALSE; 
+            return FALSE;
         }
-    } 
-    else 
+    }
+    else
     {
         // The I/O completed, done.
         return TRUE;
     }
-        
+
     // The I/O is pending, so wait and see if the call times out.
     // If so, cancel the I/O using the CancelIoEx function.
 
@@ -134,13 +154,13 @@ BOOL DoCancelableRead(HANDLE hFile,
         }
     }
 
-    if (bIoComplete == FALSE) 
+    if (bIoComplete == FALSE)
     {
         result = CancelIoEx( hFile, lpOverlapped );
-        
+
         *pbCancelCalled = TRUE;
 
-        if (result == TRUE || GetLastError() != ERROR_NOT_FOUND) 
+        if (result == TRUE || GetLastError() != ERROR_NOT_FOUND)
         {
             // Wait for the I/O subsystem to acknowledge our cancellation.
             // Depending on the timing of the calls, the I/O might complete with a
@@ -148,14 +168,14 @@ BOOL DoCancelableRead(HANDLE hFile,
             // in the process of completing at the time CancelIoEx was called, or if
             // the device does not support cancellation).
             // This call specifies TRUE for the bWait parameter, which will block
-            // until the I/O either completes or is canceled, thus resuming execution, 
-            // provided the underlying device driver and associated hardware are functioning 
-            // properly. If there is a problem with the driver it is better to stop 
+            // until the I/O either completes or is canceled, thus resuming execution,
+            // provided the underlying device driver and associated hardware are functioning
+            // properly. If there is a problem with the driver it is better to stop
             // responding here than to try to continue while masking the problem.
 
             result = GetOverlappedResult( hFile, lpOverlapped, lpNumberOfBytesRead, TRUE );
 
-            // ToDo: check result and log errors. 
+            // ToDo: check result and log errors.
         }
     }
 
@@ -182,7 +202,7 @@ The following example shows two routines:
     >In this example, since the cancellation could have occurred anywhere in the sequence of operations, it may be necessary for the caller to ensure that the state is consistent, or at least understood, before proceeding.
 
 ```C++
-// User-defined codes for the message-pump, which is outside the scope 
+// User-defined codes for the message-pump, which is outside the scope
 // of this sample. Windows messaging and message pumps are well-documented
 // elsewhere.
 #define WM_MYSYNCOPS    1
@@ -193,9 +213,9 @@ VOID SynchronousIoWorker( VOID *pv )
 {
     LPCSTR lpFileName = (LPCSTR)pv;
     HANDLE hFile;
-    g_dwOperationInProgress = TRUE;    
+    g_dwOperationInProgress = TRUE;
     g_CompletionStatus = ERROR_SUCCESS;
-     
+
     hFile = CreateFileA(lpFileName,
                         GENERIC_READ,
                         0,
@@ -205,25 +225,25 @@ VOID SynchronousIoWorker( VOID *pv )
                         NULL);
 
 
-    if (hFile != INVALID_HANDLE_VALUE) 
+    if (hFile != INVALID_HANDLE_VALUE)
     {
         BOOL result = TRUE;
-        // TODO: CreateFile succeeded. 
+        // TODO: CreateFile succeeded.
         // Insert your code to make more synchronous calls with hFile.
         // The result variable is assumed to act as the error flag here,
         // but can be whatever your code needs.
-        
-        if (result == FALSE) 
+
+        if (result == FALSE)
         {
             // An operation failed or was canceled. If it was canceled,
             // GetLastError() returns ERROR_OPERATION_ABORTED.
 
-            g_CompletionStatus = GetLastError();            
+            g_CompletionStatus = GetLastError();
         }
-             
+
         CloseHandle(hFile);
-    } 
-    else 
+    }
+    else
     {
         // CreateFile failed or was canceled. If it was canceled,
         // GetLastError() returns ERROR_OPERATION_ABORTED.
@@ -231,7 +251,7 @@ VOID SynchronousIoWorker( VOID *pv )
     }
 
     g_dwOperationInProgress = FALSE;
-}  
+}
 
 LRESULT
 CALLBACK
@@ -247,11 +267,11 @@ MainUIThreadMessageHandler(HWND hwnd,
 
     //  Insert your initializations here.
 
-    switch (uMsg) 
+    switch (uMsg)
     {
-        // User requested an operation on a file.  Insert your code to 
+        // User requested an operation on a file.  Insert your code to
         // retrieve filename from parameters.
-        case WM_MYSYNCOPS:    
+        case WM_MYSYNCOPS:
             syncThread = CreateThread(
                           NULL,
                           0,
@@ -260,15 +280,15 @@ MainUIThreadMessageHandler(HWND hwnd,
                           0,
                           NULL);
 
-            if (syncThread == INVALID_HANDLE_VALUE) 
+            if (syncThread == INVALID_HANDLE_VALUE)
             {
                 // Insert your code to handle the failure.
             }
         break;
-    
+
         // User clicked a cancel button.
         case WM_MYCANCEL:
-            if (syncThread != INVALID_HANDLE_VALUE) 
+            if (syncThread != INVALID_HANDLE_VALUE)
             {
                 CancelSynchronousIo(syncThread);
             }
@@ -276,22 +296,22 @@ MainUIThreadMessageHandler(HWND hwnd,
 
         // User requested other operations.
         case WM_PROCESSDATA:
-            if (!g_dwOperationInProgress) 
+            if (!g_dwOperationInProgress)
             {
-                if (g_CompletionStatus == ERROR_OPERATION_ABORTED) 
+                if (g_CompletionStatus == ERROR_OPERATION_ABORTED)
                 {
                     // Insert your cleanup code here.
-                } 
+                }
                 else
                 {
                     // Insert code to handle other cases.
                 }
             }
         break;
-    } 
+    }
 
     return TRUE;
-} 
+}
 ```
 
 ## Related topics
