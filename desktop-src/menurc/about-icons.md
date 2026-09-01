@@ -66,28 +66,28 @@ See [Icon scaling](/windows/apps/design/style/iconography/app-icon-construction#
 
 ### System icon sizes
 
-System icon sizes are reported by [**GetSystemMetrics**](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) and scale with the display DPI.
+System icon sizes are reported by [**GetSystemMetrics**](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) and scale linearly with DPI - unlike cursor sizes, which change in discrete steps.
 
-| Size | Metric | 96 DPI | 150% (144 DPI) | 200% (192 DPI) | Description |
-|---|---|---|---|---|---|
-| System small | **SM\_CXSMICON** / **SM\_CYSMICON** | 16x16 | 24x24 | 32x32 | Menus, notification area, Explorer list view |
-| System large | **SM\_CXICON** / **SM\_CYICON** | 32x32 | 48x48 | 64x64 | ICON\_BIG (WM\_SETICON / WM\_GETICON), Alt+Tab (legacy/fallback) |
+| Size | Metric | 96 DPI (100%) | 384 DPI (400%) | Description |
+|---|---|---|---|---|
+| System small | **SM\_CXSMICON** / **SM\_CYSMICON** | 16x16 | 64x64 | Menus, notification area, Explorer list view |
+| System large | **SM\_CXICON** / **SM\_CYICON** | 32x32 | 128x128 | ICON\_BIG (WM\_SETICON / WM\_GETICON), Alt+Tab (legacy/fallback) |
 
 The [**CreateIconFromResource**](/windows/win32/api/winuser/nf-winuser-createiconfromresource), [**DrawIcon**](/windows/win32/api/winuser/nf-winuser-drawicon), [**ExtractAssociatedIcon**](/windows/win32/api/shellapi/nf-shellapi-extractassociatediconw), [**ExtractIcon**](/windows/win32/api/shellapi/nf-shellapi-extracticonw), [**ExtractIconEx**](/windows/win32/api/shellapi/nf-shellapi-extracticonexw), and [**LoadIcon**](/windows/win32/api/winuser/nf-winuser-loadiconw) functions all use the system large icon size. The [**CreateIcon**](/windows/win32/api/winuser/nf-winuser-createicon), [**CreateIconFromResourceEx**](/windows/win32/api/winuser/nf-winuser-createiconfromresourceex), [**CreateIconIndirect**](/windows/win32/api/winuser/nf-winuser-createiconindirect), and [**LoadImage**](/windows/win32/api/winuser/nf-winuser-loadimagew) functions can work with icons at any size.
 
-To retrieve system icon sizes, call [**GetSystemMetrics**](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) with **SM\_CXSMICON** / **SM\_CYSMICON** for the small size, or **SM\_CXICON** / **SM\_CYICON** for the large size. In per-monitor DPI-aware applications, use [**GetSystemMetricsForDpi**](/windows/win32/api/winuser/nf-winuser-getsystemmetricsfordpi) with the DPI of the target monitor instead, so the returned size reflects the correct display. For more information, see [High DPI Desktop Application Development on Windows](/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows).
+To retrieve system icon sizes, call [**GetSystemMetrics**](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) with **SM\_CXSMICON** / **SM\_CYSMICON** for the small size, or **SM\_CXICON** / **SM\_CYICON** for the large size. In per-monitor DPI-aware applications, use [**GetSystemMetricsForDpi**](/windows/win32/api/winuser/nf-winuser-getsystemmetricsfordpi) with the DPI of the target monitor instead, so the returned size reflects the correct display. The baseline DPI value of 96 is available as **USER\_DEFAULT\_SCREEN\_DPI** in winuser.h, useful when computing scaled sizes with **MulDiv**. For code examples, see [Getting System Icon Sizes](using-icons.md#getting-system-icon-sizes). For more information, see [High DPI Desktop Application Development on Windows](/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows).
 
 ### Shell icon sizes
 
 The shell uses a separate set of sizes for Explorer views and the system image lists, accessible via [**SHGetImageList**](/windows/win32/api/shellapi/nf-shellapi-shgetimagelistw). Call **SHGetImageList** with the appropriate **SHIL\_\*** constant, then call [**ImageList\_GetIconSize**](/windows/win32/api/commctrl/nf-commctrl-imagelist_geticonsize) on the returned image list.
 
-| SHIL constant | Source | 96 DPI | 150% (144 DPI) | 200% (192 DPI) | Description |
-|---|---|---|---|---|---|
-| **SHIL\_SMALL** (1) | SM\_CXSMICON | 16x16 | 24x24 | 32x32 | Explorer list/details view, common dialogs, window title bar icon |
-| **SHIL\_SYSSMALL** (3) | SM\_CXSMSIZE | 16x16 | 24x24 | 32x32 | Shell toolbars, status bars; tracks caption button size; equals SHIL\_SMALL at default settings |
-| **SHIL\_LARGE** (0) | SM\_CXICON | 32x32 | 48x48 | 64x64 | Explorer medium icons view, dialogs |
-| **SHIL\_EXTRALARGE** (2) | 48 logical px | 48x48 | 72x72 | 96x96 | Explorer large icons view, desktop |
-| **SHIL\_JUMBO** (4) | fixed 256 px | 256x256 | 256x256 | 256x256 | Explorer extra large icons view (Vista+); always 256 physical pixels |
+| SHIL constant | 96 DPI (100%) | 384 DPI (400%) | Description |
+|---|---|---|---|
+| **SHIL\_SMALL** (1) | 16x16 | 64x64 | Explorer list/details view, common dialogs, window title bar icon |
+| **SHIL\_SYSSMALL** (3) | 16x16 | 64x64 | Shell toolbars, status bars; tracks caption button size; may differ from **SHIL\_SMALL** when the user customizes window border and caption size |
+| **SHIL\_LARGE** (0) | 32x32 | 128x128 | Explorer medium icons view, dialogs |
+| **SHIL\_EXTRALARGE** (2) | 48x48 | 192x192 | Explorer large icons view, desktop |
+| **SHIL\_JUMBO** (4) | 256x256 | 256x256 | Explorer extra large icons view (Vista+); always 256 physical pixels |
 
 ## Icon Creation
 
@@ -107,7 +107,7 @@ To set or update a specific window's icon at run time, send [**WM\_SETICON**](/w
 
 ## Icon Display
 
-You can retrieve the image and size of an icon by using the [**GetIconInfo**](/windows/win32/api/winuser/nf-winuser-geticoninfo) function - see [Getting the Icon size](using-icons.md#getting-the-icon-size) for an example. You can draw the icon by using the [**DrawIconEx**](/windows/win32/api/winuser/nf-winuser-drawiconex) function.
+You can retrieve the image and size of an icon by using the [**GetIconInfo**](/windows/win32/api/winuser/nf-winuser-geticoninfo) function - see [Getting Icon Size from Handle](using-icons.md#getting-icon-size-from-handle) for an example. You can draw the icon by using the [**DrawIconEx**](/windows/win32/api/winuser/nf-winuser-drawiconex) function.
 
 To display an icon in a static control, send [**STM\_SETIMAGE**](/windows/win32/controls/stm-setimage) with **IMAGE\_ICON** and the icon handle:
 
