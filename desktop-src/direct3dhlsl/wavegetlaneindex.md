@@ -31,7 +31,7 @@ This function has no parameters.
 
 ## Return value
 
-The current lane index. The result will be between 0 and the result returned from [**WaveGetLaneCount**](wavegetlanecount.md).
+The index of the current lane. The result is greater than or equal to zero and less than the value returned by [**WaveGetLaneCount**](wavegetlanecount.md).
 
 ## Remarks
 
