@@ -1,8 +1,8 @@
 ---
 title: Windows API sets
-description: API sets are functional groups of Win32 APIs in the core OS. They provide an architectural separation from the host DLL in which a given Win32 API is defined and the functional group to which the API belongs.
+description: API sets are functional groups of Win32 APIs in the core OS. They provide an architectural separation between the host DLL in which a given Win32 API is implemented and the functional contract to which the API belongs.
 ms.topic: concept-article
-ms.date: 05/31/2023
+ms.date: 09/03/2026
 ---
 
 # Windows API sets
@@ -12,61 +12,83 @@ ms.date: 05/31/2023
 
 All versions of Windows share a common base of operating system (OS) components that's called the *core OS* (in some contexts this common base is also called *OneCore*). In core OS components, Win32 APIs are organized into functional groups called *API sets*.
 
-The purpose of an API set is to provide an architectural separation from the host DLL in which a given Win32 API is implemented, and the functional contract to which the API belongs. The decoupling that API sets provide between implementation and contracts offers many engineering advantages for developers. In particular, using API sets in your code can improve compatibility with Windows devices.
+The purpose of an API set is to provide an architectural separation between the host DLL in which a given Win32 API is implemented, and the functional contract to which the API belongs. The decoupling that API sets provide between implementation and contracts offers many engineering advantages for developers. In particular, using API sets in your code can improve compatibility with Windows devices.
 
 API sets specifically address the following scenarios:
 
-- Although the full breadth of the Win32 API is supported on PCs, only a subset of the Win32 API is available on other Windows devices such as HoloLens, Xbox, and other devices. The API set name provides a query mechanism to cleanly detect whether an API is available on any given device.
+- Although the full breadth of the Win32 API is supported on PCs, only a subset of the Win32 API is available on other Windows devices such as HoloLens, Xbox, and other devices. An API set name gives you a stable thing to ask about, so that your app can detect at run time whether a capability is available on the current device. The query itself is performed by the [IsApiSetImplemented](/windows/win32/api/apiquery2/nf-apiquery2-isapisetimplemented) function.
 
-- Some Win32 API implementations exist in DLLs with different names across different Windows devices. Using API set names instead of DLL names when detecting API availability and delay loading APIs provide a correct route to the implementation no matter where the API is actually implemented.
+- Some Win32 API implementations exist in DLLs with different names across different Windows devices. Using API set names instead of DLL names when detecting API availability and delay loading APIs provides a correct route to the implementation no matter where the API is actually implemented.
 
 For more details, see [API set loader operation](api-set-loader-operation.md) and [Detect API set availability](detect-api-set-availability.md).
 
-## Are API sets and dlls the same thing?
+## Are API sets and DLLs the same thing?
 
-No&mdash;an API set name is a *virtual alias* for a physical `.dll` file. It's an implementation-hiding technique, where you as the caller don't have to know exactly which module is hosting the information.
+No&mdash;an API set name identifies a *contract*, not a file. At run time the loader resolves that contract through the API set schema on the current device, and routes the reference to the DLL that hosts the implementation. It's an implementation-hiding technique, where you as the caller don't have to know exactly which module is hosting the information.
 
-The technique allows modules to be refactored (split apart, consolidated, renamed, and so on) on different Windows versions and editions. And your apps still link, and still get routed to the correct code at runtime.
+The technique allows modules to be refactored (split apart, consolidated, renamed, and so on) on different Windows versions and editions. And your apps still link, and still get routed to the correct code at run time.
 
-So why do API sets have `.dll` in their names? The reason is the way the *DLL loader* is implemented. The loader is the part of the OS that loads DLLs and/or resolves references to DLLs. And at the front end, the loader requires any string passed to [LoadLibrary](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) to be terminated with ".dll". But after that front end, the loader can strip away that suffix, and query the API set database with the resulting string.
+So why do API sets have `.dll` in their names? The reason is the way the *DLL loader* is implemented. The loader is the part of the OS that loads DLLs and/or resolves references to DLLs. And at the front end, the loader requires any string passed to [LoadLibrary](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryw) to be terminated with ".dll". But after that front end, the loader can strip away that suffix, and query the API set schema with the resulting string.
 
-**LoadLibrary** (and delay load) succeeds with an API set name (with the ".dll" in it); but there isn't necessarily an actual file with that name anywhere on the PC.
+You can pass an API set name (with the ".dll" in it) to **LoadLibrary**, or use it as a delay-load target. The operation succeeds when the schema on the current device maps that contract to a usable host; there isn't necessarily an actual file with that name anywhere on the PC. If the contract isn't mapped on the current device, a direct **LoadLibrary** fails. A delay-loaded reference behaves differently: the process still loads, and the absence surfaces later, when the API is called.
+
+Either way, a successful link or load isn't by itself evidence that an implementation is present. To determine that, see [Detect API set availability](detect-api-set-availability.md).
 
 ## Linking umbrella libraries
 
-To make it easier to restrict your code to Win32 APIs that are supported in the core OS, we provide a series of *umbrella libraries*. For example, an umbrella library named `OneCore.lib` provides the exports for the subset of Win32 APIs that are common to all Windows devices.
+To make it easier to restrict your code to Win32 APIs that are supported in the core OS, we provide a series of *umbrella libraries*. An umbrella library lets you link a single library instead of identifying the individual import library for each API that you call.
 
-For more details, see [Windows umbrella libraries](windows-umbrella-libraries.md).
+For more details, and to choose the umbrella library that matches what you're targeting, see [Windows umbrella libraries](windows-umbrella-libraries.md).
 
 ## API set contract names
 
-API sets are identified by a strong contract name that follows these standard conventions recognized by the library loader. 
+API sets are identified by a contract name that follows conventions recognized by the library loader.
 
-- The name must begin either with the string **api-** or **ext-**. 
-    - Names that begin with **api-** represent APIs that exist on all Windows editions that satisfy the API's version requirements.
-    - Names that begin with **ext-** represent APIs that may not exist on all Windows editions.
-- The name must end with the sequence **l\<n\>-\<n\>-\<n\>**, where **n** consists of decimal digits.
-- The body of the name can be alphanumeric characters, or dashes (**-**).
+All contract names share these conventions:
+
+- The name begins either with the string **api-** or **ext-**.
+- The body of the name can be alphanumeric characters, or dashes (**-**). A tilde (**~**) appears only as the separator before a group name.
 - The name is case insensitive.
 
-Here are some examples of API set contract names:
+Two forms of contract name are in use, and you can encounter either one.
 
-- **api-ms-win-core-ums-l1-1-0**
-- **ext-ms-win-com-ole32-l1-1-5**
-- **ext-ms-win-ntuser-window-l1-1-0**
-- **ext-ms-win-ntuser-window-l1-1-1**
+A *versioned contract name* ends with the sequence **l\<n\>-\<n\>-\<n\>**, where **n** consists of decimal digits&mdash;for example, `ext-ms-win-core-samplefeature-l1-1-0`. The trailing numbers identify one specific version of the contract, and a name in this form should be considered an immutable identifier for that version.
 
-You can use an API set name in the context of a loader operation such as [LoadLibrary](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) or [P/Invoke](/dotnet/standard/native-interop/pinvoke) instead of a DLL module name to ensure a correct route to the implementation no matter where the API is actually implemented on the current device. However, when you do this you must append the string **.dll** at the end of the contract name. This is a requirement of the loader to function properly, and is not considered actually a part of the contract name. Although contract names appear similar to DLL names in this context, they are fundamentally different from DLL module names and do not directly refer to a file on disk.
+A *contract alias* carries no version&mdash;for example, `api-win-core-samplefeature`. It identifies the contract itself rather than one version of it. When a contract organizes its individually available capabilities into *named groups*, a group is addressed by appending the group name to the contract alias, separated by a tilde: `api-win-core-samplefeature~AdvancedOperations`.
 
-Except for appending the string **.dll** in loader operations, API set contract names should be considered an immutable identifier that corresponds to a specific contract version.
+The `samplefeature` names used here are illustrative names for a fictional Windows component.
+
+### The api- and ext- prefixes
+
+The prefix is a naming convention. It was originally intended to distinguish contracts that are present on every qualifying edition (**api-**) from contracts that might be absent (**ext-**). That distinction wasn't consistently applied, and a contract's role can change over time without the contract being renamed.
+
+The loader assigns no significance to the prefix; it resolves **api-** and **ext-** names by the same rules. Don't infer availability from the prefix. Query it instead&mdash;see [Detect API set availability](detect-api-set-availability.md).
+
+### Using a contract name
+
+Two different kinds of operation take a contract name, and they take it in different forms.
+
+*Loader operations*&mdash;such as [LoadLibrary](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibraryw) or [P/Invoke](/dotnet/standard/native-interop/pinvoke)&mdash;take the name with the string **.dll** appended. Use a contract name in these operations instead of a DLL module name to ensure a correct route to the implementation no matter where the API is actually implemented on the current device. The **.dll** suffix is a requirement of the loader to function properly, and is not considered actually a part of the contract name. Although contract names appear similar to DLL names in this context, they are fundamentally different from DLL module names and do not directly refer to a file on disk.
+
+*Availability queries* take the name without a **.dll** suffix, in the form that matches how the API is addressed:
+
+| API surface | Query form | Example |
+|---|---|---|
+| Named group | `<contract>~<group>` | `api-win-core-samplefeature~AdvancedOperations` |
+| Default group | Contract alias, without `~Default` | `api-win-core-samplefeature` |
+| Versioned contract | Complete versioned contract name | `ext-ms-win-core-samplefeature-l1-1-0` |
+
+A group name can't be combined with a versioned contract name.
 
 ## Identifying API sets for Win32 APIs
 
 To identify whether a particular Win32 API belongs to an API set, review the requirements table in the reference documentation for the API. If the API belongs to an API set, the requirements table in the article lists the API set name and the Windows version in which the API was first introduced to the API set. For examples of APIs that belong to an API set, see these articles:
 
 - [AllowSetForegroundWindow](/windows/win32/api/winuser/nf-winuser-allowsetforegroundwindow)
-- [FindWindowsEx](/windows/win32/api/winuser/nf-winuser-findwindowexa)
+- [FindWindowEx](/windows/win32/api/winuser/nf-winuser-findwindowexa)
 - [GetClassFile](/windows/win32/api/objbase/nf-objbase-getclassfile)
+
+If the API's header supplies an `Is<APIName>Present` helper function, prefer that helper when you test for availability. It already contains the correct name for the API set or group that carries the API. For more info, see [Detect API set availability](detect-api-set-availability.md).
 
 ## In this section
 
