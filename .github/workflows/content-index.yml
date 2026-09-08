@@ -1,0 +1,44 @@
+name: Conceptual content index
+
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - ".github/content-index-config.json"
+      - ".github/content-index.jsonl"
+      - ".github/workflows/content-index.yml"
+      - "tools/content_index/**"
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.md"
+      - ".github/content-index-config.json"
+      - ".github/content-index.jsonl"
+      - ".github/workflows/content-index.yml"
+      - "tools/content_index/**"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run content index tests
+        run: python -m unittest tools.content_index.test_content_index
+      - name: Check generated index
+        run: python tools/content_index/content_index.py check
+      - name: Create duplicate candidate report
+        run: |
+          python tools/content_index/content_index.py audit \
+            --threshold 0.72 \
+            --limit 200 > content-duplicate-audit.md
+      - uses: actions/upload-artifact@v4
+        with:
+          name: content-duplicate-audit
+          path: content-duplicate-audit.md
