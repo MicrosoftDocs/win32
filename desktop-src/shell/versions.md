@@ -110,13 +110,13 @@ DWORD GetVersion(LPCTSTR lpszDllName)
             HRESULT hr;
 
             ZeroMemory(&dvi, sizeof(dvi));
-            dvi.info1.cbSize = sizeof(dvi);
+            dvi.cbSize = sizeof(dvi);
 
             hr = (*pDllGetVersion)(&dvi);
 
             if(SUCCEEDED(hr))
             {
-               dwVersion = PACKVERSION(dvi.info1.dwMajorVersion, dvi.info1.dwMinorVersion);
+               dwVersion = PACKVERSION(dvi.dwMajorVersion, dvi.dwMinorVersion);
             }
         }
         FreeLibrary(hinstDll);
