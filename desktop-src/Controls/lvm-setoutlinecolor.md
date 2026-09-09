@@ -28,7 +28,7 @@ Sets the color of the border of a list-view control if the [**LVS\_EX\_BORDERSEL
 </dt> <dd>Must be zero.</dd> <dt>
 
 *lParam* 
-</dt> <dd>**COLORREF** structure that specifies the color to set the border.</dd> </dl>
+</dt> <dd><b>COLORREF</b> structure that specifies the color to set the border.</dd> </dl>
 
 ## Return value
 
