@@ -26,6 +26,14 @@ The Known Folder system provides these advantages:
 
 The CSIDL system and APIs that make use of CSIDL values are still supported for compatibility. However, it is not recommended to use them in any new development.
 
+> [!IMPORTANT]
+> **For new code, always use [SHGetKnownFolderPath](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath) with [KNOWNFOLDERID](knownfolderid.md) constants.** The older [SHGetFolderPath](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha) and CSIDL values are deprecated and should not be used in new applications.
+>
+> When calling `SHGetKnownFolderPath`:
+> - You **must** call [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) before using this function (COM must be initialized on the calling thread).
+> - You **must** free the returned string with [CoTaskMemFree](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemfree) when done. Failure to do so causes a memory leak.
+> - For .NET applications, use [Environment.GetFolderPath](/dotnet/api/system.environment.getfolderpath) or [Windows.Storage.KnownFolders](/uwp/api/windows.storage.knownfolders) (WinRT) instead of P/Invoking shell functions directly.
+
 
 The following topics discuss the specifics of the Known Folders system.
 

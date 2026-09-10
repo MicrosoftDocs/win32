@@ -10,6 +10,9 @@ ms.date: 05/31/2018
 
 This section covers querying timestamps, and calibrating the GPU and CPU timestamp counters.
 
+> [!TIP]
+> For interactive GPU profiling and frame timing analysis, use [PIX for Windows](https://devblogs.microsoft.com/pix/). PIX provides GPU capture, timing capture, and system monitor views that correlate CPU and GPU work visually—making it the recommended starting point before writing custom timestamp query infrastructure. The [DirectX 12 Agility SDK](https://aka.ms/directx12agility) ensures you have the latest runtime features available for profiling and diagnostics regardless of OS version.
+
 ## Timestamp frequency
 
 Your application can query the GPU timestamp frequency on a per-command queue basis (refer to the [**ID3D12CommandQueue::GetTimestampFrequency**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-gettimestampfrequency) method).
@@ -25,6 +28,9 @@ A timestamp is sampled by the GPU at the moment that the GPU is finished with al
 [**GetClockCalibration**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-getclockcalibration) samples the GPU timestamp counter for a given command queue and samples the CPU counter via `QueryPerformanceCounter` at nearly the same time. Again this API fails (returning E\_FAIL) if the specified command queue does not support timestamps (see the table in the [Queries](queries.md) topic).
 
 Note that GPU and CPU timestamp counters are not necessarily directly related to the clock speed of these processors, but instead work from timestamp ticks.
+
+> [!WARNING]
+> GPU timestamp clocks can stop ticking on some hardware when the GPU is idle, so the correlation can drift. To prevent this, call [**ID3D12Device::SetStablePowerState**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-setstablepowerstate) during development (requires Developer Mode enabled).
 
 ## Timestamp queries
 

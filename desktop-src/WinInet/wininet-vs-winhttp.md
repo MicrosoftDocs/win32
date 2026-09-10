@@ -39,3 +39,24 @@ With a few exceptions, [WinINet](portal.md) is a superset of [WinHTTP](/windows/
 
 * [WinINet](/windows/desktop/WinInet/about-wininet)
 * [WinHTTP](/windows/desktop/WinHttp/winhttp-start-page)
+
+## Quick decision guide
+
+Use this flowchart to select the right HTTP client stack:
+
+1. **Is your code running in a Windows service, system process, or under impersonation?**
+   - Yes → Use **WinHTTP**.
+2. **Is your code a desktop app that needs the user's Internet Options (IE) proxy settings, cookies, or credential prompts?**
+   - Yes → Use **WinINet**.
+3. **Are you writing a modern C++ desktop or UWP/WinUI app?**
+   - Yes → Use **Windows.Web.Http** (C++/WinRT via [Windows.Web.Http namespace](/uwp/api/Windows.Web.Http)).
+4. **Are you writing a .NET application?**
+   - Yes → Use **System.Net.Http.HttpClient**.
+5. **Do you need cross-platform compatibility?**
+   - Yes → Use **libcurl** or a similar portable library.
+
+> [!NOTE]
+> **When to use neither WinINet nor WinHTTP** — If you are building a new application and don't require legacy Win32 integration, prefer the modern alternatives listed above. They offer simpler APIs and better async support. Some alternatives also offer additional benefits: libcurl and .NET HttpClient are cross-platform; TLS 1.3 availability depends on the underlying TLS stack and OS configuration. Reserve WinHTTP/WinINet for scenarios that specifically require Win32 service support, browser credential sharing, or deep proxy integration.
+
+> [!IMPORTANT]
+> **Security reminder** — Regardless of which HTTP stack you choose, never disable TLS certificate validation in production. Both WinHTTP and WinINet allow ignoring certificate errors via flags, but doing so exposes your application to man-in-the-middle attacks.

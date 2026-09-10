@@ -33,6 +33,27 @@ The following topics provide information about CNG and how to use it in your app
 | [Using CNG](using-cng.md) | Explains how to use the cryptography configuration features of CNG and typical CNG programming. |
 | [CNG Reference](cng-reference.md) | Detailed descriptions of the CNG programming elements. These pages include reference descriptions of the API for working with CNG. |
 
+## When to use CNG
+
+Use CNG when you need direct control over cryptographic operations in Windows applications. The following guidance helps you choose the appropriate API:
+
+| Scenario | Recommended API |
+|----------|-----------------|
+| Symmetric encryption/decryption (AES, ChaCha20-Poly1305) | CNG ([BCryptEncrypt](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptencrypt) / [BCryptDecrypt](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptdecrypt)) |
+| Hashing (SHA-256, SHA-384, SHA-512) | CNG ([BCryptCreateHash](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptcreatehash)) |
+| Asymmetric operations (RSA, ECDSA, ML-DSA) | CNG ([BCryptSignHash](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptsignhash), [BCryptVerifySignature](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptverifysignature)) |
+| Protecting user data at rest (per-user or per-machine scope) | [DPAPI](/windows/win32/api/Dpapi/nf-dpapi-cryptprotectdata) (simpler, no key management required) |
+| Protecting data accessible to multiple users or machines | [DPAPI-NG](cng-dpapi.md) ([NCryptProtectSecret](/windows/win32/api/NCryptprotect/nf-ncryptprotect-ncryptprotectsecret)) |
+| TLS/SSL connections | [Schannel](../SecAuthN/secure-channel.md) (uses CNG internally) |
+| Legacy code that already uses CryptoAPI | Continue with CryptoAPI for maintenance, but plan migration to CNG for new features |
+
+> [!WARNING]
+> **Common cryptographic pitfalls to avoid:**
+> - Do not use ECB block cipher mode — it leaks plaintext patterns. Use CBC with a random IV, or preferably an authenticated mode like GCM.
+> - Do not hardcode encryption keys in source code. Use key storage providers or DPAPI for key protection.
+> - Do not use MD5 or SHA-1 for integrity or security purposes. Use SHA-256 or stronger.
+> - Always validate return codes from CNG functions. A failed cryptographic operation that is silently ignored can lead to data being stored unencrypted.
+
 ## Related content
 
 [Cryptographic Provider Development Kit](https://www.microsoft.com/download/details.aspx?id=30688)

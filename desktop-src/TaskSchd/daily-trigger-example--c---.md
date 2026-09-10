@@ -353,8 +353,8 @@ int __cdecl wmain()
     cui.hwndParent = NULL;
     //  Ensure that MessageText and CaptionText identify
     //  what credentials to use and which application requires them.
-    cui.pszMessageText = TEXT("Account information for task registration:");
-    cui.pszCaptionText = TEXT("Enter Account Information for Task Registration");
+    cui.pszMessageText = TEXT("Enter the account information for the task to run as:");
+    cui.pszCaptionText = TEXT("Task Registration");
     cui.hbmBanner = NULL;
     fSave = FALSE;
 
@@ -430,7 +430,3 @@ int __cdecl wmain()
  
 
  
-
-
-
-

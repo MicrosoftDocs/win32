@@ -3,7 +3,7 @@ description: You can use a mutex object to protect a shared resource from simult
 ms.assetid: 0f69ba50-69ce-467a-b068-8fd8f07c6c78
 title: Using Mutex Objects
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Using Mutex Objects
@@ -13,6 +13,9 @@ You can use a [mutex object](mutex-objects.md) to protect a shared resource from
 The following example uses the [**CreateMutex**](/windows/win32/api/synchapi/nf-synchapi-createmutexa) function to create a mutex object and the [**CreateThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createthread) function to create worker threads.
 
 When a thread of this process writes to the database, it first requests ownership of the mutex using the [**WaitForSingleObject**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobject) function. If the thread obtains ownership of the mutex, it writes to the database and then releases its ownership of the mutex using the [**ReleaseMutex**](/windows/win32/api/synchapi/nf-synchapi-releasemutex) function.
+
+> [!WARNING]
+> **Deadlock risk with INFINITE timeout:** The example below uses `INFINITE` as the timeout parameter to **WaitForSingleObject**. In production code, this means the calling thread will block indefinitely if the owning thread deadlocks, hangs, or fails to release the mutex. Consider using a finite timeout value and implementing retry logic with diagnostic logging to detect potential deadlocks. Use tools such as the **!handle** debugger extension (e.g., `!handle <handle> f`) or Wait Chain Traversal ([**GetThreadWaitChain**](/windows/win32/api/wct/nf-wct-getthreadwaitchain)) to diagnose mutex deadlocks.
 
 This example uses structured exception handling to ensure that the thread properly releases the mutex object. The **\_\_finally** block of code is executed no matter how the **\_\_try** block terminates (unless the **\_\_try** block includes a call to the [**TerminateThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-terminatethread) function). This prevents the mutex object from being abandoned inadvertently.
 

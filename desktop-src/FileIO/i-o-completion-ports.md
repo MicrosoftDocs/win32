@@ -3,13 +3,25 @@ description: I/O completion ports provide an efficient threading model for proce
 ms.assetid: 213c48e8-bb21-43ed-9c00-2a5cf8ac25f0
 title: I/O Completion Ports
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/18/2025
 # customer intent: As a Windows app developer, I want to use I/O completion ports to efficiently handle multiple asynchronous I/O requests in my application, so that I can improve performance and responsiveness.
 ---
 
 # I/O completion ports
 
 I/O completion ports provide an efficient threading model for processing multiple asynchronous I/O requests on a multiprocessor system. When a process creates an I/O completion port, the system creates an associated queue object for threads whose sole purpose is to service these requests. Processes that handle many concurrent asynchronous I/O requests can do so more quickly and efficiently by using I/O completion ports in conjunction with a pre-allocated thread pool than by creating threads at the time they receive an I/O request.
+
+## When to use I/O completion ports
+
+| Scenario | Recommended approach |
+|----------|---------------------|
+| High-performance server handling hundreds/thousands of concurrent connections | **I/O completion ports** — designed specifically for this. The kernel manages thread scheduling to match CPU concurrency. |
+| Moderate concurrency (tens of async operations) | [Thread pool I/O](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolio) (`CreateThreadpoolIo`) — simpler API, manages the IOCP internally. Prefer for new code that doesn't need manual thread control. |
+| Simple async file operations in modern C++ | C++20 coroutines with a custom IOCP dispatcher, or .NET `FileStream` with `async`/`await`. |
+| Single-threaded or low-volume I/O | Synchronous I/O or simple overlapped I/O with event signaling. IOCP adds unnecessary complexity for single-stream scenarios. |
+
+> [!NOTE]
+> **Thread pool API vs raw IOCP**: The Windows thread pool API ([CreateThreadpoolIo](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-createthreadpoolio), [StartThreadpoolIo](/windows/win32/api/threadpoolapiset/nf-threadpoolapiset-startthreadpoolio)) uses IOCP internally but handles thread lifecycle management automatically. For new server applications, consider the thread pool API first — it provides the same scalability with less boilerplate code. Use raw IOCP when you need explicit control over the completion port's concurrency value or custom thread management.
 
 ## How I/O completion ports work
 

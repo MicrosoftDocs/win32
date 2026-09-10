@@ -52,6 +52,15 @@ The details of how to implement specific extension handlers are covered in the s
 -   [Initializing Shell Extension Handlers](int-shell-exts.md)
 -   [Registering Shell Extension Handlers](reg-shell-exts.md)
 
+> [!NOTE]
+> **Security and stability considerations:** Shell extension handlers are in-process COM DLLs that load directly into the Explorer process (or any process that hosts the Shell). A crash or hang in your extension will crash or hang Explorer for all users.
+>
+> Key requirements:
+> - Register with `ThreadingModel = Apartment` — Explorer's Shell views run on an STA thread. Using `Free` or `Both` can cause subtle threading bugs.
+> - Handle DPI awareness correctly — Explorer is per-monitor DPI aware. Extensions that assume a fixed DPI will render incorrectly on multi-monitor setups.
+> - For packaged (MSIX) apps, use manifest-based registration via the [`desktop4:Extension`](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop4-extension) element or a Sparse Package instead of writing registry keys directly.
+> - Consider whether a simpler approach (static verb registration, `.reg` file association, or the [Windows.Storage.Provider](/uwp/api/windows.storage.provider) APIs) can meet your needs before implementing a full COM shell extension.
+
  
 
  

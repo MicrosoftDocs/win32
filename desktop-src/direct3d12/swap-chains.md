@@ -29,6 +29,12 @@ The order of buffers returned by [**GetBuffer**](/windows/desktop/api/dxgi/nf-dx
 
 The only supported swap effects are [**DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL**](/windows/win32/api/dxgi/ne-dxgi-dxgi_swap_effect) and [**DXGI_SWAP_EFFECT_FLIP_DISCARD**](/windows/win32/api/dxgi/ne-dxgi-dxgi_swap_effect), which requires the buffer count to be greater than one.
 
+> [!TIP]
+> For games targeting minimum input latency, create the swap chain with **DXGI_SWAP_CHAIN_FLAG_ALLOW_TEARING**, then call `Present(0, DXGI_PRESENT_ALLOW_TEARING)`. This bypasses the compositor's vsync and provides the lowest present-to-display latency. At runtime, verify tearing support by calling [**IDXGIFactory5::CheckFeatureSupport**](/windows/win32/api/dxgi1_5/nf-dxgi1_5-idxgifactory5-checkfeaturesupport) with **DXGI_FEATURE_PRESENT_ALLOW_TEARING** before using this path.
+
+> [!WARNING]
+> A common frame-pacing bug is calling `Present(1, 0)` (vsync-on) without properly synchronizing CPU work with the GPU fence. This causes the CPU to run ahead, building up a frame queue that increases input latency. Always use a frame-count fence to limit CPU frames in flight (typically to the buffer count minus one).
+
 ### Transitioning between windowed and full-screen modes
 
 Direct3D 12 doesn't support full-screen exclusive mode (FSE). Instead, when a game is the only visible application on-screen, the OS uses a strategy called full-screen optimisations (FSO) to achieve a similar effect to FSE without the performance drawbacks. For more info about FSO, see [Demystifying Fullscreen Optimisations](https://devblogs.microsoft.com/directx/demystifying-full-screen-optimizations/).
@@ -48,6 +54,9 @@ When the final part of the graphics work (for example, frame postprocessing) is 
 ### Example
 
 The following example code would be present in the main rendering loop:
+
+> [!WARNING]
+> The example below is simplified for clarity. A production game loop should decouple simulation updates from render frequency—for example by using a **fixed timestep** for simulation while rendering as fast as possible—and use a fence to limit frames in flight. Without frame-flight limiting, Present can succeed immediately on flip-model swap chains, allowing the CPU to queue frames unboundedly and inflate input latency.
 
 ```cpp
 void Present()

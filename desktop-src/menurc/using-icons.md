@@ -11,7 +11,7 @@ keywords:
 - displaying icons
 - sharing icon resources
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 09/10/2026
 ---
 
 # Using Icons
@@ -34,11 +34,15 @@ HICON hIcon2 = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_MYICON));
 
 Applications should implement custom icons as resources and use [**LoadIcon**](/windows/win32/api/winuser/nf-winuser-loadiconw) or [**LoadImage**](/windows/win32/api/winuser/nf-winuser-loadimagew) rather than create the icon at run time. Using icon resources avoids device dependence, simplifies localization, and enables applications to share icon designs.
 
-[**CreateIcon**](/windows/win32/api/winuser/nf-winuser-createicon) can be used to create a custom monochrome icon at run time. The technique is identical to the [Creating a Cursor](/windows/win32/menurc/using-cursors#creating-a-cursor) example — use the same `PackCursorMasks` helper and symbol map, replace [**CreateCursor**](/windows/win32/api/winuser/nf-winuser-createcursor) with [**CreateIcon**](/windows/win32/api/winuser/nf-winuser-createicon), and omit the hotspot parameters.
+[**CreateIcon**](/windows/win32/api/winuser/nf-winuser-createicon) can be used to create a custom monochrome icon at run time. Use the `PackCursorMasks` helper and symbol map from [Creating a Cursor](/windows/win32/menurc/using-cursors#creating-a-cursor), then create an icon with one plane and one bit per pixel:
+
+```c
+HICON hIcon = CreateIcon(hInstance, CURSOR_SIZE, CURSOR_SIZE, 1, 1, abAnd, abXor);
+```
 
 To create an alpha blended icon at run time, see [Creating an Alpha Blended Cursor](/windows/win32/menurc/using-cursors#creating-an-alpha-blended-cursor) — pass `TRUE` for `fIcon` in [**ICONINFO**](/windows/win32/api/winuser/ns-winuser-iconinfo) to create an icon instead of a cursor.
 
-Before closing, your application must use [**DestroyIcon**](/windows/win32/api/winuser/nf-winuser-destroyicon) to destroy any icon obtained from [**CreateIcon**](/windows/win32/api/winuser/nf-winuser-createicon), [**CreateIconIndirect**](/windows/win32/api/winuser/nf-winuser-createiconindirect), or [**LoadImage**](/windows/win32/api/winuser/nf-winuser-loadimagew) without the `LR_SHARED` flag. Icons loaded with [**LoadIcon**](/windows/win32/api/winuser/nf-winuser-loadiconw) or `LoadImage` with `LR_SHARED` are shared system resources and must not be destroyed.
+Before closing, your application must use [**DestroyIcon**](/windows/win32/api/winuser/nf-winuser-destroyicon) to destroy any icon obtained from [**CreateIcon**](/windows/win32/api/winuser/nf-winuser-createicon), [**CreateIconIndirect**](/windows/win32/api/winuser/nf-winuser-createiconindirect), [**CreateIconFromResourceEx**](/windows/win32/api/winuser/nf-winuser-createiconfromresourceex) without the `LR_SHARED` flag, or [**LoadImage**](/windows/win32/api/winuser/nf-winuser-loadimagew) without the `LR_SHARED` flag. Icons loaded with [**LoadIcon**](/windows/win32/api/winuser/nf-winuser-loadiconw), or created or loaded with `LR_SHARED`, are shared system resources and must not be destroyed.
 
 ## Getting the Icon size
 

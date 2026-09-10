@@ -6,7 +6,7 @@ keywords:
 - Bluetooth Bluetooth , described
 - Bluetooth Bluetooth , about
 ms.topic: concept-article
-ms.date: 07/09/2024
+ms.date: 07/16/2026
 ---
 
 # About Bluetooth
@@ -19,11 +19,22 @@ Key Bluetooth features include:
 -   A defined and familiar programming interface that developers can use to quickly develop or port applications.
 -   An official Web site and an industry-wide cooperative organization that explains, promotes, and standardizes Bluetooth technology. For more information, see [www.bluetooth.com](https://www.bluetooth.com/).
 
+## Classic Bluetooth and Bluetooth Low Energy (BLE)
+
+The Win32 Bluetooth APIs documented in this section support **classic Bluetooth** (BR/EDR) scenarios—device discovery, pairing, RFCOMM socket communication, and SDP service registration.
+
+> [!NOTE]
+> **For Bluetooth Low Energy (BLE) GATT scenarios**, use the Windows Runtime (WinRT) APIs instead:
+>
+> - [**Windows.Devices.Bluetooth.GenericAttributeProfile**](/uwp/api/windows.devices.bluetooth.genericattributeprofile) — GATT client and server operations.
+> - [**Windows.Devices.Bluetooth.Advertisement**](/uwp/api/windows.devices.bluetooth.advertisement) — BLE advertisement scanning and publishing.
+> - [**Windows.Devices.Bluetooth**](/uwp/api/windows.devices.bluetooth) — Device enumeration and pairing for BLE.
+>
+> These WinRT APIs (from the Windows SDK) can be called from C++ desktop applications via [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/). They are also accessible from [Windows App SDK](/windows/apps/windows-app-sdk/) apps. They support BLE GATT profiles commonly used by IoT sensors, fitness devices, and peripherals on Windows 10 and later.
+
 Bluetooth on Windows provides core services that are similar to those exposed by Transmission Control Protocol (the TCP part of TCP/IP). Like many networking protocols and services, Bluetooth connectivity and data transfer are programmed through Windows Sockets function calls, using common Windows Sockets programming techniques and specific Bluetooth extensions. However, because significant differences exist between a wired, fixed network and a wireless ad-hoc network, Bluetooth provides extensions such as service/device discovery and notification that enable applications to operate properly in the wireless environment. These extensions also pave the way for simple porting to similar technologies, such as IrDA, or future wireless transports.
 
-Microsoft provides support for Bluetooth on Windows XP with Service Pack 1 (SP1) and later, on Windows XP Embedded with Service Pack 2, and on Windows CE. Bluetooth applications that run on Windows XP should be able to run on a Windows XP Embedded-based run-time image that includes the required dependencies. For more information see [Windows XP Embedded](/lifecycle/products/windows-xp-embedded). For more information about Windows CE programming, consult the [Windows CE SDK](https://www.microsoft.com/download/details.aspx?id=17310).
-
-Microsoft provides two approaches for programming Bluetooth on Windows:
+Microsoft provides two approaches for programming classic Bluetooth on Windows:
 
 -   Using the Windows Sockets interface
 -   Managing devices directly by using nonsocket Bluetooth interfaces

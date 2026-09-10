@@ -3,10 +3,16 @@ description: The following example encrypts and decrypts a data BLOB using Crypt
 ms.assetid: 51607aad-9fa8-4db6-bd2a-3821dce619e7
 title: 'Example C Program: Using CryptProtectData'
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Example C Program: Using CryptProtectData
+
+> [!NOTE]
+> **DPAPI scope and limitations:**
+> - By default, `CryptProtectData` encrypts data so that only the **same user account** on the **same machine** can decrypt it. Use the `CRYPTPROTECT_LOCAL_MACHINE` flag to allow any user on the machine to decrypt.
+> - DPAPI does not protect data in transit or across machines. For cross-machine or multi-user scenarios, use [DPAPI-NG](../SecCNG/cng-dpapi.md) (`NCryptProtectSecret`/`NCryptUnprotectSecret`) or [CNG](../SecCNG/cng-portal.md) with explicit key management.
+> - If the user's password is reset by an administrator (rather than changed by the user), previously protected data may become unrecoverable unless a recovery agent or DPAPI backup key is in place.
 
 The following example encrypts and decrypts a data [*BLOB*](../secgloss/b-gly.md) using [**CryptProtectData**](/windows/desktop/api/Dpapi/nf-dpapi-cryptprotectdata) and [**CryptUnprotectData**](/windows/desktop/api/Dpapi/nf-dpapi-cryptunprotectdata).
 

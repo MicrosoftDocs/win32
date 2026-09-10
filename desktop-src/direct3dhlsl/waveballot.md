@@ -11,7 +11,7 @@ api_name:
 api_type:
 - NA
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 08/26/2026
 api_location: 
 ---
 
@@ -53,7 +53,8 @@ uint result = WaveActiveCountBits( bBit );
 Instead of:
 
 ``` syntax
-uint result = countbits( WaveActiveBallot( bBit ) );
+uint4 bits = countbits( WaveActiveBallot( bBit ) );
+uint result = bits.x + bits.y + bits.z + bits.w;
 ```
 
 This function is supported from shader model 6.0 in all shader stages. 
