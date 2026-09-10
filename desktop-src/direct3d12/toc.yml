@@ -144,6 +144,8 @@
       href: multi-engine.md
     - name: "Multi-engine synchronization"
       href: user-mode-heap-synchronization.md
+    - name: "Advanced Shader Delivery"
+      href: advanced-shader-delivery.md
     - name: "Rendering"
       href: rendering.md
       items: 

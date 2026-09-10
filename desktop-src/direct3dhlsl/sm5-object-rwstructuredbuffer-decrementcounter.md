@@ -1,5 +1,5 @@
 ---
-title: RWStructuredBuffer::DecrementCounter function (Httpserv.h)
+title: RWStructuredBuffer::DecrementCounter function
 description: Decrements the object's hidden counter.
 ms.assetid: 24bc0b63-a482-4fa5-9898-2d43bca20cf4
 keywords:
@@ -8,12 +8,10 @@ topic_type:
 - apiref
 api_name:
 - DecrementCounter
-api_location:
-- httpserv.h
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/10/2026
 ---
 
 # DecrementCounter function
@@ -59,4 +57,3 @@ This function is supported for the following types of shaders:
 </dt> </dl>
 
  
-
