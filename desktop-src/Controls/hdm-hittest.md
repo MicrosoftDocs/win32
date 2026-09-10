@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/10/2026
 ---
 
 # HDM\_HITTEST message
@@ -36,7 +36,7 @@ A pointer to an [**HDHITTESTINFO**](/windows/win32/api/commctrl/ns-commctrl-hdhi
 
 ## Return value
 
-Returns the index of the item at the specified position, if any, or   1 otherwise.
+Returns the index of the item at the specified position, if any, or -1 otherwise.
 
 ## Requirements
 
@@ -53,7 +53,6 @@ Returns the index of the item at the specified position, if any, or   1 otherwis
  
 
  
-
 
 
 

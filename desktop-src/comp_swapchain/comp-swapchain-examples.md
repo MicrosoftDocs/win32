@@ -2,7 +2,7 @@
 title: Composition swapchain code examples
 description: A collection of code examples showing various composition swapchain scenarios.
 ms.topic: reference
-ms.date: 09/10/2021
+ms.date: 09/10/2026
 ---
 
 # Composition swapchain code examples
@@ -1818,7 +1818,7 @@ void DXGIOrPresentationAPIExample()
 
     // Present 50 times.
     constexpr UINT numPresents = 50;
-    for (UINT i = 0; i < 50; i++)
+    for (UINT i = 0; i < numPresents; i++)
     {
         // Advance our present time 1/10th of a second in the future.
         presentTime.value += 1'000'000;
