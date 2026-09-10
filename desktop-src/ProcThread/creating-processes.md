@@ -3,12 +3,21 @@ description: Learn how to use the CreateProcess function, which creates a new pr
 ms.assetid: 4c3f76a3-e9f5-4d73-b5ef-eabfa9d6e4d4
 title: Create processes
 ms.topic: concept-article
-ms.date: 07/14/2025
+ms.date: 07/18/2025
 ---
 
 # Create processes
 
 The [CreateProcess](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa) function creates a new process that runs independently of the creating process. For simplicity, this relationship is called a parent-child relationship.
+
+> [!IMPORTANT]
+> **Security — handle inheritance**: Set *bInheritHandles* to `FALSE` unless the child process specifically needs access to inherited handles. Inherited handles (file handles, sockets, tokens) can leak sensitive resources to child processes. When inheritance is required, use `STARTUPINFOEX` with `UpdateProcThreadAttribute(PROC_THREAD_ATTRIBUTE_HANDLE_LIST, ...)` to explicitly list only the handles the child needs.
+
+> [!IMPORTANT]
+> **lpCommandLine must be writable**: When passing a command line as the *lpCommandLine* parameter (second parameter), the buffer **must be a writable character array** — not a string literal or `const` pointer. The Unicode version (`CreateProcessW`) may modify this buffer in place. Passing a read-only string causes an access violation.
+
+> [!NOTE]
+> **Modern alternatives**: For simpler process creation scenarios, consider [System.Diagnostics.Process](/dotnet/api/system.diagnostics.process) (.NET), `_wspawnl`/`_wsystem` (CRT), or [ShellExecuteEx](/windows/win32/api/shellapi/nf-shellapi-shellexecuteexw) (for launching documents/URLs with verb handling). Use `CreateProcess` when you need full control over handle inheritance, process attributes, security descriptors, or creation flags.
 
 The following code demonstrates how to create a process.
 

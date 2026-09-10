@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/10/2026
 ---
 
 # DecrementCounter function
@@ -57,4 +57,3 @@ This function is supported for the following types of shaders:
 </dt> </dl>
 
  
-

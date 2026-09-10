@@ -3,7 +3,7 @@ description: Event Tracing for Windows (ETW) is an efficient kernel-level tracin
 ms.assetid: 0eaa7bd3-8537-483a-b0d6-db3b790a6f3d
 title: About Event Tracing
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # About Event Tracing
@@ -71,6 +71,15 @@ All event providers fundamentally use the Event Tracing family of APIs ([TraceEv
 Consumers are applications that select one or more event tracing sessions as a source of events. A consumer can request events from multiple event tracing sessions simultaneously; the system delivers the events in chronological order. Consumers can receive events stored in log files, or from sessions that deliver events in real time. When processing events, a consumer can specify start and end times, and only events that occur in the specified time frame will be delivered. 
 
 For more information, see [Consuming Events](consuming-events.md).
+
+> [!NOTE]
+> **Analysis tools for ETW traces:** While you can consume ETW events programmatically, several tools provide rich visualization and analysis:
+> - **Windows Performance Analyzer (WPA)** — graphical tool for analyzing ETW traces captured by Windows Performance Recorder (WPR) or xperf. Ideal for CPU, disk, memory, and UI responsiveness analysis.
+> - **PerfView** — free, open-source tool from Microsoft for .NET and native performance analysis. Excels at CPU profiling, GC analysis, and wall-clock investigations using ETW.
+> - **xperf** (Windows Performance Toolkit) — command-line tool for capturing kernel and user-mode ETW traces.
+> - **tracerpt** — built-in Windows tool for generating reports from ETW log files.
+>
+> For a list of command-line tracing tools, see [Event Tracing Tools](event-tracing-tools.md).
 
 ## Missing Events
 

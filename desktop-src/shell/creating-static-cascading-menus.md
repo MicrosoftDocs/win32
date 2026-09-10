@@ -16,6 +16,9 @@ topic_type:
 
 In Windows 7 and later, cascading menu implementation is supported through registry settings. Prior to Windows 7, the creation of cascading menus was possible only through the implementation of the [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) interface. In Windows 7 and later, you should resort to Component Object Model (COM) code-based solutions only when the static methods are insufficient.
 
+> [!NOTE]
+> **For packaged (MSIX) desktop applications:** If your app is distributed as an MSIX package or uses a sparse package for identity, you can register context menu entries declaratively in the package manifest using the `desktop4:FileExplorerContextMenus` extension. This avoids per-machine COM registration and works with the Windows 11 context menu. For details, see [Integrate packaged desktop apps with File Explorer](/windows/apps/desktop/modernize/integrate-packaged-app-with-file-explorer). The approaches described below remain appropriate for unpackaged (classic) Win32 applications.
+
 The following screen shot provides an example of a cascading menu.
 
 ![screen shot showing an example of a cascading menu](images/file-assoc/filecascademenu2ndex.png)

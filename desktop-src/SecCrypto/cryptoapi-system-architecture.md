@@ -3,11 +3,14 @@ description: Explains the CryptoAPI system architecture.
 ms.assetid: 244329bb-fc71-4ab9-8831-a9478108ffa3
 title: CryptoAPI System Architecture
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ms.custom: sfi-image-nochange
 ---
 
 # CryptoAPI System Architecture
+
+> [!IMPORTANT]
+> CryptoAPI is a legacy API maintained for backward compatibility. For new application development, use [Cryptography API: Next Generation (CNG)](../SecCNG/cng-portal.md), which provides improved security defaults, algorithm agility, and support for modern cryptographic standards.
 
 The CryptoAPI system architecture is composed of five major functional areas:
 

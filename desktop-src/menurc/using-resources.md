@@ -195,7 +195,7 @@ if (FAILED(hResult))
 
 WriteFile(g_hFile,       // file to hold resource info
     szBuffer,            // what to write to the file
-    (DWORD) cbString,    // number of bytes in szBuffer
+    (DWORD) (cbString * sizeof(TCHAR)),  // number of bytes in szBuffer
     &cbWritten,          // number of bytes written
     NULL);               // no overlapped I/O
 
@@ -257,7 +257,7 @@ BOOL EnumTypesFunc(
         return FALSE;
     }
 
-    WriteFile(g_hFile, szBuffer, (DWORD) cbString, &cbWritten, NULL);
+    WriteFile(g_hFile, szBuffer, (DWORD) (cbString * sizeof(TCHAR)), &cbWritten, NULL);
     // Find the names of all resources of type lpType.
     EnumResourceNames(hModule,
         lpType,
@@ -311,7 +311,7 @@ BOOL EnumNamesFunc(
         return FALSE;
     }
    
-    WriteFile(g_hFile, szBuffer, (DWORD) cbString, &cbWritten, NULL);
+    WriteFile(g_hFile, szBuffer, (DWORD) (cbString * sizeof(TCHAR)), &cbWritten, NULL);
     // Find the languages of all resources of type
     // lpType and name lpName.
     EnumResourceLanguages(hModule,
@@ -356,7 +356,7 @@ BOOL EnumLangsFunc(
         return FALSE;
     }
 
-    WriteFile(g_hFile, szBuffer, (DWORD) cbString, &cbWritten, NULL); 
+    WriteFile(g_hFile, szBuffer, (DWORD) (cbString * sizeof(TCHAR)), &cbWritten, NULL); 
     // Write the resource handle and size to buffer.
     hResult = StringCchPrintf(szBuffer,
         sizeof(szBuffer)/sizeof(TCHAR),
@@ -376,7 +376,7 @@ BOOL EnumLangsFunc(
         return FALSE;
     }
 
-    WriteFile(g_hFile, szBuffer, (DWORD)cbString, &cbWritten, NULL);
+    WriteFile(g_hFile, szBuffer, (DWORD)(cbString * sizeof(TCHAR)), &cbWritten, NULL);
     return TRUE;
 }
 ```
