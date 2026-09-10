@@ -3,7 +3,7 @@ description: Beginning with Windows Installer 3.0, it is possible to uninstall s
 ms.assetid: 11e995b7-30c7-4992-b436-3af289ac3966
 title: Uninstalling Patches
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 09/08/2026
 ---
 
 # Uninstalling Patches
@@ -16,9 +16,9 @@ When you invoke an uninstallation of a patch by any of the following methods, th
 
 ## Uninstalling a patch using MSIPATCHREMOVE on a command line
 
-You can uninstall patches from a command by using msiexec.exe and the [Command Line Options](command-line-options.md). The following sample command line removes an [uninstallable patch](uninstallable-patches.md), example.msp, from an application, example.msi, using the [**MSIPATCHREMOVE**](msipatchremove.md) property and the /i command line option. When using /i, the patched application can be identified by the path to the application's package (.msi file) or the application's [product code](product-codes.md). In this example, the application's installation package is located at "\\\\server\\share\\products\\example\\example.msi" and the application's [**ProductCode**](productcode.md) property is "{0C9840E7-7F0B-C648-10F0-4641926FE463}". The patch package is located at "\\\\server\\share\\products\\example\\patches\\example.msp" and the patch code GUID is "{EB8C947C-78B2-85A0-644D-86CEEF8E07C0}".
+You can uninstall patches from a command by using msiexec.exe and the [Command Line Options](command-line-options.md). The following sample command line removes an [uninstallable patch](uninstallable-patches.md), example.msp, from an application, example.msi, using the [**MSIPATCHREMOVE**](msipatchremove.md) property and the /i command line option. When using /i, the patched application can be identified by the path to the application's package (.msi file) or the application's [product code](product-codes.md). In this example, the application's installation package is located at "\\\\server\\share\\products\\example\\example.msi" and the application's [**ProductCode**](productcode.md) property is "{aaaabbbb-0000-cccc-1111-dddd2222eeee}". The patch package is located at "\\\\server\\share\\products\\example\\patches\\example.msp" and the patch code GUID is "{bbbbcccc-1111-dddd-2222-eeee3333ffff}".
 
-**Msiexec /I {0C9840E7-7F0B-C648-10F0-4641926FE463} MSIPATCHREMOVE={EB8C947C-78B2-85A0-644D-86CEEF8E07C0} /qb**
+**Msiexec /I {aaaabbbb-0000-cccc-1111-dddd2222eeee} MSIPATCHREMOVE={bbbbcccc-1111-dddd-2222-eeee3333ffff} /qb**
 
 ## Uninstalling a patch using the standard command line options
 
@@ -26,7 +26,7 @@ Beginning with Windows Installer version 3.0, you can use the [standard command 
 
 The following command line is the standard command line equivalent of the Windows Installer command line used to uninstall a patch using the [**MSIPATCHREMOVE**](msipatchremove.md) property. The /uninstall option used with the /package option denotes the uninstallation of a patch. The patch can be referenced by the full path to the patch or by the patch code GUID.
 
-**Msiexec /package {0C9840E7-7F0B-C648-10F0-4641926FE463} /uninstall {EB8C947C-78B2-85A0-644D-86CEEF8E07C0} /passive**
+**Msiexec /package {aaaabbbb-0000-cccc-1111-dddd2222eeee} /uninstall {bbbbcccc-1111-dddd-2222-eeee3333ffff} /passive**
 
 > [!Note]  
 > The /passive standard option is not an exact equivalent of the Windows Installer /qb option.
@@ -35,13 +35,13 @@ The following command line is the standard command line equivalent of the Window
 
 ## Uninstalling a patch using the RemovePatches method
 
-You can uninstall patches from script by using the Windows Installer [Automation Interface](automation-interface.md). The following scripting sample removes an [uninstallable patch](uninstallable-patches.md), example.msp, from an application, example.msi, using the [**RemovePatches**](installer-removepatches.md) method of the [Installer](installer-object.md) object. Each patch being uninstalled can be represented by either the full path to the patch package or the patch code GUID. In this example, the application's installation package is located at "\\\\server\\share\\products\\example\\example.msi" and the application's [**ProductCode**](productcode.md) property is "{0C9840E7-7F0B-C648-10F0-4641926FE463}". The patch package is located at "\\\\server\\share\\products\\example\\patches\\example.msp" and the patch code GUID is "{EB8C947C-78B2-85A0-644D-86CEEF8E07C0}".
+You can uninstall patches from script by using the Windows Installer [Automation Interface](automation-interface.md). The following scripting sample removes an [uninstallable patch](uninstallable-patches.md), example.msp, from an application, example.msi, using the [**RemovePatches**](installer-removepatches.md) method of the [Installer](installer-object.md) object. Each patch being uninstalled can be represented by either the full path to the patch package or the patch code GUID. In this example, the application's installation package is located at "\\\\server\\share\\products\\example\\example.msi" and the application's [**ProductCode**](productcode.md) property is "{aaaabbbb-0000-cccc-1111-dddd2222eeee}". The patch package is located at "\\\\server\\share\\products\\example\\patches\\example.msp" and the patch code GUID is "{bbbbcccc-1111-dddd-2222-eeee3333ffff}".
 
 
 ```VB
 const msiInstallTypeSingleInstance = 2
-const PatchList = "{EB8C947C-78B2-85A0-644D-86CEEF8E07C0}"
-const Product = "{0C9840E7-7F0B-C648-10F0-4641926FE463}"
+const PatchList = "{bbbbcccc-1111-dddd-2222-eeee3333ffff}"
+const Product = "{aaaabbbb-0000-cccc-1111-dddd2222eeee}"
 
 Dim installer
 Set installer = CreateObject("WindowsInstaller.Installer")
@@ -57,13 +57,13 @@ With Windows XP, you can uninstall patches using Add/Remove programs.
 
 ## Uninstalling a patch using the MsiRemovePatches function
 
-Your applications can uninstall patches from other applications by using the [Windows Installer Functions](installer-functions.md). The following code example removes an [uninstallable patch](uninstallable-patches.md), example.msp, from an application, example.msi, using the [**MsiRemovePatches**](/windows/desktop/api/Msi/nf-msi-msiremovepatchesa) function. A patch can be referenced by the full path to the patch package or the patch code GUID. In this example, the application's installation package is located at "\\\\server\\share\\products\\example\\example.msi" and the application's [**ProductCode**](productcode.md) property is "{0C9840E7-7F0B-C648-10F0-4641926FE463}". The patch package is located at "\\\\server\\share\\products\\example\\patches\\example.msp" and the patch code GUID is "{EB8C947C-78B2-85A0-644D-86CEEF8E07C0}".
+Your applications can uninstall patches from other applications by using the [Windows Installer Functions](installer-functions.md). The following code example removes an [uninstallable patch](uninstallable-patches.md), example.msp, from an application, example.msi, using the [**MsiRemovePatches**](/windows/desktop/api/Msi/nf-msi-msiremovepatchesa) function. A patch can be referenced by the full path to the patch package or the patch code GUID. In this example, the application's installation package is located at "\\\\server\\share\\products\\example\\example.msi" and the application's [**ProductCode**](productcode.md) property is "{aaaabbbb-0000-cccc-1111-dddd2222eeee}". The patch package is located at "\\\\server\\share\\products\\example\\patches\\example.msp" and the patch code GUID is "{bbbbcccc-1111-dddd-2222-eeee3333ffff}".
 
 
 ```C++
     UINT uiReturn = MsiRemovePatches(
           /*szPatchList=*/TEXT("\\server\\share\\products\\example\\patches\\example.msp"),
-          /*szProductCode=*/  TEXT("{0C9840E7-7F0B-C648-10F0-4641926FE463}"),
+          /*szProductCode=*/  TEXT("{aaaabbbb-0000-cccc-1111-dddd2222eeee}"),
           /*eUninstallType=*/ INSTALLTYPE_SINGLE_INSTANCE,
           /*szPropertyList=*/ NULL);
 ```
@@ -210,7 +210,6 @@ UINT RemovePatchFromAllVisibleapplications(LPCWSTR wszPatchToRemove)
 
 [**MsiRemovePatches**](/windows/desktop/api/Msi/nf-msi-msiremovepatchesa)
 </dt> </dl>
-
  
 
  
