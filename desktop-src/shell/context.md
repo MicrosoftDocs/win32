@@ -3,7 +3,7 @@ description: Right-clicking an object normally causes the display of a shortcut 
 ms.assetid: d951d1e8-0f88-49c4-8373-e6db0e18cd72
 title: Extending Shortcut Menus
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 09/10/2026
 no-loc: [Verb, verb, Shell, shell]
 ---
 
@@ -24,6 +24,7 @@ Additional information is available here:
 
 -   [How To Define Extended Verbs](how-to-define-extended-verbs.md)
 -   [How To Associate Verbs with DDE Commands](how-to-associate-verbs-with-dde-commands.md)
+-   [Verbs and File Associations](fa-verbs.md)
 
 ## Shortcut Menus for File System Objects
 
@@ -225,6 +226,5 @@ HKEY_CLASSES_ROOT
  
 
  
-
 
 
