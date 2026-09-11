@@ -60,6 +60,13 @@
         href: hlsl-specified-root-signature.md
     - name: "HLSL Shader Model 6.0"
       href: hlsl-shader-model-6-0-features-for-direct3d-12.md
+    - name: "HLSL Shader Model 6.1"
+      href: hlsl-shader-model-6-1-features-for-direct3d-12.md
+      items:
+      - name: "SV_ViewID"
+        href: sv-viewid.md
+      - name: "SV_Barycentrics"
+        href: sv-barycentrics.md
     - name: "HLSL Shader Model 6.4"
       href: hlsl-shader-model-6-4-features-for-direct3d-12.md
   - name: "Reference for HLSL"
