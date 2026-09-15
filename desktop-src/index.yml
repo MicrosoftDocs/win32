@@ -4,10 +4,10 @@ title: Build desktop Windows apps using the Win32 API
 summary: Learn how to build desktop apps for Windows PCs using C++ and the Win32 API.
 
 metadata: 
-  author: stevewhims
+  author: GrantMeStrength
   description: Learn how to build desktop apps for Windows PCs using C++ and the Win32 API.
   manager: jken
-  ms.author: stwhi
+  ms.author: jken
   ms.date: 07/15/2024
   ms.topic: landing-page
 
