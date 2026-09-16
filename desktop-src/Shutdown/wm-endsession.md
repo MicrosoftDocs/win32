@@ -14,12 +14,7 @@ A window receives this message through its [**WindowProc**](/windows/win32/api/w
 
 
 ```C++
-LRESULT CALLBACK WindowProc( 
-  HWND hwnd,      // handle to window 
-  UINT uMsg,      // message identifier 
-  WPARAM wParam,  // end-session option 
-  LPARAM lParam   // logoff option
-);
+#define WM_ENDSESSION                   0x0016
 ```
 
 
