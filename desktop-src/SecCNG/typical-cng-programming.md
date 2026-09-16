@@ -31,6 +31,9 @@ You can use the algorithm provider handle to get implementation details for the 
 
 You can also modify the properties of the algorithm. For example, If you want to use ECB block cipher chaining with AES, you set the **BCRYPT\_CHAINING\_MODE** property of an AES algorithm to **BCRYPT\_CHAIN\_MODE\_ECB**; the property is assigned to all AES keys created using this algorithm handle, without the need to configure each and every AES key. You use the [BCryptSetProperty](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptsetproperty) function to modify these properties.
 
+> [!WARNING]
+> **Do not use ECB mode for production data.** ECB encrypts each block independently, which means identical plaintext blocks produce identical ciphertext — leaking patterns in your data. Use CBC mode with a random initialization vector (IV), or preferably an authenticated encryption mode like GCM (`BCRYPT_CHAIN_MODE_GCM`), which provides both confidentiality and integrity.
+
 ## Creating or Importing a Key
 
 Depending on the type of algorithm you use, you may need to create or load a key. For example, the [BCryptEncrypt](/windows/win32/api/Bcrypt/nf-bcrypt-bcryptencrypt) function takes a key handle for the first parameter. If you want that function to encrypt data with a symmetric encryption algorithm such as AES, you must first obtain a key. How you obtain the key depends on the type of algorithm being used and the source of the key.

@@ -348,53 +348,58 @@ If you are using menu buttons and split buttons in a toolbar, try to use the fol
 These commands mirror the commands found in standard menu bars, so they should be used only for primary toolbars. This list shows the button labels (and type) with their order and separators, shortcut keys, and ellipses. **Note that the command for displaying and hiding the menu bar is in the View menu.**
 
 **File**
-NewCtrl+N  
-Open...Ctrl+O  
+
+New (<kbd>Ctrl</kbd> + <kbd>N</kbd>)  
+Open (<kbd>Ctrl</kbd> + <kbd>O</kbd>)  
 Close  
-&lt;separator&gt;  
-SaveCtrl+S  
+`<separator>`  
+Save (<kbd>Ctrl</kbd> + <kbd>S</kbd>)  
 Save as...  
-&lt;separator&gt;  
+`<separator>`  
 Send to  
-&lt;separator&gt;  
-Print...Ctrl+P  
+`<separator>`  
+Print (<kbd>Ctrl</kbd> + <kbd>P</kbd>)  
 Print preview  
 Page setup  
-&lt;separator&gt;  
-ExitAlt+F4(shortcut usually not given)  
+`<separator>`  
+Exit (<kbd>Alt</kbd> + <kbd>F4</kbd>) (shortcut usually not given)  
 
 **Edit(menu button)**
-UndoCtrl+Z  
-RedoCtrl+Y  
-&lt;separator&gt;  
-CutCtrl+X  
-CopyCtrl+C  
-PasteCtrl+V  
-&lt;separator&gt;  
-Select allCtrl+A  
-&lt;separator&gt;  
-DeleteDel(shortcut usually not given)  
+
+Undo (<kbd>Ctrl</kbd> + <kbd>Z</kbd>)  
+Redo (<kbd>Ctrl</kbd> + <kbd>Y</kbd>)  
+`<separator>`  
+Cut (<kbd>Ctrl</kbd> + <kbd>X</kbd>)  
+Copy (<kbd>Ctrl</kbd> + <kbd>C</kbd>)  
+Paste (<kbd>Ctrl</kbd> + <kbd>V</kbd>)  
+`<separator>`  
+Select all (<kbd>Ctrl</kbd> + <kbd>A</kbd>)  
+`<separator>`  
+Delete  (<kbd>Del</kbd>) (shortcut usually not given)  
 Rename...  
-&lt;separator&gt;  
-Find...Ctrl+F  
-Find nextF3(command usually not given)  
-Replace...Ctrl+H  
-Go to...Ctrl+G  
+`<separator>`  
+Find (<kbd>Ctrl</kbd> + <kbd>F</kbd>)  
+Find next (<kbd>F3</kbd>) (command usually not given)  
+Replace (<kbd>Ctrl</kbd> + <kbd>H</kbd>)  
+Go to (<kbd>Ctrl</kbd> + <kbd>G</kbd>)  
 
 **Print(split button)**
-Print...Ctrl+P  
+
+Print (<kbd>Ctrl</kbd> + <kbd>P</kbd>)  
 Print preview  
 Page setup
 
 **View(menu button)**
-Menu bar(check if visible)  
-Details pane(check if visible)  
-Preview pane(check if visible)  
-Status bar(check if visible)  
 
-Zoom  
-Zoom inCtrl++  
-Zoom outCtrl+-  
+Menu bar (check if visible)  
+Details pane (check if visible)  
+Preview pane (check if visible)  
+Status bar (check if visible)  
+
+**Zoom**
+
+Zoom in (<kbd>Ctrl</kbd> + <kbd>+</kbd>)  
+Zoom out (<kbd>Ctrl</kbd> + <kbd>-</kbd>)  
   
 **Text size(selected setting has bullet)**
 
@@ -404,13 +409,14 @@ Medium
 Smaller  
 Smallest  
   
-Full screenF11  
-RefreshF5
+Full screen (<kbd>F11</kbd>)  
+Refresh (<kbd>F5</kbd>)  
 
 **Tools(menu button)** ...  
 
 **Options**
-Help(split button, use the Help icon) `<program name>` helpF1  
+
+Help (split button, use the Help icon) `<program name>` helpF1
 
 About `<program name>`
 

@@ -50,7 +50,7 @@ The application processing this notification code must return zero.
 
 The [**NMCOMBOBOXEX**](/windows/desktop/api/Commctrl/ns-commctrl-nmcomboboxexa) structure contains a [**COMBOBOXEXITEM**](/windows/win32/api/commctrl/ns-commctrl-comboboxexitema) structure. The **mask** member specifies the information being requested by the control.
 
-Fill the appropriate members of the structure to return the requested information to the control. If your message handler sets the **mask** member of the [**COMBOBOXEXITEM**](/windows/win32/api/commctrl/ns-commctrl-comboboxexitema) structure to CBEIF\_DI\_SETITEM, the control stores the information and will not request it again.
+Fill the appropriate members of the structure to return the requested information to the control. If your message handler combines the **mask** member of the [**COMBOBOXEXITEM**](/windows/win32/api/commctrl/ns-commctrl-comboboxexitema) structure with CBEIF\_DI\_SETITEM, the control stores the information and will not request it again.
 
 ## Requirements
 

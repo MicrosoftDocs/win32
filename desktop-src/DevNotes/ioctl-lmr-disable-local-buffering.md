@@ -18,7 +18,7 @@ api_location:
 
 The **IOCTL\_LMR\_DISABLE\_LOCAL\_BUFFERING** control code disables local client-side in-memory caching of data when reading data from or writing data to a remote file. This is an internally-defined control code not available in a public header.
 
-To perform this operation, call the [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) function with the following parameters.
+Despite the naming convention, this control code is defined with a device type of FILE\_DEVICE\_NETWORK\_FILE\_SYSTEM, making it a file system control (FSCTL) code rather than a device I/O control (IOCTL) code. You must send it using [**NtFsControlFile**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntfscontrolfile) rather than [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol). The control code and parameters are documented below using the **DeviceIoControl** convention for reference.
 
 
 ```C++
@@ -110,9 +110,7 @@ For overlapped operations, [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-
 
 ## Return value
 
-If the operation completes successfully, [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) returns a nonzero value.
-
-If the operation fails or is pending, [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) returns zero. To get extended error information, call [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+Calling [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) with this control code will always return failure because it is an FSCTL, not an IOCTL. Use [**NtFsControlFile**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntfscontrolfile) instead. **NtFsControlFile** returns an **NTSTATUS** value; **STATUS\_SUCCESS** indicates the operation completed successfully.
 
 ## Remarks
 
@@ -125,6 +123,8 @@ General-purpose applications should not use **IOCTL\_LMR\_DISABLE\_LOCAL\_BUFFER
 ## See also
 
 <dl> <dt>
+
+[**NtFsControlFile**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntfscontrolfile)
 
 [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol)
 </dt> </dl>

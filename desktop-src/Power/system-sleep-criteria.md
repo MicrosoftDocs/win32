@@ -3,7 +3,7 @@ description: As long as the system determines that there is user or application 
 ms.assetid: 83c9394a-1813-405a-802a-0623e5de50d3
 title: System Sleep Criteria
 ms.topic: reference
-ms.date: 07/14/2025
+ms.date: 07/15/2025
 ---
 
 # System Sleep Criteria
@@ -11,6 +11,9 @@ ms.date: 07/14/2025
 As long as the system determines that there is user or application activity, it will not enter sleep. The system can detect certain activities, such as user input or network communications. However, there are other activities that the system cannot detect. For example, a presentation application requires the screen for display. However, it may appear that the application is idle during the presentation, causing the system to turn off the display.
 
 To notify the system that your application is busy, use the [**SetThreadExecutionState**](/windows/desktop/api/Winbase/nf-winbase-setthreadexecutionstate) function. This function prevents the system from entering sleep or turning off the display while the application is running.
+
+> [!IMPORTANT]
+> **Avoid holding `ES_SYSTEM_REQUIRED | ES_CONTINUOUS` indefinitely.** When combined with `ES_CONTINUOUS`, this flag continuously prevents the system from sleeping until explicitly cleared. On Modern Standby devices, this drains the battery rapidly even when the lid is closed. Clear with `SetThreadExecutionState(ES_CONTINUOUS)` once the active operation completes. If your application needs ongoing wakefulness, re-evaluate whether a [service trigger event](../Services/service-trigger-events.md) or [Task Scheduler idle trigger](../TaskSchd/task-idle-conditions.md) would be more power-efficient.
 
 Presentation and multimedia applications must call the [**SetThreadExecutionState**](/windows/desktop/api/Winbase/nf-winbase-setthreadexecutionstate) function with **ES\_DISPLAY\_REQUIRED** so that the system will know that it should not put the display device to sleep. Event-handling applications, such as tools for managing incoming faxes, must call **SetThreadExecutionState** with **ES\_SYSTEM\_REQUIRED**, handle the event, and then clear the flag so the system can return to sleep. Note that most productivity applications do not need to use **SetThreadExecutionState** because the system can usually determine activity by user input.
 

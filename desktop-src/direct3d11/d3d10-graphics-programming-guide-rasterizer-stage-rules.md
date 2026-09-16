@@ -1,9 +1,9 @@
 ---
 title: Rasterization Rules
-description: Rasterization rules define how vector data is mapped into raster data.
+description: Learn how Direct3D maps vector data into raster data for triangles, lines, points, multisampling, and attribute interpolation.
 ms.assetid: 2b3894eb-dff3-401f-8b14-4af98db86e39
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 09/08/2026
 ---
 
 # Rasterization Rules
@@ -11,6 +11,9 @@ ms.date: 05/31/2018
 Rasterization rules define how vector data is mapped into raster data. The raster data is snapped to integer locations that are then culled and clipped (to draw the minimum number of pixels), and per-pixel attributes are interpolated (from per-vertex attributes) before being passed to a pixel shader.
 
 There are several types of rules, which depend on the type of primitive that is being mapped, as well as whether or not the data uses multisampling to reduce aliasing. The following illustrations demonstrate how the corner cases are handled.
+
+> [!NOTE]
+> These Direct3D rasterization rules apply to apps regardless of whether they use the Win32 or UWP app model.
 
 -   [Triangle Rasterization Rules (Without Multisampling)](#triangle-rasterization-rules-without-multisampling)
 -   [Line Rasterization Rules (Aliased, Without Multisampling)](#line-rasterization-rules-aliased-without-multisampling)
