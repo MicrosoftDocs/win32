@@ -69,12 +69,12 @@ switch(message)
                 rc.left + 100, 
                 rc.top + 100, 
                 rc.right - 100, 
-                rc.bottom - 100);   
-
-            DeleteObject(blackPen);
+                rc.bottom - 100);
 
             // Restore the original object
             SelectObject(ps.hdc, original);
+
+            DeleteObject(blackPen);
 
             EndPaint(hwnd, &ps);
         }
