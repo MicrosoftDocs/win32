@@ -602,29 +602,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <td><span id="LONGLONG"></span><span id="longlong"></span><code>LONGLONG</code></td>
 <td><p>A 64-bit signed integer. The range is -9223372036854775808 through 9223372036854775807 decimal.</p>
 <p>This type is declared in WinNT.h as follows:</p>
-<div class="code">
-<span data-codelanguage="ManagedCPlusPlus"></span>
-<table>
-<colgroup>
-<col  />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>#if !defined(_M_IX86)
- typedef __int64 LONGLONG; 
-#else
- typedef double LONGLONG;
-#endif</code></pre></td>
-</tr>
-</tbody>
-</table>
-
-</div></td>
+<p><code>typedef __int64 LONGLONG;</code></p></td>
 </tr>
 <tr class="even">
 <td><span id="LONG_PTR"></span><span id="long_ptr"></span><code>LONG_PTR</code></td>
@@ -1492,29 +1470,7 @@ For more information about handling 64-bit integers, see [Large Integers](large-
 <td><span id="ULONGLONG"></span><span id="ulonglong"></span><code>ULONGLONG</code></td>
 <td><p>A 64-bit unsigned integer. The range is 0 through 18446744073709551615 decimal.</p>
 <p>This type is declared in WinNT.h as follows:</p>
-<div class="code">
-<span data-codelanguage="ManagedCPlusPlus"></span>
-<table>
-<colgroup>
-<col  />
-</colgroup>
-<thead>
-<tr class="header">
-<th>C++</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><pre><code>#if !defined(_M_IX86)
- typedef unsigned __int64 ULONGLONG;
-#else
- typedef double ULONGLONG;
-#endif</code></pre></td>
-</tr>
-</tbody>
-</table>
-
-</div></td>
+<p><code>typedef unsigned __int64 ULONGLONG;</code></p></td>
 </tr>
 <tr class="odd">
 <td><span id="ULONG_PTR"></span><span id="ulong_ptr"></span><code>ULONG_PTR</code></td>
