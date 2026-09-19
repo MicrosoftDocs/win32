@@ -153,7 +153,7 @@ The unique session associated with client connection.
 
 <dd>
 
-The boot ID.
+Boot sequence, incremented for each boot attempt by the OS loader.
 
 </dd> 
 
