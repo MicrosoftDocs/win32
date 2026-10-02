@@ -3,7 +3,7 @@ description: Defines a cipher algorithm for data encryption and decryption.
 ms.assetid: 6b634d76-a159-438e-8fc6-5f05b326ed68
 title: DOT11_CIPHER_ALGORITHM enumeration (Wlantypes.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/23/2026
 topic_type: 
 - APIRef
 - kbSyntax
@@ -15,12 +15,11 @@ api_location:
 - wlantypes.h
 ---
 
-# DOT11\_CIPHER\_ALGORITHM enumeration
+# DOT11_CIPHER_ALGORITHM enumeration
 
-The **DOT11\_CIPHER\_ALGORITHM** enumerated type defines a cipher algorithm for data encryption and decryption.
+The **DOT11_CIPHER_ALGORITHM** enumerated type defines a cipher algorithm for data encryption and decryption.
 
 ## Syntax
-
 
 ```C++
 typedef enum _DOT11_CIPHER_ALGORITHM { 
@@ -29,6 +28,13 @@ typedef enum _DOT11_CIPHER_ALGORITHM {
   DOT11_CIPHER_ALGO_TKIP           = 0x02,
   DOT11_CIPHER_ALGO_CCMP           = 0x04,
   DOT11_CIPHER_ALGO_WEP104         = 0x05,
+  DOT11_CIPHER_ALGO_BIP            = 0x06,              // BIP-CMAC-128
+  DOT11_CIPHER_ALGO_GCMP           = 0x08,              // GCMP-128
+  DOT11_CIPHER_ALGO_GCMP_256       = 0x09,              // GCMP-256
+  DOT11_CIPHER_ALGO_CCMP_256       = 0x0a,              // CCMP-256
+  DOT11_CIPHER_ALGO_BIP_GMAC_128   = 0x0b,              // BIP-GMAC-128
+  DOT11_CIPHER_ALGO_BIP_GMAC_256   = 0x0c,              // BIP-GMAC-256
+  DOT11_CIPHER_ALGO_BIP_CMAC_256   = 0x0d,              // BIP-CMAC-256
   DOT11_CIPHER_ALGO_WPA_USE_GROUP  = 0x100,
   DOT11_CIPHER_ALGO_RSN_USE_GROUP  = 0x100,
   DOT11_CIPHER_ALGO_WEP            = 0x101,
@@ -37,85 +43,85 @@ typedef enum _DOT11_CIPHER_ALGORITHM {
 } DOT11_CIPHER_ALGORITHM, *PDOT11_CIPHER_ALGORITHM;
 ```
 
-
-
 ## Constants
 
-<dl> <dt>
-
-<span id="DOT11_CIPHER_ALGO_NONE"></span><span id="dot11_cipher_algo_none"></span>**DOT11\_CIPHER\_ALGO\_NONE**
-</dt> <dd>
+### DOT11_CIPHER_ALGO_NONE
 
 Specifies that no cipher algorithm is enabled or supported.
 
-</dd> <dt>
+### DOT11_CIPHER_ALGO_WEP40
 
-<span id="DOT11_CIPHER_ALGO_WEP40"></span><span id="dot11_cipher_algo_wep40"></span>**DOT11\_CIPHER\_ALGO\_WEP40**
-</dt> <dd>
+Specifies a Wired Equivalent Privacy (WEP) algorithm, which is the RC4-based algorithm that is specified in the 802.11-1999 standard. This enumerator specifies the WEP cipher algorithm with a 40-bit cipher key (WEP-40).
 
-Specifies a Wired Equivalent Privacy (WEP) algorithm, which is the RC4-based algorithm that is specified in the 802.11-1999 standard. This enumerator specifies the WEP cipher algorithm with a 40-bit cipher key.
-
-</dd> <dt>
-
-<span id="DOT11_CIPHER_ALGO_TKIP"></span><span id="dot11_cipher_algo_tkip"></span>**DOT11\_CIPHER\_ALGO\_TKIP**
-</dt> <dd>
+### DOT11_CIPHER_ALGO_TKIP
 
 Specifies a Temporal Key Integrity Protocol (TKIP) algorithm, which is the RC4-based cipher suite that is based on the algorithms that are defined in the WPA specification and IEEE 802.11i-2004 standard. This cipher also uses the Michael Message Integrity Code (MIC) algorithm for forgery protection.
 
-</dd> <dt>
+### DOT11_CIPHER_ALGO_CCMP
 
-<span id="DOT11_CIPHER_ALGO_CCMP"></span><span id="dot11_cipher_algo_ccmp"></span>**DOT11\_CIPHER\_ALGO\_CCMP**
-</dt> <dd>
+Specifies an AES-CCMP algorithm with a 128-bit cipher key, as specified in the IEEE 802.11i-2004 standard and RFC 3610. Advanced Encryption Standard (AES) is the encryption algorithm defined in FIPS 197.
 
-Specifies an AES-CCMP algorithm, as specified in the IEEE 802.11i-2004 standard and RFC 3610. Advanced Encryption Standard (AES) is the encryption algorithm defined in FIPS PUB 197.
+### DOT11_CIPHER_ALGO_WEP104
 
-</dd> <dt>
+Specifies a WEP cipher algorithm with a 104-bit cipher key (WEP104).
 
-<span id="DOT11_CIPHER_ALGO_WEP104"></span><span id="dot11_cipher_algo_wep104"></span>**DOT11\_CIPHER\_ALGO\_WEP104**
-</dt> <dd>
+### DOT11_CIPHER_ALGO_BIP
 
-Specifies a WEP cipher algorithm with a 104-bit cipher key.
+Specifies a Broadcast/multicast integrity protocol (BIP) cipher algorithm, using AES in Cipher-based Message Authentication Code (CMAC) mode, with 128-bit key/length (BIP-CMAC-128). 
 
-</dd> <dt>
+CMAC is defined in NIST SP 800-38B. This is a group management cipher algorithm.
 
-<span id="DOT11_CIPHER_ALGO_WPA_USE_GROUP"></span><span id="dot11_cipher_algo_wpa_use_group"></span>**DOT11\_CIPHER\_ALGO\_WPA\_USE\_GROUP**
-</dt> <dd>
+### DOT11_CIPHER_ALGO_GCMP
+
+Specifies a Galois/Counter Mode Protocol (GCMP) cipher algorithm with a 128-bit cipher key (AES-GCMP-128). Galois/Counter Mode (GCM) is part of the AES algorithm, defined in FIPS 197.
+
+### DOT11_CIPHER_ALGO_GCMP_256
+
+Specifies a GCMP cipher algorithm with a 256-bit cipher key (AES-GCMP-256).
+
+### DOT11_CIPHER_ALGO_CCMP_256
+
+Specifies an AES-CCMP algorithm with a 256-bit cipher key (AES-CCMP-256).
+
+### DOT11_CIPHER_ALGO_BIP_GMAC_128
+
+Specifies a Broadcast Integrity Protocol Galois Message Authentication Code (BIP-GMAC) cipher algorithm with a 128-bit cipher key (BIP-GMAC-128).
+
+GMAC is defined in NIST SP 800-38D. This is a group management cipher algorithm.
+
+### DOT11_CIPHER_ALGO_BIP_GMAC_256
+
+Specifies a BIP-GMAC cipher algorithm with a 256-bit cipher key (BIP-GMAC-256).
+
+This is a group management cipher algorithm.
+
+### DOT11_CIPHER_ALGO_BIP_CMAC_256
+
+Specifies a BIP-CMAC cipher algorithm with a 256-bit cipher key  (BIP-CMAC-256).
+
+This is a group management cipher algorithm.
+
+### DOT11_CIPHER_ALGO_WPA_USE_GROUP
 
 Specifies a Wi-Fi Protected Access (WPA) Use Group Key cipher suite. For more information about the Use Group Key cipher suite, refer to Clause 7.3.2.25.1 of the IEEE 802.11i-2004 standard.
 
-</dd> <dt>
-
-<span id="DOT11_CIPHER_ALGO_RSN_USE_GROUP"></span><span id="dot11_cipher_algo_rsn_use_group"></span>**DOT11\_CIPHER\_ALGO\_RSN\_USE\_GROUP**
-</dt> <dd>
+### DOT11_CIPHER_ALGO_RSN_USE_GROUP
 
 Specifies a Robust Security Network (RSN) Use Group Key cipher suite. For more information about the Use Group Key cipher suite, refer to Clause 7.3.2.25.1 of the IEEE 802.11i-2004 standard.
 
-</dd> <dt>
-
-<span id="DOT11_CIPHER_ALGO_WEP"></span><span id="dot11_cipher_algo_wep"></span>**DOT11\_CIPHER\_ALGO\_WEP**
-</dt> <dd>
+### DOT11_CIPHER_ALGO_WEP
 
 Specifies a WEP cipher algorithm with a cipher key of any length.
 
-</dd> <dt>
-
-<span id="DOT11_CIPHER_ALGO_IHV_START"></span><span id="dot11_cipher_algo_ihv_start"></span>**DOT11\_CIPHER\_ALGO\_IHV\_START**
-</dt> <dd>
+### DOT11_CIPHER_ALGO_IHV_START
 
 Specifies the start of the range that is used to define proprietary cipher algorithms that are developed by an independent hardware vendor (IHV).
 
-</dd> <dt>
-
-<span id="DOT11_CIPHER_ALGO_IHV_END"></span><span id="dot11_cipher_algo_ihv_end"></span>**DOT11\_CIPHER\_ALGO\_IHV\_END**
-</dt> <dd>
+### DOT11_CIPHER_ALGO_IHV_END
 
 Specifies the end of the range that is used to define proprietary cipher algorithms that are developed by an IHV.
 
-</dd> </dl>
-
 ## Requirements
-
-
 
 | Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
@@ -124,25 +130,15 @@ Specifies the end of the range that is used to define proprietary cipher algorit
 | Redistributable<br/>          | Wireless LAN API for Windows XP with SP2<br/>                                                         |
 | Header<br/>                   | <dl> <dt>Wlantypes.h (include Windot11.h)</dt> </dl> |
 
-
-
 ## See also
 
 <dl> <dt>
 
-[**DOT11\_AUTH\_CIPHER\_PAIR**](dot11-auth-cipher-pair.md)
+[**DOT11_AUTH_CIPHER_PAIR**](dot11-auth-cipher-pair.md)
 </dt> <dt>
 
-[**WLAN\_AVAILABLE\_NETWORK**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network)
+[**WLAN_AVAILABLE_NETWORK**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network)
 </dt> <dt>
 
-[**WLAN\_SECURITY\_ATTRIBUTES**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_security_attributes)
+[**WLAN_SECURITY_ATTRIBUTES**](/windows/desktop/api/wlanapi/ns-wlanapi-wlan_security_attributes)
 </dt> </dl>
-
- 
-
- 
-
-
-
-
