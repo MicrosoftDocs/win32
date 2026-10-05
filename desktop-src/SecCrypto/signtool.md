@@ -15,7 +15,7 @@ SignTool is available as part of the [Windows Software Development Kit (SDK)](ht
 > [!NOTE]
 > The Windows SDK, [Windows Hardware Lab Kit (HLK)](/windows-hardware/test/hlk/), [Windows Driver Kit (WDK)](/windows-hardware/drivers/download-the-wdk), and [Windows Assessment and Deployment Kit (ADK)](/windows-hardware/get-started/adk-install) builds 20236 and later require that you specify the digest algorithm. The SignTool `sign` command requires the file digest algorithm option (`/fd`) and the time stamp digest algorithm option (`/td`) during signing and time stamping, respectively.
 >
-> If `/fd` isn't specified during signing and if `/td` isn't specified during time stamping, the command throws a warning, error code 0, initially. In later versions of SignTool, the warning becomes an error. We recommend SHA256. It's considered to be more secure than SHA1 by the industry.
+> If `/fd` isn't specified during signing and if `/td` isn't specified during time stamping, the command throws a warning, error code 0, initially. In later versions of SignTool, the warning becomes an error. We recommend SHA256. SHA384 and stronger validation require Windows 11 or Windows 10 with the November 2022 update.
 
 ## Syntax
 
