@@ -183,9 +183,9 @@ The Characteristics field contains flags that indicate attributes of the object 
 
 Every image file has an optional header that provides information to the loader. This header is optional in the sense that some files (specifically, object files) do not have it. For image files, this header is required. An object file can have an optional header, but generally this header has no function in an object file except to increase its size.
 
-Note that the size of the optional header is not fixed. The **SizeOfOptionalHeader** field in the COFF header must be used to validate that a probe into the file for a particular data directory does not go beyond **SizeOfOptionalHeader**. For more information, see [COFF File Header (Object and Image)](#coff-file-header-object-and-image).
+Note that the size of the optional header is not fixed. The **SizeOfOptionalHeader** field in the COFF header specifies the total size of the optional header in bytes, including its data directories. This field must be used to validate that a data directory entry lies entirely within the optional header. For more information, see [COFF File Header (Object and Image)](#coff-file-header-object-and-image).
 
-The **NumberOfRvaAndSizes** field of the optional header should also be used to ensure that no probe for a particular data directory entry goes beyond the optional header. In addition, it is important to validate the optional header magic number for format compatibility.
+The **NumberOfRvaAndSizes** field of the optional header specifies the number of data directory entries in the optional header. This field should also be used to ensure that the index of a requested data directory entry is within the range specified by this count. In addition, it is important to validate the optional header magic number for format compatibility.
 
 The optional header magic number determines whether an image is a PE32 or PE32+ executable.
 
