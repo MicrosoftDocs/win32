@@ -1,0 +1,9 @@
+- name: "License Protection"
+  href: license-protection-portal.md
+  items:
+  - name: "RegisterLicenseKeyWithExpiration"
+    href: /windows/desktop/api/licenseprotection/nf-licenseprotection-registerlicensekeywithexpiration
+  - name: "ValidateLicenseKeyProtection"
+    href: /windows/desktop/api/licenseprotection/nf-licenseprotection-validatelicensekeyprotection
+  - name: "LicenseProtectionStatus"
+    href: /windows/desktop/api/licenseprotection/ne-licenseprotection-licenseprotectionstatus
