@@ -442,6 +442,8 @@
           href: ./eap/eap-start-page.md
         - name: Extensible Authentication Protocol Host
           href: ./eaphost/portal.md
+        - name: License Protection
+          href: ./licenseprotection/license-protection-portal.md
         - name: Network Access Protection
           href: ./nap/network-access-protection-start-page.md
         - name: Network Policy Server
