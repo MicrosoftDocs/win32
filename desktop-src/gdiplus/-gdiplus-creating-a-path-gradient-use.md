@@ -252,10 +252,13 @@ The following illustration shows the filled ellipse and the center point of the 
 
 You can set the center point of a path gradient brush to a location outside the path that was used to construct the brush. In the preceding code, if you replace the call to [**PathGradientBrush::SetCenterPoint**](/windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setcenterpoint(inconstpoint_)) with `pthGrBrush.SetCenterPoint(Point(145, 35))`, you will get the following result.
 
-![illustration showing an ellipse that fills from red to yellow from a center point that is outside the edge of the ellipse](images/pathgradient6.png)
+![illustration showing an ellipse that fills from blue to aqua from a center point that is outside the edge of the ellipse](images/pathgradient6.png)
 
 In the preceding illustration, the points at the far right of the ellipse are not pure blue (although they are very close). The colors in the gradient are positioned as if the fill had been allowed to reach the point (145, 35), the color would have reached pure blue (0, 0, 255). But the fill never reaches (145, 35) because a path gradient brush paints only inside its path.
 
- 
+### How path gradient color is calculated
 
- 
+For each pixel inside the path, the brush casts an imaginary ray from the center point, through the pixel, to where the ray intersects the boundary of the path. The color at that pixel is then linearly interpolated between the center color and the boundary color, based on the pixel's position along that ray. Specifically, the interpolation factor is the ratio of the distance from the center point to the pixel, divided by the total distance from the center point to the boundary intersection.
+
+When the center point is outside the path, pixels on the side of the path closest to the center point have short rays (because the boundary is nearby in that direction). Since these pixels are relatively far along their short rays, they appear closer to the center color. Pixels on the far side of the path have long rays and appear closer to the boundary color. This explains why, in the preceding illustration, the boundary near the external center point displays a color close to blue (the center color) rather than aqua (the boundary color).
+

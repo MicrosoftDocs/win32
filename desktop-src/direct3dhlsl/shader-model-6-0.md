@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Shader Model 6
 
-All non-quad related Wave Intrinsics are available in all shader stages. Quad wave intrinsics are available only in pixel and compute shaders.
+All non-quad-related wave intrinsics are available in all shader stages. In shader model 6.0, quad wave intrinsics are available in pixel and compute shaders, but the quad layout in compute shaders isn't defined. Shader model 6.6 defines the quad layout for compute shaders and adds support for quad wave intrinsics in amplification and mesh shaders.
 
 ## In this section
 
@@ -26,12 +26,12 @@ All non-quad related Wave Intrinsics are available in all shader stages. Quad wa
 | [**WaveActiveBitXor**](waveallbitxor.md)<br/>                  | Returns the bitwise XOR of all the values of the expression across all active lanes in the current wave and replicates it back to all active lanes. <br/>           |
 | [**WaveActiveCountBits**](waveactivecountbits.md)<br/>         | Counts the number of boolean variables which evaluate to true across all active lanes in the current wave, and replicates the result to all lanes in the wave.<br/> |
 | [**WaveActiveMax**](waveallmax.md)<br/>                        | Returns the maximum value of the expression across all active lanes in the current wave and replicates it back to all active lanes. <br/>                           |
-| [**WaveActiveMin**](waveallmin.md)<br/>                        | Returns the minimum value of the expression across all active lanes in the current wave replicates it back to all active lanes. <br/>                               |
+| [**WaveActiveMin**](waveallmin.md)<br/>                        | Returns the minimum value of the expression across all active lanes in the current wave and replicates it back to all active lanes. <br/>                           |
 | [**WaveActiveProduct**](waveallproduct.md)<br/>                | Multiplies the values of the expression together across all active lanes in the current wave and replicates it back to all active lanes.<br/>                       |
 | [**WaveActiveSum**](waveallsum.md)<br/>                        | Sums up the value of the expression across all active lanes in the current wave and replicates it to all lanes in the current wave.<br/>                            |
 | [**WaveActiveAllTrue**](wavealltrue.md)<br/>                   | Returns true if the expression is true in all active lanes in the current wave.<br/>                                                                                |
 | [**WaveActiveAnyTrue**](waveanytrue.md)<br/>                   | Returns true if the expression is true in any of the active lanes in the current wave.<br/>                                                                         |
-| [**WaveActiveBallot**](waveballot.md)<br/>                     | Returns a 4-bit unsigned integer bitmask of the evaluation of the Boolean expression for all active lanes in the specified wave. <br/>                              |
+| [**WaveActiveBallot**](waveballot.md)<br/>                     | Returns a `uint4` containing a bitmask of the evaluation of the Boolean expression for all active lanes in the current wave. <br/>                                  |
 | [**WaveGetLaneCount**](wavegetlanecount.md)<br/>               | Returns the number of lanes in a wave on this architecture. <br/>                                                                                                   |
 | [**WaveGetLaneIndex**](wavegetlaneindex.md)<br/>               | Returns the index of the current lane within the current wave. <br/>                                                                                                |
 | [**WaveIsFirstLane**](waveisfirstlane.md)<br/>                 | Returns true only for the active lane in the current wave with the smallest index. <br/>                                                                            |

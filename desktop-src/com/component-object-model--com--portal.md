@@ -3,7 +3,7 @@ title: Component Object Model (COM)
 description: The Component Object Model is a platform-independent, distributed, object-oriented system for creating binary software components that can interact. COM is the foundation technology for Microsoft's OLE (compound documents) and ActiveX technologies.
 ms.assetid: 3578ca42-a4b6-44b3-ad5b-aeb5fa61f3f4
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 01/08/2025
 ---
 
 # Component Object Model (COM)
@@ -11,6 +11,17 @@ ms.date: 05/31/2018
 ## Purpose
 
 COM is a platform-independent, distributed, object-oriented system for creating binary software components that can interact. COM is the foundation technology for Microsoft's OLE (compound documents) and ActiveX (Internet-enabled components) technologies.
+
+> [!TIP]
+> **Modern C++ and COM:** If you're writing new C++ code that uses COM interfaces, prefer smart pointer wrappers over raw `AddRef`/`Release` calls:
+>
+> | Approach | When to use | Header |
+> |----------|-------------|--------|
+> | [C++/WinRT](/windows/uwp/cpp-and-winrt-apis/) `winrt::com_ptr<T>` | New Windows Runtime or classic COM code | `<winrt/base.h>` (C++/WinRT projection) |
+> | [WRL](/cpp/cppcx/wrl/microsoft-wrl-namespace) `Microsoft::WRL::ComPtr<T>` | Existing codebases, classic COM, no C++/WinRT dependency | `<wrl/client.h>` |
+> | Raw COM (`AddRef`/`Release`) | Low-level libraries, ABI boundaries, COM server implementations | `<unknwn.h>` |
+>
+> Smart pointers eliminate the most common COM bugs: leaked references, double-release, and use-after-release. See [Managing Object Lifetimes Through Reference Counting](managing-object-lifetimes-through-reference-counting.md) for details.
 
 ## Where applicable
 

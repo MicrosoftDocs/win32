@@ -3,12 +3,15 @@ title: Apply a Technique (Direct3D 11)
 description: Learn how to set the effect state in the device for Direct3D 11 after the constants, textures, and shader state are declared and initialized.
 ms.assetid: 16001913-7ae2-4629-a625-eb850e29fc77
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 09/08/2026
 ---
 
 # Apply a Technique (Direct3D 11)
 
 With the constants, textures, and shader state declared and initialized, the only thing left to do is to set the effect state in the device.
+
+> [!NOTE]
+> This article uses Direct3D 11 interfaces and state objects. For the Direct3D 10 implementation, see [Apply a technique (Direct3D 10)](/windows/win32/direct3d10/d3d10-graphics-programming-guide-effects-apply-technique).
 
 ## Set Non-Shader State in the Device
 
@@ -59,7 +62,6 @@ An effect doesn't render anything, it simply sets effect state to the device. Th
  
 
  
-
 
 
 

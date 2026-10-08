@@ -14,6 +14,16 @@ ms.date: 05/31/2018
 
 # About WinINet
 
+> [!IMPORTANT]
+> **When to use WinINet** — WinINet is the right choice for **desktop client applications** that need to share the user's Internet Options proxy settings, cookie jar, and credential cache. It provides automatic credential prompting and integrates with Internet Explorer security zones.
+>
+> **Do NOT use WinINet** for:
+> - **Windows services or server-side code** — use [WinHTTP](/windows/desktop/WinHttp/about-winhttp) instead (supports impersonation and session isolation)
+> - **Modern UWP/WinUI apps** — use [Windows.Web.Http](/uwp/api/Windows.Web.Http) (C++/WinRT) or [System.Net.Http.HttpClient](/dotnet/api/system.net.http.httpclient) (.NET)
+> - **Cross-platform applications** — use a portable library such as libcurl
+>
+> WinINet is **not** supported in services and will fail or behave unexpectedly when called from a service context. See [WinINet vs. WinHTTP](wininet-vs-winhttp.md) for a detailed feature comparison.
+
 > [!NOTE]
 > For app containers since Windows 10, version 1709, HTTP/2 (see [RFC7540](https://tools.ietf.org/html/rfc7540)) is on by default.
 

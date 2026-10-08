@@ -3,7 +3,7 @@ description: Each process has a default heap provided by the system. Application
 ms.assetid: cfb683fa-4f46-48b5-9a28-f4625a9cb8cd
 title: Heap Functions
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/14/2025
 ---
 
 # Heap Functions
@@ -38,6 +38,14 @@ Memory requested by [**HeapCreate**](/windows/desktop/api/HeapApi/nf-heapapi-hea
 You should not refer in any way to memory that has been freed by [**HeapFree**](/windows/desktop/api/HeapApi/nf-heapapi-heapfree). After the memory is freed, any information that may have been in it is gone forever. If you require information, do not free memory containing the information. Function calls that return information about memory (such as [**HeapSize**](/windows/desktop/api/HeapApi/nf-heapapi-heapsize)) may not be used with freed memory, as they may return bogus data.
 
 The [**HeapDestroy**](/windows/desktop/api/HeapApi/nf-heapapi-heapdestroy) function destroys a private heap object. It decommits and releases all the pages of the heap object, and it invalidates the handle to the heap.
+
+> [!NOTE]
+> **Memory leak detection tools:** To detect and diagnose heap memory leaks in your application, use the following tools:
+> - **UMDH (User-Mode Dump Heap)** — compares heap snapshots to identify allocations that grow over time. Part of Debugging Tools for Windows.
+> - **Application Verifier** — enables full-page heap verification to detect heap corruption, overruns, and use-after-free errors.
+> - **Debug CRT** (`_CrtSetDbgFlag`, `_CrtDumpMemoryLeaks`) — for C/C++ applications built with the debug C runtime, enables automatic leak detection at process exit.
+> - **ETW heap tracing** — use the Windows Performance Recorder with the heap snapshot profile to capture allocation stacks for analysis in Windows Performance Analyzer (WPA).
+> - **AddressSanitizer (ASan)** — compile with `/fsanitize=address` (MSVC) to detect heap buffer overflows, use-after-free, and leaks at runtime.
 
 ## Related topics
 

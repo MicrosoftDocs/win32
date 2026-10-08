@@ -8,12 +8,10 @@ topic_type:
 - apiref
 api_name:
 - IncrementCounter
-api_location:
-- httpserv.h
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 09/10/2026
 ---
 
 # IncrementCounter function
@@ -61,4 +59,3 @@ This function is supported for the following types of shaders:
 </dt> </dl>
 
  
-

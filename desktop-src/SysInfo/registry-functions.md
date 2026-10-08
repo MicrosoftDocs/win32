@@ -3,10 +3,28 @@ description: The following are the registry functions.
 ms.assetid: a490b748-42e8-462b-9a7f-a8b21438ea79
 title: Registry Functions
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/18/2025
 ---
 
 # Registry Functions
+
+## When to use the registry
+
+The Windows registry is appropriate for storing small amounts of configuration data (settings, preferences, per-user state). Consider alternatives for other scenarios:
+
+| Scenario | Recommendation |
+|----------|---------------|
+| Application settings (modern apps) | Prefer [ApplicationData.LocalSettings](/uwp/api/windows.storage.applicationdata.localsettings) (UWP/WinUI) or a JSON/XML file in `%APPDATA%` for desktop apps. These are easier to back up, migrate, and debug. |
+| Large data or structured data | Use a file (JSON, SQLite, etc.) rather than storing large blobs in registry values. |
+| Machine-wide service configuration | Registry under `HKEY_LOCAL_MACHINE` is appropriate — this is the standard mechanism for Windows services. |
+| Per-user preferences (desktop apps) | Registry under `HKEY_CURRENT_USER\Software\<Company>\<App>` is appropriate and conventional. |
+| Shared state between processes | Consider named shared memory, named pipes, or a file — the registry has no change notification built into value reads. Use [RegNotifyChangeKeyValue](/windows/desktop/api/Winreg/nf-winreg-regnotifychangekeyvalue) only for coarse-grained notification. |
+
+> [!IMPORTANT]
+> **Security best practices**: Open registry keys with the minimum access rights needed (e.g., `KEY_READ` or `KEY_WRITE`) — avoid using `KEY_ALL_ACCESS` or `MAXIMUM_ALLOWED`. Write to `HKEY_LOCAL_MACHINE` only from elevated (administrator) processes. Always check return values from registry functions — they return `ERROR_SUCCESS` on success and a Win32 error code on failure (not HRESULT).
+
+> [!NOTE]
+> **Common pitfall — string types**: Registry string values (`REG_SZ`, `REG_EXPAND_SZ`) must include the null terminator in the byte count passed to `RegSetValueEx`. When reading strings with `RegQueryValueEx` or `RegGetValue`, always null-terminate the buffer yourself if the stored value might not include the terminator — some third-party software writes strings without it.
 
 The following are the registry functions.
 

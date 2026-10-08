@@ -57,6 +57,9 @@ The following are best practices when using a thread pool:
 
     For pool, waiter, and worker, if the address is zero, the command dumps all objects. For waiter and worker, omitting the address dumps the current thread. The following flags are defined: 0x1 (single-line output), 0x2 (dump members), and 0x4 (dump pool work queue).
 
+> [!NOTE]
+> **Modern alternatives:** For C++/WinRT applications, the Windows thread pool is accessible through coroutines — use `co_await winrt::resume_background()` to dispatch work to the thread pool, and `co_await winrt::resume_foreground(dispatcher)` to return to the UI thread. This provides structured concurrency without manual callback management. For standard C++ code, `std::async` with `std::launch::async` policy offers portable task-based parallelism, though it does not use the Windows thread pool directly.
+
 ## Related topics
 
 <dl> <dt>
