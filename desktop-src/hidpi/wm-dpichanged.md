@@ -62,6 +62,8 @@ You only need to use either the X-axis or the Y-axis value when scaling your app
 
 In order to handle this message correctly, you will need to resize and reposition your window based on the suggestions provided by *lParam* and using [**SetWindowPos**](/windows/desktop/api/winuser/nf-winuser-setwindowpos). If you do not do this, your window will grow or shrink with respect to everything else on the new monitor. For example, if a user is using multiple monitors and drags your window from a 96 DPI monitor to a 192 DPI monitor, your window will appear to be half as large with respect to other items on the 192 DPI monitor.
 
+**Note:** On Windows 11, windows using `WS_EX_TOOLWINDOW` may not receive `WM_DPICHANGED` when the DPI of the monitor hosting the window changes (e.g. monitor scale factor). The message may only be delivered after the window is subsequently moved or resized. This appears to be a Windows 11 issue. See the related [Microsoft Q&A report](https://learn.microsoft.com/zh-cn/answers/questions/2261819/) and [Stack Overflow report](https://stackoverflow.com/questions/77270061).
+
 The base value of DPI is defined as **USER\_DEFAULT\_SCREEN\_DPI** which is set to 96. To determine the scaling factor for a monitor, take the DPI value and divide by **USER\_DEFAULT\_SCREEN\_DPI**. The following table provides some sample DPI values and associated scaling factors.
 
 
