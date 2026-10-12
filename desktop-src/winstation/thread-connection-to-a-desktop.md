@@ -18,7 +18,7 @@ After a process connects to a window station, the system assigns a desktop to th
 
 The desktop assigned during this connection process cannot be closed by calling the [**CloseDesktop**](/windows/win32/api/winuser/nf-winuser-closedesktop) function.
 
-When a process is connecting to a desktop, the system searches the process's handle table for inherited handles. The system uses the first desktop handle it finds. If you want a child process to connect to a particular inherited desktop, you must ensure that the only the desired handle is marked inheritable. If a child process inherits multiple desktop handles, the results of the desktop connection are undefined.
+When a process is connecting to a desktop, the system searches the process's handle table for inherited handles. The system uses the first desktop handle it finds. If you want a child process to connect to a particular inherited desktop, you must ensure that only the desired handle is marked inheritable. If a child process inherits multiple desktop handles, the results of the desktop connection are undefined.
 
 Handles to a desktop that the system opens while connecting a process to a desktop are not inheritable.
 
