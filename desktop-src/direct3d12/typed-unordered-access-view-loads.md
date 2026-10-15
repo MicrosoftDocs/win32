@@ -3,7 +3,7 @@ title: Typed unordered access view (UAV) loads
 description: Learn about Unordered Access View (UAV) Typed Load in Direct3D 12. UAV Typed Load is the ability for a shader to read from a UAV with a specific DXGI_FORMAT.
 ms.assetid: 6106D15E-EAF6-4583-B4F2-7CC7EE30DE15
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 09/16/2026
 ---
 
 # Typed unordered access view (UAV) loads
@@ -13,7 +13,6 @@ Unordered Access View (UAV) Typed Load is the ability for a shader to read from 
 -   [Overview](#overview)
 -   [Supported formats and API calls](#supported-formats-and-api-calls)
 -   [Using typed UAV loads from HLSL](#using-typed-uav-loads-from-hlsl)
--   [Using UNORM and SNORM typed UAV loads from HLSL](#using-unorm-and-snorm-typed-uav-loads-from-hlsl)
 -   [Related topics](#related-topics)
 
 ## Overview
@@ -114,13 +113,14 @@ float4 main() : SV_Target
 }
 ```
 
-## Using UNORM and SNORM typed UAV loads from HLSL
-
-When using typed UAV loads to read from a UNORM or SNORM resource, you must properly declare the element type of the HLSL object to be `unorm` or `snorm`. It is specified as undefined behavior to mismatch the element type declared in HLSL with the underlying resource data type. For example, if you are using typed UAV loads on a buffer resource with R8\_UNORM data, then you must declare the element type as `unorm float`:
-
-``` syntax
-RWBuffer<unorm float> uav;
-```
+> [!NOTE]
+> You can annotate a floating-point HLSL resource element type with `unorm` or `snorm`. For example:
+>
+>```hlsl
+>RWBuffer<unorm float> uav;
+>```
+>
+> DirectX Shader Compiler (DXC) preserves these modifiers as distinct resource component metadata. For the typed UAV loads described on this page, current Direct3D hardware derives normalization behavior from the format of the bound resource and doesn't require the HLSL modifier to perform the load. You can therefore use a `float` resource element type with a supported UNORM or SNORM UAV format. The modifiers remain accepted for compatibility with existing shaders.
 
 ## Related topics
 
