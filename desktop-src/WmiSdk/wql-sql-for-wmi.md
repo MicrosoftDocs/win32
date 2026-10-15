@@ -11,104 +11,27 @@ ms.date: 05/31/2018
 
 The WMI Query Language (WQL) is a subset of the American National Standards Institute Structured Query Language (ANSI SQL) with minor semantic changes. The following table lists the WQL keywords.
 
-
-
-<table>
-<colgroup>
-<col  />
-<col  />
-</colgroup>
-<thead>
-<tr class="header">
-<th><span class="notranslate">WQL keyword</span></th>
-<th>Meaning</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><span class="notranslate">AND<br/></span></td>
-<td>Combines two Boolean expressions, and returns <strong>TRUE</strong> when both expressions are <strong>TRUE</strong>.<br/></td>
-</tr>
-<tr class="even">
-<td><span class="notranslate"><a href="associators-of-statement.md">ASSOCIATORS OF</a></span></td>
-<td>Retrieves all instances that are associated with a source instance.<br/> Use this statement with schema queries and data queries.<br/></td>
-</tr>
-<tr class="odd">
-<td><span class="notranslate"><a href="--class-identifier.md">__CLASS</a></span></td>
-<td>References the class of the object in a query.<br/></td>
-</tr>
-<tr class="even">
-<td><span class="notranslate">FROM<br/></span></td>
-<td>Specifies the class that contains the properties listed in a SELECT statement. Windows Management Instrumentation (WMI) supports data queries from only one class at a time.<br/></td>
-</tr>
-<tr class="odd">
-<td><span class="notranslate"><a href="group-clause.md">GROUP Clause</a></span></td>
-<td>Causes WMI to generate one notification to represent a group of events.<br/> Use this clause with event queries.<br/></td>
-</tr>
-<tr class="even">
-<td><span class="notranslate"><a href="having-clause.md">HAVING</a></span></td>
-<td>Filters the events that are received during the grouping interval that is specified in the <a href="within-clause.md">WITHIN clause</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><span class="notranslate"><a href="wql-operators.md">IS</a></span></td>
-<td>Comparison operator used with NOT and <strong>NULL</strong>. The syntax for this statement is the following:<br/> IS [NOT] <strong>NULL</strong><br/> (where NOT is optional)<br/></td>
-</tr>
-<tr class="even">
-<td><span class="notranslate"><a href="wql-operators.md">ISA</a></span></td>
-<td>Operator that applies a query to the subclasses of a specified class. For more information, see <a href="isa-operator-for-event-queries.md">ISA Operator for Event Queries</a>, <a href="isa-operator-for-data-queries.md">ISA Operator for Data Queries</a>, and <a href="isa-operator-for-schema-queries.md">ISA Operator for Schema Queries</a>.<br/></td>
-</tr>
-<tr class="odd">
-<td><span class="notranslate">KEYSONLY<br/></span></td>
-<td>Used in <a href="references-of-statement.md">REFERENCES OF</a> and <a href="associators-of-statement.md">ASSOCIATORS OF</a> queries to ensure that the resulting instances are only populated with the keys of the instances, which reduces the overhead of the call.<br/></td>
-</tr>
-<tr class="even">
-<td><span class="notranslate"><a href="wql-operators.md">LIKE</a></span></td>
-<td>Operator that determines whether or not a given character string matches a specified pattern.<br/></td>
-</tr>
-<tr class="odd">
-<td><span class="notranslate">NOT<br/></span></td>
-<td>Comparison operator that use in a WQL SELECT query, for example:<br/>
-<pre data-space="preserve"><code>SELECT * FROM meta_class WHERE NOT __class < &quot;Win32&quot; AND NOT __this ISA &quot;Win32_Account&quot;</code></pre></td>
-</tr>
-<tr class="even">
-<td><span class="notranslate"><strong>NULL</strong></span></td>
-<td>Indicates an object does not have an explicitly assigned value. <strong>NULL</strong> is not equivalent to zero (0) or blank.<br/></td>
-</tr>
-<tr class="odd">
-<td><span class="notranslate">OR<br/></span></td>
-<td>Combines two conditions.<br/> When more than one logical operator is used in a statement, the OR operators are evaluated after the AND operators.<br/></td>
-</tr>
-<tr class="even">
-<td><span class="notranslate"><a href="references-of-statement.md">REFERENCES OF</a></span></td>
-<td>Retrieves all association instances that refer to a specific source instance. Use this statement with schema and data queries. The <a href="references-of-statement.md">REFERENCES OF</a> statement is similar to the <a href="associators-of-statement.md">ASSOCIATORS OF</a> statement. However, it does not retrieve endpoint instances; it retrieves the association instances.<br/></td>
-</tr>
-<tr class="odd">
-<td><span class="notranslate">SELECT<br/></span></td>
-<td>Specifies the properties that are used in a query.<br/> For more information, see <a href="select-statement-for-data-queries.md">SELECT Statement for Data Queries</a>, <a href="select-statement-for-event-queries.md">SELECT Statement for Event Queries</a>, or <a href="select-statement-for-schema-queries.md">SELECT Statement for Schema Queries</a>.<br/></td>
-</tr>
-<tr class="even">
-<td><span class="notranslate"><strong>TRUE</strong></span></td>
-<td>Boolean operator that evaluates to -1 (minus one).<br/></td>
-</tr>
-<tr class="odd">
-<td><span class="notranslate"><a href="where-clause.md">WHERE</a></span></td>
-<td>Narrows the scope of a data, event, or schema query.<br/></td>
-</tr>
-<tr class="even">
-<td><span class="notranslate"><a href="within-clause.md">WITHIN</a></span></td>
-<td>Specifies a polling or grouping interval.<br/> Use this clause with event queries.<br/></td>
-</tr>
-<tr class="odd">
-<td><span class="notranslate">FALSE<br/></span></td>
-<td>Boolean operator that evaluates to 0 (zero).</td>
-</tr>
-</tbody>
-</table>
-
-
-
-
- 
+| WQL keyword | Meaning |
+| --- | --- |
+| :::no-loc text="AND"::: | Combines two Boolean expressions, and returns **TRUE** when both expressions are **TRUE**. |
+| [:::no-loc text="ASSOCIATORS OF":::](associators-of-statement.md) | Retrieves all instances that are associated with a source instance.<br>Use this statement with schema queries and data queries. |
+| [:::no-loc text="\_\_CLASS":::](--class-identifier.md) | References the class of the object in a query. |
+| :::no-loc text="FROM"::: | Specifies the class that contains the properties listed in a SELECT statement. Windows Management Instrumentation (WMI) supports data queries from only one class at a time. |
+| [:::no-loc text="GROUP Clause":::](group-clause.md) | Causes WMI to generate one notification to represent a group of events.<br>Use this clause with event queries. |
+| [:::no-loc text="HAVING":::](having-clause.md) | Filters the events that are received during the grouping interval that is specified in the [WITHIN clause](within-clause.md). |
+| [:::no-loc text="IS":::](wql-operators.md) | Comparison operator used with NOT and **NULL**. The syntax for this statement is the following:<br>IS \[NOT\] **NULL**<br>(where NOT is optional) |
+| [:::no-loc text="ISA":::](wql-operators.md) | Operator that applies a query to the subclasses of a specified class. For more information, see [ISA Operator for Event Queries](isa-operator-for-event-queries.md), [ISA Operator for Data Queries](isa-operator-for-data-queries.md), and [ISA Operator for Schema Queries](isa-operator-for-schema-queries.md). |
+| :::no-loc text="KEYSONLY"::: | Used in [REFERENCES OF](references-of-statement.md) and [ASSOCIATORS OF](associators-of-statement.md) queries to ensure that the resulting instances are only populated with the keys of the instances, which reduces the overhead of the call. |
+| [:::no-loc text="LIKE":::](wql-operators.md) | Operator that determines whether or not a given character string matches a specified pattern. |
+| :::no-loc text="NOT"::: | Comparison operator that use in a WQL SELECT query, for example:<br>`SELECT * FROM meta_class WHERE NOT __class < "Win32" AND NOT __this ISA "Win32_Account"` |
+| :::no-loc text="NULL"::: | Indicates an object does not have an explicitly assigned value. **NULL** is not equivalent to zero (0) or blank. |
+| :::no-loc text="OR"::: | Combines two conditions.<br>When more than one logical operator is used in a statement, the OR operators are evaluated after the AND operators. |
+| [:::no-loc text="REFERENCES OF":::](references-of-statement.md) | Retrieves all association instances that refer to a specific source instance. Use this statement with schema and data queries. The [REFERENCES OF](references-of-statement.md) statement is similar to the [ASSOCIATORS OF](associators-of-statement.md) statement. However, it does not retrieve endpoint instances; it retrieves the association instances. |
+| :::no-loc text="SELECT"::: | Specifies the properties that are used in a query.<br>For more information, see [SELECT Statement for Data Queries](select-statement-for-data-queries.md), [SELECT Statement for Event Queries](select-statement-for-event-queries.md), or [SELECT Statement for Schema Queries](select-statement-for-schema-queries.md). |
+| :::no-loc text="TRUE"::: | Boolean operator that evaluates to -1 (minus one). |
+| [:::no-loc text="WHERE":::](where-clause.md) | Narrows the scope of a data, event, or schema query. |
+| [:::no-loc text="WITHIN":::](within-clause.md) | Specifies a polling or grouping interval.<br>Use this clause with event queries. |
+| :::no-loc text="FALSE"::: | Boolean operator that evaluates to 0 (zero). |
 
 > [!Note]  
 > Using a WQL key word as an object name can result in a query that cannot be parsed even when the query compiles without error.
