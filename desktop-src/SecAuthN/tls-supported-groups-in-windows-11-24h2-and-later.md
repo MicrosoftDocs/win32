@@ -30,6 +30,9 @@ The following groups are supported by the Microsoft Schannel Provider, but are n
 | x25519_mlkem768 | TLS 1.3 | No |
 | secp256r1_mlkem768 | TLS 1.3 | No |
 | secp384r1_mlkem1024 | TLS 1.3 | No |
+| mlkem512 | TLS 1.3 | No |
+| mlkem768 | TLS 1.3 | No |
+| mlkem1024 | TLS 1.3 | No |
 | brainpoolP256r1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
 | brainpoolP384r1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
 | brainpoolP512r1 | TLS 1.0, 1.1, 1.2, 1.3 | No |
