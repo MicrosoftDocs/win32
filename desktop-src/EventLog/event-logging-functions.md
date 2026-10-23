@@ -3,13 +3,16 @@ description: The following functions are used with event logging.
 ms.assetid: fd5c12ec-3a3d-4b75-a573-0b27ae7a890b
 title: Event Logging Functions
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 10/23/2026
 ---
 
 # Event Logging Functions
 
 > [!Note]  
-> The Event Logging API was designed for applications that run on the Windows Server 2003, Windows XP, or Windows 2000 operating system. In Windows Vista, the event logging infrastructure was redesigned. Applications that are designed to run on the Windows Vista or later operating systems should now use [Windows Event Log](/windows/desktop/WES/windows-event-log).
+> - The Event Logging API was designed for applications that run on the Windows Server 2003, Windows XP, or Windows 2000 operating system. In Windows Vista, the event logging infrastructure was redesigned. Applications that are designed to run on the Windows Vista or later operating systems should now use [Windows Event Log](/windows/desktop/WES/windows-event-log).
+>
+> - When you use the command with a remote computer, an error might occur due an incompatibility between Windows 11, version 24H2 or later and Windows 11, version 23H2 or earlier when viewing logs across versions. A similar compatibility issue might occur between Windows Server 2025 or later and Windows Server 2022 or earlier.
+ 
 
 The following functions are used with event logging.
 
