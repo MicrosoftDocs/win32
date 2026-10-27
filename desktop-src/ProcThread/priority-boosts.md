@@ -12,7 +12,6 @@ Each thread has a *dynamic priority*. This is the priority the scheduler uses to
 
 The system boosts the dynamic priority of a thread to enhance its responsiveness as follows.
 
--   When a process that uses NORMAL\_PRIORITY\_CLASS is brought to the foreground, the scheduler boosts the priority class of the process associated with the foreground window, so that it is greater than or equal to the priority class of any background processes. The priority class returns to its original setting when the process is no longer in the foreground.
 -   When a window receives input, such as timer messages, mouse messages, or keyboard input, the scheduler boosts the priority of the thread that owns the window.
 -   When the wait conditions for a blocked thread are satisfied, the scheduler boosts the priority of the thread. For example, when a wait operation associated with disk or keyboard I/O finishes, the thread receives a priority boost.
 
