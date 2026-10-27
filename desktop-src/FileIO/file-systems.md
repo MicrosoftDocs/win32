@@ -25,6 +25,7 @@ The following topics provide information about the file systems supported by Win
 | Topic | Description |
 |-------|-------------|
 | [Directory Management](directory-management.md) | A *directory* is a hierarchical collection of directories and files. The only constraint on the number of files that can be contained in a single directory is the physical size of the disk on which the directory is located. |
+| [Disk Enumeration](disk-enumeration.md) | Discover disk device paths across storage stacks by enumerating enabled instances of the GUID_DEVINTERFACE_DISK device interface class. |
 | [Disk Management](disk-management.md) | A *hard disk* is a rigid disk inside a computer that stores and provides relatively quick access to large amounts of data. It is the type of storage most often used with Windows. The system also supports removable media. |
 | [File Management](file-management.md) | A *file object* provides a representation of a resource (either a physical device or a resource located on a physical device) that can be managed by the I/O system. |
 | [Transactional NTFS (TxF)](transactional-ntfs-portal.md) | Transactional NTFS (TxF) allows file operations on an NTFS file system volume to be performed in a transaction. |
