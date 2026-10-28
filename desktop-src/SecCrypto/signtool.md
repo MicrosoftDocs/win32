@@ -3,12 +3,12 @@ title: SignTool
 description: Learn how to use SignTool, a command-line tool that digitally signs files, verifies the signatures in files, and time stamps files.
 ms.assetid: aa59cb35-5fba-4ce8-97ea-fc767c83f88e
 ms.topic: reference
-ms.date: 11/21/2024
+ms.date: 10/28/2026
 ---
 
 # SignTool
 
-SignTool is a command-line tool that digitally signs files, verifies the signatures in files, removes the signatures from files, and time stamps files. For information about why signing files is important, see [Introduction to code signing](cryptography-tools.md).
+SignTool is a command-line tool that digitally signs files, verifies the signatures in files, removes the signatures from files, and time stamps files. SignTool can sign executable files, scripts, catalog files, and other file types that have a registered Subject Interface Package (SIP). For information about why signing files is important, see [Introduction to code signing](cryptography-tools.md).
 
 SignTool is available as part of the [Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads/windows-sdk). The tool is installed in the `\Bin` folder of the Windows SDK installation path, for example: `C:\Program Files (x86)\Windows Kits\10\bin\10.0.22621.0\x64\signtool.exe`.
 
@@ -21,15 +21,17 @@ SignTool is available as part of the [Windows Software Development Kit (SDK)](ht
 
 ```console
 signtool [command] [options] [file_name | ...]
+signtool @response_file
 ```
 
 ## Parameters
 
 | Argument | Description |
 |----------|-------------|
-| `command` | One of four commands that specifies an operation to perform on a file: `catdb`, `sign`, `timestamp`, or `verify`. For a description of each command, see the next table. |
+| `command` | One of five commands that specifies an operation to perform on a file: `catdb`, `remove`, `sign`, `timestamp`, or `verify`. For a description of each command, see the next table. |
 | `options` | An option that modifies a command. In addition to the global `/q` and `/v` options, each command supports a unique set of options. |
-| `file_name` | The path to the file to sign. |
+| `file_name` | The path to a file on which the command operates. |
+| `response_file` | The path to a response file that contains one or more SignTool commands. For more information, see [Response files](#response-files). |
 
 SignTool supports the following commands:
 
@@ -48,6 +50,32 @@ The following options apply to all SignTool commands:
 | `/q` | Displays no output if the command runs successfully, and displays minimal output if the command fails. |
 | `/v` | Displays verbose output regardless of whether the command runs successfully or fails, and displays warning messages. |
 | `/debug` | Displays debugging information. |
+
+## Response files
+
+Use a response file to store SignTool commands for repeatable or automated operations. Specify one argument on each line. The first argument must be the command, such as `sign` or `verify`. To run multiple commands, separate them with an empty line.
+
+For example, create a file named `commands.txt` with the following contents:
+
+```text
+sign
+/n "Contoso Software"
+/fd SHA256
+/tr http://timestamp.digicert.com
+/td SHA256
+MyFile.exe
+
+verify
+/pa
+/v
+MyFile.exe
+```
+
+Run the commands by specifying the response file:
+
+```console
+signtool @commands.txt
+```
 
 ## Catdb command options
 
@@ -84,6 +112,7 @@ The following table lists the options that can be used with the `remove` command
 | `/a` | Automatically selects the best signing certificate. SignTool finds all valid certificates that satisfy all specified conditions and selects the one that is valid for the longest time. If this option isn't present, SignTool expects to find only one valid signing certificate. |
 | `/ac` *file* | Adds another certificate from *file* to the signature block. |
 | `/as` | Appends this signature. If no primary signature exists, this signature is made the primary signature instead. |
+| `/Author` *value* | Adds the author authenticated attribute. Equivalent to `/sa 1.3.6.1.4.1.311.2.7.8 value`. |
 | `/c` *CertTemplateName* | Specifies the Certificate Template Name (a Microsoft extension) for the signing certificate. |
 | `/csp` *CSPName* | Specifies the cryptographic service provider (CSP) that contains the private key container. |
 | `/d` *Desc* | Specifies a description of the signed content. |
@@ -97,26 +126,57 @@ The following table lists the options that can be used with the `remove` command
 | `/f` *SignCertFile* | Specifies the signing certificate in a file. If the file is in Personal Information Exchange (PFX) format and protected by a password, use the `/p` option to specify the password. If the file doesn't contain private keys, use the `/csp` and `/kc` options to specify the CSP and private key container name. |
 | `/fd` *alg* | Specifies the file digest algorithm to use for creating file signatures. **Note**: If the `/fd` option isn't specified while signing, the command generates an error. |
 | `/fd certHash` | Specifying the string "certHash" causes the command to use the algorithm specified on the signing certificate. **Note**: If the `/fd` option isn't specified while signing, the command generates an error. |
+| `/FileDescription` *value* | Adds the file description authenticated attribute. Equivalent to `/sa 1.3.6.1.4.1.311.2.7.3 value`. This option differs from `/d`, which sets the Authenticode description of the signed content. |
+| `/FileVersion` *value* | Adds the file version authenticated attribute. Equivalent to `/sa 1.3.6.1.4.1.311.2.7.2 value`. |
 | `/i` *IssuerName* | Specifies the name of the issuer of the signing certificate. This value can be a substring of the entire issuer name. |
+| `/InternalName` *value* | Adds the internal name authenticated attribute. Equivalent to `/sa 1.3.6.1.4.1.311.2.7.1 value`. |
 | `/kc` *PrivKeyContainerName* | Specifies the private key container name. |
+| `/Language` *value* | Adds the language authenticated attribute. Equivalent to `/sa 1.3.6.1.4.1.311.2.7.7 value`. |
 | `/n` *SubjectName* | Specifies the name of the subject of the signing certificate. This value can be a substring of the entire subject name. |
 | `/nph` | If supported, suppresses page hashes for executable files. The default is determined by the **SIGNTOOL_PAGE_HASHES** environment variable and by the *wintrust.dll* version. This option is ignored for non-PE files. |
+| `/OriginalFilename` *value* | Adds the original file name authenticated attribute. Equivalent to `/sa 1.3.6.1.4.1.311.2.7.6 value`. |
 | `/p` *Password* | Specifies the password to use when opening a PFX file. Use the `/f` option to specify a PFX file. |
 | `/p7` *Path* | Specifies that a Public Key Cryptography Standards (PKCS) #7 file is produced for each specified content file. PKCS #7 files are named *\<path>\\\<filename>.p7*. |
 | `/p7ce` *Value* | Specifies options for the signed PKCS #7 content. Set *Value* to `Embedded` to embed the signed content in the PKCS #7 file, or to `DetachedSignedData` to produce the signed data portion of a detached PKCS #7 file. If the `/p7ce` option isn't specified, the signed content is embedded by default. |
 | `/p7co` *\<OID>* | Specifies the object identifier (OID) that identifies the signed PKCS #7 content. |
 | `/ph` | If supported, generates page hashes for executable files. |
+| `/Product` *value* | Adds the product name authenticated attribute. Equivalent to `/sa 1.3.6.1.4.1.311.2.7.4 value`. |
+| `/ProductVersion` *value* | Adds the product version authenticated attribute. Equivalent to `/sa 1.3.6.1.4.1.311.2.7.5 value`. |
+| `/PublishTime` *value* | Adds the publish time authenticated attribute. Equivalent to `/sa 1.3.6.1.4.1.311.2.7.9 value`. |
 | `/r` *RootSubjectName* | Specifies the name of the subject of the root certificate that the signing certificate must chain to. This value can be a substring of the entire subject name of the root certificate. |
+| `/sa` *OID* *value* | Adds an authenticated attribute to the signature. SignTool encodes *value* as an ASN.1 UTF-8 string. Specify this option multiple times to add multiple attributes. |
 | `/s` *StoreName* | Specifies the store to open when the command searches for the certificate. If this option isn't specified, the command opens the `My` store. |
 | `/sha1` *Hash* | Specifies the SHA1 hash of the signing certificate. The SHA1 hash is commonly used when multiple certificates satisfy the criteria specified by the remaining options. |
 | `/sm` | Specifies that the command uses a machine store, instead of a user store. |
+| `/SourceURL` *value* | Adds the source URL authenticated attribute. Equivalent to `/sa 1.3.6.1.4.1.311.2.7.10 value`. |
 | `/t` *URL* | Specifies the URL of the time stamp server. If this option or `/tr` isn't specified, the signed file isn't time stamped. If time stamping fails, the command generates a warning. This option can't be used with the `/tr` option. |
 | `/td` *alg* | Used with the `/tr` option to request a digest algorithm used by the RFC 3161 time stamp server. **Note**: If `/td` isn't specified while time stamping, the command generates an error. |
 | `/tr` *URL* | Specifies the URL of the RFC 3161 time stamp server. If this option or `/t` isn't specified, the signed file isn't time stamped. If the time stamping fails, the command generates a warning. This option can't be used with the `/t` option. |
 | `/u` *Usage* | Specifies the enhanced key usage (EKU) that must be present in the signing certificate. The usage value can be specified by OID or string. The default usage is `Code Signing` or  `1.3.6.1.5.5.7.3.3`. |
 | `/uw` | Specifies usage of `Windows System Component Verification` or `1.3.6.1.4.1.311.10.3.6`. |
 
-For usage examples, see [Using SignTool to Sign a File](using-signtool-to-sign-a-file.md).
+### Authenticated metadata attributes
+
+Authenticated metadata attributes provide signed file identity and version information for scripts and other files that don't have Portable Executable (PE) version resources. Policy and deployment tools can use this metadata to identify signed content.
+
+The friendly metadata options and their equivalent OIDs are:
+
+| SignTool option | WinTrust identifier | OID |
+|-----------------|---------------------|-----|
+| `/InternalName` | `szOID_SIGNED_ATTRIBUTE_INTERNAL_NAME` | `1.3.6.1.4.1.311.2.7.1` |
+| `/FileVersion` | `szOID_SIGNED_ATTRIBUTE_FILE_VERSION` | `1.3.6.1.4.1.311.2.7.2` |
+| `/FileDescription` | `szOID_SIGNED_ATTRIBUTE_FILE_DESCRIPTION` | `1.3.6.1.4.1.311.2.7.3` |
+| `/Product` | `szOID_SIGNED_ATTRIBUTE_PRODUCT` | `1.3.6.1.4.1.311.2.7.4` |
+| `/ProductVersion` | `szOID_SIGNED_ATTRIBUTE_PRODUCT_VERSION` | `1.3.6.1.4.1.311.2.7.5` |
+| `/OriginalFilename` | `szOID_SIGNED_ATTRIBUTE_ORIGINAL_FILENAME` | `1.3.6.1.4.1.311.2.7.6` |
+| `/Language` | `szOID_SIGNED_ATTRIBUTE_LANGUAGE` | `1.3.6.1.4.1.311.2.7.7` |
+| `/Author` | `szOID_SIGNED_ATTRIBUTE_AUTHOR` | `1.3.6.1.4.1.311.2.7.8` |
+| `/PublishTime` | `szOID_SIGNED_ATTRIBUTE_PUBLISH_TIME` | `1.3.6.1.4.1.311.2.7.9` |
+| `/SourceURL` | `szOID_SIGNED_ATTRIBUTE_SOURCE_URL` | `1.3.6.1.4.1.311.2.7.10` |
+
+The named metadata options are available in Windows SDK build 10.0.25231.0 and later. Build 10.0.25231.0 was a preview SDK. The first stable release confirmed to contain these options is the Windows 11, version 24H2 SDK (build 10.0.26100.0; SDK build tools package version 10.0.26100.1).
+
+For procedures, see [Use SignTool to sign a file](using-signtool-to-sign-a-file.md) and [Sign scripts and non-PE files with SignTool](sign-scripts-and-non-pe-files.md).
 
 ## Timestamp command options
 
@@ -201,6 +261,18 @@ The following command signs a file by using a certificate located in the `My` st
 signtool sign /n "My Company Certificate" /fd SHA256 MyFile.exe 
 ```
 
+The following command signs a PowerShell script and adds authenticated metadata by using the friendly metadata options.
+
+```console
+signtool sign /a /fd SHA256 /tr http://timestamp.digicert.com /td SHA256 /InternalName "Contoso.Deploy" /FileVersion "2.1.0" /FileDescription "Contoso deployment script" /Product "Contoso Tools" /ProductVersion "2.1" /OriginalFilename "Deploy.ps1" Deploy.ps1
+```
+
+The following command uses `/sa` to add the same original file name attribute by its OID.
+
+```console
+signtool sign /a /fd SHA256 /sa 1.3.6.1.4.1.311.2.7.6 "Deploy.ps1" Deploy.ps1
+```
+
 The following command signs an ActiveX control and provides information that's displayed in a browser when the user is prompted to install the control.
 
 ```console
@@ -245,6 +317,6 @@ signtool remove /s MyFile.exe
 
 ## See also
 
-[Using SignTool to Sign a File](using-signtool-to-sign-a-file.md)
-
-[Introduction to code signing](cryptography-tools.md)
+- [Use SignTool to sign a file](using-signtool-to-sign-a-file.md)
+- [Sign scripts and non-PE files with SignTool](sign-scripts-and-non-pe-files.md)
+- [Introduction to code signing](cryptography-tools.md)
