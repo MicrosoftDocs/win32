@@ -8,7 +8,7 @@ ms.date: 10/28/2026
 
 # Sign scripts and non-PE files with SignTool
 
-Scripts and other non-Portable Executable (non-PE) files usually lack version resources that identify an executable's original file name, product, and version. The absence of that data is particularly concerning for organizations using [App Control for Business](/windows/security/application-security/application-control/app-control-for-business.md) to control what code runs on the organization's endpoints. SignTool can add this information to an embedded signature as authenticated metadata. Because the metadata is part of the signature, changing either the file or its signed metadata invalidates the signature.
+Scripts and other non-Portable Executable (non-PE) files usually lack version resources that identify an executable's original file name, product, and version. The absence of that data is particularly concerning for organizations using [App Control for Business](/windows/security/application-security/application-control/app-control-for-business) to control what code runs on the organization's endpoints. SignTool can add this information to an embedded signature as authenticated metadata. Because the metadata is part of the signature, changing either the file or its signed metadata invalidates the signature.
 
 This procedure signs a PowerShell script, but the same metadata options apply to other file types for which Windows has a registered Subject Interface Package (SIP).
 
