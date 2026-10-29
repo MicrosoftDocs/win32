@@ -409,12 +409,14 @@
       - name: "Signing Files and Checking Signatures"
         href: signing-files-and-checking-signatures.md
         items: 
-        - name: "Using SignTool to Sign a File"
+        - name: "Use SignTool to sign a file"
           href: using-signtool-to-sign-a-file.md
           items: 
+          - name: "Sign scripts and non-PE files with SignTool"
+            href: sign-scripts-and-non-pe-files.md
           - name: "Adding Time Stamps to Previously Signed Files"
             href: adding-time-stamps-to-previously-signed-files.md
-        - name: "Using SignTool to Verify a File Signature"
+        - name: "Use SignTool to verify a file signature"
           href: using-signtool-to-verify-a-file-signature.md
     - name: "Creating and Receiving Enveloped Data Messages"
       href: creating-and-receiving-enveloped-data-messages.md
