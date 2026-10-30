@@ -70,6 +70,10 @@ The **FilesNotToBackup** registry key specifies the names of the files and direc
 - /s specifies that all subdirectories of the specified path are to be included.
 - Environment variables such as %Systemroot% can be substituted for all or part of the entire string.
 
+This registry value can be found under the following registry key:
+
+**HKEY\_LOCAL\_MACHINE**\\**System**\\**CurrentControlSet**\\**Control**\\**BackupRestore**
+
 The following table shows some typical entries.
 
 | Entry name                             | Default value                                                                             |
