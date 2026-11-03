@@ -17,7 +17,7 @@ keywords:
 - OverallPerformanceSetting Backup
 - SYSVOL Backup
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 11/02/2026
 ---
 
 # Registry Keys and Values for Backup and Restore
@@ -69,6 +69,10 @@ The **FilesNotToBackup** registry key specifies the names of the files and direc
 - *FileName* specifies the file or directory and is required. It can contain wildcard characters.
 - /s specifies that all subdirectories of the specified path are to be included.
 - Environment variables such as %Systemroot% can be substituted for all or part of the entire string.
+
+The **FilesNotToBackup** registry key is located at:
+
+**HKEY\_LOCAL\_MACHINE**\\**System**\\**CurrentControlSet**\\**Control**\\**BackupRestore**\\**FilesNotToBackup**
 
 The following table shows some typical entries.
 
