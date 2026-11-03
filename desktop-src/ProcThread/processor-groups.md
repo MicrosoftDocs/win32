@@ -3,7 +3,7 @@ description: The 64-bit versions of Windows 7 and Windows Server 2008 R2 and 
 ms.assetid: c627ac0f-96e8-48b5-9103-4316f487e173
 title: Processor Groups
 ms.topic: concept-article
-ms.date: 07/14/2025
+ms.date: 11/02/2026
 ---
 
 # Processor Groups
@@ -36,7 +36,7 @@ To specify affinity for all processes associated with a job object, use the [**S
 
 A logical processor is identified by its group number and its group-relative processor number. This is represented by a [**PROCESSOR\_NUMBER**](/windows/desktop/api/WinNT/ns-winnt-processor_number) structure. Numeric processor numbers used by legacy functions are group-relative.
 
-For a discussion of operating system architecture changes to support more than 64 processors, see the white paper [Supporting Systems That Have More Than 64 Processors](https://plexuk.co.uk/?p=400).
+For a discussion of operating system architecture changes to support more than 64 processors, see the white paper [Supporting Systems That Have More Than 64 Processors](/previous-versions/windows/hardware/design/dn653313(v=vs.85)).
 
 For a list of new functions and structures that support processor groups, see [What's New in Processes and Threads](what-s-new-in-processes-and-threads.md).
 
