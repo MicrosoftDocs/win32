@@ -28,6 +28,10 @@ Clients should treat the contents of the endpoint ID string as opaque. That is, 
 
 The lifetime of an endpoint ID string is tied to the device installation. The endpoint ID string of a device changes if the user upgrades the device driver, or if the user uninstalls the device, and installs it again. However, the endpoint ID string remains unchanged across system restarts, and the endpoint ID string of a USB audio device remains unchanged if the user unplugs the device and plugs it back in.
 
+Since operating system and audio driver updates can change the endpoint ID string for a physical audio endpoint, the endpoint ID does not provide a reliable mechanism for an application to remember and track an audio endpoint across user sessions. For example, a communication app may want to remember a user's choice of microphone and speakers to use for a call. If the application uses the endpoint ID to track the user's preference, then an audio driver update that changes the endpoint ID of the microphone/speakers could cause the application to lose the user's preference.
+
+Starting in Windows 11, version 24H2 (build 26100), Windows provides a **PKEY\_AudioEndpoint\_StableId** property on an audio endpoint that, when available, can be used by an application to reliably track audio endpoints across operating system and audio driver updates. The **PKEY\_AudioEndpoint\_StableId** is an opaque, case-sensitive string that an app can save, and later use in a call to [**IMMDeviceEnumerator::GetDevice**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice) to retrieve the same audio endpoint. For more information, see [PKEY\_AudioEndpoint\_StableId](pkey-audioendpoint-stableid.md).
+
 ## Related topics
 
 <dl> <dt>

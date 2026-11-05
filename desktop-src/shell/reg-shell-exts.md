@@ -25,6 +25,11 @@ HKEY_CLASSES_ROOT
             ThreadingModel = Apartment
 ```
 
+> [!IMPORTANT]
+> **ThreadingModel must be `Apartment`** for shell extension handlers. The Shell's folder views and Explorer run on a single-threaded apartment (STA) thread. Using `Free` or `Both` threading models can cause intermittent failures, deadlocks, or crashes that are difficult to diagnose.
+>
+> For packaged desktop apps (MSIX), prefer manifest-based registration using the [`desktop4:Extension`](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop4-extension) element rather than writing registry keys directly. This ensures proper package identity and clean uninstall.
+
 Any time the Shell takes an action that can involve a Shell extension handler, it checks the appropriate registry subkey. The subkey under which an extension handler is registered controls when it will be called. For instance, it is a common practice to have a shortcut menu handler called when the Shell displays a shortcut menu for a member of a [file type](fa-file-types.md). In this case, the handler must be registered under the file type's **ProgID** subkey.
 
 This topic discusses the following subjects:

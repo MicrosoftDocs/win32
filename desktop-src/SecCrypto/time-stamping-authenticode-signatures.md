@@ -3,12 +3,34 @@ description: Authenticode time stamping is based on standard PKCS \#7 countersig
 ms.assetid: d0bd3e2f-1eee-4f71-9467-974994f720d5
 title: Time Stamping Authenticode Signatures
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/16/2026
 ---
 
 # Time Stamping Authenticode Signatures
 
 Microsoft Authenticode signatures provide authorship and integrity guarantees for binary data. Authenticode time stamping is based on standard PKCS \#7 countersignatures. Signing tools from Microsoft allow developers to affix time stamps at the same time as they affix Authenticode signatures. Time stamping allows Authenticode signatures to be verifiable even after the certificates used for signature have expired.
+
+> [!IMPORTANT]
+> Always time-stamp your Authenticode signatures. Without a time stamp, the signature becomes invalid when the signing certificate expires, and Windows will treat the binary as unsigned. Time stamping ensures long-term signature validity.
+
+## Signing algorithm recommendations
+
+When signing code with Authenticode, use the following best practices:
+
+| Setting | Recommendation |
+|---------|---------------|
+| Digest algorithm | SHA-256 (`/fd SHA256`). SHA-1 signatures are deprecated and distrusted by modern Windows versions for code signing. |
+| Time stamp protocol | RFC 3161 (`/tr` flag with `/td SHA256`). RFC 3161 time stamps use a standard protocol with a SHA-256 digest, providing stronger guarantees than the legacy Authenticode time stamp protocol (`/t`). |
+| Dual-signing | If you must support Windows versions that cannot validate SHA-256 signatures (Windows Vista and earlier without updates), consider dual-signing binaries with both SHA-1 and SHA-256. For targets running Windows 7 SP1 or later, SHA-256-only signing is sufficient. |
+
+Example `signtool` command:
+
+```cmd
+signtool sign /fd SHA256 /tr https://timestamp.example.com /td SHA256 /a MyApp.exe
+```
+
+> [!WARNING]
+> Do not use SHA-1 as the sole signing algorithm for new releases. SHA-1 is cryptographically broken and Windows 10 and later progressively distrust SHA-1 for code signing. Always use SHA-256 or stronger for new signatures. Note that existing SHA-1 timestamps dated before 2016 may still be honored for specific scenarios; see [Windows Enforcement of SHA1 Certificates](/windows/win32/seccrypto/cert-chain-configuration) for details.
 
 ## A Brief Introduction to Authenticode
 

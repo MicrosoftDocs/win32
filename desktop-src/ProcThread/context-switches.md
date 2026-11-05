@@ -25,7 +25,7 @@ Until threads that are suspended or blocked become ready to run, the scheduler d
 
 The most common reasons for a context switch are:
 
--   The time slice has elapsed.
+-   The quantum of a thread expired, and another thread with at least the same priority is ready
 -   A thread with a higher priority has become ready to run.
 -   A running thread needs to wait.
 

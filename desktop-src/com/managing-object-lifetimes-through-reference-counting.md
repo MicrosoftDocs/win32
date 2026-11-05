@@ -3,10 +3,34 @@ title: Managing Object Lifetimes Through Reference Counting
 description: Managing Object Lifetimes Through Reference Counting
 ms.assetid: 7f9da5a9-0435-431c-8f90-56e2e489c431
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 01/08/2025
 ---
 
 # Managing Object Lifetimes Through Reference Counting
+
+> [!TIP]
+> **Use smart pointers instead of manual `AddRef`/`Release`.** Manual reference counting is the #1 source of COM bugs (leaked objects, use-after-free, double-release). Modern C++ code should use smart pointers that handle reference counting automatically:
+>
+> ```cpp
+> #include <wrl/client.h>   // Microsoft::WRL::ComPtr
+>
+> // ComPtr automatically calls AddRef on copy and Release on destruction
+> Microsoft::WRL::ComPtr<IStream> stream;
+> HRESULT hr = CreateStreamOnHGlobal(nullptr, TRUE, &stream);
+> if (FAILED(hr)) return hr;
+>
+> // Pass to another interface — use .Get() for raw pointer
+> // Note: operator& on ComPtr asserts if it already holds a value.
+> // Use .ReleaseAndGetAddressOf() if the ComPtr may be non-null.
+> Microsoft::WRL::ComPtr<IUnknown> unknown;
+> hr = stream.As(&unknown);  // Safe QueryInterface — no manual Release needed
+> ```
+>
+> **Alternatives:**
+> - `winrt::com_ptr<T>` — C++/WinRT smart pointer (requires C++17, integrates with WinRT projections)
+> - `wil::com_ptr_nothrow<T>` — [Windows Implementation Libraries](https://github.com/microsoft/wil) (exception-free alternative)
+>
+> The manual `AddRef`/`Release` rules described below are still relevant for understanding how COM works internally and for implementing COM servers, but client code should rarely call these methods directly.
 
 In traditional object systems, the life cycle of objects—that is, the issues surrounding the creation and deletion of objects—is handled implicitly by the language (or the language run time) or explicitly by application programmers.
 

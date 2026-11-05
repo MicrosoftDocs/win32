@@ -8,6 +8,22 @@ ms.date: 05/31/2018
 
 # About WinHTTP
 
+> [!IMPORTANT]
+> **Choosing the right Windows HTTP stack**
+>
+> | Scenario | Recommended API |
+> |----------|----------------|
+> | Windows service, daemon, or server-side code | **WinHTTP** — designed for services; supports impersonation, session isolation |
+> | Desktop app needing Internet Options (IE) proxy settings, cookies, or credential prompts | **WinINet** — inherits user's Internet Options configuration automatically |
+> | Modern C++ app (UWP or Desktop) | **Windows.Web.Http** (C++/WinRT) — modern, async-first, modern TLS support |
+> | .NET application | **System.Net.Http.HttpClient** — managed, cross-platform, pooled connections |
+> | Cross-platform C/C++ | **libcurl** or platform HTTP libraries — not Windows-specific |
+>
+> **Key differences from WinINet**: WinHTTP does **not** share cookies, cache, or credentials with the user's browser. It has no UI prompting. It **does** support running under service accounts and impersonation. See [WinINet vs. WinHTTP](/windows/desktop/wininet/wininet-vs-winhttp) for a full feature comparison.
+
+> [!NOTE]
+> **Security defaults** — WinHTTP follows the OS Schannel configuration for TLS version negotiation. Always validate server certificates; never set `WINHTTP_OPTION_SECURITY_FLAGS` to ignore certificate errors in production. For TLS configuration, see [WinHTTP Security Considerations](winhttp-security-considerations.md).
+
 > [!NOTE]
 > For app containers and system services since Windows 10, version 1709, HTTP/2 (see [RFC7540](https://tools.ietf.org/html/rfc7540)) is on by default.
 

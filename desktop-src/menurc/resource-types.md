@@ -31,7 +31,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 08/28/2026
 ---
 
 # Resource Types
@@ -71,11 +71,11 @@ The following are the predefined resource types.
 ### String Table Resources
 
 When enumerating String Table resources (type **RT_STRING**) with functions such as **EnumResourceNamesW**, the system doesn't
-enumerate each individual string resource ID; instead it enumerates blocks of resources. You must inpsect these blocks to 
+enumerate each individual string resource ID; instead it enumerates blocks of resources. You must inspect these blocks to 
 determine which string resource ID(s) they actually contain.
 
 String resources are packaged into blocks, each of which contains 16 length-prefixed strings representing 16 consecutive
-IDs (some of which may not be used; see below). Given a string resource ID `X`, it will placed in the resource block number 
+IDs (some of which may not be used; see below). Given a string resource ID `X`, it will be placed in the resource block number 
 `(X \ 16) + 1` (where `\` denotes integer division). Within that block, the resource can be found as the `N`th entry, 
 where `N = X % 16`. 
 
@@ -86,7 +86,7 @@ located:
 |-|-|-|
 | 1 | `(1 \ 16) + 1` = 1 | `1 % 16` = 1 |
 | 2 | `(2 \ 16) + 1` = 1 | `2 % 16` = 2 |
-| 5 | `(3 \ 16) + 1` =  1 | `5 % 16` = 5 |
+| 5 | `(5 \ 16) + 1` = 1 | `5 % 16` = 5 |
 | 15 | `(15 \ 16) + 1` = 1 | `15 % 16` = 15 |
 | 20 | `(20 \ 16) + 1` = 2 | `20 % 16` = 4 |
 | 32 | `(32 \ 16) + 1` = 3 | `32 % 16` = 0 |
@@ -105,7 +105,7 @@ is "Hello world" (11 characters long) and where the numbers in angle brackets re
 ```
 
 The following code snippet shows an enumeration callback function that will enumerate individual **RT_STRING** resources
-just like other types (like **RT_ICON**) than the blocks:
+just like other types (like **RT_ICON**) rather than the blocks:
 
 ```C++
 // Number of entries in the string table.

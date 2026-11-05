@@ -1127,6 +1127,8 @@
         href: pkey-audioendpoint-min-volumeindb.md
       - name: "PKEY_AudioEndpoint_PhysicalSpeakers"
         href: pkey-audioendpoint-physicalspeakers.md
+      - name: "PKEY_AudioEndpoint_StableId"
+        href: pkey-audioendpoint-stableid.md
       - name: "PKEY_AudioEndpoint_Supports_EventDriven_Mode"
         href: pkey-audioendpoint-supports-eventdriven-mode.md
       - name: "PKEY_AudioEngine_DeviceFormat"

@@ -3,7 +3,7 @@ title: The COM Library
 description: The COM Library
 ms.assetid: 51d4db4a-ad88-4627-8140-2f7906945752
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 01/08/2025
 ---
 
 # The COM Library
@@ -27,6 +27,39 @@ In-process servers do not call the initialization functions because they are bei
 It is also important to uninitialize the library. For each call to [**CoInitialize**](/windows/desktop/api/Objbase/nf-objbase-coinitialize) or [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex), there must be a corresponding call to [**CoUninitialize**](/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize). For each call to [**OleInitialize**](/windows/desktop/api/Ole2/nf-ole2-oleinitialize), there must be a corresponding call to [**OleUninitialize**](/windows/desktop/api/Ole2/nf-ole2-oleuninitialize).
 
 In-process servers can assume that the process they are being loaded into has already performed these steps.
+
+> [!IMPORTANT]
+> **Every thread that uses COM must call `CoInitializeEx` before calling any other COM function.** This is the most common COM initialization mistake — calling `CoCreateInstance` or other COM APIs on a thread that has not been initialized will fail with `CO_E_NOTINITIALIZED` (0x800401F0).
+
+> [!TIP]
+> **Recommended pattern — use an RAII guard to ensure uninitialization:**
+>
+> ```cpp
+> #include <wil/com.h>  // Windows Implementation Libraries
+>
+> // wil::unique_couninitialize_call calls CoUninitialize automatically on scope exit
+> auto comInit = wil::CoInitializeEx(COINIT_APARTMENTTHREADED | COINIT_DISABLE_OLE1DDE);
+>
+> // ... use COM — CoUninitialize is called when comInit goes out of scope,
+> //     even if an exception is thrown ...
+> ```
+>
+> If wil is not available, call `CoUninitialize()` manually — each successful `CoInitializeEx` call must be paired with exactly one `CoUninitialize` call:
+>
+> ```cpp
+> HRESULT hr = CoInitializeEx(nullptr, COINIT_APARTMENTTHREADED | COINIT_DISABLE_OLE1DDE);
+> if (FAILED(hr)) return hr;
+>
+> // ... use COM ...
+>
+> CoUninitialize();
+> ```
+
+> [!IMPORTANT]
+> **Common mistakes:**
+> - Calling COM functions without initializing COM on the current thread.
+> - Mismatching `CoInitializeEx` / `CoUninitialize` calls (each successful init needs exactly one uninit).
+> - Mixing apartment models on the same thread (calling `CoInitializeEx` with a different model than a previous successful call returns `RPC_E_CHANGED_MODE`).
 
 ## Related topics
 

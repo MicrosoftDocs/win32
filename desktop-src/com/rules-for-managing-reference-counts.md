@@ -3,10 +3,33 @@ title: Rules for Managing Reference Counts
 description: Using a reference count to manage an object's lifetime allows multiple clients to obtain and release access to a single object without having to coordinate with one another in managing the object's lifetime.
 ms.assetid: bbe7d16c-fcb7-474d-a22d-5a3b33dd800e
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/16/2026
 ---
 
 # Rules for Managing Reference Counts
+
+> [!TIP]
+> **Use smart pointers to automate AddRef/Release.** Manual reference counting is error-prone. Modern C++ COM code should use smart pointers that call `AddRef` and `Release` automatically:
+>
+> | Smart pointer | Library | When to use |
+> |---|---|---|
+> | `Microsoft::WRL::ComPtr<T>` | Windows Runtime C++ Template Library (WRL) | WinRT and classic COM in C++ |
+> | `winrt::com_ptr<T>` | C++/WinRT | C++/WinRT projects (preferred for new code) |
+> | `wil::com_ptr<T>` | [Windows Implementation Libraries](https://github.com/microsoft/wil) | Any C++ COM code; adds logging and diagnostics |
+> | `ATL::CComPtr<T>` | ATL | Legacy ATL projects (avoid for new code) |
+>
+> ```cpp
+> // ✅ Smart pointer — Release is called automatically at end of scope
+> winrt::com_ptr<IStream> stream;
+> HRESULT hr = CreateStreamOnHGlobal(nullptr, TRUE, stream.put());
+>
+> // ❌ Raw pointer — easy to leak on early return or exception
+> IStream* pStream = nullptr;
+> hr = CreateStreamOnHGlobal(nullptr, TRUE, &pStream);
+> // ... if any code path forgets pStream->Release(), you have a leak
+> ```
+>
+> The manual rules below still apply when you work with raw `IUnknown*` pointers, legacy C code, or implement COM objects internally.
 
 Using a reference count to manage an object's lifetime allows multiple clients to obtain and release access to a single object without having to coordinate with one another in managing the object's lifetime. As long as the client object conforms to certain rules of use, the object, in effect, provides this management. These rules specify how to manage references between objects. (COM does not specify internal implementations of objects, although these rules are a reasonable starting point for a policy within an object.)
 

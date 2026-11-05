@@ -3,7 +3,7 @@ title: Processes, Threads, and Apartments
 description: A process is a collection of virtual memory space, code, data, and system resources.
 ms.assetid: cb62412a-d079-40f9-89dc-cce0bf3889af
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 01/08/2025
 ---
 
 # Processes, Threads, and Apartments
@@ -30,6 +30,16 @@ While COM supports the single-thread-per-process model prevalent before the intr
 In general, the simplest way to view the COM threading architecture is to think of all the COM objects in the process as divided into groups called *apartments*. A COM object lives in exactly one apartment, in the sense that its methods can legally be directly called only by a thread that belongs to that apartment. Any other thread that wants to call the object must go through a proxy.
 
 There are two types of apartments: [single-threaded apartments](single-threaded-apartments.md), and [multithreaded apartments](multithreaded-apartments.md).
+
+> [!IMPORTANT]
+> **Choosing an apartment model (STA vs MTA):**
+>
+> | Apartment | `CoInitializeEx` flag | Use when |
+> |-----------|----------------------|----------|
+> | **STA** (single-threaded) | `COINIT_APARTMENTTHREADED` | Your thread has a message loop (UI threads), or you're using COM objects that require a message pump (ActiveX controls, Shell objects, drag-and-drop). |
+> | **MTA** (multithreaded) | `COINIT_MULTITHREADED` | Your thread performs background work with no message loop, and the COM objects you use are thread-safe or agile. |
+>
+> **Common deadlock pitfall:** An STA thread *must* pump messages (via `GetMessage`/`DispatchMessage` or equivalent). If an STA thread blocks on a synchronization primitive (e.g., `WaitForSingleObject`) without pumping messages, incoming COM calls to objects in that apartment will never be delivered — causing deadlocks. Use `CoWaitForMultipleHandles` or `MsgWaitForMultipleObjects` instead of raw waits on an STA thread.
 
 -   Single-threaded apartments consist of exactly one thread, so all COM objects that live in a single-threaded apartment can receive method calls only from the one thread that belongs to that apartment. All method calls to a COM object in a single-threaded apartment are synchronized with the windows message queue for the single-threaded apartment's thread. A process with a single thread of execution is simply a special case of this model.
 -   Multithreaded apartments consist of one or more threads, so all COM objects that live in a multithreaded apartment can receive method calls directly from any of the threads that belong to the multithreaded apartment. Threads in a multithreaded apartment use a model called *free-threading*. Calls to COM objects in a multithreaded apartment are synchronized by the objects themselves.

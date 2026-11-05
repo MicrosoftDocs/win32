@@ -17,7 +17,7 @@ This topic lists the GetCenterPoint methods of the [**PathGradientBrush**](/wind
 | Method                                                                                            | Description                                                                                                                                                                         |
 |:--------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**GetCenterPoint(Point\*)**](/windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getcenterpoint(outpoint))   | The [**PathGradientBrush::GetCenterPoint**](/windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getcenterpoint(outpoint)) method gets the center point of this path gradient brush.<br/>  |
-| [**GetCenterPoint(PointF\*)**](/previous-versions//ms535099(v=vs.85)) | The [**PathGradientBrush::GetCenterPoint**](/previous-versions//ms535099(v=vs.85)) method gets the center point of this path gradient brush.<br/> |
+| [**GetCenterPoint(PointF\*)**](/windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getcenterpoint(outpointf)) | The [**PathGradientBrush::GetCenterPoint**](/windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getcenterpoint(outpointf)) method gets the center point of this path gradient brush.<br/> |
 
 
 

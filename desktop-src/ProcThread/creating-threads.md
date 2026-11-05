@@ -177,6 +177,9 @@ void ErrorHandler(LPCTSTR lpszFunction)
 
 The `MyThreadFunction` function avoids the use of the C run-time library (CRT), as many of its functions are not thread-safe, particularly if you are not using the multithreaded CRT. If you would like to use the CRT in a `ThreadProc` function, use the **\_beginthreadex** function instead.
 
+> [!NOTE]
+> **Modern C++ alternatives:** For new code, consider using `std::thread` (C++11) or `std::jthread` (C++20, with automatic joining and cooperative cancellation via `std::stop_token`). These provide type-safe, RAII-based thread management. Use **CreateThread** when you need Win32-specific features such as security attributes, stack size control, or suspended thread creation. For asynchronous work that doesn't require a dedicated thread, prefer `std::async`, the Windows thread pool API, or C++/WinRT coroutines (`co_await`).
+
 It is risky to pass the address of a local variable if the creating thread exits before the new thread, because the pointer becomes invalid. Instead, either pass a pointer to dynamically allocated memory or make the creating thread wait for the new thread to terminate. Data can also be passed from the creating thread to the new thread using global variables. With global variables, it is usually necessary to synchronize access by multiple threads. For more information about synchronization, see [Synchronizing Execution of Multiple Threads](synchronizing-execution-of-multiple-threads.md).
 
 The creating thread can use the arguments to [**CreateThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createthread) to specify the following:

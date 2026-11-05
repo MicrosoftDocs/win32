@@ -10,6 +10,12 @@ ms.date: 05/31/2018
 
 Streaming is the process of maintaining only a small portion of a playing audio file in memory. This allows large audio files such as background music to be played, and not take up a large amount of memory.
 
+> [!TIP]
+> **Buffer sizing for low latency:** Use at least 3 buffers in your streaming ring to avoid stalls, and keep each buffer's duration between 20–100 ms. Shorter buffers (20–40 ms) reduce perceived latency for interactive sound effects but demand faster disk reads and tighter thread scheduling. For background music streaming, 80–100 ms buffers provide comfortable margin while remaining inaudible to users.
+
+> [!WARNING]
+> The streaming thread should run at elevated priority via [MMCSS](/windows/win32/procthread/multimedia-class-scheduler-service) (for example, registering with the "Pro Audio" or "Games" task) to avoid buffer underruns caused by lower-priority threads starving the audio pipeline. Underruns result in audible pops or silence gaps that are disruptive in game audio.
+
 When an audio file is streamed, its data is read from disk in chunks rather than loading the entire file at once. Streaming is accomplished by asynchronously reading audio data into a queue of disk buffers. Each buffer is filled, and then submitted to a source voice. After the voice finishes playing a buffer, the buffer becomes available for reading again. Looping through the disk buffers in this manner allows a large audio file to be played while only a portion of its data is loaded. The streaming code should be placed in a separate thread, where it can sleep while waiting for long-running disk and audio operations to finish. A callback class is used to wake the thread by triggering events when audio operations have finished.
 
 For an example of how streaming can be accomplished with XAudio2, see [How to: Stream a Sound from Disk](how-to--stream-a-sound-from-disk.md).

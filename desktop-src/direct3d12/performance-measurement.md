@@ -10,6 +10,9 @@ ms.date: 05/31/2018
 
 The following sections describe features for use in performance testing and improvement, such as queries, counters, timing, and predication.
 
+> [!TIP]
+> Before implementing custom timestamp queries, consider using [PIX for Windows](https://devblogs.microsoft.com/pix/) for GPU profiling. PIX provides timing captures, GPU occupancy visualization, and per-draw-call cost analysis without requiring any code changes. For automated regression testing, the PIX programmatic capture API allows integration into CI pipelines.
+
 ## In this section
 
 
