@@ -16,12 +16,7 @@ A window receives this message through its [**WindowProc**](/windows/win32/api/w
 
 
 ```C++
-LRESULT CALLBACK WindowProc( 
-  HWND hwnd,      // handle to window 
-  UINT uMsg,      // message identifier 
-  WPARAM wParam,  // not used 
-  LPARAM lParam   // logoff option
-);
+#define WM_QUERYENDSESSION              0x0011
 ```
 
 
