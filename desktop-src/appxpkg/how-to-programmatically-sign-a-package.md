@@ -3,7 +3,7 @@ title: How to programmatically sign an app package (C++)
 description: Learn how to sign an app package by using the SignerSignEx2 function.
 ms.assetid: 1183D665-83C9-4BE7-9C8D-834484B8C57F
 ms.topic: how-to
-ms.date: 05/31/2018
+ms.date: 10/05/2026
 ---
 
 # How to programmatically sign an app package (C++)
@@ -313,6 +313,29 @@ HRESULT SignAppxPackage(
 ## Remarks
 
 After you sign the app package, you can also attempt to validate the signature programmatically by using the [**WinVerifyTrust**](/windows/desktop/api/wintrust/nf-wintrust-winverifytrust) function with **WINTRUST\_ACTION\_GENERIC\_VERIFY\_V2**. There are no special considerations in this case for using **WinVerifyTrust** with Windows app packages.
+
+### Signing with SignerSignEx3
+
+You can also sign an app package with [**SignerSignEx3**](/windows/desktop/SecCrypto/signersignex3), for example to sign the digest through a [**SIGNER\_DIGEST\_SIGN\_INFO**](/windows/desktop/SecCrypto/signer-digest-sign-info) callback. The same restrictions apply, except that the **pSignerParams** member of **APPX\_SIP\_CLIENT\_DATA** must point to a **SIGNER\_SIGN\_EX3\_PARAMS** structure, cast to **PSIGNER\_SIGN\_EX2\_PARAMS**. In this structure, the tenth member is the digest signing callback info instead of *pSipData*.
+
+```C++
+typedef struct _SIGNER_SIGN_EX3_PARAMS
+{
+    DWORD dwFlags;
+    PSIGNER_SUBJECT_INFO pSubjectInfo;
+    PSIGNER_CERT pSigningCert;
+    PSIGNER_SIGNATURE_INFO pSignatureInfo;
+    PSIGNER_PROVIDER_INFO pProviderInfo;
+    DWORD dwTimestampFlags;
+    PCSTR pszTimestampAlgorithmOid;
+    PCWSTR pwszHttpTimeStamp;
+    PCRYPT_ATTRIBUTES psRequest;
+    PSIGNER_DIGEST_SIGN_INFO pSignCallBack;
+    PSIGNER_CONTEXT *ppSignerContext;
+    PCERT_STRONG_SIGN_PARA pCryptoPolicy;
+    PVOID pReserved;
+} SIGNER_SIGN_EX3_PARAMS, *PSIGNER_SIGN_EX3_PARAMS;
+```
 
 ## Related topics
 
