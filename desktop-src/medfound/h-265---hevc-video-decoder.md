@@ -11,8 +11,6 @@ ms.date: 05/31/2018
 The Media Foundation H.265 video decoder is a [Media Foundation Transform](media-foundation-transforms.md) that supports decoding H.265/HEVC content in Annex B format and can be used in playback of mp4 and m2ts files.
 
 The H.265 video decoder exposes the following interfaces.
-
--   [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodecapi) (supported in Windows 8)
 -   [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes)
 -   [**IMFGetService**](/windows/desktop/api/mfidl/nn-mfidl-imfgetservice)
 -   [**IMFQualityAdvise**](/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise)
@@ -53,6 +51,10 @@ The decoder supports the following output subtypes:
 
 -   **MFVideoFormat\_NV12**
 -   **MFVideoFormat\_P010**
+-   **MFVideoFormat\_AYUV**
+-   **MFVideoFormat\_YUY2**
+-   **MFVideoFormat\_Y210**
+-   **MFVideoFormat\_Y410**
 
 For more information about these subtypes, see [Video Subtype GUIDs](video-subtype-guids.md).
 
@@ -66,20 +68,16 @@ The H.265 decoder implements the [**IMFTransform::GetAttributes**](/windows/desk
 |-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | [CODECAPI\_AVLowLatencyMode](codecapi-avlowlatencymode.md)                                     | Enables or disables low-latency decoding mode.                                                                                |
 | [CODECAPI\_AVDecNumWorkerThreads](codecapi-avdecnumworkerthreads.md)                           | Sets the number of worker threads used by the decoder.                                                                        |
-| [CODECAPI\_AVDecVideoThumbnailGenerationMode](../directshow/avdecvideothumbnailgenerationmode-property.md) | Enables or disables thumbnail generation mode.                                                                                |
+| [CODECAPI\_AVDecVideoThumbnailGenerationMode](../directshow/avdecvideothumbnailgenerationmode-property.md) | Enables or disables thumbnail generation mode.                                                                    |
+| [CODECAPI\_AVDecVideoMPEG2ErrorConcealment](CODECAPI-AVDecVideoMPEG2ErrorConcealment.md)       | Enables or disables error concealment
 | [MF\_NALU\_LENGTH\_SET](mf-nalu-length-set.md)                                                 | Indicates that NALU length information will be sent as a BLOB with each compressed H.265 sample.                              |
 | [MF\_NALU\_LENGTH\_INFORMATION](mf-nalu-length-information.md)                                 | Indicates the lengths of NALUs in the sample. This is a MF BLOB that is set on compressed input samples to the H.265 decoder. |
 | [MF\_SA\_MINIMUM\_OUTPUT\_SAMPLE\_COUNT](mf-sa-minimum-output-sample-count.md)                 | Specifies the maximum number of output samples.                                                                               |
+| [MFT\_DECODER\_AUTOMATIC\_SOFTWARE\_FALLBACK](MFT-DECODER-AUTOMATIC-SOFTWARE-FALLBACK.md)      | Specifies weather the decoder can automatically switch from hardware to software decoding                                     |
 
 
 
  
-
-The H.265 decoder supports the [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodecapi) interface. This interface provides an alternativate API for setting the following codec properties.
-
--   [CODECAPI\_AVDecNumWorkerThreads](codecapi-avdecnumworkerthreads.md)
--   [CODECAPI\_AVDecVideoThumbnailGenerationMode](../directshow/avdecvideothumbnailgenerationmode-property.md)
--   [CODECAPI\_AVLowLatencyMode](codecapi-avlowlatencymode.md)
 
 ## Format Constraints
 
@@ -89,8 +87,8 @@ The decoder supports the following formats:
 
 | Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Profiles/Levels    | Main, Main Still Picture, and Main10 profiles                                                                                                                                                                                                                        |
-| Chroma Formats     | 4:2:0 chroma                                                                                                                                                                                                                                                         |
+| Profiles/Levels    | Main, Main Still Picture, Main10, Main 4:4:4, Main 4:4:4 10, Main 4:2:2, Main 4:2:2 10 profiles                                                                                                                                                                                                                        |
+| Chroma Formats     | 4:2:0, 4:2:2, 4:4:4 chroma                                                                                                                                                                                                                                                         |
 | Minimum Resolution | 48 × 48 pixels                                                                                                                                                                                                                                                       |
 | Maximum Resolution | 4096 × 2304 pixels<br/> The maximum guaranteed resolution for DXVA acceleration is 1920 × 1088 pixels; at higher resolutions, decoding is done with DXVA, if it is supported by the underlying hardware, otherwise, decoding is done with software.<br/> |
 | DXVA               | The decoder supports DX11 and DX12 DXVA, but not DXVA version 2 or DXVA version 1.                                                                                                                                                                                                         |
