@@ -57,7 +57,10 @@ Because of limitations with \_\_vectorcall, we recommend that you not use **GXMV
 
 The **FXMMATRIX** and **CXMMATRIX** aliases help support taking advantage of the HVA argument passing with \_\_vectorcall.
 
--   Use the **FXMMATRIX** alias to pass the first [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) as an argument to the function. This assumes you don't have more than two **FXMVECTOR** arguments or more than two float, double, or **FXMVECTOR** arguments to the 'right' of the matrix. For info about additional considerations, see the \_\_vectorcall documentation.
+-   Use the **FXMMATRIX** alias to pass the first [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) as an argument to the function. The matrix needs four vector registers, and each float, double, or **FXMVECTOR** argument that's passed in a register uses one.
+    -   With \_\_vectorcall on x86 and x64, six vector registers (XMM0 to XMM5) are available. The matrix is passed in registers only if no more than two float, double, or **FXMVECTOR** arguments use vector registers, whether they come before or after the matrix. Otherwise, it's passed by reference. For info about additional considerations, see the \_\_vectorcall documentation.
+    -   On ARM64, eight vector registers (v0 to v7) are available, and they're assigned in argument order. The matrix is passed in registers only if no more than four float, double, or **FXMVECTOR** arguments come before it. Otherwise, it's passed on the stack.
+    -   On 32-bit ARM, **FXMMATRIX** is a reference, so the matrix is always passed by reference.
 -   Use the **CXMMATRIX** alias otherwise.
 
 Because of limitations with \_\_vectorcall, we recommend that you never use **FXMMATRIX** for C++ constructors. Just use **CXMMATRIX**.
