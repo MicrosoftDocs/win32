@@ -34,6 +34,7 @@ HLSL shaders can be compiled at author-time or at runtime, and set at runtime in
 | [HLSL Shader Model 5](overviews-direct3d-11-hlsl.md) | |
 | [HLSL Shader Model 5.1](hlsl-shader-model-5-1-features-for-direct3d-12.md) | This section describes the features of Shader Model 5.1 as they apply in practice to D3D12 and D3D11.3. All DirectX 12 hardware supports Shader Model 5.1. |
 | [HLSL Shader Model 6.0](hlsl-shader-model-6-0-features-for-direct3d-12.md) | Describes the wave operation intrinsics added to HLSL Shader Model 6.0. |
+| [HLSL Shader Model 6.1](hlsl-shader-model-6-1-features-for-direct3d-12.md) | Describes the view instancing and barycentric semantic features added to HLSL Shader Model 6.1. |
 | [HLSL Shader Model 6.4](hlsl-shader-model-6-4-features-for-direct3d-12.md) | Describes the machine learning intrinsics added to HLSL Shader Model 6.4. |
 
 ## Related topics
