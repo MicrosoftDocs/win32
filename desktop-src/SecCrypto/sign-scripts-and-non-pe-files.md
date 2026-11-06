@@ -32,7 +32,7 @@ Use stable values that remain consistent across releases. Consistent metadata le
 The following table lists the friendly SignTool options:
 
 | Option | Purpose | Example |
-|--------|---------|---------|
+| -------- | --------- | --------- |
 | `/InternalName` | Stable internal identity for the file | `Contoso.Deploy` |
 | `/FileVersion` | 4-part version of the individual file | `2.1.0` |
 | `/FileDescription` | Human-readable description of the file | `Contoso deployment script` |
@@ -71,7 +71,7 @@ Use `/sa` when automation stores metadata as OID-value pairs or when a friendly 
 1. Map each value to its OID:
 
    | Metadata | OID |
-   |----------|-----|
+   | ---------- | ----- |
    | Internal name | `1.3.6.1.4.1.311.2.7.1` |
    | File version | `1.3.6.1.4.1.311.2.7.2` |
    | File description | `1.3.6.1.4.1.311.2.7.3` |
