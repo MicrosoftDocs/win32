@@ -34,7 +34,7 @@ The following table lists the friendly SignTool options:
 | Option | Purpose | Example |
 |--------|---------|---------|
 | `/InternalName` | Stable internal identity for the file | `Contoso.Deploy` |
-| `/FileVersion` | 4-part version of the individual file | `2.1.0.0` |
+| `/FileVersion` | 4-part version of the individual file | `2.1.0` |
 | `/FileDescription` | Human-readable description of the file | `Contoso deployment script` |
 | `/Product` | Product or application name | `Contoso Tools` |
 | `/ProductVersion` | 4-part version of the product | `2.1.0.0` |
@@ -44,7 +44,7 @@ The following table lists the friendly SignTool options:
 | `/PublishTime` | Publishing time value used by the publisher | `2026-10-28T12:00:00Z` |
 | `/SourceURL` | Authoritative source location for the file | `https://www.example.com/downloads/Deploy.ps1` |
 
-`/FileDescription` adds a signed metadata attribute. It differs from `/d`, which sets the Authenticode description of the signed content.
+`/FileDescription` adds a signed metadata attribute. A better alternative, however, is to set this string value using Signtool's `/d` option, which sets the Authenticode description of the signed content. `/d` lets you easily reference the value using the existing CertOEMId attribute in your App Control policy rules, which previously only applied to kernel drivers.
 
 ## Sign a PowerShell script
 
@@ -102,7 +102,7 @@ Use `/sa` when automation stores metadata as OID-value pairs or when a friendly 
 1. Run the same signing command and specify the target file:
 
    ```console
-   signtool sign /a /fd SHA256 /tr http://timestamp.digicert.com /td SHA256 /InternalName "Contoso.Startup" /FileVersion "2.1.0.0" /Product "Contoso Tools" /ProductVersion "2.1.0.0" /OriginalFilename "Startup.js" Startup.js
+   signtool sign /a /fd SHA256 /tr http://timestamp.digicert.com /td SHA256 /InternalName "Contoso.Startup" /FileVersion "2.1.0" /Product "Contoso Tools" /ProductVersion "2.1" /OriginalFilename "Startup.js" Startup.js
    ```
 
 1. Verify the signature:
