@@ -8,13 +8,13 @@ ms.date: 10/28/2026
 
 # Sign scripts and non-PE files with SignTool
 
-Scripts and other non-Portable Executable (non-PE) files usually lack version resources that identify an executable's original file name, product, and version. The absence of that data is particularly concerning for organizations using [App Control for Business](/windows/security/application-security/application-control/app-control-for-business) to control what code runs on the organization's endpoints. SignTool can add this information to an embedded signature as authenticated metadata. Because the metadata is part of the signature, changing either the file or its signed metadata invalidates the signature.
+Scripts and other non-Portable Executable (non-PE) files usually lack version resources that identify an executable's original file name, product, and version. The absence of that data is particularly concerning for organizations using [App Control for Business](/windows/security/application-security/application-control/app-control-for-business) to control what code runs on the organization's endpoints. SignTool can add this information to a catalog signature as authenticated metadata. Because the metadata is part of the signature, changing either the file or its signed metadata invalidates the signature.
 
 This procedure signs a PowerShell script, but the same metadata options apply to other file types for which Windows has a registered Subject Interface Package (SIP).
 
 ## Prerequisites
 
-- SignTool from Windows SDK build 10.0.25231.0 or later. Build 10.0.25231.0 was a preview SDK. The first stable release confirmed to contain the named metadata options is the Windows 11, version 24H2 SDK (build 10.0.26100.0; SDK build tools package version 10.0.26100.1).
+- The first release of SignTool in the Windows SDK with named metadata support is the Windows 11, version 24H2 SDK (build 10.0.26100.0; SDK build tools package version 10.0.26100.1).
 - A code-signing certificate and access to its private key.
 - An RFC 3161 time stamp service.
 - A registered SIP that supports an embedded signature for the target file type.
@@ -34,10 +34,10 @@ The following table lists the friendly SignTool options:
 | Option | Purpose | Example |
 |--------|---------|---------|
 | `/InternalName` | Stable internal identity for the file | `Contoso.Deploy` |
-| `/FileVersion` | Version of the individual file | `2.1.0` |
+| `/FileVersion` | 4-part version of the individual file | `2.1.0.0` |
 | `/FileDescription` | Human-readable description of the file | `Contoso deployment script` |
 | `/Product` | Product or application name | `Contoso Tools` |
-| `/ProductVersion` | Version of the product | `2.1` |
+| `/ProductVersion` | 4-part version of the product | `2.1.0.0` |
 | `/OriginalFilename` | Original file name | `Deploy.ps1` |
 | `/Language` | Language identifier or name used by the publisher | `en-US` |
 | `/Author` | Author or publishing organization | `Contoso Software` |
@@ -102,7 +102,7 @@ Use `/sa` when automation stores metadata as OID-value pairs or when a friendly 
 1. Run the same signing command and specify the target file:
 
    ```console
-   signtool sign /a /fd SHA256 /tr http://timestamp.digicert.com /td SHA256 /InternalName "Contoso.Startup" /FileVersion "2.1.0" /Product "Contoso Tools" /ProductVersion "2.1" /OriginalFilename "Startup.js" Startup.js
+   signtool sign /a /fd SHA256 /tr http://timestamp.digicert.com /td SHA256 /InternalName "Contoso.Startup" /FileVersion "2.1.0.0" /Product "Contoso Tools" /ProductVersion "2.1.0.0" /OriginalFilename "Startup.js" Startup.js
    ```
 
 1. Verify the signature:

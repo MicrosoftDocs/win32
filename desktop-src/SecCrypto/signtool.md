@@ -174,7 +174,7 @@ The friendly metadata options and their equivalent OIDs are:
 | `/PublishTime` | `szOID_SIGNED_ATTRIBUTE_PUBLISH_TIME` | `1.3.6.1.4.1.311.2.7.9` |
 | `/SourceURL` | `szOID_SIGNED_ATTRIBUTE_SOURCE_URL` | `1.3.6.1.4.1.311.2.7.10` |
 
-The named metadata options are available in Windows SDK build 10.0.25231.0 and later. Build 10.0.25231.0 was a preview SDK. The first stable release confirmed to contain these options is the Windows 11, version 24H2 SDK (build 10.0.26100.0; SDK build tools package version 10.0.26100.1).
+The first release of SignTool in the Windows SDK with named metadata support is the Windows 11, version 24H2 SDK (build 10.0.26100.0; SDK build tools package version 10.0.26100.1).
 
 For procedures, see [Use SignTool to sign a file](using-signtool-to-sign-a-file.md) and [Sign scripts and non-PE files with SignTool](sign-scripts-and-non-pe-files.md).
 

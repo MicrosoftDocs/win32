@@ -18,7 +18,7 @@ Sign every supported executable artifact instead of signing only the primary exe
 - SignTool from the [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-sdk).
 - A code-signing certificate and access to its private key. Keep private keys in a protected certificate store, hardware security module, or managed signing service.
 - An RFC 3161 time stamp service if signatures must remain verifiable after the signing certificate expires.
-- Windows SDK build 10.0.25231.0 or later to use the named authenticated metadata options for scripts and non-PE files.
+- The first release of SignTool in the Windows SDK with named metadata support is the Windows 11, version 24H2 SDK (build 10.0.26100.0; SDK build tools package version 10.0.26100.1).
 
 ## Sign and time stamp a file
 
