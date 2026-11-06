@@ -4,5 +4,10 @@
         "MD025": {
             "front_matter_title": ""
         }
-    }
+    },
+    "cSpell.words": [
+        "authenticode",
+        "cryptoapi",
+        "schannel"
+    ]
 }
