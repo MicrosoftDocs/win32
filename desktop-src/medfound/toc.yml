@@ -8359,6 +8359,8 @@
         href: codecapi-videoencoderdisplaycontenttype.md
       - name: "MF_CONTENTDECRYPTIONMODULE_INPRIVATESTOREPATH"
         href: mf-contentdecryptionmodule-inprivatestorepath.md
+      - name: "MF_CONTENTDECRYPTIONMODULE_ORIGINID"
+        href: mf-contentdecryptionmodule-originid.md
       - name: "MF_CONTENTDECRYPTIONMODULE_PMPSTORECONTEXT"
         href: mf-contentdecryptionmodule-pmpstorecontext.md
       - name: "MF_CONTENTDECRYPTIONMODULE_STOREPATH"
