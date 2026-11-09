@@ -3,7 +3,7 @@ description: Describes Media Foundation properties and provides a list of proper
 ms.assetid: 98510fda-7e10-4b63-83d4-5a224aed67a3
 title: Media Foundation Properties
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 11/04/2026
 ---
 
 # Media Foundation Properties
@@ -48,6 +48,7 @@ ms.date: 05/31/2018
 | [CODECAPI\_AVLowLatencyMode](codecapi-avlowlatencymode.md)<br/>                                                                           | Enables low-latency mode in a codec.<br/>                                                                                                                                                      |
 | [CODECAPI\_FeatureMapFlagsUsed](codecapi-featuremapflagsused.md)<br/>                                               | Provides the encoder a hint as to what feature map capabilities will be used during the encode sequence.<br/>                                            |
 | [CODECAPI\_VideoEncoderDisplayContentType](codecapi-videoencoderdisplaycontenttype.md)<br/>                                               | Sets whether the content is full-screen video, as opposed to screen content that might have a smaller window of video or have no video at all.<br/>                                            |
+| [MF_CONTENTDECRYPTIONMODULE_ORIGINID](mf-contentdecryptionmodule-originid.md) | Specifies a SHA-256 hash of an origin ID that identifies the source of content for a Content Decryption Module. |
 | [MFNETSOURCE\_ACCELERATEDSTREAMINGDURATION](mfnetsource-acceleratedstreamingduration-property.md)<br/>                                    | Duration of accelerated streaming for the network source, in milliseconds. <br/>                                                                                                               |
 | [MFNETSOURCE\_AUTORECONNECTLIMIT](mfnetsource-autoreconnectlimit-property.md)<br/>                                                        | The number of times the network source tries to reconnect to the server and resume streaming if the connection is lost. <br/>                                                                  |
 | [MFNETSOURCE\_AUTORECONNECTPROGRESS](mfnetsource-autoreconnectprogress-property.md)<br/>                                                  | The number of times the network source has attempted to reconnect to the network.<br/>                                                                                                         |
