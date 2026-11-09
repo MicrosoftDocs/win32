@@ -3,7 +3,7 @@ description: Event tracing sessions record events from one or more providers.
 ms.assetid: 43841d2f-5a4c-493d-9531-21941311ffbc
 title: Controlling Event Tracing Sessions
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 11/09/2026
 ---
 
 # Controlling Event Tracing Sessions
@@ -22,6 +22,9 @@ The following topics demonstrate how to define and update a session, and enable 
 For information on flushing and querying sessions, see [**ControlTrace**](/windows/win32/api/evntrace/nf-evntrace-controltracea) and [**QueryAllTraces**](/windows/win32/api/evntrace/nf-evntrace-queryalltracesa), respectively.
 
 Only users running with elevated administrative privileges, users in the Performance Log Users group, and applications running as LocalSystem, LocalService or NetworkService can control event tracing sessions. To grant a restricted user the ability to control trace sessions, add them to the Performance Log Users group.
+
+> [!IMPORTANT]
+> Membership in the Performance Log Users group allows a user to control event tracing sessions that can expose potentially sensitive system and application information. Grant membership only when required, limit it to the minimum number of users and the shortest practical time, and remove users promptly when access is no longer needed. Review the providers and data collected according to your organization's least-privilege and data-handling policies.
 
 **Windows XP and Windows 2000:** Anyone can control a trace session.
 
