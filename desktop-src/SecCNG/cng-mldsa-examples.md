@@ -8,9 +8,6 @@ ms.date: 05/15/2025
 
 # Using ML-DSA with CNG
 
-> [!NOTE]
-> Some information relates to a prerelease product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here. The feature described in this topic is available in pre-release versions of the [Windows Insider Preview](https://www.microsoft.com/software-download/windowsinsiderpreviewSDK).
-
 This article provides a guide to implementing the end-to-end workflow for creating and verifying digital signatures using the ML-DSA algorithm with Microsoft's CNG API.
 
 ## Sample ML-DSA code using BCrypt
