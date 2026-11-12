@@ -16,12 +16,12 @@ The Registry table has the following columns.
 
 | Column      | Type                         | Key | Nullable |
 |-------------|------------------------------|-----|----------|
-| Registry    | [Identifier](identifier.md) | Y   | N        |
-| Root        | [Integer](integer.md)       | N   | N        |
-| Key         | [RegPath](regpath.md)       | N   | N        |
-| Name        | [Formatted](formatted.md)   | N   | Y        |
-| Value       | [Formatted](formatted.md)   | N   | Y        |
-| Component\_ | [Identifier](identifier.md) | N   | N        |
+| :::no-loc text="Registry":::    | [:::no-loc text="Identifier":::](identifier.md) | Y   | N        |
+| :::no-loc text="Root":::        | [:::no-loc text="Integer":::](integer.md)       | N   | N        |
+| :::no-loc text="Key":::         | [:::no-loc text="RegPath":::](regpath.md)       | N   | N        |
+| :::no-loc text="Name":::        | [:::no-loc text="Formatted":::](formatted.md)   | N   | Y        |
+| :::no-loc text="Value":::       | [:::no-loc text="Formatted":::](formatted.md)   | N   | Y        |
+| :::no-loc text="Component\_"::: | [:::no-loc text="Identifier":::](identifier.md) | N   | N        |
 
 
 
@@ -31,14 +31,14 @@ The Registry table has the following columns.
 
 <dl> <dt>
 
-<span id="Registry"></span><span id="registry"></span><span id="REGISTRY"></span>Registry
+<span id="Registry"></span><span id="registry"></span><span id="REGISTRY"></span>:::no-loc text="Registry":::
 </dt> <dd>
 
 Primary key used to identify a registry record.
 
 </dd> <dt>
 
-<span id="Root"></span><span id="root"></span><span id="ROOT"></span>Root
+<span id="Root"></span><span id="root"></span><span id="ROOT"></span>:::no-loc text="Root":::
 </dt> <dd>
 
 The predefined root key for the registry value. Enter a value of -1 in this field to make the root key dependent on the type of installation. Enter one of the other values in the following table to force the registry value to be written under a particular root key.
@@ -61,14 +61,14 @@ Note that it is recommended that registry entries written to the **HKCU** hive r
 
 </dd> <dt>
 
-<span id="Key"></span><span id="key"></span><span id="KEY"></span>Key
+<span id="Key"></span><span id="key"></span><span id="KEY"></span>:::no-loc text="Key":::
 </dt> <dd>
 
 The localizable key for the registry value.
 
 </dd> <dt>
 
-<span id="Name"></span><span id="name"></span><span id="NAME"></span>Name
+<span id="Name"></span><span id="name"></span><span id="NAME"></span>:::no-loc text="Name":::
 </dt> <dd>
 
 This column contains the registry value name (localizable). If this is Null, then the data entered into the Value column are written to the default registry key.
@@ -91,7 +91,7 @@ Note that the [RemoveRegistry table](removeregistry-table.md) must be used if an
 
 </dd> <dt>
 
-<span id="Value"></span><span id="value"></span><span id="VALUE"></span>Value
+<span id="Value"></span><span id="value"></span><span id="VALUE"></span>:::no-loc text="Value":::
 </dt> <dd>
 
 This column is the localizable registry value. The field is [Formatted](formatted.md). If the value is attached to one of the following prefixes (i.e. \#%*value*) then the value is interpreted as described in the table. Note that each prefix begins with a number sign (\#). If the value begins with two or more consecutive number signs (\#), the first \# is ignored and value is interpreted and stored as a string.
@@ -117,7 +117,7 @@ This column is the localizable registry value. The field is [Formatted](formatte
 
 </dd> <dt>
 
-<span id="Component_"></span><span id="component_"></span><span id="COMPONENT_"></span>Component\_
+<span id="Component_"></span><span id="component_"></span><span id="COMPONENT_"></span>:::no-loc text="Component\_":::
 </dt> <dd>
 
 External key into the first column of the [Component table](component-table.md) referencing the component that controls the installation of the registry value.
