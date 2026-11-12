@@ -196,6 +196,12 @@
           href: ./upnp/universal-plug-and-play-start-page.md
         - name: Web Services on Devices
           href: wsdapi/wsd-portal.md
+        - name: WinI3C
+          items:
+          - name: Get started with the WinI3C API
+            href: ./wini3c/get-started-with-device-communication.md
+          - name: API reference
+            href: /windows/win32/api/_wini3c/
         - name: WIA
           href: /previous-versions/windows/desktop/wia/-wia-startpage
       - name: Windows Media Device Manager 11 SDK
