@@ -8,6 +8,18 @@ ms.date: 02/09/2023
 
 # Getting started with Winsock
 
+> [!IMPORTANT]
+> **Modern Winsock best practices** — follow these guidelines for new code:
+>
+> - **Use Winsock 2.2** — always request version 2.2 in [WSAStartup](/windows/win32/api/winsock/nf-winsock-wsastartup). Winsock 1.1 functions such as `gethostbyname` are deprecated and lack IPv6 support.
+> - **Use `getaddrinfo` for name resolution** — the [getaddrinfo](/windows/win32/api/ws2tcpip/nf-ws2tcpip-getaddrinfo) function is protocol-independent (supports both IPv4 and IPv6). Never use the deprecated `gethostbyname` or `gethostbyaddr`.
+> - **Write IPv6-ready code** — use `AF_UNSPEC` with `getaddrinfo` so your code works over both IPv4 and IPv6. Avoid hard-coding `AF_INET`. See [IPv6 Guide for Winsock](internet-protocol-version-6-ipv6-2.md).
+> - **Manage initialization with RAII** — in C++, wrap `WSAStartup`/`WSACleanup` in an RAII class or use a scope guard to ensure cleanup on all exit paths (exceptions, early returns).
+> - **Prefer asynchronous I/O** — for server applications or anything handling multiple connections, use [I/O completion ports](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/Win7Samples/netds/winsock/iocp) (highest performance) or overlapped I/O. Blocking sockets on a UI thread will freeze the application.
+> - **Don't forget error handling** — check return values of all Winsock calls and use [WSAGetLastError](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) for diagnostics.
+>
+> **Common mistakes in AI-generated code**: forgetting `WSAStartup` before any socket call, using `gethostbyname` instead of `getaddrinfo`, hard-coding `AF_INET` (IPv4-only), using blocking `recv`/`send` loops in UI threads, and not calling `freeaddrinfo` after `getaddrinfo`.
+
 This section is a step-by-step guide to getting started with Windows Sockets programming. It's designed to provide an understanding of basic Winsock functions and data structures, and how they work together.
 
 The client and server application that we use in this topic for illustration is a very basic client and server. More advanced code examples are included in the samples included with the Microsoft Windows Software Development Kit (SDK).

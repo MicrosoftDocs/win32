@@ -13,7 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/17/2026
 ---
 
 # EM\_SETTYPOGRAPHYOPTIONS message
@@ -27,7 +27,7 @@ Sets the current state of the typography options of a rich edit control.
 *wParam* 
 </dt> <dd>
 
-Specifies one or both of the following values.
+Specifies one or more of the following values.
 
 
 
@@ -35,6 +35,8 @@ Specifies one or both of the following values.
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | <span id="TO_ADVANCEDTYPOGRAPHY_"></span><span id="to_advancedtypography_"></span><dl> <dt>**TO\_ADVANCEDTYPOGRAPHY** </dt> </dl> | Advanced line breaking and line formatting is turned on. <br/>                    |
 | <span id="TO_SIMPLELINEBREAK"></span><span id="to_simplelinebreak"></span><dl> <dt>**TO\_SIMPLELINEBREAK**</dt> </dl>             | Faster line breaking for simple text (requires **TO\_ADVANCEDTYPOGRAPHY**). <br/> |
+| <span id="TO_DISABLECUSTOMTEXTOUT"></span><span id="to_disablecustomtextout"></span><dl> <dt>**TO\_DISABLECUSTOMTEXTOUT**</dt> </dl> | Disables custom text output for the rich edit control. <br/> |
+| <span id="TO_ADVANCEDLAYOUT"></span><span id="to_advancedlayout"></span><dl> <dt>**TO\_ADVANCEDLAYOUT**</dt> </dl> | Enables advanced layout for complex scripts and bidirectional text. <br/> |
 
 
 
@@ -55,7 +57,7 @@ Returns **TRUE** if *wParam* is valid, otherwise **FALSE**.
 
 ## Remarks
 
-Advanced line breaking is turned on automatically by the rich edit control when needed, such as for handling complex scripts like Arabic and Hebrew, and for mathematics. It s also needed for justified paragraphs, hyphenation, and other typographic features.
+Advanced line breaking is turned on automatically by the rich edit control when needed, such as for handling complex scripts like Arabic and Hebrew, and for mathematics. It's also needed for justified paragraphs, hyphenation, and other typographic features.
 
 ## Requirements
 

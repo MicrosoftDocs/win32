@@ -3,7 +3,7 @@ title: Memory Management Rules
 description: Memory Management Rules
 ms.assetid: 769127a1-1a14-4ed4-9d38-7cf3e571b661
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 07/16/2026
 ---
 
 # Memory Management Rules
@@ -25,6 +25,33 @@ Another area that needs special attention is the treatment of out and in-out par
 -   Under error conditions, all in-out parameters must either be left alone by the code called (thus remaining at the value to which they were initialized by the caller) or be explicitly set, as in the out parameter error return case.
 
 Remember that these memory management conventions for COM applications apply only across public interfaces and APIs; there's no requirement at all that memory allocation strictly internal to a COM application need be done using these mechanisms.
+
+> [!WARNING]
+> **Common pitfall in .NET / managed-code interop:** When consuming COM interfaces from .NET (C# or VB.NET), the Runtime Callable Wrapper (RCW) handles most memory management automatically. However, if you P/Invoke a COM-style function that returns a `CoTaskMemAlloc`-allocated string (an out `LPWSTR`), you **must** free it with `Marshal.FreeCoTaskMem` — the garbage collector will not release COM task memory:
+>
+> ```csharp
+> // C# example — COM function returns a CoTaskMemAlloc'd string
+> [DllImport("shell32.dll", CharSet = CharSet.Unicode)]
+> static extern int SHGetKnownFolderPath(
+>     ref Guid rfid, uint dwFlags, IntPtr hToken, out IntPtr ppszPath);
+>
+> // Caller must free the returned string
+> IntPtr pathPtr = IntPtr.Zero;
+> try
+> {
+>     Guid folderId = new("374DE290-123F-4565-9164-39C4925E467B"); // Downloads
+>     int hr = SHGetKnownFolderPath(ref folderId, 0, IntPtr.Zero, out pathPtr);
+>     Marshal.ThrowExceptionForHR(hr);
+>     string path = Marshal.PtrToStringUni(pathPtr)!;
+> }
+> finally
+> {
+>     if (pathPtr != IntPtr.Zero)
+>         Marshal.FreeCoTaskMem(pathPtr); // Required — prevents memory leak
+> }
+> ```
+>
+> **Rule of thumb:** If a native COM function documents that the caller must free an out-parameter with `CoTaskMemFree`, the managed equivalent is `Marshal.FreeCoTaskMem`. Never use `Marshal.FreeHGlobal` for COM task memory, as these are different allocators.
 
 COM internally uses Remote Procedure Calls (RPC) to communicate between clients and servers. For more information about managing memory in RPC server stubs, see the [Server-stub Memory Management](../rpc/server-stub-memory-management.md) topic.
 

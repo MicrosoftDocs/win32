@@ -4,10 +4,31 @@ ms.assetid: b6101014-02d2-4b19-aec6-8772a2793d38
 title: Comparing Memory Allocation Methods
 ms.topic: reference
 ms.custom: snippet-project
-ms.date: 05/31/2018
+ms.date: 07/18/2025
 ---
 
 # Comparing Memory Allocation Methods
+
+## Choosing the right allocation method
+
+Use the following guidance to select the appropriate memory allocation API for your scenario:
+
+| Scenario | Recommended API | Notes |
+|----------|----------------|-------|
+| General-purpose C++ allocations | `new` / `std::make_unique` / `std::make_shared` | Default choice for C++ code. Uses the CRT heap internally. RAII ensures automatic cleanup. |
+| General-purpose C allocations | `malloc` / `calloc` / `realloc` | Default choice for C code. Portable across platforms. |
+| Allocations larger than ~1 MB or requiring page-level control | [VirtualAlloc](/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc) | Allocates at page granularity (typically 4 KB). Use for reserving large address ranges, guard pages, or memory with specific protection attributes (`PAGE_READWRITE`, `PAGE_EXECUTE_READ`, etc.). |
+| Many small allocations with custom control (e.g., pool allocator) | [HeapAlloc](/windows/desktop/api/HeapApi/nf-heapapi-heapalloc) / [HeapCreate](/windows/desktop/api/HeapApi/nf-heapapi-heapcreate) | Create a private heap for isolation or serialization control. Use `HEAP_NO_SERIALIZE` only if the heap is exclusively single-threaded. |
+| COM interop (marshaled memory) | [CoTaskMemAlloc](/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc) | Required when memory crosses COM apartment boundaries. MIDL-generated stubs use CoTaskMemAlloc/CoTaskMemFree. |
+| Legacy code using moveable memory | [GlobalAlloc](/windows/desktop/api/WinBase/nf-winbase-globalalloc) / [LocalAlloc](/windows/desktop/api/WinBase/nf-winbase-localalloc) | **Avoid for new code.** These add overhead over HeapAlloc and exist primarily for backward compatibility with clipboard operations and certain Win32 APIs that require them. |
+
+> [!IMPORTANT]
+> **Always pair allocation and deallocation functions correctly.** Memory allocated with `HeapAlloc` must be freed with `HeapFree` — not `free()` or `LocalFree`. Mixing allocation/deallocation families causes heap corruption that is difficult to diagnose.
+
+> [!NOTE]
+> **VirtualAlloc vs HeapAlloc**: VirtualAlloc operates at page granularity (minimum 4 KB, reservations aligned to `SYSTEM_INFO.dwAllocationGranularity`, typically 64 KB). Allocating many small objects with VirtualAlloc wastes address space. Use HeapAlloc (or `malloc`/`new`) for small, frequent allocations. Use VirtualAlloc when you need to reserve large address regions, control page protection, or implement custom allocators.
+
+## Detailed comparison
 
 The following is a brief comparison of the various memory allocation methods:
 

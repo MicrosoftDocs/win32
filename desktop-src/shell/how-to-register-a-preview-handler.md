@@ -10,6 +10,9 @@ ms.date: 05/31/2018
 
 This topic explains how to register a preview handler associated with a given data type. For the purposes of illustration, examples in this topic use a .xyz file type. Registration of a preview handler is a standard file association-based registration.
 
+> [!NOTE]
+> **For MSIX-packaged applications:** Preview handlers can be declared in the MSIX package manifest using the [`desktop2:DesktopPreviewHandler`](/uwp/schemas/appxpackage/uapmanifestschema/element-desktop2-desktoppreviewhandler) child element inside a `uap:FileTypeAssociation` extension. This approach avoids per-machine COM registration and the elevation pitfalls associated with writing to HKEY_LOCAL_MACHINE. The COM-based registration described below remains the standard approach for unpackaged desktop applications.
+
 ## Instructions
 
 ### Step 1:

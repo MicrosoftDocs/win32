@@ -4,7 +4,7 @@ description: Direct3D 12 provides an API and platform that allows apps to take a
 ms.assetid: 16F78A6B-74C4-4ED1-809F-FE6DE157F368
 ms.custom: 19H1
 ms.topic: reference
-ms.date: 04/19/2019
+ms.date: 09/10/2026
 ---
 
 # Direct3D 12 programming guide

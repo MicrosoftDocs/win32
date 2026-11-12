@@ -3,10 +3,33 @@ title: In-Process Server Threading Issues
 description: In-Process Server Threading Issues
 ms.assetid: 7bd6f62f-8c91-44bd-9a7f-d47988180eed
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/16/2026
 ---
 
 # In-Process Server Threading Issues
+
+> [!WARNING]
+> **Cross-apartment marshaling from .NET code:** When a .NET application creates an in-process COM object whose `ThreadingModel` does not match the calling apartment, COM creates the object in a different apartment and returns a proxy. Calling methods through this proxy incurs marshaling overhead and can cause deadlocks if the target apartment's thread is blocked.
+>
+> **Common failure pattern:**
+> ```csharp
+> // A .NET console app defaults to MTA (no explicit CoInitializeEx).
+> // Creating an Apartment-threaded COM object forces COM to spin up
+> // a hidden STA thread. If that STA thread has no message pump,
+> // calls that require marshaling back to it will hang.
+>
+> // Fix: If your COM object requires STA, mark Main with [STAThread]:
+> [STAThread]
+> static void Main(string[] args)
+> {
+>     var comObj = new MyCOMObject(); // Created in the STA — no proxy needed
+> }
+> ```
+>
+> **Best practices for .NET consumers of in-process COM servers:**
+> - Check the object's `ThreadingModel` registry value under `HKCR\CLSID\{...}\InprocServer32`
+> - Use `[STAThread]` on your entry point if consuming apartment-threaded objects (WinForms/WPF do this automatically)
+> - Never call `Thread.Join()` or `Task.Wait()` on an STA thread — use `await` or pump messages with `Dispatcher.PushFrame()`
 
 An in-process server does not call [**CoInitialize**](/windows/desktop/api/Objbase/nf-objbase-coinitialize), [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex), or [**OleInitialize**](/windows/desktop/api/Ole2/nf-ole2-oleinitialize) to mark its threading model. For thread-aware DLL-based or in-process objects, you need to set the threading model in the registry. The default model when you do not specify a threading model is single-thread-per-process. To specify a model, you add the **ThreadingModel** value to the [InprocServer32](inprocserver32.md) key in the registry.
 
@@ -38,6 +61,9 @@ Objects created by the class factory need not be thread-safe. Once created by a 
 When an in-process DLL **ThreadingModel** value is set to "Both", an object provided by this DLL can be created and used directly (without a proxy) in single-threaded or multithreaded client apartments. However, it can be used directly only within the apartment in which it was created. To give the object to any other apartment, the object must be marshaled. The DLL object must implement its own synchronization and can be accessed by multiple client apartments at the same time.
 
 To speed performance for free-threaded access to in-process DLL objects, COM provides the [**CoCreateFreeThreadedMarshaler**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreatefreethreadedmarshaler) function. This function creates a free-threaded marshaling object that can be aggregated with an in-process server object. When a client apartment in the same process needs access to an object in another apartment, aggregating the free-threaded marshaler provides the client with a direct pointer to the server object, rather than to a proxy, when the client marshals the object's interface to a different apartment. The client does not need to do any synchronization. This works only within the same process; standard marshaling is used for a reference to the object that is sent to another process.
+
+> [!IMPORTANT]
+> **Modern replacement for `CoCreateFreeThreadedMarshaler`:** For new code targeting Windows 8.1+, prefer [**RoGetAgileReference**](/windows/win32/api/combaseapi/nf-combaseapi-rogetagilereference) and the `IAgileReference` interface. These provide a safer way to pass object references across apartments without the pitfalls of the free-threaded marshaler (which bypasses apartment protection entirely and can mask threading bugs). For WinRT objects, agility is the default — WinRT objects support `IAgileObject` automatically unless they explicitly opt out.
 
 An object provided by an in-process DLL that supports only free threading is a free-threaded object. It implements its own synchronization and can be accessed by multiple client threads at the same time. This server does not marshal interfaces between threads, so this server can be created and used directly (without a proxy) only by multithreaded apartments in a client. Single-threaded apartments that create it will access it through a proxy.
 

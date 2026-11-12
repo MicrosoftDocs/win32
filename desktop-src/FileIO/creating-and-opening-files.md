@@ -3,13 +3,31 @@ description: Considerations for creating or opening a file by using the CreateFi
 ms.assetid: 094cac29-c66d-409e-8928-878dc693d393
 title: Creating and Opening Files
 ms.topic: concept-article
-ms.date: 07/08/2025
+ms.date: 07/18/2025
 # customer intent: As a Windows app developer, I want to learn about creating and opening files using the CreateFile function.
 ---
 
 # Creating and opening files
 
 The [CreateFile](/windows/win32/api/FileAPI/nf-fileapi-createfilea) function can create a new file or open an existing file. You must specify the file name, creation instructions, and other attributes. When an application creates a new file, the operating system adds it to the specified directory.
+
+## Choosing the right file API
+
+| Scenario | Recommended API | Notes |
+|----------|----------------|-------|
+| Simple file read/write in C/C++ | `fopen`/`fread`/`fwrite` (CRT) or C++ `std::ifstream`/`std::ofstream` | Portable, handles buffering automatically. Sufficient for most application-level file I/O. |
+| File path manipulation and enumeration | C++17 `std::filesystem` | Portable, modern C++. Use for directory traversal, path operations, and basic file metadata. |
+| Overlapped (asynchronous) I/O | **CreateFile** with `FILE_FLAG_OVERLAPPED` | Required for I/O completion ports, high-performance servers, and non-blocking file operations. |
+| Fine-grained sharing or locking | **CreateFile** with *dwShareMode* | Only CreateFile provides control over concurrent file access between processes. |
+| Memory-mapped files | **CreateFile** + [CreateFileMapping](/windows/win32/api/winbase/nf-winbase-createfilemappinga) | Required for shared memory, large file random access, and inter-process communication. |
+| Devices, pipes, mailslots, or consoles | **CreateFile** | CRT and standard library APIs don't support these Win32 object types. |
+| .NET managed applications | `System.IO.File` / `System.IO.FileStream` | Preferred for .NET code. Uses CreateFile internally but provides exception-based error handling and async/await. |
+
+> [!IMPORTANT]
+> **Error handling**: Always check the return value of **CreateFile**. On failure it returns `INVALID_HANDLE_VALUE` (not `NULL`). Call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) immediately after the call fails to obtain the specific error code. Common errors include `ERROR_FILE_NOT_FOUND`, `ERROR_ACCESS_DENIED`, and `ERROR_SHARING_VIOLATION`.
+
+> [!NOTE]
+> **Common pitfall — dwShareMode**: Setting *dwShareMode* to `0` (exclusive access) is safe but may cause `ERROR_SHARING_VIOLATION` if another process already has the file open. For log files or files that other processes may read concurrently, use `FILE_SHARE_READ`. Avoid `FILE_SHARE_WRITE` unless you have a coordination mechanism — concurrent uncoordinated writes can corrupt file content.
 
 ## Working with files in your application
 

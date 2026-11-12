@@ -3,7 +3,7 @@ description: This specification describes the structure of executable (image) fi
 ms.assetid: 3dbfbf7f-6662-45a4-99f1-e0e24c370dee
 title: PE Format
 ms.topic: reference
-ms.date: 07/14/2025
+ms.date: 09/10/2026
 ---
 
 # PE Format
@@ -1255,7 +1255,7 @@ The delay-load directory table is the counterpart to the import directory table.
 
 | Offset         | Size          | Field                                  | Description                                                                                                                                                                                                                                                                                                                  |
 |----------------|---------------|----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0 <br/>  | 4 <br/> | Attributes <br/>                 | Must be zero. <br/>                                                                                                                                                                                                                                                                                                    |
+| 0 <br/>  | 4 <br/> | Attributes <br/>                 | Bit 0 is **RvaBased**; see the following section. All other bits are reserved and must be zero. <br/>                                                                                                                                                                                                                    |
 | 4 <br/>  | 4 <br/> | Name <br/>                       | The RVA of the name of the DLL to be loaded. The name resides in the read-only data section of the image. <br/>                                                                                                                                                                                                        |
 | 8 <br/>  | 4 <br/> | Module Handle <br/>              | The RVA of the module handle (in the data section of the image) of the DLL to be delay-loaded. It is used for storage by the routine that is supplied to manage delay-loading. <br/>                                                                                                                                   |
 | 12 <br/> | 4 <br/> | Delay Import Address Table <br/> | The RVA of the delay-load import address table. For more information, see [Delay Import Address Table (IAT)](#delay-import-address-table). <br/>                                                                                                                                                                       |
@@ -1273,9 +1273,9 @@ The tables that are referenced in this data structure are organized and sorted j
 #### Attributes
 
 The Windows SDK headers define bit 0 of this field. In `winnt.h`, the field is the **Attributes** member of `IMAGE_DELAYLOAD_DESCRIPTOR`, whose low bit is `RvaBased` (commented "Delay load version 2"). In `delayimp.h`, the field is `grAttrs` of `ImgDelayDescr`, and the bit is the `dlattrRva` flag (value `0x1`), commented "RVAs are used instead of pointers ... Having this set indicates a VC7.0 and above delay load descriptor."
- 
+
 When `RvaBased` (`dlattrRva`) is set, the address fields of the delay-load directory table (Name, Module Handle, Delay Import Address Table, Delay Import Name Table, and the optional Bound Delay Import and Unload Delay Import tables) are relative virtual addresses (RVAs), as documented in the preceding table. This is the form emitted by Visual C++ 7.0 and later, and is the form produced by current toolchains.
- 
+
 When the bit is clear, the descriptor is the earlier form in which those fields are virtual addresses (pointers) rather than RVAs. The remaining 31 bits of the field are reserved. Consumers should examine this bit to determine how to interpret the descriptor's address fields.
 
 #### Name

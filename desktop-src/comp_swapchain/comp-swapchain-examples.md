@@ -2,7 +2,7 @@
 title: Composition swapchain code examples
 description: A collection of code examples showing various composition swapchain scenarios.
 ms.topic: reference
-ms.date: 09/10/2021
+ms.date: 09/10/2026
 ---
 
 # Composition swapchain code examples

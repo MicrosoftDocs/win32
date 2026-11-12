@@ -20,6 +20,12 @@ There are a number of objects whose handles can be used to synchronize multiple 
 -   Threads
 -   Timers
 
+In addition to these waitable objects, Windows provides lightweight synchronization primitives that do not use kernel handles:
+
+-   [Slim Reader/Writer (SRW) Locks](../Sync/slim-reader-writer--srw--locks.md) — lightweight reader/writer locks for intra-process synchronization
+-   [Condition Variables](../Sync/condition-variables.md) — enable threads to wait for a condition while releasing a lock
+-   [Interlocked Functions](../Sync/interlocked-variable-access.md) — atomic operations for lock-free synchronization of simple shared variables
+
 The state of each of these objects is either signaled or not signaled. When you specify a handle to any of these objects in a call to one of the [wait functions](../sync/wait-functions.md), the execution of the calling thread is blocked until the state of the specified object becomes signaled.
 
 Some of these objects are useful in blocking a thread until some event occurs. For example, a console input buffer handle is signaled when there is unread input, such as a keystroke or mouse button click. Process and thread handles are signaled when the process or thread terminates. This allows a process, for example, to create a child process and then block its own execution until the new process has terminated.

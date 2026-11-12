@@ -5,7 +5,7 @@ ms.assetid: 13816b8b-3090-4d17-86bb-8e632ca0cd37
 keywords:
 - Task Scheduler Task Scheduler , about
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 07/16/2026
 ---
 
 # About the Task Scheduler
@@ -14,15 +14,33 @@ The Task Scheduler service allows you to perform automated tasks on a chosen com
 
 ## Where Task Scheduler is Installed
 
-The Task Scheduler is automatically installed with several Microsoft operating systems.
+The Task Scheduler is automatically installed with all supported versions of Windows. Always use the Task Scheduler 2.0 API for new development.
 
-Task Scheduler 1.0 is installed with the Windows Server 2003, Windows XP, and Windows 2000 operating systems.
-
-Task Scheduler 2.0 is installed with Windows Vista and Windows Server 2008.
-
-The Task Scheduler 2.0 API should be used in developing applications that use the Task Scheduler service on Windows Vista. For more information, see [Task Scheduler Reference](task-scheduler-reference.md).
+> [!NOTE]
+> Task Scheduler 1.0 interfaces are deprecated. All new code should target the [Task Scheduler 2.0 API](task-scheduler-reference.md), which is available on Windows Vista and later.
 
 Task Scheduler is started each time the operating system is started. It can be run either through the Task Scheduler graphical user interface (GUI) or through the Task Scheduler API described in this SDK.
+
+## Power-aware scheduling
+
+Task Scheduler integrates with Windows power management to minimize impact on battery life and user experience. When designing scheduled tasks:
+
+> [!IMPORTANT]
+> **Never use short-interval polling tasks on battery-powered devices.** A task that runs every 5 minutes prevents the system from entering low-power idle states. Use event triggers, idle triggers, or maintenance scheduling instead.
+
+| Approach | When to use | Power behavior |
+|----------|-------------|----------------|
+| **Automatic maintenance** | Housekeeping that can defer (defrag, scans, cleanup). | Runs only when idle + AC power. Defers indefinitely on battery. |
+| **Idle trigger** | Work that requires low system load but not AC power. | Waits for user absence + CPU idle. |
+| **Event trigger** | Reactive work (Event Log entry, WMI event). | Runs only when the event fires. Zero cost otherwise. |
+| **Time trigger + conditions** | Recurring schedules with `StartWhenAvailable` and `StopIfGoingOnBatteries`. | Task defers if conditions not met; catches up when they are. |
+
+For maintenance tasks on Modern Standby devices, configure:
+- `AllowStartIfOnBatteries = false`
+- `StopIfGoingOnBatteries = true`
+- `MaintenanceSettings` with a `Period` and `Deadline`
+
+See [Automatic Maintenance](task-maintenence.md) for details on how maintenance scheduling works with Connected Standby and S3 systems.
 
 ## Information about Tasks
 

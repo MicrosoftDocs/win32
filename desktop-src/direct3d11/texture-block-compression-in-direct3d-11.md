@@ -1,14 +1,17 @@
 ---
 title: Texture Block Compression in Direct3D 11
-description: Block Compression (BC) support for textures has been extended in Direct3D 11 to include the BC6H and BC7 algorithms.
+description: Learn about Direct3D 11 Block Compression formats, including BC6H and BC7, supported source data, and minimum feature levels.
 ms.assetid: E0735D4E-9C0F-45DC-854A-C27EB8367D86
 ms.topic: concept-article
-ms.date: 05/31/2018
+ms.date: 09/08/2026
 ---
 
 # Texture Block Compression in Direct3D 11
 
 Block Compression (BC) support for textures has been extended in Direct3D 11 to include the BC6H and BC7 algorithms. BC6H supports high-dynamic range color source data, and BC7 provides better-than-average quality compression with less artifacts for standard RGB source data.
+
+> [!NOTE]
+> These Direct3D texture formats apply to apps regardless of whether they use the Win32 or UWP app model.
 
 For more specific information about block compression algorithm support prior to Direct3D 11, including support for the BC1 through BC5 formats, see [Block Compression (Direct3D 10)](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression).
 
@@ -122,4 +125,3 @@ The BC7 format can select different encoding modes for each 4x4 pixel block. A t
 </dt> </dl>
 
  
-
