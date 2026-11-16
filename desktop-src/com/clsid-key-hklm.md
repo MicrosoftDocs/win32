@@ -20,29 +20,29 @@ A CLSID is a globally unique identifier that identifies a COM class object. If y
 
 | Registry key                                                 | Description                                                                                                                              |
 |--------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| [**AppID**](appid.md)                                       | Associates an AppID with a CLSID.                                                                                                        |
-| [**AutoConvertTo**](autoconvertto.md)                       | Specifies the automatic conversion of a given class of objects to a new class of objects.                                                |
-| [**AutoTreatAs**](autotreatas.md)                           | Automatically sets the CLSID for the [**TreatAs**](treatas.md) key to the specified value.                                              |
-| [**AuxUserType**](auxusertype.md)                           | Specifies an application's short display name and application names.                                                                     |
-| [**Control**](control.md)                                   | Identifies an object as an ActiveX Control.                                                                                              |
-| [**Conversion**](conversion.md)                             | Used by the **Convert** dialog box to determine the formats an application can read and write.                                           |
-| [**DataFormats**](dataformats.md)                           | Specifies the default and main data formats supported by an application.                                                                 |
-| [**DefaultIcon**](defaulticon.md)                           | Provides default icon information for iconic presentations of objects.                                                                   |
-| [**InprocHandler**](inprochandler.md)                       | Specifies whether an application uses a custom handler.                                                                                  |
-| [**InprocHandler32**](inprochandler32.md)                   | Specifies whether an application uses a custom handler.                                                                                  |
-| [**InprocServer**](inprocserver.md)                         | Specifies the path to the in-process server DLL.                                                                                         |
-| [**InprocServer32**](inprocserver32.md)                     | Registers a 32-bit in-process server and specifies the threading model of the apartment the server can run in.                           |
-| [**Insertable**](insertable.md)                             | Indicates that objects of this class should appear in the **Insert Object** dialog box list box when used by COM container applications. |
-| [**Interface**](interface.md)                               | An optional entry that specifies all interface IDs (IIDs) supported by the associated class.                                             |
-| [**LocalServer**](localserver.md)                           | Specifies the full path to a 16-bit local server application.                                                                            |
-| [**LocalServer32**](localserver32.md)                       | Specifies the full path to a 32-bit local server application.                                                                            |
-| [**MiscStatus**](miscstatus.md)                             | Specifies how to create and display an object.                                                                                           |
-| [**ProgID**](progid.md)                                     | Associates a ProgID with a CLSID.                                                                                                        |
-| [**ToolBoxBitmap32**](toolboxbitmap32.md)                   | Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button.                      |
-| [**TreatAs**](treatas.md)                                   | Specifies the CLSID of a class that can emulate the current class.                                                                       |
-| [**Verb**](verb.md)                                         | Specifies the verbs to be registered for an application.                                                                                 |
-| [**Version**](version.md)                                   | Specifies the version number of the control.                                                                                             |
-| [**VersionIndependentProgID**](versionindependentprogid.md) | Associates a ProgID with a CLSID. This value is used to determine the latest version of an object application.                           |
+| [**:::no-loc text="AppID":::**](appid.md)                                       | Associates an AppID with a CLSID.                                                                                                        |
+| [**:::no-loc text="AutoConvertTo":::**](autoconvertto.md)                       | Specifies the automatic conversion of a given class of objects to a new class of objects.                                                |
+| [**:::no-loc text="AutoTreatAs":::**](autotreatas.md)                           | Automatically sets the CLSID for the [**:::no-loc text="TreatAs":::**](treatas.md) key to the specified value.                                              |
+| [**:::no-loc text="AuxUserType":::**](auxusertype.md)                           | Specifies an application's short display name and application names.                                                                     |
+| [**:::no-loc text="Control":::**](control.md)                                   | Identifies an object as an ActiveX Control.                                                                                              |
+| [**:::no-loc text="Conversion":::**](conversion.md)                             | Used by the **Convert** dialog box to determine the formats an application can read and write.                                           |
+| [**:::no-loc text="DataFormats":::**](dataformats.md)                           | Specifies the default and main data formats supported by an application.                                                                 |
+| [**:::no-loc text="DefaultIcon":::**](defaulticon.md)                           | Provides default icon information for iconic presentations of objects.                                                                   |
+| [**:::no-loc text="InprocHandler":::**](inprochandler.md)                       | Specifies whether an application uses a custom handler.                                                                                  |
+| [**:::no-loc text="InprocHandler32":::**](inprochandler32.md)                   | Specifies whether an application uses a custom handler.                                                                                  |
+| [**:::no-loc text="InprocServer":::**](inprocserver.md)                         | Specifies the path to the in-process server DLL.                                                                                         |
+| [**:::no-loc text="InprocServer32":::**](inprocserver32.md)                     | Registers a 32-bit in-process server and specifies the threading model of the apartment the server can run in.                           |
+| [**:::no-loc text="Insertable":::**](insertable.md)                             | Indicates that objects of this class should appear in the **Insert Object** dialog box list box when used by COM container applications. |
+| [**:::no-loc text="Interface":::**](interface.md)                               | An optional entry that specifies all interface IDs (IIDs) supported by the associated class.                                             |
+| [**:::no-loc text="LocalServer":::**](localserver.md)                           | Specifies the full path to a 16-bit local server application.                                                                            |
+| [**:::no-loc text="LocalServer32":::**](localserver32.md)                       | Specifies the full path to a 32-bit local server application.                                                                            |
+| [**:::no-loc text="MiscStatus":::**](miscstatus.md)                             | Specifies how to create and display an object.                                                                                           |
+| [**:::no-loc text="ProgID":::**](progid.md)                                     | Associates a ProgID with a CLSID.                                                                                                        |
+| [**:::no-loc text="ToolBoxBitmap32":::**](toolboxbitmap32.md)                   | Identifies the module name and resource ID for a 16 x 16 bitmap to use for the face of a toolbar or toolbox button.                      |
+| [**:::no-loc text="TreatAs":::**](treatas.md)                                   | Specifies the CLSID of a class that can emulate the current class.                                                                       |
+| [**:::no-loc text="Verb":::**](verb.md)                                         | Specifies the verbs to be registered for an application.                                                                                 |
+| [**:::no-loc text="Version":::**](version.md)                                   | Specifies the version number of the control.                                                                                             |
+| [**:::no-loc text="VersionIndependentProgID":::**](versionindependentprogid.md) | Associates a ProgID with a CLSID. This value is used to determine the latest version of an object application.                           |
 
 
 
