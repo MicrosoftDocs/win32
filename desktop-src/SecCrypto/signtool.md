@@ -115,7 +115,7 @@ The following table lists the options that can be used with the `remove` command
 | `/Author` *value* | Adds the author authenticated attribute. Equivalent to `/sa 1.3.6.1.4.1.311.2.7.8 value`. |
 | `/c` *CertTemplateName* | Specifies the Certificate Template Name (a Microsoft extension) for the signing certificate. |
 | `/csp` *CSPName* | Specifies the cryptographic service provider (CSP) that contains the private key container. |
-| `/d` *Desc* | Specifies a description of the signed content. |
+| `/d` *Desc* | Specifies a description of the signed content in the program name field of the signed OPUS information attribute (`SPC_SP_OPUS_INFO_OBJID`, `1.3.6.1.4.1.311.2.1.12`). An App Control for Business policy can reference this value by using a `CertOemID` signer condition. For the signed file metadata workflow, use SignTool from the Windows 11, version 24H2 SDK or later; support for `/d` in an older SignTool doesn't imply support for this workflow. See [Use CertOemID to match the signed description](/windows/security/application-security/application-control/app-control-for-business/design/select-types-of-rules-to-create#use-certoemid-to-match-the-signed-description). |
 | `/dg` *Path* | Generates the digest to be signed and the unsigned PKCS7 files. The output digest and PKCS7 files are *\<Path>\\\<FileName>.dig* and *\<Path>\\\<FileName>.p7u*. To output an extra XML file, use `/dxml`. |
 | `/di` *Path* | Creates the signature by ingesting the signed digest to the unsigned PKCS7 file. The input signed digest and unsigned PKCS7 files should be *\<Path>\\\<FileName>.dig.signed* and *\<Path>\\\<FileName>.p7u*. |
 | `/dlib` *DLL* | Specifies the DLL that implements the `AuthenticodeDigestSign` function to sign the digest with. This option is equivalent to using SignTool separately with the `/dg`, `/ds`, and `/di` options. This option invokes all three as one atomic operation. |
@@ -174,7 +174,9 @@ The friendly metadata options and their equivalent OIDs are:
 | `/PublishTime` | `szOID_SIGNED_ATTRIBUTE_PUBLISH_TIME` | `1.3.6.1.4.1.311.2.7.9` |
 | `/SourceURL` | `szOID_SIGNED_ATTRIBUTE_SOURCE_URL` | `1.3.6.1.4.1.311.2.7.10` |
 
-The first release of SignTool in the Windows SDK with named metadata support is the Windows 11, version 24H2 SDK (build 10.0.26100.0; SDK build tools package version 10.0.26100.1).
+The named metadata options are available starting with the Windows 11, version 24H2 SDK (build 10.0.26100.0; SDK build tools package version 10.0.26100.1), the first released SDK to include these options.
+
+Although `/d` predates these named metadata options, use the SDK version specified above for the signed file metadata workflow, including when you use `/d`. Older SignTool versions that recognize `/d` don't provide the signed file metadata support described here.
 
 For procedures, see [Use SignTool to sign a file](using-signtool-to-sign-a-file.md) and [Sign scripts and non-PE files with SignTool](sign-scripts-and-non-pe-files.md).
 

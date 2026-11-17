@@ -9,3 +9,8 @@ _repo.*/
 .openpublishing.buildcore.ps1
 # Visual Studio cache/options directory
 .vs/
+.vscode/settings.json
+.vscode/settings.json
+.vscode/mcp.json
+.vscode/settings.json
+.github/copilot-instructions.md

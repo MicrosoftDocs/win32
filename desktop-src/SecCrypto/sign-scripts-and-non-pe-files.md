@@ -14,7 +14,7 @@ This procedure signs a PowerShell script, but the same metadata options apply to
 
 ## Prerequisites
 
-- The first release of SignTool in the Windows SDK with named metadata support is the Windows 11, version 24H2 SDK (build 10.0.26100.0; SDK build tools package version 10.0.26100.1).
+- SignTool from the Windows 11, version 24H2 SDK (build 10.0.26100.0; SDK build tools package version 10.0.26100.1) or later for the signed file metadata workflow, including when you use `/d`.
 - A code-signing certificate and access to its private key.
 - An RFC 3161 time stamp service.
 - A registered SIP that supports an embedded signature for the target file type.
@@ -44,7 +44,7 @@ The following table lists the friendly SignTool options:
 | `/PublishTime` | Publishing time value used by the publisher | `2026-10-28T12:00:00Z` |
 | `/SourceURL` | Authoritative source location for the file | `https://www.example.com/downloads/Deploy.ps1` |
 
-`/FileDescription` adds a signed metadata attribute. A better alternative, however, is to set this string value using Signtool's `/d` option, which sets the Authenticode description of the signed content. `/d` lets you easily reference the value using the existing CertOEMId attribute in your App Control policy rules, which previously only applied to kernel drivers.
+`/FileDescription` adds a signed metadata attribute. It differs from `/d`, which sets the Authenticode description in the program name field of the signed OPUS information attribute (`SPC_SP_OPUS_INFO_OBJID`, `1.3.6.1.4.1.311.2.1.12`). Prefer `/d` when you want to reference the description in an App Control for Business (ACfB) policy by using a `CertOemID` signer condition, which previously applied only to kernel drivers. For policy XML and signing examples, see [Use CertOemID to match the signed description](/windows/security/application-security/application-control/app-control-for-business/design/select-types-of-rules-to-create#use-certoemid-to-match-the-signed-description). Although `/d` is a longstanding option, older SignTool versions don't provide the signed file metadata support described here. Use the SDK version listed in the prerequisites.
 
 ## Sign a PowerShell script
 
