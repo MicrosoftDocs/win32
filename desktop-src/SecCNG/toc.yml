@@ -41,6 +41,8 @@
         href: cng-mldsa-examples.md
       - name: "Using ML-KEM with CNG"
         href: cng-mlkem-examples.md
+      - name: Using Microsoft Pluton Key Storage Provider (preview)
+        href: pluton-ksp-preview-usage.md
   - name: "CNG Reference"
     href: cng-reference.md
     items: 

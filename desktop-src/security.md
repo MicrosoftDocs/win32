@@ -46,7 +46,7 @@ This section also provides best practices and other security articles.
 | [Security Glossary](./secgloss/security-glossary.md) | Provides a glossary of security terms. |
 | [TPM Base Services](./tbs/tpm-base-services-portal.md) | The Trusted Platform Module (TPM) Base Services (TBS) feature centralizes TPM access across applications. The TBS feature uses priorities specified by calling applications to cooperatively schedule TPM access. |
 | [Windows Biometric Framework API](./secbiomet/biometric-service-api-portal.md) | You can use the Windows Biometric Framework API to create client applications that securely capture, save, and compare end-user biometric information. |
-| [Windows endpoint security platform API overview (preview)](./wesp/wesp-api-overview.md) | Describes the Windows endpoint security platform event model, client lifecycle, rules, and notifications. |
+| [Windows endpoint security platform](./wesp/windows-endpoint-security-platform-portal.md) | The Windows endpoint security platform provides a user-mode API enabling development of endpoint protection, antimalware, and monitoring solutions without using kernel-mode drivers. |
 | [Security Technical Articles](https://msdn.microsoft.com/library/hh322936.aspx) | Articles on security and cryptography. |
 
 
