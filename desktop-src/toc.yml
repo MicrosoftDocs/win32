@@ -472,6 +472,8 @@
           href: ./webauthn/-webauthn-portal.md
         - name: Windows Biometric Framework
           href: ./secbiomet/biometric-service-api-portal.md
+        - name: Windows endpoint security platform API overview (preview)
+          href: ./wesp/wesp-api-overview.md
       - name: System Services
         items:
         - name: Overview
