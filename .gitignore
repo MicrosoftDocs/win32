@@ -9,3 +9,4 @@ _repo.*/
 .openpublishing.buildcore.ps1
 # Visual Studio cache/options directory
 .vs/
+tools/content_index/__pycache__/
