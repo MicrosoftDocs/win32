@@ -474,6 +474,115 @@
           href: ./secbiomet/biometric-service-api-portal.md
         - name: Windows endpoint security platform API overview (preview)
           href: ./wesp/wesp-api-overview.md
+        - name: Windows Endpoint Security Platform API reference
+          href: ./wesp/wesp-api-reference.md
+          items:
+          - name: Clients
+            href: ./wesp/wesp-clients.md
+          - name: Event capabilities
+            href: ./wesp/wesp-event-capabilities.md
+          - name: Event queues
+            items:
+            - name: Event queue creation and management
+              href: ./wesp/wesp-event-queue-management.md
+            - name: Event queue connections and callbacks
+              href: ./wesp/wesp-event-queue-delivery.md
+          - name: Event notifications
+            href: ./wesp/wesp-event-notifications.md
+          - name: Rules
+            items:
+            - name: Rule creation and management
+              href: ./wesp/wesp-rule-management.md
+            - name: Rule configuration and property bindings
+              href: ./wesp/wesp-rule-configuration.md
+            - name: Rule value configuration
+              href: ./wesp/wesp-rule-value-configuration.md
+            - name: Rule event modification
+              href: ./wesp/wesp-rule-event-modification.md
+          - name: Filters
+            items:
+            - name: Filter creation and composition
+              href: ./wesp/wesp-filter-creation.md
+            - name: Shared comparison types and context key comparison
+              href: ./wesp/wesp-filter-comparison-types.md
+            - name: Boolean, integer, and binary comparisons
+              href: ./wesp/wesp-filter-scalar-comparisons.md
+            - name: String, string list, and path comparisons
+              href: ./wesp/wesp-filter-string-comparisons.md
+            - name: SID, token, and security descriptor comparisons
+              href: ./wesp/wesp-filter-security-comparisons.md
+            - name: File, registry, network, and memory comparisons
+              href: ./wesp/wesp-filter-domain-comparisons.md
+          - name: Collections
+            items:
+            - name: Collection creation and management
+              href: ./wesp/wesp-collection-management.md
+            - name: Collection updates
+              href: ./wesp/wesp-collection-updates.md
+          - name: Context keys
+            items:
+            - name: Context key management
+              href: ./wesp/wesp-context-key-management.md
+            - name: Context key property ID macros
+              href: ./wesp/wesp-context-key-property-macros.md
+          - name: Events
+            items:
+            - name: Shared event types
+              href: ./wesp/wesp-event-shared-types.md
+            - name: Thread events
+              href: ./wesp/wesp-thread-events.md
+            - name: Process events
+              href: ./wesp/wesp-process-events.md
+            - name: File object events
+              href: ./wesp/wesp-file-object-events.md
+            - name: File system events
+              href: ./wesp/wesp-file-system-events.md
+            - name: Transaction events
+              href: ./wesp/wesp-transaction-events.md
+            - name: Volume events
+              href: ./wesp/wesp-volume-events.md
+            - name: Pipe events
+              href: ./wesp/wesp-pipe-events.md
+            - name: Mailslot events
+              href: ./wesp/wesp-mailslot-events.md
+            - name: Registry events
+              href: ./wesp/wesp-registry-events.md
+            - name: Object handle events
+              href: ./wesp/wesp-object-handle-events.md
+            - name: Boot driver events
+              href: ./wesp/wesp-boot-driver-events.md
+          - name: Event objects
+            items:
+            - name: Shared event object APIs and types
+              href: ./wesp/wesp-event-object-references.md
+            - name: Thread, process, and token event objects
+              href: ./wesp/wesp-execution-objects.md
+            - name: File stream, file, and file object event objects
+              href: ./wesp/wesp-file-objects.md
+            - name: Volume and disk event objects
+              href: ./wesp/wesp-storage-objects.md
+            - name: Registry and other event objects
+              href: ./wesp/wesp-other-event-objects.md
+          - name: Property queries
+            items:
+            - name: Property query functions and shared types
+              href: ./wesp/wesp-property-queries.md
+            - name: Event, client, thread, process, and token property IDs
+              href: ./wesp/wesp-execution-property-ids.md
+            - name: File and storage property IDs
+              href: ./wesp/wesp-file-property-ids.md
+            - name: Registry and other object property IDs
+              href: ./wesp/wesp-other-property-ids.md
+            - name: Scalar, string, and buffer property accessors
+              href: ./wesp/wesp-scalar-property-accessors.md
+            - name: Structured and domain-specific property accessors
+              href: ./wesp/wesp-domain-property-accessors.md
+          - name: Common
+            items:
+            - name: Common utilities, strings, and buffers
+              href: ./wesp/wesp-common-utilities.md
+            - name: Common shared value types
+              href: ./wesp/wesp-common-value-types.md
       - name: System Services
         items:
         - name: Overview
