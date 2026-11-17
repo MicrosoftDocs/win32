@@ -96,6 +96,8 @@ To use the Microsoft Pluton Key Storage Provider, a device must:
 | AMD Ryzen™ AI 300 and 400 series processors | 10.6.0.10 |
 | Qualcomm Snapdragon® X Series processors | No minimum firmware version required |
 
+Microsoft plans to enable this capability on supported SoC platforms (including NVIDIA RTX Spark™ processors). Enablement timelines may vary. 
+
 ### Supported algorithms
 
 The following table lists supported algorithms and their key types:
