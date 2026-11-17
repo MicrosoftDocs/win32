@@ -3,7 +3,7 @@ description: 'Unlike Cryptography API (CryptoAPI), Cryptography API: Next Genera
 ms.assetid: bd4aadc5-d953-4971-b862-00f6d4db0572
 title: CNG Key Storage Providers
 ms.topic: concept-article
-ms.date: 06/12/2026
+ms.date: 11/16/2026
 # Customer intent: As a Windows developer, I want to learn about the Cryptography API: Next Generation (CNG) key storage providers in Windows.
 ---
 
@@ -73,20 +73,20 @@ In this example, the `MS_PLATFORM_CRYPTO_PROVIDER` constant is used to specify t
 
 For more information, see [NCryptOpenStorageProvider](/windows/win32/api/ncrypt/nf-ncrypt-ncryptopenstorageprovider).
 
-## Microsoft Pluton Cryptographic Provider
+## Microsoft Pluton Key Storage Provider
 
-> [!NOTE]
-> The Microsoft Pluton Cryptographic Provider is in preview and may change before release. Microsoft makes no warranties, express or implied, about the information here.
+> [!IMPORTANT]
+> The Microsoft Pluton Key Storage Provider is in preview and may change before release. Microsoft makes no warranties, express or implied, about the information here.
 >
-> This capability will be available to customers on supported devices starting with Windows Insider Preview build 26340.10012.
+> This capability will be available to customers on supported devices starting with Windows Insider Preview build 26340.10013.
 
-The **Microsoft Pluton Cryptographic Provider** is a key storage provider (KSP) that uses the Microsoft Pluton security processor - built directly into the CPU system-on-chip (SoC) - to provide hardware-protected cryptographic key storage and operations through CNG. To learn more about Microsoft Pluton, see [Understanding the Microsoft Pluton security processor](https://techcommunity.microsoft.com/blog/windows-itpro-blog/understanding-the-microsoft-pluton-security-processor/4370413).
+The **Microsoft Pluton Key Storage Provider** is a key storage provider (KSP) that uses the Microsoft Pluton security processor - built directly into the CPU system-on-chip (SoC) - to provide hardware-protected cryptographic key storage and operations through CNG. To learn more about Microsoft Pluton, see [Understanding the Microsoft Pluton security processor](https://techcommunity.microsoft.com/blog/windows-itpro-blog/understanding-the-microsoft-pluton-security-processor/4370413).
 
 ### Supported devices
 
-To use the Microsoft Pluton Cryptographic Provider, a device must:
+To use the Microsoft Pluton Key Storage Provider, a device must:
 
-- Run the minimum supported Windows Insider Preview build 26340.10012.
+- Run the minimum supported Windows Insider Preview build 26340.10013.
 - Have a processor from a supported processor family (see table below), with the Pluton security processor enabled.
 - Meet the minimum Pluton firmware version for that processor family.
 
@@ -109,7 +109,7 @@ The following table lists supported algorithms and their key types:
 
 ### Supported NCrypt APIs
 
-The Microsoft Pluton Cryptographic Provider supports the NCrypt APIs listed below. <!-- Only these APIs are supported in this preview, subject to the restrictions described in the [usage guide](https://aka.ms/plutonksppreview-usage). -->
+The Microsoft Pluton Key Storage Provider supports the NCrypt APIs listed below. Only these APIs are supported in this preview, subject to the restrictions described in the [usage guide](/windows/win32/seccng/pluton-ksp-preview-usage).
 
 | Operation | Supported APIs |
 |---|---|
@@ -124,9 +124,9 @@ The Microsoft Pluton Cryptographic Provider supports the NCrypt APIs listed belo
 | Discover supported algorithms | [NCryptIsAlgSupported](/windows/win32/api/ncrypt/nf-ncrypt-ncryptisalgsupported), [NCryptEnumAlgorithms](/windows/win32/api/ncrypt/nf-ncrypt-ncryptenumalgorithms) |
 | Release resources | [NCryptFreeObject](/windows/win32/api/ncrypt/nf-ncrypt-ncryptfreeobject), [NCryptFreeBuffer](/windows/win32/api/ncrypt/nf-ncrypt-ncryptfreebuffer) | 
 
-<!-- ### Usage
+### Usage
 
-For examples and provider-specific requirements, see [Using the Microsoft Pluton Cryptographic Provider (preview)](https://aka.ms/plutonksppreview-usage). -->
+For examples and provider-specific requirements, see [Using the Microsoft Pluton Key Storage Provider (preview)](/windows/win32/seccng/pluton-ksp-preview-usage).
 
 ## Related content
 
