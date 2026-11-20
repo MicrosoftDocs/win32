@@ -4,5 +4,11 @@
         "MD025": {
             "front_matter_title": ""
         }
-    }
+    },
+    "cSpell.words": [
+        "assetid",
+        "authenticode",
+        "cryptoapi",
+        "schannel"
+    ]
 }
