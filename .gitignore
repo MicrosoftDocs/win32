@@ -10,3 +10,6 @@ _repo.*/
 # Visual Studio cache/options directory
 .vs/
 tools/content_index/__pycache__/
+.vscode/settings.json
+.vscode/mcp.json
+.github/copilot-instructions.md
