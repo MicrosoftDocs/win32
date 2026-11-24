@@ -27,6 +27,8 @@
           href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_debug
         - name: "DSTORAGE_ENQUEUE_REQUEST_FLAGS"
           href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_enqueue_request_flags
+        - name: "DSTORAGE_GACL_SHUFFLE_TRANSFORM_TYPE"
+          href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_gacl_shuffle_transform_type
         - name: "DSTORAGE_GET_REQUEST_FLAGS"
           href: /windows/win32/dstorage/dstorage/ne-dstorage-dstorage_get_request_flags
         - name: "DSTORAGE_PRIORITY"
@@ -48,6 +50,8 @@
           href: /windows/win32/dstorage/dstorage/nf-dstorage-dstoragesetconfiguration
         - name: "DStorageSetConfiguration1"
           href: /windows/win32/dstorage/dstorage/nf-dstorage-dstoragesetconfiguration1
+        - name: "DStorageSetConfiguration2"
+          href: /windows/win32/dstorage/dstorage/nf-dstorage-dstoragesetconfiguration2
       - name: "DirectStorage interfaces"
         href: dstorage-interfaces.md
         items: 
@@ -87,6 +91,11 @@
             href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragefactory-setdebugflags
           - name: "SetStagingBufferSize"
             href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragefactory-setstagingbuffersize
+        - name: "IDStorageFactory1"
+          href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragefactory1
+          items:
+          - name: "CreateQueue1"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragefactory1-createqueue1
         - name: "IDStorageFile"
           href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragefile
           items: 
@@ -130,6 +139,11 @@
           items: 
           - name: "EnqueueRequests"
             href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragequeue3-enqueurequests
+        - name: "IDStorageQueue4"
+          href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragequeue4
+          items:
+          - name: "Query1"
+            href: /windows/win32/dstorage/dstorage/nf-dstorage-idstoragequeue4-query1
         - name: "IDStorageStatusArray"
           href: /windows/win32/dstorage/dstorage/nn-dstorage-idstoragestatusarray
           items: 
@@ -144,6 +158,8 @@
           href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_configuration
         - name: "DSTORAGE_CONFIGURATION1 structure"
           href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_configuration1
+        - name: "DSTORAGE_CONFIGURATION2 structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_configuration2
         - name: "DSTORAGE_CUSTOM_DECOMPRESSION_REQUEST structure"
           href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_custom_decompression_request
         - name: "DSTORAGE_CUSTOM_DECOMPRESSION_RESULT structure"
@@ -174,8 +190,12 @@
           href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_error_record
         - name: "DSTORAGE_QUEUE_DESC structure"
           href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_queue_desc
+        - name: "DSTORAGE_QUEUE_DESC1 structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_queue_desc1
         - name: "DSTORAGE_QUEUE_INFO structure"
           href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_queue_info
+        - name: "DSTORAGE_QUEUE_INFO1 structure"
+          href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_queue_info1
         - name: "DSTORAGE_REQUEST structure"
           href: /windows/win32/dstorage/dstorage/ns-dstorage-dstorage_request
         - name: "DSTORAGE_REQUEST_OPTIONS structure"

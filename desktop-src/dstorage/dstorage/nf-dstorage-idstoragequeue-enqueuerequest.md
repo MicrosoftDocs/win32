@@ -3,7 +3,7 @@ UID: NF:dstorage.IDStorageQueue.EnqueueRequest
 ms.topic: reference
 tech.root: dstorage
 title: IDStorageQueue::EnqueueRequest
-ms.date: 08/25/2022
+ms.date: 10/30/2026
 targetos: Windows
 description: Enqueues a read request to the queue.
 prerelease: false
@@ -64,6 +64,19 @@ The read request to be queued.
 ## Return value
 
 None
+
+## Remarks
+
+Each request requires a queue that services its `CompressionFormat`:
+
+* A queue created with [IDStorageFactory::CreateQueue](nf-dstorage-idstoragefactory-createqueue.md) services every format except `DSTORAGE_COMPRESSION_FORMAT_ZSTD`.
+* A queue created with [IDStorageFactory1::CreateQueue1](nf-dstorage-idstoragefactory1-createqueue1.md) services uncompressed requests and the format declared in the `CompressionFormat` member of [DSTORAGE_QUEUE_DESC1](ns-dstorage-dstorage_queue_desc1.md). If that format is a `DSTORAGE_CUSTOM_COMPRESSION_n` value, the queue services every custom format.
+
+A request that specifies a GACL shuffle transform other than `DSTORAGE_GACL_SHUFFLE_TRANSFORM_NONE` also requires:
+
+* A queue created with `CompressionFormat` set to `DSTORAGE_COMPRESSION_FORMAT_ZSTD` and `UsesGaclShuffleTransform` set to `TRUE`.
+* The request's `CompressionFormat` set to `DSTORAGE_COMPRESSION_FORMAT_ZSTD`.
+* The request's `DestinationType` set to a value other than `DSTORAGE_REQUEST_DESTINATION_MEMORY`.
 
 ## Requirements
 

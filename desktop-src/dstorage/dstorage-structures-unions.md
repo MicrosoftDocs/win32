@@ -3,7 +3,7 @@ title: DirectStorage structures and unions
 description: The following structures and unions are declared in dstorage.h for DirectStorage-based programming.
 ms.assetid: 7FE8796A-98D1-4333-8755-2A47567460B3
 ms.topic: reference
-ms.date: 06/20/2025
+ms.date: 10/30/2026
 ---
 
 # DirectStorage structures and unions
@@ -16,6 +16,7 @@ The following structures and unions are declared in `dstorage.h` for DirectStora
 |-|
 | [DSTORAGE_CONFIGURATION structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_configuration) |
 | [DSTORAGE_CONFIGURATION1 structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_configuration1) |
+| [DSTORAGE_CONFIGURATION2 structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_configuration2) |
 | [DSTORAGE_CUSTOM_DECOMPRESSION_REQUEST structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_custom_decompression_request) |
 | [DSTORAGE_CUSTOM_DECOMPRESSION_RESULT structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_custom_decompression_result) |
 | [DSTORAGE_DESTINATION union](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_destination) |
@@ -31,7 +32,9 @@ The following structures and unions are declared in `dstorage.h` for DirectStora
 | [DSTORAGE_ERROR_PARAMETERS_STATUS structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_error_parameters_status) |
 | [DSTORAGE_ERROR_RECORD structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_error_record) |
 | [DSTORAGE_QUEUE_DESC structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_queue_desc) |
+| [DSTORAGE_QUEUE_DESC1 structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_queue_desc1) |
 | [DSTORAGE_QUEUE_INFO structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_queue_info) |
+| [DSTORAGE_QUEUE_INFO1 structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_queue_info1) |
 | [DSTORAGE_REQUEST structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_request) |
 | [DSTORAGE_REQUEST_OPTIONS structure](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_request_options) |
 | [DSTORAGE_SOURCE union](/windows/win32/dstorage/dstorage/ns-dstorage-dstorage_source) |

@@ -3,7 +3,7 @@ UID: NS:dstorage.DSTORAGE_REQUEST_OPTIONS
 ms.topic: reference
 tech.root: dstorage
 title: DSTORAGE_REQUEST_OPTIONS
-ms.date: 08/25/2022
+ms.date: 10/30/2026
 targetos: Windows
 description: Options for a DirectStorage request.
 prerelease: false
@@ -48,10 +48,11 @@ Options for a DirectStorage request.
 ```cpp
 struct DSTORAGE_REQUEST_OPTIONS {
   DSTORAGE_COMPRESSION_FORMAT       CompressionFormat : 8;
-  UINT8                             Reserved1[7];
+  DSTORAGE_GACL_SHUFFLE_TRANSFORM_TYPE GaclTransformType : 8;
+  UINT8                             Reserved1[6];
   DSTORAGE_REQUEST_SOURCE_TYPE      SourceType : 1;
   DSTORAGE_REQUEST_DESTINATION_TYPE DestinationType : 7;
-  UINT64                            Reserved : 48;
+  UINT64                            Reserved : 56;
 };
 ```
 
@@ -61,9 +62,13 @@ struct DSTORAGE_REQUEST_OPTIONS {
 
 A [DSTORAGE_COMPRESSION_FORMAT](ne-dstorage-dstorage_compression_format.md) enum value indicating how the data is compressed.
 
+`GaclTransformType`
+
+A [DSTORAGE_GACL_SHUFFLE_TRANSFORM_TYPE](ne-dstorage-dstorage_gacl_shuffle_transform_type.md) enum value indicating the shuffle transform applied to the source; `DSTORAGE_GACL_SHUFFLE_TRANSFORM_NONE` if no shuffle transform is applied.
+
 `Reserved1`
 
-Type: **UINT8[7]**
+Type: **UINT8[6]**
 
 Reserved fields. Must be 0.
 
