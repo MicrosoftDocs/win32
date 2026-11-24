@@ -1,7 +1,7 @@
 ---
 title: DirectStorage constants
 description: The following constants are declared in dstorageerr.h for DirectStorage-based programming.
-ms.date: 08/25/2022
+ms.date: 10/30/2026
 keywords:
 - Constants
 topic_type:
@@ -47,6 +47,7 @@ The following constants are declared in `dstorage.h` and `dstorageerr.h` for Dir
 | E_DSTORAGE_QUEUE_CLOSED ((HRESULT)0x89240010L) | The request targets a queue that is closed. |
 | E_DSTORAGE_REQUEST_TOO_LARGE ((HRESULT)0x89240008L) | The IO request is too large. |
 | E_DSTORAGE_RESERVED_FIELDS ((HRESULT)0x8924000CL) | A reserved field is not set to 0. |
+| E_DSTORAGE_SCRATCH_BUFFER_TOO_SMALL ((HRESULT)0x89240042L) | The scratch buffer given to the driver is too small to decompress buffers successfully. |
 | E_DSTORAGE_STAGING_BUFFER_LOCKED ((HRESULT)0x8924001FL) | Staging buffer size can be changed only when no queue is created and no file is open. |
 | E_DSTORAGE_STAGING_BUFFER_TOO_SMALL ((HRESULT)0x89240021L) | The staging buffer isn't large enough to perform this operation. |
 | E_DSTORAGE_TOO_MANY_FILES ((HRESULT)0x89240014L) | The number of files has reached the maximum limit. |

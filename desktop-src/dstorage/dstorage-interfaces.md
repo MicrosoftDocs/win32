@@ -2,7 +2,7 @@
 title: DirectStorage interfaces
 description: The following interfaces are declared in dstorage.h for DirectStorage-based programming.
 ms.topic: reference
-ms.date: 06/19/2025
+ms.date: 10/30/2026
 ---
 
 # DirectStorage interfaces
@@ -17,11 +17,13 @@ The following interfaces are declared in `dstorage.h` for DirectStorage-based pr
 | [IDStorageCustomDecompressionQueue](/windows/win32/dstorage/dstorage/nn-dstorage-idstoragecustomdecompressionqueue) |
 | [IDStorageCustomDecompressionQueue1](/windows/win32/dstorage/dstorage/nn-dstorage-idstoragecustomdecompressionqueue1) |
 | [IDStorageFactory](/windows/win32/dstorage/dstorage/nn-dstorage-idstoragefactory) |
+| [IDStorageFactory1](/windows/win32/dstorage/dstorage/nn-dstorage-idstoragefactory1) |
 | [IDStorageFile](/windows/win32/dstorage/dstorage/nn-dstorage-idstoragefile) |
 | [IDStorageQueue](/windows/win32/dstorage/dstorage/nn-dstorage-idstoragequeue) |
 | [IDStorageQueue1](/windows/win32/dstorage/dstorage/nn-dstorage-idstoragequeue1) |
 | [IDStorageQueue2](/windows/win32/dstorage/dstorage/nn-dstorage-idstoragequeue2) |
 | [IDStorageQueue3](/windows/win32/dstorage/dstorage/nn-dstorage-idstoragequeue3) |
+| [IDStorageQueue4](/windows/win32/dstorage/dstorage/nn-dstorage-idstoragequeue4) |
 | [IDStorageStatusArray](/windows/win32/dstorage/dstorage/nn-dstorage-idstoragestatusarray) |
 
 ## Related topics
