@@ -2,7 +2,7 @@
 title: DirectStorage enumerations
 description: The following enumerations are declared in dstorage.h for DirectStorage-based programming.
 ms.topic: reference
-ms.date: 06/20/2025
+ms.date: 10/30/2026
 ---
 
 # DirectStorage enumerations
@@ -20,6 +20,7 @@ The following enumerations are declared in `dstorage.h` for DirectStorage-based 
 | [DSTORAGE_CUSTOM_DECOMPRESSION_FLAGS](/windows/win32/dstorage/dstorage/ne-dstorage-dstorage_custom_decompression_flags) |
 | [DSTORAGE_DEBUG](/windows/win32/dstorage/dstorage/ne-dstorage-dstorage_debug) |
 | [DSTORAGE_ENQUEUE_REQUEST_FLAGS](/windows/win32/dstorage/dstorage/ne-dstorage-dstorage_enqueue_request_flags) |
+| [DSTORAGE_GACL_SHUFFLE_TRANSFORM_TYPE](/windows/win32/dstorage/dstorage/ne-dstorage-dstorage_gacl_shuffle_transform_type) |
 | [DSTORAGE_GET_REQUEST_FLAGS](/windows/win32/dstorage/dstorage/ne-dstorage-dstorage_get_request_flags) |
 | [DSTORAGE_PRIORITY](/windows/win32/dstorage/dstorage/ne-dstorage-dstorage_priority) |
 | [DSTORAGE_REQUEST_DESTINATION_TYPE](/windows/win32/dstorage/dstorage/ne-dstorage-dstorage_request_destination_type) |
