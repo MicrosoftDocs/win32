@@ -18,12 +18,12 @@ This article walks through the typical client flow:
 1. Optionally, enable In-Band-Interrupts (IBIs).
 1. Release resources.
 
-The code in this article uses the **Library-managed WinI3C APIs**, which are the recommended way to use WinI3C. A parallel set of *Non-library-managed WinI3C APIs* (the `*WithFileHandle` and `*FromOperation` functions) exists for advanced scenarios where the client wants to own the file handle and drive overlapped I/O directly. Those APIs are generally not recommended. For the full API surface, see the [WinI3C API reference](/windows/win32/api/wini3c/).
+The code in this article uses the *Library-managed WinI3C APIs*, which are the recommended way to use WinI3C. A parallel set of *Non-library-managed WinI3C APIs* (the `*WithFileHandle` and `*FromOperation` functions) exists for advanced scenarios where the client wants to own the file handle and drive overlapped I/O directly. Those APIs are generally not recommended. For the full API surface, see the [WinI3C API reference](/windows/win32/api/wini3c/).
 
 ## Prerequisites
 
 - **Windows 11 25H2 October update (build 26200)** or later, on a system with an MIPI I3C HCI-compliant I3C HostController-Device that uses the inbox I3C driver stack.
-- A **WinI3C Vendor Extension INF** that registers a vendor-defined device-interface-class for the relevant WinI3C-Targets. The client discovers WinI3C-Targets by this device-interface-class GUID. For background, see [Using an extension INF file](/windows-hardware/drivers/install/using-an-extension-inf-file).
+- A [WinI3C Vendor Extension INF](/windows-hardware/design/component-guidelines/improved-inter-integrated-circuit-targets#wini3c) that registers a vendor-defined device-interface-class for the relevant WinI3C-Targets. The client discovers WinI3C-Targets by this device-interface-class GUID. For background, see [Using an extension INF file](/windows-hardware/drivers/install/using-an-extension-inf-file).
 - The `wini3c.h` header, first included in [Windows SDK 10.0.26100.9457](/windows/apps/windows-sdk/release-notes#build-100261009457). The SDK version identifies the header package, not the minimum Windows version required to run WinI3C.
 - The [Windows Implementation Libraries (WIL)](https://github.com/microsoft/wil/wiki/Error-handling-helpers). The examples use `RETURN_IF_FAILED` and `LOG_IF_FAILED` from `<wil/result.h>`.
 
@@ -40,7 +40,7 @@ The code in this article uses the **Library-managed WinI3C APIs**, which are the
 
 ## Step 1: Enumerate WinI3C-Targets
 
-WinI3C identifies WinI3C-Targets by the vendor device-interface-class GUID configured through a **WinI3C Vendor Extension INF**. Register this GUID with [WinI3CRegisterForTargetAdded](/windows/win32/api/wini3c/nf-wini3c-wini3cregisterfortargetadded) and provide a [WINI3CTARGETADDEDCALLBACK](/windows/win32/api/wini3c/nc-wini3c-wini3ctargetaddedcallback). The call **blocks until all existing matching WinI3C-Targets have been enumerated**, invoking your callback once per WinI3C-Target. New WinI3C-Targets that arrive later invoke the callback again.
+WinI3C identifies WinI3C-Targets by the vendor device-interface-class GUID configured through a [WinI3C Vendor Extension INF](/windows-hardware/design/component-guidelines/improved-inter-integrated-circuit-targets#wini3c). Register this GUID with [WinI3CRegisterForTargetAdded](/windows/win32/api/wini3c/nf-wini3c-wini3cregisterfortargetadded) and provide a [WINI3CTARGETADDEDCALLBACK](/windows/win32/api/wini3c/nc-wini3c-wini3ctargetaddedcallback). The call **blocks until all existing matching WinI3C-Targets have been enumerated**, invoking your callback once per WinI3C-Target. New WinI3C-Targets that arrive later invoke the callback again.
 
 ```cpp
 #include <windows.h>
@@ -51,6 +51,7 @@ WinI3C identifies WinI3C-Targets by the vendor device-interface-class GUID confi
 #include <wil/result.h>
 #include <wini3c.h>
 
+// Registered by the vendor's WinI3C extension INF (https://learn.microsoft.com/en-us/windows-hardware/design/component-guidelines/improved-inter-integrated-circuit-targets#wini3c).
 // TODO: Replace with valid GUID.
 // {00000000-0000-0000-0000-000000000000}
 DEFINE_GUID(GUID_DEVINTERFACE_MY_WINI3C_TARGET,
@@ -239,6 +240,7 @@ The previously registered [WINI3CTARGETREMOVEDCALLBACK](/windows/win32/api/wini3
 #include <wil/result.h>
 #include <wini3c.h>
 
+// Registered by the vendor's WinI3C extension INF (https://learn.microsoft.com/en-us/windows-hardware/design/component-guidelines/improved-inter-integrated-circuit-targets#wini3c).
 // TODO: Replace with valid GUID.
 // {00000000-0000-0000-0000-000000000000}
 DEFINE_GUID(GUID_DEVINTERFACE_MY_WINI3C_TARGET,
@@ -360,6 +362,7 @@ int main()
 
 ## Related topics
 
+- [I3C in Windows](/windows-hardware/design/component-guidelines/simple-peripheral-bus-i3c)
 - [WinI3C API reference](/windows/win32/api/wini3c/)
 - [WinI3CTarget handle](/windows/win32/api/wini3c/wini3ctarget-handle)
 - [WinI3CAsyncOperation handle](/windows/win32/api/wini3c/wini3casyncoperation-handle)
